@@ -15,6 +15,7 @@
 html { scroll-behavior: smooth; }
 body {
   margin: 0;
+  overflow-x: hidden;
   color: var(--ink);
   background: #eef1f1;
   font-family: Inter, Arial, sans-serif;
@@ -85,19 +86,19 @@ h2 { font-size: 20px; font-weight: 600; }
 h3 { margin-top: 24px; font-size: 16px; }
 .report-time, .legend { color: var(--muted); font-size: 11px; }
 .metric-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 1px; margin-bottom: 20px; background: var(--line); border: 1px solid var(--line); }
-.metric { min-height: 124px; padding: 20px; background: var(--paper); }
+.metric { min-width: 0; min-height: 124px; padding: 20px; background: var(--paper); }
 .metric span, .metric strong, .metric em { display: block; }
 .metric span { color: var(--muted); font-size: 11px; font-weight: 600; text-transform: uppercase; }
 .metric strong { margin: 13px 0 6px; font: 500 30px "IBM Plex Mono", monospace; }
 .metric em { color: var(--muted); font-style: normal; font-size: 12px; }
 .panel-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr); gap: 18px; }
-.panel { border: 1px solid var(--line); background: var(--paper); }
+.panel { min-width: 0; border: 1px solid var(--line); background: var(--paper); }
 .panel-heading { padding: 18px 20px; border-bottom: 1px solid var(--line); }
 .tape-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
-.tape-item { min-height: 112px; padding: 17px 18px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.tape-item { min-width: 0; min-height: 112px; padding: 17px 18px; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
 .tape-item:nth-child(4n) { border-right: 0; }
 .tape-item span, .tape-item strong, .tape-item small { display: block; }
-.tape-item span { color: var(--muted); font-size: 10px; text-transform: uppercase; }
+.tape-item span { overflow-wrap: anywhere; color: var(--muted); font-size: 10px; text-transform: uppercase; }
 .tape-item strong { margin: 10px 0 6px; font: 500 18px "IBM Plex Mono", monospace; }
 .tape-item small { color: var(--muted); }
 .positive { color: var(--green) !important; }
