@@ -156,11 +156,14 @@ footer { margin-left: var(--sidebar); padding: 22px 56px; border-top: 1px solid 
 @media (max-width: 640px) {
   .topbar { padding: 0 14px; }
   .topbar-meta > span:not(.status) { display: none; }
+  .topbar-meta { gap: 10px; }
+  .topbar-meta .status { font-size: 0; }
   .section { padding: 26px 14px; }
   .section-heading { align-items: stretch; flex-direction: column; }
   .metric-grid { grid-template-columns: 1fr 1fr; }
   .metric { min-height: 108px; padding: 14px; }
-  .metric strong { font-size: 23px; }
+  .metric strong { font-size: 20px; overflow-wrap: anywhere; }
+  .panel-heading .legend { display: none; }
   .tape-grid { grid-template-columns: repeat(2, 1fr); }
   .tape-item:nth-child(2n) { border-right: 0; }
   .query-form { grid-template-columns: 1fr 1fr; }
