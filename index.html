@@ -1,0 +1,149 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Institutional market intelligence dashboard powered by deterministic analytics and Neon market data.">
+  <title>Market Intelligence Dashboard</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#overview" aria-label="Market Intelligence home">
+      <span class="brand-mark">MI</span>
+      <span><strong>Market Intelligence</strong><small>Institutional Analytics</small></span>
+    </a>
+    <div class="topbar-meta">
+      <span id="api-status" class="status"><i></i> Connecting</span>
+      <span id="as-of">As of unavailable</span>
+      <button id="refresh" class="icon-button" title="Refresh dashboard" aria-label="Refresh dashboard">↻</button>
+    </div>
+  </header>
+
+  <div class="shell">
+    <nav class="sidebar" aria-label="Primary navigation">
+      <a class="active" href="#overview">Overview</a>
+      <a href="#cross-asset">Cross Asset</a>
+      <a href="#report">Market Update</a>
+      <a href="#explorer">Data Explorer</a>
+      <div class="sidebar-foot">
+        <span>MODEL</span>
+        <strong>Rules-Based</strong>
+        <small>No discretionary scoring</small>
+      </div>
+    </nav>
+
+    <main>
+      <section id="overview" class="section">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">Executive Dashboard</p>
+            <h1>Daily Market State</h1>
+          </div>
+          <span class="report-time" id="report-time">Report loading</span>
+        </div>
+
+        <div class="metric-grid">
+          <article class="metric"><span>Regime Score</span><strong id="regime-score">--</strong><em id="regime-label">Unavailable</em></article>
+          <article class="metric"><span>Market Strength</span><strong id="strength-score">--</strong><em id="strength-label">Unavailable</em></article>
+          <article class="metric"><span>Evidence Quality</span><strong id="evidence-score">--</strong><em>Signal confidence</em></article>
+          <article class="metric"><span>Market Breadth</span><strong id="breadth-score">--</strong><em id="breadth-label">Unavailable</em></article>
+        </div>
+
+        <div class="panel-grid">
+          <article class="panel wide">
+            <div class="panel-heading">
+              <div><p class="eyebrow">Live / Latest Close</p><h2>Macro Tape</h2></div>
+              <span class="legend"><i class="live-dot"></i> Live snapshots automatically supersede close</span>
+            </div>
+            <div id="macro-tape" class="tape-grid loading-block">Loading market data...</div>
+          </article>
+
+          <article class="panel">
+            <div class="panel-heading"><div><p class="eyebrow">Signal Balance</p><h2>Regime Drivers</h2></div></div>
+            <div id="regime-bars" class="bar-list loading-block">Loading report...</div>
+          </article>
+        </div>
+      </section>
+
+      <section id="cross-asset" class="section">
+        <div class="section-heading">
+          <div><p class="eyebrow">Cross-Asset Monitor</p><h2>Price History</h2></div>
+          <div class="inline-controls">
+            <select id="chart-symbol" aria-label="Chart symbol">
+              <option value="^GSPC">S&amp;P 500</option>
+              <option value="^IXIC">Nasdaq Composite</option>
+              <option value="^RUT">Russell 2000</option>
+              <option value="^VIX">VIX</option>
+              <option value="^TNX">10Y Treasury</option>
+              <option value="GC=F">Gold</option>
+              <option value="SI=F">Silver</option>
+              <option value="HG=F">Copper</option>
+              <option value="CL=F">WTI Oil</option>
+            </select>
+            <button id="load-chart" class="button secondary">Load</button>
+          </div>
+        </div>
+        <article class="panel chart-panel">
+          <div id="chart-summary" class="chart-summary"></div>
+          <svg id="history-chart" viewBox="0 0 1000 320" role="img" aria-label="Historical closing price chart"></svg>
+        </article>
+      </section>
+
+      <section id="report" class="section">
+        <div class="section-heading">
+          <div><p class="eyebrow">Deterministic Research</p><h2>Latest Rule-Based Market Update</h2></div>
+          <button id="toggle-report" class="button secondary">Expand report</button>
+        </div>
+        <article class="panel report-panel">
+          <div id="report-content" class="report-content loading-block">Loading latest report...</div>
+        </article>
+      </section>
+
+      <section id="explorer" class="section">
+        <div class="section-heading">
+          <div><p class="eyebrow">Neon Data Access</p><h2>Single-Symbol Explorer</h2></div>
+          <span class="legend">Equities are close-only; macro supports live snapshots.</span>
+        </div>
+        <article class="panel explorer">
+          <form id="data-form" class="query-form">
+            <label>Asset class
+              <select id="asset-type">
+                <option value="macro">Macro</option>
+                <option value="equities">Equity / ETF</option>
+              </select>
+            </label>
+            <label>Symbol
+              <input id="symbol" value="^GSPC" required autocomplete="off">
+            </label>
+            <label>Query
+              <select id="query-mode">
+                <option value="latest">Latest available</option>
+                <option value="live">Live only</option>
+                <option value="date">Custom date</option>
+                <option value="history">History</option>
+              </select>
+            </label>
+            <label id="date-field">Date
+              <input id="query-date" type="date">
+            </label>
+            <label id="limit-field">Rows
+              <input id="query-limit" type="number" min="1" max="2000" value="30">
+            </label>
+            <button class="button primary" type="submit">Run query</button>
+          </form>
+          <div class="query-meta"><span id="query-status">Ready</span><code id="query-endpoint"></code></div>
+          <div class="table-scroll"><table id="result-table"><thead></thead><tbody></tbody></table></div>
+          <pre id="result-empty" class="empty-state">Submit a query to inspect Neon data.</pre>
+        </article>
+      </section>
+    </main>
+  </div>
+
+  <footer>Data is informational and generated by deterministic rules. It is not investment advice.</footer>
+  <script src="app.js"></script>
+</body>
+</html>
