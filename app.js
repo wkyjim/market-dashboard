@@ -1,6 +1,40 @@
 const API_BASE = "https://postgresql-us-equities-api.onrender.com";
 const MACRO_SYMBOLS = ["^GSPC", "^IXIC", "^RUT", "^VIX", "^TNX", "GC=F", "SI=F", "HG=F", "CL=F", "HYG", "BTC-USD", "DX-Y.NYB"];
 const REPORT_PATH = "data/latest-report.md";
+const INDICATOR_GROUPS = [
+  {
+    title: "Trend",
+    fields: [
+      ["ma_5", "5-day MA"], ["ma_20", "20-day MA"], ["ma_50", "50-day MA"],
+      ["ma_100", "100-day MA"], ["ma_200", "200-day MA"],
+      ["ema_12", "12-day EMA"], ["ema_26", "26-day EMA"]
+    ]
+  },
+  {
+    title: "Momentum",
+    fields: [
+      ["rsi_14", "RSI (14)"], ["macd", "MACD"], ["macd_signal", "MACD signal"],
+      ["macd_hist", "MACD histogram"], ["return_5d", "5-day return", "%"],
+      ["return_20d", "20-day return", "%"], ["return_60d", "60-day return", "%"]
+    ]
+  },
+  {
+    title: "Volume & Range",
+    fields: [
+      ["atr_14", "ATR (14)"], ["volume_ma_20", "20-day avg volume"],
+      ["volume_ratio_20", "Volume ratio"], ["high_52w", "52-week high"],
+      ["low_52w", "52-week low"]
+    ]
+  },
+  {
+    title: "Risk",
+    fields: [
+      ["volatility_20d", "20-day volatility", "%"], ["close", "Latest close"],
+      ["pct_chg", "Daily change", "%"], ["amplitude", "Daily amplitude", "%"],
+      ["turnover_rate", "Turnover rate", "%"]
+    ]
+  }
+];
 
 const $ = (selector) => document.querySelector(selector);
 const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => ({
@@ -177,6 +211,38 @@ function renderResult(payload) {
   table.querySelector("tbody").innerHTML = rows.map((row) => `<tr>${keys.map((key) => `<td>${escapeHtml(row[key] ?? "")}</td>`).join("")}</tr>`).join("");
 }
 
+function indicatorValue(value, suffix = "") {
+  if (value == null || value === "") return "n/a";
+  return `${formatNumber(value)}${suffix}`;
+}
+
+function renderEquityIndicators(payload, asset) {
+  const panel = $("#indicator-panel");
+  const rows = Array.isArray(payload.data) ? payload.data : payload.data ? [payload.data] : [];
+  const row = rows[0];
+  if (asset !== "equities" || !row) {
+    panel.hidden = true;
+    panel.innerHTML = "";
+    return;
+  }
+  const availableCount = INDICATOR_GROUPS.flatMap((group) => group.fields)
+    .filter(([field]) => row[field] != null).length;
+  panel.hidden = false;
+  panel.innerHTML = `<div class="indicator-head">
+      <h3>${escapeHtml(row.ticker || "")} Technical Map</h3>
+      <span>Close ${escapeHtml(row.date || "unavailable")} · Indicators ${escapeHtml(row.indicator_date || "unavailable")}</span>
+    </div>
+    <div class="indicator-groups">${INDICATOR_GROUPS.map((group) => `<section class="indicator-group">
+      <h4>${escapeHtml(group.title)}</h4>
+      ${group.fields.map(([field, label, suffix = ""]) => `<div class="indicator-row">
+        <span>${escapeHtml(label)}</span><strong>${indicatorValue(row[field], suffix)}</strong>
+      </div>`).join("")}
+    </section>`).join("")}</div>
+    <p class="indicator-note">${availableCount
+      ? `${availableCount} mapped fields available from public.us_equities_indicators.`
+      : "No indicator row is available for this ticker/date; price data is shown without inferred technicals."}</p>`;
+}
+
 async function runQuery(event) {
   event.preventDefault();
   const asset = $("#asset-type").value;
@@ -196,8 +262,10 @@ async function runQuery(event) {
   try {
     const payload = await apiFetch(path);
     renderResult(payload);
+    renderEquityIndicators(payload, asset);
     $("#query-status").textContent = `${payload.count ?? (payload.found ? 1 : 0)} row(s) returned`;
   } catch (error) {
+    renderEquityIndicators({}, asset);
     $("#query-status").textContent = `Request failed: ${error.message}`;
   }
 }
