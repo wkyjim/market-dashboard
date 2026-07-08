@@ -239,8 +239,8 @@ function renderEquityIndicators(payload, asset) {
       </div>`).join("")}
     </section>`).join("")}</div>
     <p class="indicator-note">${availableCount
-      ? `${availableCount} mapped fields available from public.us_equities_indicators.`
-      : "No indicator row is available for this ticker/date; price data is shown without inferred technicals."}</p>`;
+      ? `${availableCount} same-date fields available from public.us_equities_indicators.`
+      : "No same-date indicator row is available; price data is shown without carried-forward or inferred technicals."}</p>`;
 }
 
 async function runQuery(event) {
