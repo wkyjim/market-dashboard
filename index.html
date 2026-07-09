@@ -73,6 +73,10 @@
         <div class="section-heading">
           <div><p class="eyebrow">Cross-Asset Monitor</p><h2>Price History</h2></div>
           <div class="inline-controls">
+            <select id="chart-asset" aria-label="Chart asset type">
+              <option value="macro">Macro</option>
+              <option value="equities">Equity / ETF</option>
+            </select>
             <select id="chart-symbol" aria-label="Chart symbol">
               <option value="^GSPC">S&amp;P 500</option>
               <option value="^IXIC">Nasdaq Composite</option>
@@ -89,7 +93,7 @@
         </div>
         <article class="panel chart-panel">
           <div id="chart-summary" class="chart-summary"></div>
-          <svg id="history-chart" viewBox="0 0 1000 320" role="img" aria-label="Historical closing price chart"></svg>
+          <svg id="history-chart" viewBox="0 0 1000 360" role="img" aria-label="Historical OHLCV chart"></svg>
         </article>
       </section>
 

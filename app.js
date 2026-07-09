@@ -1,5 +1,36 @@
 const API_BASE = "https://postgresql-us-equities-api.onrender.com";
-const MACRO_SYMBOLS = ["^GSPC", "^IXIC", "^RUT", "^VIX", "^TNX", "GC=F", "SI=F", "HG=F", "CL=F", "HYG", "BTC-USD", "DX-Y.NYB"];
+const MARKET_TAPE_GROUPS = [
+  {
+    title: "Asia Equity Indices",
+    key: "asia",
+    symbols: [
+      ["^HSI", "Hang Seng"],
+      ["^N225", "Nikkei 225"],
+      ["^KS11", "KOSPI"],
+      ["000001.SS", "SSE Composite"]
+    ]
+  },
+  {
+    title: "Index Futures",
+    key: "futures",
+    symbols: [
+      ["ES=F", "S&P 500 Future"],
+      ["NQ=F", "Nasdaq 100 Future"],
+      ["YM=F", "Dow Future"],
+      ["RTY=F", "Russell 2000 Future"]
+    ]
+  },
+  {
+    title: "UST Yield Moves",
+    key: "rates",
+    symbols: [
+      ["^FVX", "UST 5Y"],
+      ["^TNX", "UST 10Y"],
+      ["^TYX", "UST 30Y"]
+    ]
+  }
+];
+const MARKET_TAPE_SYMBOLS = MARKET_TAPE_GROUPS.flatMap((group) => group.symbols.map(([symbol]) => symbol));
 const REPORT_PATH = "data/latest-report.md";
 const INDICATOR_GROUPS = [
   {
@@ -57,22 +88,32 @@ function setApiStatus(ok, message) {
 }
 
 async function loadMacroTape() {
-  const results = await Promise.allSettled(
-    MACRO_SYMBOLS.map((symbol) => apiFetch(`/macro/latest/${encodeURIComponent(symbol)}`))
-  );
-  const rows = results
-    .filter((result) => result.status === "fulfilled" && result.value.found)
-    .map((result) => result.value.data);
+  const payload = await apiFetch(`/macro/batch/latest?symbols=${encodeURIComponent(MARKET_TAPE_SYMBOLS.join(","))}`);
+  const rows = payload.data || [];
   if (!rows.length) throw new Error("No macro rows returned");
+  const rowsBySymbol = new Map(rows.map((row) => [row.symbol, row]));
   $("#macro-tape").classList.remove("loading-block");
-  $("#macro-tape").innerHTML = rows.map((row) => {
-    const changeClass = Number(row.pct_chg) > 0 ? "positive" : Number(row.pct_chg) < 0 ? "negative" : "";
-    return `<div class="tape-item">
-      <span>${escapeHtml(row.name || row.symbol)}${row.is_live ? '<small class="live-tag">LIVE</small>' : ""}</span>
-      <strong>${formatNumber(row.close)}</strong>
-      <small class="${changeClass}">${Number(row.pct_chg) > 0 ? "+" : ""}${formatNumber(row.pct_chg)}%</small>
-      <small>${escapeHtml(row.date)} · ${escapeHtml(row.data_source)}</small>
-    </div>`;
+  $("#macro-tape").innerHTML = MARKET_TAPE_GROUPS.map((group) => {
+    const items = group.symbols.map(([symbol, label]) => {
+      const row = rowsBySymbol.get(symbol);
+      if (!row) {
+        return `<div class="tape-item missing"><span>${escapeHtml(label)}</span><strong>n/a</strong><small>No data</small></div>`;
+      }
+      const moveValue = group.key === "rates" && row.change != null ? Number(row.change) * 100 : Number(row.pct_chg);
+      const moveSuffix = group.key === "rates" ? " bps" : "%";
+      const changeClass = Number(moveValue) > 0 ? "positive" : Number(moveValue) < 0 ? "negative" : "";
+      const sign = Number(moveValue) > 0 ? "+" : "";
+      return `<div class="tape-item">
+        <span>${escapeHtml(label)}${row.is_live ? '<small class="live-tag">LIVE</small>' : ""}</span>
+        <strong>${formatNumber(row.close)}</strong>
+        <small class="${changeClass}">${sign}${formatNumber(moveValue)}${moveSuffix}</small>
+        <small>${escapeHtml(row.date)} · ${escapeHtml(row.data_source)}</small>
+      </div>`;
+    }).join("");
+    return `<section class="tape-group">
+      <h3>${escapeHtml(group.title)}</h3>
+      <div class="tape-group-grid">${items}</div>
+    </section>`;
   }).join("");
   const newest = rows.map((row) => row.observed_at || row.date).filter(Boolean).sort().at(-1);
   $("#as-of").textContent = `As of ${newest || "unavailable"}`;
@@ -145,42 +186,80 @@ async function loadReport() {
   content.innerHTML = renderMarkdown(markdown);
 }
 
-function drawChart(rows, symbol) {
+function drawChart(rows, symbol, asset) {
   const svg = $("#history-chart");
-  const values = rows.map((row) => Number(row.close)).filter(Number.isFinite);
-  if (values.length < 2) {
+  const ordered = [...rows].reverse().filter((row) =>
+    ["open", "high", "low", "close"].every((key) => Number.isFinite(Number(row[key])))
+  );
+  if (ordered.length < 2) {
     svg.innerHTML = '<text x="500" y="160" text-anchor="middle" class="chart-label">Insufficient history</text>';
     return;
   }
-  const width = 1000, height = 320, left = 58, right = 18, top = 20, bottom = 36;
-  const min = Math.min(...values), max = Math.max(...values), range = max - min || 1;
-  const ordered = [...rows].reverse();
-  const points = ordered.map((row, index) => {
-    const x = left + (index / (ordered.length - 1)) * (width - left - right);
-    const y = top + ((max - Number(row.close)) / range) * (height - top - bottom);
-    return [x, y];
-  });
-  const line = points.map(([x, y]) => `${x.toFixed(1)},${y.toFixed(1)}`).join(" ");
-  const area = `${left},${height - bottom} ${line} ${width - right},${height - bottom}`;
+  const width = 1000, height = 360, left = 58, right = 18, top = 20, priceBottom = 270, volumeTop = 292, bottom = 336;
+  const highs = ordered.map((row) => Number(row.high));
+  const lows = ordered.map((row) => Number(row.low));
+  const volumes = ordered.map((row) => Number(row.volume)).filter(Number.isFinite);
+  const min = Math.min(...lows), max = Math.max(...highs), range = max - min || 1;
+  const maxVolume = Math.max(...volumes, 1);
+  const chartWidth = width - left - right;
+  const step = chartWidth / ordered.length;
+  const bodyWidth = Math.max(3, Math.min(10, step * 0.58));
+  const xFor = (index) => left + (index + 0.5) * step;
+  const yFor = (value) => top + ((max - Number(value)) / range) * (priceBottom - top);
   const grids = [0, .25, .5, .75, 1].map((fraction) => {
-    const y = top + fraction * (height - top - bottom);
+    const y = top + fraction * (priceBottom - top);
     const label = max - fraction * range;
     return `<line x1="${left}" y1="${y}" x2="${width - right}" y2="${y}" class="chart-grid"/>
       <text x="${left - 8}" y="${y + 4}" text-anchor="end" class="chart-label">${formatNumber(label)}</text>`;
   }).join("");
-  svg.innerHTML = `${grids}<polygon points="${area}" class="chart-area"/><polyline points="${line}" class="chart-line"/>`;
+  const candles = ordered.map((row, index) => {
+    const x = xFor(index);
+    const open = Number(row.open), high = Number(row.high), low = Number(row.low), close = Number(row.close);
+    const up = close >= open;
+    const bodyTop = yFor(Math.max(open, close));
+    const bodyHeight = Math.max(1, Math.abs(yFor(open) - yFor(close)));
+    return `<g class="${up ? "candle-up" : "candle-down"}">
+      <line x1="${x}" x2="${x}" y1="${yFor(high)}" y2="${yFor(low)}" class="candle-wick"/>
+      <rect x="${x - bodyWidth / 2}" y="${bodyTop}" width="${bodyWidth}" height="${bodyHeight}" class="candle-body"/>
+    </g>`;
+  }).join("");
+  const volumeBars = ordered.map((row, index) => {
+    const volume = Number(row.volume);
+    if (!Number.isFinite(volume) || volume <= 0) return "";
+    const x = xFor(index);
+    const barHeight = (volume / maxVolume) * (bottom - volumeTop);
+    const up = Number(row.close) >= Number(row.open);
+    return `<rect x="${x - bodyWidth / 2}" y="${bottom - barHeight}" width="${bodyWidth}" height="${barHeight}" class="${up ? "volume-up" : "volume-down"}"/>`;
+  }).join("");
+  svg.innerHTML = `${grids}<line x1="${left}" y1="${volumeTop}" x2="${width - right}" y2="${volumeTop}" class="chart-grid"/>${volumeBars}${candles}`;
   const latest = ordered.at(-1), first = ordered[0];
   const periodChange = ((Number(latest.close) / Number(first.close)) - 1) * 100;
-  $("#chart-summary").innerHTML = `<strong>${escapeHtml(symbol)}</strong> · ${ordered.length} sessions · 
+  $("#chart-summary").innerHTML = `<strong>${escapeHtml(symbol)}</strong> · ${escapeHtml(asset)} · OHLCV · ${ordered.length} sessions ·
     <span class="${periodChange >= 0 ? "positive" : "negative"}">${periodChange >= 0 ? "+" : ""}${formatNumber(periodChange)}%</span>
     · ${escapeHtml(first.date)} to ${escapeHtml(latest.date)}`;
 }
 
 async function loadChart() {
+  const asset = $("#chart-asset").value;
   const symbol = $("#chart-symbol").value;
   $("#chart-summary").textContent = "Loading history...";
-  const result = await apiFetch(`/macro/history/${encodeURIComponent(symbol)}?limit=90`);
-  drawChart(result.data || [], symbol);
+  const result = await apiFetch(`/${asset}/history/${encodeURIComponent(symbol)}?limit=90`);
+  drawChart(result.data || [], symbol, asset);
+}
+
+function updateChartSymbols() {
+  const asset = $("#chart-asset").value;
+  const macroOptions = [
+    ["^GSPC", "S&P 500"], ["^IXIC", "Nasdaq Composite"], ["^RUT", "Russell 2000"],
+    ["^VIX", "VIX"], ["^TNX", "10Y Treasury"], ["GC=F", "Gold"], ["SI=F", "Silver"],
+    ["HG=F", "Copper"], ["CL=F", "WTI Oil"]
+  ];
+  const equityOptions = [
+    ["SPY", "SPY"], ["QQQ", "QQQ"], ["IWM", "IWM"], ["SMH", "SMH"], ["SOXX", "SOXX"],
+    ["CIBR", "CIBR"], ["XAR", "XAR"], ["NLR", "NLR"], ["GRID", "GRID"], ["XLV", "XLV"]
+  ];
+  const options = asset === "equities" ? equityOptions : macroOptions;
+  $("#chart-symbol").innerHTML = options.map(([value, label]) => `<option value="${escapeHtml(value)}">${escapeHtml(label)}</option>`).join("");
 }
 
 function updateQueryControls() {
@@ -281,6 +360,10 @@ async function refreshDashboard() {
 }
 
 $("#refresh").addEventListener("click", refreshDashboard);
+$("#chart-asset").addEventListener("change", () => {
+  updateChartSymbols();
+  loadChart();
+});
 $("#load-chart").addEventListener("click", loadChart);
 $("#asset-type").addEventListener("change", updateQueryControls);
 $("#query-mode").addEventListener("change", updateQueryControls);
@@ -296,4 +379,5 @@ document.querySelectorAll(".sidebar a").forEach((link) => link.addEventListener(
 }));
 
 updateQueryControls();
+updateChartSymbols();
 refreshDashboard();
