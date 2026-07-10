@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-10T16:11:55.539851+00:00
+Generated at: 2026-07-10T19:11:46.617365+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -236,7 +236,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Healthcare | 68.3 | strong uptrend | positive | broad | 51.77 | MRNA, TECH, CRL | SOLV, BSX, ZTS |
 | 4 | Technology | 65.92 | strong uptrend | positive | broad | 55.29 | PANW, ANET, DDOG | SMCI, CRWD, KLAC |
 | 5 | Industrials | 65.21 | strong uptrend | neutral | broad | 48.8 | AXON, UAL, GEV | GNRC, LDOS, FDXF |
-| 6 | Semiconductors | 63.88 | strong uptrend | positive | broad | 63.87 | SOXX, SMH | SMH, SOXX |
+| 6 | Semiconductors | 63.75 | strong uptrend | positive | broad | 63.87 | SOXX, SMH | SMH, SOXX |
 | 7 | Defense | 57.05 | strong uptrend | neutral | broad | 45.12 | XAR | XAR |
 | 8 | Utilities | 52.73 | downtrend | neutral | broad | 46.07 | NRG, VST, ES | AES, PPL, CEG |
 | 9 | Crypto | 50.0 | neutral | neutral | mixed | 50.0 |  |  |
@@ -252,8 +252,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Theme | Score | Setup | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Healthcare Innovation | 65.18 | Positive setup | 12.0 | True | False |
-| 2 | Semiconductors | 63.16 | Positive setup | 17.58 | True | True |
-| 3 | Cybersecurity | 62.13 | Positive setup | 99.1 | True | False |
+| 2 | Cybersecurity | 62.13 | Positive setup | 99.1 | True | False |
+| 3 | Semiconductors | 62.0 | Positive setup | 17.58 | True | False |
 | 4 | Financials | 61.44 | Positive setup | 6.55 | True | False |
 | 5 | Small Caps | 59.44 | Positive setup | 0.0 | False | False |
 | 6 | Quality Growth | 53.21 | Neutral / watchlist | 13.56 | False | False |
@@ -261,14 +261,14 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 8 | Dividend Defensives | 51.62 | Neutral / watchlist | 5.99 | False | False |
 | 9 | Grid Infrastructure | 47.03 | Neutral / watchlist | 7.02 | False | False |
 | 10 | Defense | 40.59 | Weak setup | 23.44 | False | False |
-| 11 | Energy | 40.49 | Weak setup | 3.21 | False | True |
+| 11 | Energy | 39.36 | Weak setup | 3.21 | False | False |
 | 12 | Crypto Infrastructure | 28.27 | Underperformance risk | 21.66 | False | False |
 | 13 | Nuclear | 27.31 | Underperformance risk | 17.63 | False | False |
 
 - Top 5 improving themes: Cybersecurity, Semiconductors, Healthcare Innovation, AI Infrastructure, Quality Growth
 - Top 5 deteriorating themes: Crypto Infrastructure, Nuclear, Defense, Energy, Grid Infrastructure
-- Strong news but weak price confirmation: Energy
-- Strong price but weak news confirmation: Healthcare Innovation, Cybersecurity, Financials
+- Strong news but weak price confirmation: none
+- Strong price but weak news confirmation: Healthcare Innovation, Cybersecurity, Semiconductors, Financials
 
 ### Sector / Theme Alignment
 
@@ -277,16 +277,16 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 74.84 | strong | 62.13 | positive | sector and theme confirmation |
 | Financials | Financials | 69.14 | strong | 61.44 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 68.3 | strong | 65.18 | strong | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.92 | strong | 56.47 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.92 | strong | 56.09 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 65.21 | strong | 43.81 | weak | sector stronger than related themes |
-| Semiconductors | AI Infrastructure, Semiconductors | 63.88 | positive | 58.11 | positive | sector and theme confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 63.75 | positive | 57.53 | positive | sector and theme confirmation |
 | Defense | Defense | 57.05 | positive | 40.59 | weak | sector stronger than related themes |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 52.73 | mixed | 41.99 | weak | mixed confirmation |
 | Crypto | Crypto Infrastructure | 50.0 | mixed | 28.27 | very weak | mixed confirmation |
 | Consumer Discretionary | Small Caps | 47.15 | mixed | 59.44 | positive | theme stronger than official sector |
 | Real Estate | Dividend Defensives | 46.75 | mixed | 51.62 | mixed | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 43.91 | weak | 47.03 | mixed | mixed confirmation |
-| Energy | Energy | 40.97 | weak | 40.49 | weak | broad weakness across sector and themes |
+| Energy | Energy | 40.97 | weak | 39.36 | weak | broad weakness across sector and themes |
 | Consumer Staples | Dividend Defensives | 40.0 | weak | 51.62 | mixed | mixed confirmation |
 | Nuclear | Nuclear | 28.84 | very weak | 27.31 | very weak | broad weakness across sector and themes |
 
@@ -297,14 +297,14 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Healthcare Innovation | 66.18 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 2 | Financials | 64.84 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 3 | Small Caps | 63.82 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 4 | Semiconductors | 63.52 | Positive setup | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
+| 4 | Semiconductors | 62.52 | Positive setup | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 5 | Cybersecurity | 61.79 | Positive setup | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 6 | Quality Growth | 55.56 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 7 | AI Infrastructure | 55.55 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
 | 8 | Dividend Defensives | 53.73 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 9 | Grid Infrastructure | 49.93 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 10 | Defense | 40.74 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
-| 11 | Energy | 37.62 | Weak setup | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 11 | Energy | 39.62 | Weak setup | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 12 | Nuclear | 28.75 | Underperformance risk |  | relative strength below SPY, breadth below 45%, news turns negative |
 
 ## Breadth and Participation
@@ -319,18 +319,18 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 51, 'negative': 24, 'neutral': 5}
+- Sentiment counts: {'positive': 48, 'negative': 21, 'neutral': 11}
 - News confirmation score: `66.88`
 
 ### Top Market-Moving Headlines
 
-**1. Tanker traffic through Strait of Hormuz slows after Iranian attacks trigger renewed fighting with U.S.**
-- Source: CNBC Markets
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, geopolitical_risk, oil_prices
-- Score: `61.77`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+**1. The dot-com crash was a $5 trillion blip. Why the next financial crisis could hit 4 times harder.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / medium-term
+- Affected assets: financial crisis, market outlook
+- Score: `56.52`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 **2. Elon Musk speaks exclusively to CNBC about Grok, Tesla and the SpaceX IPO: Live updates**
 - Source: CNBC Markets
@@ -348,23 +348,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Stocks gain as chipmakers rise, oil prices fall: Live updates**
-- Source: CNBC Markets
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: P, S, U.S, geopolitical_risk, defense
-- Score: `48.45`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**5. The dot-com crash was a $5 trillion blip. Why the next financial crisis could hit 4 times harder.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / medium-term
-- Affected assets: financial crisis, market outlook
-- Score: `48.05`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**6. Bidding war breaks out for easyJet as Apollo tops rival private-equity group’s bid**
+**4. Bidding war breaks out for easyJet as Apollo tops rival private-equity group’s bid**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -372,7 +356,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. Meet the new group of stocks powering the S&P 500 higher**
+**5. Meet the new group of stocks powering the S&P 500 higher**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -380,7 +364,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. A Big Winner From the Iran War: Africa’s Richest Man**
+**6. A Big Winner From the Iran War: Africa’s Richest Man**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -388,7 +372,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. A junior employee saved this company six figures using AI. Here’s how.**
+**7. A junior employee saved this company six figures using AI. Here’s how.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -396,13 +380,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `42.27`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 5%**
+**8. Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 5%**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: CRL, U.S, banking, cryptocurrency
 - Score: `41.68`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**9. Meet the new group of stocks powering the S&P 500 higher**
+- Source: MarketWatch Bulletins
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: P, S, S&P 500, stocks
+- Score: `41.18`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**10. A slower AI payoff risks tipping the economy into recession, Apollo says**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: A, AI, economic_risk
+- Score: `38.67`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
@@ -419,14 +419,19 @@ Uses public.etf_daily_data. Net fund flow 1D = (shares outstanding today - share
 
 | Date | ETF | Net Fund Flow 1D | Net Fund Flow 5D | Interpretation |
 | --- | --- | --- | --- | --- |
-| 2026-07-10 | XLY | n/a | n/a | XLY (Consumer Discretionary): daily net flow history is still building. |
-| 2026-07-10 | NLR | n/a | n/a | NLR (Nuclear): daily net flow history is still building. |
-| 2026-07-10 | QQQ | n/a | n/a | QQQ (Growth / Nasdaq): daily net flow history is still building. |
-| 2026-07-10 | RSP | n/a | n/a | RSP (Equal-Weight Equity): daily net flow history is still building. |
-| 2026-07-10 | SHY | n/a | n/a | SHY (Short Treasury): daily net flow history is still building. |
-| 2026-07-10 | SMH | n/a | n/a | SMH (Semiconductors): daily net flow history is still building. |
-| 2026-07-10 | SOXX | n/a | n/a | SOXX (Semiconductors): daily net flow history is still building. |
-| 2026-07-10 | SPY | n/a | n/a | SPY (Broad Equity): daily net flow history is still building. |
+| 2026-07-09 | XLP | -24967242.0 | 607536222.0 | XLP (Consumer Staples): outflow estimate; daily net flow = shares outstanding change x today's NAV. |
+| 2026-07-09 | XLF | -16662784.0 | 547094738.0 | XLF (Financials): outflow estimate; daily net flow = shares outstanding change x today's NAV. |
+| 2026-07-09 | XLU | -11280378.0 | 419630071.0 | XLU (Utilities): outflow estimate; daily net flow = shares outstanding change x today's NAV. |
+| 2026-07-09 | XLK | 64868850.0 | 250208421.0 | XLK (Technology): inflow estimate; daily net flow = shares outstanding change x today's NAV. |
+| 2026-07-09 | XLRE | 42011003.0 | 128244113.0 | XLRE (Real Estate): inflow estimate; daily net flow = shares outstanding change x today's NAV. |
+| 2026-07-09 | CIBR | 79540577.0 | 118249664.0 | CIBR (Cybersecurity): inflow estimate; daily net flow = shares outstanding change x today's NAV. |
+| 2026-07-09 | GRID | 246678.0 | 64321240.0 | GRID (Grid Infrastructure): inflow estimate; daily net flow = shares outstanding change x today's NAV. |
+| 2026-07-09 | XLV | -32440362.0 | 56770633.0 | XLV (Healthcare): outflow estimate; daily net flow = shares outstanding change x today's NAV. |
+| 2026-07-09 | XLY | -163634285.0 | 29220408.0 | XLY (Consumer Discretionary): outflow estimate; daily net flow = shares outstanding change x today's NAV. |
+| 2026-07-09 | XAR | 0.0 | -20535359.0 | XAR (Defense): flat flow estimate; daily net flow = shares outstanding change x today's NAV. |
+| 2026-07-09 | JNK | -76720858.0 | -76720858.0 | JNK (High Yield Credit): outflow estimate; daily net flow = shares outstanding change x today's NAV. |
+| 2026-07-09 | XLE | -21923620.0 | -465876934.0 | XLE (Energy): outflow estimate; daily net flow = shares outstanding change x today's NAV. |
+| 2026-07-09 | SPY | -2443000852.0 | -601354056.0 | SPY (Broad Equity): outflow estimate; daily net flow = shares outstanding change x today's NAV. |
 
 ### Short-Sale Pressure
 
@@ -443,7 +448,7 @@ Curated to broad index ETFs, sector/theme ETFs, Mag 7, and high-beta chip names.
 | 2026-07-02 | XLP | Consumer Staples | 0.7376 | 1.49 | -1.41 | Consumer Staples: high short-sale volume ratio, but not statistically elevated versus its own history. |
 | 2026-07-02 | META | Mag 7 / Communication Services | 0.441 | 0.83 | 4.7 | Mag 7 / Communication Services: monitored exposure; no elevated short-pressure signal. |
 | 2026-07-02 | SOXX | Semiconductors | 0.6304 | 0.49 | 3.5 | Semiconductors: high short-sale volume ratio, but not statistically elevated versus its own history. |
-| 2026-07-02 | SPCX | High Beta Chips | 0.5873 | 0.4 | 2.6 | High Beta Chips: high short-sale volume ratio, but not statistically elevated versus its own history. |
+| 2026-07-02 | SPCX | High Beta / Space | 0.5873 | 0.4 | 2.6 | High Beta / Space: high short-sale volume ratio, but not statistically elevated versus its own history. |
 | 2026-07-02 | XLU | Utilities | 0.6751 | 0.99 | -0.51 | Utilities: high short-sale volume ratio, but not statistically elevated versus its own history. |
 | 2026-07-02 | XLRE | Real Estate | 0.8029 | 0.81 | 0.18 | Real Estate: high short-sale volume ratio, but not statistically elevated versus its own history. |
 | 2026-07-02 | QQQ | Broad Index / Big Tech | 0.591 | -0.18 | 1.66 | Broad Index / Big Tech: high short-sale volume ratio, but not statistically elevated versus its own history. |
@@ -459,9 +464,7 @@ Curated to broad index ETFs, sector/theme ETFs, Mag 7, and high-beta chip names.
 
 ## Contradiction / Audit Flags
 
-| Severity | Section | Issue | Deterministic Fix |
-| --- | --- | --- | --- |
-| low | Theme Strength Ranking | Energy has strong news confirmation but weak price confirmation. | Classify as unconfirmed narrative. |
+No contradiction flags were triggered by current deterministic rules.
 
 ## Data Quality Notes
 
@@ -470,4 +473,4 @@ Curated to broad index ETFs, sector/theme ETFs, Mag 7, and high-beta chip names.
 - Macro rows loaded: `29`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
-- Positioning/flow rows loaded: `47`
+- Positioning/flow rows loaded: `45`
