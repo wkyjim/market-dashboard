@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-10T01:45:43.647991+00:00
+Generated at: 2026-07-10T04:11:53.619015+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **70.31 / 100** (Moderate Risk-On)
+- Regime score: **70.56 / 100** (Moderate Risk-On)
 - Market strength: **78.86 / 100** (strong)
 - Evidence quality: **93.5 / 100**
 - Breadth: **healthy**; above 50DMA `55.0%`, above 200DMA `71.19%`
@@ -24,10 +24,10 @@ Window: 24h
 | credit_proxy | 50.0 |
 | dollar_fx | 55.56 |
 | commodity_confirmation | 57.0 |
-| news_confirmation | 71.88 |
+| news_confirmation | 76.88 |
 | market_strength | 78.86 |
 
-Positive contributors: equity_trend=95.0, volatility=80.0, market_strength=78.86, news_confirmation=71.88, market_breadth=63.73
+Positive contributors: equity_trend=95.0, volatility=80.0, market_strength=78.86, news_confirmation=76.88, market_breadth=63.73
 Negative contributors: none
 
 ## Market Strength Score
@@ -252,7 +252,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Theme | Score | Setup | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Healthcare Innovation | 65.18 | Positive setup | 12.0 | True | False |
-| 2 | Semiconductors | 63.55 | Positive setup | 17.58 | True | True |
+| 2 | Semiconductors | 63.56 | Positive setup | 17.58 | True | True |
 | 3 | Cybersecurity | 62.13 | Positive setup | 99.1 | True | False |
 | 4 | Financials | 61.44 | Positive setup | 6.55 | True | False |
 | 5 | Small Caps | 59.44 | Positive setup | 0.0 | False | False |
@@ -277,7 +277,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 74.84 | strong | 62.13 | positive | sector and theme confirmation |
 | Financials | Financials | 69.14 | strong | 61.44 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 68.3 | strong | 65.18 | strong | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.92 | strong | 56.6 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.92 | strong | 56.61 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 65.21 | strong | 43.81 | weak | sector stronger than related themes |
 | Semiconductors | AI Infrastructure, Semiconductors | 63.79 | positive | 58.3 | positive | sector and theme confirmation |
 | Defense | Defense | 57.05 | positive | 40.59 | weak | sector stronger than related themes |
@@ -319,8 +319,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 57, 'negative': 22, 'neutral': 1}
-- News confirmation score: `71.88`
+- Sentiment counts: {'positive': 61, 'negative': 18, 'neutral': 1}
+- News confirmation score: `76.88`
 
 ### Top Market-Moving Headlines
 
@@ -340,15 +340,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.38`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**3. The dot-com crash was a $5 trillion blip. Why the next financial crisis could hit 4 times harder.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / medium-term
-- Affected assets: financial crisis, market outlook
-- Score: `56.52`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**4. Major drugmaker loses $27 billion in market value after failed trial**
+**3. Major drugmaker loses $27 billion in market value after failed trial**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -356,23 +348,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `55.27`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
+**4. A Big Winner From the Iran War: Africa’s Richest Man**
+- Source: Dow Jones US Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: A, oil_refining, wealth_increases
+- Score: `50.62`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
 **5. Meet the new group of stocks powering the S&P 500 higher**
-- Source: MarketWatch Top Stories
+- Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
-- Affected assets: A, P, S, market rotation, S&P 500
-- Score: `51.0`
+- Affected assets: P, S, S&P 500, stocks
+- Score: `48.45`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. A junior employee saved this company six figures using AI. Here’s how.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: A, AI, Innovation, Employee Contribution
-- Score: `49.73`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**7. Oil prices fall 2% as mediators try to prevent U.S. and Iran from returning to war**
+**6. Oil prices fall 2% as mediators try to prevent U.S. and Iran from returning to war**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -380,7 +372,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Stocks gain as chipmakers rise, oil prices fall: Live updates**
+**7. Stocks gain as chipmakers rise, oil prices fall: Live updates**
 - Source: CNBC Markets
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -388,13 +380,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. A slower AI payoff risks tipping the economy into recession, Apollo says**
+**8. The dot-com crash was a $5 trillion blip. Why the next financial crisis could hit 4 times harder.**
 - Source: MarketWatch Top Stories
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: A, AI, economic_risk
-- Score: `45.5`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / medium-term
+- Affected assets: financial crisis, market outlook
+- Score: `48.05`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**9. Meet the new group of stocks powering the S&P 500 higher**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: A, P, S, market rotation, S&P 500
+- Score: `43.35`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 **10. Schwab strategists warn of a major market shift: The era of easy index gains is officially over**
 - Source: MarketWatch Top Stories
