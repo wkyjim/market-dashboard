@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-10T07:21:38.061941+00:00
+Generated at: 2026-07-10T09:12:43.650897+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -356,15 +356,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. A Big Winner From the Iran War: Africa’s Richest Man**
-- Source: Dow Jones US Business
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: A, oil_refining, wealth_increases
-- Score: `50.62`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. Oil prices fall 2% as mediators try to prevent U.S. and Iran from returning to war**
+**5. Oil prices fall 2% as mediators try to prevent U.S. and Iran from returning to war**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -372,7 +364,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Stocks gain as chipmakers rise, oil prices fall: Live updates**
+**6. Stocks gain as chipmakers rise, oil prices fall: Live updates**
 - Source: CNBC Markets
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -380,7 +372,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. The dot-com crash was a $5 trillion blip. Why the next financial crisis could hit 4 times harder.**
+**7. The dot-com crash was a $5 trillion blip. Why the next financial crisis could hit 4 times harder.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / medium-term
@@ -388,7 +380,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.05`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**9. Meet the new group of stocks powering the S&P 500 higher**
+**8. Meet the new group of stocks powering the S&P 500 higher**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -396,13 +388,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. Schwab strategists warn of a major market shift: The era of easy index gains is officially over**
+**9. Schwab strategists warn of a major market shift: The era of easy index gains is officially over**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: market_trends, economic_volatility
 - Score: `43.35`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**10. A Big Winner From the Iran War: Africa’s Richest Man**
+- Source: Dow Jones US Business
+- Importance / impact: Medium / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: A, oil_refining, wealth_increases
+- Score: `43.03`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
@@ -413,24 +413,31 @@ Noisy headline list: Josh Brown says this bank that was once an 'ugly d
 
 Positioning and flow data is used as confirmation only. FINRA short-sale volume is not short interest.
 
-### Futures Positioning
+### ETF / Fund Flow Proxy
 
-| Date | Asset | Signal | Value | Z | Percentile | Interpretation |
-| --- | --- | --- | --- | --- | --- | --- |
-| 2026-06-23 | RUT | COT net position pct open interest | 0.3407 | 1.67 | 0.96 | Net long positioning is above normal. |
-| 2026-06-23 | DXY | COT net position pct open interest | 0.3408 | 0.82 | 0.72 | Positioning is near its rolling norm. |
-| 2026-06-23 | SPX | COT net position pct open interest | 0.498 | 0.69 | 0.76 | Positioning is near its rolling norm. |
-| 2026-06-23 | NDX | COT net position pct open interest | 0.2304 | -0.79 | 0.24 | Positioning is near its rolling norm. |
-| 2026-06-23 | EUR | COT net position pct open interest | 0.3243 | -1.09 | 0.12 | Net short positioning is below normal. |
-| 2026-06-23 | SOFR | COT net position pct open interest | -0.0372 | -1.58 | 0.08 | Net short positioning is below normal. |
-| 2026-06-23 | AUD | COT net position pct open interest | -0.1726 | -1.74 | 0.04 | Net short positioning is below normal. |
-| 2026-06-23 | JPY | COT net position pct open interest | -0.1818 | -1.74 | 0.04 | Net short positioning is below normal. |
-| 2026-06-23 | CAD | COT net position pct open interest | -0.2446 | -1.87 | 0.04 | Net short positioning is below normal. |
-| 2026-06-23 | GBP | COT net position pct open interest | -0.5027 | -2.54 | 0.04 | Crowded short positioning; squeeze risk if price momentum improves. |
+Uses free ETF AUM/share metadata. Values are flow proxies, not official creations/redemptions.
+
+| Date | ETF | Proxy Flow 1D | Method | Interpretation |
+| --- | --- | --- | --- | --- |
+| 2026-07-10 | CIBR | n/a | shares/AUM proxy | CIBR (Cybersecurity): snapshot stored; flow history is still building. |
+| 2026-07-10 | XLY | n/a | shares/AUM proxy | XLY (Consumer Discretionary): snapshot stored; flow history is still building. |
+| 2026-07-10 | XLV | n/a | shares/AUM proxy | XLV (Healthcare): snapshot stored; flow history is still building. |
+| 2026-07-10 | XLU | n/a | shares/AUM proxy | XLU (Utilities): snapshot stored; flow history is still building. |
+| 2026-07-10 | IEF | n/a | shares/AUM proxy | IEF (Intermediate Treasury): snapshot stored; flow history is still building. |
+| 2026-07-10 | HYG | n/a | shares/AUM proxy | HYG (High Yield Credit): snapshot stored; flow history is still building. |
+| 2026-07-10 | GRID | n/a | shares/AUM proxy | GRID (Grid Infrastructure): snapshot stored; flow history is still building. |
+| 2026-07-10 | XLRE | n/a | shares/AUM proxy | XLRE (Real Estate): snapshot stored; flow history is still building. |
+| 2026-07-10 | XLP | n/a | shares/AUM proxy | XLP (Consumer Staples): snapshot stored; flow history is still building. |
+| 2026-07-10 | XLK | n/a | shares/AUM proxy | XLK (Technology): snapshot stored; flow history is still building. |
+| 2026-07-10 | XLF | n/a | shares/AUM proxy | XLF (Financials): snapshot stored; flow history is still building. |
+| 2026-07-10 | XLE | n/a | shares/AUM proxy | XLE (Energy): snapshot stored; flow history is still building. |
+| 2026-07-10 | XAR | n/a | shares/AUM proxy | XAR (Defense): snapshot stored; flow history is still building. |
+| 2026-07-10 | TLT | n/a | shares/AUM proxy | TLT (Long Duration Treasury): snapshot stored; flow history is still building. |
+| 2026-07-10 | SPY | n/a | shares/AUM proxy | SPY (Broad Equity): snapshot stored; flow history is still building. |
 
 ### Short-Sale Pressure
 
-Curated to broad index ETFs, sector/theme ETFs, and Mag 7 names. FINRA short-sale volume is not short interest.
+Curated to broad index ETFs, sector/theme ETFs, Mag 7, and high-beta chip names. FINRA short-sale volume is not short interest.
 
 | Date | Ticker | Group | Ratio | Z | Price Move | Market Implication |
 | --- | --- | --- | --- | --- | --- | --- |
@@ -439,23 +446,23 @@ Curated to broad index ETFs, sector/theme ETFs, and Mag 7 names. FINRA short-sal
 | 2026-07-02 | SMH | Semiconductors | 0.7312 | 1.91 | 2.48 | Semiconductors: high short-sale volume ratio, but not statistically elevated versus its own history. |
 | 2026-07-02 | TSLA | Mag 7 / High Beta | 0.6287 | 1.37 | 3.17 | Mag 7 / High Beta: high short-sale volume ratio, but not statistically elevated versus its own history. |
 | 2026-07-02 | GOOG | Mag 7 / Communication Services | 0.5041 | 1.92 | -0.69 | Mag 7 / Communication Services: high short-sale volume ratio, but not statistically elevated versus its own history. |
+| 2026-07-02 | NVDA | High Beta Chips / Mag 7 | 0.3219 | -1.17 | -0.66 | High Beta Chips / Mag 7: monitored exposure; no elevated short-pressure signal. |
 | 2026-07-02 | XLP | Consumer Staples | 0.7376 | 1.49 | -1.41 | Consumer Staples: high short-sale volume ratio, but not statistically elevated versus its own history. |
 | 2026-07-02 | META | Mag 7 / Communication Services | 0.441 | 0.83 | 4.7 | Mag 7 / Communication Services: monitored exposure; no elevated short-pressure signal. |
 | 2026-07-02 | SOXX | Semiconductors | 0.6304 | 0.49 | 3.5 | Semiconductors: high short-sale volume ratio, but not statistically elevated versus its own history. |
+| 2026-07-02 | SPCX | High Beta Chips | 0.5873 | 0.4 | 2.6 | High Beta Chips: high short-sale volume ratio, but not statistically elevated versus its own history. |
 | 2026-07-02 | XLU | Utilities | 0.6751 | 0.99 | -0.51 | Utilities: high short-sale volume ratio, but not statistically elevated versus its own history. |
 | 2026-07-02 | XLRE | Real Estate | 0.8029 | 0.81 | 0.18 | Real Estate: high short-sale volume ratio, but not statistically elevated versus its own history. |
 | 2026-07-02 | QQQ | Broad Index / Big Tech | 0.591 | -0.18 | 1.66 | Broad Index / Big Tech: high short-sale volume ratio, but not statistically elevated versus its own history. |
 | 2026-07-02 | XLF | Financials | 0.6306 | 0.7 | 1.04 | Financials: high short-sale volume ratio, but not statistically elevated versus its own history. |
-| 2026-07-02 | CIBR | Cybersecurity | 0.5595 | 0.28 | 2.84 | Cybersecurity: high short-sale volume ratio, but not statistically elevated versus its own history. |
-| 2026-07-02 | XLV | Healthcare | 0.645 | 0.73 | -0.08 | Healthcare: high short-sale volume ratio, but not statistically elevated versus its own history. |
-| 2026-07-02 | SPY | Broad Index | 0.5018 | -0.14 | 0.85 | Broad Index: high short-sale volume ratio, but not statistically elevated versus its own history. |
+| 2026-07-02 | MU | High Beta Chips / Memory | 0.2922 | -1.98 | 4.52 | High Beta Chips / Memory: monitored exposure; no elevated short-pressure signal. |
 
 ### Deferred Flow Sections
 
-- ETF / Fund Flows: not available until ICI and issuer holdings pipelines are implemented.
+- Official ETF / fund flows: exact daily net creations/redemptions are unavailable from the free source set; current report uses ETF flow proxies.
 - Institutional Ownership: not available until SEC 13F ingestion is implemented.
 - Crowding / Squeeze Risks: initial coverage uses CFTC crowded positioning and FINRA elevated short-sale volume only.
-- Flow-Confirmed vs Price-Only Themes: deferred until ETF/ICI flow data exists.
+- Flow-Confirmed vs Price-Only Themes: partial coverage through ETF flow proxies; stronger coverage requires issuer/ICI adapters.
 
 ## Contradiction / Audit Flags
 
@@ -470,4 +477,4 @@ Curated to broad index ETFs, sector/theme ETFs, and Mag 7 names. FINRA short-sal
 - Macro rows loaded: `29`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
-- Positioning/flow rows loaded: `40`
+- Positioning/flow rows loaded: `47`
