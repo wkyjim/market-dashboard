@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-10T12:08:39.033920+00:00
+Generated at: 2026-07-10T13:15:30.722419+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -340,23 +340,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.38`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**3. Major drugmaker loses $27 billion in market value after failed trial**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: pharmaceuticals, clinical trial failure
-- Score: `55.27`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**4. Bidding war breaks out for easyJet as Apollo tops rival private-equity group’s bid**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: A, EZJ, bidding war, private-equity
-- Score: `51.0`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**5. Oil prices fall 2% as mediators try to prevent U.S. and Iran from returning to war**
+**3. Oil prices fall 2% as mediators try to prevent U.S. and Iran from returning to war**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -364,7 +348,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Stocks gain as chipmakers rise, oil prices fall: Live updates**
+**4. Stocks gain as chipmakers rise, oil prices fall: Live updates**
 - Source: CNBC Markets
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -372,7 +356,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. The dot-com crash was a $5 trillion blip. Why the next financial crisis could hit 4 times harder.**
+**5. The dot-com crash was a $5 trillion blip. Why the next financial crisis could hit 4 times harder.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / medium-term
@@ -380,7 +364,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.05`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. Meet the new group of stocks powering the S&P 500 higher**
+**6. Bidding war breaks out for easyJet as Apollo tops rival private-equity group’s bid**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: A, EZJ, bidding war, private-equity
+- Score: `43.35`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**7. Meet the new group of stocks powering the S&P 500 higher**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -388,21 +380,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**9. Schwab strategists warn of a major market shift: The era of easy index gains is officially over**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: market_trends, economic_volatility
-- Score: `43.35`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**10. World oil demand set for first annual decline since 2020, IEA says**
+**8. World oil demand set for first annual decline since 2020, IEA says**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: IEA, U.S, oil demand, geopolitical risk
 - Score: `43.23`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. A Big Winner From the Iran War: Africa’s Richest Man**
+- Source: Dow Jones US Business
+- Importance / impact: Medium / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: A, oil_refining, wealth_increases
+- Score: `43.03`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. A junior employee saved this company six figures using AI. Here’s how.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: A, AI, Innovation, Employee Contribution
+- Score: `42.27`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
