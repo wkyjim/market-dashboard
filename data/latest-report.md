@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-10T13:15:30.722419+00:00
+Generated at: 2026-07-10T16:11:55.539851+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **70.12 / 100** (Moderate Risk-On)
+- Regime score: **70.06 / 100** (Moderate Risk-On)
 - Market strength: **78.86 / 100** (strong)
 - Evidence quality: **93.5 / 100**
 - Breadth: **healthy**; above 50DMA `55.0%`, above 200DMA `71.19%`
@@ -24,10 +24,10 @@ Window: 24h
 | credit_proxy | 50.0 |
 | dollar_fx | 55.56 |
 | commodity_confirmation | 57.0 |
-| news_confirmation | 68.12 |
+| news_confirmation | 66.88 |
 | market_strength | 78.86 |
 
-Positive contributors: equity_trend=95.0, volatility=80.0, market_strength=78.86, news_confirmation=68.12, market_breadth=63.73
+Positive contributors: equity_trend=95.0, volatility=80.0, market_strength=78.86, news_confirmation=66.88, market_breadth=63.73
 Negative contributors: none
 
 ## Market Strength Score
@@ -216,10 +216,10 @@ Negative contributors: none
 
 | Indicator | Latest | Unit | Change | Date | Rule-Based Interpretation |
 | --- | --- | --- | --- | --- | --- |
-| US dollar/Euro ECB reference exchange rate | 1.14 | USD | 0.0 USD vs prior | 2026-07-09 | EUR strengthened versus this currency. |
-| Japanese yen/Euro ECB reference exchange rate | 185.72 | JPY | 0.42 JPY vs prior | 2026-07-09 | EUR strengthened versus this currency. |
-| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.77 | CNY | 0.02 CNY vs prior | 2026-07-09 | EUR strengthened versus this currency. |
-| Australian dollar/Euro ECB reference exchange rate | 1.65 | AUD | 0.0 AUD vs prior | 2026-07-09 | EUR strengthened versus this currency. |
+| US dollar/Euro ECB reference exchange rate | 1.14 | USD | -0.0 USD vs prior | 2026-07-10 | EUR weakened versus this currency. |
+| Japanese yen/Euro ECB reference exchange rate | 185.02 | JPY | -0.7 JPY vs prior | 2026-07-10 | EUR weakened versus this currency. |
+| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.74 | CNY | -0.03 CNY vs prior | 2026-07-10 | EUR weakened versus this currency. |
+| Australian dollar/Euro ECB reference exchange rate | 1.64 | AUD | -0.0 AUD vs prior | 2026-07-10 | EUR weakened versus this currency. |
 
 ABS Australia note: ABS rows are stored locally/Neon, but most series are dimension-coded; only curated series should be promoted into narrative report text.
 
@@ -319,8 +319,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 53, 'negative': 24, 'neutral': 3}
-- News confirmation score: `68.12`
+- Sentiment counts: {'positive': 51, 'negative': 24, 'neutral': 5}
+- News confirmation score: `66.88`
 
 ### Top Market-Moving Headlines
 
@@ -332,13 +332,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `61.77`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Federal Reserve Board issues enforcement action with TS Banking Group, Inc. and TS Contrarian Bancshares, Inc.**
-- Source: Federal Reserve Press Releases
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short term
-- Affected assets: TS, Regulatory
-- Score: `57.38`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
+**2. Elon Musk speaks exclusively to CNBC about Grok, Tesla and the SpaceX IPO: Live updates**
+- Source: CNBC Markets
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: CNBC, IPO, AI
+- Score: `48.45`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 **3. Oil prices fall 2% as mediators try to prevent U.S. and Iran from returning to war**
 - Source: CNBC Top News
@@ -380,15 +380,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. World oil demand set for first annual decline since 2020, IEA says**
-- Source: CNBC Top News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: IEA, U.S, oil demand, geopolitical risk
-- Score: `43.23`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. A Big Winner From the Iran War: Africa’s Richest Man**
+**8. A Big Winner From the Iran War: Africa’s Richest Man**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -396,7 +388,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. A junior employee saved this company six figures using AI. Here’s how.**
+**9. A junior employee saved this company six figures using AI. Here’s how.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -404,10 +396,18 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `42.27`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
+**10. Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 5%**
+- Source: CNBC Top News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: CRL, U.S, banking, cryptocurrency
+- Score: `41.68`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
 
 ### Headline Quality Checks
 
-Noisy headline list: Josh Brown says this bank that was once an 'ugly d, Stock market today: Nasdaq rises, Dow and S&P 500 
+Noisy headline list: Stock market today: Nasdaq rises, Dow and S&P 500 
 
 ## Positioning & Flow Dashboard
 
