@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-10T09:12:43.650897+00:00
+Generated at: 2026-07-10T10:12:05.768138+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **70.46 / 100** (Moderate Risk-On)
+- Regime score: **70.18 / 100** (Moderate Risk-On)
 - Market strength: **78.86 / 100** (strong)
 - Evidence quality: **93.5 / 100**
 - Breadth: **healthy**; above 50DMA `55.0%`, above 200DMA `71.19%`
@@ -24,10 +24,10 @@ Window: 24h
 | credit_proxy | 50.0 |
 | dollar_fx | 55.56 |
 | commodity_confirmation | 57.0 |
-| news_confirmation | 75.0 |
+| news_confirmation | 69.38 |
 | market_strength | 78.86 |
 
-Positive contributors: equity_trend=95.0, volatility=80.0, market_strength=78.86, news_confirmation=75.0, market_breadth=63.73
+Positive contributors: equity_trend=95.0, volatility=80.0, market_strength=78.86, news_confirmation=69.38, market_breadth=63.73
 Negative contributors: none
 
 ## Market Strength Score
@@ -236,7 +236,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Healthcare | 68.3 | strong uptrend | positive | broad | 51.77 | MRNA, TECH, CRL | SOLV, BSX, ZTS |
 | 4 | Technology | 65.92 | strong uptrend | positive | broad | 55.29 | PANW, ANET, DDOG | SMCI, CRWD, KLAC |
 | 5 | Industrials | 65.21 | strong uptrend | neutral | broad | 48.8 | AXON, UAL, GEV | GNRC, LDOS, FDXF |
-| 6 | Semiconductors | 63.86 | strong uptrend | positive | broad | 63.87 | SOXX, SMH | SMH, SOXX |
+| 6 | Semiconductors | 63.88 | strong uptrend | positive | broad | 63.87 | SOXX, SMH | SMH, SOXX |
 | 7 | Defense | 57.05 | strong uptrend | neutral | broad | 45.12 | XAR | XAR |
 | 8 | Utilities | 52.73 | downtrend | neutral | broad | 46.07 | NRG, VST, ES | AES, PPL, CEG |
 | 9 | Crypto | 50.0 | neutral | neutral | mixed | 50.0 |  |  |
@@ -252,7 +252,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Theme | Score | Setup | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Healthcare Innovation | 65.18 | Positive setup | 12.0 | True | False |
-| 2 | Semiconductors | 63.64 | Positive setup | 17.58 | True | True |
+| 2 | Semiconductors | 63.16 | Positive setup | 17.58 | True | True |
 | 3 | Cybersecurity | 62.13 | Positive setup | 99.1 | True | False |
 | 4 | Financials | 61.44 | Positive setup | 6.55 | True | False |
 | 5 | Small Caps | 59.44 | Positive setup | 0.0 | False | False |
@@ -277,9 +277,9 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 74.84 | strong | 62.13 | positive | sector and theme confirmation |
 | Financials | Financials | 69.14 | strong | 61.44 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 68.3 | strong | 65.18 | strong | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.92 | strong | 56.63 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.92 | strong | 56.47 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 65.21 | strong | 43.81 | weak | sector stronger than related themes |
-| Semiconductors | AI Infrastructure, Semiconductors | 63.86 | positive | 58.34 | positive | sector and theme confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 63.88 | positive | 58.11 | positive | sector and theme confirmation |
 | Defense | Defense | 57.05 | positive | 40.59 | weak | sector stronger than related themes |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 52.73 | mixed | 41.99 | weak | mixed confirmation |
 | Crypto | Crypto Infrastructure | 50.0 | mixed | 28.27 | very weak | mixed confirmation |
@@ -296,8 +296,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- |
 | 1 | Healthcare Innovation | 66.18 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 2 | Financials | 64.84 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 3 | Semiconductors | 64.02 | Positive setup | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
-| 4 | Small Caps | 63.82 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 3 | Small Caps | 63.82 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 4 | Semiconductors | 63.52 | Positive setup | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 5 | Cybersecurity | 61.79 | Positive setup | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 6 | Quality Growth | 55.56 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 7 | AI Infrastructure | 55.55 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
@@ -319,8 +319,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 59, 'negative': 19, 'neutral': 2}
-- News confirmation score: `75.0`
+- Sentiment counts: {'positive': 54, 'negative': 23, 'neutral': 3}
+- News confirmation score: `69.38`
 
 ### Top Market-Moving Headlines
 
@@ -396,18 +396,18 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**10. A Big Winner From the Iran War: Africa’s Richest Man**
-- Source: Dow Jones US Business
-- Importance / impact: Medium / Positive
+**10. World oil demand set for first annual decline since 2020, IEA says**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: A, oil_refining, wealth_increases
-- Score: `43.03`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Affected assets: IEA, U.S, oil demand, geopolitical risk
+- Score: `43.23`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
 
-Noisy headline list: Josh Brown says this bank that was once an 'ugly d
+Noisy headline list: Josh Brown says this bank that was once an 'ugly d, Stock market today: Nasdaq rises, Dow and S&P 500 
 
 ## Positioning & Flow Dashboard
 
