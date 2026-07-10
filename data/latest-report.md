@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-10T07:11:21.170971+00:00
+Generated at: 2026-07-10T07:21:38.061941+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -417,36 +417,38 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 
 | Date | Asset | Signal | Value | Z | Percentile | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
-| 2026-06-23 | GBP | COT net position pct open interest | -0.5027 | -2.54 | 0.04 | Crowded short positioning; squeeze risk if price momentum improves. |
-| 2026-06-23 | CAD | COT net position pct open interest | -0.2446 | -1.87 | 0.04 | Net short positioning is below normal. |
-| 2026-06-23 | JPY | COT net position pct open interest | -0.1818 | -1.74 | 0.04 | Net short positioning is below normal. |
-| 2026-06-23 | AUD | COT net position pct open interest | -0.1726 | -1.74 | 0.04 | Net short positioning is below normal. |
 | 2026-06-23 | RUT | COT net position pct open interest | 0.3407 | 1.67 | 0.96 | Net long positioning is above normal. |
-| 2026-06-23 | SOFR | COT net position pct open interest | -0.0372 | -1.58 | 0.08 | Net short positioning is below normal. |
-| 2026-06-23 | EUR | COT net position pct open interest | 0.3243 | -1.09 | 0.12 | Net short positioning is below normal. |
 | 2026-06-23 | DXY | COT net position pct open interest | 0.3408 | 0.82 | 0.72 | Positioning is near its rolling norm. |
-| 2026-06-23 | NDX | COT net position pct open interest | 0.2304 | -0.79 | 0.24 | Positioning is near its rolling norm. |
 | 2026-06-23 | SPX | COT net position pct open interest | 0.498 | 0.69 | 0.76 | Positioning is near its rolling norm. |
+| 2026-06-23 | NDX | COT net position pct open interest | 0.2304 | -0.79 | 0.24 | Positioning is near its rolling norm. |
+| 2026-06-23 | EUR | COT net position pct open interest | 0.3243 | -1.09 | 0.12 | Net short positioning is below normal. |
+| 2026-06-23 | SOFR | COT net position pct open interest | -0.0372 | -1.58 | 0.08 | Net short positioning is below normal. |
+| 2026-06-23 | AUD | COT net position pct open interest | -0.1726 | -1.74 | 0.04 | Net short positioning is below normal. |
+| 2026-06-23 | JPY | COT net position pct open interest | -0.1818 | -1.74 | 0.04 | Net short positioning is below normal. |
+| 2026-06-23 | CAD | COT net position pct open interest | -0.2446 | -1.87 | 0.04 | Net short positioning is below normal. |
+| 2026-06-23 | GBP | COT net position pct open interest | -0.5027 | -2.54 | 0.04 | Crowded short positioning; squeeze risk if price momentum improves. |
 
 ### Short-Sale Pressure
 
-| Date | Ticker | Signal | Ratio | Z | Interpretation |
-| --- | --- | --- | --- | --- | --- |
-| 2026-07-02 | CORO | FINRA short-sale volume ratio | 0.3325 | -4.54 | Short-sale volume ratio available; no elevated z-score flag. |
-| 2026-07-02 | EBND | FINRA short-sale volume ratio | 0.8715 | 3.94 | Elevated short-sale volume versus 60-day history; contested trading. |
-| 2026-07-02 | VIGI | FINRA short-sale volume ratio | 0.7243 | 3.89 | Elevated short-sale volume versus 60-day history; contested trading. |
-| 2026-07-02 | NATO | FINRA short-sale volume ratio | 0.7395 | 3.81 | Elevated short-sale volume versus 60-day history; contested trading. |
-| 2026-07-02 | AIVI | FINRA short-sale volume ratio | 0.7968 | 3.8 | Elevated short-sale volume versus 60-day history; contested trading. |
-| 2026-07-02 | GHYG | FINRA short-sale volume ratio | 0.853 | 3.75 | Elevated short-sale volume versus 60-day history; contested trading. |
-| 2026-07-02 | POST | FINRA short-sale volume ratio | 0.2633 | -3.58 | Short-sale volume ratio available; no elevated z-score flag. |
-| 2026-07-02 | ABUF | FINRA short-sale volume ratio | 0.5 | -3.47 | Short-sale volume ratio available; no elevated z-score flag. |
-| 2026-07-02 | FR | FINRA short-sale volume ratio | 0.14 | -3.46 | Short-sale volume ratio available; no elevated z-score flag. |
-| 2026-07-02 | UNHG | FINRA short-sale volume ratio | 0.7146 | 3.45 | Elevated short-sale volume versus 60-day history; contested trading. |
-| 2026-07-02 | CLSE | FINRA short-sale volume ratio | 0.2427 | -3.44 | Short-sale volume ratio available; no elevated z-score flag. |
-| 2026-07-02 | SN | FINRA short-sale volume ratio | 0.2739 | -3.42 | Short-sale volume ratio available; no elevated z-score flag. |
-| 2026-07-02 | NSI | FINRA short-sale volume ratio | 0.9651 | 3.27 | Elevated short-sale volume versus 60-day history; contested trading. |
-| 2026-07-02 | FXD | FINRA short-sale volume ratio | 0.9392 | 3.26 | Elevated short-sale volume versus 60-day history; contested trading. |
-| 2026-07-02 | GGB | FINRA short-sale volume ratio | 0.8049 | 3.25 | Elevated short-sale volume versus 60-day history; contested trading. |
+Curated to broad index ETFs, sector/theme ETFs, and Mag 7 names. FINRA short-sale volume is not short interest.
+
+| Date | Ticker | Group | Ratio | Z | Price Move | Market Implication |
+| --- | --- | --- | --- | --- | --- | --- |
+| 2026-07-02 | RSP | Equal-Weight S&P 500 | 0.8144 | 1.91 | 0.61 | Equal-Weight S&P 500: high short-sale volume ratio, but not statistically elevated versus its own history. |
+| 2026-07-02 | IWM | Small Caps | 0.7392 | 1.61 | 1.28 | Small Caps: high short-sale volume ratio, but not statistically elevated versus its own history. |
+| 2026-07-02 | SMH | Semiconductors | 0.7312 | 1.91 | 2.48 | Semiconductors: high short-sale volume ratio, but not statistically elevated versus its own history. |
+| 2026-07-02 | TSLA | Mag 7 / High Beta | 0.6287 | 1.37 | 3.17 | Mag 7 / High Beta: high short-sale volume ratio, but not statistically elevated versus its own history. |
+| 2026-07-02 | GOOG | Mag 7 / Communication Services | 0.5041 | 1.92 | -0.69 | Mag 7 / Communication Services: high short-sale volume ratio, but not statistically elevated versus its own history. |
+| 2026-07-02 | XLP | Consumer Staples | 0.7376 | 1.49 | -1.41 | Consumer Staples: high short-sale volume ratio, but not statistically elevated versus its own history. |
+| 2026-07-02 | META | Mag 7 / Communication Services | 0.441 | 0.83 | 4.7 | Mag 7 / Communication Services: monitored exposure; no elevated short-pressure signal. |
+| 2026-07-02 | SOXX | Semiconductors | 0.6304 | 0.49 | 3.5 | Semiconductors: high short-sale volume ratio, but not statistically elevated versus its own history. |
+| 2026-07-02 | XLU | Utilities | 0.6751 | 0.99 | -0.51 | Utilities: high short-sale volume ratio, but not statistically elevated versus its own history. |
+| 2026-07-02 | XLRE | Real Estate | 0.8029 | 0.81 | 0.18 | Real Estate: high short-sale volume ratio, but not statistically elevated versus its own history. |
+| 2026-07-02 | QQQ | Broad Index / Big Tech | 0.591 | -0.18 | 1.66 | Broad Index / Big Tech: high short-sale volume ratio, but not statistically elevated versus its own history. |
+| 2026-07-02 | XLF | Financials | 0.6306 | 0.7 | 1.04 | Financials: high short-sale volume ratio, but not statistically elevated versus its own history. |
+| 2026-07-02 | CIBR | Cybersecurity | 0.5595 | 0.28 | 2.84 | Cybersecurity: high short-sale volume ratio, but not statistically elevated versus its own history. |
+| 2026-07-02 | XLV | Healthcare | 0.645 | 0.73 | -0.08 | Healthcare: high short-sale volume ratio, but not statistically elevated versus its own history. |
+| 2026-07-02 | SPY | Broad Index | 0.5018 | -0.14 | 0.85 | Broad Index: high short-sale volume ratio, but not statistically elevated versus its own history. |
 
 ### Deferred Flow Sections
 
@@ -468,4 +470,4 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Macro rows loaded: `29`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
-- Positioning/flow rows loaded: `50`
+- Positioning/flow rows loaded: `40`
