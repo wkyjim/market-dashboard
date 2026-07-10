@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-10T10:12:05.768138+00:00
+Generated at: 2026-07-10T10:54:54.528517+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -415,25 +415,25 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 
 ### ETF / Fund Flow Proxy
 
-Uses free ETF AUM/share metadata. Values are flow proxies, not official creations/redemptions.
+Uses the latest available ETF snapshot date with calculated flow where available. Daily net flow proxy = (shares outstanding today - shares outstanding yesterday) x today's NAV. Values are not official creations/redemptions.
 
-| Date | ETF | Proxy Flow 1D | Method | Interpretation |
+| Date | ETF | Daily Net Flow Proxy | Formula | Interpretation |
 | --- | --- | --- | --- | --- |
-| 2026-07-10 | CIBR | n/a | shares/AUM proxy | CIBR (Cybersecurity): snapshot stored; flow history is still building. |
-| 2026-07-10 | XLY | n/a | shares/AUM proxy | XLY (Consumer Discretionary): snapshot stored; flow history is still building. |
-| 2026-07-10 | XLV | n/a | shares/AUM proxy | XLV (Healthcare): snapshot stored; flow history is still building. |
-| 2026-07-10 | XLU | n/a | shares/AUM proxy | XLU (Utilities): snapshot stored; flow history is still building. |
-| 2026-07-10 | IEF | n/a | shares/AUM proxy | IEF (Intermediate Treasury): snapshot stored; flow history is still building. |
-| 2026-07-10 | HYG | n/a | shares/AUM proxy | HYG (High Yield Credit): snapshot stored; flow history is still building. |
-| 2026-07-10 | GRID | n/a | shares/AUM proxy | GRID (Grid Infrastructure): snapshot stored; flow history is still building. |
-| 2026-07-10 | XLRE | n/a | shares/AUM proxy | XLRE (Real Estate): snapshot stored; flow history is still building. |
-| 2026-07-10 | XLP | n/a | shares/AUM proxy | XLP (Consumer Staples): snapshot stored; flow history is still building. |
-| 2026-07-10 | XLK | n/a | shares/AUM proxy | XLK (Technology): snapshot stored; flow history is still building. |
-| 2026-07-10 | XLF | n/a | shares/AUM proxy | XLF (Financials): snapshot stored; flow history is still building. |
-| 2026-07-10 | XLE | n/a | shares/AUM proxy | XLE (Energy): snapshot stored; flow history is still building. |
-| 2026-07-10 | XAR | n/a | shares/AUM proxy | XAR (Defense): snapshot stored; flow history is still building. |
-| 2026-07-10 | TLT | n/a | shares/AUM proxy | TLT (Long Duration Treasury): snapshot stored; flow history is still building. |
-| 2026-07-10 | SPY | n/a | shares/AUM proxy | SPY (Broad Equity): snapshot stored; flow history is still building. |
+| 2026-07-10 | CIBR | n/a | Δ shares x NAV | CIBR (Cybersecurity): snapshot stored; flow history is still building. |
+| 2026-07-10 | XLY | n/a | Δ shares x NAV | XLY (Consumer Discretionary): snapshot stored; flow history is still building. |
+| 2026-07-10 | XLV | n/a | Δ shares x NAV | XLV (Healthcare): snapshot stored; flow history is still building. |
+| 2026-07-10 | XLU | n/a | Δ shares x NAV | XLU (Utilities): snapshot stored; flow history is still building. |
+| 2026-07-10 | IEF | n/a | Δ shares x NAV | IEF (Intermediate Treasury): snapshot stored; flow history is still building. |
+| 2026-07-10 | HYG | n/a | Δ shares x NAV | HYG (High Yield Credit): snapshot stored; flow history is still building. |
+| 2026-07-10 | GRID | n/a | Δ shares x NAV | GRID (Grid Infrastructure): snapshot stored; flow history is still building. |
+| 2026-07-10 | XLRE | n/a | Δ shares x NAV | XLRE (Real Estate): snapshot stored; flow history is still building. |
+| 2026-07-10 | XLP | n/a | Δ shares x NAV | XLP (Consumer Staples): snapshot stored; flow history is still building. |
+| 2026-07-10 | XLK | n/a | Δ shares x NAV | XLK (Technology): snapshot stored; flow history is still building. |
+| 2026-07-10 | XLF | n/a | Δ shares x NAV | XLF (Financials): snapshot stored; flow history is still building. |
+| 2026-07-10 | XLE | n/a | Δ shares x NAV | XLE (Energy): snapshot stored; flow history is still building. |
+| 2026-07-10 | XAR | n/a | Δ shares x NAV | XAR (Defense): snapshot stored; flow history is still building. |
+| 2026-07-10 | TLT | n/a | Δ shares x NAV | TLT (Long Duration Treasury): snapshot stored; flow history is still building. |
+| 2026-07-10 | SPY | n/a | Δ shares x NAV | SPY (Broad Equity): snapshot stored; flow history is still building. |
 
 ### Short-Sale Pressure
 
