@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-10T10:54:54.528517+00:00
+Generated at: 2026-07-10T12:08:39.033920+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **70.18 / 100** (Moderate Risk-On)
+- Regime score: **70.12 / 100** (Moderate Risk-On)
 - Market strength: **78.86 / 100** (strong)
 - Evidence quality: **93.5 / 100**
 - Breadth: **healthy**; above 50DMA `55.0%`, above 200DMA `71.19%`
@@ -24,10 +24,10 @@ Window: 24h
 | credit_proxy | 50.0 |
 | dollar_fx | 55.56 |
 | commodity_confirmation | 57.0 |
-| news_confirmation | 69.38 |
+| news_confirmation | 68.12 |
 | market_strength | 78.86 |
 
-Positive contributors: equity_trend=95.0, volatility=80.0, market_strength=78.86, news_confirmation=69.38, market_breadth=63.73
+Positive contributors: equity_trend=95.0, volatility=80.0, market_strength=78.86, news_confirmation=68.12, market_breadth=63.73
 Negative contributors: none
 
 ## Market Strength Score
@@ -319,8 +319,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 54, 'negative': 23, 'neutral': 3}
-- News confirmation score: `69.38`
+- Sentiment counts: {'positive': 53, 'negative': 24, 'neutral': 3}
+- News confirmation score: `68.12`
 
 ### Top Market-Moving Headlines
 
@@ -415,25 +415,18 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 
 ### ETF / Fund Flow Proxy
 
-Uses the latest available ETF snapshot date with calculated flow where available. Daily net flow proxy = (shares outstanding today - shares outstanding yesterday) x today's NAV. Values are not official creations/redemptions.
+Uses public.etf_daily_data. Net fund flow 1D = (shares outstanding today - shares outstanding yesterday) x today's NAV. 5D uses the same formula versus five observations ago.
 
-| Date | ETF | Daily Net Flow Proxy | Formula | Interpretation |
+| Date | ETF | Net Fund Flow 1D | Net Fund Flow 5D | Interpretation |
 | --- | --- | --- | --- | --- |
-| 2026-07-10 | CIBR | n/a | Δ shares x NAV | CIBR (Cybersecurity): snapshot stored; flow history is still building. |
-| 2026-07-10 | XLY | n/a | Δ shares x NAV | XLY (Consumer Discretionary): snapshot stored; flow history is still building. |
-| 2026-07-10 | XLV | n/a | Δ shares x NAV | XLV (Healthcare): snapshot stored; flow history is still building. |
-| 2026-07-10 | XLU | n/a | Δ shares x NAV | XLU (Utilities): snapshot stored; flow history is still building. |
-| 2026-07-10 | IEF | n/a | Δ shares x NAV | IEF (Intermediate Treasury): snapshot stored; flow history is still building. |
-| 2026-07-10 | HYG | n/a | Δ shares x NAV | HYG (High Yield Credit): snapshot stored; flow history is still building. |
-| 2026-07-10 | GRID | n/a | Δ shares x NAV | GRID (Grid Infrastructure): snapshot stored; flow history is still building. |
-| 2026-07-10 | XLRE | n/a | Δ shares x NAV | XLRE (Real Estate): snapshot stored; flow history is still building. |
-| 2026-07-10 | XLP | n/a | Δ shares x NAV | XLP (Consumer Staples): snapshot stored; flow history is still building. |
-| 2026-07-10 | XLK | n/a | Δ shares x NAV | XLK (Technology): snapshot stored; flow history is still building. |
-| 2026-07-10 | XLF | n/a | Δ shares x NAV | XLF (Financials): snapshot stored; flow history is still building. |
-| 2026-07-10 | XLE | n/a | Δ shares x NAV | XLE (Energy): snapshot stored; flow history is still building. |
-| 2026-07-10 | XAR | n/a | Δ shares x NAV | XAR (Defense): snapshot stored; flow history is still building. |
-| 2026-07-10 | TLT | n/a | Δ shares x NAV | TLT (Long Duration Treasury): snapshot stored; flow history is still building. |
-| 2026-07-10 | SPY | n/a | Δ shares x NAV | SPY (Broad Equity): snapshot stored; flow history is still building. |
+| 2026-07-10 | XLY | n/a | n/a | XLY (Consumer Discretionary): daily net flow history is still building. |
+| 2026-07-10 | NLR | n/a | n/a | NLR (Nuclear): daily net flow history is still building. |
+| 2026-07-10 | QQQ | n/a | n/a | QQQ (Growth / Nasdaq): daily net flow history is still building. |
+| 2026-07-10 | RSP | n/a | n/a | RSP (Equal-Weight Equity): daily net flow history is still building. |
+| 2026-07-10 | SHY | n/a | n/a | SHY (Short Treasury): daily net flow history is still building. |
+| 2026-07-10 | SMH | n/a | n/a | SMH (Semiconductors): daily net flow history is still building. |
+| 2026-07-10 | SOXX | n/a | n/a | SOXX (Semiconductors): daily net flow history is still building. |
+| 2026-07-10 | SPY | n/a | n/a | SPY (Broad Equity): daily net flow history is still building. |
 
 ### Short-Sale Pressure
 
@@ -459,7 +452,7 @@ Curated to broad index ETFs, sector/theme ETFs, Mag 7, and high-beta chip names.
 
 ### Deferred Flow Sections
 
-- Official ETF / fund flows: exact daily net creations/redemptions are unavailable from the free source set; current report uses ETF flow proxies.
+- Official ETF / fund flows: current report uses shares-outstanding-derived net fund flow estimates from free ETF metadata.
 - Institutional Ownership: not available until SEC 13F ingestion is implemented.
 - Crowding / Squeeze Risks: initial coverage uses CFTC crowded positioning and FINRA elevated short-sale volume only.
 - Flow-Confirmed vs Price-Only Themes: partial coverage through ETF flow proxies; stronger coverage requires issuer/ICI adapters.
