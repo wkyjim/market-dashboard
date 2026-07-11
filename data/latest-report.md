@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-11T05:01:47.996625+00:00
+Generated at: 2026-07-11T06:40:02.774746+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **69.78 / 100** (Moderate Risk-On)
+- Regime score: **69.71 / 100** (Moderate Risk-On)
 - Market strength: **75.76 / 100** (strong)
 - Evidence quality: **90.0 / 100**
 - Breadth: **broad**; above 50DMA `60.0%`, above 200DMA `72.88%`
@@ -24,10 +24,10 @@ Window: 24h
 | credit_proxy | 50.0 |
 | dollar_fx | 54.88 |
 | commodity_confirmation | 58.0 |
-| news_confirmation | 62.5 |
+| news_confirmation | 61.25 |
 | market_strength | 75.76 |
 
-Positive contributors: equity_trend=90.0, volatility=80.0, market_strength=75.76, market_breadth=70.4, news_confirmation=62.5
+Positive contributors: equity_trend=90.0, volatility=80.0, market_strength=75.76, market_breadth=70.4, news_confirmation=61.25
 Negative contributors: none
 
 ## Market Strength Score
@@ -319,8 +319,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 42, 'negative': 22, 'neutral': 16}
-- News confirmation score: `62.5`
+- Sentiment counts: {'positive': 41, 'negative': 23, 'neutral': 16}
+- News confirmation score: `61.25`
 
 ### Top Market-Moving Headlines
 
@@ -332,23 +332,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.05`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**2. Bidding war breaks out for easyJet as Apollo tops rival private-equity group’s bid**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: A, EZJ, bidding war, private-equity
-- Score: `43.35`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**3. Meta’s stock roars back to life as it notches its best week in years**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: META, technology, social media
-- Score: `41.68`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**4. Buy these dividend-paying real estate stocks ahead of earnings, says UBS**
+**2. Buy these dividend-paying real estate stocks ahead of earnings, says UBS**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -356,7 +340,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. Elon Musk speaks exclusively to CNBC about Grok, Tesla and the SpaceX IPO: Live updates**
+**3. Elon Musk speaks exclusively to CNBC about Grok, Tesla and the SpaceX IPO: Live updates**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -364,7 +348,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. How Apple stock rode the AI rollercoaster to record highs in 1 chart**
+**4. How Apple stock rode the AI rollercoaster to record highs in 1 chart**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / long-term
@@ -372,7 +356,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. Meta’s stock roars back to life as it notches its best week in years**
+**5. Meta’s stock roars back to life as it notches its best week in years**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -380,7 +364,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. A trade blamed for a massive market blowup in 2024 has made a big comeback**
+**6. A trade blamed for a massive market blowup in 2024 has made a big comeback**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -388,7 +372,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.74`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. World oil demand set for first annual decline since 2020, IEA says**
+**7. World oil demand set for first annual decline since 2020, IEA says**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -396,11 +380,27 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.74`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Meta's stock has best week since early 2024 as optimism builds around AI strategy**
+**8. Meta’s stock roars back to life as it notches its best week in years**
+- Source: MarketWatch Bulletins
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: META, technology, social media
+- Score: `35.43`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**9. Meta's stock has best week since early 2024 as optimism builds around AI strategy**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: META, AI, Meta
+- Score: `35.43`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 5%**
+- Source: CNBC Top News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: CRL, U.S, banking, cryptocurrency
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
@@ -417,7 +417,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 
 Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV. Flows are grouped into broad-market and sector/thematic ETFs.
 
-#### Broad Market ETF Flows
+**Broad Market ETF Flows**
 
 | Date | ETF / Segment | 1D Net Flow | 5D Net Flow | Rule-Based Comment |
 | --- | --- | --- | --- | --- |
@@ -426,7 +426,7 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 | 2026-07-10 | GLD - Gold | -$376,138,716 | $188,069,358 | 1D outflow; 5D inflow. |
 | 2026-07-09 | JNK - High Yield Credit | -$76,720,858 | -$76,720,858 | 1D outflow; 5D outflow. |
 
-#### Sector / Thematic ETF Flows
+**Sector / Thematic ETF Flows**
 
 | Date | ETF / Segment | 1D Net Flow | 5D Net Flow | Rule-Based Comment |
 | --- | --- | --- | --- | --- |
@@ -440,6 +440,8 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 | 2026-07-09 | XLB - Materials | $140,786,142 | $216,207,290 | 1D inflow; 5D inflow. |
 | 2026-07-09 | XLRE - Real Estate | $42,011,003 | $128,244,113 | 1D inflow; 5D inflow. |
 | 2026-07-09 | CIBR - Cybersecurity | $79,540,577 | $118,249,664 | 1D inflow; 5D inflow. |
+| 2026-07-11 | SMH - Semiconductors | $0 | n/a | Tracked; 5D issuer flow history is still building. |
+| 2026-07-11 | SOXX - Semiconductors | $0 | n/a | Tracked; 5D issuer flow history is still building. |
 
 ### Short-Sale Pressure
 
@@ -481,4 +483,4 @@ No contradiction flags were triggered by current deterministic rules.
 - Macro rows loaded: `29`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
-- Positioning/flow rows loaded: `46`
+- Positioning/flow rows loaded: `48`
