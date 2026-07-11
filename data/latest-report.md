@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-11T07:40:39.640868+00:00
+Generated at: 2026-07-11T08:28:34.575293+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **69.56 / 100** (Moderate Risk-On)
+- Regime score: **69.59 / 100** (Moderate Risk-On)
 - Market strength: **75.76 / 100** (strong)
 - Evidence quality: **90.0 / 100**
 - Breadth: **broad**; above 50DMA `60.0%`, above 200DMA `72.88%`
@@ -24,7 +24,7 @@ Window: 24h
 | credit_proxy | 50.0 |
 | dollar_fx | 54.88 |
 | commodity_confirmation | 58.0 |
-| news_confirmation | 58.12 |
+| news_confirmation | 58.75 |
 | market_strength | 75.76 |
 
 Positive contributors: equity_trend=90.0, volatility=80.0, market_strength=75.76, market_breadth=70.4
@@ -319,8 +319,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 38, 'negative': 25, 'neutral': 17}
-- News confirmation score: `58.12`
+- Sentiment counts: {'positive': 39, 'negative': 25, 'neutral': 16}
+- News confirmation score: `58.75`
 
 ### Top Market-Moving Headlines
 
@@ -430,6 +430,7 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 
 | Date | ETF / Segment | 1D Net Flow | 5D Net Flow | Rule-Based Comment |
 | --- | --- | --- | --- | --- |
+| 2026-07-10 | SOXX - Semiconductors | -$1,191,479,588 | $5,986,458,416 | 1D outflow; 5D inflow. |
 | 2026-07-09 | SMH - Semiconductors | $698,871,830 | $3,099,381,666 | 1D inflow; 5D inflow. |
 | 2026-07-09 | XLP - Consumer Staples | -$24,967,242 | $607,536,222 | 1D outflow; 5D inflow. |
 | 2026-07-09 | XLI - Industrials | $81,504,857 | $570,534,001 | 1D inflow; 5D inflow. |
@@ -439,8 +440,6 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 | 2026-07-09 | XLC - Communication Services | -$55,278,041 | -$370,362,875 | 1D outflow; 5D outflow. |
 | 2026-07-09 | XLK - Technology | $64,868,850 | $250,208,421 | 1D inflow; 5D inflow. |
 | 2026-07-09 | XLB - Materials | $140,786,142 | $216,207,290 | 1D inflow; 5D inflow. |
-| 2026-07-09 | XLRE - Real Estate | $42,011,003 | $128,244,113 | 1D inflow; 5D inflow. |
-| 2026-07-09 | SOXX - Semiconductors | n/a | n/a | Issuer-backed snapshot saved; flow history is still building. |
 
 ### Short-Sale Pressure
 
@@ -482,4 +481,4 @@ No contradiction flags were triggered by current deterministic rules.
 - Macro rows loaded: `29`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
-- Positioning/flow rows loaded: `47`
+- Positioning/flow rows loaded: `46`
