@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-11T10:11:54.111184+00:00
+Generated at: 2026-07-11T11:33:36.535701+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **69.68 / 100** (Moderate Risk-On)
+- Regime score: **69.75 / 100** (Moderate Risk-On)
 - Market strength: **75.76 / 100** (strong)
 - Evidence quality: **90.0 / 100**
 - Breadth: **broad**; above 50DMA `60.0%`, above 200DMA `72.88%`
@@ -24,10 +24,10 @@ Window: 24h
 | credit_proxy | 50.0 |
 | dollar_fx | 54.88 |
 | commodity_confirmation | 58.0 |
-| news_confirmation | 60.62 |
+| news_confirmation | 61.88 |
 | market_strength | 75.76 |
 
-Positive contributors: equity_trend=90.0, volatility=80.0, market_strength=75.76, market_breadth=70.4, news_confirmation=60.62
+Positive contributors: equity_trend=90.0, volatility=80.0, market_strength=75.76, market_breadth=70.4, news_confirmation=61.88
 Negative contributors: none
 
 ## Market Strength Score
@@ -319,8 +319,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 42, 'negative': 25, 'neutral': 13}
-- News confirmation score: `60.62`
+- Sentiment counts: {'positive': 43, 'negative': 24, 'neutral': 13}
+- News confirmation score: `61.88`
 
 ### Top Market-Moving Headlines
 
@@ -468,6 +468,64 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 - Institutional Ownership: not available until SEC 13F ingestion is implemented.
 - Crowding / Squeeze Risks: initial coverage uses CFTC crowded positioning and FINRA elevated short-sale volume only.
 - Flow-Confirmed vs Price-Only Themes: partial coverage through ETF flow proxies; stronger coverage requires issuer/ICI adapters.
+
+## ETF Flow Analytics
+
+### ETF Flow Executive Summary
+
+- ETF flow regime: **moderate risk-off**
+- Flow regime score: `32.7`
+- Flow confidence: `34.9`
+- Dominant allocation direction: `defensive demand`
+- Regime conflict flag: `False`
+
+### Market Flow Dashboard
+
+| Segment | 1D Flow | 5D Flow | 20D Flow | Flow % AUM 20D | Score | Signal | Confidence |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| Real Estate | $468,565,825 | $562,603,456 | $429,563,541 | 0.0680 | 62.2 | neutral | 35.0 |
+| Gold | $13,950,449,203 | $13,920,362,846 | $12,174,706,225 | -0.0222 | 46.8 | neutral | 26.0 |
+| Core Bonds | $0 | $173,894,943 | $1,007,897,755 | 0.0238 | 44.9 | moderate outflow | 21.5 |
+| Investment Grade Credit | $0 | -$3,985,584,130 | $1,388,312,314 | 0.1145 | 43.5 | moderate outflow | 35.0 |
+| Cybersecurity | $0 | $80,578,512 | $117,473,787 | 0.0082 | 41.6 | moderate outflow | 21.5 |
+| Grid Infrastructure | $0 | $222,405 | $65,104,615 | 0.0055 | 38.5 | moderate outflow | 21.5 |
+| Global Equity | $0 | $0 | $628,075,495 | 0.0192 | 38.0 | moderate outflow | 21.5 |
+| Developed Markets ex-US | $20,582,458,380 | $20,270,210,853 | $20,835,311,912 | 0.0129 | 35.0 | moderate outflow | 28.8 |
+| High Yield Credit | $0 | -$1,163,075,128 | -$180,591,449 | 0.0082 | 24.9 | strong outflow | 35.0 |
+| Small Caps | $0 | $906,622,078 | -$178,104,554 | -0.0016 | 24.3 | strong outflow | 35.0 |
+| Emerging Markets | $0 | $0 | $0 | n/a | 22.0 | strong outflow | 77.5 |
+| Value | -$6,050,018,039 | -$6,063,404,239 | -$2,842,764,579 | -0.0832 | 17.2 | strong outflow | 35.0 |
+
+### Flow-Confirmed Forward Setups
+
+| Segment | Setup Score | Bucket | Flow | Breadth | Confidence |
+| --- | --- | --- | --- | --- | --- |
+| Real Estate | 71.7 | moderate positive setup | 74.4 | 100.0 | 35.0 |
+| Gold | 63.0 | moderate positive setup | 43.6 | 100.0 | 26.0 |
+| Cybersecurity | 61.4 | moderate positive setup | 33.3 | 100.0 | 21.5 |
+| Global Equity | 60.6 | moderate positive setup | 26.0 | 100.0 | 21.5 |
+| Core Bonds | 58.0 | neutral | 39.9 | 100.0 | 21.5 |
+| Grid Infrastructure | 57.0 | neutral | 27.0 | 100.0 | 21.5 |
+| Investment Grade Credit | 53.6 | neutral | 37.0 | 100.0 | 35.0 |
+| Developed Markets ex-US | 45.3 | neutral | 19.9 | 50.0 | 28.8 |
+| Nuclear | 38.1 | moderate underperformance risk | 0.0 | 0.0 | 51.5 |
+| Financials | 33.8 | moderate underperformance risk | 0.0 | 0.0 | 26.0 |
+
+### ETF Flow Contradiction Flags
+
+| Severity | Type | Segment | Description |
+| --- | --- | --- | --- |
+| medium | flow_concentration | Broad Equity | A small number of ETFs dominates the segment flow signal. |
+| medium | flow_concentration | Cybersecurity | A small number of ETFs dominates the segment flow signal. |
+| medium | flow_concentration | Developed Markets ex-US | A small number of ETFs dominates the segment flow signal. |
+| medium | flow_concentration | Core Bonds | A small number of ETFs dominates the segment flow signal. |
+| medium | flow_concentration | Energy | A small number of ETFs dominates the segment flow signal. |
+| medium | flow_concentration | Equal-Weight Equity | A small number of ETFs dominates the segment flow signal. |
+| medium | flow_concentration | Financials | A small number of ETFs dominates the segment flow signal. |
+| medium | flow_concentration | Global Equity | A small number of ETFs dominates the segment flow signal. |
+| medium | flow_concentration | Gold | A small number of ETFs dominates the segment flow signal. |
+| medium | flow_concentration | Grid Infrastructure | A small number of ETFs dominates the segment flow signal. |
+
 
 ## Contradiction / Audit Flags
 
