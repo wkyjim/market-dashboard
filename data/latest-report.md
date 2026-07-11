@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-11T09:12:29.449009+00:00
+Generated at: 2026-07-11T09:17:04.846941+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **69.65 / 100** (Moderate Risk-On)
+- Regime score: **69.71 / 100** (Moderate Risk-On)
 - Market strength: **75.76 / 100** (strong)
 - Evidence quality: **90.0 / 100**
 - Breadth: **broad**; above 50DMA `60.0%`, above 200DMA `72.88%`
@@ -24,10 +24,10 @@ Window: 24h
 | credit_proxy | 50.0 |
 | dollar_fx | 54.88 |
 | commodity_confirmation | 58.0 |
-| news_confirmation | 60.0 |
+| news_confirmation | 61.25 |
 | market_strength | 75.76 |
 
-Positive contributors: equity_trend=90.0, volatility=80.0, market_strength=75.76, market_breadth=70.4, news_confirmation=60.0
+Positive contributors: equity_trend=90.0, volatility=80.0, market_strength=75.76, market_breadth=70.4, news_confirmation=61.25
 Negative contributors: none
 
 ## Market Strength Score
@@ -319,8 +319,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 40, 'negative': 24, 'neutral': 16}
-- News confirmation score: `60.0`
+- Sentiment counts: {'positive': 41, 'negative': 23, 'neutral': 16}
+- News confirmation score: `61.25`
 
 ### Top Market-Moving Headlines
 
@@ -364,15 +364,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**6. World oil demand set for first annual decline since 2020, IEA says**
-- Source: CNBC Top News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: IEA, U.S, oil demand, geopolitical risk
-- Score: `36.74`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Meta’s stock roars back to life as it notches its best week in years**
+**6. Meta’s stock roars back to life as it notches its best week in years**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -380,7 +372,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. Meta's stock has best week since early 2024 as optimism builds around AI strategy**
+**7. Meta's stock has best week since early 2024 as optimism builds around AI strategy**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -388,7 +380,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 5%**
+**8. Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 5%**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -396,13 +388,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. Dow climbing over 200 points as U.S. stocks build on gains in final hour — live**
+**9. Dow climbing over 200 points as U.S. stocks build on gains in final hour — live**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short term
 - Affected assets: U.S, Stock Market
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Next week brings earnings and inflation data amid resumption of U.S.-Iran hostilities. Here's what's ahead**
+- Source: CNBC Business
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: MSFT, AAPL, GOOGL, TSLA, U.S
+- Score: `34.68`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
@@ -415,22 +415,37 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 
 ### ETF Fund Flows
 
-Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV. Flows are grouped into broad-market and sector/thematic ETFs.
+Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV. Flows are grouped into broad-market, fixed-income/macro, and sector/thematic ETFs.
 
 **Broad Market ETF Flows**
 
 | Date | ETF / Segment | 1D Net Flow | 5D Net Flow | Rule-Based Comment |
 | --- | --- | --- | --- | --- |
 | 2026-07-10 | IVV - Broad Equity | -$1,971,998,753 | -$5,878,073,207 | 1D outflow; 5D outflow. |
-| 2026-07-10 | LQD - Investment Grade Credit | $483,685,168 | $1,752,015,166 | 1D inflow; 5D inflow. |
-| 2026-07-10 | TLT - Long Duration Treasury | $591,121,713 | $1,596,028,625 | 1D inflow; 5D inflow. |
 | 2026-07-10 | IWM - Small Caps | $1,109,200,189 | $1,138,778,860 | 1D inflow; 5D inflow. |
-| 2026-07-10 | HYG - High Yield Credit | -$421,951,396 | -$1,027,013,776 | 1D outflow; 5D outflow. |
 | 2026-07-09 | SPY - Broad Equity | -$2,443,000,852 | -$601,354,056 | 1D outflow; 5D outflow. |
 | 2026-07-10 | IWD - Value | -$24,689,512 | $493,790,232 | 1D outflow; 5D inflow. |
+| 2026-07-10 | IJH - Mid Caps | $0 | $416,066,607 | 1D flat; 5D inflow. |
 | 2026-07-10 | IWF - Growth | $185,924,170 | -$371,848,341 | 1D inflow; 5D outflow. |
-| 2026-07-10 | SHY - Short Treasury | -$49,119,398 | $335,649,218 | 1D outflow; 5D inflow. |
+| 2026-07-10 | IXUS - International Equity | $0 | $341,915,566 | 1D flat; 5D inflow. |
 | 2026-07-10 | EFA - Developed Markets ex-US | $0 | -$312,584,514 | 1D flat; 5D outflow. |
+| 2026-07-09 | DIA - Dow Industrials | -$78,638,039 | $288,339,476 | 1D outflow; 5D inflow. |
+| 2026-07-10 | ITOT - Total U.S. Equity | $33,106,189 | $273,126,063 | 1D inflow; 5D inflow. |
+
+**Fixed Income / Macro ETF Flows**
+
+| Date | ETF / Segment | 1D Net Flow | 5D Net Flow | Rule-Based Comment |
+| --- | --- | --- | --- | --- |
+| 2026-07-10 | SGOV - Treasury Bills | $653,269,090 | $2,864,333,704 | 1D inflow; 5D inflow. |
+| 2026-07-10 | LQD - Investment Grade Credit | $483,685,168 | $1,752,015,166 | 1D inflow; 5D inflow. |
+| 2026-07-10 | TLT - Long Duration Treasury | $591,121,713 | $1,596,028,625 | 1D inflow; 5D inflow. |
+| 2026-07-10 | HYG - High Yield Credit | -$421,951,396 | -$1,027,013,776 | 1D outflow; 5D outflow. |
+| 2026-07-10 | AGG - Core Bonds | $107,865,997 | $774,673,976 | 1D inflow; 5D inflow. |
+| 2026-07-10 | SHY - Short Treasury | -$49,119,398 | $335,649,218 | 1D outflow; 5D inflow. |
+| 2026-07-10 | IUSB - Core Bonds | $64,027,548 | $237,816,608 | 1D inflow; 5D inflow. |
+| 2026-07-10 | GOVT - U.S. Treasuries | $88,056,423 | $207,722,844 | 1D inflow; 5D inflow. |
+| 2026-07-10 | GLD - Gold | -$376,138,716 | $188,069,358 | 1D outflow; 5D inflow. |
+| 2026-07-10 | IEF - Intermediate Treasury | -$9,361,177 | $159,140,011 | 1D outflow; 5D inflow. |
 
 **Sector / Thematic ETF Flows**
 
@@ -438,14 +453,14 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 | --- | --- | --- | --- | --- |
 | 2026-07-10 | SOXX - Semiconductors | -$1,191,479,588 | $5,986,458,416 | 1D outflow; 5D inflow. |
 | 2026-07-09 | SMH - Semiconductors | $698,871,830 | $3,099,381,666 | 1D inflow; 5D inflow. |
-| 2026-07-10 | SGOV - Treasury Bills | $653,269,090 | $2,864,333,704 | 1D inflow; 5D inflow. |
-| 2026-07-10 | AGG - Core Bonds | $107,865,997 | $774,673,976 | 1D inflow; 5D inflow. |
 | 2026-07-09 | XLP - Consumer Staples | -$24,967,242 | $607,536,222 | 1D outflow; 5D inflow. |
 | 2026-07-09 | XLI - Industrials | $81,504,857 | $570,534,001 | 1D inflow; 5D inflow. |
 | 2026-07-09 | XLF - Financials | -$16,662,784 | $547,094,738 | 1D outflow; 5D inflow. |
 | 2026-07-09 | XLE - Energy | -$21,923,620 | -$465,876,934 | 1D outflow; 5D outflow. |
 | 2026-07-10 | QUAL - Quality Factor | $32,951,485 | $461,320,786 | 1D inflow; 5D inflow. |
 | 2026-07-10 | DYNF - Equity Factor Rotation | $119,217,483 | $435,995,366 | 1D inflow; 5D inflow. |
+| 2026-07-09 | XLU - Utilities | -$11,280,378 | $419,630,071 | 1D outflow; 5D inflow. |
+| 2026-07-09 | XLC - Communication Services | -$55,278,041 | -$370,362,875 | 1D outflow; 5D outflow. |
 
 ### Deferred Flow Sections
 
@@ -465,4 +480,4 @@ No contradiction flags were triggered by current deterministic rules.
 - Macro rows loaded: `29`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
-- Positioning/flow rows loaded: `20`
+- Positioning/flow rows loaded: `30`
