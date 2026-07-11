@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-11T16:12:14.083185+00:00
+Generated at: 2026-07-11T19:12:13.798933+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **69.59 / 100** (Moderate Risk-On)
+- Regime score: **69.75 / 100** (Moderate Risk-On)
 - Market strength: **75.76 / 100** (strong)
 - Evidence quality: **90.0 / 100**
 - Breadth: **broad**; above 50DMA `60.0%`, above 200DMA `72.88%`
@@ -24,10 +24,10 @@ Window: 24h
 | credit_proxy | 50.0 |
 | dollar_fx | 54.88 |
 | commodity_confirmation | 58.0 |
-| news_confirmation | 58.75 |
+| news_confirmation | 61.88 |
 | market_strength | 75.76 |
 
-Positive contributors: equity_trend=90.0, volatility=80.0, market_strength=75.76, market_breadth=70.4
+Positive contributors: equity_trend=90.0, volatility=80.0, market_strength=75.76, market_breadth=70.4, news_confirmation=61.88
 Negative contributors: none
 
 ## Market Strength Score
@@ -235,7 +235,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 2 | Financials | 68.38 | strong uptrend | positive | broad | 51.11 | HOOD, GPN, JKHY | APO, CME, CBOE |
 | 3 | Healthcare | 68.0 | strong uptrend | positive | broad | 50.44 | MRNA, TECH, CRL | PFE, ZTS, BSX |
 | 4 | Industrials | 66.07 | strong uptrend | positive | broad | 50.39 | AXON, GEV, UAL | LDOS, CPRT, FDXF |
-| 5 | Technology | 64.97 | strong uptrend | positive | broad | 55.2 | ZBRA, PANW, AMD | ORCL, CRWD, KLAC |
+| 5 | Technology | 65.01 | strong uptrend | positive | broad | 55.2 | ZBRA, PANW, AMD | ORCL, CRWD, KLAC |
 | 6 | Semiconductors | 64.16 | strong uptrend | positive | broad | 64.4 | SOXX, SMH | SMH, SOXX |
 | 7 | Real Estate | 59.95 | strong uptrend | neutral | broad | 44.29 | WELL, VTR, DOC | AMT, CCI, CSGP |
 | 8 | Consumer Staples | 59.64 | strong uptrend | neutral | broad | 44.41 | DLTR, KMB, DG | MDLZ, CASY, BG |
@@ -278,7 +278,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Financials | Financials | 68.38 | strong | 61.7 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 68.0 | strong | 63.18 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 66.07 | strong | 45.86 | mixed | sector stronger than related themes |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 64.97 | positive | 56.49 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.01 | strong | 56.49 | positive | sector and theme confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 64.16 | positive | 58.55 | positive | sector and theme confirmation |
 | Real Estate | Dividend Defensives | 59.95 | positive | 55.31 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 59.64 | positive | 55.31 | positive | sector and theme confirmation |
@@ -319,8 +319,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 40, 'negative': 26, 'neutral': 14}
-- News confirmation score: `58.75`
+- Sentiment counts: {'positive': 42, 'negative': 23, 'neutral': 15}
+- News confirmation score: `61.88`
 
 ### Top Market-Moving Headlines
 
@@ -329,24 +329,24 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / medium-term
 - Affected assets: financial crisis, market outlook
-- Score: `48.05`
+- Score: `56.52`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**2. Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier**
-- Source: CNBC Business Headlines
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, geopolitical_risk, defense
-- Score: `47.6`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. Buy these dividend-paying real estate stocks ahead of earnings, says UBS**
+**2. Buy these dividend-paying real estate stocks ahead of earnings, says UBS**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: UBS, senior housing stocks, skilled nursing facilities, real estate, dividends
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**3. Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier**
+- Source: CNBC Business Headlines
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, geopolitical_risk, defense
+- Score: `40.46`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **4. How Apple stock rode the AI rollercoaster to record highs in 1 chart**
 - Source: CNBC Markets
@@ -356,13 +356,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**5. Regular water is no longer enough. Welcome to the corporate gold rush around ‘functional hydration.’**
+**5. Your data built the AI boom — but Big Tech is pocketing 100% of the equity**
 - Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: GLP, health, consumer goods, biotech
-- Score: `39.0`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AI, equity distribution
+- Score: `37.4`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 **6. Meta’s stock roars back to life as it notches its best week in years**
 - Source: MarketWatch Top Stories
@@ -396,13 +396,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. Dow climbing over 200 points as U.S. stocks build on gains in final hour — live**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short term
-- Affected assets: U.S, Stock Market
-- Score: `35.43`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+**10. Next week brings earnings and inflation data amid resumption of U.S.-Iran hostilities. Here's what's ahead**
+- Source: CNBC Business
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: MSFT, AAPL, GOOGL, TSLA, U.S
+- Score: `34.68`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
