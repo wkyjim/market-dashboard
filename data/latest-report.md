@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-11T06:50:33.764921+00:00
+Generated at: 2026-07-11T07:11:58.890153+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **69.71 / 100** (Moderate Risk-On)
+- Regime score: **69.62 / 100** (Moderate Risk-On)
 - Market strength: **75.76 / 100** (strong)
 - Evidence quality: **90.0 / 100**
 - Breadth: **broad**; above 50DMA `60.0%`, above 200DMA `72.88%`
@@ -24,10 +24,10 @@ Window: 24h
 | credit_proxy | 50.0 |
 | dollar_fx | 54.88 |
 | commodity_confirmation | 58.0 |
-| news_confirmation | 61.25 |
+| news_confirmation | 59.38 |
 | market_strength | 75.76 |
 
-Positive contributors: equity_trend=90.0, volatility=80.0, market_strength=75.76, market_breadth=70.4, news_confirmation=61.25
+Positive contributors: equity_trend=90.0, volatility=80.0, market_strength=75.76, market_breadth=70.4
 Negative contributors: none
 
 ## Market Strength Score
@@ -235,10 +235,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 2 | Financials | 68.38 | strong uptrend | positive | broad | 51.11 | HOOD, GPN, JKHY | APO, CME, CBOE |
 | 3 | Healthcare | 68.0 | strong uptrend | positive | broad | 50.44 | MRNA, TECH, CRL | PFE, ZTS, BSX |
 | 4 | Industrials | 66.07 | strong uptrend | positive | broad | 50.39 | AXON, GEV, UAL | LDOS, CPRT, FDXF |
-| 5 | Technology | 64.7 | strong uptrend | positive | broad | 55.2 | ZBRA, PANW, AMD | ORCL, CRWD, KLAC |
+| 5 | Technology | 64.97 | strong uptrend | positive | broad | 55.2 | ZBRA, PANW, AMD | ORCL, CRWD, KLAC |
 | 6 | Semiconductors | 63.77 | strong uptrend | positive | broad | 64.4 | SOXX, SMH | SMH, SOXX |
-| 7 | Consumer Staples | 59.64 | strong uptrend | neutral | broad | 44.41 | DLTR, KMB, DG | MDLZ, CASY, BG |
-| 8 | Real Estate | 59.62 | strong uptrend | neutral | broad | 44.29 | WELL, VTR, DOC | AMT, CCI, CSGP |
+| 7 | Real Estate | 59.88 | strong uptrend | neutral | broad | 44.29 | WELL, VTR, DOC | AMT, CCI, CSGP |
+| 8 | Consumer Staples | 59.64 | strong uptrend | neutral | broad | 44.41 | DLTR, KMB, DG | MDLZ, CASY, BG |
 | 9 | Utilities | 59.6 | uptrend | neutral | broad | 45.98 | NRG, VST, ES | NI, PPL, DUK |
 | 10 | Crypto | 50.0 | neutral | neutral | mixed | 50.0 |  |  |
 | 11 | Consumer Discretionary | 47.32 | downtrend | neutral | weak | 46.33 | GPC, DASH, EXPE | APTV, LVS, TJX |
@@ -278,10 +278,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Financials | Financials | 68.38 | strong | 61.7 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 68.0 | strong | 63.18 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 66.07 | strong | 45.75 | mixed | sector stronger than related themes |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 64.7 | positive | 56.16 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 64.97 | positive | 56.16 | positive | sector and theme confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 63.77 | positive | 58.06 | positive | sector and theme confirmation |
+| Real Estate | Dividend Defensives | 59.88 | positive | 55.31 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 59.64 | positive | 55.31 | positive | sector and theme confirmation |
-| Real Estate | Dividend Defensives | 59.62 | positive | 55.31 | positive | sector and theme confirmation |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 59.6 | positive | 45.1 | mixed | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 50.0 | mixed | 28.67 | very weak | mixed confirmation |
 | Consumer Discretionary | Small Caps | 47.32 | mixed | 58.53 | positive | theme stronger than official sector |
@@ -319,8 +319,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 41, 'negative': 23, 'neutral': 16}
-- News confirmation score: `61.25`
+- Sentiment counts: {'positive': 39, 'negative': 24, 'neutral': 17}
+- News confirmation score: `59.38`
 
 ### Top Market-Moving Headlines
 
@@ -407,7 +407,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-Noisy headline list: Slumping AI stocks could be really good news for y, The bar is high for S&P 500 earnings, but these as, Stock market today: Nasdaq rises, Dow and S&P 500 
+Noisy headline list: Slumping AI stocks could be really good news for y, The bar is high for S&P 500 earnings, but these as
 
 ## Positioning & Flow Dashboard
 
@@ -430,6 +430,7 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 
 | Date | ETF / Segment | 1D Net Flow | 5D Net Flow | Rule-Based Comment |
 | --- | --- | --- | --- | --- |
+| 2026-07-09 | SMH - Semiconductors | $698,871,830 | $3,099,381,666 | 1D inflow; 5D inflow. |
 | 2026-07-09 | XLP - Consumer Staples | -$24,967,242 | $607,536,222 | 1D outflow; 5D inflow. |
 | 2026-07-09 | XLI - Industrials | $81,504,857 | $570,534,001 | 1D inflow; 5D inflow. |
 | 2026-07-09 | XLF - Financials | -$16,662,784 | $547,094,738 | 1D outflow; 5D inflow. |
@@ -439,8 +440,6 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 | 2026-07-09 | XLK - Technology | $64,868,850 | $250,208,421 | 1D inflow; 5D inflow. |
 | 2026-07-09 | XLB - Materials | $140,786,142 | $216,207,290 | 1D inflow; 5D inflow. |
 | 2026-07-09 | XLRE - Real Estate | $42,011,003 | $128,244,113 | 1D inflow; 5D inflow. |
-| 2026-07-09 | CIBR - Cybersecurity | $79,540,577 | $118,249,664 | 1D inflow; 5D inflow. |
-| 2026-07-10 | SMH - Semiconductors | n/a | n/a | Issuer-backed snapshot saved; flow history is still building. |
 | 2026-07-09 | SOXX - Semiconductors | n/a | n/a | Issuer-backed snapshot saved; flow history is still building. |
 
 ### Short-Sale Pressure
@@ -483,4 +482,4 @@ No contradiction flags were triggered by current deterministic rules.
 - Macro rows loaded: `29`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
-- Positioning/flow rows loaded: `48`
+- Positioning/flow rows loaded: `47`
