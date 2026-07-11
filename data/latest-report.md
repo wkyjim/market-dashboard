@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-11T13:11:55.829498+00:00
+Generated at: 2026-07-11T13:57:23.912274+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -425,10 +425,10 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 | 2026-07-10 | IWM - Small Caps | $1,109,200,189 | $1,138,778,860 | 1D inflow; 5D inflow. |
 | 2026-07-09 | SPY - Broad Equity | -$2,443,000,852 | -$601,354,056 | 1D outflow; 5D outflow. |
 | 2026-07-10 | IWD - Value | -$24,689,512 | $493,790,232 | 1D outflow; 5D inflow. |
-| 2026-07-10 | IJH - Mid Caps | $0 | $416,066,607 | 1D flat; 5D inflow. |
+| 2026-07-10 | IJH - Mid Caps | $0 | $416,066,607 | No 1D shares-outstanding change reported; 5D inflow. |
 | 2026-07-10 | IWF - Growth | $185,924,170 | -$371,848,341 | 1D inflow; 5D outflow. |
-| 2026-07-10 | IXUS - International Equity | $0 | $341,915,566 | 1D flat; 5D inflow. |
-| 2026-07-10 | EFA - Developed Markets ex-US | $0 | -$312,584,514 | 1D flat; 5D outflow. |
+| 2026-07-10 | IXUS - International Equity | $0 | $341,915,566 | No 1D shares-outstanding change reported; 5D inflow. |
+| 2026-07-10 | EFA - Developed Markets ex-US | $0 | -$312,584,514 | No 1D shares-outstanding change reported; 5D outflow. |
 | 2026-07-09 | DIA - Dow Industrials | -$78,638,039 | $288,339,476 | 1D outflow; 5D inflow. |
 | 2026-07-10 | ITOT - Total U.S. Equity | $33,106,189 | $273,126,063 | 1D inflow; 5D inflow. |
 
@@ -474,8 +474,8 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 ### ETF Flow Executive Summary
 
 - ETF flow regime: **moderate risk-off**
-- Flow regime score: `32.7`
-- Flow confidence: `34.9`
+- Flow regime score: `31.4`
+- Flow confidence: `35.2`
 - Dominant allocation direction: `defensive demand`
 - Regime conflict flag: `False`
 
@@ -484,17 +484,17 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 | Segment | 1D Flow | 5D Flow | 20D Flow | Flow % AUM 20D | Score | Signal | Confidence |
 | --- | --- | --- | --- | --- | --- | --- | --- |
 | Real Estate | $468,565,825 | $562,603,456 | $429,563,541 | 0.0680 | 62.2 | neutral | 35.0 |
-| Gold | $13,950,449,203 | $13,920,362,846 | $12,174,706,225 | -0.0222 | 46.8 | neutral | 26.0 |
+| Gold | $13,845,638,225 | $13,815,551,869 | $12,069,895,248 | -0.0222 | 46.8 | neutral | 26.0 |
 | Core Bonds | $0 | $173,894,943 | $1,007,897,755 | 0.0238 | 44.9 | moderate outflow | 21.5 |
-| Investment Grade Credit | $0 | -$3,985,584,130 | $1,388,312,314 | 0.1145 | 43.5 | moderate outflow | 35.0 |
 | Cybersecurity | $0 | $80,578,512 | $117,473,787 | 0.0082 | 41.6 | moderate outflow | 21.5 |
 | Grid Infrastructure | $0 | $222,405 | $65,104,615 | 0.0055 | 38.5 | moderate outflow | 21.5 |
+| Investment Grade Credit | -$3,985,584,130 | -$3,994,201,319 | $1,379,695,125 | 0.0135 | 38.3 | moderate outflow | 35.0 |
 | Global Equity | $0 | $0 | $628,075,495 | 0.0192 | 38.0 | moderate outflow | 21.5 |
 | Developed Markets ex-US | $20,582,458,380 | $20,270,210,853 | $20,835,311,912 | 0.0129 | 35.0 | moderate outflow | 28.8 |
-| High Yield Credit | $0 | -$1,163,075,128 | -$180,591,449 | 0.0082 | 24.9 | strong outflow | 35.0 |
 | Small Caps | $0 | $906,622,078 | -$178,104,554 | -0.0016 | 24.3 | strong outflow | 35.0 |
-| Emerging Markets | $0 | $0 | $0 | n/a | 22.0 | strong outflow | 77.5 |
-| Value | -$6,050,018,039 | -$6,063,404,239 | -$2,842,764,579 | -0.0832 | 17.2 | strong outflow | 35.0 |
+| Value | $0 | -$6,063,404,239 | -$2,842,764,579 | -0.0832 | 23.1 | strong outflow | 35.0 |
+| Long Duration Treasury | $0 | -$32,917,144,742 | -$31,231,367,297 | -0.3383 | 23.0 | strong outflow | 35.0 |
+| Intermediate Treasury | $0 | -$33,335,104,806 | -$33,260,695,656 | -0.0150 | 22.6 | strong outflow | 35.0 |
 
 ### Flow-Confirmed Forward Setups
 
@@ -506,7 +506,7 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 | Global Equity | 60.6 | moderate positive setup | 26.0 | 100.0 | 21.5 |
 | Core Bonds | 58.0 | neutral | 39.9 | 100.0 | 21.5 |
 | Grid Infrastructure | 57.0 | neutral | 27.0 | 100.0 | 21.5 |
-| Investment Grade Credit | 53.6 | neutral | 37.0 | 100.0 | 35.0 |
+| Investment Grade Credit | 50.0 | neutral | 26.6 | 100.0 | 35.0 |
 | Developed Markets ex-US | 45.3 | neutral | 19.9 | 50.0 | 28.8 |
 | Nuclear | 38.1 | moderate underperformance risk | 0.0 | 0.0 | 51.5 |
 | Financials | 33.8 | moderate underperformance risk | 0.0 | 0.0 | 26.0 |
@@ -535,7 +535,7 @@ No contradiction flags were triggered by current deterministic rules.
 
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
-- Macro rows loaded: `29`
+- Macro rows loaded: `38`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`

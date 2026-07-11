@@ -1,6 +1,16 @@
 const API_BASE = "https://postgresql-us-equities-api.onrender.com";
 const MARKET_TAPE_GROUPS = [
   {
+    title: "U.S. Market Indices",
+    key: "us",
+    symbols: [
+      ["^GSPC", "S&P 500"],
+      ["^NDX", "Nasdaq 100"],
+      ["^DJI", "DJIA"],
+      ["^VIX", "VIX"]
+    ]
+  },
+  {
     title: "Asia Equity Indices",
     key: "asia",
     symbols: [
@@ -17,7 +27,23 @@ const MARKET_TAPE_GROUPS = [
       ["ES=F", "S&P 500 Future"],
       ["NQ=F", "Nasdaq 100 Future"],
       ["YM=F", "Dow Future"],
-      ["RTY=F", "Russell 2000 Future"]
+      ["RTY=F", "Russell 2000 Future"],
+      ["^HSI", "HSI Proxy"],
+      ["NIY=F", "Nikkei Future"],
+      ["^KS200", "KOSPI 200 Proxy"]
+    ]
+  },
+  {
+    title: "Other Assets",
+    key: "other",
+    symbols: [
+      ["DX-Y.NYB", "DXY"],
+      ["JPY=X", "USD/JPY"],
+      ["EURUSD=X", "EUR/USD"],
+      ["GC=F", "Gold"],
+      ["BZ=F", "Brent"],
+      ["CL=F", "WTI"],
+      ["BTC-USD", "Bitcoin"]
     ]
   },
   {
