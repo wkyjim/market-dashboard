@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-11T07:12:21.548019+00:00
+Generated at: 2026-07-11T07:40:39.640868+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **69.62 / 100** (Moderate Risk-On)
+- Regime score: **69.56 / 100** (Moderate Risk-On)
 - Market strength: **75.76 / 100** (strong)
 - Evidence quality: **90.0 / 100**
 - Breadth: **broad**; above 50DMA `60.0%`, above 200DMA `72.88%`
@@ -24,7 +24,7 @@ Window: 24h
 | credit_proxy | 50.0 |
 | dollar_fx | 54.88 |
 | commodity_confirmation | 58.0 |
-| news_confirmation | 59.38 |
+| news_confirmation | 58.12 |
 | market_strength | 75.76 |
 
 Positive contributors: equity_trend=90.0, volatility=80.0, market_strength=75.76, market_breadth=70.4
@@ -319,8 +319,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 39, 'negative': 24, 'neutral': 17}
-- News confirmation score: `59.38`
+- Sentiment counts: {'positive': 38, 'negative': 25, 'neutral': 17}
+- News confirmation score: `58.12`
 
 ### Top Market-Moving Headlines
 
