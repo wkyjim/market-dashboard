@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-11T06:40:02.774746+00:00
+Generated at: 2026-07-11T06:50:33.764921+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -364,15 +364,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**6. A trade blamed for a massive market blowup in 2024 has made a big comeback**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: A, trade policy, market volatility
-- Score: `36.74`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**7. World oil demand set for first annual decline since 2020, IEA says**
+**6. World oil demand set for first annual decline since 2020, IEA says**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -380,7 +372,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.74`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Meta’s stock roars back to life as it notches its best week in years**
+**7. Meta’s stock roars back to life as it notches its best week in years**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -388,7 +380,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. Meta's stock has best week since early 2024 as optimism builds around AI strategy**
+**8. Meta's stock has best week since early 2024 as optimism builds around AI strategy**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -396,11 +388,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 5%**
+**9. Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 5%**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: CRL, U.S, banking, cryptocurrency
+- Score: `35.43`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Dow climbing over 200 points as U.S. stocks build on gains in final hour — live**
+- Source: MarketWatch Bulletins
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short term
+- Affected assets: U.S, Stock Market
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
@@ -440,8 +440,8 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 | 2026-07-09 | XLB - Materials | $140,786,142 | $216,207,290 | 1D inflow; 5D inflow. |
 | 2026-07-09 | XLRE - Real Estate | $42,011,003 | $128,244,113 | 1D inflow; 5D inflow. |
 | 2026-07-09 | CIBR - Cybersecurity | $79,540,577 | $118,249,664 | 1D inflow; 5D inflow. |
-| 2026-07-11 | SMH - Semiconductors | $0 | n/a | Tracked; 5D issuer flow history is still building. |
-| 2026-07-11 | SOXX - Semiconductors | $0 | n/a | Tracked; 5D issuer flow history is still building. |
+| 2026-07-10 | SMH - Semiconductors | n/a | n/a | Issuer-backed snapshot saved; flow history is still building. |
+| 2026-07-09 | SOXX - Semiconductors | n/a | n/a | Issuer-backed snapshot saved; flow history is still building. |
 
 ### Short-Sale Pressure
 
