@@ -1,16 +1,17 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-11T19:12:13.798933+00:00
+Generated at: 2026-07-11T22:11:46.386734+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **69.75 / 100** (Moderate Risk-On)
+- Regime score: **64.74 / 100** (Mild Risk-On)
 - Market strength: **75.76 / 100** (strong)
-- Evidence quality: **90.0 / 100**
+- Evidence quality: **86.5 / 100**
+- ETF flow contribution: **31.39 / 100**, reliability **35.24 / 100**
 - Breadth: **broad**; above 50DMA `60.0%`, above 200DMA `72.88%`
-- Top sector score: **Cybersecurity** `74.32`
-- Top theme score: **Healthcare Innovation** `63.18`
+- Top sector score: **Cybersecurity** `71.02`
+- Top theme score: **Healthcare Innovation** `60.83`
 
 ## Market Regime Score
 
@@ -24,11 +25,11 @@ Window: 24h
 | credit_proxy | 50.0 |
 | dollar_fx | 54.88 |
 | commodity_confirmation | 58.0 |
-| news_confirmation | 61.88 |
-| market_strength | 75.76 |
+| etf_flow | 43.44 |
+| news_confirmation | 58.12 |
 
-Positive contributors: equity_trend=90.0, volatility=80.0, market_strength=75.76, market_breadth=70.4, news_confirmation=61.88
-Negative contributors: none
+Positive contributors: equity_trend=90.0, volatility=80.0, market_breadth=70.4
+Negative contributors: etf_flow=43.44
 
 ## Market Strength Score
 
@@ -46,9 +47,9 @@ Negative contributors: none
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `90.0`
-- Agreement ratio: `0.8`
-- Contradiction count: `0`
+- Confidence score: `86.5`
+- Agreement ratio: `0.7`
+- Contradiction count: `1`
 - Missing indicators: none
 - Warning flags: none
 
@@ -229,66 +230,66 @@ ABS Australia note: ABS rows are stored locally/Neon, but most series are dimens
 
 Supporting and detracting names are the top/bottom S&P 500 constituents by 20D return when constituent coverage is available; otherwise the report falls back to related ETFs.
 
-| Rank | Sector | Score | Trend | Momentum | Breadth | 3M RS | Supporting / Leaders | Detracting / Laggards |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Cybersecurity | 74.32 | strong uptrend | positive | broad | 68.83 | CIBR | CIBR |
-| 2 | Financials | 68.38 | strong uptrend | positive | broad | 51.11 | HOOD, GPN, JKHY | APO, CME, CBOE |
-| 3 | Healthcare | 68.0 | strong uptrend | positive | broad | 50.44 | MRNA, TECH, CRL | PFE, ZTS, BSX |
-| 4 | Industrials | 66.07 | strong uptrend | positive | broad | 50.39 | AXON, GEV, UAL | LDOS, CPRT, FDXF |
-| 5 | Technology | 65.01 | strong uptrend | positive | broad | 55.2 | ZBRA, PANW, AMD | ORCL, CRWD, KLAC |
-| 6 | Semiconductors | 64.16 | strong uptrend | positive | broad | 64.4 | SOXX, SMH | SMH, SOXX |
-| 7 | Real Estate | 59.95 | strong uptrend | neutral | broad | 44.29 | WELL, VTR, DOC | AMT, CCI, CSGP |
-| 8 | Consumer Staples | 59.64 | strong uptrend | neutral | broad | 44.41 | DLTR, KMB, DG | MDLZ, CASY, BG |
-| 9 | Utilities | 59.6 | uptrend | neutral | broad | 45.98 | NRG, VST, ES | NI, PPL, DUK |
-| 10 | Crypto | 50.0 | neutral | neutral | mixed | 50.0 |  |  |
-| 11 | Consumer Discretionary | 47.32 | downtrend | neutral | weak | 46.33 | GPC, DASH, EXPE | APTV, LVS, TJX |
-| 12 | Grid Infrastructure | 44.51 | neutral | neutral | weak | 45.97 | GRID | GRID |
-| 13 | Energy | 40.87 | strong downtrend | neutral | weak | 40.19 | VLO, MPC, TPL | APA, HAL, SLB |
-| 14 | Defense | 38.87 | downtrend | neutral | weak | 44.41 | XAR | XAR |
-| 15 | Nuclear | 29.65 | strong downtrend | negative | weak | 35.91 | NLR | NLR |
+| Rank | Sector | Score | Trend | Momentum | Stock Breadth | ETF Flow | Flow Reliability | 3M RS | Supporting / Leaders | Detracting / Laggards |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Cybersecurity | 71.02 | strong uptrend | positive | broad | 50.0 | 0.0 | 68.83 | CIBR | CIBR |
+| 2 | Financials | 65.7 | strong uptrend | positive | broad | 50.0 | 0.0 | 51.11 | HOOD, GPN, JKHY | APO, CME, CBOE |
+| 3 | Healthcare | 65.36 | strong uptrend | positive | broad | 50.0 | 0.0 | 50.44 | MRNA, TECH, CRL | PFE, ZTS, BSX |
+| 4 | Industrials | 63.43 | strong uptrend | positive | broad | 50.0 | 0.0 | 50.39 | AXON, GEV, UAL | LDOS, CPRT, FDXF |
+| 5 | Technology | 62.33 | strong uptrend | positive | broad | 50.0 | 0.0 | 55.2 | ZBRA, PANW, AMD | ORCL, CRWD, KLAC |
+| 6 | Semiconductors | 61.45 | strong uptrend | positive | broad | 50.0 | 0.0 | 64.4 | SOXX, SMH | SMH, SOXX |
+| 7 | Utilities | 57.67 | uptrend | neutral | broad | 50.0 | 0.0 | 45.98 | NRG, VST, ES | NI, PPL, DUK |
+| 8 | Consumer Staples | 57.66 | strong uptrend | neutral | broad | 50.0 | 0.0 | 44.41 | DLTR, KMB, DG | MDLZ, CASY, BG |
+| 9 | Real Estate | 57.64 | strong uptrend | neutral | broad | 50.0 | 0.0 | 44.29 | WELL, VTR, DOC | AMT, CCI, CSGP |
+| 10 | Crypto | 50.0 | neutral | neutral | mixed | 50.0 | 0.0 | 50.0 |  |  |
+| 11 | Consumer Discretionary | 49.04 | downtrend | neutral | weak | 50.0 | 0.0 | 46.33 | GPC, DASH, EXPE | APTV, LVS, TJX |
+| 12 | Grid Infrastructure | 45.96 | neutral | neutral | weak | 50.0 | 0.0 | 45.97 | GRID | GRID |
+| 13 | Energy | 43.26 | strong downtrend | neutral | weak | 50.0 | 0.0 | 40.19 | VLO, MPC, TPL | APA, HAL, SLB |
+| 14 | Defense | 40.77 | downtrend | neutral | weak | 50.0 | 0.0 | 44.41 | XAR | XAR |
+| 15 | Nuclear | 32.56 | strong downtrend | negative | weak | 50.0 | 0.0 | 35.91 | NLR | NLR |
 
 ### Thematic Strength
 
-| Rank | Theme | Score | Setup | Dispersion | Price | News |
-| --- | --- | --- | --- | --- | --- | --- |
-| 1 | Healthcare Innovation | 63.18 | Positive setup | 12.01 | True | False |
-| 2 | Semiconductors | 62.97 | Positive setup | 19.68 | True | False |
-| 3 | Financials | 61.7 | Positive setup | 4.02 | True | False |
-| 4 | Small Caps | 58.53 | Positive setup | 0.0 | False | False |
-| 5 | Cybersecurity | 56.69 | Neutral / watchlist | 94.92 | False | False |
-| 6 | Dividend Defensives | 55.31 | Neutral / watchlist | 6.83 | False | False |
-| 7 | AI Infrastructure | 54.13 | Neutral / watchlist | 10.44 | False | False |
-| 8 | Quality Growth | 52.38 | Neutral / watchlist | 11.23 | False | False |
-| 9 | Grid Infrastructure | 50.57 | Neutral / watchlist | 7.3 | False | False |
-| 10 | Defense | 41.15 | Weak setup | 26.83 | False | False |
-| 11 | Energy | 40.51 | Weak setup | 2.35 | False | False |
-| 12 | Nuclear | 29.43 | Weak setup | 17.59 | False | False |
-| 13 | Crypto Infrastructure | 28.67 | Underperformance risk | 21.27 | False | False |
+| Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 1 | Healthcare Innovation | 60.83 | Positive setup | 50.0 | 0.0 | 12.01 | True | False |
+| 2 | Semiconductors | 60.53 | Positive setup | 50.0 | 0.0 | 19.68 | True | False |
+| 3 | Financials | 59.43 | Positive setup | 50.0 | 0.0 | 4.02 | False | False |
+| 4 | Small Caps | 56.35 | Positive setup | 50.0 | 0.0 | 0.0 | False | False |
+| 5 | Cybersecurity | 55.63 | Neutral / watchlist | 50.0 | 0.0 | 94.92 | False | False |
+| 6 | Dividend Defensives | 54.02 | Neutral / watchlist | 50.0 | 0.0 | 6.83 | False | False |
+| 7 | AI Infrastructure | 52.88 | Neutral / watchlist | 50.0 | 0.0 | 10.44 | False | False |
+| 8 | Quality Growth | 51.4 | Neutral / watchlist | 50.0 | 0.0 | 11.23 | False | False |
+| 9 | Grid Infrastructure | 49.8 | Neutral / watchlist | 50.0 | 0.0 | 7.3 | False | False |
+| 10 | Defense | 42.0 | Weak setup | 50.0 | 0.0 | 26.83 | False | False |
+| 11 | Energy | 41.63 | Weak setup | 50.0 | 0.0 | 2.35 | False | False |
+| 12 | Nuclear | 31.81 | Weak setup | 50.0 | 0.0 | 17.59 | False | False |
+| 13 | Crypto Infrastructure | 31.46 | Underperformance risk | 50.0 | 0.0 | 21.27 | False | False |
 
 - Top 5 improving themes: Cybersecurity, Semiconductors, Healthcare Innovation, AI Infrastructure, Quality Growth
 - Top 5 deteriorating themes: Crypto Infrastructure, Nuclear, Defense, Energy, Grid Infrastructure
 - Strong news but weak price confirmation: none
-- Strong price but weak news confirmation: Healthcare Innovation, Semiconductors, Financials
+- Strong price but weak news confirmation: Healthcare Innovation, Semiconductors
 
 ### Sector / Theme Alignment
 
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cybersecurity | Cybersecurity | 74.32 | strong | 56.69 | positive | sector and theme confirmation |
-| Financials | Financials | 68.38 | strong | 61.7 | positive | sector and theme confirmation |
-| Healthcare | Healthcare Innovation | 68.0 | strong | 63.18 | positive | sector and theme confirmation |
-| Industrials | Defense, Grid Infrastructure | 66.07 | strong | 45.86 | mixed | sector stronger than related themes |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.01 | strong | 56.49 | positive | sector and theme confirmation |
-| Semiconductors | AI Infrastructure, Semiconductors | 64.16 | positive | 58.55 | positive | sector and theme confirmation |
-| Real Estate | Dividend Defensives | 59.95 | positive | 55.31 | positive | sector and theme confirmation |
-| Consumer Staples | Dividend Defensives | 59.64 | positive | 55.31 | positive | sector and theme confirmation |
-| Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 59.6 | positive | 45.1 | mixed | sector stronger than related themes |
-| Crypto | Crypto Infrastructure | 50.0 | mixed | 28.67 | very weak | mixed confirmation |
-| Consumer Discretionary | Small Caps | 47.32 | mixed | 58.53 | positive | theme stronger than official sector |
-| Grid Infrastructure | Grid Infrastructure | 44.51 | weak | 50.57 | mixed | mixed confirmation |
-| Energy | Energy | 40.87 | weak | 40.51 | weak | broad weakness across sector and themes |
-| Defense | Defense | 38.87 | weak | 41.15 | weak | broad weakness across sector and themes |
-| Nuclear | Nuclear | 29.65 | very weak | 29.43 | very weak | broad weakness across sector and themes |
+| Cybersecurity | Cybersecurity | 71.02 | strong | 55.63 | positive | sector and theme confirmation |
+| Financials | Financials | 65.7 | strong | 59.43 | positive | sector and theme confirmation |
+| Healthcare | Healthcare Innovation | 65.36 | strong | 60.83 | positive | sector and theme confirmation |
+| Industrials | Defense, Grid Infrastructure | 63.43 | positive | 45.9 | mixed | sector stronger than related themes |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 62.33 | positive | 54.94 | mixed | sector stronger than related themes |
+| Semiconductors | AI Infrastructure, Semiconductors | 61.45 | positive | 56.71 | positive | sector and theme confirmation |
+| Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 57.67 | positive | 45.21 | mixed | sector stronger than related themes |
+| Consumer Staples | Dividend Defensives | 57.66 | positive | 54.02 | mixed | sector stronger than related themes |
+| Real Estate | Dividend Defensives | 57.64 | positive | 54.02 | mixed | sector stronger than related themes |
+| Crypto | Crypto Infrastructure | 50.0 | mixed | 31.46 | very weak | mixed confirmation |
+| Consumer Discretionary | Small Caps | 49.04 | mixed | 56.35 | positive | theme stronger than official sector |
+| Grid Infrastructure | Grid Infrastructure | 45.96 | mixed | 49.8 | mixed | mixed confirmation |
+| Energy | Energy | 43.26 | weak | 41.63 | weak | broad weakness across sector and themes |
+| Defense | Defense | 40.77 | weak | 42.0 | weak | broad weakness across sector and themes |
+| Nuclear | Nuclear | 32.56 | very weak | 31.81 | very weak | broad weakness across sector and themes |
 
 ## Three-Month Outperformance Setup
 
@@ -319,8 +320,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 42, 'negative': 23, 'neutral': 15}
-- News confirmation score: `61.88`
+- Sentiment counts: {'positive': 38, 'negative': 25, 'neutral': 17}
+- News confirmation score: `58.12`
 
 ### Top Market-Moving Headlines
 
@@ -329,42 +330,18 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / medium-term
 - Affected assets: financial crisis, market outlook
-- Score: `56.52`
+- Score: `48.05`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**2. Buy these dividend-paying real estate stocks ahead of earnings, says UBS**
-- Source: CNBC Markets
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: UBS, senior housing stocks, skilled nursing facilities, real estate, dividends
-- Score: `41.18`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**3. Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier**
+**2. Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier**
 - Source: CNBC Business Headlines
-- Importance / impact: Medium / Negative
+- Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, geopolitical_risk, defense
-- Score: `40.46`
+- Score: `47.6`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. How Apple stock rode the AI rollercoaster to record highs in 1 chart**
-- Source: CNBC Markets
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / long-term
-- Affected assets: AAPL, AI, Apple
-- Score: `40.15`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**5. Your data built the AI boom — but Big Tech is pocketing 100% of the equity**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AI, equity distribution
-- Score: `37.4`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**6. Meta’s stock roars back to life as it notches its best week in years**
+**3. Meta’s stock roars back to life as it notches its best week in years**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -372,7 +349,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. Meta’s stock roars back to life as it notches its best week in years**
+**4. Meta’s stock roars back to life as it notches its best week in years**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -380,34 +357,58 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. Meta's stock has best week since early 2024 as optimism builds around AI strategy**
-- Source: CNBC Markets
-- Importance / impact: Medium / Positive
+**5. Regular water is no longer enough. Welcome to the corporate gold rush around ‘functional hydration.’**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
-- Affected assets: META, AI, Meta
-- Score: `35.43`
+- Affected assets: GLP, health, consumer goods, biotech
+- Score: `33.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 5%**
-- Source: CNBC Top News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: CRL, U.S, banking, cryptocurrency
-- Score: `35.43`
+**6. SK Hynix’s stock sees double-digit pop in Nasdaq debut**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short term
+- Affected assets: SKH, SK, Technology, Semiconductor
+- Score: `33.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. Next week brings earnings and inflation data amid resumption of U.S.-Iran hostilities. Here's what's ahead**
-- Source: CNBC Business
-- Importance / impact: Low / Mixed
+**7. Your data built the AI boom — but Big Tech is pocketing 100% of the equity**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
-- Affected assets: MSFT, AAPL, GOOGL, TSLA, U.S
-- Score: `34.68`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+- Affected assets: AI, equity distribution
+- Score: `31.79`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**8. A trade blamed for a massive market blowup in 2024 has made a big comeback**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: A, trade policy, market volatility
+- Score: `31.23`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**9. The volatile AI trade marched higher, but oil kept Wall Street on edge last week**
+- Source: CNBC Markets
+- Importance / impact: Low / Positive
+- Relevance / horizon: macro / short term
+- Affected assets: AI, Tech
+- Score: `29.93`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
+
+**10. ‘An American tragedy’ in the making: The majority of small-business owners will retire in the next decade. What happens to their workers?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: small-business owners, retirement, job market
+- Score: `26.01`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
 
-No noisy headlines detected by current rules.
+Noisy headline list: Why Lumentum (LITE) Could Benefit From AI Optical 
 
 ## Positioning & Flow Dashboard
 
@@ -469,62 +470,15 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 - Crowding / Squeeze Risks: initial coverage uses CFTC crowded positioning and FINRA elevated short-sale volume only.
 - Flow-Confirmed vs Price-Only Themes: partial coverage through ETF flow proxies; stronger coverage requires issuer/ICI adapters.
 
-## ETF Flow Analytics
+## Grouped ETF Flow Signals
 
-### ETF Flow Executive Summary
-
-- ETF flow regime: **moderate risk-off**
-- Flow regime score: `31.4`
-- Flow confidence: `35.2`
+- ETF flow contribution: `31.4 / 100`
+- ETF flow reliability: `35.2 / 100`
 - Dominant allocation direction: `defensive demand`
-- Regime conflict flag: `False`
 
-### Market Flow Dashboard
+### Exposure Flow Dashboard
 
-| Segment | 1D Flow | 5D Flow | 20D Flow | Flow % AUM 20D | Score | Signal | Confidence |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Real Estate | $468,565,825 | $562,603,456 | $429,563,541 | 0.0680 | 62.2 | neutral | 35.0 |
-| Gold | $13,845,638,225 | $13,815,551,869 | $12,069,895,248 | -0.0222 | 46.8 | neutral | 26.0 |
-| Core Bonds | $0 | $173,894,943 | $1,007,897,755 | 0.0238 | 44.9 | moderate outflow | 21.5 |
-| Cybersecurity | $0 | $80,578,512 | $117,473,787 | 0.0082 | 41.6 | moderate outflow | 21.5 |
-| Grid Infrastructure | $0 | $222,405 | $65,104,615 | 0.0055 | 38.5 | moderate outflow | 21.5 |
-| Investment Grade Credit | -$3,985,584,130 | -$3,994,201,319 | $1,379,695,125 | 0.0135 | 38.3 | moderate outflow | 35.0 |
-| Global Equity | $0 | $0 | $628,075,495 | 0.0192 | 38.0 | moderate outflow | 21.5 |
-| Developed Markets ex-US | $20,582,458,380 | $20,270,210,853 | $20,835,311,912 | 0.0129 | 35.0 | moderate outflow | 28.8 |
-| Small Caps | $0 | $906,622,078 | -$178,104,554 | -0.0016 | 24.3 | strong outflow | 35.0 |
-| Value | $0 | -$6,063,404,239 | -$2,842,764,579 | -0.0832 | 23.1 | strong outflow | 35.0 |
-| Long Duration Treasury | $0 | -$32,917,144,742 | -$31,231,367,297 | -0.3383 | 23.0 | strong outflow | 35.0 |
-| Intermediate Treasury | $0 | -$33,335,104,806 | -$33,260,695,656 | -0.0150 | 22.6 | strong outflow | 35.0 |
-
-### Flow-Confirmed Forward Setups
-
-| Segment | Setup Score | Bucket | Flow | Breadth | Confidence |
-| --- | --- | --- | --- | --- | --- |
-| Real Estate | 71.7 | moderate positive setup | 74.4 | 100.0 | 35.0 |
-| Gold | 63.0 | moderate positive setup | 43.6 | 100.0 | 26.0 |
-| Cybersecurity | 61.4 | moderate positive setup | 33.3 | 100.0 | 21.5 |
-| Global Equity | 60.6 | moderate positive setup | 26.0 | 100.0 | 21.5 |
-| Core Bonds | 58.0 | neutral | 39.9 | 100.0 | 21.5 |
-| Grid Infrastructure | 57.0 | neutral | 27.0 | 100.0 | 21.5 |
-| Investment Grade Credit | 50.0 | neutral | 26.6 | 100.0 | 35.0 |
-| Developed Markets ex-US | 45.3 | neutral | 19.9 | 50.0 | 28.8 |
-| Nuclear | 38.1 | moderate underperformance risk | 0.0 | 0.0 | 51.5 |
-| Financials | 33.8 | moderate underperformance risk | 0.0 | 0.0 | 26.0 |
-
-### ETF Flow Contradiction Flags
-
-| Severity | Type | Segment | Description |
-| --- | --- | --- | --- |
-| medium | flow_concentration | Broad Equity | A small number of ETFs dominates the segment flow signal. |
-| medium | flow_concentration | Cybersecurity | A small number of ETFs dominates the segment flow signal. |
-| medium | flow_concentration | Developed Markets ex-US | A small number of ETFs dominates the segment flow signal. |
-| medium | flow_concentration | Core Bonds | A small number of ETFs dominates the segment flow signal. |
-| medium | flow_concentration | Energy | A small number of ETFs dominates the segment flow signal. |
-| medium | flow_concentration | Equal-Weight Equity | A small number of ETFs dominates the segment flow signal. |
-| medium | flow_concentration | Financials | A small number of ETFs dominates the segment flow signal. |
-| medium | flow_concentration | Global Equity | A small number of ETFs dominates the segment flow signal. |
-| medium | flow_concentration | Gold | A small number of ETFs dominates the segment flow signal. |
-| medium | flow_concentration | Grid Infrastructure | A small number of ETFs dominates the segment flow signal. |
+No rows available.
 
 
 ## Contradiction / Audit Flags
