@@ -1,16 +1,16 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-11T13:57:23.912274+00:00
+Generated at: 2026-07-11T16:12:14.083185+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **69.65 / 100** (Moderate Risk-On)
+- Regime score: **69.59 / 100** (Moderate Risk-On)
 - Market strength: **75.76 / 100** (strong)
 - Evidence quality: **90.0 / 100**
 - Breadth: **broad**; above 50DMA `60.0%`, above 200DMA `72.88%`
 - Top sector score: **Cybersecurity** `74.32`
-- Top theme score: **Semiconductors** `63.39`
+- Top theme score: **Healthcare Innovation** `63.18`
 
 ## Market Regime Score
 
@@ -24,10 +24,10 @@ Window: 24h
 | credit_proxy | 50.0 |
 | dollar_fx | 54.88 |
 | commodity_confirmation | 58.0 |
-| news_confirmation | 60.0 |
+| news_confirmation | 58.75 |
 | market_strength | 75.76 |
 
-Positive contributors: equity_trend=90.0, volatility=80.0, market_strength=75.76, market_breadth=70.4, news_confirmation=60.0
+Positive contributors: equity_trend=90.0, volatility=80.0, market_strength=75.76, market_breadth=70.4
 Negative contributors: none
 
 ## Market Strength Score
@@ -236,7 +236,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Healthcare | 68.0 | strong uptrend | positive | broad | 50.44 | MRNA, TECH, CRL | PFE, ZTS, BSX |
 | 4 | Industrials | 66.07 | strong uptrend | positive | broad | 50.39 | AXON, GEV, UAL | LDOS, CPRT, FDXF |
 | 5 | Technology | 64.97 | strong uptrend | positive | broad | 55.2 | ZBRA, PANW, AMD | ORCL, CRWD, KLAC |
-| 6 | Semiconductors | 64.1 | strong uptrend | positive | broad | 64.4 | SOXX, SMH | SMH, SOXX |
+| 6 | Semiconductors | 64.16 | strong uptrend | positive | broad | 64.4 | SOXX, SMH | SMH, SOXX |
 | 7 | Real Estate | 59.95 | strong uptrend | neutral | broad | 44.29 | WELL, VTR, DOC | AMT, CCI, CSGP |
 | 8 | Consumer Staples | 59.64 | strong uptrend | neutral | broad | 44.41 | DLTR, KMB, DG | MDLZ, CASY, BG |
 | 9 | Utilities | 59.6 | uptrend | neutral | broad | 45.98 | NRG, VST, ES | NI, PPL, DUK |
@@ -251,8 +251,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Setup | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Semiconductors | 63.39 | Positive setup | 19.68 | True | False |
-| 2 | Healthcare Innovation | 63.18 | Positive setup | 12.01 | True | False |
+| 1 | Healthcare Innovation | 63.18 | Positive setup | 12.01 | True | False |
+| 2 | Semiconductors | 62.97 | Positive setup | 19.68 | True | False |
 | 3 | Financials | 61.7 | Positive setup | 4.02 | True | False |
 | 4 | Small Caps | 58.53 | Positive setup | 0.0 | False | False |
 | 5 | Cybersecurity | 56.69 | Neutral / watchlist | 94.92 | False | False |
@@ -268,7 +268,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Top 5 improving themes: Cybersecurity, Semiconductors, Healthcare Innovation, AI Infrastructure, Quality Growth
 - Top 5 deteriorating themes: Crypto Infrastructure, Nuclear, Defense, Energy, Grid Infrastructure
 - Strong news but weak price confirmation: none
-- Strong price but weak news confirmation: Semiconductors, Healthcare Innovation, Financials
+- Strong price but weak news confirmation: Healthcare Innovation, Semiconductors, Financials
 
 ### Sector / Theme Alignment
 
@@ -278,8 +278,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Financials | Financials | 68.38 | strong | 61.7 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 68.0 | strong | 63.18 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 66.07 | strong | 45.86 | mixed | sector stronger than related themes |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 64.97 | positive | 56.63 | positive | sector and theme confirmation |
-| Semiconductors | AI Infrastructure, Semiconductors | 64.1 | positive | 58.76 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 64.97 | positive | 56.49 | positive | sector and theme confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 64.16 | positive | 58.55 | positive | sector and theme confirmation |
 | Real Estate | Dividend Defensives | 59.95 | positive | 55.31 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 59.64 | positive | 55.31 | positive | sector and theme confirmation |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 59.6 | positive | 45.1 | mixed | sector stronger than related themes |
@@ -295,8 +295,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Theme | Score | Classification | Drivers | Invalidation Triggers |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Healthcare Innovation | 65.73 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 2 | Semiconductors | 64.07 | Positive setup | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
-| 3 | Financials | 63.85 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 2 | Financials | 63.85 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 3 | Semiconductors | 63.57 | Positive setup | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | Small Caps | 63.36 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 5 | Dividend Defensives | 57.35 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 6 | AI Infrastructure | 56.66 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
@@ -319,8 +319,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 41, 'negative': 25, 'neutral': 14}
-- News confirmation score: `60.0`
+- Sentiment counts: {'positive': 40, 'negative': 26, 'neutral': 14}
+- News confirmation score: `58.75`
 
 ### Top Market-Moving Headlines
 
@@ -348,15 +348,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. Elon Musk speaks exclusively to CNBC about Grok, Tesla and the SpaceX IPO: Live updates**
-- Source: CNBC Markets
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: CNBC, IPO, AI
-- Score: `41.18`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**5. How Apple stock rode the AI rollercoaster to record highs in 1 chart**
+**4. How Apple stock rode the AI rollercoaster to record highs in 1 chart**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / long-term
@@ -364,15 +356,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**6. Meet SK Hynix, the trillion-dollar South Korean chipmaker debuting on U.S. markets**
-- Source: CNBC Top News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / medium-term
-- Affected assets: SK HYNIX, SK, U.S, technology, international expansion
-- Score: `40.15`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**7. Regular water is no longer enough. Welcome to the corporate gold rush around ‘functional hydration.’**
+**5. Regular water is no longer enough. Welcome to the corporate gold rush around ‘functional hydration.’**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -380,7 +364,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.0`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. Meta’s stock roars back to life as it notches its best week in years**
+**6. Meta’s stock roars back to life as it notches its best week in years**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -388,7 +372,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. Meta’s stock roars back to life as it notches its best week in years**
+**7. Meta’s stock roars back to life as it notches its best week in years**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -396,11 +380,27 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. Meta's stock has best week since early 2024 as optimism builds around AI strategy**
+**8. Meta's stock has best week since early 2024 as optimism builds around AI strategy**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: META, AI, Meta
+- Score: `35.43`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**9. Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 5%**
+- Source: CNBC Top News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: CRL, U.S, banking, cryptocurrency
+- Score: `35.43`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Dow climbing over 200 points as U.S. stocks build on gains in final hour — live**
+- Source: MarketWatch Bulletins
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short term
+- Affected assets: U.S, Stock Market
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
