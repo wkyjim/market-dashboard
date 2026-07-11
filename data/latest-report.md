@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-11T08:28:34.575293+00:00
+Generated at: 2026-07-11T09:12:29.449009+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **69.59 / 100** (Moderate Risk-On)
+- Regime score: **69.65 / 100** (Moderate Risk-On)
 - Market strength: **75.76 / 100** (strong)
 - Evidence quality: **90.0 / 100**
 - Breadth: **broad**; above 50DMA `60.0%`, above 200DMA `72.88%`
@@ -24,10 +24,10 @@ Window: 24h
 | credit_proxy | 50.0 |
 | dollar_fx | 54.88 |
 | commodity_confirmation | 58.0 |
-| news_confirmation | 58.75 |
+| news_confirmation | 60.0 |
 | market_strength | 75.76 |
 
-Positive contributors: equity_trend=90.0, volatility=80.0, market_strength=75.76, market_breadth=70.4
+Positive contributors: equity_trend=90.0, volatility=80.0, market_strength=75.76, market_breadth=70.4, news_confirmation=60.0
 Negative contributors: none
 
 ## Market Strength Score
@@ -319,8 +319,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 39, 'negative': 25, 'neutral': 16}
-- News confirmation score: `58.75`
+- Sentiment counts: {'positive': 40, 'negative': 24, 'neutral': 16}
+- News confirmation score: `60.0`
 
 ### Top Market-Moving Headlines
 
@@ -421,10 +421,16 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 
 | Date | ETF / Segment | 1D Net Flow | 5D Net Flow | Rule-Based Comment |
 | --- | --- | --- | --- | --- |
+| 2026-07-10 | IVV - Broad Equity | -$1,971,998,753 | -$5,878,073,207 | 1D outflow; 5D outflow. |
+| 2026-07-10 | LQD - Investment Grade Credit | $483,685,168 | $1,752,015,166 | 1D inflow; 5D inflow. |
+| 2026-07-10 | TLT - Long Duration Treasury | $591,121,713 | $1,596,028,625 | 1D inflow; 5D inflow. |
+| 2026-07-10 | IWM - Small Caps | $1,109,200,189 | $1,138,778,860 | 1D inflow; 5D inflow. |
+| 2026-07-10 | HYG - High Yield Credit | -$421,951,396 | -$1,027,013,776 | 1D outflow; 5D outflow. |
 | 2026-07-09 | SPY - Broad Equity | -$2,443,000,852 | -$601,354,056 | 1D outflow; 5D outflow. |
-| 2026-07-09 | DIA - Dow Industrials | -$78,638,039 | $288,339,476 | 1D outflow; 5D inflow. |
-| 2026-07-10 | GLD - Gold | -$376,138,716 | $188,069,358 | 1D outflow; 5D inflow. |
-| 2026-07-09 | JNK - High Yield Credit | -$76,720,858 | -$76,720,858 | 1D outflow; 5D outflow. |
+| 2026-07-10 | IWD - Value | -$24,689,512 | $493,790,232 | 1D outflow; 5D inflow. |
+| 2026-07-10 | IWF - Growth | $185,924,170 | -$371,848,341 | 1D inflow; 5D outflow. |
+| 2026-07-10 | SHY - Short Treasury | -$49,119,398 | $335,649,218 | 1D outflow; 5D inflow. |
+| 2026-07-10 | EFA - Developed Markets ex-US | $0 | -$312,584,514 | 1D flat; 5D outflow. |
 
 **Sector / Thematic ETF Flows**
 
@@ -432,36 +438,14 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 | --- | --- | --- | --- | --- |
 | 2026-07-10 | SOXX - Semiconductors | -$1,191,479,588 | $5,986,458,416 | 1D outflow; 5D inflow. |
 | 2026-07-09 | SMH - Semiconductors | $698,871,830 | $3,099,381,666 | 1D inflow; 5D inflow. |
+| 2026-07-10 | SGOV - Treasury Bills | $653,269,090 | $2,864,333,704 | 1D inflow; 5D inflow. |
+| 2026-07-10 | AGG - Core Bonds | $107,865,997 | $774,673,976 | 1D inflow; 5D inflow. |
 | 2026-07-09 | XLP - Consumer Staples | -$24,967,242 | $607,536,222 | 1D outflow; 5D inflow. |
 | 2026-07-09 | XLI - Industrials | $81,504,857 | $570,534,001 | 1D inflow; 5D inflow. |
 | 2026-07-09 | XLF - Financials | -$16,662,784 | $547,094,738 | 1D outflow; 5D inflow. |
 | 2026-07-09 | XLE - Energy | -$21,923,620 | -$465,876,934 | 1D outflow; 5D outflow. |
-| 2026-07-09 | XLU - Utilities | -$11,280,378 | $419,630,071 | 1D outflow; 5D inflow. |
-| 2026-07-09 | XLC - Communication Services | -$55,278,041 | -$370,362,875 | 1D outflow; 5D outflow. |
-| 2026-07-09 | XLK - Technology | $64,868,850 | $250,208,421 | 1D inflow; 5D inflow. |
-| 2026-07-09 | XLB - Materials | $140,786,142 | $216,207,290 | 1D inflow; 5D inflow. |
-
-### Short-Sale Pressure
-
-Curated to broad index ETFs, sector/theme ETFs, Mag 7, and high-beta chip names. FINRA short-sale volume is not short interest.
-
-| Date | Ticker | Group | Ratio | Z | Price Move | Market Implication |
-| --- | --- | --- | --- | --- | --- | --- |
-| 2026-07-02 | NVDA | High Beta Chips / Mag 7 | 0.3219 | -1.17 | 4.03 | High Beta Chips / Mag 7: monitored exposure; no elevated short-pressure signal. |
-| 2026-07-02 | RSP | Equal-Weight S&P 500 | 0.8144 | 1.91 | 0.37 | Equal-Weight S&P 500: high short-sale volume ratio, but not statistically elevated versus its own history. |
-| 2026-07-02 | IWM | Small Caps | 0.7392 | 1.61 | -0.42 | Small Caps: high short-sale volume ratio, but not statistically elevated versus its own history. |
-| 2026-07-02 | META | Mag 7 / Communication Services | 0.441 | 0.83 | 5.97 | Mag 7 / Communication Services: monitored exposure; no elevated short-pressure signal. |
-| 2026-07-02 | SMH | Semiconductors | 0.7312 | 1.91 | 0.54 | Semiconductors: high short-sale volume ratio, but not statistically elevated versus its own history. |
-| 2026-07-02 | GOOG | Mag 7 / Communication Services | 0.5041 | 1.92 | -0.34 | Mag 7 / Communication Services: high short-sale volume ratio, but not statistically elevated versus its own history. |
-| 2026-07-02 | XLP | Consumer Staples | 0.7376 | 1.49 | 1.11 | Consumer Staples: high short-sale volume ratio, but not statistically elevated versus its own history. |
-| 2026-07-02 | SPCX | High Beta / Space | 0.5873 | 0.4 | -4.51 | High Beta / Space: high short-sale volume ratio, but not statistically elevated versus its own history. |
-| 2026-07-02 | TSLA | Mag 7 / High Beta | 0.6287 | 1.37 | 0.3 | Mag 7 / High Beta: high short-sale volume ratio, but not statistically elevated versus its own history. |
-| 2026-07-02 | XLU | Utilities | 0.6751 | 0.99 | 0.62 | Utilities: high short-sale volume ratio, but not statistically elevated versus its own history. |
-| 2026-07-02 | XLRE | Real Estate | 0.8029 | 0.81 | 0.5 | Real Estate: high short-sale volume ratio, but not statistically elevated versus its own history. |
-| 2026-07-02 | XLV | Healthcare | 0.645 | 0.73 | -0.82 | Healthcare: high short-sale volume ratio, but not statistically elevated versus its own history. |
-| 2026-07-02 | CIBR | Cybersecurity | 0.5595 | 0.28 | -2.52 | Cybersecurity: high short-sale volume ratio, but not statistically elevated versus its own history. |
-| 2026-07-02 | XLF | Financials | 0.6306 | 0.7 | 0.31 | Financials: high short-sale volume ratio, but not statistically elevated versus its own history. |
-| 2026-07-02 | QQQ | Broad Index / Big Tech | 0.591 | -0.18 | 0.31 | Broad Index / Big Tech: high short-sale volume ratio, but not statistically elevated versus its own history. |
+| 2026-07-10 | QUAL - Quality Factor | $32,951,485 | $461,320,786 | 1D inflow; 5D inflow. |
+| 2026-07-10 | DYNF - Equity Factor Rotation | $119,217,483 | $435,995,366 | 1D inflow; 5D inflow. |
 
 ### Deferred Flow Sections
 
@@ -481,4 +465,4 @@ No contradiction flags were triggered by current deterministic rules.
 - Macro rows loaded: `29`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
-- Positioning/flow rows loaded: `46`
+- Positioning/flow rows loaded: `20`
