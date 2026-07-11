@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-10T22:12:16.629311+00:00
+Generated at: 2026-07-11T01:11:45.474669+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **69.71 / 100** (Moderate Risk-On)
+- Regime score: **69.75 / 100** (Moderate Risk-On)
 - Market strength: **75.76 / 100** (strong)
 - Evidence quality: **90.0 / 100**
 - Breadth: **broad**; above 50DMA `60.0%`, above 200DMA `72.88%`
@@ -24,10 +24,10 @@ Window: 24h
 | credit_proxy | 50.0 |
 | dollar_fx | 54.88 |
 | commodity_confirmation | 58.0 |
-| news_confirmation | 61.25 |
+| news_confirmation | 61.88 |
 | market_strength | 75.76 |
 
-Positive contributors: equity_trend=90.0, volatility=80.0, market_strength=75.76, market_breadth=70.4, news_confirmation=61.25
+Positive contributors: equity_trend=90.0, volatility=80.0, market_strength=75.76, market_breadth=70.4, news_confirmation=61.88
 Negative contributors: none
 
 ## Market Strength Score
@@ -235,7 +235,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 2 | Financials | 68.38 | strong uptrend | positive | broad | 51.11 | HOOD, GPN, JKHY | APO, CME, CBOE |
 | 3 | Healthcare | 68.0 | strong uptrend | positive | broad | 50.44 | MRNA, TECH, CRL | PFE, ZTS, BSX |
 | 4 | Industrials | 66.07 | strong uptrend | positive | broad | 50.39 | AXON, GEV, UAL | LDOS, CPRT, FDXF |
-| 5 | Technology | 64.7 | strong uptrend | positive | broad | 55.2 | ZBRA, PANW, AMD | ORCL, CRWD, KLAC |
+| 5 | Technology | 65.03 | strong uptrend | positive | broad | 55.2 | ZBRA, PANW, AMD | ORCL, CRWD, KLAC |
 | 6 | Semiconductors | 63.77 | strong uptrend | positive | broad | 64.4 | SOXX, SMH | SMH, SOXX |
 | 7 | Consumer Staples | 59.64 | strong uptrend | neutral | broad | 44.41 | DLTR, KMB, DG | MDLZ, CASY, BG |
 | 8 | Real Estate | 59.62 | strong uptrend | neutral | broad | 44.29 | WELL, VTR, DOC | AMT, CCI, CSGP |
@@ -278,7 +278,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Financials | Financials | 68.38 | strong | 61.7 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 68.0 | strong | 63.18 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 66.07 | strong | 45.75 | mixed | sector stronger than related themes |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 64.7 | positive | 56.16 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.03 | strong | 56.16 | positive | sector and theme confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 63.77 | positive | 58.06 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 59.64 | positive | 55.31 | positive | sector and theme confirmation |
 | Real Estate | Dividend Defensives | 59.62 | positive | 55.31 | positive | sector and theme confirmation |
@@ -319,20 +319,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 40, 'negative': 22, 'neutral': 18}
-- News confirmation score: `61.25`
+- Sentiment counts: {'positive': 42, 'negative': 23, 'neutral': 15}
+- News confirmation score: `61.88`
 
 ### Top Market-Moving Headlines
 
-**1. The dot-com crash was a $5 trillion blip. Why the next financial crisis could hit 4 times harder.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / medium-term
-- Affected assets: financial crisis, market outlook
-- Score: `56.52`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**2. Buy these dividend-paying real estate stocks ahead of earnings, says UBS**
+**1. Buy these dividend-paying real estate stocks ahead of earnings, says UBS**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -340,7 +332,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**3. Bidding war breaks out for easyJet as Apollo tops rival private-equity group’s bid**
+**2. The dot-com crash was a $5 trillion blip. Why the next financial crisis could hit 4 times harder.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / medium-term
+- Affected assets: financial crisis, market outlook
+- Score: `48.05`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**3. Meta’s stock roars back to life as it notches its best week in years**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: META, AI, Tech
+- Score: `43.88`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**4. Bidding war breaks out for easyJet as Apollo tops rival private-equity group’s bid**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -348,7 +356,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. A Big Winner From the Iran War: Africa’s Richest Man**
+**5. A Big Winner From the Iran War: Africa’s Richest Man**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -356,7 +364,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 5%**
+**6. Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 5%**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -364,19 +372,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.68`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**6. Elon Musk speaks exclusively to CNBC about Grok, Tesla and the SpaceX IPO: Live updates**
+**7. Elon Musk speaks exclusively to CNBC about Grok, Tesla and the SpaceX IPO: Live updates**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: CNBC, IPO, AI
-- Score: `41.18`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**7. Meet the new group of stocks powering the S&P 500 higher**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: P, S, S&P 500, stocks
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
@@ -388,13 +388,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**9. How the U.S.-Iran deal set the stage for renewed fighting over the Strait of Hormuz**
-- Source: CNBC Top News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: U.S, geopolitical, strategic
-- Score: `37.05`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+**9. SK Hynix’s stock sees double-digit pop in Nasdaq debut**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short term
+- Affected assets: SKH, SK, Technology, Semiconductor
+- Score: `39.0`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 **10. World oil demand set for first annual decline since 2020, IEA says**
 - Source: CNBC Top News
@@ -407,7 +407,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-Noisy headline list: Stock market today: Nasdaq rises, Dow and S&P 500 
+Noisy headline list: Slumping AI stocks could be really good news for y, The bar is high for S&P 500 earnings, but these as, Stock market today: Nasdaq rises, Dow and S&P 500 
 
 ## Positioning & Flow Dashboard
 
