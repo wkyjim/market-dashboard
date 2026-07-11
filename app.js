@@ -144,6 +144,7 @@ function renderMarkdown(markdown) {
     } else if (line.startsWith("# ")) output.push(`<h1>${inlineMarkdown(line.slice(2))}</h1>`);
     else if (line.startsWith("## ")) output.push(`<h2>${inlineMarkdown(line.slice(3))}</h2>`);
     else if (line.startsWith("### ")) output.push(`<h3>${inlineMarkdown(line.slice(4))}</h3>`);
+    else if (line.startsWith("#### ")) output.push(`<h4>${inlineMarkdown(line.slice(5))}</h4>`);
     else if (line.startsWith("- ")) {
       const items = [line.slice(2)];
       while (i + 1 < lines.length && lines[i + 1].startsWith("- ")) items.push(lines[++i].slice(2));

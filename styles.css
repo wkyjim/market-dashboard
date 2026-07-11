@@ -139,6 +139,7 @@ select, input { min-height: 38px; border: 1px solid #bfc6ca; border-radius: 0; p
 .report-content h2 { margin: 34px 0 14px; padding-bottom: 8px; border-bottom: 2px solid var(--ink); font-size: 19px; }
 .report-content h2:first-of-type { margin-top: 0; }
 .report-content h3 { margin: 22px 0 10px; }
+.report-content h4 { margin: 18px 0 8px; color: var(--muted); font-size: 12px; text-transform: uppercase; }
 .report-content ul { padding-left: 20px; }
 .report-content code { font-family: "IBM Plex Mono", monospace; background: var(--soft); padding: 2px 4px; }
 .report-content table, #result-table { width: 100%; border-collapse: collapse; }

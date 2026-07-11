@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-11T04:11:53.289216+00:00
+Generated at: 2026-07-11T05:01:47.996625+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -332,15 +332,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.05`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**2. Meta’s stock roars back to life as it notches its best week in years**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: META, AI, Tech
-- Score: `43.88`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**3. Bidding war breaks out for easyJet as Apollo tops rival private-equity group’s bid**
+**2. Bidding war breaks out for easyJet as Apollo tops rival private-equity group’s bid**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -348,7 +340,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. Meta’s stock roars back to life as it notches its best week in years**
+**3. Meta’s stock roars back to life as it notches its best week in years**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -356,7 +348,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.68`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**5. Buy these dividend-paying real estate stocks ahead of earnings, says UBS**
+**4. Buy these dividend-paying real estate stocks ahead of earnings, says UBS**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -364,7 +356,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. Elon Musk speaks exclusively to CNBC about Grok, Tesla and the SpaceX IPO: Live updates**
+**5. Elon Musk speaks exclusively to CNBC about Grok, Tesla and the SpaceX IPO: Live updates**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -372,7 +364,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. How Apple stock rode the AI rollercoaster to record highs in 1 chart**
+**6. How Apple stock rode the AI rollercoaster to record highs in 1 chart**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / long-term
@@ -380,15 +372,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. SK Hynix’s stock sees double-digit pop in Nasdaq debut**
+**7. Meta’s stock roars back to life as it notches its best week in years**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short term
-- Affected assets: SKH, SK, Technology, Semiconductor
-- Score: `39.0`
+- Relevance / horizon: single_name / short-term
+- Affected assets: META, AI, Tech
+- Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. A trade blamed for a massive market blowup in 2024 has made a big comeback**
+**8. A trade blamed for a massive market blowup in 2024 has made a big comeback**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -396,13 +388,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.74`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. World oil demand set for first annual decline since 2020, IEA says**
+**9. World oil demand set for first annual decline since 2020, IEA says**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: IEA, U.S, oil demand, geopolitical risk
 - Score: `36.74`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Meta's stock has best week since early 2024 as optimism builds around AI strategy**
+- Source: CNBC Markets
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: META, AI, Meta
+- Score: `35.43`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
@@ -413,25 +413,33 @@ Noisy headline list: Slumping AI stocks could be really good news for y, The bar
 
 Positioning and flow data is used as confirmation only. FINRA short-sale volume is not short interest.
 
-### ETF / Fund Flow Proxy
+### ETF Fund Flows
 
-Uses public.etf_daily_data. Net fund flow 1D = (shares outstanding today - shares outstanding yesterday) x today's NAV. 5D uses the same formula versus five observations ago.
+Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV. Flows are grouped into broad-market and sector/thematic ETFs.
 
-| Date | ETF | Net Fund Flow 1D | Net Fund Flow 5D | Interpretation |
+#### Broad Market ETF Flows
+
+| Date | ETF / Segment | 1D Net Flow | 5D Net Flow | Rule-Based Comment |
 | --- | --- | --- | --- | --- |
-| 2026-07-09 | XLP | -24967242.0 | 607536222.0 | XLP (Consumer Staples): outflow estimate; daily net flow = shares outstanding change x today's NAV. |
-| 2026-07-09 | XLF | -16662784.0 | 547094738.0 | XLF (Financials): outflow estimate; daily net flow = shares outstanding change x today's NAV. |
-| 2026-07-09 | XLU | -11280378.0 | 419630071.0 | XLU (Utilities): outflow estimate; daily net flow = shares outstanding change x today's NAV. |
-| 2026-07-09 | XLK | 64868850.0 | 250208421.0 | XLK (Technology): inflow estimate; daily net flow = shares outstanding change x today's NAV. |
-| 2026-07-09 | XLRE | 42011003.0 | 128244113.0 | XLRE (Real Estate): inflow estimate; daily net flow = shares outstanding change x today's NAV. |
-| 2026-07-09 | CIBR | 79540577.0 | 118249664.0 | CIBR (Cybersecurity): inflow estimate; daily net flow = shares outstanding change x today's NAV. |
-| 2026-07-09 | GRID | 246678.0 | 64321240.0 | GRID (Grid Infrastructure): inflow estimate; daily net flow = shares outstanding change x today's NAV. |
-| 2026-07-09 | XLV | -32440362.0 | 56770633.0 | XLV (Healthcare): outflow estimate; daily net flow = shares outstanding change x today's NAV. |
-| 2026-07-09 | XLY | -163634285.0 | 29220408.0 | XLY (Consumer Discretionary): outflow estimate; daily net flow = shares outstanding change x today's NAV. |
-| 2026-07-09 | XAR | 0.0 | -20535359.0 | XAR (Defense): flat flow estimate; daily net flow = shares outstanding change x today's NAV. |
-| 2026-07-09 | JNK | -76720858.0 | -76720858.0 | JNK (High Yield Credit): outflow estimate; daily net flow = shares outstanding change x today's NAV. |
-| 2026-07-09 | XLE | -21923620.0 | -465876934.0 | XLE (Energy): outflow estimate; daily net flow = shares outstanding change x today's NAV. |
-| 2026-07-09 | SPY | -2443000852.0 | -601354056.0 | SPY (Broad Equity): outflow estimate; daily net flow = shares outstanding change x today's NAV. |
+| 2026-07-09 | SPY - Broad Equity | -$2,443,000,852 | -$601,354,056 | 1D outflow; 5D outflow. |
+| 2026-07-09 | DIA - Dow Industrials | -$78,638,039 | $288,339,476 | 1D outflow; 5D inflow. |
+| 2026-07-10 | GLD - Gold | -$376,138,716 | $188,069,358 | 1D outflow; 5D inflow. |
+| 2026-07-09 | JNK - High Yield Credit | -$76,720,858 | -$76,720,858 | 1D outflow; 5D outflow. |
+
+#### Sector / Thematic ETF Flows
+
+| Date | ETF / Segment | 1D Net Flow | 5D Net Flow | Rule-Based Comment |
+| --- | --- | --- | --- | --- |
+| 2026-07-09 | XLP - Consumer Staples | -$24,967,242 | $607,536,222 | 1D outflow; 5D inflow. |
+| 2026-07-09 | XLI - Industrials | $81,504,857 | $570,534,001 | 1D inflow; 5D inflow. |
+| 2026-07-09 | XLF - Financials | -$16,662,784 | $547,094,738 | 1D outflow; 5D inflow. |
+| 2026-07-09 | XLE - Energy | -$21,923,620 | -$465,876,934 | 1D outflow; 5D outflow. |
+| 2026-07-09 | XLU - Utilities | -$11,280,378 | $419,630,071 | 1D outflow; 5D inflow. |
+| 2026-07-09 | XLC - Communication Services | -$55,278,041 | -$370,362,875 | 1D outflow; 5D outflow. |
+| 2026-07-09 | XLK - Technology | $64,868,850 | $250,208,421 | 1D inflow; 5D inflow. |
+| 2026-07-09 | XLB - Materials | $140,786,142 | $216,207,290 | 1D inflow; 5D inflow. |
+| 2026-07-09 | XLRE - Real Estate | $42,011,003 | $128,244,113 | 1D inflow; 5D inflow. |
+| 2026-07-09 | CIBR - Cybersecurity | $79,540,577 | $118,249,664 | 1D inflow; 5D inflow. |
 
 ### Short-Sale Pressure
 
@@ -473,4 +481,4 @@ No contradiction flags were triggered by current deterministic rules.
 - Macro rows loaded: `29`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
-- Positioning/flow rows loaded: `45`
+- Positioning/flow rows loaded: `46`
