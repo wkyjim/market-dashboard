@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-11T09:17:04.846941+00:00
+Generated at: 2026-07-11T10:11:54.111184+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **69.71 / 100** (Moderate Risk-On)
+- Regime score: **69.68 / 100** (Moderate Risk-On)
 - Market strength: **75.76 / 100** (strong)
 - Evidence quality: **90.0 / 100**
 - Breadth: **broad**; above 50DMA `60.0%`, above 200DMA `72.88%`
@@ -24,10 +24,10 @@ Window: 24h
 | credit_proxy | 50.0 |
 | dollar_fx | 54.88 |
 | commodity_confirmation | 58.0 |
-| news_confirmation | 61.25 |
+| news_confirmation | 60.62 |
 | market_strength | 75.76 |
 
-Positive contributors: equity_trend=90.0, volatility=80.0, market_strength=75.76, market_breadth=70.4, news_confirmation=61.25
+Positive contributors: equity_trend=90.0, volatility=80.0, market_strength=75.76, market_breadth=70.4, news_confirmation=60.62
 Negative contributors: none
 
 ## Market Strength Score
@@ -244,7 +244,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 11 | Consumer Discretionary | 47.32 | downtrend | neutral | weak | 46.33 | GPC, DASH, EXPE | APTV, LVS, TJX |
 | 12 | Grid Infrastructure | 44.51 | neutral | neutral | weak | 45.97 | GRID | GRID |
 | 13 | Energy | 40.87 | strong downtrend | neutral | weak | 40.19 | VLO, MPC, TPL | APA, HAL, SLB |
-| 14 | Defense | 39.09 | downtrend | neutral | weak | 44.41 | XAR | XAR |
+| 14 | Defense | 38.92 | downtrend | neutral | weak | 44.41 | XAR | XAR |
 | 15 | Nuclear | 29.65 | strong downtrend | negative | weak | 35.91 | NLR | NLR |
 
 ### Thematic Strength
@@ -260,7 +260,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 7 | AI Infrastructure | 54.13 | Neutral / watchlist | 10.44 | False | False |
 | 8 | Quality Growth | 52.38 | Neutral / watchlist | 11.23 | False | False |
 | 9 | Grid Infrastructure | 50.57 | Neutral / watchlist | 7.3 | False | False |
-| 10 | Defense | 40.92 | Weak setup | 26.83 | False | False |
+| 10 | Defense | 41.71 | Weak setup | 26.83 | False | False |
 | 11 | Energy | 40.51 | Weak setup | 2.35 | False | False |
 | 12 | Nuclear | 29.43 | Weak setup | 17.59 | False | False |
 | 13 | Crypto Infrastructure | 28.67 | Underperformance risk | 21.27 | False | False |
@@ -277,7 +277,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 74.32 | strong | 56.69 | positive | sector and theme confirmation |
 | Financials | Financials | 68.38 | strong | 61.7 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 68.0 | strong | 63.18 | positive | sector and theme confirmation |
-| Industrials | Defense, Grid Infrastructure | 66.07 | strong | 45.75 | mixed | sector stronger than related themes |
+| Industrials | Defense, Grid Infrastructure | 66.07 | strong | 46.14 | mixed | sector stronger than related themes |
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 64.97 | positive | 56.16 | positive | sector and theme confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 63.77 | positive | 58.06 | positive | sector and theme confirmation |
 | Real Estate | Dividend Defensives | 59.88 | positive | 55.31 | positive | sector and theme confirmation |
@@ -287,7 +287,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Consumer Discretionary | Small Caps | 47.32 | mixed | 58.53 | positive | theme stronger than official sector |
 | Grid Infrastructure | Grid Infrastructure | 44.51 | weak | 50.57 | mixed | mixed confirmation |
 | Energy | Energy | 40.87 | weak | 40.51 | weak | broad weakness across sector and themes |
-| Defense | Defense | 39.09 | weak | 40.92 | weak | broad weakness across sector and themes |
+| Defense | Defense | 38.92 | weak | 41.71 | weak | broad weakness across sector and themes |
 | Nuclear | Nuclear | 29.65 | very weak | 29.43 | very weak | broad weakness across sector and themes |
 
 ## Three-Month Outperformance Setup
@@ -303,8 +303,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 7 | Cybersecurity | 56.29 | Neutral / watchlist | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 8 | Quality Growth | 54.67 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 9 | Grid Infrastructure | 53.96 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 10 | Defense | 40.45 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
-| 11 | Energy | 39.82 | Weak setup | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 10 | Energy | 39.82 | Weak setup | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 11 | Defense | 38.95 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
 | 12 | Nuclear | 30.43 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
 
 ## Breadth and Participation
@@ -319,8 +319,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 41, 'negative': 23, 'neutral': 16}
-- News confirmation score: `61.25`
+- Sentiment counts: {'positive': 42, 'negative': 25, 'neutral': 13}
+- News confirmation score: `60.62`
 
 ### Top Market-Moving Headlines
 
@@ -332,7 +332,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.05`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**2. Buy these dividend-paying real estate stocks ahead of earnings, says UBS**
+**2. Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier**
+- Source: CNBC Business Headlines
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, geopolitical_risk, defense
+- Score: `47.6`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Buy these dividend-paying real estate stocks ahead of earnings, says UBS**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -340,7 +348,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**3. Elon Musk speaks exclusively to CNBC about Grok, Tesla and the SpaceX IPO: Live updates**
+**4. Elon Musk speaks exclusively to CNBC about Grok, Tesla and the SpaceX IPO: Live updates**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -348,7 +356,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. How Apple stock rode the AI rollercoaster to record highs in 1 chart**
+**5. How Apple stock rode the AI rollercoaster to record highs in 1 chart**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / long-term
@@ -356,7 +364,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**5. Meta’s stock roars back to life as it notches its best week in years**
+**6. Meta’s stock roars back to life as it notches its best week in years**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -364,7 +372,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**6. Meta’s stock roars back to life as it notches its best week in years**
+**7. Meta’s stock roars back to life as it notches its best week in years**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -372,7 +380,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. Meta's stock has best week since early 2024 as optimism builds around AI strategy**
+**8. Meta's stock has best week since early 2024 as optimism builds around AI strategy**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -380,7 +388,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 5%**
+**9. Stablecoin issuer Circle just got the greenlight to operate as a bank. The shares are up 5%**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -388,21 +396,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. Dow climbing over 200 points as U.S. stocks build on gains in final hour — live**
+**10. Dow climbing over 200 points as U.S. stocks build on gains in final hour — live**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short term
 - Affected assets: U.S, Stock Market
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. Next week brings earnings and inflation data amid resumption of U.S.-Iran hostilities. Here's what's ahead**
-- Source: CNBC Business
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: MSFT, AAPL, GOOGL, TSLA, U.S
-- Score: `34.68`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
