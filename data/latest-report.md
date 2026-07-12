@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-12T09:31:42.922379+00:00
+Generated at: 2026-07-12T10:12:01.259686+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.42 / 100** (Moderate Risk-On)
+- Regime score: **65.46 / 100** (Moderate Risk-On)
 - Market strength: **75.76 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -26,7 +26,7 @@ Window: 24h
 | dollar_fx | 54.88 |
 | commodity_confirmation | 58.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 53.75 |
+| news_confirmation | 54.38 |
 
 Positive contributors: equity_trend=90.0, volatility=80.0, market_breadth=70.4
 Negative contributors: none
@@ -320,8 +320,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 38, 'negative': 32, 'neutral': 10}
-- News confirmation score: `53.75`
+- Sentiment counts: {'positive': 39, 'negative': 32, 'neutral': 9}
+- News confirmation score: `54.38`
 
 ### Top Market-Moving Headlines
 
@@ -341,7 +341,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.46`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. U.S. launches airstrikes against Iran after Tehran attacks container ship in Hormuz, Pentagon says**
+**3. The good news from the WSJ survey of economists: The Iran war didn’t hurt the U.S. nearly as much as feared; the bad news: It left inflation more persistent**
+- Source: Dow Jones Economy
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: U.S, WSJ, economic outlook, inflation, geopolitical events
+- Score: `37.57`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**4. U.S. launches airstrikes against Iran after Tehran attacks container ship in Hormuz, Pentagon says**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -349,7 +357,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.74`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**4. Regular water is no longer enough. Welcome to the corporate gold rush around ‘functional hydration.’**
+**5. Regular water is no longer enough. Welcome to the corporate gold rush around ‘functional hydration.’**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -357,7 +365,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**5. Your data built the AI boom — but Big Tech is pocketing 100% of the equity**
+**6. Your data built the AI boom — but Big Tech is pocketing 100% of the equity**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -365,7 +373,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.79`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**6. Iran’s IRGC navy says Strait of Hormuz closed until further notice, state media reports**
+**7. Iran’s IRGC navy says Strait of Hormuz closed until further notice, state media reports**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -373,7 +381,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.98`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. ‘An American tragedy’ in the making: The majority of small-business owners will retire in the next decade. What happens to their workers?**
+**8. ‘An American tragedy’ in the making: The majority of small-business owners will retire in the next decade. What happens to their workers?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -381,7 +389,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `26.01`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. US says it hit 140 Iranian military targets as Tehran closes Strait of Hormuz**
+**9. US says it hit 140 Iranian military targets as Tehran closes Strait of Hormuz**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -389,21 +397,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.44`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. The volatile AI trade marched higher, but oil kept Wall Street on edge last week**
+**10. The volatile AI trade marched higher, but oil kept Wall Street on edge last week**
 - Source: CNBC Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short term
 - Affected assets: AI, Tech
 - Score: `25.44`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
-
-**10. Eni CEO warns oil could break above $100 in 2027 if Middle East tensions persist**
-- Source: Investing.com Stock Market
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / long-term
-- Affected assets: ENI, oil prices, Middle East tensions
-- Score: `24.3`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the long-term.
 
 
 ### Headline Quality Checks
