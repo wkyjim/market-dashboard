@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-12T11:52:16.623899+00:00
+Generated at: 2026-07-12T12:28:08.989790+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.46 / 100** (Moderate Risk-On)
+- Regime score: **65.42 / 100** (Moderate Risk-On)
 - Market strength: **75.76 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -26,7 +26,7 @@ Window: 24h
 | dollar_fx | 54.88 |
 | commodity_confirmation | 58.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 54.38 |
+| news_confirmation | 53.75 |
 
 Positive contributors: equity_trend=90.0, volatility=80.0, market_breadth=70.4
 Negative contributors: none
@@ -320,8 +320,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 39, 'negative': 32, 'neutral': 9}
-- News confirmation score: `54.38`
+- Sentiment counts: {'positive': 38, 'negative': 32, 'neutral': 10}
+- News confirmation score: `53.75`
 
 ### Top Market-Moving Headlines
 
@@ -357,15 +357,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.74`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**5. Regular water is no longer enough. Welcome to the corporate gold rush around ‘functional hydration.’**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: GLP, health, consumer goods, biotech
-- Score: `33.15`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**6. Your data built the AI boom — but Big Tech is pocketing 100% of the equity**
+**5. Your data built the AI boom — but Big Tech is pocketing 100% of the equity**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -373,7 +365,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.79`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**7. Iran’s IRGC navy says Strait of Hormuz closed until further notice, state media reports**
+**6. Iran’s IRGC navy says Strait of Hormuz closed until further notice, state media reports**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -381,7 +373,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.98`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. ‘An American tragedy’ in the making: The majority of small-business owners will retire in the next decade. What happens to their workers?**
+**7. ‘An American tragedy’ in the making: The majority of small-business owners will retire in the next decade. What happens to their workers?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -389,7 +381,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `26.01`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**9. US says it hit 140 Iranian military targets as Tehran closes Strait of Hormuz**
+**8. US says it hit 140 Iranian military targets as Tehran closes Strait of Hormuz**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -397,13 +389,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.44`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. The volatile AI trade marched higher, but oil kept Wall Street on edge last week**
+**9. The volatile AI trade marched higher, but oil kept Wall Street on edge last week**
 - Source: CNBC Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short term
 - Affected assets: AI, Tech
 - Score: `25.44`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
+
+**10. Eni CEO warns oil could break above $100 in 2027 if Middle East tensions persist**
+- Source: Investing.com Stock Market
+- Importance / impact: Low / Positive
+- Relevance / horizon: macro / long-term
+- Affected assets: ENI, oil prices, Middle East tensions
+- Score: `24.3`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the long-term.
 
 
 ### Headline Quality Checks
@@ -437,19 +437,19 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 
 | Ticker | Exposure | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price State | Flow State | Volume State | PFV State | Regime Bias | Flow Structure | Confidence |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| IVV | U.S. Broad Equity | 1.6 | 1.6 | 0.5 | -0.6 | Up | Sell | Low | Weak Distribution | Neutral | Tactical profit-taking inside structural accumulation | 83.0 |
+| IVV | U.S. Broad Equity | 1.6 | 1.6 | 0.5 | -0.6 | Up | Buy | Low | Quiet Accumulation | Mild Risk-On | Strong confirmation | 95.0 |
 | ACWI | Global Equity | -0.3 | -1.1 | 0.1 | -0.8 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Medium-term recovery; Persistent selling | 79.0 |
 | EFA | Developed Markets ex-U.S. | 0.6 | 0.2 | 0.1 | -1.6 | Up | Sell | Low | Weak Distribution | Neutral | Tactical profit-taking inside structural accumulation; Persistent selling | 75.0 |
 | IEMG | Emerging Markets | -0.5 | -0.7 | 0.1 | -0.1 | Flat | Neutral | Normal | Neutral | Neutral | Structural distribution; Persistent selling | 71.0 |
-| IJH | U.S. Mid Cap | 0.3 | 0.3 | 0.6 | -0.4 | Flat | Buy | Normal | Quiet Accumulation | Improving | Strong confirmation | 95.0 |
+| IJH | U.S. Mid Cap | 0.3 | 0.3 | 0.6 | -0.4 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation | 91.0 |
 | IWM | U.S. Small Cap | 1.8 | 2.0 | 0.5 | -1.7 | Up | Buy | Low | Quiet Accumulation | Mild Risk-On | Strong confirmation; Exceptional institutional buying | 100.0 |
-| LQD | Investment-Grade Credit | 2.6 | 0.6 | 0.8 | 0.9 | Flat | Buy | Normal | Quiet Accumulation | Improving | Strong confirmation; Exceptional institutional buying, Strong sponsorship | 100.0 |
+| LQD | Investment-Grade Credit | 2.6 | 0.6 | 0.8 | 0.9 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Exceptional institutional buying, Strong sponsorship | 100.0 |
 | HYG | High-Yield Credit | 1.0 | 0.3 | 0.7 | -1.1 | Flat | Sell | Normal | Quiet Distribution | Weakening | Medium-term recovery; Exceptional institutional selling | 79.0 |
 | SGOV | Treasury Bills / Cash | -0.7 | -1.8 | 0.8 | -0.9 | Flat | Buy | Normal | Quiet Accumulation | Improving | Medium-term recovery; Strong sponsorship | 95.0 |
 | SHY | Short-Duration Treasuries | 0.2 | -1.2 | 0.3 | -0.9 | Flat | Buy | Normal | Quiet Accumulation | Improving | Medium-term recovery | 87.0 |
-| IEF | Intermediate-Duration Treasuries | -0.5 | -1.0 | 0.3 | -0.1 | Flat | Buy | Normal | Quiet Accumulation | Improving | Tactical rebound inside structural distribution | 83.0 |
+| IEF | Intermediate-Duration Treasuries | -0.5 | -1.0 | 0.3 | -0.1 | Flat | Neutral | Normal | Neutral | Neutral | Structural distribution | 79.0 |
 | TLT | Long-Duration Treasuries | 2.2 | 1.9 | 0.7 | -1.4 | Flat | Buy | Normal | Quiet Accumulation | Improving | Strong confirmation; Exceptional institutional buying | 100.0 |
-| GLD | Gold | 0.0 | -0.4 | 0.3 | -0.6 | Flat | Buy | Normal | Quiet Accumulation | Improving | Tactical rebound inside structural distribution | 83.0 |
+| GLD | Gold | 0.0 | -0.4 | 0.3 | -0.6 | Flat | Neutral | Normal | Neutral | Neutral | Structural distribution | 79.0 |
 | IBIT | Bitcoin | -1.2 | -1.8 | 0.3 | -0.8 | Up | Sell | Normal | Profit Taking | Slightly Bearish | Strong confirmation | 95.0 |
 
 ### Sector Flow Signals
@@ -457,14 +457,14 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 | Ticker | Exposure | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price State | Flow State | Volume State | PFV State | Regime Bias | Flow Structure | Confidence |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | XLC | Communication Services | -0.3 | 0.9 | 0.3 | 0.2 | Flat | Sell | Normal | Quiet Distribution | Weakening | Strong confirmation | 95.0 |
-| XLY | Consumer Discretionary | 0.3 | 0.8 | 0.5 | 0.1 | Flat | Buy | Normal | Quiet Accumulation | Improving | Mixed or neutral flow structure | 85.0 |
+| XLY | Consumer Discretionary | 0.3 | 0.8 | 0.5 | 0.1 | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure | 85.0 |
 | XLP | Consumer Staples | 0.8 | 2.2 | 0.5 | -0.3 | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation; Exceptional institutional buying | 100.0 |
-| XLE | Energy | -0.8 | -0.8 | 0.4 | -1.4 | Flat | Sell | Normal | Quiet Distribution | Weakening | Strong confirmation | 95.0 |
-| XLF | Financials | 0.8 | 0.6 | 0.7 | -1.1 | Up | Buy | Normal | Steady Accumulation | Risk-On | Medium-term recovery | 87.0 |
-| XLV | Health Care | 1.1 | 0.3 | 0.6 | -0.3 | Up | Buy | Normal | Steady Accumulation | Risk-On | Medium-term recovery | 87.0 |
-| XLI | Industrials | 1.6 | 1.0 | 0.7 | -1.4 | Up | Buy | Normal | Steady Accumulation | Risk-On | Strong confirmation | 95.0 |
-| XLK | Information Technology | -0.8 | -0.3 | 0.5 | -1.2 | Up | Buy | Normal | Steady Accumulation | Risk-On | Medium-term deterioration | 83.0 |
-| XLB | Materials | 0.2 | 0.3 | 0.6 | -0.3 | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation | 95.0 |
+| XLE | Energy | -0.8 | -0.8 | 0.4 | -1.4 | Flat | Neutral | Normal | Neutral | Neutral | Structural distribution | 79.0 |
+| XLF | Financials | 0.8 | 0.6 | 0.7 | -1.1 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Medium-term recovery | 87.0 |
+| XLV | Health Care | 1.1 | 0.3 | 0.6 | -0.3 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Medium-term recovery | 87.0 |
+| XLI | Industrials | 1.6 | 1.0 | 0.7 | -1.4 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural accumulation | 91.0 |
+| XLK | Information Technology | -0.8 | -0.3 | 0.5 | -1.2 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Medium-term deterioration | 83.0 |
+| XLB | Materials | 0.2 | 0.3 | 0.6 | -0.3 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural accumulation | 91.0 |
 | XLRE | Real Estate | 2.0 | 1.8 | 0.8 | -1.4 | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation; Exceptional institutional buying, Strong sponsorship | 100.0 |
 | XLU | Utilities | 1.0 | -1.0 | 0.7 | -0.2 | Up | Buy | Normal | Steady Accumulation | Risk-On | Medium-term recovery | 87.0 |
 
@@ -472,9 +472,9 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 
 | Ticker | Exposure | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price State | Flow State | Volume State | PFV State | Regime Bias | Flow Structure | Confidence |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ITA | Aerospace and Defense | -0.2 | 0.3 | 0.5 | -1.2 | Flat | Sell | Normal | Quiet Distribution | Weakening | Strong confirmation | 95.0 |
+| ITA | Aerospace and Defense | -0.2 | 0.3 | 0.5 | -1.2 | Flat | Neutral | Normal | Neutral | Neutral | Structural distribution | 79.0 |
 | SOXX | Semiconductors | 2.5 | 2.7 | 0.6 | -0.9 | Flat | Buy | Normal | Quiet Accumulation | Improving | Strong confirmation; Exceptional institutional buying | 100.0 |
-| SMH | Semiconductors | -2.0 | 0.6 | 0.4 | -1.3 | Down | Buy | Normal | Contrarian Buying | Watch | Medium-term deterioration | 83.0 |
+| SMH | Semiconductors | -2.0 | 0.6 | 0.4 | -1.3 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term deterioration | 83.0 |
 | CIBR | Cybersecurity | n/a | n/a | 0.2 | n/a | Flat | Buy | Normal | Quiet Accumulation | Improving | Mixed or neutral flow structure; Persistent selling | 42.0 |
 
 ### Material Flow Divergences
