@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-12T11:46:50.679912+00:00
+Generated at: 2026-07-12T11:52:16.623899+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -446,10 +446,10 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 | LQD | Investment-Grade Credit | 2.6 | 0.6 | 0.8 | 0.9 | Flat | Buy | Normal | Quiet Accumulation | Improving | Strong confirmation; Exceptional institutional buying, Strong sponsorship | 100.0 |
 | HYG | High-Yield Credit | 1.0 | 0.3 | 0.7 | -1.1 | Flat | Sell | Normal | Quiet Distribution | Weakening | Medium-term recovery; Exceptional institutional selling | 79.0 |
 | SGOV | Treasury Bills / Cash | -0.7 | -1.8 | 0.8 | -0.9 | Flat | Buy | Normal | Quiet Accumulation | Improving | Medium-term recovery; Strong sponsorship | 95.0 |
-| SHY | Short-Duration Treasuries | 0.2 | -1.2 | 0.3 | -0.9 | Flat | Sell | Normal | Quiet Distribution | Weakening | Medium-term recovery | 87.0 |
+| SHY | Short-Duration Treasuries | 0.2 | -1.2 | 0.3 | -0.9 | Flat | Buy | Normal | Quiet Accumulation | Improving | Medium-term recovery | 87.0 |
 | IEF | Intermediate-Duration Treasuries | -0.5 | -1.0 | 0.3 | -0.1 | Flat | Buy | Normal | Quiet Accumulation | Improving | Tactical rebound inside structural distribution | 83.0 |
 | TLT | Long-Duration Treasuries | 2.2 | 1.9 | 0.7 | -1.4 | Flat | Buy | Normal | Quiet Accumulation | Improving | Strong confirmation; Exceptional institutional buying | 100.0 |
-| GLD | Gold | 0.0 | -0.4 | 0.3 | -0.6 | Flat | Sell | Normal | Quiet Distribution | Weakening | Strong confirmation | 95.0 |
+| GLD | Gold | 0.0 | -0.4 | 0.3 | -0.6 | Flat | Buy | Normal | Quiet Accumulation | Improving | Tactical rebound inside structural distribution | 83.0 |
 | IBIT | Bitcoin | -1.2 | -1.8 | 0.3 | -0.8 | Up | Sell | Normal | Profit Taking | Slightly Bearish | Strong confirmation | 95.0 |
 
 ### Sector Flow Signals
@@ -457,11 +457,11 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 | Ticker | Exposure | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price State | Flow State | Volume State | PFV State | Regime Bias | Flow Structure | Confidence |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | XLC | Communication Services | -0.3 | 0.9 | 0.3 | 0.2 | Flat | Sell | Normal | Quiet Distribution | Weakening | Strong confirmation | 95.0 |
-| XLY | Consumer Discretionary | 0.3 | 0.8 | 0.5 | 0.1 | Flat | Sell | Normal | Quiet Distribution | Weakening | Mixed or neutral flow structure | 85.0 |
-| XLP | Consumer Staples | 0.8 | 2.2 | 0.5 | -0.3 | Down | Sell | Normal | Persistent Distribution | Risk-Off | Tactical profit-taking inside structural accumulation | 83.0 |
+| XLY | Consumer Discretionary | 0.3 | 0.8 | 0.5 | 0.1 | Flat | Buy | Normal | Quiet Accumulation | Improving | Mixed or neutral flow structure | 85.0 |
+| XLP | Consumer Staples | 0.8 | 2.2 | 0.5 | -0.3 | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation; Exceptional institutional buying | 100.0 |
 | XLE | Energy | -0.8 | -0.8 | 0.4 | -1.4 | Flat | Sell | Normal | Quiet Distribution | Weakening | Strong confirmation | 95.0 |
 | XLF | Financials | 0.8 | 0.6 | 0.7 | -1.1 | Up | Buy | Normal | Steady Accumulation | Risk-On | Medium-term recovery | 87.0 |
-| XLV | Health Care | 1.1 | 0.3 | 0.6 | -0.3 | Up | Sell | Normal | Profit Taking | Slightly Bearish | Medium-term recovery | 87.0 |
+| XLV | Health Care | 1.1 | 0.3 | 0.6 | -0.3 | Up | Buy | Normal | Steady Accumulation | Risk-On | Medium-term recovery | 87.0 |
 | XLI | Industrials | 1.6 | 1.0 | 0.7 | -1.4 | Up | Buy | Normal | Steady Accumulation | Risk-On | Strong confirmation | 95.0 |
 | XLK | Information Technology | -0.8 | -0.3 | 0.5 | -1.2 | Up | Buy | Normal | Steady Accumulation | Risk-On | Medium-term deterioration | 83.0 |
 | XLB | Materials | 0.2 | 0.3 | 0.6 | -0.3 | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation | 95.0 |
@@ -473,8 +473,8 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 | Ticker | Exposure | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price State | Flow State | Volume State | PFV State | Regime Bias | Flow Structure | Confidence |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ITA | Aerospace and Defense | -0.2 | 0.3 | 0.5 | -1.2 | Flat | Sell | Normal | Quiet Distribution | Weakening | Strong confirmation | 95.0 |
-| SOXX | Semiconductors | 2.5 | 2.7 | 0.6 | -0.9 | Flat | Sell | Normal | Quiet Distribution | Weakening | Tactical profit-taking inside structural accumulation | 83.0 |
-| SMH | Semiconductors | -2.0 | 0.6 | 0.4 | -1.3 | Down | Sell | Normal | Persistent Distribution | Risk-Off | Medium-term deterioration | 83.0 |
+| SOXX | Semiconductors | 2.5 | 2.7 | 0.6 | -0.9 | Flat | Buy | Normal | Quiet Accumulation | Improving | Strong confirmation; Exceptional institutional buying | 100.0 |
+| SMH | Semiconductors | -2.0 | 0.6 | 0.4 | -1.3 | Down | Buy | Normal | Contrarian Buying | Watch | Medium-term deterioration | 83.0 |
 | CIBR | Cybersecurity | n/a | n/a | 0.2 | n/a | Flat | Buy | Normal | Quiet Accumulation | Improving | Mixed or neutral flow structure; Persistent selling | 42.0 |
 
 ### Material Flow Divergences
