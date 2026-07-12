@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-12T07:11:57.491453+00:00
+Generated at: 2026-07-12T08:26:28.382257+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -470,7 +470,7 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 - Crowding / Squeeze Risks: initial coverage uses CFTC crowded positioning and FINRA elevated short-sale volume only.
 - Grouped exposure flow reliability: use issuer coverage and availability status before treating ETF flow as confirmation.
 
-## ETF Flow Market Confirmation
+## ETF Flows Analysis
 
 - Market flow regime: `Selective Risk-On`
 - Market flow score: `57.4 / 100`
@@ -478,48 +478,46 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 - Credit risk flow: `61.5`
 - Sector cyclicality flow: `58.3`
 - Duration/liquidity flow: `46.8`
-- Gold/Bitcoin interpretation: `mixed alternative-asset demand`
-
-- Legacy grouped-flow contribution: `51.4 / 100`
+- Alternatives: `mixed alternative-asset demand`
 - ETF flow reliability: `67.1 / 100`
 - Dominant allocation direction: `mixed allocation`
 
-### Core Asset Flow Table
+### Core Flow Signals
 
-| Ticker | Exposure | 1D Flow | 5D Flow | 20D Flow | 60D Flow | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price/Flow/Volume State |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| IVV | U.S. Broad Equity | -$1,971,998,753 | -$5,827,752,627 | $45,581,365,605 | $62,511,866,133 | 1.6 | 1.6 | 0.5 | -0.6 | Price Strength with Redemptions |
-| ACWI | Global Equity | $0 | $0 | $628,075,495 | $960,648,986 | -0.3 | -1.1 | 0.1 | -0.8 | Price-Led Strength |
-| EFA | Developed Markets ex-U.S. | $0 | -$312,247,527 | $252,853,532 | $252,853,532 | 0.6 | 0.2 | 0.1 | -1.6 | Price Strength with Redemptions |
-| IEMG | Emerging Markets | $0 | $0 | -$96,266,862 | -$405,764,102 | -0.5 | -0.7 | 0.1 | -0.1 | Neutral |
-| IJH | U.S. Mid Cap | $0 | $417,440,001 | $1,043,787,378 | $2,616,920,537 | 0.3 | 0.3 | 0.6 | -0.4 | Quiet Accumulation |
-| IWM | U.S. Small Cap | $1,109,200,189 | $1,134,478,966 | $2,697,519,294 | $579,588,845 | 1.8 | 2.0 | 0.5 | -1.7 | Confirmed Accumulation |
-| LQD | Investment-Grade Credit | $483,685,168 | $1,759,063,325 | $6,880,535,412 | $3,555,349,359 | 2.6 | 0.6 | 0.8 | 0.9 | Quiet Accumulation |
-| HYG | High-Yield Credit | -$421,951,396 | -$1,027,031,569 | $672,362,224 | -$37,266,173 | 1.0 | 0.3 | 0.7 | -1.1 | Quiet Distribution |
-| SGOV | Treasury Bills / Cash | $653,269,090 | $2,862,933,765 | $3,552,859,186 | $11,940,558,150 | -0.7 | -1.8 | 0.8 | -0.9 | Quiet Accumulation |
-| SHY | Short-Duration Treasuries | -$49,119,398 | $335,608,177 | $450,453,440 | $251,238,226 | 0.2 | -1.2 | 0.3 | -0.9 | Quiet Accumulation |
-| IEF | Intermediate-Duration Treasuries | -$9,361,177 | $159,522,073 | -$85,671,408 | -$749,396,634 | -0.5 | -1.0 | 0.3 | -0.1 | Quiet Accumulation |
-| TLT | Long-Duration Treasuries | $591,121,713 | $1,605,508,372 | $2,294,921,926 | $1,131,272,046 | 2.2 | 1.9 | 0.7 | -1.4 | Quiet Accumulation |
-| GLD | Gold | -$376,138,716 | $192,609,967 | -$1,369,543,085 | -$6,360,448,501 | 0.0 | -0.4 | 0.3 | -0.6 | Quiet Accumulation |
-| IBIT | Bitcoin | -$60,778,640 | -$64,518,463 | -$2,040,296,572 | -$3,482,785,032 | -1.2 | -1.8 | 0.3 | -0.8 | Price Strength with Redemptions |
+| Ticker | Exposure | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price/Flow/Volume State |
+| --- | --- | --- | --- | --- | --- | --- |
+| IVV | U.S. Broad Equity | 1.6 | 1.6 | 0.5 | -0.6 | Price Strength with Redemptions |
+| ACWI | Global Equity | -0.3 | -1.1 | 0.1 | -0.8 | Price-Led Strength |
+| EFA | Developed Markets ex-U.S. | 0.6 | 0.2 | 0.1 | -1.6 | Price Strength with Redemptions |
+| IEMG | Emerging Markets | -0.5 | -0.7 | 0.1 | -0.1 | Neutral |
+| IJH | U.S. Mid Cap | 0.3 | 0.3 | 0.6 | -0.4 | Quiet Accumulation |
+| IWM | U.S. Small Cap | 1.8 | 2.0 | 0.5 | -1.7 | Confirmed Accumulation |
+| LQD | Investment-Grade Credit | 2.6 | 0.6 | 0.8 | 0.9 | Quiet Accumulation |
+| HYG | High-Yield Credit | 1.0 | 0.3 | 0.7 | -1.1 | Quiet Distribution |
+| SGOV | Treasury Bills / Cash | -0.7 | -1.8 | 0.8 | -0.9 | Quiet Accumulation |
+| SHY | Short-Duration Treasuries | 0.2 | -1.2 | 0.3 | -0.9 | Quiet Accumulation |
+| IEF | Intermediate-Duration Treasuries | -0.5 | -1.0 | 0.3 | -0.1 | Quiet Accumulation |
+| TLT | Long-Duration Treasuries | 2.2 | 1.9 | 0.7 | -1.4 | Quiet Accumulation |
+| GLD | Gold | 0.0 | -0.4 | 0.3 | -0.6 | Quiet Accumulation |
+| IBIT | Bitcoin | -1.2 | -1.8 | 0.3 | -0.8 | Price Strength with Redemptions |
 
-### Major Sector Flow Table
+### Sector Flow Signals
 
-| Ticker | Exposure | 1D Flow | 5D Flow | 20D Flow | 60D Flow | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price/Flow/Volume State |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| XLC | Communication Services | -$55,278,041 | -$371,028,526 | -$525,911,380 | -$769,774,520 | -0.3 | 0.9 | 0.3 | 0.2 | Quiet Distribution |
-| XLY | Consumer Discretionary | -$163,634,285 | $28,649,092 | $11,118,726 | -$57,448,875 | 0.3 | 0.8 | 0.5 | 0.1 | Quiet Accumulation |
-| XLP | Consumer Staples | -$24,967,242 | $617,261,001 | $131,474,930 | -$197,025,290 | 0.8 | 2.2 | 0.5 | -0.3 | Buying Weakness |
-| XLE | Energy | -$21,923,620 | -$455,166,651 | -$717,575,873 | -$904,760,492 | -0.8 | -0.8 | 0.4 | -1.4 | Quiet Distribution |
-| XLF | Financials | -$16,662,784 | $549,976,582 | $1,119,335,265 | -$296,884,497 | 0.8 | 0.6 | 0.7 | -1.1 | Confirmed Accumulation |
-| XLV | Health Care | -$32,440,362 | $56,379,330 | $384,575,979 | -$638,320,307 | 1.1 | 0.3 | 0.6 | -0.3 | Confirmed Accumulation |
-| XLI | Industrials | $81,504,857 | $580,715,983 | $1,843,149,587 | $1,656,610,066 | 1.6 | 1.0 | 0.7 | -1.4 | Confirmed Accumulation |
-| XLK | Information Technology | $64,868,850 | $247,492,475 | -$982,071,051 | $1,478,330,678 | -0.8 | -0.3 | 0.5 | -1.2 | Confirmed Accumulation |
-| XLB | Materials | $140,786,142 | $218,114,793 | $537,591,752 | $1,265,161,598 | 0.2 | 0.3 | 0.6 | -0.3 | Buying Weakness |
-| XLRE | Real Estate | $42,011,003 | $129,300,643 | $472,863,319 | $416,088,688 | 2.0 | 1.8 | 0.8 | -1.4 | Buying Weakness |
-| XLU | Utilities | -$11,280,378 | $424,720,971 | $682,875,565 | -$991,749,481 | 1.0 | -1.0 | 0.7 | -0.2 | Confirmed Accumulation |
+| Ticker | Exposure | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price/Flow/Volume State |
+| --- | --- | --- | --- | --- | --- | --- |
+| XLC | Communication Services | -0.3 | 0.9 | 0.3 | 0.2 | Quiet Distribution |
+| XLY | Consumer Discretionary | 0.3 | 0.8 | 0.5 | 0.1 | Quiet Accumulation |
+| XLP | Consumer Staples | 0.8 | 2.2 | 0.5 | -0.3 | Buying Weakness |
+| XLE | Energy | -0.8 | -0.8 | 0.4 | -1.4 | Quiet Distribution |
+| XLF | Financials | 0.8 | 0.6 | 0.7 | -1.1 | Confirmed Accumulation |
+| XLV | Health Care | 1.1 | 0.3 | 0.6 | -0.3 | Confirmed Accumulation |
+| XLI | Industrials | 1.6 | 1.0 | 0.7 | -1.4 | Confirmed Accumulation |
+| XLK | Information Technology | -0.8 | -0.3 | 0.5 | -1.2 | Confirmed Accumulation |
+| XLB | Materials | 0.2 | 0.3 | 0.6 | -0.3 | Buying Weakness |
+| XLRE | Real Estate | 2.0 | 1.8 | 0.8 | -1.4 | Buying Weakness |
+| XLU | Utilities | 1.0 | -1.0 | 0.7 | -0.2 | Confirmed Accumulation |
 
-### Industry and Subsector Rotation Table
+### Subsector Rotation Signals
 
 | Ticker | Exposure | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price State | Flow State | Price/Flow/Volume State | Rotation State |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -527,25 +525,6 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 | SOXX | Semiconductors | 2.5 | 2.7 | 0.6 | -0.9 | flat | inflow | Quiet Accumulation | Strengthening Inflow |
 | SMH | Semiconductors | -2.0 | 0.6 | 0.4 | -1.3 | down | inflow | Buying Weakness | Early Improvement |
 | CIBR | Cybersecurity | n/a | n/a | 0.2 | n/a | flat | inflow | Quiet Accumulation | Neutral |
-
-### Representative Exposure Dashboard
-
-| Exposure | Type | 1D Known Flow | 5D Known Flow | 20D Known Flow | Adjusted Score | Reliability | Status |
-| --- | --- | --- | --- | --- | --- | --- | --- |
-| Semiconductors | sector | -$1,711,131,708 | $8,360,330,805 | $841,810,970 | 75.3 | 100.0 | complete |
-| Long-Duration Treasuries | duration | $591,121,713 | $1,605,508,372 | $2,294,921,926 | 71.8 | 65.0 | complete |
-| Investment-Grade Credit | credit | $483,685,168 | $1,759,063,325 | $6,880,535,412 | 69.2 | 65.0 | complete |
-| Small Caps | market_cap | $1,138,297,633 | $1,281,400,856 | $3,195,892,037 | 69.0 | 65.0 | complete |
-| Financials | sector | $19,937,316 | $152,489,818 | $440,273,617 | 68.5 | 65.0 | provisional_low_coverage |
-| Broad U.S. Equity | asset_class | -$1,938,892,564 | -$5,557,215,009 | $46,810,748,366 | 66.3 | 65.0 | provisional_low_coverage |
-| Energy | sector | -$11,722,852 | $5,604,853 | $90,401,698 | 63.7 | 65.0 | provisional_low_coverage |
-| High-Yield Credit | credit | -$421,951,396 | -$1,027,031,569 | $672,362,224 | 56.8 | 65.0 | provisional_low_coverage |
-| Healthcare | sector | -$3,395,963 | $3,509,359 | -$119,000,646 | 41.1 | 65.0 | provisional_low_coverage |
-| Gold | commodity | -$426,248,204 | $115,795,719 | -$3,340,743,453 | 36.3 | 100.0 | complete |
-| Treasury Bills | duration | $653,269,090 | $2,862,933,765 | $3,552,859,186 | 71.5 | 65.0 | complete |
-| Factor Rotation | factor | $119,217,483 | $431,956,924 | $1,237,742,717 | 70.5 | 65.0 | complete |
-| Core Bonds | credit | $171,893,545 | $1,015,106,163 | $3,316,915,782 | 66.5 | 65.0 | complete |
-| Dividend Defensives | factor | $26,967,771 | $131,078,456 | $403,678,667 | 64.5 | 65.0 | complete |
 
 ### Material Flow Divergences
 
