@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-12T13:11:47.873453+00:00
+Generated at: 2026-07-12T16:11:58.106233+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.46 / 100** (Moderate Risk-On)
+- Regime score: **65.67 / 100** (Moderate Risk-On)
 - Market strength: **75.76 / 100** (strong)
-- Evidence quality: **83.0 / 100**
+- Evidence quality: **86.5 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
 - Breadth: **broad**; above 50DMA `60.0%`, above 200DMA `72.88%`
 - Top sector score: **Cybersecurity** `71.02`
@@ -26,7 +26,7 @@ Window: 24h
 | dollar_fx | 54.88 |
 | commodity_confirmation | 58.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 54.38 |
+| news_confirmation | 58.75 |
 
 Positive contributors: equity_trend=90.0, volatility=80.0, market_breadth=70.4
 Negative contributors: none
@@ -47,8 +47,8 @@ Negative contributors: none
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `83.0`
-- Agreement ratio: `0.6`
+- Confidence score: `86.5`
+- Agreement ratio: `0.7`
 - Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
@@ -237,14 +237,14 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Healthcare | 64.47 | strong uptrend | positive | broad | 41.07 | 65.0 | 50.44 | MRNA, TECH, CRL | PFE, ZTS, BSX |
 | 4 | Semiconductors | 63.59 | strong uptrend | positive | broad | 75.28 | 100.0 | 64.4 | SOXX, SMH | SMH, SOXX |
 | 5 | Industrials | 63.43 | strong uptrend | positive | broad | 50.0 | 0.0 | 50.39 | AXON, GEV, UAL | LDOS, CPRT, FDXF |
-| 6 | Technology | 62.83 | strong uptrend | positive | broad | 59.18 | 65.0 | 55.2 | ZBRA, PANW, AMD | ORCL, CRWD, KLAC |
+| 6 | Technology | 63.04 | strong uptrend | positive | broad | 59.18 | 65.0 | 55.2 | ZBRA, PANW, AMD | ORCL, CRWD, KLAC |
 | 7 | Real Estate | 58.76 | strong uptrend | neutral | broad | 61.18 | 65.0 | 44.29 | WELL, VTR, DOC | AMT, CCI, CSGP |
 | 8 | Utilities | 57.67 | uptrend | neutral | broad | 50.0 | 0.0 | 45.98 | NRG, VST, ES | NI, PPL, DUK |
 | 9 | Consumer Staples | 57.66 | strong uptrend | neutral | broad | 50.0 | 0.0 | 44.41 | DLTR, KMB, DG | MDLZ, CASY, BG |
 | 10 | Crypto | 49.4 | neutral | neutral | mixed | 44.0 | 65.0 | 50.0 |  |  |
 | 11 | Consumer Discretionary | 49.04 | downtrend | neutral | weak | 50.0 | 0.0 | 46.33 | GPC, DASH, EXPE | APTV, LVS, TJX |
 | 12 | Grid Infrastructure | 45.96 | neutral | neutral | weak | 50.0 | 0.0 | 45.97 | GRID | GRID |
-| 13 | Energy | 44.63 | strong downtrend | neutral | weak | 63.74 | 65.0 | 40.19 | VLO, MPC, TPL | APA, HAL, SLB |
+| 13 | Energy | 44.33 | strong downtrend | neutral | weak | 63.74 | 65.0 | 40.19 | VLO, MPC, TPL | APA, HAL, SLB |
 | 14 | Defense | 40.85 | downtrend | neutral | weak | 50.0 | 0.0 | 44.41 | XAR | XAR |
 | 15 | Nuclear | 32.56 | strong downtrend | negative | weak | 50.0 | 0.0 | 35.91 | NLR | NLR |
 
@@ -261,8 +261,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 7 | AI Infrastructure | 55.41 | Neutral / watchlist | 75.28 | 100.0 | 10.44 | False | False |
 | 8 | Quality Growth | 51.87 | Neutral / watchlist | 54.65 | 65.0 | 11.23 | False | False |
 | 9 | Grid Infrastructure | 49.8 | Neutral / watchlist | 50.0 | 0.0 | 7.3 | False | False |
-| 10 | Defense | 43.1 | Weak setup | 50.0 | 0.0 | 26.83 | False | False |
-| 11 | Energy | 43.01 | Weak setup | 63.74 | 65.0 | 2.35 | False | False |
+| 10 | Energy | 43.63 | Weak setup | 63.74 | 65.0 | 2.35 | False | False |
+| 11 | Defense | 43.1 | Weak setup | 50.0 | 0.0 | 26.83 | False | False |
 | 12 | Nuclear | 31.81 | Weak setup | 50.0 | 0.0 | 17.59 | False | False |
 | 13 | Crypto Infrastructure | 30.86 | Underperformance risk | 44.0 | 65.0 | 21.27 | False | False |
 
@@ -280,14 +280,14 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Healthcare | Healthcare Innovation | 64.47 | positive | 59.94 | positive | sector and theme confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 63.59 | positive | 58.75 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 63.43 | positive | 46.45 | mixed | sector stronger than related themes |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 62.83 | positive | 56.45 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 63.04 | positive | 56.45 | positive | sector and theme confirmation |
 | Real Estate | Dividend Defensives | 58.76 | positive | 55.47 | positive | sector and theme confirmation |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 57.67 | positive | 45.69 | mixed | sector stronger than related themes |
 | Consumer Staples | Dividend Defensives | 57.66 | positive | 55.47 | positive | sector and theme confirmation |
 | Crypto | Crypto Infrastructure | 49.4 | mixed | 30.86 | very weak | mixed confirmation |
 | Consumer Discretionary | Small Caps | 49.04 | mixed | 58.24 | positive | theme stronger than official sector |
 | Grid Infrastructure | Grid Infrastructure | 45.96 | mixed | 49.8 | mixed | mixed confirmation |
-| Energy | Energy | 44.63 | weak | 43.01 | weak | broad weakness across sector and themes |
+| Energy | Energy | 44.33 | weak | 43.63 | weak | broad weakness across sector and themes |
 | Defense | Defense | 40.85 | weak | 43.1 | weak | broad weakness across sector and themes |
 | Nuclear | Nuclear | 32.56 | very weak | 31.81 | very weak | broad weakness across sector and themes |
 
@@ -304,8 +304,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 7 | Cybersecurity | 56.29 | Neutral / watchlist | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 8 | Quality Growth | 54.67 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 9 | Grid Infrastructure | 53.96 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 10 | Energy | 39.82 | Weak setup | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 11 | Defense | 39.45 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
+| 10 | Defense | 39.45 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
+| 11 | Energy | 38.32 | Weak setup | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 12 | Nuclear | 30.43 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
 
 ## Breadth and Participation
@@ -320,18 +320,18 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 37, 'negative': 30, 'neutral': 13}
-- News confirmation score: `54.38`
+- Sentiment counts: {'positive': 40, 'negative': 26, 'neutral': 14}
+- News confirmation score: `58.75`
 
 ### Top Market-Moving Headlines
 
-**1. The dot-com crash was a $5 trillion blip. Why the next financial crisis could hit 4 times harder.**
+**1. The stock-market rally now hinges more on AI than oil**
 - Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / medium-term
-- Affected assets: financial crisis, market outlook
-- Score: `48.05`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: AI
+- Score: `52.0`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **2. Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier**
 - Source: CNBC Business Headlines
@@ -341,15 +341,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.46`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. The good news from the WSJ survey of economists: The Iran war didn’t hurt the U.S. nearly as much as feared; the bad news: It left inflation more persistent**
-- Source: Dow Jones Economy
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: U.S, WSJ, economic outlook, inflation, geopolitical events
-- Score: `37.57`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**4. U.S. launches airstrikes against Iran after Tehran attacks container ship in Hormuz, Pentagon says**
+**3. U.S. and Iran trade airstrikes again amid conflicting claims over Strait of Hormuz**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -357,15 +349,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.74`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**5. Your data built the AI boom — but Big Tech is pocketing 100% of the equity**
-- Source: MarketWatch Top Stories
+**4. The good news from the WSJ survey of economists: The Iran war didn’t hurt the U.S. nearly as much as feared; the bad news: It left inflation more persistent**
+- Source: Dow Jones Economy
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
-- Affected assets: AI, equity distribution
-- Score: `31.79`
+- Affected assets: U.S, WSJ, economic outlook, inflation, geopolitical events
+- Score: `31.93`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**6. Iran’s IRGC navy says Strait of Hormuz closed until further notice, state media reports**
+**5. Iran’s IRGC navy says Strait of Hormuz closed until further notice, state media reports**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -373,15 +365,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.98`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. ‘An American tragedy’ in the making: The majority of small-business owners will retire in the next decade. What happens to their workers?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: small-business owners, retirement, job market
-- Score: `26.01`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+**6. AI is entering a new phase — and these are the stocks investors should be watching**
+- Source: CNBC Top News
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: CNBC, AI, Investor Sentiment
+- Score: `27.29`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. U.S. says Strait of Hormuz remains open after fresh strikes on Iranian targets**
+**7. Trump says Hormuz remains open as U.S., Iran exchange fresh strikes across Gulf**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -389,21 +381,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.44`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Majority of U.S. workers support an AI wealth fund as tech layoffs surge, survey finds**
-- Source: CNBC Markets
+**8. Majority of U.S. workers support an AI wealth fund as tech layoffs surge, survey finds**
+- Source: CNBC Top News
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: AAPL, MSFT, GOOGL, A, U.S
 - Score: `25.44`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. The volatile AI trade marched higher, but oil kept Wall Street on edge last week**
+**9. The volatile AI trade marched higher, but oil kept Wall Street on edge last week**
 - Source: CNBC Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short term
 - Affected assets: AI, Tech
 - Score: `25.44`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
+
+**10. Student loan borrowers on new RAP plan can lose key benefits if they pay even one day late**
+- Source: CNBC Markets
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: RAP, student loans, finance
+- Score: `24.94`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
