@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-12T06:57:34.473383+00:00
+Generated at: 2026-07-12T07:01:41.751834+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.49 / 100** (Moderate Risk-On)
+- Regime score: **65.42 / 100** (Moderate Risk-On)
 - Market strength: **75.76 / 100** (strong)
-- Evidence quality: **86.5 / 100**
+- Evidence quality: **83.0 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
 - Breadth: **broad**; above 50DMA `60.0%`, above 200DMA `72.88%`
 - Top sector score: **Cybersecurity** `71.02`
@@ -26,7 +26,7 @@ Window: 24h
 | dollar_fx | 54.88 |
 | commodity_confirmation | 58.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 55.0 |
+| news_confirmation | 53.75 |
 
 Positive contributors: equity_trend=90.0, volatility=80.0, market_breadth=70.4
 Negative contributors: none
@@ -47,8 +47,8 @@ Negative contributors: none
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `86.5`
-- Agreement ratio: `0.7`
+- Confidence score: `83.0`
+- Agreement ratio: `0.6`
 - Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
@@ -320,8 +320,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 37, 'negative': 29, 'neutral': 14}
-- News confirmation score: `55.0`
+- Sentiment counts: {'positive': 36, 'negative': 30, 'neutral': 14}
+- News confirmation score: `53.75`
 
 ### Top Market-Moving Headlines
 
@@ -381,7 +381,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `26.01`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. US launches fresh strikes on Iran as Tehran closes Strait of Hormuz**
+**8. US says it hit 140 Iranian military targets as Tehran closes Strait of Hormuz**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -505,7 +505,19 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 
 ### Major Sector Flow Table
 
-No rows available.
+| Ticker | Exposure | 1D Flow | 5D Flow | 20D Flow | 60D Flow | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price/Flow/Volume State |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| XLC | Communication Services | -$55,278,041 | -$371,028,526 | -$525,911,380 | -$769,774,520 | -0.3 | 0.9 | 0.3 | 0.2 | Quiet Distribution |
+| XLY | Consumer Discretionary | -$163,634,285 | $28,649,092 | $11,118,726 | -$57,448,875 | 0.3 | 0.8 | 0.5 | 0.1 | Quiet Accumulation |
+| XLP | Consumer Staples | -$24,967,242 | $617,261,001 | $131,474,930 | -$197,025,290 | 0.8 | 2.2 | 0.5 | -0.3 | Buying Weakness |
+| XLE | Energy | -$21,923,620 | -$455,166,651 | -$717,575,873 | -$904,760,492 | -0.8 | -0.8 | 0.4 | -1.4 | Quiet Distribution |
+| XLF | Financials | -$16,662,784 | $549,976,582 | $1,119,335,265 | -$296,884,497 | 0.8 | 0.6 | 0.7 | -1.1 | Confirmed Accumulation |
+| XLV | Health Care | -$32,440,362 | $56,379,330 | $384,575,979 | -$638,320,307 | 1.1 | 0.3 | 0.6 | -0.3 | Confirmed Accumulation |
+| XLI | Industrials | $81,504,857 | $580,715,983 | $1,843,149,587 | $1,656,610,066 | 1.6 | 1.0 | 0.7 | -1.4 | Confirmed Accumulation |
+| XLK | Information Technology | $64,868,850 | $247,492,475 | -$982,071,051 | $1,478,330,678 | -0.8 | -0.3 | 0.5 | -1.2 | Confirmed Accumulation |
+| XLB | Materials | $140,786,142 | $218,114,793 | $537,591,752 | $1,265,161,598 | 0.2 | 0.3 | 0.6 | -0.3 | Buying Weakness |
+| XLRE | Real Estate | $42,011,003 | $129,300,643 | $472,863,319 | $416,088,688 | 2.0 | 1.8 | 0.8 | -1.4 | Buying Weakness |
+| XLU | Utilities | -$11,280,378 | $424,720,971 | $682,875,565 | -$991,749,481 | 1.0 | -1.0 | 0.7 | -0.2 | Confirmed Accumulation |
 
 ### Industry and Subsector Rotation Table
 
@@ -514,6 +526,7 @@ No rows available.
 | ITA | Aerospace and Defense | -0.2 | 0.3 | 0.5 | -1.2 | flat | outflow | Quiet Distribution | Fading Interest |
 | SOXX | Semiconductors | 2.5 | 2.7 | 0.6 | -0.9 | flat | inflow | Quiet Accumulation | Strengthening Inflow |
 | SMH | Semiconductors | -2.0 | 0.6 | 0.4 | -1.3 | down | inflow | Buying Weakness | Early Improvement |
+| CIBR | Cybersecurity | n/a | n/a | 0.2 | n/a | flat | inflow | Quiet Accumulation | Neutral |
 
 ### Representative Exposure Dashboard
 
