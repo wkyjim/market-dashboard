@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-12T08:26:28.382257+00:00
+Generated at: 2026-07-12T08:28:48.776526+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -413,55 +413,6 @@ Noisy headline list: Why Lumentum (LITE) Could Benefit From AI Optical
 ## Positioning & Flow Dashboard
 
 Positioning and flow data is used as confirmation only. FINRA short-sale volume is not short interest.
-
-### ETF Fund Flows
-
-Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV. Flows are grouped into broad-market, fixed-income/macro, and sector/thematic ETFs.
-
-**Broad Market ETF Flows**
-
-| Date | ETF / Segment | 1D Net Flow | 5D Net Flow | Rule-Based Comment |
-| --- | --- | --- | --- | --- |
-| 2026-07-10 | IVV - Broad Equity | -$1,971,998,753 | -$5,878,073,207 | 1D outflow; 5D outflow. |
-| 2026-07-10 | IWM - Small Caps | $1,109,200,189 | $1,138,778,860 | 1D inflow; 5D inflow. |
-| 2026-07-09 | SPY - Broad Equity | -$2,443,000,852 | -$601,354,056 | 1D outflow; 5D outflow. |
-| 2026-07-10 | IWD - Value | -$24,689,512 | $493,790,232 | 1D outflow; 5D inflow. |
-| 2026-07-10 | IJH - Mid Caps | $0 | $416,066,607 | No 1D shares-outstanding change reported; 5D inflow. |
-| 2026-07-10 | IWF - Growth | $185,924,170 | -$371,848,341 | 1D inflow; 5D outflow. |
-| 2026-07-10 | IXUS - International Equity | $0 | $341,915,566 | No 1D shares-outstanding change reported; 5D inflow. |
-| 2026-07-10 | EFA - Developed Markets ex-US | $0 | -$312,584,514 | No 1D shares-outstanding change reported; 5D outflow. |
-| 2026-07-09 | DIA - Dow Industrials | -$78,638,039 | $288,339,476 | 1D outflow; 5D inflow. |
-| 2026-07-10 | ITOT - Total U.S. Equity | $33,106,189 | $273,126,063 | 1D inflow; 5D inflow. |
-
-**Fixed Income / Macro ETF Flows**
-
-| Date | ETF / Segment | 1D Net Flow | 5D Net Flow | Rule-Based Comment |
-| --- | --- | --- | --- | --- |
-| 2026-07-10 | SGOV - Treasury Bills | $653,269,090 | $2,864,333,704 | 1D inflow; 5D inflow. |
-| 2026-07-10 | LQD - Investment Grade Credit | $483,685,168 | $1,752,015,166 | 1D inflow; 5D inflow. |
-| 2026-07-10 | TLT - Long Duration Treasury | $591,121,713 | $1,596,028,625 | 1D inflow; 5D inflow. |
-| 2026-07-10 | HYG - High Yield Credit | -$421,951,396 | -$1,027,013,776 | 1D outflow; 5D outflow. |
-| 2026-07-10 | AGG - Core Bonds | $107,865,997 | $774,673,976 | 1D inflow; 5D inflow. |
-| 2026-07-10 | SHY - Short Treasury | -$49,119,398 | $335,649,218 | 1D outflow; 5D inflow. |
-| 2026-07-10 | IUSB - Core Bonds | $64,027,548 | $237,816,608 | 1D inflow; 5D inflow. |
-| 2026-07-10 | GOVT - U.S. Treasuries | $88,056,423 | $207,722,844 | 1D inflow; 5D inflow. |
-| 2026-07-10 | GLD - Gold | -$376,138,716 | $188,069,358 | 1D outflow; 5D inflow. |
-| 2026-07-10 | IEF - Intermediate Treasury | -$9,361,177 | $159,140,011 | 1D outflow; 5D inflow. |
-
-**Sector / Thematic ETF Flows**
-
-| Date | ETF / Segment | 1D Net Flow | 5D Net Flow | Rule-Based Comment |
-| --- | --- | --- | --- | --- |
-| 2026-07-10 | SOXX - Semiconductors | -$1,191,479,588 | $5,986,458,416 | 1D outflow; 5D inflow. |
-| 2026-07-09 | SMH - Semiconductors | $698,871,830 | $3,099,381,666 | 1D inflow; 5D inflow. |
-| 2026-07-09 | XLP - Consumer Staples | -$24,967,242 | $607,536,222 | 1D outflow; 5D inflow. |
-| 2026-07-09 | XLI - Industrials | $81,504,857 | $570,534,001 | 1D inflow; 5D inflow. |
-| 2026-07-09 | XLF - Financials | -$16,662,784 | $547,094,738 | 1D outflow; 5D inflow. |
-| 2026-07-09 | XLE - Energy | -$21,923,620 | -$465,876,934 | 1D outflow; 5D outflow. |
-| 2026-07-10 | QUAL - Quality Factor | $32,951,485 | $461,320,786 | 1D inflow; 5D inflow. |
-| 2026-07-10 | DYNF - Equity Factor Rotation | $119,217,483 | $435,995,366 | 1D inflow; 5D inflow. |
-| 2026-07-09 | XLU - Utilities | -$11,280,378 | $419,630,071 | 1D outflow; 5D inflow. |
-| 2026-07-09 | XLC - Communication Services | -$55,278,041 | -$370,362,875 | 1D outflow; 5D outflow. |
 
 ### Deferred Flow Sections
 
