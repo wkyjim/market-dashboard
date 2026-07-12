@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-12T04:12:14.215526+00:00
+Generated at: 2026-07-12T06:57:34.473383+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -335,10 +335,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 **2. Trump threatens to 'decimate' Iran if it tries to kill him, as Treasury sanctions alleged Iranian financier**
 - Source: CNBC Business Headlines
-- Importance / impact: High / Negative
+- Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, geopolitical_risk, defense
-- Score: `47.6`
+- Score: `40.46`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **3. U.S. launches airstrikes against Iran after Tehran attacks container ship in Hormuz, Pentagon says**
@@ -470,13 +470,52 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 - Crowding / Squeeze Risks: initial coverage uses CFTC crowded positioning and FINRA elevated short-sale volume only.
 - Grouped exposure flow reliability: use issuer coverage and availability status before treating ETF flow as confirmation.
 
-## Grouped ETF Flow Signals
+## ETF Flow Market Confirmation
 
-- ETF flow contribution: `51.4 / 100`
+- Market flow regime: `Selective Risk-On`
+- Market flow score: `57.4 / 100`
+- Equity risk flow: `61.6`
+- Credit risk flow: `61.5`
+- Sector cyclicality flow: `58.3`
+- Duration/liquidity flow: `46.8`
+- Gold/Bitcoin interpretation: `mixed alternative-asset demand`
+
+- Legacy grouped-flow contribution: `51.4 / 100`
 - ETF flow reliability: `67.1 / 100`
 - Dominant allocation direction: `mixed allocation`
 
-### Exposure Flow Dashboard
+### Core Asset Flow Table
+
+| Ticker | Exposure | 1D Flow | 5D Flow | 20D Flow | 60D Flow | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price/Flow/Volume State |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| IVV | U.S. Broad Equity | -$1,971,998,753 | -$5,827,752,627 | $45,581,365,605 | $62,511,866,133 | 1.6 | 1.6 | 0.5 | -0.6 | Price Strength with Redemptions |
+| ACWI | Global Equity | $0 | $0 | $628,075,495 | $960,648,986 | -0.3 | -1.1 | 0.1 | -0.8 | Price-Led Strength |
+| EFA | Developed Markets ex-U.S. | $0 | -$312,247,527 | $252,853,532 | $252,853,532 | 0.6 | 0.2 | 0.1 | -1.6 | Price Strength with Redemptions |
+| IEMG | Emerging Markets | $0 | $0 | -$96,266,862 | -$405,764,102 | -0.5 | -0.7 | 0.1 | -0.1 | Neutral |
+| IJH | U.S. Mid Cap | $0 | $417,440,001 | $1,043,787,378 | $2,616,920,537 | 0.3 | 0.3 | 0.6 | -0.4 | Quiet Accumulation |
+| IWM | U.S. Small Cap | $1,109,200,189 | $1,134,478,966 | $2,697,519,294 | $579,588,845 | 1.8 | 2.0 | 0.5 | -1.7 | Confirmed Accumulation |
+| LQD | Investment-Grade Credit | $483,685,168 | $1,759,063,325 | $6,880,535,412 | $3,555,349,359 | 2.6 | 0.6 | 0.8 | 0.9 | Quiet Accumulation |
+| HYG | High-Yield Credit | -$421,951,396 | -$1,027,031,569 | $672,362,224 | -$37,266,173 | 1.0 | 0.3 | 0.7 | -1.1 | Quiet Distribution |
+| SGOV | Treasury Bills / Cash | $653,269,090 | $2,862,933,765 | $3,552,859,186 | $11,940,558,150 | -0.7 | -1.8 | 0.8 | -0.9 | Quiet Accumulation |
+| SHY | Short-Duration Treasuries | -$49,119,398 | $335,608,177 | $450,453,440 | $251,238,226 | 0.2 | -1.2 | 0.3 | -0.9 | Quiet Accumulation |
+| IEF | Intermediate-Duration Treasuries | -$9,361,177 | $159,522,073 | -$85,671,408 | -$749,396,634 | -0.5 | -1.0 | 0.3 | -0.1 | Quiet Accumulation |
+| TLT | Long-Duration Treasuries | $591,121,713 | $1,605,508,372 | $2,294,921,926 | $1,131,272,046 | 2.2 | 1.9 | 0.7 | -1.4 | Quiet Accumulation |
+| GLD | Gold | -$376,138,716 | $192,609,967 | -$1,369,543,085 | -$6,360,448,501 | 0.0 | -0.4 | 0.3 | -0.6 | Quiet Accumulation |
+| IBIT | Bitcoin | -$60,778,640 | -$64,518,463 | -$2,040,296,572 | -$3,482,785,032 | -1.2 | -1.8 | 0.3 | -0.8 | Price Strength with Redemptions |
+
+### Major Sector Flow Table
+
+No rows available.
+
+### Industry and Subsector Rotation Table
+
+| Ticker | Exposure | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price State | Flow State | Price/Flow/Volume State | Rotation State |
+| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| ITA | Aerospace and Defense | -0.2 | 0.3 | 0.5 | -1.2 | flat | outflow | Quiet Distribution | Fading Interest |
+| SOXX | Semiconductors | 2.5 | 2.7 | 0.6 | -0.9 | flat | inflow | Quiet Accumulation | Strengthening Inflow |
+| SMH | Semiconductors | -2.0 | 0.6 | 0.4 | -1.3 | down | inflow | Buying Weakness | Early Improvement |
+
+### Representative Exposure Dashboard
 
 | Exposure | Type | 1D Known Flow | 5D Known Flow | 20D Known Flow | Adjusted Score | Reliability | Status |
 | --- | --- | --- | --- | --- | --- | --- | --- |
@@ -494,6 +533,15 @@ Net fund flow is estimated from ETF shares outstanding changes multiplied by NAV
 | Factor Rotation | factor | $119,217,483 | $431,956,924 | $1,237,742,717 | 70.5 | 65.0 | complete |
 | Core Bonds | credit | $171,893,545 | $1,015,106,163 | $3,316,915,782 | 66.5 | 65.0 | complete |
 | Dividend Defensives | factor | $26,967,771 | $131,078,456 | $403,678,667 | 64.5 | 65.0 | complete |
+
+### Material Flow Divergences
+
+| Severity | Type | Primary | Comparison | Interpretation |
+| --- | --- | --- | --- | --- |
+| high | close_substitute_divergence | GLD | IAU | primary representative differs from close substitute |
+| high | close_substitute_divergence | AGG | IUSB | primary representative differs from close substitute |
+| high | close_substitute_divergence | SOXX | SMH | primary representative differs from close substitute |
+| high | close_substitute_divergence | IWM | IJR | primary representative differs from close substitute |
 
 
 ## Contradiction / Audit Flags
