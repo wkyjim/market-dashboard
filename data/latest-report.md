@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-13T16:11:59.624756+00:00
+Generated at: 2026-07-13T19:12:00.888224+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.25 / 100** (Moderate Risk-On)
+- Regime score: **65.37 / 100** (Moderate Risk-On)
 - Market strength: **75.76 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -26,9 +26,9 @@ Window: 24h
 | dollar_fx | 54.2 |
 | commodity_confirmation | 47.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 64.38 |
+| news_confirmation | 66.88 |
 
-Positive contributors: equity_trend=90.0, volatility=80.0, market_breadth=70.4, news_confirmation=64.38
+Positive contributors: equity_trend=90.0, volatility=80.0, market_breadth=70.4, news_confirmation=66.88
 Negative contributors: none
 
 ## Market Strength Score
@@ -320,12 +320,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 49, 'negative': 26, 'neutral': 5}
-- News confirmation score: `64.38`
+- Sentiment counts: {'positive': 53, 'negative': 26, 'neutral': 1}
+- News confirmation score: `66.88`
 
 ### Top Market-Moving Headlines
 
-**1. Global oil prices top $80 a barrel after Trump reimposes Strait of Hormuz blockade and charges 20% fee for cargo shipped through**
+**1. Global oil prices top $82 a barrel, heading for biggest jump in 3 months after Trump reimposes Strait of Hormuz blockade**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -341,7 +341,31 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `65.03`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**3. Khosla family agrees to purchase defending Super Bowl champion Seattle Seahawks for $9.612 billion, sources say**
+**3. Oil prices jump nearly 8% after Trump reinstates Strait of Hormuz blockade on Iranian ships**
+- Source: CNBC Top News
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S., U.S, geopolitical_risk, oil_market
+- Score: `57.0`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. A July rate hike from the Fed? The odds are rising**
+- Source: CNBC Markets
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: A, Federal Reserve, oil prices
+- Score: `57.0`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. A hot inflation reading this week could mean a rate hike soon, Fed’s Waller says**
+- Source: MarketWatch Bulletins
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: A, monetary policy, economic indicators
+- Score: `57.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. Khosla family agrees to purchase defending Super Bowl champion Seattle Seahawks for $9.612 billion, sources say**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -349,7 +373,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.51`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. Micron and other chip stocks feel the pain of imported volatility — blame SK Hynix**
+**7. Meta and Amazon are leading a trillion-dollar Big Tech spending spree**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: META, AMZN, AI, Big Tech
+- Score: `51.0`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**8. Micron and other chip stocks feel the pain of imported volatility — blame SK Hynix**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short term
@@ -357,7 +389,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**5. Oil prices rise, stock futures dip after latest flare-up of strikes between U.S. and Iran**
+**9. Oil prices rise, stock futures dip after latest flare-up of strikes between U.S. and Iran**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -365,45 +397,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Big banks poised to report booming revenue propelled by SpaceX IPO, Iran war volatility**
+**10. Big banks poised to report booming revenue propelled by SpaceX IPO, Iran war volatility**
 - Source: CNBC Finance
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: BAC, JPM, C, IPO, banking
 - Score: `48.77`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**7. CNBC Daily Open: Mideast tensions on the boil again as U.S., Iran trade strikes**
-- Source: CNBC Top News
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: CNBC, U.S, geopolitical_risk, oil_prices
-- Score: `48.45`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. The stock-market rally now hinges more on AI than oil**
-- Source: MarketWatch Bulletins
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: AI
-- Score: `48.45`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Oil prices rise, stock futures dip after latest flare-up of U.S.-Iran strikes**
-- Source: MarketWatch Bulletins
-- Importance / impact: High / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil_prices, geo_political
-- Score: `48.45`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Oil prices rise as U.S. and Iran fight for control of Strait of Hormuz**
-- Source: CNBC Top News
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S., U.S, geopolitical_risk, oil_market
-- Score: `48.45`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
