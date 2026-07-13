@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-13T01:11:54.660257+00:00
+Generated at: 2026-07-13T04:11:54.076102+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -237,7 +237,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Healthcare | 64.47 | strong uptrend | positive | broad | 41.07 | 65.0 | 50.44 | MRNA, TECH, CRL | PFE, ZTS, BSX |
 | 4 | Semiconductors | 63.59 | strong uptrend | positive | broad | 75.28 | 100.0 | 64.4 | SOXX, SMH | SMH, SOXX |
 | 5 | Industrials | 63.43 | strong uptrend | positive | broad | 50.0 | 0.0 | 50.39 | AXON, GEV, UAL | LDOS, CPRT, FDXF |
-| 6 | Technology | 62.83 | strong uptrend | positive | broad | 59.18 | 65.0 | 55.2 | ZBRA, PANW, AMD | ORCL, CRWD, KLAC |
+| 6 | Technology | 63.04 | strong uptrend | positive | broad | 59.18 | 65.0 | 55.2 | ZBRA, PANW, AMD | ORCL, CRWD, KLAC |
 | 7 | Real Estate | 58.76 | strong uptrend | neutral | broad | 61.18 | 65.0 | 44.29 | WELL, VTR, DOC | AMT, CCI, CSGP |
 | 8 | Utilities | 57.67 | uptrend | neutral | broad | 50.0 | 0.0 | 45.98 | NRG, VST, ES | NI, PPL, DUK |
 | 9 | Consumer Staples | 57.66 | strong uptrend | neutral | broad | 50.0 | 0.0 | 44.41 | DLTR, KMB, DG | MDLZ, CASY, BG |
@@ -280,7 +280,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Healthcare | Healthcare Innovation | 64.47 | positive | 59.94 | positive | sector and theme confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 63.59 | positive | 58.75 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 63.43 | positive | 47.02 | mixed | sector stronger than related themes |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 62.83 | positive | 56.45 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 63.04 | positive | 56.45 | positive | sector and theme confirmation |
 | Real Estate | Dividend Defensives | 58.76 | positive | 55.47 | positive | sector and theme confirmation |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 57.67 | positive | 45.69 | mixed | sector stronger than related themes |
 | Consumer Staples | Dividend Defensives | 57.66 | positive | 55.47 | positive | sector and theme confirmation |
@@ -320,7 +320,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 39, 'negative': 28, 'neutral': 13}
+- Sentiment counts: {'positive': 40, 'negative': 29, 'neutral': 11}
 - News confirmation score: `56.88`
 
 ### Top Market-Moving Headlines
@@ -341,7 +341,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `60.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. The stock-market rally now hinges more on AI than oil**
+**3. CNBC Daily Open: Mideast tensions on the boil again as U.S., Iran trade strikes**
+- Source: CNBC Top News
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: CNBC, U.S, geopolitical_risk, oil_prices
+- Score: `57.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. The stock-market rally now hinges more on AI than oil**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -349,7 +357,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Oil prices rise, stock futures dip after latest flare-up of U.S.-Iran strikes**
+**5. Oil prices rise, stock futures dip after latest flare-up of U.S.-Iran strikes**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Mixed
 - Relevance / horizon: macro / short-term
@@ -357,15 +365,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Oil prices rise as U.S. and Iran fight for control of Strait of Hormuz**
+**6. Oil prices rise as U.S. and Iran fight for control of Strait of Hormuz**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S., U.S, geopolitical_risk, oil_market
-- Score: `57.0`
+- Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. The stock-market rally now hinges more on AI than oil**
+**7. The stock-market rally now hinges more on AI than oil**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -373,15 +381,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `44.2`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. U.S. and Iran trade airstrikes again amid conflicting claims over Strait of Hormuz**
+**8. SK Hynix shares slide 12% in Seoul after stellar Nasdaq debut**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: U.S, defense, geopolitical
-- Score: `36.74`
+- Relevance / horizon: single_name / 短期
+- Affected assets: SK, technology, stocks
+- Score: `41.68`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**8. Next week brings earnings and inflation data amid resumption of U.S.-Iran hostilities. Here's what's ahead**
+**9. Next week brings earnings and inflation data amid resumption of U.S.-Iran hostilities. Here's what's ahead**
 - Source: CNBC Business
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -389,7 +397,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.68`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**9. Oil prices jump over 3% after Iran declares Strait of Hormuz closed**
+**10. Oil prices jump over 3% after Iran declares Strait of Hormuz closed**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -397,18 +405,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.63`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. The good news from the WSJ survey of economists: The Iran war didn’t hurt the U.S. nearly as much as feared; the bad news: It left inflation more persistent**
-- Source: Dow Jones Economy
-- Importance / impact: Low / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: U.S, WSJ, economic outlook, inflation, geopolitical events
-- Score: `31.93`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
 
 ### Headline Quality Checks
 
-No noisy headlines detected by current rules.
+Noisy headline list: Why Lumentum (LITE) Could Benefit From AI Optical 
 
 ## Positioning & Flow Dashboard
 
