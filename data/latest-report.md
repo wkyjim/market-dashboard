@@ -1,17 +1,17 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-13T13:12:02.816256+00:00
+Generated at: 2026-07-13T16:11:59.624756+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.09 / 100** (Moderate Risk-On)
+- Regime score: **65.25 / 100** (Moderate Risk-On)
 - Market strength: **75.76 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
 - Breadth: **broad**; above 50DMA `60.0%`, above 200DMA `72.88%`
 - Top sector score: **Cybersecurity** `71.02`
-- Top theme score: **Semiconductors** `65.05`
+- Top theme score: **Semiconductors** `65.4`
 
 ## Market Regime Score
 
@@ -26,9 +26,9 @@ Window: 24h
 | dollar_fx | 54.2 |
 | commodity_confirmation | 47.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 61.25 |
+| news_confirmation | 64.38 |
 
-Positive contributors: equity_trend=90.0, volatility=80.0, market_breadth=70.4, news_confirmation=61.25
+Positive contributors: equity_trend=90.0, volatility=80.0, market_breadth=70.4, news_confirmation=64.38
 Negative contributors: none
 
 ## Market Strength Score
@@ -217,10 +217,10 @@ Negative contributors: none
 
 | Indicator | Latest | Unit | Change | Date | Rule-Based Interpretation |
 | --- | --- | --- | --- | --- | --- |
-| US dollar/Euro ECB reference exchange rate | 1.14 | USD | -0.0 USD vs prior | 2026-07-10 | EUR weakened versus this currency. |
-| Japanese yen/Euro ECB reference exchange rate | 185.02 | JPY | -0.7 JPY vs prior | 2026-07-10 | EUR weakened versus this currency. |
-| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.74 | CNY | -0.03 CNY vs prior | 2026-07-10 | EUR weakened versus this currency. |
-| Australian dollar/Euro ECB reference exchange rate | 1.64 | AUD | -0.0 AUD vs prior | 2026-07-10 | EUR weakened versus this currency. |
+| US dollar/Euro ECB reference exchange rate | 1.14 | USD | -0.0 USD vs prior | 2026-07-13 | EUR weakened versus this currency. |
+| Japanese yen/Euro ECB reference exchange rate | 185.23 | JPY | 0.21 JPY vs prior | 2026-07-13 | EUR strengthened versus this currency. |
+| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.74 | CNY | -0.0 CNY vs prior | 2026-07-13 | EUR weakened versus this currency. |
+| Australian dollar/Euro ECB reference exchange rate | 1.65 | AUD | 0.0 AUD vs prior | 2026-07-13 | EUR strengthened versus this currency. |
 
 ABS Australia note: ABS rows are stored locally/Neon, but most series are dimension-coded; only curated series should be promoted into narrative report text.
 
@@ -235,9 +235,9 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Cybersecurity | 71.02 | strong uptrend | positive | broad | 50.0 | 0.0 | 68.83 | CIBR | CIBR |
 | 2 | Financials | 67.56 | strong uptrend | positive | broad | 68.55 | 65.0 | 51.11 | HOOD, GPN, JKHY | APO, CME, CBOE |
 | 3 | Healthcare | 64.47 | strong uptrend | positive | broad | 41.07 | 65.0 | 50.44 | MRNA, TECH, CRL | PFE, ZTS, BSX |
-| 4 | Semiconductors | 63.96 | strong uptrend | positive | broad | 75.28 | 100.0 | 64.4 | SOXX, SMH | SMH, SOXX |
+| 4 | Semiconductors | 63.85 | strong uptrend | positive | broad | 75.28 | 100.0 | 64.4 | SOXX, SMH | SMH, SOXX |
 | 5 | Industrials | 63.43 | strong uptrend | positive | broad | 50.0 | 0.0 | 50.39 | AXON, GEV, UAL | LDOS, CPRT, FDXF |
-| 6 | Technology | 63.24 | strong uptrend | positive | broad | 59.18 | 65.0 | 55.2 | ZBRA, PANW, AMD | ORCL, CRWD, KLAC |
+| 6 | Technology | 63.02 | strong uptrend | positive | broad | 59.18 | 65.0 | 55.2 | ZBRA, PANW, AMD | ORCL, CRWD, KLAC |
 | 7 | Real Estate | 58.76 | strong uptrend | neutral | broad | 61.18 | 65.0 | 44.29 | WELL, VTR, DOC | AMT, CCI, CSGP |
 | 8 | Utilities | 57.67 | uptrend | neutral | broad | 50.0 | 0.0 | 45.98 | NRG, VST, ES | NI, PPL, DUK |
 | 9 | Consumer Staples | 57.66 | strong uptrend | neutral | broad | 50.0 | 0.0 | 44.41 | DLTR, KMB, DG | MDLZ, CASY, BG |
@@ -252,7 +252,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Semiconductors | 65.05 | Positive setup | 75.28 | 100.0 | 19.68 | True | False |
+| 1 | Semiconductors | 65.4 | Positive setup | 75.28 | 100.0 | 19.68 | True | False |
 | 2 | Financials | 61.29 | Positive setup | 68.55 | 65.0 | 4.02 | True | False |
 | 3 | Healthcare Innovation | 59.94 | Positive setup | 41.07 | 65.0 | 12.01 | False | False |
 | 4 | Small Caps | 58.24 | Positive setup | 68.98 | 65.0 | 0.0 | False | False |
@@ -278,9 +278,9 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 71.02 | strong | 55.63 | positive | sector and theme confirmation |
 | Financials | Financials | 67.56 | strong | 61.29 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 64.47 | positive | 59.94 | positive | sector and theme confirmation |
-| Semiconductors | AI Infrastructure, Semiconductors | 63.96 | positive | 60.23 | positive | sector and theme confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 63.85 | positive | 60.41 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 63.43 | positive | 47.32 | mixed | sector stronger than related themes |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 63.24 | positive | 57.44 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 63.02 | positive | 57.56 | positive | sector and theme confirmation |
 | Real Estate | Dividend Defensives | 58.76 | positive | 55.47 | positive | sector and theme confirmation |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 57.67 | positive | 45.69 | mixed | sector stronger than related themes |
 | Consumer Staples | Dividend Defensives | 57.66 | positive | 55.47 | positive | sector and theme confirmation |
@@ -295,8 +295,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Classification | Drivers | Invalidation Triggers |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Healthcare Innovation | 65.73 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 2 | Semiconductors | 65.57 | Positive setup | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
+| 1 | Semiconductors | 66.07 | Positive setup | relative_strength_60d, trend_persistence, breadth, news_acceleration, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
+| 2 | Healthcare Innovation | 65.73 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 3 | Financials | 63.85 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | Small Caps | 63.36 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 5 | Dividend Defensives | 57.35 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
@@ -320,12 +320,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 45, 'negative': 27, 'neutral': 8}
-- News confirmation score: `61.25`
+- Sentiment counts: {'positive': 49, 'negative': 26, 'neutral': 5}
+- News confirmation score: `64.38`
 
 ### Top Market-Moving Headlines
 
-**1. Oil prices surge as much as 5% after Iran declares Strait of Hormuz is closed**
+**1. Global oil prices top $80 a barrel after Trump reimposes Strait of Hormuz blockade and charges 20% fee for cargo shipped through**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -333,7 +333,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `76.5`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Khosla family agrees to purchase defending Super Bowl champion Seattle Seahawks for $9.612 billion, sources say**
+**2. Geopolitical shock exposes SK Hynix leverage after hot ADR debut**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: SK Hynix ADR, SK Hynix local shares, ADR, SK, U.S
+- Score: `65.03`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**3. Khosla family agrees to purchase defending Super Bowl champion Seattle Seahawks for $9.612 billion, sources say**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -341,7 +349,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.51`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**3. Oil prices rise, stock futures dip after latest flare-up of strikes between U.S. and Iran**
+**4. Micron and other chip stocks feel the pain of imported volatility — blame SK Hynix**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short term
+- Affected assets: SK, SOX, Technology, Semiconductor
+- Score: `51.0`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**5. Oil prices rise, stock futures dip after latest flare-up of strikes between U.S. and Iran**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -349,7 +365,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Big banks poised to report booming revenue propelled by SpaceX IPO, Iran war volatility**
+**6. Big banks poised to report booming revenue propelled by SpaceX IPO, Iran war volatility**
 - Source: CNBC Finance
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -357,7 +373,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. CNBC Daily Open: Mideast tensions on the boil again as U.S., Iran trade strikes**
+**7. CNBC Daily Open: Mideast tensions on the boil again as U.S., Iran trade strikes**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -365,7 +381,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. The stock-market rally now hinges more on AI than oil**
+**8. The stock-market rally now hinges more on AI than oil**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -373,7 +389,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Oil prices rise, stock futures dip after latest flare-up of U.S.-Iran strikes**
+**9. Oil prices rise, stock futures dip after latest flare-up of U.S.-Iran strikes**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Mixed
 - Relevance / horizon: macro / short-term
@@ -381,29 +397,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Oil prices rise as U.S. and Iran fight for control of Strait of Hormuz**
+**10. Oil prices rise as U.S. and Iran fight for control of Strait of Hormuz**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S., U.S, geopolitical_risk, oil_market
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. TSMC just reported a record month for revenue ahead of critical earnings report on Thursday**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: TSMC, technology, semiconductor
-- Score: `43.88`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. SK Hynix South Korean shares clock worst day, sinking over 15%, after stellar Nasdaq debut**
-- Source: CNBC Top News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: single_name / 短期
-- Affected assets: SK, technology, stocks
-- Score: `41.68`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
