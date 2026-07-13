@@ -1,17 +1,17 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-13T10:11:55.494621+00:00
+Generated at: 2026-07-13T13:12:02.816256+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.03 / 100** (Moderate Risk-On)
+- Regime score: **65.09 / 100** (Moderate Risk-On)
 - Market strength: **75.76 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
 - Breadth: **broad**; above 50DMA `60.0%`, above 200DMA `72.88%`
 - Top sector score: **Cybersecurity** `71.02`
-- Top theme score: **Semiconductors** `64.56`
+- Top theme score: **Semiconductors** `65.05`
 
 ## Market Regime Score
 
@@ -26,9 +26,9 @@ Window: 24h
 | dollar_fx | 54.2 |
 | commodity_confirmation | 47.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 60.0 |
+| news_confirmation | 61.25 |
 
-Positive contributors: equity_trend=90.0, volatility=80.0, market_breadth=70.4, news_confirmation=60.0
+Positive contributors: equity_trend=90.0, volatility=80.0, market_breadth=70.4, news_confirmation=61.25
 Negative contributors: none
 
 ## Market Strength Score
@@ -235,7 +235,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Cybersecurity | 71.02 | strong uptrend | positive | broad | 50.0 | 0.0 | 68.83 | CIBR | CIBR |
 | 2 | Financials | 67.56 | strong uptrend | positive | broad | 68.55 | 65.0 | 51.11 | HOOD, GPN, JKHY | APO, CME, CBOE |
 | 3 | Healthcare | 64.47 | strong uptrend | positive | broad | 41.07 | 65.0 | 50.44 | MRNA, TECH, CRL | PFE, ZTS, BSX |
-| 4 | Semiconductors | 63.98 | strong uptrend | positive | broad | 75.28 | 100.0 | 64.4 | SOXX, SMH | SMH, SOXX |
+| 4 | Semiconductors | 63.96 | strong uptrend | positive | broad | 75.28 | 100.0 | 64.4 | SOXX, SMH | SMH, SOXX |
 | 5 | Industrials | 63.43 | strong uptrend | positive | broad | 50.0 | 0.0 | 50.39 | AXON, GEV, UAL | LDOS, CPRT, FDXF |
 | 6 | Technology | 63.24 | strong uptrend | positive | broad | 59.18 | 65.0 | 55.2 | ZBRA, PANW, AMD | ORCL, CRWD, KLAC |
 | 7 | Real Estate | 58.76 | strong uptrend | neutral | broad | 61.18 | 65.0 | 44.29 | WELL, VTR, DOC | AMT, CCI, CSGP |
@@ -244,7 +244,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 10 | Crypto | 49.4 | neutral | neutral | mixed | 44.0 | 65.0 | 50.0 |  |  |
 | 11 | Consumer Discretionary | 49.04 | downtrend | neutral | weak | 50.0 | 0.0 | 46.33 | GPC, DASH, EXPE | APTV, LVS, TJX |
 | 12 | Grid Infrastructure | 45.96 | neutral | neutral | weak | 50.0 | 0.0 | 45.97 | GRID | GRID |
-| 13 | Energy | 44.31 | strong downtrend | neutral | weak | 63.74 | 65.0 | 40.19 | VLO, MPC, TPL | APA, HAL, SLB |
+| 13 | Energy | 44.63 | strong downtrend | neutral | weak | 63.74 | 65.0 | 40.19 | VLO, MPC, TPL | APA, HAL, SLB |
 | 14 | Defense | 41.05 | downtrend | neutral | weak | 50.0 | 0.0 | 44.41 | XAR | XAR |
 | 15 | Nuclear | 32.56 | strong downtrend | negative | weak | 50.0 | 0.0 | 35.91 | NLR | NLR |
 
@@ -252,7 +252,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Semiconductors | 64.56 | Positive setup | 75.28 | 100.0 | 19.68 | True | False |
+| 1 | Semiconductors | 65.05 | Positive setup | 75.28 | 100.0 | 19.68 | True | False |
 | 2 | Financials | 61.29 | Positive setup | 68.55 | 65.0 | 4.02 | True | False |
 | 3 | Healthcare Innovation | 59.94 | Positive setup | 41.07 | 65.0 | 12.01 | False | False |
 | 4 | Small Caps | 58.24 | Positive setup | 68.98 | 65.0 | 0.0 | False | False |
@@ -262,7 +262,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 8 | Quality Growth | 51.87 | Neutral / watchlist | 54.65 | 65.0 | 11.23 | False | False |
 | 9 | Grid Infrastructure | 49.8 | Neutral / watchlist | 50.0 | 0.0 | 7.3 | False | False |
 | 10 | Defense | 44.85 | Weak setup | 50.0 | 0.0 | 26.83 | False | False |
-| 11 | Energy | 43.61 | Weak setup | 63.74 | 65.0 | 2.35 | False | False |
+| 11 | Energy | 43.01 | Weak setup | 63.74 | 65.0 | 2.35 | False | False |
 | 12 | Nuclear | 31.81 | Weak setup | 50.0 | 0.0 | 17.59 | False | False |
 | 13 | Crypto Infrastructure | 30.86 | Underperformance risk | 44.0 | 65.0 | 21.27 | False | False |
 
@@ -278,16 +278,16 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 71.02 | strong | 55.63 | positive | sector and theme confirmation |
 | Financials | Financials | 67.56 | strong | 61.29 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 64.47 | positive | 59.94 | positive | sector and theme confirmation |
-| Semiconductors | AI Infrastructure, Semiconductors | 63.98 | positive | 59.99 | positive | sector and theme confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 63.96 | positive | 60.23 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 63.43 | positive | 47.32 | mixed | sector stronger than related themes |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 63.24 | positive | 57.28 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 63.24 | positive | 57.44 | positive | sector and theme confirmation |
 | Real Estate | Dividend Defensives | 58.76 | positive | 55.47 | positive | sector and theme confirmation |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 57.67 | positive | 45.69 | mixed | sector stronger than related themes |
 | Consumer Staples | Dividend Defensives | 57.66 | positive | 55.47 | positive | sector and theme confirmation |
 | Crypto | Crypto Infrastructure | 49.4 | mixed | 30.86 | very weak | mixed confirmation |
 | Consumer Discretionary | Small Caps | 49.04 | mixed | 58.24 | positive | theme stronger than official sector |
 | Grid Infrastructure | Grid Infrastructure | 45.96 | mixed | 49.8 | mixed | mixed confirmation |
-| Energy | Energy | 44.31 | weak | 43.61 | weak | broad weakness across sector and themes |
+| Energy | Energy | 44.63 | weak | 43.01 | weak | broad weakness across sector and themes |
 | Defense | Defense | 41.05 | weak | 44.85 | weak | broad weakness across sector and themes |
 | Nuclear | Nuclear | 32.56 | very weak | 31.81 | very weak | broad weakness across sector and themes |
 
@@ -296,7 +296,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Theme | Score | Classification | Drivers | Invalidation Triggers |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Healthcare Innovation | 65.73 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 2 | Semiconductors | 65.07 | Positive setup | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
+| 2 | Semiconductors | 65.57 | Positive setup | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 3 | Financials | 63.85 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | Small Caps | 63.36 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 5 | Dividend Defensives | 57.35 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
@@ -305,7 +305,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 8 | Quality Growth | 54.67 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 9 | Grid Infrastructure | 53.96 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 10 | Defense | 40.95 | Weak setup | news_acceleration | relative strength below SPY, breadth below 45%, news turns negative |
-| 11 | Energy | 38.32 | Weak setup | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 11 | Energy | 39.82 | Weak setup | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 12 | Nuclear | 30.43 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
 
 ## Breadth and Participation
@@ -320,8 +320,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 44, 'negative': 28, 'neutral': 8}
-- News confirmation score: `60.0`
+- Sentiment counts: {'positive': 45, 'negative': 27, 'neutral': 8}
+- News confirmation score: `61.25`
 
 ### Top Market-Moving Headlines
 
@@ -349,7 +349,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. CNBC Daily Open: Mideast tensions on the boil again as U.S., Iran trade strikes**
+**4. Big banks poised to report booming revenue propelled by SpaceX IPO, Iran war volatility**
+- Source: CNBC Finance
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: BAC, JPM, C, IPO, banking
+- Score: `48.77`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**5. CNBC Daily Open: Mideast tensions on the boil again as U.S., Iran trade strikes**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -357,7 +365,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. The stock-market rally now hinges more on AI than oil**
+**6. The stock-market rally now hinges more on AI than oil**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -365,7 +373,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Oil prices rise, stock futures dip after latest flare-up of U.S.-Iran strikes**
+**7. Oil prices rise, stock futures dip after latest flare-up of U.S.-Iran strikes**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Mixed
 - Relevance / horizon: macro / short-term
@@ -373,20 +381,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Oil prices rise as U.S. and Iran fight for control of Strait of Hormuz**
+**8. Oil prices rise as U.S. and Iran fight for control of Strait of Hormuz**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S., U.S, geopolitical_risk, oil_market
 - Score: `48.45`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. The stock-market rally now hinges more on AI than oil**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: AI
-- Score: `44.2`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **9. TSMC just reported a record month for revenue ahead of critical earnings report on Thursday**
