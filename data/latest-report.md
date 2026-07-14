@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-14T10:11:57.299950+00:00
+Generated at: 2026-07-14T13:12:10.752986+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **54.17 / 100** (Mixed / Rotation)
+- Regime score: **54.04 / 100** (Mixed / Rotation)
 - Market strength: **64.45 / 100** (constructive)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -26,9 +26,9 @@ Window: 24h
 | dollar_fx | 53.48 |
 | commodity_confirmation | 51.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 66.25 |
+| news_confirmation | 63.75 |
 
-Positive contributors: equity_trend=72.5, news_confirmation=66.25
+Positive contributors: equity_trend=72.5, news_confirmation=63.75
 Negative contributors: volatility=20.0
 
 ## Market Strength Score
@@ -320,20 +320,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 53, 'negative': 27, 'neutral': 0}
-- News confirmation score: `66.25`
+- Sentiment counts: {'positive': 51, 'negative': 29, 'neutral': 0}
+- News confirmation score: `63.75`
 
 ### Top Market-Moving Headlines
 
-**1. Trump's Hormuz toll plans bring oil supply risks back in spotlight**
-- Source: CNBC Top News
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: oil_prices, trade_policy
-- Score: `72.67`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Oil prices see largest two-day percentage gain in four months on U.S.-Iran fight**
+**1. Oil prices see largest two-day percentage gain in four months on U.S.-Iran fight**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -341,7 +333,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `66.69`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Global oil prices top $83 a barrel, logging biggest jump in 6 years after Trump reimposes Strait of Hormuz blockade**
+**2. Global oil prices top $83 a barrel, logging biggest jump in 6 years after Trump reimposes Strait of Hormuz blockade**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -349,23 +341,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `65.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. U.S. crude jumps above $80 as Iran ceasefire fractures; Trump's Hormuz toll plans reignite supply fears**
-- Source: CNBC Top News
+**3. U.S. oil tops $80 after Trump bombs Iran for third day, Tehran attacks tankers in Hormuz**
+- Source: CNBC Markets
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, oil prices, geopolitical tensions, strait of hormuz
 - Score: `64.12`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. CNBC Daily Open: The Hormuz blockade is back and Trump is tolling**
+**4. Trump's Hormuz toll plans bring oil supply risks back in spotlight**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: CNBC, geopolitical_risk, oil_market
-- Score: `64.12`
+- Affected assets: oil_prices, trade_policy
+- Score: `61.77`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Oil prices see largest two-day percentage gain in four months on U.S.-Iran fighting**
+**5. Oil prices see largest two-day percentage gain in four months on U.S.-Iran fighting**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -373,13 +365,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `60.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Oil Surges Most Since 2020, Reflecting Bet That Strait Won’t Go Back to Normal**
+**6. Oil Surges Most Since 2020, Reflecting Bet That Strait Won’t Go Back to Normal**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, Energy, Politics
 - Score: `57.38`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. IBM’s stock dives toward worst day in nearly 40 years after the surprise release of an earnings miss**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: IBM, earnings miss, stock performance
+- Score: `55.58`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 **8. Geopolitical shock exposes SK Hynix leverage after hot ADR debut**
 - Source: MarketWatch Top Stories
@@ -389,13 +389,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `55.27`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**9. China exports in June rise at fastest pace since 2021 as AI boom, tariff rush lift trade**
-- Source: CNBC Technology
-- Importance / impact: High / Positive
+**9. CNBC Daily Open: The Hormuz blockade is back and Trump is tolling**
+- Source: CNBC Top News
+- Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: AAPL, MSFT, CNBC, U.S, AI
-- Score: `54.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Affected assets: CNBC, geopolitical_risk, oil_market
+- Score: `54.51`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **10. Global oil prices top $83 a barrel as Trump reimposes Strait of Hormuz blockade**
 - Source: MarketWatch Bulletins
@@ -408,7 +408,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-No noisy headlines detected by current rules.
+Noisy headline list: Stock Market Today: S&P Climbs On Surprise CPI Inf
 
 ## Positioning & Flow Dashboard
 
@@ -499,4 +499,4 @@ No contradiction flags were triggered by current deterministic rules.
 - Macro rows loaded: `38`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
-- Positioning/flow rows loaded: `30`
+- Positioning/flow rows loaded: `24`
