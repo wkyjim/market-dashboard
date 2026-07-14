@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-14T13:12:10.752986+00:00
+Generated at: 2026-07-14T16:11:57.015063+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -150,12 +150,12 @@ Negative contributors: volatility=20.0
 
 | Indicator | Latest | Unit | Change | Date | Rule-Based Interpretation |
 | --- | --- | --- | --- | --- | --- |
-| Headline CPI month-over-month inflation rate | 0.47 | percent | -0.17 pp vs prior | 2026-05-01 | Lower reading eases macro pressure. |
-| Headline CPI year-over-year inflation rate | 4.27 | percent | 0.32 pp vs prior | 2026-05-01 | Higher reading increases macro pressure. |
-| Core CPI month-over-month inflation rate | 0.21 | percent | -0.17 pp vs prior | 2026-05-01 | Lower reading eases macro pressure. |
-| Core CPI year-over-year inflation rate | 2.96 | percent | -0.03 pp vs prior | 2026-05-01 | Lower reading eases macro pressure. |
-| Headline CPI year-over-year inflation rate | 4.47 | percent | 0.33 pp vs prior | 2026-05-01 | Higher reading increases macro pressure. |
-| Core CPI year-over-year inflation rate | 3.07 | percent | 0.04 pp vs prior | 2026-05-01 | Higher reading increases macro pressure. |
+| Headline CPI month-over-month inflation rate | -0.42 | percent | -0.9 pp vs prior | 2026-06-01 | Lower reading eases macro pressure. |
+| Headline CPI year-over-year inflation rate | 3.73 | percent | -0.54 pp vs prior | 2026-06-01 | Lower reading eases macro pressure. |
+| Core CPI month-over-month inflation rate | -0.02 | percent | -0.22 pp vs prior | 2026-06-01 | Lower reading eases macro pressure. |
+| Core CPI year-over-year inflation rate | 2.81 | percent | -0.15 pp vs prior | 2026-06-01 | Lower reading eases macro pressure. |
+| Headline CPI year-over-year inflation rate | 3.88 | percent | -0.58 pp vs prior | 2026-06-01 | Lower reading eases macro pressure. |
+| Core CPI year-over-year inflation rate | 2.86 | percent | -0.21 pp vs prior | 2026-06-01 | Lower reading eases macro pressure. |
 | Headline PCE Price Index month-over-month inflation rate | 0.45 | percent | 0.04 pp vs prior | 2026-05-01 | Higher reading increases macro pressure. |
 | Headline PCE Price Index year-over-year inflation rate | 4.07 | percent | 0.28 pp vs prior | 2026-05-01 | Higher reading increases macro pressure. |
 | Core PCE Price Index month-over-month inflation rate | 0.32 | percent | 0.07 pp vs prior | 2026-05-01 | Higher reading increases macro pressure. |
@@ -164,8 +164,8 @@ Negative contributors: volatility=20.0
 | Headline PPI Final Demand year-over-year inflation rate | 6.46 | percent | 0.79 pp vs prior | 2026-05-01 | Higher reading increases macro pressure. |
 | Core PPI Final Demand Less Foods and Energy month-over-month inflation rate | 0.42 | percent | -0.27 pp vs prior | 2026-05-01 | Lower reading eases macro pressure. |
 | Core PPI Final Demand Less Foods and Energy year-over-year inflation rate | 4.9 | percent | 0.03 pp vs prior | 2026-05-01 | Higher reading increases macro pressure. |
-| Consumer Price Index for All Urban Consumers | 333.98 | index 1982-1984=100 | 1.57 index pts vs prior | 2026-05-01 | Higher reading increases macro pressure. |
-| Core CPI | 336.12 | index 1982-1984=100 | 0.7 index pts vs prior | 2026-05-01 | Higher reading increases macro pressure. |
+| Consumer Price Index for All Urban Consumers | 332.57 | index 1982-1984=100 | -1.41 index pts vs prior | 2026-06-01 | Lower reading eases macro pressure. |
+| Core CPI | 336.06 | index 1982-1984=100 | -0.06 index pts vs prior | 2026-06-01 | Lower reading eases macro pressure. |
 | Personal Consumption Expenditures Price Index | 131.53 | index 2017=100 | 0.59 index pts vs prior | 2026-05-01 | Higher reading increases macro pressure. |
 | Core PCE Price Index | 130.08 | index 2017=100 | 0.41 index pts vs prior | 2026-05-01 | Higher reading increases macro pressure. |
 | Producer Price Index: Final Demand | 158.01 | index Nov 2009=100 | 1.62 index pts vs prior | 2026-05-01 | Latest structural macro observation. |
@@ -217,10 +217,10 @@ Negative contributors: volatility=20.0
 
 | Indicator | Latest | Unit | Change | Date | Rule-Based Interpretation |
 | --- | --- | --- | --- | --- | --- |
-| US dollar/Euro ECB reference exchange rate | 1.14 | USD | -0.0 USD vs prior | 2026-07-13 | EUR weakened versus this currency. |
-| Japanese yen/Euro ECB reference exchange rate | 185.23 | JPY | 0.21 JPY vs prior | 2026-07-13 | EUR strengthened versus this currency. |
-| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.74 | CNY | -0.0 CNY vs prior | 2026-07-13 | EUR weakened versus this currency. |
-| Australian dollar/Euro ECB reference exchange rate | 1.65 | AUD | 0.0 AUD vs prior | 2026-07-13 | EUR strengthened versus this currency. |
+| US dollar/Euro ECB reference exchange rate | 1.14 | USD | -0.0 USD vs prior | 2026-07-14 | EUR weakened versus this currency. |
+| Japanese yen/Euro ECB reference exchange rate | 185.01 | JPY | -0.22 JPY vs prior | 2026-07-14 | EUR weakened versus this currency. |
+| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.73 | CNY | -0.01 CNY vs prior | 2026-07-14 | EUR weakened versus this currency. |
+| Australian dollar/Euro ECB reference exchange rate | 1.64 | AUD | -0.0 AUD vs prior | 2026-07-14 | EUR weakened versus this currency. |
 
 ABS Australia note: ABS rows are stored locally/Neon, but most series are dimension-coded; only curated series should be promoted into narrative report text.
 
@@ -325,15 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Oil prices see largest two-day percentage gain in four months on U.S.-Iran fight**
-- Source: MarketWatch Bulletins
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil prices, geo-political
-- Score: `66.69`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Global oil prices top $83 a barrel, logging biggest jump in 6 years after Trump reimposes Strait of Hormuz blockade**
+**1. Global oil prices top $83 a barrel, logging biggest jump in 6 years after Trump reimposes Strait of Hormuz blockade**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -341,15 +333,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `65.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. U.S. oil tops $80 after Trump bombs Iran for third day, Tehran attacks tankers in Hormuz**
-- Source: CNBC Markets
+**2. Oil prices off highs after Trump abandons 20% protection fee on Strait of Hormuz traffic**
+- Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, oil prices, geopolitical tensions, strait of hormuz
 - Score: `64.12`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Trump's Hormuz toll plans bring oil supply risks back in spotlight**
+**3. Trump's Hormuz toll plans bring oil supply risks back in spotlight**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -357,23 +349,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `61.77`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Oil prices see largest two-day percentage gain in four months on U.S.-Iran fighting**
-- Source: MarketWatch Top Stories
+**4. Oil prices see largest two-day percentage gain in four months on U.S.-Iran fight**
+- Source: MarketWatch Bulletins
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
-- Affected assets: U.S, geopolitical_risk, energy
-- Score: `60.0`
+- Affected assets: U.S, oil prices, geo-political
+- Score: `56.69`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Oil Surges Most Since 2020, Reflecting Bet That Strait Won’t Go Back to Normal**
-- Source: Dow Jones US Business
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, Energy, Politics
-- Score: `57.38`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. IBM’s stock dives toward worst day in nearly 40 years after the surprise release of an earnings miss**
+**5. IBM’s stock is having its worst day ever after the surprise release of an earnings miss**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -381,15 +365,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `55.58`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**8. Geopolitical shock exposes SK Hynix leverage after hot ADR debut**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: SK Hynix ADR, SK Hynix local shares, ADR, SK, U.S
-- Score: `55.27`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**9. CNBC Daily Open: The Hormuz blockade is back and Trump is tolling**
+**6. CNBC Daily Open: The Hormuz blockade is back and Trump is tolling**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -397,7 +373,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.51`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Global oil prices top $83 a barrel as Trump reimposes Strait of Hormuz blockade**
+**7. Global oil prices top $83 a barrel as Trump reimposes Strait of Hormuz blockade**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -405,10 +381,34 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `53.7`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
+**8. Oil prices see largest two-day percentage gain in four months on U.S.-Iran fighting**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, geopolitical_risk, energy
+- Score: `51.0`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. Oil Surges Most Since 2020, Reflecting Bet That Strait Won’t Go Back to Normal**
+- Source: Dow Jones US Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, Energy, Politics
+- Score: `48.77`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Tuesday's big stock stories: What’s likely to move the market in the next trading session**
+- Source: CNBC Markets
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: oil_prices, trade_policy
+- Score: `48.45`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
 
 ### Headline Quality Checks
 
-Noisy headline list: Stock Market Today: S&P Climbs On Surprise CPI Inf
+Noisy headline list: Stock Market Today: Nasdaq Leads After Inflation R
 
 ## Positioning & Flow Dashboard
 
