@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-15T10:12:08.722852+00:00
+Generated at: 2026-07-15T13:11:50.168911+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -325,15 +325,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Oil rises after another round of U.S. strikes against Iran, naval blockade of the country's ports**
+**1. Luxury stocks rally on Richemont sales beat — but the sector still needs China, says analyst**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: luxury goods, sales growth
+- Score: `57.38`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**2. Oil rises after another round of U.S. strikes against Iran, naval blockade of the country's ports**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S., U.S, geopolitical events, oil prices
-- Score: `64.12`
+- Score: `54.51`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Oil prices rise as U.S. launches new Iran airstrikes, while Trump abandons Strait of Hormuz fee**
+**3. Oil prices rise as U.S. launches new Iran airstrikes, while Trump abandons Strait of Hormuz fee**
 - Source: CNBC Markets
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -341,7 +349,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.51`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Brace for $4 gas again: How U.S.-Iran tensions are threatening to end the price break at the pump**
+**4. Brace for $4 gas again: How U.S.-Iran tensions are threatening to end the price break at the pump**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -349,7 +357,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Global oil prices on track to notch back-to-back rise, remain ‘tethered to the Hormuz narrative’**
+**5. Global oil prices on track to notch back-to-back rise, remain ‘tethered to the Hormuz narrative’**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -357,7 +365,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. ASML is scrambling to build more capacity after blockbuster beat-and-raise quarter**
+**6. ASML is scrambling to build more capacity after blockbuster beat-and-raise quarter**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -365,7 +373,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.73`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**6. Brace for $4 gas again: U.S.-Iran tensions risk ending price break at the pump**
+**7. Morgan Stanley posts record quarterly revenue and profit as equities trading surges 69%**
+- Source: CNBC Investing
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short term
+- Affected assets: Finance, Equities Trading
+- Score: `48.77`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**8. Brace for $4 gas again: U.S.-Iran tensions risk ending price break at the pump**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -373,7 +389,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. IBM’s stock just had its worst day ever after the surprise release of an earnings miss**
+**9. IBM’s stock just had its worst day ever after the surprise release of an earnings miss**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -381,29 +397,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `47.24`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**8. Sky-high returns and earnings expectations could mean the end is near for this stock-market bull run**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: P, S, Economic Indicators, Stock Market Trends
-- Score: `43.35`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**9. Chip-Machine Supplier ASML Raises Guidance Again on Unrelenting AI Demand**
+**10. IMF Sees Reduced Cushion Against Oil Disruption for Global Economy**
 - Source: Dow Jones US Business
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: ASML, AI, semiconductor
-- Score: `42.61`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. PayPal jumps 16% in premarket on report of Stripe, Advent $53 billion takeover offer**
-- Source: CNBC Top News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: PAYY, acquisition, technology
-- Score: `41.99`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: IMF, U.S, energy_security, geopolitical_risk
+- Score: `45.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
@@ -499,4 +499,4 @@ No contradiction flags were triggered by current deterministic rules.
 - Macro rows loaded: `38`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
-- Positioning/flow rows loaded: `30`
+- Positioning/flow rows loaded: `24`
