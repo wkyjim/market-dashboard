@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-15T16:12:01.808914+00:00
+Generated at: 2026-07-15T19:11:57.477654+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -235,7 +235,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Cybersecurity | 69.64 | strong uptrend | positive | broad | 50.0 | 0.0 | 70.42 | CIBR | CIBR |
 | 2 | Financials | 68.91 | strong uptrend | positive | broad | 68.55 | 65.0 | 52.71 | HOOD, AJG, XYZ | CME, APO, ARES |
 | 3 | Healthcare | 62.34 | strong uptrend | neutral | broad | 41.07 | 65.0 | 51.26 | MRNA, TECH, CRL | PFE, ISRG, BSX |
-| 4 | Semiconductors | 61.73 | strong uptrend | positive | broad | 75.28 | 100.0 | 58.33 | SMH, SOXX | SOXX, SMH |
+| 4 | Semiconductors | 61.69 | strong uptrend | positive | broad | 75.28 | 100.0 | 58.33 | SMH, SOXX | SOXX, SMH |
 | 5 | Technology | 59.46 | strong uptrend | neutral | broad | 59.18 | 65.0 | 52.7 | PANW, GDDY, DDOG | SWKS, ORCL, CRWD |
 | 6 | Industrials | 59.3 | strong uptrend | neutral | broad | 50.0 | 0.0 | 50.16 | AXON, GEV, XYL | LDOS, GNRC, FDXF |
 | 7 | Utilities | 59.03 | strong uptrend | neutral | broad | 50.0 | 0.0 | 47.59 | NRG, ES, VST | AES, PPL, NI |
@@ -253,7 +253,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Financials | 64.9 | Positive setup | 68.55 | 65.0 | 2.89 | True | False |
-| 2 | Semiconductors | 64.06 | Positive setup | 75.28 | 100.0 | 11.9 | True | True |
+| 2 | Semiconductors | 63.51 | Positive setup | 75.28 | 100.0 | 11.9 | True | False |
 | 3 | Cybersecurity | 59.45 | Positive setup | 50.0 | 0.0 | 95.34 | False | False |
 | 4 | Healthcare Innovation | 57.93 | Positive setup | 41.07 | 65.0 | 9.1 | False | False |
 | 5 | Small Caps | 57.76 | Positive setup | 68.98 | 65.0 | 0.0 | False | False |
@@ -269,7 +269,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Top 5 improving themes: Cybersecurity, Semiconductors, Healthcare Innovation, Financials, AI Infrastructure
 - Top 5 deteriorating themes: Crypto Infrastructure, Nuclear, Defense, Energy, Dividend Defensives
 - Strong news but weak price confirmation: none
-- Strong price but weak news confirmation: Financials
+- Strong price but weak news confirmation: Financials, Semiconductors
 
 ### Sector / Theme Alignment
 
@@ -278,8 +278,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 69.64 | strong | 59.45 | positive | sector and theme confirmation |
 | Financials | Financials | 68.91 | strong | 64.9 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 62.34 | positive | 57.93 | positive | sector and theme confirmation |
-| Semiconductors | AI Infrastructure, Semiconductors | 61.73 | positive | 59.77 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 59.46 | positive | 57.31 | positive | sector and theme confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 61.69 | positive | 59.5 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 59.46 | positive | 57.13 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 59.3 | positive | 44.38 | weak | sector stronger than related themes |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 59.03 | positive | 43.44 | weak | sector stronger than related themes |
 | Real Estate | Dividend Defensives | 56.1 | positive | 51.55 | mixed | sector stronger than related themes |
@@ -297,8 +297,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- |
 | 1 | Financials | 68.66 | Positive setup | trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 2 | Healthcare Innovation | 65.79 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 3 | Semiconductors | 63.83 | Positive setup | relative_strength_60d, trend_persistence, breadth, news_acceleration, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
-| 4 | Small Caps | 63.67 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 3 | Small Caps | 63.67 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 4 | Semiconductors | 63.33 | Positive setup | relative_strength_60d, trend_persistence, breadth, news_acceleration, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 5 | Cybersecurity | 61.98 | Positive setup | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 6 | AI Infrastructure | 56.35 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
 | 7 | Quality Growth | 54.73 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
@@ -325,13 +325,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Luxury stocks rally on Richemont sales beat — but the sector still needs China, says analyst**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: luxury goods, sales growth
-- Score: `57.38`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+**1. American oil refiners could more than triple profits as Iran war sparks big boom**
+- Source: MarketWatch Bulletins
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: oil, profits, Iran
+- Score: `64.12`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **2. Oil rises after another round of U.S. strikes against Iran, naval blockade of the country's ports**
 - Source: CNBC Top News
@@ -349,7 +349,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.51`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Brace for $4 gas again: How U.S.-Iran tensions are threatening to end the price break at the pump**
+**4. Opinion | A Trump Tariff Success Story: American Steel**
+- Source: Dow Jones US News
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: A, trade, economy
+- Score: `54.0`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. Brace for $4 gas again: How U.S.-Iran tensions are threatening to end the price break at the pump**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -357,15 +365,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Global oil prices on track to notch back-to-back rise, remain ‘tethered to the Hormuz narrative’**
+**6. SpaceX’s stock breaks below its IPO price for the first time. Why it could still fall further.**
 - Source: MarketWatch Top Stories
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, geopolitical_risk, energy
-- Score: `51.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Importance / impact: Medium / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: SPACE, IPO, SpaceX
+- Score: `49.73`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**6. PayPal’s battered stock is getting a record boost from a report of buyout interest**
+**7. PayPal’s battered stock is getting a record boost from a report of buyout interest**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -373,7 +381,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.73`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. Morgan Stanley posts record quarterly revenue and profit as equities trading surges 69%**
+**8. Luxury stocks rally on Richemont sales beat — but the sector still needs China, says analyst**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: luxury goods, sales growth
+- Score: `48.77`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**9. Morgan Stanley posts record quarterly revenue and profit as equities trading surges 69%**
 - Source: CNBC Investing
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short term
@@ -381,28 +397,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. Brace for $4 gas again: U.S.-Iran tensions risk ending price break at the pump**
+**10. Brace for $4 gas again: U.S.-Iran tensions risk ending price break at the pump**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, geo-political, oil-prices
 - Score: `48.45`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. IBM’s stock just had its worst day ever after the surprise release of an earnings miss**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: IBM, earnings miss, stock performance
-- Score: `47.24`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**10. China’s Crude Buying Pause Has Helped Cushion the Market. That Might Be Changing.**
-- Source: Dow Jones US Business
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: A, U.S, oil_market, trade_relations
-- Score: `45.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
