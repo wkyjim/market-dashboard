@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-15T13:11:50.168911+00:00
+Generated at: 2026-07-15T16:12:01.808914+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -160,16 +160,16 @@ Negative contributors: none
 | Headline PCE Price Index year-over-year inflation rate | 4.07 | percent | 0.28 pp vs prior | 2026-05-01 | Higher reading increases macro pressure. |
 | Core PCE Price Index month-over-month inflation rate | 0.32 | percent | 0.07 pp vs prior | 2026-05-01 | Higher reading increases macro pressure. |
 | Core PCE Price Index year-over-year inflation rate | 3.41 | percent | 0.09 pp vs prior | 2026-05-01 | Higher reading increases macro pressure. |
-| Headline PPI Final Demand month-over-month inflation rate | 1.03 | percent | -0.09 pp vs prior | 2026-05-01 | Lower reading eases macro pressure. |
-| Headline PPI Final Demand year-over-year inflation rate | 6.46 | percent | 0.79 pp vs prior | 2026-05-01 | Higher reading increases macro pressure. |
-| Core PPI Final Demand Less Foods and Energy month-over-month inflation rate | 0.42 | percent | -0.27 pp vs prior | 2026-05-01 | Lower reading eases macro pressure. |
-| Core PPI Final Demand Less Foods and Energy year-over-year inflation rate | 4.9 | percent | 0.03 pp vs prior | 2026-05-01 | Higher reading increases macro pressure. |
+| Headline PPI Final Demand month-over-month inflation rate | -0.19 | percent | -0.79 pp vs prior | 2026-06-01 | Lower reading eases macro pressure. |
+| Headline PPI Final Demand year-over-year inflation rate | 5.51 | percent | -0.49 pp vs prior | 2026-06-01 | Lower reading eases macro pressure. |
+| Core PPI Final Demand Less Foods and Energy month-over-month inflation rate | 0.2 | percent | 0.11 pp vs prior | 2026-06-01 | Higher reading increases macro pressure. |
+| Core PPI Final Demand Less Foods and Energy year-over-year inflation rate | 4.68 | percent | 0.09 pp vs prior | 2026-06-01 | Higher reading increases macro pressure. |
 | Consumer Price Index for All Urban Consumers | 332.57 | index 1982-1984=100 | -1.41 index pts vs prior | 2026-06-01 | Lower reading eases macro pressure. |
 | Core CPI | 336.06 | index 1982-1984=100 | -0.06 index pts vs prior | 2026-06-01 | Lower reading eases macro pressure. |
 | Personal Consumption Expenditures Price Index | 131.53 | index 2017=100 | 0.59 index pts vs prior | 2026-05-01 | Higher reading increases macro pressure. |
 | Core PCE Price Index | 130.08 | index 2017=100 | 0.41 index pts vs prior | 2026-05-01 | Higher reading increases macro pressure. |
-| Producer Price Index: Final Demand | 158.01 | index Nov 2009=100 | 1.62 index pts vs prior | 2026-05-01 | Latest structural macro observation. |
-| Producer Price Index: Final Demand Less Foods and Energy | 154.15 | index Apr 2010=100 | 0.64 index pts vs prior | 2026-05-01 | Latest structural macro observation. |
+| Producer Price Index: Final Demand | 157.04 | index Nov 2009=100 | -0.3 index pts vs prior | 2026-06-01 | Latest structural macro observation. |
+| Producer Price Index: Final Demand Less Foods and Energy | 154.0 | index Apr 2010=100 | 0.31 index pts vs prior | 2026-06-01 | Latest structural macro observation. |
 
 ### Policy, Liquidity, Credit
 
@@ -217,10 +217,10 @@ Negative contributors: none
 
 | Indicator | Latest | Unit | Change | Date | Rule-Based Interpretation |
 | --- | --- | --- | --- | --- | --- |
-| US dollar/Euro ECB reference exchange rate | 1.14 | USD | -0.0 USD vs prior | 2026-07-14 | EUR weakened versus this currency. |
-| Japanese yen/Euro ECB reference exchange rate | 185.01 | JPY | -0.22 JPY vs prior | 2026-07-14 | EUR weakened versus this currency. |
-| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.73 | CNY | -0.01 CNY vs prior | 2026-07-14 | EUR weakened versus this currency. |
-| Australian dollar/Euro ECB reference exchange rate | 1.64 | AUD | -0.0 AUD vs prior | 2026-07-14 | EUR weakened versus this currency. |
+| US dollar/Euro ECB reference exchange rate | 1.14 | USD | 0.0 USD vs prior | 2026-07-15 | EUR strengthened versus this currency. |
+| Japanese yen/Euro ECB reference exchange rate | 185.22 | JPY | 0.21 JPY vs prior | 2026-07-15 | EUR strengthened versus this currency. |
+| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.73 | CNY | -0.01 CNY vs prior | 2026-07-15 | EUR weakened versus this currency. |
+| Australian dollar/Euro ECB reference exchange rate | 1.63 | AUD | -0.01 AUD vs prior | 2026-07-15 | EUR weakened versus this currency. |
 
 ABS Australia note: ABS rows are stored locally/Neon, but most series are dimension-coded; only curated series should be promoted into narrative report text.
 
@@ -365,11 +365,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. ASML is scrambling to build more capacity after blockbuster beat-and-raise quarter**
+**6. PayPal’s battered stock is getting a record boost from a report of buyout interest**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
-- Affected assets: ASML, technology, semiconductor
+- Affected assets: PAYY, acquisition, private_equity
 - Score: `49.73`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
@@ -397,18 +397,18 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `47.24`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**10. IMF Sees Reduced Cushion Against Oil Disruption for Global Economy**
+**10. China’s Crude Buying Pause Has Helped Cushion the Market. That Might Be Changing.**
 - Source: Dow Jones US Business
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: IMF, U.S, energy_security, geopolitical_risk
+- Affected assets: A, U.S, oil_market, trade_relations
 - Score: `45.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
 
-Noisy headline list: Stock Market Today: Nasdaq Leads After Inflation R
+No noisy headlines detected by current rules.
 
 ## Positioning & Flow Dashboard
 
