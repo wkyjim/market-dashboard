@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-15T01:11:53.564102+00:00
+Generated at: 2026-07-15T04:12:19.777353+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **62.64 / 100** (Mild Risk-On)
+- Regime score: **62.71 / 100** (Mild Risk-On)
 - Market strength: **70.97 / 100** (constructive)
 - Evidence quality: **90.0 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -26,9 +26,9 @@ Window: 24h
 | dollar_fx | 56.69 |
 | commodity_confirmation | 59.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 62.5 |
+| news_confirmation | 63.75 |
 
-Positive contributors: equity_trend=85.0, volatility=70.0, news_confirmation=62.5, market_breadth=60.4
+Positive contributors: equity_trend=85.0, volatility=70.0, news_confirmation=63.75, market_breadth=60.4
 Negative contributors: none
 
 ## Market Strength Score
@@ -320,16 +320,16 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 50, 'negative': 30, 'neutral': 0}
-- News confirmation score: `62.5`
+- Sentiment counts: {'positive': 51, 'negative': 29, 'neutral': 0}
+- News confirmation score: `63.75`
 
 ### Top Market-Moving Headlines
 
-**1. Oil prices rise as U.S. launches new Iran airstrikes, while Trump abandons Strait of Hormuz fee**
-- Source: CNBC Markets
+**1. Oil rises as U.S. continues to strike Iran, reinstates naval blockade of the country's ports**
+- Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil prices, geopolitical tensions, strait of hormuz
+- Affected assets: U.S., U.S, geopolitical events, oil prices
 - Score: `64.12`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
@@ -349,15 +349,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `60.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Brace for $4 gas again: U.S.-Iran tensions risk ending price break at the pump**
-- Source: MarketWatch Bulletins
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, geo-political, oil-prices
-- Score: `57.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**5. Oil prices see largest two-day percentage gain in four months on U.S.-Iran fight**
+**4. Oil prices see largest two-day percentage gain in four months on U.S.-Iran fight**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -365,15 +357,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `56.69`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. IBM’s stock just had its worst day ever after the surprise release of an earnings miss**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: IBM, earnings miss, stock performance
-- Score: `55.58`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+**5. Oil prices rise as U.S. launches new Iran airstrikes, while Trump abandons Strait of Hormuz fee**
+- Source: CNBC Markets
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, oil prices, geopolitical tensions, strait of hormuz
+- Score: `54.51`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. CNBC Daily Open: The Hormuz blockade is back and Trump is tolling**
+**6. CNBC Daily Open: The Hormuz blockade is back and Trump is tolling**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -381,7 +373,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.51`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Global oil prices on track to notch back-to-back rise, remain ‘tethered to the Hormuz narrative’**
+**7. Global oil prices on track to notch back-to-back rise, remain ‘tethered to the Hormuz narrative’**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -389,7 +381,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Oil Surges Most Since 2020, Reflecting Bet That Strait Won’t Go Back to Normal**
+**8. Oil Surges Most Since 2020, Reflecting Bet That Strait Won’t Go Back to Normal**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -397,11 +389,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. IBM's stock dives as profit warning shows hardware is ‘eating everyone’s lunch’**
+**9. Brace for $4 gas again: U.S.-Iran tensions risk ending price break at the pump**
 - Source: MarketWatch Bulletins
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, geo-political, oil-prices
+- Score: `48.45`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. IBM’s stock just had its worst day ever after the surprise release of an earnings miss**
+- Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
-- Affected assets: IBM, profit warning, hardware industry
+- Affected assets: IBM, earnings miss, stock performance
 - Score: `47.24`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
