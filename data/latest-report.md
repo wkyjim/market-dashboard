@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-16T07:11:53.913560+00:00
+Generated at: 2026-07-16T10:12:26.288994+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **61.72 / 100** (Mild Risk-On)
+- Regime score: **61.78 / 100** (Mild Risk-On)
 - Market strength: **65.04 / 100** (constructive)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -26,9 +26,9 @@ Window: 24h
 | dollar_fx | 57.18 |
 | commodity_confirmation | 59.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 76.25 |
+| news_confirmation | 77.5 |
 
-Positive contributors: volatility=80.0, news_confirmation=76.25, equity_trend=72.5
+Positive contributors: volatility=80.0, news_confirmation=77.5, equity_trend=72.5
 Negative contributors: none
 
 ## Market Strength Score
@@ -234,10 +234,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cybersecurity | 70.34 | strong uptrend | positive | broad | 50.0 | 0.0 | 68.24 | CIBR | CIBR |
 | 2 | Financials | 69.17 | strong uptrend | positive | broad | 68.55 | 65.0 | 54.0 | PYPL, HOOD, GPN | ARES, CME, APO |
-| 3 | Real Estate | 62.77 | strong uptrend | neutral | broad | 61.18 | 65.0 | 46.98 | VTR, WELL, DOC | AMT, CCI, CSGP |
-| 4 | Healthcare | 62.5 | strong uptrend | neutral | broad | 41.07 | 65.0 | 52.16 | MRNA, TECH, CRL | ISRG, ZTS, BSX |
+| 3 | Healthcare | 62.95 | strong uptrend | neutral | broad | 41.07 | 65.0 | 52.16 | MRNA, TECH, CRL | ISRG, ZTS, BSX |
+| 4 | Real Estate | 62.77 | strong uptrend | neutral | broad | 61.18 | 65.0 | 46.98 | VTR, WELL, DOC | AMT, CCI, CSGP |
 | 5 | Industrials | 56.08 | strong uptrend | neutral | broad | 50.0 | 0.0 | 49.46 | AXON, ADP, CTAS | PNR, FDXF, GNRC |
-| 6 | Semiconductors | 50.66 | neutral | neutral | weak | 75.28 | 100.0 | 53.55 | SMH, SOXX | SOXX, SMH |
+| 6 | Semiconductors | 50.59 | neutral | neutral | weak | 75.28 | 100.0 | 53.55 | SMH, SOXX | SOXX, SMH |
 | 7 | Technology | 49.56 | neutral | neutral | weak | 59.18 | 65.0 | 50.48 | PANW, GDDY, DDOG | ORCL, MRVL, CRWD |
 | 8 | Crypto | 49.4 | neutral | neutral | mixed | 44.0 | 65.0 | 50.0 |  |  |
 | 9 | Consumer Discretionary | 48.21 | downtrend | neutral | weak | 50.0 | 0.0 | 45.56 | GPC, DASH, EXPE | LVS, APTV, CCL |
@@ -253,7 +253,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Financials | 65.61 | Positive setup | 68.55 | 65.0 | 4.64 | True | False |
-| 2 | Semiconductors | 59.59 | Neutral / watchlist | 75.28 | 100.0 | 11.73 | False | True |
+| 2 | Semiconductors | 59.49 | Neutral / watchlist | 75.28 | 100.0 | 11.73 | False | True |
 | 3 | Cybersecurity | 58.59 | Positive setup | 50.0 | 0.0 | 94.58 | False | False |
 | 4 | Healthcare Innovation | 57.75 | Positive setup | 41.07 | 65.0 | 8.48 | False | False |
 | 5 | Small Caps | 57.64 | Positive setup | 68.98 | 65.0 | 0.0 | False | False |
@@ -277,11 +277,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- |
 | Cybersecurity | Cybersecurity | 70.34 | strong | 58.59 | positive | sector and theme confirmation |
 | Financials | Financials | 69.17 | strong | 65.61 | strong | sector and theme confirmation |
+| Healthcare | Healthcare Innovation | 62.95 | positive | 57.75 | positive | sector and theme confirmation |
 | Real Estate | Dividend Defensives | 62.77 | positive | 49.7 | mixed | sector stronger than related themes |
-| Healthcare | Healthcare Innovation | 62.5 | positive | 57.75 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 56.08 | positive | 42.96 | weak | sector stronger than related themes |
-| Semiconductors | AI Infrastructure, Semiconductors | 50.66 | mixed | 55.84 | positive | theme stronger than official sector |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 49.56 | mixed | 53.86 | mixed | mixed confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 50.59 | mixed | 55.79 | positive | theme stronger than official sector |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 49.56 | mixed | 53.83 | mixed | mixed confirmation |
 | Crypto | Crypto Infrastructure | 49.4 | mixed | 30.57 | very weak | mixed confirmation |
 | Consumer Discretionary | Small Caps | 48.21 | mixed | 57.64 | positive | theme stronger than official sector |
 | Energy | Energy | 46.52 | mixed | 47.27 | mixed | mixed confirmation |
@@ -320,8 +320,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 61, 'negative': 19, 'neutral': 0}
-- News confirmation score: `76.25`
+- Sentiment counts: {'positive': 62, 'negative': 18, 'neutral': 0}
+- News confirmation score: `77.5`
 
 ### Top Market-Moving Headlines
 
@@ -333,15 +333,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.51`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. TSMC second-quarter profit jumps over 77%, beating estimates, on high-end chip boom**
-- Source: CNBC Technology
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: TSMC, profit, chip, technology
-- Score: `50.02`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**3. Food banks, affordable-housing providers scramble as inflation hammers low-income Americans**
+**2. Food banks, affordable-housing providers scramble as inflation hammers low-income Americans**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / medium-term
@@ -349,13 +341,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.64`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium-term.
 
-**4. Luxury stocks rally on Richemont sales beat — but the sector still needs China, says analyst**
+**3. Luxury stocks rally on Richemont sales beat — but the sector still needs China, says analyst**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: luxury goods, sales growth
 - Score: `48.77`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**4. TSMC to invest additional $100 billion in Arizona after second-quarter profit soars 77%**
+- Source: CNBC Investing
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: TSMC, profit, chip, technology
+- Score: `47.24`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 **5. Opinion | A Trump Tariff Success Story: American Steel**
 - Source: Dow Jones US News
@@ -389,21 +389,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `42.27`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. ASML is scrambling to build more capacity after blockbuster beat-and-raise quarter**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: ASML, technology, semiconductor
-- Score: `42.27`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. Morgan Stanley posts record quarterly revenue and profit as equities trading surges 69%**
+**9. Morgan Stanley posts record quarterly revenue and profit as equities trading surges 69%**
 - Source: CNBC Investing
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short term
 - Affected assets: Finance, Equities Trading
 - Score: `41.45`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**10. Iran warns U.S. of Hormuz ‘red line,’ says it will retaliate to Trump’s strike threats**
+- Source: CNBC Business Headlines
+- Importance / impact: Medium / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: U.S, geo-political tensions, trade
+- Score: `39.78`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
