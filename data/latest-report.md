@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-15T22:12:05.038819+00:00
+Generated at: 2026-07-16T01:12:09.863011+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **61.53 / 100** (Mild Risk-On)
+- Regime score: **61.65 / 100** (Mild Risk-On)
 - Market strength: **65.04 / 100** (constructive)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -26,9 +26,9 @@ Window: 24h
 | dollar_fx | 57.18 |
 | commodity_confirmation | 59.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 72.5 |
+| news_confirmation | 75.0 |
 
-Positive contributors: volatility=80.0, equity_trend=72.5, news_confirmation=72.5
+Positive contributors: volatility=80.0, news_confirmation=75.0, equity_trend=72.5
 Negative contributors: none
 
 ## Market Strength Score
@@ -320,26 +320,26 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 58, 'negative': 22, 'neutral': 0}
-- News confirmation score: `72.5`
+- Sentiment counts: {'positive': 60, 'negative': 20, 'neutral': 0}
+- News confirmation score: `75.0`
 
 ### Top Market-Moving Headlines
 
-**1. American oil refiners could more than triple profits as Iran war sparks big boom**
-- Source: MarketWatch Bulletins
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: oil, profits, Iran
-- Score: `64.12`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Food banks, affordable-housing providers scramble as inflation hammers low-income Americans**
+**1. Food banks, affordable-housing providers scramble as inflation hammers low-income Americans**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / medium-term
 - Affected assets: inflation, poverty
 - Score: `58.4`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium-term.
+
+**2. American oil refiners could more than triple profits as Iran war sparks big boom**
+- Source: MarketWatch Bulletins
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: oil, profits, Iran
+- Score: `54.51`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **3. Oil rises after another round of U.S. strikes against Iran, naval blockade of the country's ports**
 - Source: CNBC Top News
@@ -349,23 +349,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.51`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Opinion | A Trump Tariff Success Story: American Steel**
-- Source: Dow Jones US News
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: A, trade, economy
-- Score: `54.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**5. Brace for $4 gas again: How U.S.-Iran tensions are threatening to end the price break at the pump**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S., U.S, oil prices, geopolitical tensions, inflation
-- Score: `51.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. SpaceX’s stock breaks below its IPO price for the first time. Why it could still fall further.**
+**4. SpaceX’s stock breaks below its IPO price for the first time. Why it could still fall further.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -373,7 +357,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.73`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**7. Luxury stocks rally on Richemont sales beat — but the sector still needs China, says analyst**
+**5. Luxury stocks rally on Richemont sales beat — but the sector still needs China, says analyst**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -381,15 +365,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. Chip-Machine Supplier ASML Raises Guidance Again on Unrelenting AI Demand**
-- Source: Dow Jones US Business
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: ASML, AI, semiconductor
-- Score: `42.61`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+**6. Opinion | A Trump Tariff Success Story: American Steel**
+- Source: Dow Jones US News
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: A, trade, economy
+- Score: `45.9`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. PayPal’s battered stock is getting a record boost from a report of buyout interest**
+**7. PayPal’s battered stock is getting a record boost from a report of buyout interest**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -397,13 +381,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `42.27`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. ASML is scrambling to build more capacity after blockbuster beat-and-raise quarter**
+**8. ASML is scrambling to build more capacity after blockbuster beat-and-raise quarter**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: ASML, technology, semiconductor
 - Score: `42.27`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**9. Stripe, Advent make $53 billion takeover offer for PayPal, sending stock soaring**
+- Source: CNBC Top News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: PAYY, acquisition, technology
+- Score: `41.99`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Morgan Stanley posts record quarterly revenue and profit as equities trading surges 69%**
+- Source: CNBC Investing
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short term
+- Affected assets: Finance, Equities Trading
+- Score: `41.45`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
@@ -499,4 +499,4 @@ No contradiction flags were triggered by current deterministic rules.
 - Macro rows loaded: `38`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
-- Positioning/flow rows loaded: `24`
+- Positioning/flow rows loaded: `30`
