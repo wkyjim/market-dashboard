@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-16T16:11:23.329173+00:00
+Generated at: 2026-07-16T17:05:37.927302+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -357,23 +357,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.64`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium-term.
 
-**5. Wall Street's profit boom has Europe ripping up its banking rulebook**
-- Source: CNBC Business News
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: A, banking regulations, financial markets
-- Score: `48.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. Opinion | A Trump Tariff Success Story: American Steel**
-- Source: Dow Jones US News
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: A, trade, economy
-- Score: `45.9`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. We're raising our price target on Goldman Sachs after a blowout quarter, upbeat outlook**
+**5. We're raising our price target on Goldman Sachs after a blowout quarter, upbeat outlook**
 - Source: CNBC Investing
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -381,7 +365,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `44.61`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. U.S. Bancorp Quarterly Revenue Rises to Record**
+**6. U.S. Bancorp Quarterly Revenue Rises to Record**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -389,20 +373,36 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**9. Publicis Raises Guidance on New Business Wins**
-- Source: Dow Jones US Business
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AI, advertising
-- Score: `43.03`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**10. SpaceX’s stock breaks below its IPO price for the first time. Why it could still fall further.**
+**7. SpaceX’s stock breaks below its IPO price for the first time. Why it could still fall further.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: SPACE, IPO, SpaceX
 - Score: `42.27`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**8. Wall Street's profit boom has Europe ripping up its banking rulebook**
+- Source: CNBC Business News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: A, banking regulations, financial markets
+- Score: `40.8`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. TSMC to invest additional $100 billion in Arizona after second-quarter profit soars 77%**
+- Source: CNBC Investing
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: TSMC, profit, chip, technology
+- Score: `40.15`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Iran warns U.S. of Hormuz ‘red line,’ says it will retaliate if Trump carries out threats**
+- Source: CNBC Business Headlines
+- Importance / impact: Medium / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: U.S, geo-political tensions, trade
+- Score: `39.78`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
