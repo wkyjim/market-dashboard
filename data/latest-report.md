@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-16T13:06:32.704573+00:00
+Generated at: 2026-07-16T13:11:18.772209+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **61.9 / 100** (Mild Risk-On)
+- Regime score: **62.0 / 100** (Mild Risk-On)
 - Market strength: **65.04 / 100** (constructive)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -26,9 +26,9 @@ Window: 24h
 | dollar_fx | 57.18 |
 | commodity_confirmation | 59.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 80.0 |
+| news_confirmation | 81.88 |
 
-Positive contributors: volatility=80.0, news_confirmation=80.0, equity_trend=72.5
+Positive contributors: news_confirmation=81.88, volatility=80.0, equity_trend=72.5
 Negative contributors: none
 
 ## Market Strength Score
@@ -234,7 +234,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cybersecurity | 70.34 | strong uptrend | positive | broad | 50.0 | 0.0 | 68.24 | CIBR | CIBR |
 | 2 | Financials | 69.17 | strong uptrend | positive | broad | 68.55 | 65.0 | 54.0 | PYPL, HOOD, GPN | ARES, CME, APO |
-| 3 | Healthcare | 62.95 | strong uptrend | neutral | broad | 41.07 | 65.0 | 52.16 | MRNA, TECH, CRL | ISRG, ZTS, BSX |
+| 3 | Healthcare | 62.94 | strong uptrend | neutral | broad | 41.07 | 65.0 | 52.16 | MRNA, TECH, CRL | ISRG, ZTS, BSX |
 | 4 | Real Estate | 62.77 | strong uptrend | neutral | broad | 61.18 | 65.0 | 46.98 | VTR, WELL, DOC | AMT, CCI, CSGP |
 | 5 | Industrials | 56.08 | strong uptrend | neutral | broad | 50.0 | 0.0 | 49.46 | AXON, ADP, CTAS | PNR, FDXF, GNRC |
 | 6 | Semiconductors | 50.59 | neutral | neutral | weak | 75.28 | 100.0 | 53.55 | SMH, SOXX | SOXX, SMH |
@@ -277,7 +277,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- |
 | Cybersecurity | Cybersecurity | 70.34 | strong | 58.59 | positive | sector and theme confirmation |
 | Financials | Financials | 69.17 | strong | 65.61 | strong | sector and theme confirmation |
-| Healthcare | Healthcare Innovation | 62.95 | positive | 57.75 | positive | sector and theme confirmation |
+| Healthcare | Healthcare Innovation | 62.94 | positive | 57.75 | positive | sector and theme confirmation |
 | Real Estate | Dividend Defensives | 62.77 | positive | 49.7 | mixed | sector stronger than related themes |
 | Industrials | Defense, Grid Infrastructure | 56.08 | positive | 42.96 | weak | sector stronger than related themes |
 | Semiconductors | AI Infrastructure, Semiconductors | 50.59 | mixed | 55.79 | positive | theme stronger than official sector |
@@ -320,8 +320,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 64, 'negative': 16, 'neutral': 0}
-- News confirmation score: `80.0`
+- Sentiment counts: {'positive': 65, 'negative': 14, 'neutral': 1}
+- News confirmation score: `81.88`
 
 ### Top Market-Moving Headlines
 
@@ -341,7 +341,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.64`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium-term.
 
-**3. TSMC to invest additional $100 billion in Arizona after second-quarter profit soars 77%**
+**3. Wall Street's profit boom has Europe ripping up its banking rulebook**
+- Source: CNBC Business News
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: A, banking regulations, financial markets
+- Score: `48.0`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. TSMC to invest additional $100 billion in Arizona after second-quarter profit soars 77%**
 - Source: CNBC Investing
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -349,7 +357,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `47.24`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**4. Opinion | A Trump Tariff Success Story: American Steel**
+**5. Opinion | A Trump Tariff Success Story: American Steel**
 - Source: Dow Jones US News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -357,7 +365,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.9`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. We're raising our price target on Goldman Sachs after a blowout quarter, upbeat outlook**
+**6. We're raising our price target on Goldman Sachs after a blowout quarter, upbeat outlook**
 - Source: CNBC Investing
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -365,7 +373,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `44.61`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**6. U.S. Bancorp Quarterly Revenue Rises to Record**
+**7. U.S. Bancorp Quarterly Revenue Rises to Record**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -373,7 +381,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. Publicis Raises Guidance on New Business Wins**
+**8. Publicis Raises Guidance on New Business Wins**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -381,7 +389,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. SpaceX’s stock breaks below its IPO price for the first time. Why it could still fall further.**
+**9. SpaceX’s stock breaks below its IPO price for the first time. Why it could still fall further.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -389,21 +397,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `42.27`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**9. PayPal’s battered stock is getting a record boost from a report of buyout interest**
+**10. PayPal’s battered stock is getting a record boost from a report of buyout interest**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: PAYY, acquisition, private_equity
 - Score: `42.27`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. Morgan Stanley posts record quarterly revenue and profit as equities trading surges 69%**
-- Source: CNBC Investing
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short term
-- Affected assets: Finance, Equities Trading
-- Score: `41.45`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
