@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-16T13:11:18.772209+00:00
+Generated at: 2026-07-16T14:06:04.542000+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **62.0 / 100** (Mild Risk-On)
+- Regime score: **61.94 / 100** (Mild Risk-On)
 - Market strength: **65.04 / 100** (constructive)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -26,9 +26,9 @@ Window: 24h
 | dollar_fx | 57.18 |
 | commodity_confirmation | 59.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 81.88 |
+| news_confirmation | 80.62 |
 
-Positive contributors: news_confirmation=81.88, volatility=80.0, equity_trend=72.5
+Positive contributors: news_confirmation=80.62, volatility=80.0, equity_trend=72.5
 Negative contributors: none
 
 ## Market Strength Score
@@ -217,10 +217,10 @@ Negative contributors: none
 
 | Indicator | Latest | Unit | Change | Date | Rule-Based Interpretation |
 | --- | --- | --- | --- | --- | --- |
-| US dollar/Euro ECB reference exchange rate | 1.14 | USD | 0.0 USD vs prior | 2026-07-15 | EUR strengthened versus this currency. |
-| Japanese yen/Euro ECB reference exchange rate | 185.22 | JPY | 0.21 JPY vs prior | 2026-07-15 | EUR strengthened versus this currency. |
-| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.73 | CNY | -0.01 CNY vs prior | 2026-07-15 | EUR weakened versus this currency. |
-| Australian dollar/Euro ECB reference exchange rate | 1.63 | AUD | -0.01 AUD vs prior | 2026-07-15 | EUR weakened versus this currency. |
+| US dollar/Euro ECB reference exchange rate | 1.15 | USD | 0.01 USD vs prior | 2026-07-16 | EUR strengthened versus this currency. |
+| Japanese yen/Euro ECB reference exchange rate | 185.99 | JPY | 0.77 JPY vs prior | 2026-07-16 | EUR strengthened versus this currency. |
+| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.76 | CNY | 0.03 CNY vs prior | 2026-07-16 | EUR strengthened versus this currency. |
+| Australian dollar/Euro ECB reference exchange rate | 1.64 | AUD | 0.0 AUD vs prior | 2026-07-16 | EUR strengthened versus this currency. |
 
 ABS Australia note: ABS rows are stored locally/Neon, but most series are dimension-coded; only curated series should be promoted into narrative report text.
 
@@ -320,8 +320,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 65, 'negative': 14, 'neutral': 1}
-- News confirmation score: `81.88`
+- Sentiment counts: {'positive': 64, 'negative': 15, 'neutral': 1}
+- News confirmation score: `80.62`
 
 ### Top Market-Moving Headlines
 
