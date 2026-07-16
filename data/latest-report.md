@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-16T17:21:37.842557+00:00
+Generated at: 2026-07-16T17:27:50.932575+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -330,7 +330,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: energy, oil_prices, conflicts
-- Score: `66.69`
+- Score: `56.69`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **2. American oil refiners could more than triple profits as Iran war sparks big boom**
