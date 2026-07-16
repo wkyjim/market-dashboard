@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-16T12:30:55.908939+00:00
+Generated at: 2026-07-16T13:06:32.704573+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -144,7 +144,7 @@ Negative contributors: none
 | --- | --- | --- | --- | --- | --- |
 | Real Gross Domestic Product | 24180.42 | billions chained 2017 dollars | 124.67 billions chained 2017 dollars vs prior | 2026-01-01 | Higher reading supports activity or liquidity. |
 | Industrial Production Index | 102.65 | index 2017=100 | 0.14 index pts vs prior | 2026-05-01 | Higher reading supports activity or liquidity. |
-| Advance Retail Sales | 763705.0 | millions dollars | 6669.0 millions dollars vs prior | 2026-05-01 | Higher reading supports activity or liquidity. |
+| Advance Retail Sales | 768553.0 | millions dollars | 1677.0 millions dollars vs prior | 2026-06-01 | Higher reading supports activity or liquidity. |
 
 ### U.S. Inflation
 
@@ -357,7 +357,31 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.9`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. SpaceX’s stock breaks below its IPO price for the first time. Why it could still fall further.**
+**5. We're raising our price target on Goldman Sachs after a blowout quarter, upbeat outlook**
+- Source: CNBC Investing
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: GS, Finance, Investment, Earnings
+- Score: `44.61`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**6. U.S. Bancorp Quarterly Revenue Rises to Record**
+- Source: Dow Jones US Business
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: U.S Bancorp, BTIG, U.S, financial performance, acquisition
+- Score: `43.03`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**7. Publicis Raises Guidance on New Business Wins**
+- Source: Dow Jones US Business
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AI, advertising
+- Score: `43.03`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**8. SpaceX’s stock breaks below its IPO price for the first time. Why it could still fall further.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -365,7 +389,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `42.27`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**6. PayPal’s battered stock is getting a record boost from a report of buyout interest**
+**9. PayPal’s battered stock is getting a record boost from a report of buyout interest**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -373,37 +397,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `42.27`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. Morgan Stanley posts record quarterly revenue and profit as equities trading surges 69%**
+**10. Morgan Stanley posts record quarterly revenue and profit as equities trading surges 69%**
 - Source: CNBC Investing
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short term
 - Affected assets: Finance, Equities Trading
 - Score: `41.45`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**8. Iran warns U.S. of Hormuz ‘red line,’ says it will retaliate to Trump’s strike threats**
-- Source: CNBC Business Headlines
-- Importance / impact: Medium / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: U.S, geo-political tensions, trade
-- Score: `39.78`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**9. BlackRock has best-ever start to a year as investment flows double and profits surge**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: BLACKRock Inc., investment performance, profitability, financial results
-- Score: `39.37`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. China’s Crude Buying Pause Has Helped Cushion the Market. That Might Be Changing.**
-- Source: Dow Jones US Business
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: A, U.S, oil_market, trade_relations
-- Score: `38.25`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
