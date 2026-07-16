@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-16T10:12:26.288994+00:00
+Generated at: 2026-07-16T12:30:55.908939+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **61.78 / 100** (Mild Risk-On)
+- Regime score: **61.9 / 100** (Mild Risk-On)
 - Market strength: **65.04 / 100** (constructive)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -26,9 +26,9 @@ Window: 24h
 | dollar_fx | 57.18 |
 | commodity_confirmation | 59.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 77.5 |
+| news_confirmation | 80.0 |
 
-Positive contributors: volatility=80.0, news_confirmation=77.5, equity_trend=72.5
+Positive contributors: volatility=80.0, news_confirmation=80.0, equity_trend=72.5
 Negative contributors: none
 
 ## Market Strength Score
@@ -320,8 +320,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 62, 'negative': 18, 'neutral': 0}
-- News confirmation score: `77.5`
+- Sentiment counts: {'positive': 64, 'negative': 16, 'neutral': 0}
+- News confirmation score: `80.0`
 
 ### Top Market-Moving Headlines
 
@@ -341,15 +341,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.64`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium-term.
 
-**3. Luxury stocks rally on Richemont sales beat — but the sector still needs China, says analyst**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: luxury goods, sales growth
-- Score: `48.77`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**4. TSMC to invest additional $100 billion in Arizona after second-quarter profit soars 77%**
+**3. TSMC to invest additional $100 billion in Arizona after second-quarter profit soars 77%**
 - Source: CNBC Investing
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -357,7 +349,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `47.24`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**5. Opinion | A Trump Tariff Success Story: American Steel**
+**4. Opinion | A Trump Tariff Success Story: American Steel**
 - Source: Dow Jones US News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -365,15 +357,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.9`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Publicis Raises Guidance, Citing New Business Wins**
-- Source: Dow Jones US Business
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AI, advertising
-- Score: `43.03`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**7. SpaceX’s stock breaks below its IPO price for the first time. Why it could still fall further.**
+**5. SpaceX’s stock breaks below its IPO price for the first time. Why it could still fall further.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -381,7 +365,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `42.27`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**8. PayPal’s battered stock is getting a record boost from a report of buyout interest**
+**6. PayPal’s battered stock is getting a record boost from a report of buyout interest**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -389,7 +373,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `42.27`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. Morgan Stanley posts record quarterly revenue and profit as equities trading surges 69%**
+**7. Morgan Stanley posts record quarterly revenue and profit as equities trading surges 69%**
 - Source: CNBC Investing
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short term
@@ -397,13 +381,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.45`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. Iran warns U.S. of Hormuz ‘red line,’ says it will retaliate to Trump’s strike threats**
+**8. Iran warns U.S. of Hormuz ‘red line,’ says it will retaliate to Trump’s strike threats**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: U.S, geo-political tensions, trade
 - Score: `39.78`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**9. BlackRock has best-ever start to a year as investment flows double and profits surge**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: BLACKRock Inc., investment performance, profitability, financial results
+- Score: `39.37`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. China’s Crude Buying Pause Has Helped Cushion the Market. That Might Be Changing.**
+- Source: Dow Jones US Business
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: A, U.S, oil_market, trade_relations
+- Score: `38.25`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
@@ -501,4 +501,4 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Macro rows loaded: `38`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
-- Positioning/flow rows loaded: `30`
+- Positioning/flow rows loaded: `24`
