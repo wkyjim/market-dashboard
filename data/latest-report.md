@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-16T15:04:48.969328+00:00
+Generated at: 2026-07-16T16:05:35.452997+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **61.94 / 100** (Mild Risk-On)
+- Regime score: **61.9 / 100** (Mild Risk-On)
 - Market strength: **65.04 / 100** (constructive)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -26,9 +26,9 @@ Window: 24h
 | dollar_fx | 57.18 |
 | commodity_confirmation | 59.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 80.62 |
+| news_confirmation | 80.0 |
 
-Positive contributors: news_confirmation=80.62, volatility=80.0, equity_trend=72.5
+Positive contributors: volatility=80.0, news_confirmation=80.0, equity_trend=72.5
 Negative contributors: none
 
 ## Market Strength Score
@@ -320,8 +320,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 64, 'negative': 15, 'neutral': 1}
-- News confirmation score: `80.62`
+- Sentiment counts: {'positive': 63, 'negative': 15, 'neutral': 2}
+- News confirmation score: `80.0`
 
 ### Top Market-Moving Headlines
 
@@ -333,7 +333,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.51`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Food banks, affordable-housing providers scramble as inflation hammers low-income Americans**
+**2. Oil is facing a supply crunch — and the war in Iran isn’t the only problem**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: J.P, oil supply, geopolitical risk, refining constraints
+- Score: `52.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Food banks, affordable-housing providers scramble as inflation hammers low-income Americans**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / medium-term
@@ -341,7 +349,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.64`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium-term.
 
-**3. Wall Street's profit boom has Europe ripping up its banking rulebook**
+**4. Wall Street's profit boom has Europe ripping up its banking rulebook**
 - Source: CNBC Business News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -349,7 +357,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Opinion | A Trump Tariff Success Story: American Steel**
+**5. Opinion | A Trump Tariff Success Story: American Steel**
 - Source: Dow Jones US News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -357,7 +365,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.9`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. We're raising our price target on Goldman Sachs after a blowout quarter, upbeat outlook**
+**6. We're raising our price target on Goldman Sachs after a blowout quarter, upbeat outlook**
 - Source: CNBC Investing
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -365,7 +373,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `44.61`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**6. U.S. Bancorp Quarterly Revenue Rises to Record**
+**7. U.S. Bancorp Quarterly Revenue Rises to Record**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -373,7 +381,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. Publicis Raises Guidance on New Business Wins**
+**8. Publicis Raises Guidance on New Business Wins**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -381,7 +389,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. SpaceX’s stock breaks below its IPO price for the first time. Why it could still fall further.**
+**9. SpaceX’s stock breaks below its IPO price for the first time. Why it could still fall further.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -389,21 +397,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `42.27`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**9. TSMC to invest additional $100 billion in Arizona after second-quarter profit soars 77%**
+**10. TSMC to invest additional $100 billion in Arizona after second-quarter profit soars 77%**
 - Source: CNBC Investing
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: TSMC, profit, chip, technology
 - Score: `40.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. Iran warns U.S. of Hormuz ‘red line,’ says it will retaliate to Trump’s strike threats**
-- Source: CNBC Business Headlines
-- Importance / impact: Medium / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: U.S, geo-political tensions, trade
-- Score: `39.78`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
