@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-17T12:05:14.582200+00:00
+Generated at: 2026-07-17T13:05:43.729111+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **54.97 / 100** (Mixed / Rotation)
+- Regime score: **54.82 / 100** (Mixed / Rotation)
 - Market strength: **64.2 / 100** (constructive)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -26,7 +26,7 @@ Window: 24h
 | dollar_fx | 53.86 |
 | commodity_confirmation | 47.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 58.12 |
+| news_confirmation | 55.0 |
 
 Positive contributors: equity_trend=72.5
 Negative contributors: volatility=35.0
@@ -188,8 +188,8 @@ Negative contributors: volatility=35.0
 
 | Indicator | Latest | Unit | Change | Date | Rule-Based Interpretation |
 | --- | --- | --- | --- | --- | --- |
-| Housing Starts | 1177.0 | thousands | -215.0 thousands vs prior | 2026-05-01 | Lower reading signals softer activity or liquidity. |
-| New Privately-Owned Housing Units Authorized | 1410.0 | thousands | -13.0 thousands vs prior | 2026-05-01 | Lower reading signals softer activity or liquidity. |
+| Housing Starts | 1427.0 | thousands | 228.0 thousands vs prior | 2026-06-01 | Higher reading supports activity or liquidity. |
+| New Privately-Owned Housing Units Authorized | 1367.0 | thousands | -43.0 thousands vs prior | 2026-06-01 | Lower reading signals softer activity or liquidity. |
 | 30-Year Fixed Rate Mortgage Average | 6.49 | percent | 0.02 pp vs prior | 2026-06-25 | Higher reading increases macro pressure. |
 | University of Michigan Consumer Sentiment | 44.8 | index 1966:Q1=100 | -5.0 index pts vs prior | 2026-05-01 | Lower reading signals softer activity or liquidity. |
 
@@ -320,12 +320,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 41, 'negative': 28, 'neutral': 11}
-- News confirmation score: `58.12`
+- Sentiment counts: {'positive': 38, 'negative': 30, 'neutral': 12}
+- News confirmation score: `55.0`
 
 ### Top Market-Moving Headlines
 
-**1. Oil prices rise as U.S.-Iran hostilities threaten supply through Strait of Hormuz**
+**1. Oil prices rise after Kuwait says Iran attacked water desalination and power plant**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -341,21 +341,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `44.2`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. We're raising our price target on Goldman Sachs after a blowout quarter, upbeat outlook**
-- Source: CNBC Investing
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: GS, Finance, Investment, Earnings
-- Score: `37.92`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**4. Iran warns U.S. of Hormuz ‘red line,’ says it will retaliate if Trump carries out threats**
+**3. Iran warns U.S. of Hormuz ‘red line,’ says it will retaliate if Trump carries out threats**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: U.S, geo-political tensions, trade
 - Score: `33.81`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**4. Fifth Third Profit Boosted by Comerica Acquisition**
+- Source: Dow Jones US Business
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: FDB, banking, mergers and acquisitions
+- Score: `32.91`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 **5. Short sellers load up against SpaceX as stock retreats back to IPO price**
 - Source: CNBC Markets
@@ -397,13 +397,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `28.18`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**10. GE Aerospace Raises Outlook Despite Delivery Delays**
-- Source: Dow Jones US Business
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: GE, aerospace, profit outlook
-- Score: `27.97`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+**10. Analysis: Fed Chairman Warsh faces an inflation credibility test after Congress hearings**
+- Source: CNBC Business Headlines
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short
+- Affected assets: inflation, Fed
+- Score: `24.48`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
 
 
 ### Headline Quality Checks
