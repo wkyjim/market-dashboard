@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-17T13:11:29.916921+00:00
+Generated at: 2026-07-17T14:06:02.473861+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **54.85 / 100** (Mixed / Rotation)
+- Regime score: **54.91 / 100** (Mixed / Rotation)
 - Market strength: **64.2 / 100** (constructive)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -26,7 +26,7 @@ Window: 24h
 | dollar_fx | 53.86 |
 | commodity_confirmation | 47.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 55.62 |
+| news_confirmation | 56.88 |
 
 Positive contributors: equity_trend=72.5
 Negative contributors: volatility=35.0
@@ -217,10 +217,10 @@ Negative contributors: volatility=35.0
 
 | Indicator | Latest | Unit | Change | Date | Rule-Based Interpretation |
 | --- | --- | --- | --- | --- | --- |
-| US dollar/Euro ECB reference exchange rate | 1.15 | USD | 0.01 USD vs prior | 2026-07-16 | EUR strengthened versus this currency. |
-| Japanese yen/Euro ECB reference exchange rate | 185.99 | JPY | 0.77 JPY vs prior | 2026-07-16 | EUR strengthened versus this currency. |
-| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.76 | CNY | 0.03 CNY vs prior | 2026-07-16 | EUR strengthened versus this currency. |
-| Australian dollar/Euro ECB reference exchange rate | 1.64 | AUD | 0.0 AUD vs prior | 2026-07-16 | EUR strengthened versus this currency. |
+| US dollar/Euro ECB reference exchange rate | 1.14 | USD | -0.0 USD vs prior | 2026-07-17 | EUR weakened versus this currency. |
+| Japanese yen/Euro ECB reference exchange rate | 185.65 | JPY | -0.34 JPY vs prior | 2026-07-17 | EUR weakened versus this currency. |
+| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.75 | CNY | -0.01 CNY vs prior | 2026-07-17 | EUR weakened versus this currency. |
+| Australian dollar/Euro ECB reference exchange rate | 1.64 | AUD | 0.0 AUD vs prior | 2026-07-17 | EUR strengthened versus this currency. |
 
 ABS Australia note: ABS rows are stored locally/Neon, but most series are dimension-coded; only curated series should be promoted into narrative report text.
 
@@ -320,8 +320,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 39, 'negative': 30, 'neutral': 11}
-- News confirmation score: `55.62`
+- Sentiment counts: {'positive': 40, 'negative': 29, 'neutral': 11}
+- News confirmation score: `56.88`
 
 ### Top Market-Moving Headlines
 
