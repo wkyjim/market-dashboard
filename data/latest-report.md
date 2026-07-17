@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-17T11:30:31.741635+00:00
+Generated at: 2026-07-17T11:32:03.550028+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **55.72 / 100** (Mild Risk-On)
+- Regime score: **55.66 / 100** (Mild Risk-On)
 - Market strength: **65.2 / 100** (constructive)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -26,9 +26,9 @@ Window: 24h
 | dollar_fx | 53.86 |
 | commodity_confirmation | 47.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 60.0 |
+| news_confirmation | 58.75 |
 
-Positive contributors: equity_trend=72.5, market_breadth=60.95, news_confirmation=60.0
+Positive contributors: equity_trend=72.5, market_breadth=60.95
 Negative contributors: volatility=35.0
 
 ## Market Strength Score
@@ -297,7 +297,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- |
 | 1 | Financials | 68.32 | Positive setup | trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 2 | Healthcare Innovation | 66.25 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 3 | Small Caps | 63.81 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 3 | Small Caps | 63.78 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | Cybersecurity | 60.66 | Positive setup | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 5 | Semiconductors | 58.78 | Neutral / watchlist | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 6 | Dividend Defensives | 58.37 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
@@ -320,8 +320,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 42, 'negative': 26, 'neutral': 12}
-- News confirmation score: `60.0`
+- Sentiment counts: {'positive': 42, 'negative': 28, 'neutral': 10}
+- News confirmation score: `58.75`
 
 ### Top Market-Moving Headlines
 
