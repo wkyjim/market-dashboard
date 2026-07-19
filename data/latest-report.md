@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-19T14:06:27.670245+00:00
+Generated at: 2026-07-19T15:05:46.509143+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **51.35 / 100** (Mixed / Rotation)
+- Regime score: **51.32 / 100** (Mixed / Rotation)
 - Market strength: **54.61 / 100** (neutral)
 - Evidence quality: **72.5 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -26,7 +26,7 @@ Window: 24h
 | dollar_fx | 54.9 |
 | commodity_confirmation | 55.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 52.5 |
+| news_confirmation | 51.88 |
 
 Positive contributors: equity_trend=61.25
 Negative contributors: volatility=20.0
@@ -320,8 +320,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 19, 'negative': 15, 'neutral': 46}
-- News confirmation score: `52.5`
+- Sentiment counts: {'positive': 18, 'negative': 15, 'neutral': 47}
+- News confirmation score: `51.88`
 
 ### Top Market-Moving Headlines
 
@@ -349,15 +349,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. Telecom Italia board backs Poste's $14.9 billion takeover offer**
-- Source: CNBC Top News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: POSTE.MI, TELA.IT, mergers_and_acquisitions, telecommunications
-- Score: `41.18`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**5. American Airlines CEO lays out his vision to close a more than $3 billion profit gap**
+**4. American Airlines CEO lays out his vision to close a more than $3 billion profit gap**
 - Source: CNBC Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -365,7 +357,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.64`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. 'WarshGPT': How Wall Street is adapting to the Fed's new era of communication**
+**5. 'WarshGPT': How Wall Street is adapting to the Fed's new era of communication**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -373,7 +365,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.3`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Oil settles up on renewed US-Iran hostilities and threat of Red Sea closure**
+**6. Oil settles up on renewed US-Iran hostilities and threat of Red Sea closure**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -381,7 +373,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. U.S. Emergency Oil Reserve Hits Lowest Levels Since 1983: Why It Matters**
+**7. U.S. Emergency Oil Reserve Hits Lowest Levels Since 1983: Why It Matters**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -389,7 +381,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `22.31`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. What are the implications of a renewed closure of the Strait of Hormuz?**
+**8. What are the implications of a renewed closure of the Strait of Hormuz?**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -397,12 +389,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.62`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**10. Samsung reportedly cuts some U.S. jobs, offers relocations ahead of HQ move: Reuters**
+**9. Samsung reportedly cuts some U.S. jobs, offers relocations ahead of HQ move: Reuters**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
 - Affected assets: HQ, U.S
 - Score: `20.19`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**10. ‘Respect is important’: If my financial adviser said, ‘Hey,’ my wife and I would walk out. Where do you draw the line?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / nan
+- Affected assets: AT, I, T
+- Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 
