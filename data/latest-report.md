@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-19T22:11:14.262467+00:00
+Generated at: 2026-07-19T23:05:16.250682+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **51.23 / 100** (Mixed / Rotation)
+- Regime score: **51.41 / 100** (Mixed / Rotation)
 - Market strength: **54.61 / 100** (neutral)
 - Evidence quality: **72.5 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -23,10 +23,10 @@ Window: 24h
 | volatility | 20.0 |
 | rates_yield_curve | 58.0 |
 | credit_proxy | 50.0 |
-| dollar_fx | 54.9 |
-| commodity_confirmation | 55.0 |
+| dollar_fx | 54.56 |
+| commodity_confirmation | 58.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 50.0 |
+| news_confirmation | 50.62 |
 
 Positive contributors: equity_trend=61.25
 Negative contributors: volatility=20.0
@@ -61,9 +61,9 @@ Negative contributors: volatility=20.0
 | Rates | 10Y Treasury falling; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
-| Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
-| Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
-| Copper | Copper falling | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
+| Gold | Gold falling | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
+| Silver | Silver stable | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
+| Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
@@ -79,7 +79,7 @@ Negative contributors: volatility=20.0
 | ^FVX | Treasury Yield 5 Years | 4.27 | -0.21 | 2026-07-17 |
 | ^TNX | Treasury Yield 10 Years | 4.54 | -0.61 | 2026-07-17 |
 | ^TYX | Treasury Yield 30 Years | 5.06 | -0.67 | 2026-07-17 |
-| DX-Y.NYB | US Dollar Index | 100.75 | 0.02 | 2026-07-17 |
+| DX-Y.NYB | US Dollar Index | 100.84 | 0.09 | 2026-07-19 |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.65 | -0.19 | 2026-07-17 |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 107.56 | 0.06 | 2026-07-17 |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 95.98 | -0.1 | 2026-07-17 |
@@ -89,10 +89,10 @@ Negative contributors: volatility=20.0
 | TLT | iShares 20+ Year Treasury Bond ETF | 84.52 | 0.37 | 2026-07-17 |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 93.84 | 0.13 | 2026-07-17 |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.99 | -0.01 | 2026-07-17 |
-| GC=F | Gold Future | 4018.8 | 0.83 | 2026-07-17 |
-| SI=F | Silver Future | 56.33 | 0.77 | 2026-07-17 |
-| CL=F | WTI Crude Oil Future | 81.78 | 3.58 | 2026-07-17 |
-| HG=F | Copper Future | 6.26 | -0.49 | 2026-07-17 |
+| GC=F | Gold Future | 4000.9 | -0.29 | 2026-07-19 |
+| SI=F | Silver Future | 56.01 | -0.05 | 2026-07-19 |
+| CL=F | WTI Crude Oil Future | 84.14 | 2.0 | 2026-07-19 |
+| HG=F | Copper Future | 6.27 | 0.74 | 2026-07-19 |
 
 ## Market Dispersion Analysis
 
@@ -320,8 +320,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 30, 'negative': 30, 'neutral': 20}
-- News confirmation score: `50.0`
+- Sentiment counts: {'positive': 30, 'negative': 29, 'neutral': 21}
+- News confirmation score: `50.62`
 
 ### Top Market-Moving Headlines
 
