@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-19T18:04:24.134197+00:00
+Generated at: 2026-07-19T19:04:46.900236+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **51.35 / 100** (Mixed / Rotation)
+- Regime score: **51.32 / 100** (Mixed / Rotation)
 - Market strength: **54.61 / 100** (neutral)
 - Evidence quality: **72.5 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -26,7 +26,7 @@ Window: 24h
 | dollar_fx | 54.9 |
 | commodity_confirmation | 55.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 52.5 |
+| news_confirmation | 51.88 |
 
 Positive contributors: equity_trend=61.25
 Negative contributors: volatility=20.0
@@ -320,28 +320,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 21, 'negative': 17, 'neutral': 42}
-- News confirmation score: `52.5`
+- Sentiment counts: {'positive': 23, 'negative': 20, 'neutral': 37}
+- News confirmation score: `51.88`
 
 ### Top Market-Moving Headlines
 
-**1. Russia pounds Kyiv in major ballistic missile attack**
-- Source: CNBC Markets
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: geopolitical
-- Score: `53.7`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**2. The market for psychedelic drugs to treat mental health conditions gets a big buy signal**
-- Source: CNBC Markets
+**1. The market for psychedelic drugs to treat mental health conditions gets a big buy signal**
+- Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: pharmaceuticals, psychedelic drugs, mental health
 - Score: `48.45`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**3. Oil tankers face 'worst case scenario' in Hormuz as Iran steps up attacks on ships, maritime risk CEO says**
+**2. Oil tankers face 'worst case scenario' in Hormuz as Iran steps up attacks on ships, maritime risk CEO says**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -349,15 +341,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. 'WarshGPT': How Wall Street is adapting to the Fed's new era of communication**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, AI, central bank communication
-- Score: `32.3`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+**3. Russia pounds Kyiv in major ballistic missile attack**
+- Source: CNBC Markets
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: geopolitical
+- Score: `45.64`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**5. American Airlines CEO lays out his vision to close a more than $3 billion profit gap**
+**4. American Airlines CEO lays out his vision to close a more than $3 billion profit gap**
 - Source: CNBC Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -365,7 +357,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.74`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. Oil settles up on renewed US-Iran hostilities and threat of Red Sea closure**
+**5. Oil settles up on renewed US-Iran hostilities and threat of Red Sea closure**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -373,13 +365,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Earnings playbook: Alphabet and Tesla are among the big companies set to report this week**
+**6. Earnings playbook: Alphabet and Tesla are among the big companies set to report this week**
 - Source: CNBC Investing
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: GOOGL, TSLA, earnings season, technology
 - Score: `22.76`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**7. The Key to Solar and Wind Power Is Battery Storage, and China Is Dominating**
+- Source: Dow Jones US Business
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: U.S, energy_storage, technology, international_relations
+- Score: `22.18`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 **8. Consumer sentiment beats expectations, signals stronger economic outlook**
 - Source: Investing.com Technology
@@ -397,11 +397,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.62`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**10. Samsung reportedly cuts some U.S. jobs, offers relocations ahead of HQ move**
-- Source: CNBC Markets
+**10. UK's Andy Burnham drops digital ID scheme to prioritize cost of living, allies say**
+- Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
-- Affected assets: HQ, U.S
+- Affected assets: ID, UK
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
