@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-19T11:05:51.446073+00:00
+Generated at: 2026-07-19T12:05:28.143156+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -389,19 +389,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**9. How are prediction markets taxed? The IRS hasn’t provided guidance yet**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: IRS
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**10. ‘Respect is important’: If my financial adviser said, ‘Hey,’ my wife and I would walk out. Where do you draw the line?**
+**9. ‘Respect is important’: If my financial adviser said, ‘Hey,’ my wife and I would walk out. Where do you draw the line?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
 - Affected assets: AT, I, T
+- Score: `18.06`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**10. ‘They are relentless’: A scammer is trying to change the email on my empty Robinhood account. What do they have to gain?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / nan
+- Affected assets: A, I
 - Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
