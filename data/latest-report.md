@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-19T12:05:28.143156+00:00
+Generated at: 2026-07-19T13:08:15.129684+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -320,12 +320,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 12, 'negative': 9, 'neutral': 59}
+- Sentiment counts: {'positive': 18, 'negative': 15, 'neutral': 47}
 - News confirmation score: `51.88`
 
 ### Top Market-Moving Headlines
 
-**1. Oil tankers face 'worst case scenario' in Hormuz as Iran steps up attacks on ships, maritime risk CEO says**
+**1. Russia pounds Kyiv in major ballistic missile attack**
+- Source: CNBC Markets
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: geopolitical
+- Score: `53.7`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**2. Oil tankers face 'worst case scenario' in Hormuz as Iran steps up attacks on ships, maritime risk CEO says**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -333,7 +341,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. The AI rotation stole the spotlight from a strong start to earnings season**
+**3. The AI rotation stole the spotlight from a strong start to earnings season**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -341,7 +349,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**3. Telecom Italia board backs Poste's $14.9 billion takeover offer**
+**4. Telecom Italia board backs Poste's $14.9 billion takeover offer**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -349,7 +357,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. Oil settles up on renewed US-Iran hostilities and threat of Red Sea closure**
+**5. American Airlines CEO lays out his vision to close a more than $3 billion profit gap**
+- Source: CNBC Business
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: aviation, airline industry
+- Score: `32.64`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**6. 'WarshGPT': How Wall Street is adapting to the Fed's new era of communication**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, AI, central bank communication
+- Score: `32.3`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. Oil settles up on renewed US-Iran hostilities and threat of Red Sea closure**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -357,7 +381,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. U.S. Emergency Oil Reserve Hits Lowest Levels Since 1983: Why It Matters**
+**8. U.S. Emergency Oil Reserve Hits Lowest Levels Since 1983: Why It Matters**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -365,44 +389,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `22.31`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. 'WarshGPT': How Wall Street is adapting to the Fed's new era of communication**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: U.S
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+**9. What are the implications of a renewed closure of the Strait of Hormuz?**
+- Source: Investing.com Economic Indicators
+- Importance / impact: Low / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: geopolitical
+- Score: `21.62`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**7. Will the Fed hike interest rates this month?**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**8. I left the U.S. for Trinidad and Tobago: My family of 4 spends about $3,000 a month—and we've never been happier**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: I, U.S
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**9. ‘Respect is important’: If my financial adviser said, ‘Hey,’ my wife and I would walk out. Where do you draw the line?**
-- Source: MarketWatch Top Stories
+**10. Samsung reportedly cuts some U.S. jobs, offers relocations ahead of HQ move: Reuters**
+- Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
-- Affected assets: AT, I, T
-- Score: `18.06`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**10. ‘They are relentless’: A scammer is trying to change the email on my empty Robinhood account. What do they have to gain?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / nan
-- Affected assets: A, I
-- Score: `18.06`
+- Affected assets: HQ, U.S
+- Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 
