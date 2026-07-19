@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-19T20:04:21.950806+00:00
+Generated at: 2026-07-19T21:04:19.519817+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -325,15 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. The market for psychedelic drugs to treat mental health conditions gets a big buy signal**
-- Source: CNBC Top News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: pharmaceuticals, psychedelic drugs, mental health
-- Score: `48.45`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**2. Oil tankers face 'worst case scenario' in Hormuz as Iran steps up attacks on ships, maritime risk CEO says**
+**1. Oil tankers face 'worst case scenario' in Hormuz as Iran steps up attacks on ships, maritime risk CEO says**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -341,13 +333,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Russia pounds Kyiv in major ballistic missile attack**
+**2. Russia pounds Kyiv in major ballistic missile attack**
 - Source: CNBC Markets
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: geopolitical
 - Score: `45.64`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**3. The market for psychedelic drugs to treat mental health conditions gets a big buy signal**
+- Source: CNBC Top News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: pharmaceuticals, psychedelic drugs, mental health
+- Score: `41.18`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 **4. American Airlines CEO lays out his vision to close a more than $3 billion profit gap**
 - Source: CNBC Business
