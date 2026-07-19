@@ -1,15 +1,15 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-19T10:47:29.588380+00:00
+Generated at: 2026-07-19T10:49:56.787667+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **53.78 / 100** (Mixed / Rotation)
-- Market strength: **64.24 / 100** (constructive)
+- Regime score: **51.55 / 100** (Mixed / Rotation)
+- Market strength: **56.47 / 100** (neutral)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
-- Breadth: **healthy**; above 50DMA `53.33%`, above 200DMA `67.8%`
+- Breadth: **healthy**; above 50DMA `48.33%`, above 200DMA `67.8%`
 - Top sector score: **Cybersecurity** `70.02`
 - Top theme score: **Financials** `63.69`
 
@@ -17,9 +17,9 @@ Window: 24h
 
 | Sub-score | Value |
 | --- | --- |
-| equity_trend | 72.5 |
+| equity_trend | 61.25 |
 | equity_momentum | 52.32 |
-| market_breadth | 57.04 |
+| market_breadth | 55.38 |
 | volatility | 20.0 |
 | rates_yield_curve | 58.0 |
 | credit_proxy | 50.0 |
@@ -28,22 +28,22 @@ Window: 24h
 | etf_flow | 50.97 |
 | news_confirmation | 51.88 |
 
-Positive contributors: equity_trend=72.5
+Positive contributors: equity_trend=61.25
 Negative contributors: volatility=20.0
 
 ## Market Strength Score
 
 | Component | Score |
 | --- | --- |
-| indices_above_moving_averages | 72.5 |
-| sp500_trend | 100.0 |
+| indices_above_moving_averages | 61.25 |
+| sp500_trend | 55.0 |
 | nasdaq_trend | 55.0 |
 | russell_participation | 80.0 |
 | returns_momentum | 52.32 |
 | rsi_zone | 48.75 |
 | macd_confirmation | 43.75 |
 | volume_confirmation | 50.0 |
-| breadth | 57.04 |
+| breadth | 55.38 |
 
 ## Evidence Quality / Confidence
 
@@ -114,17 +114,17 @@ Negative contributors: volatility=20.0
 
 | Sector | Count | Breadth 50D | Breadth 200D | Positive 20D | 20D Dispersion | Std 20D | Label | Leaders | Laggards |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Materials | 26 | 65.38 | 73.08 | 53.85 | 207.62 | 36.18 | very high | DD, CTVA, CF | NEM, FCX, ALB |
-| Information Technology | 74 | 36.49 | 61.64 | 36.49 | 96.48 | 14.92 | very high | PANW, GDDY, WDAY | MRVL, ORCL, CRWD |
-| Industrials | 81 | 70.89 | 71.43 | 59.26 | 43.36 | 7.49 | very high | AXON, CTAS, ADP | PWR, PNR, GNRC |
-| Financials | 76 | 90.28 | 80.0 | 88.16 | 40.9 | 6.31 | very high | PYPL, JKHY, AJG | ARES, C, APO |
+| Materials | 26 | 61.54 | 73.08 | 53.85 | 207.62 | 36.18 | very high | DD, CTVA, CF | NEM, FCX, ALB |
+| Information Technology | 74 | 32.43 | 60.27 | 36.49 | 96.48 | 14.92 | very high | PANW, GDDY, WDAY | MRVL, ORCL, CRWD |
+| Industrials | 81 | 68.35 | 71.43 | 59.26 | 43.36 | 7.49 | very high | AXON, CTAS, ADP | PWR, PNR, GNRC |
+| Financials | 76 | 90.28 | 77.14 | 88.16 | 40.9 | 6.31 | very high | PYPL, JKHY, AJG | ARES, C, APO |
 | Health Care | 59 | 86.44 | 67.8 | 84.75 | 34.36 | 6.78 | very high | TECH, CRL, VEEV | ISRG, BSX, ELV |
 | Energy | 21 | 61.9 | 90.48 | 71.43 | 34.28 | 8.93 | very high | VLO, MPC, PSX | HAL, BKR, SLB |
-| Consumer Discretionary | 47 | 55.32 | 48.94 | 42.55 | 30.22 | 5.95 | very high | GPC, BBY, EXPE | HLT, APTV, CCL |
+| Consumer Discretionary | 47 | 53.19 | 48.94 | 42.55 | 30.22 | 5.95 | very high | GPC, BBY, EXPE | HLT, APTV, CCL |
 | Consumer Staples | 34 | 69.7 | 65.62 | 58.82 | 24.6 | 5.91 | very high | DLTR, GIS, MKC | EL, STZ, KR |
-| Real Estate | 31 | 74.19 | 74.19 | 61.29 | 23.96 | 6.31 | very high | VTR, WELL, DOC | AMT, DLR, CCI |
-| Communication Services | 23 | 40.91 | 45.45 | 56.52 | 21.98 | 6.36 | very high | META, NWSA, NWS | VZ, TKO, PSKY |
-| Utilities | 31 | 90.32 | 87.1 | 77.42 | 14.37 | 3.03 | high | EIX, ES, PNW | NI, VST, CEG |
+| Real Estate | 31 | 70.97 | 74.19 | 61.29 | 23.96 | 6.31 | very high | VTR, WELL, DOC | AMT, DLR, CCI |
+| Communication Services | 23 | 36.36 | 45.45 | 56.52 | 21.98 | 6.36 | very high | META, NWSA, NWS | VZ, TKO, PSKY |
+| Utilities | 31 | 74.19 | 80.65 | 77.42 | 14.37 | 3.03 | high | EIX, ES, PNW | NI, VST, CEG |
 
 ## Economic Data Snapshot
 
@@ -236,13 +236,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 2 | Real Estate | 66.19 | strong uptrend | neutral | broad | 61.18 | 65.0 | 48.81 | VTR, WELL, DOC | AMT, DLR, CCI |
 | 3 | Financials | 66.11 | strong uptrend | neutral | broad | 68.55 | 65.0 | 53.38 | PYPL, JKHY, AJG | ARES, C, APO |
 | 4 | Consumer Staples | 65.22 | strong uptrend | neutral | broad | 50.0 | 0.0 | 49.41 | DLTR, GIS, MKC | EL, STZ, KR |
-| 5 | Healthcare | 63.92 | strong uptrend | positive | broad | 41.07 | 65.0 | 54.98 | TECH, CRL, VEEV | ISRG, BSX, ELV |
-| 6 | Energy | 60.44 | uptrend | neutral | broad | 63.74 | 65.0 | 50.81 | VLO, MPC, PSX | HAL, BKR, SLB |
-| 7 | Consumer Discretionary | 57.9 | uptrend | neutral | broad | 50.0 | 0.0 | 46.19 | GPC, BBY, EXPE | HLT, APTV, CCL |
-| 8 | Industrials | 55.94 | strong uptrend | neutral | broad | 50.0 | 0.0 | 49.14 | AXON, CTAS, ADP | PWR, PNR, GNRC |
-| 9 | Semiconductors | 49.76 | neutral | neutral | weak | 75.28 | 100.0 | 52.16 | SMH, SOXX | SOXX, SMH |
-| 10 | Crypto | 49.4 | neutral | neutral | mixed | 44.0 | 65.0 | 50.0 |  |  |
-| 11 | Technology | 47.98 | neutral | neutral | weak | 59.18 | 65.0 | 49.98 | PANW, GDDY, WDAY | MRVL, ORCL, CRWD |
+| 5 | Healthcare | 63.41 | strong uptrend | positive | broad | 41.07 | 65.0 | 54.98 | TECH, CRL, VEEV | ISRG, BSX, ELV |
+| 6 | Energy | 60.03 | uptrend | neutral | broad | 63.74 | 65.0 | 50.81 | VLO, MPC, PSX | HAL, BKR, SLB |
+| 7 | Industrials | 55.94 | strong uptrend | neutral | broad | 50.0 | 0.0 | 49.14 | AXON, CTAS, ADP | PWR, PNR, GNRC |
+| 8 | Semiconductors | 49.49 | neutral | neutral | weak | 75.28 | 100.0 | 52.16 | SMH, SOXX | SOXX, SMH |
+| 9 | Crypto | 49.4 | neutral | neutral | mixed | 44.0 | 65.0 | 50.0 |  |  |
+| 10 | Technology | 47.38 | neutral | neutral | weak | 59.18 | 65.0 | 49.98 | PANW, GDDY, WDAY | MRVL, ORCL, CRWD |
+| 11 | Consumer Discretionary | 41.2 | strong downtrend | neutral | weak | 50.0 | 0.0 | 46.19 | GPC, BBY, EXPE | HLT, APTV, CCL |
 | 12 | Utilities | 40.42 | strong downtrend | neutral | mixed | 50.0 | 0.0 | 46.98 | EIX, ES, PNW | NI, VST, CEG |
 | 13 | Grid Infrastructure | 40.03 | downtrend | neutral | weak | 50.0 | 0.0 | 41.92 | GRID | GRID |
 | 14 | Defense | 33.57 | strong downtrend | negative | weak | 50.0 | 0.0 | 40.25 | XAR | XAR |
@@ -254,11 +254,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Financials | 63.69 | Positive setup | 68.55 | 65.0 | 7.74 | True | False |
 | 2 | Healthcare Innovation | 59.38 | Positive setup | 41.07 | 65.0 | 6.96 | False | False |
-| 3 | Energy | 59.07 | Neutral / watchlist | 63.74 | 65.0 | 0.92 | False | True |
-| 4 | Small Caps | 57.98 | Positive setup | 68.98 | 65.0 | 0.0 | False | False |
+| 3 | Small Caps | 57.98 | Positive setup | 68.98 | 65.0 | 0.0 | False | False |
+| 4 | Energy | 57.55 | Neutral / watchlist | 63.74 | 65.0 | 0.92 | False | False |
 | 5 | Cybersecurity | 57.42 | Neutral / watchlist | 50.0 | 0.0 | 96.48 | False | False |
 | 6 | Dividend Defensives | 55.99 | Neutral / watchlist | 64.54 | 65.0 | 5.54 | False | False |
-| 7 | Semiconductors | 55.88 | Neutral / watchlist | 75.28 | 100.0 | 10.27 | False | False |
+| 7 | Semiconductors | 53.13 | Neutral / watchlist | 75.28 | 100.0 | 10.27 | False | False |
 | 8 | Quality Growth | 49.3 | Neutral / watchlist | 54.65 | 65.0 | 16.4 | False | False |
 | 9 | AI Infrastructure | 48.95 | Neutral / watchlist | 75.28 | 100.0 | 12.12 | False | False |
 | 10 | Grid Infrastructure | 40.95 | Neutral / watchlist | 50.0 | 0.0 | 13.18 | False | False |
@@ -268,7 +268,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 - Top 5 improving themes: Cybersecurity, Semiconductors, Healthcare Innovation, Financials, AI Infrastructure
 - Top 5 deteriorating themes: Crypto Infrastructure, Nuclear, Defense, Grid Infrastructure, Energy
-- Strong news but weak price confirmation: Energy
+- Strong news but weak price confirmation: none
 - Strong price but weak news confirmation: Financials
 
 ### Sector / Theme Alignment
@@ -279,13 +279,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Real Estate | Dividend Defensives | 66.19 | strong | 55.99 | positive | sector and theme confirmation |
 | Financials | Financials | 66.11 | strong | 63.69 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 65.22 | strong | 55.99 | positive | sector and theme confirmation |
-| Healthcare | Healthcare Innovation | 63.92 | positive | 59.38 | positive | sector and theme confirmation |
-| Energy | Energy | 60.44 | positive | 59.07 | positive | sector and theme confirmation |
-| Consumer Discretionary | Small Caps | 57.9 | positive | 57.98 | positive | sector and theme confirmation |
+| Healthcare | Healthcare Innovation | 63.41 | positive | 59.38 | positive | sector and theme confirmation |
+| Energy | Energy | 60.03 | positive | 57.55 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 55.94 | positive | 39.03 | weak | sector stronger than related themes |
-| Semiconductors | AI Infrastructure, Semiconductors | 49.76 | mixed | 52.42 | mixed | mixed confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 49.49 | mixed | 51.04 | mixed | mixed confirmation |
 | Crypto | Crypto Infrastructure | 49.4 | mixed | 29.65 | very weak | mixed confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 47.98 | mixed | 51.38 | mixed | mixed confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 47.38 | mixed | 50.46 | mixed | mixed confirmation |
+| Consumer Discretionary | Small Caps | 41.2 | weak | 57.98 | positive | theme stronger than official sector |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 40.42 | weak | 41.64 | weak | broad weakness across sector and themes |
 | Grid Infrastructure | Grid Infrastructure | 40.03 | weak | 40.95 | weak | broad weakness across sector and themes |
 | Defense | Defense | 33.57 | very weak | 37.11 | weak | broad weakness across sector and themes |
@@ -296,21 +296,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Theme | Score | Classification | Drivers | Invalidation Triggers |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Healthcare Innovation | 68.33 | Positive setup | relative_strength_60d, trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 2 | Financials | 66.08 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 2 | Financials | 66.06 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 3 | Small Caps | 64.84 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 4 | Dividend Defensives | 59.86 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 4 | Dividend Defensives | 59.79 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 5 | Cybersecurity | 59.17 | Neutral / watchlist | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
-| 6 | Energy | 56.78 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 7 | Semiconductors | 54.77 | Neutral / watchlist | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
-| 8 | Quality Growth | 50.92 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 9 | AI Infrastructure | 48.28 | Neutral / watchlist |  | relative strength below SPY, breadth below 45%, news turns negative |
+| 6 | Energy | 58.28 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 7 | Semiconductors | 54.51 | Neutral / watchlist | relative_strength_60d, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
+| 8 | Quality Growth | 50.93 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 9 | AI Infrastructure | 48.32 | Neutral / watchlist |  | relative strength below SPY, breadth below 45%, news turns negative |
 | 10 | Grid Infrastructure | 45.18 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 11 | Defense | 36.8 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
+| 11 | Defense | 36.79 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
 | 12 | Nuclear | 27.07 | Underperformance risk | volume_accumulation | relative strength below SPY, breadth below 45%, news turns negative |
 
 ## Breadth and Participation
 
-- Above 50DMA: `53.33%`
+- Above 50DMA: `48.33%`
 - Above 200DMA: `67.8%`
 - Positive 20D return: `50.0%`
 
@@ -320,7 +320,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 10, 'negative': 7, 'neutral': 63}
+- Sentiment counts: {'positive': 12, 'negative': 9, 'neutral': 59}
 - News confirmation score: `51.88`
 
 ### Top Market-Moving Headlines
@@ -490,9 +490,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 
 ## Contradiction / Audit Flags
 
-| Severity | Section | Issue | Deterministic Fix |
-| --- | --- | --- | --- |
-| low | Theme Strength Ranking | Energy has strong news confirmation but weak price confirmation. | Classify as unconfirmed narrative. |
+No contradiction flags were triggered by current deterministic rules.
 
 ## Data Quality Notes
 
