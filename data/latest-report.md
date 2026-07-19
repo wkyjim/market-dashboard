@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-19T21:34:07.370208+00:00
+Generated at: 2026-07-19T22:04:36.498271+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **51.32 / 100** (Mixed / Rotation)
+- Regime score: **51.19 / 100** (Mixed / Rotation)
 - Market strength: **54.61 / 100** (neutral)
 - Evidence quality: **72.5 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -26,7 +26,7 @@ Window: 24h
 | dollar_fx | 54.9 |
 | commodity_confirmation | 55.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 51.88 |
+| news_confirmation | 49.38 |
 
 Positive contributors: equity_trend=61.25
 Negative contributors: volatility=20.0
@@ -320,8 +320,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 25, 'negative': 22, 'neutral': 33}
-- News confirmation score: `51.88`
+- Sentiment counts: {'positive': 28, 'negative': 29, 'neutral': 23}
+- News confirmation score: `49.38`
 
 ### Top Market-Moving Headlines
 
@@ -330,7 +330,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: geopolitical
-- Score: `45.64`
+- Score: `53.7`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 **2. The market for psychedelic drugs to treat mental health conditions gets a big buy signal**
@@ -357,15 +357,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. The Key to Solar and Wind Power Is Battery Storage, and China Is Dominating**
-- Source: Dow Jones US Business
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: U.S, energy_storage, technology, international_relations
-- Score: `22.18`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**6. Consumer sentiment beats expectations, signals stronger economic outlook**
+**5. Consumer sentiment beats expectations, signals stronger economic outlook**
 - Source: Investing.com Technology
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -373,7 +365,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.95`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. What are the implications of a renewed closure of the Strait of Hormuz?**
+**6. What are the implications of a renewed closure of the Strait of Hormuz?**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -381,21 +373,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.62`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. UK's Andy Burnham drops digital ID scheme to prioritize cost of living, allies say**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / nan
-- Affected assets: ID, UK
-- Score: `20.19`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**9. Earnings playbook: Alphabet and Tesla are among the big companies set to report this week**
+**7. Earnings playbook: Alphabet and Tesla are among the big companies set to report this week**
 - Source: CNBC Investing
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: GOOGL, TSLA, earnings season, technology
 - Score: `19.34`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**8. The Key to Solar and Wind Power Is Battery Storage, and China Is Dominating**
+- Source: Dow Jones US Business
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: U.S, energy_storage, technology, international_relations
+- Score: `18.85`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**9. Opinion | The Tariff Danger in Graham’s Russia Sanctions Bill**
+- Source: Dow Jones US Business
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: trade policy, international relations
+- Score: `18.38`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **10. Israel deploys AI and payments to conservative media to try to beat back the tide of unfavorable U.S. views about its handling of wars in Gaza and Iran**
 - Source: Dow Jones Politics
@@ -408,7 +408,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-Noisy headline list: Analyst says there is a divide in how Americans sh
+No noisy headlines detected by current rules.
 
 ## Positioning & Flow Dashboard
 
