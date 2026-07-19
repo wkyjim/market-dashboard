@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-19T21:04:19.519817+00:00
+Generated at: 2026-07-19T21:34:07.370208+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **51.29 / 100** (Mixed / Rotation)
+- Regime score: **51.32 / 100** (Mixed / Rotation)
 - Market strength: **54.61 / 100** (neutral)
 - Evidence quality: **72.5 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -26,7 +26,7 @@ Window: 24h
 | dollar_fx | 54.9 |
 | commodity_confirmation | 55.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 51.25 |
+| news_confirmation | 51.88 |
 
 Positive contributors: equity_trend=61.25
 Negative contributors: volatility=20.0
@@ -320,20 +320,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 25, 'negative': 23, 'neutral': 32}
-- News confirmation score: `51.25`
+- Sentiment counts: {'positive': 25, 'negative': 22, 'neutral': 33}
+- News confirmation score: `51.88`
 
 ### Top Market-Moving Headlines
 
-**1. Oil tankers face 'worst case scenario' in Hormuz as Iran steps up attacks on ships, maritime risk CEO says**
-- Source: CNBC Top News
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: geopolitical_risk, oil_market
-- Score: `48.45`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Russia pounds Kyiv in major ballistic missile attack**
+**1. Russia pounds Kyiv in major ballistic missile attack**
 - Source: CNBC Markets
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -341,7 +333,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.64`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**3. The market for psychedelic drugs to treat mental health conditions gets a big buy signal**
+**2. The market for psychedelic drugs to treat mental health conditions gets a big buy signal**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -349,7 +341,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. American Airlines CEO lays out his vision to close a more than $3 billion profit gap**
+**3. American Airlines CEO lays out his vision to close a more than $3 billion profit gap**
 - Source: CNBC Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -357,7 +349,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.74`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. Oil settles up on renewed US-Iran hostilities and threat of Red Sea closure**
+**4. Oil settles up on renewed US-Iran hostilities and threat of Red Sea closure**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -365,7 +357,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. The Key to Solar and Wind Power Is Battery Storage, and China Is Dominating**
+**5. The Key to Solar and Wind Power Is Battery Storage, and China Is Dominating**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -373,7 +365,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `22.18`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**7. Consumer sentiment beats expectations, signals stronger economic outlook**
+**6. Consumer sentiment beats expectations, signals stronger economic outlook**
 - Source: Investing.com Technology
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -381,7 +373,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.95`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. What are the implications of a renewed closure of the Strait of Hormuz?**
+**7. What are the implications of a renewed closure of the Strait of Hormuz?**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -389,7 +381,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.62`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**9. UK's Andy Burnham drops digital ID scheme to prioritize cost of living, allies say**
+**8. UK's Andy Burnham drops digital ID scheme to prioritize cost of living, allies say**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
@@ -397,13 +389,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**10. Earnings playbook: Alphabet and Tesla are among the big companies set to report this week**
+**9. Earnings playbook: Alphabet and Tesla are among the big companies set to report this week**
 - Source: CNBC Investing
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: GOOGL, TSLA, earnings season, technology
 - Score: `19.34`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**10. Israel deploys AI and payments to conservative media to try to beat back the tide of unfavorable U.S. views about its handling of wars in Gaza and Iran**
+- Source: Dow Jones Politics
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: U.S, AI, Iran Conflict, Israel Media Strategy
+- Score: `17.68`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
