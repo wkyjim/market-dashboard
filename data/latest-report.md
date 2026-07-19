@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-19T19:11:11.555773+00:00
+Generated at: 2026-07-19T20:04:21.950806+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -365,15 +365,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Earnings playbook: Alphabet and Tesla are among the big companies set to report this week**
-- Source: CNBC Investing
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: GOOGL, TSLA, earnings season, technology
-- Score: `22.76`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**7. The Key to Solar and Wind Power Is Battery Storage, and China Is Dominating**
+**6. The Key to Solar and Wind Power Is Battery Storage, and China Is Dominating**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -381,7 +373,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `22.18`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**8. Consumer sentiment beats expectations, signals stronger economic outlook**
+**7. Consumer sentiment beats expectations, signals stronger economic outlook**
 - Source: Investing.com Technology
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -389,7 +381,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.95`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**9. What are the implications of a renewed closure of the Strait of Hormuz?**
+**8. What are the implications of a renewed closure of the Strait of Hormuz?**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -397,12 +389,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.62`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**10. UK's Andy Burnham drops digital ID scheme to prioritize cost of living, allies say**
+**9. UK's Andy Burnham drops digital ID scheme to prioritize cost of living, allies say**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
 - Affected assets: ID, UK
 - Score: `20.19`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**10. Earnings playbook: Alphabet and Tesla are among the big companies set to report this week**
+- Source: CNBC Investing
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: GOOGL, TSLA, earnings season, technology
+- Score: `19.34`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 
