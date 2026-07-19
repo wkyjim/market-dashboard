@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-19T17:04:25.051483+00:00
+Generated at: 2026-07-19T18:04:24.134197+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -349,21 +349,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. American Airlines CEO lays out his vision to close a more than $3 billion profit gap**
-- Source: CNBC Business
-- Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: aviation, airline industry
-- Score: `32.64`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**5. 'WarshGPT': How Wall Street is adapting to the Fed's new era of communication**
+**4. 'WarshGPT': How Wall Street is adapting to the Fed's new era of communication**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, AI, central bank communication
 - Score: `32.3`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. American Airlines CEO lays out his vision to close a more than $3 billion profit gap**
+- Source: CNBC Business
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: aviation, airline industry
+- Score: `27.74`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 **6. Oil settles up on renewed US-Iran hostilities and threat of Red Sea closure**
 - Source: Investing.com Stock Market
