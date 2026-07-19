@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-19T15:05:46.509143+00:00
+Generated at: 2026-07-19T16:05:01.211361+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **51.32 / 100** (Mixed / Rotation)
+- Regime score: **51.35 / 100** (Mixed / Rotation)
 - Market strength: **54.61 / 100** (neutral)
 - Evidence quality: **72.5 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -26,7 +26,7 @@ Window: 24h
 | dollar_fx | 54.9 |
 | commodity_confirmation | 55.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 51.88 |
+| news_confirmation | 52.5 |
 
 Positive contributors: equity_trend=61.25
 Negative contributors: volatility=20.0
@@ -320,8 +320,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 18, 'negative': 15, 'neutral': 47}
-- News confirmation score: `51.88`
+- Sentiment counts: {'positive': 20, 'negative': 16, 'neutral': 44}
+- News confirmation score: `52.5`
 
 ### Top Market-Moving Headlines
 
@@ -373,13 +373,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. U.S. Emergency Oil Reserve Hits Lowest Levels Since 1983: Why It Matters**
-- Source: Dow Jones US Business
+**7. Earnings playbook: Alphabet and Tesla are among the big companies set to report this week**
+- Source: CNBC Investing
 - Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, WSJ, oil reserves, geopolitical events
-- Score: `22.31`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: GOOGL, TSLA, earnings season, technology
+- Score: `22.76`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 **8. What are the implications of a renewed closure of the Strait of Hormuz?**
 - Source: Investing.com Economic Indicators
@@ -389,7 +389,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.62`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**9. Samsung reportedly cuts some U.S. jobs, offers relocations ahead of HQ move: Reuters**
+**9. Samsung reportedly cuts some U.S. jobs, offers relocations ahead of HQ move**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
