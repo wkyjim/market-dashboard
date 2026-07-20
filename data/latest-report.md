@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-20T14:02:04.957365+00:00
+Generated at: 2026-07-20T15:01:53.700948+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **51.74 / 100** (Mixed / Rotation)
+- Regime score: **51.68 / 100** (Mixed / Rotation)
 - Market strength: **54.61 / 100** (neutral)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **51.18 / 100**, reliability **71.74 / 100**
@@ -26,7 +26,7 @@ Window: 24h
 | dollar_fx | 54.56 |
 | commodity_confirmation | 58.0 |
 | etf_flow | 50.85 |
-| news_confirmation | 57.5 |
+| news_confirmation | 56.25 |
 
 Positive contributors: equity_trend=61.25
 Negative contributors: volatility=20.0
@@ -320,8 +320,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 42, 'negative': 30, 'neutral': 8}
-- News confirmation score: `57.5`
+- Sentiment counts: {'positive': 41, 'negative': 31, 'neutral': 8}
+- News confirmation score: `56.25`
 
 ### Top Market-Moving Headlines
 
@@ -330,7 +330,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / shortterm
 - Affected assets: Economy, Automotive
-- Score: `61.77`
+- Score: `52.51`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 **2. China's Zhongji Innolight sees shares surge after Hong Kong listing approval**
@@ -373,15 +373,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.64`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**7. The market for psychedelic drugs to treat mental health conditions gets a big buy signal**
-- Source: CNBC Top News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: pharmaceuticals, psychedelic drugs, mental health
-- Score: `41.18`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**8. U.S. hits Iran for ninth consecutive night as American casualties rise**
+**7. U.S. hits Iran for ninth consecutive night as American casualties rise**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -389,7 +381,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Ryanair stock slides 6% as higher fuel costs amid Iran war dent profit**
+**8. Ryanair stock slides 6% as higher fuel costs amid Iran war dent profit**
 - Source: CNBC Business News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -397,13 +389,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.17`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**10. TSMC is accelerating Arizona factory build-out to capitalize on AI 'megatrend,' CFO says**
+**9. TSMC is accelerating Arizona factory build-out to capitalize on AI 'megatrend,' CFO says**
 - Source: CNBC Technology
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: TSMC, CNBC, AI, semiconductor
 - Score: `35.1`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Oil Climbed Above $90 Before Paring Gains as U.S.-Iran Attacks Escalate**
+- Source: Dow Jones US Business
+- Importance / impact: Low / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, geopolitical
+- Score: `34.12`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
