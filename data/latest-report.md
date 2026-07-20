@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-20T08:04:40.909976+00:00
+Generated at: 2026-07-20T09:04:44.456521+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -365,15 +365,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. U.S. hits Iran for ninth consecutive night as American casualties rise**
-- Source: CNBC Business Headlines
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, geopolitical
-- Score: `48.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Russia pounds Kyiv in major ballistic missile attack**
+**6. Russia pounds Kyiv in major ballistic missile attack**
 - Source: CNBC Markets
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -381,15 +373,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.64`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. Oil prices rise, stock futures flat as fighting between U.S. and Iran intensifies**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: CRBOVERSEAS.N, CL=F, U.S, oil_prices, geo_political_risk
-- Score: `45.5`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. The market for psychedelic drugs to treat mental health conditions gets a big buy signal**
+**7. The market for psychedelic drugs to treat mental health conditions gets a big buy signal**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -397,12 +381,28 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. Shares of leading Indian private-sector banks slump 5% on weak earnings in June quarter**
+**8. U.S. hits Iran for ninth consecutive night as American casualties rise**
+- Source: CNBC Business Headlines
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, geopolitical
+- Score: `40.8`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. Shares of leading Indian private-sector banks slump 5% on weak earnings in June quarter**
 - Source: CNBC Technology
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: ICICI Bank, Axis Bank, Yes Bank, finance, banking
 - Score: `39.78`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**10. Ryanair profit slumps 34% as airlines brace for a 'difficult winter' amid Middle East crisis**
+- Source: CNBC Business News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: aviation, profitability
+- Score: `39.17`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 
