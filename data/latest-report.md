@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-20T11:05:29.644307+00:00
+Generated at: 2026-07-20T12:05:39.092438+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -333,15 +333,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `61.77`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**2. FIFA emerges as the $9 billion winner as the biggest, brashest World Cup ever draws to a close**
-- Source: CNBC Top News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: FIFA, sports, business
-- Score: `55.73`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**3. China's Zhongji Innolight sees shares surge after Hong Kong listing approval**
+**2. China's Zhongji Innolight sees shares surge after Hong Kong listing approval**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -349,7 +341,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.51`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. Russia pounds Kyiv as NATO military chief warns Moscow would 'lose a lot' by attacking Baltics**
+**3. Russia pounds Kyiv as NATO military chief warns Moscow would 'lose a lot' by attacking Baltics**
 - Source: CNBC Business News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -357,13 +349,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.02`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Oil prices surge, stock futures flat as fighting between U.S., Iran intensifies**
+**4. Oil prices surge, stock futures flat as fighting between U.S., Iran intensifies**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S., U.S, Geopolitical Risk, Energy Markets
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. FIFA emerges as the $9 billion winner as the biggest, brashest World Cup ever draws to a close**
+- Source: CNBC Top News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: FIFA, sports, business
+- Score: `47.37`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 **6. Russia pounds Kyiv in major ballistic missile attack**
 - Source: CNBC Markets
