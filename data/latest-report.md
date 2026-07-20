@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-20T15:53:44.259473+00:00
+Generated at: 2026-07-20T16:01:11.852352+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -373,7 +373,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.64`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**7. U.S. hits Iran for ninth consecutive night as American casualties rise**
+**7. Global oil prices dip below $87 a barrel after new Iran cease-fire proposal. Blockade on Saudi by Yemen’s Houthis keeps losses in check.**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: CRBOVERSEAS.N, CL=F, U.S, oil_prices, geo_political_risk
+- Score: `45.5`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. U.S. hits Iran for ninth consecutive night as American casualties rise**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -381,7 +389,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Ryanair stock slides 6% as higher fuel costs amid Iran war dent profit**
+**9. Ryanair says 'no shortage' of travelers despite Iran war denting profit**
 - Source: CNBC Business News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -389,7 +397,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.17`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**9. TSMC is accelerating Arizona factory build-out to capitalize on AI 'megatrend,' CFO says**
+**10. TSMC is accelerating Arizona factory build-out to capitalize on AI 'megatrend,' CFO says**
 - Source: CNBC Technology
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -397,18 +405,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.1`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. Oil Climbed Above $90 Before Paring Gains as U.S.-Iran Attacks Escalate**
-- Source: Dow Jones US Business
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, geopolitical
-- Score: `34.12`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
 
 ### Headline Quality Checks
 
-Noisy headline list: Oil prices erase gains after Iran says U.S. talks , Oil prices reverse lower after report of new Iran 
+Noisy headline list: Oil prices turn lower after Iran says U.S. talks c
 
 ## Positioning & Flow Dashboard
 
