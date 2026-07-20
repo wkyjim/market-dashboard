@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-20T09:04:44.456521+00:00
+Generated at: 2026-07-20T10:05:13.183440+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **51.79 / 100** (Mixed / Rotation)
+- Regime score: **51.69 / 100** (Mixed / Rotation)
 - Market strength: **54.61 / 100** (neutral)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -26,7 +26,7 @@ Window: 24h
 | dollar_fx | 54.56 |
 | commodity_confirmation | 58.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 58.12 |
+| news_confirmation | 56.25 |
 
 Positive contributors: equity_trend=61.25
 Negative contributors: volatility=20.0
@@ -320,12 +320,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 42, 'negative': 29, 'neutral': 9}
-- News confirmation score: `58.12`
+- Sentiment counts: {'positive': 40, 'negative': 30, 'neutral': 10}
+- News confirmation score: `56.25`
 
 ### Top Market-Moving Headlines
 
-**1. China's Zhongji Innolight sees shares surge after Hong Kong listing approval**
+**1. China's car market heads for worst year since 2021 as sales plunge 20%**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / shortterm
+- Affected assets: Economy, Automotive
+- Score: `61.77`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**2. China's Zhongji Innolight sees shares surge after Hong Kong listing approval**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -333,20 +341,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `61.77`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**2. Russia pounds Kyiv as NATO military chief warns Moscow would 'lose a lot' by attacking Baltics**
+**3. Russia pounds Kyiv as NATO military chief warns Moscow would 'lose a lot' by attacking Baltics**
 - Source: CNBC Business News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: NATO, geo-political
 - Score: `61.2`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. Brent breaches $90 as Middle East risks mount with U.S-Iran tensions on the rise**
-- Source: CNBC Top News
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, geopolitical_risk, oil_prices
-- Score: `57.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **4. FIFA emerges as the $9 billion winner as the biggest, brashest World Cup ever draws to a close**
@@ -373,7 +373,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.64`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**7. The market for psychedelic drugs to treat mental health conditions gets a big buy signal**
+**7. Oil prices climb as U.S. and Iran continue to fight**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: CRBOVERSEAS.N, CL=F, U.S, oil_prices, geo_political_risk
+- Score: `45.5`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. The market for psychedelic drugs to treat mental health conditions gets a big buy signal**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -381,7 +389,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. U.S. hits Iran for ninth consecutive night as American casualties rise**
+**9. U.S. hits Iran for ninth consecutive night as American casualties rise**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -389,7 +397,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Shares of leading Indian private-sector banks slump 5% on weak earnings in June quarter**
+**10. Shares of leading Indian private-sector banks slump 5% on weak earnings in June quarter**
 - Source: CNBC Technology
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -397,18 +405,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.78`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**10. Ryanair profit slumps 34% as airlines brace for a 'difficult winter' amid Middle East crisis**
-- Source: CNBC Business News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: aviation, profitability
-- Score: `39.17`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
 
 ### Headline Quality Checks
 
-Noisy headline list: Lockheed Martin Plans Bargain-Rate Patriot Missile
+Noisy headline list: Oil prices erase gains after Iran says U.S. talks , Lockheed Martin Plans Bargain-Rate Patriot Missile
 
 ## Positioning & Flow Dashboard
 
