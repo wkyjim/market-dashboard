@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-20T17:01:48.643508+00:00
+Generated at: 2026-07-20T18:01:44.371538+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.99 / 100** (Mild Risk-On)
+- Regime score: **57.0 / 100** (Mild Risk-On)
 - Market strength: **54.61 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **51.18 / 100**, reliability **71.74 / 100**
@@ -23,7 +23,7 @@ Window: 24h
 | volatility | 70.0 |
 | rates_yield_curve | 58.0 |
 | credit_proxy | 50.0 |
-| dollar_fx | 53.76 |
+| dollar_fx | 53.97 |
 | commodity_confirmation | 63.0 |
 | etf_flow | 50.85 |
 | news_confirmation | 57.5 |
@@ -73,28 +73,28 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7476.12 | 0.25 | 2026-07-20 | live as of 2026-07-20 17:00:38.657812+00:00 |
-| ^IXIC | NASDAQ Composite | 25666.28 | 0.57 | 2026-07-20 | live as of 2026-07-20 17:00:38.657812+00:00 |
-| ^RUT | Russell 2000 Index | 2955.92 | -0.21 | 2026-07-20 | live as of 2026-07-20 17:00:38.657812+00:00 |
-| ^VIX | CBOE Volatility Index | 17.8 | -5.17 | 2026-07-20 | live as of 2026-07-20 17:00:38.657812+00:00 |
+| ^GSPC | S&P 500 | 7473.86 | 0.22 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
+| ^IXIC | NASDAQ Composite | 25653.62 | 0.52 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
+| ^RUT | Russell 2000 Index | 2955.08 | -0.24 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
+| ^VIX | CBOE Volatility Index | 18.19 | -3.09 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
 | ^MOVE | ICE BofA MOVE Index | 70.88 | 3.99 | 2026-07-17 | closed |
-| ^FVX | Treasury Yield 5 Years | 4.34 | 1.5 | 2026-07-20 | live as of 2026-07-20 17:00:38.657812+00:00 |
-| ^TNX | Treasury Yield 10 Years | 4.6 | 1.34 | 2026-07-20 | live as of 2026-07-20 17:00:38.657812+00:00 |
-| ^TYX | Treasury Yield 30 Years | 5.12 | 1.05 | 2026-07-20 | live as of 2026-07-20 17:00:38.657812+00:00 |
-| DX-Y.NYB | US Dollar Index | 101.0 | 0.25 | 2026-07-20 | live as of 2026-07-20 17:00:38.657812+00:00 |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.69 | 0.06 | 2026-07-20 | live as of 2026-07-20 17:00:38.657812+00:00 |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 107.16 | -0.37 | 2026-07-20 | live as of 2026-07-20 17:00:38.657812+00:00 |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 95.97 | -0.01 | 2026-07-20 | live as of 2026-07-20 17:00:38.657812+00:00 |
-| RSP | Invesco S&P 500 Equal Weight ETF | 213.11 | -0.12 | 2026-07-20 | live as of 2026-07-20 17:00:38.657812+00:00 |
-| IWF | iShares Russell 1000 Growth ETF | 120.19 | 0.68 | 2026-07-20 | live as of 2026-07-20 17:00:38.657812+00:00 |
-| IWD | iShares Russell 1000 Value ETF | 247.6 | -0.17 | 2026-07-20 | live as of 2026-07-20 17:00:38.657812+00:00 |
-| TLT | iShares 20+ Year Treasury Bond ETF | 83.86 | -0.78 | 2026-07-20 | live as of 2026-07-20 17:00:38.657812+00:00 |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 93.48 | -0.38 | 2026-07-20 | live as of 2026-07-20 17:00:38.657812+00:00 |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.93 | -0.07 | 2026-07-20 | live as of 2026-07-20 17:00:38.657812+00:00 |
-| GC=F | Gold Future | 4011.6 | -0.03 | 2026-07-20 | live as of 2026-07-20 17:00:38.657812+00:00 |
-| SI=F | Silver Future | 57.09 | 1.87 | 2026-07-20 | live as of 2026-07-20 17:00:38.657812+00:00 |
-| CL=F | WTI Crude Oil Future | 81.71 | -0.95 | 2026-07-20 | live as of 2026-07-20 17:00:38.657812+00:00 |
-| HG=F | Copper Future | 6.35 | 2.07 | 2026-07-20 | live as of 2026-07-20 17:00:38.657812+00:00 |
+| ^FVX | Treasury Yield 5 Years | 4.34 | 1.47 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
+| ^TNX | Treasury Yield 10 Years | 4.6 | 1.34 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
+| ^TYX | Treasury Yield 30 Years | 5.12 | 1.11 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
+| DX-Y.NYB | US Dollar Index | 100.96 | 0.21 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.72 | 0.08 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 107.16 | -0.38 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 95.98 | 0.01 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
+| RSP | Invesco S&P 500 Equal Weight ETF | 213.06 | -0.15 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
+| IWF | iShares Russell 1000 Growth ETF | 120.19 | 0.68 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
+| IWD | iShares Russell 1000 Value ETF | 247.44 | -0.24 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
+| TLT | iShares 20+ Year Treasury Bond ETF | 83.86 | -0.79 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 93.5 | -0.36 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.94 | -0.06 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
+| GC=F | Gold Future | 4008.7 | -0.1 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
+| SI=F | Silver Future | 56.97 | 1.65 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
+| CL=F | WTI Crude Oil Future | 82.21 | -0.34 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
+| HG=F | Copper Future | 6.35 | 2.04 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
 
 ## Market Dispersion Analysis
 
@@ -318,7 +318,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=17.8 pct_chg=-5.17
+- VIX close=18.19 pct_chg=-3.09
 
 ## News Analytics
 
