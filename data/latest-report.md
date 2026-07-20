@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-20T04:11:16.545169+00:00
+Generated at: 2026-07-20T05:04:45.652046+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -338,7 +338,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S., U.S, Geopolitical Risk, Energy Markets
-- Score: `57.0`
+- Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **3. U.S. hits Iran for ninth consecutive night as American casualties rise**
