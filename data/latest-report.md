@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-20T18:01:44.371538+00:00
+Generated at: 2026-07-20T19:02:00.227450+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.0 / 100** (Mild Risk-On)
+- Regime score: **57.37 / 100** (Mild Risk-On)
 - Market strength: **54.61 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **51.18 / 100**, reliability **71.74 / 100**
@@ -23,12 +23,12 @@ Window: 24h
 | volatility | 70.0 |
 | rates_yield_curve | 58.0 |
 | credit_proxy | 50.0 |
-| dollar_fx | 53.97 |
-| commodity_confirmation | 63.0 |
+| dollar_fx | 53.98 |
+| commodity_confirmation | 67.0 |
 | etf_flow | 50.85 |
-| news_confirmation | 57.5 |
+| news_confirmation | 60.0 |
 
-Positive contributors: volatility=70.0, commodity_confirmation=63.0, equity_trend=61.25
+Positive contributors: volatility=70.0, commodity_confirmation=67.0, equity_trend=61.25, news_confirmation=60.0
 Negative contributors: none
 
 ## Market Strength Score
@@ -57,14 +57,14 @@ Negative contributors: none
 
 | Area | Signal | Interpretation |
 | --- | --- | --- |
-| Equities | S&P 500 stable; Nasdaq rising; Russell 2000 stable | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
+| Equities | S&P 500 stable; Nasdaq stable; Russell 2000 falling | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
 | Rates | 10Y Treasury rising; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold stable | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -73,28 +73,28 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7473.86 | 0.22 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
-| ^IXIC | NASDAQ Composite | 25653.62 | 0.52 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
-| ^RUT | Russell 2000 Index | 2955.08 | -0.24 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
-| ^VIX | CBOE Volatility Index | 18.19 | -3.09 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
+| ^GSPC | S&P 500 | 7456.19 | -0.02 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
+| ^IXIC | NASDAQ Composite | 25576.77 | 0.22 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
+| ^RUT | Russell 2000 Index | 2952.73 | -0.32 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
+| ^VIX | CBOE Volatility Index | 18.44 | -1.76 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
 | ^MOVE | ICE BofA MOVE Index | 70.88 | 3.99 | 2026-07-17 | closed |
-| ^FVX | Treasury Yield 5 Years | 4.34 | 1.47 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
-| ^TNX | Treasury Yield 10 Years | 4.6 | 1.34 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
-| ^TYX | Treasury Yield 30 Years | 5.12 | 1.11 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
-| DX-Y.NYB | US Dollar Index | 100.96 | 0.21 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.72 | 0.08 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 107.16 | -0.38 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 95.98 | 0.01 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
-| RSP | Invesco S&P 500 Equal Weight ETF | 213.06 | -0.15 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
-| IWF | iShares Russell 1000 Growth ETF | 120.19 | 0.68 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
-| IWD | iShares Russell 1000 Value ETF | 247.44 | -0.24 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
-| TLT | iShares 20+ Year Treasury Bond ETF | 83.86 | -0.79 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 93.5 | -0.36 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.94 | -0.06 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
-| GC=F | Gold Future | 4008.7 | -0.1 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
-| SI=F | Silver Future | 56.97 | 1.65 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
-| CL=F | WTI Crude Oil Future | 82.21 | -0.34 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
-| HG=F | Copper Future | 6.35 | 2.04 | 2026-07-20 | live as of 2026-07-20 18:00:37.590777+00:00 |
+| ^FVX | Treasury Yield 5 Years | 4.33 | 1.33 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
+| ^TNX | Treasury Yield 10 Years | 4.6 | 1.26 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
+| ^TYX | Treasury Yield 30 Years | 5.12 | 1.11 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
+| DX-Y.NYB | US Dollar Index | 100.96 | 0.2 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.7 | 0.06 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 107.13 | -0.4 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 95.95 | -0.03 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
+| RSP | Invesco S&P 500 Equal Weight ETF | 212.61 | -0.36 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
+| IWF | iShares Russell 1000 Growth ETF | 119.81 | 0.36 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
+| IWD | iShares Russell 1000 Value ETF | 247.06 | -0.39 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
+| TLT | iShares 20+ Year Treasury Bond ETF | 83.86 | -0.78 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 93.51 | -0.35 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.95 | -0.05 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
+| GC=F | Gold Future | 4012.5 | -0.01 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
+| SI=F | Silver Future | 56.82 | 1.4 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
+| CL=F | WTI Crude Oil Future | 83.12 | 0.76 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
+| HG=F | Copper Future | 6.35 | 2.15 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
 
 ## Market Dispersion Analysis
 
@@ -318,16 +318,24 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=18.19 pct_chg=-3.09
+- VIX close=18.44 pct_chg=-1.76
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 42, 'negative': 30, 'neutral': 8}
-- News confirmation score: `57.5`
+- Sentiment counts: {'positive': 44, 'negative': 28, 'neutral': 8}
+- News confirmation score: `60.0`
 
 ### Top Market-Moving Headlines
 
-**1. China's car market heads for worst year since 2021 as sales plunge 20%**
+**1. Oil prices rise after Trump says Iran will pay for killing U.S. service members**
+- Source: CNBC Top News
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, geopolitical_risk, oil_prices
+- Score: `57.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. China's car market heads for worst year since 2021 as sales plunge 20%**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / shortterm
@@ -335,7 +343,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.51`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**2. China's Zhongji Innolight sees shares surge after Hong Kong listing approval**
+**3. China's Zhongji Innolight sees shares surge after Hong Kong listing approval**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -343,7 +351,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.51`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**3. Russia pounds Kyiv as NATO military chief warns Moscow would 'lose a lot' by attacking Baltics**
+**4. Russia pounds Kyiv as NATO military chief warns Moscow would 'lose a lot' by attacking Baltics**
 - Source: CNBC Business News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -351,7 +359,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.02`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Oil prices surge, stock futures flat as fighting between U.S., Iran intensifies**
+**5. Oil prices surge, stock futures flat as fighting between U.S., Iran intensifies**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -359,7 +367,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. FIFA emerges as the $9 billion winner as the biggest, brashest World Cup ever draws to a close**
+**6. Trump vows retaliation against Iran after U.S. deaths: 'They will pay'**
+- Source: CNBC Business Headlines
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, geopolitical
+- Score: `48.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. FIFA emerges as the $9 billion winner as the biggest, brashest World Cup ever draws to a close**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -367,7 +383,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `47.37`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**6. Russia pounds Kyiv in major ballistic missile attack**
+**8. Russia pounds Kyiv in major ballistic missile attack**
 - Source: CNBC Markets
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -375,7 +391,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.64`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**7. Global oil prices dip below $87 a barrel after new Iran cease-fire proposal. Blockade on Saudi by Yemen’s Houthis keeps losses in check.**
+**9. Global oil prices dip below $87 a barrel after new Iran cease-fire proposal. Blockade on Saudi by Yemen’s Houthis keeps losses in check.**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Mixed
 - Relevance / horizon: macro / short-term
@@ -383,15 +399,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.5`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. U.S. hits Iran for ninth consecutive night as American casualties rise**
-- Source: CNBC Business Headlines
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, geopolitical
-- Score: `40.8`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Ryanair says 'no shortage' of travelers despite Iran war denting profit**
+**10. Ryanair says 'no shortage' of travelers despite Iran war denting profit**
 - Source: CNBC Business News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -399,18 +407,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.17`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**10. TSMC is accelerating Arizona factory build-out to capitalize on AI 'megatrend,' CFO says**
-- Source: CNBC Technology
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: TSMC, CNBC, AI, semiconductor
-- Score: `35.1`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
 
 ### Headline Quality Checks
 
-Noisy headline list: Oil prices turn lower after Iran says U.S. talks c
+No noisy headlines detected by current rules.
 
 ## Positioning & Flow Dashboard
 
