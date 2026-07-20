@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-20T10:11:17.984763+00:00
+Generated at: 2026-07-20T11:05:29.644307+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **51.54 / 100** (Mixed / Rotation)
+- Regime score: **51.63 / 100** (Mixed / Rotation)
 - Market strength: **54.61 / 100** (neutral)
-- Evidence quality: **72.5 / 100**
+- Evidence quality: **76.0 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
 - Breadth: **narrow**; above 50DMA `46.67%`, above 200DMA `67.8%`
 - Top sector score: **Financials** `68.8`
@@ -26,7 +26,7 @@ Window: 24h
 | dollar_fx | 54.56 |
 | commodity_confirmation | 58.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 53.12 |
+| news_confirmation | 55.0 |
 
 Positive contributors: equity_trend=61.25
 Negative contributors: volatility=20.0
@@ -47,8 +47,8 @@ Negative contributors: volatility=20.0
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `72.5`
-- Agreement ratio: `0.3`
+- Confidence score: `76.0`
+- Agreement ratio: `0.4`
 - Contradiction count: `1`
 - Missing indicators: none
 - Warning flags: none
@@ -320,8 +320,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 37, 'negative': 32, 'neutral': 11}
-- News confirmation score: `53.12`
+- Sentiment counts: {'positive': 39, 'negative': 31, 'neutral': 10}
+- News confirmation score: `55.0`
 
 ### Top Market-Moving Headlines
 
@@ -333,15 +333,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `61.77`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**2. Russia pounds Kyiv as NATO military chief warns Moscow would 'lose a lot' by attacking Baltics**
-- Source: CNBC Business News
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: NATO, geo-political
-- Score: `61.2`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. FIFA emerges as the $9 billion winner as the biggest, brashest World Cup ever draws to a close**
+**2. FIFA emerges as the $9 billion winner as the biggest, brashest World Cup ever draws to a close**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -349,13 +341,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `55.73`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**4. China's Zhongji Innolight sees shares surge after Hong Kong listing approval**
+**3. China's Zhongji Innolight sees shares surge after Hong Kong listing approval**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: Zhongji Innolight, Luxshare Precision, IPO, Hong Kong Stock Exchange
 - Score: `52.51`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**4. Russia pounds Kyiv as NATO military chief warns Moscow would 'lose a lot' by attacking Baltics**
+- Source: CNBC Business News
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: NATO, geo-political
+- Score: `52.02`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **5. Oil prices surge, stock futures flat as fighting between U.S., Iran intensifies**
 - Source: MarketWatch Bulletins
