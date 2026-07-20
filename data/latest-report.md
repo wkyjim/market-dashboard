@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-20T04:05:04.132712+00:00
+Generated at: 2026-07-20T04:11:16.545169+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -245,7 +245,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 11 | Consumer Discretionary | 41.3 | strong downtrend | neutral | weak | 50.0 | 0.0 | 46.37 | GPC, BBY, EXPE | HLT, APTV, CCL |
 | 12 | Grid Infrastructure | 40.72 | downtrend | neutral | weak | 50.0 | 0.0 | 42.81 | GRID | GRID |
 | 13 | Utilities | 40.72 | strong downtrend | neutral | mixed | 50.0 | 0.0 | 47.86 | EIX, ES, AWK | VST, NRG, CEG |
-| 14 | Defense | 32.98 | strong downtrend | negative | weak | 50.0 | 0.0 | 40.58 | XAR | XAR |
+| 14 | Defense | 33.22 | strong downtrend | negative | weak | 50.0 | 0.0 | 40.58 | XAR | XAR |
 | 15 | Nuclear | 29.18 | strong downtrend | negative | weak | 50.0 | 0.0 | 27.58 | NLR | NLR |
 
 ### Thematic Strength
@@ -262,7 +262,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 8 | Quality Growth | 48.88 | Neutral / watchlist | 54.65 | 65.0 | 18.26 | False | False |
 | 9 | AI Infrastructure | 48.86 | Neutral / watchlist | 75.28 | 100.0 | 17.09 | False | False |
 | 10 | Grid Infrastructure | 41.64 | Neutral / watchlist | 50.0 | 0.0 | 13.67 | False | False |
-| 11 | Defense | 37.01 | Weak setup | 50.0 | 0.0 | 15.39 | False | False |
+| 11 | Defense | 36.81 | Weak setup | 50.0 | 0.0 | 15.39 | False | False |
 | 12 | Crypto Infrastructure | 30.7 | Underperformance risk | 44.0 | 65.0 | 13.9 | False | False |
 | 13 | Nuclear | 27.54 | Underperformance risk | 50.0 | 0.0 | 10.6 | False | False |
 
@@ -281,14 +281,14 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Consumer Staples | Dividend Defensives | 66.76 | strong | 56.24 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 63.73 | positive | 58.96 | positive | sector and theme confirmation |
 | Energy | Energy | 61.05 | positive | 60.14 | positive | sector and theme confirmation |
-| Industrials | Defense, Grid Infrastructure | 56.0 | positive | 39.33 | weak | sector stronger than related themes |
+| Industrials | Defense, Grid Infrastructure | 56.0 | positive | 39.22 | weak | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 49.4 | mixed | 30.7 | very weak | mixed confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 48.2 | mixed | 51.51 | mixed | mixed confirmation |
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 46.74 | mixed | 50.63 | mixed | mixed confirmation |
 | Consumer Discretionary | Small Caps | 41.3 | weak | 58.44 | positive | theme stronger than official sector |
 | Grid Infrastructure | Grid Infrastructure | 40.72 | weak | 41.64 | weak | broad weakness across sector and themes |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 40.72 | weak | 41.8 | weak | broad weakness across sector and themes |
-| Defense | Defense | 32.98 | very weak | 37.01 | weak | broad weakness across sector and themes |
+| Defense | Defense | 33.22 | very weak | 36.81 | weak | broad weakness across sector and themes |
 | Nuclear | Nuclear | 29.18 | very weak | 27.54 | very weak | broad weakness across sector and themes |
 
 ## Three-Month Outperformance Setup
@@ -305,7 +305,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 8 | Quality Growth | 51.19 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 9 | AI Infrastructure | 48.74 | Neutral / watchlist |  | relative strength below SPY, breadth below 45%, news turns negative |
 | 10 | Grid Infrastructure | 45.53 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 11 | Defense | 34.66 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
+| 11 | Defense | 36.66 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
 | 12 | Nuclear | 27.56 | Underperformance risk |  | relative strength below SPY, breadth below 45%, news turns negative |
 
 ## Breadth and Participation
