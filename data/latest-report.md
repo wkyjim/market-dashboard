@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-20T19:11:23.774216+00:00
+Generated at: 2026-07-20T20:01:43.528969+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.55 / 100** (Mild Risk-On)
+- Regime score: **57.32 / 100** (Mild Risk-On)
 - Market strength: **54.61 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **51.18 / 100**, reliability **71.74 / 100**
@@ -23,12 +23,12 @@ Window: 24h
 | volatility | 70.0 |
 | rates_yield_curve | 58.0 |
 | credit_proxy | 50.0 |
-| dollar_fx | 53.98 |
-| commodity_confirmation | 67.0 |
+| dollar_fx | 54.07 |
+| commodity_confirmation | 63.0 |
 | etf_flow | 50.85 |
 | news_confirmation | 63.75 |
 
-Positive contributors: volatility=70.0, commodity_confirmation=67.0, news_confirmation=63.75, equity_trend=61.25
+Positive contributors: volatility=70.0, news_confirmation=63.75, commodity_confirmation=63.0, equity_trend=61.25
 Negative contributors: none
 
 ## Market Strength Score
@@ -58,13 +58,13 @@ Negative contributors: none
 | Area | Signal | Interpretation |
 | --- | --- | --- |
 | Equities | S&P 500 stable; Nasdaq stable; Russell 2000 falling | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
-| Rates | 10Y Treasury rising; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
+| Rates | 10Y Treasury rising; MOVE stable | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold stable | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude stable | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -73,28 +73,28 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7456.19 | -0.02 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
-| ^IXIC | NASDAQ Composite | 25576.77 | 0.22 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
-| ^RUT | Russell 2000 Index | 2952.73 | -0.32 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
-| ^VIX | CBOE Volatility Index | 18.44 | -1.76 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
-| ^MOVE | ICE BofA MOVE Index | 70.88 | 3.99 | 2026-07-17 | closed |
-| ^FVX | Treasury Yield 5 Years | 4.33 | 1.33 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
-| ^TNX | Treasury Yield 10 Years | 4.6 | 1.26 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
-| ^TYX | Treasury Yield 30 Years | 5.12 | 1.11 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
-| DX-Y.NYB | US Dollar Index | 100.96 | 0.2 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.7 | 0.06 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 107.13 | -0.4 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 95.95 | -0.03 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
-| RSP | Invesco S&P 500 Equal Weight ETF | 212.61 | -0.36 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
-| IWF | iShares Russell 1000 Growth ETF | 119.81 | 0.36 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
-| IWD | iShares Russell 1000 Value ETF | 247.06 | -0.39 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
-| TLT | iShares 20+ Year Treasury Bond ETF | 83.86 | -0.78 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 93.51 | -0.35 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.95 | -0.05 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
-| GC=F | Gold Future | 4012.5 | -0.01 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
-| SI=F | Silver Future | 56.82 | 1.4 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
-| CL=F | WTI Crude Oil Future | 83.12 | 0.76 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
-| HG=F | Copper Future | 6.35 | 2.15 | 2026-07-20 | live as of 2026-07-20 19:00:39.645267+00:00 |
+| ^GSPC | S&P 500 | 7443.48 | -0.19 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
+| ^IXIC | NASDAQ Composite | 25508.07 | -0.05 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
+| ^RUT | Russell 2000 Index | 2950.44 | -0.4 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
+| ^VIX | CBOE Volatility Index | 18.37 | -2.13 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
+| ^MOVE | ICE BofA MOVE Index | 70.88 | -0.0 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
+| ^FVX | Treasury Yield 5 Years | 4.33 | 1.29 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
+| ^TNX | Treasury Yield 10 Years | 4.6 | 1.26 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
+| ^TYX | Treasury Yield 30 Years | 5.12 | 1.07 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
+| DX-Y.NYB | US Dollar Index | 100.94 | 0.19 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.69 | 0.05 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 107.14 | -0.39 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 95.95 | -0.03 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
+| RSP | Invesco S&P 500 Equal Weight ETF | 212.36 | -0.47 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
+| IWF | iShares Russell 1000 Growth ETF | 119.49 | 0.09 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
+| IWD | iShares Russell 1000 Value ETF | 246.94 | -0.44 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
+| TLT | iShares 20+ Year Treasury Bond ETF | 83.89 | -0.75 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 93.54 | -0.32 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.95 | -0.04 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
+| GC=F | Gold Future | 4013.4 | 0.02 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
+| SI=F | Silver Future | 56.74 | 1.26 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
+| CL=F | WTI Crude Oil Future | 82.44 | -0.06 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
+| HG=F | Copper Future | 6.35 | 2.03 | 2026-07-20 | live as of 2026-07-20 20:00:37.918503+00:00 |
 
 ## Market Dispersion Analysis
 
@@ -318,7 +318,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=18.44 pct_chg=-1.76
+- VIX close=18.37 pct_chg=-2.13
 
 ## News Analytics
 
@@ -500,7 +500,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `38`
-- Live macro rows used: `33`
+- Live macro rows used: `34`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
