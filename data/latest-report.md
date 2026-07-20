@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-20T19:02:00.227450+00:00
+Generated at: 2026-07-20T19:11:23.774216+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.37 / 100** (Mild Risk-On)
+- Regime score: **57.55 / 100** (Mild Risk-On)
 - Market strength: **54.61 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **51.18 / 100**, reliability **71.74 / 100**
@@ -26,9 +26,9 @@ Window: 24h
 | dollar_fx | 53.98 |
 | commodity_confirmation | 67.0 |
 | etf_flow | 50.85 |
-| news_confirmation | 60.0 |
+| news_confirmation | 63.75 |
 
-Positive contributors: volatility=70.0, commodity_confirmation=67.0, equity_trend=61.25, news_confirmation=60.0
+Positive contributors: volatility=70.0, commodity_confirmation=67.0, news_confirmation=63.75, equity_trend=61.25
 Negative contributors: none
 
 ## Market Strength Score
@@ -322,8 +322,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 44, 'negative': 28, 'neutral': 8}
-- News confirmation score: `60.0`
+- Sentiment counts: {'positive': 47, 'negative': 25, 'neutral': 8}
+- News confirmation score: `63.75`
 
 ### Top Market-Moving Headlines
 
@@ -359,7 +359,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.02`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Oil prices surge, stock futures flat as fighting between U.S., Iran intensifies**
+**5. SpaceX gave investors intense FOMO. Now the decade’s hottest IPO represents a brutal reality check.**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: SpaceX, related_tickers, FOMO, IPO, initial public offering (IPO)
+- Score: `52.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. Oil prices surge, stock futures flat as fighting between U.S., Iran intensifies**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -367,7 +375,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Trump vows retaliation against Iran after U.S. deaths: 'They will pay'**
+**7. Trump vows retaliation against Iran after U.S. deaths: 'They will pay'**
 - Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -375,7 +383,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. FIFA emerges as the $9 billion winner as the biggest, brashest World Cup ever draws to a close**
+**8. FIFA emerges as the $9 billion winner as the biggest, brashest World Cup ever draws to a close**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -383,28 +391,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `47.37`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. Russia pounds Kyiv in major ballistic missile attack**
+**9. SpaceX has forfeited $1 trillion in market value since its post-IPO peak**
+- Source: MarketWatch Bulletins
+- Importance / impact: Medium / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: IPO, SpaceX, market value decline
+- Score: `47.24`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**10. Russia pounds Kyiv in major ballistic missile attack**
 - Source: CNBC Markets
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: geopolitical
 - Score: `45.64`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**9. Global oil prices dip below $87 a barrel after new Iran cease-fire proposal. Blockade on Saudi by Yemen’s Houthis keeps losses in check.**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: CRBOVERSEAS.N, CL=F, U.S, oil_prices, geo_political_risk
-- Score: `45.5`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Ryanair says 'no shortage' of travelers despite Iran war denting profit**
-- Source: CNBC Business News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: aviation, profitability
-- Score: `39.17`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 
