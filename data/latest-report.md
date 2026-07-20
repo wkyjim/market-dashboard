@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-20T13:08:23.266875+00:00
+Generated at: 2026-07-20T13:12:48.980086+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **51.58 / 100** (Mixed / Rotation)
+- Regime score: **51.64 / 100** (Mixed / Rotation)
 - Market strength: **54.61 / 100** (neutral)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **n/a / 100**, reliability **n/a / 100**
@@ -26,7 +26,7 @@ Window: 24h
 | dollar_fx | 54.56 |
 | commodity_confirmation | 58.0 |
 | etf_flow | 50.0 |
-| news_confirmation | 56.25 |
+| news_confirmation | 57.5 |
 
 Positive contributors: equity_trend=61.25
 Negative contributors: volatility=20.0
@@ -320,8 +320,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 41, 'negative': 31, 'neutral': 8}
-- News confirmation score: `56.25`
+- Sentiment counts: {'positive': 42, 'negative': 30, 'neutral': 8}
+- News confirmation score: `57.5`
 
 ### Top Market-Moving Headlines
 
