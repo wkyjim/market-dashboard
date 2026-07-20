@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-20T03:04:49.615593+00:00
+Generated at: 2026-07-20T04:05:04.132712+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **51.69 / 100** (Mixed / Rotation)
+- Regime score: **51.66 / 100** (Mixed / Rotation)
 - Market strength: **54.61 / 100** (neutral)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **51.44 / 100**, reliability **67.12 / 100**
@@ -26,7 +26,7 @@ Window: 24h
 | dollar_fx | 54.56 |
 | commodity_confirmation | 58.0 |
 | etf_flow | 50.97 |
-| news_confirmation | 56.25 |
+| news_confirmation | 55.62 |
 
 Positive contributors: equity_trend=61.25
 Negative contributors: volatility=20.0
@@ -320,12 +320,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 37, 'negative': 27, 'neutral': 16}
-- News confirmation score: `56.25`
+- Sentiment counts: {'positive': 37, 'negative': 28, 'neutral': 15}
+- News confirmation score: `55.62`
 
 ### Top Market-Moving Headlines
 
-**1. Oil prices surge, stock futures flat as fighting between U.S., Iran intensifies**
+**1. Brent breaches $90 as Middle East risks mount with U.S-Iran tensions on the rise**
+- Source: CNBC Top News
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, geopolitical_risk, oil_prices
+- Score: `57.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Oil prices surge, stock futures flat as fighting between U.S., Iran intensifies**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -333,7 +341,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Russia pounds Kyiv in major ballistic missile attack**
+**3. U.S. hits Iran for ninth consecutive night as American casualties rise**
+- Source: CNBC Business Headlines
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, geopolitical
+- Score: `48.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. Russia pounds Kyiv in major ballistic missile attack**
 - Source: CNBC Markets
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -341,7 +357,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.64`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**3. Oil prices surge, stock futures flat as fighting between U.S. and Iran intensifies**
+**5. Oil prices rise, stock futures flat as fighting between U.S. and Iran intensifies**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Mixed
 - Relevance / horizon: macro / short-term
@@ -349,7 +365,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.5`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. The market for psychedelic drugs to treat mental health conditions gets a big buy signal**
+**6. The market for psychedelic drugs to treat mental health conditions gets a big buy signal**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -357,7 +373,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. Oil prices surge, Brent crosses $90 as US-Iran conflict worsens**
+**7. Oil prices surge, Brent crosses $90 as US-Iran conflict worsens**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -365,7 +381,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.98`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. American Airlines CEO lays out his vision to close a more than $3 billion profit gap**
+**8. American Airlines CEO lays out his vision to close a more than $3 billion profit gap**
 - Source: CNBC Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -373,7 +389,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.74`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. Oil settles up on renewed US-Iran hostilities and threat of Red Sea closure**
+**9. Oil settles up on renewed US-Iran hostilities and threat of Red Sea closure**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -381,29 +397,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Brent oil tops $90 as US, Iran intensify attacks in Middle East**
+**10. Brent oil tops $90 as US, Iran intensify attacks in Middle East**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: Brent, US, oil, geo-political
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Dollar firmer as US-Iran conflict intensifies, Brent hits $90**
-- Source: Investing.com Economic Indicators
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: USO, BNO, US, geopolitical_risk, oil_prices
-- Score: `22.23`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Consumer sentiment beats expectations, signals stronger economic outlook**
-- Source: Investing.com Technology
-- Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: economy, consumer sentiment
-- Score: `21.95`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
