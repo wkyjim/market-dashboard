@@ -187,20 +187,12 @@ function metric(markdown, pattern, fallback = "--") {
 function parseReportMetrics(markdown) {
   $("#regime-score").textContent = metric(markdown, /Regime score:\s+\*\*([\d.]+ \/ 100)\*\*/);
   $("#regime-label").textContent = metric(markdown, /Regime score:.*?\(([^)]+)\)/);
-  $("#strength-score").textContent = metric(markdown, /Market strength:\s+\*\*([\d.]+ \/ 100)\*\*/);
-  $("#strength-label").textContent = metric(markdown, /Market strength:.*?\(([^)]+)\)/);
+  $("#strength-score").textContent = metric(markdown, /(?:US equity strength|Market strength):\s+\*\*([\d.]+ \/ 100)\*\*/);
+  $("#strength-label").textContent = metric(markdown, /(?:US equity strength|Market strength):.*?\(([^)]+)\)/);
   $("#evidence-score").textContent = metric(markdown, /Evidence quality:\s+\*\*([\d.]+ \/ 100)\*\*/);
   $("#breadth-score").textContent = `${metric(markdown, /above 50DMA `([\d.]+)%`/)}%`;
   $("#breadth-label").textContent = metric(markdown, /Breadth:\s+\*\*([^*]+)\*\*/);
   $("#report-time").textContent = metric(markdown, /Generated at:\s+([^\n]+)/, "Report timestamp unavailable");
-
-  const subscoreBlock = markdown.match(/## Market Regime Score\s+\| Sub-score[\s\S]*?(?=\n\nPositive contributors:)/)?.[0] || "";
-  const rows = [...subscoreBlock.matchAll(/\|\s*([a-z_]+)\s*\|\s*([\d.]+)\s*\|/g)].slice(0, 9);
-  $("#regime-bars").classList.remove("loading-block");
-  $("#regime-bars").innerHTML = rows.map(([, label, value]) => `<div class="bar-row">
-    <div class="bar-label"><span>${escapeHtml(label.replaceAll("_", " "))}</span><strong>${escapeHtml(value)}</strong></div>
-    <div class="bar-track"><div class="bar-fill" style="width:${Math.min(100, Number(value))}%"></div></div>
-  </div>`).join("");
 }
 
 async function loadReport() {
@@ -268,7 +260,11 @@ function drawChart(rows, symbol, asset) {
 
 async function loadChart() {
   const asset = $("#chart-asset").value;
-  const symbol = $("#chart-symbol").value;
+  const symbol = $("#chart-symbol").value.trim().toUpperCase();
+  if (!symbol) {
+    $("#chart-summary").textContent = "Enter a symbol.";
+    return;
+  }
   $("#chart-summary").textContent = "Loading history...";
   const result = await apiFetch(`/${asset}/history/${encodeURIComponent(symbol)}?limit=90`);
   drawChart(result.data || [], symbol, asset);
@@ -286,7 +282,11 @@ function updateChartSymbols() {
     ["CIBR", "CIBR"], ["XAR", "XAR"], ["NLR", "NLR"], ["GRID", "GRID"], ["XLV", "XLV"]
   ];
   const options = asset === "equities" ? equityOptions : macroOptions;
-  $("#chart-symbol").innerHTML = options.map(([value, label]) => `<option value="${escapeHtml(value)}">${escapeHtml(label)}</option>`).join("");
+  $("#chart-symbol-options").innerHTML = options.map(([value, label]) => `<option value="${escapeHtml(value)}">${escapeHtml(label)}</option>`).join("");
+  const current = $("#chart-symbol").value.trim().toUpperCase();
+  if (!current || !options.some(([value]) => value === current)) {
+    $("#chart-symbol").value = options[0][0];
+  }
 }
 
 function updateQueryControls() {

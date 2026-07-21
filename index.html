@@ -48,7 +48,7 @@
 
         <div class="metric-grid">
           <article class="metric"><span>Regime Score</span><strong id="regime-score">--</strong><em id="regime-label">Unavailable</em></article>
-          <article class="metric"><span>Market Strength</span><strong id="strength-score">--</strong><em id="strength-label">Unavailable</em></article>
+          <article class="metric"><span>US Equity Strength</span><strong id="strength-score">--</strong><em id="strength-label">Unavailable</em></article>
           <article class="metric"><span>Evidence Quality</span><strong id="evidence-score">--</strong><em>Signal confidence</em></article>
           <article class="metric"><span>Market Breadth</span><strong id="breadth-score">--</strong><em id="breadth-label">Unavailable</em></article>
         </div>
@@ -61,11 +61,6 @@
             </div>
             <div id="macro-tape" class="tape-grid loading-block">Loading market data...</div>
           </article>
-
-          <article class="panel">
-            <div class="panel-heading"><div><p class="eyebrow">Signal Balance</p><h2>Regime Drivers</h2></div></div>
-            <div id="regime-bars" class="bar-list loading-block">Loading report...</div>
-          </article>
         </div>
       </section>
 
@@ -77,17 +72,8 @@
               <option value="macro">Macro</option>
               <option value="equities">Equity / ETF</option>
             </select>
-            <select id="chart-symbol" aria-label="Chart symbol">
-              <option value="^GSPC">S&amp;P 500</option>
-              <option value="^IXIC">Nasdaq Composite</option>
-              <option value="^RUT">Russell 2000</option>
-              <option value="^VIX">VIX</option>
-              <option value="^TNX">10Y Treasury</option>
-              <option value="GC=F">Gold</option>
-              <option value="SI=F">Silver</option>
-              <option value="HG=F">Copper</option>
-              <option value="CL=F">WTI Oil</option>
-            </select>
+            <input id="chart-symbol" list="chart-symbol-options" value="^GSPC" aria-label="Chart symbol" autocomplete="off">
+            <datalist id="chart-symbol-options"></datalist>
             <button id="load-chart" class="button secondary">Load</button>
           </div>
         </div>
