@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 22 July 2026, 03:11:28 (HKT)
+Generated at: 22 July 2026, 04:02:12 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -24,7 +24,7 @@ Window: 24h
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.0 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.07 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.35 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 68.12 | risk-on support; Weighted headline/news confirmation score. |
@@ -73,28 +73,28 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7508.67 | 0.88 | 2026-07-21 | live as of 22 July 2026, 03:00:42 (HKT) |
-| ^IXIC | NASDAQ Composite | 25840.11 | 1.3 | 2026-07-21 | live as of 22 July 2026, 03:00:42 (HKT) |
-| ^RUT | Russell 2000 Index | 2981.92 | 1.34 | 2026-07-21 | live as of 22 July 2026, 03:00:42 (HKT) |
-| ^VIX | CBOE Volatility Index | 17.02 | -8.74 | 2026-07-21 | live as of 22 July 2026, 03:00:42 (HKT) |
-| ^MOVE | ICE BofA MOVE Index | 72.66 | 2.51 | 2026-07-20 | closed |
-| ^FVX | Treasury Yield 5 Years | 4.37 | 0.99 | 2026-07-21 | live as of 22 July 2026, 03:00:42 (HKT) |
-| ^TNX | Treasury Yield 10 Years | 4.63 | 0.7 | 2026-07-21 | live as of 22 July 2026, 03:00:42 (HKT) |
-| ^TYX | Treasury Yield 30 Years | 5.13 | 0.31 | 2026-07-21 | live as of 22 July 2026, 03:00:42 (HKT) |
-| DX-Y.NYB | US Dollar Index | 101.19 | 0.2 | 2026-07-21 | live as of 22 July 2026, 03:00:42 (HKT) |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.64 | -0.04 | 2026-07-21 | live as of 22 July 2026, 03:00:42 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.89 | -0.24 | 2026-07-21 | live as of 22 July 2026, 03:00:42 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 95.92 | -0.03 | 2026-07-21 | live as of 22 July 2026, 03:00:42 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 212.67 | 0.12 | 2026-07-21 | live as of 22 July 2026, 03:00:42 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 121.39 | 1.6 | 2026-07-21 | live as of 22 July 2026, 03:00:42 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 247.32 | 0.15 | 2026-07-21 | live as of 22 July 2026, 03:00:42 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 83.69 | -0.24 | 2026-07-21 | live as of 22 July 2026, 03:00:42 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 93.31 | -0.24 | 2026-07-21 | live as of 22 July 2026, 03:00:42 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.89 | -0.09 | 2026-07-21 | live as of 22 July 2026, 03:00:42 (HKT) |
-| GC=F | Gold Future | 4085.0 | 1.86 | 2026-07-21 | live as of 22 July 2026, 03:00:42 (HKT) |
-| SI=F | Silver Future | 59.18 | 4.19 | 2026-07-21 | live as of 22 July 2026, 03:00:42 (HKT) |
-| CL=F | WTI Crude Oil Future | 84.48 | 1.5 | 2026-07-21 | live as of 22 July 2026, 03:00:42 (HKT) |
-| HG=F | Copper Future | 6.52 | 3.58 | 2026-07-21 | live as of 22 July 2026, 03:00:42 (HKT) |
+| ^GSPC | S&P 500 | 7509.21 | 0.89 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
+| ^IXIC | NASDAQ Composite | 25837.21 | 1.29 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
+| ^RUT | Russell 2000 Index | 2982.75 | 1.37 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
+| ^VIX | CBOE Volatility Index | 16.93 | -9.22 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
+| ^MOVE | ICE BofA MOVE Index | 72.66 | 2.51 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
+| ^FVX | Treasury Yield 5 Years | 4.37 | 0.97 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
+| ^TNX | Treasury Yield 10 Years | 4.63 | 0.65 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
+| ^TYX | Treasury Yield 30 Years | 5.13 | 0.23 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
+| DX-Y.NYB | US Dollar Index | 101.18 | 0.19 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.65 | -0.04 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.86 | -0.27 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 95.91 | -0.05 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 212.76 | 0.16 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 121.28 | 1.51 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 247.41 | 0.18 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 83.66 | -0.27 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 93.31 | -0.25 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.89 | -0.09 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
+| GC=F | Gold Future | 4088.8 | 1.96 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
+| SI=F | Silver Future | 59.04 | 3.94 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
+| CL=F | WTI Crude Oil Future | 84.68 | 1.74 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
+| HG=F | Copper Future | 6.53 | 3.64 | 2026-07-21 | live as of 22 July 2026, 04:00:38 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -318,7 +318,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=17.02 pct_chg=-8.74
+- VIX close=16.93 pct_chg=-9.22
 
 ## News Analytics
 
@@ -367,15 +367,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Ships shun Strait of Hormuz as renewed fighting strains key oil corridor**
-- Source: CNBC Business Headlines
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, geopolitical_risk, oil_market
-- Score: `48.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. U.S. hits Canada with stiff new tariffs, escalating trade tensions**
+**6. U.S. hits Canada with stiff new tariffs, escalating trade tensions**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -383,7 +375,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `47.6`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Trump looks set to roll out a new set of tariffs. Will markets care?**
+**7. Trump looks set to roll out a new set of tariffs. Will markets care?**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short term
@@ -391,7 +383,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.5`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**9. Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.**
+**8. Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / medium-term
@@ -399,13 +391,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `44.22`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. Your healthcare could now cost $185,500 in retirement — and that doesn’t include long-term care**
+**9. Your healthcare could now cost $185,500 in retirement — and that doesn’t include long-term care**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / long-term
 - Affected assets: healthcare costs, retirement planning
 - Score: `44.2`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**10. SpaceX gave investors intense FOMO. Now the decade’s hottest IPO represents a brutal reality check.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: SpaceX, related_tickers, FOMO, IPO, initial public offering (IPO)
+- Score: `44.2`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
@@ -500,7 +500,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `38`
-- Live macro rows used: `33`
+- Live macro rows used: `34`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
