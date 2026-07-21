@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-21T04:04:06.418487+00:00
+Generated at: 2026-07-21T04:11:19.948354+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.02 / 100** (Mild Risk-On)
+- Regime score: **57.24 / 100** (Mild Risk-On)
 - Market strength: **55.07 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **50.0 / 100**, reliability **67.08 / 100**
@@ -26,9 +26,9 @@ Window: 24h
 | dollar_fx | 53.79 |
 | commodity_confirmation | 63.0 |
 | etf_flow | 50.0 |
-| news_confirmation | 62.5 |
+| news_confirmation | 66.88 |
 
-Positive contributors: volatility=70.0, commodity_confirmation=63.0, news_confirmation=62.5, equity_trend=61.25
+Positive contributors: volatility=70.0, news_confirmation=66.88, commodity_confirmation=63.0, equity_trend=61.25
 Negative contributors: none
 
 ## Market Strength Score
@@ -322,8 +322,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 49, 'negative': 29, 'neutral': 2}
-- News confirmation score: `62.5`
+- Sentiment counts: {'positive': 53, 'negative': 26, 'neutral': 1}
+- News confirmation score: `66.88`
 
 ### Top Market-Moving Headlines
 
@@ -343,21 +343,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.51`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**3. China's Zhongji Innolight sees shares surge after Hong Kong listing approval**
-- Source: CNBC Top News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: Zhongji Innolight, Luxshare Precision, IPO, Hong Kong Stock Exchange
-- Score: `52.51`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**4. Russia pounds Kyiv as NATO military chief warns Moscow would 'lose a lot' by attacking Baltics**
+**3. Russia pounds Kyiv as NATO military chief warns Moscow would 'lose a lot' by attacking Baltics**
 - Source: CNBC Business News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: NATO, geo-political
 - Score: `52.02`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. Why cheap Chinese AI models could actually be a boon for Nvidia, Micron and other chip stocks**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / long-term
+- Affected assets: NVDA, MU, AI, Nvidia, Micron
+- Score: `51.0`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 **5. U.S. hits Canada with stiff new tariffs, escalating trade tensions**
 - Source: MarketWatch Bulletins
@@ -399,13 +399,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `47.37`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. SpaceX gave investors intense FOMO. Now the decade’s hottest IPO represents a brutal reality check.**
+**10. Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.**
 - Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: SpaceX, related_tickers, FOMO, IPO, initial public offering (IPO)
-- Score: `44.2`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / medium-term
+- Affected assets: P, S, AI, S&P 500
+- Score: `44.22`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
