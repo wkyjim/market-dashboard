@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-21T04:11:19.948354+00:00
+Generated at: 2026-07-21T05:03:06.155844+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.24 / 100** (Mild Risk-On)
+- Regime score: **57.13 / 100** (Mild Risk-On)
 - Market strength: **55.07 / 100** (neutral)
-- Evidence quality: **79.5 / 100**
-- ETF flow contribution: **50.0 / 100**, reliability **67.08 / 100**
+- Evidence quality: **83.0 / 100**
+- ETF flow contribution: **50.0 / 100**, reliability **68.69 / 100**
 - Breadth: **narrow**; above 50DMA `50.0%`, above 200DMA `67.8%`
 - Top sector score: **Financials** `69.55`
 - Top theme score: **Financials** `64.06`
@@ -23,12 +23,12 @@ Window: 24h
 | volatility | 70.0 |
 | rates_yield_curve | 58.0 |
 | credit_proxy | 50.0 |
-| dollar_fx | 53.79 |
-| commodity_confirmation | 63.0 |
+| dollar_fx | 55.23 |
+| commodity_confirmation | 59.0 |
 | etf_flow | 50.0 |
-| news_confirmation | 66.88 |
+| news_confirmation | 67.5 |
 
-Positive contributors: volatility=70.0, news_confirmation=66.88, commodity_confirmation=63.0, equity_trend=61.25
+Positive contributors: volatility=70.0, news_confirmation=67.5, equity_trend=61.25
 Negative contributors: none
 
 ## Market Strength Score
@@ -47,8 +47,8 @@ Negative contributors: none
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `79.5`
-- Agreement ratio: `0.5`
+- Confidence score: `83.0`
+- Agreement ratio: `0.6`
 - Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
@@ -61,10 +61,10 @@ Negative contributors: none
 | Rates | 10Y Treasury rising; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
-| Gold | Gold stable | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
+| Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude stable | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -81,7 +81,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^FVX | Treasury Yield 5 Years | 4.33 | 1.29 | 2026-07-20 | closed |
 | ^TNX | Treasury Yield 10 Years | 4.6 | 1.26 | 2026-07-20 | closed |
 | ^TYX | Treasury Yield 30 Years | 5.12 | 1.07 | 2026-07-20 | closed |
-| DX-Y.NYB | US Dollar Index | 100.99 | 0.24 | 2026-07-20 | closed |
+| DX-Y.NYB | US Dollar Index | 100.94 | -0.05 | 2026-07-21 | live as of 2026-07-21 05:00:24.341862+00:00 |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.68 | 0.04 | 2026-07-20 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 107.15 | -0.38 | 2026-07-20 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 95.95 | -0.03 | 2026-07-20 | closed |
@@ -91,10 +91,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 83.89 | -0.75 | 2026-07-20 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 93.54 | -0.32 | 2026-07-20 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.95 | -0.04 | 2026-07-20 | closed |
-| GC=F | Gold Future | 4011.8 | -0.02 | 2026-07-20 | closed |
-| SI=F | Silver Future | 56.66 | 1.12 | 2026-07-20 | closed |
-| CL=F | WTI Crude Oil Future | 82.42 | -0.08 | 2026-07-20 | closed |
-| HG=F | Copper Future | 6.34 | 1.94 | 2026-07-20 | closed |
+| GC=F | Gold Future | 4050.5 | 1.0 | 2026-07-21 | live as of 2026-07-21 05:00:24.341862+00:00 |
+| SI=F | Silver Future | 58.11 | 2.3 | 2026-07-21 | live as of 2026-07-21 05:00:24.341862+00:00 |
+| CL=F | WTI Crude Oil Future | 82.13 | -1.32 | 2026-07-21 | live as of 2026-07-21 05:00:24.341862+00:00 |
+| HG=F | Copper Future | 6.41 | 1.79 | 2026-07-21 | live as of 2026-07-21 05:00:24.341862+00:00 |
 
 ## Market Dispersion Analysis
 
@@ -322,8 +322,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 53, 'negative': 26, 'neutral': 1}
-- News confirmation score: `66.88`
+- Sentiment counts: {'positive': 53, 'negative': 25, 'neutral': 2}
+- News confirmation score: `67.5`
 
 ### Top Market-Moving Headlines
 
@@ -343,23 +343,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.51`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**3. Russia pounds Kyiv as NATO military chief warns Moscow would 'lose a lot' by attacking Baltics**
-- Source: CNBC Business News
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: NATO, geo-political
-- Score: `52.02`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**4. Why cheap Chinese AI models could actually be a boon for Nvidia, Micron and other chip stocks**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / long-term
-- Affected assets: NVDA, MU, AI, Nvidia, Micron
-- Score: `51.0`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**5. U.S. hits Canada with stiff new tariffs, escalating trade tensions**
+**3. U.S. hits Canada with stiff new tariffs, escalating trade tensions**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -367,7 +351,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Oil prices rise after Trump says Iran will pay for killing U.S. service members**
+**4. Oil prices rise after Trump says Iran will pay for killing U.S. service members**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -375,7 +359,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Iran's Houthi allies declare maritime embargo against Saudi Arabia, escalating threat to oil market**
+**5. Iran's Houthi allies declare maritime embargo against Saudi Arabia, escalating threat to oil market**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -383,7 +367,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Ships shun Strait of Hormuz as renewed fighting strains key oil corridor**
+**6. Ships shun Strait of Hormuz as renewed fighting strains key oil corridor**
 - Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -391,7 +375,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. FIFA emerges as the $9 billion winner as the biggest, brashest World Cup ever draws to a close**
+**7. FIFA emerges as the $9 billion winner as the biggest, brashest World Cup ever draws to a close**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -399,12 +383,28 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `47.37`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.**
+**8. Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / medium-term
 - Affected assets: P, S, AI, S&P 500
 - Score: `44.22`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**9. SpaceX gave investors intense FOMO. Now the decade’s hottest IPO represents a brutal reality check.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: SpaceX, related_tickers, FOMO, IPO, initial public offering (IPO)
+- Score: `44.2`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Why cheap Chinese AI models could actually be a boon for Nvidia, Micron and other chip stocks**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / long-term
+- Affected assets: NVDA, MU, AI, Nvidia, Micron
+- Score: `43.35`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
@@ -432,7 +432,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Sector cyclicality flow: `50.0`
 - Duration/liquidity flow: `50.0`
 - Alternatives: `mixed alternative-asset demand`
-- ETF flow reliability: `67.1 / 100`
+- ETF flow reliability: `68.7 / 100`
 - Dominant allocation direction: `mixed allocation`
 
 ### Core Flow Signals
@@ -458,17 +458,17 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 
 | Ticker | Exposure | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price State | Flow State | Volume State | PFV State | Regime Bias | Flow Structure | Confidence |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| XLC | Communication Services | -0.6 | -0.9 | 0.3 | 0.7 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural distribution | 79.0 |
-| XLY | Consumer Discretionary | 1.2 | 1.7 | 0.6 | 1.0 | Flat | Buy | Normal | Quiet Accumulation | Improving | Strong confirmation | 95.0 |
-| XLP | Consumer Staples | 0.9 | 1.3 | 0.3 | 1.3 | Up | Neutral | High | Momentum Rally | Watch | Structural accumulation | 91.0 |
-| XLE | Energy | -0.7 | -1.1 | 0.3 | -0.5 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural distribution | 79.0 |
-| XLF | Financials | 1.3 | 1.3 | 0.7 | 0.9 | Up | Buy | Normal | Steady Accumulation | Risk-On | Strong confirmation; Exceptional institutional buying | 100.0 |
-| XLV | Health Care | 1.7 | 0.0 | 0.6 | -0.5 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Medium-term recovery | 87.0 |
-| XLI | Industrials | 0.2 | 0.7 | 0.6 | 0.0 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation | 91.0 |
-| XLK | Information Technology | -4.2 | -0.7 | 0.6 | -0.1 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term deterioration; Exceptional institutional selling | 75.0 |
-| XLB | Materials | -0.4 | -0.3 | 0.5 | -0.8 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural accumulation | 91.0 |
-| XLRE | Real Estate | 1.6 | 1.8 | 0.7 | -0.8 | Up | Buy | Normal | Steady Accumulation | Risk-On | Strong confirmation | 95.0 |
-| XLU | Utilities | 0.6 | -0.5 | 0.6 | 0.1 | Flat | Neutral | Normal | Neutral | Neutral | Medium-term recovery | 87.0 |
+| XLC | Communication Services | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| XLY | Consumer Discretionary | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| XLP | Consumer Staples | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| XLE | Energy | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| XLF | Financials | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| XLV | Health Care | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| XLI | Industrials | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| XLK | Information Technology | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| XLB | Materials | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| XLRE | Real Estate | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| XLU | Utilities | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
 
 ### Subsector PFV Signals
 
@@ -500,7 +500,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `38`
-- Live macro rows used: `8`
+- Live macro rows used: `19`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
