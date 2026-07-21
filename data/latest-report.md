@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-21T02:08:05.776527+00:00
+Generated at: 2026-07-21T03:04:56.100856+00:00
 Window: 24h
 
 ## Executive Dashboard
@@ -367,15 +367,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.02`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. SpaceX gave investors intense FOMO. Now the decade’s hottest IPO represents a brutal reality check.**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: SpaceX, related_tickers, FOMO, IPO, initial public offering (IPO)
-- Score: `52.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Oil prices rise after Trump says Iran will pay for killing U.S. service members**
+**6. Oil prices rise after Trump says Iran will pay for killing U.S. service members**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -383,7 +375,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Iran's Houthi allies declare maritime embargo against Saudi Arabia, escalating threat to oil market**
+**7. Iran's Houthi allies declare maritime embargo against Saudi Arabia, escalating threat to oil market**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -391,7 +383,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. FIFA emerges as the $9 billion winner as the biggest, brashest World Cup ever draws to a close**
+**8. FIFA emerges as the $9 billion winner as the biggest, brashest World Cup ever draws to a close**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -399,13 +391,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `47.37`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. Global oil prices settle at one-month high despite new Iran ceasefire proposal, as blockade on Saudi Arabia by Yemen’s Houthis keeps market on edge**
+**9. Global oil prices settle at one-month high despite new Iran ceasefire proposal, as blockade on Saudi Arabia by Yemen’s Houthis keeps market on edge**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: CRBOVERSEAS.N, CL=F, U.S, oil_prices, geo_political_risk
 - Score: `45.5`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. SpaceX gave investors intense FOMO. Now the decade’s hottest IPO represents a brutal reality check.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: SpaceX, related_tickers, FOMO, IPO, initial public offering (IPO)
+- Score: `44.2`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
