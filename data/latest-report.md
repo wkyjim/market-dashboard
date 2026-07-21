@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-21T05:03:06.155844+00:00
+Generated at: 21 July 2026, 13:06:55 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -15,21 +15,21 @@ Window: 24h
 
 ## Market Regime Score
 
-| Sub-score | Value |
-| --- | --- |
-| equity_trend | 61.25 |
-| equity_momentum | 50.12 |
-| market_breadth | 54.27 |
-| volatility | 70.0 |
-| rates_yield_curve | 58.0 |
-| credit_proxy | 50.0 |
-| dollar_fx | 55.23 |
-| commodity_confirmation | 59.0 |
-| etf_flow | 50.0 |
-| news_confirmation | 67.5 |
-
-Positive contributors: volatility=70.0, news_confirmation=67.5, equity_trend=61.25
-Negative contributors: none
+| Metric | Value | Driver / Interpretation |
+| --- | --- | --- |
+| Overall regime | 57.13 | Mild Risk-On |
+| equity_trend | 61.25 | Sub-score used in the 0-100 regime calculation. |
+| equity_momentum | 50.12 | Sub-score used in the 0-100 regime calculation. |
+| market_breadth | 54.27 | Sub-score used in the 0-100 regime calculation. |
+| volatility | 70.0 | Sub-score used in the 0-100 regime calculation. |
+| rates_yield_curve | 58.0 | Sub-score used in the 0-100 regime calculation. |
+| credit_proxy | 50.0 | Sub-score used in the 0-100 regime calculation. |
+| dollar_fx | 55.23 | Sub-score used in the 0-100 regime calculation. |
+| commodity_confirmation | 59.0 | Sub-score used in the 0-100 regime calculation. |
+| etf_flow | 50.0 | Sub-score used in the 0-100 regime calculation. |
+| news_confirmation | 67.5 | Sub-score used in the 0-100 regime calculation. |
+| Positive contributors |  | volatility=70.0, news_confirmation=67.5, equity_trend=61.25 |
+| Negative contributors |  | none |
 
 ## Market Strength Score
 
@@ -81,7 +81,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^FVX | Treasury Yield 5 Years | 4.33 | 1.29 | 2026-07-20 | closed |
 | ^TNX | Treasury Yield 10 Years | 4.6 | 1.26 | 2026-07-20 | closed |
 | ^TYX | Treasury Yield 30 Years | 5.12 | 1.07 | 2026-07-20 | closed |
-| DX-Y.NYB | US Dollar Index | 100.94 | -0.05 | 2026-07-21 | live as of 2026-07-21 05:00:24.341862+00:00 |
+| DX-Y.NYB | US Dollar Index | 100.94 | -0.05 | 2026-07-21 | live as of 21 July 2026, 13:00:24 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.68 | 0.04 | 2026-07-20 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 107.15 | -0.38 | 2026-07-20 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 95.95 | -0.03 | 2026-07-20 | closed |
@@ -91,10 +91,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 83.89 | -0.75 | 2026-07-20 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 93.54 | -0.32 | 2026-07-20 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.95 | -0.04 | 2026-07-20 | closed |
-| GC=F | Gold Future | 4050.5 | 1.0 | 2026-07-21 | live as of 2026-07-21 05:00:24.341862+00:00 |
-| SI=F | Silver Future | 58.11 | 2.3 | 2026-07-21 | live as of 2026-07-21 05:00:24.341862+00:00 |
-| CL=F | WTI Crude Oil Future | 82.13 | -1.32 | 2026-07-21 | live as of 2026-07-21 05:00:24.341862+00:00 |
-| HG=F | Copper Future | 6.41 | 1.79 | 2026-07-21 | live as of 2026-07-21 05:00:24.341862+00:00 |
+| GC=F | Gold Future | 4050.5 | 1.0 | 2026-07-21 | live as of 21 July 2026, 13:00:24 (HKT) |
+| SI=F | Silver Future | 58.11 | 2.3 | 2026-07-21 | live as of 21 July 2026, 13:00:24 (HKT) |
+| CL=F | WTI Crude Oil Future | 82.13 | -1.32 | 2026-07-21 | live as of 21 July 2026, 13:00:24 (HKT) |
+| HG=F | Copper Future | 6.41 | 1.79 | 2026-07-21 | live as of 21 July 2026, 13:00:24 (HKT) |
 
 ## Market Dispersion Analysis
 
