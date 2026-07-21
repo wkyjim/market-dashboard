@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-20T22:11:12.332253+00:00
+Generated at: 2026-07-21T01:05:52.854469+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.08 / 100** (Mild Risk-On)
+- Regime score: **57.05 / 100** (Mild Risk-On)
 - Market strength: **55.07 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
-- ETF flow contribution: **50.0 / 100**, reliability **65.0 / 100**
+- ETF flow contribution: **50.0 / 100**, reliability **67.14 / 100**
 - Breadth: **narrow**; above 50DMA `50.0%`, above 200DMA `67.8%`
 - Top sector score: **Financials** `69.55`
 - Top theme score: **Financials** `64.06`
@@ -26,9 +26,9 @@ Window: 24h
 | dollar_fx | 53.79 |
 | commodity_confirmation | 63.0 |
 | etf_flow | 50.0 |
-| news_confirmation | 63.75 |
+| news_confirmation | 63.12 |
 
-Positive contributors: volatility=70.0, news_confirmation=63.75, commodity_confirmation=63.0, equity_trend=61.25
+Positive contributors: volatility=70.0, news_confirmation=63.12, commodity_confirmation=63.0, equity_trend=61.25
 Negative contributors: none
 
 ## Market Strength Score
@@ -322,8 +322,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 49, 'negative': 27, 'neutral': 4}
-- News confirmation score: `63.75`
+- Sentiment counts: {'positive': 48, 'negative': 27, 'neutral': 5}
+- News confirmation score: `63.12`
 
 ### Top Market-Moving Headlines
 
@@ -335,15 +335,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Oil prices rise after Trump says Iran will pay for killing U.S. service members**
-- Source: CNBC Top News
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, geopolitical_risk, oil_prices
-- Score: `57.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. U.S. hits Canada with stiff new tariffs, escalating trade tensions**
+**2. U.S. hits Canada with stiff new tariffs, escalating trade tensions**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -351,7 +343,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `56.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. China's car market heads for worst year since 2021 as sales plunge 20%**
+**3. China's car market heads for worst year since 2021 as sales plunge 20%**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / shortterm
@@ -359,7 +351,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.51`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**5. China's Zhongji Innolight sees shares surge after Hong Kong listing approval**
+**4. China's Zhongji Innolight sees shares surge after Hong Kong listing approval**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -367,7 +359,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.51`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. Russia pounds Kyiv as NATO military chief warns Moscow would 'lose a lot' by attacking Baltics**
+**5. Russia pounds Kyiv as NATO military chief warns Moscow would 'lose a lot' by attacking Baltics**
 - Source: CNBC Business News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -375,7 +367,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.02`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. SpaceX gave investors intense FOMO. Now the decade’s hottest IPO represents a brutal reality check.**
+**6. SpaceX gave investors intense FOMO. Now the decade’s hottest IPO represents a brutal reality check.**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -383,29 +375,37 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
+**7. Oil prices rise after Trump says Iran will pay for killing U.S. service members**
+- Source: CNBC Top News
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, geopolitical_risk, oil_prices
+- Score: `48.45`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
 **8. Iran's Houthi allies declare maritime embargo against Saudi Arabia, escalating threat to oil market**
-- Source: CNBC Markets
+- Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: geopolitical, oil_market
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Oil prices surge, stock futures flat as fighting between U.S., Iran intensifies**
-- Source: MarketWatch Bulletins
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S., U.S, Geopolitical Risk, Energy Markets
-- Score: `48.45`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+**9. FIFA emerges as the $9 billion winner as the biggest, brashest World Cup ever draws to a close**
+- Source: CNBC Top News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: FIFA, sports, business
+- Score: `47.37`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. Trump vows retaliation against Iran after U.S. deaths: 'They will pay'**
-- Source: CNBC Business Headlines
-- Importance / impact: High / Negative
+**10. Global oil prices settle at one-month high despite new Iran ceasefire proposal, as blockade on Saudi Arabia by Yemen’s Houthis keeps market on edge**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Mixed
 - Relevance / horizon: macro / short-term
-- Affected assets: U.S, geopolitical
-- Score: `48.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Affected assets: CRBOVERSEAS.N, CL=F, U.S, oil_prices, geo_political_risk
+- Score: `45.5`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
@@ -432,27 +432,27 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Sector cyclicality flow: `50.0`
 - Duration/liquidity flow: `50.0`
 - Alternatives: `mixed alternative-asset demand`
-- ETF flow reliability: `65.0 / 100`
+- ETF flow reliability: `67.1 / 100`
 - Dominant allocation direction: `mixed allocation`
 
 ### Core Flow Signals
 
 | Ticker | Exposure | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price State | Flow State | Volume State | PFV State | Regime Bias | Flow Structure | Confidence |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| IVV | U.S. Broad Equity | 2.5 | 1.3 | 0.6 | -0.1 | Flat | Buy | Normal | Quiet Accumulation | Improving | Strong confirmation; Exceptional institutional buying | 100.0 |
-| ACWI | Global Equity | -0.7 | -1.2 | 0.1 | 1.1 | Down | Neutral | High | Heavy Selling Pressure | Cautious | Medium-term recovery; Persistent selling | 79.0 |
-| EFA | Developed Markets ex-U.S. | -4.0 | -0.2 | 0.0 | -0.7 | Flat | Neutral | Normal | Neutral | Neutral | Medium-term deterioration; Exceptional institutional selling, Persistent selling | 67.0 |
-| IEMG | Emerging Markets | -0.5 | -0.7 | 0.1 | 0.5 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural distribution; Persistent selling | 71.0 |
-| IJH | U.S. Mid Cap | 0.4 | 0.3 | 0.6 | -0.0 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation | 91.0 |
-| IWM | U.S. Small Cap | 0.2 | 1.0 | 0.5 | 0.4 | Flat | Neutral | Normal | Neutral | Neutral | Medium-term deterioration | 83.0 |
-| LQD | Investment-Grade Credit | 1.4 | 0.1 | 0.7 | -0.2 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural accumulation | 91.0 |
-| HYG | High-Yield Credit | 0.4 | 0.3 | 0.6 | 0.7 | Flat | Neutral | Normal | Neutral | Neutral | Medium-term recovery | 87.0 |
-| SGOV | Treasury Bills / Cash | -0.8 | -0.5 | 0.8 | 0.1 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 99.0 |
-| SHY | Short-Duration Treasuries | -0.6 | -1.6 | 0.2 | 0.8 | Flat | Sell | Normal | Quiet Distribution | Weakening | Medium-term recovery; Persistent selling | 79.0 |
-| IEF | Intermediate-Duration Treasuries | 0.1 | -0.7 | 0.5 | 0.2 | Flat | Buy | Normal | Quiet Accumulation | Improving | Medium-term recovery | 87.0 |
-| TLT | Long-Duration Treasuries | 2.1 | 2.1 | 0.8 | -0.4 | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation; Exceptional institutional buying, Strong sponsorship | 100.0 |
-| GLD | Gold | -0.2 | -1.2 | 0.3 | -0.2 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural distribution | 79.0 |
-| IBIT | Bitcoin | -1.0 | -1.7 | 0.3 | 0.7 | Flat | Neutral | Normal | Neutral | Neutral | Structural distribution | 79.0 |
+| IVV | U.S. Broad Equity | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| ACWI | Global Equity | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| EFA | Developed Markets ex-U.S. | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| IEMG | Emerging Markets | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| IJH | U.S. Mid Cap | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| IWM | U.S. Small Cap | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| LQD | Investment-Grade Credit | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| HYG | High-Yield Credit | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| SGOV | Treasury Bills / Cash | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| SHY | Short-Duration Treasuries | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| IEF | Intermediate-Duration Treasuries | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| TLT | Long-Duration Treasuries | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| GLD | Gold | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| IBIT | Bitcoin | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
 
 ### Sector Flow Signals
 
@@ -474,9 +474,9 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 
 | Ticker | Exposure | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price State | Flow State | Volume State | PFV State | Regime Bias | Flow Structure | Confidence |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ITA | Aerospace and Defense | -0.0 | -0.2 | 0.3 | -0.5 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural distribution | 79.0 |
-| SOXX | Semiconductors | 2.7 | 2.2 | 0.6 | 1.6 | Down | Buy | High | Aggressive Dip Buying | Recovery Candidate | Strong confirmation; Exceptional institutional buying | 100.0 |
-| SMH | Semiconductors | 1.1 | 0.7 | 0.5 | 2.6 | Down | Neutral | High | Heavy Selling Pressure | Cautious | Structural accumulation | 91.0 |
+| ITA | Aerospace and Defense | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| SOXX | Semiconductors | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
+| SMH | Semiconductors | n/a | n/a | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 42.0 |
 | CIBR | Cybersecurity | 1.6 | 1.4 | 0.7 | -0.6 | Up | Buy | Normal | Steady Accumulation | Risk-On | Strong confirmation | 95.0 |
 
 ### Material Flow Divergences
@@ -500,7 +500,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `38`
-- Live macro rows used: `4`
+- Live macro rows used: `7`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
