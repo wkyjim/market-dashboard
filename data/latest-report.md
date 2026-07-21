@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 21 July 2026, 13:06:55 (HKT)
+Generated at: 21 July 2026, 13:15:48 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -18,16 +18,16 @@ Window: 24h
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
 | Overall regime | 57.13 | Mild Risk-On |
-| equity_trend | 61.25 | Sub-score used in the 0-100 regime calculation. |
-| equity_momentum | 50.12 | Sub-score used in the 0-100 regime calculation. |
-| market_breadth | 54.27 | Sub-score used in the 0-100 regime calculation. |
-| volatility | 70.0 | Sub-score used in the 0-100 regime calculation. |
-| rates_yield_curve | 58.0 | Sub-score used in the 0-100 regime calculation. |
-| credit_proxy | 50.0 | Sub-score used in the 0-100 regime calculation. |
-| dollar_fx | 55.23 | Sub-score used in the 0-100 regime calculation. |
-| commodity_confirmation | 59.0 | Sub-score used in the 0-100 regime calculation. |
-| etf_flow | 50.0 | Sub-score used in the 0-100 regime calculation. |
-| news_confirmation | 67.5 | Sub-score used in the 0-100 regime calculation. |
+| equity_trend | 61.25 | mild risk-on support; Core equity ETFs versus moving averages. |
+| equity_momentum | 50.12 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
+| market_breadth | 54.27 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
+| volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
+| rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
+| credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
+| dollar_fx | 55.23 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| etf_flow | 50.0 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| news_confirmation | 67.5 | risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=70.0, news_confirmation=67.5, equity_trend=61.25 |
 | Negative contributors |  | none |
 
