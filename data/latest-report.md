@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2026-07-21T03:04:56.100856+00:00
+Generated at: 2026-07-21T04:04:06.418487+00:00
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.08 / 100** (Mild Risk-On)
+- Regime score: **57.02 / 100** (Mild Risk-On)
 - Market strength: **55.07 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
-- ETF flow contribution: **50.0 / 100**, reliability **67.14 / 100**
+- ETF flow contribution: **50.0 / 100**, reliability **67.08 / 100**
 - Breadth: **narrow**; above 50DMA `50.0%`, above 200DMA `67.8%`
 - Top sector score: **Financials** `69.55`
 - Top theme score: **Financials** `64.06`
@@ -26,9 +26,9 @@ Window: 24h
 | dollar_fx | 53.79 |
 | commodity_confirmation | 63.0 |
 | etf_flow | 50.0 |
-| news_confirmation | 63.75 |
+| news_confirmation | 62.5 |
 
-Positive contributors: volatility=70.0, news_confirmation=63.75, commodity_confirmation=63.0, equity_trend=61.25
+Positive contributors: volatility=70.0, commodity_confirmation=63.0, news_confirmation=62.5, equity_trend=61.25
 Negative contributors: none
 
 ## Market Strength Score
@@ -322,20 +322,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 50, 'negative': 28, 'neutral': 2}
-- News confirmation score: `63.75`
+- Sentiment counts: {'positive': 49, 'negative': 29, 'neutral': 2}
+- News confirmation score: `62.5`
 
 ### Top Market-Moving Headlines
 
 **1. U.S. hits Canada with stiff new tariffs, escalating trade tensions**
-- Source: MarketWatch Bulletins
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, trade, tariffs
-- Score: `57.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. U.S. hits Canada with stiff new tariffs, escalating trade tensions**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -343,7 +335,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `56.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. China's car market heads for worst year since 2021 as sales plunge 20%**
+**2. China's car market heads for worst year since 2021 as sales plunge 20%**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / shortterm
@@ -351,7 +343,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.51`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**4. China's Zhongji Innolight sees shares surge after Hong Kong listing approval**
+**3. China's Zhongji Innolight sees shares surge after Hong Kong listing approval**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -359,12 +351,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.51`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. Russia pounds Kyiv as NATO military chief warns Moscow would 'lose a lot' by attacking Baltics**
+**4. Russia pounds Kyiv as NATO military chief warns Moscow would 'lose a lot' by attacking Baltics**
 - Source: CNBC Business News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: NATO, geo-political
 - Score: `52.02`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. U.S. hits Canada with stiff new tariffs, escalating trade tensions**
+- Source: MarketWatch Bulletins
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, trade, tariffs
+- Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **6. Oil prices rise after Trump says Iran will pay for killing U.S. service members**
@@ -383,21 +383,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. FIFA emerges as the $9 billion winner as the biggest, brashest World Cup ever draws to a close**
+**8. Ships shun Strait of Hormuz as renewed fighting strains key oil corridor**
+- Source: CNBC Business Headlines
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, geopolitical_risk, oil_market
+- Score: `48.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. FIFA emerges as the $9 billion winner as the biggest, brashest World Cup ever draws to a close**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: FIFA, sports, business
 - Score: `47.37`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**9. Global oil prices settle at one-month high despite new Iran ceasefire proposal, as blockade on Saudi Arabia by Yemen’s Houthis keeps market on edge**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: CRBOVERSEAS.N, CL=F, U.S, oil_prices, geo_political_risk
-- Score: `45.5`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **10. SpaceX gave investors intense FOMO. Now the decade’s hottest IPO represents a brutal reality check.**
 - Source: MarketWatch Top Stories
