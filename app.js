@@ -118,8 +118,10 @@ async function loadMacroTape() {
   const rows = payload.data || [];
   if (!rows.length) throw new Error("No macro rows returned");
   const rowsBySymbol = new Map(rows.map((row) => [row.symbol, row]));
-  $("#macro-tape").classList.remove("loading-block");
-  $("#macro-tape").innerHTML = MARKET_TAPE_GROUPS.map((group) => {
+  const macroTape = $("#macro-tape");
+  if (!macroTape) return;
+  macroTape.classList.remove("loading-block");
+  macroTape.innerHTML = MARKET_TAPE_GROUPS.map((group) => {
     const items = group.symbols.map(([symbol, label]) => {
       const row = rowsBySymbol.get(symbol);
       if (!row) {
@@ -201,6 +203,7 @@ async function loadReport() {
   const markdown = await response.text();
   parseReportMetrics(markdown);
   const content = $("#report-content");
+  if (!content) return;
   content.classList.remove("loading-block");
   content.innerHTML = renderMarkdown(markdown);
 }
@@ -381,9 +384,13 @@ async function refreshDashboard() {
   const outcomes = await Promise.allSettled([loadMacroTape(), loadReport(), loadChart()]);
   if (outcomes[0].status === "rejected") {
     setApiStatus(false, "API Unavailable");
-    $("#macro-tape").textContent = outcomes[0].reason.message;
+    const macroTape = $("#macro-tape");
+    if (macroTape) macroTape.textContent = outcomes[0].reason.message;
   }
-  if (outcomes[1].status === "rejected") $("#report-content").textContent = outcomes[1].reason.message;
+  if (outcomes[1].status === "rejected") {
+    const reportContent = $("#report-content");
+    if (reportContent) reportContent.textContent = outcomes[1].reason.message;
+  }
 }
 
 $("#refresh").addEventListener("click", refreshDashboard);

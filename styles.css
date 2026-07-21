@@ -93,14 +93,16 @@ h3 { margin-top: 24px; font-size: 16px; }
 .metric em { color: var(--muted); font-style: normal; font-size: 12px; }
 .panel-grid { display: grid; grid-template-columns: minmax(0, 2fr) minmax(280px, 1fr); gap: 18px; }
 .panel { min-width: 0; border: 1px solid var(--line); background: var(--paper); }
+.panel.wide { grid-column: 1 / -1; }
 .panel-heading { padding: 18px 20px; border-bottom: 1px solid var(--line); }
-.tape-grid { display: grid; grid-template-columns: 1fr; }
-.tape-group { min-width: 0; border-bottom: 1px solid var(--line); }
-.tape-group:last-child { border-bottom: 0; }
+.tape-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
+.tape-group { min-width: 0; border-right: 1px solid var(--line); border-bottom: 1px solid var(--line); }
+.tape-group:nth-child(2n) { border-right: 0; }
+.tape-group:nth-last-child(-n+2) { border-bottom: 0; }
 .tape-group h3 { margin: 0; padding: 13px 18px; border-bottom: 1px solid var(--line); color: var(--muted); background: var(--soft); font-size: 10px; text-transform: uppercase; }
-.tape-group-grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); }
+.tape-group-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); }
 .tape-item { min-width: 0; min-height: 104px; padding: 16px 18px; border-right: 1px solid var(--line); }
-.tape-item:nth-child(4n) { border-right: 0; }
+.tape-item:nth-child(2n) { border-right: 0; }
 .tape-item.missing { background: #fafafa; }
 .tape-item span, .tape-item strong, .tape-item small { display: block; }
 .tape-item span { overflow-wrap: anywhere; color: var(--muted); font-size: 10px; text-transform: uppercase; }
@@ -175,6 +177,10 @@ footer { margin-left: var(--sidebar); padding: 22px 56px; border-top: 1px solid 
   main { grid-column: 1 / -1; }
   .metric-grid { grid-template-columns: repeat(2, 1fr); }
   .panel-grid { grid-template-columns: 1fr; }
+  .tape-grid { grid-template-columns: 1fr; }
+  .tape-group { border-right: 0; }
+  .tape-group:nth-last-child(-n+2) { border-bottom: 1px solid var(--line); }
+  .tape-group:last-child { border-bottom: 0; }
   .query-form { grid-template-columns: repeat(3, 1fr); }
   .indicator-groups { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   footer { margin-left: 0; }
