@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 22 July 2026, 03:02:31 (HKT)
+Generated at: 22 July 2026, 03:11:28 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -367,15 +367,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Oil prices rise after Trump says Iran will pay for killing U.S. service members**
-- Source: CNBC Top News
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, geopolitical_risk, oil_prices
-- Score: `48.45`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Ships shun Strait of Hormuz as renewed fighting strains key oil corridor**
+**6. Ships shun Strait of Hormuz as renewed fighting strains key oil corridor**
 - Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -383,7 +375,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. U.S. hits Canada with stiff new tariffs, escalating trade tensions**
+**7. U.S. hits Canada with stiff new tariffs, escalating trade tensions**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -391,7 +383,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `47.6`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Trump looks set to roll out a new set of tariffs. Will markets care?**
+**8. Trump looks set to roll out a new set of tariffs. Will markets care?**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short term
@@ -399,7 +391,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.5`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**10. Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.**
+**9. Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / medium-term
@@ -407,10 +399,18 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `44.22`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
+**10. Your healthcare could now cost $185,500 in retirement — and that doesn’t include long-term care**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / long-term
+- Affected assets: healthcare costs, retirement planning
+- Score: `44.2`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
 
 ### Headline Quality Checks
 
-Noisy headline list: China contemplates tit-for-tat export controls aga
+Noisy headline list: As the U.S.-Iran war heats up again, these parts o, China contemplates tit-for-tat export controls aga
 
 ## Positioning & Flow Dashboard
 
