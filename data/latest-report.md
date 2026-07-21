@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 21 July 2026, 14:04:48 (HKT)
+Generated at: 21 July 2026, 15:02:05 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.12 / 100** (Mild Risk-On)
+- Regime score: **56.94 / 100** (Mild Risk-On)
 - Market strength: **55.07 / 100** (neutral)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **50.49 / 100**, reliability **71.05 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.12 | Mild Risk-On |
+| Overall regime | 56.94 | Mild Risk-On |
 | equity_trend | 61.25 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.12 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 54.27 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.33 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 55.44 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.35 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 66.25 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0, news_confirmation=66.25, equity_trend=61.25 |
+| news_confirmation | 62.5 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=70.0, news_confirmation=62.5, equity_trend=61.25 |
 | Negative contributors |  | none |
 
 ## Market Strength Score
@@ -81,7 +81,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^FVX | Treasury Yield 5 Years | 4.33 | 1.29 | 2026-07-20 | closed |
 | ^TNX | Treasury Yield 10 Years | 4.6 | 1.26 | 2026-07-20 | closed |
 | ^TYX | Treasury Yield 30 Years | 5.12 | 1.07 | 2026-07-20 | closed |
-| DX-Y.NYB | US Dollar Index | 100.92 | -0.07 | 2026-07-21 | live as of 21 July 2026, 14:00:35 (HKT) |
+| DX-Y.NYB | US Dollar Index | 100.9 | -0.09 | 2026-07-21 | live as of 21 July 2026, 15:00:39 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.68 | 0.04 | 2026-07-20 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 107.15 | -0.38 | 2026-07-20 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 95.95 | -0.03 | 2026-07-20 | closed |
@@ -91,10 +91,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 83.89 | -0.75 | 2026-07-20 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 93.54 | -0.32 | 2026-07-20 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.95 | -0.04 | 2026-07-20 | closed |
-| GC=F | Gold Future | 4070.3 | 1.5 | 2026-07-21 | live as of 21 July 2026, 14:00:35 (HKT) |
-| SI=F | Silver Future | 58.38 | 2.77 | 2026-07-21 | live as of 21 July 2026, 14:00:35 (HKT) |
-| CL=F | WTI Crude Oil Future | 81.9 | -1.6 | 2026-07-21 | live as of 21 July 2026, 14:00:35 (HKT) |
-| HG=F | Copper Future | 6.42 | 1.93 | 2026-07-21 | live as of 21 July 2026, 14:00:35 (HKT) |
+| GC=F | Gold Future | 4084.2 | 1.84 | 2026-07-21 | live as of 21 July 2026, 15:00:39 (HKT) |
+| SI=F | Silver Future | 59.1 | 4.05 | 2026-07-21 | live as of 21 July 2026, 15:00:39 (HKT) |
+| CL=F | WTI Crude Oil Future | 82.08 | -1.38 | 2026-07-21 | live as of 21 July 2026, 15:00:39 (HKT) |
+| HG=F | Copper Future | 6.47 | 2.65 | 2026-07-21 | live as of 21 July 2026, 15:00:39 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -322,20 +322,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 52, 'negative': 26, 'neutral': 2}
-- News confirmation score: `66.25`
+- Sentiment counts: {'positive': 49, 'negative': 29, 'neutral': 2}
+- News confirmation score: `62.5`
 
 ### Top Market-Moving Headlines
 
-**1. U.S. hits Canada with stiff new tariffs, escalating trade tensions**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S., U.S, trade policy, geopolitics
-- Score: `56.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. China's car market heads for worst year since 2021 as sales plunge 20%**
+**1. China's car market heads for worst year since 2021 as sales plunge 20%**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / shortterm
@@ -343,7 +335,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.51`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**3. U.S. hits Canada with stiff new tariffs, escalating trade tensions**
+**2. U.S. hits Canada with stiff new tariffs, escalating trade tensions**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -351,7 +343,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Oil prices rise after Trump says Iran will pay for killing U.S. service members**
+**3. Oil prices rise after Trump says Iran will pay for killing U.S. service members**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -359,7 +351,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Iran's Houthi allies declare maritime embargo against Saudi Arabia, escalating threat to oil market**
+**4. Iran's Houthi allies declare maritime embargo against Saudi Arabia, escalating threat to oil market**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -367,12 +359,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Ships shun Strait of Hormuz as renewed fighting strains key oil corridor**
+**5. Ships shun Strait of Hormuz as renewed fighting strains key oil corridor**
 - Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, geopolitical_risk, oil_market
 - Score: `48.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. U.S. hits Canada with stiff new tariffs, escalating trade tensions**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S., U.S, trade policy, geopolitics
+- Score: `47.6`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **7. Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.**
@@ -500,7 +500,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `38`
-- Live macro rows used: `19`
+- Live macro rows used: `16`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
