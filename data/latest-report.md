@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 23 July 2026, 03:01:48 (HKT)
+Generated at: 23 July 2026, 03:11:23 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **59.09 / 100** (Mild Risk-On)
+- Regime score: **59.16 / 100** (Mild Risk-On)
 - US equity strength: **63.29 / 100** (constructive)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **48.77 / 100**, reliability **71.05 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 59.09 | Mild Risk-On |
+| Overall regime | 59.16 | Mild Risk-On |
 | equity_trend | 72.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.88 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 57.05 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.24 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.13 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 73.75 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=73.75, equity_trend=72.5, volatility=70.0 |
+| news_confirmation | 75.0 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=75.0, equity_trend=72.5, volatility=70.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -322,8 +322,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 58, 'negative': 20, 'neutral': 2}
-- News confirmation score: `73.75`
+- Sentiment counts: {'positive': 60, 'negative': 20, 'neutral': 0}
+- News confirmation score: `75.0`
 
 ### Top Market-Moving Headlines
 
@@ -343,7 +343,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `60.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.**
+**3. Google earnings live updates: Alphabet's AI outlook, cloud growth in focus**
+- Source: CNBC Markets
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: GOOGL, GOOG, ET, AI, earnings
+- Score: `48.45`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**4. Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / medium-term
@@ -351,7 +359,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `44.22`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. Equinor Hikes Buyback as Earnings Jump on Higher Energy Prices**
+**5. Equinor Hikes Buyback as Earnings Jump on Higher Energy Prices**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -359,21 +367,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. An oil lifeline is under threat. Markets haven't priced in the growing crisis.**
+**6. An oil lifeline is under threat. Markets haven't priced in the growing crisis.**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / medium
 - Affected assets: oil, market crisis
 - Score: `41.99`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium.
-
-**6. Oil prices rise after Rubio says Iran is not serious about a deal**
-- Source: CNBC Top News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil prices, iran
-- Score: `41.33`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **7. Trump vows to bomb Iran's bridges, power plants if it shoots at ships in Hormuz Strait**
 - Source: CNBC Top News
