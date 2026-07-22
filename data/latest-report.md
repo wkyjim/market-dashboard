@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 22 July 2026, 15:01:47 (HKT)
+Generated at: 22 July 2026, 15:11:16 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -257,7 +257,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Financials | 60.65 | Positive setup | 67.81 | 95.0 | 8.59 | True | False |
 | 2 | Healthcare Innovation | 60.35 | Positive setup | 69.52 | 95.0 | 2.68 | True | False |
 | 3 | Cybersecurity | 60.17 | Positive setup | 68.61 | 65.0 | 11.5 | True | False |
-| 4 | Energy | 58.84 | Neutral / watchlist | 53.24 | 100.0 | 1.35 | False | False |
+| 4 | Energy | 59.97 | Neutral / watchlist | 53.24 | 100.0 | 1.35 | False | True |
 | 5 | Small Caps | 55.84 | Positive setup | 55.04 | 65.0 | 0.0 | False | False |
 | 6 | Semiconductors | 52.1 | Neutral / watchlist | 68.95 | 90.0 | 14.97 | False | False |
 | 7 | Dividend Defensives | 50.01 | Neutral / watchlist | 49.81 | 65.0 | 6.34 | False | False |
@@ -270,7 +270,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 - Top 5 improving themes: Cybersecurity, Semiconductors, Healthcare Innovation, Financials, AI Infrastructure
 - Top 5 deteriorating themes: Nuclear, Crypto Infrastructure, Defense, Grid Infrastructure, Energy
-- Strong news but weak price confirmation: none
+- Strong news but weak price confirmation: Energy
 - Strong price but weak news confirmation: Financials, Healthcare Innovation, Cybersecurity
 
 ### Sector / Theme Alignment
@@ -281,7 +281,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Healthcare | Healthcare Innovation | 66.43 | strong | 60.35 | positive | sector and theme confirmation |
 | Real Estate | Dividend Defensives | 65.6 | strong | 50.01 | mixed | sector stronger than related themes |
 | Financials | Financials | 64.89 | positive | 60.65 | positive | sector and theme confirmation |
-| Energy | Energy | 58.42 | positive | 58.84 | positive | sector and theme confirmation |
+| Energy | Energy | 58.42 | positive | 59.97 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 55.61 | positive | 41.3 | weak | sector stronger than related themes |
 | Consumer Staples | Dividend Defensives | 53.51 | mixed | 50.01 | mixed | mixed confirmation |
 | Crypto | Crypto Infrastructure | 49.48 | mixed | 40.94 | weak | mixed confirmation |
@@ -301,7 +301,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 2 | Financials | 65.35 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 3 | Small Caps | 63.92 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | Cybersecurity | 62.46 | Positive setup | relative_strength_20d, relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
-| 5 | Energy | 59.95 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 5 | Energy | 57.95 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 6 | Semiconductors | 55.2 | Neutral / watchlist | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 7 | Dividend Defensives | 54.32 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 8 | Quality Growth | 50.25 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
@@ -343,7 +343,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the next-year.
 
-**3. Oil prices could surpass $120 if Hormuz disruptions persist, says Goldman**
+**3. Equinor Hikes Buyback as Earnings Jump on Higher Energy Prices**
+- Source: Dow Jones US Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: EQNR, buyback, earnings, energy_prices
+- Score: `50.62`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. Oil prices could surpass $120 if Hormuz disruptions persist, says Goldman**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -351,7 +359,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.**
+**5. Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / medium-term
@@ -359,7 +367,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `44.22`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. Alphabet is pouring record cash into data centers, and earnings will show whether that’s paying off**
+**6. Alphabet is pouring record cash into data centers, and earnings will show whether that’s paying off**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -367,7 +375,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. An oil lifeline is under threat. Markets haven't priced in the growing crisis.**
+**7. Wistron shares surge in Taiwan after opening of Texas AI superchip plant to supply Nvidia**
+- Source: CNBC Top News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: WST.O, NVDA, U.S, Technology, Manufacturing
+- Score: `41.99`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**8. An oil lifeline is under threat. Markets haven't priced in the growing crisis.**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / medium
@@ -375,7 +391,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.99`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium.
 
-**7. UBS hikes its year-end S&P 500 target to 8,100. Here's why**
+**9. UBS hikes its year-end S&P 500 target to 8,100. Here's why**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / 12+ months
@@ -383,27 +399,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. Ships shun Strait of Hormuz as renewed fighting strains key oil corridor**
+**10. Ships shun Strait of Hormuz as renewed fighting strains key oil corridor**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, geopolitical_risk, oil_market
-- Score: `40.8`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. U.S. strikes Iran and Houthis threaten Saudi Arabia shipping as mediators push 10-day ceasefire**
-- Source: CNBC Business Headlines
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, conflict, trade
-- Score: `40.8`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Trump vows retaliation against Iran after U.S. deaths: 'They will pay'**
-- Source: CNBC Business Headlines
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, geopolitical
 - Score: `40.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
@@ -493,7 +493,9 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 
 ## Contradiction / Audit Flags
 
-No contradiction flags were triggered by current deterministic rules.
+| Severity | Section | Issue | Deterministic Fix |
+| --- | --- | --- | --- |
+| low | Theme Strength Ranking | Energy has strong news confirmation but weak price confirmation. | Classify as unconfirmed narrative. |
 
 ## Data Quality Notes
 
