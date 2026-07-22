@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 23 July 2026, 00:01:45 (HKT)
+Generated at: 23 July 2026, 00:11:17 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **59.49 / 100** (Mild Risk-On)
+- Regime score: **59.71 / 100** (Mild Risk-On)
 - US equity strength: **63.29 / 100** (constructive)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **48.77 / 100**, reliability **71.05 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 59.49 | Mild Risk-On |
+| Overall regime | 59.71 | Mild Risk-On |
 | equity_trend | 72.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.88 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 57.05 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.44 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.13 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 70.62 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=72.5, news_confirmation=70.62, volatility=70.0 |
+| news_confirmation | 75.0 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=75.0, equity_trend=72.5, volatility=70.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -242,7 +242,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 6 | Industrials | 55.61 | strong uptrend | neutral | broad | 56.52 | 65.0 | 47.46 | AXON, CTAS, PAYX | VRT, PNR, GNRC |
 | 7 | Consumer Staples | 53.51 | neutral | neutral | weak | 63.76 | 65.0 | 49.09 | KHC, MKC, ADM | PEP, WMT, STZ |
 | 8 | Crypto | 49.48 | neutral | neutral | mixed | 44.77 | 65.0 | 50.0 |  |  |
-| 9 | Semiconductors | 48.11 | neutral | neutral | weak | 68.95 | 90.0 | 48.26 | SMH, SOXX | SOXX, SMH |
+| 9 | Semiconductors | 47.6 | neutral | neutral | weak | 68.95 | 90.0 | 48.26 | SMH, SOXX | SOXX, SMH |
 | 10 | Technology | 45.63 | neutral | neutral | weak | 42.42 | 90.0 | 49.45 | WDAY, GDDY, PANW | SMCI, SNDK, MRVL |
 | 11 | Utilities | 41.13 | strong downtrend | neutral | mixed | 64.59 | 65.0 | 45.48 | EIX, AWK, PCG | NI, CEG, NRG |
 | 12 | Defense | 41.08 | downtrend | neutral | weak | 50.0 | 0.0 | 45.15 | XAR | XAR |
@@ -259,7 +259,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Cybersecurity | 60.17 | Positive setup | 68.61 | 65.0 | 11.5 | True | False |
 | 4 | Energy | 59.97 | Neutral / watchlist | 53.24 | 100.0 | 1.35 | False | True |
 | 5 | Small Caps | 55.84 | Positive setup | 55.04 | 65.0 | 0.0 | False | False |
-| 6 | Semiconductors | 53.23 | Neutral / watchlist | 68.95 | 90.0 | 14.97 | False | True |
+| 6 | Semiconductors | 52.1 | Neutral / watchlist | 68.95 | 90.0 | 14.97 | False | False |
 | 7 | Dividend Defensives | 50.01 | Neutral / watchlist | 49.81 | 65.0 | 6.34 | False | False |
 | 8 | Quality Growth | 47.4 | Neutral / watchlist | 56.9 | 65.0 | 16.26 | False | False |
 | 9 | AI Infrastructure | 46.47 | Neutral / watchlist | 68.95 | 90.0 | 23.9 | False | False |
@@ -270,7 +270,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 - Top 5 improving themes: Cybersecurity, Semiconductors, Healthcare Innovation, Financials, AI Infrastructure
 - Top 5 deteriorating themes: Nuclear, Crypto Infrastructure, Defense, Grid Infrastructure, Energy
-- Strong news but weak price confirmation: Energy, Semiconductors
+- Strong news but weak price confirmation: Energy
 - Strong price but weak news confirmation: Financials, Healthcare Innovation, Cybersecurity
 
 ### Sector / Theme Alignment
@@ -285,8 +285,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Industrials | Defense, Grid Infrastructure | 55.61 | positive | 41.3 | weak | sector stronger than related themes |
 | Consumer Staples | Dividend Defensives | 53.51 | mixed | 50.01 | mixed | mixed confirmation |
 | Crypto | Crypto Infrastructure | 49.48 | mixed | 40.94 | weak | mixed confirmation |
-| Semiconductors | AI Infrastructure, Semiconductors | 48.11 | mixed | 49.85 | mixed | mixed confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 45.63 | mixed | 49.03 | mixed | mixed confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 47.6 | mixed | 49.28 | mixed | mixed confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 45.63 | mixed | 48.65 | mixed | mixed confirmation |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 41.13 | weak | 40.34 | weak | broad weakness across sector and themes |
 | Defense | Defense | 41.08 | weak | 40.66 | weak | broad weakness across sector and themes |
 | Grid Infrastructure | Grid Infrastructure | 41.04 | weak | 41.94 | weak | broad weakness across sector and themes |
@@ -302,8 +302,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Small Caps | 63.92 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | Cybersecurity | 62.46 | Positive setup | relative_strength_20d, relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 5 | Energy | 57.95 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 6 | Dividend Defensives | 54.32 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 7 | Semiconductors | 53.2 | Neutral / watchlist | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
+| 6 | Semiconductors | 55.2 | Neutral / watchlist | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
+| 7 | Dividend Defensives | 54.32 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 8 | Quality Growth | 50.25 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 9 | AI Infrastructure | 47.62 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 10 | Grid Infrastructure | 44.48 | Weak setup | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
@@ -322,12 +322,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 55, 'negative': 22, 'neutral': 3}
-- News confirmation score: `70.62`
+- Sentiment counts: {'positive': 60, 'negative': 20, 'neutral': 0}
+- News confirmation score: `75.0`
 
 ### Top Market-Moving Headlines
 
-**1. An oil lifeline is under threat, and markets have yet to price in the growing crisis**
+**1. Houthis deploy missiles and drones to attack ships in southern Red Sea, naval group says**
+- Source: CNBC Markets
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: defense, geo-political, oil
+- Score: `72.67`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. An oil lifeline is under threat, and markets have yet to price in the growing crisis**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -335,7 +343,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `65.03`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Global oil prices rise above $95 a barrel for the first time in 6 weeks as hopes dim for de-escalation of Iran war**
+**3. Global oil prices rise above $95 a barrel for the first time in 6 weeks as hopes dim for de-escalation of Iran war**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -343,7 +351,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `60.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.**
+**4. Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / medium-term
@@ -351,7 +359,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `44.22`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. Equinor Hikes Buyback as Earnings Jump on Higher Energy Prices**
+**5. Equinor Hikes Buyback as Earnings Jump on Higher Energy Prices**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -359,7 +367,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. An oil lifeline is under threat. Markets haven't priced in the growing crisis.**
+**6. An oil lifeline is under threat. Markets haven't priced in the growing crisis.**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / medium
@@ -367,7 +375,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.99`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium.
 
-**6. Oil prices rise after Rubio says Iran is not serious about a deal**
+**7. Oil prices rise after Rubio says Iran is not serious about a deal**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -375,7 +383,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.33`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Ready for takeoff: This stock’s next growth runway is securing identity in an AI age**
+**8. Ready for takeoff: This stock’s next growth runway is securing identity in an AI age**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / long-term
@@ -383,7 +391,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. Trump looks set to roll out a new set of tariffs. Will markets care?**
+**9. Trump looks set to roll out a new set of tariffs. Will markets care?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short term
@@ -391,21 +399,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.67`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**9. AT&T’s stock rises after earnings. Here’s why investors are cheering.**
+**10. AT&T’s stock rises after earnings. Here’s why investors are cheering.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: AT, T, earnings report, subscriber growth, free cash flow
 - Score: `38.02`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. Your healthcare could now cost $185,500 in retirement — and that doesn’t include long-term care**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / long-term
-- Affected assets: healthcare costs, retirement planning
-- Score: `37.57`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
@@ -496,7 +496,6 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 | Severity | Section | Issue | Deterministic Fix |
 | --- | --- | --- | --- |
 | low | Theme Strength Ranking | Energy has strong news confirmation but weak price confirmation. | Classify as unconfirmed narrative. |
-| low | Theme Strength Ranking | Semiconductors has strong news confirmation but weak price confirmation. | Classify as unconfirmed narrative. |
 
 ## Data Quality Notes
 
