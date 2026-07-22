@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 23 July 2026, 02:01:56 (HKT)
+Generated at: 23 July 2026, 03:01:48 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **59.42 / 100** (Mild Risk-On)
+- Regime score: **59.09 / 100** (Mild Risk-On)
 - US equity strength: **63.29 / 100** (constructive)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **48.77 / 100**, reliability **71.05 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 59.42 | Mild Risk-On |
+| Overall regime | 59.09 | Mild Risk-On |
 | equity_trend | 72.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.88 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 57.05 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.22 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 51.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 55.24 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.13 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 74.38 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=74.38, equity_trend=72.5, volatility=70.0 |
+| news_confirmation | 73.75 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=73.75, equity_trend=72.5, volatility=70.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -73,28 +73,28 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7511.84 | 0.04 | 2026-07-22 | live as of 23 July 2026, 02:00:40 (HKT) |
-| ^IXIC | NASDAQ Composite | 25762.02 | -0.29 | 2026-07-22 | live as of 23 July 2026, 02:00:40 (HKT) |
-| ^RUT | Russell 2000 Index | 2965.84 | -0.72 | 2026-07-22 | live as of 23 July 2026, 02:00:40 (HKT) |
-| ^VIX | CBOE Volatility Index | 16.81 | -1.41 | 2026-07-22 | live as of 23 July 2026, 02:00:40 (HKT) |
+| ^GSPC | S&P 500 | 7509.51 | 0.0 | 2026-07-22 | live as of 23 July 2026, 03:00:35 (HKT) |
+| ^IXIC | NASDAQ Composite | 25757.12 | -0.31 | 2026-07-22 | live as of 23 July 2026, 03:00:35 (HKT) |
+| ^RUT | Russell 2000 Index | 2962.15 | -0.85 | 2026-07-22 | live as of 23 July 2026, 03:00:35 (HKT) |
+| ^VIX | CBOE Volatility Index | 16.95 | -0.59 | 2026-07-22 | live as of 23 July 2026, 03:00:35 (HKT) |
 | ^MOVE | ICE BofA MOVE Index | 74.67 | 5.35 | 2026-07-21 | closed |
-| ^FVX | Treasury Yield 5 Years | 4.4 | 0.78 | 2026-07-22 | live as of 23 July 2026, 02:00:40 (HKT) |
-| ^TNX | Treasury Yield 10 Years | 4.65 | 0.56 | 2026-07-22 | live as of 23 July 2026, 02:00:40 (HKT) |
-| ^TYX | Treasury Yield 30 Years | 5.14 | 0.27 | 2026-07-22 | live as of 23 July 2026, 02:00:40 (HKT) |
-| DX-Y.NYB | US Dollar Index | 101.14 | -0.04 | 2026-07-22 | live as of 23 July 2026, 02:00:40 (HKT) |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.55 | -0.13 | 2026-07-22 | live as of 23 July 2026, 02:00:40 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.72 | -0.12 | 2026-07-22 | live as of 23 July 2026, 02:00:40 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 95.78 | -0.13 | 2026-07-22 | live as of 23 July 2026, 02:00:40 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 213.03 | 0.12 | 2026-07-22 | live as of 23 July 2026, 02:00:40 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 121.36 | 0.03 | 2026-07-22 | live as of 23 July 2026, 02:00:40 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 247.44 | 0.0 | 2026-07-22 | live as of 23 July 2026, 02:00:40 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 83.5 | -0.19 | 2026-07-22 | live as of 23 July 2026, 02:00:40 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 93.14 | -0.18 | 2026-07-22 | live as of 23 July 2026, 02:00:40 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.84 | -0.05 | 2026-07-22 | live as of 23 July 2026, 02:00:40 (HKT) |
-| GC=F | Gold Future | 4148.9 | 1.91 | 2026-07-22 | live as of 23 July 2026, 02:00:40 (HKT) |
-| SI=F | Silver Future | 60.35 | 2.58 | 2026-07-22 | live as of 23 July 2026, 02:00:40 (HKT) |
-| CL=F | WTI Crude Oil Future | 86.81 | 2.24 | 2026-07-22 | live as of 23 July 2026, 02:00:40 (HKT) |
-| HG=F | Copper Future | 6.48 | -0.41 | 2026-07-22 | live as of 23 July 2026, 02:00:40 (HKT) |
+| ^FVX | Treasury Yield 5 Years | 4.4 | 0.78 | 2026-07-22 | live as of 23 July 2026, 03:00:35 (HKT) |
+| ^TNX | Treasury Yield 10 Years | 4.65 | 0.56 | 2026-07-22 | live as of 23 July 2026, 03:00:35 (HKT) |
+| ^TYX | Treasury Yield 30 Years | 5.15 | 0.31 | 2026-07-22 | live as of 23 July 2026, 03:00:35 (HKT) |
+| DX-Y.NYB | US Dollar Index | 101.13 | -0.05 | 2026-07-22 | live as of 23 July 2026, 03:00:35 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.53 | -0.16 | 2026-07-22 | live as of 23 July 2026, 03:00:35 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.72 | -0.12 | 2026-07-22 | live as of 23 July 2026, 03:00:35 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 95.75 | -0.15 | 2026-07-22 | live as of 23 July 2026, 03:00:35 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 212.71 | -0.02 | 2026-07-22 | live as of 23 July 2026, 03:00:35 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 121.31 | -0.01 | 2026-07-22 | live as of 23 July 2026, 03:00:35 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 247.38 | -0.02 | 2026-07-22 | live as of 23 July 2026, 03:00:35 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 83.47 | -0.22 | 2026-07-22 | live as of 23 July 2026, 03:00:35 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 93.13 | -0.19 | 2026-07-22 | live as of 23 July 2026, 03:00:35 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.84 | -0.05 | 2026-07-22 | live as of 23 July 2026, 03:00:35 (HKT) |
+| GC=F | Gold Future | 4143.0 | 1.77 | 2026-07-22 | live as of 23 July 2026, 03:00:35 (HKT) |
+| SI=F | Silver Future | 60.24 | 2.4 | 2026-07-22 | live as of 23 July 2026, 03:00:35 (HKT) |
+| CL=F | WTI Crude Oil Future | 86.95 | 2.4 | 2026-07-22 | live as of 23 July 2026, 03:00:35 (HKT) |
+| HG=F | Copper Future | 6.48 | -0.53 | 2026-07-22 | live as of 23 July 2026, 03:00:35 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -318,12 +318,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=16.81 pct_chg=-1.41
+- VIX close=16.95 pct_chg=-0.59
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 59, 'negative': 20, 'neutral': 1}
-- News confirmation score: `74.38`
+- Sentiment counts: {'positive': 58, 'negative': 20, 'neutral': 2}
+- News confirmation score: `73.75`
 
 ### Top Market-Moving Headlines
 
@@ -335,7 +335,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `72.67`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Global oil prices rise above $95 a barrel for the first time in 6 weeks as hopes dim for de-escalation of Iran war**
+**2. Global oil prices hold gains after topping $95 a barrel for the first time in 6 weeks as hopes dim for de-escalation of Iran war**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -375,15 +375,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.33`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Trump looks set to roll out a new set of tariffs. Will markets care?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short term
-- Affected assets: Economic Policy
-- Score: `38.67`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
-
-**8. Trump vows to bomb Iran's bridges, power plants if it shoots at ships in Hormuz Strait**
+**7. Trump vows to bomb Iran's bridges, power plants if it shoots at ships in Hormuz Strait**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -391,7 +383,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.05`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**9. CNBC Daily Open: AI race, potential tariffs and Middle East conflict continue to heat up**
+**8. CNBC Daily Open: AI race, potential tariffs and Middle East conflict continue to heat up**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -399,13 +391,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.74`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Wistron shares surge in Taiwan after opening of Texas AI superchip plant to supply Nvidia**
+**9. Wistron shares surge in Taiwan after opening of Texas AI superchip plant to supply Nvidia**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: WST.O, NVDA, U.S, Technology, Manufacturing
 - Score: `35.69`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**10. AT&T’s stock rises after earnings. Here’s why investors are cheering.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: AT, T, earnings report, subscriber growth, free cash flow
+- Score: `32.32`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
