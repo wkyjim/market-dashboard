@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 22 July 2026, 16:01:42 (HKT)
+Generated at: 22 July 2026, 17:01:40 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -24,7 +24,7 @@ Window: 24h
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.27 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 55.28 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 51.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.13 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 73.75 | risk-on support; Weighted headline/news confirmation score. |
@@ -76,12 +76,12 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7509.2 | 0.89 | 2026-07-21 | closed |
 | ^IXIC | NASDAQ Composite | 25837.21 | 1.29 | 2026-07-21 | closed |
 | ^RUT | Russell 2000 Index | 2987.4 | 1.53 | 2026-07-21 | closed |
-| ^VIX | CBOE Volatility Index | 17.57 | 3.05 | 2026-07-22 | live as of 22 July 2026, 16:00:37 (HKT) |
+| ^VIX | CBOE Volatility Index | 17.46 | 2.4 | 2026-07-22 | live as of 22 July 2026, 17:00:35 (HKT) |
 | ^MOVE | ICE BofA MOVE Index | 74.67 | 5.35 | 2026-07-21 | closed |
 | ^FVX | Treasury Yield 5 Years | 4.37 | 0.97 | 2026-07-21 | closed |
 | ^TNX | Treasury Yield 10 Years | 4.63 | 0.65 | 2026-07-21 | closed |
 | ^TYX | Treasury Yield 30 Years | 5.13 | 0.23 | 2026-07-21 | closed |
-| DX-Y.NYB | US Dollar Index | 101.13 | -0.05 | 2026-07-22 | live as of 22 July 2026, 16:00:37 (HKT) |
+| DX-Y.NYB | US Dollar Index | 101.12 | -0.06 | 2026-07-22 | live as of 22 July 2026, 17:00:35 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.65 | -0.04 | 2026-07-21 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.85 | -0.28 | 2026-07-21 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 95.9 | -0.05 | 2026-07-21 | closed |
@@ -91,10 +91,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 83.66 | -0.27 | 2026-07-21 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 93.31 | -0.25 | 2026-07-21 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.89 | -0.09 | 2026-07-21 | closed |
-| GC=F | Gold Future | 4114.5 | 1.07 | 2026-07-22 | live as of 22 July 2026, 16:00:37 (HKT) |
-| SI=F | Silver Future | 59.4 | 0.96 | 2026-07-22 | live as of 22 July 2026, 16:00:37 (HKT) |
-| CL=F | WTI Crude Oil Future | 87.75 | 3.34 | 2026-07-22 | live as of 22 July 2026, 16:00:37 (HKT) |
-| HG=F | Copper Future | 6.51 | -0.04 | 2026-07-22 | live as of 22 July 2026, 16:00:37 (HKT) |
+| GC=F | Gold Future | 4119.6 | 1.19 | 2026-07-22 | live as of 22 July 2026, 17:00:35 (HKT) |
+| SI=F | Silver Future | 59.73 | 1.52 | 2026-07-22 | live as of 22 July 2026, 17:00:35 (HKT) |
+| CL=F | WTI Crude Oil Future | 87.71 | 3.3 | 2026-07-22 | live as of 22 July 2026, 17:00:35 (HKT) |
+| HG=F | Copper Future | 6.52 | 0.08 | 2026-07-22 | live as of 22 July 2026, 17:00:35 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -318,7 +318,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=17.57 pct_chg=3.05
+- VIX close=17.46 pct_chg=2.4
 
 ## News Analytics
 
@@ -335,15 +335,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `65.03`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Oil prices could surpass $120 per barrel if disruptions in Strait of Hormuz don’t ease, says Goldman Sachs**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / next-year
-- Affected assets: oil_prices, geopolitical_risk
-- Score: `51.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the next-year.
-
-**3. Equinor Hikes Buyback as Earnings Jump on Higher Energy Prices**
+**2. Equinor Hikes Buyback as Earnings Jump on Higher Energy Prices**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -351,7 +343,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `50.62`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Oil prices could surpass $120 if Hormuz disruptions persist, says Goldman**
+**3. Oil prices could surpass $120 if Hormuz disruptions persist, says Goldman**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -359,7 +351,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.**
+**4. Forget Nvidia. These 5 S&P 500 stocks are quietly going all in on AI.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / medium-term
@@ -367,7 +359,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `44.22`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. Alphabet is pouring record cash into data centers, and earnings will show whether that’s paying off**
+**5. Alphabet is pouring record cash into data centers, and earnings will show whether that’s paying off**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -375,7 +367,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. Wistron shares surge in Taiwan after opening of Texas AI superchip plant to supply Nvidia**
+**6. Wistron shares surge in Taiwan after opening of Texas AI superchip plant to supply Nvidia**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -383,7 +375,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.99`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. An oil lifeline is under threat. Markets haven't priced in the growing crisis.**
+**7. An oil lifeline is under threat. Markets haven't priced in the growing crisis.**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / medium
@@ -391,7 +383,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.99`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium.
 
-**9. UBS hikes its year-end S&P 500 target to 8,100. Here's why**
+**8. UBS hikes its year-end S&P 500 target to 8,100. Here's why**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / 12+ months
@@ -399,11 +391,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. Ships shun Strait of Hormuz as renewed fighting strains key oil corridor**
+**9. Ships shun Strait of Hormuz as renewed fighting strains key oil corridor**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, geopolitical_risk, oil_market
+- Score: `40.8`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. U.S. strikes Iran and Houthis threaten Saudi Arabia shipping as mediators push 10-day ceasefire**
+- Source: CNBC Business Headlines
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, conflict, trade
 - Score: `40.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
@@ -502,7 +502,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `38`
-- Live macro rows used: `17`
+- Live macro rows used: `16`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
