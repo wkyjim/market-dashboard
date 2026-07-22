@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 22 July 2026, 15:11:16 (HKT)
+Generated at: 22 July 2026, 16:01:42 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **59.64 / 100** (Mild Risk-On)
+- Regime score: **59.4 / 100** (Mild Risk-On)
 - US equity strength: **63.29 / 100** (constructive)
-- Evidence quality: **86.5 / 100**
+- Evidence quality: **83.0 / 100**
 - ETF flow contribution: **48.77 / 100**, reliability **71.05 / 100**
 - Breadth: **healthy**; above 50DMA `50.0%`, above 200DMA `69.49%`
 - Top sector score: **Cybersecurity** `68.91`
@@ -17,15 +17,15 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 59.64 | Mild Risk-On |
+| Overall regime | 59.4 | Mild Risk-On |
 | equity_trend | 72.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.88 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 57.05 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.28 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 55.27 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 51.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.13 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 73.75 | risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | news_confirmation=73.75, equity_trend=72.5, volatility=70.0 |
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `86.5`
-- Agreement ratio: `0.7`
+- Confidence score: `83.0`
+- Agreement ratio: `0.6`
 - Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
@@ -65,7 +65,7 @@ Window: 24h
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper stable | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
-| Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
+| Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
 
@@ -76,12 +76,12 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7509.2 | 0.89 | 2026-07-21 | closed |
 | ^IXIC | NASDAQ Composite | 25837.21 | 1.29 | 2026-07-21 | closed |
 | ^RUT | Russell 2000 Index | 2987.4 | 1.53 | 2026-07-21 | closed |
-| ^VIX | CBOE Volatility Index | 17.05 | -8.58 | 2026-07-21 | closed |
+| ^VIX | CBOE Volatility Index | 17.57 | 3.05 | 2026-07-22 | live as of 22 July 2026, 16:00:37 (HKT) |
 | ^MOVE | ICE BofA MOVE Index | 74.67 | 5.35 | 2026-07-21 | closed |
 | ^FVX | Treasury Yield 5 Years | 4.37 | 0.97 | 2026-07-21 | closed |
 | ^TNX | Treasury Yield 10 Years | 4.63 | 0.65 | 2026-07-21 | closed |
 | ^TYX | Treasury Yield 30 Years | 5.13 | 0.23 | 2026-07-21 | closed |
-| DX-Y.NYB | US Dollar Index | 101.12 | -0.06 | 2026-07-22 | live as of 22 July 2026, 15:00:35 (HKT) |
+| DX-Y.NYB | US Dollar Index | 101.13 | -0.05 | 2026-07-22 | live as of 22 July 2026, 16:00:37 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.65 | -0.04 | 2026-07-21 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.85 | -0.28 | 2026-07-21 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 95.9 | -0.05 | 2026-07-21 | closed |
@@ -91,10 +91,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 83.66 | -0.27 | 2026-07-21 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 93.31 | -0.25 | 2026-07-21 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.89 | -0.09 | 2026-07-21 | closed |
-| GC=F | Gold Future | 4119.6 | 1.19 | 2026-07-22 | live as of 22 July 2026, 15:00:35 (HKT) |
-| SI=F | Silver Future | 59.58 | 1.26 | 2026-07-22 | live as of 22 July 2026, 15:00:35 (HKT) |
-| CL=F | WTI Crude Oil Future | 86.35 | 1.7 | 2026-07-22 | live as of 22 July 2026, 15:00:35 (HKT) |
-| HG=F | Copper Future | 6.5 | -0.11 | 2026-07-22 | live as of 22 July 2026, 15:00:35 (HKT) |
+| GC=F | Gold Future | 4114.5 | 1.07 | 2026-07-22 | live as of 22 July 2026, 16:00:37 (HKT) |
+| SI=F | Silver Future | 59.4 | 0.96 | 2026-07-22 | live as of 22 July 2026, 16:00:37 (HKT) |
+| CL=F | WTI Crude Oil Future | 87.75 | 3.34 | 2026-07-22 | live as of 22 July 2026, 16:00:37 (HKT) |
+| HG=F | Copper Future | 6.51 | -0.04 | 2026-07-22 | live as of 22 July 2026, 16:00:37 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -318,7 +318,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=17.05 pct_chg=-8.58
+- VIX close=17.57 pct_chg=3.05
 
 ## News Analytics
 
@@ -502,7 +502,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `38`
-- Live macro rows used: `16`
+- Live macro rows used: `17`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
