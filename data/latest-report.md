@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 22 July 2026, 09:11:09 (HKT)
+Generated at: 22 July 2026, 10:07:38 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **59.93 / 100** (Mild Risk-On)
+- Regime score: **59.9 / 100** (Mild Risk-On)
 - US equity strength: **63.29 / 100** (constructive)
 - Evidence quality: **83.0 / 100**
-- ETF flow contribution: **49.0 / 100**, reliability **66.77 / 100**
+- ETF flow contribution: **48.65 / 100**, reliability **66.72 / 100**
 - Breadth: **healthy**; above 50DMA `50.0%`, above 200DMA `69.49%`
 - Top sector score: **Cybersecurity** `67.05`
 - Top theme score: **Financials** `59.78`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 59.93 | Mild Risk-On |
+| Overall regime | 59.9 | Mild Risk-On |
 | equity_trend | 72.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.88 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 57.05 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 54.04 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 49.33 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 49.1 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 71.25 | risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=72.5, news_confirmation=71.25, volatility=70.0, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
@@ -351,15 +351,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the next-year.
 
-**4. An oil lifeline is under threat. Markets haven't priced in the growing crisis.**
-- Source: MarketWatch Bulletins
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / medium
-- Affected assets: oil, market crisis
-- Score: `49.4`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium.
-
-**5. Oil prices could surpass $120 if Hormuz disruptions persist, says Goldman**
+**4. Oil prices could surpass $120 if Hormuz disruptions persist, says Goldman**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -367,7 +359,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Inflation fears are back in the spotlight as the Middle East conflict keeps oil prices elevated, analysts say**
+**5. Inflation fears are back in the spotlight as the Middle East conflict keeps oil prices elevated, analysts say**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -375,7 +367,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Alphabet is pouring record cash into data centers, and earnings will show whether that’s paying off**
+**6. Alphabet is pouring record cash into data centers, and earnings will show whether that’s paying off**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -383,13 +375,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. CNBC Daily Open: AI race, potential tariffs and Middle East conflict continue to heat up**
+**7. CNBC Daily Open: AI race, potential tariffs and Middle East conflict continue to heat up**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: CNBC, Alibaba, Baidu, Tesla, IPO
 - Score: `43.23`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. An oil lifeline is under threat. Markets haven't priced in the growing crisis.**
+- Source: MarketWatch Bulletins
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / medium
+- Affected assets: oil, market crisis
+- Score: `41.99`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium.
 
 **9. Ships shun Strait of Hormuz as renewed fighting strains key oil corridor**
 - Source: CNBC Business Headlines
@@ -426,13 +426,13 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 ## ETF Flows Analysis
 
 - Market flow regime: `Mixed / Neutral`
-- Market flow score: `52.2 / 100`
+- Market flow score: `51.7 / 100`
 - Equity risk flow: `50.7`
 - Credit risk flow: `50.0`
 - Sector cyclicality flow: `57.1`
-- Duration/liquidity flow: `54.1`
+- Duration/liquidity flow: `51.3`
 - Alternatives: `mixed alternative-asset demand`
-- ETF flow reliability: `66.8 / 100`
+- ETF flow reliability: `66.7 / 100`
 - Dominant allocation direction: `defensive demand`
 
 ### Core Flow Signals
@@ -447,7 +447,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 | IWM | U.S. Small Cap | 0.6 | 1.4 | 0.6 | -1.3 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation | 91.0 |
 | LQD | Investment-Grade Credit | 0.8 | -0.1 | 0.6 | -0.2 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural accumulation | 91.0 |
 | HYG | High-Yield Credit | -0.1 | -0.2 | 0.5 | -0.8 | Flat | Neutral | Normal | Neutral | Neutral | Structural distribution | 79.0 |
-| SGOV | Treasury Bills / Cash | -0.6 | -0.3 | 0.8 | -0.3 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 99.0 |
+| SGOV | Treasury Bills / Cash | -0.6 | -0.3 | 0.8 | -1.0 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 99.0 |
 | SHY | Short-Duration Treasuries | -0.1 | -1.5 | 0.3 | -1.2 | Flat | Neutral | Normal | Neutral | Neutral | Medium-term recovery | 87.0 |
 | IEF | Intermediate-Duration Treasuries | 0.0 | -0.7 | 0.6 | -1.5 | Down | Neutral | Low | Weak Downtrend | Neutral | Medium-term recovery | 87.0 |
 | TLT | Long-Duration Treasuries | 1.9 | 1.9 | 0.7 | -1.5 | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation | 95.0 |
@@ -499,7 +499,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `38`
-- Live macro rows used: `7`
+- Live macro rows used: `8`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
