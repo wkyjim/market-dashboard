@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 23 July 2026, 10:07:44 (HKT)
+Generated at: 23 July 2026, 11:07:06 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -8,7 +8,7 @@ Window: 24h
 - Regime score: **60.68 / 100** (Mild Risk-On)
 - US equity strength: **63.87 / 100** (constructive)
 - Evidence quality: **86.5 / 100**
-- ETF flow contribution: **48.28 / 100**, reliability **67.19 / 100**
+- ETF flow contribution: **48.29 / 100**, reliability **67.12 / 100**
 - Breadth: **healthy**; above 50DMA `55.0%`, above 200DMA `71.19%`
 - Top sector score: **Real Estate** `65.4`
 - Top theme score: **Financials** `61.72`
@@ -348,7 +348,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, oil_prices, geopolitical_risk
-- Score: `60.0`
+- Score: `51.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **4. Alphabet earnings takeaways: Q2 revenue beats, GOOGL stock sinks on 2026 capex hike**
@@ -367,15 +367,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Alphabet earnings: Google parent's capex doubles as AI spending boom continues**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: GOOGL, GOOG, AI, capex
-- Score: `41.99`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**7. Analysis: Iran war energy shock hits the U.S. economy as gas and diesel prices climb**
+**6. Analysis: Iran war energy shock hits the U.S. economy as gas and diesel prices climb**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -383,7 +375,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. ServiceNow’s stock rises as earnings show momentum in cybersecurity**
+**7. ServiceNow’s stock rises as earnings show momentum in cybersecurity**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -391,21 +383,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.02`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. CSX Reports Higher Second-Quarter Profit, Sales**
-- Source: Dow Jones US Business
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: CSX, railroad, revenue
-- Score: `37.29`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. Tesla's stock falls as Musk-led EV maker reports earnings that miss expectations**
+**8. Stocks close mostly lower as Iran conflict pushes up oil prices and bond yields**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: TSLA, EV, Automotive, Electric Vehicles
-- Score: `37.05`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+- Relevance / horizon: macro / short-term
+- Affected assets: geopolitical_risk, oil_prices
+- Score: `36.74`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. Alphabet earnings: Google parent's capex doubles as AI spending boom continues**
+- Source: MarketWatch Bulletins
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: GOOGL, GOOG, AI, capex
+- Score: `35.69`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**10. Wistron shares surge in Taiwan after opening of Texas AI superchip plant to supply Nvidia**
+- Source: CNBC Top News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: WST.O, NVDA, U.S, Technology, Manufacturing
+- Score: `35.69`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
@@ -432,7 +432,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Sector cyclicality flow: `54.5`
 - Duration/liquidity flow: `51.1`
 - Alternatives: `mixed alternative-asset demand`
-- ETF flow reliability: `67.2 / 100`
+- ETF flow reliability: `67.1 / 100`
 - Dominant allocation direction: `defensive demand`
 
 ### Core Flow Signals
