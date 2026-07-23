@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 23 July 2026, 09:18:57 (HKT)
+Generated at: 23 July 2026, 10:07:44 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -359,15 +359,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. Stocks close mostly lower as Iran conflict pushes up oil prices and bond yields**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: geopolitical_risk, oil_prices
-- Score: `43.23`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. Equinor Hikes Buyback as Earnings Jump on Higher Energy Prices**
+**5. Equinor Hikes Buyback as Earnings Jump on Higher Energy Prices**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -375,7 +367,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Alphabet earnings: Google parent's capex doubles as AI spending boom continues**
+**6. Alphabet earnings: Google parent's capex doubles as AI spending boom continues**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -383,7 +375,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.99`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. Analysis: Iran war energy shock hits the U.S. economy as gas and diesel prices climb**
+**7. Analysis: Iran war energy shock hits the U.S. economy as gas and diesel prices climb**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -391,7 +383,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**9. ServiceNow’s stock rises as earnings show momentum in cybersecurity**
+**8. ServiceNow’s stock rises as earnings show momentum in cybersecurity**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -399,13 +391,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.02`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. CSX Reports Higher Second-Quarter Profit, Sales**
+**9. CSX Reports Higher Second-Quarter Profit, Sales**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: CSX, railroad, revenue
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Tesla's stock falls as Musk-led EV maker reports earnings that miss expectations**
+- Source: MarketWatch Bulletins
+- Importance / impact: Medium / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: TSLA, EV, Automotive, Electric Vehicles
+- Score: `37.05`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
@@ -499,7 +499,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `38`
-- Live macro rows used: `7`
+- Live macro rows used: `8`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
