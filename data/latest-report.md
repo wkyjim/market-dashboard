@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 24 July 2026, 02:02:03 (HKT)
+Generated at: 24 July 2026, 03:02:06 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **54.11 / 100** (Mixed / Rotation)
+- Regime score: **53.95 / 100** (Mixed / Rotation)
 - US equity strength: **63.87 / 100** (constructive)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **48.52 / 100**, reliability **71.63 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 54.11 | Mixed / Rotation |
+| Overall regime | 53.95 | Mixed / Rotation |
 | equity_trend | 72.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.09 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 64.84 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 20.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 53.42 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 53.44 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 38.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.94 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 67.5 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=72.5, news_confirmation=67.5, market_breadth=64.84 |
+| news_confirmation | 64.38 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=72.5, market_breadth=64.84, news_confirmation=64.38 |
 | Negative contributors |  | volatility=20.0, commodity_confirmation=38.0 |
 
 ## US Equity Strength Score
@@ -73,28 +73,28 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7396.35 | -1.37 | 2026-07-23 | live as of 24 July 2026, 02:00:38 (HKT) |
-| ^IXIC | NASDAQ Composite | 25105.98 | -2.28 | 2026-07-23 | live as of 24 July 2026, 02:00:38 (HKT) |
-| ^RUT | Russell 2000 Index | 2933.0 | -0.91 | 2026-07-23 | live as of 24 July 2026, 02:00:38 (HKT) |
-| ^VIX | CBOE Volatility Index | 19.39 | 16.53 | 2026-07-23 | live as of 24 July 2026, 02:00:38 (HKT) |
+| ^GSPC | S&P 500 | 7396.26 | -1.37 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
+| ^IXIC | NASDAQ Composite | 25087.6 | -2.35 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
+| ^RUT | Russell 2000 Index | 2932.99 | -0.91 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
+| ^VIX | CBOE Volatility Index | 19.52 | 17.31 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
 | ^MOVE | ICE BofA MOVE Index | 76.31 | 7.65 | 2026-07-22 | closed |
-| ^FVX | Treasury Yield 5 Years | 4.46 | 1.18 | 2026-07-23 | live as of 24 July 2026, 02:00:38 (HKT) |
-| ^TNX | Treasury Yield 10 Years | 4.7 | 0.99 | 2026-07-23 | live as of 24 July 2026, 02:00:38 (HKT) |
-| ^TYX | Treasury Yield 30 Years | 5.17 | 0.51 | 2026-07-23 | live as of 24 July 2026, 02:00:38 (HKT) |
-| DX-Y.NYB | US Dollar Index | 101.46 | 0.32 | 2026-07-23 | live as of 24 July 2026, 02:00:38 (HKT) |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.2 | -0.4 | 2026-07-23 | live as of 24 July 2026, 02:00:38 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.22 | -0.42 | 2026-07-23 | live as of 24 July 2026, 02:00:38 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 95.37 | -0.4 | 2026-07-23 | live as of 24 July 2026, 02:00:38 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 211.31 | -0.65 | 2026-07-23 | live as of 24 July 2026, 02:00:38 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 118.52 | -1.98 | 2026-07-23 | live as of 24 July 2026, 02:00:38 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 245.58 | -0.78 | 2026-07-23 | live as of 24 July 2026, 02:00:38 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 83.1 | -0.41 | 2026-07-23 | live as of 24 July 2026, 02:00:38 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 92.83 | -0.29 | 2026-07-23 | live as of 24 July 2026, 02:00:38 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.76 | -0.09 | 2026-07-23 | live as of 24 July 2026, 02:00:38 (HKT) |
-| GC=F | Gold Future | 4046.2 | -2.43 | 2026-07-23 | live as of 24 July 2026, 02:00:38 (HKT) |
-| SI=F | Silver Future | 57.84 | -3.62 | 2026-07-23 | live as of 24 July 2026, 02:00:38 (HKT) |
-| CL=F | WTI Crude Oil Future | 92.91 | 7.0 | 2026-07-23 | live as of 24 July 2026, 02:00:38 (HKT) |
-| HG=F | Copper Future | 6.33 | -1.91 | 2026-07-23 | live as of 24 July 2026, 02:00:38 (HKT) |
+| ^FVX | Treasury Yield 5 Years | 4.46 | 1.13 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
+| ^TNX | Treasury Yield 10 Years | 4.7 | 0.86 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
+| ^TYX | Treasury Yield 30 Years | 5.17 | 0.35 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
+| DX-Y.NYB | US Dollar Index | 101.45 | 0.31 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.19 | -0.42 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.25 | -0.4 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 95.33 | -0.44 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 211.59 | -0.52 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 118.38 | -2.1 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 245.87 | -0.67 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 83.15 | -0.35 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 92.85 | -0.27 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.78 | -0.07 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
+| GC=F | Gold Future | 4049.4 | -2.35 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
+| SI=F | Silver Future | 57.85 | -3.61 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
+| CL=F | WTI Crude Oil Future | 92.24 | 6.23 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
+| HG=F | Copper Future | 6.32 | -2.08 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -318,16 +318,24 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=19.39 pct_chg=16.53
+- VIX close=19.52 pct_chg=17.31
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 54, 'negative': 26, 'neutral': 0}
-- News confirmation score: `67.5`
+- Sentiment counts: {'positive': 49, 'negative': 26, 'neutral': 5}
+- News confirmation score: `64.38`
 
 ### Top Market-Moving Headlines
 
-**1. Stocks slump after earnings disappoint and oil hits $100 a barrel — live updates**
+**1. Brent crude crosses $100 after tankers reportedly struck off Saudi Arabia**
+- Source: CNBC Markets
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short term
+- Affected assets: U.S, Geopolitical Risk, Energy
+- Score: `72.67`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
+
+**2. Stocks slump after earnings disappoint and oil hits $100 a barrel — live updates**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -335,23 +343,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `72.67`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Brent crude crosses $100 after tankers reportedly struck off Saudi Arabia**
-- Source: CNBC Top News
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short term
-- Affected assets: U.S, Geopolitical Risk, Energy
-- Score: `72.67`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
-
-**3. Houthis deploy missiles and drones to attack ships in southern Red Sea, naval group says**
-- Source: CNBC Markets
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: defense, geo-political, oil
-- Score: `61.77`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**4. Global oil prices top $100 after Houthis claim strikes on Saudi Arabian tankers**
+**3. Global oil prices top $100 after Houthis claim strikes on Saudi Arabian tankers**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -359,21 +351,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `60.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Japan’s $1.8 trillion pension giant might bring money home. That could jolt U.S. stocks and the Fed.**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, foreign assets, pension funds, U.S. stocks
-- Score: `60.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. Brent Hits $100 Again as Houthi Attacks Threaten Further Supply Squeeze**
+**4. Brent Hits $100 Again as Houthi Attacks Threaten Further Supply Squeeze**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: crude_oil_prices, geopolitical_risk
 - Score: `57.38`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. Odds of Federal Reserve rate hike surge as oil prices rip higher**
+- Source: CNBC Markets
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: Federal Reserve policy, oil prices
+- Score: `57.0`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'**
+- Source: CNBC Top News
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, oil prices, geopolitical risk
+- Score: `57.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **7. Alphabet’s massive profit growth is just an illusion, as SpaceX and Anthropic help mask a historic cash drain**
 - Source: MarketWatch Top Stories
@@ -383,7 +383,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. Global oil prices settle at 6-week high after topping $95 a barrel, as hopes dim for de-escalation of Iran war**
+**8. Japan’s $1.8 trillion pension giant might bring money home. That could jolt U.S. stocks and the Fed.**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, foreign assets, pension funds, U.S. stocks
+- Score: `51.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. Global oil prices settle at 6-week high after topping $95 a barrel, as hopes dim for de-escalation of Iran war**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -391,21 +399,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Canada’s Mark Carney has tried the carrot and the stick with Trump—but neither has worked, and now Canada will enter trade talks with the threat of hefty U.S. tariffs on billions in Canadian goods**
+**10. Canada’s Mark Carney has tried the carrot and the stick with Trump—but neither has worked, and now Canada will enter trade talks with the threat of hefty U.S. tariffs on billions in Canadian goods**
 - Source: Dow Jones Economy
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, trade tensions, tariffs
 - Score: `43.35`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Tesla on track for worst post-earnings-report trading session since 2013**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: TSLA, Automobiles, Electric Vehicles
-- Score: `41.68`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
