@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 23 July 2026, 14:05:54 (HKT)
+Generated at: 23 July 2026, 15:01:41 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **61.09 / 100** (Mild Risk-On)
+- Regime score: **61.02 / 100** (Mild Risk-On)
 - US equity strength: **63.87 / 100** (constructive)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **48.52 / 100**, reliability **71.63 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 61.09 | Mild Risk-On |
+| Overall regime | 61.02 | Mild Risk-On |
 | equity_trend | 72.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.09 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 64.84 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.75 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 55.67 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 62.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.94 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 75.0 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=75.0, equity_trend=72.5, volatility=70.0, market_breadth=64.84, commodity_confirmation=62.0 |
+| news_confirmation | 73.75 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=73.75, equity_trend=72.5, volatility=70.0, market_breadth=64.84, commodity_confirmation=62.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -81,7 +81,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^FVX | Treasury Yield 5 Years | 4.41 | 0.85 | 2026-07-22 | closed |
 | ^TNX | Treasury Yield 10 Years | 4.66 | 0.63 | 2026-07-22 | closed |
 | ^TYX | Treasury Yield 30 Years | 5.15 | 0.33 | 2026-07-22 | closed |
-| DX-Y.NYB | US Dollar Index | 100.99 | -0.15 | 2026-07-23 | live as of 23 July 2026, 14:00:41 (HKT) |
+| DX-Y.NYB | US Dollar Index | 101.0 | -0.13 | 2026-07-23 | live as of 23 July 2026, 15:00:34 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.52 | -0.16 | 2026-07-22 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.67 | -0.17 | 2026-07-22 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 95.75 | -0.16 | 2026-07-22 | closed |
@@ -91,10 +91,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 83.44 | -0.26 | 2026-07-22 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 93.1 | -0.23 | 2026-07-22 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.83 | -0.07 | 2026-07-22 | closed |
-| GC=F | Gold Future | 4126.7 | -0.49 | 2026-07-23 | live as of 23 July 2026, 14:00:41 (HKT) |
-| SI=F | Silver Future | 59.95 | -0.12 | 2026-07-23 | live as of 23 July 2026, 14:00:41 (HKT) |
-| CL=F | WTI Crude Oil Future | 88.2 | 1.58 | 2026-07-23 | live as of 23 July 2026, 14:00:41 (HKT) |
-| HG=F | Copper Future | 6.51 | 0.84 | 2026-07-23 | live as of 23 July 2026, 14:00:41 (HKT) |
+| GC=F | Gold Future | 4124.3 | -0.55 | 2026-07-23 | live as of 23 July 2026, 15:00:34 (HKT) |
+| SI=F | Silver Future | 59.89 | -0.21 | 2026-07-23 | live as of 23 July 2026, 15:00:34 (HKT) |
+| CL=F | WTI Crude Oil Future | 88.55 | 1.98 | 2026-07-23 | live as of 23 July 2026, 15:00:34 (HKT) |
+| HG=F | Copper Future | 6.51 | 0.98 | 2026-07-23 | live as of 23 July 2026, 15:00:34 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -322,13 +322,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 60, 'negative': 20, 'neutral': 0}
-- News confirmation score: `75.0`
+- Sentiment counts: {'positive': 59, 'negative': 21, 'neutral': 0}
+- News confirmation score: `73.75`
 
 ### Top Market-Moving Headlines
 
 **1. Oil prices climb after tanker struck off Saudi Arabia, Trump escalates Iran threats**
-- Source: CNBC Top News
+- Source: CNBC Markets
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short term
 - Affected assets: U.S, Geopolitical Risk, Energy
@@ -367,15 +367,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**6. Equinor Hikes Buyback as Earnings Jump on Higher Energy Prices**
-- Source: Dow Jones US Business
-- Importance / impact: Medium / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: EQNR, buyback, earnings, energy_prices
-- Score: `43.03`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Alphabet earnings takeaways: Q2 revenue beats, GOOGL stock sinks on 2026 capex hike**
+**6. Alphabet earnings takeaways: Q2 revenue beats, GOOGL stock sinks on 2026 capex hike**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -383,15 +375,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. ServiceNow’s stock rises as earnings show momentum in cybersecurity**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: SNOW, cybersecurity, technology
-- Score: `38.02`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**9. Stocks close mostly lower as Iran conflict pushes up oil prices and bond yields**
+**7. Stocks close mostly lower as Iran conflict pushes up oil prices and bond yields**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -399,13 +383,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.74`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Alphabet earnings: Google parent's capex doubles as AI spending boom continues**
+**8. Alphabet earnings: Google parent's capex doubles as AI spending boom continues**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: GOOGL, GOOG, AI, capex
 - Score: `35.69`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**9. Analysis: Iran war energy shock hits the U.S. economy as gas and diesel prices climb**
+- Source: CNBC Business Headlines
+- Importance / impact: Low / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: A, U.S, geopolitical_risk, energy_prices
+- Score: `34.68`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**10. ServiceNow’s stock rises as earnings show momentum in cybersecurity**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: SNOW, cybersecurity, technology
+- Score: `32.32`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
@@ -500,7 +500,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `38`
-- Live macro rows used: `19`
+- Live macro rows used: `16`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
