@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 24 July 2026, 03:11:29 (HKT)
+Generated at: 24 July 2026, 04:02:08 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -24,7 +24,7 @@ Window: 24h
 | volatility | 20.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 53.44 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 53.5 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 38.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.94 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 66.25 | risk-on support; Weighted headline/news confirmation score. |
@@ -73,28 +73,28 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7396.26 | -1.37 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
-| ^IXIC | NASDAQ Composite | 25087.6 | -2.35 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
-| ^RUT | Russell 2000 Index | 2932.99 | -0.91 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
-| ^VIX | CBOE Volatility Index | 19.52 | 17.31 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
-| ^MOVE | ICE BofA MOVE Index | 76.31 | 7.65 | 2026-07-22 | closed |
-| ^FVX | Treasury Yield 5 Years | 4.46 | 1.13 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
-| ^TNX | Treasury Yield 10 Years | 4.7 | 0.86 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
-| ^TYX | Treasury Yield 30 Years | 5.17 | 0.35 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
-| DX-Y.NYB | US Dollar Index | 101.45 | 0.31 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.19 | -0.42 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.25 | -0.4 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 95.33 | -0.44 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 211.59 | -0.52 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 118.38 | -2.1 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 245.87 | -0.67 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 83.15 | -0.35 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 92.85 | -0.27 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.78 | -0.07 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
-| GC=F | Gold Future | 4049.4 | -2.35 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
-| SI=F | Silver Future | 57.85 | -3.61 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
-| CL=F | WTI Crude Oil Future | 92.24 | 6.23 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
-| HG=F | Copper Future | 6.32 | -2.08 | 2026-07-23 | live as of 24 July 2026, 03:00:36 (HKT) |
+| ^GSPC | S&P 500 | 7408.1 | -1.21 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
+| ^IXIC | NASDAQ Composite | 25137.69 | -2.15 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
+| ^RUT | Russell 2000 Index | 2936.08 | -0.81 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
+| ^VIX | CBOE Volatility Index | 19.44 | 16.83 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
+| ^MOVE | ICE BofA MOVE Index | 76.31 | 7.65 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
+| ^FVX | Treasury Yield 5 Years | 4.46 | 1.23 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
+| ^TNX | Treasury Yield 10 Years | 4.7 | 0.99 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
+| ^TYX | Treasury Yield 30 Years | 5.17 | 0.47 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
+| DX-Y.NYB | US Dollar Index | 101.44 | 0.3 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.24 | -0.35 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.25 | -0.39 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 95.39 | -0.37 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 211.9 | -0.38 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 118.6 | -1.92 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 246.11 | -0.57 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 83.17 | -0.32 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 92.85 | -0.27 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.77 | -0.07 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
+| GC=F | Gold Future | 4049.4 | -2.35 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
+| SI=F | Silver Future | 57.77 | -3.75 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
+| CL=F | WTI Crude Oil Future | 91.82 | 5.75 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
+| HG=F | Copper Future | 6.32 | -2.08 | 2026-07-23 | live as of 24 July 2026, 04:00:39 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -318,7 +318,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=19.52 pct_chg=17.31
+- VIX close=19.44 pct_chg=16.83
 
 ## News Analytics
 
@@ -340,7 +340,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: earnings_disappointments, oil_prices
-- Score: `72.67`
+- Score: `61.77`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **3. Global oil prices top $100 after Houthis claim strikes on Saudi Arabian tankers**
@@ -500,7 +500,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `38`
-- Live macro rows used: `33`
+- Live macro rows used: `34`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
