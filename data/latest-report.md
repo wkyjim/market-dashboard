@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 24 July 2026, 00:01:52 (HKT)
+Generated at: 24 July 2026, 00:11:22 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **54.1 / 100** (Mixed / Rotation)
+- Regime score: **53.97 / 100** (Mixed / Rotation)
 - US equity strength: **63.87 / 100** (constructive)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **48.52 / 100**, reliability **71.63 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 54.1 | Mixed / Rotation |
+| Overall regime | 53.97 | Mixed / Rotation |
 | equity_trend | 72.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.09 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 64.84 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 53.3 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 38.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.94 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 67.5 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=72.5, news_confirmation=67.5, market_breadth=64.84 |
+| news_confirmation | 65.0 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=72.5, news_confirmation=65.0, market_breadth=64.84 |
 | Negative contributors |  | volatility=20.0, commodity_confirmation=38.0 |
 
 ## US Equity Strength Score
@@ -246,7 +246,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 10 | Semiconductors | 48.35 | neutral | neutral | weak | 66.77 | 100.0 | 50.17 | SMH, SOXX | SOXX, SMH |
 | 11 | Technology | 47.02 | neutral | neutral | weak | 50.0 | 0.0 | 49.76 | GDDY, PANW, WDAY | ORCL, MRVL, CRWD |
 | 12 | Grid Infrastructure | 42.71 | downtrend | neutral | weak | 68.2 | 65.0 | 42.93 | GRID | GRID |
-| 13 | Defense | 40.63 | downtrend | neutral | weak | 50.0 | 0.0 | 45.82 | XAR | XAR |
+| 13 | Defense | 40.46 | downtrend | neutral | weak | 50.0 | 0.0 | 45.82 | XAR | XAR |
 | 14 | Consumer Discretionary | 36.81 | strong downtrend | neutral | weak | 66.75 | 65.0 | 45.56 | BBY, GPC, DPZ | DHI, CCL, WYNN |
 | 15 | Nuclear | 34.19 | strong downtrend | negative | weak | 50.0 | 0.0 | 32.59 | NLR | NLR |
 
@@ -264,7 +264,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 8 | Grid Infrastructure | 49.99 | Neutral / watchlist | 68.2 | 65.0 | 10.33 | False | False |
 | 9 | AI Infrastructure | 47.57 | Neutral / watchlist | 66.77 | 100.0 | 13.94 | False | False |
 | 10 | Quality Growth | 47.28 | Neutral / watchlist | 57.25 | 65.0 | 12.86 | False | False |
-| 11 | Defense | 43.73 | Weak setup | 50.0 | 0.0 | 8.56 | False | False |
+| 11 | Defense | 41.51 | Weak setup | 50.0 | 0.0 | 8.56 | False | False |
 | 12 | Nuclear | 34.19 | Weak setup | 50.0 | 0.0 | 15.19 | False | False |
 | 13 | Crypto Infrastructure | 33.03 | Underperformance risk | 45.13 | 65.0 | 8.71 | False | False |
 
@@ -284,12 +284,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 60.12 | positive | 46.2 | mixed | sector stronger than related themes |
 | Healthcare | Healthcare Innovation | 59.24 | positive | 59.52 | positive | sector and theme confirmation |
 | Energy | Energy | 58.25 | positive | 59.87 | positive | sector and theme confirmation |
-| Industrials | Defense, Grid Infrastructure | 55.38 | positive | 46.86 | mixed | sector stronger than related themes |
+| Industrials | Defense, Grid Infrastructure | 55.38 | positive | 45.75 | mixed | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 49.51 | mixed | 33.03 | very weak | mixed confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 48.35 | mixed | 50.58 | mixed | mixed confirmation |
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 47.02 | mixed | 49.48 | mixed | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 42.71 | weak | 49.99 | mixed | mixed confirmation |
-| Defense | Defense | 40.63 | weak | 43.73 | weak | broad weakness across sector and themes |
+| Defense | Defense | 40.46 | weak | 41.51 | weak | broad weakness across sector and themes |
 | Consumer Discretionary | Small Caps | 36.81 | weak | 55.61 | positive | theme stronger than official sector |
 | Nuclear | Nuclear | 34.19 | very weak | 34.19 | very weak | broad weakness across sector and themes |
 
@@ -307,7 +307,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 8 | Grid Infrastructure | 53.23 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 9 | Quality Growth | 49.84 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 10 | AI Infrastructure | 48.98 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 11 | Defense | 43.04 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
+| 11 | Defense | 43.54 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
 | 12 | Nuclear | 31.98 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
 
 ## Breadth and Participation
@@ -322,8 +322,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 50, 'negative': 22, 'neutral': 8}
-- News confirmation score: `67.5`
+- Sentiment counts: {'positive': 52, 'negative': 28, 'neutral': 0}
+- News confirmation score: `65.0`
 
 ### Top Market-Moving Headlines
 
@@ -359,7 +359,31 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `60.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Global oil prices settle at 6-week high after topping $95 a barrel, as hopes dim for de-escalation of Iran war**
+**5. Japan’s $1.8 trillion pension giant might bring money home. That could jolt U.S. stocks and the Fed.**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, foreign assets, pension funds, U.S. stocks
+- Score: `60.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. Brent Hits $100 Again as Houthi Attacks Threaten Further Supply Squeeze**
+- Source: Dow Jones US Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: crude_oil_prices, geopolitical_risk
+- Score: `57.38`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. Alphabet’s massive profit growth is just an illusion, as SpaceX and Anthropic help mask a historic cash drain**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: GOOGL, GOOG, ANTM, AI, Investment Performance
+- Score: `51.0`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**8. Global oil prices settle at 6-week high after topping $95 a barrel, as hopes dim for de-escalation of Iran war**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -367,7 +391,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Lockheed Martin’s stock leaps as push to build more missiles faster pays off**
+**9. Lockheed Martin’s stock leaps as push to build more missiles faster pays off**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -375,36 +399,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.88`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. Canada’s Mark Carney has tried the carrot and the stick with Trump—but neither has worked, and now Canada will enter trade talks with the threat of hefty U.S. tariffs on billions in Canadian goods**
-- Source: Dow Jones Economy
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, trade tensions, tariffs
-- Score: `43.35`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. CNBC Daily Open: Trump ratchets up war rhetoric, Houthis target Red Sea**
-- Source: CNBC Top News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: CNBC, U.S, politics, geopolitical_risk
-- Score: `41.18`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**9. Alphabet earnings takeaways: Q2 revenue beats, GOOGL stock sinks on 2026 capex hike**
-- Source: CNBC Top News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: GOOGL, GOOG, AI, earnings
-- Score: `41.18`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**10. Defense boom lifts European stocks amid strong earnings; Dassault pops 8%**
-- Source: CNBC Top News
+**10. T-Mobile earnings rise as customers pour into premium plans**
+- Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
-- Affected assets: Dassault Systems, defense, earnings, stocks
-- Score: `40.15`
+- Affected assets: T, earnings, customer_acquisition
+- Score: `43.88`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
