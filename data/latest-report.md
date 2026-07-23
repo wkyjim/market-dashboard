@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 23 July 2026, 15:01:41 (HKT)
+Generated at: 23 July 2026, 21:20:44 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **61.02 / 100** (Mild Risk-On)
+- Regime score: **54.26 / 100** (Mixed / Rotation)
 - US equity strength: **63.87 / 100** (constructive)
-- Evidence quality: **86.5 / 100**
+- Evidence quality: **76.0 / 100**
 - ETF flow contribution: **48.52 / 100**, reliability **71.63 / 100**
 - Breadth: **healthy**; above 50DMA `55.0%`, above 200DMA `71.19%`
 - Top sector score: **Consumer Staples** `66.25`
@@ -17,19 +17,19 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 61.02 | Mild Risk-On |
+| Overall regime | 54.26 | Mixed / Rotation |
 | equity_trend | 72.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.09 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 64.84 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
-| volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
+| volatility | 20.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.67 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 62.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 53.77 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 38.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.94 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 73.75 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=73.75, equity_trend=72.5, volatility=70.0, market_breadth=64.84, commodity_confirmation=62.0 |
-| Negative contributors |  | none |
+| news_confirmation | 70.0 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=72.5, news_confirmation=70.0, market_breadth=64.84 |
+| Negative contributors |  | volatility=20.0, commodity_confirmation=38.0 |
 
 ## US Equity Strength Score
 
@@ -47,9 +47,9 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `86.5`
-- Agreement ratio: `0.7`
-- Contradiction count: `0`
+- Confidence score: `76.0`
+- Agreement ratio: `0.4`
+- Contradiction count: `2`
 - Missing indicators: none
 - Warning flags: none
 
@@ -62,10 +62,10 @@ Window: 24h
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold falling | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
-| Silver | Silver stable | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
-| Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
+| Silver | Silver falling | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
+| Copper | Copper falling | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
-| Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
+| Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
 
@@ -76,12 +76,12 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7498.96 | -0.14 | 2026-07-22 | closed |
 | ^IXIC | NASDAQ Composite | 25690.9 | -0.57 | 2026-07-22 | closed |
 | ^RUT | Russell 2000 Index | 2959.94 | -0.92 | 2026-07-22 | closed |
-| ^VIX | CBOE Volatility Index | 16.64 | -2.4 | 2026-07-22 | closed |
+| ^VIX | CBOE Volatility Index | 18.96 | 13.94 | 2026-07-23 | live as of 23 July 2026, 21:14:41 (HKT) |
 | ^MOVE | ICE BofA MOVE Index | 76.31 | 7.65 | 2026-07-22 | closed |
-| ^FVX | Treasury Yield 5 Years | 4.41 | 0.85 | 2026-07-22 | closed |
-| ^TNX | Treasury Yield 10 Years | 4.66 | 0.63 | 2026-07-22 | closed |
-| ^TYX | Treasury Yield 30 Years | 5.15 | 0.33 | 2026-07-22 | closed |
-| DX-Y.NYB | US Dollar Index | 101.0 | -0.13 | 2026-07-23 | live as of 23 July 2026, 15:00:34 (HKT) |
+| ^FVX | Treasury Yield 5 Years | 4.46 | 1.18 | 2026-07-23 | live as of 23 July 2026, 21:14:41 (HKT) |
+| ^TNX | Treasury Yield 10 Years | 4.71 | 1.07 | 2026-07-23 | live as of 23 July 2026, 21:14:41 (HKT) |
+| ^TYX | Treasury Yield 30 Years | 5.19 | 0.8 | 2026-07-23 | live as of 23 July 2026, 21:14:41 (HKT) |
+| DX-Y.NYB | US Dollar Index | 101.39 | 0.25 | 2026-07-23 | live as of 23 July 2026, 21:14:41 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.52 | -0.16 | 2026-07-22 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.67 | -0.17 | 2026-07-22 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 95.75 | -0.16 | 2026-07-22 | closed |
@@ -91,10 +91,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 83.44 | -0.26 | 2026-07-22 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 93.1 | -0.23 | 2026-07-22 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.83 | -0.07 | 2026-07-22 | closed |
-| GC=F | Gold Future | 4124.3 | -0.55 | 2026-07-23 | live as of 23 July 2026, 15:00:34 (HKT) |
-| SI=F | Silver Future | 59.89 | -0.21 | 2026-07-23 | live as of 23 July 2026, 15:00:34 (HKT) |
-| CL=F | WTI Crude Oil Future | 88.55 | 1.98 | 2026-07-23 | live as of 23 July 2026, 15:00:34 (HKT) |
-| HG=F | Copper Future | 6.51 | 0.98 | 2026-07-23 | live as of 23 July 2026, 15:00:34 (HKT) |
+| GC=F | Gold Future | 4059.2 | -2.11 | 2026-07-23 | live as of 23 July 2026, 21:14:41 (HKT) |
+| SI=F | Silver Future | 57.88 | -3.56 | 2026-07-23 | live as of 23 July 2026, 21:14:41 (HKT) |
+| CL=F | WTI Crude Oil Future | 91.11 | 4.93 | 2026-07-23 | live as of 23 July 2026, 21:14:41 (HKT) |
+| HG=F | Copper Future | 6.41 | -0.59 | 2026-07-23 | live as of 23 July 2026, 21:14:41 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -318,17 +318,17 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=16.64 pct_chg=-2.4
+- VIX close=18.96 pct_chg=13.94
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 59, 'negative': 21, 'neutral': 0}
-- News confirmation score: `73.75`
+- Sentiment counts: {'positive': 54, 'negative': 22, 'neutral': 4}
+- News confirmation score: `70.0`
 
 ### Top Market-Moving Headlines
 
-**1. Oil prices climb after tanker struck off Saudi Arabia, Trump escalates Iran threats**
-- Source: CNBC Markets
+**1. Brent crude crosses $100 after tankers reportedly struck off Saudi Arabia**
+- Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short term
 - Affected assets: U.S, Geopolitical Risk, Energy
@@ -351,23 +351,39 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Canada’s Mark Carney has tried the carrot and the stick with Trump—but neither has worked, and now Canada will enter trade talks with the threat of hefty U.S. tariffs on billions in Canadian goods**
+**4. Lockheed Martin’s stock leaps as push to build more missiles faster pays off**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: LM, defense, missile
+- Score: `43.88`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**5. Canada’s Mark Carney has tried the carrot and the stick with Trump—but neither has worked, and now Canada will enter trade talks with the threat of hefty U.S. tariffs on billions in Canadian goods**
 - Source: Dow Jones Economy
-- Importance / impact: High / Negative
+- Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, trade tensions, tariffs
-- Score: `51.0`
+- Score: `43.35`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. CNBC Daily Open: Trump ratchets up war rhetoric, Houthis target Red Sea**
+**6. Defense boom lifts European stocks amid strong earnings; Dassault pops 8%**
+- Source: CNBC Top News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: Dassault Systems, defense, stocks
+- Score: `43.35`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**7. CNBC Daily Open: Trump ratchets up war rhetoric, Houthis target Red Sea**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: CNBC, U.S, politics, geopolitical_risk
-- Score: `48.45`
+- Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**6. Alphabet earnings takeaways: Q2 revenue beats, GOOGL stock sinks on 2026 capex hike**
+**8. Alphabet earnings takeaways: Q2 revenue beats, GOOGL stock sinks on 2026 capex hike**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -375,37 +391,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. Stocks close mostly lower as Iran conflict pushes up oil prices and bond yields**
+**9. The bull market faces higher likelihood of a Fed rate hike as Iran crisis intensifies**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: Fed rate hike, oil price rise, Iran crisis
+- Score: `37.4`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Stocks close mostly lower as Iran conflict pushes up oil prices and bond yields**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: geopolitical_risk, oil_prices
 - Score: `36.74`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. Alphabet earnings: Google parent's capex doubles as AI spending boom continues**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: GOOGL, GOOG, AI, capex
-- Score: `35.69`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**9. Analysis: Iran war energy shock hits the U.S. economy as gas and diesel prices climb**
-- Source: CNBC Business Headlines
-- Importance / impact: Low / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: A, U.S, geopolitical_risk, energy_prices
-- Score: `34.68`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**10. ServiceNow’s stock rises as earnings show momentum in cybersecurity**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: SNOW, cybersecurity, technology
-- Score: `32.32`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
@@ -500,7 +500,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `38`
-- Live macro rows used: `16`
+- Live macro rows used: `19`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
