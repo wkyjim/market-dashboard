@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 24 July 2026, 09:11:29 (HKT)
+Generated at: 24 July 2026, 09:19:29 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **50.92 / 100** (Mixed / Rotation)
+- Regime score: **50.95 / 100** (Mixed / Rotation)
 - US equity strength: **54.73 / 100** (neutral)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **46.79 / 100**, reliability **65.78 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 50.92 | Mixed / Rotation |
+| Overall regime | 50.95 | Mixed / Rotation |
 | equity_trend | 61.25 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 58.16 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 53.57 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 38.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.89 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 64.38 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=64.38, equity_trend=61.25 |
+| news_confirmation | 65.0 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=65.0, equity_trend=61.25 |
 | Negative contributors |  | volatility=20.0, commodity_confirmation=38.0 |
 
 ## US Equity Strength Score
@@ -322,8 +322,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 51, 'negative': 28, 'neutral': 1}
-- News confirmation score: `64.38`
+- Sentiment counts: {'positive': 51, 'negative': 27, 'neutral': 2}
+- News confirmation score: `65.0`
 
 ### Top Market-Moving Headlines
 
@@ -367,15 +367,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'**
-- Source: CNBC Top News
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil prices, geopolitical risk
-- Score: `57.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Intel earnings: Stock soars as chip maker's revenue, guidance crush expectations**
+**6. Intel earnings: Stock soars as chip maker's revenue, guidance crush expectations**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -383,7 +375,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.8`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. Tesla, Alphabet lose hundreds of billions in value in post-earnings stock plunge**
+**7. Tesla, Alphabet lose hundreds of billions in value in post-earnings stock plunge**
 - Source: CNBC Business
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -391,7 +383,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.02`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**9. Global oil prices top $100 after Houthis claim strikes on Saudi Arabian tankers**
+**8. Global oil prices top $100 after Houthis claim strikes on Saudi Arabian tankers**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -399,13 +391,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. The U.S. will impose tariffs ranging from 10% to 12.5% on major trading partners as part of a new set of duties that the Trump administration says are designed to combat forced labor**
+**9. The U.S. will impose tariffs ranging from 10% to 12.5% on major trading partners as part of a new set of duties that the Trump administration says are designed to combat forced labor**
 - Source: Dow Jones Economy
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, trade_policy
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Brent Hits $100 Again as Houthi Attacks Threaten Further Supply Squeeze**
+- Source: Dow Jones US Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: crude_oil_prices, geopolitical_risk
+- Score: `48.77`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
