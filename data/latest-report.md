@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 24 July 2026, 17:02:08 (HKT)
+Generated at: 24 July 2026, 18:02:17 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -24,7 +24,7 @@ Window: 24h
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.17 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 55.28 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.75 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 57.5 | mild risk-on support; Weighted headline/news confirmation score. |
@@ -65,7 +65,7 @@ Window: 24h
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
-| Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
+| Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
 
@@ -76,12 +76,12 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7408.3 | -1.21 | 2026-07-23 | closed |
 | ^IXIC | NASDAQ Composite | 25137.69 | -2.15 | 2026-07-23 | closed |
 | ^RUT | Russell 2000 Index | 2940.16 | -0.67 | 2026-07-23 | closed |
-| ^VIX | CBOE Volatility Index | 18.78 | 0.43 | 2026-07-24 | live as of 24 July 2026, 17:00:40 (HKT) |
+| ^VIX | CBOE Volatility Index | 18.62 | -0.43 | 2026-07-24 | live as of 24 July 2026, 18:00:42 (HKT) |
 | ^MOVE | ICE BofA MOVE Index | 80.08 | 12.98 | 2026-07-23 | closed |
 | ^FVX | Treasury Yield 5 Years | 4.46 | 1.23 | 2026-07-23 | closed |
 | ^TNX | Treasury Yield 10 Years | 4.7 | 0.99 | 2026-07-23 | closed |
 | ^TYX | Treasury Yield 30 Years | 5.17 | 0.47 | 2026-07-23 | closed |
-| DX-Y.NYB | US Dollar Index | 101.39 | -0.03 | 2026-07-24 | live as of 24 July 2026, 17:00:40 (HKT) |
+| DX-Y.NYB | US Dollar Index | 101.37 | -0.06 | 2026-07-24 | live as of 24 July 2026, 18:00:42 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.23 | -0.36 | 2026-07-23 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.26 | -0.38 | 2026-07-23 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 95.4 | -0.37 | 2026-07-23 | closed |
@@ -91,10 +91,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 83.17 | -0.32 | 2026-07-23 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 92.85 | -0.27 | 2026-07-23 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.77 | -0.07 | 2026-07-23 | closed |
-| GC=F | Gold Future | 4057.2 | 0.26 | 2026-07-24 | live as of 24 July 2026, 17:00:40 (HKT) |
-| SI=F | Silver Future | 58.6 | 1.39 | 2026-07-24 | live as of 24 July 2026, 17:00:40 (HKT) |
-| CL=F | WTI Crude Oil Future | 89.49 | -2.93 | 2026-07-24 | live as of 24 July 2026, 17:00:40 (HKT) |
-| HG=F | Copper Future | 6.34 | 0.52 | 2026-07-24 | live as of 24 July 2026, 17:00:40 (HKT) |
+| GC=F | Gold Future | 4057.9 | 0.28 | 2026-07-24 | live as of 24 July 2026, 18:00:42 (HKT) |
+| SI=F | Silver Future | 58.63 | 1.44 | 2026-07-24 | live as of 24 July 2026, 18:00:42 (HKT) |
+| CL=F | WTI Crude Oil Future | 88.9 | -3.57 | 2026-07-24 | live as of 24 July 2026, 18:00:42 (HKT) |
+| HG=F | Copper Future | 6.36 | 0.81 | 2026-07-24 | live as of 24 July 2026, 18:00:42 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -318,7 +318,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=18.78 pct_chg=0.43
+- VIX close=18.62 pct_chg=-0.43
 
 ## News Analytics
 
@@ -367,7 +367,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Brent Hits $100 Again as Houthi Attacks Threaten Further Supply Squeeze**
+**6. The U.S. will impose tariffs ranging from 10% to 12.5% on major trading partners as part of a new set of duties that the Trump administration says are designed to combat forced labor**
+- Source: Dow Jones Economy
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, trade_policy
+- Score: `51.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. Brent Hits $100 Again as Houthi Attacks Threaten Further Supply Squeeze**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -375,7 +383,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Odds of Federal Reserve rate hike surge as oil prices rip higher**
+**8. Odds of Federal Reserve rate hike surge as oil prices rip higher**
 - Source: CNBC Markets
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -383,7 +391,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'**
+**9. Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -391,20 +399,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. U.S. to see higher generic drug prices thanks to tariffs, CEO of leading India pharma firm warns**
+**10. U.S. to see higher generic drug prices thanks to tariffs, CEO of leading India pharma firm warns**
 - Source: CNBC Technology
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: DRRX, U.S, tariffs, pharmaceuticals
 - Score: `46.8`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. CNBC Daily Open: Brent crude is back at $100 — and Trump renews tariffs**
-- Source: CNBC Technology
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: CNBC, oil prices, geo-political tensions, AI spending concerns
-- Score: `45.9`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
