@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 24 July 2026, 11:07:45 (HKT)
+Generated at: 24 July 2026, 12:09:31 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **50.99 / 100** (Mixed / Rotation)
+- Regime score: **50.8 / 100** (Mixed / Rotation)
 - US equity strength: **54.73 / 100** (neutral)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **46.79 / 100**, reliability **65.76 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 50.99 | Mixed / Rotation |
+| Overall regime | 50.8 | Mixed / Rotation |
 | equity_trend | 61.25 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 58.16 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 53.57 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 38.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.89 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 65.62 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=65.62, equity_trend=61.25 |
+| news_confirmation | 61.88 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=61.88, equity_trend=61.25 |
 | Negative contributors |  | volatility=20.0, commodity_confirmation=38.0 |
 
 ## US Equity Strength Score
@@ -322,8 +322,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 51, 'negative': 26, 'neutral': 3}
-- News confirmation score: `65.62`
+- Sentiment counts: {'positive': 49, 'negative': 30, 'neutral': 1}
+- News confirmation score: `61.88`
 
 ### Top Market-Moving Headlines
 
@@ -343,15 +343,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `61.77`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Trump rolls out a new wave of global tariffs. Here are the latest rates.**
+**3. CNBC Daily Open: Brent crude is back at $100 — and Trump renews tariffs**
+- Source: CNBC Technology
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: CNBC, oil prices, geo-political tensions, AI spending concerns
+- Score: `54.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. Trump rolls out a new wave of global tariffs. Here are the latest rates.**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, trade
-- Score: `60.0`
+- Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Japan’s $1.8 trillion pension giant might bring money home. That could jolt U.S. stocks and the Fed.**
+**5. Japan’s $1.8 trillion pension giant might bring money home. That could jolt U.S. stocks and the Fed.**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -359,7 +367,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Global oil prices top $100 after Houthis claim strikes on Saudi Arabian tankers**
+**6. Global oil prices top $100 after Houthis claim strikes on Saudi Arabian tankers**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -367,7 +375,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Brent Hits $100 Again as Houthi Attacks Threaten Further Supply Squeeze**
+**7. Brent Hits $100 Again as Houthi Attacks Threaten Further Supply Squeeze**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -375,7 +383,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Odds of Federal Reserve rate hike surge as oil prices rip higher**
+**8. Odds of Federal Reserve rate hike surge as oil prices rip higher**
 - Source: CNBC Markets
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -383,7 +391,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'**
+**9. Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -391,21 +399,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Trump to slap 'sweeping' new tariffs on 60 trade partners as global duties expire**
-- Source: CNBC Business Headlines
+**10. U.S. to see higher generic drug prices thanks to tariffs, CEO of leading India pharma firm warns**
+- Source: CNBC Technology
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: trade policies, tariffs
-- Score: `48.0`
+- Affected assets: DRRX, U.S, tariffs, pharmaceuticals
+- Score: `46.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Intel earnings: Stock soars as chip maker's revenue, guidance crush expectations**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: INTC, earnings, revenue, technology
-- Score: `44.88`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
