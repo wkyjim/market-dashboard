@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 24 July 2026, 18:02:17 (HKT)
+Generated at: 24 July 2026, 18:11:32 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.06 / 100** (Mild Risk-On)
+- Regime score: **57.13 / 100** (Mild Risk-On)
 - US equity strength: **54.73 / 100** (neutral)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **46.83 / 100**, reliability **71.05 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.06 | Mild Risk-On |
+| Overall regime | 57.13 | Mild Risk-On |
 | equity_trend | 61.25 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 58.16 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 55.28 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.75 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 57.5 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 58.75 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=70.0, equity_trend=61.25, commodity_confirmation=61.0 |
 | Negative contributors |  | none |
 
@@ -243,7 +243,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 7 | Energy | 60.85 | uptrend | positive | broad | 55.57 | 95.0 | 56.66 | MPC, VLO, PSX | BKR, WMB, HAL |
 | 8 | Crypto | 49.49 | neutral | neutral | mixed | 44.89 | 65.0 | 50.0 |  |  |
 | 9 | Semiconductors | 48.37 | neutral | neutral | weak | 65.96 | 100.0 | 51.05 | SMH, SOXX | SOXX, SMH |
-| 10 | Defense | 46.6 | neutral | neutral | weak | 50.0 | 0.0 | 49.84 | XAR | XAR |
+| 10 | Defense | 46.57 | neutral | neutral | weak | 50.0 | 0.0 | 49.84 | XAR | XAR |
 | 11 | Technology | 45.99 | neutral | neutral | weak | 42.01 | 95.0 | 49.83 | PANW, DDOG, AAPL | GLW, MRVL, CRWD |
 | 12 | Consumer Staples | 43.66 | downtrend | neutral | weak | 63.66 | 65.0 | 47.86 | ADM, BG, KHC | HSY, WMT, STZ |
 | 13 | Grid Infrastructure | 43.01 | downtrend | neutral | weak | 69.57 | 65.0 | 44.01 | GRID | GRID |
@@ -260,7 +260,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 4 | Small Caps | 56.56 | Positive setup | 52.48 | 65.0 | 0.0 | False | False |
 | 5 | Semiconductors | 53.03 | Neutral / watchlist | 65.96 | 100.0 | 13.26 | False | False |
 | 6 | Grid Infrastructure | 52.85 | Neutral / watchlist | 69.57 | 65.0 | 9.46 | False | False |
-| 7 | Defense | 51.74 | Neutral / watchlist | 50.0 | 0.0 | 16.34 | False | True |
+| 7 | Defense | 51.7 | Neutral / watchlist | 50.0 | 0.0 | 16.34 | False | True |
 | 8 | Cybersecurity | 51.44 | Neutral / watchlist | 67.39 | 65.0 | 86.9 | False | False |
 | 9 | Dividend Defensives | 50.71 | Neutral / watchlist | 57.21 | 65.0 | 6.73 | False | False |
 | 10 | Quality Growth | 46.39 | Neutral / watchlist | 62.52 | 65.0 | 17.74 | False | False |
@@ -281,12 +281,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Financials | Financials | 65.84 | strong | 61.67 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 62.59 | positive | 59.99 | positive | sector and theme confirmation |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 62.31 | positive | 44.87 | weak | sector stronger than related themes |
-| Industrials | Defense, Grid Infrastructure | 61.96 | positive | 52.29 | mixed | sector stronger than related themes |
+| Industrials | Defense, Grid Infrastructure | 61.96 | positive | 52.27 | mixed | sector stronger than related themes |
 | Cybersecurity | Cybersecurity | 61.91 | positive | 51.44 | mixed | sector stronger than related themes |
 | Energy | Energy | 60.85 | positive | 61.92 | positive | sector and theme confirmation |
 | Crypto | Crypto Infrastructure | 49.49 | mixed | 32.29 | very weak | mixed confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 48.37 | mixed | 48.43 | mixed | mixed confirmation |
-| Defense | Defense | 46.6 | mixed | 51.74 | mixed | mixed confirmation |
+| Defense | Defense | 46.57 | mixed | 51.7 | mixed | mixed confirmation |
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 45.99 | mixed | 47.75 | mixed | mixed confirmation |
 | Consumer Staples | Dividend Defensives | 43.66 | weak | 50.71 | mixed | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 43.01 | weak | 52.85 | mixed | mixed confirmation |
@@ -322,8 +322,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 46, 'negative': 34, 'neutral': 0}
-- News confirmation score: `57.5`
+- Sentiment counts: {'positive': 47, 'negative': 33, 'neutral': 0}
+- News confirmation score: `58.75`
 
 ### Top Market-Moving Headlines
 
