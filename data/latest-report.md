@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 24 July 2026, 14:06:03 (HKT)
+Generated at: 24 July 2026, 15:02:11 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **51.64 / 100** (Mixed / Rotation)
+- Regime score: **51.31 / 100** (Mixed / Rotation)
 - US equity strength: **54.73 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **46.83 / 100**, reliability **71.05 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 51.64 | Mixed / Rotation |
+| Overall regime | 51.31 | Mixed / Rotation |
 | equity_trend | 61.25 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 58.16 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 20.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.03 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 55.22 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 50.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.75 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 62.5 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=62.5, equity_trend=61.25 |
+| news_confirmation | 55.62 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=61.25 |
 | Negative contributors |  | volatility=20.0 |
 
 ## US Equity Strength Score
@@ -61,8 +61,8 @@ Window: 24h
 | Rates | 10Y Treasury rising; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG falling | High-yield weakness would challenge equity risk-on confirmation. |
-| Gold | Gold falling | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
-| Silver | Silver stable | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
+| Gold | Gold stable | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
+| Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
@@ -81,7 +81,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^FVX | Treasury Yield 5 Years | 4.46 | 1.23 | 2026-07-23 | closed |
 | ^TNX | Treasury Yield 10 Years | 4.7 | 0.99 | 2026-07-23 | closed |
 | ^TYX | Treasury Yield 30 Years | 5.17 | 0.47 | 2026-07-23 | closed |
-| DX-Y.NYB | US Dollar Index | 101.42 | -0.01 | 2026-07-24 | live as of 24 July 2026, 14:00:45 (HKT) |
+| DX-Y.NYB | US Dollar Index | 101.39 | -0.04 | 2026-07-24 | live as of 24 July 2026, 15:00:39 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.23 | -0.36 | 2026-07-23 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.26 | -0.38 | 2026-07-23 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 95.4 | -0.37 | 2026-07-23 | closed |
@@ -91,10 +91,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 83.17 | -0.32 | 2026-07-23 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 92.85 | -0.27 | 2026-07-23 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.77 | -0.07 | 2026-07-23 | closed |
-| GC=F | Gold Future | 4029.9 | -0.41 | 2026-07-24 | live as of 24 July 2026, 14:00:45 (HKT) |
-| SI=F | Silver Future | 57.75 | -0.08 | 2026-07-24 | live as of 24 July 2026, 14:00:45 (HKT) |
-| CL=F | WTI Crude Oil Future | 91.3 | -0.97 | 2026-07-24 | live as of 24 July 2026, 14:00:45 (HKT) |
-| HG=F | Copper Future | 6.33 | 0.36 | 2026-07-24 | live as of 24 July 2026, 14:00:45 (HKT) |
+| GC=F | Gold Future | 4036.8 | -0.24 | 2026-07-24 | live as of 24 July 2026, 15:00:39 (HKT) |
+| SI=F | Silver Future | 57.95 | 0.27 | 2026-07-24 | live as of 24 July 2026, 15:00:39 (HKT) |
+| CL=F | WTI Crude Oil Future | 90.78 | -1.53 | 2026-07-24 | live as of 24 July 2026, 15:00:39 (HKT) |
+| HG=F | Copper Future | 6.34 | 0.5 | 2026-07-24 | live as of 24 July 2026, 15:00:39 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -322,8 +322,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 50, 'negative': 30, 'neutral': 0}
-- News confirmation score: `62.5`
+- Sentiment counts: {'positive': 44, 'negative': 35, 'neutral': 1}
+- News confirmation score: `55.62`
 
 ### Top Market-Moving Headlines
 
@@ -500,7 +500,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `38`
-- Live macro rows used: `19`
+- Live macro rows used: `16`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
