@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 24 July 2026, 10:08:57 (HKT)
+Generated at: 24 July 2026, 11:07:45 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -8,7 +8,7 @@ Window: 24h
 - Regime score: **50.99 / 100** (Mixed / Rotation)
 - US equity strength: **54.73 / 100** (neutral)
 - Evidence quality: **76.0 / 100**
-- ETF flow contribution: **46.79 / 100**, reliability **65.78 / 100**
+- ETF flow contribution: **46.79 / 100**, reliability **65.76 / 100**
 - Breadth: **healthy**; above 50DMA `50.0%`, above 200DMA `69.49%`
 - Top sector score: **Financials** `66.08`
 - Top theme score: **Energy** `61.94`
@@ -332,7 +332,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short term
 - Affected assets: U.S, Geopolitical Risk, Energy
-- Score: `72.67`
+- Score: `61.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
 
 **2. Stocks slump after earnings disappoint and oil hits $100 a barrel — live updates**
@@ -356,26 +356,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, foreign assets, pension funds, U.S. stocks
-- Score: `60.0`
+- Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Odds of Federal Reserve rate hike surge as oil prices rip higher**
-- Source: CNBC Markets
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: Federal Reserve policy, oil prices
-- Score: `57.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. Tesla, Alphabet lose hundreds of billions in value in post-earnings stock plunge**
-- Source: CNBC Business
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: TSLA, GOOGL, GOOG, technology, spending
-- Score: `52.02`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**7. Global oil prices top $100 after Houthis claim strikes on Saudi Arabian tankers**
+**5. Global oil prices top $100 after Houthis claim strikes on Saudi Arabian tankers**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -383,15 +367,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. The U.S. will impose tariffs ranging from 10% to 12.5% on major trading partners as part of a new set of duties that the Trump administration says are designed to combat forced labor**
-- Source: Dow Jones Economy
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, trade_policy
-- Score: `51.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Brent Hits $100 Again as Houthi Attacks Threaten Further Supply Squeeze**
+**6. Brent Hits $100 Again as Houthi Attacks Threaten Further Supply Squeeze**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -399,13 +375,37 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'**
+**7. Odds of Federal Reserve rate hike surge as oil prices rip higher**
+- Source: CNBC Markets
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: Federal Reserve policy, oil prices
+- Score: `48.45`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, oil prices, geopolitical risk
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. Trump to slap 'sweeping' new tariffs on 60 trade partners as global duties expire**
+- Source: CNBC Business Headlines
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: trade policies, tariffs
+- Score: `48.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Intel earnings: Stock soars as chip maker's revenue, guidance crush expectations**
+- Source: MarketWatch Bulletins
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: INTC, earnings, revenue, technology
+- Score: `44.88`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
