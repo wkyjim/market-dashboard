@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 25 July 2026, 11:08:31 (HKT)
+Generated at: 25 July 2026, 12:08:47 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.01 / 100** (Mild Risk-On)
+- Regime score: **55.89 / 100** (Mild Risk-On)
 - US equity strength: **51.24 / 100** (neutral)
-- Evidence quality: **83.0 / 100**
-- ETF flow contribution: **46.93 / 100**, reliability **67.03 / 100**
+- Evidence quality: **79.5 / 100**
+- ETF flow contribution: **46.93 / 100**, reliability **66.97 / 100**
 - Breadth: **healthy**; above 50DMA `51.67%`, above 200DMA `69.49%`
 - Top sector score: **Healthcare** `65.89`
 - Top theme score: **Energy** `62.25`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 56.01 | Mild Risk-On |
+| Overall regime | 55.89 | Mild Risk-On |
 | equity_trend | 55.0 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.51 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 58.72 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -26,8 +26,8 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 54.83 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 47.94 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 56.88 | mild risk-on support; Weighted headline/news confirmation score. |
+| etf_flow | 47.95 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| news_confirmation | 54.38 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=70.0, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `83.0`
-- Agreement ratio: `0.6`
+- Confidence score: `79.5`
+- Agreement ratio: `0.5`
 - Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
@@ -322,8 +322,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 43, 'negative': 32, 'neutral': 5}
-- News confirmation score: `56.88`
+- Sentiment counts: {'positive': 41, 'negative': 34, 'neutral': 5}
+- News confirmation score: `54.38`
 
 ### Top Market-Moving Headlines
 
@@ -343,7 +343,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Oil falls on report Pakistan is pushing for new U.S.-Iran talks with China's backing**
+**3. The world is facing its largest oil shock ever. Here's why prices aren't higher.**
+- Source: MarketWatch Bulletins
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: oil market, price shock
+- Score: `48.45`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. Oil falls on report Pakistan is pushing for new U.S.-Iran talks with China's backing**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -351,7 +359,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'**
+**5. Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'**
 - Source: CNBC Markets
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -359,7 +367,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Oil shipments are under attack on multiple fronts as fighting escalates in Red Sea, Hormuz and Black Sea**
+**6. Oil shipments are under attack on multiple fronts as fighting escalates in Red Sea, Hormuz and Black Sea**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -367,7 +375,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.05`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. The U.S. will impose tariffs ranging from 10% to 12.5% on major trading partners as part of a new set of duties that the Trump administration says are designed to combat forced labor**
+**7. The U.S. will impose tariffs ranging from 10% to 12.5% on major trading partners as part of a new set of duties that the Trump administration says are designed to combat forced labor**
 - Source: Dow Jones Economy
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -375,7 +383,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Strait of Hormuz traffic may not return to normal for 12 months or more, according to prediction markets**
+**8. Strait of Hormuz traffic may not return to normal for 12 months or more, according to prediction markets**
 - Source: CNBC Markets
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / long-term
@@ -383,7 +391,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. Trump imposes 'sweeping' new tariffs on 60 trade partners as global duties expire**
+**9. Trump imposes 'sweeping' new tariffs on 60 trade partners as global duties expire**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -391,20 +399,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Russian attack cuts power to around 150,000 in Ukraine’s north as Kyiv hits missile, oil facilities**
+**10. Russian attack cuts power to around 150,000 in Ukraine’s north as Kyiv hits missile, oil facilities**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: geo-political
 - Score: `40.8`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. U.S. to see higher generic drug prices thanks to tariffs, CEO of leading India pharma firm warns**
-- Source: CNBC Technology
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: DRRX, U.S, tariffs, pharmaceuticals
-- Score: `39.78`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
