@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 July 2026, 04:06:05 (HKT)
+Generated at: 26 July 2026, 05:06:02 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -327,21 +327,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. S&P 500 flashes sell signals — options traders are bracing for wild swings in Apple, Meta and Microsoft**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AAPL, META, MSFT, P, S
-- Score: `51.0`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**2. Russian attack cuts power to around 150,000 in Ukraine’s north as Kyiv hits missile, oil facilities**
+**1. Russian attack cuts power to around 150,000 in Ukraine’s north as Kyiv hits missile, oil facilities**
 - Source: CNBC Business News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: geo-political
 - Score: `48.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. S&P 500 flashes sell signals — options traders are bracing for wild swings in Apple, Meta and Microsoft**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AAPL, META, MSFT, P, S
+- Score: `43.35`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 **3. Morgan Stanley says buy these stocks ahead of their earnings, before it's too late**
 - Source: CNBC Markets
@@ -351,15 +351,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.15`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. Trump sued hours after new tariffs take effect, as experts say they may not hold up**
-- Source: CNBC Business Headlines
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: trade_policy, government_regulation
-- Score: `36.4`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**5. Paramount Agrees to Pause Its Warner Bros. Merger**
+**4. Paramount Agrees to Pause Its Warner Bros. Merger**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -367,7 +359,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.51`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**6. Oil prices may fall, but gasoline prices won’t. Look at the trap we’re in.**
+**5. Oil prices may fall, but gasoline prices won’t. Look at the trap we’re in.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short term
@@ -375,12 +367,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.5`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**7. Tariffs and gas prices are intensifying the affordability crunch. These 3 products can help**
+**6. Tariffs and gas prices are intensifying the affordability crunch. These 3 products can help**
 - Source: CNBC Markets
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: economy, trade, energy
 - Score: `31.09`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. Trump sued hours after new tariffs take effect, as experts say they may not hold up**
+- Source: CNBC Business Headlines
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: trade_policy, government_regulation
+- Score: `30.94`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **8. Musk's bad week: Tesla suffers worst slump since 2022, SpaceX drops ahead of Starship test flight**
