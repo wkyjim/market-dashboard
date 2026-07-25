@@ -1,23 +1,23 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 July 2026, 00:08:19 (HKT)
+Generated at: 26 July 2026, 00:11:33 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.23 / 100** (Mild Risk-On)
+- Regime score: **56.2 / 100** (Mild Risk-On)
 - US equity strength: **51.24 / 100** (neutral)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **46.94 / 100**, reliability **66.86 / 100**
 - Breadth: **healthy**; above 50DMA `51.67%`, above 200DMA `69.49%`
-- Top sector score: **Healthcare** `65.82`
+- Top sector score: **Healthcare** `65.94`
 - Top theme score: **Energy** `61.12`
 
 ## Market Regime Score
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 56.23 | Mild Risk-On |
+| Overall regime | 56.2 | Mild Risk-On |
 | equity_trend | 55.0 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.51 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 58.72 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.83 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.95 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 61.25 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0, commodity_confirmation=63.0, news_confirmation=61.25 |
+| news_confirmation | 60.62 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=70.0, commodity_confirmation=63.0, news_confirmation=60.62 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -234,7 +234,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Sector | Score | Trend | Momentum | Stock Breadth | ETF Flow | Flow Reliability | 3M RS | Supporting / Leaders | Detracting / Laggards |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Healthcare | 65.82 | strong uptrend | positive | broad | 59.36 | 65.0 | 55.97 | VEEV, TMO, BMY | EW, MRNA, ISRG |
+| 1 | Healthcare | 65.94 | strong uptrend | positive | broad | 59.36 | 65.0 | 55.97 | VEEV, TMO, BMY | EW, MRNA, ISRG |
 | 2 | Financials | 65.64 | strong uptrend | positive | broad | 63.77 | 65.0 | 54.74 | PYPL, FDS, TRV | AXP, SYF, C |
 | 3 | Real Estate | 65.22 | strong uptrend | neutral | broad | 46.52 | 65.0 | 51.78 | VTR, WELL, O | CSGP, CCI, WY |
 | 4 | Cybersecurity | 61.79 | strong uptrend | positive | broad | 62.36 | 65.0 | 64.15 | CIBR | CIBR |
@@ -264,7 +264,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 8 | Cybersecurity | 50.66 | Neutral / watchlist | 62.36 | 65.0 | 87.95 | False | False |
 | 9 | Quality Growth | 46.01 | Neutral / watchlist | 64.01 | 65.0 | 28.01 | False | False |
 | 10 | Small Caps | 44.95 | Neutral / watchlist | 51.71 | 65.0 | 0.0 | False | False |
-| 11 | AI Infrastructure | 42.67 | Weak setup | 62.03 | 100.0 | 23.89 | False | False |
+| 11 | AI Infrastructure | 43.65 | Weak setup | 62.03 | 100.0 | 23.89 | False | False |
 | 12 | Crypto Infrastructure | 32.37 | Underperformance risk | 43.14 | 65.0 | 3.64 | False | False |
 | 13 | Nuclear | 31.35 | Underperformance risk | 50.0 | 0.0 | 11.37 | False | False |
 
@@ -277,7 +277,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
-| Healthcare | Healthcare Innovation | 65.82 | strong | 60.24 | positive | sector and theme confirmation |
+| Healthcare | Healthcare Innovation | 65.94 | strong | 60.24 | positive | sector and theme confirmation |
 | Financials | Financials | 65.64 | strong | 60.7 | positive | sector and theme confirmation |
 | Real Estate | Dividend Defensives | 65.22 | strong | 51.98 | mixed | sector stronger than related themes |
 | Cybersecurity | Cybersecurity | 61.79 | positive | 50.66 | mixed | sector stronger than related themes |
@@ -286,8 +286,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Energy | Energy | 59.33 | positive | 61.12 | positive | sector and theme confirmation |
 | Crypto | Crypto Infrastructure | 49.31 | mixed | 32.37 | very weak | mixed confirmation |
 | Consumer Staples | Dividend Defensives | 49.06 | mixed | 51.98 | mixed | mixed confirmation |
-| Semiconductors | AI Infrastructure, Semiconductors | 47.16 | mixed | 47.27 | mixed | mixed confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 44.77 | weak | 46.85 | mixed | mixed confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 47.16 | mixed | 47.76 | mixed | mixed confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 44.77 | weak | 47.18 | mixed | mixed confirmation |
 | Defense | Defense | 42.42 | weak | 51.28 | mixed | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 41.99 | weak | 51.04 | mixed | mixed confirmation |
 | Nuclear | Nuclear | 34.51 | very weak | 31.35 | very weak | broad weakness across sector and themes |
@@ -307,7 +307,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 8 | Grid Infrastructure | 52.61 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 9 | Small Caps | 50.82 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 10 | Quality Growth | 48.09 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 11 | AI Infrastructure | 44.32 | Weak setup | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 11 | AI Infrastructure | 42.32 | Weak setup | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 12 | Crypto Infrastructure | 28.92 | Underperformance risk |  | relative strength below SPY, breadth below 45%, news turns negative |
 
 ## Breadth and Participation
@@ -322,8 +322,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 41, 'negative': 23, 'neutral': 16}
-- News confirmation score: `61.25`
+- Sentiment counts: {'positive': 41, 'negative': 24, 'neutral': 15}
+- News confirmation score: `60.62`
 
 ### Top Market-Moving Headlines
 
@@ -383,15 +383,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. Tariffs and gas prices are intensifying the affordability crunch. These 3 products can help**
-- Source: CNBC Markets
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: economy, trade, energy
-- Score: `36.58`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Trump sued hours after new tariffs take effect, as experts say they may not hold up**
+**8. Trump sued hours after new tariffs take effect, as experts say they may not hold up**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -399,13 +391,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.4`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. 1 hyperscaler megacap down, 3 to go. Alphabet raises the stakes on AI spending**
+**9. 1 hyperscaler megacap down, 3 to go. Alphabet raises the stakes on AI spending**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: AI, capex
 - Score: `35.69`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**10. Paramount Agrees to Pause Its Warner Bros. Merger**
+- Source: Dow Jones US Business
+- Importance / impact: Low / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: merger, pause, fees
+- Score: `32.51`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
