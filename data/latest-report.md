@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 25 July 2026, 09:20:18 (HKT)
+Generated at: 25 July 2026, 10:07:42 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -343,15 +343,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Strait of Hormuz traffic may not return to normal for 12 months or more, according to prediction markets**
-- Source: CNBC Markets
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / long-term
-- Affected assets: geopolitical_risk
-- Score: `48.45`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**4. Oil falls on report Pakistan is pushing for new U.S.-Iran talks with China's backing**
+**3. Oil falls on report Pakistan is pushing for new U.S.-Iran talks with China's backing**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -359,7 +351,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'**
+**4. Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'**
 - Source: CNBC Markets
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -367,7 +359,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Oil shipments are under attack on multiple fronts as fighting escalates in Red Sea, Hormuz and Black Sea**
+**5. Oil shipments are under attack on multiple fronts as fighting escalates in Red Sea, Hormuz and Black Sea**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -375,13 +367,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.05`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. The U.S. will impose tariffs ranging from 10% to 12.5% on major trading partners as part of a new set of duties that the Trump administration says are designed to combat forced labor**
+**6. The U.S. will impose tariffs ranging from 10% to 12.5% on major trading partners as part of a new set of duties that the Trump administration says are designed to combat forced labor**
 - Source: Dow Jones Economy
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, trade_policy
 - Score: `43.35`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. Strait of Hormuz traffic may not return to normal for 12 months or more, according to prediction markets**
+- Source: CNBC Markets
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / long-term
+- Affected assets: geopolitical_risk
+- Score: `41.18`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 **8. Trump imposes 'sweeping' new tariffs on 60 trade partners as global duties expire**
 - Source: CNBC Business Headlines
