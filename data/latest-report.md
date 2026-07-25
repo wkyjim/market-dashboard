@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 July 2026, 05:35:55 (HKT)
+Generated at: 26 July 2026, 06:07:53 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.01 / 100** (Mild Risk-On)
+- Regime score: **56.04 / 100** (Mild Risk-On)
 - US equity strength: **51.24 / 100** (neutral)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **46.94 / 100**, reliability **66.86 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 56.01 | Mild Risk-On |
+| Overall regime | 56.04 | Mild Risk-On |
 | equity_trend | 55.0 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.51 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 58.72 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 54.83 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.95 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 56.88 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 57.5 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=70.0, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
@@ -322,8 +322,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 38, 'negative': 27, 'neutral': 15}
-- News confirmation score: `56.88`
+- Sentiment counts: {'positive': 39, 'negative': 27, 'neutral': 14}
+- News confirmation score: `57.5`
 
 ### Top Market-Moving Headlines
 
@@ -383,15 +383,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.94`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Musk's bad week: Tesla suffers worst slump since 2022, SpaceX drops ahead of Starship test flight**
-- Source: CNBC Business
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: TSLA, Technology, Automotive, Space Exploration
-- Score: `29.84`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**9. Oil set for more than 25% spike over two weeks as Middle East conflict escalates**
+**8. Oil set for more than 25% spike over two weeks as Middle East conflict escalates**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -399,13 +391,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `28.86`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Trump targets E.U. in latest tariff threat — and more levies are still to come**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Negative
+**9. Is your index fund an accidental bet on AI? These two massive ETFs show why it might be.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AI, ETFs
+- Score: `26.77`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**10. Investors are in the dark about the Fed’s decision this week — and that’s just how Warsh wants it**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
-- Affected assets: E.U., E.U, trade, politics
-- Score: `28.26`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Affected assets: Federal Reserve, Economic Policy
+- Score: `26.77`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
