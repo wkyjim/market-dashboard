@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 25 July 2026, 09:11:40 (HKT)
+Generated at: 25 July 2026, 09:20:18 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.06 / 100** (Mild Risk-On)
+- Regime score: **55.96 / 100** (Mild Risk-On)
 - US equity strength: **51.24 / 100** (neutral)
 - Evidence quality: **83.0 / 100**
-- ETF flow contribution: **47.84 / 100**, reliability **66.11 / 100**
+- ETF flow contribution: **46.66 / 100**, reliability **65.94 / 100**
 - Breadth: **healthy**; above 50DMA `51.67%`, above 200DMA `69.49%`
 - Top sector score: **Healthcare** `65.89`
 - Top theme score: **Energy** `62.25`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 56.06 | Mild Risk-On |
+| Overall regime | 55.96 | Mild Risk-On |
 | equity_trend | 55.0 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.51 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 58.72 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 54.83 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 48.57 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 47.8 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 56.25 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=70.0, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
@@ -327,15 +327,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Oil falls on report Pakistan is pushing for new U.S.-Iran talks with China's backing**
-- Source: CNBC Top News
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil_prices, geopolitical_risk
-- Score: `57.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Russia pounds Kyiv as NATO military chief warns Moscow would 'lose a lot' by attacking Baltics**
+**1. Russia pounds Kyiv as NATO military chief warns Moscow would 'lose a lot' by attacking Baltics**
 - Source: CNBC Business News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -343,7 +335,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.02`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Trump targets E.U. with new tariffs over its fines for Big Tech – and even more levies are coming**
+**2. Trump targets E.U. with new tariffs over its fines for Big Tech – and even more levies are coming**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -351,13 +343,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Strait of Hormuz traffic may not return to normal for 12 months or more, according to prediction markets**
+**3. Strait of Hormuz traffic may not return to normal for 12 months or more, according to prediction markets**
 - Source: CNBC Markets
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / long-term
 - Affected assets: geopolitical_risk
 - Score: `48.45`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**4. Oil falls on report Pakistan is pushing for new U.S.-Iran talks with China's backing**
+- Source: CNBC Top News
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, oil_prices, geopolitical_risk
+- Score: `48.45`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **5. Shortsighted stock market can no longer brush off war: 'It's too hard to ignore $100 oil'**
 - Source: CNBC Markets
@@ -426,13 +426,13 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 ## ETF Flows Analysis
 
 - Market flow regime: `Mixed / Neutral`
-- Market flow score: `49.3 / 100`
+- Market flow score: `49.6 / 100`
 - Equity risk flow: `46.7`
 - Credit risk flow: `48.9`
 - Sector cyclicality flow: `53.2`
-- Duration/liquidity flow: `50.0`
+- Duration/liquidity flow: `51.8`
 - Alternatives: `defensive or uncertainty hedge`
-- ETF flow reliability: `66.1 / 100`
+- ETF flow reliability: `65.9 / 100`
 - Dominant allocation direction: `defensive demand`
 
 ### Core Flow Signals
@@ -447,10 +447,10 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 | IWM | U.S. Small Cap | -0.5 | 0.6 | 0.5 | -1.0 | Down | Sell | Normal | Persistent Distribution | Risk-Off | Strong confirmation | 95.0 |
 | LQD | Investment-Grade Credit | 0.6 | 1.1 | 0.5 | 0.0 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural accumulation | 91.0 |
 | HYG | High-Yield Credit | -0.6 | -0.4 | 0.5 | 0.8 | Flat | Neutral | Normal | Neutral | Neutral | Structural distribution | 79.0 |
-| SGOV | Treasury Bills / Cash | -0.7 | -0.5 | 0.8 | -0.2 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 99.0 |
-| SHY | Short-Duration Treasuries | -0.2 | -1.2 | 0.3 | -0.2 | Flat | Neutral | Normal | Neutral | Neutral | Medium-term recovery | 87.0 |
-| IEF | Intermediate-Duration Treasuries | 0.3 | -0.7 | 0.6 | -0.7 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term recovery | 87.0 |
-| TLT | Long-Duration Treasuries | 2.4 | 1.6 | 0.8 | 0.6 | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation; Exceptional institutional buying, Strong sponsorship | 100.0 |
+| SGOV | Treasury Bills / Cash | -0.6 | -0.4 | 0.8 | -1.0 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 99.0 |
+| SHY | Short-Duration Treasuries | -0.8 | -1.2 | 0.2 | -0.3 | Flat | Neutral | Normal | Neutral | Neutral | Structural distribution; Persistent selling | 71.0 |
+| IEF | Intermediate-Duration Treasuries | 0.6 | -0.7 | 0.6 | -0.6 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term recovery | 87.0 |
+| TLT | Long-Duration Treasuries | 2.3 | 1.7 | 0.8 | -1.3 | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation; Exceptional institutional buying, Strong sponsorship | 100.0 |
 | GLD | Gold | 1.0 | 0.7 | 0.4 | -1.3 | Flat | Buy | Normal | Quiet Accumulation | Improving | Medium-term recovery; Exceptional institutional buying | 95.0 |
 | IBIT | Bitcoin | -0.6 | -1.6 | 0.5 | -0.6 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural distribution | 79.0 |
 
@@ -483,6 +483,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 
 | Severity | Type | Primary | Comparison | Interpretation |
 | --- | --- | --- | --- | --- |
+| high | close_substitute_divergence | AGG | IUSB | primary representative differs from close substitute |
 | high | close_substitute_divergence | IWF | IVW | primary representative differs from close substitute |
 | high | close_substitute_divergence | IWD | IVE | primary representative differs from close substitute |
 | high | close_substitute_divergence | IWM | IJR | primary representative differs from close substitute |
