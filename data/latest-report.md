@@ -1,23 +1,23 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 25 July 2026, 12:08:47 (HKT)
+Generated at: 25 July 2026, 12:11:38 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **55.89 / 100** (Mild Risk-On)
+- Regime score: **55.95 / 100** (Mild Risk-On)
 - US equity strength: **51.24 / 100** (neutral)
-- Evidence quality: **79.5 / 100**
+- Evidence quality: **83.0 / 100**
 - ETF flow contribution: **46.93 / 100**, reliability **66.97 / 100**
 - Breadth: **healthy**; above 50DMA `51.67%`, above 200DMA `69.49%`
-- Top sector score: **Healthcare** `65.89`
+- Top sector score: **Healthcare** `65.82`
 - Top theme score: **Energy** `62.25`
 
 ## Market Regime Score
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 55.89 | Mild Risk-On |
+| Overall regime | 55.95 | Mild Risk-On |
 | equity_trend | 55.0 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.51 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 58.72 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 54.83 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.95 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 54.38 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 55.62 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=70.0, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `79.5`
-- Agreement ratio: `0.5`
+- Confidence score: `83.0`
+- Agreement ratio: `0.6`
 - Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
@@ -234,7 +234,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Sector | Score | Trend | Momentum | Stock Breadth | ETF Flow | Flow Reliability | 3M RS | Supporting / Leaders | Detracting / Laggards |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Healthcare | 65.89 | strong uptrend | positive | broad | 59.36 | 65.0 | 55.97 | VEEV, TMO, BMY | EW, MRNA, ISRG |
+| 1 | Healthcare | 65.82 | strong uptrend | positive | broad | 59.36 | 65.0 | 55.97 | VEEV, TMO, BMY | EW, MRNA, ISRG |
 | 2 | Financials | 65.64 | strong uptrend | positive | broad | 63.77 | 65.0 | 54.74 | PYPL, FDS, TRV | AXP, SYF, C |
 | 3 | Real Estate | 64.86 | strong uptrend | neutral | broad | 46.52 | 65.0 | 51.78 | VTR, WELL, O | CSGP, CCI, WY |
 | 4 | Utilities | 61.39 | strong uptrend | neutral | broad | 50.0 | 0.0 | 47.47 | EIX, PCG, FE | CMS, PEG, NRG |
@@ -277,7 +277,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
-| Healthcare | Healthcare Innovation | 65.89 | strong | 60.24 | positive | sector and theme confirmation |
+| Healthcare | Healthcare Innovation | 65.82 | strong | 60.24 | positive | sector and theme confirmation |
 | Financials | Financials | 65.64 | strong | 60.7 | positive | sector and theme confirmation |
 | Real Estate | Dividend Defensives | 64.86 | positive | 51.98 | mixed | sector stronger than related themes |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 61.39 | positive | 44.15 | weak | sector stronger than related themes |
@@ -322,8 +322,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 41, 'negative': 34, 'neutral': 5}
-- News confirmation score: `54.38`
+- Sentiment counts: {'positive': 43, 'negative': 34, 'neutral': 3}
+- News confirmation score: `55.62`
 
 ### Top Market-Moving Headlines
 
