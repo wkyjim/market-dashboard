@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 25 July 2026, 18:08:14 (HKT)
+Generated at: 25 July 2026, 18:11:23 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -236,7 +236,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Healthcare | 65.82 | strong uptrend | positive | broad | 59.36 | 65.0 | 55.97 | VEEV, TMO, BMY | EW, MRNA, ISRG |
 | 2 | Financials | 65.64 | strong uptrend | positive | broad | 63.77 | 65.0 | 54.74 | PYPL, FDS, TRV | AXP, SYF, C |
-| 3 | Real Estate | 64.86 | strong uptrend | neutral | broad | 46.52 | 65.0 | 51.78 | VTR, WELL, O | CSGP, CCI, WY |
+| 3 | Real Estate | 65.28 | strong uptrend | neutral | broad | 46.52 | 65.0 | 51.78 | VTR, WELL, O | CSGP, CCI, WY |
 | 4 | Cybersecurity | 61.79 | strong uptrend | positive | broad | 62.36 | 65.0 | 64.15 | CIBR | CIBR |
 | 5 | Utilities | 61.39 | strong uptrend | neutral | broad | 50.0 | 0.0 | 47.47 | EIX, PCG, FE | CMS, PEG, NRG |
 | 6 | Industrials | 59.79 | strong uptrend | neutral | broad | 50.0 | 0.0 | 50.35 | CTAS, PAYX, ADP | PNR, BLDR, GNRC |
@@ -279,7 +279,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- |
 | Healthcare | Healthcare Innovation | 65.82 | strong | 60.24 | positive | sector and theme confirmation |
 | Financials | Financials | 65.64 | strong | 60.7 | positive | sector and theme confirmation |
-| Real Estate | Dividend Defensives | 64.86 | positive | 51.98 | mixed | sector stronger than related themes |
+| Real Estate | Dividend Defensives | 65.28 | strong | 51.98 | mixed | sector stronger than related themes |
 | Cybersecurity | Cybersecurity | 61.79 | positive | 50.66 | mixed | sector stronger than related themes |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 61.39 | positive | 44.79 | weak | sector stronger than related themes |
 | Industrials | Defense, Grid Infrastructure | 59.79 | positive | 51.16 | mixed | sector stronger than related themes |
