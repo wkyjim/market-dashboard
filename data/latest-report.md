@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 July 2026, 02:06:01 (HKT)
+Generated at: 26 July 2026, 03:07:47 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.26 / 100** (Mild Risk-On)
+- Regime score: **56.08 / 100** (Mild Risk-On)
 - US equity strength: **51.24 / 100** (neutral)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **46.94 / 100**, reliability **66.86 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 56.26 | Mild Risk-On |
+| Overall regime | 56.08 | Mild Risk-On |
 | equity_trend | 55.0 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.51 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 58.72 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.83 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.95 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 61.88 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0, commodity_confirmation=63.0, news_confirmation=61.88 |
+| news_confirmation | 58.12 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=70.0, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -322,8 +322,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 41, 'negative': 22, 'neutral': 17}
-- News confirmation score: `61.88`
+- Sentiment counts: {'positive': 39, 'negative': 26, 'neutral': 15}
+- News confirmation score: `58.12`
 
 ### Top Market-Moving Headlines
 
@@ -351,29 +351,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Oil shipments are under attack on multiple fronts as fighting escalates in Red Sea, Hormuz and Black Sea**
-- Source: CNBC Top News
+**4. Russian attack cuts power to around 150,000 in Ukraine’s north as Kyiv hits missile, oil facilities**
+- Source: CNBC Business News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: oil, trade routes, conflict
-- Score: `48.05`
+- Affected assets: geo-political
+- Score: `48.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Morgan Stanley says buy these stocks ahead of their earnings, before it's too late**
-- Source: CNBC Markets
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: MS, AAPL, GOOGL, buy, earnings
-- Score: `47.24`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**6. Strait of Hormuz traffic may not return to normal for 12 months or more, according to prediction markets**
+**5. Strait of Hormuz traffic may not return to normal for 12 months or more, according to prediction markets**
 - Source: CNBC Markets
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / long-term
 - Affected assets: geopolitical_risk
 - Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**6. Morgan Stanley says buy these stocks ahead of their earnings, before it's too late**
+- Source: CNBC Markets
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: MS, AAPL, GOOGL, buy, earnings
+- Score: `40.15`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 **7. Trump sued hours after new tariffs take effect, as experts say they may not hold up**
 - Source: CNBC Business Headlines
@@ -399,13 +399,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.51`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**10. Tariffs and gas prices are intensifying the affordability crunch. These 3 products can help**
-- Source: CNBC Markets
+**10. Oil prices may fall, but gasoline prices won’t. Look at the trap we’re in.**
+- Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: economy, trade, energy
-- Score: `31.09`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Relevance / horizon: macro / short term
+- Affected assets: Oil Prices, Gasoline Prices, Iran
+- Score: `31.5`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
 
 
 ### Headline Quality Checks
