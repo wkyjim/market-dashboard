@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 July 2026, 03:11:18 (HKT)
+Generated at: 26 July 2026, 04:06:05 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -335,23 +335,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**2. The world is facing its largest oil shock ever. Here's why prices aren't higher.**
-- Source: MarketWatch Bulletins
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: oil market, price shock
-- Score: `48.45`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. Oil falls on report Pakistan is pushing for new U.S.-Iran talks with China's backing**
-- Source: CNBC Top News
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil_prices, geopolitical_risk
-- Score: `48.45`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**4. Russian attack cuts power to around 150,000 in Ukraine’s north as Kyiv hits missile, oil facilities**
+**2. Russian attack cuts power to around 150,000 in Ukraine’s north as Kyiv hits missile, oil facilities**
 - Source: CNBC Business News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -359,15 +343,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Strait of Hormuz traffic may not return to normal for 12 months or more, according to prediction markets**
-- Source: CNBC Markets
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / long-term
-- Affected assets: geopolitical_risk
-- Score: `41.18`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**6. Morgan Stanley says buy these stocks ahead of their earnings, before it's too late**
+**3. Morgan Stanley says buy these stocks ahead of their earnings, before it's too late**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -375,7 +351,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.15`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. Trump sued hours after new tariffs take effect, as experts say they may not hold up**
+**4. Trump sued hours after new tariffs take effect, as experts say they may not hold up**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -383,15 +359,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.4`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. 1 hyperscaler megacap down, 3 to go. Alphabet raises the stakes on AI spending**
-- Source: CNBC Markets
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AI, capex
-- Score: `35.69`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**9. Paramount Agrees to Pause Its Warner Bros. Merger**
+**5. Paramount Agrees to Pause Its Warner Bros. Merger**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -399,13 +367,45 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.51`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**10. Oil prices may fall, but gasoline prices won’t. Look at the trap we’re in.**
+**6. Oil prices may fall, but gasoline prices won’t. Look at the trap we’re in.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short term
 - Affected assets: Oil Prices, Gasoline Prices, Iran
 - Score: `31.5`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
+
+**7. Tariffs and gas prices are intensifying the affordability crunch. These 3 products can help**
+- Source: CNBC Markets
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: economy, trade, energy
+- Score: `31.09`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. Musk's bad week: Tesla suffers worst slump since 2022, SpaceX drops ahead of Starship test flight**
+- Source: CNBC Business
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: TSLA, Technology, Automotive, Space Exploration
+- Score: `29.84`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**9. Oil set for more than 25% spike over two weeks as Middle East conflict escalates**
+- Source: Investing.com Stock Market
+- Importance / impact: Low / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: WCL, OIL, USO, oil prices, Middle East conflict
+- Score: `28.86`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Trump targets E.U. in latest tariff threat — and more levies are still to come**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: E.U., E.U, trade, politics
+- Score: `28.26`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
