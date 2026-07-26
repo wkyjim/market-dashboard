@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 27 July 2026, 05:08:59 (HKT)
+Generated at: 27 July 2026, 05:38:53 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -342,15 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.4`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the shortterm.
 
-**2. Samsung Electronics wins $200 billion Broadcom AI chip partnership, boosting foundry push**
-- Source: CNBC Top News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: Samsung Electronics, AI, partnership
-- Score: `40.15`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**3. There’s a technical ‘triple threat’ for stocks, but also places investors can hide**
+**2. There’s a technical ‘triple threat’ for stocks, but also places investors can hide**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -358,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.67`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Suspect in Berlin Pride attack shot dead by police**
+**3. Suspect in Berlin Pride attack shot dead by police**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.05`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**5. Inside the S&P 500 AI boom, industrials are getting as rich as tech stocks**
+**4. Inside the S&P 500 AI boom, industrials are getting as rich as tech stocks**
 - Source: CNBC Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.68`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. The S&P 500’s earnings growth has gone bonkers thanks to one company**
+**5. The S&P 500’s earnings growth has gone bonkers thanks to one company**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.87`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. Ukraine strikes Iranian vessels in Caspian Sea, Tehran accuses Kyiv of 'hostile and criminal act'**
+**6. Ukraine strikes Iranian vessels in Caspian Sea, Tehran accuses Kyiv of 'hostile and criminal act'**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.38`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. Oil set for more than 25% spike over two weeks as Middle East conflict escalates**
+**7. Oil set for more than 25% spike over two weeks as Middle East conflict escalates**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `28.86`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Earnings playbook: Apple and other megacaps lead busiest week of the season**
+**8. Earnings playbook: Apple and other megacaps lead busiest week of the season**
 - Source: CNBC Investing
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `28.18`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates**
+**9. The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: inflation, Treasury market, Fed policy
 - Score: `26.77`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. US stocks face tests from Fed decision, tech-led earnings deluge**
+- Source: Investing.com Economic Indicators
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: US, Fed decision, US stocks
+- Score: `25.65`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `4`
+- Live macro rows used: `2`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
