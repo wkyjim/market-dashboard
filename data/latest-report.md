@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 July 2026, 10:06:19 (HKT)
+Generated at: 26 July 2026, 11:06:10 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -391,20 +391,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `26.77`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. SpaceX launches massive Starship rocket in first test flight since IPO**
-- Source: CNBC Business
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: IPO, space exploration, rocket launch
-- Score: `26.52`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. US stocks face tests from Fed decision, tech-led earnings deluge**
+**9. US stocks face tests from Fed decision, tech-led earnings deluge**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: US, Fed decision, US stocks
 - Score: `25.65`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. This wave of Trump tariffs is likely here to stay; more are coming**
+- Source: Investing.com Technology
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: trade, geopolitical
+- Score: `22.95`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
