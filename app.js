@@ -7,7 +7,8 @@ const MARKET_TAPE_GROUPS = [
       ["^GSPC", "S&P 500"],
       ["^NDX", "Nasdaq 100"],
       ["^DJI", "DJIA"],
-      ["^VIX", "VIX"]
+      ["^VIX", "VIX"],
+      ["^SKEW", "CBOE SKEW"]
     ]
   },
   {
@@ -28,9 +29,10 @@ const MARKET_TAPE_GROUPS = [
       ["NQ=F", "Nasdaq 100 Future"],
       ["YM=F", "Dow Future"],
       ["RTY=F", "Russell 2000 Future"],
-      ["^HSI", "HSI Proxy"],
+      ["HK50", "Hang Seng Future"],
       ["NIY=F", "Nikkei Future"],
-      ["^KS200", "KOSPI 200 Proxy"]
+      ["KOR200c1", "KOSPI 200 Future"],
+      ["CIHc1", "SSE 50 Future"]
     ]
   },
   {
@@ -50,9 +52,13 @@ const MARKET_TAPE_GROUPS = [
     title: "UST Yield Moves",
     key: "rates",
     symbols: [
-      ["^FVX", "UST 5Y"],
-      ["^TNX", "UST 10Y"],
-      ["^TYX", "UST 30Y"]
+      ["US2YT=X", "UST 2Y"],
+      ["US3YT=X", "UST 3Y"],
+      ["US5YT=X", "UST 5Y"],
+      ["US7YT=X", "UST 7Y"],
+      ["US10YT=X", "UST 10Y"],
+      ["US20YT=X", "UST 20Y"],
+      ["US30YT=X", "UST 30Y"]
     ]
   }
 ];
@@ -277,7 +283,7 @@ function updateChartSymbols() {
   const asset = $("#chart-asset").value;
   const macroOptions = [
     ["^GSPC", "S&P 500"], ["^IXIC", "Nasdaq Composite"], ["^RUT", "Russell 2000"],
-    ["^VIX", "VIX"], ["^TNX", "10Y Treasury"], ["GC=F", "Gold"], ["SI=F", "Silver"],
+    ["^VIX", "VIX"], ["^SKEW", "CBOE SKEW"], ["US10YT=X", "10Y Treasury"], ["GC=F", "Gold"], ["SI=F", "Silver"],
     ["HG=F", "Copper"], ["CL=F", "WTI Oil"]
   ];
   const equityOptions = [
