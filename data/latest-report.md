@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 27 July 2026, 00:21:42 (HKT)
+Generated at: 27 July 2026, 01:09:29 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.2 / 100** (Mild Risk-On)
+- Regime score: **56.14 / 100** (Mild Risk-On)
 - US equity strength: **51.24 / 100** (neutral)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **46.94 / 100**, reliability **66.86 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 56.2 | Mild Risk-On |
+| Overall regime | 56.14 | Mild Risk-On |
 | equity_trend | 55.0 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.51 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 58.72 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.83 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.95 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 60.62 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0, commodity_confirmation=63.0, news_confirmation=60.62 |
+| news_confirmation | 59.38 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=70.0, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,20 +329,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 45, 'negative': 28, 'neutral': 7}
-- News confirmation score: `60.62`
+- Sentiment counts: {'positive': 44, 'negative': 29, 'neutral': 7}
+- News confirmation score: `59.38`
 
 ### Top Market-Moving Headlines
 
-**1. Imax 70 mm screenings become the biggest star for Christopher Nolan’s ‘The Odyssey’**
-- Source: CNBC Top News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: entertainment
-- Score: `46.33`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**2. There’s a technical ‘triple threat’ for stocks, but also places investors can hide**
+**1. There’s a technical ‘triple threat’ for stocks, but also places investors can hide**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -350,7 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.5`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Inside the S&P 500 AI boom, industrials are getting as rich as tech stocks**
+**2. Inside the S&P 500 AI boom, industrials are getting as rich as tech stocks**
 - Source: CNBC Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -358,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. Samsung Electronics wins $200 billion Broadcom AI chip partnership, boosting foundry push**
+**3. Samsung Electronics wins $200 billion Broadcom AI chip partnership, boosting foundry push**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**5. The S&P 500’s earnings growth has gone bonkers thanks to one company**
+**4. The S&P 500’s earnings growth has gone bonkers thanks to one company**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.67`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. Germany says Berlin Pride ramming was terrorist attack and hunts Islamist suspect**
+**5. Germany says Berlin Pride ramming was terrorist attack and hunts Islamist suspect**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.05`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**7. Earnings playbook: Apple and other megacaps lead busiest week of the season**
+**6. Earnings playbook: Apple and other megacaps lead busiest week of the season**
 - Source: CNBC Investing
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. Shein swings to quarterly loss ahead of Hong Kong IPO**
+**7. Shein swings to quarterly loss ahead of Hong Kong IPO**
 - Source: CNBC Top News
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / shortterm
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.11`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**9. The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates**
+**8. The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.5`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Ukraine strikes Iranian vessels in Caspian Sea, Tehran accuses Kyiv of 'hostile and criminal act'**
+**9. Ukraine strikes Iranian vessels in Caspian Sea, Tehran accuses Kyiv of 'hostile and criminal act'**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: conflict, international relations
 - Score: `29.38`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**10. Oil set for more than 25% spike over two weeks as Middle East conflict escalates**
+- Source: Investing.com Stock Market
+- Importance / impact: Low / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: WCL, OIL, USO, oil prices, Middle East conflict
+- Score: `28.86`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
