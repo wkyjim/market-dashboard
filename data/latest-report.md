@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 27 July 2026, 05:38:53 (HKT)
+Generated at: 27 July 2026, 06:10:57 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.2 / 100** (Mild Risk-On)
+- Regime score: **56.14 / 100** (Mild Risk-On)
 - US equity strength: **51.24 / 100** (neutral)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **46.94 / 100**, reliability **66.86 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 56.2 | Mild Risk-On |
+| Overall regime | 56.14 | Mild Risk-On |
 | equity_trend | 55.0 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.51 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 58.72 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.83 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.95 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 60.62 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0, commodity_confirmation=63.0, news_confirmation=60.62 |
+| news_confirmation | 59.38 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=70.0, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -254,8 +254,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 11 | Technology | 44.77 | neutral | neutral | weak | 39.71 | 65.0 | 48.43 | AAPL, WDAY, GDDY | GLW, SNDK, CRWD |
 | 12 | Defense | 42.42 | downtrend | neutral | weak | 50.0 | 0.0 | 49.47 | XAR | XAR |
 | 13 | Grid Infrastructure | 41.99 | downtrend | neutral | weak | 69.09 | 65.0 | 42.31 | GRID | GRID |
-| 14 | Nuclear | 34.51 | strong downtrend | negative | weak | 50.0 | 0.0 | 33.99 | NLR | NLR |
-| 15 | Consumer Discretionary | 34.22 | strong downtrend | neutral | weak | 50.0 | 0.0 | 43.41 | DPZ, BBY, ROST | LEN, DHI, TSLA |
+| 14 | Consumer Discretionary | 34.22 | strong downtrend | neutral | weak | 50.0 | 0.0 | 43.41 | DPZ, BBY, ROST | LEN, DHI, TSLA |
+| 15 | Nuclear | 34.13 | strong downtrend | negative | weak | 50.0 | 0.0 | 33.99 | NLR | NLR |
 
 ### Thematic Strength
 
@@ -273,7 +273,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 10 | Small Caps | 44.95 | Neutral / watchlist | 51.71 | 65.0 | 0.0 | False | False |
 | 11 | AI Infrastructure | 42.67 | Weak setup | 62.03 | 100.0 | 23.89 | False | False |
 | 12 | Crypto Infrastructure | 32.37 | Underperformance risk | 43.14 | 65.0 | 3.64 | False | False |
-| 13 | Nuclear | 31.35 | Underperformance risk | 50.0 | 0.0 | 11.37 | False | False |
+| 13 | Nuclear | 31.37 | Underperformance risk | 50.0 | 0.0 | 11.37 | False | False |
 
 - Top 5 improving themes: Cybersecurity, Healthcare Innovation, Semiconductors, Financials, Small Caps
 - Top 5 deteriorating themes: Crypto Infrastructure, Nuclear, Grid Infrastructure, AI Infrastructure, Defense
@@ -288,7 +288,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Healthcare | Healthcare Innovation | 65.44 | strong | 60.24 | positive | sector and theme confirmation |
 | Real Estate | Dividend Defensives | 65.27 | strong | 51.98 | mixed | sector stronger than related themes |
 | Cybersecurity | Cybersecurity | 61.79 | positive | 50.66 | mixed | sector stronger than related themes |
-| Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 61.39 | positive | 44.79 | weak | sector stronger than related themes |
+| Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 61.39 | positive | 44.8 | weak | sector stronger than related themes |
 | Industrials | Defense, Grid Infrastructure | 60.17 | positive | 51.16 | mixed | sector stronger than related themes |
 | Energy | Energy | 59.33 | positive | 61.12 | positive | sector and theme confirmation |
 | Crypto | Crypto Infrastructure | 49.31 | mixed | 32.37 | very weak | mixed confirmation |
@@ -297,8 +297,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 44.77 | weak | 46.85 | mixed | mixed confirmation |
 | Defense | Defense | 42.42 | weak | 51.28 | mixed | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 41.99 | weak | 51.04 | mixed | mixed confirmation |
-| Nuclear | Nuclear | 34.51 | very weak | 31.35 | very weak | broad weakness across sector and themes |
 | Consumer Discretionary | Small Caps | 34.22 | very weak | 44.95 | weak | broad weakness across sector and themes |
+| Nuclear | Nuclear | 34.13 | very weak | 31.37 | very weak | broad weakness across sector and themes |
 
 ## Three-Month Outperformance Setup
 
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 44, 'negative': 27, 'neutral': 9}
-- News confirmation score: `60.62`
+- Sentiment counts: {'positive': 43, 'negative': 28, 'neutral': 9}
+- News confirmation score: `59.38`
 
 ### Top Market-Moving Headlines
 
@@ -344,10 +344,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 **2. There’s a technical ‘triple threat’ for stocks, but also places investors can hide**
 - Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
+- Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: P, S, technical analysis, market indicators
-- Score: `38.67`
+- Score: `45.5`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **3. Suspect in Berlin Pride attack shot dead by police**
@@ -374,7 +374,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.87`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. Ukraine strikes Iranian vessels in Caspian Sea, Tehran accuses Kyiv of 'hostile and criminal act'**
+**6. Here are the 3 big things we're watching in the stock market in the week ahead**
+- Source: CNBC Markets
+- Importance / impact: Low / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: earnings, Fed meeting, inflation
+- Score: `29.93`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. Ukraine strikes Iranian vessels in Caspian Sea, Tehran accuses Kyiv of 'hostile and criminal act'**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.38`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. Oil set for more than 25% spike over two weeks as Middle East conflict escalates**
+**8. Oil set for more than 25% spike over two weeks as Middle East conflict escalates**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `28.86`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Earnings playbook: Apple and other megacaps lead busiest week of the season**
+**9. Earnings playbook: Apple and other megacaps lead busiest week of the season**
 - Source: CNBC Investing
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -398,21 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `28.18`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates**
+**10. The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: inflation, Treasury market, Fed policy
 - Score: `26.77`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. US stocks face tests from Fed decision, tech-led earnings deluge**
-- Source: Investing.com Economic Indicators
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: US, Fed decision, US stocks
-- Score: `25.65`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `2`
+- Live macro rows used: `3`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
