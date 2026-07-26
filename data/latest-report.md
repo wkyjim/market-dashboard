@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 July 2026, 07:06:05 (HKT)
+Generated at: 26 July 2026, 08:06:12 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -351,15 +351,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.15`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. Paramount Agrees to Pause Its Warner Bros. Merger**
-- Source: Dow Jones US Business
-- Importance / impact: Low / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: merger, pause, fees
-- Score: `32.51`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**5. Oil prices may fall, but gasoline prices won’t. Look at the trap we’re in.**
+**4. Oil prices may fall, but gasoline prices won’t. Look at the trap we’re in.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short term
@@ -367,7 +359,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.5`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**6. Tariffs and gas prices are intensifying the affordability crunch. These 3 products can help**
+**5. Tariffs and gas prices are intensifying the affordability crunch. These 3 products can help**
 - Source: CNBC Markets
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -375,7 +367,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.09`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Trump sued hours after new tariffs take effect, as experts say they may not hold up**
+**6. Trump sued hours after new tariffs take effect, as experts say they may not hold up**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -383,7 +375,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.94`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Oil set for more than 25% spike over two weeks as Middle East conflict escalates**
+**7. Oil set for more than 25% spike over two weeks as Middle East conflict escalates**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -391,7 +383,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `28.86`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Is your index fund an accidental bet on AI? These two massive ETFs show why it might be.**
+**8. Is your index fund an accidental bet on AI? These two massive ETFs show why it might be.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -399,13 +391,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `26.77`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. Investors are in the dark about the Fed’s decision this week — and that’s just how Warsh wants it**
+**9. Investors are in the dark about the Fed’s decision this week — and that’s just how Warsh wants it**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Federal Reserve, Economic Policy
 - Score: `26.77`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. SpaceX launches massive Starship rocket in first test flight since IPO**
+- Source: CNBC Business
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: IPO, space exploration, rocket launch
+- Score: `26.52`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
