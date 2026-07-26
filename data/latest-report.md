@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 July 2026, 23:09:33 (HKT)
+Generated at: 27 July 2026, 00:11:56 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.04 / 100** (Mild Risk-On)
+- Regime score: **56.2 / 100** (Mild Risk-On)
 - US equity strength: **51.24 / 100** (neutral)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **46.94 / 100**, reliability **66.86 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 56.04 | Mild Risk-On |
+| Overall regime | 56.2 | Mild Risk-On |
 | equity_trend | 55.0 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.51 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 58.72 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.83 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.95 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 57.5 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0, commodity_confirmation=63.0 |
+| news_confirmation | 60.62 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=70.0, commodity_confirmation=63.0, news_confirmation=60.62 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -77,11 +77,18 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^IXIC | NASDAQ Composite | 24975.82 | -0.64 | 2026-07-24 | closed |
 | ^RUT | Russell 2000 Index | 2930.0 | -0.35 | 2026-07-24 | closed |
 | ^VIX | CBOE Volatility Index | 18.58 | -0.64 | 2026-07-24 | closed |
+| ^SKEW | CBOE SKEW Index | 147.28 | 0.91 | 2026-07-24 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| ^FVX | Treasury Yield 5 Years | 4.43 | -0.78 | 2026-07-24 | closed |
-| ^TNX | Treasury Yield 10 Years | 4.68 | -0.51 | 2026-07-24 | closed |
-| ^TYX | Treasury Yield 30 Years | 5.16 | -0.17 | 2026-07-24 | closed |
-| DX-Y.NYB | US Dollar Index | 101.47 | 0.03 | 2026-07-24 | closed |
+| US2YT=X | United States 2-Year Treasury Yield | 4.33 | -0.67 | 2026-07-24 | closed |
+| US3YT=X | United States 3-Year Treasury Yield | 4.36 | -0.73 | 2026-07-24 | closed |
+| US5YT=X | United States 5-Year Treasury Yield | 4.43 | -0.78 | 2026-07-24 | closed |
+| US7YT=X | United States 7-Year Treasury Yield | 4.55 | -0.72 | 2026-07-24 | closed |
+| US10YT=X | United States 10-Year Treasury Yield | 4.68 | -0.51 | 2026-07-24 | closed |
+| US20YT=X | United States 20-Year Treasury Yield | 5.19 | -0.36 | 2026-07-24 | closed |
+| US30YT=X | United States 30-Year Treasury Yield | 5.16 | -0.17 | 2026-07-24 | closed |
+| HK50 | Hang Seng Futures | 25023.0 | 0.58 | 2026-07-24 | closed |
+| KOR200c1 | KOSPI 200 Futures | 1034.05 | -2.77 | 2026-07-24 | closed |
+| CIHc1 | SSE 50 Futures | 2930.2 | -1.05 | 2026-07-24 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.23 | 0.0 | 2026-07-24 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.23 | -0.03 | 2026-07-24 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 95.39 | -0.01 | 2026-07-24 | closed |
@@ -236,10 +243,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Financials | 65.64 | strong uptrend | positive | broad | 63.77 | 65.0 | 54.74 | PYPL, FDS, TRV | AXP, SYF, C |
 | 2 | Healthcare | 65.44 | strong uptrend | positive | broad | 59.36 | 65.0 | 55.97 | VEEV, TMO, BMY | EW, MRNA, ISRG |
-| 3 | Real Estate | 65.37 | strong uptrend | neutral | broad | 46.52 | 65.0 | 51.78 | VTR, WELL, O | CSGP, CCI, WY |
+| 3 | Real Estate | 65.27 | strong uptrend | neutral | broad | 46.52 | 65.0 | 51.78 | VTR, WELL, O | CSGP, CCI, WY |
 | 4 | Cybersecurity | 61.79 | strong uptrend | positive | broad | 62.36 | 65.0 | 64.15 | CIBR | CIBR |
 | 5 | Utilities | 61.39 | strong uptrend | neutral | broad | 50.0 | 0.0 | 47.47 | EIX, PCG, FE | CMS, PEG, NRG |
-| 6 | Industrials | 59.79 | strong uptrend | neutral | broad | 50.0 | 0.0 | 50.35 | CTAS, PAYX, ADP | PNR, BLDR, GNRC |
+| 6 | Industrials | 60.17 | strong uptrend | neutral | broad | 50.0 | 0.0 | 50.35 | CTAS, PAYX, ADP | PNR, BLDR, GNRC |
 | 7 | Energy | 59.33 | uptrend | positive | broad | 55.61 | 65.0 | 55.55 | MPC, PSX, VLO | KMI, HAL, WMB |
 | 8 | Crypto | 49.31 | neutral | neutral | mixed | 43.14 | 65.0 | 50.0 |  |  |
 | 9 | Consumer Staples | 49.06 | neutral | neutral | weak | 50.0 | 0.0 | 48.73 | ADM, CASY, KHC | WMT, KDP, STZ |
@@ -279,10 +286,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- |
 | Financials | Financials | 65.64 | strong | 60.7 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 65.44 | strong | 60.24 | positive | sector and theme confirmation |
-| Real Estate | Dividend Defensives | 65.37 | strong | 51.98 | mixed | sector stronger than related themes |
+| Real Estate | Dividend Defensives | 65.27 | strong | 51.98 | mixed | sector stronger than related themes |
 | Cybersecurity | Cybersecurity | 61.79 | positive | 50.66 | mixed | sector stronger than related themes |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 61.39 | positive | 44.79 | weak | sector stronger than related themes |
-| Industrials | Defense, Grid Infrastructure | 59.79 | positive | 51.16 | mixed | sector stronger than related themes |
+| Industrials | Defense, Grid Infrastructure | 60.17 | positive | 51.16 | mixed | sector stronger than related themes |
 | Energy | Energy | 59.33 | positive | 61.12 | positive | sector and theme confirmation |
 | Crypto | Crypto Infrastructure | 49.31 | mixed | 32.37 | very weak | mixed confirmation |
 | Consumer Staples | Dividend Defensives | 49.06 | mixed | 51.98 | mixed | mixed confirmation |
@@ -322,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 42, 'negative': 30, 'neutral': 8}
-- News confirmation score: `57.5`
+- Sentiment counts: {'positive': 45, 'negative': 28, 'neutral': 7}
+- News confirmation score: `60.62`
 
 ### Top Market-Moving Headlines
 
@@ -335,31 +342,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `46.33`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**2. Vehicle mows down crowd at Berlin Pride festival, killing one**
-- Source: CNBC Top News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: accident, public safety
-- Score: `41.18`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**3. Russian attack cuts power to around 150,000 in Ukraine’s north as Kyiv hits missile, oil facilities**
-- Source: CNBC Business News
-- Importance / impact: Medium / Negative
+**2. There’s a technical ‘triple threat’ for stocks, but also places investors can hide**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: geo-political
-- Score: `40.8`
+- Affected assets: P, S, technical analysis, market indicators
+- Score: `45.5`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. The super rich use 401(k)s and IRAs to sidestep taxes on millions of dollars. This proposed law would cut them off.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / long-term
-- Affected assets: taxes, wealth_management, retirement_investments
-- Score: `40.46`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+**3. Inside the S&P 500 AI boom, industrials are getting as rich as tech stocks**
+- Source: CNBC Business
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: E, P, S, AI, industrials
+- Score: `40.8`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. Samsung Electronics wins $200 billion Broadcom AI chip partnership, boosting foundry push**
+**4. Samsung Electronics wins $200 billion Broadcom AI chip partnership, boosting foundry push**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -367,7 +366,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**6. Earnings playbook: Apple and other megacaps lead busiest week of the season**
+**5. The S&P 500’s earnings growth has gone bonkers thanks to one company**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: P, S, earnings season, S&P 500
+- Score: `38.67`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**6. Germany says Berlin Pride ramming was terrorist attack and hunts Islamist suspect**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: B, accident, public safety
+- Score: `37.05`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**7. Earnings playbook: Apple and other megacaps lead busiest week of the season**
 - Source: CNBC Investing
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -375,7 +390,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates**
+**8. Shein swings to quarterly loss ahead of Hong Kong IPO**
+- Source: CNBC Top News
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / shortterm
+- Affected assets: IPO, Retail
+- Score: `32.11`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**9. The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -383,29 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.5`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Ukraine strikes Iranian vessels in Caspian Sea, Tehran accuses Kyiv of 'hostile and criminal act'**
+**10. Ukraine strikes Iranian vessels in Caspian Sea, Tehran accuses Kyiv of 'hostile and criminal act'**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: conflict, international relations
 - Score: `29.38`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**9. Oil set for more than 25% spike over two weeks as Middle East conflict escalates**
-- Source: Investing.com Stock Market
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: WCL, OIL, USO, oil prices, Middle East conflict
-- Score: `28.86`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Oil prices may fall, but gasoline prices won’t. Look at the trap we’re in.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short term
-- Affected assets: Oil Prices, Gasoline Prices, Iran
-- Score: `26.77`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
 
 
 ### Headline Quality Checks
@@ -498,7 +505,7 @@ No contradiction flags were triggered by current deterministic rules.
 
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
-- Macro rows loaded: `38`
+- Macro rows loaded: `49`
 - Live macro rows used: `2`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
