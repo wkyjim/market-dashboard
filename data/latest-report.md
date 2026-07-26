@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 July 2026, 12:07:56 (HKT)
+Generated at: 26 July 2026, 12:11:25 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.04 / 100** (Mild Risk-On)
+- Regime score: **55.98 / 100** (Mild Risk-On)
 - US equity strength: **51.24 / 100** (neutral)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **46.94 / 100**, reliability **66.86 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 56.04 | Mild Risk-On |
+| Overall regime | 55.98 | Mild Risk-On |
 | equity_trend | 55.0 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.51 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 58.72 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 54.83 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.95 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 57.5 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 56.25 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=70.0, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
@@ -244,7 +244,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 8 | Crypto | 49.31 | neutral | neutral | mixed | 43.14 | 65.0 | 50.0 |  |  |
 | 9 | Consumer Staples | 49.06 | neutral | neutral | weak | 50.0 | 0.0 | 48.73 | ADM, CASY, KHC | WMT, KDP, STZ |
 | 10 | Semiconductors | 47.16 | neutral | neutral | weak | 62.03 | 100.0 | 46.69 | SMH, SOXX | SOXX, SMH |
-| 11 | Technology | 45.08 | neutral | neutral | weak | 39.71 | 65.0 | 48.43 | AAPL, WDAY, GDDY | GLW, SNDK, CRWD |
+| 11 | Technology | 44.98 | neutral | neutral | weak | 39.71 | 65.0 | 48.43 | AAPL, WDAY, GDDY | GLW, SNDK, CRWD |
 | 12 | Defense | 42.42 | downtrend | neutral | weak | 50.0 | 0.0 | 49.47 | XAR | XAR |
 | 13 | Grid Infrastructure | 41.99 | downtrend | neutral | weak | 69.09 | 65.0 | 42.31 | GRID | GRID |
 | 14 | Nuclear | 34.51 | strong downtrend | negative | weak | 50.0 | 0.0 | 33.99 | NLR | NLR |
@@ -287,7 +287,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Crypto | Crypto Infrastructure | 49.31 | mixed | 32.37 | very weak | mixed confirmation |
 | Consumer Staples | Dividend Defensives | 49.06 | mixed | 51.98 | mixed | mixed confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 47.16 | mixed | 47.27 | mixed | mixed confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 45.08 | mixed | 46.85 | mixed | mixed confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 44.98 | weak | 46.85 | mixed | mixed confirmation |
 | Defense | Defense | 42.42 | weak | 51.28 | mixed | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 41.99 | weak | 51.04 | mixed | mixed confirmation |
 | Nuclear | Nuclear | 34.51 | very weak | 31.35 | very weak | broad weakness across sector and themes |
@@ -322,12 +322,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 37, 'negative': 25, 'neutral': 18}
-- News confirmation score: `57.5`
+- Sentiment counts: {'positive': 36, 'negative': 26, 'neutral': 18}
+- News confirmation score: `56.25`
 
 ### Top Market-Moving Headlines
 
-**1. S&P 500 flashes sell signals — options traders are bracing for wild swings in Apple, Meta and Microsoft**
+**1. A ‘generational buying opportunity’ guarantees inflation plus 3% a year, says this hedge-fund manager**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / long-term
+- Affected assets: A, TIPS, inflation, hedge-fund
+- Score: `55.27`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**2. S&P 500 flashes sell signals — options traders are bracing for wild swings in Apple, Meta and Microsoft**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -335,7 +343,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**2. Russian attack cuts power to around 150,000 in Ukraine’s north as Kyiv hits missile, oil facilities**
+**3. Russian attack cuts power to around 150,000 in Ukraine’s north as Kyiv hits missile, oil facilities**
 - Source: CNBC Business News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -343,7 +351,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Morgan Stanley says buy these stocks ahead of their earnings, before it's too late**
+**4. The super rich use 401(k)s and IRAs to sidestep taxes on millions of dollars. This proposed law would cut them off.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / long-term
+- Affected assets: taxes, wealth_management, retirement_investments
+- Score: `40.46`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**5. Morgan Stanley says buy these stocks ahead of their earnings, before it's too late**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -351,7 +367,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.15`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. Tariffs and gas prices are intensifying the affordability crunch. These 3 products can help**
+**6. Tariffs and gas prices are intensifying the affordability crunch. These 3 products can help**
 - Source: CNBC Markets
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -359,7 +375,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.09`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Trump sued hours after new tariffs take effect, as experts say they may not hold up**
+**7. Trump sued hours after new tariffs take effect, as experts say they may not hold up**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -367,7 +383,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.94`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Oil set for more than 25% spike over two weeks as Middle East conflict escalates**
+**8. Oil set for more than 25% spike over two weeks as Middle East conflict escalates**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -375,7 +391,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `28.86`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Oil prices may fall, but gasoline prices won’t. Look at the trap we’re in.**
+**9. Oil prices may fall, but gasoline prices won’t. Look at the trap we’re in.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short term
@@ -383,29 +399,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `26.77`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**8. Investors are in the dark about the Fed’s decision this week — and that’s just how Warsh wants it**
+**10. Investors are in the dark about the Fed’s decision this week — and that’s just how Warsh wants it**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Federal Reserve, Economic Policy
 - Score: `26.77`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. US stocks face tests from Fed decision, tech-led earnings deluge**
-- Source: Investing.com Economic Indicators
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: US, Fed decision, US stocks
-- Score: `25.65`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. This wave of Trump tariffs is likely here to stay; more are coming**
-- Source: Investing.com Technology
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: trade, geopolitical
-- Score: `22.95`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
