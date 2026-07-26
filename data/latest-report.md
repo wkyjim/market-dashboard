@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 July 2026, 22:10:53 (HKT)
+Generated at: 26 July 2026, 23:09:33 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -322,20 +322,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 43, 'negative': 31, 'neutral': 6}
+- Sentiment counts: {'positive': 42, 'negative': 30, 'neutral': 8}
 - News confirmation score: `57.5`
 
 ### Top Market-Moving Headlines
 
-**1. A ‘generational buying opportunity’ guarantees inflation plus 3% a year, says this hedge-fund manager**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / long-term
-- Affected assets: A, TIPS, inflation, hedge-fund
-- Score: `55.27`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**2. Imax 70 mm screenings become the biggest star for Christopher Nolan’s ‘The Odyssey’**
+**1. Imax 70 mm screenings become the biggest star for Christopher Nolan’s ‘The Odyssey’**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -343,15 +335,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `46.33`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**3. S&P 500 flashes sell signals — options traders are bracing for wild swings in Apple, Meta and Microsoft**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AAPL, META, MSFT, P, S
-- Score: `43.35`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**4. Vehicle mows down crowd at Berlin Pride festival, killing one**
+**2. Vehicle mows down crowd at Berlin Pride festival, killing one**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -359,7 +343,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**5. Russian attack cuts power to around 150,000 in Ukraine’s north as Kyiv hits missile, oil facilities**
+**3. Russian attack cuts power to around 150,000 in Ukraine’s north as Kyiv hits missile, oil facilities**
 - Source: CNBC Business News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -367,7 +351,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. The super rich use 401(k)s and IRAs to sidestep taxes on millions of dollars. This proposed law would cut them off.**
+**4. The super rich use 401(k)s and IRAs to sidestep taxes on millions of dollars. This proposed law would cut them off.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / long-term
@@ -375,7 +359,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.46`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**7. Samsung Electronics wins $200 billion Broadcom AI chip partnership, boosting foundry push**
+**5. Samsung Electronics wins $200 billion Broadcom AI chip partnership, boosting foundry push**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -383,7 +367,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. Earnings playbook: Apple and other megacaps lead busiest week of the season**
+**6. Earnings playbook: Apple and other megacaps lead busiest week of the season**
 - Source: CNBC Investing
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -391,7 +375,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates**
+**7. The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -399,13 +383,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.5`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Trump sued hours after new tariffs take effect, as experts say they may not hold up**
+**8. Ukraine strikes Iranian vessels in Caspian Sea, Tehran accuses Kyiv of 'hostile and criminal act'**
 - Source: CNBC Business Headlines
-- Importance / impact: Low / Negative
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: conflict, international relations
+- Score: `29.38`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**9. Oil set for more than 25% spike over two weeks as Middle East conflict escalates**
+- Source: Investing.com Stock Market
+- Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
-- Affected assets: trade_policy, government_regulation
-- Score: `30.94`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Affected assets: WCL, OIL, USO, oil prices, Middle East conflict
+- Score: `28.86`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Oil prices may fall, but gasoline prices won’t. Look at the trap we’re in.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short term
+- Affected assets: Oil Prices, Gasoline Prices, Iran
+- Score: `26.77`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
 
 
 ### Headline Quality Checks
