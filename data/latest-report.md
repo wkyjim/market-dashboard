@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 July 2026, 08:06:12 (HKT)
+Generated at: 26 July 2026, 08:35:47 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -351,15 +351,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.15`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. Oil prices may fall, but gasoline prices won’t. Look at the trap we’re in.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short term
-- Affected assets: Oil Prices, Gasoline Prices, Iran
-- Score: `31.5`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
-
-**5. Tariffs and gas prices are intensifying the affordability crunch. These 3 products can help**
+**4. Tariffs and gas prices are intensifying the affordability crunch. These 3 products can help**
 - Source: CNBC Markets
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -367,7 +359,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.09`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Trump sued hours after new tariffs take effect, as experts say they may not hold up**
+**5. Trump sued hours after new tariffs take effect, as experts say they may not hold up**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -375,7 +367,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.94`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Oil set for more than 25% spike over two weeks as Middle East conflict escalates**
+**6. Oil set for more than 25% spike over two weeks as Middle East conflict escalates**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -383,13 +375,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `28.86`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Is your index fund an accidental bet on AI? These two massive ETFs show why it might be.**
+**7. Is your index fund an accidental bet on AI? These two massive ETFs show why it might be.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: AI, ETFs
 - Score: `26.77`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**8. Oil prices may fall, but gasoline prices won’t. Look at the trap we’re in.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short term
+- Affected assets: Oil Prices, Gasoline Prices, Iran
+- Score: `26.77`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
 
 **9. Investors are in the dark about the Fed’s decision this week — and that’s just how Warsh wants it**
 - Source: MarketWatch Top Stories
