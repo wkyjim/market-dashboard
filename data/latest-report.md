@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 July 2026, 14:55:44 (HKT)
+Generated at: 26 July 2026, 15:13:06 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **55.98 / 100** (Mild Risk-On)
+- Regime score: **55.95 / 100** (Mild Risk-On)
 - US equity strength: **51.24 / 100** (neutral)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **46.94 / 100**, reliability **66.86 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 55.98 | Mild Risk-On |
+| Overall regime | 55.95 | Mild Risk-On |
 | equity_trend | 55.0 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.51 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 58.72 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 54.83 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.95 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 56.25 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 55.62 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=70.0, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
@@ -68,6 +68,8 @@ Window: 24h
 | Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
+
+Live macro rows are intraday snapshots from `public.macro_live`; closed rows are official stored rows from `public.macro`.
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
@@ -320,8 +322,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 36, 'negative': 26, 'neutral': 18}
-- News confirmation score: `56.25`
+- Sentiment counts: {'positive': 39, 'negative': 30, 'neutral': 11}
+- News confirmation score: `55.62`
 
 ### Top Market-Moving Headlines
 
@@ -497,7 +499,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `38`
-- Live macro rows used: `0`
+- Live macro rows used: `2`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
