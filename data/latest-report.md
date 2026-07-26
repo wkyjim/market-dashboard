@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 July 2026, 13:06:38 (HKT)
+Generated at: 26 July 2026, 14:55:44 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -68,8 +68,6 @@ Window: 24h
 | Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
-
-Live macro rows are intraday snapshots from `public.macro_live`; closed rows are official stored rows from `public.macro`.
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
@@ -499,7 +497,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `38`
-- Live macro rows used: `2`
+- Live macro rows used: `0`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
