@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 27 July 2026, 02:09:07 (HKT)
+Generated at: 27 July 2026, 03:11:00 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.14 / 100** (Mild Risk-On)
+- Regime score: **56.08 / 100** (Mild Risk-On)
 - US equity strength: **51.24 / 100** (neutral)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **46.94 / 100**, reliability **66.86 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 56.14 | Mild Risk-On |
+| Overall regime | 56.08 | Mild Risk-On |
 | equity_trend | 55.0 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.51 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 58.72 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 54.83 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.95 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 59.38 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 58.12 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=70.0, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
@@ -329,18 +329,18 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 44, 'negative': 29, 'neutral': 7}
-- News confirmation score: `59.38`
+- Sentiment counts: {'positive': 42, 'negative': 29, 'neutral': 9}
+- News confirmation score: `58.12`
 
 ### Top Market-Moving Headlines
 
-**1. There’s a technical ‘triple threat’ for stocks, but also places investors can hide**
-- Source: MarketWatch Top Stories
+**1. Shein flags tariff hits after posting quarterly loss ahead of Hong Kong IPO**
+- Source: CNBC Top News
 - Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: P, S, technical analysis, market indicators
-- Score: `45.5`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Relevance / horizon: macro / shortterm
+- Affected assets: IPO, Retail
+- Score: `49.4`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the shortterm.
 
 **2. Inside the S&P 500 AI boom, industrials are getting as rich as tech stocks**
 - Source: CNBC Business
@@ -366,7 +366,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.67`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. Germany says Berlin Pride ramming was terrorist attack and hunts Islamist suspect**
+**5. There’s a technical ‘triple threat’ for stocks, but also places investors can hide**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: P, S, technical analysis, market indicators
+- Score: `38.67`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. Suspect in Berlin Pride attack shot dead by police**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -374,23 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.05`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**6. Shein swings to quarterly loss ahead of Hong Kong IPO**
-- Source: CNBC Top News
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / shortterm
-- Affected assets: IPO, Retail
-- Score: `32.11`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**7. The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: inflation, Treasury market, Fed policy
-- Score: `31.5`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. Ukraine strikes Iranian vessels in Caspian Sea, Tehran accuses Kyiv of 'hostile and criminal act'**
+**7. Ukraine strikes Iranian vessels in Caspian Sea, Tehran accuses Kyiv of 'hostile and criminal act'**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.38`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**9. Oil set for more than 25% spike over two weeks as Middle East conflict escalates**
+**8. Oil set for more than 25% spike over two weeks as Middle East conflict escalates**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `28.86`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Earnings playbook: Apple and other megacaps lead busiest week of the season**
+**9. Earnings playbook: Apple and other megacaps lead busiest week of the season**
 - Source: CNBC Investing
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: AAPL, earnings season, Apple, stock market performance
 - Score: `28.18`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: inflation, Treasury market, Fed policy
+- Score: `26.77`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
