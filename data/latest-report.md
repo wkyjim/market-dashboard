@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 27 July 2026, 18:11:58 (HKT)
+Generated at: 27 July 2026, 19:03:00 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -24,7 +24,7 @@ Window: 24h
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.98 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 56.01 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 46.75 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 60.62 | mild risk-on support; Weighted headline/news confirmation score. |
@@ -76,16 +76,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7411.98 | 0.05 | 2026-07-24 | closed |
 | ^IXIC | NASDAQ Composite | 24975.82 | -0.64 | 2026-07-24 | closed |
 | ^RUT | Russell 2000 Index | 2930.0 | -0.35 | 2026-07-24 | closed |
-| ^VIX | CBOE Volatility Index | 17.59 | -5.33 | 2026-07-27 | live as of 27 July 2026, 18:01:02 (HKT) |
+| ^VIX | CBOE Volatility Index | 17.57 | -5.44 | 2026-07-27 | live as of 27 July 2026, 19:00:35 (HKT) |
 | ^SKEW | CBOE SKEW Index | 147.28 | 0.91 | 2026-07-24 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.3 | -0.75 | 2026-07-27 | live as of 27 July 2026, 18:01:02 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.32 | -0.9 | 2026-07-27 | live as of 27 July 2026, 18:01:02 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.39 | -0.86 | 2026-07-27 | live as of 27 July 2026, 18:01:02 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.51 | -0.89 | 2026-07-27 | live as of 27 July 2026, 18:01:02 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.63 | -1.0 | 2026-07-27 | live as of 27 July 2026, 18:01:02 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.14 | -0.85 | 2026-07-27 | live as of 27 July 2026, 18:01:02 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.12 | -0.78 | 2026-07-27 | live as of 27 July 2026, 18:01:02 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.31 | -0.5 | 2026-07-27 | live as of 27 July 2026, 19:00:35 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.33 | -0.67 | 2026-07-27 | live as of 27 July 2026, 19:00:35 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.4 | -0.7 | 2026-07-27 | live as of 27 July 2026, 19:00:35 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.51 | -0.77 | 2026-07-27 | live as of 27 July 2026, 19:00:35 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.64 | -0.9 | 2026-07-27 | live as of 27 July 2026, 19:00:35 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.15 | -0.83 | 2026-07-27 | live as of 27 July 2026, 19:00:35 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.12 | -0.76 | 2026-07-27 | live as of 27 July 2026, 19:00:35 (HKT) |
 | HK50 | Hang Seng Futures | 25198.5 | 0.7 | 2026-07-27 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1034.05 | -2.77 | 2026-07-24 | closed |
 | CIHc1 | SSE 50 Futures | 2930.2 | -1.05 | 2026-07-24 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 83.25 | 0.1 | 2026-07-24 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 93.03 | 0.19 | 2026-07-24 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.85 | 0.1 | 2026-07-24 | closed |
-| GC=F | Gold Future | 4100.8 | 0.82 | 2026-07-27 | live as of 27 July 2026, 18:01:02 (HKT) |
-| SI=F | Silver Future | 59.65 | 1.69 | 2026-07-27 | live as of 27 July 2026, 18:01:02 (HKT) |
-| CL=F | WTI Crude Oil Future | 82.39 | -7.75 | 2026-07-27 | live as of 27 July 2026, 18:01:02 (HKT) |
-| HG=F | Copper Future | 6.4 | 1.22 | 2026-07-27 | live as of 27 July 2026, 18:01:02 (HKT) |
+| GC=F | Gold Future | 4104.2 | 0.9 | 2026-07-27 | live as of 27 July 2026, 19:00:35 (HKT) |
+| SI=F | Silver Future | 59.57 | 1.56 | 2026-07-27 | live as of 27 July 2026, 19:00:35 (HKT) |
+| CL=F | WTI Crude Oil Future | 83.29 | -6.74 | 2026-07-27 | live as of 27 July 2026, 19:00:35 (HKT) |
+| HG=F | Copper Future | 6.4 | 1.27 | 2026-07-27 | live as of 27 July 2026, 19:00:35 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=17.59 pct_chg=-5.33
+- VIX close=17.57 pct_chg=-5.44
 
 ## News Analytics
 
