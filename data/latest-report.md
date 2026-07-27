@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 27 July 2026, 18:03:45 (HKT)
+Generated at: 27 July 2026, 18:11:58 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **55.8 / 100** (Mild Risk-On)
+- Regime score: **56.02 / 100** (Mild Risk-On)
 - US equity strength: **51.24 / 100** (neutral)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **45.43 / 100**, reliability **71.05 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 55.8 | Mild Risk-On |
+| Overall regime | 56.02 | Mild Risk-On |
 | equity_trend | 55.0 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.51 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 58.72 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.98 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 46.75 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 56.25 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0, commodity_confirmation=61.0 |
+| news_confirmation | 60.62 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=70.0, commodity_confirmation=61.0, news_confirmation=60.62 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -242,8 +242,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Sector | Score | Trend | Momentum | Stock Breadth | ETF Flow | Flow Reliability | 3M RS | Supporting / Leaders | Detracting / Laggards |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Healthcare | 66.8 | strong uptrend | positive | broad | 73.05 | 95.0 | 55.97 | VEEV, TMO, BMY | EW, MRNA, ISRG |
-| 2 | Real Estate | 66.6 | strong uptrend | neutral | broad | 59.79 | 90.0 | 51.78 | VTR, WELL, O | CSGP, CCI, WY |
-| 3 | Financials | 66.39 | strong uptrend | positive | broad | 71.21 | 100.0 | 54.74 | PYPL, FDS, TRV | AXP, SYF, C |
+| 2 | Financials | 66.39 | strong uptrend | positive | broad | 71.21 | 100.0 | 54.74 | PYPL, FDS, TRV | AXP, SYF, C |
+| 3 | Real Estate | 66.19 | strong uptrend | neutral | broad | 59.79 | 90.0 | 51.78 | VTR, WELL, O | CSGP, CCI, WY |
 | 4 | Cybersecurity | 61.79 | strong uptrend | positive | broad | 62.36 | 65.0 | 64.15 | CIBR | CIBR |
 | 5 | Utilities | 61.65 | strong uptrend | neutral | broad | 52.55 | 65.0 | 47.47 | EIX, PCG, FE | CMS, PEG, NRG |
 | 6 | Industrials | 61.56 | strong uptrend | neutral | broad | 63.88 | 65.0 | 50.35 | CTAS, PAYX, ADP | PNR, BLDR, GNRC |
@@ -285,8 +285,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
 | Healthcare | Healthcare Innovation | 66.8 | strong | 61.61 | positive | sector and theme confirmation |
-| Real Estate | Dividend Defensives | 66.6 | strong | 51.98 | mixed | sector stronger than related themes |
 | Financials | Financials | 66.39 | strong | 61.45 | positive | sector and theme confirmation |
+| Real Estate | Dividend Defensives | 66.19 | strong | 51.98 | mixed | sector stronger than related themes |
 | Cybersecurity | Cybersecurity | 61.79 | positive | 50.66 | mixed | sector stronger than related themes |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 61.65 | positive | 44.8 | weak | sector stronger than related themes |
 | Industrials | Defense, Grid Infrastructure | 61.56 | positive | 50.67 | mixed | sector stronger than related themes |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 42, 'negative': 32, 'neutral': 6}
-- News confirmation score: `56.25`
+- Sentiment counts: {'positive': 46, 'negative': 29, 'neutral': 5}
+- News confirmation score: `60.62`
 
 ### Top Market-Moving Headlines
 
@@ -342,7 +342,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.38`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Why Trump's new tariff blitz is very different this time round**
+**2. Treasury yields tumble as Middle East tensions ease**
+- Source: CNBC Top News
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, Geopolitics, Oil Market
+- Score: `49.4`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Why Trump's new tariff blitz is very different this time round**
 - Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -350,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `47.6`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Chipmaker CXMT’s 466% market debut surge makes it the most valuable China-listed company**
+**4. Chipmaker CXMT’s 466% market debut surge makes it the most valuable China-listed company**
 - Source: CNBC Technology
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -358,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `42.27`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**4. Shein flags tariff hits after posting quarterly loss ahead of Hong Kong IPO**
+**5. Shein flags tariff hits after posting quarterly loss ahead of Hong Kong IPO**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / shortterm
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.99`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the shortterm.
 
-**5. Indonesia central bank governor Perry Warjiyo steps down in surprise move**
+**6. Indonesia central bank governor Perry Warjiyo steps down in surprise move**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**6. The S&P 500’s earnings growth has gone bonkers thanks to one company**
+**7. The S&P 500’s earnings growth has gone bonkers thanks to one company**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. Moonshot AI accessed Nvidia's chips despite Chinese export ban, White House official says**
+**8. Moonshot AI accessed Nvidia's chips despite Chinese export ban, White House official says**
 - Source: CNBC Technology
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.78`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. There’s a technical ‘triple threat’ for stocks, but also places investors can hide**
+**9. There’s a technical ‘triple threat’ for stocks, but also places investors can hide**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -398,21 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.67`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Inside the S&P 500 AI boom, industrials are getting as rich as tech stocks**
+**10. Inside the S&P 500 AI boom, industrials are getting as rich as tech stocks**
 - Source: CNBC Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: E, P, S, AI, industrials
 - Score: `34.68`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**10. Oil slides 6% as Iran reportedly signals halt to attacks if U.S. pause holds**
-- Source: CNBC Top News
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil_prices, geopolitical_risk
-- Score: `34.2`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
