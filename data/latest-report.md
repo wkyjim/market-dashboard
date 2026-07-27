@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 27 July 2026, 08:08:50 (HKT)
+Generated at: 27 July 2026, 08:38:44 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,13 +79,13 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 18.58 | -0.64 | 2026-07-24 | closed |
 | ^SKEW | CBOE SKEW Index | 147.28 | 0.91 | 2026-07-24 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.33 | -0.67 | 2026-07-24 | closed |
-| US3YT=X | United States 3-Year Treasury Yield | 4.36 | -0.73 | 2026-07-24 | closed |
-| US5YT=X | United States 5-Year Treasury Yield | 4.43 | -0.78 | 2026-07-24 | closed |
-| US7YT=X | United States 7-Year Treasury Yield | 4.55 | -0.72 | 2026-07-24 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 4.63 | -1.09 | 2026-07-27 | live as of 27 July 2026, 08:00:50 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.19 | -0.36 | 2026-07-24 | closed |
-| US30YT=X | United States 30-Year Treasury Yield | 5.16 | -0.17 | 2026-07-24 | closed |
+| US2YT=X | United States 2-Year Treasury Yield | 4.29 | -0.9 | 2026-07-27 | live as of 27 July 2026, 08:30:56 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.32 | -1.1 | 2026-07-27 | live as of 27 July 2026, 08:30:56 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.38 | -1.06 | 2026-07-27 | live as of 27 July 2026, 08:30:56 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.5 | -1.1 | 2026-07-27 | live as of 27 July 2026, 08:30:56 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.63 | -1.13 | 2026-07-27 | live as of 27 July 2026, 08:30:56 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.14 | -0.93 | 2026-07-27 | live as of 27 July 2026, 08:30:56 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.12 | -0.82 | 2026-07-27 | live as of 27 July 2026, 08:30:56 (HKT) |
 | HK50 | Hang Seng Futures | 25023.0 | 0.58 | 2026-07-24 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1034.05 | -2.77 | 2026-07-24 | closed |
 | CIHc1 | SSE 50 Futures | 2930.2 | -1.05 | 2026-07-24 | closed |
@@ -350,15 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.99`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the shortterm.
 
-**3. Suspect in Berlin Pride attack shot dead by police**
-- Source: CNBC Top News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: B, accident, public safety
-- Score: `37.05`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**4. Inside the S&P 500 AI boom, industrials are getting as rich as tech stocks**
+**3. Inside the S&P 500 AI boom, industrials are getting as rich as tech stocks**
 - Source: CNBC Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -366,13 +358,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.68`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. The S&P 500’s earnings growth has gone bonkers thanks to one company**
+**4. The S&P 500’s earnings growth has gone bonkers thanks to one company**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: P, S, earnings season, S&P 500
 - Score: `32.87`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**5. Suspect in Berlin Pride attack shot dead by police**
+- Source: CNBC Top News
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: B, accident, public safety
+- Score: `31.49`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 **6. Here are the 3 big things we're watching in the stock market in the week ahead**
 - Source: CNBC Markets
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `5`
+- Live macro rows used: `13`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
