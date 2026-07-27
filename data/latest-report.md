@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 27 July 2026, 08:38:44 (HKT)
+Generated at: 27 July 2026, 09:10:27 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,13 +79,13 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 18.58 | -0.64 | 2026-07-24 | closed |
 | ^SKEW | CBOE SKEW Index | 147.28 | 0.91 | 2026-07-24 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.29 | -0.9 | 2026-07-27 | live as of 27 July 2026, 08:30:56 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.32 | -1.1 | 2026-07-27 | live as of 27 July 2026, 08:30:56 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.38 | -1.06 | 2026-07-27 | live as of 27 July 2026, 08:30:56 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.5 | -1.1 | 2026-07-27 | live as of 27 July 2026, 08:30:56 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.63 | -1.13 | 2026-07-27 | live as of 27 July 2026, 08:30:56 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.14 | -0.93 | 2026-07-27 | live as of 27 July 2026, 08:30:56 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.12 | -0.82 | 2026-07-27 | live as of 27 July 2026, 08:30:56 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.3 | -0.7 | 2026-07-27 | live as of 27 July 2026, 09:00:33 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.32 | -0.93 | 2026-07-27 | live as of 27 July 2026, 09:00:33 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.39 | -0.9 | 2026-07-27 | live as of 27 July 2026, 09:00:33 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.5 | -0.92 | 2026-07-27 | live as of 27 July 2026, 09:00:33 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.63 | -0.98 | 2026-07-27 | live as of 27 July 2026, 09:00:33 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.15 | -0.8 | 2026-07-27 | live as of 27 July 2026, 09:00:33 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.12 | -0.72 | 2026-07-27 | live as of 27 July 2026, 09:00:33 (HKT) |
 | HK50 | Hang Seng Futures | 25023.0 | 0.58 | 2026-07-24 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1034.05 | -2.77 | 2026-07-24 | closed |
 | CIHc1 | SSE 50 Futures | 2930.2 | -1.05 | 2026-07-24 | closed |
@@ -334,7 +334,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. There’s a technical ‘triple threat’ for stocks, but also places investors can hide**
+**1. The S&P 500’s earnings growth has gone bonkers thanks to one company**
+- Source: MarketWatch Bulletins
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: P, S, earnings, stock market
+- Score: `48.45`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**2. There’s a technical ‘triple threat’ for stocks, but also places investors can hide**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -342,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.5`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Shein flags tariff hits after posting quarterly loss ahead of Hong Kong IPO**
+**3. Shein flags tariff hits after posting quarterly loss ahead of Hong Kong IPO**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / shortterm
@@ -350,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.99`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the shortterm.
 
-**3. Inside the S&P 500 AI boom, industrials are getting as rich as tech stocks**
+**4. Inside the S&P 500 AI boom, industrials are getting as rich as tech stocks**
 - Source: CNBC Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -358,7 +366,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.68`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. The S&P 500’s earnings growth has gone bonkers thanks to one company**
+**5. Oil slides 5% as Iran reportedly signals halt to attacks if U.S. pause holds**
+- Source: CNBC Top News
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, oil_prices, geopolitical_risk
+- Score: `34.2`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. The S&P 500’s earnings growth has gone bonkers thanks to one company**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -366,7 +382,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.87`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. Suspect in Berlin Pride attack shot dead by police**
+**7. Oil prices sink, stock futures rally as U.S. and Iran pause attacks, Wall Street awaits busy week**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short term
+- Affected assets: U.S, Oil, Stock Market
+- Score: `31.5`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
+
+**8. Suspect in Berlin Pride attack shot dead by police**
 - Source: CNBC Top News
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -374,45 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.49`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**6. Here are the 3 big things we're watching in the stock market in the week ahead**
-- Source: CNBC Markets
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: earnings, Fed meeting, inflation
-- Score: `29.93`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Oil set for more than 25% spike over two weeks as Middle East conflict escalates**
-- Source: Investing.com Stock Market
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: WCL, OIL, USO, oil prices, Middle East conflict
-- Score: `28.86`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. Earnings playbook: Apple and other megacaps lead busiest week of the season**
-- Source: CNBC Investing
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: AAPL, earnings season, Apple, stock market performance
-- Score: `28.18`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**9. The Treasury market is sending Fed Chair Kevin Warsh a clear warning about rates**
-- Source: MarketWatch Top Stories
+**9. Singapore tightens monetary policy as rising oil prices rekindle inflation risk**
+- Source: CNBC Economy
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: inflation, Treasury market, Fed policy
-- Score: `26.77`
+- Affected assets: MAS, monetary policy, inflation
+- Score: `30.38`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. US stocks face tests from Fed decision, tech-led earnings deluge**
-- Source: Investing.com Economic Indicators
-- Importance / impact: Low / Mixed
+**10. Oil prices sink, stock futures rally as U.S. and Iran pause attacks**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: US, Fed decision, US stocks
-- Score: `25.65`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Affected assets: U.S, Geopolitical
+- Score: `29.93`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
