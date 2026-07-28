@@ -1,23 +1,23 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 28 July 2026, 21:04:01 (HKT)
+Generated at: 28 July 2026, 21:12:34 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.25 / 100** (Mild Risk-On)
+- Regime score: **57.28 / 100** (Mild Risk-On)
 - US equity strength: **54.68 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **45.15 / 100**, reliability **71.16 / 100**
 - Breadth: **healthy**; above 50DMA `53.33%`, above 200DMA `69.49%`
-- Top sector score: **Real Estate** `67.38`
+- Top sector score: **Real Estate** `67.86`
 - Top theme score: **Financials** `62.65`
 
 ## Market Regime Score
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.25 | Mild Risk-On |
+| Overall regime | 57.28 | Mild Risk-On |
 | equity_trend | 61.25 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.42 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 59.27 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.7 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 47.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 46.55 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 80.62 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=80.62, volatility=70.0, equity_trend=61.25 |
+| news_confirmation | 81.25 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=81.25, volatility=70.0, equity_trend=61.25 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -241,7 +241,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Sector | Score | Trend | Momentum | Stock Breadth | ETF Flow | Flow Reliability | 3M RS | Supporting / Leaders | Detracting / Laggards |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Real Estate | 67.38 | strong uptrend | neutral | broad | 68.59 | 95.0 | 50.26 | VTR, WELL, PLD | SBAC, ARE, CCI |
+| 1 | Real Estate | 67.86 | strong uptrend | neutral | broad | 68.59 | 95.0 | 50.26 | VTR, WELL, PLD | SBAC, ARE, CCI |
 | 2 | Consumer Staples | 66.61 | strong uptrend | neutral | broad | 64.1 | 65.0 | 49.26 | KHC, CASY, ADM | WMT, KDP, STZ |
 | 3 | Financials | 66.42 | strong uptrend | positive | broad | 69.29 | 100.0 | 55.15 | PYPL, GPN, ICE | SYF, ERIE, C |
 | 4 | Industrials | 63.78 | strong uptrend | neutral | broad | 57.08 | 65.0 | 51.41 | CTAS, RTX, PAYX | PNR, BLDR, GNRC |
@@ -284,7 +284,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
-| Real Estate | Dividend Defensives | 67.38 | strong | 55.8 | positive | sector and theme confirmation |
+| Real Estate | Dividend Defensives | 67.86 | strong | 55.8 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 66.61 | strong | 55.8 | positive | sector and theme confirmation |
 | Financials | Financials | 66.42 | strong | 62.65 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 63.78 | positive | 48.58 | mixed | sector stronger than related themes |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 62, 'negative': 13, 'neutral': 5}
-- News confirmation score: `80.62`
+- Sentiment counts: {'positive': 64, 'negative': 14, 'neutral': 2}
+- News confirmation score: `81.25`
 
 ### Top Market-Moving Headlines
 
@@ -342,7 +342,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `60.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Big earnings and a Fed meeting: What NYSE insider Jay Woods is watching this week**
+**2. Coca-Cola tops earnings estimates, hikes full-year outlook as demand for drinks climbs**
+- Source: CNBC Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: KO, P, S, earnings_exceed expectations, stock_performance
+- Score: `54.0`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Big earnings and a Fed meeting: What NYSE insider Jay Woods is watching this week**
 - Source: CNBC Markets
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short term
@@ -350,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**3. PayPal delivers an earnings beat — and suggests it’s not against a merger deal**
+**4. PayPal delivers an earnings beat — and suggests it’s not against a merger deal**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -358,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.88`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**4. Dow closes more than 250 points higher, aided by cooling oil prices**
+**5. Dow closes more than 250 points higher, aided by cooling oil prices**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -366,7 +374,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.99`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Porsche to Cut 5,000 More Jobs After Sales Collapse in China**
+**6. Boeing’s stock rallies as a large loss is offset by upbeat revenue and backlog**
+- Source: MarketWatch Bulletins
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: BOE, aviation, revenue, backlog
+- Score: `41.68`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**7. Porsche to Cut 5,000 More Jobs After Sales Collapse in China**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -374,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.45`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**6. Amazon seeks federal approval to launch 5,105 satellites for direct-to-device network**
+**8. Amazon seeks federal approval to launch 5,105 satellites for direct-to-device network**
 - Source: CNBC Business
 - Importance / impact: Medium / Mixed
 - Relevance / horizon: macro / medium-term
@@ -382,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.46`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the medium-term.
 
-**7. Nvidia and OpenAI in talks for up to $250 billion backstop to fund AI infrastructure plans**
+**9. Nvidia and OpenAI in talks for up to $250 billion backstop to fund AI infrastructure plans**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / long-term
@@ -390,29 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. The AI boom shows no sign of slowing — and the U.S. economy is reaping the benefits**
+**10. Emerging China threat puts a scare into AI hardware stocks. Is the ‘picks and shovels’ trade breaking down?**
 - Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short to medium term
-- Affected assets: U.S, AI, Economic Growth
-- Score: `37.29`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**9. UPS beats earnings expectations, raises full-year guidance**
-- Source: CNBC Investing
-- Importance / impact: Medium / Positive
+- Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
-- Affected assets: UPS, earnings, guidance, AI
-- Score: `37.29`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. Chipmaker CXMT’s 466% market debut surge makes it the most valuable China-listed company**
-- Source: CNBC Technology
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: CXMT, IPO, technology, China
-- Score: `35.93`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+- Affected assets: DUV, AI, semiconductor
+- Score: `39.0`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
