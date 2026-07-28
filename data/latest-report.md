@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 29 July 2026, 00:06:57 (HKT)
+Generated at: 29 July 2026, 00:12:44 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.95 / 100** (Mild Risk-On)
+- Regime score: **57.05 / 100** (Mild Risk-On)
 - US equity strength: **54.68 / 100** (neutral)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **45.15 / 100**, reliability **71.16 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 56.95 | Mild Risk-On |
+| Overall regime | 57.05 | Mild Risk-On |
 | equity_trend | 61.25 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.42 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 59.27 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.78 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 45.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 46.55 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 75.62 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=75.62, volatility=70.0, equity_trend=61.25 |
+| news_confirmation | 77.5 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=77.5, volatility=70.0, equity_trend=61.25 |
 | Negative contributors |  | commodity_confirmation=45.0 |
 
 ## US Equity Strength Score
@@ -271,13 +271,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 8 | Quality Growth | 48.17 | Neutral / watchlist | 59.01 | 65.0 | 22.48 | False | False |
 | 9 | Semiconductors | 47.9 | Neutral / watchlist | 54.1 | 90.0 | 17.48 | False | False |
 | 10 | Grid Infrastructure | 44.44 | Neutral / watchlist | 63.72 | 65.0 | 8.82 | False | False |
-| 11 | AI Infrastructure | 44.37 | Weak setup | 54.1 | 90.0 | 16.82 | False | True |
+| 11 | AI Infrastructure | 43.24 | Neutral / watchlist | 54.1 | 90.0 | 16.82 | False | False |
 | 12 | Crypto Infrastructure | 41.35 | Weak setup | 41.82 | 65.0 | 7.49 | False | False |
 | 13 | Nuclear | 36.3 | Weak setup | 50.0 | 0.0 | 20.81 | False | False |
 
 - Top 5 improving themes: Cybersecurity, Healthcare Innovation, Financials, Semiconductors, Small Caps
 - Top 5 deteriorating themes: Crypto Infrastructure, Nuclear, Grid Infrastructure, Energy, AI Infrastructure
-- Strong news but weak price confirmation: AI Infrastructure
+- Strong news but weak price confirmation: none
 - Strong price but weak news confirmation: Financials
 
 ### Sector / Theme Alignment
@@ -294,8 +294,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Defense | Defense | 53.41 | mixed | 52.72 | mixed | mixed confirmation |
 | Crypto | Crypto Infrastructure | 49.18 | mixed | 41.35 | weak | mixed confirmation |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 45.92 | mixed | 45.51 | mixed | mixed confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 44.93 | weak | 46.81 | mixed | mixed confirmation |
-| Semiconductors | AI Infrastructure, Semiconductors | 44.66 | weak | 46.13 | mixed | mixed confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 44.93 | weak | 46.44 | mixed | mixed confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 44.66 | weak | 45.57 | mixed | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 42.22 | weak | 44.44 | weak | broad weakness across sector and themes |
 | Consumer Discretionary | Small Caps | 35.51 | weak | 55.93 | positive | theme stronger than official sector |
 | Nuclear | Nuclear | 35.28 | weak | 36.3 | weak | broad weakness across sector and themes |
@@ -313,8 +313,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 7 | Defense | 54.74 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
 | 8 | Semiconductors | 51.41 | Neutral / watchlist | volume_accumulation | relative strength below SPY, breadth below 45%, news turns negative |
 | 9 | Quality Growth | 51.19 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 10 | Grid Infrastructure | 46.04 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 11 | AI Infrastructure | 44.23 | Weak setup | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 10 | AI Infrastructure | 46.23 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 11 | Grid Infrastructure | 46.04 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 12 | Crypto Infrastructure | 39.9 | Weak setup | relative_strength_20d | relative strength below SPY, breadth below 45%, news turns negative |
 
 ## Breadth and Participation
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 58, 'negative': 17, 'neutral': 5}
-- News confirmation score: `75.62`
+- Sentiment counts: {'positive': 60, 'negative': 16, 'neutral': 4}
+- News confirmation score: `77.5`
 
 ### Top Market-Moving Headlines
 
@@ -500,9 +500,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 
 ## Contradiction / Audit Flags
 
-| Severity | Section | Issue | Deterministic Fix |
-| --- | --- | --- | --- |
-| low | Theme Strength Ranking | AI Infrastructure has strong news confirmation but weak price confirmation. | Classify as unconfirmed narrative. |
+No contradiction flags were triggered by current deterministic rules.
 
 ## Data Quality Notes
 
