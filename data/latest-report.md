@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 28 July 2026, 12:11:16 (HKT)
+Generated at: 28 July 2026, 12:12:32 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -251,8 +251,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 8 | Defense | 53.41 | strong uptrend | neutral | weak | 50.0 | 0.0 | 51.13 | XAR | XAR |
 | 9 | Crypto | 49.18 | neutral | neutral | mixed | 41.82 | 65.0 | 50.0 |  |  |
 | 10 | Utilities | 45.1 | downtrend | neutral | mixed | 50.0 | 0.0 | 45.65 | EIX, CEG, FE | CMS, NI, NRG |
-| 11 | Technology | 44.84 | neutral | neutral | weak | 34.95 | 65.0 | 47.99 | ACN, WDAY, AAPL | GLW, SNDK, CRWD |
-| 12 | Semiconductors | 44.66 | neutral | neutral | weak | 54.1 | 90.0 | 45.69 | SMH, SOXX | SOXX, SMH |
+| 11 | Semiconductors | 44.66 | neutral | neutral | weak | 54.1 | 90.0 | 45.69 | SMH, SOXX | SOXX, SMH |
+| 12 | Technology | 44.45 | neutral | neutral | weak | 34.95 | 65.0 | 47.99 | ACN, WDAY, AAPL | GLW, SNDK, CRWD |
 | 13 | Grid Infrastructure | 40.85 | downtrend | neutral | weak | 50.0 | 0.0 | 43.12 | GRID | GRID |
 | 14 | Nuclear | 35.28 | strong downtrend | negative | weak | 50.0 | 0.0 | 36.16 | NLR | NLR |
 | 15 | Consumer Discretionary | 34.38 | strong downtrend | neutral | weak | 50.0 | 0.0 | 43.72 | DPZ, ROST, BBY | LEN, DHI, TSLA |
@@ -294,8 +294,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Defense | Defense | 53.41 | mixed | 52.72 | mixed | mixed confirmation |
 | Crypto | Crypto Infrastructure | 49.18 | mixed | 41.35 | weak | mixed confirmation |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 45.1 | mixed | 45.06 | mixed | mixed confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 44.84 | weak | 46.81 | mixed | mixed confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 44.66 | weak | 46.13 | mixed | mixed confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 44.45 | weak | 46.81 | mixed | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 40.85 | weak | 43.07 | weak | broad weakness across sector and themes |
 | Nuclear | Nuclear | 35.28 | weak | 36.3 | weak | broad weakness across sector and themes |
 | Consumer Discretionary | Small Caps | 34.38 | very weak | 55.93 | positive | theme stronger than official sector |
