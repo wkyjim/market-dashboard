@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 28 July 2026, 09:21:44 (HKT)
+Generated at: 28 July 2026, 10:11:11 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 18.67 | 0.48 | 2026-07-27 | closed |
 | ^SKEW | CBOE SKEW Index | 146.6 | -0.46 | 2026-07-27 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.31 | -0.14 | 2026-07-28 | live as of 28 July 2026, 09:11:51 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.34 | -0.13 | 2026-07-28 | live as of 28 July 2026, 09:11:51 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.4 | -0.12 | 2026-07-28 | live as of 28 July 2026, 09:11:51 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.5 | -0.18 | 2026-07-28 | live as of 28 July 2026, 09:11:51 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.63 | -0.23 | 2026-07-28 | live as of 28 July 2026, 09:11:51 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.15 | -0.15 | 2026-07-28 | live as of 28 July 2026, 09:11:51 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.13 | -0.1 | 2026-07-28 | live as of 28 July 2026, 09:11:51 (HKT) |
-| HK50 | Hang Seng Futures | 25198.5 | 0.7 | 2026-07-27 | closed |
+| US2YT=X | United States 2-Year Treasury Yield | 4.31 | -0.1 | 2026-07-28 | live as of 28 July 2026, 10:01:02 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.34 | -0.23 | 2026-07-28 | live as of 28 July 2026, 10:01:02 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.4 | -0.02 | 2026-07-28 | live as of 28 July 2026, 10:01:02 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.51 | -0.05 | 2026-07-28 | live as of 28 July 2026, 10:01:02 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.63 | -0.13 | 2026-07-28 | live as of 28 July 2026, 10:01:02 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.15 | 0.05 | 2026-07-28 | live as of 28 July 2026, 10:01:02 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.13 | 0.1 | 2026-07-28 | live as of 28 July 2026, 10:01:02 (HKT) |
+| HK50 | Hang Seng Futures | 25350.5 | 0.19 | 2026-07-28 | live as of 28 July 2026, 10:01:02 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 990.05 | -7.86 | 2026-07-27 | closed |
 | CIHc1 | SSE 50 Futures | 2929.8 | -0.01 | 2026-07-27 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.27 | 0.05 | 2026-07-27 | closed |
@@ -334,15 +334,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Big earnings and a Fed meeting: What NYSE insider Jay Woods is watching this week**
-- Source: CNBC Markets
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short term
-- Affected assets: NYSE, Federal Reserve, Earnings
-- Score: `57.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
-
-**2. Dow closes more than 250 points higher, aided by cooling oil prices**
+**1. Dow closes more than 250 points higher, aided by cooling oil prices**
 - Source: CNBC Markets
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -350,13 +342,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.4`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Oil Sinks After U.S. Pauses Iran Strikes, Reviving Hopes for Diplomacy**
+**2. Oil Sinks After U.S. Pauses Iran Strikes, Reviving Hopes for Diplomacy**
 - Source: Dow Jones US Business
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, geo-political
 - Score: `48.77`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Big earnings and a Fed meeting: What NYSE insider Jay Woods is watching this week**
+- Source: CNBC Markets
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short term
+- Affected assets: NYSE, Federal Reserve, Earnings
+- Score: `48.45`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
 
 **4. Nvidia and OpenAI in talks for up to $250 billion backstop to fund AI infrastructure plans**
 - Source: CNBC Top News
@@ -509,7 +509,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `13`
+- Live macro rows used: `15`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
