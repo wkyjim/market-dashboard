@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 29 July 2026, 09:12:34 (HKT)
+Generated at: 29 July 2026, 09:22:00 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.82 / 100** (Mild Risk-On)
+- Regime score: **56.79 / 100** (Mild Risk-On)
 - US equity strength: **53.71 / 100** (neutral)
 - Evidence quality: **83.0 / 100**
-- ETF flow contribution: **48.6 / 100**, reliability **67.1 / 100**
+- ETF flow contribution: **48.18 / 100**, reliability **67.03 / 100**
 - Breadth: **healthy**; above 50DMA `50.0%`, above 200DMA `69.49%`
 - Top sector score: **Healthcare** `70.22`
 - Top theme score: **Healthcare Innovation** `61.95`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 56.82 | Mild Risk-On |
+| Overall regime | 56.79 | Mild Risk-On |
 | equity_trend | 61.25 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 47.76 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 57.05 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 55.46 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 45.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 49.06 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 48.78 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 78.12 | risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | news_confirmation=78.12, volatility=70.0, equity_trend=61.25 |
 | Negative contributors |  | commodity_confirmation=45.0 |
@@ -79,13 +79,13 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 18.21 | -2.46 | 2026-07-28 | closed |
 | ^SKEW | CBOE SKEW Index | 142.98 | -2.47 | 2026-07-28 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.3 | 0.05 | 2026-07-29 | live as of 29 July 2026, 09:00:47 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.32 | 0.1 | 2026-07-29 | live as of 29 July 2026, 09:00:47 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.38 | 0.04 | 2026-07-29 | live as of 29 July 2026, 09:00:47 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.49 | 0.03 | 2026-07-29 | live as of 29 July 2026, 09:00:47 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.62 | -0.03 | 2026-07-29 | live as of 29 July 2026, 09:00:47 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.12 | 0.05 | 2026-07-29 | live as of 29 July 2026, 09:00:47 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.1 | 0.0 | 2026-07-29 | live as of 29 July 2026, 09:00:47 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.3 | 0.0 | 2026-07-29 | live as of 29 July 2026, 09:11:49 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.32 | 0.03 | 2026-07-29 | live as of 29 July 2026, 09:11:49 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.38 | 0.04 | 2026-07-29 | live as of 29 July 2026, 09:11:49 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.5 | 0.06 | 2026-07-29 | live as of 29 July 2026, 09:11:49 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.61 | -0.07 | 2026-07-29 | live as of 29 July 2026, 09:11:49 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.12 | 0.07 | 2026-07-29 | live as of 29 July 2026, 09:11:49 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.1 | 0.02 | 2026-07-29 | live as of 29 July 2026, 09:11:49 (HKT) |
 | HK50 | Hang Seng Futures | 25320.5 | 0.07 | 2026-07-28 | closed |
 | KOR200c1 | KOSPI 200 Futures | 967.15 | 1.09 | 2026-07-28 | closed |
 | CIHc1 | SSE 50 Futures | 2890.8 | -1.33 | 2026-07-28 | closed |
@@ -433,13 +433,13 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 ## ETF Flows Analysis
 
 - Market flow regime: `Mixed / Neutral`
-- Market flow score: `49.2 / 100`
+- Market flow score: `48.8 / 100`
 - Equity risk flow: `46.2`
 - Credit risk flow: `43.8`
 - Sector cyclicality flow: `54.9`
-- Duration/liquidity flow: `53.2`
+- Duration/liquidity flow: `50.5`
 - Alternatives: `defensive or uncertainty hedge`
-- ETF flow reliability: `67.1 / 100`
+- ETF flow reliability: `67.0 / 100`
 - Dominant allocation direction: `defensive demand`
 
 ### Core Flow Signals
