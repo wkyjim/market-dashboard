@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 29 July 2026, 11:11:15 (HKT)
+Generated at: 29 July 2026, 12:11:42 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.79 / 100** (Mild Risk-On)
+- Regime score: **56.73 / 100** (Mild Risk-On)
 - US equity strength: **53.71 / 100** (neutral)
 - Evidence quality: **83.0 / 100**
-- ETF flow contribution: **48.18 / 100**, reliability **67.03 / 100**
+- ETF flow contribution: **48.18 / 100**, reliability **66.97 / 100**
 - Breadth: **healthy**; above 50DMA `50.0%`, above 200DMA `69.49%`
 - Top sector score: **Healthcare** `70.22`
 - Top theme score: **Healthcare Innovation** `61.95`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 56.79 | Mild Risk-On |
+| Overall regime | 56.73 | Mild Risk-On |
 | equity_trend | 61.25 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 47.76 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 57.05 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.46 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 45.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.78 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 78.12 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=78.12, volatility=70.0, equity_trend=61.25 |
+| news_confirmation | 76.88 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=76.88, volatility=70.0, equity_trend=61.25 |
 | Negative contributors |  | commodity_confirmation=45.0 |
 
 ## US Equity Strength Score
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 18.21 | -2.46 | 2026-07-28 | closed |
 | ^SKEW | CBOE SKEW Index | 142.98 | -2.47 | 2026-07-28 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.3 | 0.43 | 2026-07-29 | live as of 29 July 2026, 11:01:01 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.32 | 0.35 | 2026-07-29 | live as of 29 July 2026, 11:01:01 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.38 | 0.4 | 2026-07-29 | live as of 29 July 2026, 11:01:01 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.49 | 0.44 | 2026-07-29 | live as of 29 July 2026, 11:01:01 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.61 | 0.15 | 2026-07-29 | live as of 29 July 2026, 11:01:01 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.12 | 0.13 | 2026-07-29 | live as of 29 July 2026, 11:01:01 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.1 | 0.06 | 2026-07-29 | live as of 29 July 2026, 11:01:01 (HKT) |
-| HK50 | Hang Seng Futures | 25686.5 | 0.67 | 2026-07-29 | live as of 29 July 2026, 11:01:01 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.3 | 0.43 | 2026-07-29 | live as of 29 July 2026, 12:00:34 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.32 | 0.38 | 2026-07-29 | live as of 29 July 2026, 12:00:34 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.38 | 0.44 | 2026-07-29 | live as of 29 July 2026, 12:00:34 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.49 | 0.47 | 2026-07-29 | live as of 29 July 2026, 12:00:34 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.61 | 0.2 | 2026-07-29 | live as of 29 July 2026, 12:00:34 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.12 | 0.13 | 2026-07-29 | live as of 29 July 2026, 12:00:34 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.1 | 0.06 | 2026-07-29 | live as of 29 July 2026, 12:00:34 (HKT) |
+| HK50 | Hang Seng Futures | 25651.5 | 0.53 | 2026-07-29 | live as of 29 July 2026, 12:00:34 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 967.15 | 1.09 | 2026-07-28 | closed |
 | CIHc1 | SSE 50 Futures | 2890.8 | -1.33 | 2026-07-28 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.42 | 0.19 | 2026-07-28 | closed |
@@ -252,7 +252,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 9 | Crypto | 48.86 | neutral | neutral | mixed | 38.58 | 65.0 | 50.0 |  |  |
 | 10 | Utilities | 45.68 | downtrend | neutral | mixed | 50.0 | 0.0 | 44.92 | EIX, AWK, FE | DTE, VST, NRG |
 | 11 | Semiconductors | 45.65 | neutral | negative | weak | 83.54 | 100.0 | 40.12 | SMH, SOXX | SOXX, SMH |
-| 12 | Technology | 42.96 | neutral | neutral | weak | 36.82 | 65.0 | 46.13 | ACN, CTSH, WDAY | SNDK, GLW, CRWD |
+| 12 | Technology | 43.46 | neutral | neutral | weak | 36.82 | 65.0 | 46.13 | ACN, CTSH, WDAY | SNDK, GLW, CRWD |
 | 13 | Grid Infrastructure | 39.19 | downtrend | negative | weak | 50.0 | 0.0 | 39.85 | GRID | GRID |
 | 14 | Consumer Discretionary | 34.82 | strong downtrend | neutral | weak | 50.0 | 0.0 | 44.41 | ROST, DPZ, GM | MGM, DHI, TSLA |
 | 15 | Nuclear | 33.9 | strong downtrend | negative | weak | 50.0 | 0.0 | 32.32 | NLR | NLR |
@@ -295,7 +295,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Crypto | Crypto Infrastructure | 48.86 | mixed | 38.88 | weak | mixed confirmation |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 45.68 | mixed | 44.4 | weak | mixed confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 45.65 | mixed | 48.68 | mixed | mixed confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 42.96 | weak | 48.58 | mixed | mixed confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 43.46 | weak | 48.58 | mixed | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 39.19 | weak | 41.97 | weak | broad weakness across sector and themes |
 | Consumer Discretionary | Small Caps | 34.82 | very weak | 56.78 | positive | theme stronger than official sector |
 | Nuclear | Nuclear | 33.9 | very weak | 32.16 | very weak | broad weakness across sector and themes |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 62, 'negative': 17, 'neutral': 1}
-- News confirmation score: `78.12`
+- Sentiment counts: {'positive': 61, 'negative': 18, 'neutral': 1}
+- News confirmation score: `76.88`
 
 ### Top Market-Moving Headlines
 
@@ -366,15 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.45`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**5. Micron’s stock sinks toward worst monthly drop in 11 years as China fears escalate**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: MIC, China chip supply concerns, Micron Technology
-- Score: `39.0`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**6. Your healthcare could now cost $185,500 in retirement — and that doesn’t include long-term care**
+**5. Your healthcare could now cost $185,500 in retirement — and that doesn’t include long-term care**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / long-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.57`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**7. PayPal delivers an earnings beat — and suggests it’s not against a merger deal**
+**6. PayPal delivers an earnings beat — and suggests it’s not against a merger deal**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. Senate sets up votes to sanction Russia for Ukraine war**
+**7. Senate sets up votes to sanction Russia for Ukraine war**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.4`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Boeing’s stock rallies as a large loss is offset by upbeat revenue and backlog**
+**8. Boeing’s stock rallies as a large loss is offset by upbeat revenue and backlog**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. Iran launches surprise ballistic missile attack on U.S. forces in the Middle East**
+**9. Iran launches surprise ballistic missile attack on U.S. forces in the Middle East**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: U.S, X, geo-political
 - Score: `35.1`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**10. CNBC Daily Open: Renewed fire from Iran, a big quarter for SK Hynix and a quake in Japan**
+- Source: CNBC Technology
+- Importance / impact: Low / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: SK, U.S, CNBC, geopolitical_risk, defense
+- Score: `34.81`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
