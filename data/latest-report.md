@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 29 July 2026, 09:22:00 (HKT)
+Generated at: 29 July 2026, 10:10:58 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 18.21 | -2.46 | 2026-07-28 | closed |
 | ^SKEW | CBOE SKEW Index | 142.98 | -2.47 | 2026-07-28 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.3 | 0.0 | 2026-07-29 | live as of 29 July 2026, 09:11:49 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.32 | 0.03 | 2026-07-29 | live as of 29 July 2026, 09:11:49 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.38 | 0.04 | 2026-07-29 | live as of 29 July 2026, 09:11:49 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.5 | 0.06 | 2026-07-29 | live as of 29 July 2026, 09:11:49 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.61 | -0.07 | 2026-07-29 | live as of 29 July 2026, 09:11:49 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.12 | 0.07 | 2026-07-29 | live as of 29 July 2026, 09:11:49 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.1 | 0.02 | 2026-07-29 | live as of 29 July 2026, 09:11:49 (HKT) |
-| HK50 | Hang Seng Futures | 25320.5 | 0.07 | 2026-07-28 | closed |
+| US2YT=X | United States 2-Year Treasury Yield | 4.3 | 0.47 | 2026-07-29 | live as of 29 July 2026, 10:00:52 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.32 | 0.41 | 2026-07-29 | live as of 29 July 2026, 10:00:52 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.38 | 0.44 | 2026-07-29 | live as of 29 July 2026, 10:00:52 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.49 | 0.47 | 2026-07-29 | live as of 29 July 2026, 10:00:52 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.61 | 0.15 | 2026-07-29 | live as of 29 July 2026, 10:00:52 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.12 | 0.13 | 2026-07-29 | live as of 29 July 2026, 10:00:52 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.1 | 0.06 | 2026-07-29 | live as of 29 July 2026, 10:00:52 (HKT) |
+| HK50 | Hang Seng Futures | 25670.5 | 0.6 | 2026-07-29 | live as of 29 July 2026, 10:00:52 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 967.15 | 1.09 | 2026-07-28 | closed |
 | CIHc1 | SSE 50 Futures | 2890.8 | -1.33 | 2026-07-28 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.42 | 0.19 | 2026-07-28 | closed |
@@ -390,15 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. UPS expects third-quarter domestic revenue to be flat but CEO tells CNBC the company is through its 'bumps'**
-- Source: CNBC Investing
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: UPS, CNBC, earnings, guidance, AI
-- Score: `37.29`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**9. Senate sets up votes to sanction Russia for Ukraine war**
+**8. Senate sets up votes to sanction Russia for Ukraine war**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.4`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Boeing’s stock rallies as a large loss is offset by upbeat revenue and backlog**
+**9. Boeing’s stock rallies as a large loss is offset by upbeat revenue and backlog**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: BOE, aviation, revenue, backlog
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Iran launches surprise ballistic missile attack on U.S. forces in the Middle East**
+- Source: CNBC Business Headlines
+- Importance / impact: Medium / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: U.S, X, geo-political
+- Score: `35.1`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `13`
+- Live macro rows used: `15`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
