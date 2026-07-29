@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 29 July 2026, 21:02:56 (HKT)
+Generated at: 29 July 2026, 21:12:11 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.42 / 100** (Mild Risk-On)
+- Regime score: **56.24 / 100** (Mild Risk-On)
 - US equity strength: **53.71 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **47.52 / 100**, reliability **71.05 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 56.42 | Mild Risk-On |
+| Overall regime | 56.24 | Mild Risk-On |
 | equity_trend | 61.25 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 47.76 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 57.05 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.64 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 42.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.24 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 76.88 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=76.88, volatility=70.0, equity_trend=61.25 |
+| news_confirmation | 73.12 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=73.12, volatility=70.0, equity_trend=61.25 |
 | Negative contributors |  | commodity_confirmation=42.0 |
 
 ## US Equity Strength Score
@@ -251,8 +251,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 8 | Defense | 53.98 | strong uptrend | neutral | weak | 50.0 | 0.0 | 49.65 | XAR | XAR |
 | 9 | Crypto | 48.86 | neutral | neutral | mixed | 38.58 | 65.0 | 50.0 |  |  |
 | 10 | Utilities | 45.71 | downtrend | neutral | mixed | 50.38 | 65.0 | 44.92 | EIX, AWK, FE | DTE, VST, NRG |
-| 11 | Semiconductors | 45.58 | neutral | negative | weak | 83.54 | 100.0 | 40.12 | SMH, SOXX | SOXX, SMH |
-| 12 | Technology | 43.94 | neutral | neutral | weak | 41.57 | 90.0 | 46.13 | ACN, CTSH, WDAY | SNDK, GLW, CRWD |
+| 11 | Semiconductors | 45.63 | neutral | negative | weak | 83.54 | 100.0 | 40.12 | SMH, SOXX | SOXX, SMH |
+| 12 | Technology | 43.43 | neutral | neutral | weak | 41.57 | 90.0 | 46.13 | ACN, CTSH, WDAY | SNDK, GLW, CRWD |
 | 13 | Grid Infrastructure | 40.53 | downtrend | negative | weak | 63.42 | 65.0 | 39.85 | GRID | GRID |
 | 14 | Consumer Discretionary | 36.47 | strong downtrend | neutral | weak | 66.54 | 65.0 | 44.41 | ROST, DPZ, GM | MGM, DHI, TSLA |
 | 15 | Nuclear | 33.9 | strong downtrend | negative | weak | 50.0 | 0.0 | 32.32 | NLR | NLR |
@@ -268,7 +268,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 5 | Small Caps | 56.78 | Positive setup | 55.27 | 65.0 | 0.0 | False | False |
 | 6 | Cybersecurity | 54.16 | Neutral / watchlist | 61.44 | 65.0 | 85.72 | False | False |
 | 7 | Defense | 53.65 | Neutral / watchlist | 50.0 | 0.0 | 18.51 | False | False |
-| 8 | Semiconductors | 52.64 | Neutral / watchlist | 83.54 | 100.0 | 22.27 | False | False |
+| 8 | Semiconductors | 52.21 | Neutral / watchlist | 83.54 | 100.0 | 22.27 | False | False |
 | 9 | Quality Growth | 48.4 | Neutral / watchlist | 64.17 | 65.0 | 28.43 | False | False |
 | 10 | AI Infrastructure | 45.12 | Neutral / watchlist | 83.54 | 100.0 | 26.73 | False | False |
 | 11 | Grid Infrastructure | 43.31 | Neutral / watchlist | 63.42 | 65.0 | 16.56 | False | False |
@@ -294,8 +294,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Defense | Defense | 53.98 | mixed | 53.65 | mixed | mixed confirmation |
 | Crypto | Crypto Infrastructure | 48.86 | mixed | 38.88 | weak | mixed confirmation |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 45.71 | mixed | 44.84 | weak | mixed confirmation |
-| Semiconductors | AI Infrastructure, Semiconductors | 45.58 | mixed | 48.88 | mixed | mixed confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 43.94 | weak | 48.72 | mixed | mixed confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 45.63 | mixed | 48.67 | mixed | mixed confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 43.43 | weak | 48.58 | mixed | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 40.53 | weak | 43.31 | weak | broad weakness across sector and themes |
 | Consumer Discretionary | Small Caps | 36.47 | weak | 56.78 | positive | theme stronger than official sector |
 | Nuclear | Nuclear | 33.9 | very weak | 32.16 | very weak | broad weakness across sector and themes |
@@ -312,7 +312,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 6 | Cybersecurity | 56.59 | Neutral / watchlist | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 7 | Defense | 55.92 | Neutral / watchlist | relative_strength_20d, trend_persistence, breadth, volume_accumulation | relative strength below SPY, breadth below 45%, news turns negative |
 | 8 | Quality Growth | 51.74 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 9 | Semiconductors | 50.55 | Neutral / watchlist | volume_accumulation, news_acceleration | relative strength below SPY, breadth below 45%, news turns negative |
+| 9 | Semiconductors | 50.05 | Neutral / watchlist | volume_accumulation, news_acceleration | relative strength below SPY, breadth below 45%, news turns negative |
 | 10 | AI Infrastructure | 45.76 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 11 | Grid Infrastructure | 45.3 | Neutral / watchlist | volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 12 | Crypto Infrastructure | 36.89 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 61, 'negative': 18, 'neutral': 1}
-- News confirmation score: `76.88`
+- Sentiment counts: {'positive': 58, 'negative': 21, 'neutral': 1}
+- News confirmation score: `73.12`
 
 ### Top Market-Moving Headlines
 
@@ -342,7 +342,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `81.22`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Forget oil. A surging El Niño could kill Fed rate cuts — and these stocks stand to win.**
+**2. Oil prices rise after U.S. and Saudi Arabia attack Iran-backed militias in Iraq**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, Brent, oil prices, geopolitical events
+- Score: `67.5`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Forget oil. A surging El Niño could kill Fed rate cuts — and these stocks stand to win.**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -350,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Glencore’s Traders to Report Bumper First-Half**
+**4. Glencore’s Traders to Report Bumper First-Half**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -358,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. How China Went From Dream Customer to a Nightmare for Big Oil**
+**5. How China Went From Dream Customer to a Nightmare for Big Oil**
 - Source: Dow Jones US Business
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Corning tumbles 12% after earnings, leading rout in optical stocks**
+**6. Corning tumbles 12% after earnings, leading rout in optical stocks**
 - Source: CNBC Investing
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -374,7 +382,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.45`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**6. Your healthcare could now cost $185,500 in retirement — and that doesn’t include long-term care**
+**7. Tim Cook’s last earnings call comes at momentous time for Apple with stock at record**
+- Source: CNBC Business
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: AAPL, Leadership Change, Market Cap Milestone
+- Score: `39.78`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**8. Your healthcare could now cost $185,500 in retirement — and that doesn’t include long-term care**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / long-term
@@ -382,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.57`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**7. SK Hynix Extends Streak of Record Results**
+**9. SK Hynix Extends Streak of Record Results**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -390,28 +406,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.4`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. PayPal delivers an earnings beat — and suggests it’s not against a merger deal**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: PYPL, earnings report, merger speculation
-- Score: `37.29`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**9. Trump says U.S. will give Iran a 'beating' after surprise attack**
-- Source: CNBC Business Headlines
+**10. Biogen Cuts FY Adjusted View as Profit Declines**
+- Source: Dow Jones US Business
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
-- Affected assets: U.S, X, geo-political
-- Score: `35.1`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**10. Micron’s stock sinks toward worst monthly drop in 11 years as China fears escalate**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: MIC, China chip supply concerns, Micron Technology
-- Score: `33.15`
+- Affected assets: BIIB, FY, earnings forecast, profit decline
+- Score: `37.29`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
