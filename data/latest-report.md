@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 29 July 2026, 10:10:58 (HKT)
+Generated at: 29 July 2026, 11:11:15 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 18.21 | -2.46 | 2026-07-28 | closed |
 | ^SKEW | CBOE SKEW Index | 142.98 | -2.47 | 2026-07-28 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.3 | 0.47 | 2026-07-29 | live as of 29 July 2026, 10:00:52 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.32 | 0.41 | 2026-07-29 | live as of 29 July 2026, 10:00:52 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.38 | 0.44 | 2026-07-29 | live as of 29 July 2026, 10:00:52 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.49 | 0.47 | 2026-07-29 | live as of 29 July 2026, 10:00:52 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.61 | 0.15 | 2026-07-29 | live as of 29 July 2026, 10:00:52 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.12 | 0.13 | 2026-07-29 | live as of 29 July 2026, 10:00:52 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.1 | 0.06 | 2026-07-29 | live as of 29 July 2026, 10:00:52 (HKT) |
-| HK50 | Hang Seng Futures | 25670.5 | 0.6 | 2026-07-29 | live as of 29 July 2026, 10:00:52 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.3 | 0.43 | 2026-07-29 | live as of 29 July 2026, 11:01:01 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.32 | 0.35 | 2026-07-29 | live as of 29 July 2026, 11:01:01 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.38 | 0.4 | 2026-07-29 | live as of 29 July 2026, 11:01:01 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.49 | 0.44 | 2026-07-29 | live as of 29 July 2026, 11:01:01 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.61 | 0.15 | 2026-07-29 | live as of 29 July 2026, 11:01:01 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.12 | 0.13 | 2026-07-29 | live as of 29 July 2026, 11:01:01 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.1 | 0.06 | 2026-07-29 | live as of 29 July 2026, 11:01:01 (HKT) |
+| HK50 | Hang Seng Futures | 25686.5 | 0.67 | 2026-07-29 | live as of 29 July 2026, 11:01:01 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 967.15 | 1.09 | 2026-07-28 | closed |
 | CIHc1 | SSE 50 Futures | 2890.8 | -1.33 | 2026-07-28 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.42 | 0.19 | 2026-07-28 | closed |
@@ -347,24 +347,24 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: A, inflation, El Niño, Fed rate cuts
-- Score: `60.0`
+- Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Corning tumbles 12% after earnings, leading rout in optical stocks**
-- Source: CNBC Investing
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AXT, CORNING, MARVVLUMENTUM, COHERENT, earnings report
-- Score: `48.77`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**4. SK Hynix Extends Streak of Record Results**
+**3. SK Hynix Extends Streak of Record Results**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: SK, memory chips, AI
 - Score: `44.0`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**4. Corning tumbles 12% after earnings, leading rout in optical stocks**
+- Source: CNBC Investing
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AXT, CORNING, MARVVLUMENTUM, COHERENT, earnings report
+- Score: `41.45`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 **5. Micron’s stock sinks toward worst monthly drop in 11 years as China fears escalate**
 - Source: MarketWatch Top Stories
