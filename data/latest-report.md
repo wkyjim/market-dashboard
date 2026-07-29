@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 29 July 2026, 16:03:33 (HKT)
+Generated at: 29 July 2026, 17:03:35 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -24,7 +24,7 @@ Window: 24h
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.39 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 55.4 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 51.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.24 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 79.38 | risk-on support; Weighted headline/news confirmation score. |
@@ -63,7 +63,7 @@ Window: 24h
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
-| Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
+| Copper | Copper stable | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX stable | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
@@ -76,17 +76,17 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7428.78 | 0.21 | 2026-07-28 | closed |
 | ^IXIC | NASDAQ Composite | 24876.91 | -0.22 | 2026-07-28 | closed |
 | ^RUT | Russell 2000 Index | 2953.8 | 0.2 | 2026-07-28 | closed |
-| ^VIX | CBOE Volatility Index | 18.23 | 0.11 | 2026-07-29 | live as of 29 July 2026, 16:00:54 (HKT) |
+| ^VIX | CBOE Volatility Index | 18.18 | -0.16 | 2026-07-29 | live as of 29 July 2026, 17:00:49 (HKT) |
 | ^SKEW | CBOE SKEW Index | 142.98 | -2.47 | 2026-07-28 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.29 | 0.38 | 2026-07-29 | live as of 29 July 2026, 16:00:54 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.32 | 0.35 | 2026-07-29 | live as of 29 July 2026, 16:00:54 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.38 | 0.36 | 2026-07-29 | live as of 29 July 2026, 16:00:54 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.49 | 0.41 | 2026-07-29 | live as of 29 July 2026, 16:00:54 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.61 | 0.11 | 2026-07-29 | live as of 29 July 2026, 16:00:54 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.12 | 0.06 | 2026-07-29 | live as of 29 July 2026, 16:00:54 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.1 | -0.0 | 2026-07-29 | live as of 29 July 2026, 16:00:54 (HKT) |
-| HK50 | Hang Seng Futures | 25791.0 | 1.08 | 2026-07-29 | live as of 29 July 2026, 16:00:54 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.3 | 0.52 | 2026-07-29 | live as of 29 July 2026, 17:00:49 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.32 | 0.48 | 2026-07-29 | live as of 29 July 2026, 17:00:49 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.38 | 0.48 | 2026-07-29 | live as of 29 July 2026, 17:00:49 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.49 | 0.5 | 2026-07-29 | live as of 29 July 2026, 17:00:49 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.61 | 0.22 | 2026-07-29 | live as of 29 July 2026, 17:00:49 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.12 | 0.08 | 2026-07-29 | live as of 29 July 2026, 17:00:49 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.1 | 0.02 | 2026-07-29 | live as of 29 July 2026, 17:00:49 (HKT) |
+| HK50 | Hang Seng Futures | 25753.5 | 0.93 | 2026-07-29 | closed |
 | KOR200c1 | KOSPI 200 Futures | 967.15 | 1.09 | 2026-07-28 | closed |
 | CIHc1 | SSE 50 Futures | 2890.8 | -1.33 | 2026-07-28 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.42 | 0.19 | 2026-07-28 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 84.24 | 0.59 | 2026-07-28 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 93.56 | 0.3 | 2026-07-28 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.94 | 0.09 | 2026-07-28 | closed |
-| GC=F | Gold Future | 4103.1 | 1.66 | 2026-07-29 | live as of 29 July 2026, 16:00:54 (HKT) |
-| SI=F | Silver Future | 58.33 | 1.8 | 2026-07-29 | live as of 29 July 2026, 16:00:54 (HKT) |
-| CL=F | WTI Crude Oil Future | 82.14 | 3.63 | 2026-07-29 | live as of 29 July 2026, 16:00:54 (HKT) |
-| HG=F | Copper Future | 6.34 | 0.28 | 2026-07-29 | live as of 29 July 2026, 16:00:54 (HKT) |
+| GC=F | Gold Future | 4097.1 | 1.51 | 2026-07-29 | live as of 29 July 2026, 17:00:49 (HKT) |
+| SI=F | Silver Future | 58.12 | 1.44 | 2026-07-29 | live as of 29 July 2026, 17:00:49 (HKT) |
+| CL=F | WTI Crude Oil Future | 81.55 | 2.89 | 2026-07-29 | live as of 29 July 2026, 17:00:49 (HKT) |
+| HG=F | Copper Future | 6.32 | -0.06 | 2026-07-29 | live as of 29 July 2026, 17:00:49 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=18.23 pct_chg=0.11
+- VIX close=18.18 pct_chg=-0.16
 
 ## News Analytics
 
@@ -398,19 +398,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. Iran launches surprise ballistic missile attack on U.S. forces in the Middle East**
-- Source: CNBC Business Headlines
-- Importance / impact: Medium / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: U.S, X, geo-political
-- Score: `35.1`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**10. Micron’s stock sinks toward worst monthly drop in 11 years as China fears escalate**
+**9. Micron’s stock sinks toward worst monthly drop in 11 years as China fears escalate**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: MIC, China chip supply concerns, Micron Technology
+- Score: `33.15`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**10. Emerging China threat puts a scare into AI hardware stocks. Is the ‘picks and shovels’ trade breaking down?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: DUV, AI, semiconductor
 - Score: `33.15`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
@@ -507,7 +507,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `25`
+- Live macro rows used: `23`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
