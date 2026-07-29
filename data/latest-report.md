@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 29 July 2026, 15:04:20 (HKT)
+Generated at: 29 July 2026, 15:12:27 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.43 / 100** (Mild Risk-On)
+- Regime score: **57.37 / 100** (Mild Risk-On)
 - US equity strength: **53.71 / 100** (neutral)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.52 / 100**, reliability **71.05 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.43 | Mild Risk-On |
+| Overall regime | 57.37 | Mild Risk-On |
 | equity_trend | 61.25 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 47.76 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 57.05 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.17 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.24 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 80.62 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=80.62, volatility=70.0, equity_trend=61.25 |
+| news_confirmation | 79.38 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=79.38, volatility=70.0, equity_trend=61.25 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 64, 'negative': 15, 'neutral': 1}
-- News confirmation score: `80.62`
+- Sentiment counts: {'positive': 63, 'negative': 16, 'neutral': 1}
+- News confirmation score: `79.38`
 
 ### Top Market-Moving Headlines
 
@@ -342,7 +342,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `81.22`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Forget oil. A surging El Niño could kill Fed rate cuts — and these stocks stand to win.**
+**2. Glencore’s Traders to Report Bumper First-Half**
+- Source: Dow Jones US Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: GLNC, U.S, earnings, marketing
+- Score: `57.38`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Forget oil. A surging El Niño could kill Fed rate cuts — and these stocks stand to win.**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -350,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Corning tumbles 12% after earnings, leading rout in optical stocks**
+**4. Corning tumbles 12% after earnings, leading rout in optical stocks**
 - Source: CNBC Investing
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -358,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.45`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**4. Your healthcare could now cost $185,500 in retirement — and that doesn’t include long-term care**
+**5. Your healthcare could now cost $185,500 in retirement — and that doesn’t include long-term care**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / long-term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.57`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**5. SK Hynix Extends Streak of Record Results**
+**6. SK Hynix Extends Streak of Record Results**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.4`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**6. PayPal delivers an earnings beat — and suggests it’s not against a merger deal**
+**7. PayPal delivers an earnings beat — and suggests it’s not against a merger deal**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. Boeing’s stock rallies as a large loss is offset by upbeat revenue and backlog**
+**8. Boeing’s stock rallies as a large loss is offset by upbeat revenue and backlog**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -390,21 +398,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. Iran launches surprise ballistic missile attack on U.S. forces in the Middle East**
+**9. Iran launches surprise ballistic missile attack on U.S. forces in the Middle East**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: U.S, X, geo-political
 - Score: `35.1`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**9. CNBC Daily Open: Renewed fire from Iran, a big quarter for SK Hynix and a quake in Japan**
-- Source: CNBC Technology
-- Importance / impact: Low / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: SK, U.S, CNBC, geopolitical_risk, defense
-- Score: `34.81`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 **10. Micron’s stock sinks toward worst monthly drop in 11 years as China fears escalate**
 - Source: MarketWatch Top Stories
