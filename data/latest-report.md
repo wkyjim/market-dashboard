@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 29 July 2026, 14:11:32 (HKT)
+Generated at: 29 July 2026, 15:04:20 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.26 / 100** (Mild Risk-On)
+- Regime score: **57.43 / 100** (Mild Risk-On)
 - US equity strength: **53.71 / 100** (neutral)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.52 / 100**, reliability **71.05 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.26 | Mild Risk-On |
+| Overall regime | 57.43 | Mild Risk-On |
 | equity_trend | 61.25 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 47.76 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 57.05 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.49 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 55.17 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.24 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 76.88 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=76.88, volatility=70.0, equity_trend=61.25 |
+| news_confirmation | 80.62 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=80.62, volatility=70.0, equity_trend=61.25 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -63,7 +63,7 @@ Window: 24h
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold stable | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
-| Copper | Copper stable | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
+| Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 18.21 | -2.46 | 2026-07-28 | closed |
 | ^SKEW | CBOE SKEW Index | 142.98 | -2.47 | 2026-07-28 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.29 | -0.67 | 2026-07-28 | closed |
-| US3YT=X | United States 3-Year Treasury Yield | 4.31 | -0.85 | 2026-07-28 | closed |
-| US5YT=X | United States 5-Year Treasury Yield | 4.37 | -0.54 | 2026-07-28 | closed |
-| US7YT=X | United States 7-Year Treasury Yield | 4.48 | -0.64 | 2026-07-28 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 4.61 | -0.71 | 2026-07-28 | closed |
-| US20YT=X | United States 20-Year Treasury Yield | 5.11 | -0.75 | 2026-07-28 | closed |
-| US30YT=X | United States 30-Year Treasury Yield | 5.09 | -0.67 | 2026-07-28 | closed |
-| HK50 | Hang Seng Futures | 25320.5 | 0.07 | 2026-07-28 | closed |
+| US2YT=X | United States 2-Year Treasury Yield | 4.29 | 0.38 | 2026-07-29 | live as of 29 July 2026, 15:01:04 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.32 | 0.32 | 2026-07-29 | live as of 29 July 2026, 15:01:04 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.38 | 0.36 | 2026-07-29 | live as of 29 July 2026, 15:01:04 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.49 | 0.38 | 2026-07-29 | live as of 29 July 2026, 15:01:04 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.61 | 0.09 | 2026-07-29 | live as of 29 July 2026, 15:01:04 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.12 | 0.03 | 2026-07-29 | live as of 29 July 2026, 15:01:04 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.09 | -0.02 | 2026-07-29 | live as of 29 July 2026, 15:01:04 (HKT) |
+| HK50 | Hang Seng Futures | 25768.5 | 0.99 | 2026-07-29 | live as of 29 July 2026, 15:01:04 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 967.15 | 1.09 | 2026-07-28 | closed |
 | CIHc1 | SSE 50 Futures | 2890.8 | -1.33 | 2026-07-28 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.42 | 0.19 | 2026-07-28 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 84.24 | 0.59 | 2026-07-28 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 93.56 | 0.3 | 2026-07-28 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.94 | 0.09 | 2026-07-28 | closed |
-| GC=F | Gold Future | 4033.1 | -0.08 | 2026-07-29 | live as of 29 July 2026, 14:00:47 (HKT) |
-| SI=F | Silver Future | 58.05 | 1.31 | 2026-07-29 | live as of 29 July 2026, 14:00:47 (HKT) |
-| CL=F | WTI Crude Oil Future | 82.07 | 3.55 | 2026-07-29 | live as of 29 July 2026, 14:00:47 (HKT) |
-| HG=F | Copper Future | 6.33 | 0.13 | 2026-07-29 | live as of 29 July 2026, 14:00:47 (HKT) |
+| GC=F | Gold Future | 4040.1 | 0.09 | 2026-07-29 | live as of 29 July 2026, 15:01:04 (HKT) |
+| SI=F | Silver Future | 58.28 | 1.72 | 2026-07-29 | live as of 29 July 2026, 15:01:04 (HKT) |
+| CL=F | WTI Crude Oil Future | 81.97 | 3.42 | 2026-07-29 | live as of 29 July 2026, 15:01:04 (HKT) |
+| HG=F | Copper Future | 6.34 | 0.27 | 2026-07-29 | live as of 29 July 2026, 15:01:04 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 61, 'negative': 18, 'neutral': 1}
-- News confirmation score: `76.88`
+- Sentiment counts: {'positive': 64, 'negative': 15, 'neutral': 1}
+- News confirmation score: `80.62`
 
 ### Top Market-Moving Headlines
 
@@ -507,7 +507,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `18`
+- Live macro rows used: `24`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
