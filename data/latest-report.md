@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 30 July 2026, 10:10:11 (HKT)
+Generated at: 30 July 2026, 11:11:36 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 20.66 | 13.45 | 2026-07-29 | closed |
 | ^SKEW | CBOE SKEW Index | 139.55 | -2.4 | 2026-07-29 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.27 | 0.91 | 2026-07-30 | live as of 30 July 2026, 10:00:36 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.32 | 1.04 | 2026-07-30 | live as of 30 July 2026, 10:00:36 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.41 | 1.3 | 2026-07-30 | live as of 30 July 2026, 10:00:36 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.54 | 1.26 | 2026-07-30 | live as of 30 July 2026, 10:00:36 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.68 | 1.24 | 2026-07-30 | live as of 30 July 2026, 10:00:36 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.22 | 1.36 | 2026-07-30 | live as of 30 July 2026, 10:00:36 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.21 | 1.21 | 2026-07-30 | live as of 30 July 2026, 10:00:36 (HKT) |
-| HK50 | Hang Seng Futures | 25789.5 | -0.59 | 2026-07-30 | live as of 30 July 2026, 10:00:36 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.28 | 1.06 | 2026-07-30 | live as of 30 July 2026, 11:00:59 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.33 | 1.17 | 2026-07-30 | live as of 30 July 2026, 11:00:59 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.42 | 1.46 | 2026-07-30 | live as of 30 July 2026, 11:00:59 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.55 | 1.44 | 2026-07-30 | live as of 30 July 2026, 11:00:59 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.69 | 1.47 | 2026-07-30 | live as of 30 July 2026, 11:00:59 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.24 | 1.59 | 2026-07-30 | live as of 30 July 2026, 11:00:59 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.22 | 1.43 | 2026-07-30 | live as of 30 July 2026, 11:00:59 (HKT) |
+| HK50 | Hang Seng Futures | 25786.5 | -0.6 | 2026-07-30 | live as of 30 July 2026, 11:00:59 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 881.95 | -1.86 | 2026-07-29 | closed |
 | CIHc1 | SSE 50 Futures | 2896.6 | 0.2 | 2026-07-29 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.24 | -0.23 | 2026-07-29 | closed |
@@ -366,15 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.38`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Hims and Hers shares fall 10% as FTC sues company over data, billing practices**
-- Source: CNBC Finance
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: HIMS, HERS, FTC, legal_issues, data_concerns
-- Score: `55.27`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**6. What a divided Fed means for investors**
+**5. What a divided Fed means for investors**
 - Source: CNBC Economy
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Samsung Electronics second-quarter operating profit beats estimates on soaring AI chip demand**
+**6. Samsung Electronics second-quarter operating profit beats estimates on soaring AI chip demand**
 - Source: CNBC Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -390,15 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Microsoft's stock climbs after it crushes earnings expectations — live**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: MSFT, technology, earnings
-- Score: `49.86`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**9. Glencore’s Traders to Report Bumper First-Half**
+**7. Glencore’s Traders to Report Bumper First-Half**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -406,12 +390,28 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Robinhood puts up record revenue as volatility drives a trading bonanza**
+**8. Hims and Hers shares fall 10% as FTC sues company over data, billing practices**
+- Source: CNBC Finance
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: HIMS, HERS, FTC, legal_issues, data_concerns
+- Score: `46.98`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**9. Robinhood puts up record revenue as volatility drives a trading bonanza**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: RH, trading volume, revenue growth
 - Score: `43.88`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Microsoft's stock climbs after it crushes earnings expectations — live**
+- Source: MarketWatch Bulletins
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: MSFT, technology, earnings
+- Score: `42.38`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
