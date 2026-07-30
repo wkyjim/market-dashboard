@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 30 July 2026, 21:03:31 (HKT)
+Generated at: 30 July 2026, 21:12:25 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **52.65 / 100** (Mixed / Rotation)
+- Regime score: **52.77 / 100** (Mixed / Rotation)
 - US equity strength: **43.79 / 100** (weak)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **49.38 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 52.65 | Mixed / Rotation |
+| Overall regime | 52.77 | Mixed / Rotation |
 | equity_trend | 45.0 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 44.66 | mild risk-off pressure; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 47.02 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.56 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 54.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.56 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 71.25 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=71.25, volatility=70.0 |
+| news_confirmation | 73.75 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=73.75, volatility=70.0 |
 | Negative contributors |  | equity_momentum=44.66, equity_trend=45.0 |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 57, 'negative': 23, 'neutral': 0}
-- News confirmation score: `71.25`
+- Sentiment counts: {'positive': 59, 'negative': 21, 'neutral': 0}
+- News confirmation score: `73.75`
 
 ### Top Market-Moving Headlines
 
@@ -350,7 +350,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `61.77`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Why the USO oil ETF is a better buy than crude futures as the Iran war rages**
+**3. ICE to buy MarketAxess in $5.7 billion deal, posts higher quarterly profit**
+- Source: CNBC Markets
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: ICE, MKTX, Mergers & Acquisitions, Fixed-Income
+- Score: `61.77`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**4. Why the USO oil ETF is a better buy than crude futures as the Iran war rages**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -358,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.38`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Global oil prices top $88 a barrel after Trump vows retaliation for surprise Iranian attack on U.S. troops**
+**5. Global oil prices top $88 a barrel after Trump vows retaliation for surprise Iranian attack on U.S. troops**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.38`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Oil prices move higher as Iran threatens response to latest U.S. strikes**
+**6. Oil prices move higher as Iran threatens response to latest U.S. strikes**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Oil Jumps as Fresh Middle East Strikes Threaten Fragile Diplomacy**
+**7. Oil Jumps as Fresh Middle East Strikes Threaten Fragile Diplomacy**
 - Source: Dow Jones Economy
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `55.27`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Samsung says chip crunch will last until 2028 as quarterly profit soars**
+**8. Samsung says chip crunch will last until 2028 as quarterly profit soars**
 - Source: CNBC Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Shell posts best quarterly profit in four years as Iran war boosts oil and gas prices**
+**9. Shell posts best quarterly profit in four years as Iran war boosts oil and gas prices**
 - Source: CNBC Business News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -398,7 +406,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Stocks and bonds see wild ‘Fed Day’ swings as Wall Street’s ‘crash cushion’ evaporates**
+**10. Stocks and bonds see wild ‘Fed Day’ swings as Wall Street’s ‘crash cushion’ evaporates**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -406,18 +414,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. CNBC Daily Open: Oil heats up on Middle East tensions as Fed sees a 'family fight'**
-- Source: CNBC Top News
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: OIL, CNBC, U.S, geopolitical_risk, energy_markets
-- Score: `48.45`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
 
 ### Headline Quality Checks
 
-Noisy headline list: Stock market today: Nasdaq bounces back, S&P 500 a
+No noisy headlines detected by current rules.
 
 ## Positioning & Flow Dashboard
 
