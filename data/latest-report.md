@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 30 July 2026, 09:12:23 (HKT)
+Generated at: 30 July 2026, 09:22:29 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **47.33 / 100** (Mixed / Rotation)
+- Regime score: **47.39 / 100** (Mixed / Rotation)
 - US equity strength: **43.79 / 100** (weak)
 - Evidence quality: **72.5 / 100**
-- ETF flow contribution: **49.16 / 100**, reliability **65.94 / 100**
+- ETF flow contribution: **49.9 / 100**, reliability **67.03 / 100**
 - Breadth: **narrow**; above 50DMA `38.33%`, above 200DMA `62.71%`
 - Top sector score: **Healthcare** `69.64`
 - Top theme score: **Healthcare Innovation** `61.47`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 47.33 | Mixed / Rotation |
+| Overall regime | 47.39 | Mixed / Rotation |
 | equity_trend | 45.0 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 44.66 | mild risk-off pressure; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 47.02 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 57.67 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 47.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 49.45 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 49.93 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 70.62 | risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | news_confirmation=70.62 |
 | Negative contributors |  | volatility=20.0, equity_momentum=44.66, equity_trend=45.0 |
@@ -79,13 +79,13 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 20.66 | 13.45 | 2026-07-29 | closed |
 | ^SKEW | CBOE SKEW Index | 139.55 | -2.4 | 2026-07-29 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.28 | 0.19 | 2026-07-30 | live as of 30 July 2026, 09:00:40 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.33 | 0.23 | 2026-07-30 | live as of 30 July 2026, 09:00:40 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.41 | 0.28 | 2026-07-30 | live as of 30 July 2026, 09:00:40 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.54 | 0.26 | 2026-07-30 | live as of 30 July 2026, 09:00:40 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.68 | 0.21 | 2026-07-30 | live as of 30 July 2026, 09:00:40 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.23 | 0.22 | 2026-07-30 | live as of 30 July 2026, 09:00:40 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.21 | 0.23 | 2026-07-30 | live as of 30 July 2026, 09:00:40 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.27 | 0.1 | 2026-07-30 | live as of 30 July 2026, 09:11:52 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.32 | 0.13 | 2026-07-30 | live as of 30 July 2026, 09:11:52 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.41 | 0.24 | 2026-07-30 | live as of 30 July 2026, 09:11:52 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.54 | 0.15 | 2026-07-30 | live as of 30 July 2026, 09:11:52 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.68 | 0.17 | 2026-07-30 | live as of 30 July 2026, 09:11:52 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.23 | 0.12 | 2026-07-30 | live as of 30 July 2026, 09:11:52 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.21 | 0.12 | 2026-07-30 | live as of 30 July 2026, 09:11:52 (HKT) |
 | HK50 | Hang Seng Futures | 25753.5 | 0.93 | 2026-07-29 | closed |
 | KOR200c1 | KOSPI 200 Futures | 881.95 | -1.86 | 2026-07-29 | closed |
 | CIHc1 | SSE 50 Futures | 2896.6 | 0.2 | 2026-07-29 | closed |
@@ -249,8 +249,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 6 | Cybersecurity | 58.9 | strong uptrend | positive | broad | 50.0 | 0.0 | 61.85 | CIBR | CIBR |
 | 7 | Crypto | 49.75 | neutral | neutral | mixed | 47.46 | 65.0 | 50.0 |  |  |
 | 8 | Industrials | 44.85 | neutral | neutral | weak | 50.0 | 0.0 | 48.98 | CTAS, PAYX, ADP | CAT, GNRC, VRT |
-| 9 | Technology | 39.92 | neutral | negative | weak | 38.62 | 65.0 | 44.3 | CTSH, ACN, WDAY | GLW, SNDK, CRWD |
-| 10 | Semiconductors | 39.3 | downtrend | negative | weak | 78.11 | 65.0 | 35.48 | SMH, SOXX | SOXX, SMH |
+| 9 | Semiconductors | 40.68 | downtrend | negative | weak | 91.86 | 100.0 | 35.48 | SMH, SOXX | SOXX, SMH |
+| 10 | Technology | 39.92 | neutral | negative | weak | 38.62 | 65.0 | 44.3 | CTSH, ACN, WDAY | GLW, SNDK, CRWD |
 | 11 | Utilities | 34.57 | strong downtrend | neutral | weak | 50.0 | 0.0 | 46.58 | EIX, PCG, AWK | ETR, VST, NRG |
 | 12 | Consumer Discretionary | 34.49 | strong downtrend | neutral | weak | 50.0 | 0.0 | 45.63 | GRMN, DPZ, EXPE | LEN, DHI, TSLA |
 | 13 | Defense | 33.93 | strong downtrend | neutral | weak | 50.0 | 0.0 | 45.73 | XAR | XAR |
@@ -269,8 +269,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 6 | Quality Growth | 48.07 | Neutral / watchlist | 59.3 | 65.0 | 29.45 | False | False |
 | 7 | Small Caps | 47.67 | Neutral / watchlist | 64.54 | 65.0 | 0.0 | False | False |
 | 8 | Defense | 47.31 | Neutral / watchlist | 50.0 | 0.0 | 27.35 | False | False |
-| 9 | Semiconductors | 43.97 | Neutral / watchlist | 78.11 | 65.0 | 25.46 | False | False |
-| 10 | AI Infrastructure | 42.17 | Weak setup | 78.11 | 65.0 | 32.13 | False | False |
+| 9 | Semiconductors | 45.35 | Neutral / watchlist | 91.86 | 100.0 | 25.46 | False | False |
+| 10 | AI Infrastructure | 43.54 | Weak setup | 91.86 | 100.0 | 32.13 | False | False |
 | 11 | Crypto Infrastructure | 34.52 | Weak setup | 47.46 | 65.0 | 2.15 | False | False |
 | 12 | Grid Infrastructure | 34.37 | Weak setup | 50.0 | 0.0 | 21.12 | False | False |
 | 13 | Nuclear | 31.13 | Underperformance risk | 50.0 | 0.0 | 12.1 | False | False |
@@ -292,8 +292,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 58.9 | positive | 52.53 | mixed | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 49.75 | mixed | 34.52 | very weak | mixed confirmation |
 | Industrials | Defense, Grid Infrastructure | 44.85 | weak | 40.84 | weak | broad weakness across sector and themes |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 39.92 | weak | 44.74 | weak | broad weakness across sector and themes |
-| Semiconductors | AI Infrastructure, Semiconductors | 39.3 | weak | 43.07 | weak | broad weakness across sector and themes |
+| Semiconductors | AI Infrastructure, Semiconductors | 40.68 | weak | 44.45 | weak | broad weakness across sector and themes |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 39.92 | weak | 45.65 | mixed | mixed confirmation |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 34.57 | very weak | 40.08 | weak | broad weakness across sector and themes |
 | Consumer Discretionary | Small Caps | 34.49 | very weak | 47.67 | mixed | mixed confirmation |
 | Defense | Defense | 33.93 | very weak | 47.31 | mixed | mixed confirmation |
@@ -439,8 +439,8 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Sector cyclicality flow: `55.4`
 - Duration/liquidity flow: `50.0`
 - Alternatives: `defensive or uncertainty hedge`
-- ETF flow reliability: `65.9 / 100`
-- Dominant allocation direction: `defensive demand`
+- ETF flow reliability: `67.0 / 100`
+- Dominant allocation direction: `mixed allocation`
 
 ### Core Flow Signals
 
@@ -483,7 +483,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ITA | Aerospace and Defense | -0.2 | -0.6 | 0.2 | 0.6 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural distribution; Persistent selling | 71.0 |
 | SOXX | Semiconductors | 2.0 | 2.2 | 0.6 | 2.1 | Down | Buy | High | Aggressive Dip Buying | Recovery Candidate | Strong confirmation; Exceptional institutional buying | 100.0 |
-| SMH | Semiconductors | 0.9 | 0.2 | 0.5 | 1.0 | Down | Buy | High | Aggressive Dip Buying | Recovery Candidate | Strong confirmation; Exceptional institutional buying | 100.0 |
+| SMH | Semiconductors | 1.2 | 0.5 | 0.5 | 1.1 | Down | Neutral | High | Heavy Selling Pressure | Cautious | Structural accumulation | 91.0 |
 | CIBR | Cybersecurity | 1.1 | 1.7 | 0.7 | -0.9 | Flat | Buy | Normal | Quiet Accumulation | Improving | Strong confirmation | 95.0 |
 
 ### Material Flow Divergences
@@ -494,6 +494,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 | high | close_substitute_divergence | AGG | IUSB | primary representative differs from close substitute |
 | high | close_substitute_divergence | IWF | IVW | primary representative differs from close substitute |
 | high | close_substitute_divergence | IWD | IVE | primary representative differs from close substitute |
+| high | close_substitute_divergence | SOXX | SMH | primary representative differs from close substitute |
 | high | close_substitute_divergence | IWM | IJR | primary representative differs from close substitute |
 
 
