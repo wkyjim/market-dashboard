@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 31 July 2026, 00:04:46 (HKT)
+Generated at: 31 July 2026, 00:12:06 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **53.32 / 100** (Mixed / Rotation)
+- Regime score: **53.38 / 100** (Mixed / Rotation)
 - US equity strength: **43.79 / 100** (weak)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **49.38 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 53.32 | Mixed / Rotation |
+| Overall regime | 53.38 | Mixed / Rotation |
 | equity_trend | 45.0 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 44.66 | mild risk-off pressure; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 47.02 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 59.04 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.56 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 73.75 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=73.75, volatility=70.0 |
+| news_confirmation | 75.0 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=75.0, volatility=70.0 |
 | Negative contributors |  | equity_momentum=44.66, equity_trend=45.0 |
 
 ## US Equity Strength Score
@@ -244,7 +244,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Real Estate | 69.92 | strong uptrend | neutral | broad | 77.86 | 100.0 | 55.01 | VTR, BXP, CBRE | MAA, EQIX, IRM |
 | 2 | Consumer Staples | 69.81 | strong uptrend | neutral | broad | 75.38 | 65.0 | 55.52 | KHC, MDLZ, SJM | PG, KDP, STZ |
 | 3 | Healthcare | 69.43 | strong uptrend | positive | broad | 63.67 | 90.0 | 59.58 | IQV, ABT, MCK | HUM, ISRG, MRNA |
-| 4 | Financials | 68.52 | strong uptrend | positive | broad | 69.29 | 95.0 | 58.0 | PYPL, CBOE, ICE | HBAN, C, HOOD |
+| 4 | Financials | 68.02 | strong uptrend | positive | broad | 69.29 | 95.0 | 58.0 | PYPL, CBOE, ICE | HBAN, C, HOOD |
 | 5 | Cybersecurity | 60.15 | strong uptrend | positive | broad | 62.49 | 65.0 | 61.85 | CIBR | CIBR |
 | 6 | Energy | 60.07 | uptrend | positive | broad | 46.42 | 95.0 | 57.02 | PSX, MPC, CVX | WMB, HAL, TPL |
 | 7 | Crypto | 49.75 | neutral | neutral | mixed | 47.46 | 65.0 | 50.0 |  |  |
@@ -262,7 +262,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Healthcare Innovation | 61.27 | Positive setup | 63.67 | 90.0 | 5.65 | True | False |
-| 2 | Financials | 61.19 | Positive setup | 69.29 | 95.0 | 10.21 | True | True |
+| 2 | Financials | 60.06 | Positive setup | 69.29 | 95.0 | 10.21 | True | False |
 | 3 | Energy | 60.03 | Positive setup | 46.42 | 95.0 | 5.31 | True | False |
 | 4 | Dividend Defensives | 54.73 | Neutral / watchlist | 55.73 | 65.0 | 6.11 | False | False |
 | 5 | Cybersecurity | 53.77 | Neutral / watchlist | 62.49 | 65.0 | 85.44 | False | False |
@@ -278,7 +278,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Top 5 improving themes: Cybersecurity, Healthcare Innovation, Financials, Dividend Defensives, Small Caps
 - Top 5 deteriorating themes: Crypto Infrastructure, Nuclear, Grid Infrastructure, AI Infrastructure, Semiconductors
 - Strong news but weak price confirmation: none
-- Strong price but weak news confirmation: Healthcare Innovation, Energy
+- Strong price but weak news confirmation: Healthcare Innovation, Financials, Energy
 
 ### Sector / Theme Alignment
 
@@ -287,7 +287,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Real Estate | Dividend Defensives | 69.92 | strong | 54.73 | mixed | sector stronger than related themes |
 | Consumer Staples | Dividend Defensives | 69.81 | strong | 54.73 | mixed | sector stronger than related themes |
 | Healthcare | Healthcare Innovation | 69.43 | strong | 61.27 | positive | sector and theme confirmation |
-| Financials | Financials | 68.52 | strong | 61.19 | positive | sector and theme confirmation |
+| Financials | Financials | 68.02 | strong | 60.06 | positive | sector and theme confirmation |
 | Cybersecurity | Cybersecurity | 60.15 | positive | 53.77 | mixed | sector stronger than related themes |
 | Energy | Energy | 60.07 | positive | 60.03 | positive | sector and theme confirmation |
 | Crypto | Crypto Infrastructure | 49.75 | mixed | 34.52 | very weak | mixed confirmation |
@@ -305,8 +305,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Theme | Score | Classification | Drivers | Invalidation Triggers |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Healthcare Innovation | 67.85 | Positive setup | relative_strength_60d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
-| 2 | Energy | 63.66 | Positive setup | relative_strength_20d, trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 3 | Financials | 62.74 | Positive setup | trend_persistence, breadth, volume_accumulation, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
+| 2 | Financials | 64.74 | Positive setup | trend_persistence, breadth, volume_accumulation, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
+| 3 | Energy | 63.66 | Positive setup | relative_strength_20d, trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | Dividend Defensives | 58.59 | Neutral / watchlist | trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 5 | Cybersecurity | 57.15 | Neutral / watchlist | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 6 | Small Caps | 53.56 | Neutral / watchlist | volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 59, 'negative': 21, 'neutral': 0}
-- News confirmation score: `73.75`
+- Sentiment counts: {'positive': 60, 'negative': 20, 'neutral': 0}
+- News confirmation score: `75.0`
 
 ### Top Market-Moving Headlines
 
