@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 30 July 2026, 14:07:18 (HKT)
+Generated at: 30 July 2026, 15:09:53 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **46.36 / 100** (Mixed / Rotation)
+- Regime score: **46.22 / 100** (Mixed / Rotation)
 - US equity strength: **43.79 / 100** (weak)
 - Evidence quality: **72.5 / 100**
 - ETF flow contribution: **49.38 / 100**, reliability **71.59 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 46.36 | Mixed / Rotation |
+| Overall regime | 46.22 | Mixed / Rotation |
 | equity_trend | 45.0 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 44.66 | mild risk-off pressure; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 47.02 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 20.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 46.0 | neutral / mixed; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.38 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.19 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.56 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 70.0 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=70.0 |
+| news_confirmation | 67.5 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=67.5 |
 | Negative contributors |  | volatility=20.0, equity_momentum=44.66, equity_trend=45.0 |
 
 ## US Equity Strength Score
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 20.66 | 13.45 | 2026-07-29 | closed |
 | ^SKEW | CBOE SKEW Index | 139.55 | -2.4 | 2026-07-29 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.29 | 1.21 | 2026-07-30 | live as of 30 July 2026, 14:01:00 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.34 | 1.4 | 2026-07-30 | live as of 30 July 2026, 14:01:00 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.43 | 1.7 | 2026-07-30 | live as of 30 July 2026, 14:01:00 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.56 | 1.73 | 2026-07-30 | live as of 30 July 2026, 14:01:00 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.71 | 1.8 | 2026-07-30 | live as of 30 July 2026, 14:01:00 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.25 | 1.86 | 2026-07-30 | live as of 30 July 2026, 14:01:00 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.23 | 1.7 | 2026-07-30 | live as of 30 July 2026, 14:01:00 (HKT) |
-| HK50 | Hang Seng Futures | 25830.5 | -0.43 | 2026-07-30 | live as of 30 July 2026, 14:01:00 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.29 | 1.16 | 2026-07-30 | live as of 30 July 2026, 15:01:21 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.34 | 1.37 | 2026-07-30 | live as of 30 July 2026, 15:01:21 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.43 | 1.7 | 2026-07-30 | live as of 30 July 2026, 15:01:21 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.56 | 1.73 | 2026-07-30 | live as of 30 July 2026, 15:01:21 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.7 | 1.6 | 2026-07-30 | live as of 30 July 2026, 15:01:21 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.25 | 1.84 | 2026-07-30 | live as of 30 July 2026, 15:01:21 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.23 | 1.66 | 2026-07-30 | live as of 30 July 2026, 15:01:21 (HKT) |
+| HK50 | Hang Seng Futures | 25873.5 | -0.26 | 2026-07-30 | live as of 30 July 2026, 15:01:21 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 881.95 | -1.86 | 2026-07-29 | closed |
 | CIHc1 | SSE 50 Futures | 2896.6 | 0.2 | 2026-07-29 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.24 | -0.23 | 2026-07-29 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 82.85 | -1.65 | 2026-07-29 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 93.17 | -0.42 | 2026-07-29 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.99 | 0.06 | 2026-07-29 | closed |
-| GC=F | Gold Future | 4092.2 | 1.43 | 2026-07-30 | live as of 30 July 2026, 14:01:00 (HKT) |
-| SI=F | Silver Future | 57.37 | -0.85 | 2026-07-30 | live as of 30 July 2026, 14:01:00 (HKT) |
-| CL=F | WTI Crude Oil Future | 84.77 | 0.37 | 2026-07-30 | live as of 30 July 2026, 14:01:00 (HKT) |
-| HG=F | Copper Future | 6.37 | 1.54 | 2026-07-30 | live as of 30 July 2026, 14:01:00 (HKT) |
+| GC=F | Gold Future | 4097.1 | 1.55 | 2026-07-30 | live as of 30 July 2026, 15:01:21 (HKT) |
+| SI=F | Silver Future | 57.52 | -0.6 | 2026-07-30 | live as of 30 July 2026, 15:01:21 (HKT) |
+| CL=F | WTI Crude Oil Future | 85.49 | 1.22 | 2026-07-30 | live as of 30 July 2026, 15:01:21 (HKT) |
+| HG=F | Copper Future | 6.36 | 1.35 | 2026-07-30 | live as of 30 July 2026, 15:01:21 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 55, 'negative': 23, 'neutral': 2}
-- News confirmation score: `70.0`
+- Sentiment counts: {'positive': 53, 'negative': 25, 'neutral': 2}
+- News confirmation score: `67.5`
 
 ### Top Market-Moving Headlines
 
@@ -358,7 +358,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.38`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Samsung Electronics second-quarter operating profit beats estimates on soaring AI chip demand**
+**4. CNBC Daily Open: Oil heats up on Middle East tensions as Fed sees a 'family fight'**
+- Source: CNBC Top News
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: OIL, CNBC, U.S, geopolitical_risk, energy_markets
+- Score: `57.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. Shell posts best quarterly profit in four years as Iran war boosts oil and gas prices**
+- Source: CNBC Business News
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: RDS.A, BP, oil_prices, profit_report, geopolitical_risk
+- Score: `54.0`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. Samsung Electronics second-quarter operating profit beats estimates on soaring AI chip demand**
 - Source: CNBC Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -366,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Stocks and bonds see wild ‘Fed Day’ swings as Wall Street’s ‘crash cushion’ evaporates**
+**7. Stocks and bonds see wild ‘Fed Day’ swings as Wall Street’s ‘crash cushion’ evaporates**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -374,15 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Glencore’s Traders to Report Bumper First-Half**
-- Source: Dow Jones US Business
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: GLNC, U.S, earnings, marketing
-- Score: `48.77`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Hims and Hers shares fall 10% as FTC sues company over data, billing practices**
+**8. Hims and Hers shares fall 10% as FTC sues company over data, billing practices**
 - Source: CNBC Finance
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -390,21 +398,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `46.98`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. What a divided Fed means for investors**
+**9. What a divided Fed means for investors**
 - Source: CNBC Economy
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: A, Federal Reserve, Investor Sentiment
 - Score: `45.9`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Robinhood puts up record revenue as volatility drives a trading bonanza**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: RH, trading volume, revenue growth
-- Score: `43.88`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 **10. Microsoft's stock climbs after it crushes earnings expectations — live**
 - Source: MarketWatch Bulletins
@@ -507,7 +507,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `26`
+- Live macro rows used: `24`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
