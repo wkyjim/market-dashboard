@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 30 July 2026, 08:11:38 (HKT)
+Generated at: 30 July 2026, 08:40:43 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,13 +79,13 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 20.66 | 13.45 | 2026-07-29 | closed |
 | ^SKEW | CBOE SKEW Index | 139.55 | -2.4 | 2026-07-29 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.28 | -0.0 | 2026-07-29 | closed |
-| US3YT=X | United States 3-Year Treasury Yield | 4.33 | 0.58 | 2026-07-29 | closed |
-| US5YT=X | United States 5-Year Treasury Yield | 4.41 | 1.13 | 2026-07-29 | closed |
-| US7YT=X | United States 7-Year Treasury Yield | 4.54 | 1.56 | 2026-07-29 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 4.67 | 0.02 | 2026-07-30 | live as of 30 July 2026, 08:00:56 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.22 | 2.12 | 2026-07-29 | closed |
-| US30YT=X | United States 30-Year Treasury Yield | 5.2 | 2.12 | 2026-07-29 | closed |
+| US2YT=X | United States 2-Year Treasury Yield | 4.28 | 0.24 | 2026-07-30 | live as of 30 July 2026, 08:31:02 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.33 | 0.23 | 2026-07-30 | live as of 30 July 2026, 08:31:02 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.41 | 0.28 | 2026-07-30 | live as of 30 July 2026, 08:31:02 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.54 | 0.23 | 2026-07-30 | live as of 30 July 2026, 08:31:02 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.68 | 0.21 | 2026-07-30 | live as of 30 July 2026, 08:31:02 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.23 | 0.17 | 2026-07-30 | live as of 30 July 2026, 08:31:02 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.21 | 0.16 | 2026-07-30 | live as of 30 July 2026, 08:31:02 (HKT) |
 | HK50 | Hang Seng Futures | 25753.5 | 0.93 | 2026-07-29 | closed |
 | KOR200c1 | KOSPI 200 Futures | 967.15 | 1.09 | 2026-07-28 | closed |
 | CIHc1 | SSE 50 Futures | 2890.8 | -1.33 | 2026-07-28 | closed |
@@ -508,7 +508,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `5`
+- Live macro rows used: `13`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
