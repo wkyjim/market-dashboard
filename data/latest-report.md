@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 31 July 2026, 01:03:26 (HKT)
+Generated at: 31 July 2026, 02:03:50 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **53.31 / 100** (Mixed / Rotation)
+- Regime score: **53.4 / 100** (Mixed / Rotation)
 - US equity strength: **43.79 / 100** (weak)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **49.38 / 100**, reliability **71.28 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 53.31 | Mixed / Rotation |
+| Overall regime | 53.4 | Mixed / Rotation |
 | equity_trend | 45.0 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 44.66 | mild risk-off pressure; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 47.02 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 58.95 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 59.38 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.56 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 73.75 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=73.75, volatility=70.0 |
+| news_confirmation | 75.0 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=75.0, volatility=70.0 |
 | Negative contributors |  | equity_momentum=44.66, equity_trend=45.0 |
 
 ## US Equity Strength Score
@@ -60,7 +60,7 @@ Window: 24h
 | Equities | S&P 500 rising; Nasdaq rising; Russell 2000 rising | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
 | Rates | 10Y Treasury rising; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy falling | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
-| Credit | HYG rising | High-yield weakness would challenge equity risk-on confirmation. |
+| Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7421.48 | 1.44 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
-| ^IXIC | NASDAQ Composite | 25061.95 | 2.53 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
-| ^RUT | Russell 2000 Index | 2928.04 | 0.75 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
-| ^VIX | CBOE Volatility Index | 18.27 | -11.57 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
+| ^GSPC | S&P 500 | 7425.58 | 1.5 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
+| ^IXIC | NASDAQ Composite | 25084.97 | 2.63 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
+| ^RUT | Russell 2000 Index | 2932.73 | 0.91 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
+| ^VIX | CBOE Volatility Index | 17.96 | -13.07 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
 | ^SKEW | CBOE SKEW Index | 139.55 | -2.4 | 2026-07-29 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.22 | -0.35 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.27 | -0.13 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.37 | 0.37 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.51 | 0.55 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.66 | 0.82 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.21 | 1.11 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.2 | 1.18 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.23 | -0.06 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.29 | 0.17 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.38 | 0.65 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.52 | 0.82 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.67 | 1.08 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.22 | 1.31 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.21 | 1.37 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
 | HK50 | Hang Seng Futures | 25896.5 | -0.17 | 2026-07-30 | closed |
 | KOR200c1 | KOSPI 200 Futures | 881.95 | -1.86 | 2026-07-29 | closed |
 | CIHc1 | SSE 50 Futures | 2896.6 | 0.2 | 2026-07-29 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.48 | 0.3 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.47 | 0.24 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 95.67 | 0.29 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 214.66 | -0.5 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 116.89 | 2.49 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 250.35 | 0.33 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 82.83 | -0.03 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 93.27 | 0.1 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 82.03 | 0.04 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
-| GC=F | Gold Future | 4168.9 | 3.33 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
-| SI=F | Silver Future | 58.88 | 1.76 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
-| CL=F | WTI Crude Oil Future | 83.84 | -0.73 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
-| HG=F | Copper Future | 6.47 | 3.2 | 2026-07-30 | live as of 31 July 2026, 01:00:45 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.42 | 0.22 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.39 | 0.16 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 95.58 | 0.19 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 214.76 | -0.45 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 117.0 | 2.59 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 250.36 | 0.34 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 82.72 | -0.15 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 93.19 | 0.02 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 82.02 | 0.03 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
+| GC=F | Gold Future | 4162.4 | 3.17 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
+| SI=F | Silver Future | 59.01 | 1.97 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
+| CL=F | WTI Crude Oil Future | 84.05 | -0.49 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
+| HG=F | Copper Future | 6.47 | 3.17 | 2026-07-30 | live as of 31 July 2026, 02:01:03 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -167,8 +167,8 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | Core CPI year-over-year inflation rate | 2.86 | percent | -0.21 pp vs prior | 2026-06-01 | Lower reading eases macro pressure. |
 | Headline PCE Price Index month-over-month inflation rate | -0.11 | percent | -0.57 pp vs prior | 2026-06-01 | Lower reading eases macro pressure. |
 | Headline PCE Price Index year-over-year inflation rate | 3.67 | percent | -0.41 pp vs prior | 2026-06-01 | Lower reading eases macro pressure. |
-| Core PCE Price Index month-over-month inflation rate | 0.32 | percent | 0.07 pp vs prior | 2026-05-01 | Higher reading increases macro pressure. |
-| Core PCE Price Index year-over-year inflation rate | 3.41 | percent | 0.09 pp vs prior | 2026-05-01 | Higher reading increases macro pressure. |
+| Core PCE Price Index month-over-month inflation rate | 0.13 | percent | -0.2 pp vs prior | 2026-06-01 | Lower reading eases macro pressure. |
+| Core PCE Price Index year-over-year inflation rate | 3.29 | percent | -0.14 pp vs prior | 2026-06-01 | Lower reading eases macro pressure. |
 | Headline PPI Final Demand month-over-month inflation rate | -0.19 | percent | -0.79 pp vs prior | 2026-06-01 | Lower reading eases macro pressure. |
 | Headline PPI Final Demand year-over-year inflation rate | 5.51 | percent | -0.49 pp vs prior | 2026-06-01 | Lower reading eases macro pressure. |
 | Core PPI Final Demand Less Foods and Energy month-over-month inflation rate | 0.2 | percent | 0.11 pp vs prior | 2026-06-01 | Higher reading increases macro pressure. |
@@ -176,7 +176,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | Consumer Price Index for All Urban Consumers | 332.57 | index 1982-1984=100 | -1.41 index pts vs prior | 2026-06-01 | Lower reading eases macro pressure. |
 | Core CPI | 336.06 | index 1982-1984=100 | -0.06 index pts vs prior | 2026-06-01 | Lower reading eases macro pressure. |
 | Personal Consumption Expenditures Price Index | 131.39 | index 2017=100 | -0.14 index pts vs prior | 2026-06-01 | Lower reading eases macro pressure. |
-| Core PCE Price Index | 130.08 | index 2017=100 | 0.41 index pts vs prior | 2026-05-01 | Higher reading increases macro pressure. |
+| Core PCE Price Index | 130.27 | index 2017=100 | 0.17 index pts vs prior | 2026-06-01 | Higher reading increases macro pressure. |
 | Producer Price Index: Final Demand | 157.04 | index Nov 2009=100 | -0.3 index pts vs prior | 2026-06-01 | Latest structural macro observation. |
 | Producer Price Index: Final Demand Less Foods and Energy | 154.0 | index Apr 2010=100 | 0.31 index pts vs prior | 2026-06-01 | Latest structural macro observation. |
 
@@ -325,12 +325,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=18.27 pct_chg=-11.57
+- VIX close=17.96 pct_chg=-13.07
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 59, 'negative': 21, 'neutral': 0}
-- News confirmation score: `73.75`
+- Sentiment counts: {'positive': 60, 'negative': 20, 'neutral': 0}
+- News confirmation score: `75.0`
 
 ### Top Market-Moving Headlines
 
