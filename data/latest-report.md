@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 31 July 2026, 09:12:37 (HKT)
+Generated at: 31 July 2026, 09:23:11 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,13 +79,13 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 17.09 | -17.28 | 2026-07-30 | closed |
 | ^SKEW | CBOE SKEW Index | 139.9 | 0.25 | 2026-07-30 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.24 | -0.2 | 2026-07-31 | live as of 31 July 2026, 09:01:05 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.29 | -0.17 | 2026-07-31 | live as of 31 July 2026, 09:01:05 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.38 | -0.2 | 2026-07-31 | live as of 31 July 2026, 09:01:05 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.52 | -0.23 | 2026-07-31 | live as of 31 July 2026, 09:01:05 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.66 | -0.35 | 2026-07-31 | live as of 31 July 2026, 09:01:05 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.21 | -0.27 | 2026-07-31 | live as of 31 July 2026, 09:01:05 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.2 | -0.24 | 2026-07-31 | live as of 31 July 2026, 09:01:05 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.24 | -0.29 | 2026-07-31 | live as of 31 July 2026, 09:12:07 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.29 | -0.3 | 2026-07-31 | live as of 31 July 2026, 09:12:07 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.38 | -0.32 | 2026-07-31 | live as of 31 July 2026, 09:12:07 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.51 | -0.32 | 2026-07-31 | live as of 31 July 2026, 09:12:07 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.66 | -0.35 | 2026-07-31 | live as of 31 July 2026, 09:12:07 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.21 | -0.32 | 2026-07-31 | live as of 31 July 2026, 09:12:07 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.2 | -0.28 | 2026-07-31 | live as of 31 July 2026, 09:12:07 (HKT) |
 | HK50 | Hang Seng Futures | 25896.5 | -0.17 | 2026-07-30 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1022.75 | 17.88 | 2026-07-30 | closed |
 | CIHc1 | SSE 50 Futures | 2903.2 | 0.23 | 2026-07-30 | closed |
