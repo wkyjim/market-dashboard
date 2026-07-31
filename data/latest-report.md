@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 31 July 2026, 11:11:11 (HKT)
+Generated at: 31 July 2026, 12:11:26 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.84 / 100** (Mild Risk-On)
+- Regime score: **57.91 / 100** (Mild Risk-On)
 - US equity strength: **54.08 / 100** (neutral)
 - Evidence quality: **83.0 / 100**
-- ETF flow contribution: **50.33 / 100**, reliability **67.03 / 100**
+- ETF flow contribution: **50.33 / 100**, reliability **66.97 / 100**
 - Breadth: **narrow**; above 50DMA `48.33%`, above 200DMA `72.88%`
 - Top sector score: **Healthcare** `69.84`
 - Top theme score: **Energy** `61.0`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.84 | Mild Risk-On |
+| Overall regime | 57.91 | Mild Risk-On |
 | equity_trend | 61.25 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 48.8 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 53.74 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 58.9 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.22 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 80.0 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=80.0, volatility=70.0, equity_trend=61.25 |
+| news_confirmation | 81.25 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=81.25, volatility=70.0, equity_trend=61.25 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 17.09 | -17.28 | 2026-07-30 | closed |
 | ^SKEW | CBOE SKEW Index | 139.9 | 0.25 | 2026-07-30 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.23 | 0.11 | 2026-07-31 | live as of 31 July 2026, 11:01:01 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.28 | -0.11 | 2026-07-31 | live as of 31 July 2026, 11:01:01 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.37 | -0.11 | 2026-07-31 | live as of 31 July 2026, 11:01:01 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.5 | -0.28 | 2026-07-31 | live as of 31 July 2026, 11:01:01 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.65 | -0.26 | 2026-07-31 | live as of 31 July 2026, 11:01:01 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.2 | -0.25 | 2026-07-31 | live as of 31 July 2026, 11:01:01 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.19 | -0.24 | 2026-07-31 | live as of 31 July 2026, 11:01:01 (HKT) |
-| HK50 | Hang Seng Futures | 25907.5 | -0.42 | 2026-07-31 | live as of 31 July 2026, 11:01:01 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.24 | 0.16 | 2026-07-31 | live as of 31 July 2026, 12:00:32 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.28 | -0.08 | 2026-07-31 | live as of 31 July 2026, 12:00:32 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.37 | -0.08 | 2026-07-31 | live as of 31 July 2026, 12:00:32 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.51 | -0.19 | 2026-07-31 | live as of 31 July 2026, 12:00:32 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.65 | -0.26 | 2026-07-31 | live as of 31 July 2026, 12:00:32 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.2 | -0.2 | 2026-07-31 | live as of 31 July 2026, 12:00:32 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.2 | -0.2 | 2026-07-31 | live as of 31 July 2026, 12:00:32 (HKT) |
+| HK50 | Hang Seng Futures | 25843.5 | -0.67 | 2026-07-31 | live as of 31 July 2026, 12:00:32 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1022.75 | 17.88 | 2026-07-30 | closed |
 | CIHc1 | SSE 50 Futures | 2903.2 | 0.23 | 2026-07-30 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.47 | 0.29 | 2026-07-30 | closed |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 64, 'negative': 16, 'neutral': 0}
-- News confirmation score: `80.0`
+- Sentiment counts: {'positive': 65, 'negative': 15, 'neutral': 0}
+- News confirmation score: `81.25`
 
 ### Top Market-Moving Headlines
 
@@ -417,7 +417,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-Noisy headline list: Stock market today: Nasdaq bounces back, S&P 500 a
+No noisy headlines detected by current rules.
 
 ## Positioning & Flow Dashboard
 
