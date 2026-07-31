@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 31 July 2026, 15:03:31 (HKT)
+Generated at: 31 July 2026, 15:12:39 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.53 / 100** (Mild Risk-On)
+- Regime score: **57.66 / 100** (Mild Risk-On)
 - US equity strength: **54.08 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **50.92 / 100**, reliability **71.98 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.53 | Mild Risk-On |
+| Overall regime | 57.66 | Mild Risk-On |
 | equity_trend | 61.25 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 48.8 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 53.74 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.56 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.66 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 80.0 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=80.0, volatility=70.0, equity_trend=61.25 |
+| news_confirmation | 82.5 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=82.5, volatility=70.0, equity_trend=61.25 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 64, 'negative': 16, 'neutral': 0}
-- News confirmation score: `80.0`
+- Sentiment counts: {'positive': 66, 'negative': 14, 'neutral': 0}
+- News confirmation score: `82.5`
 
 ### Top Market-Moving Headlines
 
@@ -366,7 +366,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.9`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Apple's stock could see its worst post-earnings drop in over a decade**
+**5. Copper may hit new high as AI demand collides with deadly storms, strategists say**
+- Source: CNBC Business News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: metals, weather
+- Score: `40.8`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**6. Apple's stock could see its worst post-earnings drop in over a decade**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.15`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**6. Micron, Sandisk and other chip stocks get major boosts in the wake of Microsoft’s earnings**
+**7. Micron, Sandisk and other chip stocks get major boosts in the wake of Microsoft’s earnings**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.57`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. GDP shows the economy grew 1.5% in the second quarter — but it’s even better than it looks**
+**8. GDP shows the economy grew 1.5% in the second quarter — but it’s even better than it looks**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.57`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. Why Microsoft’s stock soared to a historic gain after earnings**
+**9. Why Microsoft’s stock soared to a historic gain after earnings**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -398,21 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. 30-year yield hovers near 2007 high as traders weigh Fed decision to holds rates steady**
+**10. 30-year yield hovers near 2007 high as traders weigh Fed decision to holds rates steady**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, Federal Reserve, interest rates
 - Score: `36.74`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Amazon's stock pops after earnings show a big beat for AWS cloud business — live**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: AWS, earnings report, cloud services
-- Score: `35.43`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
