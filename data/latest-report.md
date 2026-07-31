@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 31 July 2026, 21:03:47 (HKT)
+Generated at: 31 July 2026, 21:12:24 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -262,7 +262,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Healthcare Innovation | 61.72 | Positive setup | 75.0 | 100.0 | 6.61 | True | False |
-| 2 | Energy | 60.14 | Positive setup | 58.47 | 100.0 | 4.42 | True | False |
+| 2 | Energy | 61.69 | Positive setup | 58.47 | 100.0 | 4.42 | True | True |
 | 3 | Financials | 58.32 | Positive setup | 63.7 | 95.0 | 5.26 | False | False |
 | 4 | Small Caps | 56.5 | Positive setup | 56.54 | 65.0 | 0.0 | False | False |
 | 5 | Quality Growth | 54.43 | Neutral / watchlist | 65.91 | 65.0 | 25.02 | False | False |
@@ -278,7 +278,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Top 5 improving themes: Cybersecurity, Healthcare Innovation, Financials, Semiconductors, Quality Growth
 - Top 5 deteriorating themes: Crypto Infrastructure, Nuclear, Grid Infrastructure, Energy, AI Infrastructure
 - Strong news but weak price confirmation: none
-- Strong price but weak news confirmation: Healthcare Innovation, Energy
+- Strong price but weak news confirmation: Healthcare Innovation
 
 ### Sector / Theme Alignment
 
@@ -288,7 +288,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Consumer Staples | Dividend Defensives | 68.88 | strong | 54.34 | mixed | sector stronger than related themes |
 | Real Estate | Dividend Defensives | 67.59 | strong | 54.34 | mixed | sector stronger than related themes |
 | Financials | Financials | 65.71 | strong | 58.32 | positive | sector and theme confirmation |
-| Energy | Energy | 61.16 | positive | 60.14 | positive | sector and theme confirmation |
+| Energy | Energy | 61.16 | positive | 61.69 | positive | sector and theme confirmation |
 | Cybersecurity | Cybersecurity | 60.16 | positive | 53.94 | mixed | sector stronger than related themes |
 | Industrials | Defense, Grid Infrastructure | 55.97 | positive | 45.06 | mixed | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 50.38 | mixed | 34.4 | very weak | mixed confirmation |
@@ -307,7 +307,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Healthcare Innovation | 66.62 | Positive setup | relative_strength_60d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 2 | Small Caps | 64.7 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 3 | Financials | 63.79 | Positive setup | relative_strength_60d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
-| 4 | Energy | 61.89 | Positive setup | relative_strength_20d, trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 4 | Energy | 60.39 | Positive setup | relative_strength_20d, trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 5 | Quality Growth | 59.15 | Neutral / watchlist | trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 6 | Dividend Defensives | 57.43 | Neutral / watchlist | trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 7 | Cybersecurity | 55.89 | Neutral / watchlist | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
@@ -406,13 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.57`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. Why Microsoft’s stock soared to a historic gain after earnings**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
+**10. Universal Music Shares Head for Worst Day Since IPO After Subscription Growth Disappoints**
+- Source: Dow Jones US Business
+- Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
-- Affected assets: MSFT, AI, cloud business
+- Affected assets: Universal Music, IPO, Finance, Stock Market, Investment
 - Score: `37.29`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
