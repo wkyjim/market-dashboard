@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 1 August 2026, 15:12:37 (HKT)
+Generated at: 1 August 2026, 16:09:53 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **58.03 / 100** (Mild Risk-On)
+- Regime score: **58.0 / 100** (Mild Risk-On)
 - US equity strength: **59.0 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **49.0 / 100**, reliability **66.0 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 58.03 | Mild Risk-On |
+| Overall regime | 58.0 | Mild Risk-On |
 | equity_trend | 66.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.4 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 54.29 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 56.03 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.34 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 78.12 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=80.0, news_confirmation=78.12, equity_trend=66.25 |
+| news_confirmation | 77.5 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=80.0, news_confirmation=77.5, equity_trend=66.25 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 60, 'negative': 15, 'neutral': 5}
-- News confirmation score: `78.12`
+- Sentiment counts: {'positive': 59, 'negative': 15, 'neutral': 6}
+- News confirmation score: `77.5`
 
 ### Top Market-Moving Headlines
 
@@ -390,15 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. Deadly storms and a global supply squeeze are sending copper prices soaring**
-- Source: CNBC Business News
-- Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: metals, weather
-- Score: `34.68`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**9. Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks**
+**8. Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks**
 - Source: CNBC Finance
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.93`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. Universal Music Shares Have Worst Day Since IPO After Subscription Growth Disappoints**
+**9. Universal Music Shares Have Worst Day Since IPO After Subscription Growth Disappoints**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: Universal Music, IPO, Finance, Stock Market, Investment
 - Score: `31.7`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**10. Eaton shares jump as its earnings and outlook show resilience of the AI buildout**
+- Source: CNBC Investing
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: EAT, AI, earnings, outlook
+- Score: `31.7`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
