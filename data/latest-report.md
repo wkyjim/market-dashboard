@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2 August 2026, 01:08:39 (HKT)
+Generated at: 2 August 2026, 02:11:42 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -398,21 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.34`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Loyalists may miss the old Southwest. Wall Street loves the new one.**
-- Source: MarketWatch Top Stories
+**9. Loyalists may miss the old Southwest Airlines. Wall Street loves the new one.**
+- Source: MarketWatch Bulletins
 - Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: Airline Industry, Corporate Strategy
-- Score: `26.77`
+- Relevance / horizon: sector_theme / short term
+- Affected assets: Airlines, Strategy
+- Score: `25.44`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. The Iran war sent investors into fertilizer stocks — but here’s the China risk everyone’s missing**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: Geopolitical Risk, Commodity Trade
-- Score: `26.77`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+**10. Scoop up more yield amid Fed rate uncertainty with these portfolio tweaks**
+- Source: CNBC Markets
+- Importance / impact: Low / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: fixed income, interest rates
+- Score: `25.44`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
