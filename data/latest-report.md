@@ -1,23 +1,23 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 1 August 2026, 14:09:18 (HKT)
+Generated at: 1 August 2026, 15:12:02 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **58.28 / 100** (Mild Risk-On)
+- Regime score: **58.03 / 100** (Mild Risk-On)
 - US equity strength: **59.0 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **49.0 / 100**, reliability **66.0 / 100**
 - Breadth: **narrow**; above 50DMA `50.0%`, above 200DMA `72.88%`
 - Top sector score: **Healthcare** `65.74`
-- Top theme score: **Energy** `62.45`
+- Top theme score: **Energy** `62.03`
 
 ## Market Regime Score
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 58.28 | Mild Risk-On |
+| Overall regime | 58.03 | Mild Risk-On |
 | equity_trend | 66.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.4 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 54.29 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 56.03 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.34 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 83.12 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=83.12, volatility=80.0, equity_trend=66.25 |
+| news_confirmation | 78.12 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=80.0, news_confirmation=78.12, equity_trend=66.25 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -261,7 +261,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Energy | 62.45 | Positive setup | 60.24 | 65.0 | 4.44 | True | True |
+| 1 | Energy | 62.03 | Positive setup | 60.24 | 65.0 | 4.44 | True | True |
 | 2 | Healthcare Innovation | 59.86 | Positive setup | 74.38 | 65.0 | 5.85 | False | False |
 | 3 | Financials | 56.93 | Positive setup | 56.2 | 65.0 | 5.74 | False | False |
 | 4 | Cybersecurity | 56.13 | Positive setup | 57.34 | 65.0 | 8.31 | False | False |
@@ -289,7 +289,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Financials | Financials | 64.47 | positive | 56.93 | positive | sector and theme confirmation |
 | Cybersecurity | Cybersecurity | 63.79 | positive | 56.13 | positive | sector and theme confirmation |
 | Real Estate | Dividend Defensives | 63.75 | positive | 51.65 | mixed | sector stronger than related themes |
-| Energy | Energy | 61.42 | positive | 62.45 | positive | sector and theme confirmation |
+| Energy | Energy | 61.42 | positive | 62.03 | positive | sector and theme confirmation |
 | Consumer Discretionary | Small Caps | 59.35 | positive | 46.4 | mixed | sector stronger than related themes |
 | Industrials | Defense, Grid Infrastructure | 55.65 | positive | 48.44 | mixed | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 51.08 | mixed | 32.48 | very weak | mixed confirmation |
@@ -306,7 +306,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- |
 | 1 | Healthcare Innovation | 65.39 | Positive setup | relative_strength_60d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 2 | Financials | 62.74 | Positive setup | trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
-| 3 | Energy | 61.21 | Positive setup | relative_strength_20d, trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 3 | Energy | 60.71 | Positive setup | relative_strength_20d, trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | Cybersecurity | 60.59 | Positive setup | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 5 | Quality Growth | 55.66 | Neutral / watchlist | trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 6 | Dividend Defensives | 55.38 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 65, 'negative': 12, 'neutral': 3}
-- News confirmation score: `83.12`
+- Sentiment counts: {'positive': 60, 'negative': 15, 'neutral': 5}
+- News confirmation score: `78.12`
 
 ### Top Market-Moving Headlines
 
@@ -382,7 +382,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Deadly storms and a global supply squeeze are sending copper prices soaring**
+**7. This week's earnings scrambled everything we knew about investing in the 'Magnificent Seven'**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: tech stocks, earnings season, investment strategies
+- Score: `41.18`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**8. Deadly storms and a global supply squeeze are sending copper prices soaring**
 - Source: CNBC Business News
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -390,29 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.68`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. Universal Music Shares Have Worst Day Since IPO After Subscription Growth Disappoints**
+**9. Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks**
+- Source: CNBC Finance
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: Clear Street, Databricks, IPO, AI, Fintech
+- Score: `31.93`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**10. Universal Music Shares Have Worst Day Since IPO After Subscription Growth Disappoints**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: Universal Music, IPO, Finance, Stock Market, Investment
 - Score: `31.7`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**9. Eaton shares jump as its earnings and outlook show resilience of the AI buildout**
-- Source: CNBC Investing
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: EAT, AI, earnings, outlook
-- Score: `31.7`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. Amazon is surging after earnings. How to trade the hyperscaler for more upside while defining risk**
-- Source: CNBC Top News
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: AMZN, earnings, trade strategy
-- Score: `31.49`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
