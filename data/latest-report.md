@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 1 August 2026, 11:11:45 (HKT)
+Generated at: 1 August 2026, 12:11:48 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **58.65 / 100** (Mild Risk-On)
+- Regime score: **58.28 / 100** (Mild Risk-On)
 - US equity strength: **59.0 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
-- ETF flow contribution: **49.0 / 100**, reliability **66.09 / 100**
+- ETF flow contribution: **49.0 / 100**, reliability **66.06 / 100**
 - Breadth: **narrow**; above 50DMA `50.0%`, above 200DMA `72.88%`
 - Top sector score: **Healthcare** `65.74`
 - Top theme score: **Energy** `62.45`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 58.65 | Mild Risk-On |
+| Overall regime | 58.28 | Mild Risk-On |
 | equity_trend | 66.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.4 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 54.29 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 56.03 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.34 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 90.62 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=90.62, volatility=80.0, equity_trend=66.25 |
+| news_confirmation | 83.12 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=83.12, volatility=80.0, equity_trend=66.25 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 72, 'negative': 7, 'neutral': 1}
-- News confirmation score: `90.62`
+- Sentiment counts: {'positive': 65, 'negative': 12, 'neutral': 3}
+- News confirmation score: `83.12`
 
 ### Top Market-Moving Headlines
 
@@ -417,7 +417,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-Noisy headline list: Trump approves new Iran strikes that could begin t
+No noisy headlines detected by current rules.
 
 ## Positioning & Flow Dashboard
 
