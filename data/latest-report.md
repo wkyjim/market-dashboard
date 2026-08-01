@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 1 August 2026, 21:12:25 (HKT)
+Generated at: 1 August 2026, 22:10:16 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.86 / 100** (Mild Risk-On)
+- Regime score: **57.76 / 100** (Mild Risk-On)
 - US equity strength: **59.0 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **49.17 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.86 | Mild Risk-On |
+| Overall regime | 57.76 | Mild Risk-On |
 | equity_trend | 66.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.4 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 54.29 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 56.03 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.45 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 74.38 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=80.0, news_confirmation=74.38, equity_trend=66.25 |
+| news_confirmation | 72.5 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=80.0, news_confirmation=72.5, equity_trend=66.25 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 55, 'negative': 16, 'neutral': 9}
-- News confirmation score: `74.38`
+- Sentiment counts: {'positive': 52, 'negative': 16, 'neutral': 12}
+- News confirmation score: `72.5`
 
 ### Top Market-Moving Headlines
 
@@ -366,15 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**5. Leonardo expects more deals as Europe ramps up defense spending**
-- Source: CNBC Top News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: A, M, defense, acquisition
-- Score: `46.33`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**6. Big Oil Is Reaping Rewards From the Chaos in Energy Markets**
+**5. Big Oil Is Reaping Rewards From the Chaos in Energy Markets**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -382,15 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Newell Brands Lifts Profit View as Tariff Refunds Help Offset Inflation**
-- Source: Dow Jones US Business
-- Importance / impact: Medium / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: NEWB, earnings, revenue growth
-- Score: `43.03`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. This week's earnings scrambled everything we knew about investing in the 'Magnificent Seven'**
+**6. This week's earnings scrambled everything we knew about investing in the 'Magnificent Seven'**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -398,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**9. Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks**
+**7. Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks**
 - Source: CNBC Finance
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -406,13 +390,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.93`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. Universal Music Shares Have Worst Day Since IPO After Subscription Growth Disappoints**
+**8. Universal Music Shares Have Worst Day Since IPO After Subscription Growth Disappoints**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: Universal Music, IPO, Finance, Stock Market, Investment
 - Score: `31.7`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**9. Eaton shares jump as its earnings and outlook show resilience of the AI buildout**
+- Source: CNBC Investing
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: EAT, AI, earnings, outlook
+- Score: `31.7`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Amazon is surging after earnings. How to trade the hyperscaler for more upside while defining risk**
+- Source: CNBC Top News
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: AMZN, earnings, trade strategy
+- Score: `31.49`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
