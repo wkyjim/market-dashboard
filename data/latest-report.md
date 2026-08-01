@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2 August 2026, 00:12:19 (HKT)
+Generated at: 2 August 2026, 01:08:39 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.54 / 100** (Mild Risk-On)
+- Regime score: **57.51 / 100** (Mild Risk-On)
 - US equity strength: **59.0 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **49.17 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.54 | Mild Risk-On |
+| Overall regime | 57.51 | Mild Risk-On |
 | equity_trend | 66.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.4 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 54.29 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 56.03 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.45 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 68.12 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=80.0, news_confirmation=68.12, equity_trend=66.25 |
+| news_confirmation | 67.5 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=80.0, news_confirmation=67.5, equity_trend=66.25 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,28 +329,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 45, 'negative': 16, 'neutral': 19}
-- News confirmation score: `68.12`
+- Sentiment counts: {'positive': 45, 'negative': 17, 'neutral': 18}
+- News confirmation score: `67.5`
 
 ### Top Market-Moving Headlines
 
-**1. Here’s how Big Oil cashed in on the historic supply crunch**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: XOM, CVX, profits, oil companies, geopolitical
-- Score: `72.67`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Tankers near Oman come under fire as Iran threatens to choke off shipping routes**
+**1. Tankers near Oman come under fire as Iran threatens to choke off shipping routes**
 - Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, geopolitical risk, oil markets
-- Score: `61.2`
+- Score: `52.02`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks**
+**2. Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks**
 - Source: CNBC Finance
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -358,15 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.93`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. Universal Music Shares Have Worst Day Since IPO After Subscription Growth Disappoints**
-- Source: Dow Jones US Business
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: Universal Music, IPO, Finance, Stock Market, Investment
-- Score: `31.7`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**5. Eaton shares jump as its earnings and outlook show resilience of the AI buildout**
+**3. Eaton shares jump as its earnings and outlook show resilience of the AI buildout**
 - Source: CNBC Investing
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -374,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.7`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**6. Alphabet, Amazon and Microsoft added nearly $1.5 trillion in combined value this week**
+**4. Alphabet, Amazon and Microsoft added nearly $1.5 trillion in combined value this week**
 - Source: CNBC Business
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / 短期
@@ -382,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**7. OPEC+ may keep lifting oil output quotas amid Iran war. It won't lower prices.**
+**5. OPEC+ may keep lifting oil output quotas amid Iran war. It won't lower prices.**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -390,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.93`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Buy these stocks ahead of earnings. Bank of America says they offer plenty of upside**
+**6. Buy these stocks ahead of earnings. Bank of America says they offer plenty of upside**
 - Source: CNBC Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -398,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.07`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**9. Fed Chairman Kevin Warsh this week floated to colleagues the prospect of meeting less often, which would mark a substantial shift in its operations, according to people familiar with the matter**
+**7. Fed Chairman Kevin Warsh this week floated to colleagues the prospect of meeting less often, which would mark a substantial shift in its operations, according to people familiar with the matter**
 - Source: Dow Jones Economy
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -406,13 +390,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `28.9`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Week Ahead for FX, Bonds: U.S. Jobs Data in Focus, Could Give Steer on Fed Outlook**
-- Source: Dow Jones Economy
-- Importance / impact: Low / Mixed
+**8. Oil prices head for 20% monthly gains as Middle East conflict escalates and widens**
+- Source: Investing.com Stock Market
+- Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
-- Affected assets: FX, U.S, economy, interest rates
-- Score: `28.9`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Affected assets: U.S, oil prices, geopolitical tensions
+- Score: `27.34`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. Loyalists may miss the old Southwest. Wall Street loves the new one.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: Airline Industry, Corporate Strategy
+- Score: `26.77`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**10. The Iran war sent investors into fertilizer stocks — but here’s the China risk everyone’s missing**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: Geopolitical Risk, Commodity Trade
+- Score: `26.77`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
