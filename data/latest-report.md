@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2 August 2026, 05:39:25 (HKT)
+Generated at: 2 August 2026, 06:11:22 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.29 / 100** (Mild Risk-On)
+- Regime score: **57.26 / 100** (Mild Risk-On)
 - US equity strength: **59.0 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **49.17 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.29 | Mild Risk-On |
+| Overall regime | 57.26 | Mild Risk-On |
 | equity_trend | 66.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.4 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 54.29 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 56.03 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.45 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 63.12 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=80.0, equity_trend=66.25, news_confirmation=63.12 |
+| news_confirmation | 62.5 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=80.0, equity_trend=66.25, news_confirmation=62.5 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 42, 'negative': 21, 'neutral': 17}
-- News confirmation score: `63.12`
+- Sentiment counts: {'positive': 40, 'negative': 20, 'neutral': 20}
+- News confirmation score: `62.5`
 
 ### Top Market-Moving Headlines
 
@@ -339,18 +339,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, geopolitical risk, oil markets
-- Score: `52.02`
+- Score: `61.2`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Fintech broker Clear Street offers investors pre-IPO access to $188 billion AI giant Databricks**
-- Source: CNBC Finance
-- Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: Clear Street, Databricks, IPO, AI, Fintech
-- Score: `31.93`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**3. Fed Chairman Kevin Warsh this week floated to colleagues the prospect of meeting less often, which would mark a substantial shift in its operations, according to people familiar with the matter**
+**2. Fed Chairman Kevin Warsh this week floated to colleagues the prospect of meeting less often, which would mark a substantial shift in its operations, according to people familiar with the matter**
 - Source: Dow Jones Economy
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -358,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `28.9`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Oil prices head for 20% monthly gains as Middle East conflict escalates and widens**
+**3. Oil prices head for 20% monthly gains as Middle East conflict escalates and widens**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.34`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. OPEC+ may keep lifting oil output quotas amid Iran war. It won't lower prices.**
+**4. OPEC+ may keep lifting oil output quotas amid Iran war. It won't lower prices.**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.44`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Buy these stocks ahead of earnings. Bank of America says they offer plenty of upside**
+**5. Buy these stocks ahead of earnings. Bank of America says they offer plenty of upside**
 - Source: CNBC Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -382,15 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.71`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. Trump Orders Fresh Strikes on Iran to Spur Surrender**
-- Source: Dow Jones US Business
-- Importance / impact: Low / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: Politics, Military
-- Score: `24.66`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**8. Loyalists may miss the old Southwest. Wall Street loves the new one.**
+**6. Loyalists may miss the old Southwest. Wall Street loves the new one.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -398,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `22.76`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**9. The Iran war sent investors into fertilizer stocks — but here’s the China risk everyone’s missing**
+**7. The Iran war sent investors into fertilizer stocks — but here’s the China risk everyone’s missing**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -406,13 +390,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `22.76`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**10. Loyalists may miss the old Southwest Airlines. Wall Street loves the new one.**
+**8. Loyalists may miss the old Southwest Airlines. Wall Street loves the new one.**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short term
 - Affected assets: Airlines, Strategy
 - Score: `21.62`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**9. OPEC+ may keep lifting its oil output quotas as the Iran war broadens. Why that won’t help lower prices.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: OIL, OPEC, oil market, OPEC policy
+- Score: `20.82`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. IRB Infrastructure Q1 FY27 slides: profit surges 51% on InvIT growth**
+- Source: Investing.com Markets
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: IRB, profitability, real_estate
+- Score: `19.02`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
