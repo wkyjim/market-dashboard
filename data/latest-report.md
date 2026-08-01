@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 1 August 2026, 17:09:59 (HKT)
+Generated at: 1 August 2026, 18:11:43 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **58.01 / 100** (Mild Risk-On)
+- Regime score: **57.89 / 100** (Mild Risk-On)
 - US equity strength: **59.0 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **49.17 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 58.01 | Mild Risk-On |
+| Overall regime | 57.89 | Mild Risk-On |
 | equity_trend | 66.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.4 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 54.29 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 56.03 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.45 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 77.5 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=80.0, news_confirmation=77.5, equity_trend=66.25 |
+| news_confirmation | 75.0 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=80.0, news_confirmation=75.0, equity_trend=66.25 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 59, 'negative': 15, 'neutral': 6}
-- News confirmation score: `77.5`
+- Sentiment counts: {'positive': 55, 'negative': 15, 'neutral': 10}
+- News confirmation score: `75.0`
 
 ### Top Market-Moving Headlines
 
