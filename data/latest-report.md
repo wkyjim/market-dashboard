@@ -1,23 +1,23 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2 August 2026, 08:39:56 (HKT)
+Generated at: 2 August 2026, 09:12:10 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.29 / 100** (Mild Risk-On)
+- Regime score: **57.11 / 100** (Mild Risk-On)
 - US equity strength: **59.0 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **49.17 / 100**, reliability **66.71 / 100**
 - Breadth: **narrow**; above 50DMA `50.0%`, above 200DMA `72.88%`
 - Top sector score: **Healthcare** `65.74`
-- Top theme score: **Energy** `62.85`
+- Top theme score: **Energy** `62.71`
 
 ## Market Regime Score
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.29 | Mild Risk-On |
+| Overall regime | 57.11 | Mild Risk-On |
 | equity_trend | 66.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.4 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 54.29 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 56.03 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.45 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 63.12 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=80.0, equity_trend=66.25, news_confirmation=63.12 |
+| news_confirmation | 59.38 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=80.0, equity_trend=66.25 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -246,12 +246,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Financials | 64.47 | strong uptrend | neutral | broad | 56.2 | 65.0 | 54.11 | PYPL, CBOE, WTW | PGR, COIN, HOOD |
 | 4 | Cybersecurity | 63.79 | strong uptrend | positive | broad | 57.34 | 65.0 | 61.13 | CIBR | CIBR |
 | 5 | Real Estate | 63.75 | strong uptrend | neutral | broad | 43.64 | 65.0 | 49.87 | DLR, HST, WY | CPT, MAA, UDR |
-| 6 | Energy | 61.78 | uptrend | positive | broad | 60.24 | 65.0 | 55.74 | PSX, MPC, FANG | TPL, HAL, WMB |
+| 6 | Energy | 61.66 | uptrend | positive | broad | 60.24 | 65.0 | 55.74 | PSX, MPC, FANG | TPL, HAL, WMB |
 | 7 | Consumer Discretionary | 59.35 | uptrend | neutral | broad | 50.0 | 0.0 | 47.33 | GRMN, ROST, HAS | CVNA, DHI, TSLA |
 | 8 | Industrials | 55.65 | strong uptrend | neutral | broad | 50.0 | 0.0 | 48.93 | CTAS, HII, ALLE | GNRC, CHRW, LII |
 | 9 | Crypto | 51.08 | neutral | neutral | mixed | 60.83 | 65.0 | 50.0 |  |  |
 | 10 | Semiconductors | 46.57 | neutral | neutral | weak | 73.64 | 90.0 | 44.26 | SMH, SOXX | SOXX, SMH |
-| 11 | Technology | 45.51 | neutral | neutral | weak | 38.08 | 65.0 | 47.99 | CTSH, HPQ, ACN | INTC, GLW, SNDK |
+| 11 | Technology | 45.59 | neutral | neutral | weak | 38.08 | 65.0 | 47.99 | CTSH, HPQ, ACN | INTC, GLW, SNDK |
 | 12 | Defense | 44.13 | downtrend | neutral | weak | 50.0 | 0.0 | 45.31 | XAR | XAR |
 | 13 | Grid Infrastructure | 42.96 | downtrend | neutral | weak | 68.52 | 65.0 | 44.04 | GRID | GRID |
 | 14 | Nuclear | 34.67 | strong downtrend | negative | weak | 50.0 | 0.0 | 34.53 | NLR | NLR |
@@ -261,7 +261,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Energy | 62.85 | Positive setup | 60.24 | 65.0 | 4.44 | True | False |
+| 1 | Energy | 62.71 | Positive setup | 60.24 | 65.0 | 4.44 | True | False |
 | 2 | Healthcare Innovation | 59.86 | Positive setup | 74.38 | 65.0 | 5.85 | False | False |
 | 3 | Financials | 56.93 | Positive setup | 56.2 | 65.0 | 5.74 | False | False |
 | 4 | Cybersecurity | 56.13 | Positive setup | 57.34 | 65.0 | 8.31 | False | False |
@@ -289,12 +289,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Financials | Financials | 64.47 | positive | 56.93 | positive | sector and theme confirmation |
 | Cybersecurity | Cybersecurity | 63.79 | positive | 56.13 | positive | sector and theme confirmation |
 | Real Estate | Dividend Defensives | 63.75 | positive | 51.65 | mixed | sector stronger than related themes |
-| Energy | Energy | 61.78 | positive | 62.85 | positive | sector and theme confirmation |
+| Energy | Energy | 61.66 | positive | 62.71 | positive | sector and theme confirmation |
 | Consumer Discretionary | Small Caps | 59.35 | positive | 46.4 | mixed | sector stronger than related themes |
 | Industrials | Defense, Grid Infrastructure | 55.65 | positive | 48.44 | mixed | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 51.08 | mixed | 32.48 | very weak | mixed confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 46.57 | mixed | 50.68 | mixed | mixed confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 45.51 | mixed | 51.3 | mixed | mixed confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 45.59 | mixed | 51.3 | mixed | mixed confirmation |
 | Defense | Defense | 44.13 | weak | 50.36 | mixed | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 42.96 | weak | 46.52 | mixed | mixed confirmation |
 | Nuclear | Nuclear | 34.67 | very weak | 36.38 | weak | broad weakness across sector and themes |
@@ -329,12 +329,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 41, 'negative': 20, 'neutral': 19}
-- News confirmation score: `63.12`
+- Sentiment counts: {'positive': 37, 'negative': 22, 'neutral': 21}
+- News confirmation score: `59.38`
 
 ### Top Market-Moving Headlines
 
-**1. Tankers near Oman come under fire as Iran threatens to choke off shipping routes**
+**1. Embassies warn Americans of travel risk amid signs of possible U.S.-Iran military action in the coming days**
 - Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
