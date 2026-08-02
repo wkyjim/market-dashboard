@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2 August 2026, 11:15:25 (HKT)
+Generated at: 2 August 2026, 12:13:52 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.14 / 100** (Mild Risk-On)
+- Regime score: **57.23 / 100** (Mild Risk-On)
 - US equity strength: **59.0 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **49.17 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.14 | Mild Risk-On |
+| Overall regime | 57.23 | Mild Risk-On |
 | equity_trend | 66.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.4 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 54.29 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 56.03 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.45 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 60.0 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=80.0, equity_trend=66.25, news_confirmation=60.0 |
+| news_confirmation | 61.88 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=80.0, equity_trend=66.25, news_confirmation=61.88 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -251,7 +251,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 8 | Industrials | 55.65 | strong uptrend | neutral | broad | 50.0 | 0.0 | 48.93 | CTAS, HII, ALLE | GNRC, CHRW, LII |
 | 9 | Crypto | 51.08 | neutral | neutral | mixed | 60.83 | 65.0 | 50.0 |  |  |
 | 10 | Semiconductors | 46.57 | neutral | neutral | weak | 73.64 | 90.0 | 44.26 | SMH, SOXX | SOXX, SMH |
-| 11 | Technology | 45.59 | neutral | neutral | weak | 38.08 | 65.0 | 47.99 | CTSH, HPQ, ACN | INTC, GLW, SNDK |
+| 11 | Technology | 45.55 | neutral | neutral | weak | 38.08 | 65.0 | 47.99 | CTSH, HPQ, ACN | INTC, GLW, SNDK |
 | 12 | Defense | 44.13 | downtrend | neutral | weak | 50.0 | 0.0 | 45.31 | XAR | XAR |
 | 13 | Grid Infrastructure | 42.96 | downtrend | neutral | weak | 68.52 | 65.0 | 44.04 | GRID | GRID |
 | 14 | Nuclear | 34.67 | strong downtrend | negative | weak | 50.0 | 0.0 | 34.53 | NLR | NLR |
@@ -294,7 +294,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Industrials | Defense, Grid Infrastructure | 55.65 | positive | 48.44 | mixed | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 51.08 | mixed | 32.48 | very weak | mixed confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 46.57 | mixed | 50.68 | mixed | mixed confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 45.59 | mixed | 51.3 | mixed | mixed confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 45.55 | mixed | 51.3 | mixed | mixed confirmation |
 | Defense | Defense | 44.13 | weak | 50.36 | mixed | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 42.96 | weak | 46.52 | mixed | mixed confirmation |
 | Nuclear | Nuclear | 34.67 | very weak | 36.38 | weak | broad weakness across sector and themes |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 38, 'negative': 22, 'neutral': 20}
-- News confirmation score: `60.0`
+- Sentiment counts: {'positive': 41, 'negative': 22, 'neutral': 17}
+- News confirmation score: `61.88`
 
 ### Top Market-Moving Headlines
 
@@ -382,7 +382,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `22.76`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**7. Loyalists may miss the old Southwest Airlines. Wall Street loves the new one.**
+**7. Trump cancels planned Iran attack after framework for deal agreed**
+- Source: Investing.com Economic Indicators
+- Importance / impact: Low / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: geo-political
+- Score: `21.8`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**8. Loyalists may miss the old Southwest Airlines. Wall Street loves the new one.**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.62`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. OPEC+ may keep lifting its oil output quotas as the Iran war broadens. Why that won’t help lower prices.**
+**9. OPEC+ may keep lifting its oil output quotas as the Iran war broadens. Why that won’t help lower prices.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -398,19 +406,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.82`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. IRB Infrastructure Q1 FY27 slides: profit surges 51% on InvIT growth**
+**10. IRB Infrastructure Q1 FY27 slides: profit surges 51% on InvIT growth**
 - Source: Investing.com Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: IRB, profitability, real_estate
-- Score: `19.02`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. Seanergy Q2 2026 slides: record earnings fuel $591M fleet renewal**
-- Source: Investing.com Markets
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: SENG.AX, fleet renewal, earnings report
 - Score: `19.02`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
