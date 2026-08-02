@@ -1,8 +1,8 @@
 # Market Intelligence Report
 
-**Report Date:** 2026-08-02
+**Report Date:** 2026-08-03
 
-**Data Cutoff:** 2026-08-02 22:56 HKT (10:56 ET); US cash-market data through 2026-07-31
+**Data Cutoff:** 2026-08-03 06:00 HKT (2026-08-02 22:00 UTC); US cash-market data through 2026-07-31; primary dashboard generated 2026-08-02 15:24:47 HKT
 
 **Short-Term Horizon:** Next 1–3 months
 
@@ -183,23 +183,23 @@ Estimate revisions, valuation, official flows, ownership, insider, and options d
 
 ## Portfolio Heat Map
 
-Sector weights are **percentage-point active weights versus the S&P 500** and sum to zero in each horizon. Factor/style tilts are **relative exposure scores from -2 to +2** and are separate overlays, not additive portfolio weights. No prior CIO report is available; direction is “new.”
+Sector weights are **percentage-point active weights versus the S&P 500** and sum to zero in each horizon. Factor/style tilts are **relative exposure scores from -2 to +2** and are separate overlays, not additive portfolio weights. Relative to the 2026-08-02 report, all active sector tilts are unchanged because no new US cash session has occurred.
 
 ### Short-Term Portfolio: 1–3 Months
 
 | Sector | Stance | Active weight | Change | Conf. | Primary rationale |
 |---|---|---:|---|---:|---|
-| Energy | OW | +2.0pp | New | 7 | Oil/price/breadth confirmation |
-| Financials | OW | +1.5pp | New | 8 | Curve, lending, broad participation |
-| Health Care | OW | +1.5pp | New | 7 | Relative strength/defense, capped for crowding |
-| Staples | OW | +1.0pp | New | 7 | Confirmed accumulation and shock ballast |
-| Industrials | Neutral+ | +0.5pp | New | 6 | Capex exposure, weak tactical momentum |
-| Real Estate | Neutral | 0.0pp | New | 6 | Flow strength offset by rates |
-| Materials | Neutral | 0.0pp | New | 6 | Copper support, weak price/flows |
-| Discretionary | UW | -1.0pp | New | 7 | Consumer/oil/rate sensitivity |
-| Communication Services | UW | -1.5pp | New | 7 | Distribution and weak breadth |
-| Technology | UW | -2.0pp | New | 7 | Duration and tactical trend risk |
-| Utilities | Strong UW | -2.0pp | New | 8 | Broken breadth and yield sensitivity |
+| Energy | OW | +2.0pp | Unchanged | 7 | Oil/price/breadth confirmation |
+| Financials | OW | +1.5pp | Unchanged | 8 | Curve, lending, broad participation |
+| Health Care | OW | +1.5pp | Unchanged | 7 | Relative strength/defense, capped for crowding |
+| Staples | OW | +1.0pp | Unchanged | 7 | Confirmed accumulation and shock ballast |
+| Industrials | Neutral+ | +0.5pp | Unchanged | 6 | Capex exposure, weak tactical momentum |
+| Real Estate | Neutral | 0.0pp | Unchanged | 6 | Flow strength offset by rates |
+| Materials | Neutral | 0.0pp | Unchanged | 6 | Copper support, weak price/flows |
+| Discretionary | UW | -1.0pp | Unchanged | 7 | Consumer/oil/rate sensitivity |
+| Communication Services | UW | -1.5pp | Unchanged | 7 | Distribution and weak breadth |
+| Technology | UW | -2.0pp | Unchanged | 7 | Duration and tactical trend risk |
+| Utilities | Strong UW | -2.0pp | Unchanged | 8 | Broken breadth and yield sensitivity |
 
 | Factor/style | Exposure | Conf. | Rationale |
 |---|---:|---:|---|
@@ -216,17 +216,17 @@ Sector weights are **percentage-point active weights versus the S&P 500** and su
 
 | Sector | Stance | Active weight | Change | Conf. | Primary rationale |
 |---|---|---:|---|---:|---|
-| Financials | OW | +1.5pp | New | 7 | Curve, capital markets, valuation |
-| Industrials | OW | +1.5pp | New | 7 | AI/defense/grid/reshoring capex |
-| Technology | OW selective | +1.5pp | New | 6 | Profitable AI monetization |
-| Energy | OW | +1.0pp | New | 6 | Supply/fiscal inflation hedge |
-| Health Care | OW | +0.5pp | New | 6 | Innovation/M&A, margin normalization |
-| Materials | OW selective | +0.5pp | New | 6 | Infrastructure/copper torque |
-| Staples | UW | -1.0pp | New | 6 | Lower structural growth |
-| Communication Services | UW | -1.0pp | New | 6 | Concentration/earnings-quality risk |
-| Discretionary | UW | -1.5pp | New | 6 | Savings/funding sensitivity |
-| Real Estate | UW | -1.5pp | New | 7 | Structurally high long yields |
-| Utilities | UW | -1.5pp | New | 7 | Rate sensitivity despite demand growth |
+| Financials | OW | +1.5pp | Unchanged | 7 | Curve, capital markets, valuation |
+| Industrials | OW | +1.5pp | Unchanged | 7 | AI/defense/grid/reshoring capex |
+| Technology | OW selective | +1.5pp | Unchanged | 6 | Profitable AI monetization |
+| Energy | OW | +1.0pp | Unchanged | 6 | Supply/fiscal inflation hedge |
+| Health Care | OW | +0.5pp | Unchanged | 6 | Innovation/M&A, margin normalization |
+| Materials | OW selective | +0.5pp | Unchanged | 6 | Infrastructure/copper torque |
+| Staples | UW | -1.0pp | Unchanged | 6 | Lower structural growth |
+| Communication Services | UW | -1.0pp | Unchanged | 6 | Concentration/earnings-quality risk |
+| Discretionary | UW | -1.5pp | Unchanged | 6 | Savings/funding sensitivity |
+| Real Estate | UW | -1.5pp | Unchanged | 7 | Structurally high long yields |
+| Utilities | UW | -1.5pp | Unchanged | 7 | Rate sensitivity despite demand growth |
 
 | Factor/style | Exposure | Conf. | Rationale |
 |---|---:|---:|---|
@@ -318,8 +318,8 @@ Dates are US calendar dates; ET times are shown. Dates were verified against off
 | Source | Publication/data date | Subject | URL |
 |---|---|---|---|
 | Primary Market Dashboard | Generated 2026-08-02 15:24:47 HKT | Regime, price, breadth, sectors, flows, data quality | https://wkyjim.github.io/market-dashboard/data/latest-report.md |
-| US Equities API OpenAPI v1.1.0 | Retrieved 2026-08-02 | Schema, endpoints, field coverage | https://postgresql-us-equities-api.onrender.com/openapi.json |
-| US Equities API | Data through 2026-07-31; live rows 2026-08-02 | Equity/macro technicals and market tape | https://postgresql-us-equities-api.onrender.com/market-tape |
+| US Equities API OpenAPI v1.1.0 | Retrieved 2026-08-03 06:31 HKT | Schema, endpoints, field coverage | https://postgresql-us-equities-api.onrender.com/openapi.json |
+| US Equities API | US data through 2026-07-31; live crypto observed 2026-08-03 06:00 HKT | Equity/macro technicals and market tape | https://postgresql-us-equities-api.onrender.com/market-tape |
 | Federal Reserve | 2026-07-29 | FOMC decision and vote | https://www.federalreserve.gov/newsevents/pressreleases/monetary20260729a.htm |
 | Federal Reserve | 2026-06-17 | Summary of Economic Projections | https://www.federalreserve.gov/monetarypolicy/files/fomcprojtabl20260617.pdf |
 | BEA | 2026-07-30 | Q2 GDP advance estimate | https://www.bea.gov/news/2026/gdp-advance-estimate-2nd-quarter-2026 |
