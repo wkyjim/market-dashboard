@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2 August 2026, 13:11:55 (HKT)
+Generated at: 2 August 2026, 14:09:36 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -339,7 +339,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, geopolitical risk, oil markets
-- Score: `61.2`
+- Score: `52.02`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **2. Oil prices head for 20% monthly gains as Middle East conflict escalates and widens**
