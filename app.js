@@ -116,7 +116,7 @@ async function apiFetch(path) {
 function setApiStatus(ok, message) {
   const element = $("#api-status");
   element.className = `status ${ok ? "ok" : "error"}`;
-  element.innerHTML = `<i></i>${escapeHtml(message)}`;
+  element.innerHTML = `<i></i><b>LIVE DATA</b><small>${escapeHtml(message)}</small>`;
 }
 
 async function loadMacroTape() {
@@ -192,15 +192,31 @@ function metric(markdown, pattern, fallback = "--") {
   return markdown.match(pattern)?.[1] ?? fallback;
 }
 
+function firstReportBullet(markdown) {
+  const lines = markdown.split(/\r?\n/).map((line) => line.trim()).filter(Boolean);
+  const bullet = lines.find((line) => line.startsWith("- ") && !/Generated at:/i.test(line));
+  return bullet ? bullet.slice(2).replace(/\*\*/g, "") : "Latest rule-based report loaded. Review the market update for full evidence and risk notes.";
+}
+
 function parseReportMetrics(markdown) {
-  $("#regime-score").textContent = metric(markdown, /Regime score:\s+\*\*([\d.]+ \/ 100)\*\*/);
-  $("#regime-label").textContent = metric(markdown, /Regime score:.*?\(([^)]+)\)/);
+  const regimeScore = metric(markdown, /Regime score:\s+\*\*([\d.]+ \/ 100)\*\*/);
+  const regimeLabel = metric(markdown, /Regime score:.*?\(([^)]+)\)/);
+  $("#regime-score").textContent = regimeScore;
+  $("#regime-label").textContent = regimeLabel;
   $("#strength-score").textContent = metric(markdown, /(?:US equity strength|Market strength):\s+\*\*([\d.]+ \/ 100)\*\*/);
   $("#strength-label").textContent = metric(markdown, /(?:US equity strength|Market strength):.*?\(([^)]+)\)/);
   $("#evidence-score").textContent = metric(markdown, /Evidence quality:\s+\*\*([\d.]+ \/ 100)\*\*/);
-  $("#breadth-score").textContent = `${metric(markdown, /above 50DMA `([\d.]+)%`/)}%`;
+  const breadthAbove50 = metric(markdown, /above 50DMA [`\x27]?([\d.]+)%[`\x27]?/);
+  $("#breadth-score").textContent = `${breadthAbove50}%`;
   $("#breadth-label").textContent = metric(markdown, /Breadth:\s+\*\*([^*]+)\*\*/);
-  $("#report-time").textContent = metric(markdown, /Generated at:\s+([^\n]+)/, "Report timestamp unavailable");
+  const generatedAt = metric(markdown, /Generated at:\s+([^\n]+)/, "Report timestamp unavailable");
+  $("#report-time").textContent = generatedAt;
+  const heroRegime = $("#hero-regime");
+  const heroSummary = $("#hero-summary");
+  const reportCoverage = $("#report-coverage");
+  if (heroRegime) heroRegime.textContent = `${regimeLabel} - ${regimeScore}`;
+  if (heroSummary) heroSummary.textContent = firstReportBullet(markdown);
+  if (reportCoverage) reportCoverage.textContent = `Latest report - ${generatedAt}`;
 }
 
 async function loadReport() {
@@ -389,17 +405,18 @@ async function refreshDashboard() {
   setApiStatus(false, "Connecting");
   const outcomes = await Promise.allSettled([loadMacroTape(), loadReport(), loadChart()]);
   if (outcomes[0].status === "rejected") {
-    setApiStatus(false, "API Unavailable");
+    setApiStatus(false, "Unavailable");
     const macroTape = $("#macro-tape");
-    if (macroTape) macroTape.textContent = outcomes[0].reason.message;
+    if (macroTape) macroTape.innerHTML = `<div class="empty-state">API unavailable. Retry after the market data service recovers.<br>${escapeHtml(outcomes[0].reason.message)}</div>`;
   }
   if (outcomes[1].status === "rejected") {
     const reportContent = $("#report-content");
-    if (reportContent) reportContent.textContent = outcomes[1].reason.message;
+    if (reportContent) reportContent.innerHTML = `<div class="empty-state">Market report unavailable.<br>${escapeHtml(outcomes[1].reason.message)}</div>`;
   }
 }
 
 $("#refresh").addEventListener("click", refreshDashboard);
+$("#hero-refresh")?.addEventListener("click", refreshDashboard);
 $("#chart-asset").addEventListener("change", () => {
   updateChartSymbols();
   loadChart();
@@ -413,11 +430,19 @@ $("#toggle-report").addEventListener("click", () => {
   content.classList.toggle("expanded");
   $("#toggle-report").textContent = content.classList.contains("expanded") ? "Collapse report" : "Expand report";
 });
-document.querySelectorAll(".sidebar a").forEach((link) => link.addEventListener("click", () => {
-  document.querySelectorAll(".sidebar a").forEach((item) => item.classList.remove("active"));
-  link.classList.add("active");
+function syncActiveNav() {
+  const hash = window.location.hash || "#overview";
+  document.querySelectorAll(".sidebar a, .topnav a").forEach((item) => {
+    item.classList.toggle("active", item.getAttribute("href") === hash);
+  });
+}
+
+document.querySelectorAll(".sidebar a, .topnav a").forEach((link) => link.addEventListener("click", () => {
+  window.setTimeout(syncActiveNav, 0);
 }));
+window.addEventListener("hashchange", syncActiveNav);
 
 updateQueryControls();
 updateChartSymbols();
 refreshDashboard();
+syncActiveNav();

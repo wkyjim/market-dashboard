@@ -3,63 +3,90 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Institutional market intelligence dashboard powered by deterministic analytics and Neon market data.">
-  <title>Market Intelligence Dashboard</title>
+  <meta name="description" content="Market Intelligence is an institutional dashboard for deterministic market analytics, macro tape, rule-based reports and Neon market data.">
+  <meta name="theme-color" content="#06101d">
+  <meta property="og:title" content="Market Intelligence Dashboard">
+  <meta property="og:description" content="See clearly. Decide precisely. Act with discipline.">
+  <meta property="og:image" content="assets/images/aegis/aegis-hero.png">
+  <title>Market Intelligence | Aegis Dashboard</title>
+  <link rel="icon" href="assets/images/aegis/aegis-avatar.png">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=20260722-1">
+  <link rel="preload" as="image" href="assets/images/aegis/aegis-hero.png">
+  <link rel="stylesheet" href="styles.css?v=20260802-aegis-1">
 </head>
 <body>
+  <a class="skip-link" href="#overview">Skip to dashboard</a>
   <header class="topbar">
     <a class="brand" href="#overview" aria-label="Market Intelligence home">
-      <span class="brand-mark">MI</span>
+      <img src="assets/images/aegis/aegis-avatar.png" alt="" class="brand-avatar" width="1254" height="1254" aria-hidden="true">
       <span><strong>Market Intelligence</strong><small>Institutional Analytics</small></span>
     </a>
-    <div class="topbar-meta">
-      <span id="api-status" class="status"><i></i> Connecting</span>
-      <span id="as-of">As of unavailable</span>
-      <button id="refresh" class="icon-button" title="Refresh dashboard" aria-label="Refresh dashboard">↻</button>
+    <nav class="topnav" aria-label="Primary navigation">
+      <a class="active" href="#overview">Overview</a>
+      <a href="#cross-asset">Cross Asset</a>
+      <a href="#report">Market Update</a>
+      <a href="#explorer">Data Explorer</a>
+    </nav>
+    <div class="topbar-meta" aria-label="Data status">
+      <span id="api-status" class="status"><i></i><b>LIVE DATA</b><small>Connecting</small></span>
+      <span id="as-of" class="as-of">As of unavailable</span>
+      <button id="refresh" class="icon-button" title="Refresh dashboard" aria-label="Refresh dashboard">Refresh</button>
     </div>
   </header>
 
   <div class="shell">
-    <nav class="sidebar" aria-label="Primary navigation">
+    <nav class="sidebar" aria-label="Section navigation">
       <a class="active" href="#overview">Overview</a>
       <a href="#cross-asset">Cross Asset</a>
       <a href="#report">Market Update</a>
       <a href="#explorer">Data Explorer</a>
       <div class="sidebar-foot">
-        <span>MODEL</span>
-        <strong>Rules-Based</strong>
-        <small>No discretionary scoring</small>
+        <img src="assets/images/aegis/aegis-avatar.png" alt="" width="1254" height="1254" loading="lazy" aria-hidden="true">
+        <span>AEGIS</span>
+        <strong>Rules-Based Sentinel</strong>
+        <small>Signal before narrative</small>
       </div>
     </nav>
 
     <main>
-      <section id="overview" class="section">
-        <div class="section-heading">
-          <div>
-            <p class="eyebrow">Executive Dashboard</p>
+      <section id="overview" class="section overview-section">
+        <div class="hero-panel">
+          <div class="hero-copy">
+            <p class="eyebrow">Market Intelligence</p>
             <h1>Daily Market State</h1>
+            <p class="hero-message">See clearly. Decide precisely. Act with discipline.</p>
+            <p id="hero-summary" class="hero-summary">Aegis is retrieving the latest market state.</p>
+            <div class="hero-meta" aria-label="Latest report state">
+              <span id="hero-regime">Regime unavailable</span>
+              <span id="report-time">Report loading</span>
+            </div>
+            <div class="hero-actions">
+              <a class="button primary" href="#report">View Full Report</a>
+              <button id="hero-refresh" class="button secondary" type="button">Refresh Data</button>
+            </div>
           </div>
-          <span class="report-time" id="report-time">Report loading</span>
+          <picture class="hero-media">
+            <source media="(max-width: 768px)" srcset="assets/images/aegis/aegis-hero-mobile.png">
+            <img src="assets/images/aegis/aegis-hero.png" alt="Aegis, the Market Intelligence Sentinel" width="1672" height="941">
+          </picture>
         </div>
 
-        <div class="metric-grid">
-          <article class="metric"><span>Regime Score</span><strong id="regime-score">--</strong><em id="regime-label">Unavailable</em></article>
-          <article class="metric"><span>US Equity Strength</span><strong id="strength-score">--</strong><em id="strength-label">Unavailable</em></article>
-          <article class="metric"><span>Evidence Quality</span><strong id="evidence-score">--</strong><em>Signal confidence</em></article>
-          <article class="metric"><span>Market Breadth</span><strong id="breadth-score">--</strong><em id="breadth-label">Unavailable</em></article>
+        <div class="metric-grid" aria-label="Executive Dashboard metrics">
+          <article class="metric"><span>Regime Score</span><strong id="regime-score">--</strong><em id="regime-label">Data unavailable</em><small>Awaiting next successful update</small></article>
+          <article class="metric"><span>US Equity Strength</span><strong id="strength-score">--</strong><em id="strength-label">Data unavailable</em><small>Equity tape strength</small></article>
+          <article class="metric"><span>Evidence Quality</span><strong id="evidence-score">--</strong><em>Signal confidence</em><small>Model agreement and freshness</small></article>
+          <article class="metric"><span>Market Breadth</span><strong id="breadth-score">--</strong><em id="breadth-label">Data unavailable</em><small>Participation quality</small></article>
         </div>
 
         <div class="panel-grid">
-          <article class="panel wide">
+          <article class="panel wide macro-panel">
             <div class="panel-heading">
               <div><p class="eyebrow">Live / Latest Close</p><h2>Macro Tape</h2></div>
-              <span class="legend"><i class="live-dot"></i> Live snapshots automatically supersede close</span>
+              <span class="legend"><i class="live-dot"></i>Live snapshots supersede latest close when available</span>
             </div>
-            <div id="macro-tape" class="tape-grid loading-block">Loading market data...</div>
+            <div id="macro-tape" class="tape-grid loading-block"><div class="skeleton">Aegis is retrieving the latest market state.</div></div>
           </article>
         </div>
       </section>
@@ -67,18 +94,15 @@
       <section id="cross-asset" class="section">
         <div class="section-heading">
           <div><p class="eyebrow">Cross-Asset Monitor</p><h2>Price History</h2></div>
-          <div class="inline-controls">
-            <select id="chart-asset" aria-label="Chart asset type">
-              <option value="macro">Macro</option>
-              <option value="equities">Equity / ETF</option>
-            </select>
-            <input id="chart-symbol" list="chart-symbol-options" value="^GSPC" aria-label="Chart symbol" autocomplete="off">
+          <div class="inline-controls" role="group" aria-label="Price history controls">
+            <label>Asset class<select id="chart-asset" aria-label="Chart asset type"><option value="macro">Macro</option><option value="equities">Equity / ETF</option></select></label>
+            <label>Symbol<input id="chart-symbol" list="chart-symbol-options" value="^GSPC" aria-label="Chart symbol" autocomplete="off"></label>
             <datalist id="chart-symbol-options"></datalist>
-            <button id="load-chart" class="button secondary">Load</button>
+            <button id="load-chart" class="button secondary" type="button">Load Chart</button>
           </div>
         </div>
         <article class="panel chart-panel">
-          <div id="chart-summary" class="chart-summary"></div>
+          <div id="chart-summary" class="chart-summary">Select a symbol to inspect OHLCV history.</div>
           <svg id="history-chart" viewBox="0 0 1000 360" role="img" aria-label="Historical OHLCV chart"></svg>
         </article>
       </section>
@@ -86,10 +110,11 @@
       <section id="report" class="section">
         <div class="section-heading">
           <div><p class="eyebrow">Deterministic Research</p><h2>Latest Rule-Based Market Update</h2></div>
-          <button id="toggle-report" class="button secondary">Expand report</button>
+          <button id="toggle-report" class="button secondary" type="button">Expand report</button>
         </div>
         <article class="panel report-panel">
-          <div id="report-content" class="report-content loading-block">Loading latest report...</div>
+          <div class="report-toolbar"><span id="report-coverage">Coverage loading</span><a href="data/latest-report.md" class="button ghost">Open Markdown</a></div>
+          <div id="report-content" class="report-content loading-block"><div class="skeleton">Aegis is retrieving the latest market state.</div></div>
         </article>
       </section>
 
@@ -100,29 +125,11 @@
         </div>
         <article class="panel explorer">
           <form id="data-form" class="query-form">
-            <label>Asset class
-              <select id="asset-type">
-                <option value="macro">Macro</option>
-                <option value="equities">Equity / ETF</option>
-              </select>
-            </label>
-            <label>Symbol
-              <input id="symbol" value="^GSPC" required autocomplete="off">
-            </label>
-            <label>Query
-              <select id="query-mode">
-                <option value="latest">Latest available</option>
-                <option value="live">Live only</option>
-                <option value="date">Custom date</option>
-                <option value="history">History</option>
-              </select>
-            </label>
-            <label id="date-field">Date
-              <input id="query-date" type="date">
-            </label>
-            <label id="limit-field">Rows
-              <input id="query-limit" type="number" min="1" max="2000" value="30">
-            </label>
+            <label>Asset class<select id="asset-type"><option value="macro">Macro</option><option value="equities">Equity / ETF</option></select></label>
+            <label>Symbol<input id="symbol" value="^GSPC" required autocomplete="off"></label>
+            <label>Query<select id="query-mode"><option value="latest">Latest available</option><option value="live">Live only</option><option value="date">Custom date</option><option value="history">History</option></select></label>
+            <label id="date-field">Date<input id="query-date" type="date"></label>
+            <label id="limit-field">Rows<input id="query-limit" type="number" min="1" max="2000" value="30"></label>
             <button class="button primary" type="submit">Run query</button>
           </form>
           <div class="query-meta"><span id="query-status">Ready</span><code id="query-endpoint"></code></div>
@@ -135,6 +142,6 @@
   </div>
 
   <footer>Data is informational and generated by deterministic rules. It is not investment advice.</footer>
-  <script src="app.js?v=20260726-1"></script>
+  <script src="app.js?v=20260802-aegis-1"></script>
 </body>
 </html>
