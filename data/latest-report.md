@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 August 2026, 18:06:03 (HKT)
+Generated at: 3 August 2026, 18:11:27 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.71 / 100** (Mild Risk-On)
+- Regime score: **57.65 / 100** (Mild Risk-On)
 - US equity strength: **59.0 / 100** (neutral)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **49.75 / 100**, reliability **71.05 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.71 | Mild Risk-On |
+| Overall regime | 57.65 | Mild Risk-On |
 | equity_trend | 66.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.4 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 54.29 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.03 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 57.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.82 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 65.62 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0, equity_trend=66.25, news_confirmation=65.62 |
+| news_confirmation | 64.38 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=70.0, equity_trend=66.25, news_confirmation=64.38 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -250,7 +250,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 7 | Consumer Discretionary | 59.73 | uptrend | neutral | broad | 53.8 | 65.0 | 47.33 | GRMN, ROST, HAS | CVNA, DHI, TSLA |
 | 8 | Industrials | 55.66 | strong uptrend | neutral | broad | 50.19 | 65.0 | 48.93 | CTAS, HII, ALLE | GNRC, CHRW, LII |
 | 9 | Crypto | 51.08 | neutral | neutral | mixed | 60.83 | 65.0 | 50.0 |  |  |
-| 10 | Technology | 46.83 | neutral | neutral | weak | 51.81 | 95.0 | 47.99 | CTSH, HPQ, ACN | INTC, GLW, SNDK |
+| 10 | Technology | 46.81 | neutral | neutral | weak | 51.81 | 95.0 | 47.99 | CTSH, HPQ, ACN | INTC, GLW, SNDK |
 | 11 | Semiconductors | 46.57 | neutral | neutral | weak | 73.64 | 90.0 | 44.26 | SMH, SOXX | SOXX, SMH |
 | 12 | Defense | 43.9 | downtrend | neutral | weak | 47.75 | 65.0 | 45.31 | XAR | XAR |
 | 13 | Grid Infrastructure | 42.96 | downtrend | neutral | weak | 68.52 | 65.0 | 44.04 | GRID | GRID |
@@ -293,7 +293,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Consumer Discretionary | Small Caps | 59.73 | positive | 46.4 | mixed | sector stronger than related themes |
 | Industrials | Defense, Grid Infrastructure | 55.66 | positive | 48.33 | mixed | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 51.08 | mixed | 32.48 | very weak | mixed confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 46.83 | mixed | 51.3 | mixed | mixed confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 46.81 | mixed | 51.3 | mixed | mixed confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 46.57 | mixed | 50.68 | mixed | mixed confirmation |
 | Defense | Defense | 43.9 | weak | 50.14 | mixed | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 42.96 | weak | 46.52 | mixed | mixed confirmation |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 48, 'negative': 23, 'neutral': 9}
-- News confirmation score: `65.62`
+- Sentiment counts: {'positive': 47, 'negative': 24, 'neutral': 9}
+- News confirmation score: `64.38`
 
 ### Top Market-Moving Headlines
 
@@ -382,7 +382,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `44.2`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. S&P 500 profit growth is getting even wilder as Amazon makes its mark**
+**7. Warsh tightened more by pausing than by lifting rates, this bond-market veteran argues. Here’s the math.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Federal Reserve, interest rates
+- Score: `36.0`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. S&P 500 profit growth is getting even wilder as Amazon makes its mark**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. OPEC, Allies Increase Oil Output for Sixth Time in a Row**
+**9. OPEC, Allies Increase Oil Output for Sixth Time in a Row**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -398,19 +406,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.15`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. WestJet flight attendants go on strike after talks fall through, grounding flights**
+**10. WestJet flight attendants go on strike after talks fall through, grounding flights**
 - Source: CNBC Top News
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: WEST, Labor Issues, Transportation
-- Score: `31.49`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**10. Op-ed: The U.S. lead over China in AI is all but gone. We need a change in national strategy**
-- Source: CNBC Markets
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / medium
-- Affected assets: U.S., U.S, AI, China, US
 - Score: `31.49`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
