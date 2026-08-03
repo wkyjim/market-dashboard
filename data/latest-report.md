@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 August 2026, 12:09:15 (HKT)
+Generated at: 3 August 2026, 12:11:22 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -251,7 +251,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 8 | Industrials | 55.65 | strong uptrend | neutral | broad | 50.0 | 0.0 | 48.93 | CTAS, HII, ALLE | GNRC, CHRW, LII |
 | 9 | Crypto | 51.08 | neutral | neutral | mixed | 60.83 | 65.0 | 50.0 |  |  |
 | 10 | Semiconductors | 46.57 | neutral | neutral | weak | 73.64 | 90.0 | 44.26 | SMH, SOXX | SOXX, SMH |
-| 11 | Technology | 45.41 | neutral | neutral | weak | 38.08 | 65.0 | 47.99 | CTSH, HPQ, ACN | INTC, GLW, SNDK |
+| 11 | Technology | 45.45 | neutral | neutral | weak | 38.08 | 65.0 | 47.99 | CTSH, HPQ, ACN | INTC, GLW, SNDK |
 | 12 | Defense | 44.13 | downtrend | neutral | weak | 50.0 | 0.0 | 45.31 | XAR | XAR |
 | 13 | Grid Infrastructure | 42.96 | downtrend | neutral | weak | 68.52 | 65.0 | 44.04 | GRID | GRID |
 | 14 | Nuclear | 34.67 | strong downtrend | negative | weak | 50.0 | 0.0 | 34.53 | NLR | NLR |
@@ -294,7 +294,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Industrials | Defense, Grid Infrastructure | 55.65 | positive | 48.44 | mixed | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 51.08 | mixed | 32.48 | very weak | mixed confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 46.57 | mixed | 50.68 | mixed | mixed confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 45.41 | mixed | 51.3 | mixed | mixed confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 45.45 | mixed | 51.3 | mixed | mixed confirmation |
 | Defense | Defense | 44.13 | weak | 50.36 | mixed | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 42.96 | weak | 46.52 | mixed | mixed confirmation |
 | Nuclear | Nuclear | 34.67 | very weak | 36.38 | weak | broad weakness across sector and themes |
