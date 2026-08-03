@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 August 2026, 21:06:44 (HKT)
+Generated at: 3 August 2026, 21:11:35 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -250,9 +250,9 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 7 | Consumer Discretionary | 59.73 | uptrend | neutral | broad | 53.8 | 65.0 | 47.33 | GRMN, ROST, HAS | CVNA, DHI, TSLA |
 | 8 | Industrials | 55.66 | strong uptrend | neutral | broad | 50.19 | 65.0 | 48.93 | CTAS, HII, ALLE | GNRC, CHRW, LII |
 | 9 | Crypto | 51.08 | neutral | neutral | mixed | 60.83 | 65.0 | 50.0 |  |  |
-| 10 | Technology | 46.81 | neutral | neutral | weak | 51.81 | 95.0 | 47.99 | CTSH, HPQ, ACN | INTC, GLW, SNDK |
+| 10 | Technology | 46.95 | neutral | neutral | weak | 51.81 | 95.0 | 47.99 | CTSH, HPQ, ACN | INTC, GLW, SNDK |
 | 11 | Semiconductors | 46.57 | neutral | neutral | weak | 73.64 | 90.0 | 44.26 | SMH, SOXX | SOXX, SMH |
-| 12 | Defense | 43.9 | downtrend | neutral | weak | 47.75 | 65.0 | 45.31 | XAR | XAR |
+| 12 | Defense | 44.29 | downtrend | neutral | weak | 47.75 | 65.0 | 45.31 | XAR | XAR |
 | 13 | Grid Infrastructure | 42.96 | downtrend | neutral | weak | 68.52 | 65.0 | 44.04 | GRID | GRID |
 | 14 | Utilities | 34.89 | strong downtrend | neutral | weak | 58.86 | 65.0 | 43.87 | CEG, PCG, AES | DTE, WEC, LNT |
 | 15 | Nuclear | 34.67 | strong downtrend | negative | weak | 50.0 | 0.0 | 34.53 | NLR | NLR |
@@ -268,7 +268,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 5 | AI Infrastructure | 52.95 | Neutral / watchlist | 73.64 | 90.0 | 29.86 | False | False |
 | 6 | Quality Growth | 52.53 | Neutral / watchlist | 65.28 | 65.0 | 22.46 | False | False |
 | 7 | Dividend Defensives | 51.65 | Neutral / watchlist | 61.06 | 65.0 | 3.15 | False | False |
-| 8 | Defense | 50.14 | Neutral / watchlist | 47.75 | 65.0 | 29.77 | False | False |
+| 8 | Defense | 51.12 | Neutral / watchlist | 47.75 | 65.0 | 29.77 | False | False |
 | 9 | Semiconductors | 48.41 | Neutral / watchlist | 73.64 | 90.0 | 18.85 | False | False |
 | 10 | Grid Infrastructure | 46.52 | Neutral / watchlist | 68.52 | 65.0 | 8.47 | False | False |
 | 11 | Small Caps | 46.4 | Neutral / watchlist | 49.38 | 65.0 | 0.0 | False | False |
@@ -291,11 +291,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 63.79 | positive | 56.13 | positive | sector and theme confirmation |
 | Energy | Energy | 60.28 | positive | 59.77 | positive | sector and theme confirmation |
 | Consumer Discretionary | Small Caps | 59.73 | positive | 46.4 | mixed | sector stronger than related themes |
-| Industrials | Defense, Grid Infrastructure | 55.66 | positive | 48.33 | mixed | sector stronger than related themes |
+| Industrials | Defense, Grid Infrastructure | 55.66 | positive | 48.82 | mixed | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 51.08 | mixed | 32.48 | very weak | mixed confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 46.81 | mixed | 51.3 | mixed | mixed confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 46.95 | mixed | 51.3 | mixed | mixed confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 46.57 | mixed | 50.68 | mixed | mixed confirmation |
-| Defense | Defense | 43.9 | weak | 50.14 | mixed | mixed confirmation |
+| Defense | Defense | 44.29 | weak | 51.12 | mixed | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 42.96 | weak | 46.52 | mixed | mixed confirmation |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 34.89 | very weak | 44.85 | weak | broad weakness across sector and themes |
 | Nuclear | Nuclear | 34.67 | very weak | 36.38 | weak | broad weakness across sector and themes |
@@ -311,8 +311,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 5 | Quality Growth | 55.66 | Neutral / watchlist | trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 6 | Dividend Defensives | 55.38 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 7 | AI Infrastructure | 55.09 | Neutral / watchlist | trend_persistence, breadth, volume_accumulation | relative strength below SPY, breadth below 45%, news turns negative |
-| 8 | Defense | 52.28 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
-| 9 | Small Caps | 52.09 | Neutral / watchlist | volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 8 | Small Caps | 52.09 | Neutral / watchlist | volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 9 | Defense | 50.28 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
 | 10 | Semiconductors | 49.78 | Neutral / watchlist |  | relative strength below SPY, breadth below 45%, news turns negative |
 | 11 | Grid Infrastructure | 48.05 | Neutral / watchlist | volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 12 | Nuclear | 33.44 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
@@ -358,7 +358,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `44.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. 'Winter is coming': Ukraine fears its toughest test since Russia's full-scale invasion**
+**4. Northrop Grumman Enters $3 Billion Contracts to Increase Missile Defense Production**
+- Source: Dow Jones Politics
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: NOC, defense, missile defense
+- Score: `39.78`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**5. 'Winter is coming': Ukraine fears its toughest test since Russia's full-scale invasion**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.02`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**5. An AstraZeneca, Bristol Myers Squibb merger could create a cancer-drug giant, but analysts call it ‘odd’**
+**6. An AstraZeneca, Bristol Myers Squibb merger could create a cancer-drug giant, but analysts call it ‘odd’**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.67`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**6. Warsh tightened more by pausing than by lifting rates, this bond-market veteran argues. Here’s the math.**
+**7. Warsh tightened more by pausing than by lifting rates, this bond-market veteran argues. Here’s the math.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Mixed
 - Relevance / horizon: macro / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. U.S., Japan confirm coordinated yen intervention, signal readiness for more**
+**8. U.S., Japan confirm coordinated yen intervention, signal readiness for more**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. S&P 500 profit growth is getting even wilder as Amazon makes its mark**
+**9. S&P 500 profit growth is getting even wilder as Amazon makes its mark**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -398,20 +406,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. WestJet flight attendants go on strike after talks fall through, grounding flights**
-- Source: CNBC Top News
+**10. EchoStar’s Hughes Network Files for Bankruptcy as $1.5B Debt Comes Due**
+- Source: Dow Jones US Business
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
-- Affected assets: WEST, Labor Issues, Transportation
-- Score: `31.49`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**10. Op-ed: The U.S. lead over China in AI is all but gone. We need a change in national strategy**
-- Source: CNBC Markets
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / medium
-- Affected assets: U.S., U.S, AI, China, US
-- Score: `31.49`
+- Affected assets: ECH, bankruptcy, debt
+- Score: `32.91`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
