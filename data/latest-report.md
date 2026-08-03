@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 August 2026, 16:05:06 (HKT)
+Generated at: 3 August 2026, 17:02:26 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.68 / 100** (Mild Risk-On)
+- Regime score: **57.73 / 100** (Mild Risk-On)
 - US equity strength: **59.0 / 100** (neutral)
-- Evidence quality: **83.0 / 100**
+- Evidence quality: **79.5 / 100**
 - ETF flow contribution: **49.75 / 100**, reliability **71.05 / 100**
 - Breadth: **narrow**; above 50DMA `50.0%`, above 200DMA `72.88%`
 - Top sector score: **Consumer Staples** `65.82`
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.68 | Mild Risk-On |
+| Overall regime | 57.73 | Mild Risk-On |
 | equity_trend | 66.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.4 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 54.29 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.01 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.88 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 57.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.82 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 65.0 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0, equity_trend=66.25, news_confirmation=65.0 |
+| news_confirmation | 66.25 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=70.0, equity_trend=66.25, news_confirmation=66.25 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `83.0`
-- Agreement ratio: `0.6`
+- Confidence score: `79.5`
+- Agreement ratio: `0.5`
 - Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
@@ -76,17 +76,17 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7489.72 | 0.7 | 2026-07-31 | closed |
 | ^IXIC | NASDAQ Composite | 25373.85 | 1.0 | 2026-07-31 | closed |
 | ^RUT | Russell 2000 Index | 2931.34 | -0.5 | 2026-07-31 | closed |
-| ^VIX | CBOE Volatility Index | 16.12 | 0.81 | 2026-08-03 | live as of 3 August 2026, 16:00:44 (HKT) |
+| ^VIX | CBOE Volatility Index | 16.1 | 0.69 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
 | ^SKEW | CBOE SKEW Index | 141.23 | 0.95 | 2026-07-31 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.25 | -0.91 | 2026-08-03 | live as of 3 August 2026, 16:00:44 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.31 | -1.07 | 2026-08-03 | live as of 3 August 2026, 16:00:44 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.4 | -1.28 | 2026-08-03 | live as of 3 August 2026, 16:00:44 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.54 | -1.33 | 2026-08-03 | live as of 3 August 2026, 16:00:44 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.69 | -1.24 | 2026-08-03 | live as of 3 August 2026, 16:00:44 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.24 | -1.0 | 2026-08-03 | live as of 3 August 2026, 16:00:44 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.23 | -0.88 | 2026-08-03 | live as of 3 August 2026, 16:00:44 (HKT) |
-| HK50 | Hang Seng Futures | 26015.5 | 0.34 | 2026-08-03 | live as of 3 August 2026, 16:00:44 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.25 | -0.86 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.31 | -0.98 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.41 | -1.2 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.54 | -1.24 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.69 | -1.12 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.25 | -0.9 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.23 | -0.82 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
+| HK50 | Hang Seng Futures | 25998.0 | 0.27 | 2026-08-03 | closed |
 | KOR200c1 | KOSPI 200 Futures | 978.4 | -5.07 | 2026-07-31 | closed |
 | CIHc1 | SSE 50 Futures | 2914.2 | 0.38 | 2026-07-31 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.48 | 0.01 | 2026-07-31 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 82.25 | -0.66 | 2026-07-31 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 92.95 | -0.28 | 2026-07-31 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 82.0 | -0.01 | 2026-07-31 | closed |
-| GC=F | Gold Future | 4115.4 | 1.64 | 2026-08-03 | live as of 3 August 2026, 16:00:44 (HKT) |
-| SI=F | Silver Future | 58.42 | 1.45 | 2026-08-03 | live as of 3 August 2026, 16:00:44 (HKT) |
-| CL=F | WTI Crude Oil Future | 79.54 | -6.06 | 2026-08-03 | live as of 3 August 2026, 16:00:44 (HKT) |
-| HG=F | Copper Future | 6.56 | 2.0 | 2026-08-03 | live as of 3 August 2026, 16:00:44 (HKT) |
+| GC=F | Gold Future | 4114.5 | 1.62 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
+| SI=F | Silver Future | 58.52 | 1.62 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
+| CL=F | WTI Crude Oil Future | 80.62 | -4.78 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
+| HG=F | Copper Future | 6.54 | 1.62 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,12 +325,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=16.12 pct_chg=0.81
+- VIX close=16.1 pct_chg=0.69
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 46, 'negative': 22, 'neutral': 12}
-- News confirmation score: `65.0`
+- Sentiment counts: {'positive': 47, 'negative': 21, 'neutral': 12}
+- News confirmation score: `66.25`
 
 ### Top Market-Moving Headlines
 
@@ -382,15 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `44.2`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Bomb carried by woman kills three, injures 21 near Moscow restaurant, authorities say**
-- Source: CNBC Top News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: security
-- Score: `40.84`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**8. U.S., Japan confirm coordinated yen intervention, signal readiness for more**
+**7. U.S., Japan confirm coordinated yen intervention, signal readiness for more**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. S&P 500 profit growth is getting even wilder as Amazon makes its mark**
+**8. S&P 500 profit growth is getting even wilder as Amazon makes its mark**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. OPEC, Allies Increase Oil Output for Sixth Time in a Row**
+**9. OPEC, Allies Increase Oil Output for Sixth Time in a Row**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: OPEC, oil production
 - Score: `33.15`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. WestJet flight attendants go on strike after talks fall through, grounding flights**
+- Source: CNBC Top News
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: WEST, Labor Issues, Transportation
+- Score: `31.49`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
@@ -507,7 +507,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `25`
+- Live macro rows used: `23`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
