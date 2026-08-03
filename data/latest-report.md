@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 August 2026, 11:09:24 (HKT)
+Generated at: 3 August 2026, 12:09:15 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.99 | -6.44 | 2026-07-31 | closed |
 | ^SKEW | CBOE SKEW Index | 141.23 | 0.95 | 2026-07-31 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.25 | -1.06 | 2026-08-03 | live as of 3 August 2026, 11:00:36 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.3 | -1.23 | 2026-08-03 | live as of 3 August 2026, 11:00:36 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.4 | -1.28 | 2026-08-03 | live as of 3 August 2026, 11:00:36 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.54 | -1.24 | 2026-08-03 | live as of 3 August 2026, 11:00:36 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.7 | -1.03 | 2026-08-03 | live as of 3 August 2026, 11:00:36 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.25 | -0.82 | 2026-08-03 | live as of 3 August 2026, 11:00:36 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.24 | -0.7 | 2026-08-03 | live as of 3 August 2026, 11:00:36 (HKT) |
-| HK50 | Hang Seng Futures | 25972.5 | 0.17 | 2026-08-03 | live as of 3 August 2026, 11:00:36 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.25 | -0.96 | 2026-08-03 | live as of 3 August 2026, 12:00:37 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.31 | -1.13 | 2026-08-03 | live as of 3 August 2026, 12:00:37 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.41 | -1.2 | 2026-08-03 | live as of 3 August 2026, 12:00:37 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.55 | -1.13 | 2026-08-03 | live as of 3 August 2026, 12:00:37 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.7 | -1.01 | 2026-08-03 | live as of 3 August 2026, 12:00:37 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.26 | -0.75 | 2026-08-03 | live as of 3 August 2026, 12:00:37 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.24 | -0.64 | 2026-08-03 | live as of 3 August 2026, 12:00:37 (HKT) |
+| HK50 | Hang Seng Futures | 25911.5 | -0.06 | 2026-08-03 | live as of 3 August 2026, 12:00:37 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 978.4 | -5.07 | 2026-07-31 | closed |
 | CIHc1 | SSE 50 Futures | 2914.2 | 0.38 | 2026-07-31 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.48 | 0.01 | 2026-07-31 | closed |
@@ -329,12 +329,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 41, 'negative': 23, 'neutral': 16}
+- Sentiment counts: {'positive': 42, 'negative': 24, 'neutral': 14}
 - News confirmation score: `61.25`
 
 ### Top Market-Moving Headlines
 
-**1. Oil drops over 4% after Trump calls off planned strike on Iran**
+**1. Oil drops over 4% as Middle East tensions ebb on diplomatic efforts**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -342,7 +342,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `72.67`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Financial stocks are crushing it. These charts show why the ‘breakout’ rally may have just begun.**
+**2. CNBC Daily Open: Markets exhale as Trump steps back, OPEC+ steps up**
+- Source: CNBC Technology
+- Importance / impact: High / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: OPEC, CNBC, politics, oil_market, geopolitical_risk
+- Score: `54.0`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Financial stocks are crushing it. These charts show why the ‘breakout’ rally may have just begun.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -350,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**3. Investors scored on Iran war's oil market boom. Staying long the trade will get trickier**
+**4. Investors scored on Iran war's oil market boom. Staying long the trade will get trickier**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -358,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Investors are rotating into financial stocks. The Fed’s next move could determine how far the rally runs.**
+**5. Investors are rotating into financial stocks. The Fed’s next move could determine how far the rally runs.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `44.2`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Bomb carried by woman kills three, injures 21 near Moscow restaurant, authorities say**
+**6. Bomb carried by woman kills three, injures 21 near Moscow restaurant, authorities say**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.84`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**6. WestJet flight attendants go on strike after talks fall through, grounding flights**
+**7. WestJet flight attendants go on strike after talks fall through, grounding flights**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.05`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**7. U.S., Japan confirm coordinated yen intervention, signal readiness for more**
+**8. U.S., Japan confirm coordinated yen intervention, signal readiness for more**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. S&P 500 profit growth is getting even wilder as Amazon makes its mark**
+**9. S&P 500 profit growth is getting even wilder as Amazon makes its mark**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -398,21 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. OPEC, Allies Increase Oil Output for Sixth Time in a Row**
+**10. OPEC, Allies Increase Oil Output for Sixth Time in a Row**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: OPEC, oil production
 - Score: `33.15`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Op-ed: The U.S. lead over China in AI is all but gone. We need a change in national strategy**
-- Source: CNBC Markets
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / medium
-- Affected assets: U.S., U.S, AI, China, US
-- Score: `31.49`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
