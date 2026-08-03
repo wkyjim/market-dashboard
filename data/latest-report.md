@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2 August 2026, 15:24:47 (HKT)
+Generated at: 3 August 2026, 10:21:32 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.14 / 100** (Mild Risk-On)
+- Regime score: **58.51 / 100** (Mild Risk-On)
 - US equity strength: **59.0 / 100** (neutral)
-- Evidence quality: **79.5 / 100**
+- Evidence quality: **83.0 / 100**
 - ETF flow contribution: **49.17 / 100**, reliability **66.71 / 100**
 - Breadth: **narrow**; above 50DMA `50.0%`, above 200DMA `72.88%`
 - Top sector score: **Healthcare** `65.74`
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.14 | Mild Risk-On |
+| Overall regime | 58.51 | Mild Risk-On |
 | equity_trend | 66.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.4 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 54.29 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
-| rates_yield_curve | 46.0 | neutral / mixed; Treasury yield pressure and curve shape; higher score means less rates pressure. |
+| rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 56.03 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 55.87 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 57.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.45 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 60.0 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=80.0, equity_trend=66.25, news_confirmation=60.0 |
+| news_confirmation | 61.25 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=80.0, equity_trend=66.25, news_confirmation=61.25 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `79.5`
-- Agreement ratio: `0.5`
+- Confidence score: `83.0`
+- Agreement ratio: `0.6`
 - Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
@@ -61,10 +61,10 @@ Window: 24h
 | Rates | 10Y Treasury rising; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
-| Gold | Gold stable | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
-| Silver | Silver falling | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
+| Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
+| Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.99 | -6.44 | 2026-07-31 | closed |
 | ^SKEW | CBOE SKEW Index | 141.23 | 0.95 | 2026-07-31 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.27 | 0.88 | 2026-07-31 | closed |
-| US3YT=X | United States 3-Year Treasury Yield | 4.32 | 0.93 | 2026-07-31 | closed |
-| US5YT=X | United States 5-Year Treasury Yield | 4.42 | 1.17 | 2026-07-31 | closed |
-| US7YT=X | United States 7-Year Treasury Yield | 4.56 | 1.07 | 2026-07-31 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 4.74 | 1.61 | 2026-07-31 | closed |
-| US20YT=X | United States 20-Year Treasury Yield | 5.28 | 1.18 | 2026-07-31 | closed |
-| US30YT=X | United States 30-Year Treasury Yield | 5.26 | 1.07 | 2026-07-31 | closed |
-| HK50 | Hang Seng Futures | 25933.0 | -0.32 | 2026-07-31 | closed |
+| US2YT=X | United States 2-Year Treasury Yield | 4.25 | -1.01 | 2026-08-03 | live as of 3 August 2026, 10:00:37 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.3 | -1.2 | 2026-08-03 | live as of 3 August 2026, 10:00:37 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.4 | -1.28 | 2026-08-03 | live as of 3 August 2026, 10:00:37 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.55 | -1.21 | 2026-08-03 | live as of 3 August 2026, 10:00:37 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.69 | -1.07 | 2026-08-03 | live as of 3 August 2026, 10:00:37 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.25 | -0.85 | 2026-08-03 | live as of 3 August 2026, 10:00:37 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.24 | -0.74 | 2026-08-03 | live as of 3 August 2026, 10:00:37 (HKT) |
+| HK50 | Hang Seng Futures | 26014.5 | 0.33 | 2026-08-03 | live as of 3 August 2026, 10:00:37 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 978.4 | -5.07 | 2026-07-31 | closed |
 | CIHc1 | SSE 50 Futures | 2914.2 | 0.38 | 2026-07-31 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.48 | 0.01 | 2026-07-31 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 82.25 | -0.66 | 2026-07-31 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 92.95 | -0.28 | 2026-07-31 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 82.0 | -0.01 | 2026-07-31 | closed |
-| GC=F | Gold Future | 4098.6 | -0.04 | 2026-07-31 | closed |
-| SI=F | Silver Future | 57.77 | -1.77 | 2026-07-31 | closed |
-| CL=F | WTI Crude Oil Future | 86.8 | 3.84 | 2026-07-31 | closed |
-| HG=F | Copper Future | 6.51 | 0.98 | 2026-07-31 | closed |
+| GC=F | Gold Future | 4121.7 | 1.79 | 2026-08-02 | closed |
+| SI=F | Silver Future | 58.64 | 1.82 | 2026-08-02 | closed |
+| CL=F | WTI Crude Oil Future | 81.09 | -4.23 | 2026-08-02 | closed |
+| HG=F | Copper Future | 6.54 | 1.68 | 2026-08-02 | closed |
 
 ## Market Dispersion Analysis
 
@@ -251,7 +251,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 8 | Industrials | 55.65 | strong uptrend | neutral | broad | 50.0 | 0.0 | 48.93 | CTAS, HII, ALLE | GNRC, CHRW, LII |
 | 9 | Crypto | 51.08 | neutral | neutral | mixed | 60.83 | 65.0 | 50.0 |  |  |
 | 10 | Semiconductors | 46.57 | neutral | neutral | weak | 73.64 | 90.0 | 44.26 | SMH, SOXX | SOXX, SMH |
-| 11 | Technology | 45.57 | neutral | neutral | weak | 38.08 | 65.0 | 47.99 | CTSH, HPQ, ACN | INTC, GLW, SNDK |
+| 11 | Technology | 45.41 | neutral | neutral | weak | 38.08 | 65.0 | 47.99 | CTSH, HPQ, ACN | INTC, GLW, SNDK |
 | 12 | Defense | 44.13 | downtrend | neutral | weak | 50.0 | 0.0 | 45.31 | XAR | XAR |
 | 13 | Grid Infrastructure | 42.96 | downtrend | neutral | weak | 68.52 | 65.0 | 44.04 | GRID | GRID |
 | 14 | Nuclear | 34.67 | strong downtrend | negative | weak | 50.0 | 0.0 | 34.53 | NLR | NLR |
@@ -294,7 +294,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Industrials | Defense, Grid Infrastructure | 55.65 | positive | 48.44 | mixed | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 51.08 | mixed | 32.48 | very weak | mixed confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 46.57 | mixed | 50.68 | mixed | mixed confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 45.57 | mixed | 51.3 | mixed | mixed confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 45.41 | mixed | 51.3 | mixed | mixed confirmation |
 | Defense | Defense | 44.13 | weak | 50.36 | mixed | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 42.96 | weak | 46.52 | mixed | mixed confirmation |
 | Nuclear | Nuclear | 34.67 | very weak | 36.38 | weak | broad weakness across sector and themes |
@@ -329,90 +329,90 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 37, 'negative': 21, 'neutral': 22}
-- News confirmation score: `60.0`
+- Sentiment counts: {'positive': 41, 'negative': 23, 'neutral': 16}
+- News confirmation score: `61.25`
 
 ### Top Market-Moving Headlines
 
-**1. Embassies warn Americans of travel risk amid signs of possible U.S.-Iran military action in the coming days**
-- Source: CNBC Business Headlines
+**1. Oil drops over 4% after Trump calls off planned strike on Iran**
+- Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: U.S, geopolitical risk, oil markets
-- Score: `52.02`
+- Affected assets: U.S, oil_prices, geopolitical_risk
+- Score: `72.67`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Oil prices head for 20% monthly gains as Middle East conflict escalates and widens**
-- Source: Investing.com Stock Market
-- Importance / impact: Low / Positive
+**2. Financial stocks are crushing it. These charts show why the ‘breakout’ rally may have just begun.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: bank_stocks, earnings, valuations
+- Score: `48.77`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**3. Investors scored on Iran war's oil market boom. Staying long the trade will get trickier**
+- Source: CNBC Top News
+- Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil prices, geopolitical tensions
-- Score: `27.34`
+- Affected assets: U.S, oil market, U.S.-Iran conflict
+- Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. OPEC+ may keep lifting oil output quotas amid Iran war. It won't lower prices.**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
+**4. Investors are rotating into financial stocks. The Fed’s next move could determine how far the rally runs.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
-- Affected assets: OPEC, oil, production
-- Score: `25.44`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Affected assets: financial stocks, Fed policy
+- Score: `44.2`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Buy these stocks ahead of earnings. Bank of America says they offer plenty of upside**
-- Source: CNBC Markets
-- Importance / impact: Low / Positive
+**5. Bomb carried by woman kills three, injures 21 near Moscow restaurant, authorities say**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
-- Affected assets: earnings
-- Score: `24.71`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**5. Loyalists may miss the old Southwest. Wall Street loves the new one.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: Airline Industry, Corporate Strategy
-- Score: `22.76`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**6. The Iran war sent investors into fertilizer stocks — but here’s the China risk everyone’s missing**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: Geopolitical Risk, Commodity Trade
-- Score: `22.76`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**7. Trump cancels planned Iran attack after framework for deal agreed**
-- Source: Investing.com Economic Indicators
-- Importance / impact: Low / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: geo-political
-- Score: `21.8`
+- Affected assets: security
+- Score: `40.84`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. Loyalists may miss the old Southwest Airlines. Wall Street loves the new one.**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / short term
-- Affected assets: Airlines, Strategy
-- Score: `21.62`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+**6. WestJet flight attendants go on strike after talks fall through, grounding flights**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: WEST, Labor Issues, Transportation
+- Score: `37.05`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**9. OPEC+ may keep lifting its oil output quotas as the Iran war broadens. Why that won’t help lower prices.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Negative
+**7. U.S., Japan confirm coordinated yen intervention, signal readiness for more**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
-- Affected assets: OIL, OPEC, oil market, OPEC policy
-- Score: `20.82`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Affected assets: USDJPY, U.S, currency intervention
+- Score: `33.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. IRB Infrastructure Q1 FY27 slides: profit surges 51% on InvIT growth**
-- Source: Investing.com Markets
+**8. S&P 500 profit growth is getting even wilder as Amazon makes its mark**
+- Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
-- Affected assets: IRB, profitability, real_estate
-- Score: `19.02`
+- Affected assets: AMZN, P, S, AI, Tech
+- Score: `33.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**9. OPEC, Allies Increase Oil Output for Sixth Time in a Row**
+- Source: Dow Jones US Business
+- Importance / impact: Low / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: OPEC, oil production
+- Score: `33.15`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Op-ed: The U.S. lead over China in AI is all but gone. We need a change in national strategy**
+- Source: CNBC Markets
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / medium
+- Affected assets: U.S., U.S, AI, China, US
+- Score: `31.49`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `3`
+- Live macro rows used: `15`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
