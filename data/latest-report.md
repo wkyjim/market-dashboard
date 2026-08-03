@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 4 August 2026, 00:14:40 (HKT)
+Generated at: 4 August 2026, 01:05:09 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.12 / 100** (Mild Risk-On)
+- Regime score: **57.42 / 100** (Mild Risk-On)
 - US equity strength: **59.0 / 100** (neutral)
-- Evidence quality: **72.5 / 100**
+- Evidence quality: **76.0 / 100**
 - ETF flow contribution: **49.75 / 100**, reliability **71.05 / 100**
 - Breadth: **narrow**; above 50DMA `50.0%`, above 200DMA `72.88%`
 - Top sector score: **Consumer Staples** `65.82`
@@ -17,15 +17,15 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.12 | Mild Risk-On |
+| Overall regime | 57.42 | Mild Risk-On |
 | equity_trend | 66.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.4 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 54.29 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 46.0 | neutral / mixed; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.15 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 52.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 54.22 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 57.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.82 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 65.0 | risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=80.0, equity_trend=66.25, news_confirmation=65.0 |
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `72.5`
-- Agreement ratio: `0.3`
+- Confidence score: `76.0`
+- Agreement ratio: `0.4`
 - Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
@@ -62,7 +62,7 @@ Window: 24h
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
-| Silver | Silver stable | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
+| Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
@@ -73,10 +73,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7585.43 | 1.28 | 2026-08-03 | live as of 4 August 2026, 00:00:42 (HKT) |
-| ^IXIC | NASDAQ Composite | 25863.2 | 1.93 | 2026-08-03 | live as of 4 August 2026, 00:00:42 (HKT) |
-| ^RUT | Russell 2000 Index | 2975.89 | 1.52 | 2026-08-03 | live as of 4 August 2026, 00:00:42 (HKT) |
-| ^VIX | CBOE Volatility Index | 15.64 | -2.19 | 2026-08-03 | live as of 4 August 2026, 00:00:42 (HKT) |
+| ^GSPC | S&P 500 | 7586.32 | 1.29 | 2026-08-03 | live as of 4 August 2026, 01:00:42 (HKT) |
+| ^IXIC | NASDAQ Composite | 25874.26 | 1.97 | 2026-08-03 | live as of 4 August 2026, 01:00:42 (HKT) |
+| ^RUT | Russell 2000 Index | 2973.91 | 1.45 | 2026-08-03 | live as of 4 August 2026, 01:00:42 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.57 | -2.63 | 2026-08-03 | live as of 4 August 2026, 01:00:42 (HKT) |
 | ^SKEW | CBOE SKEW Index | 141.23 | 0.95 | 2026-07-31 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
 | US2YT=X | United States 2-Year Treasury Yield | 4.27 | 0.88 | 2026-07-31 | closed |
@@ -89,19 +89,19 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | HK50 | Hang Seng Futures | 25998.0 | 0.27 | 2026-08-03 | closed |
 | KOR200c1 | KOSPI 200 Futures | 978.4 | -5.07 | 2026-07-31 | closed |
 | CIHc1 | SSE 50 Futures | 2914.2 | 0.38 | 2026-07-31 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.31 | -0.22 | 2026-08-03 | live as of 4 August 2026, 00:00:42 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.15 | -0.09 | 2026-08-03 | live as of 4 August 2026, 00:00:42 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 95.43 | -0.26 | 2026-08-03 | live as of 4 August 2026, 00:00:42 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 216.62 | 0.75 | 2026-08-03 | live as of 4 August 2026, 00:00:42 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 120.53 | 1.87 | 2026-08-03 | live as of 4 August 2026, 00:00:42 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 253.9 | 0.83 | 2026-08-03 | live as of 4 August 2026, 00:00:42 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 82.24 | -0.02 | 2026-08-03 | live as of 4 August 2026, 00:00:42 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 92.78 | -0.18 | 2026-08-03 | live as of 4 August 2026, 00:00:42 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.77 | -0.29 | 2026-08-03 | live as of 4 August 2026, 00:00:42 (HKT) |
-| GC=F | Gold Future | 4093.9 | 1.11 | 2026-08-03 | live as of 4 August 2026, 00:00:42 (HKT) |
-| SI=F | Silver Future | 57.67 | 0.14 | 2026-08-03 | live as of 4 August 2026, 00:00:42 (HKT) |
-| CL=F | WTI Crude Oil Future | 79.6 | -5.99 | 2026-08-03 | live as of 4 August 2026, 00:00:42 (HKT) |
-| HG=F | Copper Future | 6.52 | 1.34 | 2026-08-03 | live as of 4 August 2026, 00:00:42 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.28 | -0.25 | 2026-08-03 | live as of 4 August 2026, 01:00:42 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.12 | -0.12 | 2026-08-03 | live as of 4 August 2026, 01:00:42 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 95.41 | -0.28 | 2026-08-03 | live as of 4 August 2026, 01:00:42 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 216.34 | 0.62 | 2026-08-03 | live as of 4 August 2026, 01:00:42 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 120.62 | 1.95 | 2026-08-03 | live as of 4 August 2026, 01:00:42 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 253.66 | 0.73 | 2026-08-03 | live as of 4 August 2026, 01:00:42 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 82.19 | -0.07 | 2026-08-03 | live as of 4 August 2026, 01:00:42 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 92.79 | -0.17 | 2026-08-03 | live as of 4 August 2026, 01:00:42 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.76 | -0.3 | 2026-08-03 | live as of 4 August 2026, 01:00:42 (HKT) |
+| GC=F | Gold Future | 4092.6 | 1.07 | 2026-08-03 | live as of 4 August 2026, 01:00:42 (HKT) |
+| SI=F | Silver Future | 57.88 | 0.5 | 2026-08-03 | live as of 4 August 2026, 01:00:42 (HKT) |
+| CL=F | WTI Crude Oil Future | 79.68 | -5.89 | 2026-08-03 | live as of 4 August 2026, 01:00:42 (HKT) |
+| HG=F | Copper Future | 6.54 | 1.68 | 2026-08-03 | live as of 4 August 2026, 01:00:42 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.64 pct_chg=-2.19
+- VIX close=15.57 pct_chg=-2.63
 
 ## News Analytics
 
@@ -366,15 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.9`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Oil prices fall to three-week low after Trump calls off planned attack**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, Geopolitical Events, Oil Market
-- Score: `44.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. Northrop Grumman Enters $3 Billion Contracts to Increase Missile Defense Production**
+**5. Northrop Grumman Enters $3 Billion Contracts to Increase Missile Defense Production**
 - Source: Dow Jones Politics
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.78`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. 'Winter is coming': Ukraine fears its toughest test since Russia's full-scale invasion**
+**6. 'Winter is coming': Ukraine fears its toughest test since Russia's full-scale invasion**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -390,13 +382,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.02`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. An AstraZeneca, Bristol Myers Squibb merger could create a cancer-drug giant, but analysts call it ‘odd’**
+**7. An AstraZeneca, Bristol Myers Squibb merger could create a cancer-drug giant, but analysts call it ‘odd’**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: AZN, BMY, merger, pharmaceuticals, cancer drugs
 - Score: `38.67`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**8. Oil prices fall to three-week low after Trump calls off planned attack**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, Geopolitical Events, Oil Market
+- Score: `37.4`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **9. Warsh tightened more by pausing than by lifting rates, this bond-market veteran argues. Here’s the math.**
 - Source: MarketWatch Top Stories
