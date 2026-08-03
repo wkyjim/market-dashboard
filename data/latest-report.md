@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 August 2026, 21:05:14 (HKT)
+Generated at: 3 August 2026, 21:06:44 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **58.22 / 100** (Mild Risk-On)
+- Regime score: **58.09 / 100** (Mild Risk-On)
 - US equity strength: **59.0 / 100** (neutral)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **49.75 / 100**, reliability **71.05 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 58.22 | Mild Risk-On |
+| Overall regime | 58.09 | Mild Risk-On |
 | equity_trend | 66.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.4 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 54.29 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.94 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 52.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.82 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 61.88 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=80.0, equity_trend=66.25, news_confirmation=61.88 |
+| news_confirmation | 59.38 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=80.0, equity_trend=66.25 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 45, 'negative': 26, 'neutral': 9}
-- News confirmation score: `61.88`
+- Sentiment counts: {'positive': 43, 'negative': 28, 'neutral': 9}
+- News confirmation score: `59.38`
 
 ### Top Market-Moving Headlines
 
