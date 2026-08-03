@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 4 August 2026, 02:07:18 (HKT)
+Generated at: 4 August 2026, 02:08:38 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -398,21 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.4`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Warsh tightened more by pausing than by lifting rates, this bond-market veteran argues. Here’s the math.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Federal Reserve, interest rates
-- Score: `36.0`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. U.S., Japan confirm coordinated yen intervention, signal readiness for more**
+**9. U.S., Japan confirm coordinated yen intervention, signal readiness for more**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: USDJPY, U.S, currency intervention
 - Score: `33.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Hugging Face CEO says China is winning the AI race and dominating on open models**
+- Source: CNBC Top News
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: U.S, AI, China
+- Score: `32.11`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
