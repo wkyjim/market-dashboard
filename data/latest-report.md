@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 August 2026, 17:05:31 (HKT)
+Generated at: 3 August 2026, 18:02:24 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.73 / 100** (Mild Risk-On)
+- Regime score: **57.77 / 100** (Mild Risk-On)
 - US equity strength: **59.0 / 100** (neutral)
-- Evidence quality: **79.5 / 100**
+- Evidence quality: **83.0 / 100**
 - ETF flow contribution: **49.75 / 100**, reliability **71.05 / 100**
 - Breadth: **narrow**; above 50DMA `50.0%`, above 200DMA `72.88%`
 - Top sector score: **Consumer Staples** `65.82`
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.73 | Mild Risk-On |
+| Overall regime | 57.77 | Mild Risk-On |
 | equity_trend | 66.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.4 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 54.29 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.88 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 55.03 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 57.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.82 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 66.25 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0, equity_trend=66.25, news_confirmation=66.25 |
+| news_confirmation | 66.88 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=70.0, news_confirmation=66.88, equity_trend=66.25 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `79.5`
-- Agreement ratio: `0.5`
+- Confidence score: `83.0`
+- Agreement ratio: `0.6`
 - Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
@@ -65,7 +65,7 @@ Window: 24h
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
-| Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
+| Volatility | VIX stable | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
 
@@ -76,16 +76,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7489.72 | 0.7 | 2026-07-31 | closed |
 | ^IXIC | NASDAQ Composite | 25373.85 | 1.0 | 2026-07-31 | closed |
 | ^RUT | Russell 2000 Index | 2931.34 | -0.5 | 2026-07-31 | closed |
-| ^VIX | CBOE Volatility Index | 16.1 | 0.69 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
+| ^VIX | CBOE Volatility Index | 16.02 | 0.19 | 2026-08-03 | live as of 3 August 2026, 18:00:40 (HKT) |
 | ^SKEW | CBOE SKEW Index | 141.23 | 0.95 | 2026-07-31 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.25 | -0.86 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.31 | -0.98 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.41 | -1.2 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.54 | -1.24 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.69 | -1.12 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.25 | -0.9 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.23 | -0.82 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.25 | -0.91 | 2026-08-03 | live as of 3 August 2026, 18:00:40 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.31 | -1.04 | 2026-08-03 | live as of 3 August 2026, 18:00:40 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.4 | -1.28 | 2026-08-03 | live as of 3 August 2026, 18:00:40 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.54 | -1.27 | 2026-08-03 | live as of 3 August 2026, 18:00:40 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.69 | -1.16 | 2026-08-03 | live as of 3 August 2026, 18:00:40 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.25 | -0.92 | 2026-08-03 | live as of 3 August 2026, 18:00:40 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.23 | -0.8 | 2026-08-03 | live as of 3 August 2026, 18:00:40 (HKT) |
 | HK50 | Hang Seng Futures | 25998.0 | 0.27 | 2026-08-03 | closed |
 | KOR200c1 | KOSPI 200 Futures | 978.4 | -5.07 | 2026-07-31 | closed |
 | CIHc1 | SSE 50 Futures | 2914.2 | 0.38 | 2026-07-31 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 82.25 | -0.66 | 2026-07-31 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 92.95 | -0.28 | 2026-07-31 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 82.0 | -0.01 | 2026-07-31 | closed |
-| GC=F | Gold Future | 4114.5 | 1.62 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
-| SI=F | Silver Future | 58.52 | 1.62 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
-| CL=F | WTI Crude Oil Future | 80.62 | -4.78 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
-| HG=F | Copper Future | 6.54 | 1.62 | 2026-08-03 | live as of 3 August 2026, 17:00:52 (HKT) |
+| GC=F | Gold Future | 4113.8 | 1.6 | 2026-08-03 | live as of 3 August 2026, 18:00:40 (HKT) |
+| SI=F | Silver Future | 58.44 | 1.47 | 2026-08-03 | live as of 3 August 2026, 18:00:40 (HKT) |
+| CL=F | WTI Crude Oil Future | 79.7 | -5.87 | 2026-08-03 | live as of 3 August 2026, 18:00:40 (HKT) |
+| HG=F | Copper Future | 6.52 | 1.38 | 2026-08-03 | live as of 3 August 2026, 18:00:40 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,16 +325,16 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=16.1 pct_chg=0.69
+- VIX close=16.02 pct_chg=0.19
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 47, 'negative': 21, 'neutral': 12}
-- News confirmation score: `66.25`
+- Sentiment counts: {'positive': 49, 'negative': 22, 'neutral': 9}
+- News confirmation score: `66.88`
 
 ### Top Market-Moving Headlines
 
-**1. Oil drops over 5% as Middle East tensions ebb on diplomatic efforts**
+**1. Oil prices fall more than 5% as Middle East tensions ebb on diplomatic efforts**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -382,15 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `44.2`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. U.S., Japan confirm coordinated yen intervention, signal readiness for more**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: USDJPY, U.S, currency intervention
-- Score: `33.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. S&P 500 profit growth is getting even wilder as Amazon makes its mark**
+**7. S&P 500 profit growth is getting even wilder as Amazon makes its mark**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. OPEC, Allies Increase Oil Output for Sixth Time in a Row**
+**8. OPEC, Allies Increase Oil Output for Sixth Time in a Row**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -406,11 +398,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.15`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. WestJet flight attendants go on strike after talks fall through, grounding flights**
+**9. WestJet flight attendants go on strike after talks fall through, grounding flights**
 - Source: CNBC Top News
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: WEST, Labor Issues, Transportation
+- Score: `31.49`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**10. Op-ed: The U.S. lead over China in AI is all but gone. We need a change in national strategy**
+- Source: CNBC Markets
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / medium
+- Affected assets: U.S., U.S, AI, China, US
 - Score: `31.49`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
