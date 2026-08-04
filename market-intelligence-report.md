@@ -2,7 +2,7 @@
 
 **Report Date:** 2026-08-04
 
-**Data Cutoff:** 2026-08-04 06:32 HKT (US cash-market data through 2026-08-03 close; live crypto snapshot 2026-08-04 06:22 HKT)
+**Data Cutoff:** 2026-08-04 18:14 HKT (US cash-market data through 2026-08-03 close; live futures/cross-asset observations through 18:00 HKT)
 
 **Short-Term Horizon:** Next 1–3 months
 
@@ -10,9 +10,9 @@
 
 ## Executive Summary
 
-**Regime:** mild risk-on, broadening participation, with a late-cycle inflation/term-premium overlay. The August 3 rebound was unusually broad: S&P 500 +1.48% to 7,600.50, Nasdaq +2.13%, Russell 2000 +1.73%, VIX 15.86, and the 10-year yield fell 6.95 bp to 4.68%. July ISM Manufacturing accelerated to 55.6, while WTI fell 5.44% to $80.06 as near-term Iran escalation risk eased. These confirm growth resilience and lower immediate energy inflation pressure.
+**Regime:** mild risk-on with broadening participation, but a late-cycle inflation/term-premium overlay. The August 3 cash rebound was broad: S&P 500 +1.48% to 7,600.50, Nasdaq +2.13%, and Russell 2000 +1.73%. At the 18:00 HKT live snapshot, ES/NQ/RTY futures were +1.57%/+2.35%/+1.71%, VIX was 15.71, and WTI was $82.21 (-2.91%). July ISM Manufacturing at 55.6 supports activity, but the live 10-year yield retraced to 4.70% (+2.0 bp intraday), preserving the discount-rate constraint.
 
-**Short term — Neutral US equities (confidence 6/10):** stay selectively constructive but do not chase the index within 0.1% of its record. Breadth improved to 56.67% above 50DMA, financials, health care, staples and real estate are broad internally, and small caps participated. Counterweights are high long yields (30Y 5.23%), rich/uncertain valuation data, weak 20-day technology/semiconductor momentum, and oil/geopolitical reversibility.
+**Short term — Neutral US equities (confidence 6/10):** stay selectively constructive but do not chase the index near its record. Breadth improved to 56.67% above 50DMA, financials, health care, staples and real estate are broad internally, and small caps participated. Counterweights are high live long yields (30Y 5.25%), uncertain valuation coverage, weak 20-day technology/semiconductor momentum, and oil/geopolitical reversibility.
 
 **Long term — Overweight US equities (confidence 6/10):** retain exposure through quality cash generators, financials and industrial/AI-infrastructure beneficiaries. Expansionary manufacturing, tight credit (HY OAS 2.80% as of June 29), and improving participation support earnings. The thesis requires inflation to remain contained and earnings to validate elevated prices; it is not a multiple-expansion call.
 
@@ -72,12 +72,12 @@ Base case is a nominal-growth expansion with restrictive real financing costs. C
 
 | Asset / signal | Short term | Long term |
 |---|---|---|
-| Equities & breadth | Strong confirmation: SPX, Nasdaq, Russell all +1.5–2.1%; 56.67% above 50DMA | 72.88% above 200DMA supports trend durability, but cap-weight valuation risk persists |
-| Treasuries | 10Y -6.95 bp is a welcome discount-rate release; curve remains steep (2Y–10Y +43 bp) | 30Y 5.23% means fiscal/term-premium risk remains material |
+| Equities & breadth | Cash rebound confirmed by ES/NQ/RTY futures +1.57%/+2.35%/+1.71%; 56.67% above 50DMA | 72.88% above 200DMA supports trend durability, but cap-weight valuation risk persists |
+| Treasuries | The earlier yield relief partially reversed: live 2Y/10Y 4.26%/4.70%, a still-steep +44 bp curve | Live 30Y 5.25% means fiscal/term-premium risk remains material |
 | Credit | HYG +0.27% on Aug 3 but below 20/50/200DMAs; no stress confirmation | Spread levels benign but dated; watch for widening before raising beta |
 | Dollar / FX | API live coverage was unavailable except crypto; no directional claim | Dollar stress would tighten global conditions; monitor separately |
-| Oil / metals | Oil relief supports airlines/consumers; copper +1.67% supports cyclical narrative; gold +1.53% flags residual hedging demand | Oil remains a geopolitical convexity risk; copper supports infrastructure but needs demand validation |
-| Volatility / crypto | VIX 15.86 and SKEW 139.96: calm index volatility with non-trivial tail pricing; Bitcoin ~$63,487 live, not a macro confirmation | Maintain equity-risk hedges; crypto remains high-beta, weak 60-day price signal |
+| Oil / metals | WTI $82.21, -2.91% live, eases the near-term inflation impulse; copper +2.91% and gold +1.40% show both cyclical and hedge demand | Oil remains a geopolitical convexity risk; copper supports infrastructure but needs demand validation |
+| Volatility / crypto | VIX 15.71 and SKEW 139.96: calm index volatility with non-trivial tail pricing; no fresh crypto signal is used | Maintain equity-risk hedges; crypto remains high-beta and is not required for the base case |
 
 ## Broad US Equities View
 
@@ -238,8 +238,8 @@ Factors: Quality +1.5, Value +1.0, Growth +0.5 selective, Equal Weight +1.0, Mom
 
 ## Sources
 
-- Market Dashboard, generated 2026-08-04 06:14:54 HKT — prices, breadth, macro, ETF-flow proxies, sector/thematic signals: https://wkyjim.github.io/market-dashboard/data/latest-report.md
-- US Equities API v1.1.0, retrieved 2026-08-04 06:32 HKT — validated endpoints `/market-tape`, `/equities/batch/latest`, `/macro/batch/live`; closing data through 2026-08-03: https://postgresql-us-equities-api.onrender.com/openapi.json
+- Market Dashboard, generated 2026-08-04 18:14:41 HKT — prices, breadth, macro, ETF-flow proxies, sector/thematic signals: https://wkyjim.github.io/market-dashboard/data/latest-report.md
+- US Equities API v1.1.0, retrieved 2026-08-04 18:18 HKT — validated endpoints `/market-tape`, `/equities/batch/latest`, `/macro/batch/live`; closing data through 2026-08-03 and live observations through 18:00 HKT: https://postgresql-us-equities-api.onrender.com/openapi.json
 - Federal Reserve, updated July 29, 2026 — 2026 FOMC schedule: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 - Bureau of Labor Statistics, August 2026 schedule — CPI and productivity release dates: https://www.bls.gov/schedule/2026/08_sched.htm
 - Bureau of Economic Analysis, release schedule — GDP and PCE dates: https://www.bea.gov/news/schedule/full
