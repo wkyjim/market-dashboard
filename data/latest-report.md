@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 4 August 2026, 20:03:31 (HKT)
+Generated at: 4 August 2026, 20:04:48 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -390,15 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Toyota Net Profit Surges 76%, Boosts Earnings Outlook**
-- Source: Dow Jones US Business
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: TOYOF, automobiles, profitability, electric vehicles
-- Score: `44.0`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**9. Diamondback Energy Lifts Production Guidance, Reports Surging Profit on High Oil Prices**
+**8. Diamondback Energy Lifts Production Guidance, Reports Surging Profit on High Oil Prices**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Palantir’s stock climbs after earnings, as AI drives turbocharged growth**
+**9. Palantir’s stock climbs after earnings, as AI drives turbocharged growth**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: PAL, AI, earnings, growth
 - Score: `42.27`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. California's diesel prices have jumped since the Iran war started, with ripple effects across the country**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: energy_prices, geopolitical_risk
+- Score: `41.18`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
