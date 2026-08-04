@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 4 August 2026, 09:22:44 (HKT)
+Generated at: 4 August 2026, 10:08:36 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.86 | -0.81 | 2026-08-03 | closed |
 | ^SKEW | CBOE SKEW Index | 139.96 | -0.9 | 2026-08-03 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.26 | 0.19 | 2026-08-04 | live as of 4 August 2026, 09:11:38 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.31 | 0.13 | 2026-08-04 | live as of 4 August 2026, 09:11:38 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.4 | 0.12 | 2026-08-04 | live as of 4 August 2026, 09:11:38 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.54 | 0.06 | 2026-08-04 | live as of 4 August 2026, 09:11:38 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.69 | 0.04 | 2026-08-04 | live as of 4 August 2026, 09:11:38 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.24 | 0.08 | 2026-08-04 | live as of 4 August 2026, 09:11:38 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.23 | 0.06 | 2026-08-04 | live as of 4 August 2026, 09:11:38 (HKT) |
-| HK50 | Hang Seng Futures | 25998.0 | 0.27 | 2026-08-03 | closed |
+| US2YT=X | United States 2-Year Treasury Yield | 4.25 | -0.05 | 2026-08-04 | live as of 4 August 2026, 10:00:39 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.31 | -0.08 | 2026-08-04 | live as of 4 August 2026, 10:00:39 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.4 | 0.03 | 2026-08-04 | live as of 4 August 2026, 10:00:39 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.54 | 0.03 | 2026-08-04 | live as of 4 August 2026, 10:00:39 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.69 | 0.09 | 2026-08-04 | live as of 4 August 2026, 10:00:39 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.24 | 0.1 | 2026-08-04 | live as of 4 August 2026, 10:00:39 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.23 | 0.09 | 2026-08-04 | live as of 4 August 2026, 10:00:39 (HKT) |
+| HK50 | Hang Seng Futures | 25840.0 | -0.54 | 2026-08-04 | live as of 4 August 2026, 10:00:39 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 970.6 | -2.19 | 2026-08-03 | closed |
 | CIHc1 | SSE 50 Futures | 2874.2 | -1.37 | 2026-08-03 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.31 | -0.21 | 2026-08-03 | closed |
@@ -339,7 +339,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, oil_prices, geopolitical_risk
-- Score: `72.67`
+- Score: `61.77`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **2. Diamondback Energy Lifts Production Guidance, Reports Surging Profit on High Oil Prices**
@@ -358,15 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.73`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**4. Amazon tops $3 trillion market cap as stock continues post-earnings surge**
-- Source: CNBC Investing
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: AMZN, technology, market capitalization
-- Score: `47.24`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**5. CNBC Daily Open: Markets exhale as Trump steps back, OPEC+ steps up**
+**4. CNBC Daily Open: Markets exhale as Trump steps back, OPEC+ steps up**
 - Source: CNBC Technology
 - Importance / impact: High / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.9`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. California's diesel prices have jumped since the Iran war started, with ripple effects across the country**
+**5. California's diesel prices have jumped since the Iran war started, with ripple effects across the country**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -382,13 +374,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**7. Manufacturing survey shows inflation worries 'worse than pandemic era,' adding to Fed pressure**
+**6. Manufacturing survey shows inflation worries 'worse than pandemic era,' adding to Fed pressure**
 - Source: CNBC Business
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: inflation
 - Score: `40.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. Amazon tops $3 trillion market cap as stock continues post-earnings surge**
+- Source: CNBC Investing
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: AMZN, technology, market capitalization
+- Score: `40.15`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 **8. Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%**
 - Source: CNBC Investing
@@ -506,7 +506,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `13`
+- Live macro rows used: `15`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
