@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 4 August 2026, 11:11:05 (HKT)
+Generated at: 4 August 2026, 12:09:39 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **63.01 / 100** (Mild Risk-On)
+- Regime score: **63.07 / 100** (Mild Risk-On)
 - US equity strength: **71.39 / 100** (constructive)
 - Evidence quality: **83.0 / 100**
-- ETF flow contribution: **49.92 / 100**, reliability **67.19 / 100**
+- ETF flow contribution: **49.92 / 100**, reliability **67.12 / 100**
 - Breadth: **healthy**; above 50DMA `56.67%`, above 200DMA `72.88%`
 - Top sector score: **Healthcare** `65.39`
 - Top theme score: **Energy** `60.3`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 63.01 | Mild Risk-On |
+| Overall regime | 63.07 | Mild Risk-On |
 | equity_trend | 82.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.62 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 60.4 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.23 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 57.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.95 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 78.75 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=82.5, volatility=80.0, news_confirmation=78.75, market_breadth=60.4 |
+| news_confirmation | 80.0 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=82.5, volatility=80.0, news_confirmation=80.0, market_breadth=60.4 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.86 | -0.81 | 2026-08-03 | closed |
 | ^SKEW | CBOE SKEW Index | 139.96 | -0.9 | 2026-08-03 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.25 | -0.05 | 2026-08-04 | live as of 4 August 2026, 11:00:37 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.31 | -0.04 | 2026-08-04 | live as of 4 August 2026, 11:00:37 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.4 | 0.03 | 2026-08-04 | live as of 4 August 2026, 11:00:37 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.54 | 0.06 | 2026-08-04 | live as of 4 August 2026, 11:00:37 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.69 | 0.13 | 2026-08-04 | live as of 4 August 2026, 11:00:37 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.24 | 0.1 | 2026-08-04 | live as of 4 August 2026, 11:00:37 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.24 | 0.15 | 2026-08-04 | live as of 4 August 2026, 11:00:37 (HKT) |
-| HK50 | Hang Seng Futures | 25881.0 | -0.38 | 2026-08-04 | live as of 4 August 2026, 11:00:37 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.25 | -0.05 | 2026-08-04 | live as of 4 August 2026, 12:00:37 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.31 | -0.04 | 2026-08-04 | live as of 4 August 2026, 12:00:37 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.4 | 0.07 | 2026-08-04 | live as of 4 August 2026, 12:00:37 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.54 | 0.11 | 2026-08-04 | live as of 4 August 2026, 12:00:37 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.7 | 0.26 | 2026-08-04 | live as of 4 August 2026, 12:00:37 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.24 | 0.15 | 2026-08-04 | live as of 4 August 2026, 12:00:37 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.24 | 0.17 | 2026-08-04 | live as of 4 August 2026, 12:00:37 (HKT) |
+| HK50 | Hang Seng Futures | 25890.5 | -0.35 | 2026-08-04 | live as of 4 August 2026, 12:00:37 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 970.6 | -2.19 | 2026-08-03 | closed |
 | CIHc1 | SSE 50 Futures | 2874.2 | -1.37 | 2026-08-03 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.31 | -0.21 | 2026-08-03 | closed |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 62, 'negative': 16, 'neutral': 2}
-- News confirmation score: `78.75`
+- Sentiment counts: {'positive': 63, 'negative': 15, 'neutral': 2}
+- News confirmation score: `80.0`
 
 ### Top Market-Moving Headlines
 
@@ -342,21 +342,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `61.77`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Diamondback Energy Lifts Production Guidance, Reports Surging Profit on High Oil Prices**
-- Source: Dow Jones US Business
+**2. AI is helping Grab ship products 3 times faster, CFO says, as company raises forecasts**
+- Source: CNBC Technology
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AI, financial_performance
+- Score: `58.52`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**3. Why the U.S. decided to help Japan by boosting the flailing yen**
+- Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
-- Affected assets: DBE, production guidance, profit surge, oil prices
-- Score: `50.62`
+- Affected assets: U.S, currency intervention, economic policy
+- Score: `51.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. Palantir’s stock climbs after earnings, as AI drives turbocharged growth**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: PAL, AI, earnings, growth
-- Score: `49.73`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 **4. CNBC Daily Open: Markets exhale as Trump steps back, OPEC+ steps up**
 - Source: CNBC Technology
@@ -366,7 +366,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.9`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. California's diesel prices have jumped since the Iran war started, with ripple effects across the country**
+**5. Diamondback Energy Lifts Production Guidance, Reports Surging Profit on High Oil Prices**
+- Source: Dow Jones US Business
+- Importance / impact: Medium / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: DBE, production guidance, profit surge, oil prices
+- Score: `43.03`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. Palantir’s stock climbs after earnings, as AI drives turbocharged growth**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: PAL, AI, earnings, growth
+- Score: `42.27`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**7. California's diesel prices have jumped since the Iran war started, with ripple effects across the country**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -374,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**6. Manufacturing survey shows inflation worries 'worse than pandemic era,' adding to Fed pressure**
+**8. Manufacturing survey shows inflation worries 'worse than pandemic era,' adding to Fed pressure**
 - Source: CNBC Business
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -382,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Amazon tops $3 trillion market cap as stock continues post-earnings surge**
+**9. Amazon tops $3 trillion market cap as stock continues post-earnings surge**
 - Source: CNBC Investing
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -390,29 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%**
+**10. Palantir soars 12% on blowout quarter, with U.S. commercial revenue soaring nearly 150%**
 - Source: CNBC Investing
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: PAL, U.S, AI, revenue growth
 - Score: `39.37`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**9. 'Winter is coming': Ukraine fears its toughest test since Russia's full-scale invasion**
-- Source: CNBC Business Headlines
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: geo-political
-- Score: `39.02`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**10. Big Tech's Anthropic and OpenAI stakes are distorting the corporate earnings picture**
-- Source: CNBC Investing
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AI, Investment Gains
-- Score: `37.57`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
@@ -439,7 +439,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Sector cyclicality flow: `55.8`
 - Duration/liquidity flow: `44.3`
 - Alternatives: `defensive or uncertainty hedge`
-- ETF flow reliability: `67.2 / 100`
+- ETF flow reliability: `67.1 / 100`
 - Dominant allocation direction: `mixed allocation`
 
 ### Core Flow Signals
