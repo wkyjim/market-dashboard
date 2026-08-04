@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 5 August 2026, 03:17:37 (HKT)
+Generated at: 5 August 2026, 04:05:02 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **62.45 / 100** (Mild Risk-On)
+- Regime score: **62.46 / 100** (Mild Risk-On)
 - US equity strength: **71.39 / 100** (constructive)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **49.84 / 100**, reliability **71.05 / 100**
@@ -17,14 +17,14 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 62.45 | Mild Risk-On |
+| Overall regime | 62.46 | Mild Risk-On |
 | equity_trend | 82.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.62 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 60.4 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.31 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 55.42 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 57.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.89 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 86.25 | risk-on support; Weighted headline/news confirmation score. |
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7748.14 | 1.94 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
-| ^IXIC | NASDAQ Composite | 26625.61 | 2.75 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
-| ^RUT | Russell 2000 Index | 3036.98 | 1.85 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
-| ^VIX | CBOE Volatility Index | 16.36 | 3.15 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
+| ^GSPC | S&P 500 | 7736.5 | 1.79 | 2026-08-04 | live as of 5 August 2026, 04:00:22 (HKT) |
+| ^IXIC | NASDAQ Composite | 26584.99 | 2.59 | 2026-08-04 | live as of 5 August 2026, 04:00:22 (HKT) |
+| ^RUT | Russell 2000 Index | 3042.53 | 2.03 | 2026-08-04 | live as of 5 August 2026, 04:00:22 (HKT) |
+| ^VIX | CBOE Volatility Index | 16.43 | 3.59 | 2026-08-04 | live as of 5 August 2026, 04:00:22 (HKT) |
 | ^SKEW | CBOE SKEW Index | 139.96 | -0.9 | 2026-08-03 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.19 | -1.46 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.25 | -1.57 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.33 | -1.49 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.47 | -1.46 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.63 | -1.22 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.19 | -0.99 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.19 | -0.76 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.24 | -1.15 | 2026-08-03 | closed |
+| US3YT=X | United States 3-Year Treasury Yield | 4.3 | -1.34 | 2026-08-03 | closed |
+| US5YT=X | United States 5-Year Treasury Yield | 4.39 | -1.63 | 2026-08-03 | closed |
+| US7YT=X | United States 7-Year Treasury Yield | 4.53 | -1.62 | 2026-08-03 | closed |
+| US10YT=X | United States 10-Year Treasury Yield | 4.68 | -1.46 | 2026-08-03 | closed |
+| US20YT=X | United States 20-Year Treasury Yield | 5.23 | -1.19 | 2026-08-03 | closed |
+| US30YT=X | United States 30-Year Treasury Yield | 5.18 | -0.86 | 2026-08-04 | live as of 5 August 2026, 04:00:22 (HKT) |
 | HK50 | Hang Seng Futures | 25839.0 | -0.55 | 2026-08-04 | closed |
 | KOR200c1 | KOSPI 200 Futures | 970.6 | -2.19 | 2026-08-03 | closed |
 | CIHc1 | SSE 50 Futures | 2874.2 | -1.37 | 2026-08-03 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.55 | 0.3 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.7 | 0.56 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 95.75 | 0.31 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 220.07 | 1.36 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 124.65 | 3.13 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 256.63 | 0.94 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 82.75 | 0.69 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 93.23 | 0.44 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.87 | 0.12 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
-| GC=F | Gold Future | 4137.3 | 2.57 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
-| SI=F | Silver Future | 59.92 | 3.91 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
-| CL=F | WTI Crude Oil Future | 75.8 | -5.65 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
-| HG=F | Copper Future | 6.63 | 1.81 | 2026-08-04 | live as of 5 August 2026, 03:00:33 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.53 | 0.28 | 2026-08-04 | live as of 5 August 2026, 04:00:22 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.75 | 0.6 | 2026-08-04 | live as of 5 August 2026, 04:00:22 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 95.73 | 0.29 | 2026-08-04 | live as of 5 August 2026, 04:00:22 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 220.21 | 1.43 | 2026-08-04 | live as of 5 August 2026, 04:00:22 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 124.3 | 2.84 | 2026-08-04 | live as of 5 August 2026, 04:00:22 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 256.71 | 0.97 | 2026-08-04 | live as of 5 August 2026, 04:00:22 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 82.82 | 0.77 | 2026-08-04 | live as of 5 August 2026, 04:00:22 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 93.25 | 0.46 | 2026-08-04 | live as of 5 August 2026, 04:00:22 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.87 | 0.12 | 2026-08-04 | live as of 5 August 2026, 04:00:22 (HKT) |
+| GC=F | Gold Future | 4136.0 | 2.54 | 2026-08-04 | live as of 5 August 2026, 04:00:22 (HKT) |
+| SI=F | Silver Future | 59.83 | 3.75 | 2026-08-04 | live as of 5 August 2026, 04:00:22 (HKT) |
+| CL=F | WTI Crude Oil Future | 75.86 | -5.58 | 2026-08-04 | live as of 5 August 2026, 04:00:22 (HKT) |
+| HG=F | Copper Future | 6.63 | 1.77 | 2026-08-04 | live as of 5 August 2026, 04:00:22 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=16.36 pct_chg=3.15
+- VIX close=16.43 pct_chg=3.59
 
 ## News Analytics
 
@@ -342,15 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `76.71`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Oil prices tumble after Trump calls off attack on Iran**
-- Source: CNBC Top News
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil_prices, geopolitical_risk
-- Score: `61.77`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. Oil prices slump as Qatar and Bessent note talks to reopen Strait of Hormuz**
+**2. Oil prices slump as Qatar and Bessent note talks to reopen Strait of Hormuz**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -358,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. AI is helping Grab ship products more than 30% faster, CFO says, as company raises forecasts**
+**3. AI is helping Grab ship products more than 30% faster, CFO says, as company raises forecasts**
 - Source: CNBC Technology
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.74`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. Manufacturing survey shows inflation worries 'worse than pandemic era,' adding to Fed pressure**
+**4. Manufacturing survey shows inflation worries 'worse than pandemic era,' adding to Fed pressure**
 - Source: CNBC Business
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Caterpillar’s stock gives the Dow a 200-point boost as data-center demand drives record revenue**
+**5. Caterpillar’s stock gives the Dow a 200-point boost as data-center demand drives record revenue**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.88`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. Diamondback Energy Lifts Production Guidance, Reports Surging Profit on High Oil Prices**
+**6. Diamondback Energy Lifts Production Guidance, Reports Surging Profit on High Oil Prices**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Palantir’s stock climbs after earnings, as AI drives turbocharged growth**
+**7. Palantir’s stock climbs after earnings, as AI drives turbocharged growth**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `42.27`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. Palantir jumps 30% on 'otherworldly' commercial revenue — here's what's driving the demand**
+**8. Palantir jumps 30% on 'otherworldly' commercial revenue — here's what's driving the demand**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.68`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. California's diesel prices have jumped since the Iran war started, with ripple effects across the country**
-- Source: CNBC Top News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: energy_prices, geopolitical_risk
-- Score: `41.18`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+**9. Saudi Aramco profits jump 33% in second quarter as Iran war squeezes oil supply**
+- Source: CNBC Business News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: SAULC, oil, profits, supply
+- Score: `40.8`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. BP profit more than doubles as Trump blasts Big Oil for ‘making too much money’**
+- Source: CNBC Business News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: BP, U.S, energy, political, oil prices
+- Score: `40.8`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
@@ -507,7 +507,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `40`
+- Live macro rows used: `34`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
