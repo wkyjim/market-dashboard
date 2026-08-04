@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 4 August 2026, 14:09:16 (HKT)
+Generated at: 4 August 2026, 15:07:44 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **63.13 / 100** (Mild Risk-On)
+- Regime score: **63.41 / 100** (Mild Risk-On)
 - US equity strength: **71.39 / 100** (constructive)
 - Evidence quality: **83.0 / 100**
-- ETF flow contribution: **49.96 / 100**, reliability **70.6 / 100**
+- ETF flow contribution: **49.84 / 100**, reliability **71.05 / 100**
 - Breadth: **healthy**; above 50DMA `56.67%`, above 200DMA `72.88%`
 - Top sector score: **Healthcare** `66.18`
 - Top theme score: **Energy** `60.09`
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 63.13 | Mild Risk-On |
+| Overall regime | 63.41 | Mild Risk-On |
 | equity_trend | 82.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.62 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 60.4 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 53.77 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 53.8 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 57.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 49.97 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 81.88 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=82.5, news_confirmation=81.88, volatility=80.0, market_breadth=60.4 |
+| etf_flow | 49.89 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| news_confirmation | 87.5 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=87.5, equity_trend=82.5, volatility=80.0, market_breadth=60.4 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.86 | -0.81 | 2026-08-03 | closed |
 | ^SKEW | CBOE SKEW Index | 139.96 | -0.9 | 2026-08-03 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.26 | -0.0 | 2026-08-04 | live as of 4 August 2026, 14:00:39 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.31 | 0.03 | 2026-08-04 | live as of 4 August 2026, 14:00:39 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.4 | 0.15 | 2026-08-04 | live as of 4 August 2026, 14:00:39 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.55 | 0.26 | 2026-08-04 | live as of 4 August 2026, 14:00:39 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.7 | 0.26 | 2026-08-04 | live as of 4 August 2026, 14:00:39 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.25 | 0.28 | 2026-08-04 | live as of 4 August 2026, 14:00:39 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.24 | 0.3 | 2026-08-04 | live as of 4 August 2026, 14:00:39 (HKT) |
-| HK50 | Hang Seng Futures | 25815.5 | -0.64 | 2026-08-04 | live as of 4 August 2026, 14:00:39 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.25 | -0.1 | 2026-08-04 | live as of 4 August 2026, 15:00:38 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.31 | -0.14 | 2026-08-04 | live as of 4 August 2026, 15:00:38 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.4 | -0.05 | 2026-08-04 | live as of 4 August 2026, 15:00:38 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.54 | -0.0 | 2026-08-04 | live as of 4 August 2026, 15:00:38 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.69 | 0.04 | 2026-08-04 | live as of 4 August 2026, 15:00:38 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.24 | 0.05 | 2026-08-04 | live as of 4 August 2026, 15:00:38 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.23 | 0.07 | 2026-08-04 | live as of 4 August 2026, 15:00:38 (HKT) |
+| HK50 | Hang Seng Futures | 25847.0 | -0.52 | 2026-08-04 | live as of 4 August 2026, 15:00:38 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 970.6 | -2.19 | 2026-08-03 | closed |
 | CIHc1 | SSE 50 Futures | 2874.2 | -1.37 | 2026-08-03 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.31 | -0.21 | 2026-08-03 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 82.19 | -0.07 | 2026-08-03 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 92.82 | -0.14 | 2026-08-03 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.77 | -0.28 | 2026-08-03 | closed |
-| GC=F | Gold Future | 4117.0 | 1.68 | 2026-08-04 | live as of 4 August 2026, 14:00:39 (HKT) |
-| SI=F | Silver Future | 59.21 | 2.81 | 2026-08-04 | live as of 4 August 2026, 14:00:39 (HKT) |
-| CL=F | WTI Crude Oil Future | 81.19 | -4.11 | 2026-08-04 | live as of 4 August 2026, 14:00:39 (HKT) |
-| HG=F | Copper Future | 6.61 | 2.66 | 2026-08-04 | live as of 4 August 2026, 14:00:39 (HKT) |
+| GC=F | Gold Future | 4118.3 | 1.71 | 2026-08-04 | live as of 4 August 2026, 15:00:38 (HKT) |
+| SI=F | Silver Future | 59.1 | 2.63 | 2026-08-04 | live as of 4 August 2026, 15:00:38 (HKT) |
+| CL=F | WTI Crude Oil Future | 80.72 | -4.67 | 2026-08-04 | live as of 4 August 2026, 15:00:38 (HKT) |
+| HG=F | Copper Future | 6.58 | 2.32 | 2026-08-04 | live as of 4 August 2026, 15:00:38 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 65, 'negative': 14, 'neutral': 1}
-- News confirmation score: `81.88`
+- Sentiment counts: {'positive': 70, 'negative': 10, 'neutral': 0}
+- News confirmation score: `87.5`
 
 ### Top Market-Moving Headlines
 
@@ -342,7 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `61.77`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. AI is helping Grab ship products 3 times faster, CFO says, as company raises forecasts**
+**2. AI is helping Grab ship products more than 30% faster, CFO says, as company raises forecasts**
 - Source: CNBC Technology
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -358,7 +358,39 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Diamondback Energy Lifts Production Guidance, Reports Surging Profit on High Oil Prices**
+**4. BP profit more than doubles as Trump blasts Big Oil for ‘making too much money’**
+- Source: CNBC Business News
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: BP, U.S, energy, political, oil prices
+- Score: `48.0`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. Saudi Aramco profits jump 33% in second quarter as Iran war squeezes oil supply**
+- Source: CNBC Business News
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: SAULC, oil, profits, supply
+- Score: `48.0`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. Saudi Aramco Profit Jumps 33% on Higher Oil Prices Amid Iran War**
+- Source: Dow Jones US Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: SAULL.L, SAAV.F, oil_prices, crude_oil
+- Score: `45.0`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. Toyota Net Profit Surges 76%, Boosts Earnings Outlook**
+- Source: Dow Jones US Business
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: TOYOF, automobiles, profitability, electric vehicles
+- Score: `44.0`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**8. Diamondback Energy Lifts Production Guidance, Reports Surging Profit on High Oil Prices**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -366,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Palantir’s stock climbs after earnings, as AI drives turbocharged growth**
+**9. Palantir’s stock climbs after earnings, as AI drives turbocharged growth**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -374,45 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `42.27`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**6. California's diesel prices have jumped since the Iran war started, with ripple effects across the country**
+**10. California's diesel prices have jumped since the Iran war started, with ripple effects across the country**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: energy_prices, geopolitical_risk
 - Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**7. Manufacturing survey shows inflation worries 'worse than pandemic era,' adding to Fed pressure**
-- Source: CNBC Business
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: inflation
-- Score: `40.8`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. Amazon tops $3 trillion market cap as stock continues post-earnings surge**
-- Source: CNBC Investing
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: AMZN, technology, market capitalization
-- Score: `40.15`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**9. AMD has these two big engines roaring as it heads into earnings Tuesday**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: AMD, earnings
-- Score: `37.05`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. SpaceX’s first-ever earnings report is a big deal — but not just for the numbers**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: SPACE, SpaceX, earnings report
-- Score: `37.05`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
@@ -439,7 +439,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Sector cyclicality flow: `47.5`
 - Duration/liquidity flow: `44.3`
 - Alternatives: `defensive or uncertainty hedge`
-- ETF flow reliability: `70.6 / 100`
+- ETF flow reliability: `71.0 / 100`
 - Dominant allocation direction: `mixed allocation`
 
 ### Core Flow Signals
@@ -492,10 +492,10 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 | --- | --- | --- | --- | --- |
 | medium | related_subsector_divergence | XLI | ITA | defense-specific demand differs from broad industrials |
 | medium | related_subsector_divergence | XLK | SOXX | technology differs from semiconductors |
+| high | close_substitute_divergence | IVV | SPY | primary representative differs from close substitute |
 | high | close_substitute_divergence | AGG | IUSB | primary representative differs from close substitute |
 | high | close_substitute_divergence | HYG | JNK | primary representative differs from close substitute |
-| high | close_substitute_divergence | IWF | IVW | primary representative differs from close substitute |
-| high | close_substitute_divergence | IWD | IVE | primary representative differs from close substitute |
+| high | close_substitute_divergence | IVV | SPY | primary representative differs from close substitute |
 
 
 ## Contradiction / Audit Flags
@@ -509,7 +509,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `26`
+- Live macro rows used: `24`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
