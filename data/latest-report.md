@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 4 August 2026, 21:05:25 (HKT)
+Generated at: 4 August 2026, 21:07:44 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **63.32 / 100** (Mild Risk-On)
+- Regime score: **63.38 / 100** (Mild Risk-On)
 - US equity strength: **71.39 / 100** (constructive)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **49.84 / 100**, reliability **71.05 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 63.32 | Mild Risk-On |
+| Overall regime | 63.38 | Mild Risk-On |
 | equity_trend | 82.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.62 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 60.4 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.2 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 57.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.89 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 83.75 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=83.75, equity_trend=82.5, volatility=80.0, market_breadth=60.4 |
+| news_confirmation | 85.0 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=85.0, equity_trend=82.5, volatility=80.0, market_breadth=60.4 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 67, 'negative': 13, 'neutral': 0}
-- News confirmation score: `83.75`
+- Sentiment counts: {'positive': 68, 'negative': 12, 'neutral': 0}
+- News confirmation score: `85.0`
 
 ### Top Market-Moving Headlines
 
