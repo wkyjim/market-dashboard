@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 5 August 2026, 12:10:02 (HKT)
+Generated at: 5 August 2026, 12:12:47 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -243,8 +243,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cybersecurity | 70.95 | strong uptrend | positive | broad | 50.0 | 0.0 | 63.22 | CIBR | CIBR |
 | 2 | Financials | 67.38 | strong uptrend | positive | broad | 57.6 | 65.0 | 52.8 | PYPL, ARES, IVZ | COIN, PGR, HOOD |
-| 3 | Industrials | 66.92 | strong uptrend | neutral | broad | 50.0 | 0.0 | 50.1 | LDOS, ALLE, WAB | ROL, CHRW, LII |
-| 4 | Technology | 66.74 | strong uptrend | neutral | broad | 46.49 | 65.0 | 50.69 | ZBRA, IT, CTSH | FICO, APP, IBM |
+| 3 | Technology | 67.22 | strong uptrend | neutral | broad | 46.49 | 65.0 | 50.69 | ZBRA, IT, CTSH | FICO, APP, IBM |
+| 4 | Industrials | 66.92 | strong uptrend | neutral | broad | 50.0 | 0.0 | 50.1 | LDOS, ALLE, WAB | ROL, CHRW, LII |
 | 5 | Grid Infrastructure | 65.69 | strong uptrend | neutral | broad | 50.0 | 0.0 | 46.11 | GRID | GRID |
 | 6 | Defense | 65.46 | strong uptrend | neutral | broad | 50.0 | 0.0 | 49.47 | XAR | XAR |
 | 7 | Consumer Staples | 64.7 | strong uptrend | neutral | broad | 50.0 | 0.0 | 46.95 | TGT, DG, TAP | BG, PEP, MO |
@@ -286,8 +286,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- |
 | Cybersecurity | Cybersecurity | 70.95 | strong | 57.79 | positive | sector and theme confirmation |
 | Financials | Financials | 67.38 | strong | 60.78 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 67.22 | strong | 57.35 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 66.92 | strong | 54.23 | mixed | sector stronger than related themes |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.74 | strong | 57.35 | positive | sector and theme confirmation |
 | Grid Infrastructure | Grid Infrastructure | 65.69 | strong | 50.58 | mixed | sector stronger than related themes |
 | Defense | Defense | 65.46 | strong | 57.88 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 64.7 | positive | 52.23 | mixed | sector stronger than related themes |
