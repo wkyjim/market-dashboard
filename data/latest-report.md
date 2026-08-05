@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 5 August 2026, 22:02:13 (HKT)
+Generated at: 5 August 2026, 22:03:46 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -366,15 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.88`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**5. Chip Maker Infineon Forecasts Strong Revenue Growth on Booming AI Demand**
-- Source: Dow Jones US Business
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / current fiscal year
-- Affected assets: AI, semiconductor
-- Score: `43.03`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**6. Lilly’s revenue soars 48%, driven by demand for its GLP-1s**
+**5. Lilly’s revenue soars 48%, driven by demand for its GLP-1s**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.68`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts**
+**6. China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts**
 - Source: CNBC Technology
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.02`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. Honda Doubles Profit, Lifts Guidance on Weak Yen**
+**7. Honda Doubles Profit, Lifts Guidance on Weak Yen**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / quarterly
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. Caterpillar’s stock gives the Dow a 200-point boost as data-center demand drives record revenue**
+**8. Caterpillar’s stock gives the Dow a 200-point boost as data-center demand drives record revenue**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. CNBC Daily Open: Markets rally on hopes of Iran-U.S. Strait of Hormuz deal**
+**9. CNBC Daily Open: Markets rally on hopes of Iran-U.S. Strait of Hormuz deal**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: CNBC, U.S, Geopolitics, Energy
 - Score: `36.74`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Chip Maker Infineon Forecasts Strong Revenue Growth on Booming AI Demand**
+- Source: Dow Jones US Business
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / current fiscal year
+- Affected assets: AI, semiconductor
+- Score: `36.58`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
