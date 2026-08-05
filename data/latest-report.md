@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 6 August 2026, 03:06:22 (HKT)
+Generated at: 6 August 2026, 03:11:41 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **67.62 / 100** (Moderate Risk-On)
+- Regime score: **67.69 / 100** (Moderate Risk-On)
 - US equity strength: **80.99 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **48.65 / 100**, reliability **71.05 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 67.62 | Moderate Risk-On |
+| Overall regime | 67.69 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.05 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.74 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 56.1 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.04 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 86.88 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, news_confirmation=86.88, volatility=80.0, market_breadth=73.74 |
+| news_confirmation | 88.12 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, news_confirmation=88.12, volatility=80.0, market_breadth=73.74 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -244,7 +244,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Cybersecurity | 72.22 | strong uptrend | positive | broad | 62.71 | 65.0 | 63.22 | CIBR | CIBR |
 | 2 | Financials | 67.83 | strong uptrend | positive | broad | 62.06 | 90.0 | 52.8 | PYPL, ARES, IVZ | COIN, PGR, HOOD |
 | 3 | Grid Infrastructure | 67.57 | strong uptrend | neutral | broad | 68.74 | 65.0 | 46.11 | GRID | GRID |
-| 4 | Technology | 67.25 | strong uptrend | neutral | broad | 48.78 | 90.0 | 50.69 | ZBRA, IT, CTSH | FICO, APP, IBM |
+| 4 | Technology | 67.21 | strong uptrend | neutral | broad | 48.78 | 90.0 | 50.69 | ZBRA, IT, CTSH | FICO, APP, IBM |
 | 5 | Industrials | 66.94 | strong uptrend | neutral | broad | 50.15 | 65.0 | 50.1 | LDOS, ALLE, WAB | ROL, CHRW, LII |
 | 6 | Consumer Staples | 65.94 | strong uptrend | neutral | broad | 62.42 | 65.0 | 46.95 | TGT, DG, TAP | BG, PEP, MO |
 | 7 | Healthcare | 65.09 | strong uptrend | neutral | broad | 83.04 | 100.0 | 49.88 | BAX, DXCM, SOLV | ELV, ISRG, MRNA |
@@ -287,7 +287,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 72.22 | strong | 59.06 | positive | sector and theme confirmation |
 | Financials | Financials | 67.83 | strong | 61.22 | positive | sector and theme confirmation |
 | Grid Infrastructure | Grid Infrastructure | 67.57 | strong | 52.45 | mixed | sector stronger than related themes |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 67.25 | strong | 57.35 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 67.21 | strong | 57.35 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 66.94 | strong | 54.81 | mixed | sector stronger than related themes |
 | Consumer Staples | Dividend Defensives | 65.94 | strong | 52.23 | mixed | sector stronger than related themes |
 | Healthcare | Healthcare Innovation | 65.09 | strong | 56.79 | positive | sector and theme confirmation |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 67, 'negative': 8, 'neutral': 5}
-- News confirmation score: `86.88`
+- Sentiment counts: {'positive': 69, 'negative': 8, 'neutral': 3}
+- News confirmation score: `88.12`
 
 ### Top Market-Moving Headlines
 
