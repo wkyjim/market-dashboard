@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 5 August 2026, 17:04:34 (HKT)
+Generated at: 5 August 2026, 18:02:42 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.28 / 100** (Moderate Risk-On)
+- Regime score: **66.3 / 100** (Moderate Risk-On)
 - US equity strength: **80.99 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **48.65 / 100**, reliability **71.05 / 100**
@@ -17,14 +17,14 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.28 | Moderate Risk-On |
+| Overall regime | 66.3 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.05 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.74 | risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.03 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 55.39 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.04 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 86.25 | risk-on support; Weighted headline/news confirmation score. |
@@ -76,16 +76,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7736.52 | 1.79 | 2026-08-04 | closed |
 | ^IXIC | NASDAQ Composite | 26584.99 | 2.59 | 2026-08-04 | closed |
 | ^RUT | Russell 2000 Index | 3036.98 | 1.85 | 2026-08-04 | closed |
-| ^VIX | CBOE Volatility Index | 16.14 | -2.18 | 2026-08-05 | live as of 5 August 2026, 17:00:22 (HKT) |
+| ^VIX | CBOE Volatility Index | 16.3 | -1.21 | 2026-08-05 | live as of 5 August 2026, 18:00:33 (HKT) |
 | ^SKEW | CBOE SKEW Index | 126.41 | -9.68 | 2026-08-04 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.21 | 0.29 | 2026-08-05 | live as of 5 August 2026, 17:00:22 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.25 | 0.18 | 2026-08-05 | live as of 5 August 2026, 17:00:22 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.33 | -0.09 | 2026-08-05 | live as of 5 August 2026, 17:00:22 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.46 | -0.18 | 2026-08-05 | live as of 5 August 2026, 17:00:22 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.61 | -0.32 | 2026-08-05 | live as of 5 August 2026, 17:00:22 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.16 | -0.52 | 2026-08-05 | live as of 5 August 2026, 17:00:22 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.16 | -0.53 | 2026-08-05 | live as of 5 August 2026, 17:00:22 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.2 | 0.24 | 2026-08-05 | live as of 5 August 2026, 18:00:33 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.25 | 0.11 | 2026-08-05 | live as of 5 August 2026, 18:00:33 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.33 | -0.13 | 2026-08-05 | live as of 5 August 2026, 18:00:33 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.46 | -0.18 | 2026-08-05 | live as of 5 August 2026, 18:00:33 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.61 | -0.32 | 2026-08-05 | live as of 5 August 2026, 18:00:33 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.16 | -0.4 | 2026-08-05 | live as of 5 August 2026, 18:00:33 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.17 | -0.4 | 2026-08-05 | live as of 5 August 2026, 18:00:33 (HKT) |
 | HK50 | Hang Seng Futures | 25898.5 | -0.11 | 2026-08-05 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1050.2 | 5.02 | 2026-08-04 | closed |
 | CIHc1 | SSE 50 Futures | 2871.6 | -0.09 | 2026-08-04 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 82.82 | 0.77 | 2026-08-04 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 93.25 | 0.46 | 2026-08-04 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.87 | 0.12 | 2026-08-04 | closed |
-| GC=F | Gold Future | 4220.6 | 3.06 | 2026-08-05 | live as of 5 August 2026, 17:00:22 (HKT) |
-| SI=F | Silver Future | 61.74 | 2.8 | 2026-08-05 | live as of 5 August 2026, 17:00:22 (HKT) |
-| CL=F | WTI Crude Oil Future | 76.17 | 0.53 | 2026-08-05 | live as of 5 August 2026, 17:00:22 (HKT) |
-| HG=F | Copper Future | 6.64 | 0.33 | 2026-08-05 | live as of 5 August 2026, 17:00:22 (HKT) |
+| GC=F | Gold Future | 4216.7 | 2.96 | 2026-08-05 | live as of 5 August 2026, 18:00:33 (HKT) |
+| SI=F | Silver Future | 61.76 | 2.83 | 2026-08-05 | live as of 5 August 2026, 18:00:33 (HKT) |
+| CL=F | WTI Crude Oil Future | 76.36 | 0.78 | 2026-08-05 | live as of 5 August 2026, 18:00:33 (HKT) |
+| HG=F | Copper Future | 6.65 | 0.42 | 2026-08-05 | live as of 5 August 2026, 18:00:33 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,24 +325,16 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=16.14 pct_chg=-2.18
+- VIX close=16.3 pct_chg=-1.21
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 68, 'negative': 10, 'neutral': 2}
+- Sentiment counts: {'positive': 67, 'negative': 9, 'neutral': 4}
 - News confirmation score: `86.25`
 
 ### Top Market-Moving Headlines
 
-**1. Energy shock delivers 144% boost in profits for BP**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: BP, profit, energy
-- Score: `76.71`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Oil prices slump as Qatar and Bessent note talks to reopen Strait of Hormuz**
+**1. Oil prices slump as Qatar and Bessent note talks to reopen Strait of Hormuz**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -350,7 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts**
+**2. China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts**
 - Source: CNBC Technology
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -358,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.9`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**4. CNBC Daily Open: Markets rally on hopes of Iran-U.S. Strait of Hormuz deal**
+**3. CNBC Daily Open: Markets rally on hopes of Iran-U.S. Strait of Hormuz deal**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.23`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Chip Maker Infineon Forecasts Strong Revenue Growth on Booming AI Demand**
+**4. Chip Maker Infineon Forecasts Strong Revenue Growth on Booming AI Demand**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / current fiscal year
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. Manufacturing survey shows inflation worries 'worse than pandemic era,' adding to Fed pressure**
+**5. Manufacturing survey shows inflation worries 'worse than pandemic era,' adding to Fed pressure**
 - Source: CNBC Business
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Saudi Aramco’s Bumper $33 Billion Profit Gives Kingdom’s Finances a Boost**
+**6. Saudi Aramco’s Bumper $33 Billion Profit Gives Kingdom’s Finances a Boost**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.25`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Toyota Raises Earnings Guidance, Announces More Than $6 Billion Buyback**
+**7. Toyota Raises Earnings Guidance, Announces More Than $6 Billion Buyback**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.4`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. Caterpillar’s stock gives the Dow a 200-point boost as data-center demand drives record revenue**
+**8. Caterpillar’s stock gives the Dow a 200-point boost as data-center demand drives record revenue**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. Palantir stock skyrockets 29%, narrowly missing its best day ever after 'otherworldly' results**
+**9. Palantir stock skyrockets 29%, narrowly missing its best day ever after 'otherworldly' results**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: PAL, technology, AI
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. BP to Sell U.S. Biogas Unit as Oil Profits Surge**
+- Source: Dow Jones US Business
+- Importance / impact: Medium / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: BP, U.S, oil trading, conflict
+- Score: `35.22`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
