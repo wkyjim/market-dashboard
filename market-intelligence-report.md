@@ -1,15 +1,15 @@
 # Market Intelligence Report
 
-**Report Date:** 2026-08-05  
-**Data Cutoff:** 2026-08-05 18:16 HKT (live observations generally 18:00 HKT; US cash close 2026-08-04)  
+**Report Date:** 2026-08-06  
+**Data Cutoff:** 2026-08-06 06:20 HKT (dashboard generated 06:15 HKT; US cash close 2026-08-05)  
 **Short-Term Horizon:** Next 1–3 months  
 **Long-Term Horizon:** Next 6–12 months  
 
 ## Executive Summary
 
-**Regime:** Moderate risk-on, broadening participation, with a late-cycle inflation/term-premium overlay (confidence 7/10). The dashboard regime score is 66.2/100; 73.3% of tracked constituents are above their 50-day average and 72.9% above their 200-day average. The August 4 cash move was broad: S&P 500 +1.79% to 7,736.52, Nasdaq +2.59%, Russell 2000 +1.85%, and equal-weight S&P +1.44%. The live August 5 tape remains constructive (ES +0.30%, RTY +0.19%, VIX 16.3) but is not a US cash close.
+**Regime:** Moderate risk-on, broadening participation, with a late-cycle inflation/term-premium overlay (confidence 7/10). The dashboard regime score is 67.9/100; 76.7% of tracked constituents are above their 50-day average and 72.9% above their 200-day average. The August 5 close was a contained pullback after the prior broad advance: S&P 500 -0.17% to 7,723.55, Nasdaq -0.83%, Russell 2000 -0.59%, and equal-weight S&P -0.23%. The trend remains intact—SPY is above its 5/20/50/200-day averages—but the day’s tech/small-cap weakness argues against increasing tactical beta before the data cluster.
 
-**Short term — Neutral US equities (confidence 6/10):** maintain positive but selective beta. Strong breadth, credit proxies (HYG +0.30%, LQD +0.61% on August 4) and falling long yields support cyclicals/quality; gold +2.96% intraday and a 5.17% 30-year yield argue for retained convexity. Overweight Financials, Industrials, Health Care and Staples; underweight Utilities, Real Estate, Communication Services and modestly Technology. Upside is possible, but the earnings/valuation, oil and Treasury-supply tests remain live.
+**Short term — Neutral US equities (confidence 6/10):** maintain positive but selective beta. Breadth, Financials and Industrials support cyclicals/quality, while HYG/JNK slipped 0.04%/0.08%, gold surged 5.19%, and the 30-year yield remains 5.17%. These are not stress readings, but they warrant retained convexity and a smaller technology/semiconductor risk budget. Overweight Financials, Industrials, Health Care and Staples; underweight Utilities, Real Estate, Communication Services and modestly Technology.
 
 **Long term — Overweight US equities (confidence 6/10):** favor profitable, cash-generative businesses and industrial/financial beneficiaries of nominal growth and investment. Do not underwrite broad multiple expansion: inflation is still above a comfortable target in the last available June readings and the 2s30s curve is steep (96bp on the live tape). A sustained rise in long yields or weakening earnings breadth would lower this stance.
 
@@ -33,7 +33,7 @@
 
 ### Short-Term Scenarios: 1–3 Months
 
-*Ranges are trading ranges from the August 4 S&P 500 close of 7,736.5, not period-end targets.*
+*Ranges are trading ranges from the August 5 S&P 500 close of 7,723.5, not period-end targets.*
 
 | Scenario | Probability | Assumptions / S&P 500 trading range | Leadership, confirmation and invalidation |
 |---|---:|---|---|
@@ -55,7 +55,7 @@
 
 ### Short-Term Macro View
 
-Growth evidence is constructive but uneven: July ISM manufacturing was 55.6, while the latest stored labor data show June payroll growth of 57k and a 4.2% unemployment rate. The latest official June inflation set is mixed: core PCE 3.29% y/y, core PPI 4.68% y/y, but falling headline oil-sensitive measures. The transmission is favorable for banks/cyclicals if long rates ease without a growth break; it is negative for long-duration equities if term premium rises. Bull case: lower WTI ($76.36 live) pulls inflation down. Bear case: gold at $4,216.7 and a 5.17% 30Y flag fiscal/geopolitical hedging. Confirmation: productivity (Aug 6), payrolls (Aug 7), CPI (Aug 12), PPI (Aug 13). Confidence 6/10.
+Growth evidence is constructive but uneven: July ISM manufacturing was 55.6, while the latest stored labor data show June payroll growth of 57k and a 4.2% unemployment rate. The latest official June inflation set is mixed: core PCE 3.29% y/y, core PPI 4.68% y/y, but falling headline oil-sensitive measures. The transmission is favorable for banks/cyclicals if long rates ease without a growth break; it is negative for long-duration equities if term premium rises. Bull case: WTI fell 0.91% to $75.08. Bear case: gold rose 5.19% to $4,308 while the 30Y remained 5.17%, flagging fiscal/geopolitical hedging. Confirmation: productivity (Aug 6), payrolls (Aug 7), CPI (Aug 12), PPI (Aug 13). Confidence 6/10.
 
 ### Long-Term Macro View
 
@@ -65,21 +65,21 @@ The curve remains steep — 2Y 4.20%, 10Y 4.61%, 30Y 5.17% — which favors fina
 
 | Signal | Short-term read | Long-term read | Confidence |
 |---|---|---|---:|
-| Equities/breadth | SPY, QQQ, IWM and RSP rose together; confirms risk-on | Broad participation improves durability | 7 |
-| Rates | 10Y -1.5bp and 30Y -2.1bp live; still high in level | 2s30s +96bp is a term-premium risk | 6 |
-| Credit | HYG, JNK +0.31%; LQD +0.61% Aug 4 | No direct live OAS: do not infer complacency | 5 |
-| Commodities | Copper +0.42%, WTI +0.78%, gold +2.96% live | Gold/long-end rates warrant a hedge budget | 6 |
-| Volatility | VIX 16.3 and SKEW down strongly | Low implied volatility can reverse around data | 6 |
+| Equities/breadth | S&P -0.17%, Nasdaq -0.83%, Russell -0.59%, but 76.7% remain above 50DMA | Broad participation improves durability if it survives payrolls/CPI | 7 |
+| Rates | 2Y/10Y/30Y at 4.19%/4.61%/5.17%; all fell modestly | 2s30s +98bp is a term-premium risk | 6 |
+| Credit | HYG -0.04%, JNK -0.08%, LQD -0.02% | No direct live OAS: do not infer complacency | 5 |
+| Commodities | Copper +1.96%, WTI -0.91%, gold +5.19% | Gold/long-end rates warrant a hedge budget | 6 |
+| Volatility | VIX 15.81 (-4.18%), SKEW 133.3 (+5.47%) | Cheap front-end volatility but elevated tail-demand signal | 6 |
 
 ## Broad US Equities View
 
 | Segment | Short-term | Long-term | Drivers / invalidation | Confidence |
 |---|---|---|---|---:|
 | S&P 500 | Neutral | Overweight | SPY above all key averages; invalidate tactical stance on breadth <45% | 6 |
-| Nasdaq 100 / Growth | Neutral | Overweight selective | QQQ +7.16% 5D but technology volatility high; invalidate on rates >4.9% | 6 |
-| Equal weight | Overweight | Overweight | RSP at 52-week high and breadth broad; invalidate on renewed cap-weight divergence | 7 |
+| Nasdaq 100 / Growth | Neutral | Overweight selective | QQQ -0.90% on Aug 5 but +8.40% 5D; technology volatility high; invalidate on rates >4.9% | 6 |
+| Equal weight | Overweight | Overweight | RSP at its 52-week high intraday and breadth broad; invalidate on renewed cap-weight divergence | 7 |
 | Russell 2000 | Neutral | Overweight | IWM near 52-week high; sensitive to funding costs | 6 |
-| Value / Quality | Overweight | Overweight | IWD RSI 71 and 60D +10.6%; avoid chasing, prefer quality | 7 |
+| Value / Quality | Overweight | Overweight | IWD RSI 66.4 and 60D +9.5%; avoid chasing, prefer quality | 7 |
 | High beta / low quality | Underweight | Neutral | Good tape but vulnerable to yield/volatility shock | 6 |
 
 ## Factor Analysis
@@ -103,11 +103,11 @@ Large caps lead small caps over 20D by 1.3 points, but August 4 participation wa
 
 | Rank ST / LT | Sector | ST / LT recommendation | Evidence, catalyst, invalidation | Confidence |
 |---|---|---|---|---:|
-| 1 / 1 | Financials | Overweight / Overweight | XLF 60D +12.3%, 91.8% above 50DMA, positive flows; invalidate if curve flattens via growth scare | 8 |
+| 1 / 1 | Financials | Overweight / Overweight | XLF 60D +13.2%, 93.2% above 50DMA, positive flows; invalidate if curve flattens via growth scare | 8 |
 | 2 / 2 | Industrials | Overweight / Overweight | XLI at 52-week high, volume 1.54x 20D; invalidate if ISM/Capex weakens | 7 |
 | 3 / 4 | Health Care | Overweight / Overweight | 84.8% breadth, favorable flows; price momentum mixed; invalidate on breadth reversal | 7 |
 | 4 / 5 | Staples | Overweight / Neutral | Structural accumulation and defensive ballast; invalidate if growth/rates ease materially | 6 |
-| 5 / 3 | Technology | Neutral / Overweight | XLK +9.2% 5D but volatile; semis flows positive; invalidate LT on capex/earnings miss | 7 |
+| 5 / 3 | Technology | Neutral / Overweight | XLK +11.6% 5D but volatile; semis fell 1–2% on Aug 5 despite positive flow signals; invalidate LT on capex/earnings miss | 7 |
 | 6 / 6 | Energy | Neutral / Overweight | XLE 20D +7.1%, but sell-flow signal and oil uncertainty; invalidate if WTI <70 with weak demand | 6 |
 | 7 / 7 | Discretionary | Neutral / Neutral | Strong XLY flow but weak 60D; catalyst consumer data; invalidate on labor deterioration | 5 |
 | 8 / 8 | Materials | Underweight / Neutral | Weak flows despite copper; upgrade only with confirmed global demand | 5 |
@@ -210,8 +210,8 @@ Large caps lead small caps over 20D by 1.3 points, but August 4 participation wa
 
 | Source | Date | Subject | URL |
 |---|---|---|---|
-| Market Dashboard | 2026-08-05 18:16 HKT | Primary market, breadth, flows, macro and cross-asset state | https://wkyjim.github.io/market-dashboard/data/latest-report.md |
-| US Equities API OpenAPI / live endpoints | 2026-08-05 18:00 HKT | API field validation; ETF technicals and live market tape | https://postgresql-us-equities-api.onrender.com/openapi.json |
+| Market Dashboard | 2026-08-06 06:15 HKT | Primary market, breadth, flows, macro and cross-asset state | https://wkyjim.github.io/market-dashboard/data/latest-report.md |
+| US Equities API OpenAPI / endpoints | 2026-08-06 06:20 HKT | API field validation; Aug 5 ETF technicals and market tape | https://postgresql-us-equities-api.onrender.com/openapi.json |
 | Bureau of Labor Statistics | 2026 schedule | Verified CPI, PPI, productivity and employment dates | https://www.bls.gov/schedule/2026/home.htm |
 | Institute for Supply Management | July 2026 | Manufacturing PMI context | https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/july/ |
 | Federal Reserve | 2026 calendar | Monetary-policy calendar | https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm |
