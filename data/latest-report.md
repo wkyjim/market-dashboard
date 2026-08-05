@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 5 August 2026, 15:07:40 (HKT)
+Generated at: 5 August 2026, 15:11:54 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -244,16 +244,16 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Cybersecurity | 72.22 | strong uptrend | positive | broad | 62.71 | 65.0 | 63.22 | CIBR | CIBR |
 | 2 | Financials | 67.83 | strong uptrend | positive | broad | 62.06 | 90.0 | 52.8 | PYPL, ARES, IVZ | COIN, PGR, HOOD |
 | 3 | Grid Infrastructure | 67.57 | strong uptrend | neutral | broad | 68.74 | 65.0 | 46.11 | GRID | GRID |
-| 4 | Technology | 67.45 | strong uptrend | neutral | broad | 48.78 | 90.0 | 50.69 | ZBRA, IT, CTSH | FICO, APP, IBM |
+| 4 | Technology | 67.44 | strong uptrend | neutral | broad | 48.78 | 90.0 | 50.69 | ZBRA, IT, CTSH | FICO, APP, IBM |
 | 5 | Industrials | 66.94 | strong uptrend | neutral | broad | 50.15 | 65.0 | 50.1 | LDOS, ALLE, WAB | ROL, CHRW, LII |
 | 6 | Consumer Staples | 65.94 | strong uptrend | neutral | broad | 62.42 | 65.0 | 46.95 | TGT, DG, TAP | BG, PEP, MO |
 | 7 | Healthcare | 65.09 | strong uptrend | neutral | broad | 83.04 | 100.0 | 49.88 | BAX, DXCM, SOLV | ELV, ISRG, MRNA |
 | 8 | Defense | 64.74 | strong uptrend | neutral | broad | 42.85 | 65.0 | 49.47 | XAR | XAR |
 | 9 | Real Estate | 62.09 | strong uptrend | neutral | broad | 60.7 | 100.0 | 47.0 | WY, DLR, IRM | CPT, MAA, UDR |
-| 10 | Energy | 61.53 | uptrend | neutral | broad | 46.63 | 95.0 | 52.03 | MPC, VLO, PSX | TRGP, HAL, WMB |
+| 10 | Energy | 61.06 | uptrend | neutral | broad | 46.63 | 95.0 | 52.03 | MPC, VLO, PSX | TRGP, HAL, WMB |
 | 11 | Consumer Discretionary | 60.92 | uptrend | neutral | broad | 66.47 | 65.0 | 45.86 | GRMN, ULTA, HAS | YUM, TSLA, APTV |
 | 12 | Crypto | 51.43 | neutral | neutral | mixed | 64.25 | 65.0 | 50.0 |  |  |
-| 13 | Semiconductors | 50.91 | strong uptrend | neutral | weak | 59.07 | 90.0 | 48.46 | SMH, SOXX | SOXX, SMH |
+| 13 | Semiconductors | 51.42 | strong uptrend | neutral | weak | 59.07 | 90.0 | 48.46 | SMH, SOXX | SOXX, SMH |
 | 14 | Nuclear | 43.02 | strong downtrend | neutral | weak | 50.0 | 0.0 | 39.22 | NLR | NLR |
 | 15 | Utilities | 34.01 | strong downtrend | neutral | weak | 56.08 | 65.0 | 41.76 | CEG, PCG, AES | SRE, LNT, NRG |
 
@@ -262,14 +262,14 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Financials | 61.22 | Positive setup | 62.06 | 90.0 | 4.44 | True | False |
-| 2 | Energy | 60.83 | Positive setup | 46.63 | 95.0 | 2.32 | True | True |
-| 3 | Small Caps | 60.57 | Positive setup | 53.91 | 65.0 | 0.0 | True | False |
-| 4 | Quality Growth | 59.85 | Positive setup | 58.4 | 65.0 | 27.15 | False | False |
-| 5 | Cybersecurity | 59.06 | Positive setup | 62.71 | 65.0 | 3.11 | False | False |
-| 6 | AI Infrastructure | 58.65 | Positive setup | 59.07 | 90.0 | 28.46 | False | False |
+| 2 | Small Caps | 60.57 | Positive setup | 53.91 | 65.0 | 0.0 | True | False |
+| 3 | Quality Growth | 59.85 | Positive setup | 58.4 | 65.0 | 27.15 | False | False |
+| 4 | Cybersecurity | 59.06 | Positive setup | 62.71 | 65.0 | 3.11 | False | False |
+| 5 | AI Infrastructure | 58.65 | Positive setup | 59.07 | 90.0 | 28.46 | False | False |
+| 6 | Energy | 58.25 | Positive setup | 46.63 | 95.0 | 2.32 | False | False |
 | 7 | Defense | 57.16 | Neutral / watchlist | 42.85 | 65.0 | 9.62 | False | False |
 | 8 | Healthcare Innovation | 56.79 | Neutral / watchlist | 83.04 | 100.0 | 9.04 | False | False |
-| 9 | Semiconductors | 53.56 | Neutral / watchlist | 59.07 | 90.0 | 16.34 | False | False |
+| 9 | Semiconductors | 55.19 | Neutral / watchlist | 59.07 | 90.0 | 16.34 | False | True |
 | 10 | Grid Infrastructure | 52.45 | Neutral / watchlist | 68.74 | 65.0 | 17.4 | False | False |
 | 11 | Dividend Defensives | 52.23 | Neutral / watchlist | 54.17 | 65.0 | 4.08 | False | False |
 | 12 | Nuclear | 38.47 | Weak setup | 50.0 | 0.0 | 15.92 | False | False |
@@ -277,7 +277,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 - Top 5 improving themes: Cybersecurity, Financials, Healthcare Innovation, Defense, Semiconductors
 - Top 5 deteriorating themes: Crypto Infrastructure, Nuclear, Grid Infrastructure, Dividend Defensives, Energy
-- Strong news but weak price confirmation: none
+- Strong news but weak price confirmation: Semiconductors
 - Strong price but weak news confirmation: Financials, Small Caps
 
 ### Sector / Theme Alignment
@@ -287,16 +287,16 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 72.22 | strong | 59.06 | positive | sector and theme confirmation |
 | Financials | Financials | 67.83 | strong | 61.22 | positive | sector and theme confirmation |
 | Grid Infrastructure | Grid Infrastructure | 67.57 | strong | 52.45 | mixed | sector stronger than related themes |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 67.45 | strong | 57.35 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 67.44 | strong | 57.9 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 66.94 | strong | 54.81 | mixed | sector stronger than related themes |
 | Consumer Staples | Dividend Defensives | 65.94 | strong | 52.23 | mixed | sector stronger than related themes |
 | Healthcare | Healthcare Innovation | 65.09 | strong | 56.79 | positive | sector and theme confirmation |
 | Defense | Defense | 64.74 | positive | 57.16 | positive | sector and theme confirmation |
 | Real Estate | Dividend Defensives | 62.09 | positive | 52.23 | mixed | sector stronger than related themes |
-| Energy | Energy | 61.53 | positive | 60.83 | positive | sector and theme confirmation |
+| Energy | Energy | 61.06 | positive | 58.25 | positive | sector and theme confirmation |
 | Consumer Discretionary | Small Caps | 60.92 | positive | 60.57 | positive | sector and theme confirmation |
 | Crypto | Crypto Infrastructure | 51.43 | mixed | 31.87 | very weak | mixed confirmation |
-| Semiconductors | AI Infrastructure, Semiconductors | 50.91 | mixed | 56.1 | positive | theme stronger than official sector |
+| Semiconductors | AI Infrastructure, Semiconductors | 51.42 | mixed | 56.92 | positive | theme stronger than official sector |
 | Nuclear | Nuclear | 43.02 | weak | 38.47 | weak | broad weakness across sector and themes |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 34.01 | very weak | 47.71 | mixed | mixed confirmation |
 
@@ -307,13 +307,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Financials | 66.45 | Positive setup | relative_strength_60d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 2 | Small Caps | 64.5 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 3 | Quality Growth | 63.32 | Positive setup | trend_persistence, breadth, volume_accumulation | relative strength below SPY, breadth below 45%, news turns negative |
-| 4 | AI Infrastructure | 61.59 | Positive setup | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
-| 5 | Cybersecurity | 61.3 | Positive setup | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
-| 6 | Energy | 61.11 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 4 | Energy | 61.61 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 5 | AI Infrastructure | 61.59 | Positive setup | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
+| 6 | Cybersecurity | 61.3 | Positive setup | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 7 | Healthcare Innovation | 59.85 | Neutral / watchlist | trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 8 | Defense | 59.78 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
-| 9 | Semiconductors | 56.45 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
-| 10 | Dividend Defensives | 55.98 | Neutral / watchlist | trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 9 | Dividend Defensives | 55.98 | Neutral / watchlist | trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 10 | Semiconductors | 54.95 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
 | 11 | Grid Infrastructure | 52.84 | Neutral / watchlist | trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 12 | Nuclear | 34.9 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
 
@@ -500,7 +500,9 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 
 ## Contradiction / Audit Flags
 
-No contradiction flags were triggered by current deterministic rules.
+| Severity | Section | Issue | Deterministic Fix |
+| --- | --- | --- | --- |
+| low | Theme Strength Ranking | Semiconductors has strong news confirmation but weak price confirmation. | Classify as unconfirmed narrative. |
 
 ## Data Quality Notes
 
