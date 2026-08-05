@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 6 August 2026, 00:06:44 (HKT)
+Generated at: 6 August 2026, 00:11:41 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -244,7 +244,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Cybersecurity | 72.22 | strong uptrend | positive | broad | 62.71 | 65.0 | 63.22 | CIBR | CIBR |
 | 2 | Financials | 67.83 | strong uptrend | positive | broad | 62.06 | 90.0 | 52.8 | PYPL, ARES, IVZ | COIN, PGR, HOOD |
 | 3 | Grid Infrastructure | 67.57 | strong uptrend | neutral | broad | 68.74 | 65.0 | 46.11 | GRID | GRID |
-| 4 | Technology | 67.38 | strong uptrend | neutral | broad | 48.78 | 90.0 | 50.69 | ZBRA, IT, CTSH | FICO, APP, IBM |
+| 4 | Technology | 67.25 | strong uptrend | neutral | broad | 48.78 | 90.0 | 50.69 | ZBRA, IT, CTSH | FICO, APP, IBM |
 | 5 | Industrials | 66.94 | strong uptrend | neutral | broad | 50.15 | 65.0 | 50.1 | LDOS, ALLE, WAB | ROL, CHRW, LII |
 | 6 | Consumer Staples | 65.94 | strong uptrend | neutral | broad | 62.42 | 65.0 | 46.95 | TGT, DG, TAP | BG, PEP, MO |
 | 7 | Healthcare | 65.09 | strong uptrend | neutral | broad | 83.04 | 100.0 | 49.88 | BAX, DXCM, SOLV | ELV, ISRG, MRNA |
@@ -287,7 +287,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 72.22 | strong | 59.06 | positive | sector and theme confirmation |
 | Financials | Financials | 67.83 | strong | 61.22 | positive | sector and theme confirmation |
 | Grid Infrastructure | Grid Infrastructure | 67.57 | strong | 52.45 | mixed | sector stronger than related themes |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 67.38 | strong | 57.35 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 67.25 | strong | 57.35 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 66.94 | strong | 54.81 | mixed | sector stronger than related themes |
 | Consumer Staples | Dividend Defensives | 65.94 | strong | 52.23 | mixed | sector stronger than related themes |
 | Healthcare | Healthcare Innovation | 65.09 | strong | 56.79 | positive | sector and theme confirmation |
