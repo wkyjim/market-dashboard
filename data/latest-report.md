@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 5 August 2026, 10:11:27 (HKT)
+Generated at: 5 August 2026, 11:09:04 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -8,7 +8,7 @@ Window: 24h
 - Regime score: **62.94 / 100** (Mild Risk-On)
 - US equity strength: **80.99 / 100** (strong)
 - Evidence quality: **83.0 / 100**
-- ETF flow contribution: **49.58 / 100**, reliability **66.56 / 100**
+- ETF flow contribution: **49.58 / 100**, reliability **66.52 / 100**
 - Breadth: **broad**; above 50DMA `73.33%`, above 200DMA `72.88%`
 - Top sector score: **Cybersecurity** `70.95`
 - Top theme score: **Energy** `61.09`
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 16.5 | 4.04 | 2026-08-04 | closed |
 | ^SKEW | CBOE SKEW Index | 126.41 | -9.68 | 2026-08-04 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.21 | 0.34 | 2026-08-05 | live as of 5 August 2026, 10:00:25 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.26 | 0.24 | 2026-08-05 | live as of 5 August 2026, 10:00:25 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.34 | 0.07 | 2026-08-05 | live as of 5 August 2026, 10:00:25 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.47 | 0.06 | 2026-08-05 | live as of 5 August 2026, 10:00:25 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.62 | -0.11 | 2026-08-05 | live as of 5 August 2026, 10:00:25 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.17 | -0.2 | 2026-08-05 | live as of 5 August 2026, 10:00:25 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.18 | -0.22 | 2026-08-05 | live as of 5 August 2026, 10:00:25 (HKT) |
-| HK50 | Hang Seng Futures | 25833.5 | -0.36 | 2026-08-05 | live as of 5 August 2026, 10:00:25 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.19 | -0.1 | 2026-08-05 | live as of 5 August 2026, 11:00:48 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.23 | -0.26 | 2026-08-05 | live as of 5 August 2026, 11:00:48 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.32 | -0.41 | 2026-08-05 | live as of 5 August 2026, 11:00:48 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.45 | -0.47 | 2026-08-05 | live as of 5 August 2026, 11:00:48 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.6 | -0.56 | 2026-08-05 | live as of 5 August 2026, 11:00:48 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.15 | -0.62 | 2026-08-05 | live as of 5 August 2026, 11:00:48 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.16 | -0.63 | 2026-08-05 | live as of 5 August 2026, 11:00:48 (HKT) |
+| HK50 | Hang Seng Futures | 25872.5 | -0.21 | 2026-08-05 | live as of 5 August 2026, 11:00:48 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1050.2 | 5.02 | 2026-08-04 | closed |
 | CIHc1 | SSE 50 Futures | 2871.6 | -0.09 | 2026-08-04 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.55 | 0.3 | 2026-08-04 | closed |
@@ -439,7 +439,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Sector cyclicality flow: `54.7`
 - Duration/liquidity flow: `46.7`
 - Alternatives: `defensive or uncertainty hedge`
-- ETF flow reliability: `66.6 / 100`
+- ETF flow reliability: `66.5 / 100`
 - Dominant allocation direction: `mixed allocation`
 
 ### Core Flow Signals
