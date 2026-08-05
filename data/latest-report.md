@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 6 August 2026, 03:02:38 (HKT)
+Generated at: 6 August 2026, 03:04:48 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **67.69 / 100** (Moderate Risk-On)
+- Regime score: **67.62 / 100** (Moderate Risk-On)
 - US equity strength: **80.99 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **48.65 / 100**, reliability **71.05 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 67.69 | Moderate Risk-On |
+| Overall regime | 67.62 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.05 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.74 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 56.1 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.04 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 88.12 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, news_confirmation=88.12, volatility=80.0, market_breadth=73.74 |
+| news_confirmation | 86.88 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, news_confirmation=86.88, volatility=80.0, market_breadth=73.74 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 68, 'negative': 7, 'neutral': 5}
-- News confirmation score: `88.12`
+- Sentiment counts: {'positive': 67, 'negative': 8, 'neutral': 5}
+- News confirmation score: `86.88`
 
 ### Top Market-Moving Headlines
 
@@ -366,7 +366,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**5. CNBC Daily Open: Markets rally on hopes of Iran-U.S. Strait of Hormuz deal**
+**5. Flutter shares plummet on earnings miss and another key leadership change**
+- Source: CNBC Finance
+- Importance / impact: Medium / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: FLT, leadership change, earnings miss, market share decline
+- Score: `37.29`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**6. CNBC Daily Open: Markets rally on hopes of Iran-U.S. Strait of Hormuz deal**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.74`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Chip Maker Infineon Forecasts Strong Revenue Growth on Booming AI Demand**
+**7. Chip Maker Infineon Forecasts Strong Revenue Growth on Booming AI Demand**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / current fiscal year
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.58`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. Lilly’s revenue soars 48%, driven by demand for its GLP-1s**
+**8. Lilly’s revenue soars 48%, driven by demand for its GLP-1s**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. Palantir stock skyrockets 29%, narrowly missing its best day ever after 'otherworldly' results**
+**9. Palantir stock skyrockets 29%, narrowly missing its best day ever after 'otherworldly' results**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -398,20 +406,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. Eli Lilly easily tops quarterly estimates, raises outlook as Zepbound and Mounjaro sales surge**
+**10. Eli Lilly easily tops quarterly estimates, raises outlook as Zepbound and Mounjaro sales surge**
 - Source: CNBC Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / long-term
 - Affected assets: LLY, earnings report, pharmaceuticals
 - Score: `35.1`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. Shopify Signals Revenue Acceleration as AI Tools, Merchant Growth Drive Results**
-- Source: Dow Jones US Business
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: SHOP, AI, revenue acceleration
-- Score: `32.91`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
