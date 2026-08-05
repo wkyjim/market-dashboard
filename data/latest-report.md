@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 5 August 2026, 21:05:11 (HKT)
+Generated at: 5 August 2026, 21:07:15 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.79 / 100** (Moderate Risk-On)
+- Regime score: **66.82 / 100** (Moderate Risk-On)
 - US equity strength: **80.99 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **48.65 / 100**, reliability **71.05 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.79 | Moderate Risk-On |
+| Overall regime | 66.82 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.05 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.74 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.87 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.04 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 85.62 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, news_confirmation=85.62, market_breadth=73.74, volatility=70.0, commodity_confirmation=63.0 |
+| news_confirmation | 86.25 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, news_confirmation=86.25, market_breadth=73.74, volatility=70.0, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 67, 'negative': 10, 'neutral': 3}
-- News confirmation score: `85.62`
+- Sentiment counts: {'positive': 68, 'negative': 10, 'neutral': 2}
+- News confirmation score: `86.25`
 
 ### Top Market-Moving Headlines
 
@@ -374,7 +374,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. Dow rises, S&P 500 opens in record territory on hopes of U.S.-Iran deal**
+**6. Lilly’s revenue soars 48%, driven by demand for its GLP-1s**
+- Source: MarketWatch Bulletins
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: Lilly, GLP, revenue_growth, pharmaceuticals
+- Score: `41.68`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**7. Dow rises, S&P 500 opens in record territory on hopes of U.S.-Iran deal**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts**
+**8. China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts**
 - Source: CNBC Technology
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.02`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. Honda Doubles Profit, Lifts Guidance on Weak Yen**
+**9. Honda Doubles Profit, Lifts Guidance on Weak Yen**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / quarterly
@@ -398,21 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. Caterpillar’s stock gives the Dow a 200-point boost as data-center demand drives record revenue**
+**10. Caterpillar’s stock gives the Dow a 200-point boost as data-center demand drives record revenue**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: CAT, earnings beat, construction industry
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. CNBC Daily Open: Markets rally on hopes of Iran-U.S. Strait of Hormuz deal**
-- Source: CNBC Top News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: CNBC, U.S, Geopolitics, Energy
-- Score: `36.74`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
