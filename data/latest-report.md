@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 6 August 2026, 10:11:45 (HKT)
+Generated at: 6 August 2026, 11:08:24 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.81 | -4.18 | 2026-08-05 | closed |
 | ^SKEW | CBOE SKEW Index | 133.32 | 5.47 | 2026-08-05 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.19 | 0.2 | 2026-08-06 | live as of 6 August 2026, 10:00:36 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.24 | 0.14 | 2026-08-06 | live as of 6 August 2026, 10:00:36 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.32 | -0.0 | 2026-08-06 | live as of 6 August 2026, 10:00:36 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.46 | -0.09 | 2026-08-06 | live as of 6 August 2026, 10:00:36 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.61 | -0.13 | 2026-08-06 | live as of 6 August 2026, 10:00:36 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.16 | -0.18 | 2026-08-06 | live as of 6 August 2026, 10:00:36 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.16 | -0.18 | 2026-08-06 | live as of 6 August 2026, 10:00:36 (HKT) |
-| HK50 | Hang Seng Futures | 25414.5 | -1.04 | 2026-08-06 | live as of 6 August 2026, 10:00:36 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.19 | 0.25 | 2026-08-06 | live as of 6 August 2026, 11:00:34 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.24 | 0.2 | 2026-08-06 | live as of 6 August 2026, 11:00:34 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.33 | 0.08 | 2026-08-06 | live as of 6 August 2026, 11:00:34 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.46 | -0.0 | 2026-08-06 | live as of 6 August 2026, 11:00:34 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.62 | -0.02 | 2026-08-06 | live as of 6 August 2026, 11:00:34 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.17 | -0.13 | 2026-08-06 | live as of 6 August 2026, 11:00:34 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.16 | -0.16 | 2026-08-06 | live as of 6 August 2026, 11:00:34 (HKT) |
+| HK50 | Hang Seng Futures | 25476.5 | -0.8 | 2026-08-06 | live as of 6 August 2026, 11:00:34 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1003.05 | -3.74 | 2026-08-05 | closed |
 | CIHc1 | SSE 50 Futures | 2914.4 | 1.49 | 2026-08-05 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.52 | -0.04 | 2026-08-05 | closed |
@@ -334,15 +334,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. E.l.f. Beauty sees $50 million windfall in tariff refunds as profits surge 100%**
-- Source: CNBC Investing
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: E, profit_growth, tariff
-- Score: `57.38`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Block slashed 40% of its workforce for AI — and its earnings suggest that’s paying off**
+**1. Block slashed 40% of its workforce for AI — and its earnings suggest that’s paying off**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -350,7 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**3. Flutter CEO to Step Down as U.S. Sports-Betting Business Falters; Profit Outlook Cut**
+**2. Flutter CEO to Step Down as U.S. Sports-Betting Business Falters; Profit Outlook Cut**
 - Source: Dow Jones US Business
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -358,15 +350,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Lilly’s revenue soars 48%, driven by demand for its GLP-1s**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: LLY, GLP, pharmaceuticals, diabetes, weight loss
-- Score: `43.88`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+**3. E.l.f. Beauty sees $50 million windfall in tariff refunds as profits surge 100%**
+- Source: CNBC Investing
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: E, profit_growth, tariff
+- Score: `48.77`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts**
+**4. China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts**
 - Source: CNBC Technology
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -374,15 +366,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.02`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**6. Block Raises Outlook on Financial Solutions Growth**
-- Source: Dow Jones US Business
+**5. Lilly’s revenue soars 48%, driven by demand for its GLP-1s**
+- Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: financial solutions, growth outlook
-- Score: `38.25`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+- Relevance / horizon: single_name / short-term
+- Affected assets: LLY, GLP, pharmaceuticals, diabetes, weight loss
+- Score: `37.29`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. Walt Disney’s stock climbs as company cites ‘Toy Story 5’ for earnings growth**
+**6. Walt Disney’s stock climbs as company cites ‘Toy Story 5’ for earnings growth**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. We're downgrading Honeywell Aerospace after a shockingly bad earnings debut**
+**7. We're downgrading Honeywell Aerospace after a shockingly bad earnings debut**
 - Source: CNBC Investing
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**9. Flutter shares plummet on earnings miss and another key leadership change**
+**8. Flutter shares plummet on earnings miss and another key leadership change**
 - Source: CNBC Finance
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**10. CNBC Daily Open: Markets rally on hopes of Iran-U.S. Strait of Hormuz deal**
+**9. CNBC Daily Open: Markets rally on hopes of Iran-U.S. Strait of Hormuz deal**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: CNBC, U.S, Geopolitics, Energy
 - Score: `36.74`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Chip Maker Infineon Forecasts Strong Revenue Growth on Booming AI Demand**
+- Source: Dow Jones US Business
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / current fiscal year
+- Affected assets: AI, semiconductor
+- Score: `36.58`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
