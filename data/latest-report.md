@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 7 August 2026, 01:12:12 (HKT)
+Generated at: 7 August 2026, 02:07:32 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.39 / 100** (Moderate Risk-On)
+- Regime score: **66.34 / 100** (Moderate Risk-On)
 - US equity strength: **82.03 / 100** (strong)
 - Evidence quality: **79.5 / 100**
-- ETF flow contribution: **51.8 / 100**, reliability **71.67 / 100**
+- ETF flow contribution: **51.8 / 100**, reliability **71.51 / 100**
 - Breadth: **broad**; above 50DMA `76.67%`, above 200DMA `72.88%`
 - Top sector score: **Cybersecurity** `70.05`
 - Top theme score: **Financials** `62.37`
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.39 | Moderate Risk-On |
+| Overall regime | 66.34 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 53.14 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 75.4 | risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 53.52 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 53.64 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 43.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 51.29 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 77.5 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, volatility=80.0, news_confirmation=77.5, market_breadth=75.4 |
+| etf_flow | 51.28 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| news_confirmation | 76.25 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, volatility=80.0, news_confirmation=76.25, market_breadth=75.4 |
 | Negative contributors |  | commodity_confirmation=43.0 |
 
 ## US Equity Strength Score
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7714.37 | -0.12 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
-| ^IXIC | NASDAQ Composite | 26368.15 | 0.02 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
-| ^RUT | Russell 2000 Index | 3010.31 | -0.29 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
-| ^VIX | CBOE Volatility Index | 15.4 | -2.59 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
+| ^GSPC | S&P 500 | 7710.48 | -0.17 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
+| ^IXIC | NASDAQ Composite | 26350.51 | -0.05 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
+| ^RUT | Russell 2000 Index | 3009.15 | -0.33 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.36 | -2.85 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
 | ^SKEW | CBOE SKEW Index | 133.32 | 5.47 | 2026-08-05 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.24 | 1.54 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.3 | 1.59 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.39 | 1.5 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.52 | 1.36 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.67 | 1.19 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.22 | 0.92 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.21 | 0.76 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.24 | 1.54 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.3 | 1.63 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.39 | 1.5 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.52 | 1.36 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.67 | 1.21 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.22 | 0.94 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.22 | 0.83 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
 | HK50 | Hang Seng Futures | 25536.5 | -0.56 | 2026-08-06 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1003.05 | -3.74 | 2026-08-05 | closed |
 | CIHc1 | SSE 50 Futures | 2914.4 | 1.49 | 2026-08-05 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.44 | -0.11 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.28 | -0.44 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 95.59 | -0.08 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 218.63 | -0.5 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 123.8 | -0.07 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 255.93 | -0.08 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 82.5 | -0.6 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 92.95 | -0.39 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.81 | -0.1 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
-| GC=F | Gold Future | 4295.0 | 1.16 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
-| SI=F | Silver Future | 61.48 | -1.0 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
-| CL=F | WTI Crude Oil Future | 77.84 | 3.48 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
-| HG=F | Copper Future | 6.7 | -0.01 | 2026-08-06 | live as of 7 August 2026, 01:00:41 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.43 | -0.11 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.3 | -0.42 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 95.61 | -0.07 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 218.57 | -0.53 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 123.7 | -0.15 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 255.85 | -0.11 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 82.44 | -0.67 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 92.94 | -0.39 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.81 | -0.11 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
+| GC=F | Gold Future | 4301.1 | 1.3 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
+| SI=F | Silver Future | 61.66 | -0.7 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
+| CL=F | WTI Crude Oil Future | 77.25 | 2.7 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
+| HG=F | Copper Future | 6.71 | 0.09 | 2026-08-06 | live as of 7 August 2026, 02:00:36 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -247,7 +247,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 4 | Technology | 66.57 | strong uptrend | neutral | broad | 63.82 | 100.0 | 48.64 | ZBRA, IT, CTSH | APP, SNDK, IBM |
 | 5 | Healthcare | 66.0 | strong uptrend | neutral | broad | 82.8 | 100.0 | 52.74 | BAX, CRL, SOLV | PODD, DVA, MRNA |
 | 6 | Grid Infrastructure | 65.67 | strong uptrend | neutral | broad | 64.04 | 65.0 | 45.51 | GRID | GRID |
-| 7 | Defense | 64.34 | strong uptrend | neutral | broad | 43.18 | 65.0 | 50.61 | XAR | XAR |
+| 7 | Defense | 65.02 | strong uptrend | neutral | broad | 50.0 | 0.0 | 50.61 | XAR | XAR |
 | 8 | Consumer Staples | 62.55 | strong uptrend | neutral | broad | 55.09 | 65.0 | 47.51 | CLX, TGT, DG | KR, MO, BG |
 | 9 | Consumer Discretionary | 60.59 | uptrend | neutral | broad | 69.9 | 65.0 | 47.51 | GRMN, EXPE, DPZ | YUM, TSLA, APTV |
 | 10 | Real Estate | 58.18 | strong uptrend | neutral | broad | 44.62 | 90.0 | 48.43 | WY, DLR, HST | MAA, UDR, CCI |
@@ -267,7 +267,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 4 | Small Caps | 59.48 | Positive setup | 48.76 | 65.0 | 0.0 | False | False |
 | 5 | AI Infrastructure | 58.56 | Neutral / watchlist | 61.91 | 100.0 | 32.74 | False | False |
 | 6 | Cybersecurity | 58.53 | Neutral / watchlist | 65.04 | 65.0 | 8.39 | False | False |
-| 7 | Defense | 57.23 | Neutral / watchlist | 43.18 | 65.0 | 11.79 | False | False |
+| 7 | Defense | 57.91 | Neutral / watchlist | 50.0 | 0.0 | 11.79 | False | False |
 | 8 | Energy | 54.48 | Positive setup | 44.27 | 95.0 | 4.36 | False | False |
 | 9 | Semiconductors | 51.55 | Neutral / watchlist | 61.91 | 100.0 | 14.45 | False | False |
 | 10 | Grid Infrastructure | 51.54 | Neutral / watchlist | 64.04 | 65.0 | 17.7 | False | False |
@@ -286,11 +286,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- |
 | Cybersecurity | Cybersecurity | 70.05 | strong | 58.53 | positive | sector and theme confirmation |
 | Financials | Financials | 68.38 | strong | 62.37 | positive | sector and theme confirmation |
-| Industrials | Defense, Grid Infrastructure | 67.84 | strong | 54.39 | mixed | sector stronger than related themes |
+| Industrials | Defense, Grid Infrastructure | 67.84 | strong | 54.73 | mixed | sector stronger than related themes |
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.57 | strong | 57.04 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 66.0 | strong | 62.04 | positive | sector and theme confirmation |
 | Grid Infrastructure | Grid Infrastructure | 65.67 | strong | 51.54 | mixed | sector stronger than related themes |
-| Defense | Defense | 64.34 | positive | 57.23 | positive | sector and theme confirmation |
+| Defense | Defense | 65.02 | strong | 57.91 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 62.55 | positive | 51.3 | mixed | sector stronger than related themes |
 | Consumer Discretionary | Small Caps | 60.59 | positive | 59.48 | positive | sector and theme confirmation |
 | Real Estate | Dividend Defensives | 58.18 | positive | 51.3 | mixed | sector stronger than related themes |
@@ -325,12 +325,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.4 pct_chg=-2.59
+- VIX close=15.36 pct_chg=-2.85
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 62, 'negative': 18, 'neutral': 0}
-- News confirmation score: `77.5`
+- Sentiment counts: {'positive': 61, 'negative': 19, 'neutral': 0}
+- News confirmation score: `76.25`
 
 ### Top Market-Moving Headlines
 
@@ -439,7 +439,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Sector cyclicality flow: `46.5`
 - Duration/liquidity flow: `45.6`
 - Alternatives: `defensive or uncertainty hedge`
-- ETF flow reliability: `71.7 / 100`
+- ETF flow reliability: `71.5 / 100`
 - Dominant allocation direction: `mixed allocation`
 
 ### Core Flow Signals
