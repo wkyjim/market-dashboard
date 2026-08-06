@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 6 August 2026, 08:41:20 (HKT)
+Generated at: 6 August 2026, 09:11:12 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **67.83 / 100** (Moderate Risk-On)
+- Regime score: **67.74 / 100** (Moderate Risk-On)
 - US equity strength: **82.03 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **50.69 / 100**, reliability **65.78 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 67.83 | Moderate Risk-On |
+| Overall regime | 67.74 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 53.14 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 75.4 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 56.01 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.45 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 85.62 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, news_confirmation=85.62, volatility=80.0, market_breadth=75.4 |
+| news_confirmation | 83.75 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, news_confirmation=83.75, volatility=80.0, market_breadth=75.4 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -79,15 +79,15 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.81 | -4.18 | 2026-08-05 | closed |
 | ^SKEW | CBOE SKEW Index | 133.32 | 5.47 | 2026-08-05 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.18 | -0.05 | 2026-08-06 | live as of 6 August 2026, 08:30:36 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.23 | -0.07 | 2026-08-06 | live as of 6 August 2026, 08:30:36 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.32 | -0.12 | 2026-08-06 | live as of 6 August 2026, 08:30:36 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.45 | -0.12 | 2026-08-06 | live as of 6 August 2026, 08:30:36 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.61 | -0.09 | 2026-08-06 | live as of 6 August 2026, 08:30:36 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.16 | -0.12 | 2026-08-06 | live as of 6 August 2026, 08:30:36 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.16 | -0.12 | 2026-08-06 | live as of 6 August 2026, 08:30:36 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.19 | 0.05 | 2026-08-06 | live as of 6 August 2026, 09:00:35 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.24 | 0.0 | 2026-08-06 | live as of 6 August 2026, 09:00:35 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.32 | 0.0 | 2026-08-06 | live as of 6 August 2026, 09:00:35 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.46 | -0.03 | 2026-08-06 | live as of 6 August 2026, 09:00:35 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.61 | -0.04 | 2026-08-06 | live as of 6 August 2026, 09:00:35 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.16 | -0.12 | 2026-08-06 | live as of 6 August 2026, 09:00:35 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.16 | -0.12 | 2026-08-06 | live as of 6 August 2026, 09:00:35 (HKT) |
 | HK50 | Hang Seng Futures | 25898.5 | -0.11 | 2026-08-05 | closed |
-| KOR200c1 | KOSPI 200 Futures | 1050.2 | 5.02 | 2026-08-04 | closed |
+| KOR200c1 | KOSPI 200 Futures | 1003.05 | -3.74 | 2026-08-05 | closed |
 | CIHc1 | SSE 50 Futures | 2871.6 | -0.09 | 2026-08-04 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.52 | -0.04 | 2026-08-05 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.74 | -0.02 | 2026-08-05 | closed |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 68, 'negative': 11, 'neutral': 1}
-- News confirmation score: `85.62`
+- Sentiment counts: {'positive': 67, 'negative': 13, 'neutral': 0}
+- News confirmation score: `83.75`
 
 ### Top Market-Moving Headlines
 
@@ -342,7 +342,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.38`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Flutter CEO to Step Down as U.S. Sports-Betting Business Falters; Profit Outlook Cut**
+**2. Block slashed 40% of its workforce for AI — and its earnings suggest that’s paying off**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AI, workforce reduction
+- Score: `51.0`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**3. Flutter CEO to Step Down as U.S. Sports-Betting Business Falters; Profit Outlook Cut**
 - Source: Dow Jones US Business
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -350,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Lilly’s revenue soars 48%, driven by demand for its GLP-1s**
+**4. Lilly’s revenue soars 48%, driven by demand for its GLP-1s**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -358,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.88`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**4. China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts**
+**5. China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts**
 - Source: CNBC Technology
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.02`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**5. Block Raises Outlook on Financial Solutions Growth**
+**6. Block Raises Outlook on Financial Solutions Growth**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.25`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. Walt Disney’s stock climbs as company cites ‘Toy Story 5’ for earnings growth**
+**7. Walt Disney’s stock climbs as company cites ‘Toy Story 5’ for earnings growth**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -382,7 +390,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. Flutter shares plummet on earnings miss and another key leadership change**
+**8. We're downgrading Honeywell Aerospace after a shockingly bad earnings debut**
+- Source: CNBC Investing
+- Importance / impact: Medium / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: HON, earnings report, downgrade
+- Score: `37.29`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**9. Flutter shares plummet on earnings miss and another key leadership change**
 - Source: CNBC Finance
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -390,29 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**8. CNBC Daily Open: Markets rally on hopes of Iran-U.S. Strait of Hormuz deal**
+**10. CNBC Daily Open: Markets rally on hopes of Iran-U.S. Strait of Hormuz deal**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: CNBC, U.S, Geopolitics, Energy
 - Score: `36.74`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Chip Maker Infineon Forecasts Strong Revenue Growth on Booming AI Demand**
-- Source: Dow Jones US Business
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / current fiscal year
-- Affected assets: AI, semiconductor
-- Score: `36.58`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**10. Lilly’s revenue soars 48%, driven by demand for its GLP-1s**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: Lilly, GLP, revenue_growth, pharmaceuticals
-- Score: `35.43`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
