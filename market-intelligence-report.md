@@ -1,15 +1,15 @@
 # Market Intelligence Report
 
 **Report Date:** 2026-08-06  
-**Data Cutoff:** 2026-08-06 06:20 HKT (dashboard generated 06:15 HKT; US cash close 2026-08-05)  
+**Data Cutoff:** 2026-08-06 18:00 HKT (dashboard generated 18:16 HKT; US cash close 2026-08-05)
 **Short-Term Horizon:** Next 1–3 months  
 **Long-Term Horizon:** Next 6–12 months  
 
 ## Executive Summary
 
-**Regime:** Moderate risk-on, broadening participation, with a late-cycle inflation/term-premium overlay (confidence 7/10). The dashboard regime score is 67.9/100; 76.7% of tracked constituents are above their 50-day average and 72.9% above their 200-day average. The August 5 close was a contained pullback after the prior broad advance: S&P 500 -0.17% to 7,723.55, Nasdaq -0.83%, Russell 2000 -0.59%, and equal-weight S&P -0.23%. The trend remains intact—SPY is above its 5/20/50/200-day averages—but the day’s tech/small-cap weakness argues against increasing tactical beta before the data cluster.
+**Regime:** Moderate risk-on, broadening participation, with a late-cycle inflation/term-premium overlay (confidence 7/10). The dashboard regime score is 66.6/100; 76.7% of tracked constituents are above their 50-day average and 72.9% above their 200-day average. The August 5 cash close was a contained pullback after the prior broad advance: S&P 500 -0.17% to 7,723.55, Nasdaq -0.83%, Russell 2000 -0.59%, and equal-weight S&P -0.23%. At the 18:00 HKT live observation, ES and RTY futures were +0.18% while Nasdaq futures were -0.38%; this is supportive but not a clean continuation signal. SPY remains above its 5/20/50/200-day averages, so no tactical de-risking is indicated before the data cluster.
 
-**Short term — Neutral US equities (confidence 6/10):** maintain positive but selective beta. Breadth, Financials and Industrials support cyclicals/quality, while HYG/JNK slipped 0.04%/0.08%, gold surged 5.19%, and the 30-year yield remains 5.17%. These are not stress readings, but they warrant retained convexity and a smaller technology/semiconductor risk budget. Overweight Financials, Industrials, Health Care and Staples; underweight Utilities, Real Estate, Communication Services and modestly Technology.
+**Short term — Neutral US equities (confidence 6/10):** maintain positive but selective beta. Breadth, Financials and Industrials support cyclicals/quality, while HYG/JNK slipped 0.04%/0.08% at the last cash close, gold gained 2.07% intraday to $4,333.5, and the 30-year yield is 5.17%. These are not stress readings, but they warrant retained convexity and a smaller technology/semiconductor risk budget. Overweight Financials, Industrials, Health Care and Staples; underweight Utilities, Real Estate, Communication Services and modestly Technology.
 
 **Long term — Overweight US equities (confidence 6/10):** favor profitable, cash-generative businesses and industrial/financial beneficiaries of nominal growth and investment. Do not underwrite broad multiple expansion: inflation is still above a comfortable target in the last available June readings and the 2s30s curve is steep (96bp on the live tape). A sustained rise in long yields or weakening earnings breadth would lower this stance.
 
@@ -65,11 +65,11 @@ The curve remains steep — 2Y 4.20%, 10Y 4.61%, 30Y 5.17% — which favors fina
 
 | Signal | Short-term read | Long-term read | Confidence |
 |---|---|---|---:|
-| Equities/breadth | S&P -0.17%, Nasdaq -0.83%, Russell -0.59%, but 76.7% remain above 50DMA | Broad participation improves durability if it survives payrolls/CPI | 7 |
-| Rates | 2Y/10Y/30Y at 4.19%/4.61%/5.17%; all fell modestly | 2s30s +98bp is a term-premium risk | 6 |
+| Equities/breadth | Cash: S&P -0.17%, Nasdaq -0.83%, Russell -0.59%; live futures: ES/RTY +0.18%, NQ -0.38%; 76.7% remain above 50DMA | Broad participation improves durability if it survives payrolls/CPI | 7 |
+| Rates | 2Y/10Y/30Y at 4.20%/4.63%/5.17% live; 2Y rose 2.1bp intraday | 2s30s +97bp is a term-premium risk | 6 |
 | Credit | HYG -0.04%, JNK -0.08%, LQD -0.02% | No direct live OAS: do not infer complacency | 5 |
-| Commodities | Copper +1.96%, WTI -0.91%, gold +5.19% | Gold/long-end rates warrant a hedge budget | 6 |
-| Volatility | VIX 15.81 (-4.18%), SKEW 133.3 (+5.47%) | Cheap front-end volatility but elevated tail-demand signal | 6 |
+| Commodities | Copper +1.75%, WTI +0.21%, gold +2.07% live | Gold/long-end rates warrant a hedge budget | 6 |
+| Volatility | VIX 15.93 (+0.76%) live; SKEW 133.3 at last close | Calm front-end volatility but elevated tail-demand signal | 6 |
 
 ## Broad US Equities View
 
@@ -210,8 +210,8 @@ Large caps lead small caps over 20D by 1.3 points, but August 4 participation wa
 
 | Source | Date | Subject | URL |
 |---|---|---|---|
-| Market Dashboard | 2026-08-06 06:15 HKT | Primary market, breadth, flows, macro and cross-asset state | https://wkyjim.github.io/market-dashboard/data/latest-report.md |
-| US Equities API OpenAPI / endpoints | 2026-08-06 06:20 HKT | API field validation; Aug 5 ETF technicals and market tape | https://postgresql-us-equities-api.onrender.com/openapi.json |
+| Market Dashboard | 2026-08-06 18:16 HKT | Primary market, breadth, flows, macro and cross-asset state | https://wkyjim.github.io/market-dashboard/data/latest-report.md |
+| US Equities API OpenAPI / endpoints | 2026-08-06 18:00 HKT | API v1.1.0 field validation; Aug 5 ETF technicals and live market tape | https://postgresql-us-equities-api.onrender.com/openapi.json |
 | Bureau of Labor Statistics | 2026 schedule | Verified CPI, PPI, productivity and employment dates | https://www.bls.gov/schedule/2026/home.htm |
 | Institute for Supply Management | July 2026 | Manufacturing PMI context | https://www.ismworld.org/supply-management-news-and-reports/reports/ism-pmi-reports/pmi/july/ |
 | Federal Reserve | 2026 calendar | Monetary-policy calendar | https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm |
