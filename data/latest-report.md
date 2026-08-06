@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 6 August 2026, 14:10:06 (HKT)
+Generated at: 6 August 2026, 15:09:22 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.92 / 100** (Moderate Risk-On)
+- Regime score: **67.08 / 100** (Moderate Risk-On)
 - US equity strength: **82.03 / 100** (strong)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **51.8 / 100**, reliability **71.67 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.92 | Moderate Risk-On |
+| Overall regime | 67.08 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 53.14 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 75.4 | risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.86 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 54.66 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 50.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 51.29 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 82.5 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, news_confirmation=82.5, volatility=80.0, market_breadth=75.4 |
+| news_confirmation | 81.25 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, news_confirmation=81.25, volatility=80.0, market_breadth=75.4 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -62,9 +62,9 @@ Window: 24h
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
-| Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
-| Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Silver | Silver falling | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
+| Copper | Copper stable | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
+| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.81 | -4.18 | 2026-08-05 | closed |
 | ^SKEW | CBOE SKEW Index | 133.32 | 5.47 | 2026-08-05 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.19 | 0.25 | 2026-08-06 | live as of 6 August 2026, 14:00:34 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.24 | 0.14 | 2026-08-06 | live as of 6 August 2026, 14:00:34 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.32 | -0.0 | 2026-08-06 | live as of 6 August 2026, 14:00:34 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.46 | -0.09 | 2026-08-06 | live as of 6 August 2026, 14:00:34 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.61 | -0.13 | 2026-08-06 | live as of 6 August 2026, 14:00:34 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.16 | -0.26 | 2026-08-06 | live as of 6 August 2026, 14:00:34 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.16 | -0.24 | 2026-08-06 | live as of 6 August 2026, 14:00:34 (HKT) |
-| HK50 | Hang Seng Futures | 25480.5 | -0.78 | 2026-08-06 | live as of 6 August 2026, 14:00:34 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.2 | 0.45 | 2026-08-06 | live as of 6 August 2026, 15:00:34 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.25 | 0.37 | 2026-08-06 | live as of 6 August 2026, 15:00:34 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.33 | 0.24 | 2026-08-06 | live as of 6 August 2026, 15:00:34 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.47 | 0.18 | 2026-08-06 | live as of 6 August 2026, 15:00:34 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.62 | 0.11 | 2026-08-06 | live as of 6 August 2026, 15:00:34 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.17 | -0.01 | 2026-08-06 | live as of 6 August 2026, 15:00:34 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.17 | -0.02 | 2026-08-06 | live as of 6 August 2026, 15:00:34 (HKT) |
+| HK50 | Hang Seng Futures | 25481.0 | -0.78 | 2026-08-06 | live as of 6 August 2026, 15:00:34 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1003.05 | -3.74 | 2026-08-05 | closed |
 | CIHc1 | SSE 50 Futures | 2914.4 | 1.49 | 2026-08-05 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.52 | -0.04 | 2026-08-05 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 83.0 | 0.22 | 2026-08-05 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 93.31 | 0.06 | 2026-08-05 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.9 | 0.04 | 2026-08-05 | closed |
-| GC=F | Gold Future | 4325.0 | 1.87 | 2026-08-06 | live as of 6 August 2026, 14:00:34 (HKT) |
-| SI=F | Silver Future | 62.34 | 0.39 | 2026-08-06 | live as of 6 August 2026, 14:00:34 (HKT) |
-| CL=F | WTI Crude Oil Future | 74.88 | -0.45 | 2026-08-06 | live as of 6 August 2026, 14:00:34 (HKT) |
-| HG=F | Copper Future | 6.72 | 0.28 | 2026-08-06 | live as of 6 August 2026, 14:00:34 (HKT) |
+| GC=F | Gold Future | 4313.8 | 1.6 | 2026-08-06 | live as of 6 August 2026, 15:00:34 (HKT) |
+| SI=F | Silver Future | 61.88 | -0.35 | 2026-08-06 | live as of 6 August 2026, 15:00:34 (HKT) |
+| CL=F | WTI Crude Oil Future | 75.49 | 0.36 | 2026-08-06 | live as of 6 August 2026, 15:00:34 (HKT) |
+| HG=F | Copper Future | 6.7 | 0.01 | 2026-08-06 | live as of 6 August 2026, 15:00:34 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 66, 'negative': 14, 'neutral': 0}
-- News confirmation score: `82.5`
+- Sentiment counts: {'positive': 65, 'negative': 15, 'neutral': 0}
+- News confirmation score: `81.25`
 
 ### Top Market-Moving Headlines
 
@@ -366,15 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.95`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts**
-- Source: CNBC Technology
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: tax_policy, wealth_management
-- Score: `39.02`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**6. Lilly’s revenue soars 48%, driven by demand for its GLP-1s**
+**5. Lilly’s revenue soars 48%, driven by demand for its GLP-1s**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. Walt Disney’s stock climbs as company cites ‘Toy Story 5’ for earnings growth**
+**6. Walt Disney’s stock climbs as company cites ‘Toy Story 5’ for earnings growth**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -390,21 +382,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. CNBC Daily Open: Markets rally on hopes of Iran-U.S. Strait of Hormuz deal**
-- Source: CNBC Top News
+**7. SoftBank posts profit beat boosted by stakes in Intel and TikTok-owner ByteDance**
+- Source: CNBC Investing
 - Importance / impact: Medium / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: CNBC, U.S, Geopolitics, Energy
-- Score: `36.74`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Relevance / horizon: single_name / short-term
+- Affected assets: SOFTBANKG, profit, investment, technology
+- Score: `37.29`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. Chip Maker Infineon Forecasts Strong Revenue Growth on Booming AI Demand**
+**8. Chip Maker Infineon Forecasts Strong Revenue Growth on Booming AI Demand**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / current fiscal year
 - Affected assets: AI, semiconductor
 - Score: `36.58`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**9. Siemens Lifts Smart Infrastructure Outlook After Data Center Demand Boosts Profit, Orders**
+- Source: Dow Jones US Business
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: SI, U.S, infrastructure, data center
+- Score: `35.98`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 **10. Lilly’s revenue soars 48%, driven by demand for its GLP-1s**
 - Source: MarketWatch Bulletins
@@ -507,7 +507,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `26`
+- Live macro rows used: `24`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
