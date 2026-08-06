@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 6 August 2026, 12:14:52 (HKT)
+Generated at: 6 August 2026, 12:19:58 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -334,15 +334,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Block slashed 40% of its workforce for AI — and its earnings suggest that’s paying off**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AI, workforce reduction
-- Score: `51.0`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**2. Flutter CEO to Step Down as U.S. Sports-Betting Business Falters; Profit Outlook Cut**
+**1. Flutter CEO to Step Down as U.S. Sports-Betting Business Falters; Profit Outlook Cut**
 - Source: Dow Jones US Business
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -350,13 +342,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. E.l.f. Beauty sees $50 million windfall in tariff refunds as profits surge 100%**
+**2. E.l.f. Beauty sees $50 million windfall in tariff refunds as profits surge 100%**
 - Source: CNBC Investing
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: E, profit_growth, tariff
 - Score: `48.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Block slashed 40% of its workforce for AI — and its earnings suggest that’s paying off**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AI, workforce reduction
+- Score: `43.35`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 **4. CNBC Daily Open: Iran, Oman in talks on Hormuz; SpaceX is loyal to Nvidia on AI**
 - Source: CNBC Technology
