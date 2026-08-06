@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 6 August 2026, 19:09:59 (HKT)
+Generated at: 6 August 2026, 20:07:26 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -24,7 +24,7 @@ Window: 24h
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.67 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.59 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 51.29 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 81.25 | risk-on support; Weighted headline/news confirmation score. |
@@ -62,7 +62,7 @@ Window: 24h
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
-| Silver | Silver stable | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
+| Silver | Silver falling | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
@@ -76,16 +76,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7723.55 | -0.17 | 2026-08-05 | closed |
 | ^IXIC | NASDAQ Composite | 26363.44 | -0.83 | 2026-08-05 | closed |
 | ^RUT | Russell 2000 Index | 3019.19 | -0.59 | 2026-08-05 | closed |
-| ^VIX | CBOE Volatility Index | 15.96 | 0.95 | 2026-08-06 | live as of 6 August 2026, 19:00:20 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.96 | 0.95 | 2026-08-06 | live as of 6 August 2026, 20:00:37 (HKT) |
 | ^SKEW | CBOE SKEW Index | 133.32 | 5.47 | 2026-08-05 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.2 | 0.5 | 2026-08-06 | live as of 6 August 2026, 19:00:20 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.25 | 0.48 | 2026-08-06 | live as of 6 August 2026, 19:00:20 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.34 | 0.36 | 2026-08-06 | live as of 6 August 2026, 19:00:20 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.47 | 0.26 | 2026-08-06 | live as of 6 August 2026, 19:00:20 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.63 | 0.22 | 2026-08-06 | live as of 6 August 2026, 19:00:20 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.18 | 0.12 | 2026-08-06 | live as of 6 August 2026, 19:00:20 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.18 | 0.09 | 2026-08-06 | live as of 6 August 2026, 19:00:20 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.21 | 0.74 | 2026-08-06 | live as of 6 August 2026, 20:00:37 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.27 | 0.78 | 2026-08-06 | live as of 6 August 2026, 20:00:37 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.35 | 0.69 | 2026-08-06 | live as of 6 August 2026, 20:00:37 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.49 | 0.62 | 2026-08-06 | live as of 6 August 2026, 20:00:37 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.65 | 0.63 | 2026-08-06 | live as of 6 August 2026, 20:00:37 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.2 | 0.49 | 2026-08-06 | live as of 6 August 2026, 20:00:37 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.2 | 0.48 | 2026-08-06 | live as of 6 August 2026, 20:00:37 (HKT) |
 | HK50 | Hang Seng Futures | 25536.5 | -0.56 | 2026-08-06 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1003.05 | -3.74 | 2026-08-05 | closed |
 | CIHc1 | SSE 50 Futures | 2914.4 | 1.49 | 2026-08-05 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 83.0 | 0.22 | 2026-08-05 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 93.31 | 0.06 | 2026-08-05 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.9 | 0.04 | 2026-08-05 | closed |
-| GC=F | Gold Future | 4329.1 | 1.96 | 2026-08-06 | live as of 6 August 2026, 19:00:20 (HKT) |
-| SI=F | Silver Future | 62.16 | 0.1 | 2026-08-06 | live as of 6 August 2026, 19:00:20 (HKT) |
-| CL=F | WTI Crude Oil Future | 75.96 | 0.98 | 2026-08-06 | live as of 6 August 2026, 19:00:20 (HKT) |
-| HG=F | Copper Future | 6.81 | 1.6 | 2026-08-06 | live as of 6 August 2026, 19:00:20 (HKT) |
+| GC=F | Gold Future | 4315.6 | 1.64 | 2026-08-06 | live as of 6 August 2026, 20:00:37 (HKT) |
+| SI=F | Silver Future | 61.92 | -0.29 | 2026-08-06 | live as of 6 August 2026, 20:00:37 (HKT) |
+| CL=F | WTI Crude Oil Future | 75.95 | 0.97 | 2026-08-06 | live as of 6 August 2026, 20:00:37 (HKT) |
+| HG=F | Copper Future | 6.78 | 1.15 | 2026-08-06 | live as of 6 August 2026, 20:00:37 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -350,15 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.73`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**3. Flutter CEO to Step Down as U.S. Sports-Betting Business Falters; Profit Outlook Cut**
-- Source: Dow Jones US Business
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: FLTR.L, U.S, Leadership Change, Profit Warning
-- Score: `48.77`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**4. E.l.f. Beauty sees $50 million windfall in tariff refunds as profits surge 100%**
+**3. E.l.f. Beauty sees $50 million windfall in tariff refunds as profits surge 100%**
 - Source: CNBC Investing
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Block slashed 40% of its workforce for AI — and its earnings suggest that’s paying off**
+**4. Block slashed 40% of its workforce for AI — and its earnings suggest that’s paying off**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. Lilly’s revenue soars 48%, driven by demand for its GLP-1s**
+**5. Lilly’s revenue soars 48%, driven by demand for its GLP-1s**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -382,15 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. Walt Disney’s stock climbs as company cites ‘Toy Story 5’ for earnings growth**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: DIS, entertainment, earnings
-- Score: `37.29`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**8. SoftBank gets $8.2 billion boost from Intel as OpenAI takes a backseat**
+**6. SoftBank gets $8.2 billion boost from Intel as OpenAI takes a backseat**
 - Source: CNBC Investing
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -398,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. Siemens Shares Fall as Digital Industries Order Growth Misses Expectations**
+**7. Siemens Shares Fall as Digital Industries Order Growth Misses Expectations**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -406,13 +390,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.98`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. Shopify shares soar as forecast shows AI is boosting business, not disrupting**
+**8. Shopify shares soar as forecast shows AI is boosting business, not disrupting**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: SHOP, AI, e-commerce, forecast
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**9. Beijing flips the script on the U.S. tech war — and tests the truce weeks before Xi's visit**
+- Source: CNBC Technology
+- Importance / impact: Low / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AAPL, MSFT, GOOGL, U.S, trade
+- Score: `34.81`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**10. CNBC Daily Open: Iran, Oman in talks on Hormuz; SpaceX is loyal to Nvidia on AI**
+- Source: CNBC Technology
+- Importance / impact: Low / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: CNBC, geopolitics, oil, technology
+- Score: `34.81`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
