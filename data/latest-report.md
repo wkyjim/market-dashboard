@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 6 August 2026, 15:09:22 (HKT)
+Generated at: 6 August 2026, 15:11:50 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -406,11 +406,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.98`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. Lilly’s revenue soars 48%, driven by demand for its GLP-1s**
-- Source: MarketWatch Bulletins
+**10. Shopify shares soar as forecast shows AI is boosting business, not disrupting**
+- Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
-- Affected assets: Lilly, GLP, revenue_growth, pharmaceuticals
+- Affected assets: SHOP, AI, e-commerce, forecast
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
