@@ -1,219 +1,230 @@
 # Market Intelligence Report
 
-**Report Date:** 2026-08-07  
-**Data Cutoff:** 2026-08-07 06:31 HKT (US cash close: 2026-08-06)  
-**Short-Term Horizon:** Next 1–3 months  
+**Report Date:** 2026-08-07
+
+**Data Cutoff:** 2026-08-07 18:00 HKT (live snapshot); US cash close 2026-08-06
+
+**Short-Term Horizon:** Next 1–3 months
+
 **Long-Term Horizon:** Next 6–12 months  
 
 ## Executive Summary
 
-**Regime:** moderate risk-on, broadening participation, with a late-cycle inflation/term-premium overlay. The dashboard score is 66.45/100; 76.67% of tracked constituents are above their 50-day average and 72.88% above 200-day. Yet the August 6 close was a modest de-risking: S&P 500 -0.18% to 7,709.98, Russell 2000 -0.59%, and 10-year yield +5bp to 4.67%. Gold +1.22%, oil +3.70%, a 5.21% 30-year yield, and SKEW 133.3 argue against unhedged beta.
+**Regime:** Moderate risk-on, broadening participation, with a late-cycle inflation/term-premium overlay (confidence 7/10). The dashboard regime score is 64.24/100; 68.33% of tracked constituents are above their 50-day average and 72.88% above their 200-day average. However, the 10Y/30Y Treasury yields remain 4.66%/5.21%, gold rose 3.19% intraday, and closed credit ETFs softened, limiting confidence in unhedged beta.
 
-**Short term — Neutral US equity beta (confidence 7/10):** retain pro-cyclical, quality/value rotation through Financials, Industrials and Health Care, funded by Utilities, Real Estate and Communication Services. Breadth and contained VIX (15.32) support the tape, but rising duration costs, weak small-cap relative momentum and a payroll/CPI event sequence constrain index upside.
+**Short term — Neutral US equity beta (7/10):** retain cyclically selective exposure, favor Financials, Industrials and Health Care, and fund it with Utilities, Real Estate and Communication Services. Breadth and positive index-futures participation are constructive, but high real/nominal long-end yields make the market vulnerable to an inflation or term-premium repricing.
 
-**Long term — Overweight US equities (confidence 6/10):** earnings and broad participation can sustain gains if disinflation resumes without a sharp growth break. Returns should be earnings-led rather than multiple-led; long-duration equities remain rate-sensitive. Maintain quality and balance-sheet discipline.
+**Long term — Overweight US equities (6/10):** prefer profitable quality/value cyclicals plus selective Technology. The earnings and investment cycle can sustain returns if inflation cools; the principal constraint is that additional multiple expansion is difficult at current yields and index concentration.
 
-Highest-conviction conclusions: (1) Financials have the strongest sector breadth (93.15% above 50DMA) and positive flow signal; (2) Industrials and Health Care combine broad technical participation with accumulation; (3) Utilities are technically broken (16.13% above 50DMA; XLU RSI 30.3); (4) higher oil, gold and long yields warrant index-put convexity. Key invalidation: a durable break in credit, breadth below 60% above 50DMA, or 10-year yields persistently above 4.8%.
+**Highest-conviction conclusions:** Financials have the strongest breadth (89% above 50DMA), positive 20D/60D momentum and reported ETF-flow confirmation. Industrials and Health Care have broad participation and constructive relative trends. Utilities are technically broken: only 6.45% of constituents are above 50DMA and XLU is below its 20/50/200DMAs. Maintain index-put convexity; gold and a 5.21% 30Y signal non-trivial policy, fiscal and geopolitical tail risk.
 
 ## Market Regime Scorecard
 
-| Category | Score / direction | Short-term implication | Long-term implication | Evidence and confidence |
+| Category | Score / direction | Short-term implication | Long-term implication | Evidence / confidence |
 |---|---:|---|---|---|
-| Growth | 6, stable | Supportive but payroll-sensitive | Constructive if private demand holds | June payrolls +57k, unemployment 4.2%; June retail sales rose. Data lagged. 5/10 |
-| Inflation | 4, deteriorating | Oil and long yields restrain duration | Requires renewed disinflation | Core PCE 3.29% y/y and core PPI 4.68% y/y in June; WTI +3.7% Aug. 6/10 |
-| Liquidity | 5, stable | Neutral; maintain hedges | Modestly supportive if rate cuts resume | EFFR 3.63%; Fed assets declining; M2 rising. 5/10 |
-| Earnings | 7, stable | Supports dispersion, not blanket beta | Principal return driver | Strong trend/breadth; API lacks forward estimates/revisions. 5/10 |
-| Valuation | 4, stable | Limits multiple expansion | Selectivity essential | No current forward-multiple endpoint; elevated yields raise hurdle rate. 4/10 |
-| Sentiment | 6, stable | Calm VIX supports carry | Vulnerable to event shock | VIX 15.32; SKEW elevated. 6/10 |
-| Positioning | 5, mixed | Flows favor XLF/XLV/XLI; semis show distribution | Less decisive | ETF-flow proxies, not audited institutional/options positioning. 5/10 |
+| Growth | 6, stable | Supports cyclicals, but payroll/CPI can alter it | Positive if private demand holds | Q1 GDP 2.1% SAAR; June ISM Services 54.0; 7/10 |
+| Inflation | 4, improving but elevated | Limits duration and broad beta | Easing would unlock multiple support | June core PCE 3.29% y/y; core PPI 4.68%; 6/10 |
+| Liquidity | 5, stable | Neutral; long duration remains rate-sensitive | Modestly constructive if Fed easing resumes | EFFR 3.63%, Fed assets declining; 5/10 |
+| Earnings | 6, stable | Favor sectors with breadth, not narrative beta | Supports quality cyclicals | API lacks verified forward-estimate coverage; 5/10 |
+| Valuation | 4, deteriorating | Restrains cap-weight growth upside | Returns need earnings delivery | SPY near 52-week high; no audited forward multiple endpoint; 5/10 |
+| Sentiment | 6, stable | Calm VIX supports risk appetite | Fragile if gold/yields persist | VIX 15.28; gold +3.19% live; 6/10 |
+| Positioning | 5, mixed | Avoid crowded index exposure | Flows favor selected sectors | XLF/XLV/XLY flows constructive; options/ownership unavailable; 5/10 |
 
-**Overall regime score: 6.0/10.** Growth, breadth and volatility receive higher weight than sentiment; inflation, valuation and duration risk cap the score. Confidence is limited by stale official macro data (principally June), MOVE data ending July 24, and absent forward-estimate/options/ownership fields.
+**Overall regime score: 6/10.** Breadth, trend and volatility receive higher weight than incomplete flow/estimate fields; valuation, long yields and gold reduce the score.
 
 ## Probability-Weighted Scenarios
 
 ### Short-Term Scenarios: 1–3 Months
 
-*Ranges are trading ranges from the August 6 S&P 500 close of 7,709.98.*
+*Ranges are S&P 500 trading ranges from the 7,710 cash close, not period-end targets.*
 
 | Scenario | Probability | Assumptions / S&P 500 range | Leadership and confirmation | Invalidation |
 |---|---:|---|---|---|
-| Bull | 30% | Payroll cools without contraction; CPI improves; 10Y 4.35–4.60%; earnings resilient. **7,850–8,050.** | Financials, Industrials, Health Care; quality/value and equal weight. Breadth >75%, HY stable. | 10Y >4.8% or credit weakens. |
-| Base | 50% | Growth remains positive, inflation sticky; Fed patient; 10Y 4.50–4.80%. **7,450–7,950.** | Dispersion and stock selection; large caps retain edge. | Breadth breaks below 60%. |
-| Bear | 20% | Inflation/oil shock or payroll downside; yields rise or credit reprices. **6,950–7,450.** | Staples, Health Care, low volatility; index puts. | CPI improvement plus falling yields and broad leadership. |
+| Bull | 30% | Disinflation resumes, 10Y <4.55%, earnings breadth improves; 7,850–8,050 | Financials, Industrials, Technology; growth and small caps recover | 10Y >4.85% with credit weakness |
+| Base | 50% | Growth remains positive; inflation uneven; yields 4.55–4.85%; 7,400–7,950 | Quality/value cyclicals, Health Care; broad but volatile | Breadth <55% above 50DMA |
+| Bear | 20% | Inflation/term premium rises or growth disappoints; yields >4.90%; 6,900–7,450 | Defensives, gold; low volatility outperforms | Core inflation cools and spreads stay contained |
 
 ### Long-Term Scenarios: 6–12 Months
 
-*Ranges are period-end ranges from the August 6 close.*
+*Ranges are S&P 500 period-end ranges.*
 
 | Scenario | Probability | Assumptions / S&P 500 range | Leadership and confirmation | Invalidation |
 |---|---:|---|---|---|
-| Bull | 35% | Disinflation resumes; easing expectations rebuild; earnings broaden. **8,300–8,900.** | Industrials, Financials, selective Technology, small caps. | Persistent inflation or margin compression. |
-| Base | 45% | Nominal growth moderates; 10Y 4.25–4.75%; earnings offset limited multiple expansion. **7,900–8,400.** | Quality/value, Health Care, Industrials. | Recessionary claims/credit deterioration. |
-| Bear | 20% | Recession or term-premium shock; margins/revisions fall. **6,700–7,500.** | Defensives, Treasuries/gold and low volatility. | Broad earnings acceleration with declining real yields. |
+| Bull | 35% | Inflation eases, Fed can ease, earnings broaden; 8,300–8,800 | Technology, Industrials, Financials; quality growth | Long yields stay >5% despite disinflation |
+| Base | 45% | Slow expansion, positive earnings, higher-for-longer long rates; 7,700–8,300 | Quality, value, Health Care and Industrials | Earnings revisions turn broadly negative |
+| Bear | 20% | Recession, fiscal/term-premium shock or renewed inflation; 6,300–7,200 | Staples, Health Care, Treasuries/gold | Growth and credit reaccelerate without inflation |
 
 ## Macro View
 
 ### Short-Term Macro View
 
-Growth is adequate but unconfirmed by fresh official data: June unemployment was 4.2%, retail sales were higher, and July ISM Manufacturing was 55.6. Inflation risk is the nearer transmission channel: June core PCE was 3.29% y/y, core PPI 4.68% y/y, WTI reached $78.00 after a 3.70% daily rise, and the 10Y/30Y finished at 4.67%/5.21%. Bull case: growth absorbs rates and earnings breadth expands. Bear case: energy-driven inflation keeps policy restrictive and compresses multiples. Confirmation: August payrolls, CPI/PPI and Treasury-market stability. Confidence 6/10.
+Growth evidence is constructive but dated: Q1 real GDP was 2.1% SAAR and June Services PMI was 54.0; the dashboard’s June payroll record showed unemployment at 4.2%. June core PCE at 3.29% y/y and core PPI at 4.68% y/y leave inflation risk asymmetric. The yield curve is steep from 4.23% at 2Y to 5.21% at 30Y, a fiscal/term-premium headwind for long-duration equities (confidence 7/10). Bull case: resilient activity absorbs rates. Bear case: elevated financing costs compress valuation and housing/business investment. Confirmation: July payrolls, August 12 CPI and August 13 PPI.
 
 ### Long-Term Macro View
 
-The constructive case requires slower but positive real activity and falling underlying inflation. Financial conditions remain mixed: effective fed funds is 3.63%, HY OAS was 2.80% at the June 29 stored observation, while long-end yields and Treasury term premium are elevated. China/Europe/Japan dashboard structural readings are largely 2025 and not used as current cyclical signals. Dollar firmness and weak Asia (KOSPI -4.58% on August 6) temper global-risk confirmation. A durable easing of core inflation and stable credit would favor cyclicals/smaller companies; a sustained oil/real-yield rise favors quality and defensives. Confidence 5/10.
+The base case is slow expansion rather than recession: investment and government spending aided Q1 GDP, while inflation and Treasury supply keep the neutral rate/term-premium uncertainty high. Lower oil ($77.18 WTI) reduces an immediate inflation impulse, but gold at $4,377 and copper at $6.70 indicate that geopolitical and real-asset hedging demand remains material. Europe/China/Japan data in the dashboard are structural and stale; they are not used as current cyclical evidence. Confidence 5/10.
 
 ## Cross-Asset View
 
-| Signal | Current reading | Short-term / long-term interpretation |
+| Signal | Observation | Short-term / long-term interpretation |
 |---|---|---|
-| Rates | 2Y 4.25%, 10Y 4.67%, 30Y 5.21%; all higher Aug. 6 | ST headwind to duration and REITs. LT valuation ceiling unless disinflation resumes. |
-| Credit | HYG -0.10%, LQD -0.35%, JNK -0.06%; stored HY OAS 2.80% | Not a stress signal, but rates—not spreads—are the active constraint. 6/10. |
-| Volatility | VIX 15.32 (-3.1%); SKEW 133.32 | Calm realized risk but pricier tail asymmetry; own convexity. |
-| Commodities | Gold $4,297.7 +1.22%, WTI $78 +3.70%, copper $6.72 +0.28% | Cyclical copper confirms activity; gold/oil confirm inflation/geopolitical hedge demand. Mixed. |
-| Style | RSP vs SPY +0.28pp (20D); IWM vs SPY -1.13pp; IWF vs IWD -2.74pp | Broadening is real but incomplete; prefer value/quality and large caps ST; small caps improve LT only with lower yields. |
+| Equities | ES +0.16%, NQ +0.47%, RTY +0.25% live; cash SPX -0.18% Aug. 6 | Futures breadth is supportive but requires a cash-close confirmation / constructive if breadth persists |
+| Rates | 2Y 4.23%, 10Y 4.66%, 30Y 5.21% | Moderate pressure on duration / persistent multiple constraint |
+| Credit | HYG -0.08%, LQD -0.36%, JNK -0.06% Aug. 6 | Does not confirm full risk-on / watch for spread widening |
+| Volatility | VIX 15.28, SKEW 134.73 | Low realized stress but elevated tail pricing / retain convexity |
+| Commodities | WTI -0.14%, copper +0.16%, gold +3.19% | Mixed cyclical signal; gold contradicts complacency / supports diversifier role |
+| Crypto | Bitcoin +0.82% | Speculative appetite present; not a core equity signal |
 
 ## Broad US Equities View
 
-### Short-Term View
-
-**S&P 500 Neutral (7/10):** primary trend remains positive, but support is 7,450 and resistance 7,850–8,050. **Nasdaq 100 Neutral/Underweight (6/10):** long-duration sensitivity and -2.45pp 20D versus SPY. **Dow Neutral (5/10):** cyclical exposure benefits from growth but is yield-sensitive. **Russell 2000 Underweight (6/10):** -1.13pp 20D versus SPY, higher financing sensitivity. **Equal weight Neutral (6/10):** modest relative improvement confirms participation but not a decisive rotation. Favor high-quality, profitable growth over low-quality/high-beta.
-
-### Long-Term View
-
-**S&P 500 Overweight (6/10)** and **equal weight Overweight (6/10)** if earnings broaden. **Nasdaq 100 Overweight selectively (5/10):** AI/cloud leaders require earnings delivery as rates set valuation sensitivity. **Russell 2000 Neutral (5/10):** upside is substantial under falling yields and easier credit, but the current rate hurdle is material. Value/quality and cyclicals modestly lead; high beta remains tactical only.
+| Segment | Short-term stance | Long-term stance | Drivers, risks and invalidation | Confidence |
+|---|---|---|---|---:|
+| S&P 500 / cap weight | Neutral | Overweight | Above 5/20/50/200DMAs; 20D +2.24%; yields/valuation cap upside. Invalidate ST on breadth <55% or 10Y >4.85% | 7 |
+| Nasdaq 100 / growth | Neutral | Overweight selective | QQQ 20D -1.19% and below 50DMA, despite +4.55% 5D; duration sensitivity high | 6 |
+| Dow / cyclicals | Overweight | Overweight | Value/cyclical leadership and yield resilience; invalidate on growth/credit deterioration | 6 |
+| Russell 2000 / small caps | Neutral | Neutral | IWM above all key MAs but trails SPY by 1.9pp over 20D; needs lower long rates | 6 |
+| Equal weight | Overweight | Overweight | RSP +2.38% 20D, above all MAs; validates participation | 7 |
+| Mid caps | Neutral | Overweight | Similar rate sensitivity to small caps; favor profitable balance sheets | 5 |
+| High quality / low volatility | Overweight | Overweight | Profitability protects margins; low-vol utilities are excluded due weak price action | 7 |
+| High beta / low quality | Underweight | Neutral | Financing and valuation risk; upgrade only with lower yields and broad revisions | 6 |
 
 ## Factor Analysis
 
-| Rank | Factor | 1–3 months | 6–12 months | Catalyst / invalidation | Confidence |
-|---:|---|---|---|---|---:|
-| 1 | Quality / profitability | Overweight | Overweight | Rising yields favor cash flow; invalidate on broad rate decline plus cyclical earnings acceleration | 7 |
-| 2 | Value | Overweight | Overweight | IWF lags IWD by 2.74pp over 20D; invalidate on falling real yields and sustained growth reacceleration | 6 |
-| 3 | Momentum | Neutral | Overweight | Trend breadth positive, but technology/semis diverge | 6 |
-| 4 | Growth | Neutral | Overweight selective | Rate-sensitive; upside with disinflation | 5 |
-| 5 | Low volatility | Neutral | Neutral | Tactical hedge; utilities’ breakdown prevents a broad allocation | 6 |
-| 6 | Size (small) | Underweight | Neutral | Needs 10Y decline and credit confirmation | 6 |
+| Rank ST / LT | Factor | Short-term | Long-term | Catalysts, crowding and invalidation | Confidence |
+|---|---|---|---|---|---:|
+| 1 / 1 | Quality / profitability | Overweight | Overweight | Handles high rates and margin uncertainty; invalidate with broad disinflation-led beta rally | 7 |
+| 2 / 3 | Value | Overweight | Overweight | IWD +3.95% 20D vs IWF +0.16%; banks/industrials benefit. Invalidate on recession | 7 |
+| 3 / 2 | Momentum | Overweight selective | Overweight selective | Use breadth-confirmed leaders, not semis; invalidate on trend break | 6 |
+| 4 / 4 | Growth | Neutral | Overweight selective | Rate-sensitive; QQQ remains below 50DMA. Invalidate LT if earnings fail to broaden | 6 |
+| 5 / 5 | Size | Neutral | Neutral | Small caps need lower 10Y and easier credit | 6 |
+| 6 / 6 | Low volatility | Neutral | Neutral | Defensive factor is offset by Utilities weakness; use Health Care/Staples instead | 6 |
 
 ## Style Rotation
 
-Large over small ST and Neutral LT; growth versus value favors value ST and balanced/selective growth LT; cyclicals modestly over defensives ST but Health Care remains a defensive-quality exception; quality over low quality on both horizons; momentum over mean reversion except where Utilities become technically repaired; high beta underweight ST and Neutral LT. Rate-sensitive real estate/utility exposures require a 10Y decline and price recovery to reverse. Confidence 6/10.
+Large over small, value over growth and quality over low quality are current leadership calls (confidence 7/10). RSP is ahead of SPY over 20D, which is healthier than mega-cap concentration; however IWM still trails SPY. Short term favor cyclical-quality over pure defensives, but retain a Health Care/Staples ballast. Long term favor a barbell of quality growth and value cyclicals. Upgrade small caps and high beta only if 10Y falls below 4.55%, credit strengthens and IWM relieves its 20D underperformance.
 
 ## Sector and Theme View
 
 ### Sector Rankings
 
-| Rank ST / LT | Sector | ST / LT stance | Evidence, catalyst, invalidation | Confidence |
+| Rank ST / LT | Sector | ST / LT recommendation | Evidence, catalyst, risk and invalidation | Confidence |
 |---|---|---|---|---:|
-| 1 / 1 | Financials | OW / OW | 93.15% above 50DMA; positive flows; 2Y/10Y curve supports earnings. Invalidate on credit widening. | 8 |
-| 2 / 2 | Industrials | OW / OW | Broad participation; XLI 5D +3.57%; infrastructure/reshoring. Invalidate on ISM rollover. | 7 |
-| 3 / 4 | Health Care | OW / OW | 84.75% breadth; XLV 60D +14.97%, positive flows. Invalidate on adverse policy or relative breakdown. | 7 |
-| 4 / 5 | Consumer Staples | OW / Neutral | Quality ballast; positive trend. Invalidate on sharp pro-cyclical rate decline. | 6 |
-| 5 / 6 | Technology | Neutral / OW | Strong trend, but semis distribution and rate sensitivity. Invalidate LT if revisions weaken. | 6 |
-| 6 / 3 | Energy | Neutral / OW | WTI rising, but XLE flow distribution/38.1% 50D breadth. Invalidate if oil reverses on demand deterioration. | 5 |
-| 7 / 7 | Materials | Neutral / Neutral | Copper supportive; flows mixed. Invalidate on global-growth weakness. | 5 |
-| 8 / 8 | Discretionary | Neutral / Underweight | XLY flow positive but YTD -0.92% and consumer/rate risk. | 5 |
-| 9 / 9 | Communication Services | Underweight / Underweight | Weak 200D breadth (38.1%) and structural distribution. | 6 |
-| 10 / 10 | Real Estate | Underweight / Underweight | Long yields; XLRE below 5D/20D. Invalidate on durable yield decline. | 7 |
-| 11 / 11 | Utilities | Strong UW / Underweight | 16.13% 50D breadth; XLU RSI 30.3 and high-volume selling. Invalidate on recovery above 50DMA. | 8 |
+| 1 / 2 | Financials | Overweight / Strong Overweight | 89%/86% above 50/200DMA; XLF +4.09% 20D, +12.95% 60D; flows positive. Risk: credit loss/recession. Invalidate on spreads widening | 8 |
+| 2 / 1 | Industrials | Overweight / Strong Overweight | Broad 50DMA breadth 65%; XLI +5.55% 60D; capex/reshoring. Invalidate on PMI contraction | 7 |
+| 3 / 3 | Health Care | Overweight / Overweight | 81% above 50DMA; XLV +14.97% 60D; defensive growth. Invalidate on broad revision deterioration | 7 |
+| 4 / 5 | Energy | Neutral / Overweight | XLE +6.09% 20D but flows weak and WTI $77. Invalidate on weaker oil/demand | 6 |
+| 5 / 6 | Consumer Staples | Overweight / Neutral | Broad positive 20D participation; ballast. Invalidate on lower yields plus reacceleration | 6 |
+| 6 / 4 | Technology | Neutral / Overweight selective | XLK +5.46% 5D but 20D flat, mixed breadth; semis show distribution. Invalidate ST on 10Y <4.55% plus breadth recovery | 6 |
+| 7 / 7 | Materials | Neutral / Neutral | Broad 20D gains; copper only modestly firmer. Invalidate on China/global growth downtick | 5 |
+| 8 / 9 | Consumer Discretionary | Neutral / Underweight | XLY flow strong but 60D -1.06%, consumer/rates sensitive. Invalidate LT on real-income improvement | 5 |
+| 9 / 10 | Real Estate | Underweight / Underweight | XLRE below 20DMA; 5.21% 30Y headwind. Invalidate if long rates fall materially | 7 |
+| 10 / 11 | Communication Services | Underweight / Underweight | 200DMA breadth 41%, XLC 60D -3.81%, distribution signal. Invalidate on durable ad/mega-cap breadth recovery | 6 |
+| 11 / 8 | Utilities | Strong Underweight / Underweight | 6% above 50DMA, XLU -3.88% 20D and heavy selling. Invalidate on rate decline and relative breakout | 8 |
 
 ### Theme Rankings
 
-| Theme / state | Short-term / long-term view | Evidence, risk and catalyst | Confidence |
-|---|---|---|---:|
-| Cybersecurity — Strengthening | OW / OW | Top dashboard score 70.05, uptrend and accumulation. Valuation/crowding risk; invalidate on relative-price break. | 7 |
-| Grid infrastructure/power — Strengthening | OW / OW | Score 65.67; capex/power-demand tailwind. Rate risk; confirm with orders/backlog. | 6 |
-| AI/semiconductors — Mature/crowded | Neutral / OW selective | Technology trend strong, but SOXX shows persistent distribution. Earnings and capex must validate. | 6 |
-| Defense/aerospace — Strengthening | OW / OW | Uptrend; policy/geopolitical demand supports. Invalidate on procurement slowdown. | 6 |
-| Oil & gas — Tactical | Neutral / OW | Oil spike supports cash flows; demand and policy risk high. | 5 |
+| Theme | Classification | Short-term / long-term view | Evidence, risk and invalidation | Confidence |
+|---|---|---|---|---:|
+| Financials | Strengthening | Overweight / Strong Overweight | Broad trend and flows; credit is the key risk | 8 |
+| Defense / aerospace | Strengthening | Overweight / Overweight | ITA accumulation and industrial trend; policy/geopolitical valuation risk | 7 |
+| Cybersecurity | Strengthening | Overweight / Overweight | Dashboard top theme score 69.81; execution/valuation risk | 7 |
+| AI, cloud and semiconductors | Mature / crowded | Neutral / Overweight selective | Technology trend intact but SOXX distribution and rate risk; invalidate LT on capex/revision failure | 6 |
+| Power/grid investment | Strengthening | Neutral / Overweight selective | Secular demand, but Utilities price action weak; use equipment/industrials | 6 |
+| Oil and gas | Mature | Neutral / Overweight | Positive 20D price with weaker flow; WTI is the confirmation | 6 |
 
 ## Portfolio Heat Map
 
-*All weights are percentage-point active weights versus a sector benchmark; each sector table nets to zero. Factor/style entries are qualitative exposure tilts, not additive weights.*
+*All weights are percentage-point active weights versus a sector benchmark and each sector table nets to zero.*
 
 ### Short-Term Portfolio: 1–3 Months
 
 | Sector | Active weight | Confidence | Rationale |
 |---|---:|---:|---|
-| Financials | +2.0 | 8 | Breadth, flows, curve resilience |
+| Financials | +2.0 | 8 | Breadth, momentum, flows |
 | Industrials | +1.5 | 7 | Broad participation, capex exposure |
-| Health Care | +1.5 | 7 | RS, flows, quality ballast |
-| Staples | +1.0 | 6 | Defensive earnings ballast |
-| Materials | 0.0 | 5 | Copper helps; flows mixed |
-| Energy | 0.0 | 5 | Oil support offset by breadth/flows |
-| Discretionary | -0.5 | 5 | Consumer and rates risk |
-| Technology | -1.0 | 6 | Duration/semiconductor divergence |
-| Communication Services | -1.0 | 6 | Weak long breadth/flows |
-| Real Estate | -1.5 | 7 | Long-yield sensitivity |
-| Utilities | -2.0 | 8 | Price/volume breakdown |
+| Health Care | +1.5 | 7 | Strong trend plus defensiveness |
+| Staples | +1.0 | 6 | Risk ballast |
+| Energy | +0.5 | 6 | Oil hedge, reduced for weak flows |
+| Materials | 0.0 | 5 | Mixed global signal |
+| Discretionary | 0.0 | 5 | Strong flows but weak 60D trend |
+| Technology | -1.0 | 6 | Rate/semiconductor dispersion |
+| Communication Services | -1.0 | 6 | Weak 60D / breadth |
+| Real Estate | -1.5 | 7 | Long-rate sensitivity |
+| Utilities | -3.0 | 8 | Broken trend and selling |
 
-Factor/style: Quality +; Value +; Momentum neutral; Growth neutral; Low volatility neutral; Small size -; large over small; value over growth; quality over low quality; cyclical modestly over defensive; high beta -; maintain 1–2% index-put premium budget or equivalent convex hedge.
+Factors/styles: Quality +2, Value +1.5, Momentum +1, Growth -0.5, Small size -0.5, high beta -1, cyclical versus defensive +0.5 but retain Health Care/Staples; confidence 6–7/10.
 
 ### Long-Term Portfolio: 6–12 Months
 
 | Sector | Active weight | Confidence | Rationale |
 |---|---:|---:|---|
-| Financials | +2.0 | 7 | Earnings/curve leverage |
-| Industrials | +2.0 | 7 | Capex and reshoring |
-| Technology | +1.0 | 6 | Selective earnings-led AI/cloud |
-| Health Care | +1.0 | 7 | Quality/innovation diversification |
-| Energy | +1.0 | 5 | Cash flow and inflation hedge |
+| Financials | +2.0 | 7 | Earnings/capital-return potential |
+| Industrials | +2.0 | 7 | Investment cycle and reshoring |
+| Technology | +1.0 | 6 | Selective AI/software, earnings-dependent |
+| Health Care | +1.0 | 7 | Quality growth/defense |
+| Energy | +1.0 | 6 | Supply discipline and inflation hedge |
 | Materials | -0.5 | 5 | Global-cycle uncertainty |
-| Staples | -1.0 | 5 | Opportunity cost in base case |
-| Discretionary | -0.5 | 5 | Consumer/rates risk |
-| Communication Services | -1.0 | 6 | Weak relative fundamentals/technical breadth |
-| Real Estate | -1.5 | 6 | Long-rate sensitivity |
-| Utilities | -2.5 | 7 | Trend damage, valuation/rates |
+| Discretionary | -0.5 | 5 | Rate and household sensitivity |
+| Staples | -1.0 | 6 | Opportunity cost in base expansion |
+| Communication Services | -1.0 | 6 | Breadth and concentration risk |
+| Utilities | -2.0 | 7 | Rate sensitivity / weak momentum |
+| Real Estate | -2.0 | 7 | Term-premium exposure |
 
-Factor/style: Quality +; Value +; Growth + selective; Momentum +; Low volatility neutral; Size neutral; balanced large/small only after lower yields; quality over low quality; cyclicals modestly over defensives; high beta neutral.
+Factors/styles: Quality +2, Value +1, selective Growth +1, Momentum +0.5, Small size 0, low quality -1, high beta -0.5; confidence 6/10.
 
 ## Trade Ideas
 
 ### Tactical Trade Ideas: 1–3 Months
 
-| Trade | Expression / conviction | Thesis, entry, catalyst | Risk, invalidation and portfolio role |
-|---|---|---|---|
-| Financials over Utilities | Long XLF / short XLU, 7/10 | XLF broad strength/flows; XLU weak breadth and RSI. Enter on relative-strength confirmation; payroll/CPI catalysts. | Falling yields or utility recovery above 50DMA. Relative-value rotation; low overlap with Health Care. |
-| Industrials over Communication | Long XLI / short XLC, 7/10 | XLI breadth/flow strength versus XLC distribution/weak 200D breadth. | ISM contraction or XLC relative breakout. Cyclical alpha sleeve. |
-| Protect equity beta | S&P 500 put spread, 7/10 | Low VIX but high SKEW, oil/gold/yield warnings; add around event volatility. | Close/review if breadth improves and 10Y declines below 4.4%. Portfolio convexity, negatively correlated with beta. |
+| Trade | Expression | Thesis / catalyst | Conviction | Risk, invalidation and role |
+|---|---|---|---:|---|
+| Financials over Utilities | Long XLF / short XLU | XLF +4.09% 20D and strong breadth versus XLU -3.88%; CPI and yields | 8 | Recession or sharp yield fall; invalidate on relative 20D reversal. Relative-value core |
+| Industrials over Communication | Long XLI / short XLC | Broad industrial trend versus weak 200DMA communication breadth | 7 | Growth shock; invalidate if XLI loses 50DMA. Diversified cyclical tilt |
+| Equity beta with convexity | Neutral SPY exposure plus defined-risk SPY puts | Breadth is constructive but gold/30Y flag tails | 7 | Costly in melt-up; review after CPI/PPI. Portfolio hedge |
 
 ### Strategic Trade Ideas: 6–12 Months
 
-| Trade | Expression / conviction | Thesis, entry, catalyst | Risk, invalidation and portfolio role |
-|---|---|---|---|
-| Quality cyclicals basket | Overweight XLF, XLI and selective high-ROIC Technology, 6/10 | Base case is earnings broadening with restrained multiple expansion. Scale on yield/earnings confirmation. | Growth shock or credit deterioration. Core alpha, correlated exposures capped through sector weights. |
-| Health Care innovation/quality | Overweight XLV, 7/10 | Positive flow, 60D relative strength, diversification from rates. | Policy/reimbursement shock; close on sustained relative breakdown. Defensive growth sleeve. |
-| Selective energy inflation hedge | Modest long XLE, 5/10 | Oil and fiscal/term-premium risks hedge portfolio inflation sensitivity. | Oil decline on demand recession. Diversifier, not a beta substitute. |
+| Trade | Expression | Thesis / catalyst | Conviction | Risk, invalidation and role |
+|---|---|---|---:|---|
+| Quality cyclical basket | Long XLF, XLI, XLV | Earnings breadth and investment cycle with balance-sheet quality | 7 | Recession/credit widening; review at earnings/revisions. Core alpha |
+| Selective technology vs broad growth | Long profitable technology / underweight high-duration unprofitable growth | Capture secular investment while controlling rate sensitivity | 6 | Long yields fall sharply and beta broadens; review on capex/guidance. Growth sleeve |
+| Energy as inflation hedge | Modest long XLE | Supply/geopolitical optionality offsets rate shock | 6 | WTI breaks lower with weak demand; exit if XLE loses 50DMA. Diversifier |
 
 ## Historical Analogs and Lessons
 
-**1994-style term-premium/rate shock:** similarity is a rising long-end yield with resilient growth; difference is today’s stronger technology concentration and different policy regime. Lesson: multiples can compress despite decent earnings; own cash flow and avoid rate-sensitive leverage. **2018 late-cycle tightening:** similarity is policy/valuation sensitivity and trade/geopolitical uncertainty; difference is current credit spreads are not stressed. Lesson: breadth and credit, not headline indices, determine durability. These are contextual tools, not forecasts. Confidence 5/10.
+The closest contextual analog is 1994-style term-premium risk during continued expansion: equities can advance, but leadership favors pricing power and financial/cyclical quality, and duration is vulnerable. The analogy differs because today’s index concentration and technology capital expenditure are greater. A second analog is the 2018 late-cycle tightening scare: small caps and high beta lagged when funding/rates tightened, but a policy pivot reversed leadership. These are context, not forecasts (confidence 5/10); both fail if fiscal or geopolitical shocks dominate the cycle.
 
 ## Upcoming Catalyst Watchlist
 
-| Date (US) | Event | Exposed variable / bullish versus bearish outcome | Portfolio implication |
-|---|---|---|---|
-| 2026-08-07 | Employment Situation | Rates, small caps, cyclicals: cooling-but-positive jobs/contained wages bullish; hot wages or contraction bearish | Reassess size/value and index hedge |
-| 2026-08-12 | CPI | Long yields, growth valuation: softer core bullish; reacceleration bearish | Adjust Technology/REIT and puts |
-| 2026-08-13 | PPI | Margin/inflation expectations: benign inputs bullish; sticky core bearish | Review Industrials/Energy and duration |
-| 2026-08-27 | Second estimate Q2 GDP (BEA schedule) | Growth and earnings breadth | Validate cyclical tilt |
-| 2026-09-15–16 | FOMC meeting | Policy path and long-end term premium | Rebalance duration-sensitive sectors |
+| Date (ET) | Event | Exposure / bullish vs bearish outcome |
+|---|---|---|
+| 2026-08-07 | July Employment Situation | Rates, small caps, Financials; balanced labor supports base case, hot wages/inflation hurts duration |
+| 2026-08-12 | July CPI | Long yields, Technology, Utilities; lower core inflation bullish, upside surprise bearish |
+| 2026-08-13 | July PPI | Margins, rates; softer pipeline inflation bullish, higher core PPI bearish |
+| 2026-08-26 | Q2 GDP second estimate and July PCE | Broad beta; growth with cooling PCE bullish, stagflation bearish |
+| 2026-09-03 | ISM Services (August) | Industrials/cyclicals; orders strength bullish, contraction bearish |
+| 2026-09-04 | August Employment Situation | Rates and small caps; labor deterioration raises recession risk |
+| 2026-09-11 | August CPI | Duration and equity multiple test |
+| 2026-09-15–16 | FOMC meeting | Policy path and curve; dovish disinflation bullish, hawkish term-premium message bearish |
 
 ## Key Risk Analysis
 
-| Risk | Probability / severity | Transmission, warning, mitigation | Confidence |
+| Risk | Probability / severity | Transmission, indicators and mitigation | Confidence |
 |---|---|---|---:|
-| Inflation/term premium | High / Material | Oil and 5.21% 30Y compress multiples; watch CPI, 10Y >4.8%; underweight REITs/utilities, own puts/energy. | 7 |
-| Growth break | Moderate / Severe | Payroll/claims and credit deterioration hit cyclicals/small caps; favor Health Care/Staples and reduce beta. | 6 |
-| Earnings/margin disappointment | Moderate / Material | High valuation duration assets vulnerable; watch guidance/revisions (not available in API); retain quality. | 5 |
-| Concentration/semiconductor crowding | Moderate / Material | SOXX distribution and rate sensitivity; diversify to Financials/Industrials. | 6 |
-| Geopolitical/commodity shock | Moderate / Severe | Oil/gold jump lifts inflation and volatility; use energy and index convexity. | 5 |
-| Credit/liquidity shock | Low / Systemic | Watch HY spreads, HYG/JNK, VIX; reduce cyclicals, increase cash/Treasury quality. | 5 |
+| Term-premium / Treasury supply shock | Moderate / Severe | 30Y >5.21%, weak auctions; compresses duration multiples. Underweight REITs/Utilities, retain puts | 8 |
+| Inflation reacceleration | Moderate / Material | CPI/PPI, oil, wages; raises rates/margin risk. Energy hedge, quality/value | 7 |
+| Growth/credit slowdown | Moderate / Severe | Claims, PMI, HYG/LQD weakness; harms Financials/cyclicals. Health Care/Staples, puts | 7 |
+| Valuation/concentration unwind | Moderate / Material | Nasdaq breadth, semiconductor flows, SKEW; diversify to equal weight/value | 7 |
+| Geopolitical/commodity shock | Moderate / Material | Gold/oil spikes; pressures margins and risk appetite. Energy/gold diversifier, convexity | 6 |
+| Policy/fiscal uncertainty | Moderate / Material | Yield curve, Treasury auctions, FOMC communication; reduce beta on confirmation | 6 |
 
 ## Sources
 
-| Source | Publication/data date | Subject | URL |
+| Source | Data date | Subject | URL |
 |---|---|---|---|
-| Rule-Based Institutional Market Update | Generated 2026-08-07 04:05 HKT | Primary dashboard, breadth, flows, macro and technical data | https://wkyjim.github.io/market-dashboard/data/latest-report.md |
-| US Equities API OpenAPI v1.1.0 | Retrieved 2026-08-07 06:31 HKT | Available fields/endpoints and live/close data definitions | https://postgresql-us-equities-api.onrender.com/openapi.json |
-| US Equities API market-tape and batch endpoints | Retrieved 2026-08-07 06:31 HKT | Cross-asset and sector ETF closes | https://postgresql-us-equities-api.onrender.com/market-tape |
-| Bureau of Labor Statistics | 2026 release calendar | Employment, CPI and PPI event dates | https://www.bls.gov/schedule/news_release/ |
-| Federal Reserve | 2026 meeting calendar | FOMC event date | https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm |
-| Bureau of Economic Analysis | 2026 release schedule | GDP event date | https://www.bea.gov/news/schedule |
+| Rule-Based Institutional Market Update | 2026-08-07 18:16 HKT | Primary dashboard, breadth, sectors, flows, macro snapshot | https://wkyjim.github.io/market-dashboard/data/latest-report.md |
+| US Equities API OpenAPI v1.1.0 and live endpoints | 2026-08-07 18:00 HKT | Market tape, equity technicals, rates, commodities, VIX | https://postgresql-us-equities-api.onrender.com/openapi.json |
+| Bureau of Labor Statistics | 2026 schedule | Employment, CPI, PPI dates | https://www.bls.gov/schedule/2026/home.htm |
+| Bureau of Economic Analysis | 2026-06-25 | Q1 GDP third estimate | https://www.bea.gov/news/2026/gdp-third-estimate-industries-corporate-profits-state-gdp-and-state-personal-income-1st |
+| Institute for Supply Management | 2026-07-06 | June Services PMI and release calendar | https://www.ismworld.org/supply-management-news-and-reports/news-publications/inside-supply-management-magazine/blog/2026/2026-07/ism-pmi-reports-roundup-june-2026-services/ |
+| Federal Reserve | 2026 calendar | FOMC dates | https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm |
