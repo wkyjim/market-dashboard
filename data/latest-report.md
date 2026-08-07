@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 8 August 2026, 03:07:55 (HKT)
+Generated at: 8 August 2026, 03:10:51 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -246,8 +246,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Industrials | 66.54 | strong uptrend | neutral | broad | 58.46 | 65.0 | 50.5 | LDOS, ALLE, SWK | LII, CHRW, HONA |
 | 4 | Healthcare | 65.48 | strong uptrend | positive | broad | 65.88 | 90.0 | 53.9 | BAX, BDX, REGN | PODD, DVA, MRNA |
 | 5 | Defense | 65.13 | strong uptrend | neutral | broad | 50.63 | 65.0 | 51.05 | XAR | XAR |
-| 6 | Consumer Staples | 60.71 | strong uptrend | neutral | broad | 59.71 | 65.0 | 49.28 | CLX, TGT, DG | BG, KR, MO |
-| 7 | Technology | 60.48 | strong uptrend | neutral | mixed | 55.27 | 95.0 | 47.59 | IT, ZBRA, CTSH | IBM, WDC, SNDK |
+| 6 | Technology | 60.9 | strong uptrend | neutral | mixed | 55.27 | 95.0 | 47.59 | IT, ZBRA, CTSH | IBM, WDC, SNDK |
+| 7 | Consumer Staples | 60.71 | strong uptrend | neutral | broad | 59.71 | 65.0 | 49.28 | CLX, TGT, DG | BG, KR, MO |
 | 8 | Consumer Discretionary | 60.32 | uptrend | neutral | broad | 69.46 | 65.0 | 47.29 | GRMN, DPZ, HAS | YUM, TSLA, APTV |
 | 9 | Energy | 57.03 | uptrend | neutral | broad | 50.0 | 0.0 | 51.42 | XOM, APA, BKR | HAL, WMB, TPL |
 | 10 | Real Estate | 56.35 | strong uptrend | neutral | broad | 55.99 | 95.0 | 48.07 | WY, DLR, EXR | FRT, REG, UDR |
@@ -289,8 +289,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Industrials | Defense, Grid Infrastructure | 66.54 | strong | 52.87 | mixed | sector stronger than related themes |
 | Healthcare | Healthcare Innovation | 65.48 | strong | 57.64 | positive | sector and theme confirmation |
 | Defense | Defense | 65.13 | strong | 59.07 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 60.9 | positive | 55.47 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 60.71 | positive | 50.01 | mixed | sector stronger than related themes |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 60.48 | positive | 55.47 | positive | sector and theme confirmation |
 | Consumer Discretionary | Small Caps | 60.32 | positive | 58.48 | positive | sector and theme confirmation |
 | Energy | Energy | 57.03 | positive | 54.18 | mixed | sector stronger than related themes |
 | Real Estate | Dividend Defensives | 56.35 | positive | 50.01 | mixed | sector stronger than related themes |
