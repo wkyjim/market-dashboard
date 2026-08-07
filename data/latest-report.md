@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 8 August 2026, 02:05:45 (HKT)
+Generated at: 8 August 2026, 03:07:55 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.4 / 100** (Moderate Risk-On)
+- Regime score: **65.28 / 100** (Moderate Risk-On)
 - US equity strength: **76.85 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **51.54 / 100**, reliability **71.51 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 65.4 | Moderate Risk-On |
+| Overall regime | 65.28 | Moderate Risk-On |
 | equity_trend | 87.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 69.29 | risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 57.15 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 57.24 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 50.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 51.1 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 85.62 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=87.5, news_confirmation=85.62, volatility=80.0, market_breadth=69.29 |
+| news_confirmation | 83.12 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=87.5, news_confirmation=83.12, volatility=80.0, market_breadth=69.29 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7746.16 | 0.47 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
-| ^IXIC | NASDAQ Composite | 26608.07 | 0.99 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
-| ^RUT | Russell 2000 Index | 3031.0 | 0.98 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
-| ^VIX | CBOE Volatility Index | 14.92 | -1.52 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
+| ^GSPC | S&P 500 | 7743.16 | 0.43 | 2026-08-07 | live as of 8 August 2026, 03:00:28 (HKT) |
+| ^IXIC | NASDAQ Composite | 26603.27 | 0.97 | 2026-08-07 | live as of 8 August 2026, 03:00:28 (HKT) |
+| ^RUT | Russell 2000 Index | 3027.74 | 0.87 | 2026-08-07 | live as of 8 August 2026, 03:00:28 (HKT) |
+| ^VIX | CBOE Volatility Index | 14.88 | -1.78 | 2026-08-07 | live as of 8 August 2026, 03:00:28 (HKT) |
 | ^SKEW | CBOE SKEW Index | 134.73 | 1.06 | 2026-08-06 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.2 | -1.07 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.26 | -0.96 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.36 | -0.73 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.5 | -0.53 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.65 | -0.36 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.21 | -0.13 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.21 | -0.09 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.25 | 1.74 | 2026-08-06 | closed |
+| US3YT=X | United States 3-Year Treasury Yield | 4.31 | 1.73 | 2026-08-06 | closed |
+| US5YT=X | United States 5-Year Treasury Yield | 4.4 | 1.7 | 2026-08-06 | closed |
+| US7YT=X | United States 7-Year Treasury Yield | 4.53 | 1.57 | 2026-08-06 | closed |
+| US10YT=X | United States 10-Year Treasury Yield | 4.68 | 1.43 | 2026-08-06 | closed |
+| US20YT=X | United States 20-Year Treasury Yield | 5.24 | 1.19 | 2026-08-06 | closed |
+| US30YT=X | United States 30-Year Treasury Yield | 5.23 | 1.03 | 2026-08-06 | closed |
 | HK50 | Hang Seng Futures | 25670.0 | 0.45 | 2026-08-07 | closed |
 | KOR200c1 | KOSPI 200 Futures | 985.35 | 0.43 | 2026-08-06 | closed |
 | CIHc1 | SSE 50 Futures | 2909.0 | -0.19 | 2026-08-06 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.58 | 0.16 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.46 | 0.09 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 95.78 | 0.17 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 220.31 | 0.79 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 124.33 | 0.67 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 257.51 | 0.54 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 82.56 | 0.05 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 93.11 | 0.17 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.9 | 0.12 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
-| GC=F | Gold Future | 4399.4 | 3.71 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
-| SI=F | Silver Future | 63.59 | 3.49 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
-| CL=F | WTI Crude Oil Future | 78.05 | 0.98 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
-| HG=F | Copper Future | 6.59 | -1.38 | 2026-08-07 | live as of 8 August 2026, 02:00:35 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.58 | 0.14 | 2026-08-07 | live as of 8 August 2026, 03:00:28 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.44 | 0.07 | 2026-08-07 | live as of 8 August 2026, 03:00:28 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 95.78 | 0.17 | 2026-08-07 | live as of 8 August 2026, 03:00:28 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 220.01 | 0.66 | 2026-08-07 | live as of 8 August 2026, 03:00:28 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 124.31 | 0.66 | 2026-08-07 | live as of 8 August 2026, 03:00:28 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 257.28 | 0.45 | 2026-08-07 | live as of 8 August 2026, 03:00:28 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 82.53 | 0.01 | 2026-08-07 | live as of 8 August 2026, 03:00:28 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 93.06 | 0.12 | 2026-08-07 | live as of 8 August 2026, 03:00:28 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.9 | 0.12 | 2026-08-07 | live as of 8 August 2026, 03:00:28 (HKT) |
+| GC=F | Gold Future | 4397.1 | 3.66 | 2026-08-07 | live as of 8 August 2026, 03:00:28 (HKT) |
+| SI=F | Silver Future | 63.61 | 3.53 | 2026-08-07 | live as of 8 August 2026, 03:00:28 (HKT) |
+| CL=F | WTI Crude Oil Future | 78.24 | 1.23 | 2026-08-07 | live as of 8 August 2026, 03:00:28 (HKT) |
+| HG=F | Copper Future | 6.6 | -1.31 | 2026-08-07 | live as of 8 August 2026, 03:00:28 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,12 +325,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=14.92 pct_chg=-1.52
+- VIX close=14.88 pct_chg=-1.78
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 68, 'negative': 11, 'neutral': 1}
-- News confirmation score: `85.62`
+- Sentiment counts: {'positive': 66, 'negative': 13, 'neutral': 1}
+- News confirmation score: `83.12`
 
 ### Top Market-Moving Headlines
 
@@ -350,7 +350,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts**
+**3. Canada Unemployment Rate Falls to 2-Year Low of 6.4% in July**
+- Source: Dow Jones Economy
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: employment, economy
+- Score: `48.77`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**4. China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts**
 - Source: CNBC Technology
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -358,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.9`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**4. SK Hynix to invest $38 billion building new memory chip plants as demand soars**
+**5. SK Hynix to invest $38 billion building new memory chip plants as demand soars**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `44.88`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**5. China's exports growth beats estimates in July, as AI-driven shipments surge**
+**6. China's exports growth beats estimates in July, as AI-driven shipments surge**
 - Source: CNBC Technology
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.89`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. Copper jumps to its highest level ever. What the metal is telling us**
+**7. Copper jumps to its highest level ever. What the metal is telling us**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. BP profit more than doubles as Trump blasts Big Oil for ‘making too much money’**
+**8. BP profit more than doubles as Trump blasts Big Oil for ‘making too much money’**
 - Source: CNBC Business News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Optical stocks have a China problem that most investors are missing**
+**9. Optical stocks have a China problem that most investors are missing**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / medium-term
@@ -398,21 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.73`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**9. Trade Desk shares tumble on earnings miss and weak outlook**
+**10. Trade Desk shares tumble on earnings miss and weak outlook**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: TTD, earnings report, revenue miss, growth concerns
 - Score: `37.29`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**10. Applied Materials is about to report earnings. How to trade the AI picks-and-shovels play ahead of results**
-- Source: CNBC Top News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: APPLM, AI, Earnings Report
-- Score: `37.05`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
@@ -507,7 +507,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `40`
+- Live macro rows used: `33`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
