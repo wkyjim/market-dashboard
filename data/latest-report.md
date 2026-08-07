@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 7 August 2026, 18:16:26 (HKT)
+Generated at: 7 August 2026, 19:02:48 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -24,7 +24,7 @@ Window: 24h
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.34 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 55.3 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 51.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 51.1 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 83.75 | risk-on support; Weighted headline/news confirmation score. |
@@ -64,7 +64,7 @@ Window: 24h
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper stable | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude stable | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -76,16 +76,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7709.96 | -0.18 | 2026-08-06 | closed |
 | ^IXIC | NASDAQ Composite | 26348.35 | -0.06 | 2026-08-06 | closed |
 | ^RUT | Russell 2000 Index | 3001.55 | -0.58 | 2026-08-06 | closed |
-| ^VIX | CBOE Volatility Index | 15.28 | 0.86 | 2026-08-07 | live as of 7 August 2026, 18:00:36 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.25 | 0.66 | 2026-08-07 | live as of 7 August 2026, 19:00:41 (HKT) |
 | ^SKEW | CBOE SKEW Index | 134.73 | 1.06 | 2026-08-06 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.23 | -0.29 | 2026-08-07 | live as of 7 August 2026, 18:00:36 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.29 | -0.3 | 2026-08-07 | live as of 7 August 2026, 18:00:36 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.38 | -0.28 | 2026-08-07 | live as of 7 August 2026, 18:00:36 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.51 | -0.24 | 2026-08-07 | live as of 7 August 2026, 18:00:36 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.66 | -0.21 | 2026-08-07 | live as of 7 August 2026, 18:00:36 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.22 | -0.03 | 2026-08-07 | live as of 7 August 2026, 18:00:36 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.21 | -0.01 | 2026-08-07 | live as of 7 August 2026, 18:00:36 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.23 | -0.24 | 2026-08-07 | live as of 7 August 2026, 19:00:41 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.29 | -0.3 | 2026-08-07 | live as of 7 August 2026, 19:00:41 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.38 | -0.28 | 2026-08-07 | live as of 7 August 2026, 19:00:41 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.51 | -0.27 | 2026-08-07 | live as of 7 August 2026, 19:00:41 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.66 | -0.21 | 2026-08-07 | live as of 7 August 2026, 19:00:41 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.22 | -0.05 | 2026-08-07 | live as of 7 August 2026, 19:00:41 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.21 | -0.03 | 2026-08-07 | live as of 7 August 2026, 19:00:41 (HKT) |
 | HK50 | Hang Seng Futures | 25670.0 | 0.45 | 2026-08-07 | closed |
 | KOR200c1 | KOSPI 200 Futures | 985.35 | 0.43 | 2026-08-06 | closed |
 | CIHc1 | SSE 50 Futures | 2909.0 | -0.19 | 2026-08-06 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 82.52 | -0.58 | 2026-08-06 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 92.95 | -0.39 | 2026-08-06 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.8 | -0.12 | 2026-08-06 | closed |
-| GC=F | Gold Future | 4377.2 | 3.19 | 2026-08-07 | live as of 7 August 2026, 18:00:36 (HKT) |
-| SI=F | Silver Future | 64.91 | 5.65 | 2026-08-07 | live as of 7 August 2026, 18:00:36 (HKT) |
-| CL=F | WTI Crude Oil Future | 77.18 | -0.14 | 2026-08-07 | live as of 7 August 2026, 18:00:36 (HKT) |
-| HG=F | Copper Future | 6.7 | 0.16 | 2026-08-07 | live as of 7 August 2026, 18:00:36 (HKT) |
+| GC=F | Gold Future | 4379.2 | 3.23 | 2026-08-07 | live as of 7 August 2026, 19:00:41 (HKT) |
+| SI=F | Silver Future | 64.71 | 5.32 | 2026-08-07 | live as of 7 August 2026, 19:00:41 (HKT) |
+| CL=F | WTI Crude Oil Future | 76.9 | -0.5 | 2026-08-07 | live as of 7 August 2026, 19:00:41 (HKT) |
+| HG=F | Copper Future | 6.68 | -0.04 | 2026-08-07 | live as of 7 August 2026, 19:00:41 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.28 pct_chg=0.86
+- VIX close=15.25 pct_chg=0.66
 
 ## News Analytics
 
@@ -390,15 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. SoftBank earnings exceed expectations, even without an OpenAI boost. This U.S. chip company saved the day.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: INTC, U.S, technology, investment
-- Score: `33.15`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**9. Allianz Operating Profit Hits Record High on Asset Management Growth**
+**8. Allianz Operating Profit Hits Record High on Asset Management Growth**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.91`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. AppLovin stock tanks on Q2 revenue miss**
+**9. AppLovin stock tanks on Q2 revenue miss**
 - Source: CNBC Investing
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: APPLOV, earnings report, stock performance
 - Score: `31.7`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**10. SoftBank gets $8.2 billion boost from Intel as OpenAI takes a backseat**
+- Source: CNBC Investing
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: SOFTBANKG, profit, investment, technology
+- Score: `31.7`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
