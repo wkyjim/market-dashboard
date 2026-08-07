@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 7 August 2026, 08:41:43 (HKT)
+Generated at: 7 August 2026, 09:13:08 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **63.99 / 100** (Mild Risk-On)
+- Regime score: **64.24 / 100** (Mild Risk-On)
 - US equity strength: **76.85 / 100** (strong)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **50.49 / 100**, reliability **65.97 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 63.99 | Mild Risk-On |
+| Overall regime | 64.24 | Mild Risk-On |
 | equity_trend | 87.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 69.29 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 53.58 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 39.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.32 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 77.5 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=87.5, volatility=80.0, news_confirmation=77.5, market_breadth=69.29 |
+| news_confirmation | 82.5 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=87.5, news_confirmation=82.5, volatility=80.0, market_breadth=69.29 |
 | Negative contributors |  | commodity_confirmation=39.0 |
 
 ## US Equity Strength Score
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.15 | -4.17 | 2026-08-06 | closed |
 | ^SKEW | CBOE SKEW Index | 134.73 | 1.06 | 2026-08-06 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.25 | 0.05 | 2026-08-07 | live as of 7 August 2026, 08:30:22 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.31 | 0.07 | 2026-08-07 | live as of 7 August 2026, 08:30:22 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.39 | 0.08 | 2026-08-07 | live as of 7 August 2026, 08:30:22 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.53 | 0.03 | 2026-08-07 | live as of 7 August 2026, 08:30:22 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.68 | 0.04 | 2026-08-07 | live as of 7 August 2026, 08:30:22 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.23 | 0.02 | 2026-08-07 | live as of 7 August 2026, 08:30:22 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.22 | 0.02 | 2026-08-07 | live as of 7 August 2026, 08:30:22 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.25 | 0.05 | 2026-08-07 | live as of 7 August 2026, 09:12:02 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.31 | 0.07 | 2026-08-07 | live as of 7 August 2026, 09:12:02 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.4 | 0.12 | 2026-08-07 | live as of 7 August 2026, 09:12:02 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.53 | 0.03 | 2026-08-07 | live as of 7 August 2026, 09:12:02 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.68 | 0.0 | 2026-08-07 | live as of 7 August 2026, 09:12:02 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.23 | -0.02 | 2026-08-07 | live as of 7 August 2026, 09:12:02 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.22 | 0.0 | 2026-08-07 | live as of 7 August 2026, 09:12:02 (HKT) |
 | HK50 | Hang Seng Futures | 25536.5 | -0.56 | 2026-08-06 | closed |
-| KOR200c1 | KOSPI 200 Futures | 1003.05 | -3.74 | 2026-08-05 | closed |
-| CIHc1 | SSE 50 Futures | 2914.4 | 1.49 | 2026-08-05 | closed |
+| KOR200c1 | KOSPI 200 Futures | 985.35 | 0.43 | 2026-08-06 | closed |
+| CIHc1 | SSE 50 Futures | 2909.0 | -0.19 | 2026-08-06 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.46 | -0.08 | 2026-08-06 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.36 | -0.36 | 2026-08-06 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 95.61 | -0.06 | 2026-08-06 | closed |
@@ -246,7 +246,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Industrials | 65.7 | strong uptrend | neutral | broad | 50.0 | 0.0 | 50.5 | LDOS, ALLE, SWK | LII, CHRW, HONA |
 | 4 | Healthcare | 65.14 | strong uptrend | positive | broad | 62.54 | 65.0 | 53.9 | BAX, BDX, REGN | PODD, DVA, MRNA |
 | 5 | Defense | 65.06 | strong uptrend | neutral | broad | 50.0 | 0.0 | 51.05 | XAR | XAR |
-| 6 | Technology | 60.14 | strong uptrend | neutral | mixed | 49.03 | 65.0 | 47.59 | IT, ZBRA, CTSH | WDC, SNDK, APP |
+| 6 | Technology | 60.15 | strong uptrend | neutral | mixed | 49.03 | 65.0 | 47.59 | IT, ZBRA, CTSH | WDC, SNDK, APP |
 | 7 | Consumer Staples | 59.74 | strong uptrend | neutral | broad | 50.0 | 0.0 | 49.28 | CLX, TGT, DG | BG, KR, MO |
 | 8 | Consumer Discretionary | 58.38 | uptrend | neutral | broad | 50.0 | 0.0 | 47.29 | GRMN, DPZ, HAS | YUM, TSLA, APTV |
 | 9 | Energy | 56.5 | uptrend | neutral | broad | 44.73 | 65.0 | 51.42 | XOM, APA, BKR | HAL, WMB, TPL |
@@ -289,7 +289,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Industrials | Defense, Grid Infrastructure | 65.7 | strong | 51.9 | mixed | sector stronger than related themes |
 | Healthcare | Healthcare Innovation | 65.14 | strong | 57.3 | positive | sector and theme confirmation |
 | Defense | Defense | 65.06 | strong | 59.01 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 60.14 | positive | 55.01 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 60.15 | positive | 55.01 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 59.74 | positive | 50.01 | mixed | sector stronger than related themes |
 | Consumer Discretionary | Small Caps | 58.38 | positive | 58.48 | positive | sector and theme confirmation |
 | Energy | Energy | 56.5 | positive | 53.65 | mixed | sector stronger than related themes |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 62, 'negative': 18, 'neutral': 0}
-- News confirmation score: `77.5`
+- Sentiment counts: {'positive': 66, 'negative': 14, 'neutral': 0}
+- News confirmation score: `82.5`
 
 ### Top Market-Moving Headlines
 
