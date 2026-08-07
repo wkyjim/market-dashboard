@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 7 August 2026, 15:02:00 (HKT)
+Generated at: 7 August 2026, 15:04:20 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.88 / 100** (Moderate Risk-On)
+- Regime score: **66.01 / 100** (Moderate Risk-On)
 - US equity strength: **76.85 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **51.54 / 100**, reliability **71.51 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 65.88 | Moderate Risk-On |
+| Overall regime | 66.01 | Moderate Risk-On |
 | equity_trend | 87.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 69.29 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.09 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 51.1 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 82.5 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=87.5, news_confirmation=82.5, volatility=80.0, market_breadth=69.29, commodity_confirmation=63.0 |
+| news_confirmation | 85.0 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=87.5, news_confirmation=85.0, volatility=80.0, market_breadth=69.29, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 66, 'negative': 14, 'neutral': 0}
-- News confirmation score: `82.5`
+- Sentiment counts: {'positive': 68, 'negative': 12, 'neutral': 0}
+- News confirmation score: `85.0`
 
 ### Top Market-Moving Headlines
 
@@ -406,13 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. AppLovin stock tanks on Q2 revenue miss**
-- Source: CNBC Investing
-- Importance / impact: Low / Negative
+**10. Allianz Operating Profit Hits Record High on Asset Management Growth**
+- Source: Dow Jones US Business
+- Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
-- Affected assets: APPLOV, earnings report, stock performance
-- Score: `31.7`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+- Affected assets: ALL.DE, insurance, profitability
+- Score: `32.91`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
