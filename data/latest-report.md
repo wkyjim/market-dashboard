@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 7 August 2026, 08:25:18 (HKT)
+Generated at: 7 August 2026, 08:39:05 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **64.03 / 100** (Mild Risk-On)
+- Regime score: **63.99 / 100** (Mild Risk-On)
 - US equity strength: **76.85 / 100** (strong)
 - Evidence quality: **79.5 / 100**
-- ETF flow contribution: **50.92 / 100**, reliability **65.97 / 100**
+- ETF flow contribution: **50.49 / 100**, reliability **65.97 / 100**
 - Breadth: **healthy**; above 50DMA `68.33%`, above 200DMA `72.88%`
 - Top sector score: **Cybersecurity** `68.39`
 - Top theme score: **Defense** `59.01`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 64.03 | Mild Risk-On |
+| Overall regime | 63.99 | Mild Risk-On |
 | equity_trend | 87.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 69.29 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 53.58 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 39.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 50.61 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 50.32 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 77.5 | risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=87.5, volatility=80.0, news_confirmation=77.5, market_breadth=69.29 |
 | Negative contributors |  | commodity_confirmation=39.0 |
@@ -79,13 +79,13 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.15 | -4.17 | 2026-08-06 | closed |
 | ^SKEW | CBOE SKEW Index | 134.73 | 1.06 | 2026-08-06 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.25 | 0.0 | 2026-08-07 | live as of 7 August 2026, 08:11:35 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.3 | 0.0 | 2026-08-07 | live as of 7 August 2026, 08:11:35 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.39 | 0.04 | 2026-08-07 | live as of 7 August 2026, 08:11:35 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.53 | 0.0 | 2026-08-07 | live as of 7 August 2026, 08:11:35 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.68 | 0.04 | 2026-08-07 | live as of 7 August 2026, 08:11:35 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.23 | 0.0 | 2026-08-07 | live as of 7 August 2026, 08:11:35 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.22 | -0.02 | 2026-08-07 | live as of 7 August 2026, 08:11:35 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.25 | 0.05 | 2026-08-07 | live as of 7 August 2026, 08:30:22 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.31 | 0.07 | 2026-08-07 | live as of 7 August 2026, 08:30:22 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.39 | 0.08 | 2026-08-07 | live as of 7 August 2026, 08:30:22 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.53 | 0.03 | 2026-08-07 | live as of 7 August 2026, 08:30:22 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.68 | 0.04 | 2026-08-07 | live as of 7 August 2026, 08:30:22 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.23 | 0.02 | 2026-08-07 | live as of 7 August 2026, 08:30:22 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.22 | 0.02 | 2026-08-07 | live as of 7 August 2026, 08:30:22 (HKT) |
 | HK50 | Hang Seng Futures | 25536.5 | -0.56 | 2026-08-06 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1003.05 | -3.74 | 2026-08-05 | closed |
 | CIHc1 | SSE 50 Futures | 2914.4 | 1.49 | 2026-08-05 | closed |
@@ -504,7 +504,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `11`
+- Live macro rows used: `13`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
