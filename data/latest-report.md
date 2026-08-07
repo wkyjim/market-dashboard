@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 7 August 2026, 21:08:15 (HKT)
+Generated at: 7 August 2026, 21:12:15 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **64.57 / 100** (Mild Risk-On)
+- Regime score: **64.5 / 100** (Mild Risk-On)
 - US equity strength: **76.85 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **51.54 / 100**, reliability **71.51 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 64.57 | Mild Risk-On |
+| Overall regime | 64.5 | Mild Risk-On |
 | equity_trend | 87.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 69.29 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 57.75 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 51.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 51.1 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 86.88 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=87.5, news_confirmation=86.88, volatility=70.0, market_breadth=69.29 |
+| news_confirmation | 85.62 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=87.5, news_confirmation=85.62, volatility=70.0, market_breadth=69.29 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 69, 'negative': 10, 'neutral': 1}
-- News confirmation score: `86.88`
+- Sentiment counts: {'positive': 68, 'negative': 11, 'neutral': 1}
+- News confirmation score: `85.62`
 
 ### Top Market-Moving Headlines
 
@@ -374,7 +374,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `46.33`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**6. China's exports growth beats estimates in July, as AI-driven shipments surge**
+**6. Optical stocks have a China problem that most investors are missing**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / medium-term
+- Affected assets: trade, geopolitics
+- Score: `45.56`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**7. China's exports growth beats estimates in July, as AI-driven shipments surge**
 - Source: CNBC Technology
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.89`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. Copper jumps to its highest level ever. What the metal is telling us**
+**8. Copper jumps to its highest level ever. What the metal is telling us**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. Trade Desk shares tumble on earnings miss and weak outlook**
+**9. Trade Desk shares tumble on earnings miss and weak outlook**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -398,20 +406,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**9. Apollo to Buy European Budget Airline easyJet for $7.7 Billion**
+**10. Apollo to Buy European Budget Airline easyJet for $7.7 Billion**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: EAY.L, takeover, airline
 - Score: `35.43`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. Allianz Posts Lower Net Profit Amid Portfolio Reshuffle**
-- Source: Dow Jones US Business
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: ALL.DE, insurance, profitability
-- Score: `32.91`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
