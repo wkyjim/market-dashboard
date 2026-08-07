@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 7 August 2026, 09:17:08 (HKT)
+Generated at: 7 August 2026, 09:21:02 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **64.24 / 100** (Mild Risk-On)
+- Regime score: **64.19 / 100** (Mild Risk-On)
 - US equity strength: **76.85 / 100** (strong)
 - Evidence quality: **79.5 / 100**
-- ETF flow contribution: **50.49 / 100**, reliability **65.97 / 100**
+- ETF flow contribution: **49.87 / 100**, reliability **65.94 / 100**
 - Breadth: **healthy**; above 50DMA `68.33%`, above 200DMA `72.88%`
 - Top sector score: **Cybersecurity** `68.39`
 - Top theme score: **Defense** `59.01`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 64.24 | Mild Risk-On |
+| Overall regime | 64.19 | Mild Risk-On |
 | equity_trend | 87.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 69.29 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 53.58 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 39.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 50.32 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 49.92 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 82.5 | risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=87.5, news_confirmation=82.5, volatility=80.0, market_breadth=69.29 |
 | Negative contributors |  | commodity_confirmation=39.0 |
@@ -433,13 +433,13 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 ## ETF Flows Analysis
 
 - Market flow regime: `Mixed / Neutral`
-- Market flow score: `51.7 / 100`
+- Market flow score: `51.1 / 100`
 - Equity risk flow: `47.4`
 - Credit risk flow: `61.5`
 - Sector cyclicality flow: `50.2`
-- Duration/liquidity flow: `49.7`
+- Duration/liquidity flow: `45.7`
 - Alternatives: `mixed alternative-asset demand`
-- ETF flow reliability: `66.0 / 100`
+- ETF flow reliability: `65.9 / 100`
 - Dominant allocation direction: `mixed allocation`
 
 ### Core Flow Signals
@@ -454,7 +454,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 | IWM | U.S. Small Cap | -0.7 | 0.1 | 0.5 | -1.4 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural distribution | 79.0 |
 | LQD | Investment-Grade Credit | -1.1 | 0.9 | 0.3 | 0.4 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term deterioration | 83.0 |
 | HYG | High-Yield Credit | 1.0 | 1.7 | 0.5 | -0.9 | Flat | Buy | Normal | Quiet Accumulation | Improving | Strong confirmation | 95.0 |
-| SGOV | Treasury Bills / Cash | -0.7 | -0.9 | 0.9 | -0.0 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 99.0 |
+| SGOV | Treasury Bills / Cash | -0.6 | -0.9 | 0.9 | -0.4 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 99.0 |
 | SHY | Short-Duration Treasuries | -1.1 | -0.1 | 0.2 | 0.9 | Flat | Buy | Normal | Quiet Accumulation | Improving | Medium-term deterioration; Persistent selling | 75.0 |
 | IEF | Intermediate-Duration Treasuries | 0.1 | -0.3 | 0.7 | -0.7 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation | 91.0 |
 | TLT | Long-Duration Treasuries | 0.2 | 0.2 | 0.6 | 0.1 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term recovery | 87.0 |
