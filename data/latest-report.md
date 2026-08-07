@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 7 August 2026, 09:23:47 (HKT)
+Generated at: 7 August 2026, 10:08:39 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.15 | -4.17 | 2026-08-06 | closed |
 | ^SKEW | CBOE SKEW Index | 134.73 | 1.06 | 2026-08-06 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.25 | 0.05 | 2026-08-07 | live as of 7 August 2026, 09:12:02 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.31 | 0.07 | 2026-08-07 | live as of 7 August 2026, 09:12:02 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.4 | 0.12 | 2026-08-07 | live as of 7 August 2026, 09:12:02 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.53 | 0.03 | 2026-08-07 | live as of 7 August 2026, 09:12:02 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.68 | 0.0 | 2026-08-07 | live as of 7 August 2026, 09:12:02 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.23 | -0.02 | 2026-08-07 | live as of 7 August 2026, 09:12:02 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.22 | 0.0 | 2026-08-07 | live as of 7 August 2026, 09:12:02 (HKT) |
-| HK50 | Hang Seng Futures | 25536.5 | -0.56 | 2026-08-06 | closed |
+| US2YT=X | United States 2-Year Treasury Yield | 4.25 | 0.01 | 2026-08-07 | live as of 7 August 2026, 10:00:41 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.3 | -0.0 | 2026-08-07 | live as of 7 August 2026, 10:00:41 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.39 | 0.08 | 2026-08-07 | live as of 7 August 2026, 10:00:41 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.53 | 0.08 | 2026-08-07 | live as of 7 August 2026, 10:00:41 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.68 | 0.19 | 2026-08-07 | live as of 7 August 2026, 10:00:41 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.23 | 0.25 | 2026-08-07 | live as of 7 August 2026, 10:00:41 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.22 | 0.23 | 2026-08-07 | live as of 7 August 2026, 10:00:41 (HKT) |
+| HK50 | Hang Seng Futures | 25449.5 | -0.41 | 2026-08-07 | live as of 7 August 2026, 10:00:41 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 985.35 | 0.43 | 2026-08-06 | closed |
 | CIHc1 | SSE 50 Futures | 2909.0 | -0.19 | 2026-08-06 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.46 | -0.08 | 2026-08-06 | closed |
@@ -366,15 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `42.27`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**5. AppLovin stock tanks on Q2 revenue miss**
-- Source: CNBC Investing
-- Importance / impact: Medium / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: APPLOV, earnings report, stock performance
-- Score: `37.29`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**6. Apollo to Buy European Budget Airline easyJet for $7.7 Billion**
+**5. Apollo to Buy European Budget Airline easyJet for $7.7 Billion**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. Airbnb stock soars 9% on earnings and revenue beat, strong guidance for third quarter**
+**6. Airbnb stock soars 9% on earnings and revenue beat, strong guidance for third quarter**
 - Source: CNBC Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.1`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. Airbnb stock soars 12% on earnings and revenue beat, strong guidance for third quarter**
+**7. Airbnb stock soars 12% on earnings and revenue beat, strong guidance for third quarter**
 - Source: CNBC Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.1`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. CNBC Daily Open: Iran, Oman in talks on Hormuz; SpaceX is loyal to Nvidia on AI**
+**8. CNBC Daily Open: Iran, Oman in talks on Hormuz; SpaceX is loyal to Nvidia on AI**
 - Source: CNBC Technology
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -406,12 +398,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.81`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. SoftBank earnings exceed expectations, even without an OpenAI boost. This U.S. chip company saved the day.**
+**9. SoftBank earnings exceed expectations, even without an OpenAI boost. This U.S. chip company saved the day.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: INTC, U.S, technology, investment
 - Score: `33.15`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Airbnb Boosts Full-Year Forecast on Strong Demand as AI Bets Pay Off**
+- Source: Dow Jones US Business
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / quarterly
+- Affected assets: ABNB, Revenue Growth, Short-term Rental Industry
+- Score: `32.91`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
@@ -504,7 +504,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `13`
+- Live macro rows used: `15`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
