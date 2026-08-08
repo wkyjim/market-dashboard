@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 9 August 2026, 00:24:42 (HKT)
+Generated at: 9 August 2026, 01:09:26 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.55 / 100** (Moderate Risk-On)
+- Regime score: **65.48 / 100** (Moderate Risk-On)
 - US equity strength: **81.61 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **50.22 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 65.55 | Moderate Risk-On |
+| Overall regime | 65.48 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.71 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.18 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 56.83 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.15 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 61.25 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=73.18, news_confirmation=61.25 |
+| news_confirmation | 60.0 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=73.18, news_confirmation=60.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 35, 'negative': 17, 'neutral': 28}
-- News confirmation score: `61.25`
+- Sentiment counts: {'positive': 34, 'negative': 18, 'neutral': 28}
+- News confirmation score: `60.0`
 
 ### Top Market-Moving Headlines
 
@@ -374,15 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**6. The Cyberattack That Brought a Distant War to Small-Town Minnesota**
-- Source: Dow Jones US News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, cybersecurity, infrastructure
-- Score: `36.4`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. The stakes for next week's inflation data just got higher. Here's what's ahead**
+**6. The stakes for next week's inflation data just got higher. Here's what's ahead**
 - Source: CNBC Markets
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -390,15 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.69`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. Chesky says Airbnb will spend ‘a lot more’ on AI as earnings beat and stock surges 15%**
-- Source: CNBC Top News
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: ABNB, AI, growth
-- Score: `31.49`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**9. Oil slides more than 8% for the week as traders hope for Hormuz reopening deal**
+**7. Oil slides more than 8% for the week as traders hope for Hormuz reopening deal**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short term
@@ -406,13 +390,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.98`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**10. Berkshire earnings rose last quarter and CEO Greg Abel is starting to deploy Buffett's massive cash hoard**
+**8. The Cyberattack That Brought a Distant War to Small-Town Minnesota**
+- Source: Dow Jones US News
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, cybersecurity, infrastructure
+- Score: `30.94`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. Berkshire earnings rose last quarter and CEO Greg Abel is starting to deploy Buffett's massive cash hoard**
 - Source: CNBC Investing
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: BRK.A, BRK.B, Earnings Report, CEO Strategy
 - Score: `27.82`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**10. London Gas Oil doji at $1,188 bear flag zone: Live levels**
+- Source: Investing.com Stock Market
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: commodity, market movement
+- Score: `27.34`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
