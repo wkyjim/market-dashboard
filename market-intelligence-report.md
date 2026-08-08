@@ -1,13 +1,13 @@
 # Market Intelligence Report
 
 **Report Date:** 2026-08-08  
-**Data Cutoff:** 2026-08-08 06:31 HKT; latest US cash close 2026-08-07  
+**Data Cutoff:** 2026-08-08 18:16 HKT; latest US cash close 2026-08-07
 **Short-Term Horizon:** Next 1–3 months  
 **Long-Term Horizon:** Next 6–12 months  
 
 ## Executive Summary
 
-**Regime:** Moderate risk-on with broadening participation, moderated by a late-cycle growth/inflation-policy trade-off. The dashboard score is 66.47/100 (generated 2026-08-08 06:17 HKT); 73.33% of tracked constituents are above their 50-day average and 72.88% above their 200-day average. The August 7 close extended the advance: S&P 500 7,757.64 (+0.62%), Nasdaq Composite +1.30%, Russell 2000 +1.10%, RSP +0.69%, and VIX 14.90.
+**Regime:** Moderate risk-on with broadening participation, moderated by a late-cycle growth/inflation-policy trade-off. The dashboard score is 65.77/100 (generated 2026-08-08 18:16 HKT); 73.33% of tracked constituents are above their 50-day average and 72.88% above their 200-day average. The August 7 close extended the advance: S&P 500 7,757.64 (+0.62%), Nasdaq Composite +1.30%, Russell 2000 +1.10%, RSP +0.69%, and VIX 14.90.
 
 **Short term (1–3 months): Neutral US-equity beta, with a quality/value and broadening bias.** The payroll shock—July nonfarm payrolls -23k, with May and June revised lower—raises downside growth sensitivity, while a 4.65% 10-year and 5.20% 30-year yield limit duration-multiple expansion. Favor Financials, Health Care, Industrials and selective Discretionary; retain index-put convexity. **Confidence: 7/10.**
 
@@ -63,7 +63,7 @@ The base case is slow nominal-growth expansion rather than a recession: June ret
 
 ## Cross-Asset View
 
-Equities, credit ETFs and volatility confirm a risk-on tape: HYG +0.19%, LQD +0.18%, JNK +0.21%, VIX -1.65%, and the cash S&P/Russell both rose on August 7. Rates do not fully confirm it: 2Y/10Y/30Y closed at 4.20%/4.65%/5.20%. Gold +3.76% and silver +3.84% indicate demand for real-asset/hedge exposure; copper -1.53% weakens the cyclical confirmation; WTI -0.27% is disinflationary near term. Bitcoin live snapshot was +0.96% to $64,878 but is not central to equity allocation. **Short term:** constructive but hedgeable. **Long term:** credit and breadth must remain firm for equities to outrun yields. **Confidence: 6/10.**
+Equities, credit ETFs and volatility confirm a risk-on tape: HYG +0.19%, LQD +0.18%, JNK +0.21%, VIX -1.65%, and the cash S&P/Russell both rose on August 7. Rates do not fully confirm it: 2Y/10Y/30Y closed at 4.20%/4.65%/5.20%. Gold +3.76% and silver +3.84% indicate demand for real-asset/hedge exposure; copper -1.53% weakens the cyclical confirmation; WTI -0.27% is disinflationary near term. The API's only active live observation at the cutoff was Bitcoin (+0.12% to $64,955 at 18:00 HKT); it is not used to infer intraday equity conditions. **Short term:** constructive but hedgeable. **Long term:** credit and breadth must remain firm for equities to outrun yields. **Confidence: 6/10.**
 
 ## Broad US Equities View
 
@@ -207,8 +207,8 @@ Recommended trades are intentionally non-duplicative: the first two share growth
 
 | Source | Publication/data date | Subject | URL |
 |---|---|---|---|
-| Rule-Based Institutional Market Update | Generated 2026-08-08 06:17 HKT; market close 2026-08-07 | Dashboard, prices, breadth, macro, sector/flow signals | https://wkyjim.github.io/market-dashboard/data/latest-report.md |
-| US Equities API OpenAPI v1.1.0 and endpoints | Retrieved 2026-08-08 HKT; closing data 2026-08-07, live BTC timestamp 2026-08-07 22:22 UTC | Field validation, market tape, ETF technicals, live macro coverage | https://postgresql-us-equities-api.onrender.com/openapi.json |
+| Rule-Based Institutional Market Update | Generated 2026-08-08 18:16 HKT; market close 2026-08-07 | Dashboard, prices, breadth, macro, sector/flow signals | https://wkyjim.github.io/market-dashboard/data/latest-report.md |
+| US Equities API OpenAPI v1.1.0 and endpoints | Retrieved 2026-08-08 18:00 HKT; closing data 2026-08-07, live BTC timestamp 2026-08-08 18:00 HKT | Field validation, market tape, ETF technicals, live macro coverage | https://postgresql-us-equities-api.onrender.com/openapi.json |
 | U.S. Bureau of Labor Statistics | 2026-08-07 / calendar updated 2026-06-10 | July Employment Situation; CPI and PPI schedule | https://www.bls.gov/schedule/2026/08_sched.htm |
 | U.S. Bureau of Economic Analysis | Schedule current August 2026 | GDP, corporate-profits and PCE release dates | https://www.bea.gov/news/schedule/full |
 | Federal Reserve | Calendar current 2026 | September 15–16 FOMC meeting | https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm |
