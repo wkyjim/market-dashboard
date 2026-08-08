@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 8 August 2026, 09:17:07 (HKT)
+Generated at: 8 August 2026, 09:30:55 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.21 / 100** (Moderate Risk-On)
+- Regime score: **66.2 / 100** (Moderate Risk-On)
 - US equity strength: **81.61 / 100** (strong)
 - Evidence quality: **83.0 / 100**
-- ETF flow contribution: **50.31 / 100**, reliability **66.94 / 100**
+- ETF flow contribution: **50.22 / 100**, reliability **66.88 / 100**
 - Breadth: **broad**; above 50DMA `73.33%`, above 200DMA `72.88%`
 - Top sector score: **Cybersecurity** `68.78`
 - Top theme score: **Small Caps** `59.67`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.21 | Moderate Risk-On |
+| Overall regime | 66.2 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.71 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.18 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 56.83 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 50.2 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 50.15 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 74.38 | risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, news_confirmation=74.38, market_breadth=73.18 |
 | Negative contributors |  | none |
