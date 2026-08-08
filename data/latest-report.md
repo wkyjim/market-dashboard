@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 8 August 2026, 14:09:45 (HKT)
+Generated at: 8 August 2026, 15:10:26 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.05 / 100** (Moderate Risk-On)
+- Regime score: **65.86 / 100** (Moderate Risk-On)
 - US equity strength: **81.61 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **50.22 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.05 | Moderate Risk-On |
+| Overall regime | 65.86 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.71 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.18 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 56.83 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.15 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 71.25 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=73.18, news_confirmation=71.25 |
+| news_confirmation | 67.5 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=73.18, news_confirmation=67.5 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -244,7 +244,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Cybersecurity | 70.5 | strong uptrend | positive | broad | 67.28 | 65.0 | 62.84 | CIBR | CIBR |
 | 2 | Grid Infrastructure | 67.31 | strong uptrend | neutral | broad | 69.68 | 65.0 | 45.38 | GRID | GRID |
 | 3 | Financials | 66.22 | strong uptrend | positive | broad | 52.68 | 65.0 | 53.35 | PYPL, WTW, FDS | PGR, MSCI, HOOD |
-| 4 | Technology | 65.87 | strong uptrend | neutral | broad | 53.38 | 65.0 | 48.8 | IT, ZBRA, PLTR | NXPI, WDC, SNDK |
+| 4 | Technology | 65.93 | strong uptrend | neutral | broad | 53.38 | 65.0 | 48.8 | IT, ZBRA, PLTR | NXPI, WDC, SNDK |
 | 5 | Defense | 65.71 | strong uptrend | neutral | broad | 50.0 | 0.0 | 52.79 | XAR | XAR |
 | 6 | Industrials | 64.85 | strong uptrend | neutral | broad | 50.0 | 0.0 | 50.2 | LDOS, ALLE, SWK | LII, CHRW, HONA |
 | 7 | Healthcare | 64.36 | strong uptrend | positive | broad | 61.47 | 65.0 | 53.89 | BAX, VEEV, REGN | PODD, MRNA, DVA |
@@ -254,7 +254,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 11 | Semiconductors | 55.19 | strong uptrend | neutral | weak | 57.71 | 100.0 | 45.11 | SMH, SOXX | SOXX, SMH |
 | 12 | Nuclear | 52.5 | neutral | neutral | broad | 50.0 | 0.0 | 42.09 | NLR | NLR |
 | 13 | Crypto | 51.87 | neutral | neutral | mixed | 68.69 | 65.0 | 50.0 |  |  |
-| 14 | Energy | 46.46 | strong downtrend | neutral | broad | 51.09 | 65.0 | 49.23 | APA, XOM, PSX | WMB, HAL, TPL |
+| 14 | Energy | 46.29 | strong downtrend | neutral | broad | 51.09 | 65.0 | 49.23 | APA, XOM, PSX | WMB, HAL, TPL |
 | 15 | Utilities | 34.21 | strong downtrend | neutral | weak | 50.0 | 0.0 | 41.83 | CEG, AWK, PCG | SRE, VST, NRG |
 
 ### Thematic Strength
@@ -287,7 +287,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 70.5 | strong | 58.72 | positive | sector and theme confirmation |
 | Grid Infrastructure | Grid Infrastructure | 67.31 | strong | 49.57 | mixed | sector stronger than related themes |
 | Financials | Financials | 66.22 | strong | 57.47 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.87 | strong | 55.48 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.93 | strong | 55.48 | positive | sector and theme confirmation |
 | Defense | Defense | 65.71 | strong | 59.64 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 64.85 | positive | 54.6 | mixed | sector stronger than related themes |
 | Healthcare | Healthcare Innovation | 64.36 | positive | 58.37 | positive | sector and theme confirmation |
@@ -297,7 +297,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Semiconductors | AI Infrastructure, Semiconductors | 55.19 | positive | 54.15 | mixed | sector stronger than related themes |
 | Nuclear | Nuclear | 52.5 | mixed | 45.15 | mixed | mixed confirmation |
 | Crypto | Crypto Infrastructure | 51.87 | mixed | 34.63 | very weak | mixed confirmation |
-| Energy | Energy | 46.46 | mixed | 54.21 | mixed | mixed confirmation |
+| Energy | Energy | 46.29 | mixed | 54.21 | mixed | mixed confirmation |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 34.21 | very weak | 48.15 | mixed | mixed confirmation |
 
 ## Three-Month Outperformance Setup
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 50, 'negative': 16, 'neutral': 14}
-- News confirmation score: `71.25`
+- Sentiment counts: {'positive': 41, 'negative': 13, 'neutral': 26}
+- News confirmation score: `67.5`
 
 ### Top Market-Moving Headlines
 
@@ -366,7 +366,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.45`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. BP profit more than doubles as Trump blasts Big Oil for ‘making too much money’**
+**5. Inside the startup drone maker powering Ukraine's deep-strike campaign**
+- Source: CNBC Business Headlines
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AI, drone, Ukraine
+- Score: `40.8`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**6. BP profit more than doubles as Trump blasts Big Oil for ‘making too much money’**
 - Source: CNBC Business News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Iran's chief negotiator accuses Trump of 'theater diplomacy' with Hormuz traffic near standstill**
+**7. Iran's chief negotiator accuses Trump of 'theater diplomacy' with Hormuz traffic near standstill**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.46`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts**
+**8. China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts**
 - Source: CNBC Technology
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.02`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. Optical stocks have a China problem that most investors are missing**
+**9. Optical stocks have a China problem that most investors are missing**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / medium-term
@@ -398,21 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.73`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**9. The stakes for next week's inflation data just got higher. Here's what's ahead**
+**10. The stakes for next week's inflation data just got higher. Here's what's ahead**
 - Source: CNBC Markets
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: economy, monetary policy
 - Score: `35.69`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**10. Chesky says Airbnb will spend ‘a lot more’ on AI as earnings beat and stock surges 15%**
-- Source: CNBC Top News
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: ABNB, AI, growth
-- Score: `31.49`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
