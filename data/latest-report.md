@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 8 August 2026, 21:10:02 (HKT)
+Generated at: 8 August 2026, 21:13:15 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -244,8 +244,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Cybersecurity | 70.5 | strong uptrend | positive | broad | 67.28 | 65.0 | 62.84 | CIBR | CIBR |
 | 2 | Grid Infrastructure | 67.31 | strong uptrend | neutral | broad | 69.68 | 65.0 | 45.38 | GRID | GRID |
 | 3 | Financials | 66.22 | strong uptrend | positive | broad | 52.68 | 65.0 | 53.35 | PYPL, WTW, FDS | PGR, MSCI, HOOD |
-| 4 | Technology | 65.92 | strong uptrend | neutral | broad | 53.38 | 65.0 | 48.8 | IT, ZBRA, PLTR | NXPI, WDC, SNDK |
-| 5 | Defense | 65.71 | strong uptrend | neutral | broad | 50.0 | 0.0 | 52.79 | XAR | XAR |
+| 4 | Defense | 65.71 | strong uptrend | neutral | broad | 50.0 | 0.0 | 52.79 | XAR | XAR |
+| 5 | Technology | 65.49 | strong uptrend | neutral | broad | 53.38 | 65.0 | 48.8 | IT, ZBRA, PLTR | NXPI, WDC, SNDK |
 | 6 | Industrials | 64.85 | strong uptrend | neutral | broad | 50.0 | 0.0 | 50.2 | LDOS, ALLE, SWK | LII, CHRW, HONA |
 | 7 | Healthcare | 64.36 | strong uptrend | positive | broad | 61.47 | 65.0 | 53.89 | BAX, VEEV, REGN | PODD, MRNA, DVA |
 | 8 | Consumer Staples | 62.06 | strong uptrend | neutral | broad | 50.0 | 0.0 | 47.68 | TGT, TAP, CLX | KDP, KR, MNST |
@@ -254,7 +254,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 11 | Semiconductors | 55.19 | strong uptrend | neutral | weak | 57.71 | 100.0 | 45.11 | SMH, SOXX | SOXX, SMH |
 | 12 | Nuclear | 52.5 | neutral | neutral | broad | 50.0 | 0.0 | 42.09 | NLR | NLR |
 | 13 | Crypto | 51.87 | neutral | neutral | mixed | 68.69 | 65.0 | 50.0 |  |  |
-| 14 | Energy | 46.29 | strong downtrend | neutral | broad | 51.09 | 65.0 | 49.23 | APA, XOM, PSX | WMB, HAL, TPL |
+| 14 | Energy | 46.46 | strong downtrend | neutral | broad | 51.09 | 65.0 | 49.23 | APA, XOM, PSX | WMB, HAL, TPL |
 | 15 | Utilities | 34.21 | strong downtrend | neutral | weak | 50.0 | 0.0 | 41.83 | CEG, AWK, PCG | SRE, VST, NRG |
 
 ### Thematic Strength
@@ -287,8 +287,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 70.5 | strong | 58.72 | positive | sector and theme confirmation |
 | Grid Infrastructure | Grid Infrastructure | 67.31 | strong | 49.57 | mixed | sector stronger than related themes |
 | Financials | Financials | 66.22 | strong | 57.47 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.92 | strong | 55.48 | positive | sector and theme confirmation |
 | Defense | Defense | 65.71 | strong | 59.64 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.49 | strong | 55.48 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 64.85 | positive | 54.6 | mixed | sector stronger than related themes |
 | Healthcare | Healthcare Innovation | 64.36 | positive | 58.37 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 62.06 | positive | 49.74 | mixed | sector stronger than related themes |
@@ -297,7 +297,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Semiconductors | AI Infrastructure, Semiconductors | 55.19 | positive | 54.15 | mixed | sector stronger than related themes |
 | Nuclear | Nuclear | 52.5 | mixed | 45.15 | mixed | mixed confirmation |
 | Crypto | Crypto Infrastructure | 51.87 | mixed | 34.63 | very weak | mixed confirmation |
-| Energy | Energy | 46.29 | mixed | 54.21 | mixed | mixed confirmation |
+| Energy | Energy | 46.46 | mixed | 54.21 | mixed | mixed confirmation |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 34.21 | very weak | 48.15 | mixed | mixed confirmation |
 
 ## Three-Month Outperformance Setup
