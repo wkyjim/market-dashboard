@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 9 August 2026, 03:15:54 (HKT)
+Generated at: 9 August 2026, 04:07:46 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -339,7 +339,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: BRK.A, BRK.B, Investments, Profitability
-- Score: `57.38`
+- Score: `48.77`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 **2. Berkshire Hathaway profit doubles, fueled by a near $13 billion investment gain**
@@ -347,7 +347,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: BRK.A, BRK.B, profitability, investment
-- Score: `54.51`
+- Score: `46.33`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 **3. Iran sets conditions for opening Strait of Hormuz after UAE says one of its ships was targeted by airstrike**
@@ -366,15 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. The stakes for next week's inflation data just got higher. Here's what's ahead**
-- Source: CNBC Markets
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: economy, monetary policy
-- Score: `35.69`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**6. Oil slides more than 8% for the week as traders hope for Hormuz reopening deal**
+**5. Oil slides more than 8% for the week as traders hope for Hormuz reopening deal**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.98`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**7. The Cyberattack That Brought a Distant War to Small-Town Minnesota**
+**6. The Cyberattack That Brought a Distant War to Small-Town Minnesota**
 - Source: Dow Jones US News
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -390,15 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.94`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Berkshire earnings rose last quarter and CEO Greg Abel is starting to deploy Buffett's massive cash hoard**
-- Source: CNBC Investing
-- Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: BRK.A, BRK.B, Earnings Report, CEO Strategy
-- Score: `27.82`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**9. London Gas Oil doji at $1,188 bear flag zone: Live levels**
+**7. London Gas Oil doji at $1,188 bear flag zone: Live levels**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -406,13 +390,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.34`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. July's soft jobs report removes some of the urgency for a September rate hike**
+**8. July's soft jobs report removes some of the urgency for a September rate hike**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: economic_data, interest_rates
 - Score: `24.71`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**9. UAE says Iran attacked ADNOC vessel with missile in Strait of Hormuz**
+- Source: Investing.com World News
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: ADNOC, UAE, geopolitical_risk, oil
+- Score: `24.3`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Berkshire earnings rose last quarter and CEO Greg Abel is starting to deploy Buffett's massive cash hoard**
+- Source: CNBC Investing
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: BRK.A, BRK.B, Earnings Report, CEO Strategy
+- Score: `23.64`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
