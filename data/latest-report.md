@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 8 August 2026, 18:09:31 (HKT)
+Generated at: 8 August 2026, 18:12:33 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -244,7 +244,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Cybersecurity | 70.5 | strong uptrend | positive | broad | 67.28 | 65.0 | 62.84 | CIBR | CIBR |
 | 2 | Grid Infrastructure | 67.31 | strong uptrend | neutral | broad | 69.68 | 65.0 | 45.38 | GRID | GRID |
 | 3 | Financials | 66.22 | strong uptrend | positive | broad | 52.68 | 65.0 | 53.35 | PYPL, WTW, FDS | PGR, MSCI, HOOD |
-| 4 | Technology | 65.93 | strong uptrend | neutral | broad | 53.38 | 65.0 | 48.8 | IT, ZBRA, PLTR | NXPI, WDC, SNDK |
+| 4 | Technology | 65.92 | strong uptrend | neutral | broad | 53.38 | 65.0 | 48.8 | IT, ZBRA, PLTR | NXPI, WDC, SNDK |
 | 5 | Defense | 65.71 | strong uptrend | neutral | broad | 50.0 | 0.0 | 52.79 | XAR | XAR |
 | 6 | Industrials | 64.85 | strong uptrend | neutral | broad | 50.0 | 0.0 | 50.2 | LDOS, ALLE, SWK | LII, CHRW, HONA |
 | 7 | Healthcare | 64.36 | strong uptrend | positive | broad | 61.47 | 65.0 | 53.89 | BAX, VEEV, REGN | PODD, MRNA, DVA |
@@ -287,7 +287,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 70.5 | strong | 58.72 | positive | sector and theme confirmation |
 | Grid Infrastructure | Grid Infrastructure | 67.31 | strong | 49.57 | mixed | sector stronger than related themes |
 | Financials | Financials | 66.22 | strong | 57.47 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.93 | strong | 55.48 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.92 | strong | 55.48 | positive | sector and theme confirmation |
 | Defense | Defense | 65.71 | strong | 59.64 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 64.85 | positive | 54.6 | mixed | sector stronger than related themes |
 | Healthcare | Healthcare Innovation | 64.36 | positive | 58.37 | positive | sector and theme confirmation |
