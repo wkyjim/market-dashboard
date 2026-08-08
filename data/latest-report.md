@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 9 August 2026, 05:10:31 (HKT)
+Generated at: 9 August 2026, 05:37:04 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -360,10 +360,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 **4. Inside the startup drone maker powering Ukraine's deep-strike campaign**
 - Source: CNBC Business News
-- Importance / impact: Medium / Positive
+- Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: AI, drone, Ukraine
-- Score: `40.8`
+- Score: `34.68`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 **5. Oil slides more than 8% for the week as traders hope for Hormuz reopening deal**
