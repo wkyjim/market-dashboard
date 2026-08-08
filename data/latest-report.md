@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 8 August 2026, 19:10:51 (HKT)
+Generated at: 8 August 2026, 20:08:28 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.8 / 100** (Moderate Risk-On)
+- Regime score: **65.77 / 100** (Moderate Risk-On)
 - US equity strength: **81.61 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **50.22 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 65.8 | Moderate Risk-On |
+| Overall regime | 65.77 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.71 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.18 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 56.83 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.15 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 66.25 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=73.18, news_confirmation=66.25 |
+| news_confirmation | 65.62 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=73.18, news_confirmation=65.62 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 37, 'negative': 11, 'neutral': 32}
-- News confirmation score: `66.25`
+- Sentiment counts: {'positive': 36, 'negative': 11, 'neutral': 33}
+- News confirmation score: `65.62`
 
 ### Top Market-Moving Headlines
 
@@ -358,23 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.45`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. Inside the startup drone maker powering Ukraine's deep-strike campaign**
-- Source: CNBC Business Headlines
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AI, drone, Ukraine
-- Score: `40.8`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**5. BP profit more than doubles as Trump blasts Big Oil for ‘making too much money’**
-- Source: CNBC Business News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: BP, U.S, energy, political, oil prices
-- Score: `40.8`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. Iran's chief negotiator accuses Trump of 'theater diplomacy' with Hormuz traffic near standstill**
+**4. Iran's chief negotiator accuses Trump of 'theater diplomacy' with Hormuz traffic near standstill**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -382,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.46`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts**
+**5. China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts**
 - Source: CNBC Technology
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -390,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.02`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. The stakes for next week's inflation data just got higher. Here's what's ahead**
+**6. The stakes for next week's inflation data just got higher. Here's what's ahead**
 - Source: CNBC Markets
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -398,7 +382,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.69`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**9. Chesky says Airbnb will spend ‘a lot more’ on AI as earnings beat and stock surges 15%**
+**7. Inside the startup drone maker powering Ukraine's deep-strike campaign**
+- Source: CNBC Business Headlines
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AI, drone, Ukraine
+- Score: `34.68`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**8. Chesky says Airbnb will spend ‘a lot more’ on AI as earnings beat and stock surges 15%**
 - Source: CNBC Top News
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.49`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. Applied Materials is about to report earnings. How to trade the AI picks-and-shovels play ahead of results**
+**9. Applied Materials is about to report earnings. How to trade the AI picks-and-shovels play ahead of results**
 - Source: CNBC Top News
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: APPLM, AI, Earnings Report
 - Score: `31.49`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Oil slides more than 8% for the week as traders hope for Hormuz reopening deal**
+- Source: Investing.com Stock Market
+- Importance / impact: Low / Positive
+- Relevance / horizon: macro / short term
+- Affected assets: U.S, Geopolitical Risk, Energy Markets
+- Score: `30.98`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
 
 
 ### Headline Quality Checks
