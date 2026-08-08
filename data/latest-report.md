@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 8 August 2026, 09:33:36 (HKT)
+Generated at: 8 August 2026, 10:08:38 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -366,15 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.89`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. The stakes for next week's inflation data just got higher. Here's what's ahead**
-- Source: CNBC Markets
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: economy, monetary policy
-- Score: `41.99`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**6. Canada Unemployment Rate Falls to 2-Year Low of 6.4% in July**
+**5. Canada Unemployment Rate Falls to 2-Year Low of 6.4% in July**
 - Source: Dow Jones Economy
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.45`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. BP profit more than doubles as Trump blasts Big Oil for ‘making too much money’**
+**6. BP profit more than doubles as Trump blasts Big Oil for ‘making too much money’**
 - Source: CNBC Business News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Iran's chief negotiator accuses Trump of 'theater diplomacy' with Hormuz traffic near standstill**
+**7. Iran's chief negotiator accuses Trump of 'theater diplomacy' with Hormuz traffic near standstill**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.46`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts**
+**8. China's super-rich 'in shock' and hunting for cash as Beijing issues surprise tax on offshore trusts**
 - Source: CNBC Technology
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -406,12 +398,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.02`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**10. Optical stocks have a China problem that most investors are missing**
+**9. Optical stocks have a China problem that most investors are missing**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / medium-term
 - Affected assets: trade, geopolitics
 - Score: `38.73`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**10. The stakes for next week's inflation data just got higher. Here's what's ahead**
+- Source: CNBC Markets
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: economy, monetary policy
+- Score: `35.69`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 
