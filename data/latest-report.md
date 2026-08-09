@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 10 August 2026, 02:09:56 (HKT)
+Generated at: 10 August 2026, 03:10:41 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -329,17 +329,17 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 29, 'negative': 18, 'neutral': 33}
+- Sentiment counts: {'positive': 28, 'negative': 17, 'neutral': 35}
 - News confirmation score: `56.88`
 
 ### Top Market-Moving Headlines
 
-**1. Typhoon Dolphin set to hit China's east coast, triggering flood warnings**
+**1. Typhoon Dolphin hits China's east coast, over 1 million evacuated**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: weather, disaster
-- Score: `41.18`
+- Score: `48.45`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 **2. Iran Demands U.S. Withdrawal to Open Hormuz**
@@ -358,7 +358,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.98`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**4. London Gas Oil doji at $1,188 bear flag zone: Live levels**
+**4. Iran denies any direct talks with U.S. on opening Strait of Hormuz as Houthis claim attack on Saudi refinery**
+- Source: CNBC Business News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S., U.S, geopolitical_risk, oil_market
+- Score: `28.8`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. London Gas Oil doji at $1,188 bear flag zone: Live levels**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -366,21 +374,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.34`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Why the upcoming CPI report is a bigger event than last week’s jobs data**
+**6. Why the upcoming CPI report is a bigger event than last week’s jobs data**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: economic reports
 - Score: `25.44`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. UAE says Iran attacked ADNOC vessel with missile in Strait of Hormuz**
-- Source: Investing.com World News
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: ADNOC, UAE, geopolitical_risk, oil
-- Score: `24.3`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **7. European stocks draw investors as earnings and growth strengthen**
 - Source: Investing.com World News
