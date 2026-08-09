@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 9 August 2026, 23:12:09 (HKT)
+Generated at: 10 August 2026, 00:09:49 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **64.98 / 100** (Mild Risk-On)
+- Regime score: **65.27 / 100** (Moderate Risk-On)
 - US equity strength: **81.61 / 100** (strong)
-- Evidence quality: **79.5 / 100**
+- Evidence quality: **83.0 / 100**
 - ETF flow contribution: **50.22 / 100**, reliability **66.71 / 100**
 - Breadth: **broad**; above 50DMA `73.33%`, above 200DMA `72.88%`
 - Top sector score: **Cybersecurity** `70.5`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 64.98 | Mild Risk-On |
+| Overall regime | 65.27 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.71 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.18 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 56.83 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.15 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 55.62 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=73.18 |
 | Negative contributors |  | none |
 
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `79.5`
-- Agreement ratio: `0.5`
+- Confidence score: `83.0`
+- Agreement ratio: `0.6`
 - Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 25, 'negative': 25, 'neutral': 30}
-- News confirmation score: `50.0`
+- Sentiment counts: {'positive': 29, 'negative': 20, 'neutral': 31}
+- News confirmation score: `55.62`
 
 ### Top Market-Moving Headlines
 
@@ -339,7 +339,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: weather, disaster
-- Score: `48.45`
+- Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 **2. Iran sets conditions for opening Strait of Hormuz after UAE says one of its ships was targeted by airstrike**
@@ -350,15 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.68`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**3. Inside the startup drone maker powering Ukraine's deep-strike campaign**
-- Source: CNBC Business News
-- Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AI, drone, Ukraine
-- Score: `34.68`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**4. Iran Demands U.S. Withdrawal to Open Hormuz**
+**3. Iran Demands U.S. Withdrawal to Open Hormuz**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short term
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.51`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**5. Oil slides more than 8% for the week as traders hope for Hormuz reopening deal**
+**4. Oil slides more than 8% for the week as traders hope for Hormuz reopening deal**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.98`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**6. London Gas Oil doji at $1,188 bear flag zone: Live levels**
+**5. London Gas Oil doji at $1,188 bear flag zone: Live levels**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -382,13 +374,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.34`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Why the upcoming CPI report is a bigger event than last week’s jobs data**
+**6. Why the upcoming CPI report is a bigger event than last week’s jobs data**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: economic reports
 - Score: `25.44`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. Top Wall Street analysts like these 3 stocks for their solid growth potential**
+- Source: CNBC Markets
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AI, earnings
+- Score: `25.44`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 **8. UAE says Iran attacked ADNOC vessel with missile in Strait of Hormuz**
 - Source: Investing.com World News
