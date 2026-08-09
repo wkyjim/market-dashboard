@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 9 August 2026, 18:28:16 (HKT)
+Generated at: 9 August 2026, 19:24:11 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.05 / 100** (Moderate Risk-On)
+- Regime score: **65.08 / 100** (Moderate Risk-On)
 - US equity strength: **81.61 / 100** (strong)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **50.22 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 65.05 | Moderate Risk-On |
+| Overall regime | 65.08 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.71 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.18 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 56.83 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.15 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 51.25 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 51.88 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=73.18 |
 | Negative contributors |  | none |
 
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 27, 'negative': 25, 'neutral': 28}
-- News confirmation score: `51.25`
+- Sentiment counts: {'positive': 27, 'negative': 24, 'neutral': 29}
+- News confirmation score: `51.88`
 
 ### Top Market-Moving Headlines
 
@@ -382,15 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.98`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**7. The Cyberattack That Brought a Distant War to Small-Town Minnesota**
-- Source: Dow Jones US News
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, cybersecurity, infrastructure
-- Score: `30.94`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. London Gas Oil doji at $1,188 bear flag zone: Live levels**
+**7. London Gas Oil doji at $1,188 bear flag zone: Live levels**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.34`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. UAE says Iran attacked ADNOC vessel with missile in Strait of Hormuz**
+**8. UAE says Iran attacked ADNOC vessel with missile in Strait of Hormuz**
 - Source: Investing.com World News
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -406,12 +398,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Berkshire earnings rose last quarter and CEO Greg Abel is starting to deploy Buffett's massive cash hoard**
+**9. Berkshire earnings rose last quarter and CEO Greg Abel is starting to deploy Buffett's massive cash hoard**
 - Source: CNBC Investing
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: BRK.A, BRK.B, Earnings Report, CEO Strategy
 - Score: `23.64`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**10. Berkshire’s profit doubles as equity holdings surge; buys back $4.5 bln shares**
+- Source: Investing.com World News
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: BRK.A, BRK.B, earnings report, equity investments, share repurchase
+- Score: `23.24`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
