@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 10 August 2026, 06:17:34 (HKT)
+Generated at: 10 August 2026, 07:07:34 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.42 / 100** (Moderate Risk-On)
+- Regime score: **66.3 / 100** (Moderate Risk-On)
 - US equity strength: **81.61 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **50.22 / 100**, reliability **66.71 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 65.42 | Moderate Risk-On |
+| Overall regime | 66.3 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.71 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.18 | risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 56.83 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 54.87 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.15 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 58.75 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=73.18 |
+| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=73.18, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -59,12 +59,12 @@ Window: 24h
 | --- | --- | --- |
 | Equities | S&P 500 rising; Nasdaq rising; Russell 2000 rising | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
 | Rates | 10Y Treasury stable; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
-| Dollar | DXY proxy falling | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
+| Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
-| Copper | Copper falling | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
+| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 82.76 | 0.29 | 2026-08-07 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 93.17 | 0.24 | 2026-08-07 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.92 | 0.15 | 2026-08-07 | closed |
-| GC=F | Gold Future | 4401.3 | 3.76 | 2026-08-07 | closed |
-| SI=F | Silver Future | 63.8 | 3.84 | 2026-08-07 | closed |
-| CL=F | WTI Crude Oil Future | 77.08 | -0.27 | 2026-08-07 | closed |
-| HG=F | Copper Future | 6.58 | -1.53 | 2026-08-07 | closed |
+| GC=F | Gold Future | 4402.0 | 1.41 | 2026-08-09 | closed |
+| SI=F | Silver Future | 63.9 | 0.89 | 2026-08-09 | closed |
+| CL=F | WTI Crude Oil Future | 78.81 | 0.81 | 2026-08-09 | closed |
+| HG=F | Copper Future | 6.61 | 0.54 | 2026-08-09 | closed |
 
 ## Market Dispersion Analysis
 
@@ -508,7 +508,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `3`
+- Live macro rows used: `4`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
