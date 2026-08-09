@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 10 August 2026, 00:13:44 (HKT)
+Generated at: 10 August 2026, 00:15:40 (HKT)
 Window: 24h
 
 ## Executive Dashboard
