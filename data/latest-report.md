@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 9 August 2026, 07:09:43 (HKT)
+Generated at: 9 August 2026, 08:07:11 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -350,20 +350,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `46.33`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**3. Iran sets conditions for opening Strait of Hormuz after UAE says one of its ships was targeted by airstrike**
-- Source: CNBC Business News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: U.S., UAE, U.S, Geopolitical, Trade
-- Score: `40.8`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**4. Iran Demands U.S. Withdrawal to Open Hormuz**
+**3. Iran Demands U.S. Withdrawal to Open Hormuz**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short term
 - Affected assets: A, U.S, Geopolitical Risk, Energy Market
 - Score: `38.25`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**4. Iran sets conditions for opening Strait of Hormuz after UAE says one of its ships was targeted by airstrike**
+- Source: CNBC Business News
+- Importance / impact: Low / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: U.S., UAE, U.S, Geopolitical, Trade
+- Score: `34.68`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 **5. Inside the startup drone maker powering Ukraine's deep-strike campaign**
@@ -398,21 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.34`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. July's soft jobs report removes some of the urgency for a September rate hike**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: economic_data, interest_rates
-- Score: `24.71`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**10. UAE says Iran attacked ADNOC vessel with missile in Strait of Hormuz**
+**9. UAE says Iran attacked ADNOC vessel with missile in Strait of Hormuz**
 - Source: Investing.com World News
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: ADNOC, UAE, geopolitical_risk, oil
 - Score: `24.3`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Berkshire earnings rose last quarter and CEO Greg Abel is starting to deploy Buffett's massive cash hoard**
+- Source: CNBC Investing
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: BRK.A, BRK.B, Earnings Report, CEO Strategy
+- Score: `23.64`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
