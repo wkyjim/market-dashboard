@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 9 August 2026, 21:35:27 (HKT)
+Generated at: 9 August 2026, 22:09:52 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.08 / 100** (Moderate Risk-On)
+- Regime score: **64.98 / 100** (Mild Risk-On)
 - US equity strength: **81.61 / 100** (strong)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **50.22 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 65.08 | Moderate Risk-On |
+| Overall regime | 64.98 | Mild Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.71 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.18 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 56.83 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.15 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 51.88 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=73.18 |
 | Negative contributors |  | none |
 
@@ -329,20 +329,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 27, 'negative': 24, 'neutral': 29}
-- News confirmation score: `51.88`
+- Sentiment counts: {'positive': 25, 'negative': 25, 'neutral': 30}
+- News confirmation score: `50.0`
 
 ### Top Market-Moving Headlines
 
-**1. Berkshire Hathaway profit doubles, fueled by a near $13 billion investment gain**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: BRK.A, BRK.B, Investments, Profitability
-- Score: `48.77`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**2. Typhoon Dolphin set to hit China's east coast, triggering flood warnings**
+**1. Typhoon Dolphin set to hit China's east coast, triggering flood warnings**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -350,15 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**3. Berkshire Hathaway profit doubles, fueled by a near $13 billion investment gain**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: BRK.A, BRK.B, profitability, investment
-- Score: `46.33`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**4. Iran sets conditions for opening Strait of Hormuz after UAE says one of its ships was targeted by airstrike**
+**2. Iran sets conditions for opening Strait of Hormuz after UAE says one of its ships was targeted by airstrike**
 - Source: CNBC Business News
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -366,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.68`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**5. Inside the startup drone maker powering Ukraine's deep-strike campaign**
+**3. Inside the startup drone maker powering Ukraine's deep-strike campaign**
 - Source: CNBC Business News
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -374,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.68`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. Iran Demands U.S. Withdrawal to Open Hormuz**
+**4. Iran Demands U.S. Withdrawal to Open Hormuz**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short term
@@ -382,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.51`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**7. Oil slides more than 8% for the week as traders hope for Hormuz reopening deal**
+**5. Oil slides more than 8% for the week as traders hope for Hormuz reopening deal**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short term
@@ -390,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.98`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**8. London Gas Oil doji at $1,188 bear flag zone: Live levels**
+**6. London Gas Oil doji at $1,188 bear flag zone: Live levels**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -398,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.34`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Why the upcoming CPI report is a bigger event than last week’s jobs data**
+**7. Why the upcoming CPI report is a bigger event than last week’s jobs data**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -406,13 +390,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.44`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. UAE says Iran attacked ADNOC vessel with missile in Strait of Hormuz**
+**8. UAE says Iran attacked ADNOC vessel with missile in Strait of Hormuz**
 - Source: Investing.com World News
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: ADNOC, UAE, geopolitical_risk, oil
 - Score: `24.3`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. European stocks draw investors as earnings and growth strengthen**
+- Source: Investing.com World News
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / medium-term
+- Affected assets: stocks, earnings, growth
+- Score: `23.24`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**10. Berkshire’s profit doubles as equity holdings surge; buys back $4.5 bln shares**
+- Source: Investing.com World News
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: BRK.A, BRK.B, earnings report, equity investments, share repurchase
+- Score: `23.24`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
