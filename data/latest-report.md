@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 10 August 2026, 18:04:44 (HKT)
+Generated at: 10 August 2026, 18:07:11 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.37 / 100** (Moderate Risk-On)
+- Regime score: **65.43 / 100** (Moderate Risk-On)
 - US equity strength: **81.61 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **50.49 / 100**, reliability **71.16 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 65.37 | Moderate Risk-On |
+| Overall regime | 65.43 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.71 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.18 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.58 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.35 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 60.0 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, market_breadth=73.18, volatility=70.0, commodity_confirmation=63.0, news_confirmation=60.0 |
+| news_confirmation | 61.25 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, market_breadth=73.18, volatility=70.0, commodity_confirmation=63.0, news_confirmation=61.25 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,12 +329,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 30, 'negative': 14, 'neutral': 36}
-- News confirmation score: `60.0`
+- Sentiment counts: {'positive': 31, 'negative': 13, 'neutral': 36}
+- News confirmation score: `61.25`
 
 ### Top Market-Moving Headlines
 
-**1. Oil Rises Amid Growing Doubts That Strait of Hormuz Can Reopen Soon**
+**1. Australian rare earth miner surges after U.S. Department of War investment**
+- Source: CNBC Business News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: U.S, investment, mining, rare earth
+- Score: `46.93`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**2. Oil Rises Amid Growing Doubts That Strait of Hormuz Can Reopen Soon**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -342,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Typhoon Dolphin hits China's east coast, over 1 million evacuated**
+**3. Typhoon Dolphin hits China's east coast, over 1 million evacuated**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -350,7 +358,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**3. Oil slides more than 8% for the week as traders hope for Hormuz reopening deal**
+**4. War Is Helping Chinese EVs Upend the Global Car Market**
+- Source: Dow Jones US Business
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / medium term
+- Affected assets: Global Economy, Automotive Industry
+- Score: `38.25`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**5. Oil slides more than 8% for the week as traders hope for Hormuz reopening deal**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short term
@@ -358,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.98`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**4. Oil prices choppy amid uncertainty over U.S.-Iran Strait of Hormuz deal**
+**6. Oil prices choppy amid uncertainty over U.S.-Iran Strait of Hormuz deal**
 - Source: CNBC Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -366,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.93`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. U.S. Stock Futures Mostly Higher Ahead of Key CPI Data**
+**7. U.S. Stock Futures Mostly Higher Ahead of Key CPI Data**
 - Source: Dow Jones Economy
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -374,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `26.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Why the upcoming CPI report is a bigger event than last week’s jobs data**
+**8. Why the upcoming CPI report is a bigger event than last week’s jobs data**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -382,15 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.44`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Trump says oil supermajors are making too much money. What will they do with it?**
-- Source: CNBC Business News
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: politics, oil, energy
-- Score: `25.2`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. Earnings call transcript: Oil India posts record Q1 2026 beat, shares rise**
+**9. Earnings call transcript: Oil India posts record Q1 2026 beat, shares rise**
 - Source: Investing.com Forex
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -398,21 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. European stocks draw investors as earnings and growth strengthen**
+**10. European stocks draw investors as earnings and growth strengthen**
 - Source: Investing.com World News
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / medium-term
 - Affected assets: stocks, earnings, growth
 - Score: `23.24`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**10. U.S. Nonfarm Payrolls Unexpectedly Decline, Raising Economic Concerns**
-- Source: Investing.com Technology
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, economic_data, labour_market
-- Score: `22.95`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
