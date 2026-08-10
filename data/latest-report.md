@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 10 August 2026, 07:10:19 (HKT)
+Generated at: 10 August 2026, 08:07:20 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -83,7 +83,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US3YT=X | United States 3-Year Treasury Yield | 4.26 | -0.9 | 2026-08-07 | closed |
 | US5YT=X | United States 5-Year Treasury Yield | 4.36 | -0.69 | 2026-08-07 | closed |
 | US7YT=X | United States 7-Year Treasury Yield | 4.5 | -0.56 | 2026-08-07 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 4.65 | -0.49 | 2026-08-07 | closed |
+| US10YT=X | United States 10-Year Treasury Yield | 4.66 | 0.13 | 2026-08-10 | live as of 10 August 2026, 08:00:21 (HKT) |
 | US20YT=X | United States 20-Year Treasury Yield | 5.21 | -0.2 | 2026-08-07 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.2 | -0.19 | 2026-08-07 | closed |
 | HK50 | Hang Seng Futures | 25670.0 | 0.45 | 2026-08-07 | closed |
@@ -508,7 +508,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `4`
+- Live macro rows used: `5`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
