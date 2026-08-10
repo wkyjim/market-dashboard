@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 10 August 2026, 21:06:56 (HKT)
+Generated at: 10 August 2026, 21:10:40 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.5 / 100** (Moderate Risk-On)
+- Regime score: **65.56 / 100** (Moderate Risk-On)
 - US equity strength: **81.61 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **50.49 / 100**, reliability **71.16 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 65.5 | Moderate Risk-On |
+| Overall regime | 65.56 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.71 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.18 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.17 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.35 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 63.12 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, market_breadth=73.18, volatility=70.0, news_confirmation=63.12, commodity_confirmation=63.0 |
+| news_confirmation | 64.38 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, market_breadth=73.18, volatility=70.0, news_confirmation=64.38, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -251,7 +251,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 8 | Consumer Staples | 62.78 | strong uptrend | neutral | broad | 57.18 | 65.0 | 47.68 | TGT, TAP, CLX | KDP, KR, MNST |
 | 9 | Consumer Discretionary | 60.77 | uptrend | neutral | broad | 69.38 | 65.0 | 48.52 | GRMN, ULTA, BKNG | DECK, APTV, TSLA |
 | 10 | Real Estate | 56.32 | strong uptrend | neutral | broad | 56.3 | 100.0 | 47.72 | WY, DLR, CSGP | SBAC, UDR, CCI |
-| 11 | Semiconductors | 55.19 | strong uptrend | neutral | weak | 57.71 | 100.0 | 45.11 | SMH, SOXX | SOXX, SMH |
+| 11 | Semiconductors | 55.7 | strong uptrend | neutral | weak | 57.71 | 100.0 | 45.11 | SMH, SOXX | SOXX, SMH |
 | 12 | Nuclear | 52.5 | neutral | neutral | broad | 50.0 | 0.0 | 42.09 | NLR | NLR |
 | 13 | Crypto | 51.87 | neutral | neutral | mixed | 68.69 | 65.0 | 50.0 |  |  |
 | 14 | Energy | 45.59 | strong downtrend | neutral | broad | 42.41 | 90.0 | 49.23 | APA, XOM, PSX | WMB, HAL, TPL |
@@ -269,7 +269,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 6 | Quality Growth | 58.14 | Positive setup | 57.01 | 65.0 | 30.64 | False | False |
 | 7 | AI Infrastructure | 56.7 | Neutral / watchlist | 57.71 | 100.0 | 36.38 | False | False |
 | 8 | Energy | 53.34 | Neutral / watchlist | 42.41 | 90.0 | 5.8 | False | True |
-| 9 | Semiconductors | 51.6 | Neutral / watchlist | 57.71 | 100.0 | 20.31 | False | False |
+| 9 | Semiconductors | 52.73 | Neutral / watchlist | 57.71 | 100.0 | 20.31 | False | True |
 | 10 | Dividend Defensives | 49.74 | Neutral / watchlist | 58.99 | 65.0 | 6.97 | False | False |
 | 11 | Grid Infrastructure | 49.57 | Neutral / watchlist | 69.68 | 65.0 | 16.26 | False | False |
 | 12 | Nuclear | 45.15 | Weak setup | 50.0 | 0.0 | 10.42 | False | False |
@@ -277,7 +277,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 - Top 5 improving themes: Cybersecurity, Financials, Healthcare Innovation, Defense, Small Caps
 - Top 5 deteriorating themes: Crypto Infrastructure, Nuclear, Grid Infrastructure, Energy, Dividend Defensives
-- Strong news but weak price confirmation: Energy
+- Strong news but weak price confirmation: Energy, Semiconductors
 - Strong price but weak news confirmation: none
 
 ### Sector / Theme Alignment
@@ -288,13 +288,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Grid Infrastructure | Grid Infrastructure | 67.31 | strong | 49.57 | mixed | sector stronger than related themes |
 | Financials | Financials | 67.15 | strong | 58.4 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 66.32 | strong | 54.56 | mixed | sector stronger than related themes |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.12 | strong | 55.48 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.12 | strong | 55.85 | positive | sector and theme confirmation |
 | Defense | Defense | 65.61 | strong | 59.55 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 64.58 | positive | 58.59 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 62.78 | positive | 49.74 | mixed | sector stronger than related themes |
 | Consumer Discretionary | Small Caps | 60.77 | positive | 59.67 | positive | sector and theme confirmation |
 | Real Estate | Dividend Defensives | 56.32 | positive | 49.74 | mixed | sector stronger than related themes |
-| Semiconductors | AI Infrastructure, Semiconductors | 55.19 | positive | 54.15 | mixed | sector stronger than related themes |
+| Semiconductors | AI Infrastructure, Semiconductors | 55.7 | positive | 54.71 | mixed | sector stronger than related themes |
 | Nuclear | Nuclear | 52.5 | mixed | 45.15 | mixed | mixed confirmation |
 | Crypto | Crypto Infrastructure | 51.87 | mixed | 34.63 | very weak | mixed confirmation |
 | Energy | Energy | 45.59 | mixed | 53.34 | mixed | mixed confirmation |
@@ -313,7 +313,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 7 | Energy | 57.64 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 8 | AI Infrastructure | 57.4 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
 | 9 | Dividend Defensives | 54.13 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 10 | Semiconductors | 51.66 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
+| 10 | Semiconductors | 49.66 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
 | 11 | Grid Infrastructure | 48.87 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 12 | Nuclear | 42.36 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
 
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 33, 'negative': 12, 'neutral': 35}
-- News confirmation score: `63.12`
+- Sentiment counts: {'positive': 35, 'negative': 12, 'neutral': 33}
+- News confirmation score: `64.38`
 
 ### Top Market-Moving Headlines
 
@@ -358,7 +358,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `46.93`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**4. War Is Helping Chinese EVs Upend the Global Car Market**
+**4. This company is set to gain ground on sky-high computer hardware demand, Morgan Stanley says**
+- Source: CNBC Markets
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: HPE, AI, hardware demand
+- Score: `41.68`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**5. War Is Helping Chinese EVs Upend the Global Car Market**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / medium term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.25`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. Oil Rises Amid Growing Doubts That Strait of Hormuz Can Reopen Soon**
+**6. Oil Rises Amid Growing Doubts That Strait of Hormuz Can Reopen Soon**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -374,7 +382,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.25`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Tractor Supply Retrenches; Strong Earnings Power Stocks to New Highs**
+**7. World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand**
+- Source: CNBC Investing
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: TSMC, technology, semiconductor
+- Score: `37.29`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**8. Intel plans $15 billion stock offering as AI demand accelerates**
+- Source: CNBC Markets
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: INTC, AI, technology
+- Score: `37.05`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**9. Tractor Supply Retrenches; Strong Earnings Power Stocks to New Highs**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -382,37 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.91`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. Oil slides more than 8% for the week as traders hope for Hormuz reopening deal**
+**10. Oil slides more than 8% for the week as traders hope for Hormuz reopening deal**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short term
 - Affected assets: U.S, Geopolitical Risk, Energy Markets
 - Score: `30.98`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
-
-**8. Why the upcoming CPI report is a bigger event than last week’s jobs data**
-- Source: Investing.com Economic Indicators
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: economic reports
-- Score: `25.44`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Oil prices choppy amid uncertainty over U.S.-Iran Strait of Hormuz deal**
-- Source: CNBC Markets
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil prices, geopolitical risk
-- Score: `25.44`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Earnings call transcript: Oil India posts record Q1 2026 beat, shares rise**
-- Source: Investing.com Forex
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: Oil India, earnings, oil industry, company performance
-- Score: `24.3`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
@@ -503,6 +503,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 | Severity | Section | Issue | Deterministic Fix |
 | --- | --- | --- | --- |
 | low | Theme Strength Ranking | Energy has strong news confirmation but weak price confirmation. | Classify as unconfirmed narrative. |
+| low | Theme Strength Ranking | Semiconductors has strong news confirmation but weak price confirmation. | Classify as unconfirmed narrative. |
 
 ## Data Quality Notes
 
