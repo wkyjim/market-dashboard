@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 10 August 2026, 20:06:09 (HKT)
+Generated at: 10 August 2026, 21:03:14 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.54 / 100** (Moderate Risk-On)
+- Regime score: **65.44 / 100** (Moderate Risk-On)
 - US equity strength: **81.61 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **50.49 / 100**, reliability **71.16 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 65.54 | Moderate Risk-On |
+| Overall regime | 65.44 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.71 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.18 | risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.3 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.17 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.35 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 63.75 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, market_breadth=73.18, volatility=70.0, news_confirmation=63.75, commodity_confirmation=63.0 |
+| news_confirmation | 61.88 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, market_breadth=73.18, volatility=70.0, commodity_confirmation=63.0, news_confirmation=61.88 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -76,16 +76,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7757.64 | 0.62 | 2026-08-07 | closed |
 | ^IXIC | NASDAQ Composite | 26690.62 | 1.3 | 2026-08-07 | closed |
 | ^RUT | Russell 2000 Index | 3034.49 | 1.1 | 2026-08-07 | closed |
-| ^VIX | CBOE Volatility Index | 15.45 | 3.69 | 2026-08-10 | live as of 10 August 2026, 20:00:34 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.42 | 3.49 | 2026-08-10 | live as of 10 August 2026, 21:00:57 (HKT) |
 | ^SKEW | CBOE SKEW Index | 132.57 | -1.6 | 2026-08-07 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.23 | 0.53 | 2026-08-10 | live as of 10 August 2026, 20:00:34 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.29 | 0.47 | 2026-08-10 | live as of 10 August 2026, 20:00:34 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.38 | 0.39 | 2026-08-10 | live as of 10 August 2026, 20:00:34 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.52 | 0.26 | 2026-08-10 | live as of 10 August 2026, 20:00:34 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.66 | 0.13 | 2026-08-10 | live as of 10 August 2026, 20:00:34 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.21 | -0.04 | 2026-08-10 | live as of 10 August 2026, 20:00:34 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.21 | -0.07 | 2026-08-10 | live as of 10 August 2026, 20:00:34 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.23 | 0.58 | 2026-08-10 | live as of 10 August 2026, 21:00:57 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.29 | 0.6 | 2026-08-10 | live as of 10 August 2026, 21:00:57 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.39 | 0.56 | 2026-08-10 | live as of 10 August 2026, 21:00:57 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.52 | 0.44 | 2026-08-10 | live as of 10 August 2026, 21:00:57 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.67 | 0.32 | 2026-08-10 | live as of 10 August 2026, 21:00:57 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.23 | 0.18 | 2026-08-10 | live as of 10 August 2026, 21:00:57 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.22 | 0.11 | 2026-08-10 | live as of 10 August 2026, 21:00:57 (HKT) |
 | HK50 | Hang Seng Futures | 25946.0 | 0.46 | 2026-08-10 | closed |
 | KOR200c1 | KOSPI 200 Futures | 987.45 | 0.89 | 2026-08-07 | closed |
 | CIHc1 | SSE 50 Futures | 2943.8 | 1.2 | 2026-08-07 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 82.76 | 0.29 | 2026-08-07 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 93.17 | 0.24 | 2026-08-07 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.92 | 0.15 | 2026-08-07 | closed |
-| GC=F | Gold Future | 4393.5 | 1.22 | 2026-08-10 | live as of 10 August 2026, 20:00:34 (HKT) |
-| SI=F | Silver Future | 64.19 | 1.36 | 2026-08-10 | live as of 10 August 2026, 20:00:34 (HKT) |
-| CL=F | WTI Crude Oil Future | 79.51 | 1.7 | 2026-08-10 | live as of 10 August 2026, 20:00:34 (HKT) |
-| HG=F | Copper Future | 6.62 | 0.73 | 2026-08-10 | live as of 10 August 2026, 20:00:34 (HKT) |
+| GC=F | Gold Future | 4390.0 | 1.14 | 2026-08-10 | live as of 10 August 2026, 21:00:57 (HKT) |
+| SI=F | Silver Future | 64.14 | 1.28 | 2026-08-10 | live as of 10 August 2026, 21:00:57 (HKT) |
+| CL=F | WTI Crude Oil Future | 79.74 | 2.0 | 2026-08-10 | live as of 10 August 2026, 21:00:57 (HKT) |
+| HG=F | Copper Future | 6.62 | 0.71 | 2026-08-10 | live as of 10 August 2026, 21:00:57 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,38 +325,38 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.45 pct_chg=3.69
+- VIX close=15.42 pct_chg=3.49
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 33, 'negative': 11, 'neutral': 36}
-- News confirmation score: `63.75`
+- Sentiment counts: {'positive': 32, 'negative': 13, 'neutral': 35}
+- News confirmation score: `61.88`
 
 ### Top Market-Moving Headlines
 
-**1. Australian rare earth miner surges after U.S. Department of War investment**
+**1. Shein faces existential threat as tariffs hit low-price model, putting new focus on services**
+- Source: CNBC Finance
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: tariffs, consumer behavior
+- Score: `51.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Storms from Typhoon Dolphin soak China's east, ground nearly 950 Shanghai flights**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: weather, disaster
+- Score: `48.45`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**3. Australian rare earth miner surges after U.S. Department of Defense investment**
 - Source: CNBC Business News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: U.S, investment, mining, rare earth
 - Score: `46.93`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**2. Oil Rises Amid Growing Doubts That Strait of Hormuz Can Reopen Soon**
-- Source: Dow Jones US Business
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: oil_prices, geopolitical_risk
-- Score: `45.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. Typhoon Dolphin hits China's east coast, over 1 million evacuated**
-- Source: CNBC Top News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: weather, disaster
-- Score: `41.18`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 **4. War Is Helping Chinese EVs Upend the Global Car Market**
 - Source: Dow Jones US Business
@@ -366,21 +366,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.25`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. Oil slides more than 8% for the week as traders hope for Hormuz reopening deal**
+**5. Oil Rises Amid Growing Doubts That Strait of Hormuz Can Reopen Soon**
+- Source: Dow Jones US Business
+- Importance / impact: Medium / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: oil_prices, geopolitical_risk
+- Score: `38.25`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. Oil slides more than 8% for the week as traders hope for Hormuz reopening deal**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short term
 - Affected assets: U.S, Geopolitical Risk, Energy Markets
 - Score: `30.98`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
-
-**6. Oil prices choppy amid uncertainty over U.S.-Iran Strait of Hormuz deal**
-- Source: CNBC Markets
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil prices, geopolitical risk
-- Score: `29.93`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **7. U.S. Stock Futures Mostly Higher Ahead of Key CPI Data**
 - Source: Dow Jones Economy
@@ -398,21 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.44`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Earnings call transcript: Oil India posts record Q1 2026 beat, shares rise**
+**9. Oil prices choppy amid uncertainty over U.S.-Iran Strait of Hormuz deal**
+- Source: CNBC Markets
+- Importance / impact: Low / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, oil prices, geopolitical risk
+- Score: `25.44`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Earnings call transcript: Oil India posts record Q1 2026 beat, shares rise**
 - Source: Investing.com Forex
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: Oil India, earnings, oil industry, company performance
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. European stocks draw investors as earnings and growth strengthen**
-- Source: Investing.com World News
-- Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / medium-term
-- Affected assets: stocks, earnings, growth
-- Score: `23.24`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
@@ -509,7 +509,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `23`
+- Live macro rows used: `26`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
