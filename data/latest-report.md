@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 10 August 2026, 14:05:37 (HKT)
+Generated at: 10 August 2026, 15:01:52 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.97 / 100** (Moderate Risk-On)
+- Regime score: **66.07 / 100** (Moderate Risk-On)
 - US equity strength: **81.61 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **50.49 / 100**, reliability **71.16 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 65.97 | Moderate Risk-On |
+| Overall regime | 66.07 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.71 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.18 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 54.55 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.35 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 56.88 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 58.75 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=73.18 |
 | Negative contributors |  | none |
 
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 14.9 | -1.65 | 2026-08-07 | closed |
 | ^SKEW | CBOE SKEW Index | 132.57 | -1.6 | 2026-08-07 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.21 | 0.04 | 2026-08-10 | live as of 10 August 2026, 14:00:54 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.27 | 0.0 | 2026-08-10 | live as of 10 August 2026, 14:00:54 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.36 | -0.05 | 2026-08-10 | live as of 10 August 2026, 14:00:54 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.5 | -0.12 | 2026-08-10 | live as of 10 August 2026, 14:00:54 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.65 | -0.15 | 2026-08-10 | live as of 10 August 2026, 14:00:54 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.21 | -0.19 | 2026-08-10 | live as of 10 August 2026, 14:00:54 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.2 | -0.22 | 2026-08-10 | live as of 10 August 2026, 14:00:54 (HKT) |
-| HK50 | Hang Seng Futures | 25865.0 | 0.15 | 2026-08-10 | live as of 10 August 2026, 14:00:54 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.2 | -0.01 | 2026-08-10 | live as of 10 August 2026, 15:00:17 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.26 | -0.04 | 2026-08-10 | live as of 10 August 2026, 15:00:17 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.36 | -0.13 | 2026-08-10 | live as of 10 August 2026, 15:00:17 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.5 | -0.18 | 2026-08-10 | live as of 10 August 2026, 15:00:17 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.65 | -0.15 | 2026-08-10 | live as of 10 August 2026, 15:00:17 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.21 | -0.19 | 2026-08-10 | live as of 10 August 2026, 15:00:17 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.2 | -0.2 | 2026-08-10 | live as of 10 August 2026, 15:00:17 (HKT) |
+| HK50 | Hang Seng Futures | 25889.0 | 0.24 | 2026-08-10 | live as of 10 August 2026, 15:00:17 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 987.45 | 0.89 | 2026-08-07 | closed |
 | CIHc1 | SSE 50 Futures | 2943.8 | 1.2 | 2026-08-07 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.61 | 0.19 | 2026-08-07 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 82.76 | 0.29 | 2026-08-07 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 93.17 | 0.24 | 2026-08-07 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.92 | 0.15 | 2026-08-07 | closed |
-| GC=F | Gold Future | 4407.9 | 1.55 | 2026-08-10 | live as of 10 August 2026, 14:00:54 (HKT) |
-| SI=F | Silver Future | 64.45 | 1.77 | 2026-08-10 | live as of 10 August 2026, 14:00:54 (HKT) |
-| CL=F | WTI Crude Oil Future | 78.05 | -0.17 | 2026-08-10 | live as of 10 August 2026, 14:00:54 (HKT) |
-| HG=F | Copper Future | 6.64 | 1.1 | 2026-08-10 | live as of 10 August 2026, 14:00:54 (HKT) |
+| GC=F | Gold Future | 4416.3 | 1.74 | 2026-08-10 | live as of 10 August 2026, 15:00:17 (HKT) |
+| SI=F | Silver Future | 64.39 | 1.67 | 2026-08-10 | live as of 10 August 2026, 15:00:17 (HKT) |
+| CL=F | WTI Crude Oil Future | 78.11 | -0.09 | 2026-08-10 | live as of 10 August 2026, 15:00:17 (HKT) |
+| HG=F | Copper Future | 6.64 | 1.03 | 2026-08-10 | live as of 10 August 2026, 15:00:17 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -329,12 +329,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 24, 'negative': 13, 'neutral': 43}
-- News confirmation score: `56.88`
+- Sentiment counts: {'positive': 25, 'negative': 11, 'neutral': 44}
+- News confirmation score: `58.75`
 
 ### Top Market-Moving Headlines
 
-**1. Typhoon Dolphin hits China's east coast, over 1 million evacuated**
+**1. Oil Rises Amid Growing Doubts That Strait of Hormuz Can Reopen Soon**
+- Source: Dow Jones US Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: oil_prices, geopolitical_risk
+- Score: `45.0`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Typhoon Dolphin hits China's east coast, over 1 million evacuated**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -342,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**2. Oil slides more than 8% for the week as traders hope for Hormuz reopening deal**
+**3. Oil slides more than 8% for the week as traders hope for Hormuz reopening deal**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short term
@@ -350,21 +358,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.98`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**3. Oil rises amid uncertainty over U.S.-Iran Strait of Hormuz deal**
-- Source: CNBC Top News
+**4. Oil prices choppy amid uncertainty over U.S.-Iran Strait of Hormuz deal**
+- Source: CNBC Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, oil prices, geopolitical risk
 - Score: `29.93`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**4. London Gas Oil doji at $1,188 bear flag zone: Live levels**
-- Source: Investing.com Stock Market
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: commodity, market movement
-- Score: `27.34`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **5. Why the upcoming CPI report is a bigger event than last week’s jobs data**
 - Source: Investing.com Economic Indicators
@@ -509,7 +509,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `26`
+- Live macro rows used: `24`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
