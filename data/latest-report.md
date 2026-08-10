@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 10 August 2026, 15:01:52 (HKT)
+Generated at: 10 August 2026, 15:04:16 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.07 / 100** (Moderate Risk-On)
+- Regime score: **66.1 / 100** (Moderate Risk-On)
 - US equity strength: **81.61 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **50.49 / 100**, reliability **71.16 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.07 | Moderate Risk-On |
+| Overall regime | 66.1 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.71 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.18 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 54.55 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.35 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 58.75 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 59.38 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=73.18 |
 | Negative contributors |  | none |
 
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 25, 'negative': 11, 'neutral': 44}
-- News confirmation score: `58.75`
+- Sentiment counts: {'positive': 27, 'negative': 12, 'neutral': 41}
+- News confirmation score: `59.38`
 
 ### Top Market-Moving Headlines
 
@@ -374,15 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.44`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Iran denies any direct talks with U.S. on opening Strait of Hormuz as Houthis claim attack on Saudi refinery**
-- Source: CNBC Business News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S., U.S, geopolitical_risk, oil_market
-- Score: `24.48`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. European stocks draw investors as earnings and growth strengthen**
+**6. European stocks draw investors as earnings and growth strengthen**
 - Source: Investing.com World News
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / medium-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.24`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. U.S. Nonfarm Payrolls Unexpectedly Decline, Raising Economic Concerns**
+**7. U.S. Nonfarm Payrolls Unexpectedly Decline, Raising Economic Concerns**
 - Source: Investing.com Technology
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `22.95`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Inflation data to test record-setting US stocks, Fed rate views**
+**8. Inflation data to test record-setting US stocks, Fed rate views**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -406,12 +398,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `22.23`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Canada posts monster jobs gain in July, unemployment rate hits two-year low**
+**9. Canada posts monster jobs gain in July, unemployment rate hits two-year low**
 - Source: Investing.com Technology
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: economic data, employment
 - Score: `21.95`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**10. Top Wall Street analysts like these 3 stocks for their solid growth potential**
+- Source: CNBC Markets
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AI, earnings
+- Score: `21.62`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
