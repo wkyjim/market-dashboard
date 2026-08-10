@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 11 August 2026, 02:02:01 (HKT)
+Generated at: 11 August 2026, 02:03:20 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -342,15 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. This company is set to gain ground on sky-high computer hardware demand, Morgan Stanley says**
-- Source: CNBC Markets
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: HPE, AI, hardware demand
-- Score: `41.68`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**3. Storms from Typhoon Dolphin soak China's east, ground nearly 950 Shanghai flights**
+**2. Storms from Typhoon Dolphin soak China's east, ground nearly 950 Shanghai flights**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -358,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**4. Australian rare earth miner surges after U.S. Department of Defense investment**
+**3. Australian rare earth miner surges after U.S. Department of Defense investment**
 - Source: CNBC Business News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.89`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**5. Oil Rises Amid Growing Doubts That Strait of Hormuz Can Reopen Soon**
+**4. Oil Rises Amid Growing Doubts That Strait of Hormuz Can Reopen Soon**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.25`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. 17 S&P 500 companies with growing revenue and profit margins — and some of their stocks are cheap**
+**5. 17 S&P 500 companies with growing revenue and profit margins — and some of their stocks are cheap**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.4`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand**
+**6. World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand**
 - Source: CNBC Investing
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. Wall Street is high on this recent IPO. Bank of America says the data center play can double**
+**7. Wall Street is high on this recent IPO. Bank of America says the data center play can double**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -398,12 +390,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.05`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. Intel plans $15 billion stock offering as AI demand accelerates**
+**8. Intel plans $15 billion stock offering as AI demand accelerates**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: INTC, AI, technology
 - Score: `37.05`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**9. This company is set to gain ground on sky-high computer hardware demand, Morgan Stanley says**
+- Source: CNBC Markets
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: HPE, AI, hardware demand
+- Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 **10. War Is Helping Chinese EVs Upend the Global Car Market**
