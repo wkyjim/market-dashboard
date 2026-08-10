@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 11 August 2026, 00:07:55 (HKT)
+Generated at: 11 August 2026, 00:12:20 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.4 / 100** (Moderate Risk-On)
+- Regime score: **65.43 / 100** (Moderate Risk-On)
 - US equity strength: **81.61 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **50.49 / 100**, reliability **71.16 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 65.4 | Moderate Risk-On |
+| Overall regime | 65.43 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.71 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.18 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.39 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.35 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 65.62 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, market_breadth=73.18, volatility=70.0, news_confirmation=65.62 |
+| news_confirmation | 66.25 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, market_breadth=73.18, volatility=70.0, news_confirmation=66.25 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 37, 'negative': 12, 'neutral': 31}
-- News confirmation score: `65.62`
+- Sentiment counts: {'positive': 38, 'negative': 12, 'neutral': 30}
+- News confirmation score: `66.25`
 
 ### Top Market-Moving Headlines
 
@@ -390,7 +390,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. Intel plans $15 billion stock offering as AI demand accelerates**
+**8. Wall Street is high on this recent IPO. Bank of America says the data center play can double**
+- Source: CNBC Top News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: Csquare, IPO, data center
+- Score: `37.05`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**9. Intel plans $15 billion stock offering as AI demand accelerates**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -398,21 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.05`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. Tractor Supply Retrenches; Strong Earnings Power Stocks to New Highs**
+**10. Tractor Supply Retrenches; Strong Earnings Power Stocks to New Highs**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: TRKS, earnings, retrenchment
 - Score: `32.91`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. War Is Helping Chinese EVs Upend the Global Car Market**
-- Source: Dow Jones US Business
-- Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / medium term
-- Affected assets: Global Economy, Automotive Industry
-- Score: `32.51`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
