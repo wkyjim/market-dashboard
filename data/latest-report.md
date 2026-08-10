@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 10 August 2026, 08:39:39 (HKT)
+Generated at: 10 August 2026, 09:09:48 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.3 / 100** (Moderate Risk-On)
+- Regime score: **66.27 / 100** (Moderate Risk-On)
 - US equity strength: **81.61 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **50.22 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.3 | Moderate Risk-On |
+| Overall regime | 66.27 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.71 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.18 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 54.87 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.15 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 58.75 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 58.12 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=73.18, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
@@ -83,7 +83,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US3YT=X | United States 3-Year Treasury Yield | 4.26 | -0.9 | 2026-08-07 | closed |
 | US5YT=X | United States 5-Year Treasury Yield | 4.36 | -0.69 | 2026-08-07 | closed |
 | US7YT=X | United States 7-Year Treasury Yield | 4.5 | -0.56 | 2026-08-07 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 4.67 | 0.32 | 2026-08-10 | live as of 10 August 2026, 08:30:27 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.67 | 0.17 | 2026-08-10 | live as of 10 August 2026, 09:00:21 (HKT) |
 | US20YT=X | United States 20-Year Treasury Yield | 5.21 | -0.2 | 2026-08-07 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.2 | -0.19 | 2026-08-07 | closed |
 | HK50 | Hang Seng Futures | 25670.0 | 0.45 | 2026-08-07 | closed |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 28, 'negative': 14, 'neutral': 38}
-- News confirmation score: `58.75`
+- Sentiment counts: {'positive': 26, 'negative': 13, 'neutral': 41}
+- News confirmation score: `58.12`
 
 ### Top Market-Moving Headlines
 
@@ -339,7 +339,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: weather, disaster
-- Score: `48.45`
+- Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 **2. Oil slides more than 8% for the week as traders hope for Hormuz reopening deal**
