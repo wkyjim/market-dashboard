@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 10 August 2026, 08:10:01 (HKT)
+Generated at: 10 August 2026, 08:36:57 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -83,7 +83,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US3YT=X | United States 3-Year Treasury Yield | 4.26 | -0.9 | 2026-08-07 | closed |
 | US5YT=X | United States 5-Year Treasury Yield | 4.36 | -0.69 | 2026-08-07 | closed |
 | US7YT=X | United States 7-Year Treasury Yield | 4.5 | -0.56 | 2026-08-07 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 4.66 | 0.13 | 2026-08-10 | live as of 10 August 2026, 08:00:21 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.67 | 0.32 | 2026-08-10 | live as of 10 August 2026, 08:30:27 (HKT) |
 | US20YT=X | United States 20-Year Treasury Yield | 5.21 | -0.2 | 2026-08-07 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.2 | -0.19 | 2026-08-07 | closed |
 | HK50 | Hang Seng Futures | 25670.0 | 0.45 | 2026-08-07 | closed |
@@ -350,15 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.98`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**3. Iran denies any direct talks with U.S. on opening Strait of Hormuz as Houthis claim attack on Saudi refinery**
-- Source: CNBC Business News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S., U.S, geopolitical_risk, oil_market
-- Score: `28.8`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**4. London Gas Oil doji at $1,188 bear flag zone: Live levels**
+**3. London Gas Oil doji at $1,188 bear flag zone: Live levels**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -366,12 +358,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.34`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Why the upcoming CPI report is a bigger event than last week’s jobs data**
+**4. Why the upcoming CPI report is a bigger event than last week’s jobs data**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: economic reports
 - Score: `25.44`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. Iran denies any direct talks with U.S. on opening Strait of Hormuz as Houthis claim attack on Saudi refinery**
+- Source: CNBC Business News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S., U.S, geopolitical_risk, oil_market
+- Score: `24.48`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **6. European stocks draw investors as earnings and growth strengthen**
@@ -508,7 +508,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `5`
+- Live macro rows used: `7`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
