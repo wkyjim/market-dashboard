@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 10 August 2026, 21:03:14 (HKT)
+Generated at: 10 August 2026, 21:06:56 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.44 / 100** (Moderate Risk-On)
+- Regime score: **65.5 / 100** (Moderate Risk-On)
 - US equity strength: **81.61 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **50.49 / 100**, reliability **71.16 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 65.44 | Moderate Risk-On |
+| Overall regime | 65.5 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.71 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.18 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.17 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.35 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 61.88 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, market_breadth=73.18, volatility=70.0, commodity_confirmation=63.0, news_confirmation=61.88 |
+| news_confirmation | 63.12 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, market_breadth=73.18, volatility=70.0, news_confirmation=63.12, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 32, 'negative': 13, 'neutral': 35}
-- News confirmation score: `61.88`
+- Sentiment counts: {'positive': 33, 'negative': 12, 'neutral': 35}
+- News confirmation score: `63.12`
 
 ### Top Market-Moving Headlines
 
@@ -374,21 +374,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.25`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Oil slides more than 8% for the week as traders hope for Hormuz reopening deal**
+**6. Tractor Supply Retrenches; Strong Earnings Power Stocks to New Highs**
+- Source: Dow Jones US Business
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: TRKS, earnings, retrenchment
+- Score: `32.91`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**7. Oil slides more than 8% for the week as traders hope for Hormuz reopening deal**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short term
 - Affected assets: U.S, Geopolitical Risk, Energy Markets
 - Score: `30.98`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
-
-**7. U.S. Stock Futures Mostly Higher Ahead of Key CPI Data**
-- Source: Dow Jones Economy
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, economic_data
-- Score: `26.77`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **8. Why the upcoming CPI report is a bigger event than last week’s jobs data**
 - Source: Investing.com Economic Indicators
