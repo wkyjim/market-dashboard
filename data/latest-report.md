@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 11 August 2026, 18:05:12 (HKT)
+Generated at: 11 August 2026, 18:09:28 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -11,7 +11,7 @@ Window: 24h
 - ETF flow contribution: **50.28 / 100**, reliability **71.16 / 100**
 - Breadth: **broad**; above 50DMA `70.0%`, above 200DMA `74.58%`
 - Top sector score: **Cybersecurity** `70.02`
-- Top theme score: **Defense** `61.08`
+- Top theme score: **Energy** `61.67`
 
 ## Market Regime Score
 
@@ -247,7 +247,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 4 | Defense | 66.21 | strong uptrend | positive | broad | 48.2 | 65.0 | 54.6 | XAR | XAR |
 | 5 | Technology | 65.99 | strong uptrend | neutral | broad | 53.21 | 95.0 | 48.9 | ZBRA, IT, PLTR | IBM, WDC, SNDK |
 | 6 | Financials | 64.59 | strong uptrend | positive | broad | 63.51 | 95.0 | 53.65 | PYPL, BX, WTW | PGR, MSCI, HOOD |
-| 7 | Energy | 63.71 | strong uptrend | neutral | broad | 52.14 | 100.0 | 51.84 | APA, SLB, EXE | HAL, TRGP, TPL |
+| 7 | Energy | 63.9 | strong uptrend | neutral | broad | 52.14 | 100.0 | 51.84 | APA, SLB, EXE | HAL, TRGP, TPL |
 | 8 | Consumer Discretionary | 60.15 | uptrend | neutral | broad | 62.23 | 65.0 | 48.63 | GRMN, ABNB, BKNG | CMG, APTV, TSLA |
 | 9 | Consumer Staples | 58.5 | strong uptrend | neutral | broad | 53.09 | 65.0 | 46.8 | CLX, TGT, EL | MNST, KDP, MO |
 | 10 | Grid Infrastructure | 56.11 | strong uptrend | neutral | weak | 64.53 | 65.0 | 45.23 | GRID | GRID |
@@ -261,10 +261,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Defense | 61.08 | Positive setup | 48.2 | 65.0 | 26.73 | True | False |
-| 2 | Cybersecurity | 60.94 | Positive setup | 58.16 | 65.0 | 22.35 | True | False |
-| 3 | Healthcare Innovation | 60.85 | Positive setup | 68.66 | 95.0 | 10.3 | True | False |
-| 4 | Energy | 60.43 | Positive setup | 52.14 | 100.0 | 4.51 | True | False |
+| 1 | Energy | 61.67 | Positive setup | 52.14 | 100.0 | 4.51 | True | False |
+| 2 | Defense | 61.08 | Positive setup | 48.2 | 65.0 | 26.73 | True | False |
+| 3 | Cybersecurity | 60.94 | Positive setup | 58.16 | 65.0 | 22.35 | True | False |
+| 4 | Healthcare Innovation | 60.85 | Positive setup | 68.66 | 95.0 | 10.3 | True | False |
 | 5 | Small Caps | 59.36 | Positive setup | 48.79 | 65.0 | 0.0 | False | False |
 | 6 | Financials | 58.68 | Positive setup | 63.51 | 95.0 | 8.64 | False | False |
 | 7 | Quality Growth | 57.87 | Positive setup | 57.87 | 65.0 | 32.28 | False | False |
@@ -278,7 +278,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Top 5 improving themes: Cybersecurity, Financials, Defense, Healthcare Innovation, Small Caps
 - Top 5 deteriorating themes: Crypto Infrastructure, Nuclear, Grid Infrastructure, AI Infrastructure, Semiconductors
 - Strong news but weak price confirmation: Semiconductors
-- Strong price but weak news confirmation: Defense, Cybersecurity, Healthcare Innovation, Energy
+- Strong price but weak news confirmation: Energy, Defense, Cybersecurity, Healthcare Innovation
 
 ### Sector / Theme Alignment
 
@@ -290,7 +290,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Defense | Defense | 66.21 | strong | 61.08 | positive | sector and theme confirmation |
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.99 | strong | 55.9 | positive | sector and theme confirmation |
 | Financials | Financials | 64.59 | positive | 58.68 | positive | sector and theme confirmation |
-| Energy | Energy | 63.71 | positive | 60.43 | positive | sector and theme confirmation |
+| Energy | Energy | 63.9 | positive | 61.67 | positive | sector and theme confirmation |
 | Consumer Discretionary | Small Caps | 60.15 | positive | 59.36 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 58.5 | positive | 50.84 | mixed | sector stronger than related themes |
 | Grid Infrastructure | Grid Infrastructure | 56.11 | positive | 45.84 | mixed | sector stronger than related themes |
@@ -304,7 +304,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Classification | Drivers | Invalidation Triggers |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Energy | 66.96 | Positive setup | trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 1 | Energy | 65.46 | Positive setup | trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 2 | Small Caps | 63.88 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 3 | Healthcare Innovation | 63.26 | Positive setup | trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | Financials | 63.23 | Positive setup | relative_strength_60d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
