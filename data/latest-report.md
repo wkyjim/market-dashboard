@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 11 August 2026, 08:41:04 (HKT)
+Generated at: 11 August 2026, 09:08:53 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.21 / 100** (Moderate Risk-On)
+- Regime score: **65.18 / 100** (Moderate Risk-On)
 - US equity strength: **80.91 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **49.99 / 100**, reliability **65.78 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 65.21 | Moderate Risk-On |
+| Overall regime | 65.18 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.98 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 74.86 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 53.96 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.99 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 65.62 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, market_breadth=74.86, volatility=70.0, news_confirmation=65.62 |
+| news_confirmation | 65.0 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, market_breadth=74.86, volatility=70.0, news_confirmation=65.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -83,11 +83,11 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US3YT=X | United States 3-Year Treasury Yield | 4.31 | 1.11 | 2026-08-10 | closed |
 | US5YT=X | United States 5-Year Treasury Yield | 4.42 | 1.25 | 2026-08-10 | closed |
 | US7YT=X | United States 7-Year Treasury Yield | 4.56 | 1.21 | 2026-08-10 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 4.71 | 0.06 | 2026-08-11 | live as of 11 August 2026, 08:30:20 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.71 | 0.11 | 2026-08-11 | live as of 11 August 2026, 09:00:59 (HKT) |
 | US20YT=X | United States 20-Year Treasury Yield | 5.27 | 0.96 | 2026-08-10 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.25 | 0.85 | 2026-08-10 | closed |
 | HK50 | Hang Seng Futures | 25946.0 | 0.46 | 2026-08-10 | closed |
-| KOR200c1 | KOSPI 200 Futures | 987.45 | 0.89 | 2026-08-07 | closed |
+| KOR200c1 | KOSPI 200 Futures | 968.65 | -1.06 | 2026-08-10 | closed |
 | CIHc1 | SSE 50 Futures | 2943.8 | 1.2 | 2026-08-07 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.48 | -0.16 | 2026-08-10 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 105.96 | -0.55 | 2026-08-10 | closed |
@@ -245,7 +245,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 2 | Healthcare | 67.15 | strong uptrend | positive | broad | 57.29 | 65.0 | 54.97 | BAX, REGN, CRL | MRNA, PODD, DVA |
 | 3 | Defense | 66.39 | strong uptrend | positive | broad | 50.0 | 0.0 | 54.6 | XAR | XAR |
 | 4 | Industrials | 65.75 | strong uptrend | neutral | broad | 50.0 | 0.0 | 50.37 | LDOS, ALLE, SWK | LII, HONA, CHRW |
-| 5 | Technology | 65.03 | strong uptrend | neutral | broad | 47.68 | 65.0 | 48.9 | ZBRA, IT, PLTR | IBM, WDC, SNDK |
+| 5 | Technology | 65.41 | strong uptrend | neutral | broad | 47.68 | 65.0 | 48.9 | ZBRA, IT, PLTR | IBM, WDC, SNDK |
 | 6 | Energy | 63.89 | strong uptrend | neutral | broad | 53.85 | 65.0 | 51.84 | APA, SLB, EXE | HAL, TRGP, TPL |
 | 7 | Financials | 62.4 | strong uptrend | positive | broad | 41.6 | 65.0 | 53.65 | PYPL, BX, WTW | PGR, MSCI, HOOD |
 | 8 | Consumer Discretionary | 58.93 | uptrend | neutral | broad | 50.0 | 0.0 | 48.63 | GRMN, ABNB, BKNG | CMG, APTV, TSLA |
@@ -288,7 +288,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Healthcare | Healthcare Innovation | 67.15 | strong | 59.71 | positive | sector and theme confirmation |
 | Defense | Defense | 66.39 | strong | 61.26 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 65.75 | strong | 52.83 | mixed | sector stronger than related themes |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.03 | strong | 55.91 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.41 | strong | 55.91 | positive | sector and theme confirmation |
 | Energy | Energy | 63.89 | positive | 60.61 | positive | sector and theme confirmation |
 | Financials | Financials | 62.4 | positive | 56.49 | positive | sector and theme confirmation |
 | Consumer Discretionary | Small Caps | 58.93 | positive | 59.36 | positive | sector and theme confirmation |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 40, 'negative': 15, 'neutral': 25}
-- News confirmation score: `65.62`
+- Sentiment counts: {'positive': 40, 'negative': 16, 'neutral': 24}
+- News confirmation score: `65.0`
 
 ### Top Market-Moving Headlines
 
@@ -382,15 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. Oil in U.S. Strategic Petroleum Reserve falls below 300 million barrels, lowest since 1983**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, SPR, oil, strategic reserves
-- Score: `34.2`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. War Is Helping Chinese EVs Upend the Global Car Market**
+**7. War Is Helping Chinese EVs Upend the Global Car Market**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / medium term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.51`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**9. 17 S&P 500 companies with growing revenue and profit margins — and some of their stocks are cheap**
+**8. 17 S&P 500 companies with growing revenue and profit margins — and some of their stocks are cheap**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -406,12 +398,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.79`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand**
+**9. World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand**
 - Source: CNBC Investing
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: TSMC, technology, semiconductor
 - Score: `31.7`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Wall Street is high on this recent IPO. Bank of America says the data center play can double**
+- Source: CNBC Top News
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: Csquare, IPO, data center
+- Score: `31.49`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
