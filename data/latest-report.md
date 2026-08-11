@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 12 August 2026, 04:02:30 (HKT)
+Generated at: 12 August 2026, 04:03:53 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -342,15 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.05`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**2. 10-year Treasury yield rises as oil prices gain ahead of key inflation data this week**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, inflation, Treasury yields, oil prices
-- Score: `25.44`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. Is inflation really slowing? Fed rate hike hinges on July price report.**
+**2. Is inflation really slowing? Fed rate hike hinges on July price report.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -358,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**4. U.S. oil rises above $83 a barrel as Iran says Strait of Hormuz won't open until conditions are met**
+**3. U.S. oil rises above $83 a barrel as Iran says Strait of Hormuz won't open until conditions are met**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**5. Treasury yields are little changed as investors await inflation data**
+**4. Treasury yields are little changed as investors await inflation data**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**6. Credit card debt climbs to $1.26 trillion as ‘K-shaped’ divide persists, New York Fed research finds**
+**5. Credit card debt climbs to $1.26 trillion as ‘K-shaped’ divide persists, New York Fed research finds**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**7. A historically strong stretch for the U.S. stock market is about to begin**
+**6. A historically strong stretch for the U.S. stock market is about to begin**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**8. Warsh’s changes to forward guidance were tried by one central bank — and here’s what happened**
+**7. Warsh’s changes to forward guidance were tried by one central bank — and here’s what happened**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**9. Wall Street bank urges hedging into July’s CPI — as sell trigger hits highest level in eight years**
+**8. Wall Street bank urges hedging into July’s CPI — as sell trigger hits highest level in eight years**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -406,7 +398,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**10. Here’s how much Roger Federer is losing as On Holding says it is being disciplined on price**
+**9. Here’s how much Roger Federer is losing as On Holding says it is being disciplined on price**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: U.S
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**10. The Bessent bond-market scorecard doesn’t look as strong as it once did**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
