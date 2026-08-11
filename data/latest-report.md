@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 11 August 2026, 17:04:57 (HKT)
+Generated at: 11 August 2026, 18:02:13 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **64.83 / 100** (Mild Risk-On)
+- Regime score: **64.39 / 100** (Mild Risk-On)
 - US equity strength: **80.91 / 100** (strong)
-- Evidence quality: **79.5 / 100**
+- Evidence quality: **76.0 / 100**
 - ETF flow contribution: **50.28 / 100**, reliability **71.16 / 100**
 - Breadth: **broad**; above 50DMA `70.0%`, above 200DMA `74.58%`
 - Top sector score: **Cybersecurity** `70.02`
@@ -17,17 +17,17 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 64.83 | Mild Risk-On |
+| Overall regime | 64.39 | Mild Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.98 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 74.86 | risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.81 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.78 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 54.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.2 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 57.5 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 48.75 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, market_breadth=74.86, volatility=70.0 |
 | Negative contributors |  | none |
 
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `79.5`
-- Agreement ratio: `0.5`
+- Confidence score: `76.0`
+- Agreement ratio: `0.4`
 - Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
@@ -65,7 +65,7 @@ Window: 24h
 | Silver | Silver stable | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
-| Volatility | VIX stable | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
+| Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
 
@@ -76,16 +76,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7753.11 | -0.06 | 2026-08-10 | closed |
 | ^IXIC | NASDAQ Composite | 26605.36 | -0.32 | 2026-08-10 | closed |
 | ^RUT | Russell 2000 Index | 3017.4 | -0.56 | 2026-08-10 | closed |
-| ^VIX | CBOE Volatility Index | 15.48 | 0.13 | 2026-08-11 | live as of 11 August 2026, 17:00:39 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.52 | 0.39 | 2026-08-11 | live as of 11 August 2026, 18:00:23 (HKT) |
 | ^SKEW | CBOE SKEW Index | 137.13 | 3.44 | 2026-08-10 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.26 | 0.39 | 2026-08-11 | live as of 11 August 2026, 17:00:39 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.33 | 0.54 | 2026-08-11 | live as of 11 August 2026, 17:00:39 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.44 | 0.64 | 2026-08-11 | live as of 11 August 2026, 17:00:39 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.58 | 0.64 | 2026-08-11 | live as of 11 August 2026, 17:00:39 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.74 | 0.79 | 2026-08-11 | live as of 11 August 2026, 17:00:39 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.29 | 0.57 | 2026-08-11 | live as of 11 August 2026, 17:00:39 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.28 | 0.49 | 2026-08-11 | live as of 11 August 2026, 17:00:39 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.26 | 0.29 | 2026-08-11 | live as of 11 August 2026, 18:00:23 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.33 | 0.44 | 2026-08-11 | live as of 11 August 2026, 18:00:23 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.43 | 0.56 | 2026-08-11 | live as of 11 August 2026, 18:00:23 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.58 | 0.58 | 2026-08-11 | live as of 11 August 2026, 18:00:23 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.73 | 0.74 | 2026-08-11 | live as of 11 August 2026, 18:00:23 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.29 | 0.57 | 2026-08-11 | live as of 11 August 2026, 18:00:23 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.28 | 0.53 | 2026-08-11 | live as of 11 August 2026, 18:00:23 (HKT) |
 | HK50 | Hang Seng Futures | 25626.0 | -1.32 | 2026-08-11 | closed |
 | KOR200c1 | KOSPI 200 Futures | 968.65 | -1.06 | 2026-08-10 | closed |
 | CIHc1 | SSE 50 Futures | 2954.2 | 0.35 | 2026-08-10 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 82.06 | -0.85 | 2026-08-10 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 92.76 | -0.44 | 2026-08-10 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.86 | -0.08 | 2026-08-10 | closed |
-| GC=F | Gold Future | 4434.7 | 1.67 | 2026-08-11 | live as of 11 August 2026, 17:00:39 (HKT) |
-| SI=F | Silver Future | 65.08 | -0.03 | 2026-08-11 | live as of 11 August 2026, 17:00:39 (HKT) |
-| CL=F | WTI Crude Oil Future | 84.31 | 2.65 | 2026-08-11 | live as of 11 August 2026, 17:00:39 (HKT) |
-| HG=F | Copper Future | 6.7 | 1.53 | 2026-08-11 | live as of 11 August 2026, 17:00:39 (HKT) |
+| GC=F | Gold Future | 4431.0 | 1.59 | 2026-08-11 | live as of 11 August 2026, 18:00:23 (HKT) |
+| SI=F | Silver Future | 65.06 | -0.07 | 2026-08-11 | live as of 11 August 2026, 18:00:23 (HKT) |
+| CL=F | WTI Crude Oil Future | 84.31 | 2.65 | 2026-08-11 | live as of 11 August 2026, 18:00:23 (HKT) |
+| HG=F | Copper Future | 6.68 | 1.26 | 2026-08-11 | live as of 11 August 2026, 18:00:23 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,12 +325,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.48 pct_chg=0.13
+- VIX close=15.52 pct_chg=0.39
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 40, 'negative': 28, 'neutral': 12}
-- News confirmation score: `57.5`
+- Sentiment counts: {'positive': 31, 'negative': 33, 'neutral': 16}
+- News confirmation score: `48.75`
 
 ### Top Market-Moving Headlines
 
@@ -358,21 +358,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.89`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**4. This company is set to gain ground on sky-high computer hardware demand, Morgan Stanley says**
+**4. Intel upsizes stock offering to $20 billion at $95 per share as AI demand accelerates**
+- Source: CNBC Top News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: INTC, AI, technology
+- Score: `37.05`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**5. This company is set to gain ground on sky-high computer hardware demand, Morgan Stanley says**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: HPE, AI, hardware demand
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**5. War Is Helping Chinese EVs Upend the Global Car Market**
-- Source: Dow Jones US Business
-- Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / medium term
-- Affected assets: Global Economy, Automotive Industry
-- Score: `32.51`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 **6. 17 S&P 500 companies with growing revenue and profit margins — and some of their stocks are cheap**
 - Source: MarketWatch Top Stories
@@ -390,15 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.7`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. Intel plans $15 billion stock offering as AI demand accelerates**
-- Source: CNBC Top News
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: INTC, AI, technology
-- Score: `31.49`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**9. Wall Street is high on this recent IPO. Bank of America says the data center play can double**
+**8. Wall Street is high on this recent IPO. Bank of America says the data center play can double**
 - Source: CNBC Top News
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.49`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. Oil in U.S. Strategic Petroleum Reserve falls below 300 million barrels, lowest since 1983**
+**9. Oil in U.S. Strategic Petroleum Reserve falls below 300 million barrels, lowest since 1983**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, SPR, oil, strategic reserves
 - Score: `29.07`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Tractor Supply Retrenches; Strong Earnings Power Stocks to New Highs**
+- Source: Dow Jones US Business
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: TRKS, earnings, retrenchment
+- Score: `27.97`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
