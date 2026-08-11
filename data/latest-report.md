@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 11 August 2026, 09:12:05 (HKT)
+Generated at: 11 August 2026, 10:10:21 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -83,12 +83,12 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US3YT=X | United States 3-Year Treasury Yield | 4.31 | 1.11 | 2026-08-10 | closed |
 | US5YT=X | United States 5-Year Treasury Yield | 4.42 | 1.25 | 2026-08-10 | closed |
 | US7YT=X | United States 7-Year Treasury Yield | 4.56 | 1.21 | 2026-08-10 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 4.71 | 0.11 | 2026-08-11 | live as of 11 August 2026, 09:00:59 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.71 | 0.26 | 2026-08-11 | live as of 11 August 2026, 10:00:26 (HKT) |
 | US20YT=X | United States 20-Year Treasury Yield | 5.27 | 0.96 | 2026-08-10 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.25 | 0.85 | 2026-08-10 | closed |
-| HK50 | Hang Seng Futures | 25946.0 | 0.46 | 2026-08-10 | closed |
+| HK50 | Hang Seng Futures | 25942.0 | -0.1 | 2026-08-11 | live as of 11 August 2026, 10:00:26 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 968.65 | -1.06 | 2026-08-10 | closed |
-| CIHc1 | SSE 50 Futures | 2943.8 | 1.2 | 2026-08-07 | closed |
+| CIHc1 | SSE 50 Futures | 2954.2 | 0.35 | 2026-08-10 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.48 | -0.16 | 2026-08-10 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 105.96 | -0.55 | 2026-08-10 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 95.65 | -0.17 | 2026-08-10 | closed |
@@ -366,15 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.25`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Intel plans $15 billion stock offering as AI demand accelerates**
-- Source: CNBC Top News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: INTC, AI, technology
-- Score: `37.05`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**6. This company is set to gain ground on sky-high computer hardware demand, Morgan Stanley says**
+**5. This company is set to gain ground on sky-high computer hardware demand, Morgan Stanley says**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. War Is Helping Chinese EVs Upend the Global Car Market**
+**6. War Is Helping Chinese EVs Upend the Global Car Market**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / medium term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.51`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. 17 S&P 500 companies with growing revenue and profit margins — and some of their stocks are cheap**
+**7. 17 S&P 500 companies with growing revenue and profit margins — and some of their stocks are cheap**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -398,12 +390,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.79`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**9. World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand**
+**8. World's biggest chipmaker TSMC's sales surge 45% amid buoyant AI demand**
 - Source: CNBC Investing
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: TSMC, technology, semiconductor
 - Score: `31.7`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**9. Intel plans $15 billion stock offering as AI demand accelerates**
+- Source: CNBC Top News
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: INTC, AI, technology
+- Score: `31.49`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 **10. Wall Street is high on this recent IPO. Bank of America says the data center play can double**
@@ -506,7 +506,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `6`
+- Live macro rows used: `8`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
