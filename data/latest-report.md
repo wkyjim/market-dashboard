@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 11 August 2026, 22:06:08 (HKT)
+Generated at: 11 August 2026, 23:05:29 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **64.32 / 100** (Mild Risk-On)
+- Regime score: **65.13 / 100** (Moderate Risk-On)
 - US equity strength: **80.91 / 100** (strong)
-- Evidence quality: **79.5 / 100**
+- Evidence quality: **76.0 / 100**
 - ETF flow contribution: **50.28 / 100**, reliability **71.16 / 100**
 - Breadth: **broad**; above 50DMA `70.0%`, above 200DMA `74.58%`
 - Top sector score: **Cybersecurity** `70.02`
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 64.32 | Mild Risk-On |
+| Overall regime | 65.13 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.98 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 74.86 | risk-on support; Participation breadth from tracked equity/ETF rows. |
-| volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
+| volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.12 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 54.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 54.94 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 50.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.2 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 46.88 | neutral / mixed; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, market_breadth=74.86, volatility=70.0 |
+| news_confirmation | 48.12 | neutral / mixed; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=74.86 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `79.5`
-- Agreement ratio: `0.5`
+- Confidence score: `76.0`
+- Agreement ratio: `0.4`
 - Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
@@ -64,8 +64,8 @@ Window: 24h
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver stable | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
-| Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
+| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
 
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7761.69 | 0.11 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
-| ^IXIC | NASDAQ Composite | 26578.06 | -0.1 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
-| ^RUT | Russell 2000 Index | 3027.28 | 0.33 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
-| ^VIX | CBOE Volatility Index | 15.54 | 0.52 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
+| ^GSPC | S&P 500 | 7760.66 | 0.1 | 2026-08-11 | live as of 11 August 2026, 23:00:29 (HKT) |
+| ^IXIC | NASDAQ Composite | 26612.55 | 0.03 | 2026-08-11 | live as of 11 August 2026, 23:00:29 (HKT) |
+| ^RUT | Russell 2000 Index | 3032.31 | 0.49 | 2026-08-11 | live as of 11 August 2026, 23:00:29 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.28 | -1.16 | 2026-08-11 | live as of 11 August 2026, 23:00:29 (HKT) |
 | ^SKEW | CBOE SKEW Index | 137.13 | 3.44 | 2026-08-10 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.22 | -0.54 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.28 | -0.63 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.38 | -0.64 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.53 | -0.61 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.68 | -0.45 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.24 | -0.45 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.23 | -0.35 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.25 | 0.98 | 2026-08-10 | closed |
+| US3YT=X | United States 3-Year Treasury Yield | 4.31 | 1.11 | 2026-08-10 | closed |
+| US5YT=X | United States 5-Year Treasury Yield | 4.42 | 1.25 | 2026-08-10 | closed |
+| US7YT=X | United States 7-Year Treasury Yield | 4.56 | 1.21 | 2026-08-10 | closed |
+| US10YT=X | United States 10-Year Treasury Yield | 4.71 | 1.09 | 2026-08-10 | closed |
+| US20YT=X | United States 20-Year Treasury Yield | 5.27 | 0.96 | 2026-08-10 | closed |
+| US30YT=X | United States 30-Year Treasury Yield | 5.25 | 0.85 | 2026-08-10 | closed |
 | HK50 | Hang Seng Futures | 25626.0 | -1.32 | 2026-08-11 | closed |
 | KOR200c1 | KOSPI 200 Futures | 968.65 | -1.06 | 2026-08-10 | closed |
 | CIHc1 | SSE 50 Futures | 2954.2 | 0.35 | 2026-08-10 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.55 | 0.08 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.17 | 0.2 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 95.75 | 0.1 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 221.15 | 0.42 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 124.36 | 0.15 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 258.62 | 0.12 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 82.31 | 0.31 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 92.96 | 0.22 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.9 | 0.05 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
-| GC=F | Gold Future | 4454.8 | 2.13 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
-| SI=F | Silver Future | 65.19 | 0.13 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
-| CL=F | WTI Crude Oil Future | 81.67 | -0.56 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
-| HG=F | Copper Future | 6.66 | 0.94 | 2026-08-11 | live as of 11 August 2026, 22:00:22 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.56 | 0.09 | 2026-08-11 | live as of 11 August 2026, 23:00:29 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.16 | 0.18 | 2026-08-11 | live as of 11 August 2026, 23:00:29 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 95.76 | 0.12 | 2026-08-11 | live as of 11 August 2026, 23:00:29 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 220.84 | 0.28 | 2026-08-11 | live as of 11 August 2026, 23:00:29 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 124.53 | 0.29 | 2026-08-11 | live as of 11 August 2026, 23:00:29 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 258.29 | -0.01 | 2026-08-11 | live as of 11 August 2026, 23:00:29 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 82.34 | 0.34 | 2026-08-11 | live as of 11 August 2026, 23:00:29 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 92.94 | 0.2 | 2026-08-11 | live as of 11 August 2026, 23:00:29 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.89 | 0.04 | 2026-08-11 | live as of 11 August 2026, 23:00:29 (HKT) |
+| GC=F | Gold Future | 4453.0 | 2.09 | 2026-08-11 | live as of 11 August 2026, 23:00:29 (HKT) |
+| SI=F | Silver Future | 65.22 | 0.18 | 2026-08-11 | live as of 11 August 2026, 23:00:29 (HKT) |
+| CL=F | WTI Crude Oil Future | 82.3 | 5.27 | 2026-08-10 | closed |
+| HG=F | Copper Future | 6.66 | 1.05 | 2026-08-11 | live as of 11 August 2026, 23:00:29 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,12 +325,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.54 pct_chg=0.52
+- VIX close=15.28 pct_chg=-1.16
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 15, 'negative': 20, 'neutral': 45}
-- News confirmation score: `46.88`
+- Sentiment counts: {'positive': 15, 'negative': 18, 'neutral': 47}
+- News confirmation score: `48.12`
 
 ### Top Market-Moving Headlines
 
@@ -417,7 +417,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-No noisy headlines detected by current rules.
+Noisy headline list: Apple’s stock could underperform, especially witho
 
 ## Positioning & Flow Dashboard
 
@@ -509,7 +509,7 @@ Positioning and flow data is used as confirmation only. FINRA short-sale volume 
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `40`
+- Live macro rows used: `31`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
