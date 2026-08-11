@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 11 August 2026, 10:13:00 (HKT)
+Generated at: 11 August 2026, 11:08:54 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -83,10 +83,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US3YT=X | United States 3-Year Treasury Yield | 4.31 | 1.11 | 2026-08-10 | closed |
 | US5YT=X | United States 5-Year Treasury Yield | 4.42 | 1.25 | 2026-08-10 | closed |
 | US7YT=X | United States 7-Year Treasury Yield | 4.56 | 1.21 | 2026-08-10 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 4.71 | 0.26 | 2026-08-11 | live as of 11 August 2026, 10:00:26 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.72 | 0.38 | 2026-08-11 | live as of 11 August 2026, 11:00:38 (HKT) |
 | US20YT=X | United States 20-Year Treasury Yield | 5.27 | 0.96 | 2026-08-10 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.25 | 0.85 | 2026-08-10 | closed |
-| HK50 | Hang Seng Futures | 25942.0 | -0.1 | 2026-08-11 | live as of 11 August 2026, 10:00:26 (HKT) |
+| HK50 | Hang Seng Futures | 25795.0 | -0.67 | 2026-08-11 | live as of 11 August 2026, 11:00:38 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 968.65 | -1.06 | 2026-08-10 | closed |
 | CIHc1 | SSE 50 Futures | 2954.2 | 0.35 | 2026-08-10 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.48 | -0.16 | 2026-08-10 | closed |
