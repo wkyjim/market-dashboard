@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 11 August 2026, 15:05:07 (HKT)
+Generated at: 11 August 2026, 15:09:27 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -245,7 +245,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 2 | Healthcare | 68.28 | strong uptrend | positive | broad | 68.66 | 95.0 | 54.97 | BAX, REGN, CRL | MRNA, PODD, DVA |
 | 3 | Industrials | 66.54 | strong uptrend | neutral | broad | 57.93 | 65.0 | 50.37 | LDOS, ALLE, SWK | LII, HONA, CHRW |
 | 4 | Defense | 66.21 | strong uptrend | positive | broad | 48.2 | 65.0 | 54.6 | XAR | XAR |
-| 5 | Technology | 65.93 | strong uptrend | neutral | broad | 53.21 | 95.0 | 48.9 | ZBRA, IT, PLTR | IBM, WDC, SNDK |
+| 5 | Technology | 65.99 | strong uptrend | neutral | broad | 53.21 | 95.0 | 48.9 | ZBRA, IT, PLTR | IBM, WDC, SNDK |
 | 6 | Financials | 64.59 | strong uptrend | positive | broad | 63.51 | 95.0 | 53.65 | PYPL, BX, WTW | PGR, MSCI, HOOD |
 | 7 | Energy | 63.71 | strong uptrend | neutral | broad | 52.14 | 100.0 | 51.84 | APA, SLB, EXE | HAL, TRGP, TPL |
 | 8 | Consumer Discretionary | 60.15 | uptrend | neutral | broad | 62.23 | 65.0 | 48.63 | GRMN, ABNB, BKNG | CMG, APTV, TSLA |
@@ -288,7 +288,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Healthcare | Healthcare Innovation | 68.28 | strong | 60.85 | positive | sector and theme confirmation |
 | Industrials | Defense, Grid Infrastructure | 66.54 | strong | 53.46 | mixed | sector stronger than related themes |
 | Defense | Defense | 66.21 | strong | 61.08 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.93 | strong | 55.9 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.99 | strong | 55.9 | positive | sector and theme confirmation |
 | Financials | Financials | 64.59 | positive | 58.68 | positive | sector and theme confirmation |
 | Energy | Energy | 63.71 | positive | 60.43 | positive | sector and theme confirmation |
 | Consumer Discretionary | Small Caps | 60.15 | positive | 59.36 | positive | sector and theme confirmation |
