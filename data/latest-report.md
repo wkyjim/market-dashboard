@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 13 August 2026, 03:11:54 (HKT)
+Generated at: 13 August 2026, 03:13:33 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -438,6 +438,7 @@ FINRA daily short-sale volume measures transaction activity; twice-monthly FINRA
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 2026-08-11 | DOW | Neutral Inconclusive | 99.6 | 49.6 | 46.18 | 99.76 | 47.24 | 3.1 | 0.0 |
 | 2026-08-11 | ETHA | Structural Funding Short | 75.67 | 75.67 | 69.81 | 99.09 | 34.87 | 1.49 | -0.21 |
+| 2026-08-11 | SMDV | Short Covering | 85.0 | 43.12 | 25.0 | 98.81 | 67.84 | 1.0 | 0.07 |
 | 2026-08-11 | MARA | New Conviction Short | 58.42 | 80.43 | 75.68 | 98.73 | 23.5 | 2.48 | -0.3 |
 | 2026-08-11 | LQDA | Short Pressure Failure | 83.67 | 48.77 | 82.3 | 98.61 | 87.65 | 9.18 | 0.45 |
 | 2026-08-11 | CNTX | Neutral Inconclusive | 91.93 | 58.07 | 53.62 | 98.42 | 19.51 | 1.81 | -0.83 |
@@ -455,7 +456,6 @@ FINRA daily short-sale volume measures transaction activity; twice-monthly FINRA
 | 2026-08-11 | IMCG | Neutral Inconclusive | 88.27 | 38.27 | 39.42 | 97.0 | 42.94 | 1.0 | 0.06 |
 | 2026-08-11 | LITS | Short Covering | 85.0 | 46.47 | 30.99 | 96.95 | 47.2 | 1.0 | -0.29 |
 | 2026-08-11 | KJUL | Neutral Inconclusive | 86.76 | 36.76 | 54.09 | 96.9 | 42.8 | 6.28 | -0.01 |
-| 2026-08-11 | INTT | New Conviction Short | 90.37 | 44.37 | 54.09 | 96.83 | 20.15 | 2.23 | -0.32 |
 
 - Potential funding-short unwind: none
 - Confirmed funding-short unwind: ASO
