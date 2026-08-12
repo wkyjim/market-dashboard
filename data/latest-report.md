@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 12 August 2026, 08:34:47 (HKT)
+Generated at: 12 August 2026, 09:08:35 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,15 +79,15 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.28 | -1.16 | 2026-08-11 | closed |
 | ^SKEW | CBOE SKEW Index | 135.59 | -1.12 | 2026-08-11 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.22 | 0.0 | 2026-08-12 | live as of 12 August 2026, 08:23:02 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.29 | -0.03 | 2026-08-12 | live as of 12 August 2026, 08:23:02 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.39 | -0.04 | 2026-08-12 | live as of 12 August 2026, 08:23:02 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.53 | 0.03 | 2026-08-12 | live as of 12 August 2026, 08:23:02 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.69 | -0.05 | 2026-08-12 | live as of 12 August 2026, 08:23:02 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.25 | 0.02 | 2026-08-12 | live as of 12 August 2026, 08:23:02 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.24 | 0.0 | 2026-08-12 | live as of 12 August 2026, 08:23:02 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.22 | 0.05 | 2026-08-12 | live as of 12 August 2026, 09:00:39 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.29 | 0.07 | 2026-08-12 | live as of 12 August 2026, 09:00:39 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.39 | 0.04 | 2026-08-12 | live as of 12 August 2026, 09:00:39 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.53 | 0.06 | 2026-08-12 | live as of 12 August 2026, 09:00:39 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.69 | -0.01 | 2026-08-12 | live as of 12 August 2026, 09:00:39 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.25 | 0.07 | 2026-08-12 | live as of 12 August 2026, 09:00:39 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.24 | 0.04 | 2026-08-12 | live as of 12 August 2026, 09:00:39 (HKT) |
 | HK50 | Hang Seng Futures | 25626.0 | -1.32 | 2026-08-11 | closed |
-| KOR200c1 | KOSPI 200 Futures | 968.65 | -1.06 | 2026-08-10 | closed |
+| KOR200c1 | KOSPI 200 Futures | 1012.1 | 2.25 | 2026-08-11 | closed |
 | CIHc1 | SSE 50 Futures | 2954.2 | 0.35 | 2026-08-10 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.51 | 0.04 | 2026-08-11 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 105.99 | 0.03 | 2026-08-11 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.87 | 0.01 | 2026-08-11 | closed |
 | GC=F | Gold Future | 4427.8 | 1.51 | 2026-08-11 | closed |
 | SI=F | Silver Future | 64.86 | -0.38 | 2026-08-11 | closed |
-| CL=F | WTI Crude Oil Future | 83.67 | 0.29 | 2026-08-12 | live as of 12 August 2026, 08:23:02 (HKT) |
+| CL=F | WTI Crude Oil Future | 83.75 | 0.38 | 2026-08-12 | live as of 12 August 2026, 09:00:39 (HKT) |
 | HG=F | Copper Future | 6.63 | 0.52 | 2026-08-11 | closed |
 
 ## Market Dispersion Analysis
@@ -342,7 +342,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.49`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**2. Trump administration ends Medicaid, CHIP funding for gender-affirming care for children**
+**2. CNBC Daily Open: Big Tech wants to tap Wall Street's big wallets**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: CNBC
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**3. Cramer says ask yourself these 3 questions to figure out what's really happening in the market**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: CNBC
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**4. Trump administration ends Medicaid, CHIP funding for gender-affirming care for children**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -350,24 +366,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**3. Stocks close lower as hopes for U.S.-Iran deal dim and investors eye CPI report**
+**5. Stocks close lower as hopes for U.S.-Iran deal dim and investors eye CPI report**
 - Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: U.S
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**4. Treasury yields are little changed as investors await inflation data**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: U.S
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**5. U.S. oil rises above $83 a barrel as Iran says Strait of Hormuz won't open until conditions are met**
-- Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
 - Affected assets: U.S
