@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 13 August 2026, 02:04:35 (HKT)
+Generated at: 13 August 2026, 02:06:44 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -436,30 +436,30 @@ FINRA daily short-sale volume measures transaction activity; twice-monthly FINRA
 
 | Date | Ticker | Regime | Confidence | Funding | Position | Activity | Unwind | DTC | 3M Relative |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
+| 2026-08-11 | AEG | Neutral Inconclusive | 99.61 | 50.39 | 60.52 | 98.26 | 47.23 | 1.0 | 0.09 |
 | 2026-08-11 | ACN | Neutral Inconclusive | 89.17 | 60.83 | 68.32 | 96.75 | 53.16 | 3.79 | 0.0 |
 | 2026-08-11 | ABOS | Neutral Inconclusive | 89.67 | 39.67 | 68.99 | 96.23 | 45.93 | 7.51 | 0.0 |
+| 2026-08-11 | ADV | New Conviction Short | 59.03 | 52.42 | 48.03 | 95.56 | 17.8 | 2.89 | -0.14 |
+| 2026-08-11 | ALB | Neutral Inconclusive | 92.69 | 57.31 | 52.01 | 95.37 | 44.9 | 5.75 | 0.0 |
 | 2026-08-11 | ACIC | Neutral Inconclusive | 94.4 | 55.6 | 51.82 | 95.25 | 20.09 | 4.95 | -0.11 |
 | 2026-08-11 | AAAU | New Conviction Short | 86.15 | 41.3 | 25.82 | 94.31 | 40.42 | 1.0 | -0.09 |
+| 2026-08-11 | AI | Short Pressure Failure | 81.8 | 76.34 | 86.89 | 94.2 | 60.68 | 8.81 | 0.15 |
+| 2026-08-11 | AJUL | Neutral Inconclusive | 99.24 | 49.24 | 53.05 | 93.94 | 44.38 | 1.11 | -0.01 |
+| 2026-08-11 | AIOS | Neutral Inconclusive | 85.95 | 35.95 | 41.27 | 92.07 | 40.65 | 1.0 | -0.2 |
 | 2026-08-11 | ABCL | Short Pressure Failure | 80.33 | 45.79 | 78.36 | 87.28 | 91.98 | 6.97 | 1.19 |
+| 2026-08-11 | ADSK | Neutral Inconclusive | 88.27 | 61.73 | 65.0 | 91.76 | 49.07 | 4.52 | -0.02 |
 | 2026-08-11 | ABR | Structural Funding Short | 74.28 | 74.28 | 68.6 | 90.91 | 49.88 | 10.14 | -0.11 |
 | 2026-08-11 | ACHV | Crowded Short | 73.19 | 52.03 | 89.93 | 90.8 | 56.18 | 7.77 | 0.14 |
 | 2026-08-11 | ACHR | Confirmed Funding Short Unwind | 82.14 | 73.74 | 75.16 | 89.88 | 90.53 | 3.45 | 0.03 |
+| 2026-08-11 | AMDW | New Conviction Short | 88.17 | 34.87 | 47.24 | 90.4 | 15.83 | 1.0 | -0.17 |
+| 2026-08-11 | ALLR | Neutral Inconclusive | 68.13 | 18.13 | 26.81 | 90.11 | 51.3 | 1.04 | -0.08 |
+| 2026-08-11 | ADBE | Neutral Inconclusive | 89.04 | 60.96 | 65.58 | 89.89 | 46.84 | 3.79 | 0.01 |
+| 2026-08-11 | AERT | Short Covering | 72.24 | 12.56 | 12.12 | 89.75 | 69.25 | 1.0 | 9.07 |
 | 2026-08-11 | AAOI | Short Covering | 75.24 | 49.62 | 62.52 | 89.57 | 77.57 | 1.14 | -0.37 |
-| 2026-08-11 | AAL | Neutral Inconclusive | 88.55 | 61.45 | 60.58 | 88.72 | 36.94 | 1.0 | 0.17 |
-| 2026-08-11 | ACGLN | Neutral Inconclusive | 93.52 | 56.48 | 50.08 | 88.37 | 30.81 | 2.13 | -0.06 |
-| 2026-08-11 | ACRV | Short Covering | 85.0 | 48.58 | 57.14 | 88.02 | 70.17 | 2.34 | -0.13 |
-| 2026-08-11 | ABVX | Short Covering | 74.22 | 56.79 | 75.48 | 87.94 | 66.15 | 2.36 | 0.02 |
-| 2026-08-11 | ADAM | Neutral Inconclusive | 98.41 | 51.59 | 65.2 | 87.79 | 53.54 | 4.01 | 0.12 |
-| 2026-08-11 | ABVC | New Conviction Short | 86.35 | 64.19 | 56.34 | 87.06 | 17.97 | 1.84 | -0.12 |
-| 2026-08-11 | ACM | Short Covering | 66.91 | 85.04 | 85.31 | 38.24 | 62.46 | 5.45 | -0.09 |
-| 2026-08-11 | ACCO | Short Covering | 78.6 | 61.53 | 87.71 | 32.85 | 84.42 | 8.69 | 0.06 |
-| 2026-08-11 | ABEO | Short Covering | 66.53 | 49.92 | 83.05 | 62.53 | 84.26 | 8.28 | 0.29 |
-| 2026-08-11 | ABAT | Confirmed Funding Short Unwind | 79.78 | 82.89 | 86.47 | 71.13 | 76.67 | 6.39 | -0.25 |
-| 2026-08-11 | AAPG | Neutral Inconclusive | 98.62 | 48.62 | 42.64 | 80.61 | 37.39 | 2.22 | -0.09 |
 
 - Potential funding-short unwind: none
-- Confirmed funding-short unwind: ACHR, ABAT
-- Short-pressure failure: ABCL
+- Confirmed funding-short unwind: ACHR
+- Short-pressure failure: AI, ABCL, ALRM
 
 ## ETF Flows Analysis
 
