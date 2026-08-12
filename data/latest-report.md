@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 12 August 2026, 16:05:08 (HKT)
+Generated at: 12 August 2026, 17:02:32 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -24,7 +24,7 @@ Window: 24h
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.8 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.86 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.24 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
@@ -65,7 +65,7 @@ Window: 24h
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
-| Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
+| Volatility | VIX stable | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
 
@@ -76,17 +76,17 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7728.2 | -0.32 | 2026-08-11 | closed |
 | ^IXIC | NASDAQ Composite | 26445.45 | -0.6 | 2026-08-11 | closed |
 | ^RUT | Russell 2000 Index | 3027.12 | 0.32 | 2026-08-11 | closed |
-| ^VIX | CBOE Volatility Index | 15.33 | 0.33 | 2026-08-12 | live as of 12 August 2026, 16:00:20 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.31 | 0.2 | 2026-08-12 | live as of 12 August 2026, 17:00:21 (HKT) |
 | ^SKEW | CBOE SKEW Index | 135.59 | -1.12 | 2026-08-11 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.21 | -0.1 | 2026-08-12 | live as of 12 August 2026, 16:00:20 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.29 | 0.0 | 2026-08-12 | live as of 12 August 2026, 16:00:20 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.38 | -0.03 | 2026-08-12 | live as of 12 August 2026, 16:00:20 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.53 | -0.05 | 2026-08-12 | live as of 12 August 2026, 16:00:20 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.68 | -0.06 | 2026-08-12 | live as of 12 August 2026, 16:00:20 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.24 | -0.04 | 2026-08-12 | live as of 12 August 2026, 16:00:20 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.23 | -0.04 | 2026-08-12 | live as of 12 August 2026, 16:00:20 (HKT) |
-| HK50 | Hang Seng Futures | 25385.0 | -0.63 | 2026-08-12 | live as of 12 August 2026, 16:00:20 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.21 | -0.2 | 2026-08-12 | live as of 12 August 2026, 17:00:21 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.28 | -0.07 | 2026-08-12 | live as of 12 August 2026, 17:00:21 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.38 | -0.12 | 2026-08-12 | live as of 12 August 2026, 17:00:21 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.52 | -0.11 | 2026-08-12 | live as of 12 August 2026, 17:00:21 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.68 | -0.15 | 2026-08-12 | live as of 12 August 2026, 17:00:21 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.24 | -0.07 | 2026-08-12 | live as of 12 August 2026, 17:00:21 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.23 | -0.08 | 2026-08-12 | live as of 12 August 2026, 17:00:21 (HKT) |
+| HK50 | Hang Seng Futures | 25412.0 | -0.52 | 2026-08-12 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1012.1 | 2.25 | 2026-08-11 | closed |
 | CIHc1 | SSE 50 Futures | 2927.4 | -0.91 | 2026-08-11 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.51 | 0.04 | 2026-08-11 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 82.19 | 0.16 | 2026-08-11 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 92.87 | 0.12 | 2026-08-11 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.87 | 0.01 | 2026-08-11 | closed |
-| GC=F | Gold Future | 4467.5 | 1.93 | 2026-08-12 | live as of 12 August 2026, 16:00:20 (HKT) |
-| SI=F | Silver Future | 66.27 | 2.31 | 2026-08-12 | live as of 12 August 2026, 16:00:20 (HKT) |
-| CL=F | WTI Crude Oil Future | 83.79 | 0.71 | 2026-08-12 | live as of 12 August 2026, 16:00:20 (HKT) |
-| HG=F | Copper Future | 6.67 | 0.87 | 2026-08-12 | live as of 12 August 2026, 16:00:20 (HKT) |
+| GC=F | Gold Future | 4463.9 | 1.85 | 2026-08-12 | live as of 12 August 2026, 17:00:21 (HKT) |
+| SI=F | Silver Future | 66.4 | 2.52 | 2026-08-12 | live as of 12 August 2026, 17:00:21 (HKT) |
+| CL=F | WTI Crude Oil Future | 83.57 | 0.44 | 2026-08-12 | live as of 12 August 2026, 17:00:21 (HKT) |
+| HG=F | Copper Future | 6.68 | 1.01 | 2026-08-12 | live as of 12 August 2026, 17:00:21 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.33 pct_chg=0.33
+- VIX close=15.31 pct_chg=0.2
 
 ## News Analytics
 
@@ -390,7 +390,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**8. A historically strong stretch for the U.S. stock market is about to begin**
+**8. Trump administration ends Medicaid, CHIP funding for gender-affirming care for children**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: CHIP
+- Score: `20.19`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**9. A historically strong stretch for the U.S. stock market is about to begin**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
@@ -398,19 +406,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**9. As Lumentum gears up for earnings, here’s a sign the optical trade is clawing back**
+**10. As Lumentum gears up for earnings, here’s a sign the optical trade is clawing back**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
 - Affected assets: A, ETF
-- Score: `18.06`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**10. Bears are in pain as the S&P 500 hits record highs. That may mean more upside for stocks.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / nan
-- Affected assets: P, S
 - Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
@@ -507,7 +507,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `25`
+- Live macro rows used: `23`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
