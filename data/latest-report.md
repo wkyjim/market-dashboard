@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 12 August 2026, 09:12:06 (HKT)
+Generated at: 12 August 2026, 10:08:26 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.28 | -1.16 | 2026-08-11 | closed |
 | ^SKEW | CBOE SKEW Index | 135.59 | -1.12 | 2026-08-11 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.22 | 0.05 | 2026-08-12 | live as of 12 August 2026, 09:00:39 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.29 | 0.07 | 2026-08-12 | live as of 12 August 2026, 09:00:39 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.39 | 0.04 | 2026-08-12 | live as of 12 August 2026, 09:00:39 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.53 | 0.06 | 2026-08-12 | live as of 12 August 2026, 09:00:39 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.69 | -0.01 | 2026-08-12 | live as of 12 August 2026, 09:00:39 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.25 | 0.07 | 2026-08-12 | live as of 12 August 2026, 09:00:39 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.24 | 0.04 | 2026-08-12 | live as of 12 August 2026, 09:00:39 (HKT) |
-| HK50 | Hang Seng Futures | 25626.0 | -1.32 | 2026-08-11 | closed |
+| US2YT=X | United States 2-Year Treasury Yield | 4.22 | -0.0 | 2026-08-12 | live as of 12 August 2026, 10:00:41 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.29 | 0.13 | 2026-08-12 | live as of 12 August 2026, 10:00:41 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.39 | 0.09 | 2026-08-12 | live as of 12 August 2026, 10:00:41 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.53 | 0.06 | 2026-08-12 | live as of 12 August 2026, 10:00:41 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.69 | 0.04 | 2026-08-12 | live as of 12 August 2026, 10:00:41 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.25 | 0.06 | 2026-08-12 | live as of 12 August 2026, 10:00:41 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.24 | 0.04 | 2026-08-12 | live as of 12 August 2026, 10:00:41 (HKT) |
+| HK50 | Hang Seng Futures | 25408.0 | -0.54 | 2026-08-12 | live as of 12 August 2026, 10:00:41 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1012.1 | 2.25 | 2026-08-11 | closed |
-| CIHc1 | SSE 50 Futures | 2954.2 | 0.35 | 2026-08-10 | closed |
+| CIHc1 | SSE 50 Futures | 2927.4 | -0.91 | 2026-08-11 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.51 | 0.04 | 2026-08-11 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 105.99 | 0.03 | 2026-08-11 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 95.69 | 0.04 | 2026-08-11 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.87 | 0.01 | 2026-08-11 | closed |
 | GC=F | Gold Future | 4427.8 | 1.51 | 2026-08-11 | closed |
 | SI=F | Silver Future | 64.86 | -0.38 | 2026-08-11 | closed |
-| CL=F | WTI Crude Oil Future | 83.75 | 0.38 | 2026-08-12 | live as of 12 August 2026, 09:00:39 (HKT) |
+| CL=F | WTI Crude Oil Future | 83.84 | 0.49 | 2026-08-12 | live as of 12 August 2026, 10:00:41 (HKT) |
 | HG=F | Copper Future | 6.63 | 0.52 | 2026-08-11 | closed |
 
 ## Market Dispersion Analysis
@@ -366,15 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**5. Stocks close lower as hopes for U.S.-Iran deal dim and investors eye CPI report**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: U.S
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**6. Is inflation really slowing? Fed rate hike hinges on July price report.**
+**5. Is inflation really slowing? Fed rate hike hinges on July price report.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**7. Warsh’s changes to forward guidance were tried by one central bank — and here’s what happened**
+**6. Warsh’s changes to forward guidance were tried by one central bank — and here’s what happened**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**8. Wall Street bank urges hedging into July’s CPI — as sell trigger hits highest level in eight years**
+**7. Wall Street bank urges hedging into July’s CPI — as sell trigger hits highest level in eight years**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**9. Here’s how much Roger Federer is losing as On Holding says it is being disciplined on price**
+**8. Here’s how much Roger Federer is losing as On Holding says it is being disciplined on price**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**10. The Bessent bond-market scorecard doesn’t look as strong as it once did**
+**9. The Bessent bond-market scorecard doesn’t look as strong as it once did**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
 - Affected assets: U.S
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**10. Oil pops on Hormuz jitters; U.S. emergency crude stocks fall below 300 mln barrels**
+- Source: Investing.com Stock Market
+- Importance / impact: Low / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, oil, geopolitical_risk
+- Score: `21.06`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
@@ -504,7 +504,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `15`
+- Live macro rows used: `17`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
