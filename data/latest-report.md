@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 13 August 2026, 03:10:01 (HKT)
+Generated at: 13 August 2026, 03:11:54 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -459,7 +459,7 @@ FINRA daily short-sale volume measures transaction activity; twice-monthly FINRA
 
 - Potential funding-short unwind: none
 - Confirmed funding-short unwind: ASO
-- Short-pressure failure: LQDA, AUGO, KFY, HBT
+- Short-pressure failure: LQDA, AUGO, KFY
 
 ## ETF Flows Analysis
 
