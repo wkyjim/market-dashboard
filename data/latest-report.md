@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 12 August 2026, 14:08:26 (HKT)
+Generated at: 12 August 2026, 15:02:31 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.09 / 100** (Moderate Risk-On)
+- Regime score: **65.6 / 100** (Moderate Risk-On)
 - US equity strength: **80.6 / 100** (strong)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **48.94 / 100**, reliability **71.51 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 65.09 | Moderate Risk-On |
+| Overall regime | 65.6 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.57 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.65 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 54.71 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.24 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 49.38 | neutral / mixed; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=73.75 |
+| news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=73.75, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.28 | -1.16 | 2026-08-11 | closed |
 | ^SKEW | CBOE SKEW Index | 135.59 | -1.12 | 2026-08-11 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.22 | -0.05 | 2026-08-12 | live as of 12 August 2026, 14:00:37 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.29 | 0.1 | 2026-08-12 | live as of 12 August 2026, 14:00:37 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.39 | 0.05 | 2026-08-12 | live as of 12 August 2026, 14:00:37 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.53 | 0.0 | 2026-08-12 | live as of 12 August 2026, 14:00:37 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.68 | -0.06 | 2026-08-12 | live as of 12 August 2026, 14:00:37 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.24 | -0.02 | 2026-08-12 | live as of 12 August 2026, 14:00:37 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.23 | -0.0 | 2026-08-12 | live as of 12 August 2026, 14:00:37 (HKT) |
-| HK50 | Hang Seng Futures | 25388.5 | -0.61 | 2026-08-12 | live as of 12 August 2026, 14:00:37 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.21 | -0.1 | 2026-08-12 | live as of 12 August 2026, 15:00:42 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.29 | 0.0 | 2026-08-12 | live as of 12 August 2026, 15:00:42 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.38 | -0.08 | 2026-08-12 | live as of 12 August 2026, 15:00:42 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.52 | -0.11 | 2026-08-12 | live as of 12 August 2026, 15:00:42 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.68 | -0.11 | 2026-08-12 | live as of 12 August 2026, 15:00:42 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.23 | -0.14 | 2026-08-12 | live as of 12 August 2026, 15:00:42 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.23 | -0.15 | 2026-08-12 | live as of 12 August 2026, 15:00:42 (HKT) |
+| HK50 | Hang Seng Futures | 25409.5 | -0.53 | 2026-08-12 | live as of 12 August 2026, 15:00:42 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1012.1 | 2.25 | 2026-08-11 | closed |
 | CIHc1 | SSE 50 Futures | 2927.4 | -0.91 | 2026-08-11 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.51 | 0.04 | 2026-08-11 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 82.19 | 0.16 | 2026-08-11 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 92.87 | 0.12 | 2026-08-11 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.87 | 0.01 | 2026-08-11 | closed |
-| GC=F | Gold Future | 4445.4 | 1.42 | 2026-08-12 | live as of 12 August 2026, 14:00:37 (HKT) |
-| SI=F | Silver Future | 65.28 | 0.78 | 2026-08-12 | live as of 12 August 2026, 14:00:37 (HKT) |
-| CL=F | WTI Crude Oil Future | 83.96 | 0.64 | 2026-08-12 | live as of 12 August 2026, 14:00:37 (HKT) |
-| HG=F | Copper Future | 6.64 | 0.47 | 2026-08-12 | live as of 12 August 2026, 14:00:37 (HKT) |
+| GC=F | Gold Future | 4460.9 | 1.78 | 2026-08-12 | live as of 12 August 2026, 15:00:42 (HKT) |
+| SI=F | Silver Future | 66.16 | 2.14 | 2026-08-12 | live as of 12 August 2026, 15:00:42 (HKT) |
+| CL=F | WTI Crude Oil Future | 83.9 | 0.84 | 2026-08-12 | live as of 12 August 2026, 15:00:42 (HKT) |
+| HG=F | Copper Future | 6.67 | 0.82 | 2026-08-12 | live as of 12 August 2026, 15:00:42 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -329,90 +329,90 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 4, 'negative': 5, 'neutral': 71}
-- News confirmation score: `49.38`
+- Sentiment counts: {'positive': 4, 'negative': 4, 'neutral': 72}
+- News confirmation score: `50.0`
 
 ### Top Market-Moving Headlines
 
 **1. Intel upsizes stock offering to $20 billion at $95 per share as AI demand accelerates**
-- Source: CNBC Top News
+- Source: CNBC Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: INTC, AI, technology
 - Score: `31.49`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**2. CNBC Daily Open: Big Tech wants to tap Wall Street's big wallets**
+**2. Is inflation really slowing? Fed rate hike hinges on July price report.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: A, U.S
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**3. Warsh’s changes to forward guidance were tried by one central bank — and here’s what happened**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**4. Wall Street bank urges hedging into July’s CPI — as sell trigger hits highest level in eight years**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**5. Here’s how much Roger Federer is losing as On Holding says it is being disciplined on price**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: U.S
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**6. The Bessent bond-market scorecard doesn’t look as strong as it once did**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: U.S
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**7. CNBC Daily Open: Big Tech wants to tap Wall Street's big wallets**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
 - Affected assets: CNBC
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**3. Is inflation really slowing? Fed rate hike hinges on July price report.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: A, U.S
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**4. Warsh’s changes to forward guidance were tried by one central bank — and here’s what happened**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**5. Wall Street bank urges hedging into July’s CPI — as sell trigger hits highest level in eight years**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**6. Here’s how much Roger Federer is losing as On Holding says it is being disciplined on price**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: U.S
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**7. The Bessent bond-market scorecard doesn’t look as strong as it once did**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: U.S
-- Score: `21.25`
+- Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
 **8. A historically strong stretch for the U.S. stock market is about to begin**
-- Source: MarketWatch Bulletins
+- Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
 - Affected assets: A, U.S
-- Score: `20.19`
+- Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**9. Cramer says ask yourself these 3 questions to figure out what's really happening in the market**
-- Source: CNBC Markets
+**9. As Lumentum gears up for earnings, here’s a sign the optical trade is clawing back**
+- Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: CNBC
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+- Relevance / horizon: sector_theme / nan
+- Affected assets: A, ETF
+- Score: `18.06`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**10. Trump administration ends Medicaid, CHIP funding for gender-affirming care for children**
-- Source: CNBC Markets
+**10. Bears are in pain as the S&P 500 hits record highs. That may mean more upside for stocks.**
+- Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: CHIP
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+- Relevance / horizon: sector_theme / nan
+- Affected assets: P, S
+- Score: `18.06`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
@@ -507,7 +507,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `26`
+- Live macro rows used: `24`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
