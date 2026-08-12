@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 13 August 2026, 03:13:33 (HKT)
+Generated at: 13 August 2026, 04:05:22 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **64.84 / 100** (Mild Risk-On)
+- Regime score: **65.08 / 100** (Moderate Risk-On)
 - US equity strength: **80.6 / 100** (strong)
-- Evidence quality: **76.0 / 100**
+- Evidence quality: **79.5 / 100**
 - ETF flow contribution: **48.94 / 100**, reliability **71.51 / 100**
 - Breadth: **broad**; above 50DMA `73.33%`, above 200DMA `74.58%`
 - Top sector score: **Healthcare** `68.69`
@@ -17,15 +17,15 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 64.84 | Mild Risk-On |
+| Overall regime | 65.08 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.57 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 73.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.13 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 51.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 54.07 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.24 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=73.75 |
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `76.0`
-- Agreement ratio: `0.4`
+- Confidence score: `79.5`
+- Agreement ratio: `0.5`
 - Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
@@ -64,7 +64,7 @@ Window: 24h
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper stable | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude stable | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7755.52 | 0.35 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
-| ^IXIC | NASDAQ Composite | 26625.7 | 0.68 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
-| ^RUT | Russell 2000 Index | 3046.98 | 0.66 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
-| ^VIX | CBOE Volatility Index | 14.52 | -4.97 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
+| ^GSPC | S&P 500 | 7748.53 | 0.26 | 2026-08-12 | live as of 13 August 2026, 04:00:18 (HKT) |
+| ^IXIC | NASDAQ Composite | 26588.49 | 0.54 | 2026-08-12 | live as of 13 August 2026, 04:00:18 (HKT) |
+| ^RUT | Russell 2000 Index | 3048.16 | 0.7 | 2026-08-12 | live as of 13 August 2026, 04:00:18 (HKT) |
+| ^VIX | CBOE Volatility Index | 14.41 | -5.69 | 2026-08-12 | live as of 13 August 2026, 04:00:18 (HKT) |
 | ^SKEW | CBOE SKEW Index | 135.59 | -1.12 | 2026-08-11 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.2 | -0.45 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.27 | -0.33 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.37 | -0.24 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.52 | -0.17 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.68 | -0.06 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.25 | 0.08 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.25 | 0.22 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.22 | -0.59 | 2026-08-11 | closed |
+| US3YT=X | United States 3-Year Treasury Yield | 4.28 | -0.6 | 2026-08-11 | closed |
+| US5YT=X | United States 5-Year Treasury Yield | 4.39 | -0.44 | 2026-08-11 | closed |
+| US7YT=X | United States 7-Year Treasury Yield | 4.53 | -0.44 | 2026-08-11 | closed |
+| US10YT=X | United States 10-Year Treasury Yield | 4.69 | -0.13 | 2026-08-11 | closed |
+| US20YT=X | United States 20-Year Treasury Yield | 5.25 | -0.17 | 2026-08-11 | closed |
+| US30YT=X | United States 30-Year Treasury Yield | 5.24 | -0.12 | 2026-08-11 | closed |
 | HK50 | Hang Seng Futures | 25412.0 | -0.52 | 2026-08-12 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1012.1 | 2.25 | 2026-08-11 | closed |
 | CIHc1 | SSE 50 Futures | 2927.4 | -0.91 | 2026-08-11 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.62 | 0.14 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.12 | 0.13 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 95.87 | 0.19 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 221.16 | 0.21 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 124.64 | 0.84 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 257.9 | -0.01 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 82.12 | -0.08 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 92.97 | 0.11 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.93 | 0.07 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
-| GC=F | Gold Future | 4475.8 | 2.12 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
-| SI=F | Silver Future | 65.75 | 1.51 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
-| CL=F | WTI Crude Oil Future | 83.18 | -0.02 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
-| HG=F | Copper Future | 6.62 | 0.07 | 2026-08-12 | live as of 13 August 2026, 03:00:32 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.61 | 0.13 | 2026-08-12 | live as of 13 August 2026, 04:00:18 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.12 | 0.13 | 2026-08-12 | live as of 13 August 2026, 04:00:18 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 95.84 | 0.16 | 2026-08-12 | live as of 13 August 2026, 04:00:18 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 221.07 | 0.17 | 2026-08-12 | live as of 13 August 2026, 04:00:18 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 124.47 | 0.7 | 2026-08-12 | live as of 13 August 2026, 04:00:18 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 257.77 | -0.06 | 2026-08-12 | live as of 13 August 2026, 04:00:18 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 82.11 | -0.1 | 2026-08-12 | live as of 13 August 2026, 04:00:18 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 92.96 | 0.1 | 2026-08-12 | live as of 13 August 2026, 04:00:18 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.92 | 0.06 | 2026-08-12 | live as of 13 August 2026, 04:00:18 (HKT) |
+| GC=F | Gold Future | 4470.6 | 2.0 | 2026-08-12 | live as of 13 August 2026, 04:00:18 (HKT) |
+| SI=F | Silver Future | 65.53 | 1.18 | 2026-08-12 | live as of 13 August 2026, 04:00:18 (HKT) |
+| CL=F | WTI Crude Oil Future | 83.42 | 1.57 | 2026-08-11 | closed |
+| HG=F | Copper Future | 6.6 | -0.11 | 2026-08-12 | live as of 13 August 2026, 04:00:18 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=14.52 pct_chg=-4.97
+- VIX close=14.41 pct_chg=-5.69
 
 ## News Analytics
 
@@ -350,15 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**3. S&P 500 opens in record territory, Dow and Nasdaq climb after CPI data**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: P, S
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**4. The $30 trillion Treasury market is facing a painful reckoning. How rising yields could squeeze your portfolio.**
+**3. The $30 trillion Treasury market is facing a painful reckoning. How rising yields could squeeze your portfolio.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**5. S&P 500 rises after tame inflation data; AI-related shares jump: Live updates**
+**4. S&P 500 rises after tame inflation data; AI-related shares jump: Live updates**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
@@ -374,13 +366,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**6. Stocks making the biggest moves midday: Wendy's, H&R Block, Quantinuum, CoreWeave, Cava & more**
+**5. Stocks making the biggest moves midday: Wendy's, H&R Block, Quantinuum, CoreWeave, Cava & more**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
 - Affected assets: H, R
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**6. S&P 500 opens in record territory, Dow and Nasdaq climb after CPI data**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: P, S
+- Score: `20.19`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
 **7. AI capex could hit $1.6 trillion next year, says fund manager who sees more echoes of 1998 than the dot-com bust**
 - Source: MarketWatch Top Stories
@@ -444,9 +444,11 @@ FINRA daily short-sale volume measures transaction activity; twice-monthly FINRA
 | 2026-08-11 | CNTX | Neutral Inconclusive | 91.93 | 58.07 | 53.62 | 98.42 | 19.51 | 1.81 | -0.83 |
 | 2026-08-11 | BOX | Neutral Inconclusive | 98.12 | 48.12 | 75.55 | 98.3 | 54.04 | 5.81 | 0.33 |
 | 2026-08-11 | AEG | Neutral Inconclusive | 99.61 | 50.39 | 60.52 | 98.26 | 47.23 | 1.0 | 0.09 |
+| 2026-08-11 | XNCR | Short Pressure Failure | 82.49 | 47.61 | 85.95 | 98.02 | 90.21 | 13.63 | 0.83 |
 | 2026-08-11 | CDLR | Neutral Inconclusive | 98.54 | 51.46 | 63.64 | 97.9 | 46.36 | 8.6 | -0.24 |
 | 2026-08-11 | OCC | Neutral Inconclusive | 84.78 | 34.78 | 60.18 | 97.86 | 43.31 | 2.35 | 0.18 |
 | 2026-08-11 | ASO | Confirmed Funding Short Unwind | 74.51 | 70.59 | 67.61 | 97.82 | 78.43 | 5.16 | -0.06 |
+| 2026-08-11 | VATE | Neutral Inconclusive | 90.97 | 40.97 | 51.57 | 97.82 | 23.34 | 4.23 | -0.39 |
 | 2026-08-11 | NU | Structural Funding Short | 81.31 | 81.31 | 74.72 | 97.71 | 34.29 | 1.54 | 0.03 |
 | 2026-08-11 | CHWY | Structural Funding Short | 79.25 | 79.25 | 79.48 | 97.64 | 52.15 | 3.09 | 0.02 |
 | 2026-08-11 | CORZW | Neutral Inconclusive | 95.4 | 45.4 | 58.84 | 97.51 | 20.51 | 4.04 | -0.31 |
@@ -454,12 +456,10 @@ FINRA daily short-sale volume measures transaction activity; twice-monthly FINRA
 | 2026-08-11 | B | Neutral Inconclusive | 94.43 | 55.57 | 64.11 | 97.15 | 51.99 | 2.04 | -0.1 |
 | 2026-08-11 | PRM | Short Covering | 79.23 | 49.05 | 74.08 | 97.07 | 80.9 | 3.85 | -0.01 |
 | 2026-08-11 | IMCG | Neutral Inconclusive | 88.27 | 38.27 | 39.42 | 97.0 | 42.94 | 1.0 | 0.06 |
-| 2026-08-11 | LITS | Short Covering | 85.0 | 46.47 | 30.99 | 96.95 | 47.2 | 1.0 | -0.29 |
-| 2026-08-11 | KJUL | Neutral Inconclusive | 86.76 | 36.76 | 54.09 | 96.9 | 42.8 | 6.28 | -0.01 |
 
 - Potential funding-short unwind: none
 - Confirmed funding-short unwind: ASO
-- Short-pressure failure: LQDA, AUGO, KFY
+- Short-pressure failure: LQDA, XNCR, AUGO
 
 ## ETF Flows Analysis
 
@@ -538,7 +538,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `40`
+- Live macro rows used: `31`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
