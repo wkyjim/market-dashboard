@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 14 August 2026, 09:12:00 (HKT)
+Generated at: 14 August 2026, 09:13:20 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,13 +79,13 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 14.63 | 0.55 | 2026-08-13 | closed |
 | ^SKEW | CBOE SKEW Index | 134.37 | -1.59 | 2026-08-13 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.15 | 0.05 | 2026-08-14 | live as of 14 August 2026, 09:00:22 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.22 | 0.0 | 2026-08-14 | live as of 14 August 2026, 09:00:22 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.32 | 0.04 | 2026-08-14 | live as of 14 August 2026, 09:00:22 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.47 | 0.0 | 2026-08-14 | live as of 14 August 2026, 09:00:22 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.63 | 0.0 | 2026-08-14 | live as of 14 August 2026, 09:00:22 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.21 | -0.1 | 2026-08-14 | live as of 14 August 2026, 09:00:22 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.08 | -0.12 | 2026-08-14 | live as of 14 August 2026, 09:00:22 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.15 | 0.1 | 2026-08-14 | live as of 14 August 2026, 09:11:26 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.22 | 0.07 | 2026-08-14 | live as of 14 August 2026, 09:11:26 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.32 | 0.12 | 2026-08-14 | live as of 14 August 2026, 09:11:26 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.47 | 0.06 | 2026-08-14 | live as of 14 August 2026, 09:11:26 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.64 | 0.02 | 2026-08-14 | live as of 14 August 2026, 09:11:26 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.21 | -0.02 | 2026-08-14 | live as of 14 August 2026, 09:11:26 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.09 | -0.02 | 2026-08-14 | live as of 14 August 2026, 09:11:26 (HKT) |
 | HK50 | Hang Seng Futures | 25218.0 | -0.42 | 2026-08-13 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1103.05 | 2.73 | 2026-08-13 | closed |
 | CIHc1 | SSE 50 Futures | 2927.8 | -0.14 | 2026-08-13 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 82.03 | 0.13 | 2026-08-13 | closed |
 | GC=F | Gold Future | 4407.1 | -0.04 | 2026-08-13 | closed |
 | SI=F | Silver Future | 64.58 | -1.48 | 2026-08-13 | closed |
-| CL=F | WTI Crude Oil Future | 81.14 | -0.23 | 2026-08-14 | live as of 14 August 2026, 09:00:22 (HKT) |
+| CL=F | WTI Crude Oil Future | 81.22 | -0.14 | 2026-08-14 | live as of 14 August 2026, 09:11:26 (HKT) |
 | HG=F | Copper Future | 6.59 | -0.11 | 2026-08-13 | closed |
 
 ## Market Dispersion Analysis
