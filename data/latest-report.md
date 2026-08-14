@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 14 August 2026, 21:09:38 (HKT)
+Generated at: 14 August 2026, 21:18:47 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -153,7 +153,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | --- | --- | --- | --- | --- | --- |
 | Real Gross Domestic Product | 24270.6 | billions chained 2017 dollars | 90.18 billions chained 2017 dollars vs prior | 2026-04-01 | Higher reading supports activity or liquidity. |
 | Industrial Production Index | 102.65 | index 2017=100 | 0.14 index pts vs prior | 2026-05-01 | Higher reading supports activity or liquidity. |
-| Advance Retail Sales | 768553.0 | millions dollars | 1677.0 millions dollars vs prior | 2026-06-01 | Higher reading supports activity or liquidity. |
+| Advance Retail Sales | 763602.0 | millions dollars | -4470.0 millions dollars vs prior | 2026-07-01 | Lower reading signals softer activity or liquidity. |
 
 ### U.S. Inflation
 
