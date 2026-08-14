@@ -285,8 +285,7 @@ function renderShortTable(payload) {
     }).join("")}
   </tr>`).join("");
   table.querySelectorAll("[data-short-ticker]").forEach((button) => button.addEventListener("click", () => {
-    $("#short-detail-ticker").value = button.dataset.shortTicker;
-    loadShortTicker(button.dataset.shortTicker);
+    loadSingleStock(button.dataset.shortTicker);
   }));
   const page = Math.floor(shortState.offset / shortState.limit) + 1;
   const pages = Math.max(1, Math.ceil(shortState.total / shortState.limit));
@@ -312,9 +311,49 @@ function shortMetricRows(row, fields) {
   }).join("");
 }
 
-function renderRegimeReasons(value) {
-  if (!value || typeof value !== "object") return "<p>No structured regime reasons are available.</p>";
-  return `<ul>${Object.entries(value).slice(0, 16).map(([key, item]) => `<li><b>${escapeHtml(key.replaceAll("_", " "))}:</b> ${escapeHtml(typeof item === "number" ? formatNumber(item) : item)}</li>`).join("")}</ul>`;
+const REGIME_EVIDENCE = [
+  ["flow_confirmation_signal", "Flow confirmation", "Relationship between published short-interest change, short activity and relative price action."],
+  ["actual_si_change_1obs", "Latest published SI change", "Change from the prior published short-interest settlement."],
+  ["short_position_score", "Short position score", "Persistence, percentile, days-to-cover and stability evidence."],
+  ["short_activity_score", "Short activity score", "Current FINRA short-volume intensity versus the ticker's own history."],
+  ["funding_short_score", "Funding-short likelihood", "Composite evidence for persistent short-positioning behavior."],
+  ["funding_short_quality_score", "Funding-short quality", "Liquidity, stability, relative performance and squeeze-risk suitability."],
+  ["unwind_risk_score", "Unwind risk", "Evidence that existing short positioning may be reversing."],
+  ["short_interest_persistence", "SI persistence", "Share of observed periods supporting persistent short interest."],
+  ["short_interest_trend", "SI trend", "Direction and statistical quality of the published short-interest trend."],
+  ["short_interest_stability", "SI stability", "Consistency of short interest through time."],
+  ["industry_relative_weakness", "Market-relative weakness", "Weakness versus SPY across medium and longer horizons."],
+  ["pressure_effectiveness", "Pressure effectiveness", "Whether elevated short-volume periods historically coincided with relative weakness."],
+  ["daily_short_activity", "Daily short activity", "Latest normalized short-volume activity score."],
+  ["technical_compatibility", "Technical compatibility", "Price trend and momentum alignment with the short thesis."],
+  ["capture_asymmetry", "Capture asymmetry", "Difference between downside and upside capture versus SPY."],
+  ["institutional_liquidity", "Liquidity", "Trading-liquidity suitability; this does not identify who is trading."],
+  ["evidence_completeness", "Evidence completeness", "Share of required model inputs available for classification."],
+  ["evidence_fields_available", "Evidence fields", "Count of required model inputs available."],
+];
+
+function evidenceValue(key, value) {
+  if (value == null) return "n/a";
+  if (typeof value === "boolean") return value ? "Yes" : "No";
+  if (key === "actual_si_change_1obs" || key === "evidence_completeness") return formatPercent(value);
+  return typeof value === "number" ? formatNumber(value) : String(value).replaceAll("_", " ");
+}
+
+function renderRegimeReasons(value, row = {}) {
+  if (!value || typeof value !== "object") return '<div class="empty-state">No structured regime evidence is available.</div>';
+  const rows = REGIME_EVIDENCE.filter(([key]) => key in value);
+  if (!rows.length) return '<div class="empty-state">No structured regime evidence is available.</div>';
+  return `<div class="table-scroll"><table class="regime-evidence-table">
+    <thead><tr><th>Evidence</th><th>Value</th><th>Role in classification</th></tr></thead>
+    <tbody>${rows.map(([key, label, meaning]) => {
+      const insufficientPressureHistory = key === "pressure_effectiveness" && row.short_pressure_effectiveness == null;
+      const displayValue = insufficientPressureHistory ? "n/a" : evidenceValue(key, value[key]);
+      const displayMeaning = insufficientPressureHistory
+        ? `${meaning} Insufficient qualifying observations; the classifier uses a neutral prior.`
+        : meaning;
+      return `<tr><td>${escapeHtml(label)}</td><td>${escapeHtml(displayValue)}</td><td>${escapeHtml(displayMeaning)}</td></tr>`;
+    }).join("")}</tbody>
+  </table></div>`;
 }
 
 function renderShortDetail(row) {
@@ -328,7 +367,7 @@ function renderShortDetail(row) {
   $("#short-detail").innerHTML = `<div class="short-detail-head"><div><span class="eyebrow">${escapeHtml(row.security_type || "unknown")}</span><h3>${escapeHtml(row.ticker)} · ${escapeHtml(row.name || "Unnamed security")}</h3><p>${escapeHtml(row.sector || "Unclassified")} · ${escapeHtml(row.industry || "Unclassified")}</p></div><span class="regime-badge">${escapeHtml(regimeLabel(row.short_regime))}</span></div>
     <div class="freshness-strip"><span>Analytics ${escapeHtml(row.analytics_date || "n/a")}</span><span>Short volume ${escapeHtml(row.latest_short_volume_date || "n/a")}</span><span>SI settlement ${escapeHtml(row.latest_si_settlement_date || "n/a")}</span><span>SI publication ${escapeHtml(row.latest_si_publication_date || "n/a")}</span></div>
     <div class="short-detail-grid">${groups.map(([title, fields]) => `<section class="indicator-group"><h4>${escapeHtml(title)}</h4>${shortMetricRows(row, fields)}</section>`).join("")}</div>
-    <section class="regime-reasons"><h4>Current Regime Evidence</h4><p>Classification is behaviorally inferred unless confirmed by published FINRA short interest.</p>${renderRegimeReasons(row.regime_reason_json)}</section>`;
+    <section class="regime-reasons"><h4>Short-Positioning Regime Evidence</h4><p>These are the observable and calculated inputs behind this stock's deterministic short-positioning classification. They are separate from the dashboard's macro market regime.</p>${renderRegimeReasons(row.regime_reason_json, row)}</section>`;
 }
 
 async function loadShortTicker(ticker = $("#short-detail-ticker")?.value.trim()) {
@@ -341,6 +380,17 @@ async function loadShortTicker(ticker = $("#short-detail-ticker")?.value.trim())
   } catch (error) {
     detail.innerHTML = `<div class="empty-state">No latest short-positioning snapshot is available for ${escapeHtml(ticker.toUpperCase())}.</div>`;
   }
+}
+
+async function loadSingleStock(ticker) {
+  const symbol = String(ticker || "").trim().toUpperCase();
+  if (!symbol) return;
+  $("#short-detail-ticker").value = symbol;
+  $("#asset-type").value = "equities";
+  $("#symbol").value = symbol;
+  $("#query-mode").value = "latest";
+  updateQueryControls();
+  await Promise.allSettled([loadShortTicker(symbol), runQuery()]);
 }
 
 function drawChart(rows, symbol, asset) {
@@ -488,7 +538,7 @@ function renderEquityIndicators(payload, asset) {
 }
 
 async function runQuery(event) {
-  event.preventDefault();
+  event?.preventDefault();
   const asset = $("#asset-type").value;
   const symbol = $("#symbol").value.trim().toUpperCase();
   const mode = $("#query-mode").value;
@@ -514,9 +564,20 @@ async function runQuery(event) {
   }
 }
 
+async function runSingleSymbolQuery(event) {
+  event.preventDefault();
+  const asset = $("#asset-type").value;
+  const symbol = $("#symbol").value.trim().toUpperCase();
+  await runQuery();
+  if (asset === "equities" && symbol) {
+    $("#short-detail-ticker").value = symbol;
+    await loadShortTicker(symbol);
+  }
+}
+
 async function refreshDashboard() {
   setApiStatus(false, "Connecting");
-  const [macroOutcome, reportOutcome, , shortOutcome] = await Promise.allSettled([loadMacroTape(), loadReport(), loadChart(), loadShortAnalytics(), loadShortTicker()]);
+  const [macroOutcome, reportOutcome, , shortOutcome] = await Promise.allSettled([loadMacroTape(), loadReport(), loadChart(), loadShortAnalytics(), loadSingleStock("AMD")]);
   if (macroOutcome.status === "rejected") {
     setApiStatus(false, "Unavailable");
     const macroTape = $("#macro-tape");
@@ -538,12 +599,12 @@ $("#chart-asset").addEventListener("change", () => {
 $("#load-chart").addEventListener("click", loadChart);
 $("#asset-type").addEventListener("change", updateQueryControls);
 $("#query-mode").addEventListener("change", updateQueryControls);
-$("#data-form").addEventListener("submit", runQuery);
+$("#data-form").addEventListener("submit", runSingleSymbolQuery);
 $("#short-filter-form")?.addEventListener("submit", (event) => { event.preventDefault(); shortState.offset = 0; loadShortAnalytics(); });
 $("#short-reset")?.addEventListener("click", () => { $("#short-filter-form").reset(); shortState.offset = 0; loadShortAnalytics(); });
 $("#short-prev")?.addEventListener("click", () => { shortState.offset = Math.max(0, shortState.offset - shortState.limit); loadShortAnalytics(); });
 $("#short-next")?.addEventListener("click", () => { shortState.offset += shortState.limit; loadShortAnalytics(); });
-$("#short-detail-form")?.addEventListener("submit", (event) => { event.preventDefault(); loadShortTicker(); });
+$("#short-detail-form")?.addEventListener("submit", (event) => { event.preventDefault(); loadSingleStock($("#short-detail-ticker").value); });
 $("#toggle-report").addEventListener("click", () => {
   const content = $("#report-content");
   content.classList.toggle("expanded");

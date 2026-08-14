@@ -8,7 +8,7 @@ Local path: `C:\Users\User\OneDrive\Coding\DB_builder\market-dashboard`
 
 ## Purpose
 
-Market Intelligence presents deterministic market analytics from the PostgreSQL / Neon-backed market data stack. It combines a cross-asset macro tape, OHLCV price-history charting, the latest rule-based market update, and a single-symbol Neon data explorer.
+Market Intelligence presents deterministic market analytics from the PostgreSQL / Neon-backed market data stack. It combines a cross-asset macro tape, OHLCV price-history charting, the latest rule-based market update, and unified single-stock short-positioning, price, technical and historical analytics.
 
 Aegis is the dashboard identity: the Market Intelligence Sentinel. The visual system is designed to feel institutional, calm, precise, risk-aware, and data-driven.
 

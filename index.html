@@ -14,7 +14,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="assets/images/aegis/aegis-hero.png">
-  <link rel="stylesheet" href="styles.css?v=20260814-short-1">
+  <link rel="stylesheet" href="styles.css?v=20260814-short-3">
 </head>
 <body>
   <a class="skip-link" href="#overview">Skip to dashboard</a>
@@ -28,7 +28,7 @@
       <a href="#cross-asset">Cross Asset</a>
       <a href="#short-positioning">Short Positioning</a>
       <a href="#report">Market Update</a>
-      <a href="#explorer">Data Explorer</a>
+      <a href="#explorer">Single Stock</a>
     </nav>
     <div class="topbar-meta" aria-label="Data status">
       <span id="api-status" class="status"><i></i><b>LIVE DATA</b><small>Connecting</small></span>
@@ -43,7 +43,7 @@
       <a href="#cross-asset">Cross Asset</a>
       <a href="#short-positioning">Short Positioning</a>
       <a href="#report">Market Update</a>
-      <a href="#explorer">Data Explorer</a>
+      <a href="#explorer">Single Stock</a>
       <div class="sidebar-foot">
         <img src="assets/images/aegis/aegis-avatar.png" alt="" width="1254" height="1254" loading="lazy" aria-hidden="true">
         <span>AEGIS</span>
@@ -137,11 +137,29 @@
           <div class="pagination"><button id="short-prev" class="button ghost" type="button">Previous</button><span id="short-page">Page 1</span><button id="short-next" class="button ghost" type="button">Next</button></div>
         </article>
 
-        <article class="panel short-detail-panel">
+        <article id="explorer" class="panel short-detail-panel">
           <div class="panel-heading"><div><h3>Single-Stock Analytics</h3><p class="legend">Latest cloud snapshot only; historical analytics remain local.</p></div>
             <form id="short-detail-form" class="inline-controls"><label>Ticker<input id="short-detail-ticker" value="AMD" autocomplete="off"></label><button class="button secondary" type="submit">Load</button></form>
           </div>
           <div id="short-detail" class="short-detail"><div class="skeleton">Loading the latest FINRA analytics.</div></div>
+          <section class="embedded-explorer" aria-labelledby="single-symbol-heading">
+            <div class="embedded-explorer-heading">
+              <div><p class="eyebrow">Neon Data Access</p><h3 id="single-symbol-heading">Price, Technical &amp; Historical Data</h3></div>
+              <span class="legend">Equities are close-only; macro supports live snapshots.</span>
+            </div>
+            <form id="data-form" class="query-form">
+              <label>Asset class<select id="asset-type"><option value="equities">Equity / ETF</option><option value="macro">Macro</option></select></label>
+              <label>Symbol<input id="symbol" value="AMD" required autocomplete="off"></label>
+              <label>Query<select id="query-mode"><option value="latest">Latest available</option><option value="live">Live only</option><option value="date">Custom date</option><option value="history">History</option></select></label>
+              <label id="date-field">Date<input id="query-date" type="date"></label>
+              <label id="limit-field">Rows<input id="query-limit" type="number" min="1" max="2000" value="30"></label>
+              <button class="button primary" type="submit">Run query</button>
+            </form>
+            <div class="query-meta"><span id="query-status">Ready</span><code id="query-endpoint"></code></div>
+            <div id="indicator-panel" class="indicator-panel" hidden></div>
+            <div class="table-scroll"><table id="result-table"><thead></thead><tbody></tbody></table></div>
+            <pre id="result-empty" class="empty-state">Submit a query to inspect Neon data.</pre>
+          </section>
           <details class="short-definitions"><summary>Definitions and interpretation limits</summary><dl><dt>Short Interest</dt><dd>Outstanding short positions reported on the FINRA schedule.</dd><dt>Short Volume</dt><dd>Daily short-sale transaction activity reported to FINRA facilities; it is not a change in outstanding short interest.</dd><dt>SVR</dt><dd>Short Volume divided by Total FINRA Volume.</dd><dt>CASV</dt><dd>Cumulative abnormal SVR relative to the stock's strictly lagged historical baseline.</dd><dt>Funding Short Score</dt><dd>Inferred likelihood that behavior resembles a persistent funding short.</dd><dt>Funding Short Quality</dt><dd>Liquidity, stability, relative weakness and lower squeeze-risk suitability.</dd><dt>Unwind Risk</dt><dd>Potential reversal based on published SI, relative performance and technical confirmation.</dd></dl></details>
         </article>
       </section>
@@ -157,30 +175,10 @@
         </article>
       </section>
 
-      <section id="explorer" class="section">
-        <div class="section-heading">
-          <div><p class="eyebrow">Neon Data Access</p><h2>Single-Symbol Explorer</h2></div>
-          <span class="legend">Equities are close-only; macro supports live snapshots.</span>
-        </div>
-        <article class="panel explorer">
-          <form id="data-form" class="query-form">
-            <label>Asset class<select id="asset-type"><option value="macro">Macro</option><option value="equities">Equity / ETF</option></select></label>
-            <label>Symbol<input id="symbol" value="^GSPC" required autocomplete="off"></label>
-            <label>Query<select id="query-mode"><option value="latest">Latest available</option><option value="live">Live only</option><option value="date">Custom date</option><option value="history">History</option></select></label>
-            <label id="date-field">Date<input id="query-date" type="date"></label>
-            <label id="limit-field">Rows<input id="query-limit" type="number" min="1" max="2000" value="30"></label>
-            <button class="button primary" type="submit">Run query</button>
-          </form>
-          <div class="query-meta"><span id="query-status">Ready</span><code id="query-endpoint"></code></div>
-          <div id="indicator-panel" class="indicator-panel" hidden></div>
-          <div class="table-scroll"><table id="result-table"><thead></thead><tbody></tbody></table></div>
-          <pre id="result-empty" class="empty-state">Submit a query to inspect Neon data.</pre>
-        </article>
-      </section>
     </main>
   </div>
 
   <footer>Data is informational and generated by deterministic rules. It is not investment advice.</footer>
-  <script src="app.js?v=20260814-short-1"></script>
+  <script src="app.js?v=20260814-short-3"></script>
 </body>
 </html>
