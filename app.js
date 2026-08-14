@@ -106,6 +106,8 @@ const escapeHtml = (value) => String(value ?? "").replace(/[&<>"']/g, (char) => 
 const formatNumber = (value, digits = 2) => value == null || Number.isNaN(Number(value))
   ? "n/a"
   : Number(value).toLocaleString(undefined, { maximumFractionDigits: digits });
+const formatPercent = (value, digits = 2) => value == null ? "n/a" : `${formatNumber(Number(value) * 100, digits)}%`;
+const shortState = { limit: 50, offset: 0, total: 0 };
 
 async function apiFetch(path) {
   const response = await fetch(`${API_BASE}${path}`, { headers: { Accept: "application/json" } });
@@ -228,6 +230,117 @@ async function loadReport() {
   if (!content) return;
   content.classList.remove("loading-block");
   content.innerHTML = renderMarkdown(markdown);
+}
+
+function shortQuery() {
+  const fields = {
+    ticker: $("#short-search")?.value.trim(), sector: $("#short-sector")?.value.trim(),
+    industry: $("#short-industry")?.value.trim(), security_type: $("#short-security-type")?.value,
+    regime: $("#short-regime")?.value, min_funding_short_score: $("#short-min-funding")?.value,
+    min_funding_short_quality: $("#short-min-quality")?.value,
+    min_short_activity_score: $("#short-min-activity")?.value,
+    min_unwind_risk: $("#short-min-unwind")?.value,
+    sort_by: $("#short-sort-by")?.value, sort_order: $("#short-sort-order")?.value,
+    limit: shortState.limit, offset: shortState.offset
+  };
+  const params = new URLSearchParams();
+  Object.entries(fields).forEach(([key, value]) => {
+    if (value !== "" && value != null) params.set(key, value);
+  });
+  return params.toString();
+}
+
+function regimeLabel(value) {
+  return String(value || "NEUTRAL_INCONCLUSIVE").replaceAll("_", " ").toLowerCase()
+    .replace(/\b\w/g, (letter) => letter.toUpperCase());
+}
+
+function renderShortTable(payload) {
+  const rows = payload.data || [];
+  const table = $("#short-table");
+  const empty = $("#short-empty");
+  shortState.total = payload.total || 0;
+  if (!rows.length) {
+    table.hidden = true;
+    empty.hidden = false;
+  } else {
+    table.hidden = false;
+    empty.hidden = true;
+  }
+  const columns = [
+    ["ticker", "Ticker"], ["name", "Name"], ["sector", "Sector"], ["latest_price", "Price"],
+    ["si_change_pct_latest", "SI Change %"], ["days_to_cover", "DTC"], ["svr_20d", "SVR 20D"],
+    ["svr_z20", "SVR Z20"], ["casv_10d", "CASV 10D"], ["short_position_score", "Position"],
+    ["short_activity_score", "Activity"], ["funding_short_score", "Funding"],
+    ["funding_short_quality_score", "Quality"], ["unwind_risk_score", "Unwind"],
+    ["short_regime", "Regime"], ["regime_confidence", "Confidence"]
+  ];
+  table.querySelector("thead").innerHTML = `<tr>${columns.map(([, label]) => `<th>${escapeHtml(label)}</th>`).join("")}</tr>`;
+  table.querySelector("tbody").innerHTML = rows.map((row) => `<tr>
+    ${columns.map(([key]) => {
+      if (key === "ticker") return `<td><button class="ticker-link" data-short-ticker="${escapeHtml(row.ticker)}">${escapeHtml(row.ticker)}</button></td>`;
+      if (key === "short_regime") return `<td><span class="regime-badge">${escapeHtml(regimeLabel(row[key]))}</span></td>`;
+      const value = key === "si_change_pct_latest" ? formatNumber(row[key]) : key === "name" || key === "sector" ? (row[key] ?? "n/a") : formatNumber(row[key]);
+      return `<td>${escapeHtml(value)}</td>`;
+    }).join("")}
+  </tr>`).join("");
+  table.querySelectorAll("[data-short-ticker]").forEach((button) => button.addEventListener("click", () => {
+    $("#short-detail-ticker").value = button.dataset.shortTicker;
+    loadShortTicker(button.dataset.shortTicker);
+  }));
+  const page = Math.floor(shortState.offset / shortState.limit) + 1;
+  const pages = Math.max(1, Math.ceil(shortState.total / shortState.limit));
+  $("#short-page").textContent = `Page ${page} of ${pages}`;
+  $("#short-prev").disabled = shortState.offset === 0;
+  $("#short-next").disabled = shortState.offset + shortState.limit >= shortState.total;
+  $("#short-status").textContent = `${formatNumber(payload.total, 0)} latest ticker snapshots; values not reported remain n/a.`;
+  const newest = rows[0];
+  $("#short-freshness").textContent = newest
+    ? `Short volume ${newest.latest_short_volume_date || "n/a"} · SI settlement ${newest.latest_si_settlement_date || "n/a"} · SI publication ${newest.latest_si_publication_date || "n/a"}`
+    : "No matching snapshot dates";
+}
+
+async function loadShortAnalytics() {
+  const payload = await apiFetch(`/short-analytics/latest?${shortQuery()}`);
+  renderShortTable(payload);
+}
+
+function shortMetricRows(row, fields) {
+  return fields.map(([key, label, kind]) => {
+    const value = kind === "pct" ? formatPercent(row[key]) : kind === "rawpct" ? (row[key] == null ? "n/a" : `${formatNumber(row[key])}%`) : formatNumber(row[key]);
+    return `<div class="indicator-row"><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong></div>`;
+  }).join("");
+}
+
+function renderRegimeReasons(value) {
+  if (!value || typeof value !== "object") return "<p>No structured regime reasons are available.</p>";
+  return `<ul>${Object.entries(value).slice(0, 16).map(([key, item]) => `<li><b>${escapeHtml(key.replaceAll("_", " "))}:</b> ${escapeHtml(typeof item === "number" ? formatNumber(item) : item)}</li>`).join("")}</ul>`;
+}
+
+function renderShortDetail(row) {
+  const groups = [
+    ["Position State", [["short_interest", "Short interest"], ["previous_short_interest", "Previous SI"], ["si_change_pct_latest", "Latest SI change", "rawpct"], ["days_to_cover", "Days to cover"], ["si_slope_6m", "SI slope 6M"], ["si_slope_12m", "SI slope 12M"], ["si_persistence_12m", "SI persistence 12M", "pct"], ["own_si_percentile_3y", "Own SI percentile 3Y", "pct"], ["industry_si_percentile", "Industry SI percentile", "pct"]]],
+    ["Daily Short Activity", [["short_volume_ratio", "SVR 1D", "pct"], ["svr_5d", "SVR 5D", "pct"], ["svr_20d", "SVR 20D", "pct"], ["svr_60d", "SVR 60D", "pct"], ["svr_z20", "SVR Z20"], ["svr_z60", "SVR Z60"], ["casv_5d", "CASV 5D"], ["casv_10d", "CASV 10D"], ["casv_20d", "CASV 20D"], ["short_activity_persistence", "Activity persistence", "pct"]]],
+    ["Price / Relative", [["latest_price", "Latest price"], ["rel_return_1m", "Relative return 1M", "pct"], ["rel_return_3m", "Relative return 3M", "pct"], ["rel_return_6m", "Relative return 6M", "pct"], ["rel_return_12m", "Relative return 12M", "pct"], ["up_capture", "Upside capture"], ["down_capture", "Downside capture"], ["long_short_asymmetry", "Long/short asymmetry"], ["short_pressure_effectiveness", "Pressure effectiveness"]]],
+    ["Technicals", [["ma20", "MA20"], ["ma50", "MA50"], ["ma100", "MA100"], ["ma200", "MA200"], ["price_vs_ma50_pct", "Price vs MA50", "rawpct"], ["price_vs_ma200_pct", "Price vs MA200", "rawpct"], ["rsi14", "RSI14"], ["macd", "MACD"], ["macd_signal", "MACD signal"], ["macd_histogram", "MACD histogram"]]],
+    ["Scores", [["short_position_score", "Short position"], ["short_activity_score", "Short activity"], ["short_flow_confirmation_score", "Flow confirmation"], ["funding_short_score", "Funding likelihood"], ["funding_short_quality_score", "Funding quality"], ["unwind_risk_score", "Unwind risk"], ["regime_confidence", "Regime confidence"]]]
+  ];
+  $("#short-detail").innerHTML = `<div class="short-detail-head"><div><span class="eyebrow">${escapeHtml(row.security_type || "unknown")}</span><h3>${escapeHtml(row.ticker)} · ${escapeHtml(row.name || "Unnamed security")}</h3><p>${escapeHtml(row.sector || "Unclassified")} · ${escapeHtml(row.industry || "Unclassified")}</p></div><span class="regime-badge">${escapeHtml(regimeLabel(row.short_regime))}</span></div>
+    <div class="freshness-strip"><span>Analytics ${escapeHtml(row.analytics_date || "n/a")}</span><span>Short volume ${escapeHtml(row.latest_short_volume_date || "n/a")}</span><span>SI settlement ${escapeHtml(row.latest_si_settlement_date || "n/a")}</span><span>SI publication ${escapeHtml(row.latest_si_publication_date || "n/a")}</span></div>
+    <div class="short-detail-grid">${groups.map(([title, fields]) => `<section class="indicator-group"><h4>${escapeHtml(title)}</h4>${shortMetricRows(row, fields)}</section>`).join("")}</div>
+    <section class="regime-reasons"><h4>Current Regime Evidence</h4><p>Classification is behaviorally inferred unless confirmed by published FINRA short interest.</p>${renderRegimeReasons(row.regime_reason_json)}</section>`;
+}
+
+async function loadShortTicker(ticker = $("#short-detail-ticker")?.value.trim()) {
+  if (!ticker) return;
+  const detail = $("#short-detail");
+  detail.innerHTML = '<div class="skeleton">Loading the latest FINRA analytics.</div>';
+  try {
+    const payload = await apiFetch(`/short-analytics/latest/${encodeURIComponent(ticker.toUpperCase())}`);
+    renderShortDetail(payload.data);
+  } catch (error) {
+    detail.innerHTML = `<div class="empty-state">No latest short-positioning snapshot is available for ${escapeHtml(ticker.toUpperCase())}.</div>`;
+  }
 }
 
 function drawChart(rows, symbol, asset) {
@@ -403,16 +516,17 @@ async function runQuery(event) {
 
 async function refreshDashboard() {
   setApiStatus(false, "Connecting");
-  const outcomes = await Promise.allSettled([loadMacroTape(), loadReport(), loadChart()]);
-  if (outcomes[0].status === "rejected") {
+  const [macroOutcome, reportOutcome, , shortOutcome] = await Promise.allSettled([loadMacroTape(), loadReport(), loadChart(), loadShortAnalytics(), loadShortTicker()]);
+  if (macroOutcome.status === "rejected") {
     setApiStatus(false, "Unavailable");
     const macroTape = $("#macro-tape");
-    if (macroTape) macroTape.innerHTML = `<div class="empty-state">API unavailable. Retry after the market data service recovers.<br>${escapeHtml(outcomes[0].reason.message)}</div>`;
+    if (macroTape) macroTape.innerHTML = `<div class="empty-state">API unavailable. Retry after the market data service recovers.<br>${escapeHtml(macroOutcome.reason.message)}</div>`;
   }
-  if (outcomes[1].status === "rejected") {
+  if (reportOutcome.status === "rejected") {
     const reportContent = $("#report-content");
-    if (reportContent) reportContent.innerHTML = `<div class="empty-state">Market report unavailable.<br>${escapeHtml(outcomes[1].reason.message)}</div>`;
+    if (reportContent) reportContent.innerHTML = `<div class="empty-state">Market report unavailable.<br>${escapeHtml(reportOutcome.reason.message)}</div>`;
   }
+  if (shortOutcome.status === "rejected") $("#short-status").textContent = `Short analytics unavailable: ${shortOutcome.reason.message}`;
 }
 
 $("#refresh").addEventListener("click", refreshDashboard);
@@ -425,6 +539,11 @@ $("#load-chart").addEventListener("click", loadChart);
 $("#asset-type").addEventListener("change", updateQueryControls);
 $("#query-mode").addEventListener("change", updateQueryControls);
 $("#data-form").addEventListener("submit", runQuery);
+$("#short-filter-form")?.addEventListener("submit", (event) => { event.preventDefault(); shortState.offset = 0; loadShortAnalytics(); });
+$("#short-reset")?.addEventListener("click", () => { $("#short-filter-form").reset(); shortState.offset = 0; loadShortAnalytics(); });
+$("#short-prev")?.addEventListener("click", () => { shortState.offset = Math.max(0, shortState.offset - shortState.limit); loadShortAnalytics(); });
+$("#short-next")?.addEventListener("click", () => { shortState.offset += shortState.limit; loadShortAnalytics(); });
+$("#short-detail-form")?.addEventListener("submit", (event) => { event.preventDefault(); loadShortTicker(); });
 $("#toggle-report").addEventListener("click", () => {
   const content = $("#report-content");
   content.classList.toggle("expanded");

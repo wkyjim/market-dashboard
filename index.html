@@ -14,7 +14,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
   <link rel="preload" as="image" href="assets/images/aegis/aegis-hero.png">
-  <link rel="stylesheet" href="styles.css?v=20260802-aegis-1">
+  <link rel="stylesheet" href="styles.css?v=20260814-short-1">
 </head>
 <body>
   <a class="skip-link" href="#overview">Skip to dashboard</a>
@@ -26,6 +26,7 @@
     <nav class="topnav" aria-label="Primary navigation">
       <a class="active" href="#overview">Overview</a>
       <a href="#cross-asset">Cross Asset</a>
+      <a href="#short-positioning">Short Positioning</a>
       <a href="#report">Market Update</a>
       <a href="#explorer">Data Explorer</a>
     </nav>
@@ -40,6 +41,7 @@
     <nav class="sidebar" aria-label="Section navigation">
       <a class="active" href="#overview">Overview</a>
       <a href="#cross-asset">Cross Asset</a>
+      <a href="#short-positioning">Short Positioning</a>
       <a href="#report">Market Update</a>
       <a href="#explorer">Data Explorer</a>
       <div class="sidebar-foot">
@@ -107,6 +109,43 @@
         </article>
       </section>
 
+      <section id="short-positioning" class="section">
+        <div class="section-heading">
+          <div><p class="eyebrow">FINRA Positioning Monitor</p><h2>Short Interest &amp; Short Volume</h2></div>
+          <span class="legend">Published short interest confirms positions; daily short volume measures transactions.</span>
+        </div>
+        <article class="panel short-universe-panel">
+          <div class="panel-heading"><div><h3>Latest Cross-Section</h3><p id="short-freshness" class="legend">Loading analytics dates</p></div></div>
+          <form id="short-filter-form" class="short-filter-form">
+            <label>Ticker / name<input id="short-search" autocomplete="off" placeholder="AMD"></label>
+            <label>Sector<input id="short-sector" autocomplete="off" placeholder="Technology"></label>
+            <label>Industry<input id="short-industry" autocomplete="off"></label>
+            <label>Security type<select id="short-security-type"><option value="common_stock">Common stock</option><option value="adr">ADR</option><option value="etf">ETF</option><option value="all">All types</option></select></label>
+            <label>Regime<select id="short-regime"><option value="">All regimes</option><option value="STRUCTURAL_FUNDING_SHORT">Structural Funding Short</option><option value="NEW_CONVICTION_SHORT">New Conviction Short</option><option value="CROWDED_SHORT">Crowded Short</option><option value="SHORT_PRESSURE_FAILURE">Short Pressure Failure</option><option value="POTENTIAL_FUNDING_SHORT_UNWIND">Potential Unwind</option><option value="CONFIRMED_FUNDING_SHORT_UNWIND">Confirmed Unwind</option><option value="SHORT_COVERING">Short Covering</option><option value="NEUTRAL_INCONCLUSIVE">Neutral</option></select></label>
+            <label>Min funding<input id="short-min-funding" type="number" min="0" max="100" step="5"></label>
+            <label>Min quality<input id="short-min-quality" type="number" min="0" max="100" step="5"></label>
+            <label>Min activity<input id="short-min-activity" type="number" min="0" max="100" step="5"></label>
+            <label>Min unwind<input id="short-min-unwind" type="number" min="0" max="100" step="5"></label>
+            <label>Sort<select id="short-sort-by"><option value="funding_short_score">Funding score</option><option value="funding_short_quality_score">Funding quality</option><option value="short_position_score">Position score</option><option value="short_activity_score">Activity score</option><option value="unwind_risk_score">Unwind risk</option><option value="svr_z20">SVR Z20</option><option value="casv_10d">CASV 10D</option><option value="si_change_pct_latest">SI change</option><option value="days_to_cover">Days to cover</option><option value="rsi14">RSI14</option></select></label>
+            <label>Order<select id="short-sort-order"><option value="desc">Descending</option><option value="asc">Ascending</option></select></label>
+            <button class="button primary" type="submit">Apply</button>
+            <button id="short-reset" class="button secondary" type="button">Reset</button>
+          </form>
+          <div id="short-status" class="query-meta">Loading latest snapshot...</div>
+          <div class="table-scroll"><table id="short-table"><thead></thead><tbody></tbody></table></div>
+          <div id="short-empty" class="empty-state" hidden>No matching short-positioning rows.</div>
+          <div class="pagination"><button id="short-prev" class="button ghost" type="button">Previous</button><span id="short-page">Page 1</span><button id="short-next" class="button ghost" type="button">Next</button></div>
+        </article>
+
+        <article class="panel short-detail-panel">
+          <div class="panel-heading"><div><h3>Single-Stock Analytics</h3><p class="legend">Latest cloud snapshot only; historical analytics remain local.</p></div>
+            <form id="short-detail-form" class="inline-controls"><label>Ticker<input id="short-detail-ticker" value="AMD" autocomplete="off"></label><button class="button secondary" type="submit">Load</button></form>
+          </div>
+          <div id="short-detail" class="short-detail"><div class="skeleton">Loading the latest FINRA analytics.</div></div>
+          <details class="short-definitions"><summary>Definitions and interpretation limits</summary><dl><dt>Short Interest</dt><dd>Outstanding short positions reported on the FINRA schedule.</dd><dt>Short Volume</dt><dd>Daily short-sale transaction activity reported to FINRA facilities; it is not a change in outstanding short interest.</dd><dt>SVR</dt><dd>Short Volume divided by Total FINRA Volume.</dd><dt>CASV</dt><dd>Cumulative abnormal SVR relative to the stock's strictly lagged historical baseline.</dd><dt>Funding Short Score</dt><dd>Inferred likelihood that behavior resembles a persistent funding short.</dd><dt>Funding Short Quality</dt><dd>Liquidity, stability, relative weakness and lower squeeze-risk suitability.</dd><dt>Unwind Risk</dt><dd>Potential reversal based on published SI, relative performance and technical confirmation.</dd></dl></details>
+        </article>
+      </section>
+
       <section id="report" class="section">
         <div class="section-heading">
           <div><p class="eyebrow">Deterministic Research</p><h2>Latest Rule-Based Market Update</h2></div>
@@ -142,6 +181,6 @@
   </div>
 
   <footer>Data is informational and generated by deterministic rules. It is not investment advice.</footer>
-  <script src="app.js?v=20260802-aegis-1"></script>
+  <script src="app.js?v=20260814-short-1"></script>
 </body>
 </html>
