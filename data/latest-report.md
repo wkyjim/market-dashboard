@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 15 August 2026, 09:09:32 (HKT)
+Generated at: 15 August 2026, 09:25:23 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.63 / 100** (Moderate Risk-On)
+- Regime score: **66.47 / 100** (Moderate Risk-On)
 - US equity strength: **81.4 / 100** (strong)
 - Evidence quality: **83.0 / 100**
-- ETF flow contribution: **50.8 / 100**, reliability **65.93 / 100**
+- ETF flow contribution: **48.66 / 100**, reliability **65.81 / 100**
 - Breadth: **broad**; above 50DMA `76.67%`, above 200DMA `76.27%`
 - Top sector score: **Cybersecurity** `68.7`
 - Top theme score: **Healthcare Innovation** `61.0`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.63 | Moderate Risk-On |
+| Overall regime | 66.47 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.2 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 56.62 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 50.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 50.53 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 49.12 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 62.5 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.2, news_confirmation=62.5 |
 | Negative contributors |  | none |
@@ -432,14 +432,14 @@ Positioning and flow data is used as confirmation only.
 ## ETF Flows Analysis
 
 - Market flow regime: `Mixed / Neutral`
-- Market flow score: `53.2 / 100`
+- Market flow score: `52.6 / 100`
 - Equity risk flow: `49.9`
 - Credit risk flow: `65.7`
 - Sector cyclicality flow: `48.2`
-- Duration/liquidity flow: `50.0`
+- Duration/liquidity flow: `45.8`
 - Alternatives: `mixed alternative-asset demand`
-- ETF flow reliability: `65.9 / 100`
-- Dominant allocation direction: `mixed allocation`
+- ETF flow reliability: `65.8 / 100`
+- Dominant allocation direction: `defensive demand`
 
 ### Core Flow Signals
 
@@ -453,10 +453,10 @@ Positioning and flow data is used as confirmation only.
 | IWM | U.S. Small Cap | -0.5 | 1.4 | 0.4 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Medium-term deterioration | 68.0 |
 | LQD | Investment-Grade Credit | -0.9 | 1.8 | 0.5 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term deterioration | 68.0 |
 | HYG | High-Yield Credit | 1.7 | 1.6 | 0.6 | n/a | Flat | Buy | Normal | Quiet Accumulation | Improving | Strong confirmation | 80.0 |
-| SGOV | Treasury Bills / Cash | -0.5 | -0.9 | 0.9 | -1.0 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 99.0 |
+| SGOV | Treasury Bills / Cash | -0.4 | -1.0 | 0.9 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 84.0 |
 | SHY | Short-Duration Treasuries | -0.3 | -0.2 | 0.4 | -1.3 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation | 91.0 |
-| IEF | Intermediate-Duration Treasuries | -3.9 | -2.4 | 0.6 | 0.0 | Flat | Sell | Normal | Quiet Distribution | Weakening | Strong confirmation; Exceptional institutional selling | 87.0 |
-| TLT | Long-Duration Treasuries | 2.2 | 2.7 | 0.6 | -0.0 | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation; Exceptional institutional buying | 100.0 |
+| IEF | Intermediate-Duration Treasuries | -3.7 | -2.4 | 0.6 | n/a | Flat | Sell | Normal | Quiet Distribution | Weakening | Strong confirmation; Exceptional institutional selling | 72.0 |
+| TLT | Long-Duration Treasuries | 2.3 | 2.4 | 0.6 | n/a | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation; Exceptional institutional buying | 88.0 |
 | GLD | Gold | 2.3 | 1.9 | 0.7 | n/a | Up | Buy | Normal | Steady Accumulation | Risk-On | Strong confirmation; Exceptional institutional buying | 88.0 |
 | IBIT | Bitcoin | 0.6 | -1.2 | 0.6 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term recovery | 72.0 |
 
