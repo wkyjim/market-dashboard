@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 15 August 2026, 09:25:23 (HKT)
+Generated at: 15 August 2026, 10:12:55 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.47 / 100** (Moderate Risk-On)
+- Regime score: **66.43 / 100** (Moderate Risk-On)
 - US equity strength: **81.4 / 100** (strong)
 - Evidence quality: **83.0 / 100**
-- ETF flow contribution: **48.66 / 100**, reliability **65.81 / 100**
+- ETF flow contribution: **48.64 / 100**, reliability **65.78 / 100**
 - Breadth: **broad**; above 50DMA `76.67%`, above 200DMA `76.27%`
 - Top sector score: **Cybersecurity** `68.7`
 - Top theme score: **Healthcare Innovation** `61.0`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.47 | Moderate Risk-On |
+| Overall regime | 66.43 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.2 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -26,9 +26,9 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 56.62 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 50.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 49.12 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 62.5 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.2, news_confirmation=62.5 |
+| etf_flow | 49.11 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| news_confirmation | 61.88 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.2, news_confirmation=61.88 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 43, 'negative': 23, 'neutral': 14}
-- News confirmation score: `62.5`
+- Sentiment counts: {'positive': 42, 'negative': 23, 'neutral': 15}
+- News confirmation score: `61.88`
 
 ### Top Market-Moving Headlines
 
@@ -358,15 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.24`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. CNBC Daily Open: An 'indefinite' war, and a record-breaking rally**
-- Source: CNBC Technology
-- Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: CNBC, S&P500, P, S, U.S
-- Score: `33.81`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**5. Cerebras stock plunges 14% after second earnings report following IPO**
+**4. Cerebras stock plunges 14% after second earnings report following IPO**
 - Source: CNBC Business
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `28.18`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**6. Solstad Offshore posts 48% revenue jump on higher North Sea rates**
+**5. Solstad Offshore posts 48% revenue jump on higher North Sea rates**
 - Source: Investing.com World News
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.34`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. A new report led by White House trade adviser Peter Navarro estimates illegal transshipment has cost the U.S. around $19 billion to $26 billion in annual tariff revenue**
+**6. A new report led by White House trade adviser Peter Navarro estimates illegal transshipment has cost the U.S. around $19 billion to $26 billion in annual tariff revenue**
 - Source: Dow Jones Economy
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `26.01`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Trump administration imposes sweeping tariffs on foreign drone imports**
+**7. Trump administration imposes sweeping tariffs on foreign drone imports**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.65`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Appear Q2 2026 slides: revenue falls 30%, guidance cut despite World Cup role**
+**8. Appear Q2 2026 slides: revenue falls 30%, guidance cut despite World Cup role**
 - Source: Investing.com Markets
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `22.11`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**10. How a niche copper trade became a real-time gauge of Trump’s next tariff move**
+**9. How a niche copper trade became a real-time gauge of Trump’s next tariff move**
 - Source: CNBC Business News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, commodities, trade
 - Score: `21.42`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. SMIC shares climb on strong Q2 earnings, broader chipmakers up**
+- Source: Investing.com World News
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: SMIC, earnings, chipmakers
+- Score: `17.77`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
@@ -432,11 +432,11 @@ Positioning and flow data is used as confirmation only.
 ## ETF Flows Analysis
 
 - Market flow regime: `Mixed / Neutral`
-- Market flow score: `52.6 / 100`
+- Market flow score: `52.5 / 100`
 - Equity risk flow: `49.9`
 - Credit risk flow: `65.7`
 - Sector cyclicality flow: `48.2`
-- Duration/liquidity flow: `45.8`
+- Duration/liquidity flow: `45.5`
 - Alternatives: `mixed alternative-asset demand`
 - ETF flow reliability: `65.8 / 100`
 - Dominant allocation direction: `defensive demand`
@@ -454,7 +454,7 @@ Positioning and flow data is used as confirmation only.
 | LQD | Investment-Grade Credit | -0.9 | 1.8 | 0.5 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term deterioration | 68.0 |
 | HYG | High-Yield Credit | 1.7 | 1.6 | 0.6 | n/a | Flat | Buy | Normal | Quiet Accumulation | Improving | Strong confirmation | 80.0 |
 | SGOV | Treasury Bills / Cash | -0.4 | -1.0 | 0.9 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 84.0 |
-| SHY | Short-Duration Treasuries | -0.3 | -0.2 | 0.4 | -1.3 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation | 91.0 |
+| SHY | Short-Duration Treasuries | -0.4 | -0.2 | 0.3 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation | 76.0 |
 | IEF | Intermediate-Duration Treasuries | -3.7 | -2.4 | 0.6 | n/a | Flat | Sell | Normal | Quiet Distribution | Weakening | Strong confirmation; Exceptional institutional selling | 72.0 |
 | TLT | Long-Duration Treasuries | 2.3 | 2.4 | 0.6 | n/a | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation; Exceptional institutional buying | 88.0 |
 | GLD | Gold | 2.3 | 1.9 | 0.7 | n/a | Up | Buy | Normal | Steady Accumulation | Risk-On | Strong confirmation; Exceptional institutional buying | 88.0 |
