@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 15 August 2026, 20:11:30 (HKT)
+Generated at: 15 August 2026, 21:13:06 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.88 / 100** (Moderate Risk-On)
+- Regime score: **65.82 / 100** (Moderate Risk-On)
 - US equity strength: **81.4 / 100** (strong)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **48.41 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 65.88 | Moderate Risk-On |
+| Overall regime | 65.82 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.2 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 56.62 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 50.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.94 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 51.25 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.2 |
 | Negative contributors |  | none |
 
@@ -243,11 +243,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cybersecurity | 70.51 | strong uptrend | positive | broad | 68.13 | 65.0 | 62.96 | CIBR | CIBR |
 | 2 | Healthcare | 67.78 | strong uptrend | positive | broad | 64.41 | 65.0 | 54.37 | VEEV, CRL, REGN | CVS, PODD, DVA |
-| 3 | Defense | 67.56 | strong uptrend | positive | broad | 50.0 | 0.0 | 57.75 | XAR | XAR |
-| 4 | Grid Infrastructure | 67.54 | strong uptrend | neutral | broad | 58.21 | 65.0 | 49.05 | GRID | GRID |
+| 3 | Grid Infrastructure | 67.54 | strong uptrend | neutral | broad | 58.21 | 65.0 | 49.05 | GRID | GRID |
+| 4 | Defense | 67.47 | strong uptrend | positive | broad | 50.0 | 0.0 | 57.75 | XAR | XAR |
 | 5 | Energy | 66.63 | strong uptrend | neutral | broad | 54.89 | 65.0 | 50.27 | APA, MPC, PSX | TRGP, HAL, TPL |
-| 6 | Technology | 66.13 | strong uptrend | neutral | broad | 54.89 | 65.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
-| 7 | Industrials | 66.1 | strong uptrend | neutral | broad | 50.0 | 0.0 | 51.11 | LDOS, HII, ALLE | ROL, LII, CHRW |
+| 6 | Industrials | 66.1 | strong uptrend | neutral | broad | 50.0 | 0.0 | 51.11 | LDOS, HII, ALLE | ROL, LII, CHRW |
+| 7 | Technology | 65.98 | strong uptrend | neutral | broad | 54.89 | 65.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
 | 8 | Consumer Staples | 61.59 | strong uptrend | neutral | broad | 50.0 | 0.0 | 45.88 | TGT, CLX, HSY | HRL, MO, MNST |
 | 9 | Financials | 61.48 | strong uptrend | positive | broad | 35.74 | 65.0 | 52.34 | ARES, GPN, APO | TROW, SPGI, MSCI |
 | 10 | Real Estate | 57.66 | strong uptrend | neutral | broad | 73.33 | 65.0 | 46.51 | DLR, CSGP, EQIX | UDR, REG, DOC |
@@ -265,7 +265,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 2 | Healthcare Innovation | 61.0 | Positive setup | 64.41 | 65.0 | 11.95 | True | False |
 | 3 | Small Caps | 60.46 | Positive setup | 45.54 | 65.0 | 0.0 | True | False |
 | 4 | Energy | 60.34 | Positive setup | 54.89 | 65.0 | 1.59 | True | False |
-| 5 | Defense | 59.25 | Positive setup | 50.0 | 0.0 | 16.07 | False | False |
+| 5 | Defense | 60.14 | Positive setup | 50.0 | 0.0 | 16.07 | True | False |
 | 6 | Quality Growth | 56.84 | Neutral / watchlist | 63.44 | 65.0 | 32.28 | False | False |
 | 7 | Financials | 56.54 | Positive setup | 35.74 | 65.0 | 10.64 | False | False |
 | 8 | AI Infrastructure | 55.46 | Neutral / watchlist | 39.41 | 100.0 | 26.16 | False | False |
@@ -278,7 +278,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Top 5 improving themes: Financials, Healthcare Innovation, Defense, Cybersecurity, Small Caps
 - Top 5 deteriorating themes: Crypto Infrastructure, Nuclear, Energy, Grid Infrastructure, Quality Growth
 - Strong news but weak price confirmation: none
-- Strong price but weak news confirmation: Cybersecurity, Healthcare Innovation, Small Caps, Energy
+- Strong price but weak news confirmation: Cybersecurity, Healthcare Innovation, Small Caps, Energy, Defense
 
 ### Sector / Theme Alignment
 
@@ -286,11 +286,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- |
 | Cybersecurity | Cybersecurity | 70.51 | strong | 62.2 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 67.78 | strong | 61.0 | positive | sector and theme confirmation |
-| Defense | Defense | 67.56 | strong | 59.25 | positive | sector and theme confirmation |
 | Grid Infrastructure | Grid Infrastructure | 67.54 | strong | 49.23 | mixed | sector stronger than related themes |
+| Defense | Defense | 67.47 | strong | 60.14 | positive | sector and theme confirmation |
 | Energy | Energy | 66.63 | strong | 60.34 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.13 | strong | 55.59 | positive | sector and theme confirmation |
-| Industrials | Defense, Grid Infrastructure | 66.1 | strong | 54.24 | mixed | sector stronger than related themes |
+| Industrials | Defense, Grid Infrastructure | 66.1 | strong | 54.68 | mixed | sector stronger than related themes |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.98 | strong | 55.59 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 61.59 | positive | 51.7 | mixed | sector stronger than related themes |
 | Financials | Financials | 61.48 | positive | 56.54 | positive | sector and theme confirmation |
 | Real Estate | Dividend Defensives | 57.66 | positive | 51.7 | mixed | sector stronger than related themes |
@@ -308,8 +308,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 2 | Healthcare Innovation | 63.25 | Positive setup | relative_strength_60d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 3 | Financials | 62.64 | Positive setup | relative_strength_60d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | Cybersecurity | 62.12 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 5 | Defense | 61.59 | Positive setup | relative_strength_20d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
-| 6 | Energy | 61.04 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 5 | Energy | 61.04 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 6 | Defense | 60.09 | Positive setup | relative_strength_20d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 7 | AI Infrastructure | 57.53 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
 | 8 | Semiconductors | 57.46 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
 | 9 | Quality Growth | 56.97 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 4, 'negative': 2, 'neutral': 74}
-- News confirmation score: `51.25`
+- Sentiment counts: {'positive': 11, 'negative': 11, 'neutral': 58}
+- News confirmation score: `50.0`
 
 ### Top Market-Moving Headlines
 
@@ -350,7 +350,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `28.18`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**3. How a niche copper trade became a real-time gauge of Trump’s next tariff move**
+**3. Ford and GM Are Locked in a New Battle Over Who’s the Most American Carmaker**
+- Source: Dow Jones US Business
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: GM, trade war, automotive
+- Score: `27.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. The VC-backed fintech using AI to challenge BlackRock and start a new fee war in ETFs**
+- Source: CNBC Business
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: VC, AI, fintech, ETFs
+- Score: `26.52`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**5. How a niche copper trade became a real-time gauge of Trump’s next tariff move**
 - Source: CNBC Business News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -358,7 +374,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.42`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Luigi Mangione pleads guilty in federal court to stalking health-insurance CEO**
+**6. I’m 63, a retired CPA with a $1.2 million 401(k). Do I need to bother with a Roth conversion?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / nan
+- Affected assets: CPA, I
+- Score: `21.25`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**7. Luigi Mangione pleads guilty in federal court to stalking health-insurance CEO**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -366,58 +390,34 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**5. Retail sales slump in July. Cheaper gas and Amazon Prime hangover are the chief culprits.**
+**8. Russia's economy has defied the skeptics. Cracks are getting harder to hide**
+- Source: CNBC Business News
+- Importance / impact: Low / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: economy
+- Score: `18.21`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**9. Iran rebuffs Trump's claim over Strait of Hormuz amid report of another ship being struck**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: single_name / shortterm
+- Affected assets: U.S, Geopolitical, Security
+- Score: `17.29`
+- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
+
+**10. Ballet flats are so popular that even brands like Birkenstock and Crocs are cashing in on the trend**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: U.S
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**6. Dow, S&P 500 and Nasdaq all close lower, as Treasury yields and oil prices rise**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: P, S
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**7. Drone stocks rally after Trump orders tariffs on foreign-made components**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: U.S
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**8. Regulators and banks step up scrutiny of prediction markets**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / nan
-- Affected assets: CFTC, CNBC
-- Score: `17.16`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**9. Dow, S&P 500 and Nasdaq all down in final hour, putting weekly gains in doubt**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / nan
-- Affected assets: P, S
-- Score: `17.16`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**10. OpenAI talent exodus raises 'huge red flag' ahead of IPO**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / nan
-- Affected assets: C, IPO
-- Score: `17.16`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+- Relevance / horizon: single_name / nan
+- Affected assets: Z
+- Score: `16.25`
+- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
 
-No noisy headlines detected by current rules.
+Noisy headline list: Anthropic IPO Value Could Beat SpaceX's Record: Re
 
 ## Positioning & Flow Dashboard
 
