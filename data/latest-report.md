@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 15 August 2026, 14:18:20 (HKT)
+Generated at: 15 August 2026, 15:10:15 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.16 / 100** (Moderate Risk-On)
+- Regime score: **66.1 / 100** (Moderate Risk-On)
 - US equity strength: **81.4 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **48.41 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.16 | Moderate Risk-On |
+| Overall regime | 66.1 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.2 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 56.62 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 50.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.94 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 56.88 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 55.62 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.2 |
 | Negative contributors |  | none |
 
@@ -250,7 +250,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 7 | Technology | 65.98 | strong uptrend | neutral | broad | 54.89 | 65.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
 | 8 | Consumer Staples | 61.59 | strong uptrend | neutral | broad | 50.0 | 0.0 | 45.88 | TGT, CLX, HSY | HRL, MO, MNST |
 | 9 | Financials | 61.48 | strong uptrend | positive | broad | 35.74 | 65.0 | 52.34 | ARES, GPN, APO | TROW, SPGI, MSCI |
-| 10 | Real Estate | 57.84 | strong uptrend | neutral | broad | 73.33 | 65.0 | 46.51 | DLR, CSGP, EQIX | UDR, REG, DOC |
+| 10 | Real Estate | 57.66 | strong uptrend | neutral | broad | 73.33 | 65.0 | 46.51 | DLR, CSGP, EQIX | UDR, REG, DOC |
 | 11 | Consumer Discretionary | 56.05 | uptrend | neutral | broad | 50.0 | 0.0 | 47.0 | ABNB, GRMN, EXPE | TSLA, DECK, APTV |
 | 12 | Semiconductors | 55.65 | strong uptrend | neutral | weak | 39.41 | 100.0 | 51.7 | SOXX, SMH | SMH, SOXX |
 | 13 | Nuclear | 55.5 | neutral | neutral | broad | 50.0 | 0.0 | 50.82 | NLR | NLR |
@@ -293,7 +293,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.98 | strong | 55.59 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 61.59 | positive | 51.7 | mixed | sector stronger than related themes |
 | Financials | Financials | 61.48 | positive | 56.54 | positive | sector and theme confirmation |
-| Real Estate | Dividend Defensives | 57.84 | positive | 51.7 | mixed | sector stronger than related themes |
+| Real Estate | Dividend Defensives | 57.66 | positive | 51.7 | mixed | sector stronger than related themes |
 | Consumer Discretionary | Small Caps | 56.05 | positive | 60.46 | positive | sector and theme confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 55.65 | positive | 54.96 | mixed | sector stronger than related themes |
 | Nuclear | Nuclear | 55.5 | positive | 51.49 | mixed | sector stronger than related themes |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 30, 'negative': 19, 'neutral': 31}
-- News confirmation score: `56.88`
+- Sentiment counts: {'positive': 18, 'negative': 9, 'neutral': 53}
+- News confirmation score: `55.62`
 
 ### Top Market-Moving Headlines
 
@@ -366,15 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `28.18`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**5. Solstad Offshore posts 48% revenue jump on higher North Sea rates**
-- Source: Investing.com World News
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: SOFF, revenue growth, oil and gas sector
-- Score: `27.34`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. A new report led by White House trade adviser Peter Navarro estimates illegal transshipment has cost the U.S. around $19 billion to $26 billion in annual tariff revenue**
+**5. A new report led by White House trade adviser Peter Navarro estimates illegal transshipment has cost the U.S. around $19 billion to $26 billion in annual tariff revenue**
 - Source: Dow Jones Economy
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -382,15 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `26.01`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Appear Q2 2026 slides: revenue falls 30%, guidance cut despite World Cup role**
-- Source: Investing.com Markets
-- Importance / impact: Low / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: revenue decline, guidance cut
-- Score: `22.11`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**8. How a niche copper trade became a real-time gauge of Trump’s next tariff move**
+**6. How a niche copper trade became a real-time gauge of Trump’s next tariff move**
 - Source: CNBC Business News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -398,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.42`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Luigi Mangione pleads guilty in federal court to stalking health-insurance CEO**
+**7. Luigi Mangione pleads guilty in federal court to stalking health-insurance CEO**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -406,13 +390,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**10. Retail sales slump in July. Cheaper gas and Amazon Prime hangover are the chief culprits.**
+**8. Retail sales slump in July. Cheaper gas and Amazon Prime hangover are the chief culprits.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
 - Affected assets: U.S
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**9. Dow, S&P 500 and Nasdaq all close lower, as Treasury yields and oil prices rise**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: P, S
+- Score: `20.19`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**10. BOJ eyeing September rate hike, faster pace of tightening, sources say**
+- Source: Investing.com Economic Indicators
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: BOJ, central_bank_policy
+- Score: `16.67`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
