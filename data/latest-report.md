@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 15 August 2026, 19:30:48 (HKT)
+Generated at: 15 August 2026, 20:11:30 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.91 / 100** (Moderate Risk-On)
+- Regime score: **65.88 / 100** (Moderate Risk-On)
 - US equity strength: **81.4 / 100** (strong)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **48.41 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 65.91 | Moderate Risk-On |
+| Overall regime | 65.88 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.2 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 56.62 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 50.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.94 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 51.88 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 51.25 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.2 |
 | Negative contributors |  | none |
 
@@ -329,20 +329,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 5, 'negative': 2, 'neutral': 73}
-- News confirmation score: `51.88`
+- Sentiment counts: {'positive': 4, 'negative': 2, 'neutral': 74}
+- News confirmation score: `51.25`
 
 ### Top Market-Moving Headlines
 
-**1. President Trump unveiled a slate of tariffs to address a national-security threat posed by imports of drones and their components, particularly from China**
-- Source: Dow Jones Economy
-- Importance / impact: Medium / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: AAPL, MSFT, INTC, U.S, national security
-- Score: `43.35`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. 10-year Treasury yield inches higher as traders digest soft retail sales, monitor the Middle East**
+**1. 10-year Treasury yield inches higher as traders digest soft retail sales, monitor the Middle East**
 - Source: CNBC Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -350,7 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.24`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Cerebras stock plunges 14% after second earnings report following IPO**
+**2. Cerebras stock plunges 14% after second earnings report following IPO**
 - Source: CNBC Business
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -358,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `28.18`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**4. How a niche copper trade became a real-time gauge of Trump’s next tariff move**
+**3. How a niche copper trade became a real-time gauge of Trump’s next tariff move**
 - Source: CNBC Business News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.42`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Luigi Mangione pleads guilty in federal court to stalking health-insurance CEO**
+**4. Luigi Mangione pleads guilty in federal court to stalking health-insurance CEO**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**6. Retail sales slump in July. Cheaper gas and Amazon Prime hangover are the chief culprits.**
+**5. Retail sales slump in July. Cheaper gas and Amazon Prime hangover are the chief culprits.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**7. Dow, S&P 500 and Nasdaq all close lower, as Treasury yields and oil prices rise**
+**6. Dow, S&P 500 and Nasdaq all close lower, as Treasury yields and oil prices rise**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**8. Drone stocks rally after Trump orders tariffs on foreign-made components**
+**7. Drone stocks rally after Trump orders tariffs on foreign-made components**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**9. Regulators and banks step up scrutiny of prediction markets**
+**8. Regulators and banks step up scrutiny of prediction markets**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
@@ -406,11 +398,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `17.16`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**10. Dow, S&P 500 and Nasdaq all down in final hour, putting weekly gains in doubt**
+**9. Dow, S&P 500 and Nasdaq all down in final hour, putting weekly gains in doubt**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
 - Affected assets: P, S
+- Score: `17.16`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**10. OpenAI talent exodus raises 'huge red flag' ahead of IPO**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / nan
+- Affected assets: C, IPO
 - Score: `17.16`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
