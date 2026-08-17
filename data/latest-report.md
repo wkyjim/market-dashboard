@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 18 August 2026, 00:11:49 (HKT)
+Generated at: 18 August 2026, 03:11:45 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **61.87 / 100** (Mild Risk-On)
+- Regime score: **66.5 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
-- Evidence quality: **83.0 / 100**
+- Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
 - Breadth: **broad**; above 50DMA `80.0%`, above 200DMA `74.58%`
 - Top sector score: **Cybersecurity** `70.9`
@@ -17,19 +17,19 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 61.87 | Mild Risk-On |
+| Overall regime | 66.5 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
-| volatility | 35.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
+| volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 56.07 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 55.62 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, market_breadth=78.75 |
-| Negative contributors |  | volatility=35.0 |
+| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75 |
+| Negative contributors |  | none |
 
 ## US Equity Strength Score
 
@@ -47,9 +47,9 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `83.0`
-- Agreement ratio: `0.6`
-- Contradiction count: `1`
+- Confidence score: `86.5`
+- Agreement ratio: `0.7`
+- Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
 
@@ -57,51 +57,49 @@ Window: 24h
 
 | Area | Signal | Interpretation |
 | --- | --- | --- |
-| Equities | S&P 500 stable; Nasdaq stable; Russell 2000 falling | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
+| Equities | S&P 500 stable; Nasdaq falling; Russell 2000 rising | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
 | Rates | 10Y Treasury rising; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
-| Copper | Copper stable | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
+| Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
-| Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
+| Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
 
-Live macro rows are intraday snapshots from `public.macro_live`; closed rows are official stored rows from `public.macro`.
-
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7773.06 | -0.16 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
-| ^IXIC | NASDAQ Composite | 26747.41 | 0.07 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
-| ^RUT | Russell 2000 Index | 3054.51 | -0.45 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
-| ^VIX | CBOE Volatility Index | 14.99 | 5.19 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
+| ^GSPC | S&P 500 | 7785.76 | -0.17 | 2026-08-14 | closed |
+| ^IXIC | NASDAQ Composite | 26729.16 | -0.28 | 2026-08-14 | closed |
+| ^RUT | Russell 2000 Index | 3068.42 | 0.51 | 2026-08-14 | closed |
+| ^VIX | CBOE Volatility Index | 14.25 | -2.6 | 2026-08-14 | closed |
 | ^SKEW | CBOE SKEW Index | 138.36 | 2.97 | 2026-08-14 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.82 | 8.38 | 2026-07-24 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.17 | -0.1 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.25 | -0.08 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.37 | 0.04 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.52 | 0.13 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.71 | 0.19 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.28 | 0.26 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.28 | 0.25 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.17 | 0.8 | 2026-08-14 | closed |
+| US3YT=X | United States 3-Year Treasury Yield | 4.25 | 0.97 | 2026-08-14 | closed |
+| US5YT=X | United States 5-Year Treasury Yield | 4.36 | 1.18 | 2026-08-14 | closed |
+| US7YT=X | United States 7-Year Treasury Yield | 4.52 | 1.22 | 2026-08-14 | closed |
+| US10YT=X | United States 10-Year Treasury Yield | 4.7 | 1.16 | 2026-08-14 | closed |
+| US20YT=X | United States 20-Year Treasury Yield | 5.26 | 1.02 | 2026-08-14 | closed |
+| US30YT=X | United States 30-Year Treasury Yield | 5.26 | 0.93 | 2026-08-14 | closed |
 | HK50 | Hang Seng Futures | 25425.5 | 0.68 | 2026-08-17 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1094.95 | -0.36 | 2026-08-14 | closed |
 | CIHc1 | SSE 50 Futures | 2909.6 | -0.62 | 2026-08-14 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.67 | -0.04 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 105.95 | -0.16 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 95.91 | -0.06 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 221.59 | -0.53 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 125.49 | 0.16 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 257.5 | -0.41 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 81.75 | -0.36 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 92.97 | -0.08 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 82.02 | 0.03 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
-| GC=F | Gold Future | 4451.3 | 1.62 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
-| SI=F | Silver Future | 65.61 | 0.96 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
-| CL=F | WTI Crude Oil Future | 81.83 | 0.44 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
-| HG=F | Copper Future | 6.6 | -0.03 | 2026-08-17 | live as of 17 August 2026, 22:00:19 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.71 | -0.1 | 2026-08-14 | closed |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 106.12 | -0.4 | 2026-08-14 | closed |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 95.97 | -0.07 | 2026-08-14 | closed |
+| RSP | Invesco S&P 500 Equal Weight ETF | 222.77 | 0.02 | 2026-08-14 | closed |
+| IWF | iShares Russell 1000 Growth ETF | 125.29 | -0.29 | 2026-08-14 | closed |
+| IWD | iShares Russell 1000 Value ETF | 258.57 | -0.05 | 2026-08-14 | closed |
+| TLT | iShares 20+ Year Treasury Bond ETF | 82.04 | -0.67 | 2026-08-14 | closed |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 93.04 | -0.28 | 2026-08-14 | closed |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 82.0 | -0.04 | 2026-08-14 | closed |
+| GC=F | Gold Future | 4436.4 | 1.28 | 2026-08-16 | closed |
+| SI=F | Silver Future | 65.22 | 0.35 | 2026-08-16 | closed |
+| CL=F | WTI Crude Oil Future | 82.4 | 1.42 | 2026-08-14 | closed |
+| HG=F | Copper Future | 6.64 | 0.63 | 2026-08-16 | closed |
 
 ## Market Dispersion Analysis
 
@@ -246,7 +244,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Defense | 68.03 | strong uptrend | positive | broad | 54.73 | 65.0 | 57.75 | XAR | XAR |
 | 4 | Grid Infrastructure | 67.54 | strong uptrend | neutral | broad | 58.21 | 65.0 | 49.05 | GRID | GRID |
 | 5 | Industrials | 66.5 | strong uptrend | neutral | broad | 53.98 | 65.0 | 51.11 | LDOS, HII, ALLE | ROL, LII, CHRW |
-| 6 | Technology | 66.13 | strong uptrend | neutral | broad | 53.98 | 95.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
+| 6 | Technology | 66.11 | strong uptrend | neutral | broad | 53.98 | 95.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
 | 7 | Energy | 66.03 | strong uptrend | neutral | broad | 50.77 | 100.0 | 50.27 | APA, MPC, PSX | TRGP, HAL, TPL |
 | 8 | Financials | 62.91 | strong uptrend | positive | broad | 50.0 | 0.0 | 52.34 | ARES, GPN, APO | TROW, SPGI, MSCI |
 | 9 | Consumer Staples | 62.56 | strong uptrend | neutral | broad | 59.68 | 65.0 | 45.88 | TGT, CLX, HSY | HRL, MO, MNST |
@@ -289,7 +287,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Defense | Defense | 68.03 | strong | 59.72 | positive | sector and theme confirmation |
 | Grid Infrastructure | Grid Infrastructure | 67.54 | strong | 51.23 | mixed | sector stronger than related themes |
 | Industrials | Defense, Grid Infrastructure | 66.5 | strong | 55.47 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.13 | strong | 56.77 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.11 | strong | 56.77 | positive | sector and theme confirmation |
 | Energy | Energy | 66.03 | strong | 59.19 | positive | sector and theme confirmation |
 | Financials | Financials | 62.91 | positive | 57.96 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 62.56 | positive | 51.7 | mixed | sector stronger than related themes |
@@ -325,7 +323,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=14.99 pct_chg=5.19
+- VIX close=14.25 pct_chg=-2.6
 
 ## News Analytics
 
@@ -334,7 +332,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Oil prices rise as Iran rules out interim deal extension, threatens to escalate conflict**
+**1. Brent oil rises to $91 as Iran rules out interim deal extension, threatens to escalate conflict**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -360,10 +358,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 **4. Vista Energy up 4% after billionaire Peter Thiel buys stake in the Argentine shale oil producer**
 - Source: CNBC Business
-- Importance / impact: High / Positive
+- Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short
 - Affected assets: Vista Energy, investment, oil, billionaire
-- Score: `48.0`
+- Score: `40.8`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short.
 
 **5. Russia targets Danube port after one of Ukraine’s largest aerial attacks of the war**
@@ -406,12 +404,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.59`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**10. Veteran strategist Jeff Currie turns bullish on gold. Here’s why**
-- Source: CNBC Top News
+**10. Madison Air to Buy Airflow-Technologies Company for $5.4 Billon**
+- Source: Dow Jones US Business
 - Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: GLD, CNBC, gold, strategist
-- Score: `25.01`
+- Relevance / horizon: single_name / short
+- Affected assets: MAD, acquisition, AI, technology
+- Score: `28.18`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
@@ -506,7 +504,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `40`
+- Live macro rows used: `0`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
