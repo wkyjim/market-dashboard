@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 18 August 2026, 03:11:45 (HKT)
+Generated at: 18 August 2026, 06:11:49 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.5 / 100** (Moderate Risk-On)
+- Regime score: **66.65 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.5 | Moderate Risk-On |
+| Overall regime | 66.65 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 55.62 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 58.75 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75 |
 | Negative contributors |  | none |
 
@@ -244,7 +244,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Defense | 68.03 | strong uptrend | positive | broad | 54.73 | 65.0 | 57.75 | XAR | XAR |
 | 4 | Grid Infrastructure | 67.54 | strong uptrend | neutral | broad | 58.21 | 65.0 | 49.05 | GRID | GRID |
 | 5 | Industrials | 66.5 | strong uptrend | neutral | broad | 53.98 | 65.0 | 51.11 | LDOS, HII, ALLE | ROL, LII, CHRW |
-| 6 | Technology | 66.11 | strong uptrend | neutral | broad | 53.98 | 95.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
+| 6 | Technology | 66.07 | strong uptrend | neutral | broad | 53.98 | 95.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
 | 7 | Energy | 66.03 | strong uptrend | neutral | broad | 50.77 | 100.0 | 50.27 | APA, MPC, PSX | TRGP, HAL, TPL |
 | 8 | Financials | 62.91 | strong uptrend | positive | broad | 50.0 | 0.0 | 52.34 | ARES, GPN, APO | TROW, SPGI, MSCI |
 | 9 | Consumer Staples | 62.56 | strong uptrend | neutral | broad | 59.68 | 65.0 | 45.88 | TGT, CLX, HSY | HRL, MO, MNST |
@@ -287,7 +287,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Defense | Defense | 68.03 | strong | 59.72 | positive | sector and theme confirmation |
 | Grid Infrastructure | Grid Infrastructure | 67.54 | strong | 51.23 | mixed | sector stronger than related themes |
 | Industrials | Defense, Grid Infrastructure | 66.5 | strong | 55.47 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.11 | strong | 56.77 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.07 | strong | 56.77 | positive | sector and theme confirmation |
 | Energy | Energy | 66.03 | strong | 59.19 | positive | sector and theme confirmation |
 | Financials | Financials | 62.91 | positive | 57.96 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 62.56 | positive | 51.7 | mixed | sector stronger than related themes |
@@ -327,12 +327,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 41, 'negative': 32, 'neutral': 7}
-- News confirmation score: `55.62`
+- Sentiment counts: {'positive': 43, 'negative': 29, 'neutral': 8}
+- News confirmation score: `58.75`
 
 ### Top Market-Moving Headlines
 
-**1. Brent oil rises to $91 as Iran rules out interim deal extension, threatens to escalate conflict**
+**1. Brent oil rises above $90 as Iran rules out interim deal extension, threatens to escalate conflict**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -340,7 +340,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `64.6`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Trump threatens to 'bomb' Oman if it 'gets in the way' as U.S.-Iran ceasefire expires**
+**2. A new set of Trump tariffs for Canada could take effect Wednesday. Here’s what’s at stake.**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: A, trade, economy
+- Score: `60.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Trump won't extend Iran ceasefire, threatens to 'bomb' Oman if it 'gets in the way'**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -348,7 +356,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Jim Cramer says these 2 cybersecurity stocks can keep climbing as AI threats grow**
+**4. Jim Cramer says these 2 cybersecurity stocks can keep climbing as AI threats grow**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -356,7 +364,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. Vista Energy up 4% after billionaire Peter Thiel buys stake in the Argentine shale oil producer**
+**5. Anthropic tells investors annualized revenue run rate climbed to $65 billion in July**
+- Source: CNBC Markets
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: ANTH, revenue growth
+- Score: `47.24`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**6. Vista Energy up 4% after billionaire Peter Thiel buys stake in the Argentine shale oil producer**
 - Source: CNBC Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short
@@ -364,7 +380,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short.
 
-**5. Russia targets Danube port after one of Ukraine’s largest aerial attacks of the war**
+**7. Russia targets Danube port after one of Ukraine’s largest aerial attacks of the war**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -372,7 +388,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.68`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**6. Japanese automakers vulnerable to one-two punch of Iran war, yen rally**
+**8. Japanese automakers vulnerable to one-two punch of Iran war, yen rally**
 - Source: CNBC Investing
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -380,7 +396,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.39`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**7. Depleted strategic oil reserve nears level that raises concerns about damage to caverns, operations**
+**9. Depleted strategic oil reserve nears level that raises concerns about damage to caverns, operations**
 - Source: CNBC Top News
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -388,29 +404,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.2`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Canada braces for 50% US tariffs on $20 billion in goods**
+**10. Canada braces for 50% US tariffs on $20 billion in goods**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: US, trade, economic, policy
 - Score: `32.7`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. China's economy slows further in July as retail sales barely grow, investment slump steepens**
-- Source: CNBC Technology
-- Importance / impact: Low / Negative
-- Relevance / horizon: sector_theme / short term
-- Affected assets: Economy, Retail
-- Score: `29.59`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**10. Madison Air to Buy Airflow-Technologies Company for $5.4 Billon**
-- Source: Dow Jones US Business
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short
-- Affected assets: MAD, acquisition, AI, technology
-- Score: `28.18`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
