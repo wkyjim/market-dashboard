@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 18 August 2026, 12:11:44 (HKT)
+Generated at: 18 August 2026, 15:11:56 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **67.22 / 100** (Moderate Risk-On)
+- Regime score: **67.09 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 67.22 | Moderate Risk-On |
+| Overall regime | 67.09 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 70.0 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75, news_confirmation=70.0 |
+| news_confirmation | 67.5 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75, news_confirmation=67.5 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -327,8 +327,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 54, 'negative': 22, 'neutral': 4}
-- News confirmation score: `70.0`
+- Sentiment counts: {'positive': 52, 'negative': 24, 'neutral': 4}
+- News confirmation score: `67.5`
 
 ### Top Market-Moving Headlines
 
@@ -356,13 +356,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Anthropic tells investors annualized revenue run rate climbed to $65 billion in July**
-- Source: CNBC Markets
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: ANTH, revenue growth
-- Score: `47.24`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+**4. CNBC Daily Open: Higher oil, higher yields, lower volatility**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: A, CNBC, U.S, oil_prices, geopolitical_risk
+- Score: `43.23`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **5. Jim Cramer says these 2 cybersecurity stocks can keep climbing as AI threats grow**
 - Source: CNBC Markets
@@ -380,7 +380,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short.
 
-**7. BHP Annual Profit Rises on Record Copper Prices**
+**7. Anthropic tells investors annualized revenue run rate climbed to $65 billion in July**
+- Source: CNBC Markets
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: ANTH, revenue growth
+- Score: `40.15`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**8. BHP Annual Profit Rises on Record Copper Prices**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -388,20 +396,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.37`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. Russia targets Danube port after one of Ukraine’s largest aerial attacks of the war**
+**9. Russia targets Danube port after one of Ukraine’s largest aerial attacks of the war**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: geopolitical, defense, infrastructure
 - Score: `34.68`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**9. Japanese automakers vulnerable to one-two punch of Iran war, yen rally**
-- Source: CNBC Investing
-- Importance / impact: Low / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: geopolitical_risk, currency_movement
-- Score: `34.39`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 **10. Canada braces for 50% US tariffs on $20 billion in goods**
