@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 19 August 2026, 12:11:55 (HKT)
+Generated at: 19 August 2026, 15:11:53 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.9 / 100** (Moderate Risk-On)
+- Regime score: **66.84 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.9 | Moderate Risk-On |
+| Overall regime | 66.84 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 63.75 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75, news_confirmation=63.75 |
+| news_confirmation | 62.5 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75, news_confirmation=62.5 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -327,8 +327,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 46, 'negative': 24, 'neutral': 10}
-- News confirmation score: `63.75`
+- Sentiment counts: {'positive': 44, 'negative': 24, 'neutral': 12}
+- News confirmation score: `62.5`
 
 ### Top Market-Moving Headlines
 
@@ -364,15 +364,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.74`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. CNBC Daily Open: Higher oil, higher yields, lower volatility**
-- Source: CNBC Top News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: A, CNBC, U.S, oil_prices, geopolitical_risk
-- Score: `36.74`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. Anthropic tells investors annualized revenue run rate climbed to $65 billion in July**
+**5. Anthropic tells investors annualized revenue run rate climbed to $65 billion in July**
 - Source: CNBC Investing
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -380,13 +372,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.93`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. SEC Charges Former Executives With Fraud in Connection With $1.9 Billion Collapse of Subprime Auto Lender Tricolor**
+**6. SEC Charges Former Executives With Fraud in Connection With $1.9 Billion Collapse of Subprime Auto Lender Tricolor**
 - Source: SEC Press Releases
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: LLC, fraud, finance, legal
 - Score: `33.56`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**7. CNBC Daily Open: Robots rising, tariff turnaround and yield nerves**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Unitree, CNBC, AI, Robotics
+- Score: `29.93`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **8. 30-year Treasury yield tops 5.33%, new 19-year high, on inflation and spending concerns**
 - Source: CNBC Top News
