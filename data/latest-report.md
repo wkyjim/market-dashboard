@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 20 August 2026, 00:12:00 (HKT)
+Generated at: 20 August 2026, 03:12:04 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **67.59 / 100** (Moderate Risk-On)
+- Regime score: **67.53 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 67.59 | Moderate Risk-On |
+| Overall regime | 67.53 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 77.5 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75, news_confirmation=77.5 |
+| news_confirmation | 76.25 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75, news_confirmation=76.25 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -327,8 +327,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 58, 'negative': 14, 'neutral': 8}
-- News confirmation score: `77.5`
+- Sentiment counts: {'positive': 57, 'negative': 15, 'neutral': 8}
+- News confirmation score: `76.25`
 
 ### Top Market-Moving Headlines
 
@@ -348,23 +348,47 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `58.52`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Moderna’s stock doubles on promising cancer-vaccine results**
+**3. Fed minutes from July meeting reveal growing support for interest-rate hikes**
+- Source: MarketWatch Bulletins
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: monetary policy, central bank
+- Score: `57.0`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. The U.S. is likely to lower tariffs on Canadian steel, aluminum and automobiles as part of a trade framework being devised by the nations**
+- Source: Dow Jones Economy
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S., U.S, trade, tariffs
+- Score: `51.0`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. Fed minutes reveal growing support for rate hikes**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Federal Reserve, inflation, rate hike
+- Score: `48.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. Fed officials saw need for rate hike if inflation doesn't cool, minutes show**
+- Source: CNBC Business
+- Importance / impact: High / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: ^DJI, ^IXIC, ^GSPC, central banking, economic policy
+- Score: `48.0`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. Moderna’s stock doubles on promising cancer-vaccine results**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: MODX, pharmaceuticals, biotechnology
-- Score: `49.73`
+- Score: `42.27`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**4. Moderna’s stock doubles on promising cancer-vaccine results**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: MODX, biotechnology, pharmaceuticals
-- Score: `47.24`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**5. Trump pauses 50% scheduled tariffs on Canada for three days, announces 'deal' with Ottawa**
+**8. Trump pauses 50% scheduled tariffs on Canada for three days, announces 'deal' with Ottawa**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -372,45 +396,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Oil Futures Continue Higher After U.S. Stock Build**
+**9. Moderna’s stock doubles on promising cancer-vaccine results**
+- Source: MarketWatch Bulletins
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: MODX, biotechnology, pharmaceuticals
+- Score: `40.15`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Oil Futures Continue Higher After U.S. Stock Build**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, oil, strat_of_hormuz, iranian_conflict
 - Score: `39.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Oil Posts Modest Gains With Strait of Hormuz Situation Unclear**
-- Source: Dow Jones US Business
-- Importance / impact: Medium / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: OIL, commodities, geopolitics
-- Score: `38.25`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. Amazon to Expand Drone Delivery Service to Nearly 500 Locales**
-- Source: Dow Jones US Business
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: AMZN, N.Y, AI, drone, e-commerce
-- Score: `37.29`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**9. Analog Devices Profit, Revenue Up on Surging AI Data Center Demand**
-- Source: Dow Jones US Business
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: ADI, AI, data center, semiconductor
-- Score: `37.29`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. The U.S. banned Nvidia's best chips from going to China. Now it's trying to close a crucial loophole**
-- Source: CNBC Technology
-- Importance / impact: Medium / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: NVDA, U.S, AI, export controls, technology policy
-- Score: `35.1`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
