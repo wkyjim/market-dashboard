@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 20 August 2026, 15:11:56 (HKT)
+Generated at: 20 August 2026, 18:12:02 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **67.84 / 100** (Moderate Risk-On)
+- Regime score: **67.75 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 67.84 | Moderate Risk-On |
+| Overall regime | 67.75 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 82.5 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, news_confirmation=82.5, volatility=80.0, market_breadth=78.75 |
+| news_confirmation | 80.62 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, news_confirmation=80.62, volatility=80.0, market_breadth=78.75 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -327,34 +327,34 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 65, 'negative': 13, 'neutral': 2}
-- News confirmation score: `82.5`
+- Sentiment counts: {'positive': 63, 'negative': 14, 'neutral': 3}
+- News confirmation score: `80.62`
 
 ### Top Market-Moving Headlines
 
-**1. China’s backflipping robot maker Unitree pops 542% in Shanghai debut**
+**1. Japan exports beat estimates in July as robust chip shipments power fifth straight month of gains**
 - Source: CNBC Technology
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: Unitree Robotics, AI, robotics
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AI, semiconductor, exports
 - Score: `58.52`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**2. Stocks, bonds and gold rally after Treasury indicates it will buy more government bonds to stop yields from surging**
+**2. Somali pirate menace returns as U.S.-Iran war stokes regional chaos and saps enforcement resources**
+- Source: CNBC Technology
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, security, geopolitics, piracy
+- Score: `54.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Stocks, bonds and gold rally after Treasury indicates it will buy more government bonds to stop yields from surging**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: STOCKS, BONDS, GOLD, government intervention, yield control
 - Score: `51.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. Japan exports beat estimates in July as robust chip shipments power fifth straight month of gains**
-- Source: CNBC Technology
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AI, semiconductor, exports
-- Score: `49.74`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 **4. Fed minutes from July meeting reveal growing support for interest-rate hikes**
 - Source: MarketWatch Bulletins
@@ -396,20 +396,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Trump announces 'economic warfare' on Iran, threatens ‘tremendous’ consequences for its backers**
-- Source: CNBC Business Headlines
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: Trade Policy, Geopolitical Risk
-- Score: `40.46`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**10. Moderna’s stock doubles on promising cancer-vaccine results**
+**9. Moderna’s stock doubles on promising cancer-vaccine results**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: MODX, biotechnology, pharmaceuticals
 - Score: `40.15`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Hong Kong’s IPO boom extends beyond tech, HKEX CEO says, as fundraising tops $40 billion**
+- Source: CNBC Technology
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: HKEX, IPO, biotechnology, consumer companies
+- Score: `35.1`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
