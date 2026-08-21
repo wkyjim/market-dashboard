@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 22 August 2026, 03:12:02 (HKT)
+Generated at: 22 August 2026, 06:12:13 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -327,7 +327,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 60, 'negative': 10, 'neutral': 10}
+- Sentiment counts: {'positive': 61, 'negative': 11, 'neutral': 8}
 - News confirmation score: `81.25`
 
 ### Top Market-Moving Headlines
@@ -340,13 +340,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**2. Oil prices rise after Treasury Secretary says U.S. will collapse Iran with economic pressure**
+**2. Ray Dalio says Bessent move is sign that a debt crisis is getting closer; recommends gold and bitcoin**
 - Source: CNBC Markets
-- Importance / impact: Medium / Positive
-- Relevance / horizon: macro / short
-- Affected assets: U.S, oil prices, geopolitical
-- Score: `41.99`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short.
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / long-term
+- Affected assets: debt crisis, investment advice, cryptocurrencies
+- Score: `38.76`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 **3. U.S. military says it aided passage of 660 million barrels of oil through Strait of Hormuz since May**
 - Source: CNBC Markets
@@ -356,7 +356,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Big week coming up with PCE, Nvidia earnings and then Jackson Hole. Here's what to expect**
+**4. Anthropic IPO filing will show AI backlash as a risk factor, sources say**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: single_name / short
+- Affected assets: IPO, AI, economic concerns
+- Score: `37.05`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**5. Big week coming up with PCE, Nvidia earnings and then Jackson Hole. Here's what to expect**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -364,7 +372,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.05`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**5. Trump tariff deadline looms as Canada says it's working to resolve 'trade issues' with U.S.**
+**6. Trump says U.S., Canada 'should be able' to reach trade deal as tariff deadline looms**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short
@@ -372,21 +380,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.6`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
 
-**6. Ross Stores Boosts Outlook on Growing Demand for Off-Price Retail**
+**7. Ross Stores Boosts Outlook on Growing Demand for Off-Price Retail**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short
 - Affected assets: RS, retail, earnings, sales
 - Score: `27.97`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**7. Abbott to Pay $670 Million to Settle Baby-Formula Litigation**
-- Source: Dow Jones US News
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: ABT, legal, settlement, healthcare
-- Score: `26.52`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 **8. Iran pledges "devastating" response as U.S. warns of "tough" economic sanctions**
 - Source: Investing.com Economic Indicators
