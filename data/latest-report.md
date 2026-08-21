@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 21 August 2026, 21:11:53 (HKT)
+Generated at: 22 August 2026, 00:11:55 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -327,20 +327,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 55, 'negative': 13, 'neutral': 12}
+- Sentiment counts: {'positive': 54, 'negative': 12, 'neutral': 14}
 - News confirmation score: `76.25`
 
 ### Top Market-Moving Headlines
 
-**1. Federal Reserve Board issues enforcement action with SouthPoint Bancshares, Inc. and announces termination of enforcement action with Deutsche Bank AG, DB USA Corporation, and Deutsche Bank AG New York Branch**
-- Source: Federal Reserve Press Releases
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short
-- Affected assets: DB, AG, banking, regulation
-- Score: `51.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
-
-**2. Oil prices rise after Treasury Secretary says U.S. will collapse Iran with economic pressure**
+**1. Oil prices rise after Treasury Secretary says U.S. will collapse Iran with economic pressure**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short
@@ -348,7 +340,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.99`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short.
 
-**3. U.S., Canada near final trade deal as Trump tariff deadline looms**
+**2. U.S. military says it aided passage of 660 million barrels of oil through Strait of Hormuz since May**
+- Source: CNBC Markets
+- Importance / impact: Medium / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S., U.S, oil, strait, security
+- Score: `38.0`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Trump tariff deadline looms as U.S. and Canada say final trade deal is near**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short
