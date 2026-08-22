@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 22 August 2026, 21:12:04 (HKT)
+Generated at: 23 August 2026, 00:11:56 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.81 / 100** (Moderate Risk-On)
+- Regime score: **66.53 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.81 | Moderate Risk-On |
+| Overall regime | 66.53 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 61.88 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75, news_confirmation=61.88 |
+| news_confirmation | 56.25 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -327,12 +327,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 42, 'negative': 23, 'neutral': 15}
-- News confirmation score: `61.88`
+- Sentiment counts: {'positive': 37, 'negative': 27, 'neutral': 16}
+- News confirmation score: `56.25`
 
 ### Top Market-Moving Headlines
 
-**1. Trade talks between the U.S. and Canada broke down on Friday, officials from both countries said, paving the way for the U.S. to impose 50% tariffs on about $20 billion worth of Canadian goods and risking an all-out trade war**
+**1. Why an announcement from the Treasury sparked a rally in gold and bitcoin this week**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: GOLD, BTC, U.S, commodities, crypto
+- Score: `63.75`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Trade talks between the U.S. and Canada broke down on Friday, officials from both countries said, paving the way for the U.S. to impose 50% tariffs on about $20 billion worth of Canadian goods and risking an all-out trade war**
 - Source: Dow Jones Economy
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -340,7 +348,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `55.27`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. U.S., Canada fail to reach a tariff deal, deepening trade war**
+**3. U.S., Canada fail to reach a tariff deal, deepening trade war**
 - Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -348,15 +356,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.4`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Week Ahead for FX, Bonds: Warsh Speech at Jackson Hole, U.S. PCE Data in Focus**
-- Source: Dow Jones Economy
-- Importance / impact: Medium / Mixed
+**4. As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8**
+- Source: CNBC Business Headlines
+- Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: FX, PCE, U.S, Federal Reserve, interest rates
-- Score: `43.35`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Affected assets: U.S, trade, tariffs
+- Score: `48.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Energy sector is in focus because of Iran, AI and California. Here are hedge funds' top plays**
+**5. Energy sector is in focus because of Iran, AI and California. Here are hedge funds' top plays**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -364,7 +372,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. Ukrainian drones kill several, hit warehouse of Russian online retailer Ozon**
+**6. Ukrainian drones kill several, hit warehouse of Russian online retailer Ozon**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -372,7 +380,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**6. U.S., Canada scramble to avoid new tariffs with a trade deal. What may be in it.**
+**7. U.S., Canada scramble to avoid new tariffs with a trade deal. What may be in it.**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short
@@ -380,7 +388,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.74`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
 
-**7. Ahead of tough new U.S. sanctions, Iran criticizes 'extraterritorial sovereignty'**
+**8. Ahead of tough new U.S. sanctions, Iran criticizes 'extraterritorial sovereignty'**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -388,7 +396,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.2`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Ray Dalio says Bessent move is sign that a debt crisis is getting closer; recommends gold and bitcoin**
+**9. Ray Dalio says Bessent move is sign that a debt crisis is getting closer; recommends gold and bitcoin**
 - Source: CNBC Markets
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / long-term
@@ -396,21 +404,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.95`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**9. U.S. military says it aided passage of 660 million barrels of oil through Strait of Hormuz since May**
+**10. U.S. military says it aided passage of 660 million barrels of oil through Strait of Hormuz since May**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S., U.S, oil, strait, security
 - Score: `32.3`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Anthropic IPO filing will show AI backlash as a risk factor, sources say**
-- Source: CNBC Top News
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short
-- Affected assets: IPO, AI, economic concerns
-- Score: `31.49`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
