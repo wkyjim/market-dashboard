@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 23 August 2026, 00:11:56 (HKT)
+Generated at: 23 August 2026, 03:11:57 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.53 / 100** (Moderate Risk-On)
+- Regime score: **66.34 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
-- Evidence quality: **86.5 / 100**
+- Evidence quality: **83.0 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
 - Breadth: **broad**; above 50DMA `80.0%`, above 200DMA `74.58%`
 - Top sector score: **Cybersecurity** `70.51`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.53 | Moderate Risk-On |
+| Overall regime | 66.34 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 56.25 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 52.5 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75 |
 | Negative contributors |  | none |
 
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `86.5`
-- Agreement ratio: `0.7`
+- Confidence score: `83.0`
+- Agreement ratio: `0.6`
 - Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
@@ -327,18 +327,18 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 37, 'negative': 27, 'neutral': 16}
-- News confirmation score: `56.25`
+- Sentiment counts: {'positive': 35, 'negative': 31, 'neutral': 14}
+- News confirmation score: `52.5`
 
 ### Top Market-Moving Headlines
 
-**1. Why an announcement from the Treasury sparked a rally in gold and bitcoin this week**
+**1. Canada announces retaliatory tariffs on U.S. goods after trade talks break down**
 - Source: MarketWatch Top Stories
-- Importance / impact: High / Positive
+- Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: GOLD, BTC, U.S, commodities, crypto
-- Score: `63.75`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Affected assets: U.S, trade, retaliatory
+- Score: `60.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **2. Trade talks between the U.S. and Canada broke down on Friday, officials from both countries said, paving the way for the U.S. to impose 50% tariffs on about $20 billion worth of Canadian goods and risking an all-out trade war**
 - Source: Dow Jones Economy
@@ -348,15 +348,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `55.27`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. U.S., Canada fail to reach a tariff deal, deepening trade war**
-- Source: CNBC Business Headlines
+**3. Why an announcement from the Treasury sparked a rally in gold and bitcoin this week**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: GOLD, BTC, U.S, commodities, crypto
+- Score: `54.19`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. Prime Minister Mark Carney on Saturday said Canada would impose dollar-for-dollar tariffs on U.S. goods in retaliation for U.S. tariffs on Canadian exports that went into effect early in the morning**
+- Source: Dow Jones Economy
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: U.S, trade war, tariffs
-- Score: `54.4`
+- Affected assets: U.S, trade_conflict, retaliation
+- Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8**
+**5. As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8**
 - Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -364,21 +372,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Energy sector is in focus because of Iran, AI and California. Here are hedge funds' top plays**
-- Source: CNBC Markets
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AI, Iran, Energy
-- Score: `41.18`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**6. Ukrainian drones kill several, hit warehouse of Russian online retailer Ozon**
+**6. U.S., Canada fail to reach a tariff deal, deepening trade war**
 - Source: CNBC Business Headlines
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: war, drone, retail
-- Score: `40.8`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, trade war, tariffs
+- Score: `46.24`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **7. U.S., Canada scramble to avoid new tariffs with a trade deal. What may be in it.**
 - Source: MarketWatch Bulletins
@@ -388,29 +388,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.74`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
 
-**8. Ahead of tough new U.S. sanctions, Iran criticizes 'extraterritorial sovereignty'**
+**8. Ukrainian drones kill several, hit warehouse of Russian online retailer Ozon**
 - Source: CNBC Business Headlines
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: CNBC, U.S, geopolitical, sanctions
-- Score: `35.2`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Importance / impact: Low / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: war, drone, retail
+- Score: `34.68`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**9. Ray Dalio says Bessent move is sign that a debt crisis is getting closer; recommends gold and bitcoin**
+**9. Why the Treasury’s buyback announcement sparked a rally in gold and bitcoin**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: BTC-USD, GLD, Bitcoin, gold, treasury buyback
+- Score: `34.2`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Ray Dalio says Bessent move is sign that a debt crisis is getting closer; recommends gold and bitcoin**
 - Source: CNBC Markets
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / long-term
 - Affected assets: debt crisis, investment advice, cryptocurrencies
 - Score: `32.95`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**10. U.S. military says it aided passage of 660 million barrels of oil through Strait of Hormuz since May**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S., U.S, oil, strait, security
-- Score: `32.3`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
