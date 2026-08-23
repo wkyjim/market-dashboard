@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 23 August 2026, 06:11:48 (HKT)
+Generated at: 23 August 2026, 09:11:51 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.25 / 100** (Moderate Risk-On)
+- Regime score: **66.19 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.25 | Moderate Risk-On |
+| Overall regime | 66.19 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 50.62 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 49.38 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75 |
 | Negative contributors |  | none |
 
@@ -241,7 +241,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cybersecurity | 70.51 | strong uptrend | positive | broad | 68.13 | 65.0 | 62.96 | CIBR | CIBR |
 | 2 | Healthcare | 68.73 | strong uptrend | positive | broad | 73.84 | 100.0 | 54.37 | VEEV, CRL, REGN | CVS, PODD, DVA |
-| 3 | Defense | 68.03 | strong uptrend | positive | broad | 54.73 | 65.0 | 57.75 | XAR | XAR |
+| 3 | Defense | 68.41 | strong uptrend | positive | broad | 54.73 | 65.0 | 57.75 | XAR | XAR |
 | 4 | Grid Infrastructure | 67.54 | strong uptrend | neutral | broad | 58.21 | 65.0 | 49.05 | GRID | GRID |
 | 5 | Industrials | 66.5 | strong uptrend | neutral | broad | 53.98 | 65.0 | 51.11 | LDOS, HII, ALLE | ROL, LII, CHRW |
 | 6 | Energy | 66.03 | strong uptrend | neutral | broad | 50.77 | 100.0 | 50.27 | APA, MPC, PSX | TRGP, HAL, TPL |
@@ -252,7 +252,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 11 | Consumer Discretionary | 57.15 | uptrend | neutral | broad | 60.95 | 65.0 | 47.0 | ABNB, GRMN, EXPE | TSLA, DECK, APTV |
 | 12 | Semiconductors | 56.7 | strong uptrend | neutral | weak | 50.0 | 0.0 | 51.7 | SOXX, SMH | SMH, SOXX |
 | 13 | Nuclear | 55.5 | neutral | neutral | broad | 50.0 | 0.0 | 50.82 | NLR | NLR |
-| 14 | Crypto | 51.16 | neutral | neutral | mixed | 59.59 | 65.0 | 50.0 |  |  |
+| 14 | Crypto | 50.96 | neutral | neutral | mixed | 59.59 | 65.0 | 50.0 |  |  |
 | 15 | Utilities | 34.28 | strong downtrend | neutral | weak | 46.34 | 65.0 | 43.97 | CEG, AWK, PCG | NI, EIX, NRG |
 
 ### Thematic Strength
@@ -260,9 +260,9 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Healthcare Innovation | 61.94 | Positive setup | 73.84 | 100.0 | 11.95 | True | False |
-| 2 | Small Caps | 60.46 | Positive setup | 45.54 | 65.0 | 0.0 | True | False |
-| 3 | Cybersecurity | 60.2 | Neutral / watchlist | 68.13 | 65.0 | 25.61 | True | False |
-| 4 | Defense | 59.72 | Positive setup | 54.73 | 65.0 | 16.07 | False | False |
+| 2 | Defense | 60.7 | Neutral / watchlist | 54.73 | 65.0 | 16.07 | True | False |
+| 3 | Small Caps | 60.46 | Positive setup | 45.54 | 65.0 | 0.0 | True | False |
+| 4 | Cybersecurity | 60.2 | Neutral / watchlist | 68.13 | 65.0 | 25.61 | True | False |
 | 5 | Energy | 59.19 | Positive setup | 50.77 | 100.0 | 1.59 | False | False |
 | 6 | Financials | 57.96 | Positive setup | 50.0 | 0.0 | 10.64 | False | False |
 | 7 | Semiconductors | 56.95 | Neutral / watchlist | 50.0 | 0.0 | 15.16 | False | False |
@@ -276,7 +276,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Top 5 improving themes: Financials, Healthcare Innovation, Defense, Cybersecurity, Small Caps
 - Top 5 deteriorating themes: Crypto Infrastructure, Nuclear, Energy, Grid Infrastructure, Quality Growth
 - Strong news but weak price confirmation: none
-- Strong price but weak news confirmation: Healthcare Innovation, Small Caps, Cybersecurity
+- Strong price but weak news confirmation: Healthcare Innovation, Defense, Small Caps, Cybersecurity
 
 ### Sector / Theme Alignment
 
@@ -284,9 +284,9 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- |
 | Cybersecurity | Cybersecurity | 70.51 | strong | 60.2 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 68.73 | strong | 61.94 | positive | sector and theme confirmation |
-| Defense | Defense | 68.03 | strong | 59.72 | positive | sector and theme confirmation |
+| Defense | Defense | 68.41 | strong | 60.7 | positive | sector and theme confirmation |
 | Grid Infrastructure | Grid Infrastructure | 67.54 | strong | 51.23 | mixed | sector stronger than related themes |
-| Industrials | Defense, Grid Infrastructure | 66.5 | strong | 55.47 | positive | sector and theme confirmation |
+| Industrials | Defense, Grid Infrastructure | 66.5 | strong | 55.96 | positive | sector and theme confirmation |
 | Energy | Energy | 66.03 | strong | 59.19 | positive | sector and theme confirmation |
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.89 | strong | 56.77 | positive | sector and theme confirmation |
 | Financials | Financials | 62.91 | positive | 57.96 | positive | sector and theme confirmation |
@@ -295,7 +295,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Consumer Discretionary | Small Caps | 57.15 | positive | 60.46 | positive | sector and theme confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 56.7 | positive | 56.74 | positive | sector and theme confirmation |
 | Nuclear | Nuclear | 55.5 | positive | 51.49 | mixed | sector stronger than related themes |
-| Crypto | Crypto Infrastructure | 51.16 | mixed | 33.29 | very weak | mixed confirmation |
+| Crypto | Crypto Infrastructure | 50.96 | mixed | 33.29 | very weak | mixed confirmation |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 34.28 | very weak | 51.47 | mixed | mixed confirmation |
 
 ## Three-Month Outperformance Setup
@@ -306,7 +306,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 2 | Healthcare Innovation | 63.24 | Positive setup | relative_strength_60d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 3 | Energy | 63.11 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | Financials | 62.65 | Positive setup | relative_strength_60d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
-| 5 | Defense | 61.76 | Positive setup | relative_strength_20d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
+| 5 | Defense | 59.76 | Neutral / watchlist | relative_strength_20d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 6 | Semiconductors | 59.27 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
 | 7 | Cybersecurity | 59.16 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 8 | AI Infrastructure | 57.47 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
@@ -327,20 +327,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 32, 'negative': 31, 'neutral': 17}
-- News confirmation score: `50.62`
+- Sentiment counts: {'positive': 31, 'negative': 32, 'neutral': 17}
+- News confirmation score: `49.38`
 
 ### Top Market-Moving Headlines
 
 **1. Canada announces retaliatory tariffs on U.S. goods after trade talks break down**
-- Source: MarketWatch Bulletins
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, trade, retaliation
-- Score: `64.6`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Canada announces retaliatory tariffs on U.S. goods after trade talks break down**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -348,12 +340,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `60.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Trade talks between the U.S. and Canada broke down on Friday, officials from both countries said, paving the way for the U.S. to impose 50% tariffs on about $20 billion worth of Canadian goods and risking an all-out trade war**
+**2. Trade talks between the U.S. and Canada broke down on Friday, officials from both countries said, paving the way for the U.S. to impose 50% tariffs on about $20 billion worth of Canadian goods and risking an all-out trade war**
 - Source: Dow Jones Economy
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, trade, tariffs, geopolitical
 - Score: `55.27`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Canada announces retaliatory tariffs on U.S. goods after trade talks break down**
+- Source: MarketWatch Bulletins
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, trade, retaliation
+- Score: `54.91`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **4. Why an announcement from the Treasury sparked a rally in gold and bitcoin this week**
@@ -364,23 +364,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.19`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. New tariffs have kicked in on U.S. imports from Canada after trade talks collapsed. Canada intends to set retaliatory tariffs starting in September. Here’s what to know about the new levies.**
+**5. After weeks of marathon talks between U.S. and Canadian trade officials, an agreement was almost in sight. A look at how it unraveled.**
 - Source: Dow Jones Economy
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: U.S, trade, economy
+- Affected assets: U.S, A, trade_conflict, retaliation
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Prime Minister Mark Carney on Saturday said Canada would impose dollar-for-dollar tariffs on U.S. goods in retaliation for U.S. tariffs on Canadian exports that went into effect early in the morning**
-- Source: Dow Jones Economy
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, trade_conflict, retaliation
-- Score: `51.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8**
+**6. As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8**
 - Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -388,12 +380,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. U.S., Canada fail to reach a tariff deal, deepening trade war**
+**7. U.S., Canada fail to reach a tariff deal, deepening trade war**
 - Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, trade war, tariffs
 - Score: `46.24`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. New tariffs have kicked in on U.S. imports from Canada after trade talks collapsed. Canada intends to set retaliatory tariffs starting in September. Here’s what to know about the new levies.**
+- Source: Dow Jones Economy
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, trade, economy
+- Score: `43.35`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **9. Ukrainian drones kill several, hit warehouse of Russian online retailer Ozon**
@@ -404,13 +404,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.68`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**10. Why the Treasury’s buyback announcement sparked a rally in gold and bitcoin**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Positive
+**10. Ahead of tough new U.S. sanctions, Iran criticizes 'extraterritorial sovereignty'**
+- Source: CNBC Business Headlines
+- Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: BTC-USD, GLD, Bitcoin, gold, treasury buyback
-- Score: `34.2`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Affected assets: CNBC, U.S, geopolitical, sanctions
+- Score: `29.92`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
