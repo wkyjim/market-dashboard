@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 23 August 2026, 09:11:51 (HKT)
+Generated at: 23 August 2026, 12:12:03 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -327,20 +327,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 31, 'negative': 32, 'neutral': 17}
+- Sentiment counts: {'positive': 32, 'negative': 33, 'neutral': 15}
 - News confirmation score: `49.38`
 
 ### Top Market-Moving Headlines
 
-**1. Canada announces retaliatory tariffs on U.S. goods after trade talks break down**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, trade, retaliatory
-- Score: `60.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Trade talks between the U.S. and Canada broke down on Friday, officials from both countries said, paving the way for the U.S. to impose 50% tariffs on about $20 billion worth of Canadian goods and risking an all-out trade war**
+**1. Trade talks between the U.S. and Canada broke down on Friday, officials from both countries said, paving the way for the U.S. to impose 50% tariffs on about $20 billion worth of Canadian goods and risking an all-out trade war**
 - Source: Dow Jones Economy
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -348,7 +340,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `55.27`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Canada announces retaliatory tariffs on U.S. goods after trade talks break down**
+**2. Canada announces retaliatory tariffs on U.S. goods after trade talks break down**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -356,13 +348,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.91`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Why an announcement from the Treasury sparked a rally in gold and bitcoin this week**
+**3. Why an announcement from the Treasury sparked a rally in gold and bitcoin this week**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: GOLD, BTC, U.S, commodities, crypto
 - Score: `54.19`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. Canada announces retaliatory tariffs on U.S. goods after trade talks break down**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, trade, retaliatory
+- Score: `51.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **5. After weeks of marathon talks between U.S. and Canadian trade officials, an agreement was almost in sight. A look at how it unraveled.**
 - Source: Dow Jones Economy
@@ -372,15 +372,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8**
-- Source: CNBC Business Headlines
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, trade, tariffs
-- Score: `48.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. U.S., Canada fail to reach a tariff deal, deepening trade war**
+**6. U.S., Canada fail to reach a tariff deal, deepening trade war**
 - Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -388,12 +380,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `46.24`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. New tariffs have kicked in on U.S. imports from Canada after trade talks collapsed. Canada intends to set retaliatory tariffs starting in September. Here’s what to know about the new levies.**
+**7. New tariffs have kicked in on U.S. imports from Canada after trade talks collapsed. Canada intends to set retaliatory tariffs starting in September. Here’s what to know about the new levies.**
 - Source: Dow Jones Economy
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, trade, economy
 - Score: `43.35`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8**
+- Source: CNBC Business Headlines
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, trade, tariffs
+- Score: `40.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **9. Ukrainian drones kill several, hit warehouse of Russian online retailer Ozon**
