@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 23 August 2026, 12:12:03 (HKT)
+Generated at: 23 August 2026, 15:11:58 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.19 / 100** (Moderate Risk-On)
+- Regime score: **66.44 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.19 | Moderate Risk-On |
+| Overall regime | 66.44 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 49.38 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 54.38 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75 |
 | Negative contributors |  | none |
 
@@ -327,20 +327,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 32, 'negative': 33, 'neutral': 15}
-- News confirmation score: `49.38`
+- Sentiment counts: {'positive': 38, 'negative': 31, 'neutral': 11}
+- News confirmation score: `54.38`
 
 ### Top Market-Moving Headlines
 
-**1. Trade talks between the U.S. and Canada broke down on Friday, officials from both countries said, paving the way for the U.S. to impose 50% tariffs on about $20 billion worth of Canadian goods and risking an all-out trade war**
-- Source: Dow Jones Economy
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, trade, tariffs, geopolitical
-- Score: `55.27`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Canada announces retaliatory tariffs on U.S. goods after trade talks break down**
+**1. Canada announces retaliatory tariffs on U.S. goods after trade talks break down**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -348,7 +340,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.91`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Why an announcement from the Treasury sparked a rally in gold and bitcoin this week**
+**2. Why an announcement from the Treasury sparked a rally in gold and bitcoin this week**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -356,7 +348,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.19`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Canada announces retaliatory tariffs on U.S. goods after trade talks break down**
+**3. Canada announces retaliatory tariffs on U.S. goods after trade talks break down**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -364,20 +356,28 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. After weeks of marathon talks between U.S. and Canadian trade officials, an agreement was almost in sight. A look at how it unraveled.**
-- Source: Dow Jones Economy
+**4. As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8**
+- Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: U.S, A, trade_conflict, retaliation
-- Score: `51.0`
+- Affected assets: U.S, trade, tariffs
+- Score: `48.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. U.S., Canada fail to reach a tariff deal, deepening trade war**
+**5. U.S., Canada fail to reach a tariff deal, deepening trade war**
 - Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, trade war, tariffs
 - Score: `46.24`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. After weeks of marathon talks between U.S. and Canadian trade officials, an agreement was almost in sight. A look at how it unraveled.**
+- Source: Dow Jones Economy
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, A, trade_conflict, retaliation
+- Score: `43.35`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **7. New tariffs have kicked in on U.S. imports from Canada after trade talks collapsed. Canada intends to set retaliatory tariffs starting in September. Here’s what to know about the new levies.**
@@ -388,15 +388,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8**
-- Source: CNBC Business Headlines
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, trade, tariffs
-- Score: `40.8`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Ukrainian drones kill several, hit warehouse of Russian online retailer Ozon**
+**8. Ukrainian drones kill several, hit warehouse of Russian online retailer Ozon**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -404,12 +396,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.68`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**10. Ahead of tough new U.S. sanctions, Iran criticizes 'extraterritorial sovereignty'**
+**9. Ahead of tough new U.S. sanctions, Iran criticizes 'extraterritorial sovereignty'**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: CNBC, U.S, geopolitical, sanctions
 - Score: `29.92`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Iran lets Iraqi oil tankers pass Hormuz as Trump claims "total control"**
+- Source: Investing.com Economic Indicators
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, geopolitical, trade
+- Score: `29.07`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
