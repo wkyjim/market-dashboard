@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 24 August 2026, 15:11:57 (HKT)
+Generated at: 24 August 2026, 18:12:01 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.62 / 100** (Moderate Risk-On)
+- Regime score: **66.56 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.62 | Moderate Risk-On |
+| Overall regime | 66.56 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 58.12 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 56.88 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75 |
 | Negative contributors |  | none |
 
@@ -327,12 +327,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 44, 'negative': 31, 'neutral': 5}
-- News confirmation score: `58.12`
+- Sentiment counts: {'positive': 41, 'negative': 30, 'neutral': 9}
+- News confirmation score: `56.88`
 
 ### Top Market-Moving Headlines
 
-**1. Equal-weight S&P 500 is leading the 2026 market and its flagship trade just hit $100 billion**
+**1. The post-World War II market shift is here — and bond yields could have higher to go, says Morgan Stanley**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / long-term
+- Affected assets: II, P, S, market outlook, investment advice
+- Score: `51.0`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**2. Equal-weight S&P 500 is leading the 2026 market and its flagship trade just hit $100 billion**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / medium
@@ -340,7 +348,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `46.33`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**2. After weeks of marathon talks between U.S. and Canadian trade officials, an agreement was almost in sight. A look at how it unraveled.**
+**3. After weeks of marathon talks between U.S. and Canadian trade officials, an agreement was almost in sight. A look at how it unraveled.**
 - Source: Dow Jones Economy
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -348,23 +356,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. CNBC Daily Open: U.S. takes aim at friends and foes alike**
-- Source: CNBC Top News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: CNBC, U.S, trade_policy, geopolitical_risk
-- Score: `41.99`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**4. Stock futures flat as U.S. and Canada appear headed for trade war**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: U.S, trade, economic, geopolitical
-- Score: `39.0`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**5. Oil prices fall as investors await 'toughest' U.S. sanctions on Iran**
+**4. Oil prices fall as investors await 'toughest' U.S. sanctions on Iran**
 - Source: CNBC Markets
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short
@@ -372,7 +364,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
 
-**6. Nvidia is the beating heart of the AI boom and the stock market — which sets up a big test**
+**5. Nvidia is the beating heart of the AI boom and the stock market — which sets up a big test**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -380,37 +372,45 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.57`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. CNBC Daily Open: The cost of AI, trade showdown and Iran's 'economic D-day'**
+**6. Treasury yields fall as investors brace for Warsh’s Jackson Hole keynote amid bond fears**
+- Source: CNBC Top News
+- Importance / impact: Medium / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Economy, Federal Reserve
+- Score: `36.58`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. CNBC Daily Open: U.S. takes aim at friends and foes alike**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: CNBC, U.S, trade_policy, geopolitical_risk
+- Score: `35.69`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**8. 'They asked too much': Canadian dollar slides as Ottawa and Washington head for all-out trade war**
+- Source: CNBC Economy
+- Importance / impact: Medium / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: ING, trade war, currency
+- Score: `35.1`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**9. Stock futures flat as U.S. and Canada appear headed for trade war**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: U.S, trade, economic, geopolitical
+- Score: `33.15`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**10. CNBC Daily Open: The cost of AI, trade showdown and Iran's 'economic D-day'**
 - Source: CNBC Top News
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: CNBC, D, AI, Geopolitical tensions
 - Score: `32.3`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**8. Stock futures slip as U.S. and Canada appear headed for trade war**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short
-- Affected assets: U.S, trade conflict
-- Score: `31.49`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**9. Nvidia's upcoming earnings poised to be another big test for the stock market**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / short-term
-- Affected assets: NVDA, earnings, tech, stock_market
-- Score: `31.49`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
-
-**10. Chinese Chip Maker YMTC Seeks $4.9 Billion IPO**
-- Source: Dow Jones US Business
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short
-- Affected assets: YMTC, IPO, Technology
-- Score: `29.25`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
