@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 24 August 2026, 09:11:58 (HKT)
+Generated at: 24 August 2026, 12:12:07 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.4 / 100** (Moderate Risk-On)
+- Regime score: **66.53 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
-- Evidence quality: **83.0 / 100**
+- Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
 - Breadth: **broad**; above 50DMA `80.0%`, above 200DMA `74.58%`
 - Top sector score: **Cybersecurity** `70.51`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.4 | Moderate Risk-On |
+| Overall regime | 66.53 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 53.75 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 56.25 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75 |
 | Negative contributors |  | none |
 
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `83.0`
-- Agreement ratio: `0.6`
+- Confidence score: `86.5`
+- Agreement ratio: `0.7`
 - Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
@@ -327,8 +327,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 37, 'negative': 31, 'neutral': 12}
-- News confirmation score: `53.75`
+- Sentiment counts: {'positive': 42, 'negative': 32, 'neutral': 6}
+- News confirmation score: `56.25`
 
 ### Top Market-Moving Headlines
 
@@ -340,7 +340,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8**
+**2. CNBC Daily Open: U.S. takes aim at friends and foes alike**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: CNBC, U.S, trade_policy, geopolitical_risk
+- Score: `41.99`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**3. As U.S.-Canada trade talks collapse, Carney says retaliatory tariffs will start Sept. 8**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -348,7 +356,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Stock futures flat as U.S. and Canada appear headed for trade war**
+**4. Stock futures flat as U.S. and Canada appear headed for trade war**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -356,7 +364,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.0`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**4. Nvidia is the beating heart of the AI boom and the stock market — which sets up a big test**
+**5. Oil prices fall as investors await 'toughest' U.S. sanctions on Iran**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short
+- Affected assets: U.S, oil prices, sanctions, Iran
+- Score: `38.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
+
+**6. Nvidia is the beating heart of the AI boom and the stock market — which sets up a big test**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -364,7 +380,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.57`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**5. Stock futures slip as U.S. and Canada appear headed for trade war**
+**7. Stock futures slip as U.S. and Canada appear headed for trade war**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short
@@ -372,7 +388,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.05`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**6. Nvidia's upcoming earnings poised to be another big test for the stock market**
+**8. Nvidia's upcoming earnings poised to be another big test for the stock market**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
@@ -380,7 +396,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.49`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**7. Iran lets Iraqi oil tankers pass Hormuz as Trump claims "total control"**
+**9. Iran lets Iraqi oil tankers pass Hormuz as Trump claims "total control"**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -388,29 +404,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.07`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Treasury Secretary to announce Iran sanctions as Tehran dismisses economic warfare threat**
+**10. Treasury Secretary to announce Iran sanctions as Tehran dismisses economic warfare threat**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: IRN, CNBC, Economic Policy, Geopolitical
 - Score: `28.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Here are the 2 big things we're watching in the stock market this week**
-- Source: CNBC Markets
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: NVDA, earnings, central_bank
-- Score: `28.26`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Ampol posts near five-fold surge in profit as Iran war boosts refining margin**
-- Source: Investing.com World News
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / short
-- Affected assets: AMC, IRN, profitability, geopolitical, oil
-- Score: `27.34`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short.
 
 
 ### Headline Quality Checks
