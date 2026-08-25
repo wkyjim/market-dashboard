@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 August 2026, 00:12:18 (HKT)
+Generated at: 26 August 2026, 03:12:13 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -332,7 +332,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Gold hovers near three-month high on dollar weakness, Treasury bond buyback plans**
+**1. This chart shows exactly why investors should worry about rising yields — even if they don’t own any bonds**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, market_risk, economic_indicators, investment_strategy
+- Score: `60.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Gold hovers near three-month high on dollar weakness, Treasury bond buyback plans**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -340,7 +348,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Visa and Mastercard stocks hit fresh records, underscoring a resilient U.S. consumer**
+**3. Visa and Mastercard stocks hit fresh records, underscoring a resilient U.S. consumer**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -348,7 +356,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `55.27`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**3. Bitcoin has beaten stocks and gold over six months. Now it’s crossed the $80,000 mark.**
+**4. Bitcoin has beaten stocks and gold over six months. Now it’s crossed the $80,000 mark.**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -356,7 +364,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.19`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Anthropic Expected to Tell Investors It Sees Over $30 Trillion in Potential Revenue**
+**5. Anthropic Expected to Tell Investors It Sees Over $30 Trillion in Potential Revenue**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / long-term
@@ -364,7 +372,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `50.62`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the long-term.
 
-**5. President Trump said Monday the U.S. will impose 50% tariffs on automobiles and parts from Canada starting in January**
+**6. President Trump said Monday the U.S. will impose 50% tariffs on automobiles and parts from Canada starting in January**
 - Source: Dow Jones Economy
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -372,7 +380,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.13`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. CNBC Daily Open: China in the crosshairs, Bitcoin is back and Dragon Ball Z diplomacy**
+**7. CNBC Daily Open: China in the crosshairs, Bitcoin is back and Dragon Ball Z diplomacy**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -380,7 +388,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Visa and Mastercard hit fresh records, underscoring a resilient U.S. consumer**
+**8. Visa and Mastercard hit fresh records, underscoring a resilient U.S. consumer**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -388,7 +396,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `46.33`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. President Trump said Monday the U.S. will impose 50% tariffs on automobiles and parts from Canada starting in January**
+**9. President Trump said Monday the U.S. will impose 50% tariffs on automobiles and parts from Canada starting in January**
 - Source: Dow Jones Politics
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -396,7 +404,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `46.24`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. One Wall Street measure of market fragility just hit its highest possible level. The last time it did, volatility spiked.**
+**10. One Wall Street measure of market fragility just hit its highest possible level. The last time it did, volatility spiked.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -404,18 +412,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**10. New tariffs have kicked in on U.S. imports from Canada after trade talks collapsed. Canada intends to set retaliatory tariffs starting in September. Here’s what to know about the new levies.**
-- Source: Dow Jones Economy
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, trade, economy
-- Score: `43.35`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
 
 ### Headline Quality Checks
 
-No noisy headlines detected by current rules.
+Noisy headline list: Why AMD can beat rivals Intel and Nvidia in the ma
 
 ## Positioning & Flow Dashboard
 
