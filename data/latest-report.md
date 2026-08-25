@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 25 August 2026, 18:12:17 (HKT)
+Generated at: 25 August 2026, 21:12:16 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **67.28 / 100** (Moderate Risk-On)
+- Regime score: **67.09 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 67.28 | Moderate Risk-On |
+| Overall regime | 67.09 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 71.25 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75, news_confirmation=71.25 |
+| news_confirmation | 67.5 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75, news_confirmation=67.5 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -327,8 +327,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 57, 'negative': 23, 'neutral': 0}
-- News confirmation score: `71.25`
+- Sentiment counts: {'positive': 54, 'negative': 26, 'neutral': 0}
+- News confirmation score: `67.5`
 
 ### Top Market-Moving Headlines
 
@@ -340,7 +340,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `63.75`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Gold price hovers at three-month high on dollar weakness, Treasury bond buyback plans**
+**2. Gold hovers near three-month high on dollar weakness, Treasury bond buyback plans**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -348,15 +348,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. CNBC Daily Open: China in the crosshairs, Bitcoin is back and Dragon Ball Z diplomacy**
-- Source: CNBC Top News
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: CNBC, U.S, Z, China, Bitcoin
-- Score: `57.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**4. Visa and Mastercard stocks hit fresh records, underscoring a resilient U.S. consumer**
+**3. Visa and Mastercard stocks hit fresh records, underscoring a resilient U.S. consumer**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -364,13 +356,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `55.27`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. One Wall Street measure of market fragility just hit its highest possible level. The last time it did, volatility spiked.**
+**4. One Wall Street measure of market fragility just hit its highest possible level. The last time it did, volatility spiked.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: market volatility, economic indicators
 - Score: `51.0`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**5. Canada poised to retaliate against Trump tariffs: 'We're not waiting by the phone'**
+- Source: CNBC Markets
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, trade, retaliation
+- Score: `49.88`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **6. President Trump said Monday the U.S. will impose 50% tariffs on automobiles and parts from Canada starting in January**
 - Source: Dow Jones Economy
@@ -380,7 +380,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.13`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Visa and Mastercard hit fresh records, underscoring a resilient U.S. consumer**
+**7. CNBC Daily Open: China in the crosshairs, Bitcoin is back and Dragon Ball Z diplomacy**
+- Source: CNBC Top News
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: CNBC, U.S, Z, China, Bitcoin
+- Score: `48.45`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. Visa and Mastercard hit fresh records, underscoring a resilient U.S. consumer**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -388,21 +396,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `46.33`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. President Trump said Monday the U.S. will impose 50% tariffs on automobiles and parts from Canada starting in January**
+**9. President Trump said Monday the U.S. will impose 50% tariffs on automobiles and parts from Canada starting in January**
 - Source: Dow Jones Politics
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, trade policy, international relations
 - Score: `46.24`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. This market shift resembles the post–World War II era — and bond yields could have room to go higher, says Morgan Stanley**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / long-term
-- Affected assets: II, P, S, market outlook, investment advice
-- Score: `43.35`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 **10. New tariffs have kicked in on U.S. imports from Canada after trade talks collapsed. Canada intends to set retaliatory tariffs starting in September. Here’s what to know about the new levies.**
 - Source: Dow Jones Economy
