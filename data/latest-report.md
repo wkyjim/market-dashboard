@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 August 2026, 12:12:11 (HKT)
+Generated at: 26 August 2026, 15:12:10 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **67.15 / 100** (Moderate Risk-On)
+- Regime score: **67.22 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 67.15 | Moderate Risk-On |
+| Overall regime | 67.22 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 68.75 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75, news_confirmation=68.75 |
+| news_confirmation | 70.0 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75, news_confirmation=70.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -327,8 +327,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 55, 'negative': 25, 'neutral': 0}
-- News confirmation score: `68.75`
+- Sentiment counts: {'positive': 56, 'negative': 24, 'neutral': 0}
+- News confirmation score: `70.0`
 
 ### Top Market-Moving Headlines
 
@@ -356,15 +356,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. CNBC Daily Open: China in the crosshairs, Bitcoin is back and Dragon Ball Z diplomacy**
-- Source: CNBC Top News
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: CNBC, U.S, Z, China, Bitcoin
-- Score: `48.45`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**5. One Wall Street measure of market fragility just hit its highest possible level. The last time it did, volatility spiked.**
+**4. One Wall Street measure of market fragility just hit its highest possible level. The last time it did, volatility spiked.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -372,7 +364,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**6. Anthropic Expected to Tell Investors It Sees Over $30 Trillion in Potential Revenue**
+**5. Anthropic Expected to Tell Investors It Sees Over $30 Trillion in Potential Revenue**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / long-term
@@ -380,21 +372,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the long-term.
 
-**7. Dow, S&P 500 and Nasdaq all close higher as Treasury yields, oil prices retreat**
+**6. Fidelity says this phenomenon is 'reshaping markets' and recommends stocks to fight it off**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / long-term
+- Affected assets: inflation, AI, unemployment
+- Score: `42.39`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**7. CNBC Daily Open: Nvidia carries world of AI on its shoulders**
+- Source: CNBC Top News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: NVDA, CNBC, AI, Tech
+- Score: `41.99`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**8. Dow, S&P 500 and Nasdaq all close higher as Treasury yields, oil prices retreat**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: P, S, US Economy, Financial Markets
 - Score: `41.99`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. Dick’s Sporting Goods’ epic drop hits other footwear giants, as shoppers sour on retro sneakers**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: DKS, retail, footwear
-- Score: `39.0`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 **9. The debt-fueled AI build-out may already be too big to fail**
 - Source: MarketWatch Top Stories
@@ -415,7 +415,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-Noisy headline list: Why AMD can beat rivals Intel and Nvidia in the ma, Options traders are betting on the quietest Nvidia
+Noisy headline list: Why AMD can beat rivals Intel and Nvidia in the ma, Options traders are betting on the quietest Nvidia, Palo Alto Networks Could Be Worth Over $433 - 21% 
 
 ## Positioning & Flow Dashboard
 
