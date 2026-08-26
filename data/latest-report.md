@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 August 2026, 09:12:20 (HKT)
+Generated at: 26 August 2026, 12:12:11 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -348,15 +348,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Dow, S&P 500 and Nasdaq all close higher as Treasury yields, oil prices retreat**
-- Source: MarketWatch Bulletins
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: P, S, US Economy, Financial Markets
-- Score: `49.4`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**4. Gold hovers near three-month high on dollar weakness, Treasury bond buyback plans**
+**3. Gold hovers near three-month high on dollar weakness, Treasury bond buyback plans**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -364,7 +356,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. CNBC Daily Open: China in the crosshairs, Bitcoin is back and Dragon Ball Z diplomacy**
+**4. CNBC Daily Open: China in the crosshairs, Bitcoin is back and Dragon Ball Z diplomacy**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -372,7 +364,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. One Wall Street measure of market fragility just hit its highest possible level. The last time it did, volatility spiked.**
+**5. One Wall Street measure of market fragility just hit its highest possible level. The last time it did, volatility spiked.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -380,7 +372,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**7. Anthropic Expected to Tell Investors It Sees Over $30 Trillion in Potential Revenue**
+**6. Anthropic Expected to Tell Investors It Sees Over $30 Trillion in Potential Revenue**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / long-term
@@ -388,15 +380,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the long-term.
 
-**8. Canada unveils retaliatory tariffs on about $20 billion of U.S. goods**
-- Source: CNBC Business Headlines
-- Importance / impact: Medium / Negative
+**7. Dow, S&P 500 and Nasdaq all close higher as Treasury yields, oil prices retreat**
+- Source: MarketWatch Bulletins
+- Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
-- Affected assets: U.S, trade, retaliation
-- Score: `42.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Affected assets: P, S, US Economy, Financial Markets
+- Score: `41.99`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Dick’s Sporting Goods’ epic drop hits other footwear giants, as shoppers sour on retro sneakers**
+**8. Dick’s Sporting Goods’ epic drop hits other footwear giants, as shoppers sour on retro sneakers**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -404,13 +396,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.0`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**10. The debt-fueled AI build-out may already be too big to fail**
+**9. The debt-fueled AI build-out may already be too big to fail**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short
 - Affected assets: AI, Debt, Federal Reserve
 - Score: `38.67`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
+
+**10. Canada unveils retaliatory tariffs on about $20 billion of U.S. goods**
+- Source: CNBC Business Headlines
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, trade, retaliation
+- Score: `35.7`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
