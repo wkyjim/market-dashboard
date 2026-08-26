@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 August 2026, 15:12:10 (HKT)
+Generated at: 26 August 2026, 18:12:11 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **67.22 / 100** (Moderate Risk-On)
+- Regime score: **67.03 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 67.22 | Moderate Risk-On |
+| Overall regime | 67.03 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 70.0 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75, news_confirmation=70.0 |
+| news_confirmation | 66.25 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75, news_confirmation=66.25 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -327,18 +327,18 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 56, 'negative': 24, 'neutral': 0}
-- News confirmation score: `70.0`
+- Sentiment counts: {'positive': 53, 'negative': 27, 'neutral': 0}
+- News confirmation score: `66.25`
 
 ### Top Market-Moving Headlines
 
-**1. Bitcoin has beaten stocks and gold over six months. Now it’s crossed the $80,000 mark.**
+**1. Oil prices extend slide as Iran and Oman eye temporary Hormuz deal**
 - Source: MarketWatch Top Stories
-- Importance / impact: High / Positive
+- Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: BTC, cryptocurrency, digital assets
-- Score: `54.19`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Affected assets: CL=F, BZ=F, commodities, geopolitics
+- Score: `52.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **2. This chart shows exactly why investors should worry about rising yields — even if they don’t own any bonds**
 - Source: MarketWatch Top Stories
@@ -356,13 +356,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. One Wall Street measure of market fragility just hit its highest possible level. The last time it did, volatility spiked.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: market volatility, economic indicators
-- Score: `43.35`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+**4. Detroit Needs Canada More Than the Rest of the U.S. Does**
+- Source: Dow Jones US Business
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, trade, tariffs, automotive
+- Score: `45.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **5. Anthropic Expected to Tell Investors It Sees Over $30 Trillion in Potential Revenue**
 - Source: Dow Jones US Business
