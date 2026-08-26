@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 August 2026, 18:12:11 (HKT)
+Generated at: 26 August 2026, 21:12:03 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **67.03 / 100** (Moderate Risk-On)
+- Regime score: **67.28 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 67.03 | Moderate Risk-On |
+| Overall regime | 67.28 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 66.25 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75, news_confirmation=66.25 |
+| news_confirmation | 71.25 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75, news_confirmation=71.25 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -327,12 +327,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 53, 'negative': 27, 'neutral': 0}
-- News confirmation score: `66.25`
+- Sentiment counts: {'positive': 57, 'negative': 23, 'neutral': 0}
+- News confirmation score: `71.25`
 
 ### Top Market-Moving Headlines
 
-**1. Oil prices extend slide as Iran and Oman eye temporary Hormuz deal**
+**1. U.S. inflation rises again and stays well above Fed’s target. Rate hike might be in play.**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, economy, Fed policy, inflation
+- Score: `60.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Oil prices extend slide as Iran and Oman eye temporary Hormuz deal**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -340,7 +348,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. This chart shows exactly why investors should worry about rising yields — even if they don’t own any bonds**
+**3. This chart shows exactly why investors should worry about rising yields — even if they don’t own any bonds**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -348,7 +356,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Gold hovers near three-month high on dollar weakness, Treasury bond buyback plans**
+**4. Gold hovers near three-month high on dollar weakness, Treasury bond buyback plans**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -356,7 +364,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Detroit Needs Canada More Than the Rest of the U.S. Does**
+**5. Detroit Needs Canada More Than the Rest of the U.S. Does**
 - Source: Dow Jones US Business
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -364,7 +372,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Anthropic Expected to Tell Investors It Sees Over $30 Trillion in Potential Revenue**
+**6. Anthropic Expected to Tell Investors It Sees Over $30 Trillion in Potential Revenue**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / long-term
@@ -372,23 +380,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the long-term.
 
-**6. Fidelity says this phenomenon is 'reshaping markets' and recommends stocks to fight it off**
-- Source: CNBC Top News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / long-term
-- Affected assets: inflation, AI, unemployment
-- Score: `42.39`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**7. CNBC Daily Open: Nvidia carries world of AI on its shoulders**
-- Source: CNBC Top News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: NVDA, CNBC, AI, Tech
-- Score: `41.99`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**8. Dow, S&P 500 and Nasdaq all close higher as Treasury yields, oil prices retreat**
+**7. Dow, S&P 500 and Nasdaq all close higher as Treasury yields, oil prices retreat**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -396,13 +388,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.99`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. The debt-fueled AI build-out may already be too big to fail**
-- Source: MarketWatch Top Stories
+**8. Bath & Body Works Raises Earnings Outlook on Higher Profit**
+- Source: Dow Jones US Business
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: BATH, earnings, retail
+- Score: `39.37`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**9. Fidelity says this phenomenon is 'reshaping markets' and recommends stocks to fight it off**
+- Source: CNBC Top News
 - Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short
-- Affected assets: AI, Debt, Federal Reserve
-- Score: `38.67`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
+- Relevance / horizon: sector_theme / long-term
+- Affected assets: inflation, AI, unemployment
+- Score: `36.03`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 **10. Canada unveils retaliatory tariffs on about $20 billion of U.S. goods**
 - Source: CNBC Business Headlines
@@ -415,7 +415,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-Noisy headline list: Why AMD can beat rivals Intel and Nvidia in the ma, Options traders are betting on the quietest Nvidia, Palo Alto Networks Could Be Worth Over $433 - 21% 
+Noisy headline list: Why AMD can beat rivals Intel and Nvidia in the ma, Options traders are betting on the quietest Nvidia
 
 ## Positioning & Flow Dashboard
 
