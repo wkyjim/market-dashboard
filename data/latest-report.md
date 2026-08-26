@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 August 2026, 21:12:03 (HKT)
+Generated at: 27 August 2026, 00:12:00 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -340,21 +340,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `60.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Oil prices extend slide as Iran and Oman eye temporary Hormuz deal**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: CL=F, BZ=F, commodities, geopolitics
-- Score: `52.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. This chart shows exactly why investors should worry about rising yields — even if they don’t own any bonds**
+**2. This chart shows exactly why investors should worry about rising yields — even if they don’t own any bonds**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, market_risk, economic_indicators, investment_strategy
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Abercrombie Lifts Outlook as Profit, Sales Rise**
+- Source: Dow Jones US Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short term
+- Affected assets: ANF, Earnings, Retail
+- Score: `50.62`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
 
 **4. Gold hovers near three-month high on dollar weakness, Treasury bond buyback plans**
 - Source: CNBC Top News
@@ -364,21 +364,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Detroit Needs Canada More Than the Rest of the U.S. Does**
-- Source: Dow Jones US Business
-- Importance / impact: High / Negative
+**5. Oil prices extend slide as Iran and Oman eye temporary Hormuz deal**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: U.S, trade, tariffs, automotive
-- Score: `45.0`
+- Affected assets: CL=F, BZ=F, commodities, geopolitics
+- Score: `44.2`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Anthropic Expected to Tell Investors It Sees Over $30 Trillion in Potential Revenue**
-- Source: Dow Jones US Business
-- Importance / impact: Medium / Positive
-- Relevance / horizon: macro / long-term
-- Affected assets: ANT, AI, Revenue Projections
-- Score: `43.03`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the long-term.
+**6. Canada unveils retaliatory tariffs on about $20 billion of U.S. goods**
+- Source: CNBC Business Headlines
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, trade, retaliation
+- Score: `42.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **7. Dow, S&P 500 and Nasdaq all close higher as Treasury yields, oil prices retreat**
 - Source: MarketWatch Bulletins
@@ -388,7 +388,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.99`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Bath & Body Works Raises Earnings Outlook on Higher Profit**
+**8. Bath & Body Works Is Still Cautious Despite Signs of Turnaround**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -396,21 +396,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.37`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. Fidelity says this phenomenon is 'reshaping markets' and recommends stocks to fight it off**
+**9. Detroit Needs Canada More Than Rest of the U.S. Does**
+- Source: Dow Jones US Business
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, trade, tariffs, automotive
+- Score: `38.25`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Fidelity says this phenomenon is 'reshaping markets' and recommends stocks to fight it off**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / long-term
 - Affected assets: inflation, AI, unemployment
 - Score: `36.03`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**10. Canada unveils retaliatory tariffs on about $20 billion of U.S. goods**
-- Source: CNBC Business Headlines
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, trade, retaliation
-- Score: `35.7`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
