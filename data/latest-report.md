@@ -1,23 +1,23 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 27 August 2026, 06:12:07 (HKT)
+Generated at: 27 August 2026, 09:12:10 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **67.78 / 100** (Moderate Risk-On)
+- Regime score: **67.84 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
 - Breadth: **broad**; above 50DMA `80.0%`, above 200DMA `74.58%`
-- Top sector score: **Cybersecurity** `70.51`
-- Top theme score: **Healthcare Innovation** `61.94`
+- Top sector score: **Cybersecurity** `70.95`
+- Top theme score: **Cybersecurity** `63.24`
 
 ## Market Regime Score
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 67.78 | Moderate Risk-On |
+| Overall regime | 67.84 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 81.25 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, news_confirmation=81.25, volatility=80.0, market_breadth=78.75 |
+| news_confirmation | 82.5 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, news_confirmation=82.5, volatility=80.0, market_breadth=78.75 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -239,7 +239,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Sector | Score | Trend | Momentum | Stock Breadth | ETF Flow | Flow Reliability | 3M RS | Supporting / Leaders | Detracting / Laggards |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Cybersecurity | 70.51 | strong uptrend | positive | broad | 68.13 | 65.0 | 62.96 | CIBR | CIBR |
+| 1 | Cybersecurity | 70.95 | strong uptrend | positive | broad | 68.13 | 65.0 | 62.96 | CIBR | CIBR |
 | 2 | Healthcare | 68.73 | strong uptrend | positive | broad | 73.84 | 100.0 | 54.37 | VEEV, CRL, REGN | CVS, PODD, DVA |
 | 3 | Defense | 68.03 | strong uptrend | positive | broad | 54.73 | 65.0 | 57.75 | XAR | XAR |
 | 4 | Grid Infrastructure | 67.54 | strong uptrend | neutral | broad | 58.21 | 65.0 | 49.05 | GRID | GRID |
@@ -259,9 +259,9 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Healthcare Innovation | 61.94 | Positive setup | 73.84 | 100.0 | 11.95 | True | False |
-| 2 | Small Caps | 60.46 | Positive setup | 45.54 | 65.0 | 0.0 | True | False |
-| 3 | Cybersecurity | 60.2 | Neutral / watchlist | 68.13 | 65.0 | 25.61 | True | False |
+| 1 | Cybersecurity | 63.24 | Neutral / watchlist | 68.13 | 65.0 | 25.61 | True | True |
+| 2 | Healthcare Innovation | 61.94 | Positive setup | 73.84 | 100.0 | 11.95 | True | False |
+| 3 | Small Caps | 60.46 | Positive setup | 45.54 | 65.0 | 0.0 | True | False |
 | 4 | Defense | 59.72 | Positive setup | 54.73 | 65.0 | 16.07 | False | False |
 | 5 | Energy | 59.19 | Positive setup | 50.77 | 100.0 | 1.59 | False | False |
 | 6 | Financials | 57.96 | Positive setup | 50.0 | 0.0 | 10.64 | False | False |
@@ -276,13 +276,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Top 5 improving themes: Financials, Healthcare Innovation, Defense, Cybersecurity, Small Caps
 - Top 5 deteriorating themes: Crypto Infrastructure, Nuclear, Energy, Grid Infrastructure, Quality Growth
 - Strong news but weak price confirmation: none
-- Strong price but weak news confirmation: Healthcare Innovation, Small Caps, Cybersecurity
+- Strong price but weak news confirmation: Healthcare Innovation, Small Caps
 
 ### Sector / Theme Alignment
 
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cybersecurity | Cybersecurity | 70.51 | strong | 60.2 | positive | sector and theme confirmation |
+| Cybersecurity | Cybersecurity | 70.95 | strong | 63.24 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 68.73 | strong | 61.94 | positive | sector and theme confirmation |
 | Defense | Defense | 68.03 | strong | 59.72 | positive | sector and theme confirmation |
 | Grid Infrastructure | Grid Infrastructure | 67.54 | strong | 51.23 | mixed | sector stronger than related themes |
@@ -327,12 +327,28 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 65, 'negative': 15, 'neutral': 0}
-- News confirmation score: `81.25`
+- Sentiment counts: {'positive': 66, 'negative': 14, 'neutral': 0}
+- News confirmation score: `82.5`
 
 ### Top Market-Moving Headlines
 
-**1. Salesforce’s stock surges as AI momentum fuels revenue growth**
+**1. Nvidia wows Wall Street with a strong quarter and an eye-popping sales forecast**
+- Source: CNBC Investing
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: NVDA, AI, technology
+- Score: `68.64`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. CrowdStrike’s stock soars after AI fuels the cybersecurity company’s ‘best quarter in history’**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: CROW, AI, cybersecurity
+- Score: `52.49`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**3. Salesforce’s stock gets an Anthropic boost — and more highlights from earnings**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short
@@ -340,7 +356,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.49`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**2. U.S. inflation rises again and stays well above Fed’s target. Rate hike might be in play.**
+**4. U.S. inflation rises again and stays well above Fed’s target. Rate hike might be in play.**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -348,7 +364,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Okta pops 20% after topping estimates as AI threat spikes demand for identity security**
+**5. Okta pops 20% after topping estimates as AI threat spikes demand for identity security**
 - Source: CNBC Investing
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -356,15 +372,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Oil prices extend slide as Iran and Oman eye temporary Hormuz deal**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
+**6. The surprise visit by the director of the Central Intelligence Agency to Moscow this week was to deliver a warning to Russia not to attack NATO countries, according to people briefed on the visit**
+- Source: Dow Jones Politics
+- Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: CL=F, BZ=F, commodities, geopolitics
-- Score: `44.2`
+- Affected assets: NATO, U.S, security, intelligence, geopolitics
+- Score: `48.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Abercrombie Lifts Outlook as Profit, Sales Rise**
+**7. Abercrombie Lifts Outlook as Profit, Sales Rise**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short term
@@ -372,7 +388,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**6. CrowdStrike jumps 11% on record second quarter as 'Mythos moment' drives AI cyber wave**
+**8. We're raising our price target on Salesforce after results defy 'SaaSpocalypse'**
+- Source: CNBC Investing
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: SALESFORCE, AI, Partnerships
+- Score: `42.27`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**9. CrowdStrike jumps 11% on record second quarter as 'Mythos moment' drives AI cyber wave**
 - Source: CNBC Investing
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -380,37 +404,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `42.27`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. Nvidia’s stock rebounds higher as investors cheer new revenue forecast — live**
+**10. Nvidia’s stock rebounds higher as investors cheer new revenue forecast — live**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: NVDA, technology, earnings, revenue forecast
 - Score: `41.68`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**8. Salesforce’s stock surges as AI momentum fuels revenue growth**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: Salesforce, AI, Revenue Growth
-- Score: `41.68`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**9. Nvidia looks set to forecast its first $100 billion quarter — live updates**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: NVDA, technology, earnings
-- Score: `40.15`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. Detroit Needs Canada More Than Rest of the U.S. Does**
-- Source: Dow Jones US Business
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, trade, tariffs, automotive
-- Score: `38.25`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
