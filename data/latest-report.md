@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 28 August 2026, 15:12:10 (HKT)
+Generated at: 28 August 2026, 18:12:06 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **67.84 / 100** (Moderate Risk-On)
+- Regime score: **67.59 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 67.84 | Moderate Risk-On |
+| Overall regime | 67.59 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 82.5 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, news_confirmation=82.5, volatility=80.0, market_breadth=78.75 |
+| news_confirmation | 77.5 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75, news_confirmation=77.5 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -250,7 +250,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 9 | Consumer Staples | 62.56 | strong uptrend | neutral | broad | 59.68 | 65.0 | 45.88 | TGT, CLX, HSY | HRL, MO, MNST |
 | 10 | Real Estate | 60.86 | strong uptrend | neutral | broad | 69.39 | 90.0 | 46.51 | DLR, CSGP, EQIX | UDR, REG, DOC |
 | 11 | Consumer Discretionary | 57.15 | uptrend | neutral | broad | 60.95 | 65.0 | 47.0 | ABNB, GRMN, EXPE | TSLA, DECK, APTV |
-| 12 | Semiconductors | 57.06 | strong uptrend | neutral | weak | 50.0 | 0.0 | 51.7 | SOXX, SMH | SMH, SOXX |
+| 12 | Semiconductors | 57.05 | strong uptrend | neutral | weak | 50.0 | 0.0 | 51.7 | SOXX, SMH | SMH, SOXX |
 | 13 | Nuclear | 55.5 | neutral | neutral | broad | 50.0 | 0.0 | 50.82 | NLR | NLR |
 | 14 | Crypto | 50.96 | neutral | neutral | mixed | 59.59 | 65.0 | 50.0 |  |  |
 | 15 | Utilities | 34.28 | strong downtrend | neutral | weak | 46.34 | 65.0 | 43.97 | CEG, AWK, PCG | NI, EIX, NRG |
@@ -262,8 +262,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Cybersecurity | 62.85 | Neutral / watchlist | 68.13 | 65.0 | 25.61 | True | True |
 | 2 | Healthcare Innovation | 61.94 | Positive setup | 73.84 | 100.0 | 11.95 | True | False |
 | 3 | Small Caps | 60.46 | Positive setup | 45.54 | 65.0 | 0.0 | True | False |
-| 4 | Defense | 59.72 | Positive setup | 54.73 | 65.0 | 16.07 | False | False |
-| 5 | Semiconductors | 59.39 | Neutral / watchlist | 50.0 | 0.0 | 15.16 | False | False |
+| 4 | Semiconductors | 59.88 | Neutral / watchlist | 50.0 | 0.0 | 15.16 | False | False |
+| 5 | Defense | 59.72 | Positive setup | 54.73 | 65.0 | 16.07 | False | False |
 | 6 | Energy | 59.19 | Positive setup | 50.77 | 100.0 | 1.59 | False | False |
 | 7 | Financials | 57.96 | Positive setup | 50.0 | 0.0 | 10.64 | False | False |
 | 8 | Quality Growth | 56.84 | Neutral / watchlist | 63.44 | 65.0 | 32.28 | False | False |
@@ -288,12 +288,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Grid Infrastructure | Grid Infrastructure | 67.54 | strong | 51.23 | mixed | sector stronger than related themes |
 | Industrials | Defense, Grid Infrastructure | 66.5 | strong | 55.47 | positive | sector and theme confirmation |
 | Energy | Energy | 66.03 | strong | 59.19 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.89 | strong | 57.59 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.89 | strong | 57.75 | positive | sector and theme confirmation |
 | Financials | Financials | 62.91 | positive | 57.96 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 62.56 | positive | 51.7 | mixed | sector stronger than related themes |
 | Real Estate | Dividend Defensives | 60.86 | positive | 51.7 | mixed | sector stronger than related themes |
 | Consumer Discretionary | Small Caps | 57.15 | positive | 60.46 | positive | sector and theme confirmation |
-| Semiconductors | AI Infrastructure, Semiconductors | 57.06 | positive | 57.96 | positive | sector and theme confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 57.05 | positive | 58.2 | positive | sector and theme confirmation |
 | Nuclear | Nuclear | 55.5 | positive | 51.49 | mixed | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 50.96 | mixed | 33.29 | very weak | mixed confirmation |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 34.28 | very weak | 51.47 | mixed | mixed confirmation |
@@ -307,7 +307,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Energy | 63.11 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | Financials | 62.65 | Positive setup | relative_strength_60d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 5 | Defense | 61.76 | Positive setup | relative_strength_20d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
-| 6 | Semiconductors | 58.77 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
+| 6 | Semiconductors | 59.27 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
 | 7 | Cybersecurity | 58.66 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 8 | AI Infrastructure | 57.47 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
 | 9 | Quality Growth | 56.9 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
@@ -327,8 +327,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 66, 'negative': 14, 'neutral': 0}
-- News confirmation score: `82.5`
+- Sentiment counts: {'positive': 62, 'negative': 18, 'neutral': 0}
+- News confirmation score: `77.5`
 
 ### Top Market-Moving Headlines
 
@@ -404,13 +404,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.04`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**10. Is Nvidia heading for $1 trillion in annual revenue? One analyst now thinks that’s possible.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: NVDA, technology, semiconductor
+**10. PayPal Shares Dive Premarket on Report of Advent, Stripe Abandoning Takeover Plan**
+- Source: Dow Jones US Business
+- Importance / impact: Medium / Negative
+- Relevance / horizon: single_name / short term
+- Affected assets: PAY, Mergers & Acquisitions, Stock Market
 - Score: `37.29`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
