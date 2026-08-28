@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 28 August 2026, 09:12:10 (HKT)
+Generated at: 28 August 2026, 12:12:01 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **67.97 / 100** (Moderate Risk-On)
+- Regime score: **67.9 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 67.97 | Moderate Risk-On |
+| Overall regime | 67.9 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 85.0 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, news_confirmation=85.0, volatility=80.0, market_breadth=78.75 |
+| news_confirmation | 83.75 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, news_confirmation=83.75, volatility=80.0, market_breadth=78.75 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -327,8 +327,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 68, 'negative': 12, 'neutral': 0}
-- News confirmation score: `85.0`
+- Sentiment counts: {'positive': 67, 'negative': 13, 'neutral': 0}
+- News confirmation score: `83.75`
 
 ### Top Market-Moving Headlines
 
@@ -340,15 +340,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `76.5`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short.
 
-**2. CrowdStrike posts best day ever, Okta's stock pops nearly 29% as rising AI threat lifts earnings**
-- Source: CNBC Investing
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: OKTA, CRWD, AI, cybersecurity
-- Score: `55.27`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**3. Jim Cramer says Nvidia and Salesforce earnings upended two bear narratives**
+**2. Jim Cramer says Nvidia and Salesforce earnings upended two bear narratives**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -356,15 +348,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.51`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. Salesforce rockets 22% for second-best day ever, leading software rally**
-- Source: CNBC Top News
+**3. CrowdStrike posts best day ever, Okta's stock pops nearly 29% as rising AI threat lifts earnings**
+- Source: CNBC Investing
 - Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: SALESFORCE, software, AI, earnings
-- Score: `49.86`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: OKTA, CRWD, AI, cybersecurity
+- Score: `46.98`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. Trump Administration in Advanced Talks for Stake in Venezuelan Oil Fields**
+**4. Trump Administration in Advanced Talks for Stake in Venezuelan Oil Fields**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short
@@ -372,15 +364,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short.
 
-**6. SEC: 38 Entities Feigned Legitimacy as U.S. Advisers Through False Filings to Lure Retail Investors**
-- Source: SEC Press Releases
-- Importance / impact: Medium / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: ADV, U.S, regulatory, fraud, investment
-- Score: `44.75`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**7. Is Nvidia heading for $1 trillion in annual revenue? One analyst now thinks that’s possible.**
+**5. Is Nvidia heading for $1 trillion in annual revenue? One analyst now thinks that’s possible.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -388,7 +372,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.88`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. Salesforce’s stock rockets 20% and gives the software sector a major lift**
+**6. Salesforce’s stock rockets 20% and gives the software sector a major lift**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -396,7 +380,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.88`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. Okta pops 20% after topping estimates as AI threat spikes demand for identity security**
+**7. Okta pops 20% after topping estimates as AI threat spikes demand for identity security**
 - Source: CNBC Investing
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -404,13 +388,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Workday Reports Higher Profit, Revenue on AI Agent Adoption**
+**8. Workday Reports Higher Profit, Revenue on AI Agent Adoption**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / shortterm
 - Affected assets: AI, Profit, Revenue
 - Score: `43.03`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**9. Salesforce rockets 22% for second-best day ever, leading software rally**
+- Source: CNBC Top News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: SALESFORCE, software, AI, earnings
+- Score: `42.38`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. How soccer's crypto sponsorship gold rush unraveled**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: sports, crypto, sponsorship
+- Score: `41.18`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
