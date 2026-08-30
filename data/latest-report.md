@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 30 August 2026, 18:12:14 (HKT)
+Generated at: 30 August 2026, 21:12:12 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.44 / 100** (Moderate Risk-On)
+- Regime score: **66.53 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
-- Evidence quality: **83.0 / 100**
+- Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
 - Breadth: **broad**; above 50DMA `80.0%`, above 200DMA `74.58%`
 - Top sector score: **Cybersecurity** `70.51`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.44 | Moderate Risk-On |
+| Overall regime | 66.53 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 54.38 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 56.25 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75 |
 | Negative contributors |  | none |
 
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `83.0`
-- Agreement ratio: `0.6`
+- Confidence score: `86.5`
+- Agreement ratio: `0.7`
 - Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
@@ -327,8 +327,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 35, 'negative': 28, 'neutral': 17}
-- News confirmation score: `54.38`
+- Sentiment counts: {'positive': 37, 'negative': 27, 'neutral': 16}
+- News confirmation score: `56.25`
 
 ### Top Market-Moving Headlines
 
@@ -380,21 +380,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `26.77`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. The S&P 500 keeps climbing on days when stocks broadly struggle. Here’s what’s going on.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: P, S, AI, Tech
-- Score: `26.01`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**8. Ukrainian drone strike sparks fire at major Russian oil refinery**
+**7. Ukrainian drone strike sparks fire at major Russian oil refinery**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: geopolitical
 - Score: `25.65`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. Top Wall Street analysts suggest these 3 dividend stocks for consistent income**
+- Source: CNBC Markets
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / medium
+- Affected assets: dividend stocks, investment advice
+- Score: `22.61`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 **9. Corporate earnings have grown at a blistering pace. Why that likely won't last.**
 - Source: MarketWatch Bulletins
@@ -404,13 +404,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.62`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**10. Iran trade falls as Supreme Leader Khamenei urges less reliance on the U.S. dollar**
-- Source: CNBC Business Headlines
+**10. War weighs on Iran’s economy as US intensifies sanctions**
+- Source: Investing.com World News
 - Importance / impact: Low / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, geo-political
-- Score: `21.42`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Relevance / horizon: macro / short
+- Affected assets: US, Economic, Geopolitical
+- Score: `21.06`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
 
 
 ### Headline Quality Checks
