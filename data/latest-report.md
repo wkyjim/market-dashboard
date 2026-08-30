@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 30 August 2026, 15:12:06 (HKT)
+Generated at: 30 August 2026, 18:12:14 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.4 / 100** (Moderate Risk-On)
+- Regime score: **66.44 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.4 | Moderate Risk-On |
+| Overall regime | 66.44 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 53.75 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 54.38 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75 |
 | Negative contributors |  | none |
 
@@ -327,26 +327,26 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 35, 'negative': 29, 'neutral': 16}
-- News confirmation score: `53.75`
+- Sentiment counts: {'positive': 35, 'negative': 28, 'neutral': 17}
+- News confirmation score: `54.38`
 
 ### Top Market-Moving Headlines
 
-**1. Tech backlash reaches fever pitch as AI angst collides with social media fears**
+**1. Trump announces deal with Venezuela to secure more than 65 billion barrels of oil reserves**
+- Source: CNBC Top News
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, oil, trade, politics
+- Score: `56.52`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Tech backlash reaches fever pitch as AI angst collides with social media fears**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: AI, data center, tech backlash
 - Score: `46.67`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**2. Scientists monitoring data from satellites and ocean buoys declared the onset of El Niño in June. It is shaping up to be among the strongest in living memory.**
-- Source: Dow Jones Economy
-- Importance / impact: Medium / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: El Niño, weather phenomenon, industry disruption
-- Score: `43.35`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **3. Russian strike on Kyiv-area ammunition depot triggers blast, killing 37**
 - Source: CNBC Top News
@@ -356,23 +356,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**4. The Strongest El Niño in a Generation Is Wreaking Havoc on Global Economy**
-- Source: Dow Jones US News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: weather, global_economy
-- Score: `40.8`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**5. The Strongest El Niño in a Generation Is Wreaking Havoc on Global Economy**
-- Source: Dow Jones US Business
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: weather, economy, industries
-- Score: `38.25`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. The big lesson from this week's earnings: The AI buildout is not a zero-sum game**
+**4. The big lesson from this week's earnings: The AI buildout is not a zero-sum game**
 - Source: CNBC Investing
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -380,7 +364,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.85`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**7. We're in the midst of an 'Imax awakening,' CEO says. How the company makes millions**
+**5. We're in the midst of an 'Imax awakening,' CEO says. How the company makes millions**
 - Source: CNBC Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -388,7 +372,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.49`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. The S&P 500 keeps climbing on days when stocks broadly struggle. Here’s what’s going on.**
+**6. Warsh Makes the Case for Higher Rates and Raises the Bar for Standing Pat**
+- Source: Dow Jones Economy
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: A, central_bank
+- Score: `26.77`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. The S&P 500 keeps climbing on days when stocks broadly struggle. Here’s what’s going on.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -396,21 +388,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `26.01`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**9. Trump says U.S. secures control of over 65 billion barrels of Venezuelan oil**
+**8. Ukrainian drone strike sparks fire at major Russian oil refinery**
 - Source: Investing.com Economic Indicators
-- Importance / impact: Low / Positive
+- Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil, politics, trade
-- Score: `25.44`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Affected assets: geopolitical
+- Score: `25.65`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Corporate earnings have grown at a blistering pace. Why that likely won't last.**
+**9. Corporate earnings have grown at a blistering pace. Why that likely won't last.**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: earnings, growth, forecast
 - Score: `21.62`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**10. Iran trade falls as Supreme Leader Khamenei urges less reliance on the U.S. dollar**
+- Source: CNBC Business Headlines
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, geo-political
+- Score: `21.42`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
