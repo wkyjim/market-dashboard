@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 30 August 2026, 21:12:12 (HKT)
+Generated at: 31 August 2026, 00:12:12 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -244,8 +244,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Defense | 68.03 | strong uptrend | positive | broad | 54.73 | 65.0 | 57.75 | XAR | XAR |
 | 4 | Grid Infrastructure | 67.54 | strong uptrend | neutral | broad | 58.21 | 65.0 | 49.05 | GRID | GRID |
 | 5 | Industrials | 66.5 | strong uptrend | neutral | broad | 53.98 | 65.0 | 51.11 | LDOS, HII, ALLE | ROL, LII, CHRW |
-| 6 | Energy | 66.03 | strong uptrend | neutral | broad | 50.77 | 100.0 | 50.27 | APA, MPC, PSX | TRGP, HAL, TPL |
-| 7 | Technology | 66.0 | strong uptrend | neutral | broad | 53.98 | 95.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
+| 6 | Technology | 66.11 | strong uptrend | neutral | broad | 53.98 | 95.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
+| 7 | Energy | 66.03 | strong uptrend | neutral | broad | 50.77 | 100.0 | 50.27 | APA, MPC, PSX | TRGP, HAL, TPL |
 | 8 | Financials | 62.91 | strong uptrend | positive | broad | 50.0 | 0.0 | 52.34 | ARES, GPN, APO | TROW, SPGI, MSCI |
 | 9 | Consumer Staples | 62.56 | strong uptrend | neutral | broad | 59.68 | 65.0 | 45.88 | TGT, CLX, HSY | HRL, MO, MNST |
 | 10 | Real Estate | 60.86 | strong uptrend | neutral | broad | 69.39 | 90.0 | 46.51 | DLR, CSGP, EQIX | UDR, REG, DOC |
@@ -287,8 +287,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Defense | Defense | 68.03 | strong | 59.72 | positive | sector and theme confirmation |
 | Grid Infrastructure | Grid Infrastructure | 67.54 | strong | 51.23 | mixed | sector stronger than related themes |
 | Industrials | Defense, Grid Infrastructure | 66.5 | strong | 55.47 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.11 | strong | 57.1 | positive | sector and theme confirmation |
 | Energy | Energy | 66.03 | strong | 59.19 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.0 | strong | 57.1 | positive | sector and theme confirmation |
 | Financials | Financials | 62.91 | positive | 57.96 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 62.56 | positive | 51.7 | mixed | sector stronger than related themes |
 | Real Estate | Dividend Defensives | 60.86 | positive | 51.7 | mixed | sector stronger than related themes |
@@ -327,20 +327,28 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 37, 'negative': 27, 'neutral': 16}
+- Sentiment counts: {'positive': 38, 'negative': 28, 'neutral': 14}
 - News confirmation score: `56.25`
 
 ### Top Market-Moving Headlines
 
-**1. Trump announces deal with Venezuela to secure more than 65 billion barrels of oil reserves**
+**1. U.S. Treasury's Bessent faces G20 diplomacy test amid tariffs, Iran war, bond turmoil**
+- Source: CNBC Top News
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, trade, geopolitics, bond_market
+- Score: `49.4`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Trump announces deal with Venezuela to secure more than 65 billion barrels of oil reserves**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, oil, trade, politics
-- Score: `56.52`
+- Score: `48.05`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Tech backlash reaches fever pitch as AI angst collides with social media fears**
+**3. Tech backlash reaches fever pitch as AI angst collides with social media fears**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -348,7 +356,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `46.67`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**3. Russian strike on Kyiv-area ammunition depot triggers blast, killing 37**
+**4. Russian strike on Kyiv-area ammunition depot triggers blast, killing 37**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -356,31 +364,31 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**4. The big lesson from this week's earnings: The AI buildout is not a zero-sum game**
-- Source: CNBC Investing
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AI, earnings, technology
-- Score: `36.85`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**5. We're in the midst of an 'Imax awakening,' CEO says. How the company makes millions**
-- Source: CNBC Markets
-- Importance / impact: Low / Positive
+**5. These charts show how leverage-happy investors are transforming the stock market**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
-- Affected assets: IMAX, cinema, entertainment, film
-- Score: `31.49`
+- Affected assets: A, retail investors, quantitative funds, leverage
+- Score: `39.0`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**6. Warsh Makes the Case for Higher Rates and Raises the Bar for Standing Pat**
-- Source: Dow Jones Economy
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: A, central_bank
-- Score: `26.77`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+**6. What new tariff walls in U.S.-Canada trade war mean for the economy's critical metals**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / medium-term
+- Affected assets: U.S, trade war, economy, metal markets
+- Score: `36.58`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium-term.
 
-**7. Ukrainian drone strike sparks fire at major Russian oil refinery**
+**7. Here are the 3 big things we're watching in the stock market in the week ahead**
+- Source: CNBC Markets
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: Broadcom, Palo Alto Networks, earnings, jobs report
+- Score: `28.26`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**8. Ukrainian drone strike sparks fire at major Russian oil refinery**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -388,7 +396,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.65`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Top Wall Street analysts suggest these 3 dividend stocks for consistent income**
+**9. Warsh Makes the Case for Higher Rates and Raises the Bar for Standing Pat**
+- Source: Dow Jones Economy
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: A, central_bank
+- Score: `22.76`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Top Wall Street analysts suggest these 3 dividend stocks for consistent income**
 - Source: CNBC Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / medium
@@ -396,26 +412,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `22.61`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**9. Corporate earnings have grown at a blistering pace. Why that likely won't last.**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: earnings, growth, forecast
-- Score: `21.62`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**10. War weighs on Iran’s economy as US intensifies sanctions**
-- Source: Investing.com World News
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short
-- Affected assets: US, Economic, Geopolitical
-- Score: `21.06`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
-
 
 ### Headline Quality Checks
 
-Noisy headline list: SEC Filings Just Revealed the Smart Money Is Overw, Stock Market Today: Nasdaq Sinks As Fed's Warsh Ig
+Noisy headline list: Stock Market Today: Nasdaq Sinks As Fed's Warsh Ig
 
 ## Positioning & Flow Dashboard
 
