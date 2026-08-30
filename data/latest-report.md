@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 31 August 2026, 00:12:12 (HKT)
+Generated at: 31 August 2026, 03:09:37 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.53 / 100** (Moderate Risk-On)
+- Regime score: **66.59 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.53 | Moderate Risk-On |
+| Overall regime | 66.59 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 56.25 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 57.5 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75 |
 | Negative contributors |  | none |
 
@@ -327,20 +327,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 38, 'negative': 28, 'neutral': 14}
-- News confirmation score: `56.25`
+- Sentiment counts: {'positive': 38, 'negative': 26, 'neutral': 16}
+- News confirmation score: `57.5`
 
 ### Top Market-Moving Headlines
 
-**1. U.S. Treasury's Bessent faces G20 diplomacy test amid tariffs, Iran war, bond turmoil**
-- Source: CNBC Top News
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, trade, geopolitics, bond_market
-- Score: `49.4`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Trump announces deal with Venezuela to secure more than 65 billion barrels of oil reserves**
+**1. Trump announces deal with Venezuela to secure more than 65 billion barrels of oil reserves**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -348,13 +340,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.05`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Tech backlash reaches fever pitch as AI angst collides with social media fears**
+**2. Tech backlash reaches fever pitch as AI angst collides with social media fears**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: AI, data center, tech backlash
 - Score: `46.67`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**3. U.S. Treasury's Bessent faces G20 diplomacy test amid tariffs, Iran war, bond turmoil**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, trade, geopolitics, bond_market
+- Score: `41.99`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **4. Russian strike on Kyiv-area ammunition depot triggers blast, killing 37**
 - Source: CNBC Top News
@@ -366,18 +366,18 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 **5. These charts show how leverage-happy investors are transforming the stock market**
 - Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
+- Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: A, retail investors, quantitative funds, leverage
-- Score: `39.0`
+- Score: `33.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 **6. What new tariff walls in U.S.-Canada trade war mean for the economy's critical metals**
 - Source: CNBC Top News
-- Importance / impact: Medium / Negative
+- Importance / impact: Low / Negative
 - Relevance / horizon: macro / medium-term
 - Affected assets: U.S, trade war, economy, metal markets
-- Score: `36.58`
+- Score: `31.09`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium-term.
 
 **7. Here are the 3 big things we're watching in the stock market in the week ahead**
@@ -404,13 +404,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `22.76`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Top Wall Street analysts suggest these 3 dividend stocks for consistent income**
-- Source: CNBC Markets
-- Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / medium
-- Affected assets: dividend stocks, investment advice
-- Score: `22.61`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+**10. Corporate earnings have grown at a blistering pace. Why that likely won't last.**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: earnings, growth, forecast
+- Score: `21.62`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
