@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 1 September 2026, 00:11:55 (HKT)
+Generated at: 1 September 2026, 03:11:54 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.15 / 100** (Moderate Risk-On)
+- Regime score: **66.37 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.15 | Moderate Risk-On |
+| Overall regime | 66.37 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 48.75 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 53.12 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75 |
 | Negative contributors |  | none |
 
@@ -327,8 +327,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 33, 'negative': 35, 'neutral': 12}
-- News confirmation score: `48.75`
+- Sentiment counts: {'positive': 40, 'negative': 35, 'neutral': 5}
+- News confirmation score: `53.12`
 
 ### Top Market-Moving Headlines
 
@@ -340,7 +340,31 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `76.5`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. OpenAI's ad business shows blistering growth, hits $1 billion annualized revenue run rate**
+**2. Mortgage rates surge to the highest since June 2025 as new Middle East attacks push oil prices up**
+- Source: CNBC Business
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: Economic Indicators, Geopolitical Events
+- Score: `48.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. FTC sues Amazon, accusing the e-commerce giant of misleading advertisers**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: single_name / short
+- Affected assets: AMZN, FTC, legal, regulation, e-commerce
+- Score: `37.05`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**4. This software outperformer reports earnings this week. Jay Woods says to watch these key levels**
+- Source: CNBC Top News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: SNOW, earnings report, key levels, software stocks
+- Score: `37.05`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**5. OpenAI's ad business shows blistering growth, hits $1 billion annualized revenue run rate**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -348,23 +372,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.05`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**3. Economic calendar: Jobs-data-intensive week also brings Fed’s ‘beige book’**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Economic Calendar, Employment Data, Federal Reserve
-- Score: `33.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+**6. Aon CEO says insurance broker seeks to build 'premiere middle market platform' with purchase of rival USI**
+- Source: CNBC Markets
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: USI, U.S, merger, insurance, middle market
+- Score: `37.05`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**4. Fed up with bitcoin? That’s exactly why you should buy.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / short term
-- Affected assets: BTC-USD, Bitcoin, Investment Advice
-- Score: `31.5`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
+**7. FTC to File Lawsuit Alleging Amazon Deceived Advertisers**
+- Source: Dow Jones US News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: single_name / short
+- Affected assets: AMZN, FTC, lawsuit, e-commerce, retail
+- Score: `35.36`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**5. U.S.-Iran escalation shows Washington's frustration with slow-moving sanctions**
+**8. U.S.-Iran escalation shows Washington's frustration with slow-moving sanctions**
 - Source: CNBC Top News
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -372,7 +396,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.09`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Russia preparing 'massive strikes' on Ukraine's energy sites after deadliest attack of the year**
+**9. Russia preparing 'massive strikes' on Ukraine's energy sites after deadliest attack of the year**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -380,37 +404,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.34`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**7. China’s Biggest Airlines Post Over $1 Billion Loss in First Half as Fuel Shock Bites**
+**10. FTC to File Lawsuit Alleging Amazon Deceived Advertisers**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: aviation, losses, fuel
-- Score: `28.18`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**8. Warsh’s hawkish reframing puts two more Fed hikes in view: Barclays**
-- Source: Investing.com Economic Indicators
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: ^DJI, ^IXIC, SPX, central_bank, interest_rates
-- Score: `25.65`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Ukrainian drone strike sparks fire at major Russian oil refinery**
-- Source: Investing.com Economic Indicators
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: geopolitical
-- Score: `25.65`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Companies Are Paying for Price Cuts With Their Tariff Refunds**
-- Source: Dow Jones US Business
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: tariffs, price cuts, earnings
-- Score: `23.62`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Relevance / horizon: single_name / short-term
+- Affected assets: AMZN, FTC, legal, e-commerce, retail
+- Score: `29.25`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
