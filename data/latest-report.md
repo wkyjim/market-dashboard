@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 31 August 2026, 15:09:24 (HKT)
+Generated at: 31 August 2026, 18:09:23 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.25 / 100** (Moderate Risk-On)
+- Regime score: **65.94 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.25 | Moderate Risk-On |
+| Overall regime | 65.94 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,9 +27,9 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 50.62 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 44.38 | mild risk-off pressure; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75 |
-| Negative contributors |  | none |
+| Negative contributors |  | news_confirmation=44.38 |
 
 ## US Equity Strength Score
 
@@ -49,7 +49,7 @@ Window: 24h
 
 - Confidence score: `83.0`
 - Agreement ratio: `0.6`
-- Contradiction count: `0`
+- Contradiction count: `1`
 - Missing indicators: none
 - Warning flags: none
 
@@ -240,7 +240,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Sector | Score | Trend | Momentum | Stock Breadth | ETF Flow | Flow Reliability | 3M RS | Supporting / Leaders | Detracting / Laggards |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cybersecurity | 70.51 | strong uptrend | positive | broad | 68.13 | 65.0 | 62.96 | CIBR | CIBR |
-| 2 | Healthcare | 69.17 | strong uptrend | positive | broad | 73.84 | 100.0 | 54.37 | VEEV, CRL, REGN | CVS, PODD, DVA |
+| 2 | Healthcare | 68.73 | strong uptrend | positive | broad | 73.84 | 100.0 | 54.37 | VEEV, CRL, REGN | CVS, PODD, DVA |
 | 3 | Defense | 68.03 | strong uptrend | positive | broad | 54.73 | 65.0 | 57.75 | XAR | XAR |
 | 4 | Grid Infrastructure | 67.54 | strong uptrend | neutral | broad | 58.21 | 65.0 | 49.05 | GRID | GRID |
 | 5 | Industrials | 66.5 | strong uptrend | neutral | broad | 53.98 | 65.0 | 51.11 | LDOS, HII, ALLE | ROL, LII, CHRW |
@@ -283,7 +283,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
 | Cybersecurity | Cybersecurity | 70.51 | strong | 60.2 | positive | sector and theme confirmation |
-| Healthcare | Healthcare Innovation | 69.17 | strong | 61.94 | positive | sector and theme confirmation |
+| Healthcare | Healthcare Innovation | 68.73 | strong | 61.94 | positive | sector and theme confirmation |
 | Defense | Defense | 68.03 | strong | 59.72 | positive | sector and theme confirmation |
 | Grid Infrastructure | Grid Infrastructure | 67.54 | strong | 51.23 | mixed | sector stronger than related themes |
 | Industrials | Defense, Grid Infrastructure | 66.5 | strong | 55.47 | positive | sector and theme confirmation |
@@ -327,20 +327,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 27, 'negative': 26, 'neutral': 27}
-- News confirmation score: `50.62`
+- Sentiment counts: {'positive': 19, 'negative': 28, 'neutral': 33}
+- News confirmation score: `44.38`
 
 ### Top Market-Moving Headlines
 
-**1. Trump announces deal with Venezuela to secure more than 65 billion barrels of oil reserves**
-- Source: CNBC Markets
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil, trade, politics
-- Score: `48.05`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. U.S. Treasury's Bessent faces G20 diplomacy test amid tariffs, Iran war, bond turmoil**
+**1. U.S. Treasury's Bessent faces G20 diplomacy test amid tariffs, Iran war, bond turmoil**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -348,7 +340,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.99`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. These charts show how leverage-happy investors are transforming the stock market**
+**2. These charts show how leverage-happy investors are transforming the stock market**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -356,15 +348,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.15`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**4. What new tariff walls in U.S.-Canada trade war mean for the economy's critical metals**
-- Source: CNBC Top News
+**3. What new tariff walls in U.S.-Canada trade war mean for the economy's critical metals**
+- Source: CNBC Markets
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / medium-term
 - Affected assets: U.S, trade war, economy, metal markets
 - Score: `31.09`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium-term.
 
-**5. Ukrainian drone strike sparks fire at major Russian oil refinery**
+**4. Ukrainian drone strike sparks fire at major Russian oil refinery**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -372,7 +364,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.65`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Here are the 3 big things we're watching in the stock market in the week ahead**
+**5. Here are the 3 big things we're watching in the stock market in the week ahead**
 - Source: CNBC Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -380,15 +372,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.02`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. Fed Chairman Kevin Warsh put to rest some concerns about his inflation-fighting strategy but set up a potentially bigger test three weeks from now**
-- Source: Dow Jones Economy
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: A, central_bank
-- Score: `22.76`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. GM plans C$1.1 billion Canada investment as U.S. tariff pressure mounts - Reuters**
+**6. GM plans C$1.1 billion Canada investment as U.S. tariff pressure mounts - Reuters**
 - Source: Investing.com Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -396,7 +380,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `19.89`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Protagonist Therapeutics receives FDA approval for polycythemia vera drug**
+**7. Protagonist Therapeutics receives FDA approval for polycythemia vera drug**
 - Source: Investing.com Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short
@@ -404,13 +388,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `19.51`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. Top Wall Street analysts suggest these 3 dividend stocks for consistent income**
+**8. Top Wall Street analysts suggest these 3 dividend stocks for consistent income**
 - Source: CNBC Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / medium
 - Affected assets: dividend stocks, investment advice
 - Score: `19.22`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**9. Rubrik raises annual outlook as revenue jumps 38%, but shares tumble**
+- Source: Investing.com Commodities
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: Rubrik, revenue_growth, outlook_update
+- Score: `17.9`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. AI isn’t eating software after all — and the sector’s ‘epic’ rally could run through October**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AI, software sector, earnings
+- Score: `17.7`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
