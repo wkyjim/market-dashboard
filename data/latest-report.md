@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 31 August 2026, 09:09:21 (HKT)
+Generated at: 31 August 2026, 12:09:24 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -327,7 +327,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 34, 'negative': 27, 'neutral': 19}
+- Sentiment counts: {'positive': 31, 'negative': 24, 'neutral': 25}
 - News confirmation score: `54.38`
 
 ### Top Market-Moving Headlines
@@ -415,7 +415,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-Noisy headline list: Stock Market Today: Nasdaq Sinks As Fed's Warsh Ig
+No noisy headlines detected by current rules.
 
 ## Positioning & Flow Dashboard
 
