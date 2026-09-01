@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 1 September 2026, 12:12:04 (HKT)
+Generated at: 1 September 2026, 12:17:19 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -506,4 +506,4 @@ No contradiction flags were triggered by current deterministic rules.
 - Live macro rows used: `17`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
-- Positioning/flow rows loaded: `30`
+- Positioning/flow rows loaded: `50`
