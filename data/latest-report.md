@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 1 September 2026, 14:13:57 (HKT)
+Generated at: 1 September 2026, 15:08:19 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.0 / 100** (Moderate Risk-On)
+- Regime score: **66.04 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **47.39 / 100**, reliability **70.81 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.0 | Moderate Risk-On |
+| Overall regime | 66.04 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.72 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.44 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.15 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 61.25 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, market_breadth=78.75, volatility=70.0, commodity_confirmation=63.0, news_confirmation=61.25 |
+| news_confirmation | 62.5 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, market_breadth=78.75, volatility=70.0, commodity_confirmation=63.0, news_confirmation=62.5 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -64,7 +64,7 @@ Window: 24h
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude stable | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 14.92 | 2.83 | 2026-08-31 | closed |
 | ^SKEW | CBOE SKEW Index | 148.53 | 3.11 | 2026-08-31 | closed |
 | ^MOVE | ICE BofA MOVE Index | 75.32 | 7.81 | 2026-08-31 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.36 | 0.14 | 2026-09-01 | live as of 1 September 2026, 14:01:53 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.42 | 0.22 | 2026-09-01 | live as of 1 September 2026, 14:01:53 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.52 | 0.36 | 2026-09-01 | live as of 1 September 2026, 14:01:53 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.64 | 0.35 | 2026-09-01 | live as of 1 September 2026, 14:01:53 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.78 | 0.42 | 2026-09-01 | live as of 1 September 2026, 14:01:53 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.27 | 0.37 | 2026-09-01 | live as of 1 September 2026, 14:01:53 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.27 | 0.34 | 2026-09-01 | live as of 1 September 2026, 14:01:53 (HKT) |
-| HK50 | Hang Seng Futures | 25256.5 | -0.39 | 2026-09-01 | live as of 1 September 2026, 14:01:53 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.36 | 0.14 | 2026-09-01 | live as of 1 September 2026, 15:01:53 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.42 | 0.26 | 2026-09-01 | live as of 1 September 2026, 15:01:53 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.52 | 0.36 | 2026-09-01 | live as of 1 September 2026, 15:01:53 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.64 | 0.32 | 2026-09-01 | live as of 1 September 2026, 15:01:53 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.78 | 0.42 | 2026-09-01 | live as of 1 September 2026, 15:01:53 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.27 | 0.37 | 2026-09-01 | live as of 1 September 2026, 15:01:53 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.27 | 0.38 | 2026-09-01 | live as of 1 September 2026, 15:01:53 (HKT) |
+| HK50 | Hang Seng Futures | 25314.0 | -0.17 | 2026-09-01 | live as of 1 September 2026, 15:01:53 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1065.65 | -0.21 | 2026-08-31 | closed |
 | CIHc1 | SSE 50 Futures | 2915.8 | 0.21 | 2026-08-31 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.81 | -0.08 | 2026-08-31 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 82.52 | -0.73 | 2026-08-31 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 92.74 | -0.53 | 2026-08-31 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.89 | -0.18 | 2026-08-31 | closed |
-| GC=F | Gold Future | 4490.9 | 1.35 | 2026-09-01 | live as of 1 September 2026, 14:01:53 (HKT) |
-| SI=F | Silver Future | 67.49 | 1.92 | 2026-09-01 | live as of 1 September 2026, 14:01:53 (HKT) |
-| CL=F | WTI Crude Oil Future | 86.46 | 0.05 | 2026-09-01 | live as of 1 September 2026, 14:01:53 (HKT) |
-| HG=F | Copper Future | 6.73 | 2.01 | 2026-09-01 | live as of 1 September 2026, 14:01:53 (HKT) |
+| GC=F | Gold Future | 4477.3 | 1.04 | 2026-09-01 | live as of 1 September 2026, 15:01:53 (HKT) |
+| SI=F | Silver Future | 67.07 | 1.28 | 2026-09-01 | live as of 1 September 2026, 15:01:53 (HKT) |
+| CL=F | WTI Crude Oil Future | 86.45 | 0.8 | 2026-09-01 | live as of 1 September 2026, 15:01:53 (HKT) |
+| HG=F | Copper Future | 6.7 | 1.62 | 2026-09-01 | live as of 1 September 2026, 15:01:53 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 44, 'negative': 26, 'neutral': 10}
-- News confirmation score: `61.25`
+- Sentiment counts: {'positive': 46, 'negative': 26, 'neutral': 8}
+- News confirmation score: `62.5`
 
 ### Top Market-Moving Headlines
 
@@ -366,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `47.81`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Tanker struck in Hormuz, raising worries over escalation, as Trump vows to hit Iran 'hard'**
+**5. Tehran urges return to June deal, oil prices rise as Trump vows to hit Iran 'hard'**
 - Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -406,12 +406,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Tesla’s stock among S&P 500’s top gainers as investors prepare for a Cybercab launch**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short
-- Affected assets: TSLA, P, S, AI, automobile
-- Score: `33.15`
+**10. Lilly to buy Merida Biosciences for up to $2.88 billion in autoimmune drug push**
+- Source: CNBC Markets
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: LLY, merger and acquisition, biotech
+- Score: `35.43`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `26`
+- Live macro rows used: `24`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `50`
