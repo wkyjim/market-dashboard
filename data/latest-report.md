@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 1 September 2026, 18:12:08 (HKT)
+Generated at: 1 September 2026, 19:07:53 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **61.79 / 100** (Mild Risk-On)
+- Regime score: **61.78 / 100** (Mild Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **47.39 / 100**, reliability **70.81 / 100**
@@ -17,14 +17,14 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 61.79 | Mild Risk-On |
+| Overall regime | 61.78 | Mild Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 35.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.33 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.12 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 47.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.15 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 66.88 | risk-on support; Weighted headline/news confirmation score. |
@@ -61,7 +61,7 @@ Window: 24h
 | Rates | 10Y Treasury rising; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
-| Gold | Gold falling | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
+| Gold | Gold stable | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver falling | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper stable | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
@@ -76,16 +76,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7686.14 | -0.58 | 2026-08-31 | closed |
 | ^IXIC | NASDAQ Composite | 26370.89 | -0.64 | 2026-08-31 | closed |
 | ^RUT | Russell 2000 Index | 2956.45 | -1.92 | 2026-08-31 | closed |
-| ^VIX | CBOE Volatility Index | 15.85 | 6.23 | 2026-09-01 | live as of 1 September 2026, 18:01:50 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.78 | 5.76 | 2026-09-01 | live as of 1 September 2026, 19:01:50 (HKT) |
 | ^SKEW | CBOE SKEW Index | 148.53 | 3.11 | 2026-08-31 | closed |
 | ^MOVE | ICE BofA MOVE Index | 75.32 | 7.81 | 2026-08-31 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.36 | 0.19 | 2026-09-01 | live as of 1 September 2026, 18:01:50 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.43 | 0.35 | 2026-09-01 | live as of 1 September 2026, 18:01:50 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.53 | 0.56 | 2026-09-01 | live as of 1 September 2026, 18:01:50 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.65 | 0.58 | 2026-09-01 | live as of 1 September 2026, 18:01:50 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.79 | 0.69 | 2026-09-01 | live as of 1 September 2026, 18:01:50 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.28 | 0.57 | 2026-09-01 | live as of 1 September 2026, 18:01:50 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.28 | 0.58 | 2026-09-01 | live as of 1 September 2026, 18:01:50 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.35 | 0.05 | 2026-09-01 | live as of 1 September 2026, 19:01:50 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.42 | 0.26 | 2026-09-01 | live as of 1 September 2026, 19:01:50 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.53 | 0.48 | 2026-09-01 | live as of 1 September 2026, 19:01:50 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.65 | 0.5 | 2026-09-01 | live as of 1 September 2026, 19:01:50 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.79 | 0.65 | 2026-09-01 | live as of 1 September 2026, 19:01:50 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.27 | 0.47 | 2026-09-01 | live as of 1 September 2026, 19:01:50 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.27 | 0.48 | 2026-09-01 | live as of 1 September 2026, 19:01:50 (HKT) |
 | HK50 | Hang Seng Futures | 25173.5 | -0.72 | 2026-09-01 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1065.65 | -0.21 | 2026-08-31 | closed |
 | CIHc1 | SSE 50 Futures | 2915.8 | 0.21 | 2026-08-31 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 82.52 | -0.73 | 2026-08-31 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 92.74 | -0.53 | 2026-08-31 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.89 | -0.18 | 2026-08-31 | closed |
-| GC=F | Gold Future | 4418.0 | -0.3 | 2026-09-01 | live as of 1 September 2026, 18:01:50 (HKT) |
-| SI=F | Silver Future | 65.23 | -1.49 | 2026-09-01 | live as of 1 September 2026, 18:01:50 (HKT) |
-| CL=F | WTI Crude Oil Future | 87.95 | 2.55 | 2026-09-01 | live as of 1 September 2026, 18:01:50 (HKT) |
-| HG=F | Copper Future | 6.6 | 0.05 | 2026-09-01 | live as of 1 September 2026, 18:01:50 (HKT) |
+| GC=F | Gold Future | 4425.1 | -0.14 | 2026-09-01 | live as of 1 September 2026, 19:01:50 (HKT) |
+| SI=F | Silver Future | 65.48 | -1.11 | 2026-09-01 | live as of 1 September 2026, 19:01:50 (HKT) |
+| CL=F | WTI Crude Oil Future | 87.85 | 2.44 | 2026-09-01 | live as of 1 September 2026, 19:01:50 (HKT) |
+| HG=F | Copper Future | 6.6 | 0.06 | 2026-09-01 | live as of 1 September 2026, 19:01:50 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.85 pct_chg=6.23
+- VIX close=15.78 pct_chg=5.76
 
 ## News Analytics
 
@@ -374,15 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. ONEOK to Buy Brazos Midstream’s Permian Assets for $4.43 Billion**
-- Source: Dow Jones US Business
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: ONEOK, acquisition, energy, natural gas
-- Score: `48.77`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Tehran urges return to June deal, oil prices rise as Trump vows to hit Iran 'hard'**
+**6. Tehran urges return to June deal, oil prices rise as Trump vows to hit Iran 'hard'**
 - Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `47.6`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. PG&E, other utility stocks sink as California leaves investors exposed to wildfire liability**
+**7. PG&E, other utility stocks sink as California leaves investors exposed to wildfire liability**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**9. Eurozone Inflation Climbs to Near Three-Year High Ahead of ECB Meeting**
+**8. Eurozone Inflation Climbs to Near Three-Year High Ahead of ECB Meeting**
 - Source: Dow Jones Economy
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. SLB to Buy Data Center Cooling Firm Kelvion for $4.1 Billion**
+**9. SLB to Buy Data Center Cooling Firm Kelvion for $4.1 Billion**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short
 - Affected assets: SLB, merger, acquisition, data center
 - Score: `43.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short.
+
+**10. A Brazilian billionaire shareholder in JBS, the world’s largest meatpacker, met with President Trump a day before the president announced a plan to waive tariffs on beef imports**
+- Source: Dow Jones Politics
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: JBS, A, politics, trade
+- Score: `40.8`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
