@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 1 September 2026, 18:08:41 (HKT)
+Generated at: 1 September 2026, 18:12:08 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -244,7 +244,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Cybersecurity | 70.5 | strong uptrend | positive | broad | 68.01 | 65.0 | 62.96 | CIBR | CIBR |
 | 2 | Grid Infrastructure | 68.65 | strong uptrend | neutral | broad | 69.24 | 65.0 | 49.05 | GRID | GRID |
 | 3 | Healthcare | 68.51 | strong uptrend | positive | broad | 71.72 | 100.0 | 54.37 | VEEV, CRL, REGN | CVS, PODD, DVA |
-| 4 | Defense | 68.14 | strong uptrend | positive | broad | 58.12 | 65.0 | 57.75 | XAR | XAR |
+| 4 | Defense | 68.37 | strong uptrend | positive | broad | 58.12 | 65.0 | 57.75 | XAR | XAR |
 | 5 | Energy | 65.96 | strong uptrend | neutral | broad | 50.0 | 0.0 | 50.27 | APA, MPC, PSX | TRGP, HAL, TPL |
 | 6 | Technology | 65.5 | strong uptrend | neutral | broad | 50.09 | 90.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
 | 7 | Industrials | 65.43 | strong uptrend | neutral | broad | 43.34 | 65.0 | 51.11 | LDOS, HII, ALLE | ROL, LII, CHRW |
@@ -263,8 +263,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Small Caps | 61.8 | Positive setup | 58.98 | 65.0 | 0.0 | True | False |
 | 2 | Healthcare Innovation | 61.73 | Positive setup | 71.72 | 100.0 | 11.95 | True | False |
-| 3 | Defense | 60.78 | Positive setup | 58.12 | 65.0 | 16.07 | True | False |
-| 4 | Cybersecurity | 60.19 | Neutral / watchlist | 68.01 | 65.0 | 25.61 | True | False |
+| 3 | Cybersecurity | 60.19 | Neutral / watchlist | 68.01 | 65.0 | 25.61 | True | False |
+| 4 | Defense | 60.06 | Positive setup | 58.12 | 65.0 | 16.07 | True | False |
 | 5 | Energy | 59.12 | Positive setup | 50.0 | 0.0 | 1.59 | False | False |
 | 6 | Financials | 57.96 | Positive setup | 50.0 | 0.0 | 10.64 | False | False |
 | 7 | Quality Growth | 56.13 | Neutral / watchlist | 56.3 | 65.0 | 32.28 | False | False |
@@ -278,7 +278,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Top 5 improving themes: Financials, Healthcare Innovation, Defense, Cybersecurity, Small Caps
 - Top 5 deteriorating themes: Crypto Infrastructure, Nuclear, Energy, Grid Infrastructure, Quality Growth
 - Strong news but weak price confirmation: none
-- Strong price but weak news confirmation: Small Caps, Healthcare Innovation, Defense, Cybersecurity
+- Strong price but weak news confirmation: Small Caps, Healthcare Innovation, Cybersecurity, Defense
 
 ### Sector / Theme Alignment
 
@@ -287,10 +287,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 70.5 | strong | 60.19 | positive | sector and theme confirmation |
 | Grid Infrastructure | Grid Infrastructure | 68.65 | strong | 52.33 | mixed | sector stronger than related themes |
 | Healthcare | Healthcare Innovation | 68.51 | strong | 61.73 | positive | sector and theme confirmation |
-| Defense | Defense | 68.14 | strong | 60.78 | positive | sector and theme confirmation |
+| Defense | Defense | 68.37 | strong | 60.06 | positive | sector and theme confirmation |
 | Energy | Energy | 65.96 | strong | 59.12 | positive | sector and theme confirmation |
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.5 | strong | 55.82 | positive | sector and theme confirmation |
-| Industrials | Defense, Grid Infrastructure | 65.43 | strong | 56.55 | positive | sector and theme confirmation |
+| Industrials | Defense, Grid Infrastructure | 65.43 | strong | 56.2 | positive | sector and theme confirmation |
 | Financials | Financials | 62.91 | positive | 57.96 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 61.31 | positive | 51.21 | mixed | sector stronger than related themes |
 | Real Estate | Dividend Defensives | 58.48 | positive | 51.21 | mixed | sector stronger than related themes |
@@ -308,7 +308,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 2 | Healthcare Innovation | 63.24 | Positive setup | relative_strength_60d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 3 | Energy | 63.11 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | Financials | 62.65 | Positive setup | relative_strength_60d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
-| 5 | Defense | 60.26 | Positive setup | relative_strength_20d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
+| 5 | Defense | 61.76 | Positive setup | relative_strength_20d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 6 | Semiconductors | 59.27 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
 | 7 | Cybersecurity | 59.16 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 8 | AI Infrastructure | 57.47 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
@@ -350,7 +350,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `65.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Amazon’s stock slips as the FTC alleges billions of dollars in hidden ad fees**
+**3. Global bond yields soar to multi-decade highs as Middle East turmoil reignites inflation fears**
+- Source: CNBC Business News
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.K, U.S, inflation, geo-political, bond market
+- Score: `54.4`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. Amazon’s stock slips as the FTC alleges billions of dollars in hidden ad fees**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -358,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Global Bond Yields Surge as Oil Prices Fuel Inflation Worries**
+**5. Global Bond Yields Surge as Oil Prices Fuel Inflation Worries**
 - Source: Dow Jones Economy
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. ONEOK to Buy Brazos Midstream’s Permian Assets for $4.43 Billion**
+**6. ONEOK to Buy Brazos Midstream’s Permian Assets for $4.43 Billion**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Tehran urges return to June deal, oil prices rise as Trump vows to hit Iran 'hard'**
+**7. Tehran urges return to June deal, oil prices rise as Trump vows to hit Iran 'hard'**
 - Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `47.6`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. PG&E, other utility stocks sink as California leaves investors exposed to wildfire liability**
+**8. PG&E, other utility stocks sink as California leaves investors exposed to wildfire liability**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. Eurozone Inflation Climbs to Near Three-Year High Ahead of ECB Meeting**
+**9. Eurozone Inflation Climbs to Near Three-Year High Ahead of ECB Meeting**
 - Source: Dow Jones Economy
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -398,7 +406,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**9. SLB to Buy Data Center Cooling Firm Kelvion for $4.1 Billion**
+**10. SLB to Buy Data Center Cooling Firm Kelvion for $4.1 Billion**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short
@@ -406,18 +414,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short.
 
-**10. A Brazilian billionaire shareholder in JBS, the world’s largest meatpacker, met with President Trump a day before the president announced a plan to waive tariffs on beef imports**
-- Source: Dow Jones Politics
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: JBS, A, politics, trade
-- Score: `40.8`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
 
 ### Headline Quality Checks
 
-Noisy headline list: The 10-year Treasury yield is breaking out and 5% , Oil Prices Rise as Renewed U.S.-Iran Fighting Deep, Broadcom reports earnings this week. Mike Khouw sa, Stock market today: Dow, S&P 500, Nasdaq fall as U
+Noisy headline list: The 10-year Treasury yield is breaking out and 5% , Oil Prices Rise as Renewed U.S.-Iran Fighting Deep, Broadcom reports earnings this week. Mike Khouw sa, Stock market today: Dow, S&P 500, Nasdaq futures f, Stock market today: Dow, S&P 500, Nasdaq fall as U
 
 ## Positioning & Flow Dashboard
 
