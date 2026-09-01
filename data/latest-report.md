@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 1 September 2026, 06:12:03 (HKT)
+Generated at: 1 September 2026, 09:12:03 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **66.56 / 100** (Moderate Risk-On)
+- Regime score: **66.69 / 100** (Moderate Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.88 / 100**, reliability **71.28 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 66.56 | Moderate Risk-On |
+| Overall regime | 66.69 | Moderate Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 55.29 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.49 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 56.88 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 59.38 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=93.75, volatility=80.0, market_breadth=78.75 |
 | Negative contributors |  | none |
 
@@ -327,8 +327,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 42, 'negative': 31, 'neutral': 7}
-- News confirmation score: `56.88`
+- Sentiment counts: {'positive': 44, 'negative': 29, 'neutral': 7}
+- News confirmation score: `59.38`
 
 ### Top Market-Moving Headlines
 
@@ -340,15 +340,63 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `65.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Mortgage rates surge to the highest since June 2025 as new Middle East attacks push oil prices up**
-- Source: CNBC Business
+**2. Amazon’s stock slips as the FTC alleges billions of dollars in hidden ad fees**
+- Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: Economic Indicators, Geopolitical Events
+- Affected assets: AMZN, FTC, regulatory, advertising
+- Score: `60.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. PG&E, other utility stocks sink as California leaves investors exposed to wildfire liability**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: A, E, PG, wildfire liability, legislation
+- Score: `51.0`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**4. ONEOK to Buy Brazos Midstream’s Permian Assets for $4.43 Billion**
+- Source: Dow Jones US Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: ONEOK, acquisition, energy, natural gas
+- Score: `48.77`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. A Brazilian billionaire shareholder in JBS, the world’s largest meatpacker, met with President Trump a day before the president announced a plan to waive tariffs on beef imports**
+- Source: Dow Jones Politics
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: JBS, A, politics, trade
 - Score: `48.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. FTC sues Amazon, accusing the e-commerce giant of misleading advertisers**
+**6. SLB to Buy Data Center Cooling Firm Kelvion for $4.1 Billion**
+- Source: Dow Jones US Business
+- Importance / impact: Medium / Positive
+- Relevance / horizon: macro / short
+- Affected assets: SLB, merger, acquisition, data center
+- Score: `43.03`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short.
+
+**7. Mortgage rates surge to the highest since June 2025 as new Middle East attacks push oil prices up**
+- Source: CNBC Business
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: Economic Indicators, Geopolitical Events
+- Score: `40.8`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. Tesla’s stock among S&P 500’s top gainers as investors prepare for a Cybercab launch**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short
+- Affected assets: TSLA, P, S, AI, automobile
+- Score: `39.0`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**9. FTC sues Amazon, accusing the e-commerce giant of misleading advertisers**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short
@@ -356,66 +404,18 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.05`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**4. This software outperformer reports earnings this week. Jay Woods says to watch these key levels**
-- Source: CNBC Top News
+**10. Trump says U.S. growth could hit 20%. It’s happened only once since WWII**
+- Source: CNBC Business Headlines
 - Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: SNOW, earnings report, key levels, software stocks
-- Score: `37.05`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**5. OpenAI's ad business shows blistering growth, hits $1 billion annualized revenue run rate**
-- Source: CNBC Top News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: OPENAI, AI, Revenue Growth, Ad Business
-- Score: `37.05`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**6. FTC to File Lawsuit Alleging Amazon Deceived Advertisers**
-- Source: Dow Jones US News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: single_name / short
-- Affected assets: AMZN, FTC, lawsuit, e-commerce, retail
-- Score: `35.36`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**7. Amazon’s stock falls as FTC alleges billions of dollars in hidden ad fees**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short
-- Affected assets: AMZN, FTC, regulation, advertising, legal
-- Score: `32.11`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**8. U.S. stocks stuck on losses in final hour as Trump threatens fresh Iran strikes**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / shortterm
-- Affected assets: U.S, Geopolitical
-- Score: `32.11`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**9. Aon CEO says insurance broker seeks to build 'premiere middle market platform' with purchase of rival USI**
-- Source: CNBC Markets
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: USI, U.S, merger, insurance, middle market
-- Score: `31.49`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. U.S.-Iran escalation shows Washington's frustration with slow-moving sanctions**
-- Source: CNBC Top News
-- Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: U.S, geopolitical, sanctions
-- Score: `31.09`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Affected assets: U.S, WWII, economy, government, inflation
+- Score: `36.4`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
 
-Noisy headline list: Broadcom reports earnings this week. Mike Khouw sa
+Noisy headline list: The 10-year Treasury yield is breaking out and 5% , Broadcom reports earnings this week. Mike Khouw sa, Stock market today: Dow, S&P 500, Nasdaq fall as U
 
 ## Positioning & Flow Dashboard
 
