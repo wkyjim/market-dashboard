@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 1 September 2026, 23:09:10 (HKT)
+Generated at: 2 September 2026, 00:12:07 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **65.1 / 100** (Moderate Risk-On)
+- Regime score: **64.97 / 100** (Mild Risk-On)
 - US equity strength: **81.44 / 100** (strong)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **47.39 / 100**, reliability **70.81 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 65.1 | Moderate Risk-On |
+| Overall regime | 64.97 | Mild Risk-On |
 | equity_trend | 93.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 78.75 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.21 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 47.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.15 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 63.12 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=93.75, market_breadth=78.75, volatility=70.0, news_confirmation=63.12 |
+| news_confirmation | 60.62 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=93.75, market_breadth=78.75, volatility=70.0, news_confirmation=60.62 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,26 +329,26 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 49, 'negative': 28, 'neutral': 3}
-- News confirmation score: `63.12`
+- Sentiment counts: {'positive': 47, 'negative': 30, 'neutral': 3}
+- News confirmation score: `60.62`
 
 ### Top Market-Moving Headlines
 
-**1. Global oil prices extend move over $90 after report of two tankers struck in Hormuz**
+**1. Global oil prices surge above $92 a barrel after report of strikes on two tankers in the Strait of Hormuz**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
-- Affected assets: oil_prices, geo_political_risk
+- Affected assets: U.S, oil_prices, geo_political_risk
 - Score: `68.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Oil prices extend move over $90 after report of two tankers struck in Hormuz**
+**2. Global oil prices are surging after reports of more Hormuz trouble**
 - Source: MarketWatch Bulletins
-- Importance / impact: High / Positive
+- Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: oil, geopolitical
-- Score: `57.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Affected assets: WFC, XOM, CVX, oil_prices, geopolitical_risk
+- Score: `64.6`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **3. Global bond yields soar to multi-decade highs as Middle East turmoil reignites inflation fears**
 - Source: CNBC Business News
@@ -374,7 +374,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Tehran urges return to June deal, oil prices rise as Trump vows to hit Iran 'hard'**
+**6. Oil prices extend move over $90 after report of two tankers struck in Hormuz**
+- Source: MarketWatch Bulletins
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: oil, geopolitical
+- Score: `48.45`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. Tehran urges return to June deal, oil prices rise as Trump vows to hit Iran 'hard'**
 - Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `47.6`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Euro zone inflation is back above 3%. Higher interest rates are likely to follow**
+**8. Euro zone inflation is back above 3%. Higher interest rates are likely to follow**
 - Source: CNBC Economy
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.9`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. PG&E, other utility stocks sink as California leaves investors exposed to wildfire liability**
+**9. PG&E, other utility stocks sink as California leaves investors exposed to wildfire liability**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -398,7 +406,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**9. Eurozone Inflation Climbs to Near Three-Year High Ahead of ECB Meeting**
+**10. Eurozone Inflation Climbs to Near Three-Year High Ahead of ECB Meeting**
 - Source: Dow Jones Economy
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -406,18 +414,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. A Brazilian billionaire shareholder in JBS, the world’s largest meatpacker, met with President Trump a day before the president announced a plan to waive tariffs on beef imports**
-- Source: Dow Jones Politics
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: JBS, A, politics, trade
-- Score: `40.8`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
 
 ### Headline Quality Checks
 
-Noisy headline list: The 10-year Treasury yield is breaking out and 5% , Oil Prices Rise as Renewed U.S.-Iran Fighting Deep, Why Dell’s stock stands to gain from developments , Broadcom reports earnings this week. Mike Khouw sa, Stock market today: Dow, S&P 500, Nasdaq futures f, Stock market today: Dow, S&P 500, Nasdaq fall as U
+Noisy headline list: The 10-year Treasury yield is breaking out and 5% , Oil Prices Rise as Renewed U.S.-Iran Fighting Deep, Why Dell’s stock stands to gain from developments , Broadcom reports earnings this week. Mike Khouw sa, Stock market today: Dow, S&P 500, Nasdaq drop as r
 
 ## Positioning & Flow Dashboard
 
