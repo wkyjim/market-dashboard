@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 September 2026, 02:07:21 (HKT)
+Generated at: 3 September 2026, 03:08:43 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **61.79 / 100** (Mild Risk-On)
+- Regime score: **61.6 / 100** (Mild Risk-On)
 - US equity strength: **68.7 / 100** (constructive)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **46.97 / 100**, reliability **71.51 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 61.79 | Mild Risk-On |
+| Overall regime | 61.6 | Mild Risk-On |
 | equity_trend | 71.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 68.17 | risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.49 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 55.42 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.83 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 63.12 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=80.0, equity_trend=71.25, market_breadth=68.17, news_confirmation=63.12, commodity_confirmation=63.0 |
+| news_confirmation | 59.38 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=80.0, equity_trend=71.25, market_breadth=68.17, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7663.89 | 0.42 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
-| ^IXIC | NASDAQ Composite | 26188.62 | 0.34 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
-| ^RUT | Russell 2000 Index | 2950.59 | 1.04 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
-| ^VIX | CBOE Volatility Index | 15.26 | -6.61 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
+| ^GSPC | S&P 500 | 7663.62 | 0.42 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
+| ^IXIC | NASDAQ Composite | 26187.5 | 0.34 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
+| ^RUT | Russell 2000 Index | 2955.34 | 1.21 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.26 | -6.61 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
 | ^SKEW | CBOE SKEW Index | 149.23 | 0.47 | 2026-09-01 | closed |
 | ^MOVE | ICE BofA MOVE Index | 77.88 | 3.39 | 2026-09-01 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.38 | -0.29 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.45 | -0.25 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.55 | -0.16 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.66 | -0.11 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.79 | -0.06 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.27 | -0.04 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.27 | -0.03 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.39 | -0.19 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.45 | -0.12 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.55 | -0.12 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.67 | -0.08 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.8 | 0.02 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.27 | 0.03 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.27 | -0.01 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
 | HK50 | Hang Seng Futures | 25248.0 | 0.27 | 2026-09-02 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1051.9 | -2.43 | 2026-09-01 | closed |
 | CIHc1 | SSE 50 Futures | 2929.0 | 0.45 | 2026-09-01 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.17 | 0.09 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 105.28 | 0.06 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 95.3 | 0.09 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 218.84 | 0.57 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 121.62 | 0.34 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 257.12 | 0.46 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 81.86 | -0.01 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 92.12 | 0.03 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.62 | 0.04 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
-| GC=F | Gold Future | 4423.4 | 1.73 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
-| SI=F | Silver Future | 65.64 | 1.58 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
-| CL=F | WTI Crude Oil Future | 91.12 | 1.0 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
-| HG=F | Copper Future | 6.6 | 1.48 | 2026-09-02 | live as of 3 September 2026, 02:01:49 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.15 | 0.06 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 105.26 | 0.04 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 95.25 | 0.05 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 218.79 | 0.55 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 121.68 | 0.39 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 257.07 | 0.44 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 81.87 | 0.0 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 92.11 | 0.01 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.62 | 0.04 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
+| GC=F | Gold Future | 4422.2 | 1.71 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
+| SI=F | Silver Future | 65.71 | 1.69 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
+| CL=F | WTI Crude Oil Future | 90.84 | 0.69 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
+| HG=F | Copper Future | 6.6 | 1.46 | 2026-09-02 | live as of 3 September 2026, 03:01:48 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -329,26 +329,26 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 50, 'negative': 29, 'neutral': 1}
-- News confirmation score: `63.12`
+- Sentiment counts: {'positive': 47, 'negative': 32, 'neutral': 1}
+- News confirmation score: `59.38`
 
 ### Top Market-Moving Headlines
 
-**1. Chevron to expand in Venezuela operations, doubling production through $7 billion investment**
-- Source: CNBC Top News
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / medium-term
-- Affected assets: Chevron, U.S, energy, investment, production
-- Score: `72.67`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the medium-term.
-
-**2. U.S. crude near $90 as Iran retaliates with strikes on Kuwait, Jordan and Bahrain**
+**1. Brent oil price near $96 as Iran retaliates with strikes on U.S. Gulf allies**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short
 - Affected assets: U.S, geo-political
 - Score: `72.67`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short.
+
+**2. Chevron to expand in Venezuela operations, doubling production through $7 billion investment**
+- Source: CNBC Top News
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / medium-term
+- Affected assets: Chevron, U.S, energy, investment, production
+- Score: `72.67`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the medium-term.
 
 **3. Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz**
 - Source: MarketWatch Bulletins
@@ -374,7 +374,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.8`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. 10-year U.S. Treasury yield hits highest level since November 2023**
+**6. Chevron to Invest $7 Billion in Venezuela, Doubling Production**
+- Source: Dow Jones US Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: Chevron, ENI, U.S, oil-and-gas, investment
+- Score: `57.38`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. 10-year U.S. Treasury yield hits highest level since November 2023**
 - Source: CNBC Markets
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. GoPro joins AI bonanza with pivot into data centers as shares skyrocket 40%**
+**8. GoPro joins AI bonanza with pivot into data centers as shares skyrocket 40%**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / medium-term
@@ -390,21 +398,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.51`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. A jittery Treasury market and the prospect of Fed rate increases risk making life more expensive for already cost-pressured Americans**
+**9. A jittery Treasury market and the prospect of Fed rate increases risk making life more expensive for already cost-pressured Americans**
 - Source: Dow Jones Economy
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: A, Treasury market, Fed rate increases
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Chevron to Invest $7 Billion in Venezuela, Doubling Production**
-- Source: Dow Jones US Business
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: Chevron, oil-and-gas, investment, production
-- Score: `48.77`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **10. Global bond rout gathers pace as inflation fears mount**
 - Source: CNBC Top News
