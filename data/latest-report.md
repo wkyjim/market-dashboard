@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2 September 2026, 21:08:57 (HKT)
+Generated at: 2 September 2026, 21:12:08 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -334,7 +334,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. U.S. crude near $90 as Iran retaliates with strikes on Kuwait, Jordan and Bahrain**
+**1. Chevron will expand Venezuela operations, more than doubling production through $7 billion investment**
+- Source: CNBC Top News
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / medium-term
+- Affected assets: Chevron, U.S, energy, investment, production
+- Score: `72.67`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the medium-term.
+
+**2. U.S. crude near $90 as Iran retaliates with strikes on Kuwait, Jordan and Bahrain**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short
@@ -342,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `72.67`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short.
 
-**2. Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz**
+**3. Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -350,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `65.21`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Dow ends 400 points down as stocks fall, oil spikes after new U.S.-Iran strikes**
+**4. Dow ends 400 points down as stocks fall, oil spikes after new U.S.-Iran strikes**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -358,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `61.77`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz**
+**5. Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -366,7 +374,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.8`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. 10-year U.S. Treasury yield hits highest level since November 2023**
+**6. Chevron to Invest $7 Billion in Venezuela, Doubling Production**
+- Source: Dow Jones US Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: Chevron, oil-and-gas, investment, production
+- Score: `57.38`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. 10-year U.S. Treasury yield hits highest level since November 2023**
 - Source: CNBC Markets
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -374,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Global oil prices are surging after reports of more Hormuz trouble**
+**8. Global oil prices are surging after reports of more Hormuz trouble**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -382,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.91`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. GoPro joins AI bonanza with pivot into data centers as shares skyrocket 40%**
+**9. GoPro joins AI bonanza with pivot into data centers as shares skyrocket 40%**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / medium-term
@@ -390,29 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.51`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. Dell shares rise as demand jumps for AI servers — here’s what Wall Street analysts are saying happens next**
+**10. Dell shares rise as demand jumps for AI servers — here’s what Wall Street analysts are saying happens next**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: DELL, AI, technology
 - Score: `49.73`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**9. Global bond rout gathers pace as inflation fears mount**
-- Source: CNBC Top News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: inflation, bond market
-- Score: `48.45`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**10. CNBC Daily Open: Markets trapped in Iran doom loop**
-- Source: CNBC Top News
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: A, CNBC, U.S, geopolitical_risk, oil_prices
-- Score: `48.45`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
