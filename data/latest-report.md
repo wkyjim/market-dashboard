@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 September 2026, 03:08:43 (HKT)
+Generated at: 3 September 2026, 03:12:11 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -10,8 +10,8 @@ Window: 24h
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **46.97 / 100**, reliability **71.51 / 100**
 - Breadth: **healthy**; above 50DMA `51.67%`, above 200DMA `71.19%`
-- Top sector score: **Cybersecurity** `69.95`
-- Top theme score: **Cybersecurity** `59.64`
+- Top sector score: **Cybersecurity** `70.16`
+- Top theme score: **Cybersecurity** `63.4`
 
 ## Market Regime Score
 
@@ -241,15 +241,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Sector | Score | Trend | Momentum | Stock Breadth | ETF Flow | Flow Reliability | 3M RS | Supporting / Leaders | Detracting / Laggards |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Cybersecurity | 69.95 | strong uptrend | positive | broad | 62.5 | 65.0 | 62.96 | CIBR | CIBR |
+| 1 | Cybersecurity | 70.16 | strong uptrend | positive | broad | 62.5 | 65.0 | 62.96 | CIBR | CIBR |
 | 2 | Healthcare | 66.91 | strong uptrend | positive | broad | 55.71 | 95.0 | 54.37 | VEEV, CRL, REGN | CVS, PODD, DVA |
 | 3 | Energy | 65.64 | strong uptrend | neutral | broad | 46.81 | 95.0 | 50.27 | APA, MPC, PSX | TRGP, HAL, TPL |
 | 4 | Financials | 62.91 | strong uptrend | positive | broad | 50.0 | 0.0 | 52.34 | ARES, GPN, APO | TROW, SPGI, MSCI |
-| 5 | Technology | 61.08 | strong uptrend | neutral | mixed | 48.9 | 95.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
+| 5 | Technology | 61.11 | strong uptrend | neutral | mixed | 48.9 | 95.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
 | 6 | Consumer Staples | 60.78 | strong uptrend | neutral | broad | 41.87 | 65.0 | 45.88 | TGT, CLX, HSY | HRL, MO, MNST |
 | 7 | Nuclear | 55.5 | neutral | neutral | broad | 50.0 | 0.0 | 50.82 | NLR | NLR |
 | 8 | Grid Infrastructure | 51.92 | downtrend | neutral | weak | 68.97 | 65.0 | 49.05 | GRID | GRID |
-| 9 | Crypto | 51.84 | neutral | neutral | mixed | 68.4 | 65.0 | 50.0 |  |  |
+| 9 | Crypto | 51.57 | neutral | neutral | mixed | 68.4 | 65.0 | 50.0 |  |  |
 | 10 | Semiconductors | 51.3 | neutral | neutral | weak | 50.0 | 0.0 | 51.7 | SOXX, SMH | SMH, SOXX |
 | 11 | Industrials | 49.72 | downtrend | neutral | weak | 53.22 | 65.0 | 51.11 | LDOS, HII, ALLE | ROL, LII, CHRW |
 | 12 | Defense | 45.18 | strong downtrend | positive | weak | 56.27 | 65.0 | 57.75 | XAR | XAR |
@@ -261,7 +261,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Cybersecurity | 59.64 | Neutral / watchlist | 62.5 | 65.0 | 25.61 | False | False |
+| 1 | Cybersecurity | 63.4 | Positive setup | 62.5 | 65.0 | 25.61 | True | False |
 | 2 | Energy | 58.8 | Positive setup | 46.81 | 95.0 | 1.59 | False | False |
 | 3 | Healthcare Innovation | 58.13 | Positive setup | 55.71 | 95.0 | 11.95 | False | False |
 | 4 | Financials | 57.96 | Positive setup | 50.0 | 0.0 | 10.64 | False | False |
@@ -278,21 +278,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Top 5 improving themes: Financials, Healthcare Innovation, Defense, Cybersecurity, Small Caps
 - Top 5 deteriorating themes: Crypto Infrastructure, Nuclear, Energy, Grid Infrastructure, Quality Growth
 - Strong news but weak price confirmation: none
-- Strong price but weak news confirmation: none
+- Strong price but weak news confirmation: Cybersecurity
 
 ### Sector / Theme Alignment
 
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cybersecurity | Cybersecurity | 69.95 | strong | 59.64 | positive | sector and theme confirmation |
+| Cybersecurity | Cybersecurity | 70.16 | strong | 63.4 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 66.91 | strong | 58.13 | positive | sector and theme confirmation |
 | Energy | Energy | 65.64 | strong | 58.8 | positive | sector and theme confirmation |
 | Financials | Financials | 62.91 | positive | 57.96 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 61.08 | positive | 54.33 | mixed | sector stronger than related themes |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 61.11 | positive | 54.33 | mixed | sector stronger than related themes |
 | Consumer Staples | Dividend Defensives | 60.78 | positive | 51.28 | mixed | sector stronger than related themes |
 | Nuclear | Nuclear | 55.5 | positive | 46.49 | mixed | sector stronger than related themes |
 | Grid Infrastructure | Grid Infrastructure | 51.92 | mixed | 46.3 | mixed | mixed confirmation |
-| Crypto | Crypto Infrastructure | 51.84 | mixed | 44.17 | weak | mixed confirmation |
+| Crypto | Crypto Infrastructure | 51.57 | mixed | 44.17 | weak | mixed confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 51.3 | mixed | 53.25 | mixed | mixed confirmation |
 | Industrials | Defense, Grid Infrastructure | 49.72 | mixed | 48.09 | mixed | mixed confirmation |
 | Defense | Defense | 45.18 | mixed | 49.87 | mixed | mixed confirmation |
@@ -307,7 +307,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Energy | 63.16 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 2 | Financials | 62.6 | Positive setup | relative_strength_60d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 3 | Healthcare Innovation | 60.73 | Positive setup | relative_strength_60d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
-| 4 | Cybersecurity | 59.02 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 4 | Cybersecurity | 60.02 | Positive setup | trend_persistence, breadth, news_acceleration, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 5 | Quality Growth | 56.88 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
 | 6 | AI Infrastructure | 55.77 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
 | 7 | Dividend Defensives | 54.7 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
