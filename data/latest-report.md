@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2 September 2026, 09:16:49 (HKT)
+Generated at: 2 September 2026, 10:13:49 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 16.34 | 9.52 | 2026-09-01 | closed |
 | ^SKEW | CBOE SKEW Index | 149.23 | 0.47 | 2026-09-01 | closed |
 | ^MOVE | ICE BofA MOVE Index | 77.88 | 3.39 | 2026-09-01 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.41 | 0.14 | 2026-09-02 | live as of 2 September 2026, 09:01:53 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.47 | 0.19 | 2026-09-02 | live as of 2 September 2026, 09:01:53 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.57 | 0.2 | 2026-09-02 | live as of 2 September 2026, 09:01:53 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.68 | 0.2 | 2026-09-02 | live as of 2 September 2026, 09:01:53 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.81 | 0.15 | 2026-09-02 | live as of 2 September 2026, 09:01:53 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.29 | 0.17 | 2026-09-02 | live as of 2 September 2026, 09:01:53 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.28 | 0.14 | 2026-09-02 | live as of 2 September 2026, 09:01:53 (HKT) |
-| HK50 | Hang Seng Futures | 25173.5 | -0.72 | 2026-09-01 | closed |
+| US2YT=X | United States 2-Year Treasury Yield | 4.41 | 0.27 | 2026-09-02 | live as of 2 September 2026, 10:01:51 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.47 | 0.26 | 2026-09-02 | live as of 2 September 2026, 10:01:51 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.57 | 0.19 | 2026-09-02 | live as of 2 September 2026, 10:01:51 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.68 | 0.23 | 2026-09-02 | live as of 2 September 2026, 10:01:51 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.81 | 0.33 | 2026-09-02 | live as of 2 September 2026, 10:01:51 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.29 | 0.38 | 2026-09-02 | live as of 2 September 2026, 10:01:51 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.29 | 0.35 | 2026-09-02 | live as of 2 September 2026, 10:01:51 (HKT) |
+| HK50 | Hang Seng Futures | 25010.0 | -0.68 | 2026-09-02 | live as of 2 September 2026, 10:01:51 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1051.9 | -2.43 | 2026-09-01 | closed |
 | CIHc1 | SSE 50 Futures | 2929.0 | 0.45 | 2026-09-01 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.1 | -0.89 | 2026-09-01 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.59 | -0.37 | 2026-09-01 | closed |
 | GC=F | Gold Future | 4375.7 | -1.25 | 2026-09-01 | closed |
 | SI=F | Silver Future | 64.66 | -2.36 | 2026-09-01 | closed |
-| CL=F | WTI Crude Oil Future | 91.82 | 1.15 | 2026-09-02 | live as of 2 September 2026, 09:01:53 (HKT) |
+| CL=F | WTI Crude Oil Future | 91.37 | 0.65 | 2026-09-02 | live as of 2 September 2026, 10:01:51 (HKT) |
 | HG=F | Copper Future | 6.53 | -0.9 | 2026-09-01 | closed |
 
 ## Market Dispersion Analysis
@@ -347,24 +347,24 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, geopolitical, oil_market
-- Score: `72.67`
+- Score: `61.77`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil_prices, geo_political_risk
-- Score: `68.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**4. GoPro joins AI bonanza with pivot into data centers as shares skyrocket 40%**
+**3. GoPro joins AI bonanza with pivot into data centers as shares skyrocket 40%**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / medium-term
 - Affected assets: GOOG, GOOGL, MSFT, AI, data center expansion
 - Score: `61.77`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**4. Global oil prices surge to a 6-week high after the U.S. strikes Iran in Hormuz**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, oil_prices, geo_political_risk
+- Score: `57.8`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **5. Global oil prices are surging after reports of more Hormuz trouble**
 - Source: MarketWatch Bulletins
@@ -504,7 +504,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `15`
+- Live macro rows used: `17`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `50`
