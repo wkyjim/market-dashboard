@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 September 2026, 09:15:52 (HKT)
+Generated at: 3 September 2026, 10:14:32 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **62.2 / 100** (Mild Risk-On)
+- Regime score: **62.26 / 100** (Mild Risk-On)
 - US equity strength: **68.66 / 100** (constructive)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **45.9 / 100**, reliability **65.94 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 62.2 | Mild Risk-On |
+| Overall regime | 62.26 | Mild Risk-On |
 | equity_trend | 71.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 67.61 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.58 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.3 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 73.75 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=80.0, news_confirmation=73.75, equity_trend=71.25, market_breadth=67.61, commodity_confirmation=63.0 |
+| news_confirmation | 75.0 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=80.0, news_confirmation=75.0, equity_trend=71.25, market_breadth=67.61, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -64,7 +64,7 @@ Window: 24h
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude stable | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.2 | -6.98 | 2026-09-02 | closed |
 | ^SKEW | CBOE SKEW Index | 144.12 | -3.42 | 2026-09-02 | closed |
 | ^MOVE | ICE BofA MOVE Index | 79.71 | 2.35 | 2026-09-02 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.38 | 0.14 | 2026-09-03 | live as of 3 September 2026, 09:01:48 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.44 | 0.13 | 2026-09-03 | live as of 3 September 2026, 09:01:48 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.54 | 0.2 | 2026-09-03 | live as of 3 September 2026, 09:01:48 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.65 | 0.2 | 2026-09-03 | live as of 3 September 2026, 09:01:48 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.78 | 0.17 | 2026-09-03 | live as of 3 September 2026, 09:01:48 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.26 | 0.12 | 2026-09-03 | live as of 3 September 2026, 09:01:48 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.26 | 0.12 | 2026-09-03 | live as of 3 September 2026, 09:01:48 (HKT) |
-| HK50 | Hang Seng Futures | 25248.0 | 0.27 | 2026-09-02 | closed |
+| US2YT=X | United States 2-Year Treasury Yield | 4.38 | -0.25 | 2026-09-03 | live as of 3 September 2026, 10:01:58 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.44 | -0.26 | 2026-09-03 | live as of 3 September 2026, 10:01:58 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.54 | -0.32 | 2026-09-03 | live as of 3 September 2026, 10:01:58 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.65 | -0.28 | 2026-09-03 | live as of 3 September 2026, 10:01:58 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.78 | -0.29 | 2026-09-03 | live as of 3 September 2026, 10:01:58 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.26 | -0.19 | 2026-09-03 | live as of 3 September 2026, 10:01:58 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.26 | -0.19 | 2026-09-03 | live as of 3 September 2026, 10:01:58 (HKT) |
+| HK50 | Hang Seng Futures | 25431.5 | 0.27 | 2026-09-03 | live as of 3 September 2026, 10:01:58 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1043.2 | 1.37 | 2026-09-02 | closed |
 | CIHc1 | SSE 50 Futures | 2900.2 | -0.98 | 2026-09-02 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.11 | 0.01 | 2026-09-02 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.64 | 0.06 | 2026-09-02 | closed |
 | GC=F | Gold Future | 4434.3 | 1.98 | 2026-09-02 | closed |
 | SI=F | Silver Future | 65.93 | 2.03 | 2026-09-02 | closed |
-| CL=F | WTI Crude Oil Future | 90.7 | 0.12 | 2026-09-03 | live as of 3 September 2026, 09:01:48 (HKT) |
+| CL=F | WTI Crude Oil Future | 91.38 | 0.87 | 2026-09-03 | live as of 3 September 2026, 10:01:58 (HKT) |
 | HG=F | Copper Future | 6.61 | 1.54 | 2026-09-02 | closed |
 
 ## Market Dispersion Analysis
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 59, 'negative': 21, 'neutral': 0}
-- News confirmation score: `73.75`
+- Sentiment counts: {'positive': 60, 'negative': 20, 'neutral': 0}
+- News confirmation score: `75.0`
 
 ### Top Market-Moving Headlines
 
@@ -339,7 +339,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short
 - Affected assets: U.S, geo-political
-- Score: `72.67`
+- Score: `61.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short.
 
 **2. Chevron to expand in Venezuela operations, doubling production through $7 billion investment**
@@ -350,15 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `61.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the medium-term.
 
-**3. 10-year U.S. Treasury yield hits highest level since November 2023**
-- Source: CNBC Markets
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, bond market, inflation, interest rates
-- Score: `57.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**4. Snowflake’s stock soars as the company blows away estimates with its AI-fueled forecast**
+**3. Snowflake’s stock soars as the company blows away estimates with its AI-fueled forecast**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -366,13 +358,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.73`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**5. Chevron to Invest $7 Billion in Venezuela, Doubling Production**
+**4. Chevron to Invest $7 Billion in Venezuela, Doubling Production**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: Chevron, ENI, U.S, oil-and-gas, investment
 - Score: `48.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. 10-year U.S. Treasury yield hits highest level since November 2023**
+- Source: CNBC Markets
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, bond market, inflation, interest rates
+- Score: `48.45`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **6. CNBC Daily Open: Markets trapped in Iran doom loop**
 - Source: CNBC Top News
@@ -390,29 +390,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `47.24`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. CNBC Daily Open: Groundhog Day in the Gulf**
-- Source: CNBC Technology
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: CNBC, U.S, geopolitical, oil_market, central_bank_policy
-- Score: `45.9`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. SpaceX’s big AI advantage is why this analyst thinks the stock could double**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: SPACE, AI, SpaceX, Technology
-- Score: `44.2`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. HPE follows in Dell’s footsteps as it rides the AI server boom to a big earnings beat**
+**8. HPE follows in Dell’s footsteps as it rides the AI server boom to a big earnings beat**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: HPE, AI, earnings, enterprise
 - Score: `43.88`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**9. AI capital expenditure forecast to exceed the cost of building railways in both the U.S. and the U.K. — with the internet added on top**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / medium
+- Affected assets: U.K, U.S, AI, capital expenditure, infrastructure
+- Score: `43.35`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**10. A jittery Treasury market and the prospect of Fed rate increases risk making life more expensive for already cost-pressured Americans**
+- Source: Dow Jones Economy
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: A, Treasury market, Fed rate increases
+- Score: `43.35`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
@@ -505,7 +505,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `15`
+- Live macro rows used: `17`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
