@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 September 2026, 08:48:47 (HKT)
+Generated at: 3 September 2026, 09:12:11 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **62.1 / 100** (Mild Risk-On)
+- Regime score: **62.2 / 100** (Mild Risk-On)
 - US equity strength: **68.66 / 100** (constructive)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **45.9 / 100**, reliability **65.94 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 62.1 | Mild Risk-On |
+| Overall regime | 62.2 | Mild Risk-On |
 | equity_trend | 71.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 67.61 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.58 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.3 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 71.88 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=80.0, news_confirmation=71.88, equity_trend=71.25, market_breadth=67.61, commodity_confirmation=63.0 |
+| news_confirmation | 73.75 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=80.0, news_confirmation=73.75, equity_trend=71.25, market_breadth=67.61, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.2 | -6.98 | 2026-09-02 | closed |
 | ^SKEW | CBOE SKEW Index | 144.12 | -3.42 | 2026-09-02 | closed |
 | ^MOVE | ICE BofA MOVE Index | 79.71 | 2.35 | 2026-09-02 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.37 | 0.05 | 2026-09-03 | live as of 3 September 2026, 08:31:50 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.43 | 0.0 | 2026-09-03 | live as of 3 September 2026, 08:31:50 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.53 | 0.04 | 2026-09-03 | live as of 3 September 2026, 08:31:50 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.65 | 0.06 | 2026-09-03 | live as of 3 September 2026, 08:31:50 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.78 | 0.04 | 2026-09-03 | live as of 3 September 2026, 08:31:50 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.26 | -0.02 | 2026-09-03 | live as of 3 September 2026, 08:31:50 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.25 | -0.02 | 2026-09-03 | live as of 3 September 2026, 08:31:50 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.38 | 0.14 | 2026-09-03 | live as of 3 September 2026, 09:01:48 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.44 | 0.13 | 2026-09-03 | live as of 3 September 2026, 09:01:48 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.54 | 0.2 | 2026-09-03 | live as of 3 September 2026, 09:01:48 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.65 | 0.2 | 2026-09-03 | live as of 3 September 2026, 09:01:48 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.78 | 0.17 | 2026-09-03 | live as of 3 September 2026, 09:01:48 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.26 | 0.12 | 2026-09-03 | live as of 3 September 2026, 09:01:48 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.26 | 0.12 | 2026-09-03 | live as of 3 September 2026, 09:01:48 (HKT) |
 | HK50 | Hang Seng Futures | 25248.0 | 0.27 | 2026-09-02 | closed |
-| KOR200c1 | KOSPI 200 Futures | 1051.9 | -2.43 | 2026-09-01 | closed |
-| CIHc1 | SSE 50 Futures | 2929.0 | 0.45 | 2026-09-01 | closed |
+| KOR200c1 | KOSPI 200 Futures | 1043.2 | 1.37 | 2026-09-02 | closed |
+| CIHc1 | SSE 50 Futures | 2900.2 | -0.98 | 2026-09-02 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.11 | 0.01 | 2026-09-02 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 105.35 | 0.12 | 2026-09-02 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 95.21 | 0.0 | 2026-09-02 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.64 | 0.06 | 2026-09-02 | closed |
 | GC=F | Gold Future | 4434.3 | 1.98 | 2026-09-02 | closed |
 | SI=F | Silver Future | 65.93 | 2.03 | 2026-09-02 | closed |
-| CL=F | WTI Crude Oil Future | 90.76 | 0.19 | 2026-09-03 | live as of 3 September 2026, 08:31:50 (HKT) |
+| CL=F | WTI Crude Oil Future | 90.7 | 0.12 | 2026-09-03 | live as of 3 September 2026, 09:01:48 (HKT) |
 | HG=F | Copper Future | 6.61 | 1.54 | 2026-09-02 | closed |
 
 ## Market Dispersion Analysis
@@ -246,7 +246,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Healthcare | 64.27 | strong uptrend | positive | broad | 29.23 | 65.0 | 54.37 | VEEV, CRL, REGN | CVS, PODD, DVA |
 | 4 | Consumer Staples | 61.59 | strong uptrend | neutral | broad | 50.0 | 0.0 | 45.88 | TGT, CLX, HSY | HRL, MO, MNST |
 | 5 | Financials | 61.42 | strong uptrend | positive | broad | 35.09 | 65.0 | 52.34 | ARES, GPN, APO | TROW, SPGI, MSCI |
-| 6 | Technology | 60.07 | strong uptrend | neutral | mixed | 43.3 | 65.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
+| 6 | Technology | 60.46 | strong uptrend | neutral | mixed | 43.3 | 65.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
 | 7 | Nuclear | 55.5 | neutral | neutral | broad | 50.0 | 0.0 | 50.82 | NLR | NLR |
 | 8 | Crypto | 51.62 | neutral | neutral | mixed | 66.24 | 65.0 | 50.0 |  |  |
 | 9 | Semiconductors | 50.78 | neutral | neutral | weak | 41.57 | 65.0 | 51.7 | SOXX, SMH | SMH, SOXX |
@@ -289,7 +289,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Healthcare | Healthcare Innovation | 64.27 | positive | 55.48 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 61.59 | positive | 51.36 | mixed | sector stronger than related themes |
 | Financials | Financials | 61.42 | positive | 56.47 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 60.07 | positive | 54.03 | mixed | sector stronger than related themes |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 60.46 | positive | 54.03 | mixed | sector stronger than related themes |
 | Nuclear | Nuclear | 55.5 | positive | 48.99 | mixed | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 51.62 | mixed | 43.95 | weak | mixed confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 50.78 | mixed | 53.14 | mixed | mixed confirmation |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 57, 'negative': 22, 'neutral': 1}
-- News confirmation score: `71.88`
+- Sentiment counts: {'positive': 59, 'negative': 21, 'neutral': 0}
+- News confirmation score: `73.75`
 
 ### Top Market-Moving Headlines
 
@@ -398,21 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.9`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. HPE follows in Dell’s footsteps as it rides the AI server boom to a big earnings beat**
+**9. SpaceX’s big AI advantage is why this analyst thinks the stock could double**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: SPACE, AI, SpaceX, Technology
+- Score: `44.2`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. HPE follows in Dell’s footsteps as it rides the AI server boom to a big earnings beat**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: HPE, AI, earnings, enterprise
 - Score: `43.88`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. AI capital expenditure forecast to exceed the cost of building railways in both the U.S. and the U.K. — with the internet added on top**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / medium
-- Affected assets: U.K, U.S, AI, capital expenditure, infrastructure
-- Score: `43.35`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
