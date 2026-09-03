@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 September 2026, 19:07:21 (HKT)
+Generated at: 3 September 2026, 20:07:28 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **61.45 / 100** (Mild Risk-On)
+- Regime score: **61.31 / 100** (Mild Risk-On)
 - US equity strength: **68.66 / 100** (constructive)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **45.91 / 100**, reliability **65.91 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 61.45 | Mild Risk-On |
+| Overall regime | 61.31 | Mild Risk-On |
 | equity_trend | 71.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 67.61 | risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 56.57 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 57.01 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.3 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 77.5 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | news_confirmation=77.5, equity_trend=71.25, volatility=70.0, market_breadth=67.61, commodity_confirmation=63.0 |
+| news_confirmation | 78.75 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | news_confirmation=78.75, equity_trend=71.25, volatility=70.0, market_breadth=67.61 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -76,16 +76,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7666.6 | 0.46 | 2026-09-02 | closed |
 | ^IXIC | NASDAQ Composite | 26217.83 | 0.45 | 2026-09-02 | closed |
 | ^RUT | Russell 2000 Index | 2953.17 | 1.13 | 2026-09-02 | closed |
-| ^VIX | CBOE Volatility Index | 15.4 | 1.32 | 2026-09-03 | live as of 3 September 2026, 19:01:49 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.36 | 1.05 | 2026-09-03 | live as of 3 September 2026, 20:01:48 (HKT) |
 | ^SKEW | CBOE SKEW Index | 144.12 | -3.42 | 2026-09-02 | closed |
 | ^MOVE | ICE BofA MOVE Index | 79.71 | 2.35 | 2026-09-02 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.37 | -0.29 | 2026-09-03 | live as of 3 September 2026, 19:01:49 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.44 | -0.29 | 2026-09-03 | live as of 3 September 2026, 19:01:49 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.54 | -0.32 | 2026-09-03 | live as of 3 September 2026, 19:01:49 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.65 | -0.25 | 2026-09-03 | live as of 3 September 2026, 19:01:49 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.78 | -0.25 | 2026-09-03 | live as of 3 September 2026, 19:01:49 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.26 | -0.19 | 2026-09-03 | live as of 3 September 2026, 19:01:49 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.26 | -0.17 | 2026-09-03 | live as of 3 September 2026, 19:01:49 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.37 | -0.43 | 2026-09-03 | live as of 3 September 2026, 20:01:48 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.43 | -0.45 | 2026-09-03 | live as of 3 September 2026, 20:01:48 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.53 | -0.47 | 2026-09-03 | live as of 3 September 2026, 20:01:48 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.64 | -0.45 | 2026-09-03 | live as of 3 September 2026, 20:01:48 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.78 | -0.38 | 2026-09-03 | live as of 3 September 2026, 20:01:48 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.25 | -0.36 | 2026-09-03 | live as of 3 September 2026, 20:01:48 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.25 | -0.33 | 2026-09-03 | live as of 3 September 2026, 20:01:48 (HKT) |
 | HK50 | Hang Seng Futures | 25145.0 | -0.86 | 2026-09-03 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1043.2 | 1.37 | 2026-09-02 | closed |
 | CIHc1 | SSE 50 Futures | 2900.2 | -0.98 | 2026-09-02 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 81.95 | 0.1 | 2026-09-02 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 92.18 | 0.09 | 2026-09-02 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.64 | 0.06 | 2026-09-02 | closed |
-| GC=F | Gold Future | 4472.0 | 2.42 | 2026-09-03 | live as of 3 September 2026, 19:01:49 (HKT) |
-| SI=F | Silver Future | 66.14 | 2.18 | 2026-09-03 | live as of 3 September 2026, 19:01:49 (HKT) |
-| CL=F | WTI Crude Oil Future | 92.62 | 1.77 | 2026-09-03 | live as of 3 September 2026, 19:01:49 (HKT) |
-| HG=F | Copper Future | 6.61 | 1.65 | 2026-09-03 | live as of 3 September 2026, 19:01:49 (HKT) |
+| GC=F | Gold Future | 4485.6 | 2.73 | 2026-09-03 | live as of 3 September 2026, 20:01:48 (HKT) |
+| SI=F | Silver Future | 66.33 | 2.48 | 2026-09-03 | live as of 3 September 2026, 20:01:48 (HKT) |
+| CL=F | WTI Crude Oil Future | 92.86 | 2.03 | 2026-09-03 | live as of 3 September 2026, 20:01:48 (HKT) |
+| HG=F | Copper Future | 6.62 | 1.85 | 2026-09-03 | live as of 3 September 2026, 20:01:48 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,12 +325,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.4 pct_chg=1.32
+- VIX close=15.36 pct_chg=1.05
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 62, 'negative': 18, 'neutral': 0}
-- News confirmation score: `77.5`
+- Sentiment counts: {'positive': 63, 'negative': 17, 'neutral': 0}
+- News confirmation score: `78.75`
 
 ### Top Market-Moving Headlines
 
