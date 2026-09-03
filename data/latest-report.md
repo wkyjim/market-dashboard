@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 September 2026, 10:14:32 (HKT)
+Generated at: 3 September 2026, 11:14:09 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.2 | -6.98 | 2026-09-02 | closed |
 | ^SKEW | CBOE SKEW Index | 144.12 | -3.42 | 2026-09-02 | closed |
 | ^MOVE | ICE BofA MOVE Index | 79.71 | 2.35 | 2026-09-02 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.38 | -0.25 | 2026-09-03 | live as of 3 September 2026, 10:01:58 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.44 | -0.26 | 2026-09-03 | live as of 3 September 2026, 10:01:58 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.54 | -0.32 | 2026-09-03 | live as of 3 September 2026, 10:01:58 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.65 | -0.28 | 2026-09-03 | live as of 3 September 2026, 10:01:58 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.78 | -0.29 | 2026-09-03 | live as of 3 September 2026, 10:01:58 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.26 | -0.19 | 2026-09-03 | live as of 3 September 2026, 10:01:58 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.26 | -0.19 | 2026-09-03 | live as of 3 September 2026, 10:01:58 (HKT) |
-| HK50 | Hang Seng Futures | 25431.5 | 0.27 | 2026-09-03 | live as of 3 September 2026, 10:01:58 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.37 | -0.39 | 2026-09-03 | live as of 3 September 2026, 11:01:49 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.43 | -0.42 | 2026-09-03 | live as of 3 September 2026, 11:01:49 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.53 | -0.48 | 2026-09-03 | live as of 3 September 2026, 11:01:49 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.64 | -0.48 | 2026-09-03 | live as of 3 September 2026, 11:01:49 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.77 | -0.46 | 2026-09-03 | live as of 3 September 2026, 11:01:49 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.25 | -0.41 | 2026-09-03 | live as of 3 September 2026, 11:01:49 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.25 | -0.39 | 2026-09-03 | live as of 3 September 2026, 11:01:49 (HKT) |
+| HK50 | Hang Seng Futures | 25324.0 | -0.15 | 2026-09-03 | live as of 3 September 2026, 11:01:49 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1043.2 | 1.37 | 2026-09-02 | closed |
 | CIHc1 | SSE 50 Futures | 2900.2 | -0.98 | 2026-09-02 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.11 | 0.01 | 2026-09-02 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.64 | 0.06 | 2026-09-02 | closed |
 | GC=F | Gold Future | 4434.3 | 1.98 | 2026-09-02 | closed |
 | SI=F | Silver Future | 65.93 | 2.03 | 2026-09-02 | closed |
-| CL=F | WTI Crude Oil Future | 91.38 | 0.87 | 2026-09-03 | live as of 3 September 2026, 10:01:58 (HKT) |
+| CL=F | WTI Crude Oil Future | 91.11 | 0.57 | 2026-09-03 | live as of 3 September 2026, 11:01:49 (HKT) |
 | HG=F | Copper Future | 6.61 | 1.54 | 2026-09-02 | closed |
 
 ## Market Dispersion Analysis
@@ -382,15 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Snowflake’s stock soars as it blows away estimates with an AI-fueled forecast**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short
-- Affected assets: SNK, AI, technology
-- Score: `47.24`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**8. HPE follows in Dell’s footsteps as it rides the AI server boom to a big earnings beat**
+**7. HPE follows in Dell’s footsteps as it rides the AI server boom to a big earnings beat**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.88`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. AI capital expenditure forecast to exceed the cost of building railways in both the U.S. and the U.K. — with the internet added on top**
+**8. AI capital expenditure forecast to exceed the cost of building railways in both the U.S. and the U.K. — with the internet added on top**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / medium
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. A jittery Treasury market and the prospect of Fed rate increases risk making life more expensive for already cost-pressured Americans**
+**9. A jittery Treasury market and the prospect of Fed rate increases risk making life more expensive for already cost-pressured Americans**
 - Source: Dow Jones Economy
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: A, Treasury market, Fed rate increases
 - Score: `43.35`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Dell shares rise as demand jumps for AI servers — here’s what Wall Street analysts are saying happens next**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: DELL, AI, technology
+- Score: `42.27`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
