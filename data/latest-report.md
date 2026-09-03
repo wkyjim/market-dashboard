@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 September 2026, 11:14:09 (HKT)
+Generated at: 3 September 2026, 12:12:01 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **62.26 / 100** (Mild Risk-On)
+- Regime score: **62.2 / 100** (Mild Risk-On)
 - US equity strength: **68.66 / 100** (constructive)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **45.9 / 100**, reliability **65.94 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 62.26 | Mild Risk-On |
+| Overall regime | 62.2 | Mild Risk-On |
 | equity_trend | 71.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 67.61 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.58 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.3 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 75.0 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=80.0, news_confirmation=75.0, equity_trend=71.25, market_breadth=67.61, commodity_confirmation=63.0 |
+| news_confirmation | 73.75 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=80.0, news_confirmation=73.75, equity_trend=71.25, market_breadth=67.61, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.2 | -6.98 | 2026-09-02 | closed |
 | ^SKEW | CBOE SKEW Index | 144.12 | -3.42 | 2026-09-02 | closed |
 | ^MOVE | ICE BofA MOVE Index | 79.71 | 2.35 | 2026-09-02 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.37 | -0.39 | 2026-09-03 | live as of 3 September 2026, 11:01:49 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.43 | -0.42 | 2026-09-03 | live as of 3 September 2026, 11:01:49 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.53 | -0.48 | 2026-09-03 | live as of 3 September 2026, 11:01:49 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.64 | -0.48 | 2026-09-03 | live as of 3 September 2026, 11:01:49 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.77 | -0.46 | 2026-09-03 | live as of 3 September 2026, 11:01:49 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.25 | -0.41 | 2026-09-03 | live as of 3 September 2026, 11:01:49 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.25 | -0.39 | 2026-09-03 | live as of 3 September 2026, 11:01:49 (HKT) |
-| HK50 | Hang Seng Futures | 25324.0 | -0.15 | 2026-09-03 | live as of 3 September 2026, 11:01:49 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.37 | -0.39 | 2026-09-03 | live as of 3 September 2026, 12:01:52 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.43 | -0.42 | 2026-09-03 | live as of 3 September 2026, 12:01:52 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.53 | -0.48 | 2026-09-03 | live as of 3 September 2026, 12:01:52 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.64 | -0.45 | 2026-09-03 | live as of 3 September 2026, 12:01:52 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.77 | -0.42 | 2026-09-03 | live as of 3 September 2026, 12:01:52 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.25 | -0.36 | 2026-09-03 | live as of 3 September 2026, 12:01:52 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.25 | -0.37 | 2026-09-03 | live as of 3 September 2026, 12:01:52 (HKT) |
+| HK50 | Hang Seng Futures | 25272.0 | -0.36 | 2026-09-03 | live as of 3 September 2026, 12:01:52 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1043.2 | 1.37 | 2026-09-02 | closed |
 | CIHc1 | SSE 50 Futures | 2900.2 | -0.98 | 2026-09-02 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.11 | 0.01 | 2026-09-02 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.64 | 0.06 | 2026-09-02 | closed |
 | GC=F | Gold Future | 4434.3 | 1.98 | 2026-09-02 | closed |
 | SI=F | Silver Future | 65.93 | 2.03 | 2026-09-02 | closed |
-| CL=F | WTI Crude Oil Future | 91.11 | 0.57 | 2026-09-03 | live as of 3 September 2026, 11:01:49 (HKT) |
+| CL=F | WTI Crude Oil Future | 91.0 | 0.45 | 2026-09-03 | live as of 3 September 2026, 12:01:52 (HKT) |
 | HG=F | Copper Future | 6.61 | 1.54 | 2026-09-02 | closed |
 
 ## Market Dispersion Analysis
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 60, 'negative': 20, 'neutral': 0}
-- News confirmation score: `75.0`
+- Sentiment counts: {'positive': 59, 'negative': 21, 'neutral': 0}
+- News confirmation score: `73.75`
 
 ### Top Market-Moving Headlines
 
@@ -350,7 +350,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `61.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the medium-term.
 
-**3. Snowflake’s stock soars as the company blows away estimates with its AI-fueled forecast**
+**3. Thyme Care raises $125 million, pushing cancer care startup's valuation above $2 billion**
+- Source: CNBC Markets
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: venture capital, healthcare, AI
+- Score: `52.51`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**4. Snowflake’s stock soars as the company blows away estimates with its AI-fueled forecast**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -358,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.73`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**4. Chevron to Invest $7 Billion in Venezuela, Doubling Production**
+**5. Chevron to Invest $7 Billion in Venezuela, Doubling Production**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. 10-year U.S. Treasury yield hits highest level since November 2023**
+**6. 10-year U.S. Treasury yield hits highest level since November 2023**
 - Source: CNBC Markets
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. CNBC Daily Open: Markets trapped in Iran doom loop**
+**7. CNBC Daily Open: Markets trapped in Iran doom loop**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. HPE follows in Dell’s footsteps as it rides the AI server boom to a big earnings beat**
+**8. HPE follows in Dell’s footsteps as it rides the AI server boom to a big earnings beat**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.88`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. AI capital expenditure forecast to exceed the cost of building railways in both the U.S. and the U.K. — with the internet added on top**
+**9. AI capital expenditure forecast to exceed the cost of building railways in both the U.S. and the U.K. — with the internet added on top**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / medium
@@ -398,21 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**9. A jittery Treasury market and the prospect of Fed rate increases risk making life more expensive for already cost-pressured Americans**
+**10. A jittery Treasury market and the prospect of Fed rate increases risk making life more expensive for already cost-pressured Americans**
 - Source: Dow Jones Economy
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: A, Treasury market, Fed rate increases
 - Score: `43.35`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Dell shares rise as demand jumps for AI servers — here’s what Wall Street analysts are saying happens next**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: DELL, AI, technology
-- Score: `42.27`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
