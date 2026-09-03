@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 September 2026, 18:08:39 (HKT)
+Generated at: 3 September 2026, 18:12:03 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -249,7 +249,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 6 | Technology | 60.45 | strong uptrend | neutral | mixed | 43.3 | 65.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
 | 7 | Nuclear | 55.5 | neutral | neutral | broad | 50.0 | 0.0 | 50.82 | NLR | NLR |
 | 8 | Crypto | 51.62 | neutral | neutral | mixed | 66.24 | 65.0 | 50.0 |  |  |
-| 9 | Semiconductors | 50.78 | neutral | neutral | weak | 41.57 | 65.0 | 51.7 | SOXX, SMH | SMH, SOXX |
+| 9 | Semiconductors | 50.82 | neutral | neutral | weak | 41.57 | 65.0 | 51.7 | SOXX, SMH | SMH, SOXX |
 | 10 | Grid Infrastructure | 50.02 | downtrend | neutral | weak | 50.0 | 0.0 | 49.05 | GRID | GRID |
 | 11 | Industrials | 49.4 | downtrend | neutral | weak | 50.0 | 0.0 | 51.11 | LDOS, HII, ALLE | ROL, LII, CHRW |
 | 12 | Defense | 44.56 | strong downtrend | positive | weak | 50.0 | 0.0 | 57.75 | XAR | XAR |
@@ -267,7 +267,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 4 | Quality Growth | 55.8 | Neutral / watchlist | 52.99 | 65.0 | 32.28 | False | False |
 | 5 | Healthcare Innovation | 55.48 | Positive setup | 29.23 | 65.0 | 11.95 | False | False |
 | 6 | AI Infrastructure | 54.43 | Neutral / watchlist | 41.57 | 65.0 | 26.16 | False | False |
-| 7 | Semiconductors | 51.86 | Neutral / watchlist | 41.57 | 65.0 | 15.16 | False | False |
+| 7 | Semiconductors | 52.91 | Neutral / watchlist | 41.57 | 65.0 | 15.16 | False | False |
 | 8 | Dividend Defensives | 51.36 | Neutral / watchlist | 52.4 | 65.0 | 7.21 | False | False |
 | 9 | Small Caps | 50.85 | Neutral / watchlist | 49.52 | 65.0 | 0.0 | False | False |
 | 10 | Nuclear | 48.99 | Neutral / watchlist | 50.0 | 0.0 | 18.53 | False | False |
@@ -289,10 +289,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Healthcare | Healthcare Innovation | 64.27 | positive | 55.48 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 61.59 | positive | 51.36 | mixed | sector stronger than related themes |
 | Financials | Financials | 61.42 | positive | 56.47 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 60.45 | positive | 54.03 | mixed | sector stronger than related themes |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 60.45 | positive | 54.38 | mixed | sector stronger than related themes |
 | Nuclear | Nuclear | 55.5 | positive | 48.99 | mixed | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 51.62 | mixed | 43.95 | weak | mixed confirmation |
-| Semiconductors | AI Infrastructure, Semiconductors | 50.78 | mixed | 53.14 | mixed | mixed confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 50.82 | mixed | 53.67 | mixed | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 50.02 | mixed | 44.41 | weak | mixed confirmation |
 | Industrials | Defense, Grid Infrastructure | 49.4 | mixed | 45.83 | mixed | mixed confirmation |
 | Defense | Defense | 44.56 | weak | 47.25 | mixed | mixed confirmation |
@@ -312,7 +312,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 6 | AI Infrastructure | 55.9 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
 | 7 | Dividend Defensives | 54.69 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 8 | Small Caps | 51.35 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 9 | Semiconductors | 50.03 | Neutral / watchlist |  | relative strength below SPY, breadth below 45%, news turns negative |
+| 9 | Semiconductors | 51.03 | Neutral / watchlist | news_acceleration | relative strength below SPY, breadth below 45%, news turns negative |
 | 10 | Nuclear | 47.39 | Neutral / watchlist | relative_strength_20d | relative strength below SPY, breadth below 45%, news turns negative |
 | 11 | Defense | 45.99 | Neutral / watchlist | relative_strength_20d, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 12 | Grid Infrastructure | 44.3 | Weak setup | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
