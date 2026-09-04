@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 4 September 2026, 18:09:09 (HKT)
+Generated at: 4 September 2026, 18:12:09 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -329,7 +329,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 58, 'negative': 19, 'neutral': 3}
+- Sentiment counts: {'positive': 59, 'negative': 20, 'neutral': 1}
 - News confirmation score: `74.38`
 
 ### Top Market-Moving Headlines
@@ -358,7 +358,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.4`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the long-term.
 
-**4. Nvidia's investments grow to $99 billion as chip giant becomes major backer of AI companies**
+**4. Trump admin targets tax-exempt status at private colleges — threatening a key tax break for donations**
+- Source: CNBC Markets
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / medium
+- Affected assets: education, taxes, government_policy
+- Score: `48.45`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium.
+
+**5. Nvidia's investments grow to $99 billion as chip giant becomes major backer of AI companies**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / shortterm
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `47.24`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**5. Oil prices little changed after Iran fires missiles at Kuwait**
+**6. Oil prices little changed after Iran fires missiles at Kuwait**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -374,7 +382,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `46.51`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Snowflake has a secret weapon that’s powering its stock toward a huge gain**
+**7. Revenge of the 'Magnificent Seven' — Jim Cramer says it’s time to buy**
+- Source: CNBC Markets
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short
+- Affected assets: AMZN, GOOGL, META, MSFT, CNBC
+- Score: `46.33`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**8. Snowflake has a secret weapon that’s powering its stock toward a huge gain**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -382,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `42.27`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. Friday's big stock stories: What’s likely to move the market in the next trading session**
+**9. Friday's big stock stories: What’s likely to move the market in the next trading session**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -390,29 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. Anthropic's distillation battle turns to the dark web as China concerns swell**
+**10. Anthropic's distillation battle turns to the dark web as China concerns swell**
 - Source: CNBC Technology
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short
 - Affected assets: AI, Security, Technology
 - Score: `39.02`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**9. Clean sweep or divided Congress, these are the midterm-elections trades to make, says JPMorgan**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: election, investment strategy
-- Score: `34.68`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**10. Victoria’s Secret sees strong sales for bras and Pink line, but not enough to satisfy investors**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: VS, Retail, Investor Reaction, Sales Performance
-- Score: `33.15`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
