@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 4 September 2026, 15:12:14 (HKT)
+Generated at: 4 September 2026, 16:07:37 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **64.85 / 100** (Mild Risk-On)
+- Regime score: **64.89 / 100** (Mild Risk-On)
 - US equity strength: **76.82 / 100** (strong)
-- Evidence quality: **86.5 / 100**
+- Evidence quality: **83.0 / 100**
 - ETF flow contribution: **45.67 / 100**, reliability **71.4 / 100**
 - Breadth: **healthy**; above 50DMA `58.33%`, above 200DMA `69.49%`
 - Top sector score: **Cybersecurity** `70.55`
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 64.85 | Mild Risk-On |
+| Overall regime | 64.89 | Mild Risk-On |
 | equity_trend | 83.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 69.83 | risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.04 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 62.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 54.8 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 46.91 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 79.38 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=83.75, volatility=80.0, news_confirmation=79.38, market_breadth=69.83, commodity_confirmation=62.0 |
+| Positive contributors |  | equity_trend=83.75, volatility=80.0, news_confirmation=79.38, market_breadth=69.83, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `86.5`
-- Agreement ratio: `0.7`
+- Confidence score: `83.0`
+- Agreement ratio: `0.6`
 - Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
@@ -62,9 +62,9 @@ Window: 24h
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
-| Silver | Silver stable | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
+| Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -76,17 +76,17 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7747.71 | 1.06 | 2026-09-03 | closed |
 | ^IXIC | NASDAQ Composite | 26584.06 | 1.4 | 2026-09-03 | closed |
 | ^RUT | Russell 2000 Index | 2968.27 | 0.51 | 2026-09-03 | closed |
-| ^VIX | CBOE Volatility Index | 14.32 | -5.79 | 2026-09-03 | closed |
+| ^VIX | CBOE Volatility Index | 14.17 | -1.05 | 2026-09-04 | live as of 4 September 2026, 16:01:50 (HKT) |
 | ^SKEW | CBOE SKEW Index | 150.63 | 4.52 | 2026-09-03 | closed |
 | ^MOVE | ICE BofA MOVE Index | 74.68 | -6.31 | 2026-09-03 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.33 | 0.02 | 2026-09-04 | live as of 4 September 2026, 15:01:48 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.41 | 0.07 | 2026-09-04 | live as of 4 September 2026, 15:01:48 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.51 | 0.05 | 2026-09-04 | live as of 4 September 2026, 15:01:48 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.63 | 0.03 | 2026-09-04 | live as of 4 September 2026, 15:01:48 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.76 | 0.02 | 2026-09-04 | live as of 4 September 2026, 15:01:48 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.25 | 0.03 | 2026-09-04 | live as of 4 September 2026, 15:01:48 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.25 | 0.05 | 2026-09-04 | live as of 4 September 2026, 15:01:48 (HKT) |
-| HK50 | Hang Seng Futures | 25633.5 | 0.81 | 2026-09-04 | live as of 4 September 2026, 15:01:48 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.33 | 0.02 | 2026-09-04 | live as of 4 September 2026, 16:01:50 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.4 | -0.03 | 2026-09-04 | live as of 4 September 2026, 16:01:50 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.5 | -0.11 | 2026-09-04 | live as of 4 September 2026, 16:01:50 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.62 | -0.2 | 2026-09-04 | live as of 4 September 2026, 16:01:50 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.75 | -0.21 | 2026-09-04 | live as of 4 September 2026, 16:01:50 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.23 | -0.24 | 2026-09-04 | live as of 4 September 2026, 16:01:50 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.23 | -0.19 | 2026-09-04 | live as of 4 September 2026, 16:01:50 (HKT) |
+| HK50 | Hang Seng Futures | 25633.5 | 0.81 | 2026-09-04 | live as of 4 September 2026, 16:01:50 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1048.95 | 1.84 | 2026-09-03 | closed |
 | CIHc1 | SSE 50 Futures | 2908.0 | 0.27 | 2026-09-03 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.21 | 0.13 | 2026-09-03 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 82.07 | 0.15 | 2026-09-03 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 92.28 | 0.11 | 2026-09-03 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.71 | 0.09 | 2026-09-03 | closed |
-| GC=F | Gold Future | 4510.2 | 0.41 | 2026-09-04 | live as of 4 September 2026, 15:01:48 (HKT) |
-| SI=F | Silver Future | 67.11 | 0.2 | 2026-09-04 | live as of 4 September 2026, 15:01:48 (HKT) |
-| CL=F | WTI Crude Oil Future | 91.57 | 0.3 | 2026-09-04 | live as of 4 September 2026, 15:01:48 (HKT) |
-| HG=F | Copper Future | 6.64 | 0.94 | 2026-09-04 | live as of 4 September 2026, 15:01:48 (HKT) |
+| GC=F | Gold Future | 4531.5 | 0.89 | 2026-09-04 | live as of 4 September 2026, 16:01:50 (HKT) |
+| SI=F | Silver Future | 67.56 | 0.88 | 2026-09-04 | live as of 4 September 2026, 16:01:50 (HKT) |
+| CL=F | WTI Crude Oil Future | 90.93 | -0.41 | 2026-09-04 | live as of 4 September 2026, 16:01:50 (HKT) |
+| HG=F | Copper Future | 6.67 | 1.48 | 2026-09-04 | live as of 4 September 2026, 16:01:50 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=14.32 pct_chg=-5.79
+- VIX close=14.17 pct_chg=-1.05
 
 ## News Analytics
 
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `24`
+- Live macro rows used: `25`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
