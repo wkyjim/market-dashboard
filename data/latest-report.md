@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 4 September 2026, 21:08:10 (HKT)
+Generated at: 4 September 2026, 21:12:05 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -329,7 +329,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 59, 'negative': 15, 'neutral': 6}
+- Sentiment counts: {'positive': 60, 'negative': 16, 'neutral': 4}
 - News confirmation score: `77.5`
 
 ### Top Market-Moving Headlines
