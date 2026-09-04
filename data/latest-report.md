@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 4 September 2026, 09:12:10 (HKT)
+Generated at: 4 September 2026, 09:17:16 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -347,7 +347,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, oil, geopolitics, trade
-- Score: `54.72`
+- Score: `46.51`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **3. Shipping stocks at a crossroads amid their best rally in decades**
