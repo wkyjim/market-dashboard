@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 6 September 2026, 06:20:33 (HKT)
+Generated at: 6 September 2026, 07:19:05 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -352,21 +352,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 **3. Jobs and Iran add to Trump’s midterm headaches. Why that’s good for bonds and bad for energy stocks.**
 - Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
+- Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: politics, economy
-- Score: `38.67`
+- Score: `32.87`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**4. Micron is doubling down on AI memory chips. It could pay off big for investors.**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: MIC, AI, technology, innovation
-- Score: `31.49`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**5. U.S. Nonfarm Payrolls Surge Past Expectations, Indicating Economic Strength**
+**4. U.S. Nonfarm Payrolls Surge Past Expectations, Indicating Economic Strength**
 - Source: Investing.com Technology
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.89`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Think you maxed out your 401(k)? The real limit is actually almost $50,000 higher.**
+**5. Think you maxed out your 401(k)? The real limit is actually almost $50,000 higher.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / long-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.6`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. US, Iranian forces fire at vessels in waters near Iran**
+**6. US, Iranian forces fire at vessels in waters near Iran**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.54`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Iranian tanker hit by US attack near Iran's Kharg Island, Tasnim says**
+**7. Iranian tanker hit by US attack near Iran's Kharg Island, Tasnim says**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `26.52`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**9. Strong job gains signal Fed hike as Trump levels new rate-cut demand**
+**8. Strong job gains signal Fed hike as Trump levels new rate-cut demand**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.65`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Oil ends week higher on renewed US-Iran strikes, diesel hits record**
+**9. Oil ends week higher on renewed US-Iran strikes, diesel hits record**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: US, oil_prices, geopolitical_risk
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Oil soars for the week, hits three-month high on U.S.-Iran military escalation**
+- Source: Investing.com Stock Market
+- Importance / impact: Low / Positive
+- Relevance / horizon: macro / shortterm
+- Affected assets: U.S, Geopolitical, Energy
+- Score: `24.3`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the shortterm.
 
 
 ### Headline Quality Checks
