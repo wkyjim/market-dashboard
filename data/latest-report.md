@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 6 September 2026, 03:14:44 (HKT)
+Generated at: 6 September 2026, 04:19:59 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **64.45 / 100** (Mild Risk-On)
+- Regime score: **64.48 / 100** (Mild Risk-On)
 - US equity strength: **77.85 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **47.2 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 64.45 | Mild Risk-On |
+| Overall regime | 64.48 | Mild Risk-On |
 | equity_trend | 88.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 70.39 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.21 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.13 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 75.0 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=88.75, news_confirmation=75.0, market_breadth=70.39, volatility=70.0 |
+| news_confirmation | 75.62 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=88.75, news_confirmation=75.62, market_breadth=70.39, volatility=70.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 56, 'negative': 16, 'neutral': 8}
-- News confirmation score: `75.0`
+- Sentiment counts: {'positive': 56, 'negative': 15, 'neutral': 9}
+- News confirmation score: `75.62`
 
 ### Top Market-Moving Headlines
 
@@ -342,23 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `61.2`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. 2-year yield rises to highest since January 2025 after hot jobs report boosts expectations that the Fed could raise rates**
-- Source: CNBC Markets
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: ^TNX, ^IRX, economic indicators, monetary policy
-- Score: `48.45`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. Investors zero in on August inflation data in the week ahead after yields spike to levels not seen in years**
-- Source: CNBC Markets
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: inflation, Federal Reserve, interest rates
-- Score: `48.45`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**4. Trump turns up the heat on Warsh as Fed rate hike looms**
+**2. Trump turns up the heat on Warsh as Fed rate hike looms**
 - Source: CNBC Business
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -366,15 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Dow, S&P 500 and Nasdaq close lower as jobs data raise chances of Fed rate hike**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: P, S, economic_data, central_bank_policy
-- Score: `41.99`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. Jobs and Iran add to Trump’s midterm headaches. Why that’s good for bonds and bad for energy stocks.**
+**3. Jobs and Iran add to Trump’s midterm headaches. Why that’s good for bonds and bad for energy stocks.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -382,15 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.67`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**7. Trump doubles down on threat to halt trade with top partners unless Fed cuts rates**
-- Source: CNBC Business Headlines
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, trade, interest rates, government intervention
-- Score: `35.7`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. Bloom Energy was just named to the S&P 500. These other stocks are also joining.**
+**4. Bloom Energy was just named to the S&P 500. These other stocks are also joining.**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -398,21 +366,53 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.69`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**9. Trump says he will spend up to $500 million of 'my money' to help Republicans in midterms**
-- Source: CNBC Business Headlines
-- Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: MAGA, PAC, politics, election, campaign_finance
-- Score: `34.68`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**10. US nonfarm payrolls blow past expectations in August; unemployment rate steady at 4.1%**
+**5. US nonfarm payrolls blow past expectations in August; unemployment rate steady at 4.1%**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: US, economy, employment
 - Score: `34.52`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. Bloom Energy was just named to the S&P 500. These other stocks are joining the index as well.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: P, S, S&P 500, stock market, index changes
+- Score: `31.79`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**7. Micron is doubling down on AI memory chips. It could pay off big for investors.**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: MIC, AI, technology, innovation
+- Score: `31.49`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**8. U.S. Nonfarm Payrolls Surge Past Expectations, Indicating Economic Strength**
+- Source: Investing.com Technology
+- Importance / impact: Low / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, economy, employment
+- Score: `30.89`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. US strikes three Iranian oil tankers after IRGC attack on American naval ships, Central Command says**
+- Source: Investing.com Stock Market
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: IRGC, US, geopolitical, oil, defense
+- Score: `27.54`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. How to invest in a booming stock market that’s way cheaper than the S&P 500**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: P, S, investment strategy, market classification
+- Score: `26.77`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
