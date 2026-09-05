@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 6 September 2026, 01:13:19 (HKT)
+Generated at: 6 September 2026, 02:12:42 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -329,7 +329,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 54, 'negative': 19, 'neutral': 7}
+- Sentiment counts: {'positive': 53, 'negative': 18, 'neutral': 9}
 - News confirmation score: `71.88`
 
 ### Top Market-Moving Headlines
@@ -342,15 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `61.2`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%**
-- Source: CNBC Business
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: ^DJI, ^GSPC, U.S, employment, economic_data
-- Score: `52.02`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. Trump’s threat to stop trade unless there’s a rate cut risks shock to U.S. economy**
+**2. Trump’s threat to stop trade unless there’s a rate cut risks shock to U.S. economy**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -358,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. 2-year yield rises to highest since January 2025 after hot jobs report boosts expectations that the Fed could raise rates**
+**3. 2-year yield rises to highest since January 2025 after hot jobs report boosts expectations that the Fed could raise rates**
 - Source: CNBC Markets
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Investors zero in on August inflation data in the week ahead after yields spike to levels not seen in years**
+**4. Investors zero in on August inflation data in the week ahead after yields spike to levels not seen in years**
 - Source: CNBC Markets
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Dow, S&P 500 and Nasdaq close lower as jobs data raise chances of Fed rate hike**
+**5. Dow, S&P 500 and Nasdaq close lower as jobs data raise chances of Fed rate hike**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.99`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Trump’s threat to stop trade unless there’s a rate cut risks U.S. economic shock**
+**6. Trump’s threat to stop trade unless there’s a rate cut risks U.S. economic shock**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.15`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**8. Trump doubles down on threat to halt trade with top partners unless Fed cuts rates**
+**7. Trump doubles down on threat to halt trade with top partners unless Fed cuts rates**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.7`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Bloom Energy was just named to the S&P 500. These other stocks are also joining.**
+**8. Bloom Energy was just named to the S&P 500. These other stocks are also joining.**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.69`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. Trump says he will spend up to $500 million of 'my money' to help Republicans in midterms**
+**9. Trump says he will spend up to $500 million of 'my money' to help Republicans in midterms**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: MAGA, PAC, politics, election, campaign_finance
 - Score: `34.68`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**10. US nonfarm payrolls blow past expectations in August; unemployment rate steady at 4.1%**
+- Source: Investing.com Economic Indicators
+- Importance / impact: Low / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: US, economy, employment
+- Score: `34.52`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
