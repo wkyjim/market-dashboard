@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 5 September 2026, 22:12:43 (HKT)
+Generated at: 5 September 2026, 23:13:55 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **64.26 / 100** (Mild Risk-On)
+- Regime score: **64.48 / 100** (Mild Risk-On)
 - US equity strength: **77.85 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **47.2 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 64.26 | Mild Risk-On |
+| Overall regime | 64.48 | Mild Risk-On |
 | equity_trend | 88.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 70.39 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.21 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.13 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 71.25 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=88.75, news_confirmation=71.25, market_breadth=70.39, volatility=70.0 |
+| news_confirmation | 75.62 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=88.75, news_confirmation=75.62, market_breadth=70.39, volatility=70.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 53, 'negative': 19, 'neutral': 8}
-- News confirmation score: `71.25`
+- Sentiment counts: {'positive': 57, 'negative': 16, 'neutral': 7}
+- News confirmation score: `75.62`
 
 ### Top Market-Moving Headlines
 
@@ -350,15 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. U.S. Stocks Fall, Treasury Yields Climb After Strong Jobs Report**
-- Source: Dow Jones Economy
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short term
-- Affected assets: A, U.S, Economic Data, Interest Rates
-- Score: `49.13`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
-
-**4. 2-year yield rises to highest since January 2025 after hot jobs report boosts expectations that the Fed could raise rates**
+**3. 2-year yield rises to highest since January 2025 after hot jobs report boosts expectations that the Fed could raise rates**
 - Source: CNBC Markets
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Investors zero in on August inflation data in the week ahead after yields spike to levels not seen in years**
+**4. Investors zero in on August inflation data in the week ahead after yields spike to levels not seen in years**
 - Source: CNBC Markets
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -374,15 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries**
-- Source: CNBC Top News
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: inflation, conflict, oil_prices
-- Score: `48.45`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Dow, S&P 500 and Nasdaq close lower as jobs data raise chances of Fed rate hike**
+**5. Dow, S&P 500 and Nasdaq close lower as jobs data raise chances of Fed rate hike**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -390,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.99`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Trump’s threat to stop trade unless there’s a rate cut risks U.S. economic shock**
+**6. Trump’s threat to stop trade unless there’s a rate cut risks U.S. economic shock**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -398,21 +382,37 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.15`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**9. Rising interest rates pose a major threat to stock prices and other assets**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short term
-- Affected assets: Interest Rates, Stock Market
-- Score: `37.93`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**10. Trump doubles down on threat to halt trade with top partners unless Fed cuts rates**
+**7. Trump doubles down on threat to halt trade with top partners unless Fed cuts rates**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, trade, interest rates, government intervention
 - Score: `35.7`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. Bloom Energy was just named to the S&P 500. These other stocks are also joining.**
+- Source: MarketWatch Bulletins
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: P, S, Corporate News, Index Rebalance
+- Score: `35.69`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**9. Trump says he will spend up to $500 million of 'my money' to help Republicans in midterms**
+- Source: CNBC Business Headlines
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: MAGA, PAC, politics, election, campaign_finance
+- Score: `34.68`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**10. US nonfarm payrolls blow past expectations in August; unemployment rate steady at 4.1%**
+- Source: Investing.com Economic Indicators
+- Importance / impact: Low / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: US, economy, employment
+- Score: `34.52`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
