@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 5 September 2026, 08:53:47 (HKT)
+Generated at: 5 September 2026, 09:12:09 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -87,8 +87,8 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US20YT=X | United States 20-Year Treasury Yield | 5.25 | 0.08 | 2026-09-04 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.24 | 0.03 | 2026-09-04 | closed |
 | HK50 | Hang Seng Futures | 25659.0 | 0.91 | 2026-09-04 | closed |
-| KOR200c1 | KOSPI 200 Futures | 1048.95 | 1.84 | 2026-09-03 | closed |
-| CIHc1 | SSE 50 Futures | 2908.0 | 0.27 | 2026-09-03 | closed |
+| KOR200c1 | KOSPI 200 Futures | 1093.9 | 3.93 | 2026-09-04 | closed |
+| CIHc1 | SSE 50 Futures | 2912.6 | 0.16 | 2026-09-04 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.16 | -0.06 | 2026-09-04 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 105.48 | -0.02 | 2026-09-04 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 95.27 | -0.03 | 2026-09-04 | closed |
@@ -243,7 +243,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cybersecurity | 68.7 | strong uptrend | positive | broad | 50.0 | 0.0 | 62.96 | CIBR | CIBR |
 | 2 | Energy | 65.5 | strong uptrend | neutral | broad | 45.48 | 65.0 | 50.27 | APA, MPC, PSX | TRGP, HAL, TPL |
-| 3 | Technology | 64.95 | strong uptrend | neutral | broad | 39.74 | 65.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
+| 3 | Technology | 64.83 | strong uptrend | neutral | broad | 39.74 | 65.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
 | 4 | Healthcare | 64.71 | strong uptrend | positive | broad | 33.71 | 65.0 | 54.37 | VEEV, CRL, REGN | CVS, PODD, DVA |
 | 5 | Financials | 62.18 | strong uptrend | positive | broad | 42.75 | 65.0 | 52.34 | ARES, GPN, APO | TROW, SPGI, MSCI |
 | 6 | Consumer Staples | 57.99 | strong uptrend | neutral | broad | 50.0 | 0.0 | 45.88 | TGT, CLX, HSY | HRL, MO, MNST |
@@ -286,7 +286,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- |
 | Cybersecurity | Cybersecurity | 68.7 | strong | 58.39 | positive | sector and theme confirmation |
 | Energy | Energy | 65.5 | strong | 58.67 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 64.95 | positive | 55.45 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 64.83 | positive | 55.45 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 64.71 | positive | 55.93 | positive | sector and theme confirmation |
 | Financials | Financials | 62.18 | positive | 57.24 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 57.99 | positive | 51.34 | mixed | sector stronger than related themes |
