@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 5 September 2026, 09:23:43 (HKT)
+Generated at: 5 September 2026, 10:23:54 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **64.5 / 100** (Mild Risk-On)
+- Regime score: **64.41 / 100** (Mild Risk-On)
 - US equity strength: **77.85 / 100** (strong)
 - Evidence quality: **83.0 / 100**
-- ETF flow contribution: **48.98 / 100**, reliability **66.15 / 100**
+- ETF flow contribution: **47.87 / 100**, reliability **66.07 / 100**
 - Breadth: **broad**; above 50DMA `60.0%`, above 200DMA `69.49%`
 - Top sector score: **Cybersecurity** `68.7`
 - Top theme score: **Small Caps** `61.47`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 64.5 | Mild Risk-On |
+| Overall regime | 64.41 | Mild Risk-On |
 | equity_trend | 88.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 70.39 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 54.21 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 49.33 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 48.59 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 73.12 | risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=88.75, news_confirmation=73.12, market_breadth=70.39, volatility=70.0 |
 | Negative contributors |  | none |
@@ -249,8 +249,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 6 | Consumer Staples | 57.99 | strong uptrend | neutral | broad | 50.0 | 0.0 | 45.88 | TGT, CLX, HSY | HRL, MO, MNST |
 | 7 | Nuclear | 55.5 | neutral | neutral | broad | 50.0 | 0.0 | 50.82 | NLR | NLR |
 | 8 | Semiconductors | 55.47 | uptrend | neutral | weak | 55.68 | 65.0 | 51.7 | SOXX, SMH | SMH, SOXX |
-| 9 | Grid Infrastructure | 50.02 | downtrend | neutral | weak | 50.0 | 0.0 | 49.05 | GRID | GRID |
-| 10 | Crypto | 50.0 | neutral | neutral | mixed | 50.0 | 0.0 | 50.0 |  |  |
+| 9 | Crypto | 51.85 | neutral | neutral | mixed | 68.52 | 65.0 | 50.0 |  |  |
+| 10 | Grid Infrastructure | 50.02 | downtrend | neutral | weak | 50.0 | 0.0 | 49.05 | GRID | GRID |
 | 11 | Industrials | 49.4 | downtrend | neutral | weak | 50.0 | 0.0 | 51.11 | LDOS, HII, ALLE | ROL, LII, CHRW |
 | 12 | Defense | 44.56 | strong downtrend | positive | weak | 50.0 | 0.0 | 57.75 | XAR | XAR |
 | 13 | Real Estate | 42.61 | downtrend | neutral | weak | 53.85 | 65.0 | 46.51 | DLR, CSGP, EQIX | UDR, REG, DOC |
@@ -273,7 +273,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 10 | Dividend Defensives | 51.34 | Neutral / watchlist | 52.21 | 65.0 | 7.21 | False | False |
 | 11 | Defense | 47.25 | Neutral / watchlist | 50.0 | 0.0 | 16.07 | False | False |
 | 12 | Grid Infrastructure | 44.41 | Weak setup | 50.0 | 0.0 | 17.92 | False | False |
-| 13 | Crypto Infrastructure | 42.33 | Weak setup | 50.0 | 0.0 | 7.37 | False | False |
+| 13 | Crypto Infrastructure | 44.18 | Weak setup | 68.52 | 65.0 | 7.37 | False | False |
 
 - Top 5 improving themes: Financials, Healthcare Innovation, Defense, Cybersecurity, Small Caps
 - Top 5 deteriorating themes: Crypto Infrastructure, Nuclear, Energy, Grid Infrastructure, Quality Growth
@@ -292,8 +292,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Consumer Staples | Dividend Defensives | 57.99 | positive | 51.34 | mixed | sector stronger than related themes |
 | Nuclear | Nuclear | 55.5 | positive | 51.49 | mixed | sector stronger than related themes |
 | Semiconductors | AI Infrastructure, Semiconductors | 55.47 | positive | 54.45 | mixed | sector stronger than related themes |
+| Crypto | Crypto Infrastructure | 51.85 | mixed | 44.18 | weak | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 50.02 | mixed | 44.41 | weak | mixed confirmation |
-| Crypto | Crypto Infrastructure | 50.0 | mixed | 42.33 | weak | mixed confirmation |
 | Industrials | Defense, Grid Infrastructure | 49.4 | mixed | 45.83 | mixed | mixed confirmation |
 | Defense | Defense | 44.56 | weak | 47.25 | mixed | mixed confirmation |
 | Real Estate | Dividend Defensives | 42.61 | weak | 51.34 | mixed | mixed confirmation |
@@ -334,23 +334,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. 2-year yield rises to highest since January 2025 after hot jobs report boosts expectations that the Fed could raise rates**
-- Source: CNBC Markets
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: ^TNX, ^IRX, economic indicators, monetary policy
-- Score: `57.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Investors zero in on August inflation data in the week ahead after yields spike to levels not seen in years**
-- Source: CNBC Markets
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: inflation, Federal Reserve, interest rates
-- Score: `57.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%**
+**1. U.S. payrolls rose 162,000 in August, much more than expected; unemployment rate at 4.1%**
 - Source: CNBC Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -358,7 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.02`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Trump’s threat to stop trade unless there’s a rate cut risks shock to U.S. economy**
+**2. Trump’s threat to stop trade unless there’s a rate cut risks shock to U.S. economy**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -366,15 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Dow, S&P 500 and Nasdaq close lower as jobs data raise chances of Fed rate hike**
-- Source: MarketWatch Bulletins
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: P, S, economic_data, central_bank_policy
-- Score: `49.4`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. U.S. Stocks Fall, Treasury Yields Climb After Strong Jobs Report**
+**3. U.S. Stocks Fall, Treasury Yields Climb After Strong Jobs Report**
 - Source: Dow Jones Economy
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short term
@@ -382,7 +358,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.13`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**7. Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries**
+**4. 2-year yield rises to highest since January 2025 after hot jobs report boosts expectations that the Fed could raise rates**
+- Source: CNBC Markets
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: ^TNX, ^IRX, economic indicators, monetary policy
+- Score: `48.45`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. Investors zero in on August inflation data in the week ahead after yields spike to levels not seen in years**
+- Source: CNBC Markets
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: inflation, Federal Reserve, interest rates
+- Score: `48.45`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. Diesel hits record high as Ukraine and Iran wars knock out refineries, fueling inflation worries**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Trump admin targets tax-exempt status at private colleges — threatening a key tax break for donations**
+**7. Trump admin targets tax-exempt status at private colleges — threatening a key tax break for donations**
 - Source: CNBC Markets
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / medium
@@ -398,21 +390,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium.
 
-**9. Trump doubles down on threat to halt trade with top partners unless Fed cuts rates**
-- Source: CNBC Business Headlines
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, trade, interest rates, government intervention
-- Score: `42.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Bloom Energy was just named to the S&P 500. These other stocks are also joining.**
+**8. Bloom Energy was just named to the S&P 500. These other stocks are also joining.**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: P, S, Corporate News, Index Rebalance
 - Score: `41.99`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**9. Dow, S&P 500 and Nasdaq close lower as jobs data raise chances of Fed rate hike**
+- Source: MarketWatch Bulletins
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: P, S, economic_data, central_bank_policy
+- Score: `41.99`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. World's biggest sovereign wealth fund plans to cut U.S. Treasury holdings**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / long-term
+- Affected assets: U.S, Investment Strategy, Sovereign Wealth Fund
+- Score: `41.99`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the long-term.
 
 
 ### Headline Quality Checks
@@ -432,14 +432,14 @@ Positioning and flow data is used as confirmation only.
 ## ETF Flows Analysis
 
 - Market flow regime: `Mixed / Neutral`
-- Market flow score: `47.8 / 100`
+- Market flow score: `47.7 / 100`
 - Equity risk flow: `50.4`
 - Credit risk flow: `35.6`
 - Sector cyclicality flow: `48.8`
-- Duration/liquidity flow: `50.0`
-- Alternatives: `mixed alternative-asset demand`
-- ETF flow reliability: `66.2 / 100`
-- Dominant allocation direction: `mixed allocation`
+- Duration/liquidity flow: `46.8`
+- Alternatives: `barbell demand`
+- ETF flow reliability: `66.1 / 100`
+- Dominant allocation direction: `defensive demand`
 
 ### Core Flow Signals
 
@@ -453,12 +453,12 @@ Positioning and flow data is used as confirmation only.
 | IWM | U.S. Small Cap | 0.6 | 1.1 | 0.4 | -1.3 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural accumulation | 91.0 |
 | LQD | Investment-Grade Credit | -1.4 | -0.2 | 0.5 | -1.3 | Down | Sell | Normal | Persistent Distribution | Risk-Off | Medium-term deterioration; Exceptional institutional selling | 75.0 |
 | HYG | High-Yield Credit | -2.1 | -0.5 | 0.1 | -0.8 | Flat | Sell | Normal | Quiet Distribution | Weakening | Strong confirmation; Exceptional institutional selling, Persistent selling | 79.0 |
-| SGOV | Treasury Bills / Cash | 0.3 | -1.3 | 0.9 | 0.1 | Flat | Neutral | Normal | Neutral | Neutral | Medium-term recovery; Strong sponsorship | 95.0 |
+| SGOV | Treasury Bills / Cash | 0.1 | -1.2 | 0.9 | 0.1 | Flat | Buy | Normal | Quiet Accumulation | Improving | Medium-term recovery; Strong sponsorship | 95.0 |
 | SHY | Short-Duration Treasuries | 1.0 | 0.5 | 0.6 | 0.1 | Flat | Buy | Normal | Quiet Accumulation | Improving | Strong confirmation | 95.0 |
 | IEF | Intermediate-Duration Treasuries | -2.6 | -1.7 | 0.5 | 0.0 | Flat | Sell | Normal | Quiet Distribution | Weakening | Strong confirmation; Exceptional institutional selling | 87.0 |
 | TLT | Long-Duration Treasuries | 2.7 | 2.9 | 0.7 | -0.7 | Flat | Buy | Normal | Quiet Accumulation | Improving | Strong confirmation; Exceptional institutional buying | 100.0 |
 | GLD | Gold | 2.0 | 3.2 | 0.6 | 0.6 | Flat | Buy | Normal | Quiet Accumulation | Improving | Strong confirmation; Exceptional institutional buying | 100.0 |
-| IBIT | Bitcoin | 1.6 | 0.6 | 0.7 | 3.0 | Up | Neutral | High | Momentum Rally | Watch | Structural accumulation | 91.0 |
+| IBIT | Bitcoin | 1.7 | 0.8 | 0.7 | 0.8 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural accumulation | 91.0 |
 
 ### Sector Flow Signals
 
