@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 6 September 2026, 05:20:19 (HKT)
+Generated at: 6 September 2026, 05:55:50 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -339,7 +339,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, conflict, oil, defense
-- Score: `61.2`
+- Score: `52.02`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **2. Trump turns up the heat on Warsh as Fed rate hike looms**
@@ -358,15 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.67`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**4. Bloom Energy was just named to the S&P 500. These other stocks are also joining.**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: P, S, Corporate News, Index Rebalance
-- Score: `35.69`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**5. US nonfarm payrolls blow past expectations in August; unemployment rate steady at 4.1%**
+**4. US nonfarm payrolls blow past expectations in August; unemployment rate steady at 4.1%**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -374,15 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.52`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Bloom Energy was just named to the S&P 500. These other stocks are joining the index as well.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: P, S, S&P 500, stock market, index changes
-- Score: `31.79`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**7. Micron is doubling down on AI memory chips. It could pay off big for investors.**
+**5. Micron is doubling down on AI memory chips. It could pay off big for investors.**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -390,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.49`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. U.S. Nonfarm Payrolls Surge Past Expectations, Indicating Economic Strength**
+**6. U.S. Nonfarm Payrolls Surge Past Expectations, Indicating Economic Strength**
 - Source: Investing.com Technology
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -398,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.89`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. US strikes three Iranian oil tankers after IRGC attack on American naval ships, Central Command says**
+**7. US strikes three Iranian oil tankers after IRGC attack on American naval ships, Central Command says**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -406,13 +390,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.54`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. How to invest in a booming stock market that’s way cheaper than the S&P 500**
+**8. How to invest in a booming stock market that’s way cheaper than the S&P 500**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: P, S, investment strategy, market classification
 - Score: `26.77`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**9. Iranian tanker hit by US attack near Iran's Kharg Island, Tasnim says**
+- Source: CNBC Business Headlines
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: US, geopolitical
+- Score: `26.52`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**10. Strong job gains signal Fed hike as Trump levels new rate-cut demand**
+- Source: Investing.com Economic Indicators
+- Importance / impact: Low / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: SPY, TLT, SHY, interest rates, economic indicators
+- Score: `25.65`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
