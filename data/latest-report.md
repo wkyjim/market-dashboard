@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 5 September 2026, 12:11:58 (HKT)
+Generated at: 5 September 2026, 12:17:38 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **64.33 / 100** (Mild Risk-On)
+- Regime score: **64.32 / 100** (Mild Risk-On)
 - US equity strength: **77.85 / 100** (strong)
 - Evidence quality: **83.0 / 100**
-- ETF flow contribution: **47.65 / 100**, reliability **65.94 / 100**
+- ETF flow contribution: **47.52 / 100**, reliability **65.94 / 100**
 - Breadth: **broad**; above 50DMA `60.0%`, above 200DMA `69.49%`
 - Top sector score: **Cybersecurity** `68.7`
 - Top theme score: **Small Caps** `61.47`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 64.33 | Mild Risk-On |
+| Overall regime | 64.32 | Mild Risk-On |
 | equity_trend | 88.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 70.39 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 54.21 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 48.45 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 48.36 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 71.88 | risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=88.75, news_confirmation=71.88, market_breadth=70.39, volatility=70.0 |
 | Negative contributors |  | none |
@@ -490,6 +490,7 @@ Positioning and flow data is used as confirmation only.
 | Severity | Type | Primary | Comparison | Interpretation |
 | --- | --- | --- | --- | --- |
 | high | close_substitute_divergence | GLD | IAU | primary representative differs from close substitute |
+| high | close_substitute_divergence | AGG | IUSB | primary representative differs from close substitute |
 | high | close_substitute_divergence | IWF | IVW | primary representative differs from close substitute |
 | high | close_substitute_divergence | IWD | IVE | primary representative differs from close substitute |
 | high | close_substitute_divergence | IWM | IJR | primary representative differs from close substitute |
