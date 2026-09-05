@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 5 September 2026, 11:18:40 (HKT)
+Generated at: 5 September 2026, 12:11:58 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -390,15 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium.
 
-**8. Bloom Energy was just named to the S&P 500. These other stocks are also joining.**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: P, S, Corporate News, Index Rebalance
-- Score: `41.99`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**9. Dow, S&P 500 and Nasdaq close lower as jobs data raise chances of Fed rate hike**
+**8. Dow, S&P 500 and Nasdaq close lower as jobs data raise chances of Fed rate hike**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.99`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. World's biggest sovereign wealth fund plans to cut U.S. Treasury holdings**
+**9. World's biggest sovereign wealth fund plans to cut U.S. Treasury holdings**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / long-term
 - Affected assets: U.S, Investment Strategy, Sovereign Wealth Fund
 - Score: `41.99`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the long-term.
+
+**10. Why Nvidia's 'defensive move' to acquire Hugging Face is about much more than chips**
+- Source: CNBC Top News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AI, technology acquisitions
+- Score: `41.18`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
