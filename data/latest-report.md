@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 7 September 2026, 03:12:44 (HKT)
+Generated at: 7 September 2026, 03:31:44 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -334,15 +334,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Sugar is outperforming the stock market this year. Here's what's driving it, and where it can go from here**
-- Source: CNBC Top News
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: SUG, commodities, economy
-- Score: `32.11`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**2. U.S. Nonfarm Payrolls Surge Past Expectations, Indicating Economic Strength**
+**1. U.S. Nonfarm Payrolls Surge Past Expectations, Indicating Economic Strength**
 - Source: Investing.com Technology
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -350,7 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.89`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. U.S.-Iran tanker war escalates as Hormuz disruption deepens**
+**2. U.S.-Iran tanker war escalates as Hormuz disruption deepens**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -358,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.07`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. OPEC+ keeps oil output policy unchanged for October**
+**3. OPEC+ keeps oil output policy unchanged for October**
 - Source: CNBC Top News
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -366,13 +358,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.07`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. US, Iranian forces fire at vessels in waters near Iran**
+**4. US, Iranian forces fire at vessels in waters near Iran**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: IRGC, US, geopolitical, oil, defense
 - Score: `27.54`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. Sugar is outperforming the stock market this year. Here's what's driving it, and where it can go from here**
+- Source: CNBC Top News
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: SUG, commodities, economy
+- Score: `27.29`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 **6. U.S. Energy Secretary Wright says Iran nuclear deal may never happen**
 - Source: CNBC Business Headlines
