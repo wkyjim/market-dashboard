@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 6 September 2026, 11:12:11 (HKT)
+Generated at: 6 September 2026, 12:13:23 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **64.26 / 100** (Mild Risk-On)
+- Regime score: **64.1 / 100** (Mild Risk-On)
 - US equity strength: **77.85 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **47.2 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 64.26 | Mild Risk-On |
+| Overall regime | 64.1 | Mild Risk-On |
 | equity_trend | 88.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 70.39 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.21 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.13 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 71.25 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=88.75, news_confirmation=71.25, market_breadth=70.39, volatility=70.0 |
+| news_confirmation | 68.12 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=88.75, market_breadth=70.39, volatility=70.0, news_confirmation=68.12 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 52, 'negative': 18, 'neutral': 10}
-- News confirmation score: `71.25`
+- Sentiment counts: {'positive': 49, 'negative': 20, 'neutral': 11}
+- News confirmation score: `68.12`
 
 ### Top Market-Moving Headlines
 
@@ -390,15 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `26.01`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. Strong job gains signal Fed hike as Trump levels new rate-cut demand**
-- Source: Investing.com Economic Indicators
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: SPY, TLT, SHY, interest rates, economic indicators
-- Score: `25.65`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Oil ends week higher on renewed US-Iran strikes, diesel hits record**
+**8. Oil ends week higher on renewed US-Iran strikes, diesel hits record**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -406,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Oil soars for the week, hits three-month high on U.S.-Iran military escalation**
+**9. Oil soars for the week, hits three-month high on U.S.-Iran military escalation**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / shortterm
@@ -414,10 +406,18 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the shortterm.
 
+**10. How to invest in a booming stock market that’s way cheaper than the S&P 500**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: P, S, investment strategy, market classification
+- Score: `22.76`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
 
 ### Headline Quality Checks
 
-No noisy headlines detected by current rules.
+Noisy headline list: Stock market today: Dow, S&P 500, Nasdaq slip as b, Stock Market Today: Dow Sinks Amid Rate Fears; San
 
 ## Positioning & Flow Dashboard
 
