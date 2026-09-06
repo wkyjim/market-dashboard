@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 7 September 2026, 00:28:45 (HKT)
+Generated at: 7 September 2026, 01:25:15 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **63.57 / 100** (Mild Risk-On)
+- Regime score: **63.63 / 100** (Mild Risk-On)
 - US equity strength: **77.85 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **47.2 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 63.57 | Mild Risk-On |
+| Overall regime | 63.63 | Mild Risk-On |
 | equity_trend | 88.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 70.39 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 54.21 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.13 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 57.5 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 58.75 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=88.75, market_breadth=70.39, volatility=70.0 |
 | Negative contributors |  | none |
 
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 39, 'negative': 27, 'neutral': 14}
-- News confirmation score: `57.5`
+- Sentiment counts: {'positive': 40, 'negative': 26, 'neutral': 14}
+- News confirmation score: `58.75`
 
 ### Top Market-Moving Headlines
 
@@ -350,15 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.2`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Jobs and Iran add to Trump’s midterm headaches. Why that’s good for bonds and bad for energy stocks.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: politics, economy
-- Score: `32.87`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**4. Sugar is outperforming the stock market this year. Here's what's driving it, and where it can go from here**
+**3. Sugar is outperforming the stock market this year. Here's what's driving it, and where it can go from here**
 - Source: CNBC Top News
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.11`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**5. U.S. Nonfarm Payrolls Surge Past Expectations, Indicating Economic Strength**
+**4. U.S. Nonfarm Payrolls Surge Past Expectations, Indicating Economic Strength**
 - Source: Investing.com Technology
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.89`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. U.S.-Iran tanker war escalates as Hormuz disruption deepens**
+**5. U.S.-Iran tanker war escalates as Hormuz disruption deepens**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.07`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. US, Iranian forces fire at vessels in waters near Iran**
+**6. US, Iranian forces fire at vessels in waters near Iran**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.54`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. U.S. Energy Secretary Wright says Iran nuclear deal may never happen**
+**7. U.S. Energy Secretary Wright says Iran nuclear deal may never happen**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.04`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**9. Think you maxed out your 401(k)? The real limit is actually almost $50,000 higher.**
+**8. Think you maxed out your 401(k)? The real limit is actually almost $50,000 higher.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / long-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `26.01`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. Oil ends week higher on renewed US-Iran strikes, diesel hits record**
+**9. Oil ends week higher on renewed US-Iran strikes, diesel hits record**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: US, oil_prices, geopolitical_risk
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Billions in Iranian funds are passing through U.S. banks despite sanctions - WSJ**
+- Source: Investing.com Economic Indicators
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, Iran, WSJ, Sanctions, International Trade
+- Score: `22.23`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
