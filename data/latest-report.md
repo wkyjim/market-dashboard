@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 7 September 2026, 01:25:15 (HKT)
+Generated at: 7 September 2026, 03:12:44 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **63.63 / 100** (Mild Risk-On)
+- Regime score: **63.54 / 100** (Mild Risk-On)
 - US equity strength: **77.85 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **47.2 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 63.63 | Mild Risk-On |
+| Overall regime | 63.54 | Mild Risk-On |
 | equity_trend | 88.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 70.39 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 54.21 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.13 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 58.75 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 56.88 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=88.75, market_breadth=70.39, volatility=70.0 |
 | Negative contributors |  | none |
 
@@ -243,8 +243,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cybersecurity | 69.97 | strong uptrend | positive | broad | 62.67 | 65.0 | 62.96 | CIBR | CIBR |
 | 2 | Energy | 65.5 | strong uptrend | neutral | broad | 45.48 | 65.0 | 50.27 | APA, MPC, PSX | TRGP, HAL, TPL |
-| 3 | Healthcare | 64.71 | strong uptrend | positive | broad | 33.71 | 65.0 | 54.37 | VEEV, CRL, REGN | CVS, PODD, DVA |
-| 4 | Technology | 64.47 | strong uptrend | neutral | broad | 39.74 | 65.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
+| 3 | Technology | 64.73 | strong uptrend | neutral | broad | 39.74 | 65.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
+| 4 | Healthcare | 64.71 | strong uptrend | positive | broad | 33.71 | 65.0 | 54.37 | VEEV, CRL, REGN | CVS, PODD, DVA |
 | 5 | Financials | 62.18 | strong uptrend | positive | broad | 42.75 | 65.0 | 52.34 | ARES, GPN, APO | TROW, SPGI, MSCI |
 | 6 | Consumer Staples | 57.99 | strong uptrend | neutral | broad | 50.0 | 0.0 | 45.88 | TGT, CLX, HSY | HRL, MO, MNST |
 | 7 | Nuclear | 55.5 | neutral | neutral | broad | 50.0 | 0.0 | 50.82 | NLR | NLR |
@@ -286,8 +286,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- |
 | Cybersecurity | Cybersecurity | 69.97 | strong | 59.66 | positive | sector and theme confirmation |
 | Energy | Energy | 65.5 | strong | 58.67 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 64.73 | positive | 55.09 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 64.71 | positive | 55.93 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 64.47 | positive | 55.09 | positive | sector and theme confirmation |
 | Financials | Financials | 62.18 | positive | 57.24 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 57.99 | positive | 51.34 | mixed | sector stronger than related themes |
 | Nuclear | Nuclear | 55.5 | positive | 51.49 | mixed | sector stronger than related themes |
@@ -329,28 +329,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 40, 'negative': 26, 'neutral': 14}
-- News confirmation score: `58.75`
+- Sentiment counts: {'positive': 39, 'negative': 28, 'neutral': 13}
+- News confirmation score: `56.88`
 
 ### Top Market-Moving Headlines
 
-**1. Trump turns up the heat on Warsh as Fed rate hike looms**
-- Source: CNBC Business
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: Federal Reserve, interest rates, government influence
-- Score: `40.8`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. OPEC+ keeps oil output policy unchanged for October**
-- Source: CNBC Top News
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: OPEC, oil, market share
-- Score: `34.2`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. Sugar is outperforming the stock market this year. Here's what's driving it, and where it can go from here**
+**1. Sugar is outperforming the stock market this year. Here's what's driving it, and where it can go from here**
 - Source: CNBC Top News
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -358,7 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.11`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**4. U.S. Nonfarm Payrolls Surge Past Expectations, Indicating Economic Strength**
+**2. U.S. Nonfarm Payrolls Surge Past Expectations, Indicating Economic Strength**
 - Source: Investing.com Technology
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -366,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.89`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. U.S.-Iran tanker war escalates as Hormuz disruption deepens**
+**3. U.S.-Iran tanker war escalates as Hormuz disruption deepens**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -374,7 +358,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.07`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. US, Iranian forces fire at vessels in waters near Iran**
+**4. OPEC+ keeps oil output policy unchanged for October**
+- Source: CNBC Top News
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: OPEC, oil, market share
+- Score: `29.07`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. US, Iranian forces fire at vessels in waters near Iran**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.54`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. U.S. Energy Secretary Wright says Iran nuclear deal may never happen**
+**6. U.S. Energy Secretary Wright says Iran nuclear deal may never happen**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -390,15 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.04`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**8. Think you maxed out your 401(k)? The real limit is actually almost $50,000 higher.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / long-term
-- Affected assets: retirement, 401(k)
-- Score: `26.01`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**9. Oil ends week higher on renewed US-Iran strikes, diesel hits record**
+**7. Oil ends week higher on renewed US-Iran strikes, diesel hits record**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -406,13 +390,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Billions in Iranian funds are passing through U.S. banks despite sanctions - WSJ**
+**8. Billions in Iranian funds are passing through U.S. banks despite sanctions - WSJ**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, Iran, WSJ, Sanctions, International Trade
 - Score: `22.23`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. Is U.S. losing its safe-haven status? Why global central banks are pulling gold.**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / medium
+- Affected assets: U.S, gold, central bank
+- Score: `22.23`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**10. China to inject $54 billion into state banks and insurers**
+- Source: Investing.com World News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: BAC, MS, JPM, CHINA, government
+- Score: `20.66`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
