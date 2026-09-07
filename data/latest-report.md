@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 8 September 2026, 02:19:42 (HKT)
+Generated at: 8 September 2026, 03:11:57 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **61.45 / 100** (Mild Risk-On)
+- Regime score: **61.3 / 100** (Mild Risk-On)
 - US equity strength: **77.85 / 100** (strong)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **47.2 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 61.45 | Mild Risk-On |
+| Overall regime | 61.3 | Mild Risk-On |
 | equity_trend | 88.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 70.39 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 56.27 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.13 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 76.25 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=88.75, news_confirmation=76.25, market_breadth=70.39, commodity_confirmation=63.0 |
+| news_confirmation | 73.12 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=88.75, news_confirmation=73.12, market_breadth=70.39, commodity_confirmation=63.0 |
 | Negative contributors |  | volatility=35.0 |
 
 ## US Equity Strength Score
@@ -329,12 +329,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 55, 'negative': 13, 'neutral': 12}
-- News confirmation score: `76.25`
+- Sentiment counts: {'positive': 53, 'negative': 16, 'neutral': 11}
+- News confirmation score: `73.12`
 
 ### Top Market-Moving Headlines
 
-**1. Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit**
+**1. Trump says Bombardier can't sell in U.S. unless Canada aerospace giant builds there**
+- Source: CNBC Top News
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: BA, U.S, trade, politics, aerospace
+- Score: `64.6`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -342,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Oil Rises as Escalating U.S.-Iran Conflict Stokes Supply Disruption Fears**
+**3. Oil Rises as Escalating U.S.-Iran Conflict Stokes Supply Disruption Fears**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -350,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets**
+**4. Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / medium
@@ -358,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium.
 
-**4. Jaguar Land Rover to cut 4,000 jobs over two years in major cost-saving drive**
+**5. Jaguar Land Rover to cut 4,000 jobs over two years in major cost-saving drive**
 - Source: CNBC Business News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `46.24`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. A Fed rate hike is coming into view. Here’s what UBS says to own — and avoid**
+**6. A Fed rate hike is coming into view. Here’s what UBS says to own — and avoid**
 - Source: CNBC Business News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Range Rover Maker to Cut 4,000 Jobs as Trump’s Tariffs Bite**
+**7. Range Rover Maker to Cut 4,000 Jobs as Trump’s Tariffs Bite**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.25`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Why the launch of OpenAI’s latest Astra model reignited the memory chip trade**
+**8. Why the launch of OpenAI’s latest Astra model reignited the memory chip trade**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.57`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. Treasurys are losing foreign appeal in a historic capital flow reversal — and here's one trade investors favor instead**
+**9. Treasurys are losing foreign appeal in a historic capital flow reversal — and here's one trade investors favor instead**
 - Source: CNBC Top News
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -398,21 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.09`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. U.S. Nonfarm Payrolls Surge Past Expectations, Indicating Economic Strength**
+**10. U.S. Nonfarm Payrolls Surge Past Expectations, Indicating Economic Strength**
 - Source: Investing.com Technology
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, economy, employment
 - Score: `30.89`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: oil, geopolitical
-- Score: `30.6`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
