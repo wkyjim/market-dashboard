@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 8 September 2026, 06:29:59 (HKT)
+Generated at: 8 September 2026, 07:32:39 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -334,15 +334,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit**
-- Source: CNBC Top News
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil prices, geopolitical events
-- Score: `57.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Trump says Bombardier can't sell in U.S. unless Canada aerospace giant builds there**
+**1. Trump says Bombardier can't sell in U.S. unless Canada aerospace giant builds there**
 - Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -350,12 +342,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.4`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Oil Rises as Escalating U.S.-Iran Conflict Stokes Supply Disruption Fears**
+**2. Oil Rises as Escalating U.S.-Iran Conflict Stokes Supply Disruption Fears**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, oil, geopolitical, Middle East
 - Score: `48.77`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit**
+- Source: CNBC Top News
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, oil prices, geopolitical events
+- Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **4. Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets**
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `2`
+- Live macro rows used: `4`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
