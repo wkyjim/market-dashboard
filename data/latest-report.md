@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 7 September 2026, 08:32:29 (HKT)
+Generated at: 7 September 2026, 09:11:57 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -329,7 +329,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 41, 'negative': 26, 'neutral': 13}
+- Sentiment counts: {'positive': 40, 'negative': 25, 'neutral': 15}
 - News confirmation score: `59.38`
 
 ### Top Market-Moving Headlines
@@ -390,15 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Amazon cargo plane crashes after overrunning runway, closing Miami airport on busy holiday weekend**
-- Source: CNBC Top News
-- Importance / impact: Low / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: aviation, logistics
-- Score: `22.61`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**9. Billions in Iranian funds are passing through U.S. banks despite sanctions - WSJ**
+**8. Billions in Iranian funds are passing through U.S. banks despite sanctions - WSJ**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `22.23`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. South Korea exports surpass annual record as AI chip boom drives shipments**
+**9. South Korea exports surpass annual record as AI chip boom drives shipments**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short
 - Affected assets: AI, chip, exports
 - Score: `21.8`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**10. China to inject $54 billion into state banks and insurers**
+- Source: Investing.com World News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: BAC, MS, JPM, CHINA, government
+- Score: `20.66`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
