@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 7 September 2026, 09:29:08 (HKT)
+Generated at: 7 September 2026, 10:32:08 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **63.78 / 100** (Mild Risk-On)
+- Regime score: **64.02 / 100** (Mild Risk-On)
 - US equity strength: **77.85 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.2 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 63.78 | Mild Risk-On |
+| Overall regime | 64.02 | Mild Risk-On |
 | equity_trend | 88.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 70.39 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -25,10 +25,10 @@ Window: 24h
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 55.02 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.13 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 59.38 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=88.75, market_breadth=70.39, volatility=70.0 |
+| Positive contributors |  | equity_trend=88.75, market_breadth=70.39, volatility=70.0, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -64,7 +64,7 @@ Window: 24h
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude stable | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -83,10 +83,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US3YT=X | United States 3-Year Treasury Yield | 4.45 | 1.02 | 2026-09-04 | closed |
 | US5YT=X | United States 5-Year Treasury Yield | 4.55 | 0.87 | 2026-09-04 | closed |
 | US7YT=X | United States 7-Year Treasury Yield | 4.66 | 0.64 | 2026-09-04 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 4.78 | -0.08 | 2026-09-07 | live as of 7 September 2026, 09:01:49 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.78 | 0.42 | 2026-09-04 | closed |
 | US20YT=X | United States 20-Year Treasury Yield | 5.25 | 0.08 | 2026-09-04 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.24 | 0.03 | 2026-09-04 | closed |
-| HK50 | Hang Seng Futures | 25659.0 | 0.91 | 2026-09-04 | closed |
+| HK50 | Hang Seng Futures | 25400.5 | -1.01 | 2026-09-07 | live as of 7 September 2026, 10:01:49 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1093.9 | 3.93 | 2026-09-04 | closed |
 | CIHc1 | SSE 50 Futures | 2912.6 | 0.16 | 2026-09-04 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.16 | -0.06 | 2026-09-04 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.69 | -0.02 | 2026-09-04 | closed |
 | GC=F | Gold Future | 4476.6 | 1.06 | 2026-09-06 | closed |
 | SI=F | Silver Future | 66.75 | 1.06 | 2026-09-06 | closed |
-| CL=F | WTI Crude Oil Future | 91.22 | -0.09 | 2026-09-04 | closed |
+| CL=F | WTI Crude Oil Future | 92.06 | 0.63 | 2026-09-07 | live as of 7 September 2026, 10:01:49 (HKT) |
 | HG=F | Copper Future | 6.68 | 1.3 | 2026-09-06 | closed |
 
 ## Market Dispersion Analysis
@@ -374,21 +374,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**6. U.S. Energy Secretary Wright says Iran nuclear deal may never happen**
-- Source: CNBC Business Headlines
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: U.S, Geopolitical, Economic
-- Score: `27.04`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**7. Oil ends week higher on renewed US-Iran strikes, diesel hits record**
+**6. Oil ends week higher on renewed US-Iran strikes, diesel hits record**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: US, oil_prices, geopolitical_risk
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. U.S. Energy Secretary Wright says Iran nuclear deal may never happen**
+- Source: CNBC Business Headlines
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: U.S, Geopolitical, Economic
+- Score: `22.98`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 **8. Billions in Iranian funds are passing through U.S. banks despite sanctions - WSJ**
 - Source: Investing.com Economic Indicators
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `7`
+- Live macro rows used: `9`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
