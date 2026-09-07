@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 7 September 2026, 21:26:20 (HKT)
+Generated at: 7 September 2026, 22:29:50 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **61.17 / 100** (Mild Risk-On)
+- Regime score: **64.67 / 100** (Mild Risk-On)
 - US equity strength: **77.85 / 100** (strong)
-- Evidence quality: **83.0 / 100**
+- Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.2 / 100**, reliability **66.71 / 100**
 - Breadth: **broad**; above 50DMA `60.0%`, above 200DMA `69.49%`
 - Top sector score: **Cybersecurity** `69.97`
@@ -17,19 +17,19 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 61.17 | Mild Risk-On |
+| Overall regime | 64.67 | Mild Risk-On |
 | equity_trend | 88.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 70.39 | risk-on support; Participation breadth from tracked equity/ETF rows. |
-| volatility | 35.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
+| volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 56.25 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 56.3 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.13 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 70.62 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=88.75, news_confirmation=70.62, market_breadth=70.39, commodity_confirmation=63.0 |
-| Negative contributors |  | volatility=35.0 |
+| Positive contributors |  | equity_trend=88.75, news_confirmation=70.62, market_breadth=70.39, volatility=70.0, commodity_confirmation=63.0 |
+| Negative contributors |  | none |
 
 ## US Equity Strength Score
 
@@ -47,9 +47,9 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `83.0`
-- Agreement ratio: `0.6`
-- Contradiction count: `1`
+- Confidence score: `86.5`
+- Agreement ratio: `0.7`
+- Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
 
@@ -59,7 +59,7 @@ Window: 24h
 | --- | --- | --- |
 | Equities | S&P 500 falling; Nasdaq falling; Russell 2000 stable | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
 | Rates | 10Y Treasury rising; MOVE falling | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
-| Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
+| Dollar | DXY proxy falling | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
@@ -76,7 +76,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7718.6 | -0.38 | 2026-09-04 | closed |
 | ^IXIC | NASDAQ Composite | 26506.99 | -0.29 | 2026-09-04 | closed |
 | ^RUT | Russell 2000 Index | 2975.65 | 0.25 | 2026-09-04 | closed |
-| ^VIX | CBOE Volatility Index | 15.23 | 4.82 | 2026-09-07 | live as of 7 September 2026, 21:01:51 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.1 | 3.92 | 2026-09-07 | live as of 7 September 2026, 22:01:48 (HKT) |
 | ^SKEW | CBOE SKEW Index | 151.58 | 0.63 | 2026-09-04 | closed |
 | ^MOVE | ICE BofA MOVE Index | 73.1 | -2.11 | 2026-09-04 | closed |
 | US2YT=X | United States 2-Year Treasury Yield | 4.37 | 0.93 | 2026-09-04 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 82.21 | 0.17 | 2026-09-04 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 92.25 | -0.03 | 2026-09-04 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.69 | -0.02 | 2026-09-04 | closed |
-| GC=F | Gold Future | 4476.6 | 1.06 | 2026-09-07 | live as of 7 September 2026, 21:01:51 (HKT) |
-| SI=F | Silver Future | 66.75 | 1.06 | 2026-09-07 | live as of 7 September 2026, 21:01:51 (HKT) |
-| CL=F | WTI Crude Oil Future | 92.6 | 1.22 | 2026-09-07 | live as of 7 September 2026, 21:01:51 (HKT) |
-| HG=F | Copper Future | 6.68 | 1.3 | 2026-09-07 | live as of 7 September 2026, 21:01:51 (HKT) |
+| GC=F | Gold Future | 4476.6 | 1.06 | 2026-09-07 | live as of 7 September 2026, 22:01:48 (HKT) |
+| SI=F | Silver Future | 66.75 | 1.06 | 2026-09-07 | live as of 7 September 2026, 22:01:48 (HKT) |
+| CL=F | WTI Crude Oil Future | 92.71 | 1.34 | 2026-09-07 | live as of 7 September 2026, 22:01:48 (HKT) |
+| HG=F | Copper Future | 6.68 | 1.3 | 2026-09-07 | live as of 7 September 2026, 22:01:48 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -226,10 +226,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Indicator | Latest | Unit | Change | Date | Rule-Based Interpretation |
 | --- | --- | --- | --- | --- | --- |
-| US dollar/Euro ECB reference exchange rate | 1.16 | USD | 0.0 USD vs prior | 2026-09-04 | EUR strengthened versus this currency. |
-| Japanese yen/Euro ECB reference exchange rate | 181.59 | JPY | 0.38 JPY vs prior | 2026-09-04 | EUR strengthened versus this currency. |
-| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.8 | CNY | -0.0 CNY vs prior | 2026-09-04 | EUR weakened versus this currency. |
-| Australian dollar/Euro ECB reference exchange rate | 1.61 | AUD | -0.0 AUD vs prior | 2026-09-04 | EUR weakened versus this currency. |
+| US dollar/Euro ECB reference exchange rate | 1.16 | USD | 0.0 USD vs prior | 2026-09-07 | FX rate stable. |
+| Japanese yen/Euro ECB reference exchange rate | 179.85 | JPY | -1.74 JPY vs prior | 2026-09-07 | EUR weakened versus this currency. |
+| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.8 | CNY | 0.0 CNY vs prior | 2026-09-07 | EUR strengthened versus this currency. |
+| Australian dollar/Euro ECB reference exchange rate | 1.61 | AUD | -0.0 AUD vs prior | 2026-09-07 | EUR weakened versus this currency. |
 
 ABS Australia note: ABS rows are stored locally/Neon, but most series are dimension-coded; only curated series should be promoted into narrative report text.
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.23 pct_chg=4.82
+- VIX close=15.1 pct_chg=3.92
 
 ## News Analytics
 
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `15`
+- Live macro rows used: `16`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
