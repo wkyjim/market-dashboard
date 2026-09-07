@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 7 September 2026, 10:32:08 (HKT)
+Generated at: 7 September 2026, 11:25:53 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -83,10 +83,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US3YT=X | United States 3-Year Treasury Yield | 4.45 | 1.02 | 2026-09-04 | closed |
 | US5YT=X | United States 5-Year Treasury Yield | 4.55 | 0.87 | 2026-09-04 | closed |
 | US7YT=X | United States 7-Year Treasury Yield | 4.66 | 0.64 | 2026-09-04 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 4.78 | 0.42 | 2026-09-04 | closed |
+| US10YT=X | United States 10-Year Treasury Yield | 4.79 | 0.1 | 2026-09-07 | live as of 7 September 2026, 11:01:50 (HKT) |
 | US20YT=X | United States 20-Year Treasury Yield | 5.25 | 0.08 | 2026-09-04 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.24 | 0.03 | 2026-09-04 | closed |
-| HK50 | Hang Seng Futures | 25400.5 | -1.01 | 2026-09-07 | live as of 7 September 2026, 10:01:49 (HKT) |
+| HK50 | Hang Seng Futures | 25339.0 | -1.25 | 2026-09-07 | live as of 7 September 2026, 11:01:50 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1093.9 | 3.93 | 2026-09-04 | closed |
 | CIHc1 | SSE 50 Futures | 2912.6 | 0.16 | 2026-09-04 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.16 | -0.06 | 2026-09-04 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.69 | -0.02 | 2026-09-04 | closed |
 | GC=F | Gold Future | 4476.6 | 1.06 | 2026-09-06 | closed |
 | SI=F | Silver Future | 66.75 | 1.06 | 2026-09-06 | closed |
-| CL=F | WTI Crude Oil Future | 92.06 | 0.63 | 2026-09-07 | live as of 7 September 2026, 10:01:49 (HKT) |
+| CL=F | WTI Crude Oil Future | 92.17 | 0.75 | 2026-09-07 | live as of 7 September 2026, 11:01:50 (HKT) |
 | HG=F | Copper Future | 6.68 | 1.3 | 2026-09-06 | closed |
 
 ## Market Dispersion Analysis
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `9`
+- Live macro rows used: `10`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
