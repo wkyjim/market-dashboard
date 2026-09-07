@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 8 September 2026, 06:12:06 (HKT)
+Generated at: 8 September 2026, 06:29:59 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 82.21 | 0.17 | 2026-09-04 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 92.25 | -0.03 | 2026-09-04 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.69 | -0.02 | 2026-09-04 | closed |
-| GC=F | Gold Future | 4476.6 | 1.06 | 2026-09-07 | live as of 8 September 2026, 05:01:53 (HKT) |
-| SI=F | Silver Future | 66.75 | 1.06 | 2026-09-07 | live as of 8 September 2026, 05:01:53 (HKT) |
-| CL=F | WTI Crude Oil Future | 92.7 | 1.33 | 2026-09-07 | live as of 8 September 2026, 05:01:53 (HKT) |
-| HG=F | Copper Future | 6.68 | 1.3 | 2026-09-07 | live as of 8 September 2026, 05:01:53 (HKT) |
+| GC=F | Gold Future | 4476.6 | 1.06 | 2026-09-07 | closed |
+| SI=F | Silver Future | 66.75 | 1.06 | 2026-09-07 | closed |
+| CL=F | WTI Crude Oil Future | 92.66 | 1.29 | 2026-09-07 | closed |
+| HG=F | Copper Future | 6.68 | 1.3 | 2026-09-07 | closed |
 
 ## Market Dispersion Analysis
 
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `14`
+- Live macro rows used: `2`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
