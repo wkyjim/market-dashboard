@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 8 September 2026, 10:28:29 (HKT)
+Generated at: 8 September 2026, 10:30:22 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -358,15 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `46.24`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. EverBank to Combine With WaFd to Create $75 Billion Bank**
-- Source: Dow Jones US Business
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short
-- Affected assets: EVER, WAFD, banking, merger
-- Score: `43.35`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**5. Oil prices climb, Dow futures sink on reports of Saudi Aramco refinery being hit**
+**4. Oil prices climb, Dow futures sink on reports of Saudi Aramco refinery being hit**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.23`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. A Fed rate hike is coming into view. Here’s what UBS says to own — and avoid**
+**5. A Fed rate hike is coming into view. Here’s what UBS says to own — and avoid**
 - Source: CNBC Business News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Range Rover Maker to Cut 4,000 Jobs as Trump’s Tariffs Bite**
+**6. Range Rover Maker to Cut 4,000 Jobs as Trump’s Tariffs Bite**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -390,12 +382,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.25`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Why the launch of OpenAI’s latest Astra model reignited the memory-chip trade**
+**7. Why the launch of OpenAI’s latest Astra model reignited the memory-chip trade**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: AI, semiconductor
 - Score: `37.57`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**8. EverBank to Combine With WaFd to Create $75 Billion Bank**
+- Source: Dow Jones US Business
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short
+- Affected assets: EVER, WAFD, banking, merger
+- Score: `36.85`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 **9. Dow futures fall 300 points to start shortened week as oil prices climb: Live updates**
