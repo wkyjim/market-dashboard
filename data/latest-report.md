@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 8 September 2026, 09:12:08 (HKT)
+Generated at: 8 September 2026, 09:28:32 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,13 +79,13 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.3 | 5.3 | 2026-09-07 | closed |
 | ^SKEW | CBOE SKEW Index | 151.58 | 0.63 | 2026-09-04 | closed |
 | ^MOVE | ICE BofA MOVE Index | 73.1 | -2.11 | 2026-09-04 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.37 | 0.0 | 2026-09-08 | live as of 8 September 2026, 08:31:50 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.45 | -0.03 | 2026-09-08 | live as of 8 September 2026, 08:31:50 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.55 | -0.08 | 2026-09-08 | live as of 8 September 2026, 08:31:50 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.66 | -0.06 | 2026-09-08 | live as of 8 September 2026, 08:31:50 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.79 | -0.07 | 2026-09-08 | live as of 8 September 2026, 08:31:50 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.25 | -0.1 | 2026-09-08 | live as of 8 September 2026, 08:31:50 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.25 | -0.1 | 2026-09-08 | live as of 8 September 2026, 08:31:50 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.38 | 0.05 | 2026-09-08 | live as of 8 September 2026, 09:01:52 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.45 | 0.0 | 2026-09-08 | live as of 8 September 2026, 09:01:52 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.56 | 0.0 | 2026-09-08 | live as of 8 September 2026, 09:01:52 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.67 | 0.14 | 2026-09-07 | closed |
+| US10YT=X | United States 10-Year Treasury Yield | 4.79 | 0.17 | 2026-09-07 | closed |
+| US20YT=X | United States 20-Year Treasury Yield | 5.26 | 0.11 | 2026-09-07 | closed |
+| US30YT=X | United States 30-Year Treasury Yield | 5.25 | -0.04 | 2026-09-08 | live as of 8 September 2026, 09:01:52 (HKT) |
 | HK50 | Hang Seng Futures | 25337.0 | -1.26 | 2026-09-07 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1093.9 | 3.93 | 2026-09-04 | closed |
 | CIHc1 | SSE 50 Futures | 2912.6 | 0.16 | 2026-09-04 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.69 | -0.02 | 2026-09-04 | closed |
 | GC=F | Gold Future | 4476.6 | 1.06 | 2026-09-07 | closed |
 | SI=F | Silver Future | 66.75 | 1.06 | 2026-09-07 | closed |
-| CL=F | WTI Crude Oil Future | 92.33 | -0.21 | 2026-09-08 | live as of 8 September 2026, 08:31:50 (HKT) |
+| CL=F | WTI Crude Oil Future | 92.48 | -0.04 | 2026-09-08 | live as of 8 September 2026, 09:01:52 (HKT) |
 | HG=F | Copper Future | 6.68 | 1.3 | 2026-09-07 | closed |
 
 ## Market Dispersion Analysis
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `15`
+- Live macro rows used: `11`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
