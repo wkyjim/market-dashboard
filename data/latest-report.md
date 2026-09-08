@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 8 September 2026, 21:12:16 (HKT)
+Generated at: 8 September 2026, 22:09:32 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -24,7 +24,7 @@ Window: 24h
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 56.42 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 56.5 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 67.0 | risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.9 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 71.88 | risk-on support; Weighted headline/news confirmation score. |
@@ -57,14 +57,14 @@ Window: 24h
 
 | Area | Signal | Interpretation |
 | --- | --- | --- |
-| Equities | S&P 500 falling; Nasdaq falling; Russell 2000 stable | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
-| Rates | 10Y Treasury falling; MOVE falling | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
+| Equities | S&P 500 falling; Nasdaq falling; Russell 2000 falling | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
+| Rates | 10Y Treasury stable; MOVE falling | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy falling | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude stable | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7718.6 | -0.38 | 2026-09-04 | closed |
-| ^IXIC | NASDAQ Composite | 26506.99 | -0.29 | 2026-09-04 | closed |
-| ^RUT | Russell 2000 Index | 2975.65 | 0.25 | 2026-09-04 | closed |
-| ^VIX | CBOE Volatility Index | 15.5 | 1.31 | 2026-09-08 | live as of 8 September 2026, 21:01:49 (HKT) |
+| ^GSPC | S&P 500 | 7684.18 | -0.45 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
+| ^IXIC | NASDAQ Composite | 26386.58 | -0.45 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
+| ^RUT | Russell 2000 Index | 2964.96 | -0.36 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.63 | 2.16 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
 | ^SKEW | CBOE SKEW Index | 151.58 | 0.63 | 2026-09-04 | closed |
 | ^MOVE | ICE BofA MOVE Index | 73.1 | -2.11 | 2026-09-04 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.36 | -0.28 | 2026-09-08 | live as of 8 September 2026, 21:01:49 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.44 | -0.42 | 2026-09-08 | live as of 8 September 2026, 21:01:49 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.53 | -0.51 | 2026-09-08 | live as of 8 September 2026, 21:01:49 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.64 | -0.54 | 2026-09-08 | live as of 8 September 2026, 21:01:49 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.76 | -0.65 | 2026-09-08 | live as of 8 September 2026, 21:01:49 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.22 | -0.68 | 2026-09-08 | live as of 8 September 2026, 21:01:49 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.22 | -0.62 | 2026-09-08 | live as of 8 September 2026, 21:01:49 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.38 | 0.15 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.45 | 0.0 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.55 | -0.08 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.66 | -0.14 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.79 | -0.11 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.24 | -0.34 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.23 | -0.32 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
 | HK50 | Hang Seng Futures | 25296.5 | 0.18 | 2026-09-08 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1117.15 | 0.67 | 2026-09-07 | closed |
 | CIHc1 | SSE 50 Futures | 2901.8 | -0.37 | 2026-09-07 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.16 | -0.06 | 2026-09-04 | closed |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 105.48 | -0.02 | 2026-09-04 | closed |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 95.27 | -0.03 | 2026-09-04 | closed |
-| RSP | Invesco S&P 500 Equal Weight ETF | 219.0 | -0.48 | 2026-09-04 | closed |
-| IWF | iShares Russell 1000 Growth ETF | 123.41 | -0.02 | 2026-09-04 | closed |
-| IWD | iShares Russell 1000 Value ETF | 257.63 | -0.67 | 2026-09-04 | closed |
-| TLT | iShares 20+ Year Treasury Bond ETF | 82.21 | 0.17 | 2026-09-04 | closed |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 92.25 | -0.03 | 2026-09-04 | closed |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.69 | -0.02 | 2026-09-04 | closed |
-| GC=F | Gold Future | 4446.9 | 0.39 | 2026-09-08 | live as of 8 September 2026, 21:01:49 (HKT) |
-| SI=F | Silver Future | 66.82 | 1.17 | 2026-09-08 | live as of 8 September 2026, 21:01:49 (HKT) |
-| CL=F | WTI Crude Oil Future | 92.7 | 0.19 | 2026-09-08 | live as of 8 September 2026, 21:01:49 (HKT) |
-| HG=F | Copper Future | 6.81 | 3.25 | 2026-09-08 | live as of 8 September 2026, 21:01:49 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.17 | 0.01 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 105.5 | 0.01 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 95.29 | 0.02 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 217.76 | -0.57 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 123.03 | -0.31 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 256.26 | -0.53 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 82.31 | 0.12 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 92.22 | -0.04 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.69 | -0.01 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
+| GC=F | Gold Future | 4445.0 | 0.34 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
+| SI=F | Silver Future | 66.84 | 1.2 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
+| CL=F | WTI Crude Oil Future | 93.3 | 0.84 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
+| HG=F | Copper Future | 6.86 | 3.92 | 2026-09-08 | live as of 8 September 2026, 22:01:48 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -226,10 +226,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Indicator | Latest | Unit | Change | Date | Rule-Based Interpretation |
 | --- | --- | --- | --- | --- | --- |
-| US dollar/Euro ECB reference exchange rate | 1.16 | USD | 0.0 USD vs prior | 2026-09-07 | FX rate stable. |
-| Japanese yen/Euro ECB reference exchange rate | 179.85 | JPY | -1.74 JPY vs prior | 2026-09-07 | EUR weakened versus this currency. |
-| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.8 | CNY | 0.0 CNY vs prior | 2026-09-07 | EUR strengthened versus this currency. |
-| Australian dollar/Euro ECB reference exchange rate | 1.61 | AUD | -0.0 AUD vs prior | 2026-09-07 | EUR weakened versus this currency. |
+| US dollar/Euro ECB reference exchange rate | 1.16 | USD | -0.0 USD vs prior | 2026-09-08 | EUR weakened versus this currency. |
+| Japanese yen/Euro ECB reference exchange rate | 179.2 | JPY | -0.65 JPY vs prior | 2026-09-08 | EUR weakened versus this currency. |
+| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.79 | CNY | -0.01 CNY vs prior | 2026-09-08 | EUR weakened versus this currency. |
+| Australian dollar/Euro ECB reference exchange rate | 1.61 | AUD | -0.0 AUD vs prior | 2026-09-08 | EUR weakened versus this currency. |
 
 ABS Australia note: ABS rows are stored locally/Neon, but most series are dimension-coded; only curated series should be promoted into narrative report text.
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.5 pct_chg=1.31
+- VIX close=15.63 pct_chg=2.16
 
 ## News Analytics
 
@@ -366,15 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the shortterm.
 
-**5. Global shipping authorities warn of maritime trade breakdown amid geopolitical turmoil**
-- Source: CNBC Top News
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / medium
-- Affected assets: geopolitical, trade, shipping
-- Score: `57.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium.
-
-**6. Why the Dow is being dragged down by a Swiss company’s bad news**
+**5. Why the Dow is being dragged down by a Swiss company’s bad news**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**7. GE Aerospace to buy castings maker CPP for nearly $12 billion**
+**6. GE Aerospace to buy castings maker CPP for nearly $12 billion**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -390,13 +382,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. TSMC, Samsung commit to ASML’s newest chipmaking tools as AI drives demand**
+**7. TSMC, Samsung commit to ASML’s newest chipmaking tools as AI drives demand**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short
 - Affected assets: ASML, TSMC, EUV, NA, AI
 - Score: `48.45`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**8. Global shipping authorities warn of maritime trade breakdown amid geopolitical turmoil**
+- Source: CNBC Top News
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / medium
+- Affected assets: geopolitical, trade, shipping
+- Score: `48.45`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium.
 
 **9. CNBC Daily Open: Brent crude barrels back towards $100**
 - Source: CNBC Top News
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `26`
+- Live macro rows used: `40`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
