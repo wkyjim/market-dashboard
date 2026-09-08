@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 8 September 2026, 10:32:08 (HKT)
+Generated at: 8 September 2026, 11:22:02 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **60.84 / 100** (Mild Risk-On)
+- Regime score: **61.08 / 100** (Mild Risk-On)
 - US equity strength: **77.85 / 100** (strong)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **47.2 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 60.84 | Mild Risk-On |
+| Overall regime | 61.08 | Mild Risk-On |
 | equity_trend | 88.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 70.39 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -25,10 +25,10 @@ Window: 24h
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 54.92 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.13 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 70.62 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=88.75, news_confirmation=70.62, market_breadth=70.39 |
+| Positive contributors |  | equity_trend=88.75, news_confirmation=70.62, market_breadth=70.39, commodity_confirmation=63.0 |
 | Negative contributors |  | volatility=35.0 |
 
 ## US Equity Strength Score
@@ -64,7 +64,7 @@ Window: 24h
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude stable | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.3 | 5.3 | 2026-09-07 | closed |
 | ^SKEW | CBOE SKEW Index | 151.58 | 0.63 | 2026-09-04 | closed |
 | ^MOVE | ICE BofA MOVE Index | 73.1 | -2.11 | 2026-09-04 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.37 | -0.1 | 2026-09-07 | closed |
-| US3YT=X | United States 3-Year Treasury Yield | 4.45 | 0.07 | 2026-09-07 | closed |
-| US5YT=X | United States 5-Year Treasury Yield | 4.54 | -0.27 | 2026-09-08 | live as of 8 September 2026, 10:01:51 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.67 | 0.14 | 2026-09-07 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 4.77 | -0.42 | 2026-09-08 | live as of 8 September 2026, 10:01:51 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.24 | -0.37 | 2026-09-08 | live as of 8 September 2026, 10:01:51 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.23 | -0.38 | 2026-09-08 | live as of 8 September 2026, 10:01:51 (HKT) |
-| HK50 | Hang Seng Futures | 25337.0 | -1.26 | 2026-09-07 | closed |
+| US2YT=X | United States 2-Year Treasury Yield | 4.36 | -0.24 | 2026-09-08 | live as of 8 September 2026, 11:01:50 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.44 | -0.29 | 2026-09-08 | live as of 8 September 2026, 11:01:50 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.56 | 0.12 | 2026-09-07 | closed |
+| US7YT=X | United States 7-Year Treasury Yield | 4.65 | -0.32 | 2026-09-08 | live as of 8 September 2026, 11:01:50 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.79 | 0.17 | 2026-09-07 | closed |
+| US20YT=X | United States 20-Year Treasury Yield | 5.24 | -0.32 | 2026-09-08 | live as of 8 September 2026, 11:01:50 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.24 | -0.3 | 2026-09-08 | live as of 8 September 2026, 11:01:50 (HKT) |
+| HK50 | Hang Seng Futures | 25242.0 | -0.04 | 2026-09-08 | live as of 8 September 2026, 11:01:50 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1117.15 | 0.67 | 2026-09-07 | closed |
 | CIHc1 | SSE 50 Futures | 2901.8 | -0.37 | 2026-09-07 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.16 | -0.06 | 2026-09-04 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.69 | -0.02 | 2026-09-04 | closed |
 | GC=F | Gold Future | 4476.6 | 1.06 | 2026-09-07 | closed |
 | SI=F | Silver Future | 66.75 | 1.06 | 2026-09-07 | closed |
-| CL=F | WTI Crude Oil Future | 92.34 | -0.19 | 2026-09-08 | live as of 8 September 2026, 10:01:51 (HKT) |
+| CL=F | WTI Crude Oil Future | 92.76 | 0.26 | 2026-09-08 | live as of 8 September 2026, 11:01:50 (HKT) |
 | HG=F | Copper Future | 6.68 | 1.3 | 2026-09-07 | closed |
 
 ## Market Dispersion Analysis
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `13`
+- Live macro rows used: `15`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
