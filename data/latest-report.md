@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 8 September 2026, 17:23:09 (HKT)
+Generated at: 8 September 2026, 18:12:07 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **64.81 / 100** (Mild Risk-On)
+- Regime score: **64.56 / 100** (Mild Risk-On)
 - US equity strength: **77.85 / 100** (strong)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.06 / 100**, reliability **71.4 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 64.81 | Mild Risk-On |
+| Overall regime | 64.56 | Mild Risk-On |
 | equity_trend | 88.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 70.39 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.91 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.9 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 74.38 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=88.75, news_confirmation=74.38, market_breadth=70.39, volatility=70.0, commodity_confirmation=63.0 |
+| news_confirmation | 69.38 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=88.75, market_breadth=70.39, volatility=70.0, news_confirmation=69.38, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -86,7 +86,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US10YT=X | United States 10-Year Treasury Yield | 4.79 | 0.17 | 2026-09-07 | closed |
 | US20YT=X | United States 20-Year Treasury Yield | 5.26 | 0.11 | 2026-09-07 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.27 | 0.34 | 2026-09-08 | live as of 8 September 2026, 17:01:53 (HKT) |
-| HK50 | Hang Seng Futures | 25337.0 | -1.26 | 2026-09-07 | closed |
+| HK50 | Hang Seng Futures | 25296.5 | 0.18 | 2026-09-08 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1117.15 | 0.67 | 2026-09-07 | closed |
 | CIHc1 | SSE 50 Futures | 2901.8 | -0.37 | 2026-09-07 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.16 | -0.06 | 2026-09-04 | closed |
@@ -248,7 +248,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 5 | Financials | 61.72 | strong uptrend | positive | broad | 38.12 | 95.0 | 52.34 | ARES, GPN, APO | TROW, SPGI, MSCI |
 | 6 | Consumer Staples | 58.46 | strong uptrend | neutral | broad | 54.68 | 65.0 | 45.88 | TGT, CLX, HSY | HRL, MO, MNST |
 | 7 | Nuclear | 55.5 | neutral | neutral | broad | 50.0 | 0.0 | 50.82 | NLR | NLR |
-| 8 | Semiconductors | 55.33 | uptrend | neutral | weak | 50.39 | 95.0 | 51.7 | SOXX, SMH | SMH, SOXX |
+| 8 | Semiconductors | 55.31 | uptrend | neutral | weak | 50.39 | 95.0 | 51.7 | SOXX, SMH | SMH, SOXX |
 | 9 | Crypto | 51.85 | neutral | neutral | mixed | 68.52 | 65.0 | 50.0 |  |  |
 | 10 | Grid Infrastructure | 51.39 | downtrend | neutral | weak | 63.69 | 65.0 | 49.05 | GRID | GRID |
 | 11 | Industrials | 48.47 | downtrend | neutral | weak | 40.72 | 65.0 | 51.11 | LDOS, HII, ALLE | ROL, LII, CHRW |
@@ -268,7 +268,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 5 | Quality Growth | 57.44 | Neutral / watchlist | 49.42 | 65.0 | 32.28 | False | False |
 | 6 | Financials | 56.78 | Positive setup | 38.12 | 95.0 | 10.64 | False | False |
 | 7 | AI Infrastructure | 56.56 | Neutral / watchlist | 50.39 | 95.0 | 26.16 | False | False |
-| 8 | Semiconductors | 53.75 | Neutral / watchlist | 50.39 | 95.0 | 15.16 | False | False |
+| 8 | Semiconductors | 54.23 | Neutral / watchlist | 50.39 | 95.0 | 15.16 | False | False |
 | 9 | Nuclear | 51.49 | Neutral / watchlist | 50.0 | 0.0 | 18.53 | False | False |
 | 10 | Dividend Defensives | 51.34 | Neutral / watchlist | 52.21 | 65.0 | 7.21 | False | False |
 | 11 | Defense | 46.33 | Neutral / watchlist | 40.85 | 65.0 | 16.07 | False | False |
@@ -287,11 +287,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 69.97 | strong | 59.66 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 66.34 | strong | 57.56 | positive | sector and theme confirmation |
 | Energy | Energy | 66.28 | strong | 59.44 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 64.8 | positive | 55.92 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 64.8 | positive | 56.08 | positive | sector and theme confirmation |
 | Financials | Financials | 61.72 | positive | 56.78 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 58.46 | positive | 51.34 | mixed | sector stronger than related themes |
 | Nuclear | Nuclear | 55.5 | positive | 51.49 | mixed | sector stronger than related themes |
-| Semiconductors | AI Infrastructure, Semiconductors | 55.33 | positive | 55.16 | positive | sector and theme confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 55.31 | positive | 55.4 | positive | sector and theme confirmation |
 | Crypto | Crypto Infrastructure | 51.85 | mixed | 44.18 | weak | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 51.39 | mixed | 45.78 | mixed | mixed confirmation |
 | Industrials | Defense, Grid Infrastructure | 48.47 | mixed | 46.05 | mixed | mixed confirmation |
@@ -312,7 +312,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 6 | Cybersecurity | 59.27 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 7 | AI Infrastructure | 57.52 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
 | 8 | Dividend Defensives | 54.63 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 9 | Semiconductors | 51.51 | Neutral / watchlist |  | relative strength below SPY, breadth below 45%, news turns negative |
+| 9 | Semiconductors | 52.01 | Neutral / watchlist |  | relative strength below SPY, breadth below 45%, news turns negative |
 | 10 | Nuclear | 50.64 | Neutral / watchlist | relative_strength_20d | relative strength below SPY, breadth below 45%, news turns negative |
 | 11 | Defense | 45.98 | Neutral / watchlist | relative_strength_20d, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 12 | Grid Infrastructure | 44.36 | Weak setup | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
@@ -329,12 +329,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 56, 'negative': 17, 'neutral': 7}
-- News confirmation score: `74.38`
+- Sentiment counts: {'positive': 52, 'negative': 21, 'neutral': 7}
+- News confirmation score: `69.38`
 
 ### Top Market-Moving Headlines
 
-**1. Brent crude nears $99 after strikes on Saudi energy sites amid renewed Mideast hostilities**
+**1. Canada's retaliatory tariffs worth $27.6 billion take effect as trade rift with U.S. deepens**
+- Source: CNBC Economy
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short
+- Affected assets: U.S, trade, tariffs, steel
+- Score: `61.2`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
+
+**2. Brent crude nears $100 after strikes on Saudi energy sites amid renewed Mideast hostilities**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / shortterm
@@ -342,7 +350,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the shortterm.
 
-**2. CNBC Daily Open: Brent crude barrels back towards $100**
+**3. Global shipping authorities warn of maritime trade breakdown amid geopolitical turmoil**
+- Source: CNBC Top News
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / medium
+- Affected assets: geopolitical, trade, shipping
+- Score: `57.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium.
+
+**4. CNBC Daily Open: Brent crude barrels back towards $100**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -350,7 +366,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit**
+**5. Why the Dow is being dragged down by a Swiss company’s bad news**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: P, S, pharmaceuticals, drug development
+- Score: `51.0`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**6. TSMC, Samsung commit to ASML’s newest chipmaking tools as AI drives demand**
+- Source: CNBC Top News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short
+- Affected assets: ASML, TSMC, EUV, NA, AI
+- Score: `48.45`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**7. Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -358,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Bombardier points out U.S. footprint after Trump says aerospace giant must build in America**
+**8. Bombardier points out U.S. footprint after Trump says aerospace giant must build in America**
 - Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -366,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `46.24`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Jaguar Land Rover to cut 4,000 jobs over two years in major cost-saving drive**
+**9. Jaguar Land Rover to cut 4,000 jobs over two years in major cost-saving drive**
 - Source: CNBC Business News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -374,50 +406,18 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `46.24`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Inside Italy’s banking M&A boom — and why Wall Street is watching**
-- Source: CNBC Top News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short
-- Affected assets: A, M, U.S, banking, M&A
-- Score: `41.99`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**7. A Fed rate hike is coming into view. Here’s what UBS says to own — and avoid**
+**10. Pharma major Novartis falls 9% after three drug trial setbacks**
 - Source: CNBC Business News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: A, UBS, central banking, economic indicators, investment advice
-- Score: `40.8`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. Range Rover Maker to Cut 4,000 Jobs as Trump’s Tariffs Bite**
-- Source: Dow Jones US Business
 - Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: JLR, U.S, cost cutting, job cuts, competition
-- Score: `38.25`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Why the launch of OpenAI’s latest Astra model reignited the memory-chip trade**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AI, semiconductor
-- Score: `37.57`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**10. Mistral bags $24 billion valuation as Samsung leads funding for Europe's AI champion**
-- Source: CNBC Top News
-- Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
-- Affected assets: MISTRAL, AI, funding
-- Score: `37.05`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+- Affected assets: NOVN, pharmaceuticals, clinical trials, pharmaceutical stocks
+- Score: `41.99`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
 
-No noisy headlines detected by current rules.
+Noisy headline list: Goldman Sachs flips on oil-price forecasts and say
 
 ## Positioning & Flow Dashboard
 
