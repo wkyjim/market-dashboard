@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 8 September 2026, 08:24:20 (HKT)
+Generated at: 8 September 2026, 08:54:56 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **61.23 / 100** (Mild Risk-On)
+- Regime score: **60.99 / 100** (Mild Risk-On)
 - US equity strength: **77.85 / 100** (strong)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **47.2 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 61.23 | Mild Risk-On |
+| Overall regime | 60.99 | Mild Risk-On |
 | equity_trend | 88.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 70.39 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -25,10 +25,10 @@ Window: 24h
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 54.92 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.13 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 73.75 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=88.75, news_confirmation=73.75, market_breadth=70.39, commodity_confirmation=63.0 |
+| Positive contributors |  | equity_trend=88.75, news_confirmation=73.75, market_breadth=70.39 |
 | Negative contributors |  | volatility=35.0 |
 
 ## US Equity Strength Score
@@ -64,7 +64,7 @@ Window: 24h
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude stable | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -79,13 +79,13 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.3 | 5.3 | 2026-09-07 | closed |
 | ^SKEW | CBOE SKEW Index | 151.58 | 0.63 | 2026-09-04 | closed |
 | ^MOVE | ICE BofA MOVE Index | 73.1 | -2.11 | 2026-09-04 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.37 | -0.1 | 2026-09-07 | closed |
-| US3YT=X | United States 3-Year Treasury Yield | 4.45 | 1.02 | 2026-09-04 | closed |
-| US5YT=X | United States 5-Year Treasury Yield | 4.55 | 0.87 | 2026-09-04 | closed |
-| US7YT=X | United States 7-Year Treasury Yield | 4.66 | 0.64 | 2026-09-04 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 4.79 | -0.03 | 2026-09-08 | live as of 8 September 2026, 08:01:49 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.25 | -0.05 | 2026-09-08 | live as of 8 September 2026, 08:01:49 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.25 | -0.04 | 2026-09-08 | live as of 8 September 2026, 08:01:49 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.37 | 0.0 | 2026-09-08 | live as of 8 September 2026, 08:31:50 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.45 | -0.03 | 2026-09-08 | live as of 8 September 2026, 08:31:50 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.55 | -0.08 | 2026-09-08 | live as of 8 September 2026, 08:31:50 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.66 | -0.06 | 2026-09-08 | live as of 8 September 2026, 08:31:50 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.79 | -0.07 | 2026-09-08 | live as of 8 September 2026, 08:31:50 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.25 | -0.1 | 2026-09-08 | live as of 8 September 2026, 08:31:50 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.25 | -0.1 | 2026-09-08 | live as of 8 September 2026, 08:31:50 (HKT) |
 | HK50 | Hang Seng Futures | 25337.0 | -1.26 | 2026-09-07 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1093.9 | 3.93 | 2026-09-04 | closed |
 | CIHc1 | SSE 50 Futures | 2912.6 | 0.16 | 2026-09-04 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.69 | -0.02 | 2026-09-04 | closed |
 | GC=F | Gold Future | 4476.6 | 1.06 | 2026-09-07 | closed |
 | SI=F | Silver Future | 66.75 | 1.06 | 2026-09-07 | closed |
-| CL=F | WTI Crude Oil Future | 92.66 | 1.29 | 2026-09-07 | closed |
+| CL=F | WTI Crude Oil Future | 92.33 | -0.21 | 2026-09-08 | live as of 8 September 2026, 08:31:50 (HKT) |
 | HG=F | Copper Future | 6.68 | 1.3 | 2026-09-07 | closed |
 
 ## Market Dispersion Analysis
@@ -334,15 +334,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Trump says Bombardier can't sell in U.S. unless Canada aerospace giant builds there**
-- Source: CNBC Business Headlines
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: BA, U.S, trade, politics, aerospace
-- Score: `54.4`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Oil Rises as Escalating U.S.-Iran Conflict Stokes Supply Disruption Fears**
+**1. Oil Rises as Escalating U.S.-Iran Conflict Stokes Supply Disruption Fears**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -350,7 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit**
+**2. Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -358,13 +350,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets**
+**3. Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / medium
 - Affected assets: Treasury yields, fiscal risks
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium.
+
+**4. Trump says Bombardier can't sell in U.S. unless Canada aerospace giant builds there**
+- Source: CNBC Business Headlines
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: BA, U.S, trade, politics, aerospace
+- Score: `46.24`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **5. Jaguar Land Rover to cut 4,000 jobs over two years in major cost-saving drive**
 - Source: CNBC Business News
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `8`
+- Live macro rows used: `15`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
