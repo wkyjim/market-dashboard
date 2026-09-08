@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 8 September 2026, 09:28:32 (HKT)
+Generated at: 8 September 2026, 10:28:29 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **60.77 / 100** (Mild Risk-On)
+- Regime score: **60.84 / 100** (Mild Risk-On)
 - US equity strength: **77.85 / 100** (strong)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **47.2 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 60.77 | Mild Risk-On |
+| Overall regime | 60.84 | Mild Risk-On |
 | equity_trend | 88.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 70.39 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.92 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.13 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 69.38 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=88.75, market_breadth=70.39, news_confirmation=69.38 |
+| news_confirmation | 70.62 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=88.75, news_confirmation=70.62, market_breadth=70.39 |
 | Negative contributors |  | volatility=35.0 |
 
 ## US Equity Strength Score
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.3 | 5.3 | 2026-09-07 | closed |
 | ^SKEW | CBOE SKEW Index | 151.58 | 0.63 | 2026-09-04 | closed |
 | ^MOVE | ICE BofA MOVE Index | 73.1 | -2.11 | 2026-09-04 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.38 | 0.05 | 2026-09-08 | live as of 8 September 2026, 09:01:52 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.45 | 0.0 | 2026-09-08 | live as of 8 September 2026, 09:01:52 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.56 | 0.0 | 2026-09-08 | live as of 8 September 2026, 09:01:52 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.37 | -0.1 | 2026-09-07 | closed |
+| US3YT=X | United States 3-Year Treasury Yield | 4.45 | 0.07 | 2026-09-07 | closed |
+| US5YT=X | United States 5-Year Treasury Yield | 4.54 | -0.27 | 2026-09-08 | live as of 8 September 2026, 10:01:51 (HKT) |
 | US7YT=X | United States 7-Year Treasury Yield | 4.67 | 0.14 | 2026-09-07 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 4.79 | 0.17 | 2026-09-07 | closed |
-| US20YT=X | United States 20-Year Treasury Yield | 5.26 | 0.11 | 2026-09-07 | closed |
-| US30YT=X | United States 30-Year Treasury Yield | 5.25 | -0.04 | 2026-09-08 | live as of 8 September 2026, 09:01:52 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.77 | -0.42 | 2026-09-08 | live as of 8 September 2026, 10:01:51 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.24 | -0.37 | 2026-09-08 | live as of 8 September 2026, 10:01:51 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.23 | -0.38 | 2026-09-08 | live as of 8 September 2026, 10:01:51 (HKT) |
 | HK50 | Hang Seng Futures | 25337.0 | -1.26 | 2026-09-07 | closed |
-| KOR200c1 | KOSPI 200 Futures | 1093.9 | 3.93 | 2026-09-04 | closed |
-| CIHc1 | SSE 50 Futures | 2912.6 | 0.16 | 2026-09-04 | closed |
+| KOR200c1 | KOSPI 200 Futures | 1117.15 | 0.67 | 2026-09-07 | closed |
+| CIHc1 | SSE 50 Futures | 2901.8 | -0.37 | 2026-09-07 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.16 | -0.06 | 2026-09-04 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 105.48 | -0.02 | 2026-09-04 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 95.27 | -0.03 | 2026-09-04 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.69 | -0.02 | 2026-09-04 | closed |
 | GC=F | Gold Future | 4476.6 | 1.06 | 2026-09-07 | closed |
 | SI=F | Silver Future | 66.75 | 1.06 | 2026-09-07 | closed |
-| CL=F | WTI Crude Oil Future | 92.48 | -0.04 | 2026-09-08 | live as of 8 September 2026, 09:01:52 (HKT) |
+| CL=F | WTI Crude Oil Future | 92.34 | -0.19 | 2026-09-08 | live as of 8 September 2026, 10:01:51 (HKT) |
 | HG=F | Copper Future | 6.68 | 1.3 | 2026-09-07 | closed |
 
 ## Market Dispersion Analysis
@@ -329,20 +329,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 51, 'negative': 20, 'neutral': 9}
-- News confirmation score: `69.38`
+- Sentiment counts: {'positive': 52, 'negative': 19, 'neutral': 9}
+- News confirmation score: `70.62`
 
 ### Top Market-Moving Headlines
 
-**1. Oil Rises as Escalating U.S.-Iran Conflict Stokes Supply Disruption Fears**
-- Source: Dow Jones US Business
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil, geopolitical, Middle East
-- Score: `48.77`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit**
+**1. Oil prices rise to 6-week high after Iran and U.S. trade blows, Saudi Aramco facilities reportedly hit**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -350,15 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Treasury yields face 4.8% test as fiscal risks threaten to spill into other assets**
-- Source: CNBC Top News
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / medium
-- Affected assets: Treasury yields, fiscal risks
-- Score: `48.45`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium.
-
-**4. Trump says Bombardier can't sell in U.S. unless Canada aerospace giant builds there**
+**2. Trump says Bombardier can't sell in U.S. unless Canada aerospace giant builds there**
 - Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -366,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `46.24`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Jaguar Land Rover to cut 4,000 jobs over two years in major cost-saving drive**
+**3. Jaguar Land Rover to cut 4,000 jobs over two years in major cost-saving drive**
 - Source: CNBC Business News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -374,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `46.24`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. EverBank to Combine With WaFd to Create $75 Billion Bank**
+**4. EverBank to Combine With WaFd to Create $75 Billion Bank**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short
@@ -382,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. Oil prices climb, Dow futures sink on reports of Saudi Aramco refinery being hit**
+**5. Oil prices climb, Dow futures sink on reports of Saudi Aramco refinery being hit**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -390,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.23`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. A Fed rate hike is coming into view. Here’s what UBS says to own — and avoid**
+**6. A Fed rate hike is coming into view. Here’s what UBS says to own — and avoid**
 - Source: CNBC Business News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -398,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Range Rover Maker to Cut 4,000 Jobs as Trump’s Tariffs Bite**
+**7. Range Rover Maker to Cut 4,000 Jobs as Trump’s Tariffs Bite**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -406,13 +390,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.25`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Why the launch of OpenAI’s latest Astra model reignited the memory-chip trade**
+**8. Why the launch of OpenAI’s latest Astra model reignited the memory-chip trade**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: AI, semiconductor
 - Score: `37.57`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**9. Dow futures fall 300 points to start shortened week as oil prices climb: Live updates**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short
+- Affected assets: U.S, oil_prices, geopolitical_risk, trade_tensions
+- Score: `36.58`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
+
+**10. Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: oil, geopolitical
+- Score: `36.0`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `11`
+- Live macro rows used: `13`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
