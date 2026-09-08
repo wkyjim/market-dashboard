@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 8 September 2026, 08:54:56 (HKT)
+Generated at: 8 September 2026, 09:12:08 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **60.99 / 100** (Mild Risk-On)
+- Regime score: **60.77 / 100** (Mild Risk-On)
 - US equity strength: **77.85 / 100** (strong)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **47.2 / 100**, reliability **66.71 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 60.99 | Mild Risk-On |
+| Overall regime | 60.77 | Mild Risk-On |
 | equity_trend | 88.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 70.39 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.92 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.13 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 73.75 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=88.75, news_confirmation=73.75, market_breadth=70.39 |
+| news_confirmation | 69.38 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=88.75, market_breadth=70.39, news_confirmation=69.38 |
 | Negative contributors |  | volatility=35.0 |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 54, 'negative': 16, 'neutral': 10}
-- News confirmation score: `73.75`
+- Sentiment counts: {'positive': 51, 'negative': 20, 'neutral': 9}
+- News confirmation score: `69.38`
 
 ### Top Market-Moving Headlines
 
@@ -382,7 +382,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. A Fed rate hike is coming into view. Here’s what UBS says to own — and avoid**
+**7. Oil prices climb, Dow futures sink on reports of Saudi Aramco refinery being hit**
+- Source: MarketWatch Bulletins
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: DOW, OIL, energy, oil
+- Score: `43.23`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. A Fed rate hike is coming into view. Here’s what UBS says to own — and avoid**
 - Source: CNBC Business News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Range Rover Maker to Cut 4,000 Jobs as Trump’s Tariffs Bite**
+**9. Range Rover Maker to Cut 4,000 Jobs as Trump’s Tariffs Bite**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -398,21 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.25`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Why the launch of OpenAI’s latest Astra model reignited the memory chip trade**
+**10. Why the launch of OpenAI’s latest Astra model reignited the memory-chip trade**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: AI, semiconductor
 - Score: `37.57`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**10. Oil prices climb after reports of Saudi Aramco refinery being hit by Houthi rebels**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: oil, geopolitical
-- Score: `36.0`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
