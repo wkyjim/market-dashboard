@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 9 September 2026, 11:16:53 (HKT)
+Generated at: 9 September 2026, 12:12:04 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **63.29 / 100** (Mild Risk-On)
+- Regime score: **63.2 / 100** (Mild Risk-On)
 - US equity strength: **74.07 / 100** (constructive)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.16 / 100**, reliability **65.94 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 63.29 | Mild Risk-On |
+| Overall regime | 63.2 | Mild Risk-On |
 | equity_trend | 82.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 69.83 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 56.51 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.13 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 72.5 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=82.5, news_confirmation=72.5, volatility=70.0, market_breadth=69.83 |
+| news_confirmation | 70.62 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=82.5, news_confirmation=70.62, volatility=70.0, market_breadth=69.83 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -64,7 +64,7 @@ Window: 24h
 | Gold | Gold falling | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude stable | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.72 | 2.75 | 2026-09-08 | closed |
 | ^SKEW | CBOE SKEW Index | 148.86 | -1.79 | 2026-09-08 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.14 | 4.16 | 2026-09-08 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.41 | 0.18 | 2026-09-09 | live as of 9 September 2026, 11:01:50 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.49 | 0.42 | 2026-09-09 | live as of 9 September 2026, 11:01:50 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.58 | 0.05 | 2026-09-09 | live as of 9 September 2026, 11:01:50 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.68 | 0.01 | 2026-09-09 | live as of 9 September 2026, 11:01:50 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.8 | 0.02 | 2026-09-09 | live as of 9 September 2026, 11:01:50 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.26 | -0.17 | 2026-09-09 | live as of 9 September 2026, 11:01:50 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.25 | -0.23 | 2026-09-09 | live as of 9 September 2026, 11:01:50 (HKT) |
-| HK50 | Hang Seng Futures | 25249.0 | -0.14 | 2026-09-09 | live as of 9 September 2026, 11:01:50 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.4 | 0.14 | 2026-09-09 | live as of 9 September 2026, 12:01:51 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.49 | 0.36 | 2026-09-09 | live as of 9 September 2026, 12:01:51 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.57 | 0.01 | 2026-09-09 | live as of 9 September 2026, 12:01:51 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.68 | -0.02 | 2026-09-09 | live as of 9 September 2026, 12:01:51 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.8 | -0.1 | 2026-09-09 | live as of 9 September 2026, 12:01:51 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.26 | -0.19 | 2026-09-09 | live as of 9 September 2026, 12:01:51 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.25 | -0.23 | 2026-09-09 | live as of 9 September 2026, 12:01:51 (HKT) |
+| HK50 | Hang Seng Futures | 25280.0 | -0.02 | 2026-09-09 | live as of 9 September 2026, 12:01:51 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1109.9 | 1.05 | 2026-09-08 | closed |
 | CIHc1 | SSE 50 Futures | 2897.2 | -0.16 | 2026-09-08 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.12 | -0.05 | 2026-09-08 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.66 | -0.04 | 2026-09-08 | closed |
 | GC=F | Gold Future | 4400.0 | -0.67 | 2026-09-08 | closed |
 | SI=F | Silver Future | 66.38 | 0.5 | 2026-09-08 | closed |
-| CL=F | WTI Crude Oil Future | 94.53 | -0.07 | 2026-09-09 | live as of 9 September 2026, 11:01:50 (HKT) |
+| CL=F | WTI Crude Oil Future | 94.17 | -0.45 | 2026-09-09 | live as of 9 September 2026, 12:01:51 (HKT) |
 | HG=F | Copper Future | 6.78 | 2.73 | 2026-09-08 | closed |
 
 ## Market Dispersion Analysis
@@ -246,7 +246,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Healthcare | 64.52 | strong uptrend | positive | broad | 31.82 | 65.0 | 54.37 | VEEV, CRL, REGN | CVS, PODD, DVA |
 | 4 | Financials | 64.48 | strong uptrend | positive | broad | 65.7 | 65.0 | 52.34 | ARES, GPN, APO | TROW, SPGI, MSCI |
 | 5 | Technology | 64.44 | strong uptrend | neutral | broad | 39.46 | 65.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
-| 6 | Semiconductors | 57.84 | strong uptrend | neutral | weak | 57.02 | 65.0 | 51.7 | SOXX, SMH | SMH, SOXX |
+| 6 | Semiconductors | 57.82 | strong uptrend | neutral | weak | 57.02 | 65.0 | 51.7 | SOXX, SMH | SMH, SOXX |
 | 7 | Nuclear | 55.5 | neutral | neutral | broad | 50.0 | 0.0 | 50.82 | NLR | NLR |
 | 8 | Grid Infrastructure | 53.62 | neutral | neutral | weak | 50.0 | 0.0 | 49.05 | GRID | GRID |
 | 9 | Crypto | 51.85 | neutral | neutral | mixed | 68.5 | 65.0 | 50.0 |  |  |
@@ -266,7 +266,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Cybersecurity | 58.39 | Neutral / watchlist | 50.0 | 0.0 | 25.61 | False | False |
 | 4 | Quality Growth | 57.54 | Neutral / watchlist | 50.44 | 65.0 | 32.28 | False | False |
 | 5 | AI Infrastructure | 57.23 | Neutral / watchlist | 57.02 | 65.0 | 26.16 | False | False |
-| 6 | Semiconductors | 55.98 | Neutral / watchlist | 57.02 | 65.0 | 15.16 | False | True |
+| 6 | Semiconductors | 56.46 | Neutral / watchlist | 57.02 | 65.0 | 15.16 | False | True |
 | 7 | Healthcare Innovation | 55.74 | Positive setup | 31.82 | 65.0 | 11.95 | False | False |
 | 8 | Nuclear | 51.49 | Neutral / watchlist | 50.0 | 0.0 | 18.53 | False | False |
 | 9 | Small Caps | 51.16 | Neutral / watchlist | 52.55 | 65.0 | 0.0 | False | False |
@@ -288,8 +288,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Energy | Energy | 66.0 | strong | 59.16 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 64.52 | positive | 55.74 | positive | sector and theme confirmation |
 | Financials | Financials | 64.48 | positive | 59.53 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 64.44 | positive | 56.92 | positive | sector and theme confirmation |
-| Semiconductors | AI Infrastructure, Semiconductors | 57.84 | positive | 56.6 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 64.44 | positive | 57.08 | positive | sector and theme confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 57.82 | positive | 56.84 | positive | sector and theme confirmation |
 | Nuclear | Nuclear | 55.5 | positive | 51.49 | mixed | sector stronger than related themes |
 | Grid Infrastructure | Grid Infrastructure | 53.62 | mixed | 46.41 | mixed | mixed confirmation |
 | Crypto | Crypto Infrastructure | 51.85 | mixed | 44.18 | weak | mixed confirmation |
@@ -310,7 +310,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 4 | Quality Growth | 59.48 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
 | 5 | Cybersecurity | 59.28 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 6 | AI Infrastructure | 57.49 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
-| 7 | Semiconductors | 52.98 | Neutral / watchlist | news_acceleration | relative strength below SPY, breadth below 45%, news turns negative |
+| 7 | Semiconductors | 53.48 | Neutral / watchlist | news_acceleration | relative strength below SPY, breadth below 45%, news turns negative |
 | 8 | Small Caps | 51.26 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 9 | Nuclear | 50.8 | Neutral / watchlist | relative_strength_20d | relative strength below SPY, breadth below 45%, news turns negative |
 | 10 | Dividend Defensives | 50.28 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 57, 'negative': 21, 'neutral': 2}
-- News confirmation score: `72.5`
+- Sentiment counts: {'positive': 55, 'negative': 22, 'neutral': 3}
+- News confirmation score: `70.62`
 
 ### Top Market-Moving Headlines
 
@@ -347,7 +347,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: Qualcomm, Corning, Intel, Advanced Micro Devices, AI
-- Score: `61.77`
+- Score: `52.51`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 **3. Cramer says these 2 stocks are big winners from OpenAI's new model release**
