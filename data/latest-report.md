@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 9 September 2026, 14:13:15 (HKT)
+Generated at: 9 September 2026, 15:09:41 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **62.64 / 100** (Mild Risk-On)
+- Regime score: **63.37 / 100** (Mild Risk-On)
 - US equity strength: **74.07 / 100** (constructive)
-- Evidence quality: **83.0 / 100**
+- Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.35 / 100**, reliability **71.4 / 100**
 - Breadth: **healthy**; above 50DMA `58.33%`, above 200DMA `69.49%`
 - Top sector score: **Cybersecurity** `69.89`
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 62.64 | Mild Risk-On |
+| Overall regime | 63.37 | Mild Risk-On |
 | equity_trend | 82.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 69.83 | risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.5 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 51.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 55.7 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.11 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 69.38 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=82.5, volatility=70.0, market_breadth=69.83, news_confirmation=69.38 |
+| Positive contributors |  | equity_trend=82.5, volatility=70.0, market_breadth=69.83, news_confirmation=69.38, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `83.0`
-- Agreement ratio: `0.6`
+- Confidence score: `86.5`
+- Agreement ratio: `0.7`
 - Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
@@ -64,7 +64,7 @@ Window: 24h
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.72 | 2.75 | 2026-09-08 | closed |
 | ^SKEW | CBOE SKEW Index | 148.86 | -1.79 | 2026-09-08 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.14 | 4.16 | 2026-09-08 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.4 | 0.0 | 2026-09-09 | live as of 9 September 2026, 14:01:50 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.48 | 0.23 | 2026-09-09 | live as of 9 September 2026, 14:01:50 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.57 | -0.15 | 2026-09-09 | live as of 9 September 2026, 14:01:50 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.67 | -0.19 | 2026-09-09 | live as of 9 September 2026, 14:01:50 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.79 | -0.31 | 2026-09-09 | live as of 9 September 2026, 14:01:50 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.25 | -0.39 | 2026-09-09 | live as of 9 September 2026, 14:01:50 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.24 | -0.43 | 2026-09-09 | live as of 9 September 2026, 14:01:50 (HKT) |
-| HK50 | Hang Seng Futures | 25219.5 | -0.26 | 2026-09-09 | live as of 9 September 2026, 14:01:50 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.4 | 0.1 | 2026-09-09 | live as of 9 September 2026, 15:01:53 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.49 | 0.36 | 2026-09-09 | live as of 9 September 2026, 15:01:53 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.57 | 0.01 | 2026-09-09 | live as of 9 September 2026, 15:01:53 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.68 | -0.02 | 2026-09-09 | live as of 9 September 2026, 15:01:53 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.8 | -0.15 | 2026-09-09 | live as of 9 September 2026, 15:01:53 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.26 | -0.17 | 2026-09-09 | live as of 9 September 2026, 15:01:53 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.25 | -0.21 | 2026-09-09 | live as of 9 September 2026, 15:01:53 (HKT) |
+| HK50 | Hang Seng Futures | 25204.5 | -0.31 | 2026-09-09 | live as of 9 September 2026, 15:01:53 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1109.9 | 1.05 | 2026-09-08 | closed |
 | CIHc1 | SSE 50 Futures | 2897.2 | -0.16 | 2026-09-08 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.12 | -0.05 | 2026-09-08 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 82.2 | -0.01 | 2026-09-08 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 92.16 | -0.1 | 2026-09-08 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.66 | -0.04 | 2026-09-08 | closed |
-| GC=F | Gold Future | 4441.5 | 1.08 | 2026-09-09 | live as of 9 September 2026, 14:01:50 (HKT) |
-| SI=F | Silver Future | 67.26 | 1.45 | 2026-09-09 | live as of 9 September 2026, 14:01:50 (HKT) |
-| CL=F | WTI Crude Oil Future | 93.91 | -0.73 | 2026-09-09 | live as of 9 September 2026, 14:01:50 (HKT) |
-| HG=F | Copper Future | 6.77 | 0.43 | 2026-09-09 | live as of 9 September 2026, 14:01:50 (HKT) |
+| GC=F | Gold Future | 4444.5 | 1.15 | 2026-09-09 | live as of 9 September 2026, 15:01:53 (HKT) |
+| SI=F | Silver Future | 67.28 | 1.48 | 2026-09-09 | live as of 9 September 2026, 15:01:53 (HKT) |
+| CL=F | WTI Crude Oil Future | 94.23 | 1.29 | 2026-09-09 | live as of 9 September 2026, 15:01:53 (HKT) |
+| HG=F | Copper Future | 6.79 | 0.7 | 2026-09-09 | live as of 9 September 2026, 15:01:53 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -339,7 +339,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S., Brent, U.S, oil_prices, geopolitical_risk
-- Score: `72.67`
+- Score: `61.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **2. AI infrastructure stocks rally on deal announcements from Qualcomm, Corning**
@@ -391,7 +391,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **8. 'Patients pay the tariff': Swiss pharma CEO warns of Trump's generic drug tariff threat**
-- Source: CNBC Top News
+- Source: CNBC Markets
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short
 - Affected assets: SNDZ, U.S, pharmaceuticals, tariffs
@@ -508,7 +508,7 @@ Positioning and flow data is used as confirmation only.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `26`
+- Live macro rows used: `24`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
