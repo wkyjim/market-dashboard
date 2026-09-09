@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 9 September 2026, 10:16:23 (HKT)
+Generated at: 9 September 2026, 11:16:53 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -64,7 +64,7 @@ Window: 24h
 | Gold | Gold falling | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude stable | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.72 | 2.75 | 2026-09-08 | closed |
 | ^SKEW | CBOE SKEW Index | 148.86 | -1.79 | 2026-09-08 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.14 | 4.16 | 2026-09-08 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.4 | 0.09 | 2026-09-09 | live as of 9 September 2026, 10:01:51 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.48 | 0.26 | 2026-09-09 | live as of 9 September 2026, 10:01:51 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.57 | -0.11 | 2026-09-09 | live as of 9 September 2026, 10:01:51 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.67 | -0.16 | 2026-09-09 | live as of 9 September 2026, 10:01:51 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.79 | -0.23 | 2026-09-09 | live as of 9 September 2026, 10:01:51 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.25 | -0.39 | 2026-09-09 | live as of 9 September 2026, 10:01:51 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.24 | -0.41 | 2026-09-09 | live as of 9 September 2026, 10:01:51 (HKT) |
-| HK50 | Hang Seng Futures | 25229.5 | -0.22 | 2026-09-09 | live as of 9 September 2026, 10:01:51 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.41 | 0.18 | 2026-09-09 | live as of 9 September 2026, 11:01:50 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.49 | 0.42 | 2026-09-09 | live as of 9 September 2026, 11:01:50 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.58 | 0.05 | 2026-09-09 | live as of 9 September 2026, 11:01:50 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.68 | 0.01 | 2026-09-09 | live as of 9 September 2026, 11:01:50 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.8 | 0.02 | 2026-09-09 | live as of 9 September 2026, 11:01:50 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.26 | -0.17 | 2026-09-09 | live as of 9 September 2026, 11:01:50 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.25 | -0.23 | 2026-09-09 | live as of 9 September 2026, 11:01:50 (HKT) |
+| HK50 | Hang Seng Futures | 25249.0 | -0.14 | 2026-09-09 | live as of 9 September 2026, 11:01:50 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1109.9 | 1.05 | 2026-09-08 | closed |
 | CIHc1 | SSE 50 Futures | 2897.2 | -0.16 | 2026-09-08 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.12 | -0.05 | 2026-09-08 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.66 | -0.04 | 2026-09-08 | closed |
 | GC=F | Gold Future | 4400.0 | -0.67 | 2026-09-08 | closed |
 | SI=F | Silver Future | 66.38 | 0.5 | 2026-09-08 | closed |
-| CL=F | WTI Crude Oil Future | 94.35 | -0.26 | 2026-09-09 | live as of 9 September 2026, 10:01:51 (HKT) |
+| CL=F | WTI Crude Oil Future | 94.53 | -0.07 | 2026-09-09 | live as of 9 September 2026, 11:01:50 (HKT) |
 | HG=F | Copper Future | 6.78 | 2.73 | 2026-09-08 | closed |
 
 ## Market Dispersion Analysis
@@ -350,23 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `61.77`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**3. Oil rises to $99 on report Iran launched second undisclosed attack on U.S. Navy ships**
-- Source: CNBC Top News
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / shortterm
-- Affected assets: U.S, Geopolitical, Energy
-- Score: `57.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the shortterm.
-
-**4. This alternative energy stock is more popular than SpaceX in the options pits. Here's why**
-- Source: CNBC Markets
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: P, S, energy, options trading
-- Score: `57.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**5. Cramer says these 2 stocks are big winners from OpenAI's new model release**
+**3. Cramer says these 2 stocks are big winners from OpenAI's new model release**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / shortterm
@@ -374,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.51`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. U.S. oil prices reach highest level in over three months after Saudi Arabia says civilian and energy sites struck**
+**4. U.S. oil prices reach highest level in over three months after Saudi Arabia says civilian and energy sites struck**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -382,12 +366,28 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Tamarack Valley to Merge With Headwater Exploration in Over $7.24 Billion Deal**
+**5. Tamarack Valley to Merge With Headwater Exploration in Over $7.24 Billion Deal**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: TAM.V, HWD.V, merger, acquisition, energy
 - Score: `48.77`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. Oil rises to $99 on report Iran launched second undisclosed attack on U.S. Navy ships**
+- Source: CNBC Top News
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / shortterm
+- Affected assets: U.S, Geopolitical, Energy
+- Score: `48.45`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the shortterm.
+
+**7. This alternative energy stock is more popular than SpaceX in the options pits. Here's why**
+- Source: CNBC Markets
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: P, S, energy, options trading
+- Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **8. 'Patients pay the tariff': Swiss pharma CEO warns of Trump's generic drug tariff threat**
