@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 9 September 2026, 23:08:41 (HKT)
+Generated at: 10 September 2026, 00:12:11 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -334,20 +334,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Brent crude tops $100 as U.S.-Iran tit-for-tat strikes stoke oil supply worries**
+**1. Oil’s surge back above $100 fuels fresh inflation fears at a crucial time for interest rates**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, oil_prices, geopolitical_risk, energy_markets
+- Score: `76.5`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Brent crude oil tops $101 for first time since July as fighting escalates in Persian Gulf**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S., Brent, U.S, oil_prices, geopolitical_risk
 - Score: `72.67`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Brent crude passes $100 threshold as war in Iran intensifies**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil_prices, geopolitical_risk, energy_markets
-- Score: `65.03`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **3. CNBC Daily Open: Gulf strikes jolt oil toward triple digits**
@@ -358,7 +358,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `61.77`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Brent Hits $100 as U.S.-Iran Escalation, Houthi Strikes Deepen Gulf Supply Fears**
+**4. Crude Extends Gains on Middle East Escalation**
+- Source: Dow Jones US Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, oil, geo-political, energy
+- Score: `57.38`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. Brent Hits $100 as U.S.-Iran Escalation, Houthi Strikes Deepen Gulf Supply Fears**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.38`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. AI infrastructure stocks rally on deal announcements from Qualcomm, Corning**
+**6. AI infrastructure stocks rally on deal announcements from Qualcomm, Corning**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.51`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. Cramer says these 2 stocks are big winners from OpenAI's new model release**
+**7. Cramer says these 2 stocks are big winners from OpenAI's new model release**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / shortterm
@@ -382,23 +390,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.51`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. Google to invest record $15 billion in AI infrastructure in the 'Texas of Europe'**
-- Source: CNBC Business News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / long-term
-- Affected assets: GOOGL, GOOG, AI, Investment
-- Score: `52.02`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**8. Brent Marches Toward $100 As U.S.-Iran Attacks Escalate**
-- Source: Dow Jones US Business
-- Importance / impact: High / Positive
+**8. Refining bottlenecks are emerging as the next big oil problem as Middle East skirmishes flare up**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil, geo-political, energy
-- Score: `48.77`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Affected assets: oil, refining, gasoline_prices
+- Score: `52.5`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Independence Realty Trust and Centerspace Agree to $8.1 Billion Merger**
+**9. Dow, S&P 500 open lower, on pace for 3-day losing streak as oil tops $100**
+- Source: MarketWatch Bulletins
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: P, S, oil prices, stock market
+- Score: `49.88`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Independence Realty Trust and Centerspace Agree to $8.1 Billion Merger**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short
@@ -406,18 +414,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. 'Patients pay the tariff': Swiss pharma CEO warns of Trump's generic drug tariff threat**
-- Source: CNBC Markets
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short
-- Affected assets: SNDZ, U.S, pharmaceuticals, tariffs
-- Score: `48.45`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
-
 
 ### Headline Quality Checks
 
-Noisy headline list: Memory chips have come to rule the AI boom. Why Mi, Stock Market Today: Dow Dives, Oil Spikes After Sa
+Noisy headline list: Memory chips have come to rule the AI boom. Why Mi
 
 ## Positioning & Flow Dashboard
 
