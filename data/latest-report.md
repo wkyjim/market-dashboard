@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 9 September 2026, 15:09:41 (HKT)
+Generated at: 9 September 2026, 15:12:17 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -242,7 +242,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Sector | Score | Trend | Momentum | Stock Breadth | ETF Flow | Flow Reliability | 3M RS | Supporting / Leaders | Detracting / Laggards |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cybersecurity | 69.89 | strong uptrend | positive | broad | 61.88 | 65.0 | 62.96 | CIBR | CIBR |
-| 2 | Healthcare | 66.34 | strong uptrend | positive | broad | 50.0 | 0.0 | 54.37 | VEEV, CRL, REGN | CVS, PODD, DVA |
+| 2 | Healthcare | 66.82 | strong uptrend | positive | broad | 50.0 | 0.0 | 54.37 | VEEV, CRL, REGN | CVS, PODD, DVA |
 | 3 | Energy | 65.72 | strong uptrend | neutral | broad | 47.66 | 90.0 | 50.27 | APA, MPC, PSX | TRGP, HAL, TPL |
 | 4 | Technology | 64.97 | strong uptrend | neutral | broad | 44.73 | 95.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
 | 5 | Financials | 62.47 | strong uptrend | positive | broad | 45.62 | 100.0 | 52.34 | ARES, GPN, APO | TROW, SPGI, MSCI |
@@ -285,7 +285,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
 | Cybersecurity | Cybersecurity | 69.89 | strong | 59.58 | positive | sector and theme confirmation |
-| Healthcare | Healthcare Innovation | 66.34 | strong | 57.56 | positive | sector and theme confirmation |
+| Healthcare | Healthcare Innovation | 66.82 | strong | 57.56 | positive | sector and theme confirmation |
 | Energy | Energy | 65.72 | strong | 58.88 | positive | sector and theme confirmation |
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 64.97 | positive | 57.52 | positive | sector and theme confirmation |
 | Financials | Financials | 62.47 | positive | 57.52 | positive | sector and theme confirmation |
