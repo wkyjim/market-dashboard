@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 9 September 2026, 21:12:03 (HKT)
+Generated at: 9 September 2026, 22:08:31 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **63.26 / 100** (Mild Risk-On)
+- Regime score: **63.22 / 100** (Mild Risk-On)
 - US equity strength: **74.07 / 100** (constructive)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.35 / 100**, reliability **71.4 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 63.26 | Mild Risk-On |
+| Overall regime | 63.22 | Mild Risk-On |
 | equity_trend | 82.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 69.83 | risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.76 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 55.99 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.11 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 71.88 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=82.5, news_confirmation=71.88, volatility=70.0, market_breadth=69.83 |
+| news_confirmation | 70.62 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=82.5, news_confirmation=70.62, volatility=70.0, market_breadth=69.83 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7673.52 | -0.58 | 2026-09-08 | closed |
-| ^IXIC | NASDAQ Composite | 26421.41 | -0.32 | 2026-09-08 | closed |
-| ^RUT | Russell 2000 Index | 2960.2 | -0.52 | 2026-09-08 | closed |
-| ^VIX | CBOE Volatility Index | 16.32 | 3.82 | 2026-09-09 | live as of 9 September 2026, 21:01:51 (HKT) |
+| ^GSPC | S&P 500 | 7651.17 | -0.29 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
+| ^IXIC | NASDAQ Composite | 26334.92 | -0.33 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
+| ^RUT | Russell 2000 Index | 2947.08 | -0.44 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
+| ^VIX | CBOE Volatility Index | 16.15 | 2.74 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
 | ^SKEW | CBOE SKEW Index | 148.86 | -1.79 | 2026-09-08 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.14 | 4.16 | 2026-09-08 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.42 | 0.43 | 2026-09-09 | live as of 9 September 2026, 21:01:51 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.5 | 0.7 | 2026-09-09 | live as of 9 September 2026, 21:01:51 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.59 | 0.36 | 2026-09-09 | live as of 9 September 2026, 21:01:51 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.69 | 0.27 | 2026-09-09 | live as of 9 September 2026, 21:01:51 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.8 | 0.02 | 2026-09-09 | live as of 9 September 2026, 21:01:51 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.26 | -0.09 | 2026-09-09 | live as of 9 September 2026, 21:01:51 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.25 | -0.17 | 2026-09-09 | live as of 9 September 2026, 21:01:51 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.4 | 0.14 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.49 | 0.39 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.58 | 0.13 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.68 | 0.01 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.8 | -0.06 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.26 | -0.27 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.25 | -0.31 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
 | HK50 | Hang Seng Futures | 25208.0 | -0.3 | 2026-09-09 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1109.9 | 1.05 | 2026-09-08 | closed |
 | CIHc1 | SSE 50 Futures | 2897.2 | -0.16 | 2026-09-08 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.12 | -0.05 | 2026-09-08 | closed |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 105.48 | 0.0 | 2026-09-08 | closed |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 95.21 | -0.06 | 2026-09-08 | closed |
-| RSP | Invesco S&P 500 Equal Weight ETF | 216.73 | -1.04 | 2026-09-08 | closed |
-| IWF | iShares Russell 1000 Growth ETF | 123.02 | -0.32 | 2026-09-08 | closed |
-| IWD | iShares Russell 1000 Value ETF | 255.53 | -0.82 | 2026-09-08 | closed |
-| TLT | iShares 20+ Year Treasury Bond ETF | 82.2 | -0.01 | 2026-09-08 | closed |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 92.16 | -0.1 | 2026-09-08 | closed |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.66 | -0.04 | 2026-09-08 | closed |
-| GC=F | Gold Future | 4441.1 | 1.07 | 2026-09-09 | live as of 9 September 2026, 21:01:51 (HKT) |
-| SI=F | Silver Future | 66.91 | 0.92 | 2026-09-09 | live as of 9 September 2026, 21:01:51 (HKT) |
-| CL=F | WTI Crude Oil Future | 95.63 | 2.79 | 2026-09-09 | live as of 9 September 2026, 21:01:51 (HKT) |
-| HG=F | Copper Future | 6.78 | 0.65 | 2026-09-09 | live as of 9 September 2026, 21:01:51 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.09 | -0.03 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 105.49 | 0.01 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 95.17 | -0.05 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 215.53 | -0.55 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 122.71 | -0.25 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 254.63 | -0.35 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 82.22 | 0.02 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 92.14 | -0.03 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.67 | 0.01 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
+| GC=F | Gold Future | 4463.4 | 1.58 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
+| SI=F | Silver Future | 68.09 | 2.71 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
+| CL=F | WTI Crude Oil Future | 95.78 | 2.96 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
+| HG=F | Copper Future | 6.82 | 1.25 | 2026-09-09 | live as of 9 September 2026, 22:01:56 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -226,10 +226,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Indicator | Latest | Unit | Change | Date | Rule-Based Interpretation |
 | --- | --- | --- | --- | --- | --- |
-| US dollar/Euro ECB reference exchange rate | 1.16 | USD | -0.0 USD vs prior | 2026-09-08 | EUR weakened versus this currency. |
-| Japanese yen/Euro ECB reference exchange rate | 179.2 | JPY | -0.65 JPY vs prior | 2026-09-08 | EUR weakened versus this currency. |
-| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.79 | CNY | -0.01 CNY vs prior | 2026-09-08 | EUR weakened versus this currency. |
-| Australian dollar/Euro ECB reference exchange rate | 1.61 | AUD | -0.0 AUD vs prior | 2026-09-08 | EUR weakened versus this currency. |
+| US dollar/Euro ECB reference exchange rate | 1.17 | USD | 0.0 USD vs prior | 2026-09-09 | EUR strengthened versus this currency. |
+| Japanese yen/Euro ECB reference exchange rate | 178.59 | JPY | -0.61 JPY vs prior | 2026-09-09 | EUR weakened versus this currency. |
+| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.82 | CNY | 0.02 CNY vs prior | 2026-09-09 | EUR strengthened versus this currency. |
+| Australian dollar/Euro ECB reference exchange rate | 1.61 | AUD | 0.0 AUD vs prior | 2026-09-09 | EUR strengthened versus this currency. |
 
 ABS Australia note: ABS rows are stored locally/Neon, but most series are dimension-coded; only curated series should be promoted into narrative report text.
 
@@ -325,12 +325,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=16.32 pct_chg=3.82
+- VIX close=16.15 pct_chg=2.74
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 57, 'negative': 22, 'neutral': 1}
-- News confirmation score: `71.88`
+- Sentiment counts: {'positive': 56, 'negative': 23, 'neutral': 1}
+- News confirmation score: `70.62`
 
 ### Top Market-Moving Headlines
 
@@ -366,15 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.38`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Brent Marches Toward $100 As U.S.-Iran Attacks Escalate**
-- Source: Dow Jones US Business
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil, geo-political, energy
-- Score: `57.38`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. 'Patients pay the tariff': Swiss pharma CEO warns of Trump's generic drug tariff threat**
+**5. 'Patients pay the tariff': Swiss pharma CEO warns of Trump's generic drug tariff threat**
 - Source: CNBC Markets
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
 
-**7. AI infrastructure stocks rally on deal announcements from Qualcomm, Corning**
+**6. AI infrastructure stocks rally on deal announcements from Qualcomm, Corning**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.51`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. Cramer says these 2 stocks are big winners from OpenAI's new model release**
+**7. Cramer says these 2 stocks are big winners from OpenAI's new model release**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / shortterm
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.51`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**9. Google to invest record $15 billion in AI infrastructure in the 'Texas of Europe'**
+**8. Google to invest record $15 billion in AI infrastructure in the 'Texas of Europe'**
 - Source: CNBC Business News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / long-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.02`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. The ECB is virtually certain to hike rates Thursday. Here is why Wall Street is bracing for what comes next.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: ECB, inflation, rate hike
-- Score: `51.0`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+**9. Brent Marches Toward $100 As U.S.-Iran Attacks Escalate**
+- Source: Dow Jones US Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, oil, geo-political, energy
+- Score: `48.77`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Independence Realty Trust and Centerspace Agree to $8.1 Billion Merger**
+- Source: Dow Jones US Business
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short
+- Affected assets: IRET, CSN, merger, real estate
+- Score: `48.77`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
@@ -508,7 +508,7 @@ Positioning and flow data is used as confirmation only.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `26`
+- Live macro rows used: `40`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
