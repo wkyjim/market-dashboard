@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 9 September 2026, 09:19:51 (HKT)
+Generated at: 9 September 2026, 10:16:23 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **63.53 / 100** (Mild Risk-On)
+- Regime score: **63.29 / 100** (Mild Risk-On)
 - US equity strength: **74.07 / 100** (constructive)
 - Evidence quality: **86.5 / 100**
 - ETF flow contribution: **47.16 / 100**, reliability **65.94 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 63.53 | Mild Risk-On |
+| Overall regime | 63.29 | Mild Risk-On |
 | equity_trend | 82.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 69.83 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -25,10 +25,10 @@ Window: 24h
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 56.51 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 62.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.13 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 72.5 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=82.5, news_confirmation=72.5, volatility=70.0, market_breadth=69.83, commodity_confirmation=62.0 |
+| Positive contributors |  | equity_trend=82.5, news_confirmation=72.5, volatility=70.0, market_breadth=69.83 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -64,7 +64,7 @@ Window: 24h
 | Gold | Gold falling | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude stable | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.72 | 2.75 | 2026-09-08 | closed |
 | ^SKEW | CBOE SKEW Index | 148.86 | -1.79 | 2026-09-08 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.14 | 4.16 | 2026-09-08 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.4 | 0.14 | 2026-09-09 | live as of 9 September 2026, 09:01:56 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.48 | 0.13 | 2026-09-09 | live as of 9 September 2026, 09:01:56 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.57 | 0.12 | 2026-09-09 | live as of 9 September 2026, 09:01:56 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.67 | 0.11 | 2026-09-09 | live as of 9 September 2026, 09:01:56 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.79 | 0.08 | 2026-09-09 | live as of 9 September 2026, 09:01:56 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.25 | 0.02 | 2026-09-09 | live as of 9 September 2026, 09:01:56 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.25 | 0.0 | 2026-09-09 | live as of 9 September 2026, 09:01:56 (HKT) |
-| HK50 | Hang Seng Futures | 25296.5 | 0.18 | 2026-09-08 | closed |
+| US2YT=X | United States 2-Year Treasury Yield | 4.4 | 0.09 | 2026-09-09 | live as of 9 September 2026, 10:01:51 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.48 | 0.26 | 2026-09-09 | live as of 9 September 2026, 10:01:51 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.57 | -0.11 | 2026-09-09 | live as of 9 September 2026, 10:01:51 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.67 | -0.16 | 2026-09-09 | live as of 9 September 2026, 10:01:51 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.79 | -0.23 | 2026-09-09 | live as of 9 September 2026, 10:01:51 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.25 | -0.39 | 2026-09-09 | live as of 9 September 2026, 10:01:51 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.24 | -0.41 | 2026-09-09 | live as of 9 September 2026, 10:01:51 (HKT) |
+| HK50 | Hang Seng Futures | 25229.5 | -0.22 | 2026-09-09 | live as of 9 September 2026, 10:01:51 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1109.9 | 1.05 | 2026-09-08 | closed |
 | CIHc1 | SSE 50 Futures | 2897.2 | -0.16 | 2026-09-08 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 79.12 | -0.05 | 2026-09-08 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.66 | -0.04 | 2026-09-08 | closed |
 | GC=F | Gold Future | 4400.0 | -0.67 | 2026-09-08 | closed |
 | SI=F | Silver Future | 66.38 | 0.5 | 2026-09-08 | closed |
-| CL=F | WTI Crude Oil Future | 94.65 | 0.05 | 2026-09-09 | live as of 9 September 2026, 09:01:56 (HKT) |
+| CL=F | WTI Crude Oil Future | 94.35 | -0.26 | 2026-09-09 | live as of 9 September 2026, 10:01:51 (HKT) |
 | HG=F | Copper Future | 6.78 | 2.73 | 2026-09-08 | closed |
 
 ## Market Dispersion Analysis
@@ -366,15 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Dow ends over 600 points down, oil prices rise on escalating U.S.-Iran tensions**
-- Source: MarketWatch Bulletins
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: ^DJI, CL=F, U.S, Geopolitical Risk, Oil Prices
-- Score: `56.52`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. Cramer says these 2 stocks are big winners from OpenAI's new model release**
+**5. Cramer says these 2 stocks are big winners from OpenAI's new model release**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / shortterm
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.51`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. U.S. oil prices reach highest level in over three months after Saudi Arabia says civilian and energy sites struck**
+**6. U.S. oil prices reach highest level in over three months after Saudi Arabia says civilian and energy sites struck**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Tamarack Valley to Merge With Headwater Exploration in Over $7.24 Billion Deal**
+**7. Tamarack Valley to Merge With Headwater Exploration in Over $7.24 Billion Deal**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. 'Patients pay the tariff': Swiss pharma CEO warns of Trump's generic drug tariff threat**
+**8. 'Patients pay the tariff': Swiss pharma CEO warns of Trump's generic drug tariff threat**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
 
-**10. Global shipping authorities warn of maritime trade breakdown amid geopolitical turmoil**
+**9. Global shipping authorities warn of maritime trade breakdown amid geopolitical turmoil**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / medium
 - Affected assets: geopolitical, trade, shipping
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the medium.
+
+**10. CNBC Daily Open: Brent crude barrels back towards $100**
+- Source: CNBC Top News
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: Brent, CNBC, energy, oil_prices
+- Score: `48.45`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
@@ -507,7 +507,7 @@ Positioning and flow data is used as confirmation only.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `15`
+- Live macro rows used: `17`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
