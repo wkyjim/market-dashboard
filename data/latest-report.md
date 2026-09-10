@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 10 September 2026, 09:12:14 (HKT)
+Generated at: 10 September 2026, 09:25:27 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -64,7 +64,7 @@ Window: 24h
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -79,13 +79,13 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 16.46 | 4.71 | 2026-09-09 | closed |
 | ^SKEW | CBOE SKEW Index | 149.25 | 0.26 | 2026-09-09 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.74 | 0.79 | 2026-09-09 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.43 | 0.0 | 2026-09-10 | live as of 10 September 2026, 08:31:51 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.52 | -0.06 | 2026-09-10 | live as of 10 September 2026, 08:31:51 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.62 | -0.11 | 2026-09-10 | live as of 10 September 2026, 08:31:51 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.72 | -0.11 | 2026-09-10 | live as of 10 September 2026, 08:31:51 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.84 | -0.16 | 2026-09-10 | live as of 10 September 2026, 08:31:51 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.29 | -0.15 | 2026-09-10 | live as of 10 September 2026, 08:31:51 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.29 | -0.1 | 2026-09-10 | live as of 10 September 2026, 08:31:51 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.43 | 0.0 | 2026-09-10 | live as of 10 September 2026, 09:00:22 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.53 | 1.21 | 2026-09-09 | closed |
+| US5YT=X | United States 5-Year Treasury Yield | 4.62 | -0.08 | 2026-09-10 | live as of 10 September 2026, 09:00:22 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.72 | -0.08 | 2026-09-10 | live as of 10 September 2026, 09:00:22 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.85 | -0.04 | 2026-09-10 | live as of 10 September 2026, 09:00:22 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.3 | -0.05 | 2026-09-10 | live as of 10 September 2026, 09:00:22 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.29 | 0.53 | 2026-09-09 | closed |
 | HK50 | Hang Seng Futures | 25208.0 | -0.3 | 2026-09-09 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1105.55 | -1.04 | 2026-09-09 | closed |
 | CIHc1 | SSE 50 Futures | 2903.8 | 0.23 | 2026-09-09 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.62 | -0.04 | 2026-09-09 | closed |
 | GC=F | Gold Future | 4447.2 | 1.21 | 2026-09-09 | closed |
 | SI=F | Silver Future | 67.92 | 2.46 | 2026-09-09 | closed |
-| CL=F | WTI Crude Oil Future | 96.67 | -0.37 | 2026-09-10 | live as of 10 September 2026, 08:31:51 (HKT) |
+| CL=F | WTI Crude Oil Future | 96.67 | 3.91 | 2026-09-09 | closed |
 | HG=F | Copper Future | 6.85 | 1.68 | 2026-09-09 | closed |
 
 ## Market Dispersion Analysis
@@ -366,19 +366,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Brent Crude Tops $100 A Barrel on Middle East Escalation**
-- Source: Dow Jones US Business
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, A, oil, geo-political, energy
-- Score: `57.38`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. Brent Hits $100 as U.S.-Iran Escalation, Houthi Strikes Deepen Gulf Supply Fears**
+**5. Brent Hits $100 as U.S.-Iran Escalation, Houthi Strikes Deepen Gulf Supply Fears**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, oil_prices, geopolitical_risk, commodity_market
+- Score: `57.38`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. Brent Crude Tops $100 A Barrel on Middle East Escalation**
+- Source: Dow Jones US Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, A, oil, geo-political, energy
 - Score: `57.38`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
@@ -504,7 +504,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `15`
+- Live macro rows used: `12`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
