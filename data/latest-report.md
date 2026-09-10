@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 11 September 2026, 00:31:21 (HKT)
+Generated at: 11 September 2026, 01:07:45 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **58.5 / 100** (Mild Risk-On)
+- Regime score: **57.04 / 100** (Mild Risk-On)
 - US equity strength: **74.03 / 100** (constructive)
-- Evidence quality: **76.0 / 100**
+- Evidence quality: **72.5 / 100**
 - ETF flow contribution: **47.98 / 100**, reliability **71.05 / 100**
 - Breadth: **healthy**; above 50DMA `58.33%`, above 200DMA `67.8%`
 - Top sector score: **Cybersecurity** `69.94`
@@ -17,19 +17,19 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 58.5 | Mild Risk-On |
+| Overall regime | 57.04 | Mild Risk-On |
 | equity_trend | 82.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 69.27 | risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 35.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
-| rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
+| rates_yield_curve | 46.0 | neutral / mixed; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.25 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 42.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 53.92 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 38.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.57 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 69.38 | risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=82.5, news_confirmation=69.38, market_breadth=69.27 |
-| Negative contributors |  | volatility=35.0, commodity_confirmation=42.0 |
+| Negative contributors |  | volatility=35.0, commodity_confirmation=38.0 |
 
 ## US Equity Strength Score
 
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `76.0`
-- Agreement ratio: `0.4`
+- Confidence score: `72.5`
+- Agreement ratio: `0.3`
 - Contradiction count: `2`
 - Missing indicators: none
 - Warning flags: none
@@ -61,7 +61,7 @@ Window: 24h
 | Rates | 10Y Treasury rising; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG falling | High-yield weakness would challenge equity risk-on confirmation. |
-| Gold | Gold stable | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
+| Gold | Gold falling | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver falling | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper falling | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7599.92 | -0.48 | 2026-09-10 | live as of 11 September 2026, 00:00:22 (HKT) |
-| ^IXIC | NASDAQ Composite | 26119.69 | -0.51 | 2026-09-10 | live as of 11 September 2026, 00:00:22 (HKT) |
-| ^RUT | Russell 2000 Index | 2900.93 | -0.7 | 2026-09-10 | live as of 11 September 2026, 00:00:22 (HKT) |
-| ^VIX | CBOE Volatility Index | 17.27 | 4.92 | 2026-09-10 | live as of 11 September 2026, 00:00:22 (HKT) |
+| ^GSPC | S&P 500 | 7610.09 | -0.34 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| ^IXIC | NASDAQ Composite | 26153.85 | -0.38 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| ^RUT | Russell 2000 Index | 2896.77 | -0.84 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| ^VIX | CBOE Volatility Index | 17.31 | 5.16 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
 | ^SKEW | CBOE SKEW Index | 149.25 | 0.26 | 2026-09-09 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.74 | 0.79 | 2026-09-09 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.43 | 0.81 | 2026-09-09 | closed |
-| US3YT=X | United States 3-Year Treasury Yield | 4.53 | 1.21 | 2026-09-09 | closed |
-| US5YT=X | United States 5-Year Treasury Yield | 4.62 | 0.99 | 2026-09-09 | closed |
-| US7YT=X | United States 7-Year Treasury Yield | 4.72 | 0.92 | 2026-09-09 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 4.84 | 0.83 | 2026-09-09 | closed |
-| US20YT=X | United States 20-Year Treasury Yield | 5.29 | 0.44 | 2026-09-09 | closed |
-| US30YT=X | United States 30-Year Treasury Yield | 5.29 | 0.53 | 2026-09-09 | closed |
+| US2YT=X | United States 2-Year Treasury Yield | 4.54 | 2.53 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.63 | 2.41 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.71 | 2.13 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.8 | 1.82 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.92 | 1.74 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.34 | 1.04 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.33 | 0.93 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
 | HK50 | Hang Seng Futures | 24891.5 | -0.36 | 2026-09-10 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1105.55 | -1.04 | 2026-09-09 | closed |
 | CIHc1 | SSE 50 Futures | 2903.8 | 0.23 | 2026-09-09 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 78.74 | -0.3 | 2026-09-10 | live as of 11 September 2026, 00:00:22 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.64 | -0.64 | 2026-09-10 | live as of 11 September 2026, 00:00:22 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 94.75 | -0.31 | 2026-09-10 | live as of 11 September 2026, 00:00:22 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 213.86 | -0.36 | 2026-09-10 | live as of 11 September 2026, 00:00:22 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 121.55 | -0.74 | 2026-09-10 | live as of 11 September 2026, 00:00:22 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 253.47 | -0.23 | 2026-09-10 | live as of 11 September 2026, 00:00:22 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 81.05 | -0.83 | 2026-09-10 | live as of 11 September 2026, 00:00:22 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 91.33 | -0.62 | 2026-09-10 | live as of 11 September 2026, 00:00:22 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.48 | -0.18 | 2026-09-10 | live as of 11 September 2026, 00:00:22 (HKT) |
-| GC=F | Gold Future | 4409.5 | -0.15 | 2026-09-10 | live as of 11 September 2026, 00:00:22 (HKT) |
-| SI=F | Silver Future | 64.89 | -4.48 | 2026-09-10 | live as of 11 September 2026, 00:00:22 (HKT) |
-| CL=F | WTI Crude Oil Future | 96.67 | 3.91 | 2026-09-09 | closed |
-| HG=F | Copper Future | 6.54 | -3.81 | 2026-09-10 | live as of 11 September 2026, 00:00:22 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 78.76 | -0.28 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.75 | -0.53 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 94.77 | -0.29 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 213.71 | -0.43 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 121.59 | -0.71 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 253.75 | -0.12 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 81.17 | -0.69 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 91.39 | -0.56 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.47 | -0.19 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| GC=F | Gold Future | 4404.4 | -0.26 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| SI=F | Silver Future | 64.8 | -4.63 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| CL=F | WTI Crude Oil Future | 101.42 | 5.59 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| HG=F | Copper Future | 6.54 | -3.84 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -169,16 +169,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | Headline PCE Price Index year-over-year inflation rate | 3.7 | percent | -0.02 pp vs prior | 2026-07-01 | Lower reading eases macro pressure. |
 | Core PCE Price Index month-over-month inflation rate | 0.25 | percent | 0.1 pp vs prior | 2026-07-01 | Higher reading increases macro pressure. |
 | Core PCE Price Index year-over-year inflation rate | 3.34 | percent | 0.0 pp vs prior | 2026-07-01 | Higher reading increases macro pressure. |
-| Headline PPI Final Demand month-over-month inflation rate | -0.1 | percent | -0.07 pp vs prior | 2026-07-01 | Lower reading eases macro pressure. |
-| Headline PPI Final Demand year-over-year inflation rate | 4.69 | percent | -0.85 pp vs prior | 2026-07-01 | Lower reading eases macro pressure. |
-| Core PPI Final Demand Less Foods and Energy month-over-month inflation rate | 0.24 | percent | -0.15 pp vs prior | 2026-07-01 | Lower reading eases macro pressure. |
-| Core PPI Final Demand Less Foods and Energy year-over-year inflation rate | 4.16 | percent | -0.57 pp vs prior | 2026-07-01 | Lower reading eases macro pressure. |
+| Headline PPI Final Demand month-over-month inflation rate | 0.29 | percent | 0.28 pp vs prior | 2026-08-01 | Higher reading increases macro pressure. |
+| Headline PPI Final Demand year-over-year inflation rate | 5.44 | percent | 0.6 pp vs prior | 2026-08-01 | Higher reading increases macro pressure. |
+| Core PPI Final Demand Less Foods and Energy month-over-month inflation rate | 0.16 | percent | -0.1 pp vs prior | 2026-08-01 | Lower reading eases macro pressure. |
+| Core PPI Final Demand Less Foods and Energy year-over-year inflation rate | 4.62 | percent | 0.37 pp vs prior | 2026-08-01 | Higher reading increases macro pressure. |
 | Consumer Price Index for All Urban Consumers | 332.81 | index 1982-1984=100 | 0.25 index pts vs prior | 2026-07-01 | Higher reading increases macro pressure. |
 | Core CPI | 336.79 | index 1982-1984=100 | 0.72 index pts vs prior | 2026-07-01 | Higher reading increases macro pressure. |
 | Personal Consumption Expenditures Price Index | 131.66 | index 2017=100 | 0.2 index pts vs prior | 2026-07-01 | Higher reading increases macro pressure. |
 | Core PCE Price Index | 130.66 | index 2017=100 | 0.32 index pts vs prior | 2026-07-01 | Higher reading increases macro pressure. |
-| Producer Price Index: Final Demand | 156.93 | index Nov 2009=100 | -0.16 index pts vs prior | 2026-07-01 | Latest structural macro observation. |
-| Producer Price Index: Final Demand Less Foods and Energy | 154.45 | index Apr 2010=100 | 0.37 index pts vs prior | 2026-07-01 | Latest structural macro observation. |
+| Producer Price Index: Final Demand | 157.6 | index Nov 2009=100 | 0.45 index pts vs prior | 2026-08-01 | Latest structural macro observation. |
+| Producer Price Index: Final Demand Less Foods and Energy | 154.84 | index Apr 2010=100 | 0.25 index pts vs prior | 2026-08-01 | Latest structural macro observation. |
 
 ### Policy, Liquidity, Credit
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=17.27 pct_chg=4.92
+- VIX close=17.31 pct_chg=5.16
 
 ## News Analytics
 
@@ -398,21 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Oil’s surge above $100 fuels inflation fears at crucial time for interest rates**
-- Source: MarketWatch Bulletins
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: inflation, interest rates
-- Score: `48.45`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Barclays raises S&P 500 year-end target, citing 'standout' earnings driven by AI**
+**9. Barclays raises S&P 500 year-end target, citing 'standout' earnings driven by AI**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: P, S, AI, Earnings, S&P 500
 - Score: `46.33`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**10. Brent Trades Above $100 Amid Gulf Supply Risks**
+- Source: Dow Jones US Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: Brent, WTI, oil, geopolitical_risk
+- Score: `45.0`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
@@ -508,7 +508,7 @@ Positioning and flow data is used as confirmation only.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `31`
+- Live macro rows used: `40`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
