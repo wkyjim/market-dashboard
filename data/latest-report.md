@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 10 September 2026, 23:32:52 (HKT)
+Generated at: 11 September 2026, 00:12:14 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -243,7 +243,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cybersecurity | 69.94 | strong uptrend | positive | broad | 62.35 | 65.0 | 62.96 | CIBR | CIBR |
 | 2 | Healthcare | 66.45 | strong uptrend | positive | broad | 51.04 | 100.0 | 54.37 | VEEV, CRL, REGN | CVS, PODD, DVA |
-| 3 | Technology | 65.03 | strong uptrend | neutral | broad | 41.59 | 90.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
+| 3 | Technology | 65.13 | strong uptrend | neutral | broad | 41.59 | 90.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
 | 4 | Energy | 64.97 | strong uptrend | neutral | broad | 42.73 | 95.0 | 50.27 | APA, MPC, PSX | TRGP, HAL, TPL |
 | 5 | Semiconductors | 60.55 | strong uptrend | neutral | weak | 83.37 | 100.0 | 51.7 | SOXX, SMH | SMH, SOXX |
 | 6 | Financials | 59.31 | strong uptrend | positive | broad | 50.0 | 0.0 | 52.34 | ARES, GPN, APO | TROW, SPGI, MSCI |
@@ -286,7 +286,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- |
 | Cybersecurity | Cybersecurity | 69.94 | strong | 59.62 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 66.45 | strong | 57.66 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.03 | strong | 57.44 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.13 | strong | 57.44 | positive | sector and theme confirmation |
 | Energy | Energy | 64.97 | positive | 60.82 | positive | sector and theme confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 60.55 | positive | 58.37 | positive | sector and theme confirmation |
 | Financials | Financials | 59.31 | positive | 57.96 | positive | sector and theme confirmation |
@@ -350,7 +350,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `61.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Wholesale inflation stirred up by Iran war and high oil prices. What does it mean for the Fed?**
+**3. The likelihood of a Fed interest rate hike next week just got a lot higher**
+- Source: CNBC Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: ^DJI, ^GSPC, ^IXIC, Federal Reserve, Interest Rates
+- Score: `61.2`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. Wholesale inflation stirred up by Iran war and high oil prices. What does it mean for the Fed?**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -358,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `60.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Fed rate hike hinges on two key inflation reports in the next two days**
+**5. Fed rate hike hinges on two key inflation reports in the next two days**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. U.S. crude oil tops $100 again - last seen in May - as market braces for prolonged Iran war**
+**6. U.S. crude oil tops $100 again – last seen in May – as market braces for prolonged Iran war**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -374,27 +382,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Investors worried about rising bond yields are keeping a close eye on this corner of the market**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short term
-- Affected assets: U.S, Economic Indicators, Interest Rates
-- Score: `51.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
-
-**7. Brent Hits $100 as U.S.-Iran Escalation, Houthi Strikes Deepen Gulf Supply Fears**
-- Source: Dow Jones US Business
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil_prices, geopolitical_risk, commodity_market
-- Score: `48.77`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. Brent Crude Tops $100 A Barrel on Middle East Escalation**
+**7. Brent Crude Tops $100 A Barrel on Middle East Escalation**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, A, oil, geo-political, energy
+- Score: `48.77`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. Brent Hits $100 as U.S.-Iran Escalation, Houthi Strikes Deepen Gulf Supply Fears**
+- Source: Dow Jones US Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, oil_prices, geopolitical_risk, commodity_market
 - Score: `48.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
@@ -417,7 +417,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-Noisy headline list: The bull market’s biggest enemy right now could be, Stock market today: Dow, S&P 500, Nasdaq sink as o, Stock Market Today: Dow Slumps 400 Points As Oil S
+Noisy headline list: The bull market’s biggest enemy right now could be
 
 ## Positioning & Flow Dashboard
 
