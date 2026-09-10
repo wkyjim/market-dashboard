@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 11 September 2026, 01:07:45 (HKT)
+Generated at: 11 September 2026, 02:08:20 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -24,7 +24,7 @@ Window: 24h
 | volatility | 35.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 46.0 | neutral / mixed; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 53.92 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 53.93 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 38.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.57 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 69.38 | risk-on support; Weighted headline/news confirmation score. |
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7610.09 | -0.34 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
-| ^IXIC | NASDAQ Composite | 26153.85 | -0.38 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
-| ^RUT | Russell 2000 Index | 2896.77 | -0.84 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
-| ^VIX | CBOE Volatility Index | 17.31 | 5.16 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| ^GSPC | S&P 500 | 7595.1 | -0.54 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
+| ^IXIC | NASDAQ Composite | 26110.28 | -0.54 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
+| ^RUT | Russell 2000 Index | 2892.69 | -0.98 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
+| ^VIX | CBOE Volatility Index | 17.55 | 6.62 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
 | ^SKEW | CBOE SKEW Index | 149.25 | 0.26 | 2026-09-09 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.74 | 0.79 | 2026-09-09 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.54 | 2.53 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.63 | 2.41 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.71 | 2.13 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.8 | 1.82 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.92 | 1.74 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.34 | 1.04 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.33 | 0.93 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.56 | 3.01 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.66 | 3.04 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.74 | 2.76 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.83 | 2.42 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.95 | 2.27 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.36 | 1.36 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.34 | 1.05 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
 | HK50 | Hang Seng Futures | 24891.5 | -0.36 | 2026-09-10 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1105.55 | -1.04 | 2026-09-09 | closed |
 | CIHc1 | SSE 50 Futures | 2903.8 | 0.23 | 2026-09-09 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 78.76 | -0.28 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.75 | -0.53 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 94.77 | -0.29 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 213.71 | -0.43 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 121.59 | -0.71 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 253.75 | -0.12 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 81.17 | -0.69 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 91.39 | -0.56 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.47 | -0.19 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
-| GC=F | Gold Future | 4404.4 | -0.26 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
-| SI=F | Silver Future | 64.8 | -4.63 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
-| CL=F | WTI Crude Oil Future | 101.42 | 5.59 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
-| HG=F | Copper Future | 6.54 | -3.84 | 2026-09-10 | live as of 11 September 2026, 01:01:49 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 78.73 | -0.32 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.54 | -0.73 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 94.75 | -0.31 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 213.34 | -0.6 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 121.39 | -0.87 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 253.28 | -0.3 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 80.94 | -0.97 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 91.19 | -0.78 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.44 | -0.23 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
+| GC=F | Gold Future | 4400.5 | -0.35 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
+| SI=F | Silver Future | 64.79 | -4.64 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
+| CL=F | WTI Crude Oil Future | 102.03 | 6.23 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
+| HG=F | Copper Future | 6.52 | -4.18 | 2026-09-10 | live as of 11 September 2026, 02:01:48 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=17.31 pct_chg=5.16
+- VIX close=17.55 pct_chg=6.62
 
 ## News Analytics
 
@@ -374,19 +374,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Brent Crude Tops $100 A Barrel on Middle East Escalation**
-- Source: Dow Jones US Business
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, A, oil, geo-political, energy
-- Score: `48.77`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Brent Hits $100 as U.S.-Iran Escalation, Houthi Strikes Deepen Gulf Supply Fears**
+**6. Brent Hits $100 as U.S.-Iran Escalation, Houthi Strikes Deepen Gulf Supply Fears**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, oil_prices, geopolitical_risk, commodity_market
+- Score: `48.77`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. Brent Crude Tops $100 A Barrel on Middle East Escalation**
+- Source: Dow Jones US Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, A, oil, geo-political, energy
 - Score: `48.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
