@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 10 September 2026, 08:49:16 (HKT)
+Generated at: 10 September 2026, 09:12:14 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **59.77 / 100** (Mild Risk-On)
+- Regime score: **59.58 / 100** (Mild Risk-On)
 - US equity strength: **74.03 / 100** (constructive)
 - Evidence quality: **83.0 / 100**
 - ETF flow contribution: **48.82 / 100**, reliability **65.78 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 59.77 | Mild Risk-On |
+| Overall regime | 59.58 | Mild Risk-On |
 | equity_trend | 82.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 69.27 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.36 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.22 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 71.25 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=82.5, news_confirmation=71.25, market_breadth=69.27 |
+| news_confirmation | 67.5 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=82.5, market_breadth=69.27, news_confirmation=67.5 |
 | Negative contributors |  | volatility=35.0 |
 
 ## US Equity Strength Score
@@ -87,8 +87,8 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US20YT=X | United States 20-Year Treasury Yield | 5.29 | -0.15 | 2026-09-10 | live as of 10 September 2026, 08:31:51 (HKT) |
 | US30YT=X | United States 30-Year Treasury Yield | 5.29 | -0.1 | 2026-09-10 | live as of 10 September 2026, 08:31:51 (HKT) |
 | HK50 | Hang Seng Futures | 25208.0 | -0.3 | 2026-09-09 | closed |
-| KOR200c1 | KOSPI 200 Futures | 1109.9 | 1.05 | 2026-09-08 | closed |
-| CIHc1 | SSE 50 Futures | 2897.2 | -0.16 | 2026-09-08 | closed |
+| KOR200c1 | KOSPI 200 Futures | 1105.55 | -1.04 | 2026-09-09 | closed |
+| CIHc1 | SSE 50 Futures | 2903.8 | 0.23 | 2026-09-09 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 78.98 | -0.18 | 2026-09-09 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 105.31 | -0.16 | 2026-09-09 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 95.04 | -0.18 | 2026-09-09 | closed |
@@ -246,7 +246,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Energy | 65.32 | strong uptrend | neutral | broad | 43.62 | 65.0 | 50.27 | APA, MPC, PSX | TRGP, HAL, TPL |
 | 4 | Technology | 65.23 | strong uptrend | neutral | broad | 47.35 | 65.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
 | 5 | Financials | 60.75 | strong uptrend | positive | broad | 64.37 | 65.0 | 52.34 | ARES, GPN, APO | TROW, SPGI, MSCI |
-| 6 | Semiconductors | 59.4 | strong uptrend | neutral | weak | 72.94 | 65.0 | 51.7 | SOXX, SMH | SMH, SOXX |
+| 6 | Semiconductors | 59.0 | strong uptrend | neutral | weak | 72.94 | 65.0 | 51.7 | SOXX, SMH | SMH, SOXX |
 | 7 | Nuclear | 55.5 | neutral | neutral | broad | 50.0 | 0.0 | 50.82 | NLR | NLR |
 | 8 | Crypto | 51.33 | neutral | neutral | mixed | 63.35 | 65.0 | 50.0 |  |  |
 | 9 | Grid Infrastructure | 50.02 | downtrend | neutral | weak | 50.0 | 0.0 | 49.05 | GRID | GRID |
@@ -264,10 +264,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Energy | 60.91 | Positive setup | 43.62 | 65.0 | 1.59 | True | False |
 | 2 | Financials | 59.4 | Positive setup | 64.37 | 65.0 | 10.64 | False | False |
 | 3 | Cybersecurity | 58.39 | Neutral / watchlist | 50.0 | 0.0 | 25.61 | False | False |
-| 4 | Semiconductors | 57.96 | Neutral / watchlist | 72.94 | 65.0 | 15.16 | False | True |
-| 5 | AI Infrastructure | 57.57 | Neutral / watchlist | 72.94 | 65.0 | 26.16 | False | False |
-| 6 | Healthcare Innovation | 57.51 | Positive setup | 49.52 | 65.0 | 11.95 | False | False |
-| 7 | Quality Growth | 55.58 | Neutral / watchlist | 50.78 | 65.0 | 32.28 | False | False |
+| 4 | AI Infrastructure | 57.57 | Neutral / watchlist | 72.94 | 65.0 | 26.16 | False | False |
+| 5 | Healthcare Innovation | 57.51 | Positive setup | 49.52 | 65.0 | 11.95 | False | False |
+| 6 | Quality Growth | 55.58 | Neutral / watchlist | 50.78 | 65.0 | 32.28 | False | False |
+| 7 | Semiconductors | 54.96 | Neutral / watchlist | 72.94 | 65.0 | 15.16 | False | False |
 | 8 | Nuclear | 51.49 | Neutral / watchlist | 50.0 | 0.0 | 18.53 | False | False |
 | 9 | Small Caps | 50.96 | Neutral / watchlist | 50.6 | 65.0 | 0.0 | False | False |
 | 10 | Dividend Defensives | 48.69 | Neutral / watchlist | 59.0 | 65.0 | 7.21 | False | False |
@@ -277,7 +277,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 - Top 5 improving themes: Financials, Healthcare Innovation, Defense, Cybersecurity, Small Caps
 - Top 5 deteriorating themes: Crypto Infrastructure, Nuclear, Energy, Grid Infrastructure, Quality Growth
-- Strong news but weak price confirmation: Semiconductors
+- Strong news but weak price confirmation: none
 - Strong price but weak news confirmation: Energy
 
 ### Sector / Theme Alignment
@@ -287,9 +287,9 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 68.7 | strong | 58.39 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 66.71 | strong | 57.51 | positive | sector and theme confirmation |
 | Energy | Energy | 65.32 | strong | 60.91 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.23 | strong | 57.04 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.23 | strong | 56.03 | positive | sector and theme confirmation |
 | Financials | Financials | 60.75 | positive | 59.4 | positive | sector and theme confirmation |
-| Semiconductors | AI Infrastructure, Semiconductors | 59.4 | positive | 57.76 | positive | sector and theme confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 59.0 | positive | 56.26 | positive | sector and theme confirmation |
 | Nuclear | Nuclear | 55.5 | positive | 51.49 | mixed | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 51.33 | mixed | 43.67 | weak | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 50.02 | mixed | 46.41 | mixed | mixed confirmation |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 57, 'negative': 23, 'neutral': 0}
-- News confirmation score: `71.25`
+- Sentiment counts: {'positive': 54, 'negative': 26, 'neutral': 0}
+- News confirmation score: `67.5`
 
 ### Top Market-Moving Headlines
 
@@ -347,7 +347,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S., Brent, U.S, oil_prices, geopolitical_risk
-- Score: `72.67`
+- Score: `61.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **3. CNBC Daily Open: Gulf strikes jolt oil toward triple digits**
@@ -366,15 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Brent Hits $100 as U.S.-Iran Escalation, Houthi Strikes Deepen Gulf Supply Fears**
-- Source: Dow Jones US Business
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil_prices, geopolitical_risk, commodity_market
-- Score: `57.38`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. Brent Crude Tops $100 A Barrel on Middle East Escalation**
+**5. Brent Crude Tops $100 A Barrel on Middle East Escalation**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -382,7 +374,31 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.38`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Barclays raises S&P 500 year-end target, citing 'standout' earnings driven by AI**
+**6. Brent Hits $100 as U.S.-Iran Escalation, Houthi Strikes Deepen Gulf Supply Fears**
+- Source: Dow Jones US Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, oil_prices, geopolitical_risk, commodity_market
+- Score: `57.38`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. Oil extends gains, with Brent above $101 after U.S. destroys Iranian oil tankers**
+- Source: CNBC Top News
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, oil_prices, geopolitical_risk
+- Score: `57.0`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. A Fed rate hike hinges on two key inflation reports in the next two days**
+- Source: MarketWatch Bulletins
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: A, economic policy, interest rates
+- Score: `57.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. Barclays raises S&P 500 year-end target, citing 'standout' earnings driven by AI**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -390,29 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.51`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. Investors worried about rising bond yields are keeping a close eye on this corner of the market**
+**10. Investors worried about rising bond yields are keeping a close eye on this corner of the market**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short term
 - Affected assets: U.S, Economic Indicators, Interest Rates
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
-
-**9. Oil’s surge above $100 fuels inflation fears at crucial time for interest rates**
-- Source: MarketWatch Bulletins
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: inflation, interest rates
-- Score: `48.45`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. 'Patients pay the tariff': Swiss pharma CEO warns of Trump's generic drug tariff threat**
-- Source: CNBC Markets
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short
-- Affected assets: SNDZ, U.S, pharmaceuticals, tariffs
-- Score: `48.45`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
 
 
 ### Headline Quality Checks
@@ -497,9 +497,7 @@ Positioning and flow data is used as confirmation only.
 
 ## Contradiction / Audit Flags
 
-| Severity | Section | Issue | Deterministic Fix |
-| --- | --- | --- | --- |
-| low | Theme Strength Ranking | Semiconductors has strong news confirmation but weak price confirmation. | Classify as unconfirmed narrative. |
+No contradiction flags were triggered by current deterministic rules.
 
 ## Data Quality Notes
 
