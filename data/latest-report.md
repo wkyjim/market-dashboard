@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 10 September 2026, 15:09:16 (HKT)
+Generated at: 10 September 2026, 15:12:13 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -242,10 +242,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Sector | Score | Trend | Momentum | Stock Breadth | ETF Flow | Flow Reliability | 3M RS | Supporting / Leaders | Detracting / Laggards |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cybersecurity | 69.94 | strong uptrend | positive | broad | 62.35 | 65.0 | 62.96 | CIBR | CIBR |
-| 2 | Healthcare | 66.87 | strong uptrend | positive | broad | 51.04 | 100.0 | 54.37 | VEEV, CRL, REGN | CVS, PODD, DVA |
+| 2 | Healthcare | 66.45 | strong uptrend | positive | broad | 51.04 | 100.0 | 54.37 | VEEV, CRL, REGN | CVS, PODD, DVA |
 | 3 | Energy | 65.23 | strong uptrend | neutral | broad | 42.73 | 95.0 | 50.27 | APA, MPC, PSX | TRGP, HAL, TPL |
-| 4 | Technology | 64.65 | strong uptrend | neutral | broad | 41.59 | 90.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
-| 5 | Semiconductors | 60.04 | strong uptrend | neutral | weak | 83.37 | 100.0 | 51.7 | SOXX, SMH | SMH, SOXX |
+| 4 | Technology | 65.03 | strong uptrend | neutral | broad | 41.59 | 90.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
+| 5 | Semiconductors | 60.55 | strong uptrend | neutral | weak | 83.37 | 100.0 | 51.7 | SOXX, SMH | SMH, SOXX |
 | 6 | Financials | 59.31 | strong uptrend | positive | broad | 50.0 | 0.0 | 52.34 | ARES, GPN, APO | TROW, SPGI, MSCI |
 | 7 | Nuclear | 55.5 | neutral | neutral | broad | 50.0 | 0.0 | 50.82 | NLR | NLR |
 | 8 | Grid Infrastructure | 51.36 | downtrend | neutral | weak | 63.39 | 65.0 | 49.05 | GRID | GRID |
@@ -264,9 +264,9 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Energy | 60.82 | Positive setup | 42.73 | 95.0 | 1.59 | True | False |
 | 2 | Cybersecurity | 59.62 | Neutral / watchlist | 62.35 | 65.0 | 25.61 | False | False |
 | 3 | AI Infrastructure | 58.61 | Neutral / watchlist | 83.37 | 100.0 | 26.16 | False | False |
-| 4 | Financials | 57.96 | Positive setup | 50.0 | 0.0 | 10.64 | False | False |
-| 5 | Healthcare Innovation | 57.66 | Positive setup | 51.04 | 100.0 | 11.95 | False | False |
-| 6 | Semiconductors | 56.0 | Neutral / watchlist | 83.37 | 100.0 | 15.16 | False | False |
+| 4 | Semiconductors | 58.13 | Neutral / watchlist | 83.37 | 100.0 | 15.16 | False | True |
+| 5 | Financials | 57.96 | Positive setup | 50.0 | 0.0 | 10.64 | False | False |
+| 6 | Healthcare Innovation | 57.66 | Positive setup | 51.04 | 100.0 | 11.95 | False | False |
 | 7 | Quality Growth | 55.58 | Neutral / watchlist | 50.78 | 65.0 | 32.28 | False | False |
 | 8 | Nuclear | 51.49 | Neutral / watchlist | 50.0 | 0.0 | 18.53 | False | False |
 | 9 | Small Caps | 50.96 | Neutral / watchlist | 50.6 | 65.0 | 0.0 | False | False |
@@ -277,7 +277,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 - Top 5 improving themes: Financials, Healthcare Innovation, Defense, Cybersecurity, Small Caps
 - Top 5 deteriorating themes: Crypto Infrastructure, Nuclear, Energy, Grid Infrastructure, Quality Growth
-- Strong news but weak price confirmation: none
+- Strong news but weak price confirmation: Semiconductors
 - Strong price but weak news confirmation: Energy
 
 ### Sector / Theme Alignment
@@ -285,10 +285,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
 | Cybersecurity | Cybersecurity | 69.94 | strong | 59.62 | positive | sector and theme confirmation |
-| Healthcare | Healthcare Innovation | 66.87 | strong | 57.66 | positive | sector and theme confirmation |
+| Healthcare | Healthcare Innovation | 66.45 | strong | 57.66 | positive | sector and theme confirmation |
 | Energy | Energy | 65.23 | strong | 60.82 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 64.65 | positive | 56.73 | positive | sector and theme confirmation |
-| Semiconductors | AI Infrastructure, Semiconductors | 60.04 | positive | 57.31 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.03 | strong | 57.44 | positive | sector and theme confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 60.55 | positive | 58.37 | positive | sector and theme confirmation |
 | Financials | Financials | 59.31 | positive | 57.96 | positive | sector and theme confirmation |
 | Nuclear | Nuclear | 55.5 | positive | 51.49 | mixed | sector stronger than related themes |
 | Grid Infrastructure | Grid Infrastructure | 51.36 | mixed | 47.75 | mixed | mixed confirmation |
@@ -310,7 +310,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 4 | Cybersecurity | 59.35 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 5 | Quality Growth | 56.87 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
 | 6 | AI Infrastructure | 55.83 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
-| 7 | Semiconductors | 53.69 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
+| 7 | Semiconductors | 52.69 | Neutral / watchlist | trend_persistence, breadth | relative strength below SPY, breadth below 45%, news turns negative |
 | 8 | Small Caps | 51.2 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 9 | Nuclear | 50.49 | Neutral / watchlist | relative_strength_20d | relative strength below SPY, breadth below 45%, news turns negative |
 | 10 | Dividend Defensives | 50.28 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
@@ -374,19 +374,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**6. Brent Hits $100 as U.S.-Iran Escalation, Houthi Strikes Deepen Gulf Supply Fears**
-- Source: Dow Jones US Business
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil_prices, geopolitical_risk, commodity_market
-- Score: `48.77`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Brent Crude Tops $100 A Barrel on Middle East Escalation**
+**6. Brent Crude Tops $100 A Barrel on Middle East Escalation**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, A, oil, geo-political, energy
+- Score: `48.77`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. Brent Hits $100 as U.S.-Iran Escalation, Houthi Strikes Deepen Gulf Supply Fears**
+- Source: Dow Jones US Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, oil_prices, geopolitical_risk, commodity_market
 - Score: `48.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
@@ -499,7 +499,9 @@ Positioning and flow data is used as confirmation only.
 
 ## Contradiction / Audit Flags
 
-No contradiction flags were triggered by current deterministic rules.
+| Severity | Section | Issue | Deterministic Fix |
+| --- | --- | --- | --- |
+| low | Theme Strength Ranking | Semiconductors has strong news confirmation but weak price confirmation. | Classify as unconfirmed narrative. |
 
 ## Data Quality Notes
 
