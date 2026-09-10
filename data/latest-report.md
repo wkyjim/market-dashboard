@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 10 September 2026, 18:10:13 (HKT)
+Generated at: 10 September 2026, 18:12:15 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -382,19 +382,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**7. Brent Crude Tops $100 A Barrel on Middle East Escalation**
-- Source: Dow Jones US Business
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, A, oil, geo-political, energy
-- Score: `48.77`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. Brent Hits $100 as U.S.-Iran Escalation, Houthi Strikes Deepen Gulf Supply Fears**
+**7. Brent Hits $100 as U.S.-Iran Escalation, Houthi Strikes Deepen Gulf Supply Fears**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, oil_prices, geopolitical_risk, commodity_market
+- Score: `48.77`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. Brent Crude Tops $100 A Barrel on Middle East Escalation**
+- Source: Dow Jones US Business
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, A, oil, geo-political, energy
 - Score: `48.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
