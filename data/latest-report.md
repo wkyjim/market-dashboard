@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 11 September 2026, 23:10:16 (HKT)
+Generated at: 12 September 2026, 00:12:47 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -342,7 +342,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. August CPI report shows core inflation was hotter than expected — live updates**
+**2. Week Ahead for FX, Bonds: All Eyes on Fed Rate Decision**
+- Source: Dow Jones Economy
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: FX, Bonds, U.S, Interest Rates, Inflation
+- Score: `57.8`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. August CPI report shows core inflation was hotter than expected — live updates**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -350,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Global bond sell-off deepens as $100 oil stokes stagflation fears**
+**4. Global bond sell-off deepens as $100 oil stokes stagflation fears**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -358,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `56.52`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. It’s not just Hormuz. Another war provides fresh price shocks to fuel and food.**
+**5. It’s not just Hormuz. Another war provides fresh price shocks to fuel and food.**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.91`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. The likelihood of a Fed interest rate hike next week just got a lot higher**
+**6. The likelihood of a Fed interest rate hike next week just got a lot higher**
 - Source: CNBC Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -374,7 +382,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.02`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Treasury yields surge after Bessent’s beefed-up buyback operation fails to calm market**
+**7. The 30-year mortgage rate just crossed 7% for the first time in over a year**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: interest rates, real estate
+- Score: `51.0`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**8. Treasury yields surge after Bessent’s beefed-up buyback operation fails to calm market**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -382,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. IEA warns global oil refining system ‘stretched to the limit’ as Iran, Ukraine wars tighten market**
+**9. IEA warns global oil refining system ‘stretched to the limit’ as Iran, Ukraine wars tighten market**
 - Source: CNBC Business News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -390,7 +406,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.92`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. U.S. crude oil tops $100 again – last seen in May – as market braces for prolonged Iran war**
+**10. U.S. crude oil tops $100 again – last seen in May – as market braces for prolonged Iran war**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -398,26 +414,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Treasury yields surge toward danger zone for stocks as inflation pressures rise**
-- Source: MarketWatch Bulletins
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: inflation, Treasury yields
-- Score: `48.45`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. SEC Charges Founder and His Two New Jersey-Based Companies in Alleged $16 Million Ponzi Scheme**
-- Source: SEC Press Releases
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short
-- Affected assets: I, LLC, LP, legal, fraud
-- Score: `43.89`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
 
 ### Headline Quality Checks
 
-Noisy headline list: Stock market today: Dow, S&P 500, Nasdaq fall as T, Stock market today: Dow, S&P 500, Nasdaq extend lo
+Noisy headline list: Stock market today: Dow, S&P 500, Nasdaq fall as T
 
 ## Positioning & Flow Dashboard
 
