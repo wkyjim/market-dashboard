@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 11 September 2026, 11:14:19 (HKT)
+Generated at: 11 September 2026, 12:14:28 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **55.91 / 100** (Mild Risk-On)
+- Regime score: **55.73 / 100** (Mild Risk-On)
 - US equity strength: **68.5 / 100** (constructive)
 - Evidence quality: **76.0 / 100**
-- ETF flow contribution: **48.55 / 100**, reliability **66.72 / 100**
+- ETF flow contribution: **48.55 / 100**, reliability **66.67 / 100**
 - Breadth: **healthy**; above 50DMA `45.0%`, above 200DMA `69.49%`
 - Top sector score: **Cybersecurity** `68.7`
 - Top theme score: **Financials** `58.78`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 55.91 | Mild Risk-On |
+| Overall regime | 55.73 | Mild Risk-On |
 | equity_trend | 71.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 65.39 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 53.42 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 42.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.03 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 67.5 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=71.25, news_confirmation=67.5, market_breadth=65.39 |
+| news_confirmation | 63.75 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=71.25, market_breadth=65.39, news_confirmation=63.75 |
 | Negative contributors |  | volatility=35.0, commodity_confirmation=42.0 |
 
 ## US Equity Strength Score
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 17.84 | 8.38 | 2026-09-10 | closed |
 | ^SKEW | CBOE SKEW Index | 147.02 | -1.49 | 2026-09-10 | closed |
 | ^MOVE | ICE BofA MOVE Index | 82.09 | 6.98 | 2026-09-10 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.58 | 0.74 | 2026-09-11 | live as of 11 September 2026, 11:01:52 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.68 | 0.8 | 2026-09-11 | live as of 11 September 2026, 11:01:52 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.77 | 0.72 | 2026-09-11 | live as of 11 September 2026, 11:01:52 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.86 | 0.61 | 2026-09-11 | live as of 11 September 2026, 11:01:52 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.98 | 0.65 | 2026-09-11 | live as of 11 September 2026, 11:01:52 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.4 | 0.46 | 2026-09-11 | live as of 11 September 2026, 11:01:52 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.38 | 0.34 | 2026-09-11 | live as of 11 September 2026, 11:01:52 (HKT) |
-| HK50 | Hang Seng Futures | 24681.0 | -0.11 | 2026-09-11 | live as of 11 September 2026, 11:01:52 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.6 | 1.01 | 2026-09-11 | live as of 11 September 2026, 12:01:54 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.7 | 1.04 | 2026-09-11 | live as of 11 September 2026, 12:01:54 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.78 | 0.91 | 2026-09-11 | live as of 11 September 2026, 12:01:54 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.87 | 0.78 | 2026-09-11 | live as of 11 September 2026, 12:01:54 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.98 | 0.65 | 2026-09-11 | live as of 11 September 2026, 12:01:54 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.41 | 0.48 | 2026-09-11 | live as of 11 September 2026, 12:01:54 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.38 | 0.36 | 2026-09-11 | live as of 11 September 2026, 12:01:54 (HKT) |
+| HK50 | Hang Seng Futures | 24731.0 | 0.09 | 2026-09-11 | live as of 11 September 2026, 12:01:54 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1082.15 | -2.68 | 2026-09-10 | closed |
 | CIHc1 | SSE 50 Futures | 2899.4 | -0.15 | 2026-09-10 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 78.62 | -0.46 | 2026-09-10 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.42 | -0.26 | 2026-09-10 | closed |
 | GC=F | Gold Future | 4358.5 | -1.3 | 2026-09-10 | closed |
 | SI=F | Silver Future | 64.09 | -5.67 | 2026-09-10 | closed |
-| CL=F | WTI Crude Oil Future | 102.83 | -1.44 | 2026-09-11 | live as of 11 September 2026, 11:01:52 (HKT) |
+| CL=F | WTI Crude Oil Future | 103.35 | -0.94 | 2026-09-11 | live as of 11 September 2026, 12:01:54 (HKT) |
 | HG=F | Copper Future | 6.53 | -4.08 | 2026-09-10 | closed |
 
 ## Market Dispersion Analysis
@@ -244,7 +244,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Cybersecurity | 68.7 | strong uptrend | positive | broad | 50.0 | 0.0 | 62.96 | CIBR | CIBR |
 | 2 | Healthcare | 66.52 | strong uptrend | positive | broad | 51.75 | 65.0 | 54.37 | VEEV, CRL, REGN | CVS, PODD, DVA |
 | 3 | Energy | 65.29 | strong uptrend | neutral | broad | 43.33 | 65.0 | 50.27 | APA, MPC, PSX | TRGP, HAL, TPL |
-| 4 | Technology | 61.25 | strong uptrend | neutral | mixed | 51.1 | 65.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
+| 4 | Technology | 61.3 | strong uptrend | neutral | mixed | 51.1 | 65.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
 | 5 | Financials | 60.13 | strong uptrend | positive | broad | 58.19 | 65.0 | 52.34 | ARES, GPN, APO | TROW, SPGI, MSCI |
 | 6 | Semiconductors | 55.89 | neutral | neutral | weak | 72.56 | 90.0 | 51.7 | SOXX, SMH | SMH, SOXX |
 | 7 | Nuclear | 55.5 | neutral | neutral | broad | 50.0 | 0.0 | 50.82 | NLR | NLR |
@@ -287,7 +287,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 68.7 | strong | 58.39 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 66.52 | strong | 57.73 | positive | sector and theme confirmation |
 | Energy | Energy | 65.29 | strong | 58.45 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 61.25 | positive | 56.13 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 61.3 | positive | 56.13 | positive | sector and theme confirmation |
 | Financials | Financials | 60.13 | positive | 58.78 | positive | sector and theme confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 55.89 | positive | 56.34 | positive | sector and theme confirmation |
 | Nuclear | Nuclear | 55.5 | positive | 48.99 | mixed | sector stronger than related themes |
@@ -329,25 +329,25 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 52, 'negative': 24, 'neutral': 4}
-- News confirmation score: `67.5`
+- Sentiment counts: {'positive': 50, 'negative': 28, 'neutral': 2}
+- News confirmation score: `63.75`
 
 ### Top Market-Moving Headlines
 
-**1. It’s not just Hormuz. Another war provides fresh price shocks to fuel and food.**
-- Source: MarketWatch Bulletins
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: geo-political, oil
-- Score: `64.6`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. It’s not just Hormuz. Another war is providing fresh price shocks to fuel and food.**
+**1. It’s not just Hormuz. Another war is providing fresh price shocks to fuel and food.**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: conflict, oil_prices, food_prices
 - Score: `57.8`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. It’s not just Hormuz. Another war provides fresh price shocks to fuel and food.**
+- Source: MarketWatch Bulletins
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: geo-political, oil
+- Score: `54.91`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **3. The likelihood of a Fed interest rate hike next week just got a lot higher**
@@ -382,7 +382,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. SEC Charges Founder and His Two New Jersey-Based Companies in Alleged $16 Million Ponzi Scheme**
+**7. Chinese Nvidia rival Enflame soars 206% on stock market debut as AI demand stays hot**
+- Source: CNBC Technology
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: ENFL, AI, chipmaking, IPO
+- Score: `44.75`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**8. SEC Charges Founder and His Two New Jersey-Based Companies in Alleged $16 Million Ponzi Scheme**
 - Source: SEC Press Releases
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.89`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. Oracle’s AI bet pays off as cloud momentum helps drive a rosier forecast**
+**9. Oracle’s AI bet pays off as cloud momentum helps drive a rosier forecast**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -398,19 +406,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.88`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. The 30-year mortgage rate just crossed 7% for the first time in over a year**
+**10. The 30-year mortgage rate just crossed 7% for the first time in over a year**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: interest rates, real estate
-- Score: `43.35`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**10. The ECB is virtually certain to raise rates. Wall Street is bracing for what comes next.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: ECB, inflation, rate hike
 - Score: `43.35`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
