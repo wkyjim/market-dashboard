@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 12 September 2026, 03:07:02 (HKT)
+Generated at: 12 September 2026, 03:12:02 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **52.52 / 100** (Mixed / Rotation)
+- Regime score: **52.59 / 100** (Mixed / Rotation)
 - US equity strength: **45.69 / 100** (neutral)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **47.79 / 100**, reliability **70.93 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 52.52 | Mixed / Rotation |
+| Overall regime | 52.59 | Mixed / Rotation |
 | equity_trend | 45.0 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 46.84 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 38.68 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 54.72 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.43 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 57.5 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 58.75 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=80.0, commodity_confirmation=63.0 |
 | Negative contributors |  | market_breadth=38.68, equity_trend=45.0 |
 
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 46, 'negative': 34, 'neutral': 0}
-- News confirmation score: `57.5`
+- Sentiment counts: {'positive': 47, 'negative': 33, 'neutral': 0}
+- News confirmation score: `58.75`
 
 ### Top Market-Moving Headlines
 
