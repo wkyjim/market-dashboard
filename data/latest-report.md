@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 12 September 2026, 03:12:02 (HKT)
+Generated at: 12 September 2026, 04:07:41 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -24,7 +24,7 @@ Window: 24h
 | volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.72 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.81 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.43 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 58.75 | mild risk-on support; Weighted headline/news confirmation score. |
@@ -58,7 +58,7 @@ Window: 24h
 | Area | Signal | Interpretation |
 | --- | --- | --- |
 | Equities | S&P 500 rising; Nasdaq rising; Russell 2000 rising | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
-| Rates | 10Y Treasury rising; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
+| Rates | 10Y Treasury rising; MOVE stable | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7664.9 | 0.96 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
-| ^IXIC | NASDAQ Composite | 26373.9 | 1.12 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
-| ^RUT | Russell 2000 Index | 2908.08 | 0.59 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
-| ^VIX | CBOE Volatility Index | 15.79 | -11.49 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
+| ^GSPC | S&P 500 | 7656.85 | 0.86 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| ^IXIC | NASDAQ Composite | 26333.04 | 0.96 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| ^RUT | Russell 2000 Index | 2905.78 | 0.51 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.81 | -11.38 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
 | ^SKEW | CBOE SKEW Index | 147.02 | -1.49 | 2026-09-10 | closed |
-| ^MOVE | ICE BofA MOVE Index | 82.09 | 6.98 | 2026-09-10 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.64 | 2.07 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.73 | 1.8 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.79 | 1.23 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.88 | 0.93 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.98 | 0.65 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.39 | 0.14 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.35 | -0.12 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
+| ^MOVE | ICE BofA MOVE Index | 82.09 | 0.01 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.63 | 1.75 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.72 | 1.65 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.79 | 1.19 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.88 | 0.9 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.98 | 0.69 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.39 | 0.14 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.36 | -0.1 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
 | HK50 | Hang Seng Futures | 24798.0 | 0.36 | 2026-09-11 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1082.15 | -2.68 | 2026-09-10 | closed |
 | CIHc1 | SSE 50 Futures | 2899.4 | -0.15 | 2026-09-10 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 78.66 | 0.04 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.35 | -0.01 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 94.66 | 0.03 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 214.85 | 0.79 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 122.52 | 0.99 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 255.55 | 0.88 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 80.88 | 0.13 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 91.0 | -0.2 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.34 | -0.09 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
-| GC=F | Gold Future | 4387.9 | 0.54 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
-| SI=F | Silver Future | 64.81 | 0.82 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
-| CL=F | WTI Crude Oil Future | 100.51 | -1.92 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
-| HG=F | Copper Future | 6.55 | 1.27 | 2026-09-11 | live as of 12 September 2026, 03:00:40 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 78.61 | -0.01 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.32 | -0.04 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 94.61 | -0.02 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 214.87 | 0.8 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 122.25 | 0.77 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 255.56 | 0.88 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 80.87 | 0.11 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 91.01 | -0.19 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.37 | -0.06 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| GC=F | Gold Future | 4386.8 | 0.51 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| SI=F | Silver Future | 64.89 | 0.93 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| CL=F | WTI Crude Oil Future | 100.46 | -1.97 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
+| HG=F | Copper Future | 6.55 | 1.22 | 2026-09-11 | live as of 12 September 2026, 04:00:44 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.79 pct_chg=-11.49
+- VIX close=15.81 pct_chg=-11.38
 
 ## News Analytics
 
@@ -334,15 +334,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. It’s not just Hormuz. Another war is providing fresh price shocks to fuel and food.**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: conflict, oil_prices, food_prices
-- Score: `57.8`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Week Ahead for FX, Bonds: All Eyes on Fed Rate Decision**
+**1. Week Ahead for FX, Bonds: All Eyes on Fed Rate Decision**
 - Source: Dow Jones Economy
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -350,7 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.8`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. It’s not just Hormuz. Another war provides fresh price shocks to fuel and food.**
+**2. It’s not just Hormuz. Another war provides fresh price shocks to fuel and food.**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -358,15 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.91`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. The 30-year mortgage rate just crossed 7% for the first time in over a year**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: interest rates, real estate
-- Score: `51.0`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**5. Treasury yields surge after Bessent’s beefed-up buyback operation fails to calm market**
+**3. Treasury yields surge after Bessent’s beefed-up buyback operation fails to calm market**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -374,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Saudi Arabia shut down East-West crude oil pipeline after multiple attacks**
+**4. Saudi Arabia shut down East-West crude oil pipeline after multiple attacks**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -382,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.88`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. August CPI report shows core inflation was hotter than expected — live updates**
+**5. August CPI report shows core inflation was hotter than expected — live updates**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -390,15 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. U.S. crude oil tops $100 again – last seen in May – as market braces for prolonged Iran war**
-- Source: CNBC Top News
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil_prices, geopolitical_risk
-- Score: `48.45`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Global bond sell-off deepens as $100 oil stokes stagflation fears**
+**6. Global bond sell-off deepens as $100 oil stokes stagflation fears**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -406,12 +382,36 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.05`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Analysis: Hot inflation data sets up a Fed rate hike. What happens if Warsh wavers**
+**7. Analysis: Hot inflation data sets up a Fed rate hike. What happens if Warsh wavers**
 - Source: CNBC Business Headlines
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: central bank, inflation, rate hike
 - Score: `48.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. Houthis reportedly advance to key Red Sea island, further threatening crucial oil choke point**
+- Source: CNBC Business Headlines
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: geopolitical_risk, oil_markets, trade_risk
+- Score: `47.6`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. Consumer outlook plunges in September as inflation outlook worsens**
+- Source: CNBC Business
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: consumer outlook, inflation
+- Score: `45.9`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**10. The Fed could raise interest rates three times. Here’s where the market could face the stiffest test.**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: central banking, economic policy
+- Score: `45.5`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `40`
+- Live macro rows used: `41`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
