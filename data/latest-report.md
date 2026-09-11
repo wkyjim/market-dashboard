@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 11 September 2026, 12:16:09 (HKT)
+Generated at: 11 September 2026, 13:19:50 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **55.73 / 100** (Mild Risk-On)
+- Regime score: **56.79 / 100** (Mild Risk-On)
 - US equity strength: **68.5 / 100** (constructive)
-- Evidence quality: **76.0 / 100**
+- Evidence quality: **79.5 / 100**
 - ETF flow contribution: **48.55 / 100**, reliability **66.67 / 100**
 - Breadth: **healthy**; above 50DMA `45.0%`, above 200DMA `69.49%`
 - Top sector score: **Cybersecurity** `68.7`
@@ -17,19 +17,19 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 55.73 | Mild Risk-On |
+| Overall regime | 56.79 | Mild Risk-On |
 | equity_trend | 71.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 65.39 | risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 35.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 53.42 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 42.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 54.92 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.03 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 63.75 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=71.25, market_breadth=65.39, news_confirmation=63.75 |
-| Negative contributors |  | volatility=35.0, commodity_confirmation=42.0 |
+| Negative contributors |  | volatility=35.0 |
 
 ## US Equity Strength Score
 
@@ -47,9 +47,9 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `76.0`
-- Agreement ratio: `0.4`
-- Contradiction count: `2`
+- Confidence score: `79.5`
+- Agreement ratio: `0.5`
+- Contradiction count: `1`
 - Missing indicators: none
 - Warning flags: none
 
@@ -59,11 +59,11 @@ Window: 24h
 | --- | --- | --- |
 | Equities | S&P 500 falling; Nasdaq falling; Russell 2000 falling | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
 | Rates | 10Y Treasury rising; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
-| Dollar | DXY proxy rising | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
+| Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG falling | High-yield weakness would challenge equity risk-on confirmation. |
-| Gold | Gold falling | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
+| Gold | Gold stable | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver falling | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
-| Copper | Copper falling | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
+| Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 17.84 | 8.38 | 2026-09-10 | closed |
 | ^SKEW | CBOE SKEW Index | 147.02 | -1.49 | 2026-09-10 | closed |
 | ^MOVE | ICE BofA MOVE Index | 82.09 | 6.98 | 2026-09-10 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.6 | 1.01 | 2026-09-11 | live as of 11 September 2026, 12:01:54 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.7 | 1.04 | 2026-09-11 | live as of 11 September 2026, 12:01:54 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.78 | 0.91 | 2026-09-11 | live as of 11 September 2026, 12:01:54 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.87 | 0.78 | 2026-09-11 | live as of 11 September 2026, 12:01:54 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.98 | 0.65 | 2026-09-11 | live as of 11 September 2026, 12:01:54 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.41 | 0.48 | 2026-09-11 | live as of 11 September 2026, 12:01:54 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.38 | 0.36 | 2026-09-11 | live as of 11 September 2026, 12:01:54 (HKT) |
-| HK50 | Hang Seng Futures | 24731.0 | 0.09 | 2026-09-11 | live as of 11 September 2026, 12:01:54 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.57 | 0.45 | 2026-09-11 | live as of 11 September 2026, 13:00:22 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.67 | 0.49 | 2026-09-11 | live as of 11 September 2026, 13:00:22 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.75 | 0.39 | 2026-09-11 | live as of 11 September 2026, 13:00:22 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.85 | 0.31 | 2026-09-11 | live as of 11 September 2026, 13:00:22 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.96 | 0.34 | 2026-09-11 | live as of 11 September 2026, 13:00:22 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.39 | 0.14 | 2026-09-11 | live as of 11 September 2026, 13:00:22 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.36 | 0.06 | 2026-09-11 | live as of 11 September 2026, 13:00:22 (HKT) |
+| HK50 | Hang Seng Futures | 24778.0 | 0.28 | 2026-09-11 | live as of 11 September 2026, 13:00:22 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1082.15 | -2.68 | 2026-09-10 | closed |
 | CIHc1 | SSE 50 Futures | 2899.4 | -0.15 | 2026-09-10 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 78.62 | -0.46 | 2026-09-10 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 80.78 | -1.16 | 2026-09-10 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 91.18 | -0.78 | 2026-09-10 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.42 | -0.26 | 2026-09-10 | closed |
-| GC=F | Gold Future | 4358.5 | -1.3 | 2026-09-10 | closed |
-| SI=F | Silver Future | 64.09 | -5.67 | 2026-09-10 | closed |
-| CL=F | WTI Crude Oil Future | 103.35 | -0.94 | 2026-09-11 | live as of 11 September 2026, 12:01:54 (HKT) |
-| HG=F | Copper Future | 6.53 | -4.08 | 2026-09-10 | closed |
+| GC=F | Gold Future | 4371.2 | 0.15 | 2026-09-11 | live as of 11 September 2026, 13:00:22 (HKT) |
+| SI=F | Silver Future | 64.0 | -0.43 | 2026-09-11 | live as of 11 September 2026, 13:00:22 (HKT) |
+| CL=F | WTI Crude Oil Future | 102.29 | -1.96 | 2026-09-11 | live as of 11 September 2026, 13:00:22 (HKT) |
+| HG=F | Copper Future | 6.54 | 1.09 | 2026-09-11 | live as of 11 September 2026, 13:00:22 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -508,7 +508,7 @@ Positioning and flow data is used as confirmation only.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `17`
+- Live macro rows used: `26`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
