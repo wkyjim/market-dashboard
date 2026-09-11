@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 11 September 2026, 17:15:59 (HKT)
+Generated at: 11 September 2026, 18:12:11 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **58.98 / 100** (Mild Risk-On)
+- Regime score: **58.89 / 100** (Mild Risk-On)
 - US equity strength: **68.5 / 100** (constructive)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **47.79 / 100**, reliability **70.93 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 58.98 | Mild Risk-On |
+| Overall regime | 58.89 | Mild Risk-On |
 | equity_trend | 71.25 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 54.24 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 65.39 | risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 54.95 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.43 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 59.38 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 57.5 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=71.25, volatility=70.0, market_breadth=65.39, commodity_confirmation=61.0 |
 | Negative contributors |  | none |
 
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 46, 'negative': 31, 'neutral': 3}
-- News confirmation score: `59.38`
+- Sentiment counts: {'positive': 45, 'negative': 33, 'neutral': 2}
+- News confirmation score: `57.5`
 
 ### Top Market-Moving Headlines
 
@@ -390,7 +390,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. SEC Charges Founder and His Two New Jersey-Based Companies in Alleged $16 Million Ponzi Scheme**
+**8. Iran-backed Houthis seize key port in Yemen, advance on another vital oil choke point**
+- Source: CNBC Business Headlines
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: geopolitical_risk, oil_markets, trade_risk
+- Score: `47.6`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. SEC Charges Founder and His Two New Jersey-Based Companies in Alleged $16 Million Ponzi Scheme**
 - Source: SEC Press Releases
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short
@@ -398,19 +406,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.89`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**9. The 30-year mortgage rate just crossed 7% for the first time in over a year**
+**10. The 30-year mortgage rate just crossed 7% for the first time in over a year**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: interest rates, real estate
-- Score: `43.35`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**10. The ECB is virtually certain to raise rates. Wall Street is bracing for what comes next.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: ECB, inflation, rate hike
 - Score: `43.35`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
