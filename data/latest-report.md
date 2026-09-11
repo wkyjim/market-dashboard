@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 11 September 2026, 09:12:28 (HKT)
+Generated at: 11 September 2026, 09:23:54 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -8,7 +8,7 @@ Window: 24h
 - Regime score: **55.96 / 100** (Mild Risk-On)
 - US equity strength: **68.5 / 100** (constructive)
 - Evidence quality: **76.0 / 100**
-- ETF flow contribution: **49.08 / 100**, reliability **66.03 / 100**
+- ETF flow contribution: **49.08 / 100**, reliability **65.97 / 100**
 - Breadth: **healthy**; above 50DMA `45.0%`, above 200DMA `69.49%`
 - Top sector score: **Cybersecurity** `68.7`
 - Top theme score: **Financials** `58.78`
@@ -242,7 +242,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Sector | Score | Trend | Momentum | Stock Breadth | ETF Flow | Flow Reliability | 3M RS | Supporting / Leaders | Detracting / Laggards |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cybersecurity | 68.7 | strong uptrend | positive | broad | 50.0 | 0.0 | 62.96 | CIBR | CIBR |
-| 2 | Healthcare | 66.34 | strong uptrend | positive | broad | 50.0 | 0.0 | 54.37 | VEEV, CRL, REGN | CVS, PODD, DVA |
+| 2 | Healthcare | 66.52 | strong uptrend | positive | broad | 51.75 | 65.0 | 54.37 | VEEV, CRL, REGN | CVS, PODD, DVA |
 | 3 | Energy | 65.29 | strong uptrend | neutral | broad | 43.33 | 65.0 | 50.27 | APA, MPC, PSX | TRGP, HAL, TPL |
 | 4 | Technology | 61.25 | strong uptrend | neutral | mixed | 51.1 | 65.0 | 51.68 | SMCI, ZBRA, WDAY | FICO, CDNS, NXPI |
 | 5 | Financials | 60.13 | strong uptrend | positive | broad | 58.19 | 65.0 | 52.34 | ARES, GPN, APO | TROW, SPGI, MSCI |
@@ -264,8 +264,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Financials | 58.78 | Positive setup | 58.19 | 65.0 | 10.64 | False | False |
 | 2 | Energy | 58.45 | Positive setup | 43.33 | 65.0 | 1.59 | False | False |
 | 3 | Cybersecurity | 58.39 | Neutral / watchlist | 50.0 | 0.0 | 25.61 | False | False |
-| 4 | AI Infrastructure | 57.62 | Neutral / watchlist | 73.41 | 65.0 | 26.16 | False | False |
-| 5 | Healthcare Innovation | 57.56 | Positive setup | 50.0 | 0.0 | 11.95 | False | False |
+| 4 | Healthcare Innovation | 57.73 | Positive setup | 51.75 | 65.0 | 11.95 | False | False |
+| 5 | AI Infrastructure | 57.62 | Neutral / watchlist | 73.41 | 65.0 | 26.16 | False | False |
 | 6 | Quality Growth | 55.7 | Neutral / watchlist | 52.03 | 65.0 | 32.28 | False | False |
 | 7 | Semiconductors | 55.24 | Neutral / watchlist | 73.41 | 65.0 | 15.16 | False | True |
 | 8 | Small Caps | 50.68 | Neutral / watchlist | 47.74 | 65.0 | 0.0 | False | False |
@@ -285,7 +285,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
 | Cybersecurity | Cybersecurity | 68.7 | strong | 58.39 | positive | sector and theme confirmation |
-| Healthcare | Healthcare Innovation | 66.34 | strong | 57.56 | positive | sector and theme confirmation |
+| Healthcare | Healthcare Innovation | 66.52 | strong | 57.73 | positive | sector and theme confirmation |
 | Energy | Energy | 65.29 | strong | 58.45 | positive | sector and theme confirmation |
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 61.25 | positive | 56.18 | positive | sector and theme confirmation |
 | Financials | Financials | 60.13 | positive | 58.78 | positive | sector and theme confirmation |
@@ -358,15 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `60.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. U.S. crude oil tops $100 again – last seen in May – as market braces for prolonged Iran war**
-- Source: CNBC Top News
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil_prices, geopolitical_risk
-- Score: `57.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**5. The likelihood of a Fed interest rate hike next week just got a lot higher**
+**4. The likelihood of a Fed interest rate hike next week just got a lot higher**
 - Source: CNBC Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.02`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Wholesale inflation stirred up by Iran war and high oil prices. What does it mean for the Fed?**
+**5. Wholesale inflation stirred up by Iran war and high oil prices. What does it mean for the Fed?**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -382,13 +374,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. U.S. stocks book 4th straight day of losses as WTI oil prices surge past $100**
+**6. U.S. stocks book 4th straight day of losses as WTI oil prices surge past $100**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, WTI, oil_prices, stock_market
 - Score: `49.4`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. U.S. crude oil tops $100 again – last seen in May – as market braces for prolonged Iran war**
+- Source: CNBC Top News
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, oil_prices, geopolitical_risk
+- Score: `48.45`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **8. Oil Futures Jump as Middle East Escalation Raises Supply Worries**
 - Source: Dow Jones US Business
