@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 12 September 2026, 13:12:25 (HKT)
+Generated at: 12 September 2026, 14:12:23 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -8,7 +8,7 @@ Window: 24h
 - Regime score: **56.75 / 100** (Mild Risk-On)
 - US equity strength: **57.01 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
-- ETF flow contribution: **47.97 / 100**, reliability **66.97 / 100**
+- ETF flow contribution: **47.97 / 100**, reliability **66.86 / 100**
 - Breadth: **narrow**; above 50DMA `46.67%`, above 200DMA `69.49%`
 - Top sector score: **Energy** `65.32`
 - Top theme score: **Energy** `60.87`
@@ -243,12 +243,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Energy | 65.32 | strong uptrend | positive | broad | 42.87 | 65.0 | 61.38 | VLO, DVN, APA | WMB, KMI, BKR |
 | 2 | Technology | 61.43 | strong uptrend | neutral | broad | 50.2 | 65.0 | 48.83 | SWKS, CRM, DELL | ADSK, CIEN, APH |
-| 3 | Financials | 56.78 | strong uptrend | neutral | broad | 56.04 | 65.0 | 51.4 | COIN, HOOD, PGR | FIS, BX, AON |
-| 4 | Cybersecurity | 55.7 | strong uptrend | neutral | broad | 50.0 | 0.0 | 50.11 | CIBR | CIBR |
+| 3 | Cybersecurity | 56.86 | strong uptrend | neutral | broad | 61.57 | 65.0 | 50.11 | CIBR | CIBR |
+| 4 | Financials | 56.78 | strong uptrend | neutral | broad | 56.04 | 65.0 | 51.4 | COIN, HOOD, PGR | FIS, BX, AON |
 | 5 | Semiconductors | 52.34 | neutral | neutral | weak | 72.2 | 100.0 | 44.25 | SMH, SOXX | SOXX, SMH |
 | 6 | Crypto | 51.23 | neutral | neutral | mixed | 62.33 | 65.0 | 50.0 |  |  |
-| 7 | Healthcare | 47.73 | neutral | neutral | weak | 57.16 | 65.0 | 52.48 | MRNA, IQV, HUM | BSX, SYK, COO |
-| 8 | Grid Infrastructure | 47.67 | neutral | neutral | weak | 50.0 | 0.0 | 45.57 | GRID | GRID |
+| 7 | Grid Infrastructure | 48.95 | neutral | neutral | weak | 62.81 | 65.0 | 45.57 | GRID | GRID |
+| 8 | Healthcare | 47.73 | neutral | neutral | weak | 57.16 | 65.0 | 52.48 | MRNA, IQV, HUM | BSX, SYK, COO |
 | 9 | Consumer Staples | 41.43 | downtrend | neutral | weak | 50.0 | 0.0 | 47.44 | EL, BG, ADM | HRL, CLX, CASY |
 | 10 | Industrials | 40.22 | downtrend | neutral | weak | 50.0 | 0.0 | 44.31 | DE, RSG, EXPD | BLDR, HWM, AXON |
 | 11 | Real Estate | 39.3 | downtrend | neutral | weak | 32.42 | 65.0 | 46.55 | ARE, AMT, WELL | INVH, PSA, WY |
@@ -268,8 +268,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 5 | Crypto Infrastructure | 52.29 | Neutral / watchlist | 62.33 | 65.0 | 21.0 | False | False |
 | 6 | Semiconductors | 51.9 | Neutral / watchlist | 72.2 | 100.0 | 20.22 | False | False |
 | 7 | Healthcare Innovation | 50.65 | Neutral / watchlist | 57.16 | 65.0 | 13.9 | False | False |
-| 8 | Grid Infrastructure | 46.78 | Neutral / watchlist | 50.0 | 0.0 | 2.87 | False | False |
-| 9 | Cybersecurity | 45.85 | Neutral / watchlist | 50.0 | 0.0 | 10.84 | False | False |
+| 8 | Grid Infrastructure | 48.06 | Neutral / watchlist | 62.81 | 65.0 | 2.87 | False | False |
+| 9 | Cybersecurity | 47.01 | Neutral / watchlist | 61.57 | 65.0 | 10.84 | False | False |
 | 10 | Small Caps | 45.06 | Neutral / watchlist | 53.96 | 65.0 | 0.0 | False | False |
 | 11 | Dividend Defensives | 42.61 | Neutral / watchlist | 61.42 | 65.0 | 1.95 | False | False |
 | 12 | Nuclear | 35.06 | Weak setup | 50.0 | 0.0 | 19.5 | False | False |
@@ -286,16 +286,16 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- |
 | Energy | Energy | 65.32 | strong | 60.87 | positive | sector and theme confirmation |
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 61.43 | positive | 54.42 | mixed | sector stronger than related themes |
+| Cybersecurity | Cybersecurity | 56.86 | positive | 47.01 | mixed | sector stronger than related themes |
 | Financials | Financials | 56.78 | positive | 55.14 | positive | sector and theme confirmation |
-| Cybersecurity | Cybersecurity | 55.7 | positive | 45.85 | mixed | sector stronger than related themes |
 | Semiconductors | AI Infrastructure, Semiconductors | 52.34 | mixed | 53.42 | mixed | mixed confirmation |
 | Crypto | Crypto Infrastructure | 51.23 | mixed | 52.29 | mixed | mixed confirmation |
+| Grid Infrastructure | Grid Infrastructure | 48.95 | mixed | 48.06 | mixed | mixed confirmation |
 | Healthcare | Healthcare Innovation | 47.73 | mixed | 50.65 | mixed | mixed confirmation |
-| Grid Infrastructure | Grid Infrastructure | 47.67 | mixed | 46.78 | mixed | mixed confirmation |
 | Consumer Staples | Dividend Defensives | 41.43 | weak | 42.61 | weak | broad weakness across sector and themes |
-| Industrials | Defense, Grid Infrastructure | 40.22 | weak | 39.99 | weak | broad weakness across sector and themes |
+| Industrials | Defense, Grid Infrastructure | 40.22 | weak | 40.64 | weak | broad weakness across sector and themes |
 | Real Estate | Dividend Defensives | 39.3 | weak | 42.61 | weak | broad weakness across sector and themes |
-| Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 39.08 | weak | 41.48 | weak | broad weakness across sector and themes |
+| Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 39.08 | weak | 41.91 | weak | broad weakness across sector and themes |
 | Nuclear | Nuclear | 34.55 | very weak | 35.06 | weak | broad weakness across sector and themes |
 | Consumer Discretionary | Small Caps | 34.53 | very weak | 45.06 | mixed | mixed confirmation |
 | Defense | Defense | 31.19 | very weak | 33.21 | very weak | broad weakness across sector and themes |
@@ -374,15 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.05`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. The Fed could raise interest rates three times. Here’s where the market could face the stiffest test.**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: central banking, economic policy
-- Score: `45.5`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Why Dell and HPE were the S&P 500’s top-performing stocks today**
+**6. Why Dell and HPE were the S&P 500’s top-performing stocks today**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -390,15 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `44.2`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. For most Americans, oil-fueled inflation shows up most quickly in their gas tanks. The big question is whether fuel prices will eventually start increasing prices for other goods and services.**
-- Source: Dow Jones Economy
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: inflation, oil_prices
-- Score: `44.2`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. The 30-year mortgage rate just crossed 7% for the first time in over a year**
+**7. The 30-year mortgage rate just crossed 7% for the first time in over a year**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -406,12 +390,28 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**10. Investors have all but concluded the Federal Reserve will raise interest rates next week for the first time in three years. The harder question is what comes after that.**
+**8. Investors have all but concluded the Federal Reserve will raise interest rates next week for the first time in three years. The harder question is what comes after that.**
 - Source: Dow Jones Economy
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: Federal Reserve, interest rates, economic policy
 - Score: `43.35`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. IEA warns global oil refining system ‘stretched to the limit’ as Iran, Ukraine wars tighten market**
+- Source: CNBC Business News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: IEA, oil, refining, market_tightening
+- Score: `42.43`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Saudi Arabia shut down East-West crude oil pipeline after multiple attacks by drones from Iraq**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: SPY, DIA, oil pipeline, Saudi Arabia, attacks
+- Score: `42.39`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
@@ -438,7 +438,7 @@ Positioning and flow data is used as confirmation only.
 - Sector cyclicality flow: `50.4`
 - Duration/liquidity flow: `52.5`
 - Alternatives: `barbell demand`
-- ETF flow reliability: `67.0 / 100`
+- ETF flow reliability: `66.9 / 100`
 - Dominant allocation direction: `defensive demand`
 
 ### Core Flow Signals
@@ -483,7 +483,7 @@ Positioning and flow data is used as confirmation only.
 | ITA | Aerospace and Defense | -0.3 | 1.1 | 0.1 | -0.1 | Down | Sell | Normal | Persistent Distribution | Risk-Off | Medium-term deterioration; Persistent selling | 75.0 |
 | SOXX | Semiconductors | 0.1 | -0.7 | 0.5 | -1.1 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation | 91.0 |
 | SMH | Semiconductors | -0.3 | 0.5 | 0.5 | -0.8 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation | 91.0 |
-| CIBR | Cybersecurity | 0.9 | 1.8 | 0.7 | -0.5 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural accumulation | 91.0 |
+| CIBR | Cybersecurity | 0.8 | 1.8 | 0.6 | -0.7 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural accumulation | 91.0 |
 
 ### Material Flow Divergences
 
