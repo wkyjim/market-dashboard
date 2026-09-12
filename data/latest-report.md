@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 12 September 2026, 10:13:52 (HKT)
+Generated at: 12 September 2026, 12:12:06 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.69 / 100** (Mild Risk-On)
+- Regime score: **56.75 / 100** (Mild Risk-On)
 - US equity strength: **57.01 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **47.96 / 100**, reliability **67.03 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 56.69 | Mild Risk-On |
+| Overall regime | 56.75 | Mild Risk-On |
 | equity_trend | 62.5 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 47.92 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 44.83 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.97 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.64 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 62.5 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=80.0, equity_trend=62.5, news_confirmation=62.5, commodity_confirmation=61.0 |
+| news_confirmation | 63.75 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=80.0, news_confirmation=63.75, equity_trend=62.5, commodity_confirmation=61.0 |
 | Negative contributors |  | market_breadth=44.83 |
 
 ## US Equity Strength Score
@@ -247,8 +247,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 4 | Cybersecurity | 55.7 | strong uptrend | neutral | broad | 50.0 | 0.0 | 50.11 | CIBR | CIBR |
 | 5 | Semiconductors | 52.34 | neutral | neutral | weak | 72.2 | 100.0 | 44.25 | SMH, SOXX | SOXX, SMH |
 | 6 | Crypto | 51.23 | neutral | neutral | mixed | 62.33 | 65.0 | 50.0 |  |  |
-| 7 | Grid Infrastructure | 47.67 | neutral | neutral | weak | 50.0 | 0.0 | 45.57 | GRID | GRID |
-| 8 | Healthcare | 47.35 | neutral | neutral | weak | 57.16 | 65.0 | 52.48 | MRNA, IQV, HUM | BSX, SYK, COO |
+| 7 | Healthcare | 47.73 | neutral | neutral | weak | 57.16 | 65.0 | 52.48 | MRNA, IQV, HUM | BSX, SYK, COO |
+| 8 | Grid Infrastructure | 47.67 | neutral | neutral | weak | 50.0 | 0.0 | 45.57 | GRID | GRID |
 | 9 | Consumer Staples | 41.43 | downtrend | neutral | weak | 50.0 | 0.0 | 47.44 | EL, BG, ADM | HRL, CLX, CASY |
 | 10 | Industrials | 40.22 | downtrend | neutral | weak | 50.0 | 0.0 | 44.31 | DE, RSG, EXPD | BLDR, HWM, AXON |
 | 11 | Real Estate | 39.3 | downtrend | neutral | weak | 32.42 | 65.0 | 46.55 | ARE, AMT, WELL | INVH, PSA, WY |
@@ -290,8 +290,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 55.7 | positive | 45.85 | mixed | sector stronger than related themes |
 | Semiconductors | AI Infrastructure, Semiconductors | 52.34 | mixed | 53.42 | mixed | mixed confirmation |
 | Crypto | Crypto Infrastructure | 51.23 | mixed | 52.29 | mixed | mixed confirmation |
+| Healthcare | Healthcare Innovation | 47.73 | mixed | 50.65 | mixed | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 47.67 | mixed | 46.78 | mixed | mixed confirmation |
-| Healthcare | Healthcare Innovation | 47.35 | mixed | 50.65 | mixed | mixed confirmation |
 | Consumer Staples | Dividend Defensives | 41.43 | weak | 42.61 | weak | broad weakness across sector and themes |
 | Industrials | Defense, Grid Infrastructure | 40.22 | weak | 39.99 | weak | broad weakness across sector and themes |
 | Real Estate | Dividend Defensives | 39.3 | weak | 42.61 | weak | broad weakness across sector and themes |
@@ -329,20 +329,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 49, 'negative': 29, 'neutral': 2}
-- News confirmation score: `62.5`
+- Sentiment counts: {'positive': 50, 'negative': 28, 'neutral': 2}
+- News confirmation score: `63.75`
 
 ### Top Market-Moving Headlines
 
-**1. Why Dell and HPE were the S&P 500’s top-performing stocks today**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: HPE, P, S, earnings, hardware
-- Score: `52.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. The Houthis have opened a new front in the Middle East oil war that’s pushing up prices**
+**1. The Houthis have opened a new front in the Middle East oil war that’s pushing up prices**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -350,15 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Saudi Arabia shut down East-West crude oil pipeline after multiple attacks by drones from Iraq**
-- Source: CNBC Top News
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: SPY, DIA, oil pipeline, Saudi Arabia, attacks
-- Score: `49.88`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**4. Week Ahead for FX, Bonds: All Eyes on Fed Rate Decision**
+**2. Week Ahead for FX, Bonds: All Eyes on Fed Rate Decision**
 - Source: Dow Jones Economy
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -366,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.13`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. The four reasons stocks could embark on a ‘face-ripper rally’ as soon as this morning**
+**3. The four reasons stocks could embark on a ‘face-ripper rally’ as soon as this morning**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -374,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.77`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. August CPI report shows core inflation was hotter than expected — live updates**
+**4. August CPI report shows core inflation was hotter than expected — live updates**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -382,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Global bond sell-off deepens as $100 oil stokes stagflation fears**
+**5. Global bond sell-off deepens as $100 oil stokes stagflation fears**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -390,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.05`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. The Fed could raise interest rates three times. Here’s where the market could face the stiffest test.**
+**6. The Fed could raise interest rates three times. Here’s where the market could face the stiffest test.**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -398,7 +382,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.5`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. For most Americans, oil-fueled inflation shows up most quickly in their gas tanks. The big question is whether fuel prices will eventually start increasing prices for other goods and services.**
+**7. Why Dell and HPE were the S&P 500’s top-performing stocks today**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: HPE, P, S, earnings, hardware
+- Score: `44.2`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. For most Americans, oil-fueled inflation shows up most quickly in their gas tanks. The big question is whether fuel prices will eventually start increasing prices for other goods and services.**
 - Source: Dow Jones Economy
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `44.2`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. The 30-year mortgage rate just crossed 7% for the first time in over a year**
+**9. The 30-year mortgage rate just crossed 7% for the first time in over a year**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: interest rates, real estate
 - Score: `43.35`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**10. Investors have all but concluded the Federal Reserve will raise interest rates next week for the first time in three years. The harder question is what comes after that.**
+- Source: Dow Jones Economy
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: Federal Reserve, interest rates, economic policy
+- Score: `43.35`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
