@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 12 September 2026, 08:47:27 (HKT)
+Generated at: 12 September 2026, 09:12:04 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -87,7 +87,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US20YT=X | United States 20-Year Treasury Yield | 5.39 | 0.14 | 2026-09-11 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.36 | -0.08 | 2026-09-11 | closed |
 | HK50 | Hang Seng Futures | 24798.0 | 0.36 | 2026-09-11 | closed |
-| KOR200c1 | KOSPI 200 Futures | 1082.15 | -2.68 | 2026-09-10 | closed |
+| KOR200c1 | KOSPI 200 Futures | 1098.85 | 0.97 | 2026-09-11 | closed |
 | CIHc1 | SSE 50 Futures | 2899.4 | -0.15 | 2026-09-10 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 78.6 | -0.03 | 2026-09-11 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.32 | -0.04 | 2026-09-11 | closed |
@@ -398,26 +398,26 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.05`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. U.S. Stocks Gain as Inflation Figure Boosts Odds of Rate Hike**
-- Source: Dow Jones Economy
-- Importance / impact: Medium / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, inflation, Federal Reserve, rate hike
-- Score: `44.2`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. The 30-year mortgage rate just crossed 7% for the first time in over a year**
+**9. The Fed could raise interest rates three times. Here’s where the market could face the stiffest test.**
 - Source: MarketWatch Top Stories
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: central banking, economic policy
+- Score: `45.5`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. For most Americans, oil-fueled inflation shows up most quickly in their gas tanks. The big question is whether fuel prices will eventually start increasing prices for other goods and services.**
+- Source: Dow Jones Economy
 - Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: interest rates, real estate
-- Score: `43.35`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+- Relevance / horizon: macro / short-term
+- Affected assets: inflation, oil_prices
+- Score: `44.2`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
 
-Noisy headline list: Stock market today: Dow, S&P 500, Nasdaq fall as T, Stock market today: Dow, S&P 500, Nasdaq rise as C
+Noisy headline list: Stock market today: Dow, S&P 500, Nasdaq fall as T
 
 ## Positioning & Flow Dashboard
 
