@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 12 September 2026, 23:14:51 (HKT)
+Generated at: 13 September 2026, 00:13:40 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -342,13 +342,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Week Ahead for FX, Bonds: All Eyes on Fed Rate Decision**
-- Source: Dow Jones Economy
-- Importance / impact: High / Positive
+**2. Trump's America-first world is pushing other powers to hedge their bets**
+- Source: CNBC Business Headlines
+- Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: FX, Bonds, U.S, Interest Rates, Inflation
-- Score: `49.13`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Affected assets: BRICS, U.S, geopolitics, trade, international relations
+- Score: `48.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **3. Why Dell and HPE were the S&P 500’s top-performing stocks today**
 - Source: MarketWatch Top Stories
@@ -374,15 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `42.39`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Trump's America-first world is pushing other powers to hedge their bets**
-- Source: CNBC Business Headlines
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: BRICS, U.S, geopolitics, trade, international relations
-- Score: `40.8`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Analysis: Hot inflation data sets up a Fed rate hike. What happens if Warsh wavers**
+**6. Analysis: Hot inflation data sets up a Fed rate hike. What happens if Warsh wavers**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Houthis reportedly advance to key Red Sea island, further threatening crucial oil choke point**
+**7. Houthis reportedly advance to key Red Sea island, further threatening crucial oil choke point**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.46`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Consumer outlook plunges in September as inflation outlook worsens**
+**8. Consumer outlook plunges in September as inflation outlook worsens**
 - Source: CNBC Business
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -406,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.02`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**10. Oil prices fall Friday, but post sharp weekly gains as tensions in the Middle East rise**
+**9. Oil prices fall Friday, but post sharp weekly gains as tensions in the Middle East rise**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -414,10 +406,18 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.76`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
+**10. The Fed could raise interest rates three times. Here’s where the market could face the stiffest test.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: central banking, economic policy
+- Score: `38.67`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
 
 ### Headline Quality Checks
 
-Noisy headline list: Stock market today: Dow, S&P 500, Nasdaq rise as C
+No noisy headlines detected by current rules.
 
 ## Positioning & Flow Dashboard
 
