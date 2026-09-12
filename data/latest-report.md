@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 13 September 2026, 06:23:42 (HKT)
+Generated at: 13 September 2026, 07:12:32 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.38 / 100** (Mild Risk-On)
+- Regime score: **56.32 / 100** (Mild Risk-On)
 - US equity strength: **57.01 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **47.97 / 100**, reliability **66.86 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 56.38 | Mild Risk-On |
+| Overall regime | 56.32 | Mild Risk-On |
 | equity_trend | 62.5 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 47.92 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 44.83 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 54.97 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.64 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 56.25 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 55.0 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=80.0, equity_trend=62.5, commodity_confirmation=61.0 |
 | Negative contributors |  | market_breadth=44.83 |
 
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 42, 'negative': 32, 'neutral': 6}
-- News confirmation score: `56.25`
+- Sentiment counts: {'positive': 41, 'negative': 33, 'neutral': 6}
+- News confirmation score: `55.0`
 
 ### Top Market-Moving Headlines
 
@@ -382,15 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.07`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Cramer’s week ahead: Falling oil could help stocks but Fed is the next big test**
-- Source: CNBC Investing
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: CNBC, oil prices, Federal Reserve
-- Score: `28.9`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. Oil's roundtrip back to $100. Why China could determine what happens next**
+**7. Oil's roundtrip back to $100. Why China could determine what happens next**
 - Source: CNBC Top News
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.44`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Buffett's confidence in troubled decade-old acquisition finally pays off**
+**8. Buffett's confidence in troubled decade-old acquisition finally pays off**
 - Source: CNBC Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / shortterm
@@ -406,11 +398,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.71`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. Oil falls but head for 8% weekly gain on tight supply; US diesel hits record**
+**9. Oil falls but head for 8% weekly gain on tight supply; US diesel hits record**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: US, commodities, oil
+- Score: `24.3`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Oil on track to settle above $100 a barrel after whopping 20% two-week surge**
+- Source: Investing.com Stock Market
+- Importance / impact: Low / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: M, oil_prices, brent_crude
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
