@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 13 September 2026, 02:11:02 (HKT)
+Generated at: 13 September 2026, 03:13:52 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.0 / 100** (Mild Risk-On)
+- Regime score: **56.66 / 100** (Mild Risk-On)
 - US equity strength: **57.01 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **47.97 / 100**, reliability **66.86 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.0 | Mild Risk-On |
+| Overall regime | 56.66 | Mild Risk-On |
 | equity_trend | 62.5 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 47.92 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 44.83 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.97 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.64 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 68.75 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=80.0, news_confirmation=68.75, equity_trend=62.5, commodity_confirmation=61.0 |
+| news_confirmation | 61.88 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=80.0, equity_trend=62.5, news_confirmation=61.88, commodity_confirmation=61.0 |
 | Negative contributors |  | market_breadth=44.83 |
 
 ## US Equity Strength Score
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 51, 'negative': 21, 'neutral': 8}
-- News confirmation score: `68.75`
+- Sentiment counts: {'positive': 47, 'negative': 28, 'neutral': 5}
+- News confirmation score: `61.88`
 
 ### Top Market-Moving Headlines
 
@@ -398,21 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.57`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. U.S. Stocks Gain as Inflation Figure Boosts Odds of Rate Hike**
-- Source: Dow Jones Economy
-- Importance / impact: Medium / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, inflation, Federal Reserve, rate hike
-- Score: `37.57`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. As the Houthis open a new front in the Middle East war, oil prices are rising**
+**9. As the Houthis open a new front in the Middle East war, oil prices are rising**
 - Source: MarketWatch Bulletins
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: CL=F, OIL, conflict, geo-political, oil_market
 - Score: `36.74`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Stocks stumble on inflation fears, but 2 of our names give us reasons to stay bullish**
+- Source: CNBC Markets
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: inflation
+- Score: `36.58`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
