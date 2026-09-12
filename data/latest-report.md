@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 12 September 2026, 12:12:06 (HKT)
+Generated at: 12 September 2026, 12:18:15 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -8,7 +8,7 @@ Window: 24h
 - Regime score: **56.75 / 100** (Mild Risk-On)
 - US equity strength: **57.01 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
-- ETF flow contribution: **47.96 / 100**, reliability **67.03 / 100**
+- ETF flow contribution: **47.97 / 100**, reliability **66.97 / 100**
 - Breadth: **narrow**; above 50DMA `46.67%`, above 200DMA `69.49%`
 - Top sector score: **Energy** `65.32`
 - Top theme score: **Energy** `60.87`
