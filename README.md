@@ -21,6 +21,9 @@ market-dashboard/
 |-- index.html
 |-- styles.css
 |-- app.js
+|-- config.example.js
+|-- scripts/
+|   `-- build-runtime-config.mjs
 |-- assets/
 |   `-- images/
 |       `-- aegis/
@@ -41,11 +44,11 @@ The site intentionally remains a lightweight static application. CSS and JavaScr
 
 ## Data Sources
 
-- Public API base URL: `https://postgresql-us-equities-api.onrender.com`
+- Public API base URL: supplied through `MARKET_API_BASE_URL`
 - Published report path: `data/latest-report.md`
 - Live dashboard URL: `https://wkyjim.github.io/market-dashboard/#overview`
 
-The API is consumed directly by `app.js`. Do not commit API tokens, database URLs, Neon credentials, Telegram tokens, or private config files.
+The API is consumed by `app.js` through the generated `config.js`. The generated file is ignored by Git and GitHub Pages creates it from the repository variable `MARKET_API_BASE_URL`. Do not commit API tokens, database URLs, Neon credentials, Telegram tokens, or private config files.
 
 ## Main Navigation
 
@@ -83,6 +86,8 @@ Keep the PNG originals in the repository. Optional optimized WebP variants may b
 From this folder:
 
 ```powershell
+$env:MARKET_API_BASE_URL = "https://api.138.2.69.165.sslip.io"
+node scripts/build-runtime-config.mjs
 python -m http.server 8000
 ```
 
@@ -91,6 +96,8 @@ Open:
 ```text
 http://localhost:8000
 ```
+
+For GitHub Pages, configure `MARKET_API_BASE_URL` under `Settings > Secrets and variables > Actions > Variables`. The deployment workflow fails clearly if this variable is absent.
 
 Useful checks:
 

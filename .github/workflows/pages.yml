@@ -22,6 +22,16 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+      - name: Build public runtime configuration
+        env:
+          MARKET_API_BASE_URL: ${{ vars.MARKET_API_BASE_URL }}
+        shell: bash
+        run: |
+          if [ -z "${MARKET_API_BASE_URL:-}" ]; then
+            echo "::error title=Missing GitHub Actions variable::MARKET_API_BASE_URL is not configured for this repository. Add it under Settings > Secrets and variables > Actions > Variables."
+            exit 1
+          fi
+          node scripts/build-runtime-config.mjs
       - uses: actions/configure-pages@v5
         with:
           enablement: true

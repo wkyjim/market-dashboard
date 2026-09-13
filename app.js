@@ -1,4 +1,4 @@
-const API_BASE = "https://postgresql-us-equities-api.onrender.com";
+const API_BASE = String(window.MARKET_DASHBOARD_CONFIG?.marketApiBaseUrl || "").replace(/\/+$/, "");
 const MARKET_TAPE_GROUPS = [
   {
     title: "U.S. Market Indices",
@@ -110,6 +110,7 @@ const formatPercent = (value, digits = 2) => value == null ? "n/a" : `${formatNu
 const shortState = { limit: 50, offset: 0, total: 0 };
 
 async function apiFetch(path) {
+  if (!API_BASE) throw new Error("MARKET_API_BASE_URL is not configured");
   const response = await fetch(`${API_BASE}${path}`, { headers: { Accept: "application/json" } });
   if (!response.ok) throw new Error(`${response.status} ${response.statusText}`);
   return response.json();
