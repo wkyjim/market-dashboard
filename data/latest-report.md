@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 13 September 2026, 08:42:03 (HKT)
+Generated at: 13 September 2026, 09:14:19 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.35 / 100** (Mild Risk-On)
+- Regime score: **56.25 / 100** (Mild Risk-On)
 - US equity strength: **57.01 / 100** (neutral)
-- Evidence quality: **79.5 / 100**
+- Evidence quality: **76.0 / 100**
 - ETF flow contribution: **47.97 / 100**, reliability **66.86 / 100**
 - Breadth: **narrow**; above 50DMA `46.67%`, above 200DMA `69.49%`
 - Top sector score: **Energy** `65.32`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 56.35 | Mild Risk-On |
+| Overall regime | 56.25 | Mild Risk-On |
 | equity_trend | 62.5 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 47.92 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 44.83 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 54.97 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.64 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 55.62 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 53.75 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=80.0, equity_trend=62.5, commodity_confirmation=61.0 |
 | Negative contributors |  | market_breadth=44.83 |
 
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `79.5`
-- Agreement ratio: `0.5`
+- Confidence score: `76.0`
+- Agreement ratio: `0.4`
 - Contradiction count: `1`
 - Missing indicators: none
 - Warning flags: none
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 41, 'negative': 32, 'neutral': 7}
-- News confirmation score: `55.62`
+- Sentiment counts: {'positive': 38, 'negative': 32, 'neutral': 10}
+- News confirmation score: `53.75`
 
 ### Top Market-Moving Headlines
 
