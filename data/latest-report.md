@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 13 September 2026, 23:13:16 (HKT)
+Generated at: 14 September 2026, 00:13:51 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.1 / 100** (Mild Risk-On)
+- Regime score: **56.13 / 100** (Mild Risk-On)
 - US equity strength: **57.01 / 100** (neutral)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **47.97 / 100**, reliability **66.86 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 56.1 | Mild Risk-On |
+| Overall regime | 56.13 | Mild Risk-On |
 | equity_trend | 62.5 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 47.92 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 44.83 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 54.97 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.64 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 50.62 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 51.25 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=80.0, equity_trend=62.5, commodity_confirmation=61.0 |
 | Negative contributors |  | market_breadth=44.83 |
 
@@ -329,12 +329,44 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 35, 'negative': 34, 'neutral': 11}
-- News confirmation score: `50.62`
+- Sentiment counts: {'positive': 36, 'negative': 34, 'neutral': 10}
+- News confirmation score: `51.25`
 
 ### Top Market-Moving Headlines
 
-**1. New Strait of Hormuz ship attack raises oil supply fears as Iran war widens**
+**1. Up 3,600%, this freight fund has posted the biggest gains of all on Iran war oil shock**
+- Source: CNBC Markets
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, oil, shipping, war
+- Score: `72.67`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Corporate profit forecasts are topping expectations to an unusual degree. AI is a big reason why.**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: AI, earnings, profit forecasts
+- Score: `67.5`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. The price of almost everything on your dinner table is climbing at once — and Wall Street is taking notice**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: inflation, oil_prices, Iran
+- Score: `60.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. Vessel struck in Strait of Hormuz, UKMTO says, as prospects for U.S.-Iran diplomacy appear elusive**
+- Source: CNBC Business Headlines
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / shortterm
+- Affected assets: U.S, UKMTO, Geopolitical, Shipping, Diplomacy
+- Score: `41.6`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the shortterm.
+
+**5. New Strait of Hormuz ship attack raises oil supply fears as Iran war widens**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -342,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.07`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Saudi Arabia shuts key oil pipeline after Houthi’s drone attack - Reuters**
+**6. Saudi Arabia shuts key oil pipeline after Houthi’s drone attack - Reuters**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -350,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.07`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Oil on track to settle above $100 a barrel after whopping 20% two-week surge**
+**7. Oil on track to settle above $100 a barrel after whopping 20% two-week surge**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -358,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies**
+**8. New attacks in Hormuz and Saudi test nerves as war’s spread worsens oil disruption**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -366,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Oil falls but head for 8% weekly gain on tight supply; US diesel hits record**
+**9. Oil falls but head for 8% weekly gain on tight supply; US diesel hits record**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -374,45 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Hooker Furnishings stock climbs 10% on earnings beat, tariff recovery**
+**10. Hooker Furnishings stock climbs 10% on earnings beat, tariff recovery**
 - Source: Investing.com Commodities
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: HOOK, earnings, stock_performance
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. U.S. consumer price growth firm in August, boosting Fed rate hike bets**
-- Source: Investing.com Technology
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / short term
-- Affected assets: U.S, Economic Indicators, Monetary Policy
-- Score: `22.95`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
-
-**8. Saudi pipeline outage threatens loss of 4% of global oil supply**
-- Source: Investing.com Stock Market
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: INTC, MSFT, AAPL, oil, supply disruption
-- Score: `22.68`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. U.S. equity ETFs see outflows of $4.5 billion as traders price in Fed rate hike**
-- Source: Investing.com World News
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, Fed rate hike, equity ETFs
-- Score: `21.06`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Goldman picks China healthcare stocks for a post-AI trade**
-- Source: CNBC Markets
-- Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / short
-- Affected assets: AI, Goldman Sachs, healthcare stocks
-- Score: `19.78`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
