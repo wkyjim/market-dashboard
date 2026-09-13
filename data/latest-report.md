@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 13 September 2026, 11:11:56 (HKT)
+Generated at: 13 September 2026, 12:14:06 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -342,20 +342,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. US consumer prices accelerate in August, push Fed closer to rate hike**
-- Source: Investing.com Economic Indicators
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: US, Economic Indicators, Monetary Policy
-- Score: `32.7`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. Stocks stumble on inflation fears, but 2 of our names give us reasons to stay bullish**
+**2. Stocks stumble on inflation fears, but 2 of our names give us reasons to stay bullish**
 - Source: CNBC Markets
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: inflation
 - Score: `31.09`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. New Strait of Hormuz ship attack raises oil supply fears as Iran war widens**
+- Source: Investing.com Economic Indicators
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: CRUDE.OIL, geo_political_risk, oil_prices
+- Score: `29.07`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **4. Saudi Arabia shuts key oil pipeline after Houthi’s drone attack - Reuters**
@@ -398,7 +398,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Hooker Furnishings stock climbs 10% on earnings beat, tariff recovery**
+**9. New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies**
+- Source: Investing.com Stock Market
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: BP, Chevron, Shell, geopolitical_risk, oil_market
+- Score: `24.3`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Hooker Furnishings stock climbs 10% on earnings beat, tariff recovery**
 - Source: Investing.com Commodities
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -406,18 +414,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. U.S. consumer price growth firm in August, boosting Fed rate hike bets**
-- Source: Investing.com Technology
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / short term
-- Affected assets: U.S, Economic Indicators, Monetary Policy
-- Score: `22.95`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
-
 
 ### Headline Quality Checks
 
-No noisy headlines detected by current rules.
+Noisy headline list: Stock market today: Dow, S&P 500, Nasdaq end losin
 
 ## Positioning & Flow Dashboard
 
