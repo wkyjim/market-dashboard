@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 13 September 2026, 21:17:40 (HKT)
+Generated at: 13 September 2026, 22:16:25 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.16 / 100** (Mild Risk-On)
+- Regime score: **56.1 / 100** (Mild Risk-On)
 - US equity strength: **57.01 / 100** (neutral)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **47.97 / 100**, reliability **66.86 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 56.16 | Mild Risk-On |
+| Overall regime | 56.1 | Mild Risk-On |
 | equity_trend | 62.5 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 47.92 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 44.83 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 54.97 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.64 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 51.88 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 50.62 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=80.0, equity_trend=62.5, commodity_confirmation=61.0 |
 | Negative contributors |  | market_breadth=44.83 |
 
@@ -329,20 +329,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 36, 'negative': 33, 'neutral': 11}
-- News confirmation score: `51.88`
+- Sentiment counts: {'positive': 35, 'negative': 34, 'neutral': 11}
+- News confirmation score: `50.62`
 
 ### Top Market-Moving Headlines
 
-**1. Trump's America-first world is pushing other powers to hedge their bets**
-- Source: CNBC Business Headlines
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: BRICS, U.S, geopolitics, trade, international relations
-- Score: `40.8`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Stocks stumble on inflation fears, but 2 of our names give us reasons to stay bullish**
+**1. Stocks stumble on inflation fears, but 2 of our names give us reasons to stay bullish**
 - Source: CNBC Markets
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -350,7 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.09`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. New Strait of Hormuz ship attack raises oil supply fears as Iran war widens**
+**2. New Strait of Hormuz ship attack raises oil supply fears as Iran war widens**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -358,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.07`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Saudi Arabia shuts key oil pipeline after Houthi’s drone attack - Reuters**
+**3. Saudi Arabia shuts key oil pipeline after Houthi’s drone attack - Reuters**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -366,15 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.07`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Buffett's confidence in troubled decade-old acquisition finally pays off**
-- Source: CNBC Markets
-- Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / shortterm
-- Affected assets: Investment, Acquisition, WarrenBuffett
-- Score: `24.71`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**6. Oil on track to settle above $100 a barrel after whopping 20% two-week surge**
+**4. Oil on track to settle above $100 a barrel after whopping 20% two-week surge**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -382,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies**
+**5. New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -390,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Oil falls but head for 8% weekly gain on tight supply; US diesel hits record**
+**6. Oil falls but head for 8% weekly gain on tight supply; US diesel hits record**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -398,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Hooker Furnishings stock climbs 10% on earnings beat, tariff recovery**
+**7. Hooker Furnishings stock climbs 10% on earnings beat, tariff recovery**
 - Source: Investing.com Commodities
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -406,13 +390,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. U.S. consumer price growth firm in August, boosting Fed rate hike bets**
+**8. U.S. consumer price growth firm in August, boosting Fed rate hike bets**
 - Source: Investing.com Technology
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short term
 - Affected assets: U.S, Economic Indicators, Monetary Policy
 - Score: `22.95`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
+
+**9. Saudi pipeline outage threatens loss of 4% of global oil supply**
+- Source: Investing.com Stock Market
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: INTC, MSFT, AAPL, oil, supply disruption
+- Score: `22.68`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. U.S. equity ETFs see outflows of $4.5 billion as traders price in Fed rate hike**
+- Source: Investing.com World News
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, Fed rate hike, equity ETFs
+- Score: `21.06`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
