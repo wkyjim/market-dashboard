@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 14 September 2026, 03:15:06 (HKT)
+Generated at: 14 September 2026, 04:10:51 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -339,7 +339,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, oil, shipping, war
-- Score: `72.67`
+- Score: `61.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **2. Corporate profit forecasts are topping expectations to an unusual degree. AI is a big reason why.**
@@ -347,7 +347,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: AI, earnings, profit forecasts
-- Score: `67.5`
+- Score: `57.38`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **3. The price of almost everything on your dinner table is climbing at once — and Wall Street is taking notice**
@@ -366,21 +366,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.23`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Vessel struck in Strait of Hormuz, UKMTO says, as prospects for U.S.-Iran diplomacy appear elusive**
-- Source: CNBC Business Headlines
-- Importance / impact: Medium / Negative
-- Relevance / horizon: macro / shortterm
-- Affected assets: U.S, UKMTO, Geopolitical, Shipping, Diplomacy
-- Score: `41.6`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the shortterm.
-
-**6. Washington scrambles to meet calls for AI guardrails while the window to act closes**
+**5. Washington scrambles to meet calls for AI guardrails while the window to act closes**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short
 - Affected assets: AI regulation, government policy
 - Score: `35.36`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**6. Vessel struck in Strait of Hormuz, UKMTO says, as prospects for U.S.-Iran diplomacy appear elusive**
+- Source: CNBC Business Headlines
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / shortterm
+- Affected assets: U.S, UKMTO, Geopolitical, Shipping, Diplomacy
+- Score: `35.36`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the shortterm.
 
 **7. New Strait of Hormuz ship attack raises oil supply fears as Iran war widens**
 - Source: Investing.com Economic Indicators
