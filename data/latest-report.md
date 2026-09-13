@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 13 September 2026, 22:16:25 (HKT)
+Generated at: 13 September 2026, 23:13:16 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -334,15 +334,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Stocks stumble on inflation fears, but 2 of our names give us reasons to stay bullish**
-- Source: CNBC Markets
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: inflation
-- Score: `31.09`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. New Strait of Hormuz ship attack raises oil supply fears as Iran war widens**
+**1. New Strait of Hormuz ship attack raises oil supply fears as Iran war widens**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -350,7 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.07`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Saudi Arabia shuts key oil pipeline after Houthi’s drone attack - Reuters**
+**2. Saudi Arabia shuts key oil pipeline after Houthi’s drone attack - Reuters**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -358,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.07`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Oil on track to settle above $100 a barrel after whopping 20% two-week surge**
+**3. Oil on track to settle above $100 a barrel after whopping 20% two-week surge**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies**
+**4. New report of attack on Strait of Hormuz shipping fans fears of threats to oil supplies**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Oil falls but head for 8% weekly gain on tight supply; US diesel hits record**
+**5. Oil falls but head for 8% weekly gain on tight supply; US diesel hits record**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Hooker Furnishings stock climbs 10% on earnings beat, tariff recovery**
+**6. Hooker Furnishings stock climbs 10% on earnings beat, tariff recovery**
 - Source: Investing.com Commodities
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `24.3`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. U.S. consumer price growth firm in August, boosting Fed rate hike bets**
+**7. U.S. consumer price growth firm in August, boosting Fed rate hike bets**
 - Source: Investing.com Technology
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `22.95`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**9. Saudi pipeline outage threatens loss of 4% of global oil supply**
+**8. Saudi pipeline outage threatens loss of 4% of global oil supply**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `22.68`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. U.S. equity ETFs see outflows of $4.5 billion as traders price in Fed rate hike**
+**9. U.S. equity ETFs see outflows of $4.5 billion as traders price in Fed rate hike**
 - Source: Investing.com World News
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, Fed rate hike, equity ETFs
 - Score: `21.06`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Goldman picks China healthcare stocks for a post-AI trade**
+- Source: CNBC Markets
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short
+- Affected assets: AI, Goldman Sachs, healthcare stocks
+- Score: `19.78`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
