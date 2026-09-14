@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 14 September 2026, 18:08:56 (HKT)
+Generated at: 14 September 2026, 18:12:00 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -11,7 +11,7 @@ Window: 24h
 - ETF flow contribution: **47.28 / 100**, reliability **71.63 / 100**
 - Breadth: **narrow**; above 50DMA `46.67%`, above 200DMA `69.49%`
 - Top sector score: **Energy** `65.76`
-- Top theme score: **Energy** `61.3`
+- Top theme score: **Energy** `65.31`
 
 ## Market Regime Score
 
@@ -261,7 +261,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Energy | 61.3 | Positive setup | 47.25 | 95.0 | 3.62 | True | False |
+| 1 | Energy | 65.31 | Positive setup | 47.25 | 95.0 | 3.62 | True | False |
 | 2 | Quality Growth | 56.41 | Positive setup | 48.65 | 65.0 | 11.2 | False | False |
 | 3 | AI Infrastructure | 54.95 | Neutral / watchlist | 72.2 | 100.0 | 4.05 | False | False |
 | 4 | Financials | 54.57 | Neutral / watchlist | 39.05 | 95.0 | 0.89 | False | True |
@@ -284,7 +284,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
-| Energy | Energy | 65.76 | strong | 61.3 | positive | sector and theme confirmation |
+| Energy | Energy | 65.76 | strong | 65.31 | strong | sector and theme confirmation |
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 61.49 | positive | 54.42 | mixed | sector stronger than related themes |
 | Cybersecurity | Cybersecurity | 56.86 | positive | 47.01 | mixed | sector stronger than related themes |
 | Financials | Financials | 55.59 | positive | 54.57 | mixed | sector stronger than related themes |
@@ -304,7 +304,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Classification | Drivers | Invalidation Triggers |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Energy | 69.43 | Positive setup | relative_strength_60d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
+| 1 | Energy | 70.93 | Positive setup | relative_strength_60d, trend_persistence, breadth, news_acceleration, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 2 | Quality Growth | 62.81 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 3 | Financials | 59.31 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | AI Infrastructure | 58.14 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
