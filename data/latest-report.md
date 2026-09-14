@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 14 September 2026, 13:11:42 (HKT)
+Generated at: 14 September 2026, 14:11:51 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **55.46 / 100** (Mild Risk-On)
+- Regime score: **55.42 / 100** (Mild Risk-On)
 - US equity strength: **57.01 / 100** (neutral)
 - Evidence quality: **72.5 / 100**
-- ETF flow contribution: **47.82 / 100**, reliability **71.05 / 100**
+- ETF flow contribution: **47.28 / 100**, reliability **71.63 / 100**
 - Breadth: **narrow**; above 50DMA `46.67%`, above 200DMA `69.49%`
 - Top sector score: **Energy** `65.76`
 - Top theme score: **Energy** `61.3`
@@ -17,16 +17,16 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 55.46 | Mild Risk-On |
+| Overall regime | 55.42 | Mild Risk-On |
 | equity_trend | 62.5 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 47.92 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 44.83 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
 | volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 53.85 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 53.92 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 50.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 48.45 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 48.05 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 53.12 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=80.0, equity_trend=62.5 |
 | Negative contributors |  | market_breadth=44.83 |
@@ -62,7 +62,7 @@ Window: 24h
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold stable | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
-| Silver | Silver stable | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
+| Silver | Silver falling | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper stable | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.84 | -11.21 | 2026-09-11 | closed |
 | ^SKEW | CBOE SKEW Index | 154.49 | 5.08 | 2026-09-11 | closed |
 | ^MOVE | ICE BofA MOVE Index | 82.21 | 0.14 | 2026-09-11 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.62 | -0.62 | 2026-09-14 | live as of 14 September 2026, 13:00:23 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.71 | -0.48 | 2026-09-14 | live as of 14 September 2026, 13:00:23 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.78 | -0.29 | 2026-09-14 | live as of 14 September 2026, 13:00:23 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.87 | -0.17 | 2026-09-14 | live as of 14 September 2026, 13:00:23 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.97 | -0.06 | 2026-09-14 | live as of 14 September 2026, 13:00:23 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.4 | 0.14 | 2026-09-14 | live as of 14 September 2026, 13:00:23 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.37 | 0.21 | 2026-09-14 | live as of 14 September 2026, 13:00:23 (HKT) |
-| HK50 | Hang Seng Futures | 24898.0 | 0.42 | 2026-09-14 | live as of 14 September 2026, 13:00:23 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.61 | -0.71 | 2026-09-14 | live as of 14 September 2026, 14:00:22 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.7 | -0.66 | 2026-09-14 | live as of 14 September 2026, 14:00:22 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.77 | -0.48 | 2026-09-14 | live as of 14 September 2026, 14:00:22 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.86 | -0.36 | 2026-09-14 | live as of 14 September 2026, 14:00:22 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.97 | -0.18 | 2026-09-14 | live as of 14 September 2026, 14:00:22 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.39 | 0.04 | 2026-09-14 | live as of 14 September 2026, 14:00:22 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.36 | 0.13 | 2026-09-14 | live as of 14 September 2026, 14:00:22 (HKT) |
+| HK50 | Hang Seng Futures | 24895.5 | 0.41 | 2026-09-14 | live as of 14 September 2026, 14:00:22 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1098.85 | 0.97 | 2026-09-11 | closed |
 | CIHc1 | SSE 50 Futures | 2863.6 | -1.23 | 2026-09-11 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 78.6 | -0.03 | 2026-09-11 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 80.87 | 0.11 | 2026-09-11 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 91.01 | -0.19 | 2026-09-11 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.37 | -0.06 | 2026-09-11 | closed |
-| GC=F | Gold Future | 4365.4 | -0.02 | 2026-09-14 | live as of 14 September 2026, 13:00:23 (HKT) |
-| SI=F | Silver Future | 64.4 | -0.24 | 2026-09-14 | live as of 14 September 2026, 13:00:23 (HKT) |
-| CL=F | WTI Crude Oil Future | 102.74 | 2.69 | 2026-09-14 | live as of 14 September 2026, 13:00:23 (HKT) |
-| HG=F | Copper Future | 6.48 | 0.09 | 2026-09-14 | live as of 14 September 2026, 13:00:23 (HKT) |
+| GC=F | Gold Future | 4365.3 | -0.02 | 2026-09-14 | live as of 14 September 2026, 14:00:22 (HKT) |
+| SI=F | Silver Future | 64.27 | -0.45 | 2026-09-14 | live as of 14 September 2026, 14:00:22 (HKT) |
+| CL=F | WTI Crude Oil Future | 102.35 | 2.3 | 2026-09-14 | live as of 14 September 2026, 14:00:22 (HKT) |
+| HG=F | Copper Future | 6.45 | -0.23 | 2026-09-14 | live as of 14 September 2026, 14:00:22 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -358,20 +358,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.38`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Widening Mideast Instability Squeezes Global Oil Supplies**
-- Source: Dow Jones US Business
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: A, geo-political, oil, energy
-- Score: `51.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**5. The price of almost everything on your dinner table is climbing at once — and Wall Street is taking notice**
+**4. The price of almost everything on your dinner table is climbing at once — and Wall Street is taking notice**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: inflation, oil_prices, Iran
 - Score: `51.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. Widening Mideast Instability Squeezes Global Oil Supplies**
+- Source: Dow Jones US Business
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: A, geo-political, oil, energy
+- Score: `43.35`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **6. Z.ai shares tumble over 10% after $5 billion fundraising, its second major raise in two months**
@@ -382,15 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.37`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**7. Jim Cramer questions Anthropic CEO's slowdown manifesto and puts forth an action plan**
-- Source: CNBC Top News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: ANTC, I, AI, Leadership
-- Score: `37.05`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**8. Here are the 2 big things we're watching in this week's stock market**
+**7. Here are the 2 big things we're watching in this week's stock market**
 - Source: CNBC Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -398,13 +390,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.74`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Vessel struck in Strait of Hormuz, UKMTO says, as prospects for U.S.-Iran diplomacy appear elusive**
+**8. Vessel struck in Strait of Hormuz, UKMTO says, as prospects for U.S.-Iran diplomacy appear elusive**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / shortterm
 - Affected assets: U.S, UKMTO, Geopolitical, Shipping, Diplomacy
 - Score: `35.36`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the shortterm.
+
+**9. Jim Cramer questions Anthropic CEO's slowdown manifesto and puts forth an action plan**
+- Source: CNBC Top News
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: ANTC, I, AI, Leadership
+- Score: `31.49`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 **10. Oil prices jump more than $3 after new strikes on Saudi, Strait of Hormuz**
 - Source: Investing.com Stock Market
@@ -438,7 +438,7 @@ Positioning and flow data is used as confirmation only.
 - Sector cyclicality flow: `44.0`
 - Duration/liquidity flow: `52.5`
 - Alternatives: `barbell demand`
-- ETF flow reliability: `71.0 / 100`
+- ETF flow reliability: `71.6 / 100`
 - Dominant allocation direction: `defensive demand`
 
 ### Core Flow Signals
@@ -491,10 +491,10 @@ Positioning and flow data is used as confirmation only.
 | --- | --- | --- | --- | --- |
 | medium | related_subsector_divergence | XLK | SOXX | technology differs from semiconductors |
 | high | close_substitute_divergence | GLD | IAU | primary representative differs from close substitute |
+| high | close_substitute_divergence | IVV | SPY | primary representative differs from close substitute |
 | high | close_substitute_divergence | AGG | IUSB | primary representative differs from close substitute |
 | high | close_substitute_divergence | HYG | JNK | primary representative differs from close substitute |
-| high | close_substitute_divergence | IWF | IVW | primary representative differs from close substitute |
-| high | close_substitute_divergence | IWD | IVE | primary representative differs from close substitute |
+| high | close_substitute_divergence | IVV | SPY | primary representative differs from close substitute |
 
 
 ## Contradiction / Audit Flags
