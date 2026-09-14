@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 15 September 2026, 03:08:23 (HKT)
+Generated at: 15 September 2026, 03:12:08 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -350,7 +350,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `61.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. 10-year Treasury yield eases back from crucial 5% level despite concerns about AI and the surge in oil prices**
+**3. 30-year mortgage rate jumps to 7.17% — a nearly 2-year high — in the latest blow to the housing market**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: housing
+- Score: `60.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. 10-year Treasury yield eases back from crucial 5% level despite concerns about AI and the surge in oil prices**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -358,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `60.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Counting the votes: Warsh faces a tough battle as the Fed girds for expected interest rate hike**
+**5. Counting the votes: Warsh faces a tough battle as the Fed girds for expected interest rate hike**
 - Source: CNBC Markets
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. The Fed may be on the verge of a serious mistake, prominent economists warn**
+**6. The Fed may be on the verge of a serious mistake, prominent economists warn**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -374,7 +382,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.5`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. The Fed is likely to raise interest rates as inflation persists. What that means for consumers**
+**7. AI doomsday fears are arriving at the worst possible time for the stock market**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AI, Investor Sentiment
+- Score: `51.0`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**8. The Fed is likely to raise interest rates as inflation persists. What that means for consumers**
 - Source: CNBC Markets
 - Importance / impact: High / Mixed
 - Relevance / horizon: macro / short-term
@@ -382,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.4`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Prediction market traders think gas prices will hit new highs for the year**
+**9. Prediction market traders think gas prices will hit new highs for the year**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -390,29 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.4`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. AI infrastructure stocks slump and cyber shares pops on calls for AI slowdown**
-- Source: CNBC Markets
+**10. AI doomsday fears are arriving at the worst possible time for the stock market**
+- Source: MarketWatch Bulletins
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
-- Affected assets: AI, CEO statements
+- Affected assets: AI, Market Sentiment
 - Score: `48.45`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**9. Trump urges Ukraine to stop ‘knocking out’ Russian oil refineries as U.S. diesel hits record**
-- Source: CNBC Business News
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, geopolitical, energy
-- Score: `48.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Oil Prices Rise as Saudi East-West Pipeline Attack Threatens Export Routes**
-- Source: Dow Jones US Business
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: oil, pipeline, attack
-- Score: `45.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
