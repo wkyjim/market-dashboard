@@ -1,23 +1,23 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 14 September 2026, 21:07:57 (HKT)
+Generated at: 14 September 2026, 21:12:03 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **48.56 / 100** (Mixed / Rotation)
+- Regime score: **48.44 / 100** (Mixed / Rotation)
 - US equity strength: **57.01 / 100** (neutral)
 - Evidence quality: **72.5 / 100**
 - ETF flow contribution: **47.28 / 100**, reliability **71.63 / 100**
 - Breadth: **narrow**; above 50DMA `46.67%`, above 200DMA `69.49%`
 - Top sector score: **Energy** `65.76`
-- Top theme score: **Energy** `65.31`
+- Top theme score: **Energy** `61.3`
 
 ## Market Regime Score
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 48.56 | Mixed / Rotation |
+| Overall regime | 48.44 | Mixed / Rotation |
 | equity_trend | 62.5 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 47.92 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 44.83 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 52.43 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 38.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.05 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 52.5 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=62.5 |
 | Negative contributors |  | volatility=20.0, commodity_confirmation=38.0, market_breadth=44.83 |
 
@@ -261,7 +261,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Energy | 65.31 | Positive setup | 47.25 | 95.0 | 3.62 | True | False |
+| 1 | Energy | 61.3 | Positive setup | 47.25 | 95.0 | 3.62 | True | False |
 | 2 | Quality Growth | 56.41 | Positive setup | 48.65 | 65.0 | 11.2 | False | False |
 | 3 | AI Infrastructure | 54.95 | Neutral / watchlist | 72.2 | 100.0 | 4.05 | False | False |
 | 4 | Financials | 54.57 | Neutral / watchlist | 39.05 | 95.0 | 0.89 | False | True |
@@ -284,7 +284,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
-| Energy | Energy | 65.76 | strong | 65.31 | strong | sector and theme confirmation |
+| Energy | Energy | 65.76 | strong | 61.3 | positive | sector and theme confirmation |
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 61.49 | positive | 54.42 | mixed | sector stronger than related themes |
 | Cybersecurity | Cybersecurity | 56.86 | positive | 47.01 | mixed | sector stronger than related themes |
 | Financials | Financials | 55.59 | positive | 54.57 | mixed | sector stronger than related themes |
@@ -304,7 +304,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Classification | Drivers | Invalidation Triggers |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Energy | 70.93 | Positive setup | relative_strength_60d, trend_persistence, breadth, news_acceleration, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 1 | Energy | 69.43 | Positive setup | relative_strength_60d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 2 | Quality Growth | 62.81 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 3 | Financials | 59.31 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | AI Infrastructure | 58.14 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 36, 'negative': 32, 'neutral': 12}
-- News confirmation score: `52.5`
+- Sentiment counts: {'positive': 35, 'negative': 35, 'neutral': 10}
+- News confirmation score: `50.0`
 
 ### Top Market-Moving Headlines
 
@@ -366,7 +366,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**5. Trump urges Ukraine to stop ‘knocking out’ Russian oil refineries as U.S. diesel hits record**
+**5. AI stocks slide after major CEOs unite to urge slowdown**
+- Source: CNBC Markets
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AI, CEO statements
+- Score: `48.45`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**6. Trump urges Ukraine to stop ‘knocking out’ Russian oil refineries as U.S. diesel hits record**
 - Source: CNBC Business News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Satellite images show extent of damage to Saudi Arabia’s oil pipeline that bypasses Strait of Hormuz**
+**7. Satellite images show extent of damage to Saudi Arabia’s oil pipeline that bypasses Strait of Hormuz**
 - Source: CNBC Business News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Oil Prices Rise as Saudi East-West Pipeline Attack Threatens Export Routes**
+**8. Oil Prices Rise as Saudi East-West Pipeline Attack Threatens Export Routes**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Widening Mideast Instability Squeezes Global Oil Supplies**
+**9. Widening Mideast Instability Squeezes Global Oil Supplies**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -398,21 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. NextEra Energy, Dominion Energy Propose Expanded State Benefits to Support Merger**
+**10. NextEra Energy, Dominion Energy Propose Expanded State Benefits to Support Merger**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / medium-term
 - Affected assets: NEE, DGE, merger, energy, regulatory approval
 - Score: `38.25`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**10. Here are the 2 big things we're watching in this week's stock market**
-- Source: CNBC Markets
-- Importance / impact: Medium / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: Federal Reserve, Economic Events
-- Score: `36.74`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
