@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 14 September 2026, 07:11:06 (HKT)
+Generated at: 14 September 2026, 08:11:57 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **55.86 / 100** (Mild Risk-On)
+- Regime score: **55.98 / 100** (Mild Risk-On)
 - US equity strength: **57.01 / 100** (neutral)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **47.97 / 100**, reliability **66.86 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 55.86 | Mild Risk-On |
+| Overall regime | 55.98 | Mild Risk-On |
 | equity_trend | 62.5 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 47.92 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 44.83 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -25,7 +25,7 @@ Window: 24h
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 54.91 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 56.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.64 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 51.88 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=80.0, equity_trend=62.5 |
@@ -64,7 +64,7 @@ Window: 24h
 | Gold | Gold stable | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver stable | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -82,9 +82,9 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US2YT=X | United States 2-Year Treasury Yield | 4.63 | 1.75 | 2026-09-11 | closed |
 | US3YT=X | United States 3-Year Treasury Yield | 4.72 | 1.59 | 2026-09-11 | closed |
 | US5YT=X | United States 5-Year Treasury Yield | 4.79 | 1.12 | 2026-09-11 | closed |
-| US7YT=X | United States 7-Year Treasury Yield | 4.87 | 0.84 | 2026-09-11 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 4.97 | 0.57 | 2026-09-11 | closed |
-| US20YT=X | United States 20-Year Treasury Yield | 5.39 | 0.14 | 2026-09-11 | closed |
+| US7YT=X | United States 7-Year Treasury Yield | 4.85 | -0.48 | 2026-09-14 | live as of 14 September 2026, 08:00:22 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.96 | -0.36 | 2026-09-14 | live as of 14 September 2026, 08:00:22 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.37 | -0.25 | 2026-09-14 | live as of 14 September 2026, 08:00:22 (HKT) |
 | US30YT=X | United States 30-Year Treasury Yield | 5.36 | -0.08 | 2026-09-11 | closed |
 | HK50 | Hang Seng Futures | 24798.0 | 0.36 | 2026-09-11 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1098.85 | 0.97 | 2026-09-11 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.37 | -0.06 | 2026-09-11 | closed |
 | GC=F | Gold Future | 4377.0 | 0.25 | 2026-09-13 | closed |
 | SI=F | Silver Future | 64.55 | -0.01 | 2026-09-13 | closed |
-| CL=F | WTI Crude Oil Future | 99.99 | -2.43 | 2026-09-11 | closed |
+| CL=F | WTI Crude Oil Future | 102.65 | 2.6 | 2026-09-14 | live as of 14 September 2026, 08:00:22 (HKT) |
 | HG=F | Copper Future | 6.53 | 0.95 | 2026-09-13 | closed |
 
 ## Market Dispersion Analysis
@@ -374,21 +374,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Washington scrambles to meet calls for AI guardrails while the window to act closes**
-- Source: CNBC Business Headlines
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short
-- Affected assets: AI regulation, government policy
-- Score: `35.36`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**7. Vessel struck in Strait of Hormuz, UKMTO says, as prospects for U.S.-Iran diplomacy appear elusive**
+**6. Vessel struck in Strait of Hormuz, UKMTO says, as prospects for U.S.-Iran diplomacy appear elusive**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / shortterm
 - Affected assets: U.S, UKMTO, Geopolitical, Shipping, Diplomacy
 - Score: `35.36`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the shortterm.
+
+**7. Washington scrambles to meet calls for AI guardrails while the window to act closes**
+- Source: CNBC Business Headlines
+- Importance / impact: Low / Negative
+- Relevance / horizon: sector_theme / short
+- Affected assets: AI regulation, government policy
+- Score: `30.06`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 **8. New Strait of Hormuz ship attack raises oil supply fears as Iran war widens**
 - Source: Investing.com Economic Indicators
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `3`
+- Live macro rows used: `9`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
