@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 15 September 2026, 10:14:46 (HKT)
+Generated at: 15 September 2026, 11:15:21 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 17.1 | 7.95 | 2026-09-14 | closed |
 | ^SKEW | CBOE SKEW Index | 152.09 | -1.55 | 2026-09-14 | closed |
 | ^MOVE | ICE BofA MOVE Index | 83.9 | 2.06 | 2026-09-14 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.66 | 0.65 | 2026-09-15 | live as of 15 September 2026, 10:00:23 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.76 | 0.75 | 2026-09-15 | live as of 15 September 2026, 10:00:23 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.83 | 0.83 | 2026-09-15 | live as of 15 September 2026, 10:00:23 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.91 | 0.86 | 2026-09-15 | live as of 15 September 2026, 10:00:23 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 5.0 | 0.81 | 2026-09-15 | live as of 15 September 2026, 10:00:23 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.4 | 0.68 | 2026-09-15 | live as of 15 September 2026, 10:00:23 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.36 | 0.64 | 2026-09-15 | live as of 15 September 2026, 10:00:23 (HKT) |
-| HK50 | Hang Seng Futures | 24818.0 | -0.88 | 2026-09-15 | live as of 15 September 2026, 10:00:23 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.67 | 0.7 | 2026-09-15 | live as of 15 September 2026, 11:00:24 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.77 | 0.84 | 2026-09-15 | live as of 15 September 2026, 11:00:24 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.83 | 0.94 | 2026-09-15 | live as of 15 September 2026, 11:00:24 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.92 | 0.97 | 2026-09-15 | live as of 15 September 2026, 11:00:24 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 5.01 | 0.97 | 2026-09-15 | live as of 15 September 2026, 11:00:24 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.41 | 0.75 | 2026-09-15 | live as of 15 September 2026, 11:00:24 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.37 | 0.7 | 2026-09-15 | live as of 15 September 2026, 11:00:24 (HKT) |
+| HK50 | Hang Seng Futures | 24840.5 | -0.79 | 2026-09-15 | live as of 15 September 2026, 11:00:24 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 1052.55 | 0.4 | 2026-09-14 | closed |
 | CIHc1 | SSE 50 Futures | 2858.0 | -0.2 | 2026-09-14 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 78.53 | -0.09 | 2026-09-14 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.34 | -0.04 | 2026-09-14 | closed |
 | GC=F | Gold Future | 4340.0 | -1.56 | 2026-09-14 | closed |
 | SI=F | Silver Future | 63.76 | -1.24 | 2026-09-14 | closed |
-| CL=F | WTI Crude Oil Future | 102.9 | 0.72 | 2026-09-15 | live as of 15 September 2026, 10:00:23 (HKT) |
+| CL=F | WTI Crude Oil Future | 102.8 | 0.63 | 2026-09-15 | live as of 15 September 2026, 11:00:24 (HKT) |
 | HG=F | Copper Future | 6.4 | -1.11 | 2026-09-14 | closed |
 
 ## Market Dispersion Analysis
@@ -374,15 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `60.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. 10-year Treasury yield hits 5% as oil prices jump and Fed meeting looms**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: interest_rates, bond_market, economic_indicators
-- Score: `60.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Saudi Arabia may be just days away from not being able to export much oil**
+**6. Saudi Arabia may be just days away from not being able to export much oil**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. AI doomsday fears are arriving at the worst possible time for the stock market**
+**7. AI doomsday fears are arriving at the worst possible time for the stock market**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -398,21 +390,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**9. CrowdStrike and Palo Alto Networks lead software stocks to a never-before-seen feat**
+**8. 10-year Treasury yield hits 5% as oil prices jump and Fed meeting looms**
 - Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: CrowdStrike, Palo Alto Networks, AI, Software Sector Performance
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: interest_rates, bond_market, economic_indicators
 - Score: `51.0`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. 30-year mortgage rate jumps to 7.17% — a nearly 2-year high — in the latest blow to the housing market**
+**9. 30-year mortgage rate jumps to 7.17% — a nearly 2-year high — in the latest blow to the housing market**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: housing
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Samsung backs Nvidia AI chip rival in $230 million funding round as GPU alternatives boom**
+- Source: CNBC Top News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: Nvidia, GPU, AI, Tech Investment
+- Score: `48.45`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
