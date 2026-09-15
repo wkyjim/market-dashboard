@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 15 September 2026, 08:14:57 (HKT)
+Generated at: 15 September 2026, 08:43:49 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -64,7 +64,7 @@ Window: 24h
 | Gold | Gold falling | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver falling | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper falling | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude stable | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -79,13 +79,13 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 17.1 | 7.95 | 2026-09-14 | closed |
 | ^SKEW | CBOE SKEW Index | 152.09 | -1.55 | 2026-09-14 | closed |
 | ^MOVE | ICE BofA MOVE Index | 83.9 | 2.06 | 2026-09-14 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.66 | 0.39 | 2026-09-14 | closed |
-| US3YT=X | United States 3-Year Treasury Yield | 4.76 | 0.6 | 2026-09-14 | closed |
-| US5YT=X | United States 5-Year Treasury Yield | 4.82 | 0.69 | 2026-09-14 | closed |
-| US7YT=X | United States 7-Year Treasury Yield | 4.89 | -0.06 | 2026-09-15 | live as of 15 September 2026, 08:00:22 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.99 | 0.09 | 2026-09-15 | live as of 15 September 2026, 08:00:22 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.39 | 0.02 | 2026-09-14 | closed |
-| US30YT=X | United States 30-Year Treasury Yield | 5.35 | -0.13 | 2026-09-14 | closed |
+| US2YT=X | United States 2-Year Treasury Yield | 4.65 | 0.09 | 2026-09-15 | live as of 15 September 2026, 08:30:22 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.75 | 0.15 | 2026-09-15 | live as of 15 September 2026, 08:30:22 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.82 | 0.15 | 2026-09-15 | live as of 15 September 2026, 08:30:22 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.9 | 0.11 | 2026-09-15 | live as of 15 September 2026, 08:30:22 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.99 | 0.19 | 2026-09-15 | live as of 15 September 2026, 08:30:22 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.39 | 0.15 | 2026-09-15 | live as of 15 September 2026, 08:30:22 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.35 | 0.14 | 2026-09-15 | live as of 15 September 2026, 08:30:22 (HKT) |
 | HK50 | Hang Seng Futures | 24873.0 | 0.32 | 2026-09-14 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1098.85 | 0.97 | 2026-09-11 | closed |
 | CIHc1 | SSE 50 Futures | 2863.6 | -1.23 | 2026-09-11 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.34 | -0.04 | 2026-09-14 | closed |
 | GC=F | Gold Future | 4340.0 | -1.56 | 2026-09-14 | closed |
 | SI=F | Silver Future | 63.76 | -1.24 | 2026-09-14 | closed |
-| CL=F | WTI Crude Oil Future | 102.3 | 0.14 | 2026-09-15 | live as of 15 September 2026, 08:00:22 (HKT) |
+| CL=F | WTI Crude Oil Future | 102.68 | 0.51 | 2026-09-15 | live as of 15 September 2026, 08:30:22 (HKT) |
 | HG=F | Copper Future | 6.4 | -1.11 | 2026-09-14 | closed |
 
 ## Market Dispersion Analysis
@@ -382,23 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `60.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. 30-year mortgage rate jumps to 7.17% — a nearly 2-year high — in the latest blow to the housing market**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: housing
-- Score: `60.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. The Fed may be on the verge of a serious mistake, prominent economists warn**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: central bank, economy, interest rates
-- Score: `52.5`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. CrowdStrike and Palo Alto Networks lead software stocks to a never-before-seen feat**
+**7. CrowdStrike and Palo Alto Networks lead software stocks to a never-before-seen feat**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -406,12 +390,28 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**10. AI doomsday fears are arriving at the worst possible time for the stock market**
+**8. 30-year mortgage rate jumps to 7.17% — a nearly 2-year high — in the latest blow to the housing market**
 - Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AI, Investor Sentiment
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: housing
 - Score: `51.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. Trump administration repeals Biden era greenhouse gas requirements for power plants**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short
+- Affected assets: environment, politics, energy
+- Score: `48.45`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**10. 30-year mortgage rate hits nearly 2-year high, in latest blow to housing market**
+- Source: MarketWatch Bulletins
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short
+- Affected assets: mortgage, housing
+- Score: `48.45`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 
@@ -507,7 +507,7 @@ Positioning and flow data is used as confirmation only.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `8`
+- Live macro rows used: `15`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
