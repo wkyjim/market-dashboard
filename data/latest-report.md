@@ -1,23 +1,23 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 15 September 2026, 08:43:49 (HKT)
+Generated at: 15 September 2026, 09:13:45 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **47.5 / 100** (Mixed / Rotation)
+- Regime score: **47.41 / 100** (Mixed / Rotation)
 - US equity strength: **47.29 / 100** (neutral)
 - Evidence quality: **69.0 / 100**
 - ETF flow contribution: **47.26 / 100**, reliability **65.94 / 100**
 - Breadth: **narrow**; above 50DMA `33.33%`, above 200DMA `69.49%`
 - Top sector score: **Cybersecurity** `65.87`
-- Top theme score: **Energy** `60.86`
+- Top theme score: **Energy** `60.97`
 
 ## Market Regime Score
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 47.5 | Mixed / Rotation |
+| Overall regime | 47.41 | Mixed / Rotation |
 | equity_trend | 46.25 | neutral / mixed; Core equity ETFs versus moving averages. |
 | equity_momentum | 46.4 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 43.16 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 53.34 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.19 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 55.62 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 53.75 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | none |
 | Negative contributors |  | volatility=35.0, market_breadth=43.16 |
 
@@ -49,7 +49,7 @@ Window: 24h
 
 - Confidence score: `69.0`
 - Agreement ratio: `0.2`
-- Contradiction count: `2`
+- Contradiction count: `1`
 - Missing indicators: none
 - Warning flags: none
 
@@ -79,15 +79,15 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 17.1 | 7.95 | 2026-09-14 | closed |
 | ^SKEW | CBOE SKEW Index | 152.09 | -1.55 | 2026-09-14 | closed |
 | ^MOVE | ICE BofA MOVE Index | 83.9 | 2.06 | 2026-09-14 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.65 | 0.09 | 2026-09-15 | live as of 15 September 2026, 08:30:22 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.75 | 0.15 | 2026-09-15 | live as of 15 September 2026, 08:30:22 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.82 | 0.15 | 2026-09-15 | live as of 15 September 2026, 08:30:22 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.9 | 0.11 | 2026-09-15 | live as of 15 September 2026, 08:30:22 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.99 | 0.19 | 2026-09-15 | live as of 15 September 2026, 08:30:22 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.39 | 0.15 | 2026-09-15 | live as of 15 September 2026, 08:30:22 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.35 | 0.14 | 2026-09-15 | live as of 15 September 2026, 08:30:22 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.65 | 0.0 | 2026-09-15 | live as of 15 September 2026, 09:00:22 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.75 | 0.09 | 2026-09-15 | live as of 15 September 2026, 09:00:22 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.81 | 0.08 | 2026-09-15 | live as of 15 September 2026, 09:00:22 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.9 | 0.03 | 2026-09-15 | live as of 15 September 2026, 09:00:22 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.99 | 0.15 | 2026-09-15 | live as of 15 September 2026, 09:00:22 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.39 | 0.1 | 2026-09-15 | live as of 15 September 2026, 09:00:22 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.35 | 0.1 | 2026-09-15 | live as of 15 September 2026, 09:00:22 (HKT) |
 | HK50 | Hang Seng Futures | 24873.0 | 0.32 | 2026-09-14 | closed |
-| KOR200c1 | KOSPI 200 Futures | 1098.85 | 0.97 | 2026-09-11 | closed |
+| KOR200c1 | KOSPI 200 Futures | 1052.55 | 0.4 | 2026-09-14 | closed |
 | CIHc1 | SSE 50 Futures | 2863.6 | -1.23 | 2026-09-11 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 78.53 | -0.09 | 2026-09-14 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.3 | -0.02 | 2026-09-14 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.34 | -0.04 | 2026-09-14 | closed |
 | GC=F | Gold Future | 4340.0 | -1.56 | 2026-09-14 | closed |
 | SI=F | Silver Future | 63.76 | -1.24 | 2026-09-14 | closed |
-| CL=F | WTI Crude Oil Future | 102.68 | 0.51 | 2026-09-15 | live as of 15 September 2026, 08:30:22 (HKT) |
+| CL=F | WTI Crude Oil Future | 102.69 | 0.52 | 2026-09-15 | live as of 15 September 2026, 09:00:22 (HKT) |
 | HG=F | Copper Future | 6.4 | -1.11 | 2026-09-14 | closed |
 
 ## Market Dispersion Analysis
@@ -261,7 +261,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Energy | 60.86 | Positive setup | 28.23 | 65.0 | 2.97 | True | False |
+| 1 | Energy | 60.97 | Positive setup | 28.23 | 65.0 | 2.97 | True | False |
 | 2 | Crypto Infrastructure | 60.8 | Positive setup | 61.72 | 65.0 | 18.24 | True | False |
 | 3 | Cybersecurity | 60.68 | Positive setup | 50.0 | 0.0 | 11.18 | True | False |
 | 4 | Quality Growth | 57.38 | Positive setup | 47.81 | 65.0 | 11.89 | False | False |
@@ -285,7 +285,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
 | Cybersecurity | Cybersecurity | 65.87 | strong | 60.68 | positive | sector and theme confirmation |
-| Energy | Energy | 64.49 | positive | 60.86 | positive | sector and theme confirmation |
+| Energy | Energy | 64.49 | positive | 60.97 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 58.48 | positive | 53.7 | mixed | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 51.17 | mixed | 60.8 | positive | theme stronger than official sector |
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 50.27 | mixed | 51.82 | mixed | mixed confirmation |
@@ -304,7 +304,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Classification | Drivers | Invalidation Triggers |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Energy | 70.18 | Positive setup | relative_strength_60d, trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 1 | Energy | 68.18 | Positive setup | relative_strength_60d, trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 2 | Cybersecurity | 66.27 | Positive setup | trend_persistence, breadth, volume_accumulation, drawdown_recovery, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 3 | Crypto Infrastructure | 65.67 | Positive setup | relative_strength_20d, relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | Quality Growth | 64.17 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 42, 'negative': 33, 'neutral': 5}
-- News confirmation score: `55.62`
+- Sentiment counts: {'positive': 41, 'negative': 35, 'neutral': 4}
+- News confirmation score: `53.75`
 
 ### Top Market-Moving Headlines
 
@@ -342,15 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `72.67`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Oil prices rise after Saudi Arabia shuts down critical pipeline that bypasses Strait of Hormuz**
-- Source: CNBC Top News
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: oil, pipeline, Saudi Arabia
-- Score: `72.67`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. Saudi Arabia may be just days away from not being able to export much oil**
+**2. Saudi Arabia may be just days away from not being able to export much oil**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -358,7 +350,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `68.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Up 3,600%, this freight fund has posted the biggest gains of all on Iran war oil shock**
+**3. Saudi Arabia may be just days away from not being able to export much oil**
+- Source: MarketWatch Bulletins
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: SU, KSA, BP, oil export, Saudi Arabia
+- Score: `64.6`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. Oil prices rise after Saudi Arabia shuts down critical pipeline that bypasses Strait of Hormuz**
+- Source: CNBC Top News
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: oil, pipeline, Saudi Arabia
+- Score: `61.77`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. Up 3,600%, this freight fund has posted the biggest gains of all on Iran war oil shock**
 - Source: CNBC Markets
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `61.77`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. The oil market is sending an increasingly loud warning about gas prices at the pump**
+**6. The oil market is sending an increasingly loud warning about gas prices at the pump**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `60.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. 10-year Treasury yield hits 5% as oil prices jump and Fed meeting looms**
+**7. 10-year Treasury yield hits 5% as oil prices jump and Fed meeting looms**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -382,7 +390,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `60.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. CrowdStrike and Palo Alto Networks lead software stocks to a never-before-seen feat**
+**8. AI doomsday fears are arriving at the worst possible time for the stock market**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AI, Investor Sentiment
+- Score: `51.0`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**9. CrowdStrike and Palo Alto Networks lead software stocks to a never-before-seen feat**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -390,29 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. 30-year mortgage rate jumps to 7.17% — a nearly 2-year high — in the latest blow to the housing market**
+**10. 30-year mortgage rate jumps to 7.17% — a nearly 2-year high — in the latest blow to the housing market**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: housing
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Trump administration repeals Biden era greenhouse gas requirements for power plants**
-- Source: CNBC Top News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short
-- Affected assets: environment, politics, energy
-- Score: `48.45`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**10. 30-year mortgage rate hits nearly 2-year high, in latest blow to housing market**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short
-- Affected assets: mortgage, housing
-- Score: `48.45`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
