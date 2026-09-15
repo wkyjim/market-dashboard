@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 15 September 2026, 19:12:51 (HKT)
+Generated at: 15 September 2026, 20:09:59 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **51.59 / 100** (Mixed / Rotation)
+- Regime score: **51.6 / 100** (Mixed / Rotation)
 - US equity strength: **47.29 / 100** (neutral)
 - Evidence quality: **72.5 / 100**
 - ETF flow contribution: **47.49 / 100**, reliability **71.63 / 100**
@@ -17,14 +17,14 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 51.59 | Mixed / Rotation |
+| Overall regime | 51.6 | Mixed / Rotation |
 | equity_trend | 46.25 | neutral / mixed; Core equity ETFs versus moving averages. |
 | equity_momentum | 46.4 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 43.16 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.22 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.34 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 62.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.2 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 46.88 | neutral / mixed; Weighted headline/news confirmation score. |
@@ -62,10 +62,10 @@ Window: 24h
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold falling | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
-| Silver | Silver stable | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
+| Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
-| Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
+| Volatility | VIX stable | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
 
@@ -76,16 +76,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7619.98 | -0.48 | 2026-09-14 | closed |
 | ^IXIC | NASDAQ Composite | 26186.41 | -0.56 | 2026-09-14 | closed |
 | ^RUT | Russell 2000 Index | 2892.24 | -0.4 | 2026-09-14 | closed |
-| ^VIX | CBOE Volatility Index | 17.24 | 0.82 | 2026-09-15 | live as of 15 September 2026, 19:00:24 (HKT) |
+| ^VIX | CBOE Volatility Index | 17.1 | 0.0 | 2026-09-15 | live as of 15 September 2026, 20:00:22 (HKT) |
 | ^SKEW | CBOE SKEW Index | 152.09 | -1.55 | 2026-09-14 | closed |
 | ^MOVE | ICE BofA MOVE Index | 83.9 | 2.06 | 2026-09-14 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.66 | 0.48 | 2026-09-15 | live as of 15 September 2026, 19:00:24 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.76 | 0.67 | 2026-09-15 | live as of 15 September 2026, 19:00:24 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.83 | 0.94 | 2026-09-15 | live as of 15 September 2026, 19:00:24 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.9 | 0.52 | 2026-09-14 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 5.01 | 1.01 | 2026-09-15 | live as of 15 September 2026, 19:00:24 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.42 | 0.9 | 2026-09-15 | live as of 15 September 2026, 19:00:24 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.38 | 0.9 | 2026-09-15 | live as of 15 September 2026, 19:00:24 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.65 | 0.3 | 2026-09-15 | live as of 15 September 2026, 20:00:22 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.75 | 0.49 | 2026-09-15 | live as of 15 September 2026, 20:00:22 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.82 | 0.72 | 2026-09-15 | live as of 15 September 2026, 20:00:22 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.91 | 0.75 | 2026-09-15 | live as of 15 September 2026, 20:00:22 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 5.0 | 0.89 | 2026-09-15 | live as of 15 September 2026, 20:00:22 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.4 | 0.7 | 2026-09-15 | live as of 15 September 2026, 20:00:22 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.37 | 0.74 | 2026-09-15 | live as of 15 September 2026, 20:00:22 (HKT) |
 | HK50 | Hang Seng Futures | 24678.5 | -1.44 | 2026-09-15 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1052.55 | 0.4 | 2026-09-14 | closed |
 | CIHc1 | SSE 50 Futures | 2858.0 | -0.2 | 2026-09-14 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 80.93 | 0.07 | 2026-09-14 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 90.93 | -0.09 | 2026-09-14 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.34 | -0.04 | 2026-09-14 | closed |
-| GC=F | Gold Future | 4317.8 | -0.78 | 2026-09-15 | live as of 15 September 2026, 19:00:24 (HKT) |
-| SI=F | Silver Future | 63.59 | 0.11 | 2026-09-15 | live as of 15 September 2026, 19:00:24 (HKT) |
-| CL=F | WTI Crude Oil Future | 102.56 | 1.15 | 2026-09-15 | live as of 15 September 2026, 19:00:24 (HKT) |
-| HG=F | Copper Future | 6.4 | 1.04 | 2026-09-15 | live as of 15 September 2026, 19:00:24 (HKT) |
+| GC=F | Gold Future | 4324.0 | -0.64 | 2026-09-15 | live as of 15 September 2026, 20:00:22 (HKT) |
+| SI=F | Silver Future | 63.74 | 0.37 | 2026-09-15 | live as of 15 September 2026, 20:00:22 (HKT) |
+| CL=F | WTI Crude Oil Future | 102.37 | 0.97 | 2026-09-15 | live as of 15 September 2026, 20:00:22 (HKT) |
+| HG=F | Copper Future | 6.41 | 1.23 | 2026-09-15 | live as of 15 September 2026, 20:00:22 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=17.24 pct_chg=0.82
+- VIX close=17.1 pct_chg=0.0
 
 ## News Analytics
 
@@ -390,15 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Oil and Treasury yields haven’t moved this closely in seven years. That’s bad news for markets**
-- Source: CNBC Top News
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: oil, Treasury yields, market conditions
-- Score: `57.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Saudi Arabia may be just days away from not being able to export much oil**
+**8. Saudi Arabia may be just days away from not being able to export much oil**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -406,12 +398,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.91`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. The Fed may be on the verge of a serious mistake, prominent economists warn**
+**9. The Fed may be on the verge of a serious mistake, prominent economists warn**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: central bank, economy, interest rates
 - Score: `52.5`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. The oil market is sending an increasingly loud warning about gas prices at the pump**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: oil market, gas prices, supply concerns
+- Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `21`
+- Live macro rows used: `23`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
