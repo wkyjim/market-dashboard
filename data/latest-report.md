@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 16 September 2026, 12:12:04 (HKT)
+Generated at: 16 September 2026, 12:32:54 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -8,7 +8,7 @@ Window: 24h
 - Regime score: **50.7 / 100** (Mixed / Rotation)
 - US equity strength: **41.32 / 100** (weak)
 - Evidence quality: **76.0 / 100**
-- ETF flow contribution: **47.99 / 100**, reliability **67.19 / 100**
+- ETF flow contribution: **47.99 / 100**, reliability **67.12 / 100**
 - Breadth: **narrow**; above 50DMA `31.67%`, above 200DMA `66.1%`
 - Top sector score: **Cybersecurity** `69.42`
 - Top theme score: **Energy** `62.7`
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 17.2 | 0.58 | 2026-09-15 | closed |
 | ^SKEW | CBOE SKEW Index | 146.61 | -3.6 | 2026-09-15 | closed |
 | ^MOVE | ICE BofA MOVE Index | 83.71 | -0.23 | 2026-09-15 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.65 | -0.33 | 2026-09-16 | live as of 16 September 2026, 11:00:23 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.77 | 0.94 | 2026-09-15 | closed |
-| US5YT=X | United States 5-Year Treasury Yield | 4.81 | -0.41 | 2026-09-16 | live as of 16 September 2026, 11:00:23 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.65 | -0.22 | 2026-09-16 | live as of 16 September 2026, 12:00:26 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.75 | -0.17 | 2026-09-16 | live as of 16 September 2026, 12:00:26 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.84 | 1.02 | 2026-09-15 | closed |
 | US7YT=X | United States 7-Year Treasury Yield | 4.92 | 1.0 | 2026-09-15 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 4.98 | -0.3 | 2026-09-16 | live as of 16 September 2026, 11:00:23 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.41 | 0.78 | 2026-09-15 | closed |
+| US10YT=X | United States 10-Year Treasury Yield | 5.01 | 0.91 | 2026-09-15 | closed |
+| US20YT=X | United States 20-Year Treasury Yield | 5.39 | -0.2 | 2026-09-16 | live as of 16 September 2026, 12:00:26 (HKT) |
 | US30YT=X | United States 30-Year Treasury Yield | 5.37 | 0.78 | 2026-09-15 | closed |
-| HK50 | Hang Seng Futures | 24648.0 | -0.44 | 2026-09-16 | live as of 16 September 2026, 11:00:23 (HKT) |
+| HK50 | Hang Seng Futures | 24678.5 | -1.44 | 2026-09-15 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1051.2 | 1.1 | 2026-09-15 | closed |
 | CIHc1 | SSE 50 Futures | 2845.4 | -0.44 | 2026-09-15 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 78.38 | -0.19 | 2026-09-15 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.31 | -0.04 | 2026-09-15 | closed |
 | GC=F | Gold Future | 4333.4 | -0.43 | 2026-09-15 | closed |
 | SI=F | Silver Future | 64.19 | 1.06 | 2026-09-15 | closed |
-| CL=F | WTI Crude Oil Future | 104.56 | -0.76 | 2026-09-16 | live as of 16 September 2026, 11:00:23 (HKT) |
+| CL=F | WTI Crude Oil Future | 104.71 | -0.62 | 2026-09-16 | live as of 16 September 2026, 12:00:26 (HKT) |
 | HG=F | Copper Future | 6.46 | 2.04 | 2026-09-15 | closed |
 
 ## Market Dispersion Analysis
@@ -438,7 +438,7 @@ Positioning and flow data is used as confirmation only.
 - Sector cyclicality flow: `49.8`
 - Duration/liquidity flow: `52.7`
 - Alternatives: `barbell demand`
-- ETF flow reliability: `67.2 / 100`
+- ETF flow reliability: `67.1 / 100`
 - Dominant allocation direction: `defensive demand`
 
 ### Core Flow Signals
@@ -504,7 +504,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `12`
+- Live macro rows used: `11`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
