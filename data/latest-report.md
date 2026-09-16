@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 16 September 2026, 15:09:30 (HKT)
+Generated at: 16 September 2026, 15:12:13 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -255,7 +255,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 12 | Nuclear | 32.73 | strong downtrend | negative | weak | 50.0 | 0.0 | 39.66 | NLR | NLR |
 | 13 | Consumer Discretionary | 32.59 | strong downtrend | neutral | weak | 40.69 | 65.0 | 45.46 | ULTA, BBY, EBAY | TJX, CCL, NCLH |
 | 14 | Industrials | 31.39 | strong downtrend | negative | weak | 41.27 | 65.0 | 42.32 | DE, CHRW, ADP | GNRC, HWM, AXON |
-| 15 | Defense | 28.28 | strong downtrend | negative | weak | 38.42 | 65.0 | 33.75 | XAR | XAR |
+| 15 | Defense | 28.34 | strong downtrend | negative | weak | 38.42 | 65.0 | 33.75 | XAR | XAR |
 
 ### Thematic Strength
 
@@ -271,8 +271,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 8 | Semiconductors | 45.76 | Weak setup | 69.71 | 100.0 | 15.13 | False | False |
 | 9 | Dividend Defensives | 45.24 | Neutral / watchlist | 55.14 | 65.0 | 6.84 | False | False |
 | 10 | Small Caps | 44.2 | Neutral / watchlist | 59.84 | 65.0 | 0.0 | False | False |
-| 11 | Grid Infrastructure | 38.55 | Weak setup | 62.61 | 65.0 | 8.61 | False | False |
-| 12 | Defense | 37.73 | Weak setup | 38.42 | 65.0 | 11.26 | False | False |
+| 11 | Defense | 38.81 | Weak setup | 38.42 | 65.0 | 11.26 | False | False |
+| 12 | Grid Infrastructure | 38.55 | Weak setup | 62.61 | 65.0 | 8.61 | False | False |
 | 13 | Nuclear | 29.32 | Weak setup | 50.0 | 0.0 | 15.34 | False | False |
 
 - Top 5 improving themes: Energy, Cybersecurity, Healthcare Innovation, Crypto Infrastructure, Quality Growth
@@ -297,8 +297,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Grid Infrastructure | Grid Infrastructure | 33.74 | very weak | 38.55 | weak | broad weakness across sector and themes |
 | Nuclear | Nuclear | 32.73 | very weak | 29.32 | very weak | broad weakness across sector and themes |
 | Consumer Discretionary | Small Caps | 32.59 | very weak | 44.2 | weak | broad weakness across sector and themes |
-| Industrials | Defense, Grid Infrastructure | 31.39 | very weak | 38.14 | weak | broad weakness across sector and themes |
-| Defense | Defense | 28.28 | very weak | 37.73 | weak | broad weakness across sector and themes |
+| Industrials | Defense, Grid Infrastructure | 31.39 | very weak | 38.68 | weak | broad weakness across sector and themes |
+| Defense | Defense | 28.34 | very weak | 38.81 | weak | broad weakness across sector and themes |
 
 ## Three-Month Outperformance Setup
 
@@ -314,8 +314,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 8 | Dividend Defensives | 51.93 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 9 | Small Caps | 50.45 | Neutral / watchlist | volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 10 | Semiconductors | 44.45 | Weak setup | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 11 | Grid Infrastructure | 39.97 | Weak setup | volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 12 | Defense | 38.99 | Weak setup | volume_accumulation, news_acceleration, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 11 | Defense | 39.99 | Weak setup | volume_accumulation, news_acceleration, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 12 | Grid Infrastructure | 39.97 | Weak setup | volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 
 ## Breadth and Participation
 
