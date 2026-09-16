@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 16 September 2026, 17:14:21 (HKT)
+Generated at: 16 September 2026, 18:12:20 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **50.69 / 100** (Mixed / Rotation)
+- Regime score: **50.97 / 100** (Mixed / Rotation)
 - US equity strength: **41.32 / 100** (weak)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **47.98 / 100**, reliability **71.74 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 50.69 | Mixed / Rotation |
+| Overall regime | 50.97 | Mixed / Rotation |
 | equity_trend | 40.0 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 45.05 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 41.48 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 55.02 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.55 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 55.0 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0, commodity_confirmation=63.0 |
+| news_confirmation | 60.62 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=70.0, commodity_confirmation=63.0, news_confirmation=60.62 |
 | Negative contributors |  | equity_trend=40.0, market_breadth=41.48 |
 
 ## US Equity Strength Score
@@ -248,7 +248,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 5 | Technology | 49.23 | neutral | neutral | mixed | 47.01 | 100.0 | 46.76 | CRM, SWKS, NOW | WDC, TER, CIEN |
 | 6 | Financials | 46.71 | neutral | neutral | weak | 47.73 | 95.0 | 52.3 | HOOD, COIN, PGR | BX, PYPL, AON |
 | 7 | Consumer Staples | 41.2 | downtrend | neutral | weak | 47.95 | 65.0 | 50.15 | EL, KR, MO | HRL, CLX, CASY |
-| 8 | Semiconductors | 40.74 | downtrend | negative | weak | 69.71 | 100.0 | 36.79 | SMH, SOXX | SOXX, SMH |
+| 8 | Semiconductors | 40.77 | downtrend | negative | weak | 69.71 | 100.0 | 36.79 | SMH, SOXX | SOXX, SMH |
 | 9 | Real Estate | 34.99 | strong downtrend | neutral | weak | 50.0 | 0.0 | 47.54 | ARE, AMT, CSGP | PSA, DLR, IRM |
 | 10 | Utilities | 34.67 | strong downtrend | negative | weak | 61.19 | 65.0 | 42.25 | AWK, AES, VST | NRG, EIX, PCG |
 | 11 | Grid Infrastructure | 33.74 | strong downtrend | negative | weak | 62.61 | 65.0 | 40.9 | GRID | GRID |
@@ -268,7 +268,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 5 | Healthcare Innovation | 51.19 | Positive setup | 49.24 | 95.0 | 10.73 | False | False |
 | 6 | AI Infrastructure | 49.17 | Neutral / watchlist | 69.71 | 100.0 | 14.27 | False | False |
 | 7 | Financials | 48.1 | Neutral / watchlist | 47.73 | 95.0 | 5.83 | False | False |
-| 8 | Semiconductors | 45.76 | Weak setup | 69.71 | 100.0 | 15.13 | False | False |
+| 8 | Semiconductors | 46.3 | Weak setup | 69.71 | 100.0 | 15.13 | False | False |
 | 9 | Dividend Defensives | 45.24 | Neutral / watchlist | 55.14 | 65.0 | 6.84 | False | False |
 | 10 | Small Caps | 44.2 | Neutral / watchlist | 59.84 | 65.0 | 0.0 | False | False |
 | 11 | Defense | 38.81 | Weak setup | 38.42 | 65.0 | 11.26 | False | False |
@@ -288,10 +288,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Energy | Energy | 66.75 | strong | 64.97 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 57.08 | positive | 51.19 | mixed | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 51.78 | mixed | 53.58 | mixed | mixed confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 49.23 | mixed | 49.77 | mixed | mixed confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 49.23 | mixed | 49.95 | mixed | mixed confirmation |
 | Financials | Financials | 46.71 | mixed | 48.1 | mixed | mixed confirmation |
 | Consumer Staples | Dividend Defensives | 41.2 | weak | 45.24 | mixed | mixed confirmation |
-| Semiconductors | AI Infrastructure, Semiconductors | 40.74 | weak | 47.46 | mixed | mixed confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 40.77 | weak | 47.73 | mixed | mixed confirmation |
 | Real Estate | Dividend Defensives | 34.99 | very weak | 45.24 | mixed | mixed confirmation |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 34.67 | very weak | 37.7 | weak | broad weakness across sector and themes |
 | Grid Infrastructure | Grid Infrastructure | 33.74 | very weak | 38.55 | weak | broad weakness across sector and themes |
@@ -313,7 +313,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 7 | AI Infrastructure | 52.4 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 8 | Dividend Defensives | 51.93 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 9 | Small Caps | 50.45 | Neutral / watchlist | volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 10 | Semiconductors | 44.45 | Weak setup | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 10 | Semiconductors | 44.95 | Weak setup | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 11 | Defense | 39.99 | Weak setup | volume_accumulation, news_acceleration, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 12 | Grid Infrastructure | 39.97 | Weak setup | volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 
@@ -329,12 +329,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 42, 'negative': 34, 'neutral': 4}
-- News confirmation score: `55.0`
+- Sentiment counts: {'positive': 46, 'negative': 29, 'neutral': 5}
+- News confirmation score: `60.62`
 
 ### Top Market-Moving Headlines
 
-**1. 10-year Treasury yield hits highest level since 2007 as traders bet a Fed rate hike is coming**
+**1. Yield on 10-year Treasury hovers above 5% as investors await Fed decision**
+- Source: CNBC Markets
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: central banking, interest rates
+- Score: `57.0`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. 10-year Treasury yield hits highest level since 2007 as traders bet a Fed rate hike is coming**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -342,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.91`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. U.S. oil tops $105 as Saudi Arabia reportedly cancels some crude cargoes after pipeline closure**
+**3. U.S. oil tops $105 as Saudi Arabia reportedly cancels some crude cargoes after pipeline closure**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -350,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.51`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. How the Iran war is transforming the relationship between stocks, bonds and oil**
+**4. How the Iran war is transforming the relationship between stocks, bonds and oil**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -358,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. 30-year mortgage rate jumps to 7.17% — a nearly 2-year high — in the latest blow to the housing market**
+**5. 30-year mortgage rate jumps to 7.17% — a nearly 2-year high — in the latest blow to the housing market**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Stock futures are little changed ahead of pivotal Fed rate decision: Live updates**
+**6. Stock futures are little changed ahead of pivotal Fed rate decision: Live updates**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**6. S&P 500, Nasdaq close at lowest levels in over a month as oil, bond yields climb**
+**7. S&P 500, Nasdaq close at lowest levels in over a month as oil, bond yields climb**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
 
-**7. Here’s what investors need to watch for on Wednesday — on top of a Fed rate hike**
+**8. Here’s what investors need to watch for on Wednesday — on top of a Fed rate hike**
 - Source: MarketWatch Bulletins
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -390,19 +398,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Treasury yields are hovering above a critical threshold. Here's what it means for stocks**
+**9. Treasury yields are hovering above a critical threshold. Here's what it means for stocks**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: US Treasury yields, Stock market reaction
-- Score: `48.45`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Oil and Treasury yields haven’t moved this closely in seven years. That’s bad news for markets**
-- Source: CNBC Markets
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: oil, Treasury yields, market conditions
 - Score: `48.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
@@ -417,7 +417,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-Noisy headline list: These 4 stocks could benefit most from a $3.2 tril, The Fed’s expected interest-rate hike on Wednesday, These 4 stocks could benefit most from a $3.2 tril, Is the two-decade era of low interest rates over? , Stock market today: Dow, S&P 500, Nasdaq slip as c
+Noisy headline list: Intel, SK Hynix shares jump on report they're disc, These 4 stocks could benefit most from a $3.2 tril, The Fed’s expected interest-rate hike on Wednesday, These 4 stocks could benefit most from a $3.2 tril, Stock market today: Dow, S&P 500, Nasdaq slip as c
 
 ## Positioning & Flow Dashboard
 
