@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 17 September 2026, 00:32:28 (HKT)
+Generated at: 17 September 2026, 03:12:22 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **50.35 / 100** (Mixed / Rotation)
+- Regime score: **50.44 / 100** (Mixed / Rotation)
 - US equity strength: **41.32 / 100** (weak)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **47.98 / 100**, reliability **71.74 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 50.35 | Mixed / Rotation |
+| Overall regime | 50.44 | Mixed / Rotation |
 | equity_trend | 40.0 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 45.05 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 41.48 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.77 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.55 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 58.12 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0 |
+| news_confirmation | 60.0 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=70.0, news_confirmation=60.0 |
 | Negative contributors |  | equity_trend=40.0, market_breadth=41.48 |
 
 ## US Equity Strength Score
@@ -329,20 +329,28 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 43, 'negative': 30, 'neutral': 7}
-- News confirmation score: `58.12`
+- Sentiment counts: {'positive': 44, 'negative': 28, 'neutral': 8}
+- News confirmation score: `60.0`
 
 ### Top Market-Moving Headlines
 
-**1. Fed meeting live updates: Rate hike expected for the first time in three years**
-- Source: CNBC Top News
+**1. Fed meeting live updates: Chairman Warsh says inflation is still too high**
+- Source: CNBC Markets
 - Importance / impact: High / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: FOMC, Federal Reserve, interest rates
 - Score: `76.71`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Consumers hit by one-two punch of oil and rates from Iran war. The estimated bill is $1,700 per household**
+**2. Federal Reserve issues FOMC statement**
+- Source: Federal Reserve Press Releases
+- Importance / impact: High / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: ^DJI, ^IXIC, SPX, FOMC, Economic Policy
+- Score: `76.5`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Consumers hit by one-two punch of oil and rates from Iran war. The estimated bill is $1,700 per household**
 - Source: CNBC Economy
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -350,31 +358,47 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `61.2`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Traders are betting Trump may soon turn on Fed chair Kevin Warsh as interest-rate hikes loom**
+**4. Warsh’s Fed rolls out first interest-rate hike in 3 years — with one more increase expected**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: Federal Reserve, interest-rate hike, political influence
+- Affected assets: U.S, central bank policy, inflation, interest rates
 - Score: `60.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. S&P 500 rises ahead of pivotal Fed rate decision: Live updates**
-- Source: CNBC Markets
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short term
-- Affected assets: P, S, Federal Reserve, Interest Rates
-- Score: `57.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
+**5. Solid Economic Data Show U.S. Economy Running Hot Ahead of Fed Decision**
+- Source: Dow Jones Economy
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, economy, retail sales, interest rates
+- Score: `57.38`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Yield on 10-year Treasury below 5% as investors await Fed decision**
-- Source: CNBC Markets
+**6. 10-year Treasury yield hovers at 4.98% as Fed hikes, Warsh highlights inflation risks**
+- Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: central banking, interest rates
 - Score: `57.0`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. 10-year Treasury yield hits highest level since 2007 as traders bet a Fed rate hike is coming**
+**7. Dow falls 400 points after Fed hikes rates and Warsh says inflation still too high: Live updates**
+- Source: CNBC Top News
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short term
+- Affected assets: Federal Reserve, Interest Rates
+- Score: `57.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
+
+**8. Fed hikes rates by quarter point, sees only one more move higher through 2027**
+- Source: MarketWatch Bulletins
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: ^GSPC, ^DJI, ^RUT, interest_rate_hike, economic_policy
+- Score: `57.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. 10-year Treasury yield hits highest level since 2007 as traders bet a Fed rate hike is coming**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -382,42 +406,18 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.91`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. U.S. oil tops $105 as Saudi Arabia reportedly cancels some crude cargoes after pipeline closure**
-- Source: CNBC Top News
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, oil, geopolitical_risk, energy_markets
-- Score: `54.51`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. Mortgage demand from homebuyers drops 19% from a year ago, as interest rates surge abruptly higher**
-- Source: CNBC Business
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: housing market, interest rates
-- Score: `52.02`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**9. How the Iran war is transforming the relationship between stocks, bonds and oil**
+**10. Traders are betting Trump may soon turn on Fed chair Kevin Warsh as interest-rate hikes loom**
 - Source: MarketWatch Top Stories
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: oil, energy_prices, global_markets
+- Affected assets: Federal Reserve, interest-rate hike, political influence
 - Score: `51.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Retail sales surged toward the end of summer. The U.S. economy has plenty of momentum.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: U.S, economy, retail
-- Score: `49.73`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
 
-Noisy headline list: Intel, SK Hynix shares jump on report they're disc, These 4 stocks could benefit most from a $3.2 tril, The Fed’s expected interest-rate hike on Wednesday, These 4 stocks could benefit most from a $3.2 tril, Is the two-decade era of low interest rates over? , Stock market today: Dow, S&P 500, Nasdaq slip as c
+Noisy headline list: Intel, SK Hynix shares jump on report they're disc, These 4 stocks could benefit most from a $3.2 tril, The Fed’s expected interest-rate hike on Wednesday, These 4 stocks could benefit most from a $3.2 tril, Stock market today: S&P 500 and Nasdaq rise ahead , Stock market today: Dow, S&P 500, Nasdaq slip as c
 
 ## Positioning & Flow Dashboard
 
