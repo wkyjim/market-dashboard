@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 16 September 2026, 11:29:40 (HKT)
+Generated at: 16 September 2026, 12:12:04 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **50.54 / 100** (Mixed / Rotation)
+- Regime score: **50.7 / 100** (Mixed / Rotation)
 - US equity strength: **41.32 / 100** (weak)
-- Evidence quality: **72.5 / 100**
+- Evidence quality: **76.0 / 100**
 - ETF flow contribution: **47.99 / 100**, reliability **67.19 / 100**
 - Breadth: **narrow**; above 50DMA `31.67%`, above 200DMA `66.1%`
 - Top sector score: **Cybersecurity** `69.42`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 50.54 | Mixed / Rotation |
+| Overall regime | 50.7 | Mixed / Rotation |
 | equity_trend | 40.0 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 45.05 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 41.48 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 54.05 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.65 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 53.12 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 56.25 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=70.0, commodity_confirmation=63.0 |
 | Negative contributors |  | equity_trend=40.0, market_breadth=41.48 |
 
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `72.5`
-- Agreement ratio: `0.3`
+- Confidence score: `76.0`
+- Agreement ratio: `0.4`
 - Contradiction count: `2`
 - Missing indicators: none
 - Warning flags: none
@@ -329,20 +329,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 40, 'negative': 35, 'neutral': 5}
-- News confirmation score: `53.12`
+- Sentiment counts: {'positive': 43, 'negative': 33, 'neutral': 4}
+- News confirmation score: `56.25`
 
 ### Top Market-Moving Headlines
 
-**1. How the Iran war is transforming the relationship between stocks, bonds and oil**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: oil, energy_prices, global_markets
-- Score: `60.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Stock futures are little changed ahead of pivotal Fed rate decision: Live updates**
+**1. Stock futures are little changed ahead of pivotal Fed rate decision: Live updates**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short term
@@ -350,7 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `57.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
 
-**3. 10-year Treasury yield hits highest level since 2007 as traders bet a Fed rate hike is coming**
+**2. 10-year Treasury yield hits highest level since 2007 as traders bet a Fed rate hike is coming**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -358,13 +350,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `54.91`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. U.S. oil tops $105 as Saudi Arabia reportedly cancels some crude cargoes after pipeline closure**
+**3. U.S. oil tops $105 as Saudi Arabia reportedly cancels some crude cargoes after pipeline closure**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, oil, geopolitical_risk, energy_markets
 - Score: `54.51`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. How the Iran war is transforming the relationship between stocks, bonds and oil**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: oil, energy_prices, global_markets
+- Score: `51.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **5. 30-year mortgage rate jumps to 7.17% — a nearly 2-year high — in the latest blow to the housing market**
 - Source: MarketWatch Top Stories
@@ -417,7 +417,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-Noisy headline list: These 4 stocks could benefit most from a $3.2 tril, These 4 stocks could benefit most from a $3.2 tril, The Fed’s expected interest-rate hike on Wednesday
+Noisy headline list: These 4 stocks could benefit most from a $3.2 tril, The Fed’s expected interest-rate hike on Wednesday, These 4 stocks could benefit most from a $3.2 tril
 
 ## Positioning & Flow Dashboard
 
