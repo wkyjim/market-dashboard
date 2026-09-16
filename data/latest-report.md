@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 16 September 2026, 18:12:20 (HKT)
+Generated at: 16 September 2026, 18:20:37 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
 - Regime score: **50.97 / 100** (Mixed / Rotation)
 - US equity strength: **41.32 / 100** (weak)
-- Evidence quality: **79.5 / 100**
+- Evidence quality: **76.0 / 100**
 - ETF flow contribution: **47.98 / 100**, reliability **71.74 / 100**
 - Breadth: **narrow**; above 50DMA `31.67%`, above 200DMA `66.1%`
 - Top sector score: **Cybersecurity** `70.86`
@@ -24,7 +24,7 @@ Window: 24h
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.02 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.94 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.55 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 60.62 | mild risk-on support; Weighted headline/news confirmation score. |
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `79.5`
-- Agreement ratio: `0.5`
+- Confidence score: `76.0`
+- Agreement ratio: `0.4`
 - Contradiction count: `2`
 - Missing indicators: none
 - Warning flags: none
@@ -76,15 +76,15 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7585.73 | -0.45 | 2026-09-15 | closed |
 | ^IXIC | NASDAQ Composite | 25981.57 | -0.78 | 2026-09-15 | closed |
 | ^RUT | Russell 2000 Index | 2870.29 | -0.76 | 2026-09-15 | closed |
-| ^VIX | CBOE Volatility Index | 17.05 | -0.87 | 2026-09-16 | live as of 16 September 2026, 17:00:22 (HKT) |
+| ^VIX | CBOE Volatility Index | 16.99 | -1.22 | 2026-09-16 | live as of 16 September 2026, 18:00:24 (HKT) |
 | ^SKEW | CBOE SKEW Index | 146.61 | -3.6 | 2026-09-15 | closed |
 | ^MOVE | ICE BofA MOVE Index | 83.71 | -0.23 | 2026-09-15 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.66 | -0.08 | 2026-09-16 | live as of 16 September 2026, 17:00:22 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.76 | -0.02 | 2026-09-16 | live as of 16 September 2026, 17:00:22 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.83 | 0.04 | 2026-09-16 | live as of 16 September 2026, 17:00:22 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.91 | 0.11 | 2026-09-16 | live as of 16 September 2026, 17:00:22 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 5.01 | 0.2 | 2026-09-16 | live as of 16 September 2026, 17:00:22 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.41 | 0.14 | 2026-09-16 | live as of 16 September 2026, 17:00:22 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.65 | -0.31 | 2026-09-16 | live as of 16 September 2026, 18:00:24 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.75 | -0.23 | 2026-09-16 | live as of 16 September 2026, 18:00:24 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.84 | 1.02 | 2026-09-15 | closed |
+| US7YT=X | United States 7-Year Treasury Yield | 4.9 | -0.17 | 2026-09-16 | live as of 16 September 2026, 18:00:24 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.99 | -0.12 | 2026-09-16 | live as of 16 September 2026, 18:00:24 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.4 | -0.1 | 2026-09-16 | live as of 16 September 2026, 18:00:24 (HKT) |
 | US30YT=X | United States 30-Year Treasury Yield | 5.37 | 0.78 | 2026-09-15 | closed |
 | HK50 | Hang Seng Futures | 24687.0 | -0.28 | 2026-09-16 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1051.2 | 1.1 | 2026-09-15 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 80.71 | -0.27 | 2026-09-15 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 90.82 | -0.12 | 2026-09-15 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.31 | -0.04 | 2026-09-15 | closed |
-| GC=F | Gold Future | 4366.4 | 0.78 | 2026-09-16 | live as of 16 September 2026, 17:00:22 (HKT) |
-| SI=F | Silver Future | 64.95 | 2.71 | 2026-09-16 | live as of 16 September 2026, 17:00:22 (HKT) |
-| CL=F | WTI Crude Oil Future | 104.72 | -1.05 | 2026-09-16 | live as of 16 September 2026, 17:00:22 (HKT) |
-| HG=F | Copper Future | 6.48 | 1.76 | 2026-09-16 | live as of 16 September 2026, 17:00:22 (HKT) |
+| GC=F | Gold Future | 4375.6 | 0.99 | 2026-09-16 | live as of 16 September 2026, 18:00:24 (HKT) |
+| SI=F | Silver Future | 65.02 | 2.82 | 2026-09-16 | live as of 16 September 2026, 18:00:24 (HKT) |
+| CL=F | WTI Crude Oil Future | 103.86 | -1.86 | 2026-09-16 | live as of 16 September 2026, 18:00:24 (HKT) |
+| HG=F | Copper Future | 6.48 | 1.75 | 2026-09-16 | live as of 16 September 2026, 18:00:24 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=17.05 pct_chg=-0.87
+- VIX close=16.99 pct_chg=-1.22
 
 ## News Analytics
 
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `22`
+- Live macro rows used: `21`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
