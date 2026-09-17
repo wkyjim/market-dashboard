@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 17 September 2026, 09:12:12 (HKT)
+Generated at: 17 September 2026, 12:12:22 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -11,7 +11,7 @@ Window: 24h
 - ETF flow contribution: **47.98 / 100**, reliability **71.74 / 100**
 - Breadth: **narrow**; above 50DMA `31.67%`, above 200DMA `66.1%`
 - Top sector score: **Cybersecurity** `70.86`
-- Top theme score: **Energy** `65.14`
+- Top theme score: **Energy** `64.97`
 
 ## Market Regime Score
 
@@ -259,7 +259,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Energy | 65.14 | Positive setup | 50.0 | 0.0 | 2.57 | True | False |
+| 1 | Energy | 64.97 | Positive setup | 50.0 | 0.0 | 2.57 | True | False |
 | 2 | Cybersecurity | 62.86 | Positive setup | 64.47 | 65.0 | 13.54 | True | False |
 | 3 | Quality Growth | 54.4 | Neutral / watchlist | 53.55 | 65.0 | 11.9 | False | False |
 | 4 | Crypto Infrastructure | 53.58 | Neutral / watchlist | 67.81 | 65.0 | 18.36 | False | False |
@@ -283,7 +283,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
 | Cybersecurity | Cybersecurity | 70.86 | strong | 62.86 | positive | sector and theme confirmation |
-| Energy | Energy | 66.75 | strong | 65.14 | strong | sector and theme confirmation |
+| Energy | Energy | 66.75 | strong | 64.97 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 57.08 | positive | 51.19 | mixed | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 51.78 | mixed | 53.58 | mixed | mixed confirmation |
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 49.23 | mixed | 49.33 | mixed | mixed confirmation |
@@ -302,7 +302,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Classification | Drivers | Invalidation Triggers |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Energy | 69.37 | Positive setup | relative_strength_60d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
+| 1 | Energy | 71.37 | Positive setup | relative_strength_60d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 2 | Cybersecurity | 64.28 | Positive setup | relative_strength_60d, trend_persistence, breadth, volume_accumulation, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 3 | Healthcare Innovation | 60.37 | Positive setup | trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | Quality Growth | 59.98 | Neutral / watchlist | trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
@@ -327,7 +327,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 45, 'negative': 24, 'neutral': 11}
+- Sentiment counts: {'positive': 44, 'negative': 23, 'neutral': 13}
 - News confirmation score: `63.12`
 
 ### Top Market-Moving Headlines
@@ -337,7 +337,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: High / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: FOMC, Federal Reserve, interest rates
-- Score: `76.71`
+- Score: `65.21`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **2. Federal Reserve issues FOMC statement**
@@ -356,55 +356,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `60.0`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Fed rate hike fails to calm troubled markets as Dow falls 600 points. Expect more sharp swings in stocks and bonds.**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: inflation, rate hike, market volatility
-- Score: `59.5`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**5. Fed rate hike fails to calm markets. Expect more sharp swings in stocks, bonds.**
-- Source: MarketWatch Bulletins
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: interest rate, market volatility
-- Score: `57.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. Dow drops 600 points as Fed rate hike and Warsh's inflation talk unnerve investors: Live updates**
-- Source: CNBC Top News
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short term
-- Affected assets: Federal Reserve, Interest Rates
-- Score: `57.0`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short term.
-
-**7. 10-year Treasury yield climbs back to 5% after Fed hikes rates, Warsh highlights inflation risks**
-- Source: CNBC Top News
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: central banking, interest rates
-- Score: `57.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. As Fed rolls out first rate hike in 3 years, officials are divided on next move**
-- Source: MarketWatch Bulletins
-- Importance / impact: High / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: central_bank_policy
-- Score: `57.0`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Fed raises rates: What it means for your credit cards, mortgages, savings accounts and auto loans**
-- Source: CNBC Markets
-- Importance / impact: High / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Fed, interest rates, consumer borrowing
-- Score: `57.0`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Consumers hit by one-two punch of oil and rates from Iran war. The estimated bill is $1,700 per household**
+**4. Consumers hit by one-two punch of oil and rates from Iran war. The estimated bill is $1,700 per household**
 - Source: CNBC Economy
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -412,10 +364,58 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `52.02`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
+**5. Traders are betting Trump may soon turn on Fed chair Kevin Warsh as interest-rate hikes loom**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: Federal Reserve, interest-rate hike, political influence
+- Score: `51.0`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. Fed rate hike fails to calm troubled markets as Dow falls 600 points. Expect more sharp swings in stocks and bonds.**
+- Source: MarketWatch Top Stories
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: inflation, rate hike, market volatility
+- Score: `50.58`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. Stock futures rise after Fed's rate hike spurs a market sell-off: Live updates**
+- Source: CNBC Top News
+- Importance / impact: High / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: monetary_policy, market_reactions
+- Score: `49.4`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. CNBC Daily Open: The Fed rate hikes might not be one-and-done**
+- Source: CNBC Top News
+- Importance / impact: High / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: CNBC, Federal Reserve, interest rates
+- Score: `49.4`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. Solid Economic Data Show U.S. Economy Running Hot Ahead of Fed Decision**
+- Source: Dow Jones Economy
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, economy, retail sales, interest rates
+- Score: `48.77`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Fed rate hike fails to calm markets. Expect more sharp swings in stocks, bonds.**
+- Source: MarketWatch Bulletins
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: interest rate, market volatility
+- Score: `48.45`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
 
 ### Headline Quality Checks
 
-Noisy headline list: Intel, SK Hynix shares jump on report they're disc, Stock market today: S&P 500 and Nasdaq rise ahead , Stock Market Today: Nasdaq, S&P 500 Up With Fed De, Stock market today: Dow, S&P 500, Nasdaq slip as c
+Noisy headline list: Intel, SK Hynix shares jump on report they're disc, Stock market today: S&P 500 and Nasdaq rise ahead , Stock Market Today: Nasdaq, S&P 500 Up With Fed De
 
 ## Positioning & Flow Dashboard
 
