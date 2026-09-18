@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 18 September 2026, 21:42:03 (HKT)
+Generated at: 18 September 2026, 22:07:03 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **50.4 / 100** (Mixed / Rotation)
+- Regime score: **51.5 / 100** (Mixed / Rotation)
 - US equity strength: **41.32 / 100** (weak)
 - Evidence quality: **72.5 / 100**
 - ETF flow contribution: **49.09 / 100**, reliability **71.16 / 100**
@@ -17,19 +17,19 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 50.4 | Mixed / Rotation |
+| Overall regime | 51.5 | Mixed / Rotation |
 | equity_trend | 40.0 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 45.05 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 41.48 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
-| volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
+| volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 53.72 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 53.7 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 67.0 | risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.35 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 44.38 | mild risk-off pressure; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0, commodity_confirmation=67.0 |
-| Negative contributors |  | equity_trend=40.0, market_breadth=41.48, news_confirmation=44.38 |
+| news_confirmation | 46.25 | neutral / mixed; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=80.0, commodity_confirmation=67.0 |
+| Negative contributors |  | equity_trend=40.0, market_breadth=41.48 |
 
 ## US Equity Strength Score
 
@@ -49,7 +49,7 @@ Window: 24h
 
 - Confidence score: `72.5`
 - Agreement ratio: `0.3`
-- Contradiction count: `3`
+- Contradiction count: `2`
 - Missing indicators: none
 - Warning flags: none
 
@@ -57,15 +57,15 @@ Window: 24h
 
 | Area | Signal | Interpretation |
 | --- | --- | --- |
-| Equities | S&P 500 rising; Nasdaq rising; Russell 2000 rising | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
+| Equities | S&P 500 stable; Nasdaq stable; Russell 2000 falling | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
 | Rates | 10Y Treasury rising; MOVE falling | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy rising | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
-| Credit | HYG rising | High-yield weakness would challenge equity risk-on confirmation. |
+| Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold stable | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
-| Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
+| Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
 
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7637.76 | 1.14 | 2026-09-17 | closed |
-| ^IXIC | NASDAQ Composite | 26418.3 | 1.69 | 2026-09-17 | closed |
-| ^RUT | Russell 2000 Index | 2874.63 | 0.55 | 2026-09-17 | closed |
-| ^VIX | CBOE Volatility Index | 15.51 | 0.45 | 2026-09-18 | live as of 18 September 2026, 21:00:25 (HKT) |
+| ^GSPC | S&P 500 | 7628.57 | -0.12 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
+| ^IXIC | NASDAQ Composite | 26441.28 | 0.09 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
+| ^RUT | Russell 2000 Index | 2859.21 | -0.54 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.24 | -1.3 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
 | ^SKEW | CBOE SKEW Index | 145.7 | -0.17 | 2026-09-17 | closed |
 | ^MOVE | ICE BofA MOVE Index | 76.22 | -5.59 | 2026-09-17 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.73 | 0.77 | 2026-09-18 | live as of 18 September 2026, 21:00:25 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.81 | 0.94 | 2026-09-18 | live as of 18 September 2026, 21:00:25 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.84 | 0.84 | 2026-09-18 | live as of 18 September 2026, 21:00:25 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.91 | 0.84 | 2026-09-18 | live as of 18 September 2026, 21:00:25 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.99 | 0.77 | 2026-09-18 | live as of 18 September 2026, 21:00:25 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.36 | 0.5 | 2026-09-18 | live as of 18 September 2026, 21:00:25 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.31 | 0.35 | 2026-09-18 | live as of 18 September 2026, 21:00:25 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.74 | 1.09 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.82 | 1.3 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.86 | 1.18 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.93 | 1.23 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 5.0 | 1.03 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.37 | 0.77 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.33 | 0.61 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
 | HK50 | Hang Seng Futures | 24654.5 | -0.05 | 2026-09-18 | closed |
 | KOR200c1 | KOSPI 200 Futures | 1084.95 | 2.09 | 2026-09-17 | closed |
 | CIHc1 | SSE 50 Futures | 2828.2 | -1.34 | 2026-09-17 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 78.72 | 0.38 | 2026-09-17 | closed |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 105.16 | 0.68 | 2026-09-17 | closed |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 94.74 | 0.37 | 2026-09-17 | closed |
-| RSP | Invesco S&P 500 Equal Weight ETF | 213.31 | 0.49 | 2026-09-17 | closed |
-| IWF | iShares Russell 1000 Growth ETF | 122.53 | 1.65 | 2026-09-17 | closed |
-| IWD | iShares Russell 1000 Value ETF | 252.82 | 0.66 | 2026-09-17 | closed |
-| TLT | iShares 20+ Year Treasury Bond ETF | 81.78 | 1.11 | 2026-09-17 | closed |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 91.25 | 0.57 | 2026-09-17 | closed |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.36 | 0.15 | 2026-09-17 | closed |
-| GC=F | Gold Future | 4408.3 | 0.2 | 2026-09-18 | live as of 18 September 2026, 21:00:25 (HKT) |
-| SI=F | Silver Future | 67.09 | 2.47 | 2026-09-18 | live as of 18 September 2026, 21:00:25 (HKT) |
-| CL=F | WTI Crude Oil Future | 102.61 | 0.69 | 2026-09-18 | live as of 18 September 2026, 21:00:25 (HKT) |
-| HG=F | Copper Future | 6.66 | 1.13 | 2026-09-18 | live as of 18 September 2026, 21:00:25 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 78.56 | -0.2 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.69 | -0.45 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 94.53 | -0.22 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 211.96 | -0.63 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 122.8 | 0.22 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 251.4 | -0.56 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 81.29 | -0.6 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 90.86 | -0.43 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.28 | -0.1 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
+| GC=F | Gold Future | 4393.4 | -0.14 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
+| SI=F | Silver Future | 66.94 | 2.25 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
+| CL=F | WTI Crude Oil Future | 103.14 | 1.21 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
+| HG=F | Copper Future | 6.66 | 1.12 | 2026-09-18 | live as of 18 September 2026, 22:00:29 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -226,10 +226,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Indicator | Latest | Unit | Change | Date | Rule-Based Interpretation |
 | --- | --- | --- | --- | --- | --- |
-| US dollar/Euro ECB reference exchange rate | 1.15 | USD | -0.01 USD vs prior | 2026-09-17 | EUR weakened versus this currency. |
-| Japanese yen/Euro ECB reference exchange rate | 178.75 | JPY | -0.13 JPY vs prior | 2026-09-17 | EUR weakened versus this currency. |
-| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.7 | CNY | -0.04 CNY vs prior | 2026-09-17 | EUR weakened versus this currency. |
-| Australian dollar/Euro ECB reference exchange rate | 1.61 | AUD | -0.0 AUD vs prior | 2026-09-17 | EUR weakened versus this currency. |
+| US dollar/Euro ECB reference exchange rate | 1.15 | USD | -0.0 USD vs prior | 2026-09-18 | EUR weakened versus this currency. |
+| Japanese yen/Euro ECB reference exchange rate | 180.94 | JPY | 2.19 JPY vs prior | 2026-09-18 | EUR strengthened versus this currency. |
+| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.68 | CNY | -0.03 CNY vs prior | 2026-09-18 | EUR weakened versus this currency. |
+| Australian dollar/Euro ECB reference exchange rate | 1.61 | AUD | -0.0 AUD vs prior | 2026-09-18 | EUR weakened versus this currency. |
 
 ABS Australia note: ABS rows are stored locally/Neon, but most series are dimension-coded; only curated series should be promoted into narrative report text.
 
@@ -325,12 +325,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.51 pct_chg=0.45
+- VIX close=15.24 pct_chg=-1.3
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 11, 'negative': 20, 'neutral': 49}
-- News confirmation score: `44.38`
+- Sentiment counts: {'positive': 11, 'negative': 17, 'neutral': 52}
+- News confirmation score: `46.25`
 
 ### Top Market-Moving Headlines
 
@@ -374,15 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.29`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**6. The smartest money moves to make now that interest rates are going up**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: interest rates, financial advice
-- Score: `26.77`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Why mortgage bonds are set to deteriorate, and possibly hit the whole market, according to this Wall Street expert**
+**6. Why mortgage bonds are set to deteriorate, and possibly hit the whole market, according to this Wall Street expert**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**8. The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.**
+**7. The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**9. More Americans are about to get scammed by the coming peptide rush**
+**8. More Americans are about to get scammed by the coming peptide rush**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -406,11 +398,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**10. The Fed hasn’t been this terse since 2007. What a 130-word statement signals for market stability.**
+**9. The Fed hasn’t been this terse since 2007. What a 130-word statement signals for market stability.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
 - Affected assets: Equities, Bonds, USD, Commodities
+- Score: `25.0`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**10. The Fed’s never been so confident on economic growth. What investors should do now, according to KKR.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: KKR
 - Score: `25.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `26`
+- Live macro rows used: `40`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
