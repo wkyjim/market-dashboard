@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 18 September 2026, 09:11:10 (HKT)
+Generated at: 18 September 2026, 12:09:51 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **50.48 / 100** (Mixed / Rotation)
+- Regime score: **50.51 / 100** (Mixed / Rotation)
 - US equity strength: **41.32 / 100** (weak)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **47.98 / 100**, reliability **71.74 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 50.48 | Mixed / Rotation |
+| Overall regime | 50.51 | Mixed / Rotation |
 | equity_trend | 40.0 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 45.05 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 41.48 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 54.05 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.55 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 56.88 | mild risk-on support; Weighted headline/news confirmation score. |
+| news_confirmation | 57.5 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=70.0 |
 | Negative contributors |  | equity_trend=40.0, market_breadth=41.48 |
 
@@ -327,28 +327,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 37, 'negative': 26, 'neutral': 17}
-- News confirmation score: `56.88`
+- Sentiment counts: {'positive': 37, 'negative': 25, 'neutral': 18}
+- News confirmation score: `57.5`
 
 ### Top Market-Moving Headlines
 
-**1. Stocks surge as oil and bond yields retreat, recovering from Fed-induced sell-off**
-- Source: CNBC Top News
-- Importance / impact: High / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: monetary_policy, market_reactions
-- Score: `49.4`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Treasury yields move lower after Fed kicks off hiking cycle**
-- Source: CNBC Top News
-- Importance / impact: High / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Federal Reserve, interest rates, Treasury yields
-- Score: `49.4`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. A stronger dollar and rising yields: How the Fed’s rate hike could hit global markets**
+**1. A stronger dollar and rising yields: How the Fed’s rate hike could hit global markets**
 - Source: CNBC Top News
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -356,7 +340,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.22`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Generac’s stock soars more than 30% after Amazon deal cements company’s status as an AI power player**
+**2. Generac’s stock soars more than 30% after Amazon deal cements company’s status as an AI power player**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short term
@@ -364,15 +348,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `42.27`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**5. CNBC Daily Open: The Fed rate hikes might not be one-and-done**
+**3. Stocks surge as oil and bond yields retreat, recovering from Fed-induced sell-off**
 - Source: CNBC Top News
 - Importance / impact: Medium / Mixed
 - Relevance / horizon: macro / short-term
-- Affected assets: CNBC, Federal Reserve, interest rates
+- Affected assets: monetary_policy, market_reactions
 - Score: `41.99`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. 'Hostile act': Trump threatens EU with tariffs over Canada associate membership proposal**
+**4. Treasury yields move lower after Fed kicks off hiking cycle**
+- Source: CNBC Top News
+- Importance / impact: Medium / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Federal Reserve, interest rates, Treasury yields
+- Score: `41.99`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. 'Hostile act': Trump threatens EU with tariffs over Canada associate membership proposal**
 - Source: CNBC Business Headlines
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -380,7 +372,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. U.S. Treasury Yields Fall as Fed Regains Trust, BOE Leaves Rates Unchanged**
+**6. U.S. Treasury Yields Fall as Fed Regains Trust, BOE Leaves Rates Unchanged**
 - Source: Dow Jones Economy
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -388,15 +380,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.68`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. America’s AI chip talent crisis — why The U.S. needs 157,000 more workers**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / short-term
-- Affected assets: TSMC, U.S, labor_market, technology, semiconductor
-- Score: `32.11`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
-
-**9. UK inflation jumps to 3.1% as energy costs soar**
+**7. UK inflation jumps to 3.1% as energy costs soar**
 - Source: CNBC Economy
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -404,13 +388,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.84`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**10. Bilfinger Shares Fall 20% on Lowered Outlook, Job Cuts**
+**8. Bilfinger Shares Fall 20% on Lowered Outlook, Job Cuts**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: BIL, restructuring, job cuts, financial outlook
 - Score: `27.97`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**9. America’s AI chip talent crisis — why The U.S. needs 157,000 more workers**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: single_name / short-term
+- Affected assets: TSMC, U.S, labor_market, technology, semiconductor
+- Score: `27.29`
+- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
+
+**10. The smartest money moves to make now that interest rates are going up**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: interest rates, financial advice
+- Score: `26.77`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
