@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 18 September 2026, 15:09:52 (HKT)
+Generated at: 18 September 2026, 18:09:53 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -242,7 +242,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Cybersecurity | 70.86 | strong uptrend | positive | broad | 64.47 | 65.0 | 60.37 | CIBR | CIBR |
 | 2 | Energy | 66.95 | strong uptrend | positive | broad | 50.0 | 0.0 | 62.87 | MPC, VLO, APA | WMB, KMI, BKR |
 | 3 | Healthcare | 57.08 | strong uptrend | neutral | broad | 49.24 | 95.0 | 55.72 | MRNA, RVTY, VEEV | BSX, SYK, COO |
-| 4 | Crypto | 51.47 | neutral | neutral | mixed | 67.81 | 65.0 | 50.0 |  |  |
+| 4 | Crypto | 51.78 | neutral | neutral | mixed | 67.81 | 65.0 | 50.0 |  |  |
 | 5 | Technology | 49.23 | neutral | neutral | mixed | 47.01 | 100.0 | 46.76 | CRM, SWKS, NOW | WDC, TER, CIEN |
 | 6 | Financials | 46.71 | neutral | neutral | weak | 47.73 | 95.0 | 52.3 | HOOD, COIN, PGR | BX, PYPL, AON |
 | 7 | Consumer Staples | 41.2 | downtrend | neutral | weak | 47.95 | 65.0 | 50.15 | EL, KR, MO | HRL, CLX, CASY |
@@ -285,7 +285,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 70.86 | strong | 62.86 | positive | sector and theme confirmation |
 | Energy | Energy | 66.95 | strong | 68.21 | strong | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 57.08 | positive | 51.19 | mixed | sector stronger than related themes |
-| Crypto | Crypto Infrastructure | 51.47 | mixed | 53.58 | mixed | mixed confirmation |
+| Crypto | Crypto Infrastructure | 51.78 | mixed | 53.58 | mixed | mixed confirmation |
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 49.23 | mixed | 49.33 | mixed | mixed confirmation |
 | Financials | Financials | 46.71 | mixed | 48.1 | mixed | mixed confirmation |
 | Consumer Staples | Dividend Defensives | 41.2 | weak | 45.24 | mixed | mixed confirmation |
@@ -327,7 +327,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 30, 'negative': 28, 'neutral': 22}
+- Sentiment counts: {'positive': 28, 'negative': 26, 'neutral': 26}
 - News confirmation score: `51.25`
 
 ### Top Market-Moving Headlines
@@ -372,23 +372,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.68`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. UK inflation jumps to 3.1% as energy costs soar**
-- Source: CNBC Economy
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: UK, inflation, central banking
-- Score: `29.84`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**7. Bilfinger Shares Fall 20% on Lowered Outlook, Job Cuts**
-- Source: Dow Jones US Business
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: BIL, restructuring, job cuts, financial outlook
-- Score: `27.97`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**8. America’s AI chip talent crisis — why The U.S. needs 157,000 more workers**
+**6. America’s AI chip talent crisis — why The U.S. needs 157,000 more workers**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
@@ -396,7 +380,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.29`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**9. The smartest money moves to make now that interest rates are going up**
+**7. The smartest money moves to make now that interest rates are going up**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -404,18 +388,34 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `26.77`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Trump gains a tariff weapon against China and India. Will he use it?**
+**8. Salesforce Targets Fiscal 2030 Revenue at Over $63 Billion**
+- Source: Dow Jones US Business
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / long-term
+- Affected assets: Salesforce, growth, AI, revenue
+- Score: `24.86`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**9. Economic calendar: jobless claims, business outlook, housing data**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: economic data, job market, real estate
+- Score: `24.02`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**10. Trump says he told Warsh to vote for hike with the rest of Fed board: 'It's not going to matter'**
 - Source: CNBC Business Headlines
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
-- Affected assets: U.S, trade, geopolitics, oil
-- Score: `26.18`
+- Affected assets: U.S, interest rates, trade, government influence
+- Score: `23.8`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
 
-Noisy headline list: Stock market today: Dow, S&P 500, Nasdaq rise as F, Stock market today: Dow sinks 600 points, S&P 500 
+Noisy headline list: Stock market today: Dow, S&P 500, Nasdaq rise as F, Stock market today: Dow sinks 600 points, S&P 500 , Stock Market Today: Nasdaq Leads Charge After Fed 
 
 ## Positioning & Flow Dashboard
 
