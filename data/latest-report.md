@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 19 September 2026, 12:09:49 (HKT)
+Generated at: 19 September 2026, 12:16:08 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **59.05 / 100** (Mild Risk-On)
+- Regime score: **59.08 / 100** (Mild Risk-On)
 - US equity strength: **63.35 / 100** (constructive)
 - Evidence quality: **79.5 / 100**
-- ETF flow contribution: **49.94 / 100**, reliability **65.94 / 100**
+- ETF flow contribution: **50.24 / 100**, reliability **66.72 / 100**
 - Breadth: **narrow**; above 50DMA `45.0%`, above 200DMA `66.1%`
 - Top sector score: **Cybersecurity** `68.54`
 - Top theme score: **Crypto Infrastructure** `73.6`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 59.05 | Mild Risk-On |
+| Overall regime | 59.08 | Mild Risk-On |
 | equity_trend | 73.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.3 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 49.81 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 55.02 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 49.96 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 50.16 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 51.25 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=80.0, equity_trend=73.75, commodity_confirmation=61.0 |
 | Negative contributors |  | none |
@@ -244,7 +244,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Cybersecurity | 68.54 | strong uptrend | positive | broad | 50.0 | 0.0 | 60.31 | CIBR | CIBR |
 | 2 | Technology | 66.17 | strong uptrend | neutral | broad | 48.58 | 65.0 | 51.05 | DELL, SWKS, CRWD | ADSK, INTU, FICO |
 | 3 | Energy | 63.59 | strong uptrend | positive | broad | 38.34 | 65.0 | 57.07 | VLO, MPC, PSX | BKR, FANG, EXE |
-| 4 | Semiconductors | 62.25 | strong uptrend | neutral | broad | 67.44 | 65.0 | 45.93 | SOXX, SMH | SMH, SOXX |
+| 4 | Semiconductors | 62.81 | strong uptrend | neutral | broad | 72.96 | 90.0 | 45.93 | SOXX, SMH | SMH, SOXX |
 | 5 | Healthcare | 59.59 | strong uptrend | neutral | broad | 71.25 | 65.0 | 51.05 | RVTY, MRNA, HCA | BAX, SYK, COO |
 | 6 | Crypto | 51.73 | neutral | neutral | mixed | 67.33 | 65.0 | 50.0 |  |  |
 | 7 | Financials | 45.61 | neutral | neutral | weak | 48.63 | 65.0 | 48.96 | HOOD, COIN, PFG | FIS, PYPL, AON |
@@ -265,8 +265,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 2 | Quality Growth | 63.53 | Positive setup | 58.27 | 65.0 | 6.5 | True | False |
 | 3 | Cybersecurity | 62.04 | Positive setup | 50.0 | 0.0 | 20.84 | True | False |
 | 4 | Energy | 61.34 | Positive setup | 38.34 | 65.0 | 3.39 | True | False |
-| 5 | AI Infrastructure | 60.64 | Positive setup | 67.44 | 65.0 | 6.01 | True | False |
-| 6 | Semiconductors | 56.92 | Neutral / watchlist | 67.44 | 65.0 | 23.27 | False | False |
+| 5 | AI Infrastructure | 61.2 | Positive setup | 72.96 | 90.0 | 6.01 | True | False |
+| 6 | Semiconductors | 57.48 | Neutral / watchlist | 72.96 | 90.0 | 23.27 | False | False |
 | 7 | Healthcare Innovation | 55.67 | Positive setup | 71.25 | 65.0 | 5.93 | False | False |
 | 8 | Small Caps | 44.68 | Neutral / watchlist | 57.68 | 65.0 | 0.0 | False | False |
 | 9 | Grid Infrastructure | 43.96 | Neutral / watchlist | 50.0 | 0.0 | 8.38 | False | False |
@@ -285,9 +285,9 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
 | Cybersecurity | Cybersecurity | 68.54 | strong | 62.04 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.17 | strong | 60.37 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.17 | strong | 60.74 | positive | sector and theme confirmation |
 | Energy | Energy | 63.59 | positive | 61.34 | positive | sector and theme confirmation |
-| Semiconductors | AI Infrastructure, Semiconductors | 62.25 | positive | 58.78 | positive | sector and theme confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 62.81 | positive | 59.34 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 59.59 | positive | 55.67 | positive | sector and theme confirmation |
 | Crypto | Crypto Infrastructure | 51.73 | mixed | 73.6 | strong | theme stronger than official sector |
 | Financials | Financials | 45.61 | mixed | 42.52 | weak | mixed confirmation |
@@ -390,19 +390,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**8. The Fed hasn’t been this terse since 2007. What a 130-word statement signals for market stability.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**9. The Fed’s never been so confident on economic growth. What investors should do now, according to KKR.**
+**8. The Fed’s never been so confident on economic growth. What investors should do now, according to KKR.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
 - Affected assets: KKR
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**9. The Fed hasn’t been this terse since 2007. What a 130-word statement signals for market stability.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: Equities, Bonds, USD, Commodities
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
@@ -438,7 +438,7 @@ Positioning and flow data is used as confirmation only.
 - Sector cyclicality flow: `49.9`
 - Duration/liquidity flow: `52.9`
 - Alternatives: `barbell demand`
-- ETF flow reliability: `65.9 / 100`
+- ETF flow reliability: `66.7 / 100`
 - Dominant allocation direction: `mixed allocation`
 
 ### Core Flow Signals
@@ -482,7 +482,7 @@ Positioning and flow data is used as confirmation only.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ITA | Aerospace and Defense | -0.5 | 0.5 | 0.1 | 2.5 | Down | Neutral | High | Heavy Selling Pressure | Cautious | Structural distribution; Persistent selling | 71.0 |
 | SOXX | Semiconductors | -0.0 | -0.1 | 0.5 | -0.8 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural accumulation | 91.0 |
-| SMH | Semiconductors | 2.1 | 1.6 | 0.6 | -0.6 | Flat | Buy | Normal | Quiet Accumulation | Improving | Strong confirmation; Exceptional institutional buying | 100.0 |
+| SMH | Semiconductors | 2.0 | 1.5 | 0.6 | -0.5 | Up | Buy | Normal | Steady Accumulation | Risk-On | Strong confirmation; Exceptional institutional buying | 100.0 |
 | CIBR | Cybersecurity | 1.2 | 1.7 | 0.7 | 0.5 | Up | Buy | Normal | Steady Accumulation | Risk-On | Strong confirmation; Exceptional institutional buying | 100.0 |
 
 ### Material Flow Divergences
@@ -493,6 +493,7 @@ Positioning and flow data is used as confirmation only.
 | high | close_substitute_divergence | AGG | IUSB | primary representative differs from close substitute |
 | high | close_substitute_divergence | IWF | IVW | primary representative differs from close substitute |
 | high | close_substitute_divergence | IWD | IVE | primary representative differs from close substitute |
+| high | close_substitute_divergence | SOXX | SMH | primary representative differs from close substitute |
 | high | close_substitute_divergence | IWM | IJR | primary representative differs from close substitute |
 
 
