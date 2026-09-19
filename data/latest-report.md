@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 19 September 2026, 14:11:13 (HKT)
+Generated at: 19 September 2026, 15:09:50 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -329,7 +329,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 8, 'negative': 6, 'neutral': 66}
+- Sentiment counts: {'positive': 7, 'negative': 5, 'neutral': 68}
 - News confirmation score: `51.25`
 
 ### Top Market-Moving Headlines
@@ -350,19 +350,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**3. Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank**
-- Source: Federal Reserve Press Releases
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**4. Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula**
+**3. Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
 - Affected assets: SNB
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**4. Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank**
+- Source: Federal Reserve Press Releases
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: Equities, Bonds, USD, Commodities
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
@@ -417,7 +417,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-Noisy headline list: Stocks face a key hurdle in next week’s U.S.-China, Cramer’s week ahead: What to watch as Wall Street , Stock market today: Dow sinks 600 points, S&P 500 
+Noisy headline list: Stocks face a key hurdle in next week’s U.S.-China, Cramer’s week ahead: What to watch as Wall Street 
 
 ## Positioning & Flow Dashboard
 
