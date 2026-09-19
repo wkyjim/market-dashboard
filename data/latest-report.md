@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 20 September 2026, 05:41:08 (HKT)
+Generated at: 20 September 2026, 06:09:45 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -254,7 +254,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 11 | Industrials | 33.79 | strong downtrend | neutral | weak | 50.0 | 0.0 | 42.85 | DE, CHRW, LUV | BLDR, EFX, AXON |
 | 12 | Nuclear | 33.43 | strong downtrend | negative | weak | 50.0 | 0.0 | 40.99 | NLR | NLR |
 | 13 | Utilities | 33.34 | strong downtrend | negative | weak | 50.0 | 0.0 | 40.46 | VST, AES, AWK | NRG, EIX, PCG |
-| 14 | Real Estate | 32.7 | strong downtrend | neutral | weak | 48.49 | 65.0 | 43.35 | ARE, VMRK, AMT | VICI, INVH, WY |
+| 14 | Real Estate | 32.8 | strong downtrend | neutral | weak | 48.49 | 65.0 | 43.35 | ARE, VMRK, AMT | VICI, INVH, WY |
 | 15 | Defense | 31.72 | strong downtrend | negative | weak | 50.0 | 0.0 | 36.69 | XAR | XAR |
 
 ### Thematic Strength
@@ -297,7 +297,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Industrials | Defense, Grid Infrastructure | 33.79 | very weak | 42.83 | weak | broad weakness across sector and themes |
 | Nuclear | Nuclear | 33.43 | very weak | 33.07 | very weak | broad weakness across sector and themes |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 33.34 | very weak | 40.3 | weak | broad weakness across sector and themes |
-| Real Estate | Dividend Defensives | 32.7 | very weak | 42.64 | weak | broad weakness across sector and themes |
+| Real Estate | Dividend Defensives | 32.8 | very weak | 42.64 | weak | broad weakness across sector and themes |
 | Defense | Defense | 31.72 | very weak | 40.45 | weak | broad weakness across sector and themes |
 
 ## Three-Month Outperformance Setup
@@ -334,15 +334,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Higher interest rates and AI safety fears put the stock market to the test last week**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**2. It’s almost impossible to sell a condo unit these days: ‘I feel trapped’**
+**1. It’s almost impossible to sell a condo unit these days: ‘I feel trapped’**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
@@ -350,7 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**3. A sudden end to the Iran war would strike a blow against oil prices and energy stocks. Yet company insiders are buying.**
+**2. A sudden end to the Iran war would strike a blow against oil prices and energy stocks. Yet company insiders are buying.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -358,13 +350,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**4. Helvetia Baloise H1 earnings beat forecasts, lifts synergy outlook**
+**3. Helvetia Baloise H1 earnings beat forecasts, lifts synergy outlook**
 - Source: Investing.com Commodities
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: HEL.VX, BGE.VX, earnings, outlook, performance
 - Score: `20.66`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**4. Higher interest rates and AI safety fears put the stock market to the test last week**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `20.19`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
 **5. Flames reported near Saudi capital airport as Pakistan presses Iran over energy supplies**
 - Source: CNBC Top News
@@ -382,15 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `19.89`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. Couples with a big age gap need more money — they have to plan for two retirements**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / long-term
-- Affected assets: retirement planning, financial advice
-- Score: `17.85`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**8. U.S. judge signals rejection of part of TikTok $400 million privacy settlement**
+**7. U.S. judge signals rejection of part of TikTok $400 million privacy settlement**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
@@ -398,15 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `17.16`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**9. ‘I’m burned out’: I’m constantly helping my cousin who is running out of money. Is it too much to expect his sister to help?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / nan
-- Affected assets: I
-- Score: `16.25`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
-
-**10. Bilfinger shares tumble 24% on lowered guidance; launches cost-cutting plan**
+**8. Bilfinger shares tumble 24% on lowered guidance; launches cost-cutting plan**
 - Source: Investing.com Commodities
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -414,10 +398,26 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `15.79`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
+**9. Bytes shares jump 10% as company upgrades full-year profit guidance**
+- Source: Investing.com Commodities
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: Bytes, earnings, profit, guidance
+- Score: `15.79`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Couples with a big age gap need more money — they have to plan for two retirements**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / long-term
+- Affected assets: retirement planning, financial advice
+- Score: `15.17`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
 
 ### Headline Quality Checks
 
-Noisy headline list: The S&P 500 just logged another losing week, yet t
+Noisy headline list: The S&P 500 just logged another losing week, yet t, Stocks face a key hurdle in next week’s U.S.-China, Cramer’s week ahead: What to watch as Wall Street 
 
 ## Positioning & Flow Dashboard
 
@@ -506,7 +506,7 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `3`
+- Live macro rows used: `2`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
