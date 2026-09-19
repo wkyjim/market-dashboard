@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 20 September 2026, 02:11:15 (HKT)
+Generated at: 20 September 2026, 03:09:52 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **59.2 / 100** (Mild Risk-On)
+- Regime score: **59.14 / 100** (Mild Risk-On)
 - US equity strength: **63.35 / 100** (constructive)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **50.23 / 100**, reliability **66.57 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 59.2 | Mild Risk-On |
+| Overall regime | 59.14 | Mild Risk-On |
 | equity_trend | 73.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.3 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 49.81 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 55.02 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.16 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 53.75 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 52.5 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=80.0, equity_trend=73.75, commodity_confirmation=61.0 |
 | Negative contributors |  | none |
 
@@ -329,12 +329,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 11, 'negative': 5, 'neutral': 64}
-- News confirmation score: `53.75`
+- Sentiment counts: {'positive': 11, 'negative': 7, 'neutral': 62}
+- News confirmation score: `52.5`
 
 ### Top Market-Moving Headlines
 
-**1. Flames reported near Saudi capital airport as Pakistan presses Iran over energy supplies**
+**1. Higher interest rates and AI safety fears put the stock market to the test last week**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**2. Flames reported near Saudi capital airport as Pakistan presses Iran over energy supplies**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -342,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**2. Traditional bond investors have lost money for years. These five-star portfolio managers show a better way.**
+**3. Traditional bond investors have lost money for years. These five-star portfolio managers show a better way.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / medium-term
@@ -350,7 +358,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.4`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**3. A sudden end to the Iran war would strike a blow against oil prices and energy stocks. Yet company insiders are buying.**
+**4. It’s almost impossible to sell a condo unit these days: ‘I feel trapped’**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / nan
+- Affected assets: HOA, I
+- Score: `21.25`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**5. A sudden end to the Iran war would strike a blow against oil prices and energy stocks. Yet company insiders are buying.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -358,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**4. My rental property is paid off, but I need cash. Is this a bad time to take out a $50,000 HELOC?**
+**6. My rental property is paid off, but I need cash. Is this a bad time to take out a $50,000 HELOC?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short
@@ -366,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.82`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
 
-**5. Helvetia Baloise H1 earnings beat forecasts, lifts synergy outlook**
+**7. Helvetia Baloise H1 earnings beat forecasts, lifts synergy outlook**
 - Source: Investing.com Commodities
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -374,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.66`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. U.S. judge signals rejection of part of TikTok $400 million privacy settlement**
+**8. U.S. judge signals rejection of part of TikTok $400 million privacy settlement**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
@@ -382,15 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**7. It’s almost impossible to sell a condo unit these days: ‘I feel trapped’**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / nan
-- Affected assets: HOA, I
-- Score: `18.06`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**8. Couples with a big age gap need more money — they have to plan for two retirements**
+**9. Couples with a big age gap need more money — they have to plan for two retirements**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / long-term
@@ -398,7 +406,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `17.85`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**9. I’m in my 50s. My mother died from Alzheimer’s. Do I need long-term-care insurance?**
+**10. ‘I’m burned out’: I’m constantly helping my cousin who is running out of money. Is it too much to expect his sister to help?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / nan
@@ -406,18 +414,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `16.25`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**10. ‘My total balance should be $20 million’: I invested $1.1 million in a crypto platform. Have I lost it all?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: I, Investor Fraud, Cryptocurrency, Investor Loss
-- Score: `15.93`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
 
 ### Headline Quality Checks
 
-Noisy headline list: The S&P 500 just logged another losing week, yet t, Stocks face a key hurdle in next week’s U.S.-China, Cramer’s week ahead: What to watch as Wall Street 
+Noisy headline list: The S&P 500 just logged another losing week, yet t
 
 ## Positioning & Flow Dashboard
 
