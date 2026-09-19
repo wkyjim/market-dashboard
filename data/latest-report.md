@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 19 September 2026, 19:25:57 (HKT)
+Generated at: 19 September 2026, 20:12:20 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -374,15 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**6. The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**7. My rental property is paid off, but I need cash. Is this a bad time to take out a $50,000 HELOC?**
+**6. My rental property is paid off, but I need cash. Is this a bad time to take out a $50,000 HELOC?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.82`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
 
-**8. Helvetia Baloise H1 earnings beat forecasts, lifts synergy outlook**
+**7. Helvetia Baloise H1 earnings beat forecasts, lifts synergy outlook**
 - Source: Investing.com Commodities
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.66`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**9. Dow falls Friday and posts worst week since March as Treasury yields rise: Live updates**
+**8. Dow falls Friday and posts worst week since March as Treasury yields rise: Live updates**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -406,11 +398,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**10. S&P 500, Nasdaq close higher, Dow slips as 10-year Treasury yield holds above 5%**
+**9. S&P 500, Nasdaq close higher, Dow slips as 10-year Treasury yield holds above 5%**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
 - Affected assets: P, S
+- Score: `20.19`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**10. Treasury yields move higher as volatile week wraps up**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: Equities, Bonds, USD, Commodities
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
