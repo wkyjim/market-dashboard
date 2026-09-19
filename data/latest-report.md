@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 19 September 2026, 13:19:55 (HKT)
+Generated at: 19 September 2026, 14:11:13 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -350,19 +350,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**3. Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula**
-- Source: Federal Reserve Press Releases
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: SNB
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**4. Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank**
+**3. Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
 - Affected assets: Equities, Bonds, USD, Commodities
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**4. Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula**
+- Source: Federal Reserve Press Releases
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: SNB
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
@@ -390,19 +390,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**8. The Fed’s never been so confident on economic growth. What investors should do now, according to KKR.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: KKR
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**9. The Fed hasn’t been this terse since 2007. What a 130-word statement signals for market stability.**
+**8. The Fed hasn’t been this terse since 2007. What a 130-word statement signals for market stability.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
 - Affected assets: Equities, Bonds, USD, Commodities
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**9. The Fed’s never been so confident on economic growth. What investors should do now, according to KKR.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: KKR
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
