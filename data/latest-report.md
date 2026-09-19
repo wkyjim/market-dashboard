@@ -1,23 +1,23 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 19 September 2026, 08:44:42 (HKT)
+Generated at: 19 September 2026, 09:11:24 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **59.02 / 100** (Mild Risk-On)
+- Regime score: **59.05 / 100** (Mild Risk-On)
 - US equity strength: **63.35 / 100** (constructive)
 - Evidence quality: **79.5 / 100**
-- ETF flow contribution: **50.31 / 100**, reliability **66.0 / 100**
+- ETF flow contribution: **49.94 / 100**, reliability **65.94 / 100**
 - Breadth: **narrow**; above 50DMA `45.0%`, above 200DMA `66.1%`
 - Top sector score: **Cybersecurity** `68.54`
-- Top theme score: **Crypto Infrastructure** `71.87`
+- Top theme score: **Crypto Infrastructure** `73.6`
 
 ## Market Regime Score
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 59.02 | Mild Risk-On |
+| Overall regime | 59.05 | Mild Risk-On |
 | equity_trend | 73.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.3 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 49.81 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -26,8 +26,8 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 55.02 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 50.21 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
+| etf_flow | 49.96 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| news_confirmation | 51.25 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=80.0, equity_trend=73.75, commodity_confirmation=61.0 |
 | Negative contributors |  | none |
 
@@ -87,7 +87,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US20YT=X | United States 20-Year Treasury Yield | 5.38 | 0.82 | 2026-09-18 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.33 | 0.59 | 2026-09-18 | closed |
 | HK50 | Hang Seng Futures | 24654.5 | -0.05 | 2026-09-18 | closed |
-| KOR200c1 | KOSPI 200 Futures | 1084.95 | 2.09 | 2026-09-17 | closed |
+| KOR200c1 | KOSPI 200 Futures | 1094.8 | 0.22 | 2026-09-18 | closed |
 | CIHc1 | SSE 50 Futures | 2828.2 | -1.34 | 2026-09-17 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 78.53 | -0.24 | 2026-09-18 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.7 | -0.44 | 2026-09-18 | closed |
@@ -245,8 +245,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 2 | Technology | 66.17 | strong uptrend | neutral | broad | 48.58 | 65.0 | 51.05 | DELL, SWKS, CRWD | ADSK, INTU, FICO |
 | 3 | Energy | 63.59 | strong uptrend | positive | broad | 38.34 | 65.0 | 57.07 | VLO, MPC, PSX | BKR, FANG, EXE |
 | 4 | Semiconductors | 62.25 | strong uptrend | neutral | broad | 67.44 | 65.0 | 45.93 | SOXX, SMH | SMH, SOXX |
-| 5 | Healthcare | 59.49 | strong uptrend | neutral | broad | 71.25 | 65.0 | 51.05 | RVTY, MRNA, HCA | BAX, SYK, COO |
-| 6 | Crypto | 50.0 | neutral | neutral | mixed | 50.0 | 0.0 | 50.0 |  |  |
+| 5 | Healthcare | 59.59 | strong uptrend | neutral | broad | 71.25 | 65.0 | 51.05 | RVTY, MRNA, HCA | BAX, SYK, COO |
+| 6 | Crypto | 51.73 | neutral | neutral | mixed | 67.33 | 65.0 | 50.0 |  |  |
 | 7 | Financials | 45.61 | neutral | neutral | weak | 48.63 | 65.0 | 48.96 | HOOD, COIN, PFG | FIS, PYPL, AON |
 | 8 | Grid Infrastructure | 44.25 | neutral | neutral | weak | 50.0 | 0.0 | 45.45 | GRID | GRID |
 | 9 | Consumer Staples | 34.89 | strong downtrend | neutral | weak | 50.0 | 0.0 | 45.97 | KR, ADM, MO | HRL, CLX, CASY |
@@ -261,7 +261,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Crypto Infrastructure | 71.87 | Strong outperformance setup | 50.0 | 0.0 | 24.25 | True | False |
+| 1 | Crypto Infrastructure | 73.6 | Strong outperformance setup | 67.33 | 65.0 | 24.25 | True | False |
 | 2 | Quality Growth | 63.53 | Positive setup | 58.27 | 65.0 | 6.5 | True | False |
 | 3 | Cybersecurity | 62.04 | Positive setup | 50.0 | 0.0 | 20.84 | True | False |
 | 4 | Energy | 61.34 | Positive setup | 38.34 | 65.0 | 3.39 | True | False |
@@ -288,8 +288,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.17 | strong | 60.37 | positive | sector and theme confirmation |
 | Energy | Energy | 63.59 | positive | 61.34 | positive | sector and theme confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 62.25 | positive | 58.78 | positive | sector and theme confirmation |
-| Healthcare | Healthcare Innovation | 59.49 | positive | 55.67 | positive | sector and theme confirmation |
-| Crypto | Crypto Infrastructure | 50.0 | mixed | 71.87 | strong | theme stronger than official sector |
+| Healthcare | Healthcare Innovation | 59.59 | positive | 55.67 | positive | sector and theme confirmation |
+| Crypto | Crypto Infrastructure | 51.73 | mixed | 73.6 | strong | theme stronger than official sector |
 | Financials | Financials | 45.61 | mixed | 42.52 | weak | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 44.25 | weak | 43.96 | weak | broad weakness across sector and themes |
 | Consumer Staples | Dividend Defensives | 34.89 | very weak | 42.64 | weak | broad weakness across sector and themes |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 9, 'negative': 9, 'neutral': 62}
-- News confirmation score: `50.0`
+- Sentiment counts: {'positive': 9, 'negative': 7, 'neutral': 64}
+- News confirmation score: `51.25`
 
 ### Top Market-Moving Headlines
 
@@ -350,15 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**3. S&P 500, Nasdaq close higher, Dow slips as 10-year Treasury yield holds above 5%**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: P, S
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**4. Tech leads Wall St to higher close as oil eases, Treasury yields dip**
+**3. Tech leads Wall St to higher close as oil eases, Treasury yields dip**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -366,15 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `22.23`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Dollar pauses after Fed rally as yields, oil retreat**
-- Source: Investing.com Economic Indicators
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: BOJ, central banking, currency market
-- Score: `22.23`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. It’s almost impossible to sell a condo unit these days: ‘I feel trapped’**
+**4. It’s almost impossible to sell a condo unit these days: ‘I feel trapped’**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
@@ -382,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**7. Why investors’ best move in reaction to Fed’s rate hike is doing nothing at all**
+**5. Why investors’ best move in reaction to Fed’s rate hike is doing nothing at all**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -390,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**8. A happier retirement contains these 3 elements**
+**6. A happier retirement contains these 3 elements**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -398,15 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**9. Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank**
-- Source: Federal Reserve Press Releases
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**10. Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula**
+**7. Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -414,10 +390,34 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
+**8. Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank**
+- Source: Federal Reserve Press Releases
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**9. Why mortgage bonds are set to deteriorate, and possibly hit the whole market, according to this Wall Street expert**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: A
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**10. The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
 
 ### Headline Quality Checks
 
-Noisy headline list: Stock market today: Dow sinks 600 points, S&P 500 
+Noisy headline list: Stocks face a key hurdle in next week’s U.S.-China, Cramer’s week ahead: What to watch as Wall Street , Stock market today: Dow sinks 600 points, S&P 500 
 
 ## Positioning & Flow Dashboard
 
@@ -432,13 +432,13 @@ Positioning and flow data is used as confirmation only.
 ## ETF Flows Analysis
 
 - Market flow regime: `Mixed / Neutral`
-- Market flow score: `46.1 / 100`
+- Market flow score: `46.3 / 100`
 - Equity risk flow: `47.0`
 - Credit risk flow: `30.5`
 - Sector cyclicality flow: `49.9`
-- Duration/liquidity flow: `53.5`
-- Alternatives: `mixed alternative-asset demand`
-- ETF flow reliability: `66.0 / 100`
+- Duration/liquidity flow: `52.9`
+- Alternatives: `barbell demand`
+- ETF flow reliability: `65.9 / 100`
 - Dominant allocation direction: `mixed allocation`
 
 ### Core Flow Signals
@@ -453,12 +453,12 @@ Positioning and flow data is used as confirmation only.
 | IWM | U.S. Small Cap | 0.2 | -0.2 | 0.3 | 1.9 | Down | Neutral | High | Heavy Selling Pressure | Cautious | Structural distribution | 79.0 |
 | LQD | Investment-Grade Credit | -1.9 | -1.8 | 0.3 | 0.1 | Down | Sell | Normal | Persistent Distribution | Risk-Off | Strong confirmation | 95.0 |
 | HYG | High-Yield Credit | -1.7 | -1.1 | 0.2 | 0.2 | Down | Sell | Normal | Persistent Distribution | Risk-Off | Strong confirmation; Persistent selling | 87.0 |
-| SGOV | Treasury Bills / Cash | 0.3 | -0.6 | 0.9 | -0.1 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 99.0 |
+| SGOV | Treasury Bills / Cash | 0.4 | -0.6 | 0.9 | -0.4 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 99.0 |
 | SHY | Short-Duration Treasuries | 1.1 | 0.6 | 0.6 | 2.4 | Flat | Neutral | High | High-Turnover Consolidation | Transition | Structural accumulation | 91.0 |
 | IEF | Intermediate-Duration Treasuries | 0.1 | -1.2 | 0.7 | -0.0 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Mixed or neutral flow structure | 85.0 |
 | TLT | Long-Duration Treasuries | 0.1 | 2.2 | 0.5 | 0.8 | Down | Sell | Normal | Persistent Distribution | Risk-Off | Tactical profit-taking inside structural accumulation | 83.0 |
 | GLD | Gold | 1.0 | 2.7 | 0.5 | 0.1 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural accumulation; Exceptional institutional buying | 99.0 |
-| IBIT | Bitcoin | 1.2 | 0.8 | 0.7 | -0.7 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation | 91.0 |
+| IBIT | Bitcoin | 1.1 | 0.9 | 0.7 | 1.5 | Up | Neutral | High | Momentum Rally | Watch | Structural accumulation | 91.0 |
 
 ### Sector Flow Signals
 
