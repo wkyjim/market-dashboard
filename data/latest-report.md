@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 20 September 2026, 06:13:10 (HKT)
+Generated at: 20 September 2026, 07:13:04 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -417,7 +417,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-Noisy headline list: The S&P 500 just logged another losing week, yet t, Stocks face a key hurdle in next week’s U.S.-China, Cramer’s week ahead: What to watch as Wall Street 
+Noisy headline list: The S&P 500 just logged another losing week, yet t, Stocks face a key hurdle in next week’s U.S.-China
 
 ## Positioning & Flow Dashboard
 
