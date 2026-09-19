@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 19 September 2026, 11:13:21 (HKT)
+Generated at: 19 September 2026, 12:09:49 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -329,36 +329,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 9, 'negative': 7, 'neutral': 64}
+- Sentiment counts: {'positive': 8, 'negative': 6, 'neutral': 66}
 - News confirmation score: `51.25`
 
 ### Top Market-Moving Headlines
 
-**1. Dow falls Friday and posts worst week since March as Treasury yields rise: Live updates**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**2. Tech leads Wall St to higher close as oil eases, Treasury yields dip**
-- Source: Investing.com Economic Indicators
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: interest_rate
-- Score: `22.23`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. It’s almost impossible to sell a condo unit these days: ‘I feel trapped’**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / nan
-- Affected assets: HOA, I
-- Score: `21.25`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**4. Why investors’ best move in reaction to Fed’s rate hike is doing nothing at all**
+**1. Why investors’ best move in reaction to Fed’s rate hike is doing nothing at all**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -366,7 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**5. A happier retirement contains these 3 elements**
+**2. A happier retirement contains these 3 elements**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -374,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**6. Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula**
+**3. Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -382,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**7. Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank**
+**4. Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -390,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**8. Why mortgage bonds are set to deteriorate, and possibly hit the whole market, according to this Wall Street expert**
+**5. Why mortgage bonds are set to deteriorate, and possibly hit the whole market, according to this Wall Street expert**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -398,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**9. The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.**
+**6. The 10-year Treasury is having its worst run in over 100 years. Why investors are buying bonds anyway.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -406,13 +382,37 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**10. More Americans are about to get scammed by the coming peptide rush**
+**7. More Americans are about to get scammed by the coming peptide rush**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
 - Affected assets: Equities, Bonds, USD, Commodities
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**8. The Fed hasn’t been this terse since 2007. What a 130-word statement signals for market stability.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**9. The Fed’s never been so confident on economic growth. What investors should do now, according to KKR.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: KKR
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**10. My rental property is paid off, but I need cash. Is this a bad time to take out a $50,000 HELOC?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short
+- Affected assets: HELOC, I, real estate, mortgage, interest rates
+- Score: `20.82`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
 
 
 ### Headline Quality Checks
