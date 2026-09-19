@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 19 September 2026, 17:15:07 (HKT)
+Generated at: 19 September 2026, 18:09:57 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -390,29 +390,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**8. The Fed’s never been so confident on economic growth. What investors should do now, according to KKR.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: KKR
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**9. The Fed hasn’t been this terse since 2007. What a 130-word statement signals for market stability.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**10. My rental property is paid off, but I need cash. Is this a bad time to take out a $50,000 HELOC?**
+**8. My rental property is paid off, but I need cash. Is this a bad time to take out a $50,000 HELOC?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short
 - Affected assets: HELOC, I, real estate, mortgage, interest rates
 - Score: `20.82`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
+
+**9. Helvetia Baloise H1 earnings beat forecasts, lifts synergy outlook**
+- Source: Investing.com Commodities
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: HEL.VX, BGE.VX, earnings, outlook, performance
+- Score: `20.66`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**10. Dow falls Friday and posts worst week since March as Treasury yields rise: Live updates**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `20.19`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
 
 ### Headline Quality Checks
