@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 19 September 2026, 15:37:59 (HKT)
+Generated at: 19 September 2026, 16:15:58 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **59.08 / 100** (Mild Risk-On)
+- Regime score: **59.11 / 100** (Mild Risk-On)
 - US equity strength: **63.35 / 100** (constructive)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **50.23 / 100**, reliability **66.57 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 59.08 | Mild Risk-On |
+| Overall regime | 59.11 | Mild Risk-On |
 | equity_trend | 73.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.3 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 49.81 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 55.02 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.16 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 51.25 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 51.88 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=80.0, equity_trend=73.75, commodity_confirmation=61.0 |
 | Negative contributors |  | none |
 
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 7, 'negative': 5, 'neutral': 68}
-- News confirmation score: `51.25`
+- Sentiment counts: {'positive': 7, 'negative': 4, 'neutral': 69}
+- News confirmation score: `51.88`
 
 ### Top Market-Moving Headlines
 
@@ -350,19 +350,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**3. Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula**
-- Source: Federal Reserve Press Releases
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: SNB
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**4. Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank**
+**3. Federal Reserve Board issues enforcement actions with former employee of Northstar Bank, former employee of American Express Travel Related Services Company, Inc., and former employee of Regions Bank**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
 - Affected assets: Equities, Bonds, USD, Commodities
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**4. Federal Reserve Board announces termination of enforcement action with SNB Bancshares and Bank of Eufaula**
+- Source: Federal Reserve Press Releases
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: SNB
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
@@ -390,19 +390,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**8. The Fed hasn’t been this terse since 2007. What a 130-word statement signals for market stability.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**9. The Fed’s never been so confident on economic growth. What investors should do now, according to KKR.**
+**8. The Fed’s never been so confident on economic growth. What investors should do now, according to KKR.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
 - Affected assets: KKR
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**9. The Fed hasn’t been this terse since 2007. What a 130-word statement signals for market stability.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: Equities, Bonds, USD, Commodities
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
