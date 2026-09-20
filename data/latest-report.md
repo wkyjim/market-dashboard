@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 20 September 2026, 23:14:33 (HKT)
+Generated at: 21 September 2026, 00:11:08 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **59.08 / 100** (Mild Risk-On)
+- Regime score: **59.01 / 100** (Mild Risk-On)
 - US equity strength: **63.35 / 100** (constructive)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **50.23 / 100**, reliability **66.57 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 59.08 | Mild Risk-On |
+| Overall regime | 59.01 | Mild Risk-On |
 | equity_trend | 73.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.3 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 49.81 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 55.02 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.16 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 51.25 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=80.0, equity_trend=73.75, commodity_confirmation=61.0 |
 | Negative contributors |  | none |
 
@@ -243,9 +243,9 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cybersecurity | 70.53 | strong uptrend | positive | broad | 69.91 | 65.0 | 60.31 | CIBR | CIBR |
 | 2 | Technology | 66.17 | strong uptrend | neutral | broad | 48.58 | 65.0 | 51.05 | DELL, SWKS, CRWD | ADSK, INTU, FICO |
-| 3 | Energy | 63.59 | strong uptrend | positive | broad | 38.34 | 65.0 | 57.07 | VLO, MPC, PSX | BKR, FANG, EXE |
+| 3 | Energy | 63.47 | strong uptrend | positive | broad | 38.34 | 65.0 | 57.07 | VLO, MPC, PSX | BKR, FANG, EXE |
 | 4 | Semiconductors | 62.81 | strong uptrend | neutral | broad | 72.96 | 90.0 | 45.93 | SOXX, SMH | SMH, SOXX |
-| 5 | Healthcare | 59.71 | strong uptrend | neutral | broad | 71.25 | 65.0 | 51.05 | RVTY, MRNA, HCA | BAX, SYK, COO |
+| 5 | Healthcare | 59.59 | strong uptrend | neutral | broad | 71.25 | 65.0 | 51.05 | RVTY, MRNA, HCA | BAX, SYK, COO |
 | 6 | Crypto | 51.73 | neutral | neutral | mixed | 67.33 | 65.0 | 50.0 |  |  |
 | 7 | Financials | 45.61 | neutral | neutral | weak | 48.63 | 65.0 | 48.96 | HOOD, COIN, PFG | FIS, PYPL, AON |
 | 8 | Grid Infrastructure | 45.5 | neutral | neutral | weak | 62.43 | 65.0 | 45.45 | GRID | GRID |
@@ -254,7 +254,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 11 | Industrials | 33.79 | strong downtrend | neutral | weak | 50.0 | 0.0 | 42.85 | DE, CHRW, LUV | BLDR, EFX, AXON |
 | 12 | Nuclear | 33.43 | strong downtrend | negative | weak | 50.0 | 0.0 | 40.99 | NLR | NLR |
 | 13 | Utilities | 33.34 | strong downtrend | negative | weak | 50.0 | 0.0 | 40.46 | VST, AES, AWK | NRG, EIX, PCG |
-| 14 | Real Estate | 32.8 | strong downtrend | neutral | weak | 48.49 | 65.0 | 43.35 | ARE, VMRK, AMT | VICI, INVH, WY |
+| 14 | Real Estate | 32.7 | strong downtrend | neutral | weak | 48.49 | 65.0 | 43.35 | ARE, VMRK, AMT | VICI, INVH, WY |
 | 15 | Defense | 31.72 | strong downtrend | negative | weak | 50.0 | 0.0 | 36.69 | XAR | XAR |
 
 ### Thematic Strength
@@ -264,8 +264,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Crypto Infrastructure | 73.6 | Strong outperformance setup | 67.33 | 65.0 | 24.25 | True | False |
 | 2 | Cybersecurity | 64.03 | Positive setup | 69.91 | 65.0 | 20.84 | True | False |
 | 3 | Quality Growth | 63.53 | Positive setup | 58.27 | 65.0 | 6.5 | True | False |
-| 4 | Energy | 61.34 | Positive setup | 38.34 | 65.0 | 3.39 | True | False |
-| 5 | AI Infrastructure | 61.2 | Positive setup | 72.96 | 90.0 | 6.01 | True | False |
+| 4 | AI Infrastructure | 61.2 | Positive setup | 72.96 | 90.0 | 6.01 | True | False |
+| 5 | Energy | 60.68 | Positive setup | 38.34 | 65.0 | 3.39 | True | False |
 | 6 | Semiconductors | 57.48 | Neutral / watchlist | 72.96 | 90.0 | 23.27 | False | False |
 | 7 | Healthcare Innovation | 55.67 | Positive setup | 71.25 | 65.0 | 5.93 | False | False |
 | 8 | Grid Infrastructure | 45.2 | Neutral / watchlist | 62.43 | 65.0 | 8.38 | False | False |
@@ -278,7 +278,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Top 5 improving themes: Crypto Infrastructure, Energy, Quality Growth, Cybersecurity, Healthcare Innovation
 - Top 5 deteriorating themes: Nuclear, Grid Infrastructure, Small Caps, Semiconductors, Financials
 - Strong news but weak price confirmation: none
-- Strong price but weak news confirmation: Crypto Infrastructure, Cybersecurity, Quality Growth, Energy, AI Infrastructure
+- Strong price but weak news confirmation: Crypto Infrastructure, Cybersecurity, Quality Growth, AI Infrastructure, Energy
 
 ### Sector / Theme Alignment
 
@@ -286,9 +286,9 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- |
 | Cybersecurity | Cybersecurity | 70.53 | strong | 64.03 | positive | sector and theme confirmation |
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.17 | strong | 60.74 | positive | sector and theme confirmation |
-| Energy | Energy | 63.59 | positive | 61.34 | positive | sector and theme confirmation |
+| Energy | Energy | 63.47 | positive | 60.68 | positive | sector and theme confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 62.81 | positive | 59.34 | positive | sector and theme confirmation |
-| Healthcare | Healthcare Innovation | 59.71 | positive | 55.67 | positive | sector and theme confirmation |
+| Healthcare | Healthcare Innovation | 59.59 | positive | 55.67 | positive | sector and theme confirmation |
 | Crypto | Crypto Infrastructure | 51.73 | mixed | 73.6 | strong | theme stronger than official sector |
 | Financials | Financials | 45.61 | mixed | 42.52 | weak | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 45.5 | mixed | 45.2 | mixed | mixed confirmation |
@@ -297,7 +297,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Industrials | Defense, Grid Infrastructure | 33.79 | very weak | 42.83 | weak | broad weakness across sector and themes |
 | Nuclear | Nuclear | 33.43 | very weak | 33.07 | very weak | broad weakness across sector and themes |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 33.34 | very weak | 40.3 | weak | broad weakness across sector and themes |
-| Real Estate | Dividend Defensives | 32.8 | very weak | 42.64 | weak | broad weakness across sector and themes |
+| Real Estate | Dividend Defensives | 32.7 | very weak | 42.64 | weak | broad weakness across sector and themes |
 | Defense | Defense | 31.72 | very weak | 40.45 | weak | broad weakness across sector and themes |
 
 ## Three-Month Outperformance Setup
@@ -305,8 +305,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Theme | Score | Classification | Drivers | Invalidation Triggers |
 | --- | --- | --- | --- | --- | --- |
 | 1 | Crypto Infrastructure | 79.53 | Strong outperformance setup | relative_strength_20d, relative_strength_60d, trend_persistence, breadth, volume_accumulation | relative strength below SPY, breadth below 45%, news turns negative |
-| 2 | Quality Growth | 69.41 | Positive setup | trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 3 | Energy | 68.39 | Positive setup | relative_strength_60d, trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 2 | Energy | 70.39 | Positive setup | relative_strength_60d, trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 3 | Quality Growth | 69.41 | Positive setup | trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | Cybersecurity | 65.52 | Positive setup | relative_strength_20d, trend_persistence, breadth, volume_accumulation | relative strength below SPY, breadth below 45%, news turns negative |
 | 5 | AI Infrastructure | 64.75 | Positive setup | trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 6 | Healthcare Innovation | 61.69 | Positive setup | trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
@@ -329,12 +329,28 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 6, 'negative': 4, 'neutral': 70}
-- News confirmation score: `51.25`
+- Sentiment counts: {'positive': 5, 'negative': 5, 'neutral': 70}
+- News confirmation score: `50.0`
 
 ### Top Market-Moving Headlines
 
-**1. How much could investing $10,000 in a CD right now earn you in one year?**
+**1. My rental property is paid off, but I need cash. Is this a bad time to take out a $50,000 HELOC?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short
+- Affected assets: HELOC, I, real estate, mortgage, interest rates
+- Score: `24.5`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
+
+**2. End of Iran war will undercut oil price and energy stocks. Insiders are buying.**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**3. How much could investing $10,000 in a CD right now earn you in one year?**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
@@ -342,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**2. Caruso-Cabrera: The investing tailwinds for Latin America are the best in decades**
+**4. Caruso-Cabrera: The investing tailwinds for Latin America are the best in decades**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
@@ -350,15 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**3. Higher interest rates and AI safety fears put the stock market to the test last week**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**4. It’s almost impossible to sell a condo unit these days: ‘I feel trapped’**
+**5. It’s almost impossible to sell a condo unit these days: ‘I feel trapped’**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
@@ -366,7 +374,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**5. ‘I’m burned out’: I’m constantly helping my cousin who is running out of money. Is it too much to expect his sister to help?**
+**6. Record diesel prices are exposing pain points in the stock market and economy**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: single_name / nan
+- Affected assets: A
+- Score: `16.25`
+- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
+
+**7. ‘I’m burned out’: I’m constantly helping my cousin who is running out of money. Is it too much to expect his sister to help?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / nan
@@ -374,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `16.25`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**6. I’m in my 50s. My mother died from Alzheimer’s. Do I need long-term-care insurance?**
+**8. I’m in my 50s. My mother died from Alzheimer’s. Do I need long-term-care insurance?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / nan
@@ -382,36 +398,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `16.25`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**7. Bilfinger shares tumble 24% on lowered guidance; launches cost-cutting plan**
+**9. ‘My total balance should be $20 million’: I invested $1.1 million in a crypto platform. Have I lost it all?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: I, Investor Fraud, Cryptocurrency, Investor Loss
+- Score: `15.93`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**10. Bilfinger shares tumble 24% on lowered guidance; launches cost-cutting plan**
 - Source: Investing.com Commodities
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: BILF.DE, cost-cutting, earnings guidance, stock performance
 - Score: `15.79`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**8. Bytes shares jump 10% as company upgrades full-year profit guidance**
-- Source: Investing.com Commodities
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: Bytes, earnings, profit, guidance
-- Score: `15.79`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**9. Couples with a big age gap need more money — they have to plan for two retirements**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / long-term
-- Affected assets: retirement planning, financial advice
-- Score: `15.17`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**10. ‘My total balance should be $20 million’: I invested $1.1 million in a crypto platform. Have I lost it all?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: I, Investor Fraud, Cryptocurrency, Investor Loss
-- Score: `13.54`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
