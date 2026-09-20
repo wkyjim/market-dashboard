@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 20 September 2026, 15:35:43 (HKT)
+Generated at: 20 September 2026, 16:14:18 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -382,15 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `17.16`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**7. ‘My total balance should be $20 million’: I invested $1.1 million in a crypto platform. Have I lost it all?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: I, Investor Fraud, Cryptocurrency, Investor Loss
-- Score: `15.93`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**8. Bilfinger shares tumble 24% on lowered guidance; launches cost-cutting plan**
+**7. Bilfinger shares tumble 24% on lowered guidance; launches cost-cutting plan**
 - Source: Investing.com Commodities
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `15.79`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**9. Bytes shares jump 10% as company upgrades full-year profit guidance**
+**8. Bytes shares jump 10% as company upgrades full-year profit guidance**
 - Source: Investing.com Commodities
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `15.79`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. Couples with a big age gap need more money — they have to plan for two retirements**
+**9. Couples with a big age gap need more money — they have to plan for two retirements**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / long-term
 - Affected assets: retirement planning, financial advice
 - Score: `15.17`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**10. ‘I’m burned out’: I’m constantly helping my cousin who is running out of money. Is it too much to expect his sister to help?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: single_name / nan
+- Affected assets: I
+- Score: `13.81`
+- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
