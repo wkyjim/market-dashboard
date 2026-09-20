@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 20 September 2026, 20:12:37 (HKT)
+Generated at: 20 September 2026, 21:11:36 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -334,7 +334,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Higher interest rates and AI safety fears put the stock market to the test last week**
+**1. How much could investing $10,000 in a CD right now earn you in one year?**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / nan
+- Affected assets: A, CD
+- Score: `20.19`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**2. Caruso-Cabrera: The investing tailwinds for Latin America are the best in decades**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / nan
+- Affected assets: ETF, ILF, P, S
+- Score: `20.19`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**3. Higher interest rates and AI safety fears put the stock market to the test last week**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -342,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**2. Flames reported near Saudi capital airport as Pakistan presses Iran over energy supplies**
+**4. Flames reported near Saudi capital airport as Pakistan presses Iran over energy supplies**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -350,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**3. Traditional bond investors have lost money for years. These five-star portfolio managers show a better way.**
+**5. Traditional bond investors have lost money for years. These five-star portfolio managers show a better way.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / medium-term
@@ -358,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `19.89`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**4. It’s almost impossible to sell a condo unit these days: ‘I feel trapped’**
+**6. It’s almost impossible to sell a condo unit these days: ‘I feel trapped’**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
@@ -366,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**5. U.S. judge signals rejection of part of TikTok $400 million privacy settlement**
+**7. U.S. judge signals rejection of part of TikTok $400 million privacy settlement**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
@@ -374,7 +390,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `17.16`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**6. Bilfinger shares tumble 24% on lowered guidance; launches cost-cutting plan**
+**8. ‘I’m burned out’: I’m constantly helping my cousin who is running out of money. Is it too much to expect his sister to help?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: single_name / nan
+- Affected assets: I
+- Score: `16.25`
+- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
+
+**9. I’m in my 50s. My mother died from Alzheimer’s. Do I need long-term-care insurance?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: single_name / nan
+- Affected assets: I
+- Score: `16.25`
+- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
+
+**10. Bilfinger shares tumble 24% on lowered guidance; launches cost-cutting plan**
 - Source: Investing.com Commodities
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -382,42 +414,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `15.79`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**7. Bytes shares jump 10% as company upgrades full-year profit guidance**
-- Source: Investing.com Commodities
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: Bytes, earnings, profit, guidance
-- Score: `15.79`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**8. Couples with a big age gap need more money — they have to plan for two retirements**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / long-term
-- Affected assets: retirement planning, financial advice
-- Score: `15.17`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**9. ‘I’m burned out’: I’m constantly helping my cousin who is running out of money. Is it too much to expect his sister to help?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / nan
-- Affected assets: I
-- Score: `13.81`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
-
-**10. I’m in my 50s. My mother died from Alzheimer’s. Do I need long-term-care insurance?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / nan
-- Affected assets: I
-- Score: `13.81`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
-
 
 ### Headline Quality Checks
 
-Noisy headline list: The S&P 500 just logged another losing week, yet t
+No noisy headlines detected by current rules.
 
 ## Positioning & Flow Dashboard
 
