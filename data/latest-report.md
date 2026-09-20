@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 20 September 2026, 14:15:35 (HKT)
+Generated at: 20 September 2026, 15:09:56 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -390,15 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `16.25`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**8. I’m in my 50s. My mother died from Alzheimer’s. Do I need long-term-care insurance?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / nan
-- Affected assets: I
-- Score: `16.25`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
-
-**9. ‘My total balance should be $20 million’: I invested $1.1 million in a crypto platform. Have I lost it all?**
+**8. ‘My total balance should be $20 million’: I invested $1.1 million in a crypto platform. Have I lost it all?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `15.93`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**10. Bilfinger shares tumble 24% on lowered guidance; launches cost-cutting plan**
+**9. Bilfinger shares tumble 24% on lowered guidance; launches cost-cutting plan**
 - Source: Investing.com Commodities
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: BILF.DE, cost-cutting, earnings guidance, stock performance
 - Score: `15.79`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**10. Bytes shares jump 10% as company upgrades full-year profit guidance**
+- Source: Investing.com Commodities
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: Bytes, earnings, profit, guidance
+- Score: `15.79`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
