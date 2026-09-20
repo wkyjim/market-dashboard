@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 20 September 2026, 08:55:16 (HKT)
+Generated at: 20 September 2026, 09:09:53 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -334,15 +334,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. It’s almost impossible to sell a condo unit these days: ‘I feel trapped’**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / nan
-- Affected assets: HOA, I
-- Score: `21.25`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**2. A sudden end to the Iran war would strike a blow against oil prices and energy stocks. Yet company insiders are buying.**
+**1. A sudden end to the Iran war would strike a blow against oil prices and energy stocks. Yet company insiders are buying.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -350,7 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**3. Helvetia Baloise H1 earnings beat forecasts, lifts synergy outlook**
+**2. Helvetia Baloise H1 earnings beat forecasts, lifts synergy outlook**
 - Source: Investing.com Commodities
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -358,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.66`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**4. Higher interest rates and AI safety fears put the stock market to the test last week**
+**3. Higher interest rates and AI safety fears put the stock market to the test last week**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**5. Flames reported near Saudi capital airport as Pakistan presses Iran over energy supplies**
+**4. Flames reported near Saudi capital airport as Pakistan presses Iran over energy supplies**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / nan
@@ -374,13 +366,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**6. Traditional bond investors have lost money for years. These five-star portfolio managers show a better way.**
+**5. Traditional bond investors have lost money for years. These five-star portfolio managers show a better way.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / medium-term
 - Affected assets: A, fixed-income, distressed-debt
 - Score: `19.89`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**6. It’s almost impossible to sell a condo unit these days: ‘I feel trapped’**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / nan
+- Affected assets: HOA, I
+- Score: `18.06`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 **7. U.S. judge signals rejection of part of TikTok $400 million privacy settlement**
 - Source: CNBC Markets
