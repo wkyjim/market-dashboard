@@ -3,13 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Market Intelligence Report | 20 September 2026</title>
+<title>Market Intelligence Report | 21 September 2026</title>
 <style>
 :root{--ink:#172538;--navy:#10243c;--blue:#315b7d;--muted:#607080;--line:#d9e0e6;--canvas:#eef2f5;--paper:#fff;--green:#276749;--red:#9b2c2c;--amber:#8a5a00;--strong-ow:#125c3a;--ow-bg:#d8efe3;--uw:#8b2830;--uw-bg:#fae9e9;--base-bg:#e7eef3;--bull-bg:#d8efe3;--bear-bg:#f5dddd;--high-bg:#d8efe3;--med-bg:#fff0cf;--low-bg:#f4dede}
 *{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--canvas);color:var(--ink);font:14px/1.5 Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
 .report{max-width:1180px;margin:28px auto;background:var(--paper);border:1px solid var(--line);border-radius:10px;box-shadow:0 8px 28px #15263b16;overflow:hidden}
-.mast{padding:34px 40px;background:linear-gradient(120deg,#0c2037,#173a55 60%,#23516d);color:#fff}
-.eyebrow{font-size:11px;letter-spacing:.12em;font-weight:700;color:#c9dce9}
+.mast{position:relative;padding:34px 40px;background:linear-gradient(120deg,#0c2037,#173a55 60%,#23516d);color:#fff}
+.eyebrow{padding-top:28px;font-size:11px;letter-spacing:.12em;font-weight:700;color:#c9dce9}
 .mast h1,h2,h3{font-family:Georgia,"Times New Roman",serif}
 .mast h1{margin:8px 0 7px;font-size:34px;line-height:1.08}
 .subtitle{font-size:16px;color:#d7e5ef;max-width:900px}
@@ -46,7 +46,7 @@ tr:nth-child(even) td{background:#fafcfd}
 .theme-control button:focus-visible{outline:2px solid #fff;outline-offset:2px}
 .theme-control button[aria-pressed="true"]{background:#fff;color:#173a55}
 @media(max-width:700px){.report{margin:0;border-radius:0}.mast,.content{padding:22px 18px}.meta,.grid{grid-template-columns:repeat(2,1fr)}.toc{columns:1}.mast h1{font-size:28px}}
-@media print{body{background:#fff}.report{margin:0;border:0;box-shadow:none;max-width:none}.back{display:none}.mast{padding:22px}.content{padding:18px}h2{break-after:avoid}tr{break-inside:avoid}thead{display:table-header-group}html[data-theme="dark"]{--ink:#172538;--line:#d9e0e6;--canvas:#fff;--paper:#fff}html[data-theme="dark"] .toc,html[data-theme="dark"] .card,html[data-theme="dark"] .trade,html[data-theme="dark"] .note{background:#fff}html[data-theme="dark"] th{background:#e7eef3;color:#193147}html[data-theme="dark"] tr:nth-child(even) td{background:#fafcfd}.theme-control{display:none!important}}
+@media print{html,html[data-theme="dark"]{--ink:#172538;--line:#d9e0e6;--canvas:#fff;--paper:#fff}body{background:#fff}.report{margin:0;border:0;box-shadow:none;max-width:none}.back{display:none}.mast{padding:22px}.content{padding:18px}h2{break-after:avoid}tr{break-inside:avoid}thead{display:table-header-group}html[data-theme="dark"]{--ink:#172538;--line:#d9e0e6;--canvas:#fff;--paper:#fff}html[data-theme="dark"] .toc,html[data-theme="dark"] .card,html[data-theme="dark"] .trade,html[data-theme="dark"] .note{background:#fff}html[data-theme="dark"] th{background:#e7eef3;color:#193147}html[data-theme="dark"] tr:nth-child(even) td{background:#fafcfd}.theme-control{display:none!important}}
 html[data-theme="dark"]{--ink:#e7edf3;--line:#2b3948;--canvas:#0b1118;--paper:#121a23;--muted:#9aa8b7}
 html[data-theme="dark"] .toc,html[data-theme="dark"] .card,html[data-theme="dark"] .trade{background:#18222d}
 html[data-theme="dark"] .toc a,html[data-theme="dark"] .sources a{color:#82c8f5}
@@ -65,130 +65,114 @@ html[data-theme="dark"] .note{background:#392f1a}
 </div>
 <div class="eyebrow">INVESTMENT RESEARCH · US EQUITY STRATEGY · 1–12 MONTH OUTLOOK</div>
 <h1>Market Intelligence Report</h1>
-<div class="subtitle">Mild risk-on masks a tightening-duration regime — narrowing breadth at 45% above 50DMA, long end at 5%, and credit-flow divergence (HYG −1.7Z, LQD −1.9Z) suggest the market is underpricing the Fed's next move.</div>
+<div class="subtitle">Mild risk-on in the index, narrow participation underneath: retain profitable growth and tactical liquidity while testing whether the 5% long yield becomes a valuation shock.</div>
 <div class="meta">
-<div><span class="small">Report date</span>20 Sep 2026 (HKT)</div>
-<div><span class="small">Data cutoff</span>19 Sep 18:00 HKT · latest verified cash close 18 Sep</div>
+<div><span class="small">Report date</span>21 Sep 2026 (HKT)</div>
+<div><span class="small">Data cutoff</span>21 Sep 18:32 HKT · latest completed US cash close 18 Sep</div>
 <div><span class="small">ST horizon</span>1–3 months</div>
 <div><span class="small">LT horizon</span>6–12 months</div>
-<div><span class="small">Source Regime Score</span>59.17 / 100</div>
+<div><span class="small">Source Regime Score</span>59.04 / 100</div>
 <div><span class="small">Stance</span>Measured · duration-constrained risk-on</div>
 </div>
 </header>
-<div class="content">
+<div class="content"><div class="note"><strong>Evidence caveat:</strong> Official BLS August CPI contradicts duplicate source rows. This report uses BLS 3.4% headline and 2.4% core. ETF flows are estimates; current credit-spread confirmation is unavailable.</div>
 <nav class="toc">
 <a href="#executive-summary">Executive Summary</a><a href="#cio-dashboard">CIO Dashboard</a><a href="#what-matters">What Matters Now</a><a href="#risk-opportunity">Risk / Opportunity Balance</a><a href="#scorecard">Regime Scorecard</a><a href="#scenarios">Scenarios</a><a href="#macro">Macro View</a><a href="#cross-asset">Cross-Asset View</a><a href="#price-action">Price Action &amp; Breadth</a><a href="#flows">Flows &amp; Positioning</a><a href="#sectors">Sector Rankings</a><a href="#factors">Factor &amp; Style</a><a href="#trades">Trade Ideas</a><a href="#heatmap">Portfolio Heat Map</a><a href="#catalysts">Catalyst Watchlist</a><a href="#risks">Key Risks</a><a href="#conclusions">Investment Committee Conclusions</a><a href="#sources">Sources</a>
 </nav>
 
 <section id="executive-summary">
-<h2>Executive Summary</h2>
+<h2 id="executive-summary-2">Executive Summary</h2>
 <h3 id="executive-summary-heading">CIO View</h3>
-<p>We are in a <strong>mild risk-on regime with acute duration constraints</strong>. The S&amp;P 500 trades near 7,650 with VIX at 14.8 — superficially benign. But the composition tells a different story: mega-cap tech and cybersecurity are carrying indices while 66% of S&amp;P constituents sit above their 200DMA but only 45% above their 50DMA, signalling <strong>narrowing participation and deteriorating short-term momentum</strong>. The Fed hiked to 3.75–4.00% on Sep 16 — its first increase since July 2023 — and the dot plot signals one more hike possible this year. Yet the equity market is treating the hike as priced and the cycle as over. The 10Y Treasury at 5.00% and the 30Y at 5.33% disagree. Consumer sentiment at 44.8 — a low reading <em>on data dated May 2026 (stale)</em> — points to household stress even as index prints hold; treat as directional rather than confirming evidence. We would <strong>add risk selectively in cybersecurity, energy, and quality-growth semiconductors while hedging duration via underweight long-duration equities and overweights in cash/short-duration Treasuries</strong>. The most important question for the next quarter is whether the long end stabilizes or term premium accelerates — that single variable determines whether this is a soft-landing extension or a late-cycle top.</p>
+<p>The latest completed U.S. session, 18 September, left the S&amp;P 500 at 7,650.5, with VIX at 14.81. That calm overstates the opportunity set. Nasdaq gained while Russell 2000 fell; only 45% of tracked constituents are above their 50-day averages, and equal weight trails cap weight by 3.51 percentage points over 20 sessions. The Fed raised its target to 3.75–4.00% on 16 September, while the 10-year yield closed at 5.00%. This combination rewards profitable, resilient businesses but raises the hurdle for broad beta and indebted cyclicals. Our edge is selective exposure to cybersecurity and profitable technology, funded by weaker consumer, utilities and real estate exposures, with short Treasury bills as tactical liquidity. Energy offers an inflation hedge, though its strong prior run limits entry asymmetry. ETF flow estimates support cyber but disagree across close substitutes, so they are timing evidence rather than proof of institutional ownership. We would add broad risk only if breadth recovers and the long yield stabilizes; a simultaneous rate and credit shock would instead prompt lower gross exposure.</p>
 <h3 id="what-matters">What Matters Now</h3>
 <div class="table-wrap"><table>
 <tr><th>Development</th><th>Why it matters</th><th>Transmission</th><th>Portfolio action</th></tr>
-<tr><td><strong>Fed hike to 3.75–4.00%</strong> (Sep 16, first since Jul 2023)</td><td>Dot plot signals possible one more hike; 12 of 18 officials expect one more. Inflation: CPI 3.71% YoY (Aug 2026), PPI 5.44% YoY (Aug 2026).</td><td>Higher policy rate → higher front-end yields → pressure on rate-sensitive equities → tighter financial conditions with lag.</td><td>Underweight rate-sensitive long-duration equity; overweight quality with pricing power.</td></tr>
-<tr><td><strong>10Y UST at 5.00%, 30Y at 5.33%</strong> (rising)</td><td>Term premium expanding even after Fed hike. MOVE index +5.79% — bond volatility rising.</td><td>Duration compression for high-multiple growth; refinancing cost pressure; equity risk premium compresses.</td><td>Express risk through relative value, not outright beta. Hedge via short-duration equity.</td></tr>
+<tr><td><strong>Fed hike to 3.75–4.00%</strong> (Sep 16, recent hike)</td><td>Median end-2026 funds projection is 4.1%; official August CPI was 3.4% headline and 2.4% core, while final-demand PPI was 5.4% year on year.</td><td>Higher policy rate → higher front-end yields → pressure on rate-sensitive equities → tighter financial conditions with lag.</td><td>Underweight rate-sensitive long-duration equity; overweight quality with pricing power.</td></tr>
+<tr><td><strong>10Y UST at 5.00%, 30Y at 5.33%</strong> (rising)</td><td>Long yield rising even after Fed hike. MOVE index +5.79% — bond volatility rising.</td><td>Duration compression for high-multiple growth; refinancing cost pressure; equity risk premium compresses.</td><td>Express risk through relative value, not outright beta. Hedge via short-duration equity.</td></tr>
 <tr><td><strong>Breadth deterioration</strong>: only 45% above 50DMA (vs 66% above 200DMA)</td><td>Short-term participation rolling over while long-term trend intact. Classic late-cycle narrowing.</td><td>Narrow leadership → vulnerable to air pockets; equal-weight underperforming cap-weight by 3.51pp (20D).</td><td>Trim broad beta; rotate to sector-specific quality. Monitor for confirmation via breadth recovery above 55%.</td></tr>
-<tr><td><strong>Consumer sentiment weak (stale data: 44.8, May 2026)</strong></td><td>Lowest readings signal household stress. Michigan survey at depressed level; housing starts −34k.</td><td>Consumer ~70% of GDP; stale sentiment (May 2026) serves only as older corroborating context. Current evidence (XLY persistent selling, RSP underperformance) drives the UW stance; thesis unconfirmed by fresh spending data.</td><td>Underweight Consumer Discretionary and Staples; watch for confirmation via retail sales and continuing claims.</td></tr>
+<tr><td><strong>Consumer evidence is mixed</strong></td><td>August retail sales improved while housing starts slipped; May sentiment and June claims are stale.</td><td>Rate pressure and weak XLY participation argue for caution, but fresh spending data do not confirm a consumer slowdown.</td><td>Modest discretionary underweight; recheck after fresh retail and labor releases.</td></tr>
 <tr><td><strong>Credit flows selling (HYG −1.7Z, LQD −1.9Z)</strong> while equities stable</td><td>Credit flows (HYG −1.7Z, LQD −1.9Z) diverge from equity stability; historical patterns suggest credit weakness can precede equity weakness by 1–2 quarters, but current confirmation is absent.</td><td>Widening spreads → tighter corporate financing → earnings pressure on levered firms → equity de-rating.</td><td>Underweight high-beta credit-sensitive equities; treat equity strength as lagging until credit stabilizes.</td></tr>
 </table></div>
 </section>
 
 <section id="cio-dashboard">
-<h2>CIO Dashboard</h2>
+<h2 id="cio-dashboard-2">CIO Dashboard</h2>
 <div class="grid" style="margin-bottom:20px">
 <div class="card"><strong>Market Regime</strong>Mild Risk-On<br><span class="tag st">1–3M</span><span class="tag lt">Duration-Constrained</span></div>
-<div class="card"><strong>CIO Weighted Regime Score</strong>49.0 / 100<br><span style="font-size:11px;color:var(--muted)">Mild positive; skewed by mega-cap</span></div>
-<div class="card"><strong>ST Stance</strong><span class="ow">Neutral-Overweight</span><br><span style="font-size:11px;color:var(--muted)">Quality + cybersecurity, hedge duration</span></div>
+<div class="card"><strong>CIO Weighted Regime Score</strong>4.9 / 10<br><span style="font-size:11px;color:var(--muted)">Mixed; cap-weight trend masks weak participation</span></div>
+<div class="card"><strong>ST Stance</strong><span class="neutral">Neutral</span><br><span style="font-size:11px;color:var(--muted)">Quality + cybersecurity, hedge duration</span></div>
 <div class="card"><strong>LT Stance</strong><span class="neutral">Neutral</span><br><span style="font-size:11px;color:var(--muted)">Await clarity on terminal rate</span></div>
 <div class="card"><strong>Best GICS Sector</strong><span class="strong-ow">Information Technology</span><br><span style="font-size:11px;color:var(--muted)">Score 66.2; secular AI demand</span></div><div class="card"><strong>Preferred Theme</strong><span class="strong-ow">Cybersecurity</span><br><span style="font-size:11px;color:var(--muted)">CIBR flow accumulation confirmed</span></div>
 <div class="card"><strong>Best Factor</strong><span class="ow">Quality Growth</span><br><span style="font-size:11px;color:var(--muted)">Momentum + profitability filter</span></div>
-<div class="card"><strong>Top Tactical</strong><span class="strong-ow">Cybersecurity long</span><br><span style="font-size:11px;color:var(--muted)">CIBR accumulation confirmed.</span></div>
+<div class="card"><strong>Top Tactical</strong><span class="strong-ow">Cybersecurity long</span><br><span style="font-size:11px;color:var(--muted)">CIBR proxy accumulation indicated.</span></div>
 <div class="card"><strong>Top Risk</strong><span class="strong-uw">Duration shock</span><br><span style="font-size:11px;color:var(--muted)">Long end >5% compresses multiples</span></div>
 </div>
 </section>
 
 <section id="risk-opportunity">
-<h2>Risk / Opportunity Balance</h2>
+<h2 id="risk-opportunity-balance">Risk / Opportunity Balance</h2>
 <div class="table-wrap"><table>
 <tr><th>Opportunity / Risk</th><th>Why it exists</th><th>What market prices</th><th>Our view</th><th>Portfolio expression</th><th>What changes the view</th></tr>
-<tr><td><strong>Cybersecurity secular boom (CIBR)</strong></td><td>CIBR cyber accumulation confirmed; cybersecurity signal score 70.53; strong breadth; AI-driven demand.</td><td>Strong but not euphoric; CIBR flow confidence 100/100.</td><td>Add selectively via CIBR; funded from weak cyclicals.</td><td>OW via CIBR (cyber); 3–5% active.</td><td>CIBR breadth below 45% or CIBR 20D flow z-score drops below 0.</td></tr>
-<tr><td><strong>Energy as inflation hedge</strong></td><td>PPI 5.44%, oil supply concerns; XLE 60D RS +20pp; sector score 63.59.</td><td>Underpriced relative to inflation persistence; oil falling on demand worry.</td><td>Long energy as pair vs. underweight consumer.</td><td>OW XLE funded by UW XLY.</td><td>WTI below $85 or Fed signals cut.</td></tr>
-<tr><td><strong>Quality Growth (semis)</strong></td><td>AI infrastructure theme score 61.2; SMH semis institutional accumulation; SOXX structural accumulation.</td><td>Mega-cap concentration priced; semis volatile but accumulation strong.</td><td>Own quality semis, avoid leveraged unprofitable names.</td><td>OW SMH/SOXX semis; hedge via QQQ short if duration worsens.</td><td>SMH semis 20D flow z falls below 0; breadth deteriorates.</td></tr>
+<tr><td><strong>Cybersecurity secular boom (CIBR)</strong></td><td>CIBR cyber proxy accumulation indicated; cybersecurity signal score 70.53; strong breadth; AI-driven demand.</td><td>Strong but not euphoric; CIBR proxy flow confidence 95/100.</td><td>Add selectively via CIBR; funded from weak cyclicals.</td><td>OW via CIBR (cyber); 3–5% active.</td><td>CIBR breadth below 45% or CIBR 20D flow z-score drops below 0.</td></tr>
+<tr><td><strong>Energy as inflation hedge</strong></td><td>PPI 5.4%, oil supply concerns; XLE 60D return +20.05%; sector score 63.47.</td><td>Underpriced relative to inflation persistence; oil falling on demand worry.</td><td>Long energy as pair vs. underweight consumer.</td><td>OW XLE funded by UW XLY.</td><td>WTI below $85 or Fed signals cut.</td></tr>
+<tr><td><strong>Quality Growth (semis)</strong></td><td>AI infrastructure theme score 61.2; SMH semis estimated ETF accumulation; SOXX structural accumulation.</td><td>Mega-cap concentration priced; semis volatile but accumulation strong.</td><td>Own quality semis, avoid leveraged unprofitable names.</td><td>OW SMH/SOXX semis; hedge via QQQ short if duration worsens.</td><td>SMH semis 20D flow z falls below 0; breadth deteriorates.</td></tr>
 <tr><td><strong>Cash / short-duration Treasuries</strong></td><td>Fed at 3.75–4.00%; SHY flow z +1.1; SGOV confidence 99/100; term premium risk.</td><td>Underowned as risk-on fades; SGOV accumulation strong.</td><td>Increase tactical liquidity; dry powder for duration shock.</td><td>OW SHY/SGOV 5–8% active.</td><td>Fed signals sustained easing; yield curve steepens bullishly.</td></tr>
-<tr><td><strong>Duration shock (risk)</strong></td><td>10Y at 5%, 30Y at 5.33%; Fed hike path uncertain; term premium expanding.</td><td>Market treats hike as last; long end suggests more.</td><td>Underweight long-duration growth; hedge via short TLT.</td><td>UW XLRE, UW high-multiple growth; TLT underweight.</td><td>10Y stable below 4.8%; Fed signals terminal reached.</td></tr>
-<tr><td><strong>Consumer recession (risk)</strong></td><td>Stale Michigan sentiment 44.8 (May 2026); housing starts declining; continuing claims rising.</td><td>Discretionary selling already priced partially; Staples very weak. Current XLY selling and RSP underperformance drive UW stance; thesis unconfirmed by fresh spending data.</td><td>UW XLY, UW XLP.</td><td>Stale sentiment improves above 55; retail sales re-accelerate.</td></tr>
+<tr><td><strong>Duration shock (risk)</strong></td><td>10Y at 5%, 30Y at 5.33%; Fed hike path uncertain; long yield rising.</td><td>Equity multiples appear resilient despite higher discount rates; long-end pricing alone does not prove further Fed hikes.</td><td>Underweight long-duration growth; hedge via short TLT.</td><td>UW XLRE, UW high-multiple growth; TLT underweight.</td><td>10Y stable below 4.8%; Fed signals terminal reached.</td></tr>
+<tr><td><strong>Consumer slowdown (risk)</strong></td><td>August housing starts declined; May sentiment and June continuing claims are too old to confirm a current downturn.</td><td>Discretionary selling already priced partially; Staples very weak. Current XLY selling and RSP underperformance drive UW stance; thesis unconfirmed by fresh spending data.</td><td>UW XLY, UW XLP.</td><td>Fresh retail sales and labor data diverge from the mixed picture.</td></tr>
 <tr><td><strong>Credit spillover (risk)</strong></td><td>HYG −1.7Z, LQD −1.9Z; credit flows selling while equity stable.</td><td>Equity market ignoring credit warning; spreads not yet widening in price.</td><td>Treat equity strength as lagging; reduce high-beta credit exposure.</td><td>UW HYG-sensitive financials; reduce HY beta.</td><td>HY spreads widen >50bp; HYG breaks support.</td></tr>
 </table></div>
 </section>
 
 <section id="scenarios">
-<section id="historical-analogs">
-<h2>Historical Analogs and Lessons</h2>
-<p><strong>Analog 1 — 1994 rate shock (duration).</strong> A rapid back-up in long-end yields compressed equity multiples even as the economy grew — a rate-of-change / duration-shock mechanism, not an absolute yield-level comparison (1994 10Y yields were materially higher than 5%). The lesson: term-premium expansion is not the same as a recession signal, but it is a multiple-compression signal. Current 10Y at 5.00% and 30Y at 5.33% resembles this regime.</p>
-<p><strong>Analog 2 — 2018 Q4 (credit leading equity).</strong> Credit spreads widened in advance of the Q4 2018 equity drawdown (claimed lead time and spread behavior not independently sourced here). HYG/LQD selling at −1.7Z/−1.9Z today qualitatively resembles early-2018 credit distribution; the comparison is limited and unverified for exact lead time. The equity market is currently ignoring this signal, as it did in early 2018. Confirmation requires HY OAS above 350bp.</p>
-<p><strong>Analog 3 — 2011 debt-ceiling (consumer sentiment decline).</strong> Headline Michigan sentiment was ~55.8 in August 2011 (expectations subcomponents fell below 50) while the S&amp;P 500 held roughly flat, then declined once earnings confirmed the demand hit. Stale Michigan sentiment (44.8, May 2026) is far below the 2011 headline level; the analogy is limited to the direction of sentiment decline, not the absolute reading. Current retail sales remain strong, so the analog is incomplete.</p>
-<div class="table-wrap"><table>
-<tr><th>Period</th><th>Trigger</th><th>Market Response</th><th>Current Parallel</th><th>Key Difference</th></tr>
-<tr><td>1994</td><td>Rapid long-end repricing / duration-shock mechanism (not absolute yield level; 1994 10Y yields were materially higher than 5%)</td><td>Multiple compression; bonds sell off; equities mixed</td><td>10Y 5.00%, 30Y 5.33%, MOVE +5.79%</td><td>Stronger earnings base today; tech profitability higher</td></tr>
-<tr><td>2018 Q4</td><td>Credit spreads widen before equity</td><td>S&amp;P −20% in Q4; credit led by a lag (lead time not independently sourced)</td><td>HYG −1.7Z, LQD −1.9Z</td><td>Credit has not yet confirmed; spreads not widening in price</td></tr>
-<tr><td>2011</td><td>Stale consumer sentiment</td><td>Headline Michigan ~55.8 (Aug 2011); expectations subcomponents below 50; equities held then declined</td><td>Stale Michigan 44.8 (May)</td><td>Sentiment data is stale; current retail sales strong</td></tr>
-</table></div>
-</section>
+<section id="historical-analogs"><h2 id="historical-perspective">Historical Perspective</h2><p>Prior rate shocks show that rising yields can compress equity multiples even when growth holds. They supply no reliable timing rule for this cycle. The current test is whether the long yield rises alongside earnings and broader participation, or alongside weaker credit and breadth.</p></section>
 
 <section id="scorecard">
-<h2>Market Regime Scorecard — CIO Weighted</h2>
+<h2 id="market-regime-scorecard-cio-weighted">Market Regime Scorecard — CIO Weighted</h2>
 <p>Weighted overall score calculated from component scores. Weights total 100%. Highest-weighted variables matter most because they dominate the regime classification and drive the primary portfolio posture.</p>
 <div class="table-wrap"><table>
-<tr><th>Dimension</th><th>Score (0-100)</th><th>Weight</th><th>Direction</th><th>Confidence</th><th>Why it matters</th></tr>
-<tr><td>Growth</td><td>62</td><td>20%</td><td><span class="ow">Improving</span></td><td><span class="medium-confidence">Med</span></td><td>Highest weight; GDP stable, retail sales strong - anchors the mild risk-on regime</td></tr>
-<tr><td>Inflation</td><td>38</td><td>20%</td><td><span class="uw">Sticky</span></td><td><span class="high-confidence">High</span></td><td>Highest weight; CPI 3.71%, PPI 5.44% constrain Fed easing - drives duration constraint</td></tr>
-<tr><td>Liquidity</td><td>45</td><td>20%</td><td><span class="uw">Tightening</span></td><td><span class="high-confidence">High</span></td><td>Fed at 3.75-4.00%, dot plot signals another hike; cost of capital elevated</td></tr>
-<tr><td>Earnings</td><td>68</td><td>15%</td><td><span class="ow">Stable</span></td><td><span class="medium-confidence">Med</span></td><td>Tech/cyber earnings support index; consumer-facing revisions risk</td></tr>
-<tr><td>Valuation</td><td>42</td><td>15%</td><td><span class="uw">Stretched</span></td><td><span class="medium-confidence">Med</span></td><td>10Y at 5% compresses high-multiple multiples; index P/E elevated</td></tr>
-<tr><td>Sentiment / positioning</td><td>35</td><td>10%</td><td><span class="uw">Weak</span></td><td><span class="low-confidence">Low</span></td><td>Stale Michigan 44.8 (May); credit flows selling; breadth narrowing</td></tr>
-<tr><td colspan="2"><strong>Weighted Overall Score</strong></td><td><strong>100%</strong></td><td><span class="neutral">Mild Risk-On</span></td><td><span class="medium-confidence">Med</span></td><td><strong>CIO Weighted Regime Score: 49.0/100</strong> - regime is mild risk-on but duration-constrained</td></tr>
+<tr><th>Dimension</th><th>Score (1–10)</th><th>Weight</th><th>Direction</th><th>Confidence</th><th>Why it matters</th></tr>
+<tr><td>Growth</td><td>6.2</td><td>20%</td><td><span class="ow">Improving</span></td><td><span class="medium-confidence">Med</span></td><td>Highest weight; GDP stable, retail sales strong - anchors the mild risk-on regime</td></tr>
+<tr><td>Inflation</td><td>3.8</td><td>20%</td><td><span class="uw">Sticky</span></td><td><span class="high-confidence">High</span></td><td>Highest weight; CPI 3.4%, PPI 5.4% constrain Fed easing - drives duration constraint</td></tr>
+<tr><td>Liquidity</td><td>4.5</td><td>20%</td><td><span class="uw">Tightening</span></td><td><span class="high-confidence">High</span></td><td>Fed at 3.75–4.00%; median end-2026 projection is 4.1%</td></tr>
+<tr><td>Earnings</td><td>6.8</td><td>15%</td><td><span class="ow">Stable</span></td><td><span class="medium-confidence">Med</span></td><td>Tech/cyber earnings support index; consumer-facing revisions risk</td></tr>
+<tr><td>Valuation</td><td>4.2</td><td>15%</td><td><span class="uw">Stretched</span></td><td><span class="medium-confidence">Med</span></td><td>10Y at 5% compresses high-multiple multiples; index P/E elevated</td></tr>
+<tr><td>Sentiment / positioning</td><td>3.5</td><td>10%</td><td><span class="uw">Weak</span></td><td><span class="low-confidence">Low</span></td><td>Stale Michigan 44.8 (May); credit flows selling; breadth narrowing</td></tr>
+<tr><td colspan="2"><strong>Weighted Overall Score</strong></td><td><strong>100%</strong></td><td><span class="neutral">Mixed</span></td><td><span class="medium-confidence">Med</span></td><td><strong>CIO Weighted Regime Score: 4.9/10</strong> - analyst assessment is mixed and duration-constrained</td></tr>
 </table></div>
-<p><strong>Arithmetic check:</strong> 62×0.20 + 38×0.20 + 45×0.20 + 68×0.15 + 42×0.15 + 35×0.10 = 12.4 + 7.6 + 9.0 + 10.2 + 6.3 + 3.5 = 49.0/100 (verified).</p>
-<p><strong>Why the highest-weighted variables matter most:</strong> Growth (20%) and Inflation (20%) together determine 40% of the score. They set the regime classification (mild risk-on) and the primary constraint (duration). Liquidity (20%) reinforces the constraint. Earnings (15%) and Valuation (15%) are secondary because they reflect the regime rather than drive it. Sentiment (10%) has the lowest weight because the available data is stale (May 2026) and current activity indicators are more reliable.</p>
+<p><strong>Arithmetic check:</strong> 6.2×0.20 + 3.8×0.20 + 4.5×0.20 + 6.8×0.15 + 4.2×0.15 + 3.5×0.10 = 4.90/10 (verified).</p>
+<p><strong>Why the highest-weighted variables matter most:</strong> Growth (20%) and Inflation (20%) together determine 40% of the score. They set the analyst classification (mixed) and the primary constraint (duration). Liquidity (20%) reinforces the constraint. Earnings (15%) and Valuation (15%) are secondary because they reflect the regime rather than drive it. Sentiment (10%) has the lowest weight because the available data is stale (May 2026) and current activity indicators are more reliable.</p>
 </section>
 
-<h2>Probability-Weighted Scenarios</h2>
-<h3>Short-Term — 1–3 Months</h3>
+<h2 id="probability-weighted-scenarios">Probability-Weighted Scenarios</h2>
+<h3 id="short-term-1-3-months">Short-Term — 1–3 Months</h3>
 <div class="table-wrap"><table>
-<tr><th>Scenario</th><th>Prob.</th><th>S&amp;P Range</th><th>Macro</th><th>Rates</th><th>Leadership</th><th>Trigger to shift</th></tr>
+<tr><th>Scenario</th><th>Prob.</th><th>S&amp;P period-end estimate</th><th>Macro</th><th>Rates</th><th>Leadership</th><th>Trigger to shift</th></tr>
 <tr><td><span class="bull">Bull</span></td><td>20%</td><td>7,900–8,100</td><td>Soft landing; Fed pauses; inflation 3.2–3.4%</td><td>10Y stable ≤4.8%; curve flattens bullishly</td><td>Broadening; equal-weight catches up</td><td>10Y breaks below 4.7%; breadth >55%</td></tr>
-<tr><td><span class="base">Base</span></td><td>55%</td><td>7,500–7,800</td><td>Mild risk-on; one more hike possible; inflation sticky ~3.7%</td><td>10Y 4.8–5.2%; term premium elevated</td><td>Narrow; cyber/energy/semis lead</td><td>Fed signals two more hikes → bear</td></tr>
-<tr><td><span class="bear">Bear</span></td><td>25%</td><td>7,100–7,400</td><td>Consumer recession; credit spreads widen; earnings miss</td><td>10Y >5.3%; disorderly term-premium shock</td><td>Defensive; cash dominates</td><td>HYG breaks support; VIX >25</td></tr>
+<tr><td><span class="base">Base</span></td><td>55%</td><td>7,500–7,800</td><td>Mild risk-on; a further hike remains possible; inflation is mixed</td><td>10Y 4.8–5.2%; long yields elevated</td><td>Narrow; cyber/energy/semis lead</td><td>10Y rises above 5.3% with widening spreads → bear</td></tr>
+<tr><td><span class="bear">Bear</span></td><td>25%</td><td>7,100–7,400</td><td>Consumer spending contracts; credit spreads widen; earnings miss</td><td>10Y >5.3%; disorderly term-premium shock</td><td>Defensive; cash dominates</td><td>HYG breaks support; VIX >25</td></tr>
 </table></div>
-<h3>Long-Term — 6–12 Months</h3>
+<h3 id="long-term-6-12-months">Long-Term — 6–12 Months</h3>
 <div class="table-wrap"><table>
-<tr><th>Scenario</th><th>Prob.</th><th>S&amp;P Range</th><th>Macro</th><th>Rates</th><th>Leadership</th><th>Trigger to shift</th></tr>
+<tr><th>Scenario</th><th>Prob.</th><th>S&amp;P period-end estimate</th><th>Macro</th><th>Rates</th><th>Leadership</th><th>Trigger to shift</th></tr>
 <tr><td><span class="bull">Bull</span></td><td>20%</td><td>8,500–9,000</td><td>Inflation cools to 2.5%; Fed cuts; soft landing confirmed</td><td>10Y 4.0–4.3%; curve normalizes</td><td>Broad-based; small caps re-rate</td><td>Core CPI <2.5%; Fed signals cuts</td></tr>
-<tr><td><span class="base">Base</span></td><td>50%</td><td>7,800–8,200</td><td>Sticky inflation; Fed holds at 3.75–4.00%; growth slows</td><td>10Y 4.7–5.0%; range-bound</td><td>Quality mega-cap; defensive rotation</td><td>Earnings recession confirmed</td></tr>
-<tr><td><span class="bear">Bear</span></td><td>30%</td><td>6,500–7,200</td><td>Hard landing; consumer recession deepens; credit crisis</td><td>10Y >5.5% then collapses as Fed reverses</td><td>Defensives, gold, cash dominate</td><td>Unemployment >5%; HY spreads >75bp</td></tr>
+<tr><td><span class="base">Base</span></td><td>50%</td><td>7,800–8,200</td><td>Uneven disinflation; Fed holds near current range; growth slows</td><td>10Y 4.7–5.0%; range-bound</td><td>Quality mega-cap; defensive rotation</td><td>Earnings recession confirmed</td></tr>
+<tr><td><span class="bear">Bear</span></td><td>30%</td><td>6,500–7,200</td><td>Hard landing; unemployment and defaults rise</td><td>10Y >5.5% then collapses as Fed reverses</td><td>Defensives, gold, cash dominate</td><td>Unemployment >5%; HY spreads >75bp</td></tr>
 </table></div>
-<div class="note"><strong>Note:</strong> Probabilities total 100% within each horizon (short: 20+55+25; long: 20+50+30). The base case at both horizons is anchored by the Fed's higher-for-longer stance and sticky inflation — the key probability-shift trigger is the direction of the long end: an orderly move below 4.7% shifts toward bull, a disorderly move above 5.3% shifts toward bear.</div>
+<div class="note"><strong>Note:</strong> Probabilities total 100% within each horizon (short: 20+55+25; long: 20+50+30). The base case at both horizons is anchored by the Fed's restrictive policy and uneven disinflation — the key probability-shift trigger is the direction of the long end: an orderly move below 4.7% shifts toward bull, a disorderly move above 5.3% shifts toward bear.</div>
 </section>
 
 <section id="macro">
-<h2>Macro View</h2>
-<h3>Short-Term Macro View — 1–3 Months</h3>
-<p><strong>Fed policy:</strong> The Fed hiked 25bp on Sep 16 to 3.75–4.00%, its first increase since July 2023. The decision was unanimous with all 12 voting members. The dot plot shows 12 of 18 officials expecting one more hike this year. <em>This is a hawkish surprise to a market that had been pricing the cycle as complete.</em></p>
-<p><strong>Inflation:</strong> CPI headline at 3.71% YoY (Aug), core CPI 2.76%, PPI final demand at 5.44% YoY — a worrying acceleration in producer-level prices that will eventually pass through.</p>
-<p><strong>Growth:</strong> GDP at 24,270 billion chained 2017 dollars (Q2 2026), industrial production stable (date unspecified), retail sales strong. Available activity indicators remain broadly stable, but freshness varies. Forward indicators — stale Michigan sentiment at 44.8 (May 2026), declining housing starts — point to weakening demand; current retail sales remain strong.</p>
-<p><strong>Labor:</strong> Unemployment at 4.1% (stable, Aug 2026). Initial claims at 215k and continuing claims at 1.821M — dates unspecified; freshness varies across series.</p>
-<p><strong>Stale data note:</strong> Industrial production date unspecified; initial/continuing claims dates unspecified. These series are not equally current as the 18 Sep 2026 cash market close.</p>
-<p>The labor market is at full employment with no slack, limiting the Fed's ability to cut without inflation re-acceleration.</p>
-<p><strong>Rates:</strong> 10Y at 5.00% (+1.03%), 30Y at 5.33%, 2Y at 4.75% (+1.36%). The curve is inverted-to-flat at the front end but steepening at the long end — a term-premium signal. MOVE at 80.64 (+5.79%) confirms rising bond volatility.</p>
-<p><strong>Confidence: Moderate-High</strong> — data is fresh (Aug CPI/PPI, Sep FOMC), multiple sources agree on direction.</p>
-<h3>Long-Term Macro View — 6–12 Months</h3>
-<p>The secular question is whether 3.75–4.00% is the terminal rate or merely the midpoint of a new tightening cycle. With fiscal deficits expanding, term premium structurally higher, and inflation sticky at 3.7%+, we lean toward <strong>higher-for-longer with a possible one-more-hike</strong>. The base case is a policy plateau at 4.00–4.25% through year-end, with the next directional move dependent on whether core CPI breaks below 2.5% or unemployment rises above 4.5%.</p>
+<h2 id="macro-view">Macro View</h2>
+<h3 id="short-term-macro-view-1-3-months">Short-Term Macro View — 1–3 Months</h3>
+<p><strong>Policy and inflation:</strong> The Fed unanimously raised its target to 3.75–4.00% on 16 September. The median participant projected 4.1% for end-2026, an individual assessment rather than a binding plan. Official BLS August CPI was 3.4% headline and 2.4% core year on year, versus conflicting source rows near 3.7% and 2.75%. We use the official release. Final-demand PPI was 5.4% year on year, with energy a large contributor to the monthly move; direct CPI pass-through is uncertain.</p>
+<p><strong>Growth and labor:</strong> Official August payrolls rose 162,000 and unemployment held at 4.1%. The source's August retail sales improved, while starts declined. June claims, May sentiment and 2025 global rows are stale and do not drive the tactical call.</p>
+<p><strong>Rates:</strong> The source and API show the 18 September close at 4.75% for two years, 5.00% for ten years and 5.33% for thirty years. A higher long end amid stable credit would suggest nominal growth; a higher long end with weaker credit and breadth would tighten financing and compress valuations. The latter is the risk to hedge.</p>
+<h3 id="long-term-macro-view-6-12-months">Long-Term Macro View — 6–12 Months</h3>
+<p>The secular question is whether 3.75–4.00% is the terminal rate or merely the midpoint of a new tightening cycle. The Fed's 4.1% median end-2026 projection keeps a further increase plausible, but growth and inflation may alter that path. Our base case holds strategic broad beta neutral until either disinflation and breadth support a wider advance or credit and labor data confirm a slowdown.</p>
 </section>
 
 <section id="cross-asset">
-<h2>Cross-Asset View</h2>
+<h2 id="cross-asset-view">Cross-Asset View</h2>
 <div class="table-wrap"><table>
 <tr><th>Asset</th><th>Level</th><th>Chg</th><th>Signal</th><th>Cross-asset read</th></tr>
 <tr><td>S&amp;P 500 (^GSPC)</td><td>7,650.5</td><td>+0.17%</td><td><span class="ow">Constructive</span></td><td>Stable — but mega-cap driven</td></tr>
@@ -196,7 +180,7 @@ html[data-theme="dark"] .note{background:#392f1a}
 <tr><td>Russell 2000 (^RUT)</td><td>2,860.4</td><td>−0.50%</td><td><span class="uw">Weak</span></td><td><strong>Contradiction:</strong> small caps lagging — narrowing breadth</td></tr>
 <tr><td>VIX</td><td>14.81</td><td>−4.08%</td><td><span class="ow">Calm</span></td><td>Low vol — but complacency risk</td></tr>
 <tr><td>MOVE</td><td>80.64</td><td>+5.79%</td><td><span class="uw">Elevated</span></td><td><strong>Contradiction:</strong> equity vol low, bond vol rising</td></tr>
-<tr><td>10Y UST (US10YT=X)</td><td>5.00%</td><td>+1.03%</td><td><span class="uw">Pressure</span></td><td>Term premium expanding</td></tr>
+<tr><td>10Y UST (US10YT=X)</td><td>5.00%</td><td>+1.03%</td><td><span class="uw">Pressure</span></td><td>Long yield rising</td></tr>
 <tr><td>WTI Crude (CL=F)</td><td>$99.53</td><td>−2.34%</td><td><span class="neutral">Soft</span></td><td>Demand worry outweighs supply risk</td></tr>
 <tr><td>Gold (GC=F)</td><td>$4,415.9</td><td>+0.37%</td><td><span class="ow">Bid</span></td><td>Inflation hedge / safe-haven demand</td></tr>
 <tr><td>Silver (SI=F)</td><td>$66.79</td><td>+2.01%</td><td><span class="ow">Strong</span></td><td>Industrial + precious demand</td></tr>
@@ -209,10 +193,10 @@ html[data-theme="dark"] .note{background:#392f1a}
 
 <section id="price-action">
 <section id="broad-equities">
-<h2>Broad US Equities View</h2>
+<h2 id="broad-us-equities-view">Broad US Equities View</h2>
 <p><strong>Index level:</strong> S&amp;P 500 at 7,650.5 (18 Sep 2026 close). The index is stable but the composition tells a different story — mega-cap technology and cybersecurity are carrying performance while breadth narrows (only 45% of constituents above their 50DMA vs 66% above their 200DMA).</p>
 <p><strong>Tactical view (1–3M):</strong> Neutral-to-overweight quality growth. The risk-on regime is intact at the headline level but vulnerable to duration shocks. We prefer sector-specific quality (cybersecurity, energy) over broad beta (SPY). Equal-weight underperformance (−3.51pp over 20D) confirms narrow leadership.</p>
-<p><strong>Strategic view (6–12M):</strong> Neutral. The Fed is at 3.75–4.00% with the dot plot signaling one more hike possible. Until the long end stabilizes (10Y below 4.8%), broad equity multiples face headwinds. Cash and short-duration Treasuries offer competitive risk-adjusted returns as dry powder.</p>
+<p><strong>Strategic view (6–12M):</strong> Neutral. The Fed is at 3.75–4.00% with a 4.1% median end-2026 projection. Until the long end stabilizes (10Y below 4.8%), broad equity multiples face headwinds. Cash and short-duration Treasuries offer competitive risk-adjusted returns as dry powder.</p>
 <div class="table-wrap"><table>
 <tr><th>Dimension</th><th>Call</th><th>Confidence</th><th>Basis</th></tr>
 <tr><td>Broad beta (SPY)</td><td><span class="neutral">Neutral</span></td><td><span class="medium-confidence">Med</span></td><td>Index stable but breadth narrowing; equal-weight underperforming</td></tr>
@@ -222,7 +206,7 @@ html[data-theme="dark"] .note{background:#392f1a}
 </table></div>
 </section>
 
-<h2>Price Action, Breadth and Momentum</h2>
+<h2 id="price-action-breadth-and-momentum">Price Action, Breadth and Momentum</h2>
 <p><strong>Primary trend:</strong> Up. S&amp;P 500 above its 200DMA; 66.1% of constituents above 200DMA. Nasdaq at 100/100 trend score confirms strong primary uptrend.</p>
 <p><strong>Short-term momentum:</strong> Deteriorating. Only 45% of constituents above 50DMA; breadth narrowing. RSP underperforming SPY by 3.51pp signals mega-cap concentration.</p>
 <p><strong>Volume:</strong> Neutral. Volume confirmation score 47.5 — no strong conviction behind the advance.</p>
@@ -231,58 +215,58 @@ html[data-theme="dark"] .note{background:#392f1a}
 </section>
 
 <section id="flows">
-<h2>Flows, Positioning and Sentiment</h2>
-<p><strong>Broad equity flows:</strong> IVV showing exceptional institutional selling (−1.4 20D Z, −2.1 60D Z). The largest equity ETF is experiencing persistent distribution while retail momentum holds indices up.</p>
-<p><strong>Credit flows:</strong> LQD (−1.9 20D Z) and HYG (−1.7 20D Z) both in persistent distribution. Credit is being sold more aggressively than equities — a classic early warning.</p>
+<h2 id="flows-positioning-and-sentiment">Flows, Positioning and Sentiment</h2>
+<p><strong>Broad equity flows:</strong> IVV showing large estimated ETF outflow (−1.4 20D Z, −2.1 60D Z). The IVV proxy indicates net redemptions while index leadership remains narrow.</p>
+<p><strong>Credit flows:</strong> LQD (−1.9 20D Z) and HYG (−1.7 20D Z) both in persistent distribution. Credit ETF price and estimated flows are softer than equity index levels. This is a watch signal, not evidence of spread widening.</p>
 <p><strong>Treasury flows:</strong> SHY (+1.1 20D Z) and SGOV (99/100 confidence) show rotation into cash/short-duration. Duration assets (TLT) being sold.</p>
-<p><strong>Gold:</strong> GLD (+1.0 20D Z, +2.7 60D Z) — structural accumulation. Institutional buying as inflation hedge.</p>
-<p><strong>Sector flow signals:</strong> IJH (mid caps) showing aggressive dip-buying (+3.6 20D Z). XLRE contrarian buying (100/100). Industrials (XLI) persistent distribution (−1.5 20D Z).</p>
+<p><strong>Gold:</strong> GLD (+1.0 20D Z, +2.7 60D Z) — structural accumulation. Estimated ETF buying as inflation hedge.</p>
+<p><strong>Sector flow signals:</strong> IJH (mid caps) showing estimated dip-buying (+3.6 20D Z). XLRE contrarian buying (100/100). Industrials (XLI) persistent distribution (−1.5 20D Z).</p>
 </section>
 
 <section id="sectors">
 <section id="portfolio-posture">
-<h2>Recommended Portfolio Posture</h2>
-<p>Current stance: <strong>neutral-overweight quality growth, defensive on rate-sensitive and consumer sectors, tactical cash buffer.</strong></p>
+<h2 id="recommended-portfolio-posture">Recommended Portfolio Posture</h2>
+<p>Current stance: <strong>neutral broad beta with an overweight in profitable growth, defensive on rate-sensitive and consumer sectors, tactical cash buffer.</strong></p>
 <div class="table-wrap"><table>
 <tr><th>Component</th><th>Stance</th><th>Active Weight</th><th>Rationale</th></tr>
 <tr><td>Equity beta</td><td><span class="neutral">Neutral</span></td><td>0%</td><td>Regime mild risk-on but composition deteriorating</td></tr>
 <tr><td>Quality growth tilt</td><td><span class="ow">Overweight</span></td><td>+2.0%</td><td>Profitability filter; AI infrastructure tailwind</td></tr>
-<tr><td>Cybersecurity</td><td><span class="ow">Overweight</span></td><td>+1.0%</td><td>Flow-confirmed; institutional accumulation</td></tr>
+<tr><td>Cybersecurity</td><td><span class="ow">Overweight</span></td><td>+1.0%</td><td>Flow-confirmed; estimated ETF accumulation</td></tr>
 <tr><td>Energy</td><td><span class="ow">Overweight</span></td><td>+1.5%</td><td>Inflation hedge; Brent/WTI firm</td></tr>
 <tr><td>Rate-sensitive (XLRE, XLU)</td><td><span class="uw">Underweight</span></td><td>−1.5%</td><td>Duration shock risk; 10Y at 5%</td></tr>
-<tr><td>Consumer (XLY, XLP)</td><td><span class="uw">Underweight</span></td><td>−3.0%</td><td>Stale Michigan (May 2026); persistent distribution</td></tr>
+<tr><td>Consumer (XLY, XLP)</td><td><span class="uw">Underweight</span></td><td>−3.0%</td><td>Weak XLY price and estimated flow; May sentiment is stale</td></tr>
 <tr><td>Financials</td><td><span class="uw">Underweight</span></td><td>−1.0%</td><td>Credit flow warning (HYG/LQD selling)</td></tr>
 <tr><td>Cash / short-duration</td><td><span class="ow">Overweight</span></td><td>+1.0%</td><td>Dry powder; SHY/SGOV accumulation; Fed at 3.75–4.00%</td></tr>
 <tr><td><strong>Net</strong></td><td><span class="neutral">Balanced</span></td><td><strong>0.0%</strong></td><td>Neutral beta with quality and thematic tilts</td></tr>
 </table></div>
 </section>
 
-<h2>Sector Rankings</h2>
+<h2 id="sector-rankings">Sector Rankings</h2>
 <div class="table-wrap"><table>
 <tr><th>Rank</th><th>Sector</th><th>ST Rec</th><th>LT Rec</th><th>Score</th><th>Rationale</th></tr>
-<tr><td>1</td><td><strong>Information Technology</strong></td><td><span class="ow">OW</span></td><td><span class="ow">OW</span></td><td>66.2</td><td>AI infrastructure; secular demand; institutional accumulation</td></tr>
-<tr><td>2</td><td><strong>Energy</strong></td><td><span class="ow">OW</span></td><td><span class="ow">OW</span></td><td>63.6</td><td>PPI 5.44% supports inflation hedge; XLE 60D RS +20pp</td></tr>
+<tr><td>1</td><td><strong>Information Technology</strong></td><td><span class="ow">OW</span></td><td><span class="ow">OW</span></td><td>66.2</td><td>AI infrastructure; secular demand; estimated ETF accumulation</td></tr>
+<tr><td>2</td><td><strong>Energy</strong></td><td><span class="ow">OW</span></td><td><span class="ow">OW</span></td><td>63.5</td><td>PPI 5.4% supports inflation hedge; XLE 60D return +20.05%</td></tr>
 <tr><td>3</td><td><strong>Health Care</strong></td><td><span class="neutral">Neutral</span></td><td><span class="ow">OW</span></td><td>59.7</td><td>Defensive growth; broad breadth 72.8% above 200DMA</td></tr>
 <tr><td>4</td><td><strong>Financials</strong></td><td><span class="neutral">Neutral</span></td><td><span class="uw">UW</span></td><td>45.6</td><td>HYG/LQD selling pressures credit-sensitive banks</td></tr>
 <tr><td>5</td><td><strong>Communication Services</strong></td><td><span class="neutral">Neutral</span></td><td><span class="neutral">Neutral</span></td><td>40.6</td><td>META/TTD leadership; mixed confirmation</td></tr>
 <tr><td>6</td><td><strong>Real Estate</strong></td><td><span class="ow">OW</span></td><td><span class="neutral">Neutral</span></td><td>32.8</td><td>Contrarian accumulation but rate-sensitive; tactical only</td></tr>
 <tr><td>7</td><td><strong>Materials</strong></td><td><span class="neutral">Neutral</span></td><td><span class="neutral">Neutral</span></td><td>32.3</td><td>Copper firm but equity breadth weak</td></tr>
 <tr><td>8</td><td><strong>Industrials</strong></td><td><span class="uw">UW</span></td><td><span class="uw">UW</span></td><td>33.8</td><td>Persistent distribution; XLI −1.5Z</td></tr>
-<tr><td>9</td><td><strong>Utilities</strong></td><td><span class="uw">UW</span></td><td><span class="uw">UW</span></td><td>33.3</td><td>Rate-sensitive; institutional selling</td></tr>
+<tr><td>9</td><td><strong>Utilities</strong></td><td><span class="uw">UW</span></td><td><span class="uw">UW</span></td><td>33.3</td><td>Rate-sensitive; estimated ETF selling</td></tr>
 <tr><td>10</td><td><strong>Consumer Staples</strong></td><td><span class="uw">UW</span></td><td><span class="uw">UW</span></td><td>34.9</td><td>Persistent distribution; XLP persistent selling</td></tr>
-<tr><td>11</td><td><strong>Consumer Discretionary</strong></td><td><span class="uw">UW</span></td><td><span class="uw">UW</span></td><td>34.3</td><td>Stale Michigan (May 2026) + persistent XLY selling</td></tr>
+<tr><td>11</td><td><strong>Consumer Discretionary</strong></td><td><span class="uw">UW</span></td><td><span class="uw">UW</span></td><td>34.3</td><td>Weak XLY price and estimated flow; May sentiment is stale</td></tr>
 </table></div>
 </section>
 
 <section id="themes">
-<h2>Theme Rankings</h2>
+<h2 id="theme-rankings">Theme Rankings</h2>
 <p>Themes span multiple GICS sectors and are ranked separately from Sector Rankings above. Cybersecurity and Semiconductors are <strong>not</strong> GICS sectors.</p>
 <div class="table-wrap"><table>
 <tr><th>Theme</th><th>Rank</th><th>Conviction</th><th>Evidence</th></tr>
 <tr><td>Cybersecurity</td><td>1</td><td><span class="high-confidence">High</span></td><td>CIBR +1.6Z flow; cybersecurity signal score 70.5; broad cybersecurity breadth</td></tr>
 <tr><td>AI Infrastructure</td><td>2</td><td><span class="high-confidence">High</span></td><td>SMH +2.0Z flow; semiconductor demand cycle; tech earnings support</td></tr>
-<tr><td>Semiconductors</td><td>3</td><td><span class="high-confidence">High</span></td><td>SMH institutional accumulation; SOXX relative strength; AI capex</td></tr>
-<tr><td>Energy / Energy Security</td><td>4</td><td><span class="medium-confidence">Med</span></td><td>PPI 5.44%; XLE 60D RS +20pp; Brent/WTI firm</td></tr>
+<tr><td>Semiconductors</td><td>3</td><td><span class="high-confidence">High</span></td><td>SMH estimated ETF accumulation; SOXX relative strength; AI capex</td></tr>
+<tr><td>Energy / Energy Security</td><td>4</td><td><span class="medium-confidence">Med</span></td><td>Producer prices include energy strength; XLE 60D return +20.05%; Brent/WTI firm</td></tr>
 <tr><td>Digital Assets</td><td>5</td><td><span class="medium-confidence">Med</span></td><td>IBIT +1.1Z; speculative tail, not core allocation</td></tr>
 <tr><td>Grid / Nuclear / Power</td><td>6</td><td><span class="medium-confidence">Med</span></td><td>AI power demand; long-cycle capex</td></tr>
 <tr><td>Defense</td><td>7</td><td><span class="medium-confidence">Med</span></td><td>Geopolitical tail; fiscal spending</td></tr>
@@ -292,18 +276,18 @@ html[data-theme="dark"] .note{background:#392f1a}
 <h2 id="factors">Factor &amp; Style</h2>
 <div class="table-wrap"><table>
 <tr><th>Factor</th><th>ST Rec</th><th>LT Rec</th><th>Why now</th></tr>
-<tr><td><strong>Quality Growth</strong></td><td><span class="ow">OW</span></td><td><span class="ow">OW</span></td><td>Theme score 63.5; SMH semis institutional accumulation; profitability filter essential in duration-constrained regime</td></tr>
+<tr><td><strong>Quality Growth</strong></td><td><span class="ow">OW</span></td><td><span class="ow">OW</span></td><td>Theme score 63.5; SMH semis estimated ETF accumulation; profitability filter essential in duration-constrained regime</td></tr>
 <tr><td>Momentum</td><td><span class="ow">OW</span></td><td><span class="neutral">Neutral</span></td><td>Cyber/energy/semi momentum strong but concentrated; crowding risk in semis</td></tr>
 <tr><td>Value</td><td><span class="neutral">Neutral</span></td><td><span class="neutral">Neutral</span></td><td>IWF vs IWD +2.92pp growth leadership; value unappealing in rising-rate environment</td></tr>
 <tr><td>Low Volatility</td><td><span class="neutral">Neutral</span></td><td><span class="ow">OW</span></td><td>VIX low but complacency; defensive rotation candidate if breadth deteriorates</td></tr>
-<tr><td>Size (Small Cap)</td><td><span class="uw">UW</span></td><td><span class="neutral">Neutral</span></td><td>IWM −4.44pp vs SPY; consumer recession risk hits small caps first</td></tr>
+<tr><td>Size (Small Cap)</td><td><span class="uw">UW</span></td><td><span class="neutral">Neutral</span></td><td>IWM −4.44pp vs SPY; consumer slowdown risk hits small caps first</td></tr>
 <tr><td>Earnings Revisions</td><td><span class="ow">OW</span></td><td><span class="ow">OW</span></td><td>Tech/cyber revision trends positive; consumer revisions at risk</td></tr>
 </table></div>
 
 
 <section id="trades">
 <section id="style-rotation">
-<h2>Style Rotation</h2>
+<h2 id="style-rotation-2">Style Rotation</h2>
 <p>The current regime favors <strong>quality over value</strong> and <strong>momentum over mean reversion</strong>. Duration constraints penalize high-beta long-duration growth without profitability filters.</p>
 <div class="table-wrap"><table>
 <tr><th>Style Factor</th><th>Short-Term (1–3M)</th><th>Long-Term (6–12M)</th><th>Rationale</th></tr>
@@ -319,22 +303,22 @@ html[data-theme="dark"] .note{background:#392f1a}
 </table></div>
 </section>
 
-<h2>Trade Ideas</h2>
-<h3>Tactical — 1–3 Months</h3>
-<div class="trade"><strong>1. Long Cybersecurity (CIBR)</strong><br><span class="tag st">1–3M</span> <span class="strong-ow">Strong OW</span> · <strong>Conviction: 8/10</strong><br><em>Why now:</em> Institutional accumulation confirmed (CIBR cyber +1.6Z flow, cybersecurity signal score 70.5). AI-driven secular demand with broad breadth. <em>Mispricing:</em> Market treats cyber as crowded; flow data shows structural accumulation. <em>P&amp;L driver:</em> Continued institutional inflows + AI budget growth. <em>Invalidation:</em> CIBR 20D flow z-score drops below 0 or cybersecurity breadth breaks down.</div>
-<div class="trade"><strong>2. Long Energy (XLE) / Short Consumer Discretionary (XLY)</strong><br><span class="tag st">1–3M</span> <span class="ow">OW</span> · <strong>Conviction: 7/10</strong><br><em>Why now:</em> PPI at 5.44% supports energy as inflation hedge; XLE 60D RS +20pp. <em>Mispricing:</em> Market prices energy as cyclical demand story; it is an inflation hedge. <em>Invalidation:</em> WTI below $85.</div>
-<div class="trade"><strong>3. Long Quality Semis (SMH) / Short Long-Duration Growth</strong><br><span class="tag st">1–3M</span> <span class="ow">OW</span> · <strong>Conviction: 7/10</strong><br><em>Why now:</em> SMH semis institutional accumulation at 100/100; duration compression punishes high-multiple unprofitable growth. <em>Invalidation:</em> SMH semis flow z < 0.</div>
+<h2 id="trade-ideas">Trade Ideas</h2>
+<h3 id="tactical-1-3-months">Tactical — 1–3 Months</h3>
+<div class="trade"><strong>1. Long Cybersecurity (CIBR)</strong><br><span class="tag st">1–3M</span> <span class="ow">Overweight</span> · <strong>Conviction: 7/10</strong><br><em>Why now:</em> Proxy ETF accumulation indicated (CIBR cyber +1.6Z estimated flow, cybersecurity signal score 70.53). Security spending is comparatively resilient, but current company earnings confirmation was unavailable. <em>Mispricing:</em> Market treats cyber as crowded; flow data shows structural accumulation. <em>P&amp;L driver:</em> continued estimated ETF inflows and recurring security demand. <em>Invalidation:</em> CIBR 20D flow z-score drops below 0 or cybersecurity breadth breaks down.</div>
+<div class="trade"><strong>2. Long Energy (XLE) / Short Consumer Discretionary (XLY)</strong><br><span class="tag st">1–3M</span> <span class="ow">OW</span> · <strong>Conviction: 7/10</strong><br><em>Why now:</em> PPI at 5.4% supports energy as inflation hedge; XLE 60D return +20.05%. <em>Mispricing:</em> Market prices energy as cyclical demand story; it is an inflation hedge. <em>Invalidation:</em> WTI below $85.</div>
+<div class="trade"><strong>3. Long Quality Semis (SMH) / Short Long-Duration Growth</strong><br><span class="tag st">1–3M</span> <span class="ow">OW</span> · <strong>Conviction: 7/10</strong><br><em>Why now:</em> SMH semis estimated ETF accumulation at 100/100; duration compression punishes high-multiple unprofitable growth. <em>Invalidation:</em> SMH semis flow z < 0.</div>
 <div class="trade"><strong>4. Long Short-Duration Treasuries (SHY) / Long Cash (SGOV)</strong><br><span class="tag st">1–3M</span> <span class="ow">OW</span> · <strong>Conviction: 8/10</strong><br><em>Why now:</em> Fed at 3.75–4.00%; SHY +1.1Z accumulation; SGOV 99/100. Dry powder for duration shock. <em>Invalidation:</em> FOMC signals easing.</div>
-<h3>Strategic — 6–12 Months</h3>
-<div class="trade"><strong>1. Long Cybersecurity (CIBR) — core position</strong><br><span class="tag lt">6–12M</span> <span class="strong-ow">Strong OW</span> · <strong>Conviction: 8/10</strong><br><em>Thesis:</em> AI infrastructure spending is secular; cybersecurity is the non-discretionary layer. Institutional accumulation pattern is structural.</div>
+<h3 id="strategic-6-12-months">Strategic — 6–12 Months</h3>
+<div class="trade"><strong>1. Long Cybersecurity (CIBR) — core position</strong><br><span class="tag lt">6–12M</span> <span class="ow">Overweight</span> · <strong>Conviction: 7/10</strong><br><em>Thesis:</em> AI infrastructure spending is secular; cybersecurity is the non-discretionary layer. Estimated ETF accumulation pattern is structural.</div>
 <div class="trade"><strong>2. Quality Growth factor tilt (profitability screen)</strong><br><span class="tag lt">6–12M</span> <span class="ow">OW</span> · <strong>Conviction: 7/10</strong><br><em>Thesis:</em> In a duration-constrained regime with 10Y at 5%, profitability matters more than narrative.</div>
-<div class="trade"><strong>3. Cash/Short-duration barbell as dry powder</strong><br><span class="tag lt">6–12M</span> <span class="ow">OW</span> · <strong>Conviction: 7/10</strong><br><em>Thesis:</em> Fed at 3.75–4.00% with possible one more hike; cash earns real carry while providing optionality to add duration on shock.</div>
+<div class="trade"><strong>3. Cash/Short-duration barbell as dry powder</strong><br><span class="tag lt">6–12M</span> <span class="ow">OW</span> · <strong>Conviction: 7/10</strong><br><em>Thesis:</em> Fed at 3.75–4.00%; short bills earn nominal carry while providing optionality to add duration on shock.</div>
 </section>
 
 <section id="heatmap">
-<h2>Portfolio Heat Map</h2>
-<h3>Short-Term Portfolio — 1–3 Months</h3>
-<table>
+<h2 id="portfolio-heat-map">Portfolio Heat Map</h2>
+<h3 id="short-term-portfolio-1-3-months">Short-Term Portfolio — 1–3 Months</h3>
+<div class="table-wrap"><table>
 <tr><th>Sector</th><th>Active Weight</th><th>Confidence</th><th>Rationale</th></tr>
 <tr><td>Information Technology</td><td><span class="ow">+2.0%</span></td><td><span class="high-confidence">High</span></td><td>AI infrastructure; semis accumulation</td></tr>
 <tr><td>Communication Services</td><td><span class="ow">+1.0%</span></td><td><span class="medium-confidence">Med</span></td><td>META/TTD leadership</td></tr>
@@ -343,17 +327,17 @@ html[data-theme="dark"] .note{background:#392f1a}
 <tr><td>Industrials</td><td><span class="uw">−1.0%</span></td><td><span class="medium-confidence">Med</span></td><td>Persistent distribution</td></tr>
 <tr><td>Materials</td><td>0.0%</td><td><span class="neutral">Neutral</span></td><td>Copper firm but equity weak</td></tr>
 <tr><td>Consumer Staples</td><td><span class="uw">−1.5%</span></td><td><span class="medium-confidence">Med</span></td><td>XLP persistent selling</td></tr>
-<tr><td>Consumer Discretionary</td><td><span class="uw">−1.5%</span></td><td><span class="high-confidence">High</span></td><td>Stale Michigan (May 2026); persistent XLY selling</td></tr>
+<tr><td>Consumer Discretionary</td><td><span class="uw">−1.5%</span></td><td><span class="high-confidence">High</span></td><td>Weak XLY price and estimated flow; May sentiment is stale</td></tr>
 <tr><td>Financials</td><td><span class="uw">−1.0%</span></td><td><span class="medium-confidence">Med</span></td><td>Credit flow warning</td></tr>
-<tr><td>Utilities</td><td><span class="uw">−0.5%</span></td><td><span class="medium-confidence">Med</span></td><td>Rate-sensitive; institutional selling</td></tr>
+<tr><td>Utilities</td><td><span class="uw">−0.5%</span></td><td><span class="medium-confidence">Med</span></td><td>Rate-sensitive; estimated ETF selling</td></tr>
 <tr><td>Real Estate</td><td><span class="ow">+1.0%</span></td><td><span class="low-confidence">Low</span></td><td>Contrarian tactical only</td></tr>
 <tr><td><strong>Net Sector Active</strong></td><td><strong>0.0%</strong></td><td></td><td>Neutral beta with quality and thematic tilts</td></tr>
-</table></section>
+</table></div></section>
 
 <section id="long-term-heatmap">
-<h2>Long-Term Portfolio Heat Map — 6–12 Months</h2>
-<p>Strategic positioning assuming the Fed reaches terminal rates (3.75–4.00%) and the long end stabilizes. Weights approximately sum to zero.</p>
-<table>
+<h2 id="long-term-portfolio-heat-map-6-12-months">Long-Term Portfolio Heat Map — 6–12 Months</h2>
+<p>Strategic positioning conditional on the Fed holding near current rates and the long end stabilizing. Weights approximately sum to zero.</p>
+<div class="table-wrap"><table>
 <tr><th>Sector</th><th>Active Weight</th><th>Confidence</th><th>Rationale</th></tr>
 <tr><td>Information Technology</td><td><span class="ow">+2.0%</span></td><td><span class="medium-confidence">Med</span></td><td>AI cycle intact; secular demand</td></tr>
 <tr><td>Communication Services</td><td><span class="ow">+1.0%</span></td><td><span class="medium-confidence">Med</span></td><td>META/TTD platform economics</td></tr>
@@ -367,53 +351,53 @@ html[data-theme="dark"] .note{background:#392f1a}
 <tr><td>Utilities</td><td><span class="uw">−2.0%</span></td><td><span class="medium-confidence">Med</span></td><td>Duration-sensitive; rate headwind</td></tr>
 <tr><td>Real Estate</td><td><span class="uw">−1.0%</span></td><td><span class="low-confidence">Low</span></td><td>Rate-sensitive; expensive; wait for 10Y stability</td></tr>
 <tr><td><strong>Net Sector Active</strong></td><td><strong>0.0%</strong></td><td></td><td>Defensive tilt via Health Care; reduce rate-sensitive</td></tr>
-</table>
+</table></div>
 </section>
 
 <section id="catalysts">
-<h2>Catalyst Watchlist</h2>
+<h2 id="catalyst-watchlist">Catalyst Watchlist</h2>
 <div class="table-wrap"><table>
 <tr><th>Date</th><th>Event</th><th>Why it matters</th><th>Exposed variable</th><th>Bull / Bear outcome</th></tr>
-<tr><td>Sep 15–16 (completed)</td><td><strong>FOMC meeting</strong></td><td>Hiked to 3.75–4.00%; dot plot shows one more hike possible</td><td>Fed path; 2Y yields</td><td>Bull: pause → LT yields fall. Bear: hawkish dot → more hikes priced.</td></tr>
-<tr><td>October 7, 2026</td><td><strong>FOMC minutes</strong></td><td>Reveal dissent depth and one-more-hike path discussion</td><td>Rate expectations</td><td>Bull: dovish dissent. Bear: unanimous hawkish.</td></tr>
+<tr><td>Sep 15–16 (completed)</td><td><strong>FOMC meeting</strong></td><td>Hiked to 3.75–4.00%; median participant projects 4.1% at end-2026</td><td>Fed path; 2Y yields</td><td>Bull: pause → LT yields fall. Bear: hawkish dot → more hikes priced.</td></tr>
+<tr><td>October 7, 2026</td><td><strong>FOMC minutes</strong></td><td>Reveal dissent depth and further-hike path discussion</td><td>Rate expectations</td><td>Bull: dovish dissent. Bear: unanimous hawkish.</td></tr>
 <tr><td>October 27–28, 2026</td><td><strong>Next FOMC</strong></td><td>Decision on whether to hike again to 4.00–4.25%</td><td>All risk assets</td><td>Bull: hold. Bear: hike with hawkish forward guidance.</td></tr>
-<tr><td>November 4, 2026</td><td><strong>Quarterly Refunding announcement</strong></td><td>Long-end supply pressure; 10Y at 5%, 30Y at 5.33%</td><td>Duration; equity multiples</td><td>Bull: smooth auction. Bear: tail auction.</td></tr>
+<tr><td>September 30, 2026</td><td><strong>GDP third estimate and August PCE</strong></td><td>Tests whether resilient growth and sticky inflation can coexist without another policy repricing</td><td>Growth, inflation, long yields</td><td>Bull: softer inflation with stable growth. Bear: firm inflation or weaker real demand.</td></tr>
 </table></div>
 </section>
 
 <section id="risks">
-<h2>Key Risk Analysis</h2>
+<h2 id="key-risk-analysis">Key Risk Analysis</h2>
 <div class="table-wrap"><table>
 <tr><th>Risk</th><th>Pricing</th><th>Prob.</th><th>Severity</th><th>Transmission</th><th>Early warning</th></tr>
-<tr><td><strong>Duration shock</strong> (10Y >5.3%)</td><td><span class="uw">Partly priced</span></td><td>Moderate</td><td><span class="strong-uw">Severe</span></td><td>Term premium expands → high-multiple growth de-rates → credit spreads widen → equity risk premium compresses</td><td>MOVE >90; 10Y breaks 5.3% on auction</td></tr>
-<tr><td><strong>Consumer recession</strong></td><td><span class="neutral">Partly priced</span></td><td>Moderate</td><td><span class="strong-uw">Material</span></td><td>Stale Michigan 44.8 (May) corroborates weakening household outlook; current retail sales remain strong — thesis unconfirmed</td><td>Continuing claims >2M; retail sales negative</td></tr>
+<tr><td><strong>Duration shock</strong> (10Y >5.3%)</td><td><span class="uw">Partly priced</span></td><td>Moderate</td><td><span class="strong-uw">Severe</span></td><td>Long yields jump → high-multiple growth de-rates → credit spreads widen → equity risk premium compresses</td><td>MOVE >90; 10Y breaks 5.3% on auction</td></tr>
+<tr><td><strong>Consumer slowdown</strong></td><td><span class="neutral">Partly priced</span></td><td>Moderate</td><td><span class="strong-uw">Material</span></td><td>August housing starts declined, but retail sales and employment were resilient. Fresh spending and labor deterioration would confirm the risk.</td><td>Continuing claims >2M; retail sales negative</td></tr>
 <tr><td><strong>Credit spillover</strong></td><td><span class="uw">Underpriced</span></td><td>Moderate</td><td><span class="strong-uw">Material</span></td><td>HYG/LQD distribution → spreads widen → refinancing pressure → equity de-rating</td><td>HY OAS >350bp; HYG breaks support</td></tr>
 <tr><td><strong>Fed overtightening</strong></td><td><span class="neutral">Partly priced</span></td><td>Low-Mod</td><td><span class="strong-uw">Systemic</span></td><td>Second hike → inversions deepen → credit event → recession</td><td>2s10s inverts further; bank stress</td></tr>
-<tr><td><strong>Geopolitical energy shock</strong></td><td><span class="neutral">Underpriced</span></td><td>Low</td><td><span class="medium-confidence">Material</span></td><td>Pakistan-Iran → oil spike → inflation re-acceleration → Fed forced to hike more</td><td>Brent >$110; oil futures curve backwardation</td></tr>
+<tr><td><strong>Geopolitical energy shock</strong></td><td><span class="neutral">Underpriced</span></td><td>Low</td><td><span class="medium-confidence">Material</span></td><td>Oil supply disruption → energy inflation → higher rate expectations → weaker equity duration</td><td>Brent >$110; oil futures curve backwardation</td></tr>
 </table></div>
 </section>
 
 <section id="conclusions">
-<h2>Highest-Conviction Conclusions</h2>
+<h2 id="highest-conviction-conclusions">Highest-Conviction Conclusions</h2>
 <p><strong>1. Regime:</strong> Mild risk-on with acute duration constraints — indices stable but composition deteriorating (narrowing breadth, credit selling).</p>
 <p><strong>2. ST stance:</strong> Neutral-overweight quality growth and cybersecurity; underweight rate-sensitive and consumer sectors; maintain tactical cash.</p>
 <p><strong>3. LT stance:</strong> Neutral — await clarity on terminal rate; base case is Fed plateau at 3.75–4.00%.</p>
-<p><strong>4. Best sector:</strong> Information Technology.<br><strong>Best theme:</strong> Cybersecurity (CIBR) — institutional accumulation confirmed, secular demand, AI-driven tailwind.</p>
-<p><strong>5. Highest-risk sector:</strong> Consumer Discretionary — Stale Michigan sentiment (44.8, May 2026), persistent XLY selling, rate-sensitive.</p>
+<p><strong>4. Best sector:</strong> Information Technology.<br><strong>Best theme:</strong> Cybersecurity (CIBR) — proxy ETF accumulation indicated, secular demand, AI-driven tailwind.</p>
+<p><strong>5. Highest-risk sector:</strong> Consumer Discretionary — weak XLY participation and rate sensitivity; fresh spending data are needed before increasing the underweight.</p>
 <p><strong>6. Best factor:</strong> Quality Growth — profitability filter essential in duration-constrained regime.</p>
-<p><strong>7. Top tactical opportunity:</strong> Long cybersecurity (CIBR) — conviction 8/10, flow-confirmed, AI secular tailwind.</p>
-<p><strong>8. Principal portfolio risk:</strong> Duration shock — 10Y at 5% and rising, MOVE +5.79%, term premium expanding; the market treats this as priced when it is not.</p>
+<p><strong>7. Top tactical opportunity:</strong> Long cybersecurity (CIBR) — conviction 7/10; estimated ETF flow and relative strength support a tactical position pending earnings confirmation.</p>
+<p><strong>8. Principal portfolio risk:</strong> Duration shock — the 10-year yield closed at 5% as bond volatility rose; low equity volatility could understate a disorderly rates move.</p>
 </section>
 
 <section id="sources">
-<h2>Sources</h2>
-<p><strong>Primary source:</strong> <a href="https://wkyjim.github.io/market-dashboard/data/latest-report.md" target="_blank" rel="noopener">Rule-Based Institutional Market Update</a> — generated 20 Sep 2026 21:13 HKT (source report timestamp). Source Regime Score: 59.17/100. US equity strength 63.35/100. Evidence quality 79.5/100. <em>This source report itself is dated 20 Sep 2026; its embedded economic data may be older than the report generation timestamp.</em></p>
-<p><strong>API data:</strong> <a href="https://postgresql-us-equities-api.onrender.com/openapi.json" target="_blank" rel="noopener">US Equities API v1.1.0</a> — endpoints /market-tape, /equities/batch/latest, /macro/batch/latest, /equities/history/{ticker}. Data as of 18 Sep 2026 cash close.</p>
-<p><strong>Macro data:</strong> <a href="https://postgresql-us-equities-api.onrender.com/macro/batch/latest" target="_blank" rel="noopener">Macro batch latest</a> — ^GSPC 7,650.5, ^IXIC 26,522.5, ^RUT 2,860.4, ^VIX 14.81, US10YT=X 5.00%, US2YT=X 4.75%, US30YT=X 5.33%, CL=F $99.53, GC=F $4,415.9, HG=F $6.72.</p>
-<p><strong>Fed:</strong> FOMC Sep 15–16, 2026 — raised target range to 3.75–4.00% (25bp), first hike since Jul 2023; dot plot shows one more hike possible in 2026. 12 of 18 officials expect one more hike.</p>
-<p><strong>Economic data (verified dates):</strong> CPI headline 3.71% YoY (Aug 2026 release); core CPI 2.76% (Aug 2026); PPI final demand 5.44% YoY (Aug 2026); GDP 24,270B chained 2017 dollars (Q2 2026); unemployment 4.1% (Aug 2026); <em>Michigan consumer sentiment 44.8 — STALE data dated May 2026</em>; housing starts declining (date unspecified). All macro data via US Equities API as of 18 Sep 2026 cash close.</p>
+<h2 id="sources-2">Sources</h2>
+<p><strong>Cutoff:</strong> 21 Sep 2026 18:32 HKT; latest completed U.S. cash session 18 Sep. Hosted source accessed by HTTPS; public OpenAPI v1.1.0 read before documented /market-tape. </p><p><strong>Primary source:</strong> <a href="https://wkyjim.github.io/market-dashboard/data/latest-report.md" target="_blank" rel="noopener">Rule-Based Institutional Market Update</a> — generated 21 Sep 2026 01:12:31 HKT (source report timestamp). Source regime score: 59.04/100. US equity strength 63.35/100. Evidence quality 79.5/100. <em>This source report was generated 21 Sep 2026; its embedded economic data may be older than the report generation timestamp.</em></p>
+<p><strong>API data:</strong> <a href="https://postgresql-us-equities-api.onrender.com/openapi.json" target="_blank" rel="noopener">US Equities API v1.1.0</a> — documented /market-tape corroborated 18 September closed rates, VIX and SKEW. Its 21 Sep 18:00 HKT live snapshot showed 2Y 4.72%, 10Y 4.95%, 30Y 5.29% and VIX 14.95; these observations are not presented as cash closes.</p>
+<p><strong>Market snapshot:</strong> Hosted primary report — ^GSPC 7,650.5, ^IXIC 26,522.5, ^RUT 2,860.4, ^VIX 14.81, US10YT=X 5.00%, US2YT=X 4.75%, US30YT=X 5.33%, CL=F $99.53, GC=F $4,415.9, HG=F $6.72.</p>
+<p><strong>Federal Reserve:</strong> <a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20260916a.htm" target="_blank" rel="noopener noreferrer">16 Sep FOMC statement</a> and <a href="https://www.federalreserve.gov/monetarypolicy/fomcprojtabl20260916.htm" target="_blank" rel="noopener noreferrer">September projections</a> — 3.75–4.00% target, 4.1% median end-2026 funds projection.</p>
+<p><strong>Official releases:</strong> <a href="https://www.bls.gov/news.release/archives/cpi_09112026.htm" target="_blank" rel="noopener noreferrer">August CPI</a>; <a href="https://www.bls.gov/news.release/archives/ppi_09102026.htm" target="_blank" rel="noopener noreferrer">August PPI</a>; <a href="https://www.bls.gov/news.release/empsit.htm" target="_blank" rel="noopener noreferrer">August employment</a>. CPI headline 3.4% YoY (Aug 2026 release); core CPI 2.4% (Aug 2026); PPI final demand 5.4% YoY (Aug 2026); GDP 24,270B chained 2017 dollars (Q2 2026); unemployment 4.1% (Aug 2026); <em>Michigan consumer sentiment 44.8 — STALE data dated May 2026</em>; housing starts declining (August observation in source). Official CPI, PPI and payroll figures are from BLS; source economic rows have mixed observation dates.</p>
 <p><strong>ETF flow data:</strong> IVV (−1.4 20D Z), SMH semis (+2.0Z), CIBR cyber (+1.6Z), GLD (+1.0Z), IBIT (+1.1Z), LQD (−1.9Z), HYG (−1.7Z), SGOV (+0.4Z).</p>
-<p><strong>Disclosures:</strong> This report distinguishes verified facts (market data, Fed decision, economic indicators), estimates (probability weights, scenario ranges), interpretation (regime assessment, sector calls), and investment conclusions (recommended actions). Probability weights are analyst estimates, not model outputs. All market data is as of the 18 Sep 2026 cash close (latest verified US session). Stale data points (Michigan sentiment dated May 2026) are explicitly labeled and weighted accordingly in conclusions.</p>
+<p><strong>Data conflict:</strong> The primary report has duplicate August CPI rows near 3.7% and 2.75%, inconsistent with the official BLS release (3.4% and 2.4%). Official BLS values govern this report. ETF flows are shares-outstanding-derived estimates; they are not verified institutional flows. The API market tape corroborated 18 September Treasury yields, VIX and SKEW only. No direct current credit-spread or company earnings series was available for validation. Sector calls therefore have moderate or lower fundamental confidence.</p><p><strong>Disclosures:</strong> This report distinguishes verified facts (market data, Fed decision, economic indicators), estimates (probability weights, scenario ranges), interpretation (regime assessment, sector calls), and investment conclusions (recommended actions). Probability weights are analyst estimates, not model outputs. All market data is as of the 18 Sep 2026 cash close (latest verified US session). Stale data points (Michigan sentiment dated May 2026) are explicitly labeled and weighted accordingly in conclusions.</p>
 </section>
 
 <a class="back" href="#top">Back to top</a>
