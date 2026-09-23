@@ -1,34 +1,34 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 21 September 2026, 01:12:31 (HKT)
+Generated at: 24 September 2026, 03:12:29 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **59.04 / 100** (Mild Risk-On)
+- Regime score: **57.24 / 100** (Mild Risk-On)
 - US equity strength: **63.35 / 100** (constructive)
-- Evidence quality: **79.5 / 100**
-- ETF flow contribution: **50.23 / 100**, reliability **66.57 / 100**
+- Evidence quality: **72.5 / 100**
+- ETF flow contribution: **50.91 / 100**, reliability **71.63 / 100**
 - Breadth: **narrow**; above 50DMA `45.0%`, above 200DMA `66.1%`
-- Top sector score: **Cybersecurity** `70.53`
-- Top theme score: **Crypto Infrastructure** `73.6`
+- Top sector score: **Cybersecurity** `70.52`
+- Top theme score: **Crypto Infrastructure** `73.76`
 
 ## Market Regime Score
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 59.04 | Mild Risk-On |
+| Overall regime | 57.24 | Mild Risk-On |
 | equity_trend | 73.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.3 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 49.81 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
-| volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
+| volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.02 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 50.16 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 50.62 | neutral / mixed; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=80.0, equity_trend=73.75, commodity_confirmation=61.0 |
+| dollar_fx | 51.67 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 51.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| etf_flow | 50.65 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
+| Positive contributors |  | equity_trend=73.75, volatility=70.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `79.5`
-- Agreement ratio: `0.5`
+- Confidence score: `72.5`
+- Agreement ratio: `0.3`
 - Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
@@ -57,15 +57,15 @@ Window: 24h
 
 | Area | Signal | Interpretation |
 | --- | --- | --- |
-| Equities | S&P 500 stable; Nasdaq rising; Russell 2000 falling | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
-| Rates | 10Y Treasury rising; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
-| Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
-| Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
-| Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
-| Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
-| Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
-| Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
+| Equities | S&P 500 falling; Nasdaq falling; Russell 2000 falling | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
+| Rates | 10Y Treasury rising; MOVE falling | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
+| Dollar | DXY proxy rising | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
+| Credit | HYG falling | High-yield weakness would challenge equity risk-on confirmation. |
+| Gold | Gold falling | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
+| Silver | Silver falling | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
+| Copper | Copper stable | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
+| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
 
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7650.5 | 0.17 | 2026-09-18 | closed |
-| ^IXIC | NASDAQ Composite | 26522.54 | 0.39 | 2026-09-18 | closed |
-| ^RUT | Russell 2000 Index | 2860.4 | -0.5 | 2026-09-18 | closed |
-| ^VIX | CBOE Volatility Index | 14.81 | -4.08 | 2026-09-18 | closed |
-| ^SKEW | CBOE SKEW Index | 148.1 | 1.65 | 2026-09-18 | closed |
-| ^MOVE | ICE BofA MOVE Index | 80.64 | 5.79 | 2026-09-18 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.75 | 1.36 | 2026-09-18 | closed |
-| US3YT=X | United States 3-Year Treasury Yield | 4.84 | 1.57 | 2026-09-18 | closed |
-| US5YT=X | United States 5-Year Treasury Yield | 4.86 | 1.26 | 2026-09-18 | closed |
-| US7YT=X | United States 7-Year Treasury Yield | 4.93 | 1.21 | 2026-09-18 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 5.0 | 1.03 | 2026-09-18 | closed |
-| US20YT=X | United States 20-Year Treasury Yield | 5.38 | 0.82 | 2026-09-18 | closed |
-| US30YT=X | United States 30-Year Treasury Yield | 5.33 | 0.59 | 2026-09-18 | closed |
-| HK50 | Hang Seng Futures | 24654.5 | -0.05 | 2026-09-18 | closed |
-| KOR200c1 | KOSPI 200 Futures | 1094.8 | 0.22 | 2026-09-18 | closed |
-| CIHc1 | SSE 50 Futures | 2852.2 | 0.85 | 2026-09-18 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 78.53 | -0.24 | 2026-09-18 | closed |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.7 | -0.44 | 2026-09-18 | closed |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 94.55 | -0.2 | 2026-09-18 | closed |
-| RSP | Invesco S&P 500 Equal Weight ETF | 212.29 | -0.48 | 2026-09-18 | closed |
-| IWF | iShares Russell 1000 Growth ETF | 123.25 | 0.59 | 2026-09-18 | closed |
-| IWD | iShares Russell 1000 Value ETF | 251.7 | -0.44 | 2026-09-18 | closed |
-| TLT | iShares 20+ Year Treasury Bond ETF | 81.25 | -0.65 | 2026-09-18 | closed |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 90.8 | -0.49 | 2026-09-18 | closed |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.24 | -0.15 | 2026-09-18 | closed |
-| GC=F | Gold Future | 4415.9 | 0.37 | 2026-09-18 | closed |
-| SI=F | Silver Future | 66.78 | 2.01 | 2026-09-18 | closed |
-| CL=F | WTI Crude Oil Future | 99.53 | -2.34 | 2026-09-18 | closed |
-| HG=F | Copper Future | 6.72 | 1.96 | 2026-09-18 | closed |
+| ^GSPC | S&P 500 | 7707.62 | -0.74 | 2026-09-23 | live as of 24 September 2026, 03:04:45 (HKT) |
+| ^IXIC | NASDAQ Composite | 26938.49 | -0.68 | 2026-09-23 | live as of 24 September 2026, 03:04:45 (HKT) |
+| ^RUT | Russell 2000 Index | 2843.87 | -1.1 | 2026-09-23 | live as of 24 September 2026, 03:04:45 (HKT) |
+| ^VIX | CBOE Volatility Index | 14.97 | 0.67 | 2026-09-23 | live as of 24 September 2026, 03:04:45 (HKT) |
+| ^SKEW | CBOE SKEW Index | 144.8 | 1.84 | 2026-09-22 | closed |
+| ^MOVE | ICE BofA MOVE Index | 78.56 | -3.25 | 2026-09-22 | closed |
+| US2YT=X | United States 2-Year Treasury Yield | 4.76 | 0.11 | 2026-09-22 | closed |
+| US3YT=X | United States 3-Year Treasury Yield | 4.82 | 0.12 | 2026-09-22 | closed |
+| US5YT=X | United States 5-Year Treasury Yield | 4.83 | 0.0 | 2026-09-22 | closed |
+| US7YT=X | United States 7-Year Treasury Yield | 4.9 | 0.23 | 2026-09-22 | closed |
+| US10YT=X | United States 10-Year Treasury Yield | 4.96 | 0.01 | 2026-09-22 | closed |
+| US20YT=X | United States 20-Year Treasury Yield | 5.34 | 0.24 | 2026-09-22 | closed |
+| US30YT=X | United States 30-Year Treasury Yield | 5.3 | 0.38 | 2026-09-22 | closed |
+| HK50 | Hang Seng Futures | 24816.5 | -1.27 | 2026-09-23 | closed |
+| KOR200c1 | KOSPI 200 Futures | 1131.4 | 1.74 | 2026-09-22 | closed |
+| CIHc1 | SSE 50 Futures | 2894.2 | 0.63 | 2026-09-22 | closed |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 78.11 | -0.73 | 2026-09-23 | live as of 24 September 2026, 03:04:45 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 103.83 | -1.2 | 2026-09-23 | live as of 24 September 2026, 03:04:45 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 94.16 | -0.59 | 2026-09-23 | live as of 24 September 2026, 00:00:51 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 211.46 | -0.57 | 2026-09-23 | live as of 24 September 2026, 03:04:45 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 125.41 | -0.67 | 2026-09-23 | live as of 24 September 2026, 03:04:45 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 251.53 | -0.76 | 2026-09-23 | live as of 24 September 2026, 03:04:45 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 80.4 | -1.71 | 2026-09-23 | live as of 24 September 2026, 03:04:45 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 90.14 | -1.11 | 2026-09-23 | live as of 24 September 2026, 03:04:45 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.12 | -0.21 | 2026-09-23 | live as of 24 September 2026, 03:04:45 (HKT) |
+| GC=F | Gold Future | 4325.2 | -1.17 | 2026-09-23 | live as of 24 September 2026, 03:04:45 (HKT) |
+| SI=F | Silver Future | 65.0 | -1.42 | 2026-09-23 | live as of 24 September 2026, 03:04:45 (HKT) |
+| CL=F | WTI Crude Oil Future | 92.18 | 1.83 | 2026-09-23 | live as of 24 September 2026, 03:04:45 (HKT) |
+| HG=F | Copper Future | 6.75 | -0.07 | 2026-09-23 | live as of 24 September 2026, 03:04:45 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -123,12 +123,12 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Sector | Count | Breadth 50D | Breadth 200D | Positive 20D | 20D Dispersion | Std 20D | Label | Leaders | Laggards |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Information Technology | 73 | 57.53 | 61.64 | 47.95 | 48.06 | 9.72 | very high | DELL, SWKS, CRWD | ADSK, INTU, FICO |
-| Health Care | 59 | 55.93 | 72.88 | 42.37 | 42.97 | 6.93 | very high | RVTY, MRNA, HCA | BAX, SYK, COO |
+| Industrials | 83 | 12.05 | 41.77 | 9.64 | 58.29 | 6.59 | very high | BE, DE, CHRW | HWM, EFX, AXON |
+| Information Technology | 74 | 59.46 | 63.01 | 47.3 | 48.06 | 9.69 | very high | DELL, SWKS, CRWD | ADSK, INTU, FICO |
+| Health Care | 60 | 56.67 | 73.33 | 43.33 | 42.97 | 7.11 | very high | RVTY, MRNA, ILMN | BAX, SYK, COO |
 | Financials | 76 | 14.67 | 64.79 | 21.05 | 41.99 | 5.7 | very high | HOOD, COIN, PFG | FIS, PYPL, AON |
-| Industrials | 83 | 10.84 | 40.51 | 8.43 | 37.26 | 5.32 | very high | DE, CHRW, LUV | BLDR, EFX, AXON |
-| Communication Services | 24 | 50.0 | 47.83 | 33.33 | 36.42 | 7.76 | very high | META, ECHO, TTD | CHTR, CMCSA, TTWO |
-| Consumer Staples | 34 | 24.24 | 34.38 | 17.65 | 34.41 | 7.17 | very high | KR, ADM, MO | HRL, CLX, CASY |
+| Communication Services | 23 | 52.17 | 50.0 | 30.43 | 36.42 | 7.77 | very high | META, ECHO, GOOGL | CHTR, CMCSA, TTWO |
+| Consumer Staples | 33 | 25.0 | 35.48 | 18.18 | 34.41 | 7.19 | very high | KR, ADM, MO | HRL, CLX, CASY |
 | Energy | 21 | 57.14 | 76.19 | 33.33 | 29.95 | 8.19 | very high | VLO, MPC, PSX | BKR, FANG, EXE |
 | Consumer Discretionary | 47 | 8.51 | 25.53 | 8.51 | 28.3 | 6.01 | very high | BBY, EBAY, TSLA | NCLH, WYNN, BKNG |
 | Utilities | 31 | 3.23 | 6.45 | 6.45 | 27.75 | 5.67 | very high | VST, AES, AWK | NRG, EIX, PCG |
@@ -226,10 +226,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Indicator | Latest | Unit | Change | Date | Rule-Based Interpretation |
 | --- | --- | --- | --- | --- | --- |
-| US dollar/Euro ECB reference exchange rate | 1.15 | USD | -0.0 USD vs prior | 2026-09-18 | EUR weakened versus this currency. |
-| Japanese yen/Euro ECB reference exchange rate | 180.94 | JPY | 2.19 JPY vs prior | 2026-09-18 | EUR strengthened versus this currency. |
-| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.68 | CNY | -0.03 CNY vs prior | 2026-09-18 | EUR weakened versus this currency. |
-| Australian dollar/Euro ECB reference exchange rate | 1.61 | AUD | -0.0 AUD vs prior | 2026-09-18 | EUR weakened versus this currency. |
+| US dollar/Euro ECB reference exchange rate | 1.14 | USD | -0.01 USD vs prior | 2026-09-23 | EUR weakened versus this currency. |
+| Japanese yen/Euro ECB reference exchange rate | 180.2 | JPY | 0.03 JPY vs prior | 2026-09-23 | EUR strengthened versus this currency. |
+| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.65 | CNY | -0.03 CNY vs prior | 2026-09-23 | EUR weakened versus this currency. |
+| Australian dollar/Euro ECB reference exchange rate | 1.61 | AUD | 0.0 AUD vs prior | 2026-09-23 | EUR strengthened versus this currency. |
 
 ABS Australia note: ABS rows are stored locally/Neon, but most series are dimension-coded; only curated series should be promoted into narrative report text.
 
@@ -241,64 +241,64 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Sector | Score | Trend | Momentum | Stock Breadth | ETF Flow | Flow Reliability | 3M RS | Supporting / Leaders | Detracting / Laggards |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Cybersecurity | 70.53 | strong uptrend | positive | broad | 69.91 | 65.0 | 60.31 | CIBR | CIBR |
-| 2 | Technology | 66.17 | strong uptrend | neutral | broad | 48.58 | 65.0 | 51.05 | DELL, SWKS, CRWD | ADSK, INTU, FICO |
-| 3 | Energy | 63.47 | strong uptrend | positive | broad | 38.34 | 65.0 | 57.07 | VLO, MPC, PSX | BKR, FANG, EXE |
-| 4 | Semiconductors | 62.81 | strong uptrend | neutral | broad | 72.96 | 90.0 | 45.93 | SOXX, SMH | SMH, SOXX |
-| 5 | Healthcare | 59.59 | strong uptrend | neutral | broad | 71.25 | 65.0 | 51.05 | RVTY, MRNA, HCA | BAX, SYK, COO |
-| 6 | Crypto | 51.73 | neutral | neutral | mixed | 67.33 | 65.0 | 50.0 |  |  |
-| 7 | Financials | 45.61 | neutral | neutral | weak | 48.63 | 65.0 | 48.96 | HOOD, COIN, PFG | FIS, PYPL, AON |
-| 8 | Grid Infrastructure | 45.5 | neutral | neutral | weak | 62.43 | 65.0 | 45.45 | GRID | GRID |
-| 9 | Consumer Staples | 34.89 | strong downtrend | neutral | weak | 50.0 | 0.0 | 45.97 | KR, ADM, MO | HRL, CLX, CASY |
-| 10 | Consumer Discretionary | 34.29 | strong downtrend | neutral | weak | 50.0 | 0.0 | 44.21 | BBY, EBAY, TSLA | NCLH, WYNN, BKNG |
-| 11 | Industrials | 33.79 | strong downtrend | neutral | weak | 50.0 | 0.0 | 42.85 | DE, CHRW, LUV | BLDR, EFX, AXON |
-| 12 | Nuclear | 33.43 | strong downtrend | negative | weak | 50.0 | 0.0 | 40.99 | NLR | NLR |
-| 13 | Utilities | 33.34 | strong downtrend | negative | weak | 50.0 | 0.0 | 40.46 | VST, AES, AWK | NRG, EIX, PCG |
-| 14 | Real Estate | 32.7 | strong downtrend | neutral | weak | 48.49 | 65.0 | 43.35 | ARE, VMRK, AMT | VICI, INVH, WY |
-| 15 | Defense | 31.72 | strong downtrend | negative | weak | 50.0 | 0.0 | 36.69 | XAR | XAR |
+| 1 | Cybersecurity | 70.52 | strong uptrend | positive | broad | 69.83 | 65.0 | 60.31 | CIBR | CIBR |
+| 2 | Technology | 66.78 | strong uptrend | neutral | broad | 54.66 | 100.0 | 51.05 | DELL, SWKS, CRWD | ADSK, INTU, FICO |
+| 3 | Energy | 64.64 | strong uptrend | positive | broad | 50.0 | 0.0 | 57.07 | VLO, MPC, PSX | BKR, FANG, EXE |
+| 4 | Semiconductors | 62.7 | strong uptrend | neutral | broad | 71.9 | 100.0 | 45.93 | SOXX, SMH | SMH, SOXX |
+| 5 | Healthcare | 59.52 | strong uptrend | neutral | broad | 70.58 | 100.0 | 51.05 | RVTY, MRNA, ILMN | BAX, SYK, COO |
+| 6 | Crypto | 51.9 | neutral | neutral | mixed | 68.96 | 65.0 | 50.0 |  |  |
+| 7 | Grid Infrastructure | 45.14 | neutral | neutral | weak | 58.85 | 65.0 | 45.45 | GRID | GRID |
+| 8 | Financials | 45.04 | neutral | neutral | weak | 42.92 | 95.0 | 48.96 | HOOD, COIN, PFG | FIS, PYPL, AON |
+| 9 | Consumer Discretionary | 35.55 | strong downtrend | neutral | weak | 62.62 | 65.0 | 44.21 | BBY, EBAY, TSLA | NCLH, WYNN, BKNG |
+| 10 | Utilities | 34.96 | strong downtrend | negative | weak | 66.26 | 65.0 | 40.46 | VST, AES, AWK | NRG, EIX, PCG |
+| 11 | Consumer Staples | 34.33 | strong downtrend | neutral | weak | 44.47 | 65.0 | 45.97 | KR, ADM, MO | HRL, CLX, CASY |
+| 12 | Industrials | 33.79 | strong downtrend | neutral | weak | 50.0 | 0.0 | 42.85 | BE, DE, CHRW | HWM, EFX, AXON |
+| 13 | Nuclear | 33.43 | strong downtrend | negative | weak | 50.0 | 0.0 | 40.99 | NLR | NLR |
+| 14 | Defense | 32.33 | strong downtrend | negative | weak | 56.12 | 65.0 | 36.69 | XAR | XAR |
+| 15 | Real Estate | 32.02 | strong downtrend | neutral | weak | 40.77 | 100.0 | 43.35 | ARE, VMRK, AMT | VICI, INVH, WY |
 
 ### Thematic Strength
 
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Crypto Infrastructure | 73.6 | Strong outperformance setup | 67.33 | 65.0 | 24.25 | True | False |
-| 2 | Cybersecurity | 64.03 | Positive setup | 69.91 | 65.0 | 20.84 | True | False |
-| 3 | Quality Growth | 63.53 | Positive setup | 58.27 | 65.0 | 6.5 | True | False |
-| 4 | AI Infrastructure | 61.2 | Positive setup | 72.96 | 90.0 | 6.01 | True | False |
-| 5 | Energy | 60.68 | Positive setup | 38.34 | 65.0 | 3.39 | True | False |
-| 6 | Semiconductors | 57.48 | Neutral / watchlist | 72.96 | 90.0 | 23.27 | False | False |
-| 7 | Healthcare Innovation | 55.67 | Positive setup | 71.25 | 65.0 | 5.93 | False | False |
-| 8 | Grid Infrastructure | 45.2 | Neutral / watchlist | 62.43 | 65.0 | 8.38 | False | False |
-| 9 | Small Caps | 44.68 | Neutral / watchlist | 57.68 | 65.0 | 0.0 | False | False |
-| 10 | Dividend Defensives | 42.64 | Neutral / watchlist | 67.92 | 65.0 | 3.78 | False | False |
-| 11 | Financials | 42.52 | Neutral / watchlist | 48.63 | 65.0 | 6.14 | False | False |
-| 12 | Defense | 40.45 | Weak setup | 50.0 | 0.0 | 11.84 | False | False |
+| 1 | Crypto Infrastructure | 73.76 | Strong outperformance setup | 68.96 | 65.0 | 24.25 | True | False |
+| 2 | Cybersecurity | 64.03 | Positive setup | 69.83 | 65.0 | 20.84 | True | False |
+| 3 | Quality Growth | 63.73 | Positive setup | 60.26 | 65.0 | 6.5 | True | False |
+| 4 | Energy | 61.85 | Positive setup | 50.0 | 0.0 | 3.39 | True | False |
+| 5 | AI Infrastructure | 61.09 | Positive setup | 71.9 | 100.0 | 6.01 | True | False |
+| 6 | Semiconductors | 57.37 | Neutral / watchlist | 71.9 | 100.0 | 23.27 | False | False |
+| 7 | Healthcare Innovation | 55.61 | Positive setup | 70.58 | 100.0 | 5.93 | False | False |
+| 8 | Grid Infrastructure | 44.84 | Neutral / watchlist | 58.85 | 65.0 | 8.38 | False | False |
+| 9 | Small Caps | 44.28 | Neutral / watchlist | 53.7 | 65.0 | 0.0 | False | False |
+| 10 | Dividend Defensives | 41.96 | Neutral / watchlist | 61.13 | 65.0 | 3.78 | False | False |
+| 11 | Financials | 41.95 | Neutral / watchlist | 42.92 | 95.0 | 6.14 | False | False |
+| 12 | Defense | 41.07 | Weak setup | 56.12 | 65.0 | 11.84 | False | False |
 | 13 | Nuclear | 33.07 | Weak setup | 50.0 | 0.0 | 13.39 | False | False |
 
 - Top 5 improving themes: Crypto Infrastructure, Energy, Quality Growth, Cybersecurity, Healthcare Innovation
 - Top 5 deteriorating themes: Nuclear, Grid Infrastructure, Small Caps, Semiconductors, Financials
 - Strong news but weak price confirmation: none
-- Strong price but weak news confirmation: Crypto Infrastructure, Cybersecurity, Quality Growth, AI Infrastructure, Energy
+- Strong price but weak news confirmation: Crypto Infrastructure, Cybersecurity, Quality Growth, Energy, AI Infrastructure
 
 ### Sector / Theme Alignment
 
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cybersecurity | Cybersecurity | 70.53 | strong | 64.03 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.17 | strong | 60.74 | positive | sector and theme confirmation |
-| Energy | Energy | 63.47 | positive | 60.68 | positive | sector and theme confirmation |
-| Semiconductors | AI Infrastructure, Semiconductors | 62.81 | positive | 59.34 | positive | sector and theme confirmation |
-| Healthcare | Healthcare Innovation | 59.59 | positive | 55.67 | positive | sector and theme confirmation |
-| Crypto | Crypto Infrastructure | 51.73 | mixed | 73.6 | strong | theme stronger than official sector |
-| Financials | Financials | 45.61 | mixed | 42.52 | weak | mixed confirmation |
-| Grid Infrastructure | Grid Infrastructure | 45.5 | mixed | 45.2 | mixed | mixed confirmation |
-| Consumer Staples | Dividend Defensives | 34.89 | very weak | 42.64 | weak | broad weakness across sector and themes |
-| Consumer Discretionary | Small Caps | 34.29 | very weak | 44.68 | weak | broad weakness across sector and themes |
-| Industrials | Defense, Grid Infrastructure | 33.79 | very weak | 42.83 | weak | broad weakness across sector and themes |
+| Cybersecurity | Cybersecurity | 70.52 | strong | 64.03 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.78 | strong | 60.73 | positive | sector and theme confirmation |
+| Energy | Energy | 64.64 | positive | 61.85 | positive | sector and theme confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 62.7 | positive | 59.23 | positive | sector and theme confirmation |
+| Healthcare | Healthcare Innovation | 59.52 | positive | 55.61 | positive | sector and theme confirmation |
+| Crypto | Crypto Infrastructure | 51.9 | mixed | 73.76 | strong | theme stronger than official sector |
+| Grid Infrastructure | Grid Infrastructure | 45.14 | mixed | 44.84 | weak | mixed confirmation |
+| Financials | Financials | 45.04 | mixed | 41.95 | weak | mixed confirmation |
+| Consumer Discretionary | Small Caps | 35.55 | weak | 44.28 | weak | broad weakness across sector and themes |
+| Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 34.96 | very weak | 39.96 | weak | broad weakness across sector and themes |
+| Consumer Staples | Dividend Defensives | 34.33 | very weak | 41.96 | weak | broad weakness across sector and themes |
+| Industrials | Defense, Grid Infrastructure | 33.79 | very weak | 42.95 | weak | broad weakness across sector and themes |
 | Nuclear | Nuclear | 33.43 | very weak | 33.07 | very weak | broad weakness across sector and themes |
-| Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 33.34 | very weak | 40.3 | weak | broad weakness across sector and themes |
-| Real Estate | Dividend Defensives | 32.7 | very weak | 42.64 | weak | broad weakness across sector and themes |
-| Defense | Defense | 31.72 | very weak | 40.45 | weak | broad weakness across sector and themes |
+| Defense | Defense | 32.33 | very weak | 41.07 | weak | broad weakness across sector and themes |
+| Real Estate | Dividend Defensives | 32.02 | very weak | 41.96 | weak | broad weakness across sector and themes |
 
 ## Three-Month Outperformance Setup
 
@@ -325,99 +325,99 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=14.81 pct_chg=-4.08
+- VIX close=14.97 pct_chg=0.67
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 5, 'negative': 4, 'neutral': 71}
-- News confirmation score: `50.62`
+- Sentiment counts: {'positive': 0, 'negative': 0, 'neutral': 80}
+- News confirmation score: `50.0`
 
 ### Top Market-Moving Headlines
 
-**1. My rental property is paid off, but I need cash. Is this a bad time to take out a $50,000 HELOC?**
+**1. Here’s where thousands of homeowners face higher insurance bills after FEMA updated its flood maps**
 - Source: MarketWatch Top Stories
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short
-- Affected assets: HELOC, I, real estate, mortgage, interest rates
-- Score: `24.5`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short.
-
-**2. End of Iran war will undercut oil price and energy stocks. Insiders are buying.**
-- Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
+- Relevance / horizon: macro / short-term
+- Affected assets: FEMA
+- Score: `25.0`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Bond yields surge to 5.12% as Wall Street fears more Fed rate hikes**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: P, S
+- Score: `25.0`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. 10-year Treasury yield rockets to 19-year high. Here's what's driving the spike**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
 - Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. How much could investing $10,000 in a CD right now earn you in one year?**
-- Source: CNBC Markets
+**4. Bond yields surge as Wall Street fears more potential Federal Reserve rate hikes**
+- Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / nan
-- Affected assets: A, CD
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. A diesel export ban could backfire — here’s why**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: A, U.S
+- Score: `21.25`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**6. HSBC addresses the concerns that are gripping the stock market — and dismisses most of them**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: HSBC, U.S
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. This oil giant has lagged its leading rivals through two energy crises. Now one Wall Street giant says it’s time to buy.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: BP
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. Could Meta’s viral Muse app be the company’s ChatGPT moment?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. Federal Reserve Board announces approval of application by BancFirst Corporation**
+- Source: Federal Reserve Press Releases
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Trump-Xi summit puts AI safety talks on the table but neither side wants to slow down**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: CNBC, U.S
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**4. Caruso-Cabrera: The investing tailwinds for Latin America are the best in decades**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / nan
-- Affected assets: ETF, ILF, P, S
-- Score: `20.19`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**5. It’s almost impossible to sell a condo unit these days: ‘I feel trapped’**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / nan
-- Affected assets: HOA, I
-- Score: `18.06`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**6. Record diesel prices are exposing pain points in the stock market and economy**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / nan
-- Affected assets: A
-- Score: `16.25`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
-
-**7. ‘I’m burned out’: I’m constantly helping my cousin who is running out of money. Is it too much to expect his sister to help?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / nan
-- Affected assets: I
-- Score: `16.25`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
-
-**8. I’m in my 50s. My mother died from Alzheimer’s. Do I need long-term-care insurance?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / nan
-- Affected assets: I
-- Score: `16.25`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
-
-**9. ‘My total balance should be $20 million’: I invested $1.1 million in a crypto platform. Have I lost it all?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: I, Investor Fraud, Cryptocurrency, Investor Loss
-- Score: `15.93`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**10. Bilfinger shares tumble 24% on lowered guidance; launches cost-cutting plan**
-- Source: Investing.com Commodities
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: BILF.DE, cost-cutting, earnings guidance, stock performance
-- Score: `15.79`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
 
-No noisy headlines detected by current rules.
+Noisy headline list: Why CoreWeave’s beaten-down stock could be due for, Sandisk’s stock is rising: Why one analyst says AI
 
 ## Positioning & Flow Dashboard
 
@@ -432,69 +432,69 @@ Positioning and flow data is used as confirmation only.
 ## ETF Flows Analysis
 
 - Market flow regime: `Mixed / Neutral`
-- Market flow score: `46.3 / 100`
-- Equity risk flow: `47.0`
-- Credit risk flow: `30.5`
-- Sector cyclicality flow: `49.9`
-- Duration/liquidity flow: `52.9`
+- Market flow score: `45.9 / 100`
+- Equity risk flow: `44.6`
+- Credit risk flow: `35.8`
+- Sector cyclicality flow: `48.5`
+- Duration/liquidity flow: `51.4`
 - Alternatives: `barbell demand`
-- ETF flow reliability: `66.6 / 100`
+- ETF flow reliability: `71.6 / 100`
 - Dominant allocation direction: `mixed allocation`
 
 ### Core Flow Signals
 
 | Ticker | Exposure | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price State | Flow State | Volume State | PFV State | Regime Bias | Flow Structure | Confidence |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| IVV | U.S. Broad Equity | -1.4 | -2.1 | 0.2 | 0.0 | Flat | Sell | Normal | Quiet Distribution | Weakening | Strong confirmation; Exceptional institutional selling, Persistent selling | 79.0 |
-| ACWI | Global Equity | -0.7 | -1.1 | 0.0 | -0.6 | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 77.0 |
-| EFA | Developed Markets ex-U.S. | -0.1 | -2.6 | 0.0 | 2.5 | Down | Neutral | High | Heavy Selling Pressure | Cautious | Mixed or neutral flow structure; Exceptional institutional selling, Persistent selling | 69.0 |
-| IEMG | Emerging Markets | -0.0 | 0.4 | 0.2 | -0.7 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Persistent selling | 83.0 |
-| IJH | U.S. Mid Cap | 3.6 | 3.0 | 0.8 | 1.5 | Down | Buy | High | Aggressive Dip Buying | Recovery Candidate | Strong confirmation; Exceptional institutional buying, Strong sponsorship | 100.0 |
-| IWM | U.S. Small Cap | 0.2 | -0.2 | 0.3 | 1.9 | Down | Neutral | High | Heavy Selling Pressure | Cautious | Structural distribution | 79.0 |
-| LQD | Investment-Grade Credit | -1.9 | -1.8 | 0.3 | 0.1 | Down | Sell | Normal | Persistent Distribution | Risk-Off | Strong confirmation | 95.0 |
-| HYG | High-Yield Credit | -1.7 | -1.1 | 0.2 | 0.2 | Down | Sell | Normal | Persistent Distribution | Risk-Off | Strong confirmation; Persistent selling | 87.0 |
-| SGOV | Treasury Bills / Cash | 0.4 | -0.6 | 0.9 | -0.4 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 99.0 |
-| SHY | Short-Duration Treasuries | 1.1 | 0.6 | 0.6 | 2.4 | Flat | Neutral | High | High-Turnover Consolidation | Transition | Structural accumulation | 91.0 |
-| IEF | Intermediate-Duration Treasuries | 0.1 | -1.2 | 0.7 | -0.0 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Mixed or neutral flow structure | 85.0 |
-| TLT | Long-Duration Treasuries | 0.1 | 2.2 | 0.5 | 0.8 | Down | Sell | Normal | Persistent Distribution | Risk-Off | Tactical profit-taking inside structural accumulation | 83.0 |
-| GLD | Gold | 1.0 | 2.7 | 0.5 | 0.1 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural accumulation; Exceptional institutional buying | 99.0 |
-| IBIT | Bitcoin | 1.1 | 0.9 | 0.7 | 1.5 | Up | Neutral | High | Momentum Rally | Watch | Structural accumulation | 91.0 |
+| IVV | U.S. Broad Equity | -0.8 | -2.2 | 0.2 | n/a | Up | Buy | Normal | Steady Accumulation | Risk-On | Tactical rebound inside structural distribution; Exceptional institutional buying, Persistent selling | 68.0 |
+| ACWI | Global Equity | -0.7 | -1.1 | 0.0 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Mixed or neutral flow structure; Persistent selling | 62.0 |
+| EFA | Developed Markets ex-U.S. | -0.1 | -2.4 | 0.0 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Mixed or neutral flow structure; Exceptional institutional selling, Persistent selling | 54.0 |
+| IEMG | Emerging Markets | -0.2 | 0.3 | 0.1 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural accumulation; Persistent selling | 68.0 |
+| IJH | U.S. Mid Cap | 1.4 | 1.3 | 0.8 | n/a | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation; Strong sponsorship | 88.0 |
+| IWM | U.S. Small Cap | 0.4 | -0.2 | 0.4 | n/a | Down | Sell | Normal | Persistent Distribution | Risk-Off | Medium-term recovery | 72.0 |
+| LQD | Investment-Grade Credit | -1.7 | -1.8 | 0.3 | n/a | Down | Sell | Normal | Persistent Distribution | Risk-Off | Strong confirmation | 80.0 |
+| HYG | High-Yield Credit | -0.7 | -1.1 | 0.3 | n/a | Down | Buy | Normal | Contrarian Buying | Watch | Tactical rebound inside structural distribution | 68.0 |
+| SGOV | Treasury Bills / Cash | 0.2 | -0.6 | 0.9 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 84.0 |
+| SHY | Short-Duration Treasuries | 1.5 | 0.6 | 0.7 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation | 76.0 |
+| IEF | Intermediate-Duration Treasuries | 0.3 | -1.0 | 0.7 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term recovery | 72.0 |
+| TLT | Long-Duration Treasuries | -0.5 | 1.9 | 0.5 | n/a | Down | Sell | Normal | Persistent Distribution | Risk-Off | Medium-term deterioration | 68.0 |
+| GLD | Gold | 0.4 | 2.7 | 0.4 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural accumulation; Exceptional institutional buying | 84.0 |
+| IBIT | Bitcoin | 0.8 | 1.3 | 0.7 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural accumulation | 76.0 |
 
 ### Sector Flow Signals
 
 | Ticker | Exposure | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price State | Flow State | Volume State | PFV State | Regime Bias | Flow Structure | Confidence |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| XLC | Communication Services | 0.6 | 0.3 | 0.4 | -0.6 | Flat | Neutral | Normal | Neutral | Neutral | Structural distribution | 79.0 |
-| XLY | Consumer Discretionary | -0.4 | 1.0 | 0.2 | -1.0 | Down | Buy | Normal | Contrarian Buying | Watch | Medium-term deterioration; Persistent selling | 75.0 |
-| XLP | Consumer Staples | -0.3 | 1.7 | 0.5 | -0.9 | Down | Sell | Normal | Persistent Distribution | Risk-Off | Medium-term deterioration | 83.0 |
-| XLE | Energy | -0.5 | -0.5 | 0.4 | 0.9 | Up | Sell | Normal | Profit Taking | Slightly Bearish | Strong confirmation | 95.0 |
-| XLF | Financials | -0.4 | 0.7 | 0.6 | -0.3 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term deterioration | 83.0 |
-| XLV | Health Care | -0.6 | 1.6 | 0.4 | -1.1 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term deterioration | 83.0 |
-| XLI | Industrials | -1.5 | -1.4 | 0.4 | -0.5 | Down | Sell | Normal | Persistent Distribution | Risk-Off | Strong confirmation | 95.0 |
-| XLK | Information Technology | -0.5 | -0.7 | 0.5 | -0.3 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural distribution | 79.0 |
-| XLB | Materials | -0.9 | -1.9 | 0.5 | -0.8 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural distribution | 79.0 |
-| XLRE | Real Estate | 0.4 | 0.6 | 0.3 | -0.6 | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation; Exceptional institutional buying | 100.0 |
-| XLU | Utilities | 0.1 | 0.4 | 0.5 | 0.2 | Down | Sell | Normal | Persistent Distribution | Risk-Off | Tactical profit-taking inside structural accumulation; Exceptional institutional selling | 75.0 |
+| XLC | Communication Services | 1.9 | 2.7 | 0.6 | n/a | Up | Buy | Normal | Steady Accumulation | Risk-On | Strong confirmation; Exceptional institutional buying | 88.0 |
+| XLY | Consumer Discretionary | 0.2 | 1.2 | 0.3 | n/a | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation; Exceptional institutional buying | 88.0 |
+| XLP | Consumer Staples | -0.1 | 1.3 | 0.5 | n/a | Down | Sell | Normal | Persistent Distribution | Risk-Off | Medium-term deterioration | 68.0 |
+| XLE | Energy | -0.7 | -0.7 | 0.3 | n/a | Down | Sell | Normal | Persistent Distribution | Risk-Off | Strong confirmation | 80.0 |
+| XLF | Financials | -0.5 | -0.4 | 0.6 | n/a | Down | Sell | Normal | Persistent Distribution | Risk-Off | Strong confirmation | 80.0 |
+| XLV | Health Care | -0.1 | 0.3 | 0.5 | n/a | Flat | Sell | Normal | Quiet Distribution | Weakening | Strong confirmation | 80.0 |
+| XLI | Industrials | -1.6 | -1.7 | 0.3 | n/a | Down | Sell | Normal | Persistent Distribution | Risk-Off | Strong confirmation | 80.0 |
+| XLK | Information Technology | -0.2 | -0.5 | 0.5 | n/a | Up | Buy | Normal | Steady Accumulation | Risk-On | Mixed or neutral flow structure | 70.0 |
+| XLB | Materials | -1.0 | -1.8 | 0.5 | n/a | Down | Sell | Normal | Persistent Distribution | Risk-Off | Strong confirmation | 80.0 |
+| XLRE | Real Estate | -0.9 | -0.9 | 0.4 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term deterioration | 68.0 |
+| XLU | Utilities | 0.6 | 0.5 | 0.6 | n/a | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation; Exceptional institutional buying | 88.0 |
 
 ### Subsector PFV Signals
 
 | Ticker | Exposure | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price State | Flow State | Volume State | PFV State | Regime Bias | Flow Structure | Confidence |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ITA | Aerospace and Defense | -0.5 | 0.5 | 0.1 | 2.5 | Down | Neutral | High | Heavy Selling Pressure | Cautious | Structural distribution; Persistent selling | 71.0 |
-| SOXX | Semiconductors | -0.0 | -0.1 | 0.5 | -0.8 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural accumulation | 91.0 |
-| SMH | Semiconductors | 2.0 | 1.5 | 0.6 | -0.5 | Up | Buy | Normal | Steady Accumulation | Risk-On | Strong confirmation; Exceptional institutional buying | 100.0 |
-| CIBR | Cybersecurity | 1.6 | 2.0 | 0.7 | 0.0 | Up | Buy | Normal | Steady Accumulation | Risk-On | Strong confirmation | 95.0 |
+| ITA | Aerospace and Defense | -0.5 | 0.7 | 0.1 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural distribution; Persistent selling | 56.0 |
+| SOXX | Semiconductors | 0.5 | -0.3 | 0.6 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural accumulation | 76.0 |
+| SMH | Semiconductors | 0.3 | -0.4 | 0.5 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural accumulation | 76.0 |
+| CIBR | Cybersecurity | 1.4 | 2.1 | 0.7 | n/a | Up | Buy | Normal | Steady Accumulation | Risk-On | Strong confirmation; Exceptional institutional buying | 88.0 |
 
 ### Material Flow Divergences
 
 | Severity | Type | Primary | Comparison | Interpretation |
 | --- | --- | --- | --- | --- |
-| high | close_substitute_divergence | GLD | IAU | primary representative differs from close substitute |
+| medium | related_subsector_divergence | XLI | ITA | defense-specific demand differs from broad industrials |
+| medium | related_subsector_divergence | XLK | SOXX | technology differs from semiconductors |
+| high | close_substitute_divergence | IVV | SPY | primary representative differs from close substitute |
 | high | close_substitute_divergence | AGG | IUSB | primary representative differs from close substitute |
-| high | close_substitute_divergence | IWF | IVW | primary representative differs from close substitute |
-| high | close_substitute_divergence | IWD | IVE | primary representative differs from close substitute |
-| high | close_substitute_divergence | SOXX | SMH | primary representative differs from close substitute |
-| high | close_substitute_divergence | IWM | IJR | primary representative differs from close substitute |
+| high | close_substitute_divergence | HYG | JNK | primary representative differs from close substitute |
+| high | close_substitute_divergence | IVV | SPY | primary representative differs from close substitute |
 
 
 ## Contradiction / Audit Flags
@@ -506,7 +506,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `3`
+- Live macro rows used: `33`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
+
+## Cycle Metadata
+
+- Report generated at: 23 September 2026, 19:12:29 (HKT)
