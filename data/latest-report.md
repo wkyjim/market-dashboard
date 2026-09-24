@@ -1,34 +1,34 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 24 September 2026, 13:23:49 (HKT)
+Generated at: 24 September 2026, 14:11:13 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.1 / 100** (Mild Risk-On)
+- Regime score: **57.02 / 100** (Mild Risk-On)
 - US equity strength: **63.35 / 100** (constructive)
-- Evidence quality: **76.0 / 100**
-- ETF flow contribution: **52.09 / 100**, reliability **72.26 / 100**
+- Evidence quality: **72.5 / 100**
+- ETF flow contribution: **52.08 / 100**, reliability **72.09 / 100**
 - Breadth: **narrow**; above 50DMA `45.0%`, above 200DMA `66.1%`
-- Top sector score: **Cybersecurity** `68.54`
+- Top sector score: **Cybersecurity** `70.58`
 - Top theme score: **Crypto Infrastructure** `73.85`
 
 ## Market Regime Score
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.1 | Mild Risk-On |
+| Overall regime | 57.02 | Mild Risk-On |
 | equity_trend | 73.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.3 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 49.81 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 46.0 | neutral / mixed; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.13 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 51.51 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| dollar_fx | 54.82 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 62.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| etf_flow | 51.5 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=73.75, volatility=70.0, commodity_confirmation=63.0 |
+| Positive contributors |  | equity_trend=73.75, volatility=70.0, commodity_confirmation=62.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `76.0`
-- Agreement ratio: `0.4`
+- Confidence score: `72.5`
+- Agreement ratio: `0.3`
 - Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
@@ -64,7 +64,7 @@ Window: 24h
 | Gold | Gold stable | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude stable | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.18 | 2.08 | 2026-09-23 | closed |
 | ^SKEW | CBOE SKEW Index | 146.15 | 2.79 | 2026-09-23 | closed |
 | ^MOVE | ICE BofA MOVE Index | 95.45 | 17.55 | 2026-09-23 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.85 | 2.97 | 2026-09-23 | closed |
+| US2YT=X | United States 2-Year Treasury Yield | 4.9 | 0.17 | 2026-09-24 | live as of 24 September 2026, 14:00:52 (HKT) |
 | US3YT=X | United States 3-Year Treasury Yield | 4.97 | 3.33 | 2026-09-23 | closed |
 | US5YT=X | United States 5-Year Treasury Yield | 4.99 | 3.31 | 2026-09-23 | closed |
 | US7YT=X | United States 7-Year Treasury Yield | 5.05 | 3.27 | 2026-09-23 | closed |
 | US10YT=X | United States 10-Year Treasury Yield | 5.11 | 3.02 | 2026-09-23 | closed |
 | US20YT=X | United States 20-Year Treasury Yield | 5.45 | 2.25 | 2026-09-23 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.4 | 2.08 | 2026-09-23 | closed |
-| HK50 | Hang Seng Futures | 24700.0 | -0.03 | 2026-09-24 | live as of 24 September 2026, 13:11:43 (HKT) |
+| HK50 | Hang Seng Futures | 24716.39 | -0.47 | 2026-09-24 | live as of 24 September 2026, 14:00:52 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 7080.92 | 1.04 | 2026-09-23 | closed |
 | CIHc1 | SSE 50 Futures | 3936.52 | -0.34 | 2026-09-23 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 78.1 | -0.74 | 2026-09-23 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 80.46 | -1.58 | 2026-09-23 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 90.19 | -1.05 | 2026-09-23 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.12 | -0.21 | 2026-09-23 | closed |
-| GC=F | Gold Future | 4326.8 | 0.19 | 2026-09-24 | live as of 24 September 2026, 13:11:43 (HKT) |
-| SI=F | Silver Future | 64.72 | 0.53 | 2026-09-24 | live as of 24 September 2026, 13:11:43 (HKT) |
-| CL=F | WTI Crude Oil Future | 91.51 | -0.71 | 2026-09-24 | live as of 24 September 2026, 13:11:43 (HKT) |
-| HG=F | Copper Future | 6.77 | 1.33 | 2026-09-24 | live as of 24 September 2026, 13:11:43 (HKT) |
+| GC=F | Gold Future | 4317.4 | -0.02 | 2026-09-24 | live as of 24 September 2026, 14:00:52 (HKT) |
+| SI=F | Silver Future | 64.57 | 0.29 | 2026-09-24 | live as of 24 September 2026, 14:00:52 (HKT) |
+| CL=F | WTI Crude Oil Future | 92.16 | 0.01 | 2026-09-24 | live as of 24 September 2026, 14:00:52 (HKT) |
+| HG=F | Copper Future | 6.76 | 1.21 | 2026-09-24 | live as of 24 September 2026, 14:00:52 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -241,7 +241,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Sector | Score | Trend | Momentum | Stock Breadth | ETF Flow | Flow Reliability | 3M RS | Supporting / Leaders | Detracting / Laggards |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Cybersecurity | 68.54 | strong uptrend | positive | broad | 50.0 | 0.0 | 60.31 | CIBR | CIBR |
+| 1 | Cybersecurity | 70.58 | strong uptrend | positive | broad | 70.39 | 65.0 | 60.31 | CIBR | CIBR |
 | 2 | Technology | 66.95 | strong uptrend | neutral | broad | 56.37 | 100.0 | 51.05 | DELL, SWKS, CRWD | ADSK, INTU, FICO |
 | 3 | Energy | 64.64 | strong uptrend | positive | broad | 50.0 | 0.0 | 57.07 | VLO, MPC, PSX | BKR, FANG, EXE |
 | 4 | Semiconductors | 63.47 | strong uptrend | neutral | broad | 79.57 | 100.0 | 45.93 | SOXX, SMH | SMH, SOXX |
@@ -262,8 +262,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Crypto Infrastructure | 73.85 | Strong outperformance setup | 69.81 | 65.0 | 24.25 | True | False |
-| 2 | Quality Growth | 63.73 | Positive setup | 60.22 | 65.0 | 6.5 | True | False |
-| 3 | Cybersecurity | 62.04 | Positive setup | 50.0 | 0.0 | 20.84 | True | False |
+| 2 | Cybersecurity | 64.08 | Positive setup | 70.39 | 65.0 | 20.84 | True | False |
+| 3 | Quality Growth | 63.73 | Positive setup | 60.22 | 65.0 | 6.5 | True | False |
 | 4 | AI Infrastructure | 61.86 | Positive setup | 79.57 | 100.0 | 6.01 | True | False |
 | 5 | Energy | 61.85 | Positive setup | 50.0 | 0.0 | 3.39 | True | False |
 | 6 | Semiconductors | 58.14 | Neutral / watchlist | 79.57 | 100.0 | 23.27 | False | False |
@@ -278,13 +278,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Top 5 improving themes: Crypto Infrastructure, Energy, Quality Growth, Cybersecurity, Healthcare Innovation
 - Top 5 deteriorating themes: Nuclear, Grid Infrastructure, Small Caps, Semiconductors, Financials
 - Strong news but weak price confirmation: none
-- Strong price but weak news confirmation: Crypto Infrastructure, Quality Growth, Cybersecurity, AI Infrastructure, Energy
+- Strong price but weak news confirmation: Crypto Infrastructure, Cybersecurity, Quality Growth, AI Infrastructure, Energy
 
 ### Sector / Theme Alignment
 
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cybersecurity | Cybersecurity | 68.54 | strong | 62.04 | positive | sector and theme confirmation |
+| Cybersecurity | Cybersecurity | 70.58 | strong | 64.08 | positive | sector and theme confirmation |
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.95 | strong | 61.24 | positive | sector and theme confirmation |
 | Energy | Energy | 64.64 | positive | 61.85 | positive | sector and theme confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 63.47 | positive | 60.0 | positive | sector and theme confirmation |
@@ -334,19 +334,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Oil falls on report Asia will import highest volume of crude since start of Iran war**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: US
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Stock futures flat after soaring Treasury yields trigger market sell-off: Live updates**
+**1. Stock futures flat after soaring Treasury yields trigger market sell-off: Live updates**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Oil falls on report Asia will import highest volume of crude since start of Iran war**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: US
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
@@ -438,7 +438,7 @@ Positioning and flow data is used as confirmation only.
 - Sector cyclicality flow: `48.2`
 - Duration/liquidity flow: `50.0`
 - Alternatives: `barbell demand`
-- ETF flow reliability: `72.3 / 100`
+- ETF flow reliability: `72.1 / 100`
 - Dominant allocation direction: `mixed allocation`
 
 ### Core Flow Signals
@@ -483,7 +483,7 @@ Positioning and flow data is used as confirmation only.
 | ITA | Aerospace and Defense | -0.6 | 0.6 | 0.1 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural distribution; Persistent selling | 56.0 |
 | SOXX | Semiconductors | 0.8 | 0.1 | 0.6 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural accumulation | 76.0 |
 | SMH | Semiconductors | 0.1 | 0.4 | 0.5 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural accumulation | 76.0 |
-| CIBR | Cybersecurity | 1.4 | 2.1 | 0.7 | n/a | Up | Buy | Normal | Steady Accumulation | Risk-On | Strong confirmation; Exceptional institutional buying | 88.0 |
+| CIBR | Cybersecurity | 1.8 | 2.2 | 0.7 | n/a | Up | Buy | Normal | Steady Accumulation | Risk-On | Strong confirmation; Exceptional institutional buying | 88.0 |
 
 ### Material Flow Divergences
 
@@ -506,11 +506,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `18`
+- Live macro rows used: `19`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 24 September 2026, 05:23:49 (HKT)
+- Report generated at: 24 September 2026, 06:11:13 (HKT)
