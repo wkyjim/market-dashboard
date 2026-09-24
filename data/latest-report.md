@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 24 September 2026, 20:05:31 (HKT)
+Generated at: 24 September 2026, 21:06:14 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **53.03 / 100** (Mixed / Rotation)
+- Regime score: **53.02 / 100** (Mixed / Rotation)
 - US equity strength: **63.19 / 100** (constructive)
 - Evidence quality: **69.0 / 100**
 - ETF flow contribution: **52.08 / 100**, reliability **72.09 / 100**
@@ -17,14 +17,14 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 53.03 | Mixed / Rotation |
+| Overall regime | 53.02 | Mixed / Rotation |
 | equity_trend | 73.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.3 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 47.58 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 35.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 46.0 | neutral / mixed; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.16 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.1 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 51.5 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
@@ -58,7 +58,7 @@ Window: 24h
 | Area | Signal | Interpretation |
 | --- | --- | --- |
 | Equities | S&P 500 falling; Nasdaq falling; Russell 2000 falling | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
-| Rates | 10Y Treasury rising; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
+| Rates | 10Y Treasury stable; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG falling | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold falling | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
@@ -76,7 +76,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7706.03 | -0.76 | 2026-09-23 | closed |
 | ^IXIC | NASDAQ Composite | 26936.04 | -0.69 | 2026-09-23 | closed |
 | ^RUT | Russell 2000 Index | 2838.66 | -1.28 | 2026-09-23 | closed |
-| ^VIX | CBOE Volatility Index | 16.15 | 6.39 | 2026-09-24 | live as of 24 September 2026, 20:00:22 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.94 | 5.01 | 2026-09-24 | live as of 24 September 2026, 21:00:28 (HKT) |
 | ^SKEW | CBOE SKEW Index | 146.15 | 2.79 | 2026-09-23 | closed |
 | ^MOVE | ICE BofA MOVE Index | 95.45 | 17.55 | 2026-09-23 | closed |
 | US2YT=X | United States 2-Year Treasury Yield | 4.85 | 2.97 | 2026-09-23 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 80.46 | -1.58 | 2026-09-23 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 90.19 | -1.05 | 2026-09-23 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.12 | -0.21 | 2026-09-23 | closed |
-| GC=F | Gold Future | 4295.8 | -0.52 | 2026-09-24 | live as of 24 September 2026, 20:00:22 (HKT) |
-| SI=F | Silver Future | 63.94 | -0.69 | 2026-09-24 | live as of 24 September 2026, 20:00:22 (HKT) |
-| CL=F | WTI Crude Oil Future | 93.72 | 1.69 | 2026-09-24 | live as of 24 September 2026, 20:00:22 (HKT) |
-| HG=F | Copper Future | 6.77 | 1.42 | 2026-09-24 | live as of 24 September 2026, 20:00:22 (HKT) |
+| GC=F | Gold Future | 4307.4 | -0.25 | 2026-09-24 | live as of 24 September 2026, 21:00:28 (HKT) |
+| SI=F | Silver Future | 63.92 | -0.72 | 2026-09-24 | live as of 24 September 2026, 21:00:28 (HKT) |
+| CL=F | WTI Crude Oil Future | 93.81 | 1.79 | 2026-09-24 | live as of 24 September 2026, 21:00:28 (HKT) |
+| HG=F | Copper Future | 6.74 | 0.97 | 2026-09-24 | live as of 24 September 2026, 21:00:28 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=16.15 pct_chg=6.39
+- VIX close=15.94 pct_chg=5.01
 
 ## News Analytics
 
@@ -342,23 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. 30-year Treasury yield hits highest level since 2004**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. New York Fed’s Williams says it's 'reasonable' to expect another rate hike by year-end**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**4. Oil prices rise sharply as investors seek progress on U.S.-Iran talks**
+**2. Oil prices rise as investors seek progress on U.S.-Iran talks**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -366,7 +350,47 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. NY Fed president says it's reasonable to think there'll be one more 2026 hike**
+**3. 30-year Treasury yield hits highest level since 2004 as bond market rout continues**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. Economic calendar: jobless claims, new-home sales, Fed speakers**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. 30-year Treasury yield taps 22-year high: markets live**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. Prep for the next Fed rate increase by boosting your credit score with these tools**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. New York Fed’s Williams says it's 'reasonable' to expect another rate hike by year-end**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. NY Fed president says it's reasonable to think there'll be one more 2026 hike**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,45 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Here’s where thousands of homeowners face higher insurance bills after FEMA updated its flood maps**
+**9. With the stock market ‘priced for perfection,’ the S&P 500 is in danger of a 20% slump next year**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: FEMA
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Bond yields surge to 5.12% as Wall Street fears more Fed rate hikes**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
+- Relevance / horizon: sector_theme / short-term
 - Affected assets: P, S
 - Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**8. HSBC addresses the concerns that are gripping the stock market — and dismisses most of them**
+**10. ‘I don’t begrudge them their money’: My husband and I have friends who spend, spend, spend. How do we keep up?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: HSBC, U.S
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: A, I
 - Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Stock futures flat after soaring Treasury yields trigger market sell-off: Live updates**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Historic day for global bonds as 10-year Treasury and JGB yields hit highest in decades**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: JGB
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
@@ -506,11 +506,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `16`
+- Live macro rows used: `19`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 24 September 2026, 12:05:31 (HKT)
+- Report generated at: 24 September 2026, 13:06:14 (HKT)
