@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 24 September 2026, 19:10:19 (HKT)
+Generated at: 24 September 2026, 20:05:31 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **53.21 / 100** (Mixed / Rotation)
+- Regime score: **53.03 / 100** (Mixed / Rotation)
 - US equity strength: **63.19 / 100** (constructive)
 - Evidence quality: **69.0 / 100**
 - ETF flow contribution: **52.08 / 100**, reliability **72.09 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 53.21 | Mixed / Rotation |
+| Overall regime | 53.03 | Mixed / Rotation |
 | equity_trend | 73.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.3 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 47.58 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 35.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 46.0 | neutral / mixed; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.24 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 62.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 54.16 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 51.5 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=73.75, commodity_confirmation=62.0 |
+| Positive contributors |  | equity_trend=73.75 |
 | Negative contributors |  | volatility=35.0 |
 
 ## US Equity Strength Score
@@ -76,10 +76,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7706.03 | -0.76 | 2026-09-23 | closed |
 | ^IXIC | NASDAQ Composite | 26936.04 | -0.69 | 2026-09-23 | closed |
 | ^RUT | Russell 2000 Index | 2838.66 | -1.28 | 2026-09-23 | closed |
-| ^VIX | CBOE Volatility Index | 16.14 | 6.32 | 2026-09-24 | live as of 24 September 2026, 19:00:33 (HKT) |
+| ^VIX | CBOE Volatility Index | 16.15 | 6.39 | 2026-09-24 | live as of 24 September 2026, 20:00:22 (HKT) |
 | ^SKEW | CBOE SKEW Index | 146.15 | 2.79 | 2026-09-23 | closed |
 | ^MOVE | ICE BofA MOVE Index | 95.45 | 17.55 | 2026-09-23 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.87 | -0.5 | 2026-09-24 | live as of 24 September 2026, 19:00:33 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.85 | 2.97 | 2026-09-23 | closed |
 | US3YT=X | United States 3-Year Treasury Yield | 4.97 | 3.33 | 2026-09-23 | closed |
 | US5YT=X | United States 5-Year Treasury Yield | 4.99 | 3.31 | 2026-09-23 | closed |
 | US7YT=X | United States 7-Year Treasury Yield | 5.05 | 3.27 | 2026-09-23 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 80.46 | -1.58 | 2026-09-23 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 90.19 | -1.05 | 2026-09-23 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.12 | -0.21 | 2026-09-23 | closed |
-| GC=F | Gold Future | 4295.3 | -0.53 | 2026-09-24 | live as of 24 September 2026, 19:00:33 (HKT) |
-| SI=F | Silver Future | 64.17 | -0.34 | 2026-09-24 | live as of 24 September 2026, 19:00:33 (HKT) |
-| CL=F | WTI Crude Oil Future | 93.25 | 1.18 | 2026-09-24 | live as of 24 September 2026, 19:00:33 (HKT) |
-| HG=F | Copper Future | 6.76 | 1.18 | 2026-09-24 | live as of 24 September 2026, 19:00:33 (HKT) |
+| GC=F | Gold Future | 4295.8 | -0.52 | 2026-09-24 | live as of 24 September 2026, 20:00:22 (HKT) |
+| SI=F | Silver Future | 63.94 | -0.69 | 2026-09-24 | live as of 24 September 2026, 20:00:22 (HKT) |
+| CL=F | WTI Crude Oil Future | 93.72 | 1.69 | 2026-09-24 | live as of 24 September 2026, 20:00:22 (HKT) |
+| HG=F | Copper Future | 6.77 | 1.42 | 2026-09-24 | live as of 24 September 2026, 20:00:22 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=16.14 pct_chg=6.32
+- VIX close=16.15 pct_chg=6.39
 
 ## News Analytics
 
@@ -374,15 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Stock futures flat after soaring Treasury yields trigger market sell-off: Live updates**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Here’s where thousands of homeowners face higher insurance bills after FEMA updated its flood maps**
+**6. Here’s where thousands of homeowners face higher insurance bills after FEMA updated its flood maps**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Bond yields surge to 5.12% as Wall Street fears more Fed rate hikes**
+**7. Bond yields surge to 5.12% as Wall Street fears more Fed rate hikes**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -398,12 +390,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. HSBC addresses the concerns that are gripping the stock market — and dismisses most of them**
+**8. HSBC addresses the concerns that are gripping the stock market — and dismisses most of them**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: HSBC, U.S
 - Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. Stock futures flat after soaring Treasury yields trigger market sell-off: Live updates**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **10. Historic day for global bonds as 10-year Treasury and JGB yields hit highest in decades**
@@ -417,7 +417,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-Noisy headline list: Why CoreWeave’s beaten-down stock could be due for
+No noisy headlines detected by current rules.
 
 ## Positioning & Flow Dashboard
 
@@ -506,11 +506,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `17`
+- Live macro rows used: `16`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 24 September 2026, 11:10:19 (HKT)
+- Report generated at: 24 September 2026, 12:05:31 (HKT)
