@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 24 September 2026, 11:17:06 (HKT)
+Generated at: 24 September 2026, 12:15:48 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -86,9 +86,9 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US10YT=X | United States 10-Year Treasury Yield | 5.11 | 3.02 | 2026-09-23 | closed |
 | US20YT=X | United States 20-Year Treasury Yield | 5.45 | 2.25 | 2026-09-23 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.4 | 2.08 | 2026-09-23 | closed |
-| HK50 | Hang Seng Futures | 24767.66 | -0.27 | 2026-09-24 | live as of 24 September 2026, 11:00:22 (HKT) |
+| HK50 | Hang Seng Futures | 24702.0 | -0.02 | 2026-09-24 | live as of 24 September 2026, 12:00:27 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 7080.92 | 1.04 | 2026-09-23 | closed |
-| CIHc1 | SSE 50 Futures | 3913.23 | -0.59 | 2026-09-24 | live as of 24 September 2026, 11:00:22 (HKT) |
+| CIHc1 | SSE 50 Futures | 3900.0 | -0.93 | 2026-09-24 | live as of 24 September 2026, 12:00:27 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 78.1 | -0.74 | 2026-09-23 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 103.89 | -1.14 | 2026-09-23 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 93.97 | -0.78 | 2026-09-23 | closed |
@@ -334,7 +334,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Stock futures are flat after soaring Treasury yields trigger a market sell-off: Live updates**
+**1. Japan's 10-year bond yield hits 30-year high following sell-off in Treasurys**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -342,7 +342,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Thursday's big stock stories: What’s likely to move the market in the next trading session**
+**2. Stock futures flat after soaring Treasury yields trigger market sell-off: Live updates**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Oil falls on report Asia will import highest volume of crude since start of Iran war**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: US
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. Thursday's big stock stories: What’s likely to move the market in the next trading session**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -350,7 +366,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Here’s where thousands of homeowners face higher insurance bills after FEMA updated its flood maps**
+**5. ‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: I, IRA
+- Score: `21.25`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**6. Here’s where thousands of homeowners face higher insurance bills after FEMA updated its flood maps**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -358,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Bond yields surge to 5.12% as Wall Street fears more Fed rate hikes**
+**7. Bond yields surge to 5.12% as Wall Street fears more Fed rate hikes**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -366,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. HSBC addresses the concerns that are gripping the stock market — and dismisses most of them**
+**8. HSBC addresses the concerns that are gripping the stock market — and dismisses most of them**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. This oil giant has lagged its leading rivals through two energy crises. Now one Wall Street giant says it’s time to buy.**
+**9. This oil giant has lagged its leading rivals through two energy crises. Now one Wall Street giant says it’s time to buy.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -382,35 +406,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Dow tumbles more than 300 points, Nasdaq drops 1% as Treasury yields surge: Live updates**
+**10. Dow tumbles more than 300 points, Nasdaq drops 1% as Treasury yields surge: Live updates**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. Surging Treasury yields, big bond losses offer sizable tax savings opportunity to investors**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. 10-year Treasury yield rockets to 19-year high. Here's what's driving the spike**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Nasdaq ends sharply lower, Dow sheds 350 points as Treasury yields rise above 5%**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
@@ -511,4 +511,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 24 September 2026, 03:17:06 (HKT)
+- Report generated at: 24 September 2026, 04:15:48 (HKT)
