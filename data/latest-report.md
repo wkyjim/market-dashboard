@@ -1,23 +1,23 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 25 September 2026, 08:22:51 (HKT)
+Generated at: 25 September 2026, 09:26:44 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.44 / 100** (Mild Risk-On)
+- Regime score: **57.34 / 100** (Mild Risk-On)
 - US equity strength: **63.19 / 100** (constructive)
 - Evidence quality: **76.0 / 100**
-- ETF flow contribution: **49.4 / 100**, reliability **66.4 / 100**
+- ETF flow contribution: **48.15 / 100**, reliability **66.21 / 100**
 - Breadth: **narrow**; above 50DMA `43.33%`, above 200DMA `64.41%`
 - Top sector score: **Cybersecurity** `70.92`
-- Top theme score: **Crypto Infrastructure** `71.87`
+- Top theme score: **Crypto Infrastructure** `73.82`
 
 ## Market Regime Score
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.44 | Mild Risk-On |
+| Overall regime | 57.34 | Mild Risk-On |
 | equity_trend | 73.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.3 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 47.58 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 54.2 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 49.6 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 48.78 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=73.75, volatility=70.0 |
 | Negative contributors |  | none |
@@ -246,7 +246,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Semiconductors | 61.34 | strong uptrend | neutral | broad | 58.32 | 65.0 | 45.93 | SOXX, SMH | SMH, SOXX |
 | 4 | Healthcare | 58.26 | strong uptrend | neutral | broad | 58.03 | 65.0 | 51.05 | MRNA, ILMN, RVTY | BAX, SYK, COO |
 | 5 | Energy | 56.31 | strong uptrend | neutral | broad | 42.82 | 65.0 | 53.45 | VLO, MPC, PSX | EOG, EXE, FANG |
-| 6 | Crypto | 50.0 | neutral | neutral | mixed | 50.0 | 0.0 | 50.0 |  |  |
+| 6 | Crypto | 51.96 | neutral | neutral | mixed | 69.55 | 65.0 | 50.0 |  |  |
 | 7 | Financials | 45.6 | neutral | neutral | weak | 48.47 | 65.0 | 48.96 | HOOD, COIN, MET | AJG, PYPL, AON |
 | 8 | Grid Infrastructure | 44.25 | neutral | neutral | weak | 50.0 | 0.0 | 45.45 | GRID | GRID |
 | 9 | Consumer Staples | 34.61 | strong downtrend | neutral | weak | 50.0 | 0.0 | 45.32 | WMT, KR, MO | HRL, CLX, CASY |
@@ -261,7 +261,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Crypto Infrastructure | 71.87 | Strong outperformance setup | 50.0 | 0.0 | 24.25 | True | False |
+| 1 | Crypto Infrastructure | 73.82 | Strong outperformance setup | 69.55 | 65.0 | 24.25 | True | False |
 | 2 | Quality Growth | 62.81 | Positive setup | 54.28 | 65.0 | 6.5 | True | False |
 | 3 | Cybersecurity | 62.55 | Positive setup | 50.0 | 0.0 | 27.09 | True | False |
 | 4 | AI Infrastructure | 59.53 | Positive setup | 58.32 | 65.0 | 6.05 | False | False |
@@ -289,7 +289,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Semiconductors | AI Infrastructure, Semiconductors | 61.34 | positive | 57.77 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 58.26 | positive | 53.55 | mixed | sector stronger than related themes |
 | Energy | Energy | 56.31 | positive | 57.3 | positive | sector and theme confirmation |
-| Crypto | Crypto Infrastructure | 50.0 | mixed | 71.87 | strong | theme stronger than official sector |
+| Crypto | Crypto Infrastructure | 51.96 | mixed | 73.82 | strong | theme stronger than official sector |
 | Financials | Financials | 45.6 | mixed | 41.91 | weak | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 44.25 | weak | 43.96 | weak | broad weakness across sector and themes |
 | Consumer Staples | Dividend Defensives | 34.61 | very weak | 42.0 | weak | broad weakness across sector and themes |
@@ -334,8 +334,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act**
-- Source: Federal Reserve Press Releases
+**1. Costco’s results beat expectations. Here’s why investors are still cautious.**
+- Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
@@ -350,7 +350,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. History shows financial calamities occur when rates rise rapidly like this: 'Something always breaks'**
+**3. Why investors aren’t buying yet another attempt by the Treasury to calm the rattled bond market**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `25.0`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. Friday's big stock stories: What’s likely to move the market in the next trading session**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -358,7 +366,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Dow falls for a third day as bond yields hit fresh highs: Live updates**
+**5. Why investors aren’t buying Treasury's latest attempt to calm bond market**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. History shows financial calamities occur when rates rise rapidly like this: 'Something always breaks'**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. Dow falls for a third day as bond yields hit fresh highs: Live updates**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -366,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. 30-year Treasury yield hits highest level since 2004 as bond market rout continues**
+**8. 30-year Treasury yield hits highest level since 2004 as bond market rout continues**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,44 +398,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Bond yields keep rising. How income investors can best take advantage of the moves**
+**9. Dow falls, S&P 500 and Nasdaq end flat as 10-year Treasury yield approaches 5.2%**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: P, S
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Bond yields keep rising. How income investors can best take advantage of the moves**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
 - Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank**
-- Source: Federal Reserve Press Releases
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. Millions will lose Medicaid once new work rules kick in. These groups will be hit the hardest.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. The market is pricing in too many Fed hikes, says the former Dallas Fed chief**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Bond liquidation wrecks small caps. Here's how bad some traders see it getting**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: P, S, U.S
-- Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
@@ -432,14 +432,14 @@ Positioning and flow data is used as confirmation only.
 ## ETF Flows Analysis
 
 - Market flow regime: `Mixed / Neutral`
-- Market flow score: `46.3 / 100`
+- Market flow score: `46.1 / 100`
 - Equity risk flow: `47.2`
 - Credit risk flow: `34.9`
 - Sector cyclicality flow: `49.5`
-- Duration/liquidity flow: `50.0`
-- Alternatives: `mixed alternative-asset demand`
-- ETF flow reliability: `66.4 / 100`
-- Dominant allocation direction: `mixed allocation`
+- Duration/liquidity flow: `45.8`
+- Alternatives: `barbell demand`
+- ETF flow reliability: `66.2 / 100`
+- Dominant allocation direction: `defensive demand`
 
 ### Core Flow Signals
 
@@ -453,12 +453,12 @@ Positioning and flow data is used as confirmation only.
 | IWM | U.S. Small Cap | 0.4 | 1.0 | 0.4 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Mixed or neutral flow structure | 70.0 |
 | LQD | Investment-Grade Credit | -1.7 | -1.9 | 0.3 | n/a | Down | Sell | Normal | Persistent Distribution | Risk-Off | Strong confirmation | 80.0 |
 | HYG | High-Yield Credit | -0.4 | -1.5 | 0.4 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural distribution | 64.0 |
-| SGOV | Treasury Bills / Cash | 0.1 | -0.6 | 0.9 | 0.1 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 99.0 |
+| SGOV | Treasury Bills / Cash | 0.1 | -0.5 | 0.9 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 84.0 |
 | SHY | Short-Duration Treasuries | 1.2 | 0.7 | 0.6 | 1.1 | Down | Neutral | High | Heavy Selling Pressure | Cautious | Structural accumulation | 91.0 |
-| IEF | Intermediate-Duration Treasuries | -0.1 | -1.2 | 0.7 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural distribution | 64.0 |
+| IEF | Intermediate-Duration Treasuries | 0.2 | -1.1 | 0.7 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term recovery | 72.0 |
 | TLT | Long-Duration Treasuries | -0.6 | 1.6 | 0.5 | n/a | Down | Sell | Normal | Persistent Distribution | Risk-Off | Medium-term deterioration | 68.0 |
 | GLD | Gold | 0.5 | 2.5 | 0.5 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural accumulation; Exceptional institutional buying | 84.0 |
-| IBIT | Bitcoin | 0.9 | 1.6 | 0.7 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural accumulation | 76.0 |
+| IBIT | Bitcoin | 0.8 | 1.8 | 0.7 | n/a | Up | Buy | Normal | Steady Accumulation | Risk-On | Strong confirmation | 80.0 |
 
 ### Sector Flow Signals
 
@@ -489,6 +489,8 @@ Positioning and flow data is used as confirmation only.
 
 | Severity | Type | Primary | Comparison | Interpretation |
 | --- | --- | --- | --- | --- |
+| high | close_substitute_divergence | AGG | IUSB | primary representative differs from close substitute |
+| high | close_substitute_divergence | IWD | IVE | primary representative differs from close substitute |
 | high | close_substitute_divergence | IWM | IJR | primary representative differs from close substitute |
 
 
@@ -501,11 +503,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `4`
+- Live macro rows used: `5`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 25 September 2026, 08:22:51 (HKT)
+- Report generated at: 25 September 2026, 09:26:44 (HKT)
