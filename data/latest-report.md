@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 25 September 2026, 17:06:30 (HKT)
+Generated at: 25 September 2026, 18:06:28 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **58.67 / 100** (Mild Risk-On)
+- Regime score: **58.78 / 100** (Mild Risk-On)
 - US equity strength: **63.19 / 100** (constructive)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **48.64 / 100**, reliability **71.4 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 58.67 | Mild Risk-On |
+| Overall regime | 58.78 | Mild Risk-On |
 | equity_trend | 73.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.3 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 47.58 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.89 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 55.81 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.03 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=80.0, equity_trend=73.75, commodity_confirmation=61.0 |
+| Positive contributors |  | volatility=80.0, equity_trend=73.75, commodity_confirmation=63.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -76,7 +76,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7704.13 | -0.02 | 2026-09-24 | closed |
 | ^IXIC | NASDAQ Composite | 26939.37 | 0.01 | 2026-09-24 | closed |
 | ^RUT | Russell 2000 Index | 2835.57 | -0.11 | 2026-09-24 | closed |
-| ^VIX | CBOE Volatility Index | 15.38 | -1.85 | 2026-09-25 | live as of 25 September 2026, 17:00:33 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.34 | -2.11 | 2026-09-25 | live as of 25 September 2026, 18:00:31 (HKT) |
 | ^SKEW | CBOE SKEW Index | 146.04 | -0.08 | 2026-09-24 | closed |
 | ^MOVE | ICE BofA MOVE Index | 104.58 | 9.57 | 2026-09-24 | closed |
 | US2YT=X | United States 2-Year Treasury Yield | 4.87 | 0.41 | 2026-09-24 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 79.42 | -1.29 | 2026-09-24 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 89.69 | -0.55 | 2026-09-24 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.09 | -0.04 | 2026-09-24 | closed |
-| GC=F | Gold Future | 4326.3 | 0.66 | 2026-09-25 | live as of 25 September 2026, 17:00:33 (HKT) |
-| SI=F | Silver Future | 64.93 | 2.32 | 2026-09-25 | live as of 25 September 2026, 17:00:33 (HKT) |
-| CL=F | WTI Crude Oil Future | 92.71 | -2.01 | 2026-09-25 | live as of 25 September 2026, 17:00:33 (HKT) |
-| HG=F | Copper Future | 6.78 | 0.89 | 2026-09-25 | live as of 25 September 2026, 17:00:33 (HKT) |
+| GC=F | Gold Future | 4327.7 | 0.69 | 2026-09-25 | live as of 25 September 2026, 18:00:31 (HKT) |
+| SI=F | Silver Future | 65.0 | 2.42 | 2026-09-25 | live as of 25 September 2026, 18:00:31 (HKT) |
+| CL=F | WTI Crude Oil Future | 92.92 | -1.79 | 2026-09-25 | live as of 25 September 2026, 18:00:31 (HKT) |
+| HG=F | Copper Future | 6.77 | 0.72 | 2026-09-25 | live as of 25 September 2026, 18:00:31 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.38 pct_chg=-1.85
+- VIX close=15.34 pct_chg=-2.11
 
 ## News Analytics
 
@@ -334,7 +334,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Costco’s results beat expectations. Here’s why investors are still cautious.**
+**1. U.S. Treasury yields tick higher as global bond rout slows**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Costco’s results beat expectations. Here’s why investors are still cautious.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -342,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. 8% mortgage rates are ‘not an impossibility’ as the 30-year fixed rate surges**
+**3. 8% mortgage rates are ‘not an impossibility’ as the 30-year fixed rate surges**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -350,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Why investors aren’t buying yet another attempt by the Treasury to calm the rattled bond market**
+**4. Why investors aren’t buying yet another attempt by the Treasury to calm the rattled bond market**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -358,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act**
+**5. Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank**
+**6. Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Millions will lose Medicaid once new work rules kick in. These groups will be hit the hardest.**
+**7. Millions will lose Medicaid once new work rules kick in. These groups will be hit the hardest.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Stock futures are little changed as Dow heads for fourth straight losing week: Live updates**
+**8. Stock futures are little changed as Dow heads for fourth straight losing week: Live updates**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -390,19 +398,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**8. CNBC Daily Open: The return of panda diplomacy**
+**9. CNBC Daily Open: The return of panda diplomacy**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: CNBC, U.S
-- Score: `20.19`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**9. U.S. government seeks to join Elon Musk in challenge against EU's fine on X**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: EU, U.S, X
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
@@ -513,4 +513,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 25 September 2026, 17:06:30 (HKT)
+- Report generated at: 25 September 2026, 18:06:28 (HKT)
