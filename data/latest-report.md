@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 25 September 2026, 16:06:03 (HKT)
+Generated at: 25 September 2026, 17:06:30 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **58.3 / 100** (Mild Risk-On)
+- Regime score: **58.67 / 100** (Mild Risk-On)
 - US equity strength: **63.19 / 100** (constructive)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **48.64 / 100**, reliability **71.4 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 58.3 | Mild Risk-On |
+| Overall regime | 58.67 | Mild Risk-On |
 | equity_trend | 73.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.3 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 47.58 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.69 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 55.89 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.03 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=80.0, equity_trend=73.75 |
+| Positive contributors |  | volatility=80.0, equity_trend=73.75, commodity_confirmation=61.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -76,7 +76,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7704.13 | -0.02 | 2026-09-24 | closed |
 | ^IXIC | NASDAQ Composite | 26939.37 | 0.01 | 2026-09-24 | closed |
 | ^RUT | Russell 2000 Index | 2835.57 | -0.11 | 2026-09-24 | closed |
-| ^VIX | CBOE Volatility Index | 15.57 | -0.64 | 2026-09-25 | live as of 25 September 2026, 16:00:22 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.38 | -1.85 | 2026-09-25 | live as of 25 September 2026, 17:00:33 (HKT) |
 | ^SKEW | CBOE SKEW Index | 146.04 | -0.08 | 2026-09-24 | closed |
 | ^MOVE | ICE BofA MOVE Index | 104.58 | 9.57 | 2026-09-24 | closed |
 | US2YT=X | United States 2-Year Treasury Yield | 4.87 | 0.41 | 2026-09-24 | closed |
@@ -86,7 +86,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US10YT=X | United States 10-Year Treasury Yield | 5.18 | 1.37 | 2026-09-24 | closed |
 | US20YT=X | United States 20-Year Treasury Yield | 5.53 | 1.47 | 2026-09-24 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.47 | 1.3 | 2026-09-24 | closed |
-| HK50 | Hang Seng Futures | 24509.5 | -0.48 | 2026-09-25 | live as of 25 September 2026, 16:00:22 (HKT) |
+| HK50 | Hang Seng Futures | 24510.09 | -1.01 | 2026-09-25 | closed |
 | KOR200c1 | KOSPI 200 Futures | 7080.92 | 1.04 | 2026-09-23 | closed |
 | CIHc1 | SSE 50 Futures | 3888.37 | -1.22 | 2026-09-24 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.89 | -0.27 | 2026-09-24 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 79.42 | -1.29 | 2026-09-24 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 89.69 | -0.55 | 2026-09-24 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.09 | -0.04 | 2026-09-24 | closed |
-| GC=F | Gold Future | 4313.6 | 0.36 | 2026-09-25 | live as of 25 September 2026, 16:00:22 (HKT) |
-| SI=F | Silver Future | 64.23 | 1.23 | 2026-09-25 | live as of 25 September 2026, 16:00:22 (HKT) |
-| CL=F | WTI Crude Oil Future | 93.5 | -1.17 | 2026-09-25 | live as of 25 September 2026, 16:00:22 (HKT) |
-| HG=F | Copper Future | 6.74 | 0.26 | 2026-09-25 | live as of 25 September 2026, 16:00:22 (HKT) |
+| GC=F | Gold Future | 4326.3 | 0.66 | 2026-09-25 | live as of 25 September 2026, 17:00:33 (HKT) |
+| SI=F | Silver Future | 64.93 | 2.32 | 2026-09-25 | live as of 25 September 2026, 17:00:33 (HKT) |
+| CL=F | WTI Crude Oil Future | 92.71 | -2.01 | 2026-09-25 | live as of 25 September 2026, 17:00:33 (HKT) |
+| HG=F | Copper Future | 6.78 | 0.89 | 2026-09-25 | live as of 25 September 2026, 17:00:33 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.57 pct_chg=-0.64
+- VIX close=15.38 pct_chg=-1.85
 
 ## News Analytics
 
@@ -382,15 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. The market is pricing in too many Fed hikes, says the former Dallas Fed chief**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. Stock futures are little changed as Dow heads for fourth straight losing week: Live updates**
+**7. Stock futures are little changed as Dow heads for fourth straight losing week: Live updates**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**9. CNBC Daily Open: The return of panda diplomacy**
+**8. CNBC Daily Open: The return of panda diplomacy**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**10. U.S. government seeks to join Elon Musk in challenge against EU's fine on X**
+**9. U.S. government seeks to join Elon Musk in challenge against EU's fine on X**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: EU, U.S, X
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**10. Friday's big stock stories: What’s likely to move the market in the next trading session**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `20.19`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
@@ -506,11 +506,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `18`
+- Live macro rows used: `16`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 25 September 2026, 16:06:03 (HKT)
+- Report generated at: 25 September 2026, 17:06:30 (HKT)
