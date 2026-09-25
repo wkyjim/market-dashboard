@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 25 September 2026, 10:33:34 (HKT)
+Generated at: 25 September 2026, 11:12:51 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -86,7 +86,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US10YT=X | United States 10-Year Treasury Yield | 5.18 | 1.37 | 2026-09-24 | closed |
 | US20YT=X | United States 20-Year Treasury Yield | 5.53 | 1.47 | 2026-09-24 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.47 | 1.3 | 2026-09-24 | closed |
-| HK50 | Hang Seng Futures | 24336.51 | -1.71 | 2026-09-25 | live as of 25 September 2026, 10:12:48 (HKT) |
+| HK50 | Hang Seng Futures | 24298.29 | -1.87 | 2026-09-25 | live as of 25 September 2026, 11:00:49 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 7080.92 | 1.04 | 2026-09-23 | closed |
 | CIHc1 | SSE 50 Futures | 3888.37 | -1.22 | 2026-09-24 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.89 | -0.27 | 2026-09-24 | closed |
@@ -374,23 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. History shows financial calamities occur when rates rise rapidly like this: 'Something always breaks'**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Dow falls for a third day as bond yields hit fresh highs: Live updates**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. The S&P 500’s newest tech stock is now its best performer**
+**6. The S&P 500’s newest tech stock is now its best performer**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -398,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**9. Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act**
+**7. Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -406,8 +390,24 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank**
+**8. Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank**
 - Source: Federal Reserve Press Releases
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. Millions will lose Medicaid once new work rules kick in. These groups will be hit the hardest.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. The market is pricing in too many Fed hikes, says the former Dallas Fed chief**
+- Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
@@ -510,4 +510,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 25 September 2026, 10:33:34 (HKT)
+- Report generated at: 25 September 2026, 11:12:51 (HKT)
