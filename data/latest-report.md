@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 25 September 2026, 09:28:50 (HKT)
+Generated at: 25 September 2026, 10:33:34 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.34 / 100** (Mild Risk-On)
+- Regime score: **57.36 / 100** (Mild Risk-On)
 - US equity strength: **63.19 / 100** (constructive)
 - Evidence quality: **76.0 / 100**
-- ETF flow contribution: **48.15 / 100**, reliability **66.21 / 100**
+- ETF flow contribution: **48.36 / 100**, reliability **66.09 / 100**
 - Breadth: **narrow**; above 50DMA `43.33%`, above 200DMA `64.41%`
 - Top sector score: **Cybersecurity** `70.92`
 - Top theme score: **Crypto Infrastructure** `73.82`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.34 | Mild Risk-On |
+| Overall regime | 57.36 | Mild Risk-On |
 | equity_trend | 73.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.3 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 47.58 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 54.2 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 48.78 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 48.92 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=73.75, volatility=70.0 |
 | Negative contributors |  | none |
@@ -86,7 +86,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US10YT=X | United States 10-Year Treasury Yield | 5.18 | 1.37 | 2026-09-24 | closed |
 | US20YT=X | United States 20-Year Treasury Yield | 5.53 | 1.47 | 2026-09-24 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.47 | 1.3 | 2026-09-24 | closed |
-| HK50 | Hang Seng Futures | 24761.13 | -0.29 | 2026-09-24 | closed |
+| HK50 | Hang Seng Futures | 24336.51 | -1.71 | 2026-09-25 | live as of 25 September 2026, 10:12:48 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 7080.92 | 1.04 | 2026-09-23 | closed |
 | CIHc1 | SSE 50 Futures | 3888.37 | -1.22 | 2026-09-24 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.89 | -0.27 | 2026-09-24 | closed |
@@ -390,28 +390,28 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. 30-year Treasury yield hits highest level since 2004 as bond market rout continues**
-- Source: CNBC Top News
+**8. The S&P 500’s newest tech stock is now its best performer**
+- Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Dow falls, S&P 500 and Nasdaq end flat as 10-year Treasury yield approaches 5.2%**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
+- Relevance / horizon: sector_theme / short-term
 - Affected assets: P, S
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Score: `21.25`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**10. Bond yields keep rising. How income investors can best take advantage of the moves**
-- Source: CNBC Markets
+**9. Federal Reserve Board requests public comment on two proposals related to establishing a regulatory framework for Board-supervised payment stablecoin issuers under the GENIUS Act**
+- Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Federal Reserve Board issues enforcement action with former employee of Sandy Spring Bank**
+- Source: Federal Reserve Press Releases
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
@@ -432,13 +432,13 @@ Positioning and flow data is used as confirmation only.
 ## ETF Flows Analysis
 
 - Market flow regime: `Mixed / Neutral`
-- Market flow score: `46.1 / 100`
+- Market flow score: `46.9 / 100`
 - Equity risk flow: `47.2`
 - Credit risk flow: `34.9`
 - Sector cyclicality flow: `49.5`
-- Duration/liquidity flow: `45.8`
+- Duration/liquidity flow: `51.2`
 - Alternatives: `barbell demand`
-- ETF flow reliability: `66.2 / 100`
+- ETF flow reliability: `66.1 / 100`
 - Dominant allocation direction: `defensive demand`
 
 ### Core Flow Signals
@@ -454,9 +454,9 @@ Positioning and flow data is used as confirmation only.
 | LQD | Investment-Grade Credit | -1.7 | -1.9 | 0.3 | n/a | Down | Sell | Normal | Persistent Distribution | Risk-Off | Strong confirmation | 80.0 |
 | HYG | High-Yield Credit | -0.4 | -1.5 | 0.4 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural distribution | 64.0 |
 | SGOV | Treasury Bills / Cash | 0.1 | -0.5 | 0.9 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 84.0 |
-| SHY | Short-Duration Treasuries | 1.2 | 0.7 | 0.6 | 1.1 | Down | Neutral | High | Heavy Selling Pressure | Cautious | Structural accumulation | 91.0 |
+| SHY | Short-Duration Treasuries | 1.2 | 0.7 | 0.6 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural accumulation | 76.0 |
 | IEF | Intermediate-Duration Treasuries | 0.2 | -1.1 | 0.7 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term recovery | 72.0 |
-| TLT | Long-Duration Treasuries | -0.6 | 1.6 | 0.5 | n/a | Down | Sell | Normal | Persistent Distribution | Risk-Off | Medium-term deterioration | 68.0 |
+| TLT | Long-Duration Treasuries | -0.3 | 1.7 | 0.5 | n/a | Down | Sell | Normal | Persistent Distribution | Risk-Off | Medium-term deterioration | 68.0 |
 | GLD | Gold | 0.5 | 2.5 | 0.5 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural accumulation; Exceptional institutional buying | 84.0 |
 | IBIT | Bitcoin | 0.8 | 1.8 | 0.7 | n/a | Up | Buy | Normal | Steady Accumulation | Risk-On | Strong confirmation | 80.0 |
 
@@ -503,11 +503,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `5`
+- Live macro rows used: `7`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 25 September 2026, 09:28:50 (HKT)
+- Report generated at: 25 September 2026, 10:33:34 (HKT)
