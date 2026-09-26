@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 September 2026, 15:11:04 (HKT)
+Generated at: 26 September 2026, 17:11:10 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -124,8 +124,8 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | Sector | Count | Breadth 50D | Breadth 200D | Positive 20D | 20D Dispersion | Std 20D | Label | Leaders | Laggards |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | Industrials | 83 | 16.87 | 40.51 | 10.84 | 58.29 | 6.74 | very high | BE, DE, CHRW | HWM, EFX, AXON |
-| Information Technology | 74 | 67.57 | 67.12 | 55.41 | 54.15 | 10.15 | very high | CRWD, SWKS, DELL | ADSK, INTU, FICO |
-| Health Care | 60 | 58.33 | 73.33 | 43.33 | 51.92 | 7.88 | very high | MRNA, ILMN, RVTY | BAX, SYK, COO |
+| Information Technology | 74 | 67.57 | 67.12 | 58.11 | 54.15 | 10.36 | very high | CRWD, SWKS, P | ADSK, INTU, FICO |
+| Health Care | 60 | 58.33 | 73.33 | 43.33 | 51.65 | 8.01 | very high | MRNA, ILMN, RVTY | BAX, SYK, COO |
 | Communication Services | 23 | 52.17 | 50.0 | 34.78 | 51.33 | 10.31 | very high | META, WBD, ECHO | OMC, TTWO, CMCSA |
 | Financials | 76 | 13.33 | 63.38 | 13.16 | 41.99 | 5.7 | very high | HOOD, COIN, MET | AJG, PYPL, AON |
 | Consumer Staples | 33 | 28.12 | 35.48 | 21.21 | 35.12 | 7.43 | very high | WMT, KR, MO | HRL, CLX, CASY |
@@ -242,7 +242,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Sector | Score | Trend | Momentum | Stock Breadth | ETF Flow | Flow Reliability | 3M RS | Supporting / Leaders | Detracting / Laggards |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cybersecurity | 72.91 | strong uptrend | positive | broad | 69.93 | 65.0 | 64.04 | CIBR | CIBR |
-| 2 | Technology | 66.57 | strong uptrend | neutral | broad | 52.56 | 65.0 | 51.05 | CRWD, SWKS, DELL | ADSK, INTU, FICO |
+| 2 | Technology | 66.57 | strong uptrend | neutral | broad | 52.56 | 65.0 | 51.05 | CRWD, SWKS, P | ADSK, INTU, FICO |
 | 3 | Semiconductors | 61.43 | strong uptrend | neutral | broad | 59.21 | 90.0 | 45.93 | SOXX, SMH | SMH, SOXX |
 | 4 | Healthcare | 59.13 | strong uptrend | neutral | broad | 66.68 | 65.0 | 51.05 | MRNA, ILMN, RVTY | BAX, SYK, COO |
 | 5 | Energy | 56.24 | strong uptrend | neutral | broad | 42.04 | 65.0 | 53.45 | VLO, MPC, PSX | EOG, EXE, FANG |
@@ -273,7 +273,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 10 | Dividend Defensives | 41.53 | Neutral / watchlist | 57.36 | 65.0 | 3.78 | False | False |
 | 11 | Financials | 41.48 | Neutral / watchlist | 44.14 | 65.0 | 8.69 | False | False |
 | 12 | Defense | 33.62 | Weak setup | 50.0 | 0.0 | 9.07 | False | False |
-| 13 | Nuclear | 33.07 | Weak setup | 50.0 | 0.0 | 13.39 | False | False |
+| 13 | Nuclear | 32.4 | Weak setup | 50.0 | 0.0 | 11.56 | False | False |
 
 - Top 5 improving themes: Crypto Infrastructure, Cybersecurity, Energy, Quality Growth, Healthcare Innovation
 - Top 5 deteriorating themes: Nuclear, Grid Infrastructure, Small Caps, Financials, Semiconductors
@@ -295,9 +295,9 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Consumer Staples | Dividend Defensives | 34.61 | very weak | 41.53 | weak | broad weakness across sector and themes |
 | Consumer Discretionary | Small Caps | 34.29 | very weak | 44.38 | weak | broad weakness across sector and themes |
 | Industrials | Defense, Grid Infrastructure | 33.56 | very weak | 39.16 | weak | broad weakness across sector and themes |
-| Nuclear | Nuclear | 33.43 | very weak | 33.07 | very weak | broad weakness across sector and themes |
+| Nuclear | Nuclear | 33.43 | very weak | 32.4 | very weak | broad weakness across sector and themes |
 | Real Estate | Dividend Defensives | 33.39 | very weak | 41.53 | weak | broad weakness across sector and themes |
-| Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 33.34 | very weak | 39.76 | weak | broad weakness across sector and themes |
+| Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 33.34 | very weak | 39.54 | weak | broad weakness across sector and themes |
 | Defense | Defense | 31.72 | very weak | 33.62 | very weak | broad weakness across sector and themes |
 
 ## Three-Month Outperformance Setup
@@ -417,7 +417,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-Noisy headline list: Apple’s expensive new iPhones could be a double-ed, Micron investors should get ready for a seesaw rid, A 10% risk-free yield? For some, yes., The stock market could be due for a nasty selloff,, One key part of the AI trade has decoupled from th
+Noisy headline list: Apple’s expensive new iPhones could be a double-ed, Micron investors should get ready for a seesaw rid, A 10% risk-free yield? For some, yes., The stock market could be due for a nasty selloff,
 
 ## Positioning & Flow Dashboard
 
@@ -511,4 +511,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 26 September 2026, 15:11:04 (HKT)
+- Report generated at: 26 September 2026, 17:11:10 (HKT)
