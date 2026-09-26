@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 September 2026, 14:12:26 (HKT)
+Generated at: 26 September 2026, 15:11:04 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -504,11 +504,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `3`
+- Live macro rows used: `4`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 26 September 2026, 14:12:26 (HKT)
+- Report generated at: 26 September 2026, 15:11:04 (HKT)
