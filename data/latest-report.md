@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 27 September 2026, 00:15:54 (HKT)
+Generated at: 27 September 2026, 02:13:40 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -406,7 +406,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**10. ‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that?**
+**10. ‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
@@ -417,7 +417,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-Noisy headline list: Apple’s expensive new iPhones could be a double-ed, Micron investors should get ready for a seesaw rid, A 10% risk-free yield? For some, yes.
+Noisy headline list: A 10% risk-free yield? For some, yes., Apple’s expensive new iPhones could be a double-ed, Micron investors should get ready for a seesaw rid
 
 ## Positioning & Flow Dashboard
 
@@ -511,4 +511,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 27 September 2026, 00:15:54 (HKT)
+- Report generated at: 27 September 2026, 02:13:40 (HKT)
