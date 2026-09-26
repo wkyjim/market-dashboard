@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 September 2026, 11:13:17 (HKT)
+Generated at: 26 September 2026, 13:11:21 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **58.74 / 100** (Mild Risk-On)
+- Regime score: **58.73 / 100** (Mild Risk-On)
 - US equity strength: **63.19 / 100** (constructive)
 - Evidence quality: **79.5 / 100**
-- ETF flow contribution: **49.07 / 100**, reliability **65.78 / 100**
+- ETF flow contribution: **48.91 / 100**, reliability **66.52 / 100**
 - Breadth: **narrow**; above 50DMA `43.33%`, above 200DMA `64.41%`
 - Top sector score: **Cybersecurity** `70.92`
 - Top theme score: **Crypto Infrastructure** `73.76`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 58.74 | Mild Risk-On |
+| Overall regime | 58.73 | Mild Risk-On |
 | equity_trend | 73.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.3 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 47.58 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 56.26 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 49.39 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 49.27 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=80.0, equity_trend=73.75, commodity_confirmation=61.0 |
 | Negative contributors |  | none |
@@ -243,7 +243,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cybersecurity | 70.92 | strong uptrend | positive | broad | 50.0 | 0.0 | 64.04 | CIBR | CIBR |
 | 2 | Technology | 66.57 | strong uptrend | neutral | broad | 52.56 | 65.0 | 51.05 | CRWD, SWKS, DELL | ADSK, INTU, FICO |
-| 3 | Semiconductors | 61.71 | strong uptrend | neutral | broad | 61.96 | 65.0 | 45.93 | SOXX, SMH | SMH, SOXX |
+| 3 | Semiconductors | 61.43 | strong uptrend | neutral | broad | 59.21 | 90.0 | 45.93 | SOXX, SMH | SMH, SOXX |
 | 4 | Healthcare | 59.13 | strong uptrend | neutral | broad | 66.68 | 65.0 | 51.05 | MRNA, ILMN, RVTY | BAX, SYK, COO |
 | 5 | Energy | 56.24 | strong uptrend | neutral | broad | 42.04 | 65.0 | 53.45 | VLO, MPC, PSX | EOG, EXE, FANG |
 | 6 | Crypto | 51.89 | neutral | neutral | mixed | 68.87 | 65.0 | 50.0 |  |  |
@@ -264,9 +264,9 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 1 | Crypto Infrastructure | 73.76 | Strong outperformance setup | 68.87 | 65.0 | 24.25 | True | False |
 | 2 | Quality Growth | 63.4 | Positive setup | 60.1 | 65.0 | 6.5 | True | False |
 | 3 | Cybersecurity | 62.55 | Positive setup | 50.0 | 0.0 | 27.09 | True | False |
-| 4 | AI Infrastructure | 59.9 | Positive setup | 61.96 | 65.0 | 6.05 | False | False |
+| 4 | AI Infrastructure | 59.62 | Positive setup | 59.21 | 90.0 | 6.05 | False | False |
 | 5 | Energy | 57.22 | Positive setup | 42.04 | 65.0 | 2.47 | False | False |
-| 6 | Semiconductors | 56.38 | Neutral / watchlist | 61.96 | 65.0 | 23.27 | False | False |
+| 6 | Semiconductors | 56.1 | Neutral / watchlist | 59.21 | 90.0 | 23.27 | False | False |
 | 7 | Healthcare Innovation | 54.42 | Positive setup | 66.68 | 65.0 | 5.93 | False | False |
 | 8 | Small Caps | 44.38 | Neutral / watchlist | 54.64 | 65.0 | 0.0 | False | False |
 | 9 | Grid Infrastructure | 43.96 | Neutral / watchlist | 50.0 | 0.0 | 8.38 | False | False |
@@ -285,8 +285,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
 | Cybersecurity | Cybersecurity | 70.92 | strong | 62.55 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.57 | strong | 59.89 | positive | sector and theme confirmation |
-| Semiconductors | AI Infrastructure, Semiconductors | 61.71 | positive | 58.14 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.57 | strong | 59.71 | positive | sector and theme confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 61.43 | positive | 57.86 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 59.13 | positive | 54.42 | mixed | sector stronger than related themes |
 | Energy | Energy | 56.24 | positive | 57.22 | positive | sector and theme confirmation |
 | Crypto | Crypto Infrastructure | 51.89 | mixed | 73.76 | strong | theme stronger than official sector |
@@ -339,18 +339,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: A, I, U.S
-- Score: `25.0`
+- Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Dow jumps more than 470 points Friday; stocks notch winning week despite Treasury yield surge**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. Federal Reserve Board announces approval of application by Peoples Bancorp Inc.**
+**2. Federal Reserve Board announces approval of application by Peoples Bancorp Inc.**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -358,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. 8% mortgage rates are ‘not an impossibility’ as the 30-year fixed rate surges**
+**3. 8% mortgage rates are ‘not an impossibility’ as the 30-year fixed rate surges**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Why investors aren’t buying yet another attempt by the Treasury Department to calm the rattled bond market**
+**4. Why investors aren’t buying yet another attempt by the Treasury Department to calm the rattled bond market**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. The options market is sending a contrarian signal about oil prices**
+**5. The options market is sending a contrarian signal about oil prices**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -382,12 +374,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. ‘We were wrong.’ Why Morgan Stanley changed its tune on the U.S. dollar — and what it expects now.**
+**6. ‘We were wrong.’ Why Morgan Stanley changed its tune on the U.S. dollar — and what it expects now.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S
 - Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. Dow jumps more than 470 points Friday; stocks notch winning week despite Treasury yield surge**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **8. 10-year Treasury yield is little changed to end a volatile week**
@@ -438,7 +438,7 @@ Positioning and flow data is used as confirmation only.
 - Sector cyclicality flow: `49.2`
 - Duration/liquidity flow: `52.6`
 - Alternatives: `barbell demand`
-- ETF flow reliability: `65.8 / 100`
+- ETF flow reliability: `66.5 / 100`
 - Dominant allocation direction: `defensive demand`
 
 ### Core Flow Signals
@@ -482,7 +482,7 @@ Positioning and flow data is used as confirmation only.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ITA | Aerospace and Defense | -0.4 | 0.7 | 0.2 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural distribution; Persistent selling | 56.0 |
 | SOXX | Semiconductors | -0.1 | -0.7 | 0.5 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural accumulation | 76.0 |
-| SMH | Semiconductors | -0.2 | 0.4 | 0.5 | n/a | Up | Sell | Normal | Profit Taking | Slightly Bearish | Tactical profit-taking inside structural accumulation; Exceptional institutional selling | 60.0 |
+| SMH | Semiconductors | -0.4 | 0.3 | 0.4 | n/a | Up | Sell | Normal | Profit Taking | Slightly Bearish | Tactical profit-taking inside structural accumulation; Exceptional institutional selling | 60.0 |
 | CIBR | Cybersecurity | 1.9 | 2.2 | 0.8 | n/a | Up | Buy | Normal | Steady Accumulation | Risk-On | Strong confirmation; Exceptional institutional buying, Strong sponsorship | 96.0 |
 
 ### Material Flow Divergences
@@ -491,6 +491,7 @@ Positioning and flow data is used as confirmation only.
 | --- | --- | --- | --- | --- |
 | high | close_substitute_divergence | AGG | IUSB | primary representative differs from close substitute |
 | high | close_substitute_divergence | IWD | IVE | primary representative differs from close substitute |
+| high | close_substitute_divergence | SOXX | SMH | primary representative differs from close substitute |
 | high | close_substitute_divergence | IWM | IJR | primary representative differs from close substitute |
 
 
@@ -503,11 +504,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `2`
+- Live macro rows used: `3`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 26 September 2026, 11:13:17 (HKT)
+- Report generated at: 26 September 2026, 13:11:21 (HKT)
