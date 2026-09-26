@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 26 September 2026, 10:11:58 (HKT)
+Generated at: 26 September 2026, 11:13:17 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -342,31 +342,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Federal Reserve Board announces approval of application by Peoples Bancorp Inc.**
+**2. Dow jumps more than 470 points Friday; stocks notch winning week despite Treasury yield surge**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Federal Reserve Board announces approval of application by Peoples Bancorp Inc.**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
-- Score: `25.0`
+- Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Dow jumps more than 470 points Friday; stocks notch winning week despite Treasury yield surge**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**4. 10-year Treasury yield is little changed to end a volatile week**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**5. 8% mortgage rates are ‘not an impossibility’ as the 30-year fixed rate surges**
+**4. 8% mortgage rates are ‘not an impossibility’ as the 30-year fixed rate surges**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Why investors aren’t buying yet another attempt by the Treasury Department to calm the rattled bond market**
+**5. Why investors aren’t buying yet another attempt by the Treasury Department to calm the rattled bond market**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. The options market is sending a contrarian signal about oil prices**
+**6. The options market is sending a contrarian signal about oil prices**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -390,12 +382,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. ‘We were wrong.’ Why Morgan Stanley changed its tune on the U.S. dollar — and what it expects now.**
+**7. ‘We were wrong.’ Why Morgan Stanley changed its tune on the U.S. dollar — and what it expects now.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S
 - Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. 10-year Treasury yield is little changed to end a volatile week**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **9. Dow, S&P 500 and Nasdaq lock in weekly gains despite surging Treasury yields**
@@ -510,4 +510,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 26 September 2026, 10:11:58 (HKT)
+- Report generated at: 26 September 2026, 11:13:17 (HKT)
