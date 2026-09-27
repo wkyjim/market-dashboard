@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 27 September 2026, 22:11:46 (HKT)
+Generated at: 27 September 2026, 23:12:03 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -334,7 +334,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Why the upcoming jobs report could send 10-year and 30-year Treasury yields surging**
+**1. Look closer, and Wall Street’s rally is showing cracks**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -342,7 +342,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Millions will lose Medicaid once new work rules kick in. These groups will be hit the hardest.**
+**2. Why the upcoming jobs report could send 10-year and 30-year Treasury yields surging**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `25.0`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: P, S
+- Score: `21.25`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**4. Millions will lose Medicaid once new work rules kick in. These groups will be hit the hardest.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -350,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. At NFL games this season, drone defense tech aims to bring down disruptions**
+**5. At NFL games this season, drone defense tech aims to bring down disruptions**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -358,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**4. Men arrested in major incident at UK air base used by U.S. forces**
+**6. Men arrested in major incident at UK air base used by U.S. forces**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -366,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**5. Inside AT&S and the race to make the critical layer beneath AI chips**
+**7. Inside AT&S and the race to make the critical layer beneath AI chips**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -374,7 +390,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `17.16`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**6. Powerful nor'easter batters the U.S. Northeast, causing coastal flooding, outages and at least 1 death**
+**8. Swiss voters reject tighter neutrality rules that would have curbed NATO cooperation**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: single_name / short-term
+- Affected assets: NATO
+- Score: `15.44`
+- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
+
+**9. Iran's foreign minister keeps indirect talks with the U.S. open; Iranian navy claims capture of underwater drone**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
@@ -382,36 +406,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `15.44`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**7. My friend grosses $300,000 a year with her pet-sitting business. She pays herself $50,000. Should I do the same?**
-- Source: MarketWatch Top Stories
+**10. Powerful nor'easter batters the U.S. Northeast, causing coastal flooding, outages and at least 1 death**
+- Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
-- Affected assets: I
-- Score: `13.81`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
-
-**8. ‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / short-term
-- Affected assets: I
-- Score: `13.81`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
-
-**9. ‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / short-term
-- Affected assets: I
-- Score: `13.81`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
-
-**10. Do this one thing to help prevent your parents from being scammed**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / short-term
-- Affected assets: I
-- Score: `13.81`
+- Affected assets: U.S
+- Score: `15.44`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
 
@@ -511,4 +511,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 27 September 2026, 22:11:46 (HKT)
+- Report generated at: 27 September 2026, 23:12:03 (HKT)
