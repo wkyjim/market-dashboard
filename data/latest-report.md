@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 28 September 2026, 03:09:53 (HKT)
+Generated at: 28 September 2026, 04:11:01 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -350,15 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**3. Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: P, S
-- Score: `21.25`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**4. Look closer, and Wall Street’s rally is showing cracks**
+**3. Look closer, and Wall Street’s rally is showing cracks**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Why the upcoming jobs report could send 10-year and 30-year Treasury yields surging**
+**4. Why the upcoming jobs report could send 10-year and 30-year Treasury yields surging**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. China weighs allowing ByteDance, Alibaba to buy new Nvidia chips, The Information reports**
+**5. China weighs allowing ByteDance, Alibaba to buy new Nvidia chips, The Information reports**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**7. Trump says men arrested at UK air base used by U.S. forces were looking to do 'big damage'**
+**6. Trump says men arrested at UK air base used by U.S. forces were looking to do 'big damage'**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -390,12 +382,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**8. At NFL games this season, drone defense tech aims to bring down disruptions**
+**7. At NFL games this season, drone defense tech aims to bring down disruptions**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: CNBC, NFL
 - Score: `20.19`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**8. Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: P, S
+- Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 **9. Inside AT&S and the race to make the critical layer beneath AI chips**
@@ -511,4 +511,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 28 September 2026, 03:09:53 (HKT)
+- Report generated at: 28 September 2026, 04:11:01 (HKT)
