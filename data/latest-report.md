@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 28 September 2026, 00:10:07 (HKT)
+Generated at: 28 September 2026, 01:10:43 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -342,21 +342,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Why the upcoming jobs report could send 10-year and 30-year Treasury yields surging**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `25.0`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth**
+**2. Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: P, S
 - Score: `21.25`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**3. Why the upcoming jobs report could send 10-year and 30-year Treasury yields surging**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **4. At NFL games this season, drone defense tech aims to bring down disruptions**
 - Source: CNBC Markets
@@ -371,7 +371,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: RAF, U.S, UK
-- Score: `20.19`
+- Score: `17.16`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 **6. Inside AT&S and the race to make the critical layer beneath AI chips**
@@ -417,7 +417,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-Noisy headline list: This key part of the stock market could be headed , A 10% risk-free yield? For some, yes.
+Noisy headline list: This key part of the stock market could be headed 
 
 ## Positioning & Flow Dashboard
 
@@ -511,4 +511,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 28 September 2026, 00:10:07 (HKT)
+- Report generated at: 28 September 2026, 01:10:43 (HKT)
