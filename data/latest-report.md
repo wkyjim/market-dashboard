@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 27 September 2026, 09:11:21 (HKT)
+Generated at: 27 September 2026, 10:12:46 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -371,7 +371,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
 - Affected assets: I
-- Score: `16.25`
+- Score: `13.81`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
 **6. ‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that?**
@@ -511,4 +511,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 27 September 2026, 09:11:21 (HKT)
+- Report generated at: 27 September 2026, 10:12:46 (HKT)
