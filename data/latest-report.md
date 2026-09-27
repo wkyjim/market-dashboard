@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 27 September 2026, 08:41:09 (HKT)
+Generated at: 27 September 2026, 09:11:21 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -379,18 +379,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
 - Affected assets: I
-- Score: `16.25`
+- Score: `13.81`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**7. Powerful nor'easter causes coastal flooding and knocks out power to parts of the northeast U.S.**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / short-term
-- Affected assets: U.S
-- Score: `15.44`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
-
-**8. ‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.**
+**7. ‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `13.81`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**9. Do this one thing to help prevent your parents from being scammed**
+**8. Do this one thing to help prevent your parents from being scammed**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
@@ -406,7 +398,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `13.81`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**10. My husband and I are in our 50s and have no kids. We have $2 million in IRAs and 401(k)s. Do we really need a will?**
+**9. My husband and I are in our 50s and have no kids. We have $2 million in IRAs and 401(k)s. Do we really need a will?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: single_name / short-term
+- Affected assets: I
+- Score: `13.81`
+- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
+
+**10. I’m afraid of ‘starving to death.’ Social Security stopped our checks due to a hacked bank account. What can we do?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
@@ -511,4 +511,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 27 September 2026, 08:41:09 (HKT)
+- Report generated at: 27 September 2026, 09:11:21 (HKT)
