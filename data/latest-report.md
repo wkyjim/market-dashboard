@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 27 September 2026, 21:12:46 (HKT)
+Generated at: 27 September 2026, 22:11:46 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -366,23 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**5. The 10-year Treasury yield is at its highest in nearly two decades. How we got here**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. ‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: I, IRA
-- Score: `18.06`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**7. Inside AT&S and the race to make the critical layer beneath AI chips**
+**5. Inside AT&S and the race to make the critical layer beneath AI chips**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -390,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `17.16`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**8. Powerful nor'easter batters the U.S. Northeast, causing coastal flooding, outages and at least 1 death**
+**6. Powerful nor'easter batters the U.S. Northeast, causing coastal flooding, outages and at least 1 death**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
@@ -398,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `15.44`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**9. My friend grosses $300,000 a year with her pet-sitting business. She pays herself $50,000. Should I do the same?**
+**7. My friend grosses $300,000 a year with her pet-sitting business. She pays herself $50,000. Should I do the same?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
@@ -406,7 +390,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `13.81`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**10. ‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that?**
+**8. ‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: single_name / short-term
+- Affected assets: I
+- Score: `13.81`
+- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
+
+**9. ‘She says it’s just money’: My friend pays for everything. I should be grateful, but I can’t stand her anymore.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: single_name / short-term
+- Affected assets: I
+- Score: `13.81`
+- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
+
+**10. Do this one thing to help prevent your parents from being scammed**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
@@ -511,4 +511,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 27 September 2026, 21:12:46 (HKT)
+- Report generated at: 27 September 2026, 22:11:46 (HKT)
