@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 28 September 2026, 11:10:15 (HKT)
+Generated at: 28 September 2026, 12:11:19 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 14.87 | -5.11 | 2026-09-25 | closed |
 | ^SKEW | CBOE SKEW Index | 144.91 | -0.77 | 2026-09-25 | closed |
 | ^MOVE | ICE BofA MOVE Index | 96.0 | -8.2 | 2026-09-25 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.81 | -1.23 | 2026-09-25 | closed |
-| US3YT=X | United States 3-Year Treasury Yield | 4.94 | -1.0 | 2026-09-25 | closed |
-| US5YT=X | United States 5-Year Treasury Yield | 4.98 | -0.99 | 2026-09-25 | closed |
-| US7YT=X | United States 7-Year Treasury Yield | 5.06 | -0.78 | 2026-09-25 | closed |
+| US2YT=X | United States 2-Year Treasury Yield | 4.91 | 0.86 | 2026-09-28 | live as of 28 September 2026, 12:00:22 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.99 | 0.81 | 2026-09-28 | live as of 28 September 2026, 12:00:22 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 5.04 | 0.69 | 2026-09-28 | live as of 28 September 2026, 12:00:22 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 5.12 | 0.56 | 2026-09-28 | live as of 28 September 2026, 12:00:22 (HKT) |
 | US10YT=X | United States 10-Year Treasury Yield | 5.17 | -0.19 | 2026-09-25 | closed |
 | US20YT=X | United States 20-Year Treasury Yield | 5.54 | 0.18 | 2026-09-25 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.49 | 0.37 | 2026-09-25 | closed |
-| HK50 | Hang Seng Futures | 24680.49 | 0.7 | 2026-09-28 | live as of 28 September 2026, 11:00:24 (HKT) |
+| HK50 | Hang Seng Futures | 24657.5 | 0.59 | 2026-09-28 | live as of 28 September 2026, 12:00:22 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 7080.92 | 1.04 | 2026-09-23 | closed |
-| CIHc1 | SSE 50 Futures | 3817.14 | -1.83 | 2026-09-28 | live as of 28 September 2026, 11:00:24 (HKT) |
+| CIHc1 | SSE 50 Futures | 3888.37 | -1.22 | 2026-09-24 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.86 | -0.04 | 2026-09-25 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 103.21 | 0.06 | 2026-09-25 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 93.61 | -0.07 | 2026-09-25 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.21 | 0.15 | 2026-09-25 | closed |
 | GC=F | Gold Future | 4294.3 | -0.62 | 2026-09-27 | closed |
 | SI=F | Silver Future | 64.22 | -0.04 | 2026-09-27 | closed |
-| CL=F | WTI Crude Oil Future | 93.55 | 1.23 | 2026-09-27 | closed |
+| CL=F | WTI Crude Oil Future | 94.1 | 1.83 | 2026-09-28 | live as of 28 September 2026, 12:00:22 (HKT) |
 | HG=F | Copper Future | 6.74 | 0.68 | 2026-09-27 | closed |
 
 ## Market Dispersion Analysis
@@ -374,7 +374,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Here are the 4 big things we're watching in the stock market in the week ahead**
+**6. Trump-Xi summit analysis: 'Tangible outcomes' needed for U.S.-China truce to hold**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: D.C, U.S
+- Score: `20.19`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**7. Here are the 4 big things we're watching in the stock market in the week ahead**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. ‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?**
+**8. ‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**8. Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth**
+**9. Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -398,19 +406,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**9. China weighs allowing ByteDance, Alibaba to buy new Nvidia chips, The Information reports**
+**10. China weighs allowing ByteDance, Alibaba to buy new Nvidia chips, The Information reports**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: PRO, RTX
-- Score: `17.16`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**10. Trump says men arrested at UK air base used by U.S. forces were looking to do 'big damage'**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: RAF, U.S, UK
 - Score: `17.16`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
@@ -504,11 +504,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `9`
+- Live macro rows used: `14`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 28 September 2026, 11:10:15 (HKT)
+- Report generated at: 28 September 2026, 12:11:19 (HKT)
