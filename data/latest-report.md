@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 28 September 2026, 08:40:17 (HKT)
+Generated at: 28 September 2026, 09:11:35 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,15 +79,15 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 14.87 | -5.11 | 2026-09-25 | closed |
 | ^SKEW | CBOE SKEW Index | 144.91 | -0.77 | 2026-09-25 | closed |
 | ^MOVE | ICE BofA MOVE Index | 96.0 | -8.2 | 2026-09-25 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.81 | -1.23 | 2026-09-25 | closed |
-| US3YT=X | United States 3-Year Treasury Yield | 4.94 | -1.0 | 2026-09-25 | closed |
-| US5YT=X | United States 5-Year Treasury Yield | 4.98 | -0.99 | 2026-09-25 | closed |
-| US7YT=X | United States 7-Year Treasury Yield | 5.06 | -0.78 | 2026-09-25 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 5.17 | -0.19 | 2026-09-25 | closed |
-| US20YT=X | United States 20-Year Treasury Yield | 5.54 | 0.18 | 2026-09-25 | closed |
-| US30YT=X | United States 30-Year Treasury Yield | 5.49 | 0.37 | 2026-09-25 | closed |
+| US2YT=X | United States 2-Year Treasury Yield | 4.9 | 0.73 | 2026-09-28 | live as of 28 September 2026, 09:00:23 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.98 | 0.72 | 2026-09-28 | live as of 28 September 2026, 09:00:23 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 5.04 | 0.65 | 2026-09-28 | live as of 28 September 2026, 09:00:23 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 5.12 | 0.59 | 2026-09-28 | live as of 28 September 2026, 09:00:23 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 5.21 | 0.81 | 2026-09-28 | live as of 28 September 2026, 09:00:23 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.59 | 0.43 | 2026-09-28 | live as of 28 September 2026, 09:00:23 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.52 | 0.36 | 2026-09-28 | live as of 28 September 2026, 09:00:23 (HKT) |
 | HK50 | Hang Seng Futures | 24510.09 | -1.01 | 2026-09-25 | closed |
-| KOR200c1 | KOSPI 200 Futures | 7046.86 | -0.48 | 2026-09-28 | live as of 28 September 2026, 08:30:21 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 7080.92 | 1.04 | 2026-09-23 | closed |
 | CIHc1 | SSE 50 Futures | 3888.37 | -1.22 | 2026-09-24 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.86 | -0.04 | 2026-09-25 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 103.21 | 0.06 | 2026-09-25 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.21 | 0.15 | 2026-09-25 | closed |
 | GC=F | Gold Future | 4294.3 | -0.62 | 2026-09-27 | closed |
 | SI=F | Silver Future | 64.22 | -0.04 | 2026-09-27 | closed |
-| CL=F | WTI Crude Oil Future | 93.55 | 1.23 | 2026-09-27 | closed |
+| CL=F | WTI Crude Oil Future | 93.08 | 0.72 | 2026-09-28 | live as of 28 September 2026, 09:00:23 (HKT) |
 | HG=F | Copper Future | 6.74 | 0.68 | 2026-09-27 | closed |
 
 ## Market Dispersion Analysis
@@ -342,7 +342,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Look closer, and Wall Street’s rally is showing cracks**
+**2. Oil gains over 1% as Trump rejects Iranian proposal to reopen Hormuz Strait**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Stock futures slip after winning week on Wall Street: Live updates**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. Look closer, and Wall Street’s rally is showing cracks**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -350,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Why the upcoming jobs report could send 10-year and 30-year Treasury yields surging**
+**5. Why the upcoming jobs report could send 10-year and 30-year Treasury yields surging**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -358,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Here are the 4 big things we're watching in the stock market in the week ahead**
+**6. Here are the 4 big things we're watching in the stock market in the week ahead**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -366,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. ‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?**
+**7. ‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -374,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**6. Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth**
+**8. Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -382,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**7. China weighs allowing ByteDance, Alibaba to buy new Nvidia chips, The Information reports**
+**9. China weighs allowing ByteDance, Alibaba to buy new Nvidia chips, The Information reports**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -390,29 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `17.16`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**8. Trump says men arrested at UK air base used by U.S. forces were looking to do 'big damage'**
+**10. Trump says men arrested at UK air base used by U.S. forces were looking to do 'big damage'**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: RAF, U.S, UK
 - Score: `17.16`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**9. At NFL games this season, drone defense tech aims to bring down disruptions**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: CNBC, NFL
-- Score: `17.16`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**10. ‘We lived within our means’: I earned $30,000 as a pastor and still retired comfortably. Why don’t you tell people that?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / short-term
-- Affected assets: I
-- Score: `16.25`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
@@ -504,11 +504,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `7`
+- Live macro rows used: `15`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 28 September 2026, 08:40:17 (HKT)
+- Report generated at: 28 September 2026, 09:11:35 (HKT)
