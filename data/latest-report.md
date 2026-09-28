@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 28 September 2026, 08:11:03 (HKT)
+Generated at: 28 September 2026, 08:40:17 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -87,7 +87,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US20YT=X | United States 20-Year Treasury Yield | 5.54 | 0.18 | 2026-09-25 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.49 | 0.37 | 2026-09-25 | closed |
 | HK50 | Hang Seng Futures | 24510.09 | -1.01 | 2026-09-25 | closed |
-| KOR200c1 | KOSPI 200 Futures | 7080.92 | 1.04 | 2026-09-23 | closed |
+| KOR200c1 | KOSPI 200 Futures | 7046.86 | -0.48 | 2026-09-28 | live as of 28 September 2026, 08:30:21 (HKT) |
 | CIHc1 | SSE 50 Futures | 3888.37 | -1.22 | 2026-09-24 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.86 | -0.04 | 2026-09-25 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 103.21 | 0.06 | 2026-09-25 | closed |
@@ -358,15 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. China weighs allowing ByteDance, Alibaba to buy new Nvidia chips, The Information reports**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: PRO, RTX
-- Score: `20.19`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**5. Here are the 4 big things we're watching in the stock market in the week ahead**
+**4. Here are the 4 big things we're watching in the stock market in the week ahead**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. ‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?**
+**5. ‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -382,12 +374,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**7. Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth**
+**6. Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: P, S
 - Score: `18.06`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**7. China weighs allowing ByteDance, Alibaba to buy new Nvidia chips, The Information reports**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: PRO, RTX
+- Score: `17.16`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 **8. Trump says men arrested at UK air base used by U.S. forces were looking to do 'big damage'**
@@ -504,11 +504,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `4`
+- Live macro rows used: `7`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 28 September 2026, 08:11:03 (HKT)
+- Report generated at: 28 September 2026, 08:40:17 (HKT)
