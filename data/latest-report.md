@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 28 September 2026, 16:06:31 (HKT)
+Generated at: 28 September 2026, 17:05:07 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **55.25 / 100** (Mild Risk-On)
+- Regime score: **55.26 / 100** (Mild Risk-On)
 - US equity strength: **69.53 / 100** (constructive)
 - Evidence quality: **69.0 / 100**
 - ETF flow contribution: **48.94 / 100**, reliability **71.16 / 100**
@@ -17,14 +17,14 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 55.25 | Mild Risk-On |
+| Overall regime | 55.26 | Mild Risk-On |
 | equity_trend | 83.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.75 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 50.56 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 35.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.4 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.48 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 42.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.25 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
@@ -76,17 +76,17 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7743.41 | 0.51 | 2026-09-25 | closed |
 | ^IXIC | NASDAQ Composite | 27068.72 | 0.48 | 2026-09-25 | closed |
 | ^RUT | Russell 2000 Index | 2837.55 | 0.07 | 2026-09-25 | closed |
-| ^VIX | CBOE Volatility Index | 16.21 | 9.01 | 2026-09-28 | live as of 28 September 2026, 16:00:23 (HKT) |
+| ^VIX | CBOE Volatility Index | 16.24 | 9.21 | 2026-09-28 | live as of 28 September 2026, 17:00:22 (HKT) |
 | ^SKEW | CBOE SKEW Index | 144.91 | -0.77 | 2026-09-25 | closed |
 | ^MOVE | ICE BofA MOVE Index | 96.0 | -8.2 | 2026-09-25 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.91 | 0.9 | 2026-09-28 | live as of 28 September 2026, 16:00:23 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.99 | 0.88 | 2026-09-28 | live as of 28 September 2026, 16:00:23 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 5.04 | 0.79 | 2026-09-28 | live as of 28 September 2026, 16:00:23 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 5.12 | 0.64 | 2026-09-28 | live as of 28 September 2026, 16:00:23 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 5.21 | 0.85 | 2026-09-28 | live as of 28 September 2026, 16:00:23 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.58 | 0.29 | 2026-09-28 | live as of 28 September 2026, 16:00:23 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.51 | 0.2 | 2026-09-28 | live as of 28 September 2026, 16:00:23 (HKT) |
-| HK50 | Hang Seng Futures | 24650.5 | 0.56 | 2026-09-28 | live as of 28 September 2026, 16:00:23 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.81 | -1.23 | 2026-09-25 | closed |
+| US3YT=X | United States 3-Year Treasury Yield | 4.94 | -1.0 | 2026-09-25 | closed |
+| US5YT=X | United States 5-Year Treasury Yield | 4.98 | -0.99 | 2026-09-25 | closed |
+| US7YT=X | United States 7-Year Treasury Yield | 5.06 | -0.78 | 2026-09-25 | closed |
+| US10YT=X | United States 10-Year Treasury Yield | 5.17 | -0.19 | 2026-09-25 | closed |
+| US20YT=X | United States 20-Year Treasury Yield | 5.54 | 0.18 | 2026-09-25 | closed |
+| US30YT=X | United States 30-Year Treasury Yield | 5.49 | 0.37 | 2026-09-25 | closed |
+| HK50 | Hang Seng Futures | 24683.5 | 0.69 | 2026-09-28 | closed |
 | KOR200c1 | KOSPI 200 Futures | 7080.92 | 1.04 | 2026-09-23 | closed |
 | CIHc1 | SSE 50 Futures | 3888.37 | -1.22 | 2026-09-24 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.86 | -0.04 | 2026-09-25 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 79.32 | -0.13 | 2026-09-25 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 90.0 | 0.35 | 2026-09-25 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.21 | 0.15 | 2026-09-25 | closed |
-| GC=F | Gold Future | 4187.9 | -3.08 | 2026-09-28 | live as of 28 September 2026, 16:00:23 (HKT) |
-| SI=F | Silver Future | 61.48 | -4.31 | 2026-09-28 | live as of 28 September 2026, 16:00:23 (HKT) |
-| CL=F | WTI Crude Oil Future | 94.41 | 2.16 | 2026-09-28 | live as of 28 September 2026, 16:00:23 (HKT) |
-| HG=F | Copper Future | 6.61 | -1.31 | 2026-09-28 | live as of 28 September 2026, 16:00:23 (HKT) |
+| GC=F | Gold Future | 4181.9 | -3.22 | 2026-09-28 | live as of 28 September 2026, 17:00:22 (HKT) |
+| SI=F | Silver Future | 61.53 | -4.23 | 2026-09-28 | live as of 28 September 2026, 17:00:22 (HKT) |
+| CL=F | WTI Crude Oil Future | 95.51 | 3.35 | 2026-09-28 | live as of 28 September 2026, 17:00:22 (HKT) |
+| HG=F | Copper Future | 6.61 | -1.22 | 2026-09-28 | live as of 28 September 2026, 17:00:22 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=16.21 pct_chg=9.01
+- VIX close=16.24 pct_chg=9.21
 
 ## News Analytics
 
@@ -342,15 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Stock futures slip after winning week on Wall Street: Live updates**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. A ‘death cross’ is coming for the dollar. Why Trump will be happy.**
+**2. A ‘death cross’ is coming for the dollar. Why Trump will be happy.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -358,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Look closer, and Wall Street’s rally is showing cracks**
+**3. Look closer, and Wall Street’s rally is showing cracks**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Why the upcoming jobs report could send 10-year and 30-year Treasury yields surging**
+**4. Why the upcoming jobs report could send 10-year and 30-year Treasury yields surging**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,15 +366,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Trump-Xi summit analysis: 'Tangible outcomes' needed for U.S.-China truce to hold**
+**5. Stock futures slip after winning week on Wall Street: Live updates**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: D.C, U.S
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
 - Score: `20.19`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Here are the 4 big things we're watching in the stock market in the week ahead**
+**6. Here are the 4 big things we're watching in the stock market in the week ahead**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. ‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?**
+**7. ‘It doesn’t seem fair’: I’m retired and have plenty of money. Why can’t I qualify for a retail credit card?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -398,12 +390,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**9. Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth**
+**8. Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: P, S
 - Score: `18.06`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**9. Trump-Xi summit analysis: 'Tangible outcomes' needed for U.S.-China truce to hold**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: D.C, U.S
+- Score: `17.16`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 **10. China weighs allowing ByteDance, Alibaba to buy new Nvidia chips, The Information reports**
@@ -506,11 +506,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `25`
+- Live macro rows used: `16`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 28 September 2026, 16:06:31 (HKT)
+- Report generated at: 28 September 2026, 17:05:07 (HKT)
