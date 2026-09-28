@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 28 September 2026, 14:06:10 (HKT)
+Generated at: 28 September 2026, 15:05:13 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **59.73 / 100** (Mild Risk-On)
+- Regime score: **60.28 / 100** (Mild Risk-On)
 - US equity strength: **69.53 / 100** (constructive)
 - Evidence quality: **72.5 / 100**
 - ETF flow contribution: **48.94 / 100**, reliability **71.16 / 100**
@@ -17,19 +17,19 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 59.73 | Mild Risk-On |
+| Overall regime | 60.28 | Mild Risk-On |
 | equity_trend | 83.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.75 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 50.56 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.13 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 42.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 54.21 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 51.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.25 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=83.75, volatility=80.0 |
-| Negative contributors |  | commodity_confirmation=42.0 |
+| Negative contributors |  | none |
 
 ## US Equity Strength Score
 
@@ -49,7 +49,7 @@ Window: 24h
 
 - Confidence score: `72.5`
 - Agreement ratio: `0.3`
-- Contradiction count: `1`
+- Contradiction count: `0`
 - Missing indicators: none
 - Warning flags: none
 
@@ -86,9 +86,9 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US10YT=X | United States 10-Year Treasury Yield | 5.17 | -0.19 | 2026-09-25 | closed |
 | US20YT=X | United States 20-Year Treasury Yield | 5.54 | 0.18 | 2026-09-25 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.49 | 0.37 | 2026-09-25 | closed |
-| HK50 | Hang Seng Futures | 24646.64 | 0.56 | 2026-09-28 | live as of 28 September 2026, 14:00:22 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 6913.37 | -2.37 | 2026-09-28 | live as of 28 September 2026, 14:00:22 (HKT) |
-| CIHc1 | SSE 50 Futures | 3813.2 | -1.93 | 2026-09-28 | live as of 28 September 2026, 14:00:22 (HKT) |
+| HK50 | Hang Seng Futures | 24677.5 | 0.67 | 2026-09-28 | live as of 28 September 2026, 15:00:22 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 7080.92 | 1.04 | 2026-09-23 | closed |
+| CIHc1 | SSE 50 Futures | 3888.37 | -1.22 | 2026-09-24 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.86 | -0.04 | 2026-09-25 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 103.21 | 0.06 | 2026-09-25 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 93.61 | -0.07 | 2026-09-25 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 79.32 | -0.13 | 2026-09-25 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 90.0 | 0.35 | 2026-09-25 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.21 | 0.15 | 2026-09-25 | closed |
-| GC=F | Gold Future | 4214.0 | -2.48 | 2026-09-28 | live as of 28 September 2026, 14:00:22 (HKT) |
-| SI=F | Silver Future | 62.05 | -3.42 | 2026-09-28 | live as of 28 September 2026, 14:00:22 (HKT) |
-| CL=F | WTI Crude Oil Future | 94.29 | 2.03 | 2026-09-28 | live as of 28 September 2026, 14:00:22 (HKT) |
-| HG=F | Copper Future | 6.66 | -0.5 | 2026-09-28 | live as of 28 September 2026, 14:00:22 (HKT) |
+| GC=F | Gold Future | 4206.4 | -2.66 | 2026-09-28 | live as of 28 September 2026, 15:00:22 (HKT) |
+| SI=F | Silver Future | 61.95 | -3.57 | 2026-09-28 | live as of 28 September 2026, 15:00:22 (HKT) |
+| CL=F | WTI Crude Oil Future | 93.68 | 1.37 | 2026-09-28 | live as of 28 September 2026, 15:00:22 (HKT) |
+| HG=F | Copper Future | 6.67 | -0.41 | 2026-09-28 | live as of 28 September 2026, 15:00:22 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -334,7 +334,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Oil gains over 1% as Trump rejects Iranian proposal to reopen Hormuz Strait**
+**1. Brent crude tops $107 as Trump rejects Iranian proposal to reopen Hormuz Strait**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -506,11 +506,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `21`
+- Live macro rows used: `17`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 28 September 2026, 14:06:10 (HKT)
+- Report generated at: 28 September 2026, 15:05:13 (HKT)
