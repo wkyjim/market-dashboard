@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 29 September 2026, 08:19:24 (HKT)
+Generated at: 29 September 2026, 08:42:34 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -8,7 +8,7 @@ Window: 24h
 - Regime score: **55.55 / 100** (Mild Risk-On)
 - US equity strength: **68.81 / 100** (constructive)
 - Evidence quality: **69.0 / 100**
-- ETF flow contribution: **50.39 / 100**, reliability **65.86 / 100**
+- ETF flow contribution: **50.31 / 100**, reliability **65.78 / 100**
 - Breadth: **narrow**; above 50DMA `46.67%`, above 200DMA `63.33%`
 - Top sector score: **Semiconductors** `68.37`
 - Top theme score: **Crypto Infrastructure** `68.3`
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 53.88 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 50.25 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 50.21 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=83.75 |
 | Negative contributors |  | volatility=35.0 |
@@ -87,7 +87,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US20YT=X | United States 20-Year Treasury Yield | 5.6 | 1.08 | 2026-09-28 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.56 | 1.27 | 2026-09-28 | closed |
 | HK50 | Hang Seng Futures | 24683.5 | 0.69 | 2026-09-28 | closed |
-| KOR200c1 | KOSPI 200 Futures | 6889.74 | -2.7 | 2026-09-28 | closed |
+| KOR200c1 | KOSPI 200 Futures | 6878.31 | -2.86 | 2026-09-29 | live as of 29 September 2026, 08:30:21 (HKT) |
 | CIHc1 | SSE 50 Futures | 3823.62 | -1.67 | 2026-09-28 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.54 | -0.41 | 2026-09-28 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 102.47 | -0.72 | 2026-09-28 | closed |
@@ -269,8 +269,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 6 | Healthcare Innovation | 58.07 | Positive setup | 68.79 | 65.0 | 4.71 | False | False |
 | 7 | Energy | 57.78 | Positive setup | 41.5 | 65.0 | 4.63 | False | False |
 | 8 | Grid Infrastructure | 46.36 | Neutral / watchlist | 50.0 | 0.0 | 15.25 | False | False |
-| 9 | Dividend Defensives | 42.42 | Neutral / watchlist | 58.35 | 65.0 | 8.2 | False | False |
-| 10 | Small Caps | 41.78 | Neutral / watchlist | 49.26 | 65.0 | 0.0 | False | False |
+| 9 | Small Caps | 42.87 | Neutral / watchlist | 60.16 | 65.0 | 0.0 | False | False |
+| 10 | Dividend Defensives | 42.42 | Neutral / watchlist | 58.35 | 65.0 | 8.2 | False | False |
 | 11 | Financials | 36.91 | Weak setup | 32.28 | 65.0 | 5.5 | False | False |
 | 12 | Defense | 31.7 | Weak setup | 50.0 | 0.0 | 10.88 | False | False |
 | 13 | Nuclear | 28.56 | Weak setup | 50.0 | 0.0 | 13.75 | False | False |
@@ -296,7 +296,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Consumer Staples | Dividend Defensives | 36.23 | weak | 42.42 | weak | broad weakness across sector and themes |
 | Real Estate | Dividend Defensives | 35.17 | weak | 42.42 | weak | broad weakness across sector and themes |
 | Defense | Defense | 34.12 | very weak | 31.7 | very weak | broad weakness across sector and themes |
-| Consumer Discretionary | Small Caps | 33.49 | very weak | 41.78 | weak | broad weakness across sector and themes |
+| Consumer Discretionary | Small Caps | 33.49 | very weak | 42.87 | weak | broad weakness across sector and themes |
 | Nuclear | Nuclear | 32.32 | very weak | 28.56 | very weak | broad weakness across sector and themes |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 32.25 | very weak | 39.11 | weak | broad weakness across sector and themes |
 
@@ -432,14 +432,14 @@ Positioning and flow data is used as confirmation only.
 ## ETF Flows Analysis
 
 - Market flow regime: `Mixed / Neutral`
-- Market flow score: `47.7 / 100`
-- Equity risk flow: `46.6`
+- Market flow score: `49.8 / 100`
+- Equity risk flow: `50.2`
 - Credit risk flow: `39.4`
 - Sector cyclicality flow: `50.4`
-- Duration/liquidity flow: `49.4`
+- Duration/liquidity flow: `55.1`
 - Alternatives: `barbell demand`
-- ETF flow reliability: `65.9 / 100`
-- Dominant allocation direction: `mixed allocation`
+- ETF flow reliability: `65.8 / 100`
+- Dominant allocation direction: `defensive demand`
 
 ### Core Flow Signals
 
@@ -450,13 +450,13 @@ Positioning and flow data is used as confirmation only.
 | EFA | Developed Markets ex-U.S. | -0.1 | -1.5 | 0.0 | 3.1 | Down | Neutral | High | Heavy Selling Pressure | Cautious | Mixed or neutral flow structure; Persistent selling | 77.0 |
 | IEMG | Emerging Markets | -0.2 | 0.3 | 0.1 | -0.2 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Persistent selling | 83.0 |
 | IJH | U.S. Mid Cap | 0.8 | 2.2 | 0.8 | 2.6 | Down | Neutral | High | Heavy Selling Pressure | Cautious | Structural accumulation; Exceptional institutional buying, Strong sponsorship | 100.0 |
-| IWM | U.S. Small Cap | 0.3 | 0.7 | 0.4 | 0.4 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural distribution | 79.0 |
+| IWM | U.S. Small Cap | 0.7 | 1.0 | 0.4 | 0.9 | Down | Buy | Normal | Contrarian Buying | Watch | Medium-term recovery; Exceptional institutional buying | 95.0 |
 | LQD | Investment-Grade Credit | -1.7 | -2.3 | 0.4 | 2.3 | Down | Sell | High | Confirmed Distribution | Strong Risk-Off | Strong confirmation; Exceptional institutional selling | 87.0 |
 | HYG | High-Yield Credit | 0.3 | -1.0 | 0.5 | 4.4 | Down | Buy | High | Aggressive Dip Buying | Recovery Candidate | Medium-term recovery | 87.0 |
 | SGOV | Treasury Bills / Cash | 0.2 | 0.3 | 0.9 | 0.1 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 99.0 |
-| SHY | Short-Duration Treasuries | 0.6 | 0.6 | 0.5 | -0.3 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural accumulation | 91.0 |
+| SHY | Short-Duration Treasuries | 0.5 | 0.4 | 0.5 | 3.0 | Flat | Neutral | High | High-Turnover Consolidation | Transition | Structural accumulation | 91.0 |
 | IEF | Intermediate-Duration Treasuries | 0.6 | -1.2 | 0.8 | 0.5 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term recovery; Strong sponsorship | 95.0 |
-| TLT | Long-Duration Treasuries | 0.1 | 1.9 | 0.5 | 2.1 | Down | Neutral | High | Heavy Selling Pressure | Cautious | Structural accumulation | 91.0 |
+| TLT | Long-Duration Treasuries | 0.4 | 2.0 | 0.5 | 2.0 | Down | Neutral | High | Heavy Selling Pressure | Cautious | Structural accumulation | 91.0 |
 | GLD | Gold | 0.8 | 2.6 | 0.5 | 1.2 | Down | Neutral | High | Heavy Selling Pressure | Cautious | Structural accumulation; Exceptional institutional buying | 99.0 |
 | IBIT | Bitcoin | 0.7 | 2.1 | 0.7 | -0.5 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural accumulation; Exceptional institutional buying | 99.0 |
 
@@ -492,6 +492,7 @@ Positioning and flow data is used as confirmation only.
 | high | close_substitute_divergence | GLD | IAU | primary representative differs from close substitute |
 | high | close_substitute_divergence | AGG | IUSB | primary representative differs from close substitute |
 | high | close_substitute_divergence | IWD | IVE | primary representative differs from close substitute |
+| high | close_substitute_divergence | IWM | IJR | primary representative differs from close substitute |
 
 
 ## Contradiction / Audit Flags
@@ -503,11 +504,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `4`
+- Live macro rows used: `7`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 29 September 2026, 08:19:24 (HKT)
+- Report generated at: 29 September 2026, 08:42:34 (HKT)
