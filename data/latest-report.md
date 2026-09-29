@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 29 September 2026, 08:42:34 (HKT)
+Generated at: 29 September 2026, 09:11:16 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -87,7 +87,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US20YT=X | United States 20-Year Treasury Yield | 5.6 | 1.08 | 2026-09-28 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.56 | 1.27 | 2026-09-28 | closed |
 | HK50 | Hang Seng Futures | 24683.5 | 0.69 | 2026-09-28 | closed |
-| KOR200c1 | KOSPI 200 Futures | 6878.31 | -2.86 | 2026-09-29 | live as of 29 September 2026, 08:30:21 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 6882.8 | -2.8 | 2026-09-29 | live as of 29 September 2026, 09:00:22 (HKT) |
 | CIHc1 | SSE 50 Futures | 3823.62 | -1.67 | 2026-09-28 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.54 | -0.41 | 2026-09-28 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 102.47 | -0.72 | 2026-09-28 | closed |
@@ -334,7 +334,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. U.S., China agree to $60 billion in tariff cuts. But rare earths remain a snag.**
+**1. Stock futures are little changed after higher yields lead to losing session: Live updates**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Tuesday's big stock stories: What’s likely to move the market in the next trading session**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. U.S., China agree to $60 billion in tariff cuts. But rare earths remain a snag.**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -342,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Treasury yields rise as march to multiyear highs continues**
+**4. Treasury yields rise as march to multiyear highs continues**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -350,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Dow slides more than 300 points to start week as Treasury yields pressure stocks**
+**5. Dow slides more than 300 points to start week as Treasury yields pressure stocks**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -358,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Dow, S&P 500 and Nasdaq close lower as Treasury yields keep climbing**
+**6. Dow, S&P 500 and Nasdaq close lower as Treasury yields keep climbing**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -366,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Oil prices off highs after reports Saudi pipeline ramping back up**
+**7. Oil prices off highs after reports Saudi pipeline ramping back up**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,15 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. U.S. stocks down in final hour as 10-year Treasury yield climbs above 5.2%**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. The U.S. and China agree to $60 billion in tariff cuts on products like dolls and fireworks. Rare earths remain a sticking point.**
+**8. The U.S. and China agree to $60 billion in tariff cuts on products like dolls and fireworks. Rare earths remain a sticking point.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -390,34 +398,26 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Taking Ozempic? A routine eye exam could help you understand your risk for vision loss.**
-- Source: MarketWatch Top Stories
+**9. AMD briefly joined the $1 trillion club. Cramer says its monster run isn’t over**
+- Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
-- Affected assets: A, GLP
-- Score: `18.06`
+- Affected assets: AMD, CNBC
+- Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**9. Micron could dethrone Nvidia and become the biggest driver of S&P 500 profit growth**
-- Source: MarketWatch Top Stories
+**10. U.S. stocks down in final hour as 10-year Treasury yield climbs above 5.2%**
+- Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: P, S
-- Score: `18.06`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**10. A pullback is brewing, say these strategists who have examined every drawdown since 1956**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: A, RBC
-- Score: `18.06`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S
+- Score: `20.19`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
 
-Noisy headline list: A relief rally could be coming soon for these stoc, Micron has a chance to set the record straight wit, Muse AI agent led Meta Platforms into the Best Sto
+Noisy headline list: A relief rally could be coming soon for these stoc, Micron has a chance to set the record straight wit
 
 ## Positioning & Flow Dashboard
 
@@ -511,4 +511,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 29 September 2026, 08:42:34 (HKT)
+- Report generated at: 29 September 2026, 09:11:16 (HKT)
