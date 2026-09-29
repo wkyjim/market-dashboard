@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 29 September 2026, 21:00:21 (HKT)
+Generated at: 29 September 2026, 21:06:21 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **60.63 / 100** (Mild Risk-On)
+- Regime score: **60.64 / 100** (Mild Risk-On)
 - US equity strength: **68.81 / 100** (constructive)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **49.8 / 100**, reliability **71.16 / 100**
@@ -17,14 +17,14 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 60.63 | Mild Risk-On |
+| Overall regime | 60.64 | Mild Risk-On |
 | equity_trend | 83.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.5 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 50.56 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.28 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.3 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 56.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.86 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
@@ -76,7 +76,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7683.69 | -0.77 | 2026-09-28 | closed |
 | ^IXIC | NASDAQ Composite | 26820.38 | -0.92 | 2026-09-28 | closed |
 | ^RUT | Russell 2000 Index | 2817.91 | -0.69 | 2026-09-28 | closed |
-| ^VIX | CBOE Volatility Index | 15.86 | -1.31 | 2026-09-29 | live as of 29 September 2026, 20:57:22 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.86 | -1.31 | 2026-09-29 | live as of 29 September 2026, 21:00:45 (HKT) |
 | ^SKEW | CBOE SKEW Index | 146.25 | 0.92 | 2026-09-28 | closed |
 | ^MOVE | ICE BofA MOVE Index | 101.82 | 6.06 | 2026-09-28 | closed |
 | US2YT=X | United States 2-Year Treasury Yield | 4.92 | 2.29 | 2026-09-28 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 78.62 | -0.88 | 2026-09-28 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 89.53 | -0.52 | 2026-09-28 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.11 | -0.12 | 2026-09-28 | closed |
-| GC=F | Gold Future | 4184.4 | 0.38 | 2026-09-29 | live as of 29 September 2026, 20:57:22 (HKT) |
-| SI=F | Silver Future | 61.08 | -0.23 | 2026-09-29 | live as of 29 September 2026, 20:57:22 (HKT) |
-| CL=F | WTI Crude Oil Future | 90.66 | -2.1 | 2026-09-29 | live as of 29 September 2026, 20:57:22 (HKT) |
-| HG=F | Copper Future | 6.61 | 0.71 | 2026-09-29 | live as of 29 September 2026, 20:57:22 (HKT) |
+| GC=F | Gold Future | 4186.6 | 0.44 | 2026-09-29 | live as of 29 September 2026, 21:00:45 (HKT) |
+| SI=F | Silver Future | 61.13 | -0.15 | 2026-09-29 | live as of 29 September 2026, 21:00:45 (HKT) |
+| CL=F | WTI Crude Oil Future | 90.49 | -2.28 | 2026-09-29 | live as of 29 September 2026, 21:00:45 (HKT) |
+| HG=F | Copper Future | 6.61 | 0.73 | 2026-09-29 | live as of 29 September 2026, 21:00:45 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -513,16 +513,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Cycle ID: 20260929_2057_HKT
-- Report generated at: 29 September 2026, 21:00:21 (HKT)
-- Data refresh completed at: 2026-09-29T21:00:20+08:00
-- Equity data through: unknown
-- Rates data through: unknown
-- FX data through: unknown
-- Macro-market data through: unknown
-- Economic releases through: unknown (natural cadence: latest official release)
-- ETF flow data through: unknown (refreshed inside macro branch)
-- FINRA data through: unknown (natural cadence: bi-weekly settlement)
-- News data through: unknown
-- Asia futures data through: unknown (Investing.com primary; yfinance cash-index proxy fallback active)
-- Degraded sources: none
+- Report generated at: 29 September 2026, 21:06:21 (HKT)
