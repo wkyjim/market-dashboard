@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 29 September 2026, 20:51:59 (HKT)
+Generated at: 29 September 2026, 21:00:21 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -24,7 +24,7 @@ Window: 24h
 | volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.25 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.28 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 56.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.86 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
@@ -76,7 +76,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7683.69 | -0.77 | 2026-09-28 | closed |
 | ^IXIC | NASDAQ Composite | 26820.38 | -0.92 | 2026-09-28 | closed |
 | ^RUT | Russell 2000 Index | 2817.91 | -0.69 | 2026-09-28 | closed |
-| ^VIX | CBOE Volatility Index | 15.84 | -1.43 | 2026-09-29 | live as of 29 September 2026, 20:48:30 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.86 | -1.31 | 2026-09-29 | live as of 29 September 2026, 20:57:22 (HKT) |
 | ^SKEW | CBOE SKEW Index | 146.25 | 0.92 | 2026-09-28 | closed |
 | ^MOVE | ICE BofA MOVE Index | 101.82 | 6.06 | 2026-09-28 | closed |
 | US2YT=X | United States 2-Year Treasury Yield | 4.92 | 2.29 | 2026-09-28 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 78.62 | -0.88 | 2026-09-28 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 89.53 | -0.52 | 2026-09-28 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.11 | -0.12 | 2026-09-28 | closed |
-| GC=F | Gold Future | 4187.5 | 0.46 | 2026-09-29 | live as of 29 September 2026, 20:48:30 (HKT) |
-| SI=F | Silver Future | 61.11 | -0.18 | 2026-09-29 | live as of 29 September 2026, 20:48:30 (HKT) |
-| CL=F | WTI Crude Oil Future | 90.42 | -2.35 | 2026-09-29 | live as of 29 September 2026, 20:48:30 (HKT) |
-| HG=F | Copper Future | 6.61 | 0.69 | 2026-09-29 | live as of 29 September 2026, 20:48:30 (HKT) |
+| GC=F | Gold Future | 4184.4 | 0.38 | 2026-09-29 | live as of 29 September 2026, 20:57:22 (HKT) |
+| SI=F | Silver Future | 61.08 | -0.23 | 2026-09-29 | live as of 29 September 2026, 20:57:22 (HKT) |
+| CL=F | WTI Crude Oil Future | 90.66 | -2.1 | 2026-09-29 | live as of 29 September 2026, 20:57:22 (HKT) |
+| HG=F | Copper Future | 6.61 | 0.71 | 2026-09-29 | live as of 29 September 2026, 20:57:22 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.84 pct_chg=-1.43
+- VIX close=15.86 pct_chg=-1.31
 
 ## News Analytics
 
@@ -334,27 +334,27 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Stock futures move higher as oil and rates ease, tech shares gain: Live updates**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. IRS sends notices on Saver's Match to taxpayers who might qualify for new benefit, worth up to $2,000**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: IRS
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. Treasury yields ease from multiyear highs**
+**1. Treasury yields ease from multiyear highs**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Stock futures move higher as oil and rates ease, tech shares gain: Live updates**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. IRS sends notices on Saver's Match to taxpayers who might qualify for new benefit, worth up to $2,000**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: IRS
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
@@ -513,9 +513,9 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Cycle ID: 20260929_2048_HKT
-- Report generated at: 29 September 2026, 20:51:59 (HKT)
-- Data refresh completed at: 2026-09-29T20:51:57+08:00
+- Cycle ID: 20260929_2057_HKT
+- Report generated at: 29 September 2026, 21:00:21 (HKT)
+- Data refresh completed at: 2026-09-29T21:00:20+08:00
 - Equity data through: unknown
 - Rates data through: unknown
 - FX data through: unknown
