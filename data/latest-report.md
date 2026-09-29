@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 29 September 2026, 11:11:39 (HKT)
+Generated at: 29 September 2026, 12:12:26 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,14 +79,14 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 16.07 | 8.07 | 2026-09-28 | closed |
 | ^SKEW | CBOE SKEW Index | 146.25 | 0.92 | 2026-09-28 | closed |
 | ^MOVE | ICE BofA MOVE Index | 101.82 | 6.06 | 2026-09-28 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.92 | 2.29 | 2026-09-28 | closed |
-| US3YT=X | United States 3-Year Treasury Yield | 5.01 | 1.42 | 2026-09-28 | closed |
-| US5YT=X | United States 5-Year Treasury Yield | 5.06 | 1.61 | 2026-09-28 | closed |
-| US7YT=X | United States 7-Year Treasury Yield | 5.15 | 1.78 | 2026-09-28 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 5.24 | 1.35 | 2026-09-28 | closed |
-| US20YT=X | United States 20-Year Treasury Yield | 5.6 | 1.08 | 2026-09-28 | closed |
-| US30YT=X | United States 30-Year Treasury Yield | 5.56 | 1.27 | 2026-09-28 | closed |
-| HK50 | Hang Seng Futures | 24478.0 | -0.8 | 2026-09-29 | live as of 29 September 2026, 11:00:21 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.94 | 0.39 | 2026-09-29 | live as of 29 September 2026, 12:00:23 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 5.03 | 0.37 | 2026-09-29 | live as of 29 September 2026, 12:00:23 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 5.09 | 0.31 | 2026-09-29 | live as of 29 September 2026, 12:00:23 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 5.17 | 0.29 | 2026-09-29 | live as of 29 September 2026, 12:00:23 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 5.26 | 0.53 | 2026-09-29 | live as of 29 September 2026, 12:00:23 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.62 | 0.08 | 2026-09-29 | live as of 29 September 2026, 12:00:23 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.56 | 0.03 | 2026-09-29 | live as of 29 September 2026, 12:00:23 (HKT) |
+| HK50 | Hang Seng Futures | 24439.5 | -0.95 | 2026-09-29 | live as of 29 September 2026, 12:00:23 (HKT) |
 | KOR200c1 | KOSPI 200 Futures | 6889.74 | -2.7 | 2026-09-28 | closed |
 | CIHc1 | SSE 50 Futures | 3823.62 | -1.67 | 2026-09-28 | closed |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.54 | -0.41 | 2026-09-28 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.11 | -0.12 | 2026-09-28 | closed |
 | GC=F | Gold Future | 4148.5 | -4.0 | 2026-09-28 | closed |
 | SI=F | Silver Future | 61.03 | -5.0 | 2026-09-28 | closed |
-| CL=F | WTI Crude Oil Future | 93.77 | 0.63 | 2026-09-29 | live as of 29 September 2026, 11:00:21 (HKT) |
+| CL=F | WTI Crude Oil Future | 94.06 | 0.94 | 2026-09-29 | live as of 29 September 2026, 12:00:23 (HKT) |
 | HG=F | Copper Future | 6.61 | -1.31 | 2026-09-28 | closed |
 
 ## Market Dispersion Analysis
@@ -334,7 +334,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Stock futures are little changed after higher yields lead to losing session: Live updates**
+**1. Oil extends gains as Middle East supply concerns persist**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Stock futures are little changed after higher yields lead to losing session: Live updates**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -342,19 +350,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Tuesday's big stock stories: What’s likely to move the market in the next trading session**
+**3. Tuesday's big stock stories: What’s likely to move the market in the next trading session**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. U.S., China agree to $60 billion in tariff cuts. But rare earths remain a snag.**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
@@ -366,7 +366,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. AMD briefly joined the $1 trillion club. Cramer says its monster run isn’t over**
+**5. Anthropic leaders to control AI lab to promote public good over market forces: Reuters**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: IPO, LLC
+- Score: `20.19`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**6. AMD briefly joined the $1 trillion club. Cramer says its monster run isn’t over**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -374,43 +382,35 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**6. Treasury yields rise as march to multiyear highs continues**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Dow slides more than 300 points to start week as Treasury yields pressure stocks**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. Dow, S&P 500 and Nasdaq close lower as Treasury yields keep climbing**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: P, S
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Oil prices off highs after reports Saudi pipeline ramping back up**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. U.S. stocks down in final hour as 10-year Treasury yield climbs above 5.2%**
+**7. U.S., China agree to $60 billion in tariff cuts. But rare earths remain a snag.**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S
+- Score: `20.19`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. Treasury yields rise as march to multiyear highs continues**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `20.19`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. Dow slides more than 300 points to start week as Treasury yields pressure stocks**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `20.19`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Dow, S&P 500 and Nasdaq close lower as Treasury yields keep climbing**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: P, S
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
@@ -505,11 +505,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `9`
+- Live macro rows used: `17`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 29 September 2026, 11:11:39 (HKT)
+- Report generated at: 29 September 2026, 12:12:26 (HKT)
