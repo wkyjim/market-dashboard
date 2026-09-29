@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 29 September 2026, 20:05:34 (HKT)
+Generated at: 29 September 2026, 20:28:04 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **60.77 / 100** (Mild Risk-On)
+- Regime score: **60.78 / 100** (Mild Risk-On)
 - US equity strength: **68.81 / 100** (constructive)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **49.8 / 100**, reliability **71.16 / 100**
@@ -17,14 +17,14 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 60.77 | Mild Risk-On |
+| Overall regime | 60.78 | Mild Risk-On |
 | equity_trend | 83.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.5 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 50.56 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.56 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.66 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.86 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
@@ -62,7 +62,7 @@ Window: 24h
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG falling | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
-| Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
+| Silver | Silver stable | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
@@ -76,7 +76,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7683.69 | -0.77 | 2026-09-28 | closed |
 | ^IXIC | NASDAQ Composite | 26820.38 | -0.92 | 2026-09-28 | closed |
 | ^RUT | Russell 2000 Index | 2817.91 | -0.69 | 2026-09-28 | closed |
-| ^VIX | CBOE Volatility Index | 15.9 | -1.06 | 2026-09-29 | live as of 29 September 2026, 20:00:20 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.77 | -1.87 | 2026-09-29 | live as of 29 September 2026, 20:25:04 (HKT) |
 | ^SKEW | CBOE SKEW Index | 146.25 | 0.92 | 2026-09-28 | closed |
 | ^MOVE | ICE BofA MOVE Index | 101.82 | 6.06 | 2026-09-28 | closed |
 | US2YT=X | United States 2-Year Treasury Yield | 4.92 | 2.29 | 2026-09-28 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 78.62 | -0.88 | 2026-09-28 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 89.53 | -0.52 | 2026-09-28 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.11 | -0.12 | 2026-09-28 | closed |
-| GC=F | Gold Future | 4190.0 | 0.52 | 2026-09-29 | live as of 29 September 2026, 20:00:20 (HKT) |
-| SI=F | Silver Future | 61.4 | 0.29 | 2026-09-29 | live as of 29 September 2026, 20:00:20 (HKT) |
-| CL=F | WTI Crude Oil Future | 91.19 | -1.52 | 2026-09-29 | live as of 29 September 2026, 20:00:20 (HKT) |
-| HG=F | Copper Future | 6.64 | 1.11 | 2026-09-29 | live as of 29 September 2026, 20:00:20 (HKT) |
+| GC=F | Gold Future | 4185.2 | 0.4 | 2026-09-29 | live as of 29 September 2026, 20:25:04 (HKT) |
+| SI=F | Silver Future | 61.2 | -0.04 | 2026-09-29 | live as of 29 September 2026, 20:25:04 (HKT) |
+| CL=F | WTI Crude Oil Future | 90.83 | -1.91 | 2026-09-29 | live as of 29 September 2026, 20:25:04 (HKT) |
+| HG=F | Copper Future | 6.62 | 0.9 | 2026-09-29 | live as of 29 September 2026, 20:25:04 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.9 pct_chg=-1.06
+- VIX close=15.77 pct_chg=-1.87
 
 ## News Analytics
 
@@ -334,7 +334,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Stock futures mixed after higher yields lead to losing session: Live updates**
+**1. Stock futures punch back into green after higher yields lead to losing session: Live updates**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -342,7 +342,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Treasury yields ease as inflation concerns persist**
+**2. IRS sends notices on Saver's Match to taxpayers who might qualify for new benefit, worth up to $2,000**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: IRS
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Treasury yields ease from multiyear highs**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -350,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Forget relying on long-dated Treasurys for protection, strategist says. 4 alternatives he likes**
+**4. Forget relying on long-dated Treasurys for protection, strategist says. 4 alternatives he likes**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -358,7 +366,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Here’s where TSMC is reportedly eyeing a second U.S. site for a chip-making hub**
+**5. Morgan Stanley’s Mike Wilson says an S&P 500 correction may be exactly what the market needs**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: P, S, U.S
+- Score: `21.25`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**6. Here’s where TSMC is reportedly eyeing a second U.S. site for a chip-making hub**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -366,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**5. The U.S. and China agree to $60 billion in tariff cuts on products like dolls and fireworks. Rare earths remain a sticking point.**
+**7. The U.S. and China agree to $60 billion in tariff cuts on products like dolls and fireworks. Rare earths remain a sticking point.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,44 +390,28 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. CNBC Daily Open: AI’s creators sound the alarm — while others keep building the infrastructure**
+**8. OpenAI DevDay live updates: Altman faces safety questions as company unveils new features**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: CNBC, ET
+- Score: `20.19`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**9. Nominate a leader for the 2027 CNBC Changemakers list of women transforming business**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: CNBC, P, S
+- Score: `20.19`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**10. CNBC Daily Open: AI’s creators sound the alarm — while others keep building the infrastructure**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: CAN, CNBC, T
 - Score: `20.19`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**7. Oil extends gains as Middle East supply concerns persist**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. Tuesday's big stock stories: What’s likely to move the market in the next trading session**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. U.S., China agree to $60 billion in tariff cuts. But rare earths remain a snag.**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Taking Ozempic? A routine eye exam could help you understand your risk for vision loss.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: A, GLP
-- Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 
@@ -513,4 +513,16 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 29 September 2026, 20:05:34 (HKT)
+- Cycle ID: 20260929_2024_HKT
+- Report generated at: 29 September 2026, 20:28:04 (HKT)
+- Data refresh completed at: 2026-09-29T20:28:03+08:00
+- Equity data through: unknown
+- Rates data through: unknown
+- FX data through: unknown
+- Macro-market data through: unknown
+- Economic releases through: unknown (natural cadence: latest official release)
+- ETF flow data through: unknown (refreshed inside macro branch)
+- FINRA data through: unknown (natural cadence: bi-weekly settlement)
+- News data through: unknown
+- Asia futures data through: unknown (Investing.com primary; yfinance cash-index proxy fallback active)
+- Degraded sources: none
