@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 1 October 2026, 03:07:59 (HKT)
+Generated at: 1 October 2026, 04:06:30 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **61.04 / 100** (Mild Risk-On)
+- Regime score: **60.03 / 100** (Mild Risk-On)
 - US equity strength: **68.81 / 100** (constructive)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **50.11 / 100**, reliability **70.93 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 61.04 | Mild Risk-On |
+| Overall regime | 60.03 | Mild Risk-On |
 | equity_trend | 83.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.5 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 50.56 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
-| volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
+| volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.6 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.41 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 62.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.08 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=83.75, volatility=80.0, commodity_confirmation=62.0 |
+| Positive contributors |  | equity_trend=83.75, volatility=70.0, commodity_confirmation=62.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -57,7 +57,7 @@ Window: 24h
 
 | Area | Signal | Interpretation |
 | --- | --- | --- |
-| Equities | S&P 500 rising; Nasdaq rising; Russell 2000 stable | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
+| Equities | S&P 500 stable; Nasdaq stable; Russell 2000 stable | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
 | Rates | 10Y Treasury rising; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
@@ -65,7 +65,7 @@ Window: 24h
 | Silver | Silver stable | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
-| Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
+| Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
 
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7694.82 | 0.31 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| ^IXIC | NASDAQ Composite | 27021.3 | 0.83 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| ^RUT | Russell 2000 Index | 2808.22 | 0.01 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| ^VIX | CBOE Volatility Index | 15.96 | -0.5 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
+| ^GSPC | S&P 500 | 7652.03 | -0.25 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| ^IXIC | NASDAQ Composite | 26861.06 | 0.24 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| ^RUT | Russell 2000 Index | 2807.04 | -0.03 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| ^VIX | CBOE Volatility Index | 16.19 | 0.94 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
 | ^SKEW | CBOE SKEW Index | 144.58 | -1.14 | 2026-09-29 | closed |
-| ^MOVE | ICE BofA MOVE Index | 110.41 | 3.57 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| US2YT=X | United States 2-Year Treasury Yield | 4.89 | -0.04 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 5.0 | 0.19 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 5.09 | 0.52 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 5.19 | 0.66 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 5.3 | 0.86 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.69 | 0.74 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.64 | 0.8 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
+| ^MOVE | ICE BofA MOVE Index | 110.52 | 3.68 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.87 | -0.34 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.98 | -0.13 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 5.07 | 0.17 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 5.18 | 0.31 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 5.3 | 0.78 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.67 | 0.37 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.62 | 0.54 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
 | HK50 | Hang Seng Futures | 24613.27 | 0.37 | 2026-09-30 | closed |
 | KOR200c1 | KOSPI 200 Futures | 6838.04 | -0.48 | 2026-09-30 | closed |
 | CIHc1 | SSE 50 Futures | 3842.19 | 0.31 | 2026-09-30 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.24 | -0.16 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 102.09 | -0.31 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 92.81 | -0.11 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 208.75 | -0.36 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 126.06 | 0.61 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 248.95 | -0.01 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 77.66 | -0.73 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 89.21 | -0.27 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.19 | 0.03 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| GC=F | Gold Future | 4182.7 | 0.07 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| SI=F | Silver Future | 60.56 | -0.18 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| CL=F | WTI Crude Oil Future | 90.6 | 1.36 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
-| HG=F | Copper Future | 6.62 | 1.16 | 2026-09-30 | live as of 1 October 2026, 03:00:21 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.22 | -0.17 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 102.22 | -0.18 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 92.77 | -0.16 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 208.06 | -0.69 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 125.33 | 0.02 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 248.01 | -0.39 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 77.84 | -0.5 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 89.31 | -0.16 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.2 | 0.05 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| GC=F | Gold Future | 4185.6 | 0.14 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| SI=F | Silver Future | 60.66 | -0.02 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| CL=F | WTI Crude Oil Future | 90.59 | 1.35 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
+| HG=F | Copper Future | 6.63 | 1.28 | 2026-09-30 | live as of 1 October 2026, 04:00:22 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.96 pct_chg=-0.5
+- VIX close=16.19 pct_chg=0.94
 
 ## News Analytics
 
@@ -382,15 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**7. Major car rivals are teaming up to solve the biggest EV roadblock: Reliable charging**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: A, EV
-- Score: `21.25`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**8. Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements**
+**7. Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. U.S. inflation rises again and keeps the pressure on Fed**
+**8. U.S. inflation rises again and keeps the pressure on Fed**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -406,11 +398,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. He’s been badmouthing Treasury bonds since 2020, but ‘the big fat cushion’ of 5.25% yields is turning this strategist bullish**
+**9. He’s been badmouthing Treasury bonds since 2020, but ‘the big fat cushion’ of 5.25% yields is turning this strategist bullish**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. One group of funds is holding up the stock market. Barclays says oil prices have to fall to drive a year-end rally.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
@@ -513,4 +513,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 01 October 2026, 03:07:59 (HKT)
+- Report generated at: 01 October 2026, 04:06:30 (HKT)
