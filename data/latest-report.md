@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 30 September 2026, 23:06:07 (HKT)
+Generated at: 1 October 2026, 00:06:25 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **61.18 / 100** (Mild Risk-On)
+- Regime score: **60.85 / 100** (Mild Risk-On)
 - US equity strength: **68.81 / 100** (constructive)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **50.11 / 100**, reliability **70.93 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 61.18 | Mild Risk-On |
+| Overall regime | 60.85 | Mild Risk-On |
 | equity_trend | 83.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.5 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 50.56 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.68 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 55.34 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.08 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=83.75, volatility=80.0, commodity_confirmation=63.0 |
+| Positive contributors |  | equity_trend=83.75, volatility=80.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -58,11 +58,11 @@ Window: 24h
 | Area | Signal | Interpretation |
 | --- | --- | --- |
 | Equities | S&P 500 rising; Nasdaq rising; Russell 2000 stable | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
-| Rates | 10Y Treasury stable; MOVE falling | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
+| Rates | 10Y Treasury rising; MOVE stable | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
-| Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
+| Silver | Silver stable | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
@@ -73,12 +73,12 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7712.83 | 0.55 | 2026-09-30 | live as of 30 September 2026, 23:00:29 (HKT) |
-| ^IXIC | NASDAQ Composite | 27051.9 | 0.95 | 2026-09-30 | live as of 30 September 2026, 23:00:29 (HKT) |
-| ^RUT | Russell 2000 Index | 2813.5 | 0.2 | 2026-09-30 | live as of 30 September 2026, 23:00:29 (HKT) |
-| ^VIX | CBOE Volatility Index | 15.91 | -0.81 | 2026-09-30 | live as of 30 September 2026, 23:00:29 (HKT) |
+| ^GSPC | S&P 500 | 7713.98 | 0.56 | 2026-09-30 | live as of 1 October 2026, 00:00:22 (HKT) |
+| ^IXIC | NASDAQ Composite | 27075.06 | 1.04 | 2026-09-30 | live as of 1 October 2026, 00:00:22 (HKT) |
+| ^RUT | Russell 2000 Index | 2813.37 | 0.19 | 2026-09-30 | live as of 1 October 2026, 00:00:22 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.91 | -0.81 | 2026-09-30 | live as of 1 October 2026, 00:00:22 (HKT) |
 | ^SKEW | CBOE SKEW Index | 144.58 | -1.14 | 2026-09-29 | closed |
-| ^MOVE | ICE BofA MOVE Index | 105.4 | -1.13 | 2026-09-30 | live as of 30 September 2026, 23:00:29 (HKT) |
+| ^MOVE | ICE BofA MOVE Index | 106.79 | 0.18 | 2026-09-30 | live as of 1 October 2026, 00:00:22 (HKT) |
 | US2YT=X | United States 2-Year Treasury Yield | 4.89 | -0.61 | 2026-09-29 | closed |
 | US3YT=X | United States 3-Year Treasury Yield | 4.98 | -0.6 | 2026-09-29 | closed |
 | US5YT=X | United States 5-Year Treasury Yield | 5.06 | 0.0 | 2026-09-29 | closed |
@@ -89,19 +89,19 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | HK50 | Hang Seng Futures | 24613.27 | 0.37 | 2026-09-30 | closed |
 | KOR200c1 | KOSPI 200 Futures | 6838.04 | -0.48 | 2026-09-30 | closed |
 | CIHc1 | SSE 50 Futures | 3842.19 | 0.31 | 2026-09-30 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.41 | 0.06 | 2026-09-30 | live as of 30 September 2026, 23:00:29 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 102.28 | -0.13 | 2026-09-30 | live as of 30 September 2026, 23:00:29 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 93.02 | 0.11 | 2026-09-30 | live as of 30 September 2026, 23:00:29 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 209.4 | -0.05 | 2026-09-30 | live as of 30 September 2026, 23:00:29 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 126.17 | 0.7 | 2026-09-30 | live as of 30 September 2026, 23:00:29 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 249.93 | 0.38 | 2026-09-30 | live as of 30 September 2026, 23:00:29 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 77.8 | -0.55 | 2026-09-30 | live as of 30 September 2026, 23:00:29 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 89.36 | -0.1 | 2026-09-30 | live as of 30 September 2026, 23:00:29 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.23 | 0.08 | 2026-09-30 | live as of 30 September 2026, 23:00:29 (HKT) |
-| GC=F | Gold Future | 4204.5 | 0.59 | 2026-09-30 | live as of 30 September 2026, 23:00:29 (HKT) |
-| SI=F | Silver Future | 60.99 | 0.54 | 2026-09-30 | live as of 30 September 2026, 23:00:29 (HKT) |
-| CL=F | WTI Crude Oil Future | 91.66 | 2.55 | 2026-09-30 | live as of 30 September 2026, 23:00:29 (HKT) |
-| HG=F | Copper Future | 6.64 | 1.49 | 2026-09-30 | live as of 30 September 2026, 23:00:29 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.33 | -0.05 | 2026-09-30 | live as of 1 October 2026, 00:00:22 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 102.27 | -0.14 | 2026-09-30 | live as of 1 October 2026, 00:00:22 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 92.9 | -0.01 | 2026-09-30 | live as of 1 October 2026, 00:00:22 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 209.13 | -0.18 | 2026-09-30 | live as of 1 October 2026, 00:00:22 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 126.33 | 0.83 | 2026-09-30 | live as of 1 October 2026, 00:00:22 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 249.71 | 0.29 | 2026-09-30 | live as of 1 October 2026, 00:00:22 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 77.75 | -0.61 | 2026-09-30 | live as of 1 October 2026, 00:00:22 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 89.31 | -0.16 | 2026-09-30 | live as of 1 October 2026, 00:00:22 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.2 | 0.05 | 2026-09-30 | live as of 1 October 2026, 00:00:22 (HKT) |
+| GC=F | Gold Future | 4192.6 | 0.31 | 2026-09-30 | live as of 1 October 2026, 00:00:22 (HKT) |
+| SI=F | Silver Future | 60.74 | 0.13 | 2026-09-30 | live as of 1 October 2026, 00:00:22 (HKT) |
+| CL=F | WTI Crude Oil Future | 91.49 | 2.36 | 2026-09-30 | live as of 1 October 2026, 00:00:22 (HKT) |
+| HG=F | Copper Future | 6.62 | 1.15 | 2026-09-30 | live as of 1 October 2026, 00:00:22 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -334,27 +334,27 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. U.S. inflation rises again and keeps the pressure on Fed**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S
-- Score: `25.0`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. He’s been badmouthing Treasury bonds since 2020, but ‘the big fat cushion’ of 5.25% yields is turning this strategist bullish**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S
-- Score: `25.0`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. One group of funds is holding up the stock market. Barclays says oil prices have to fall to drive a year-end rally.**
-- Source: MarketWatch Top Stories
+**1. Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements**
+- Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
+- Score: `25.0`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. U.S. inflation rises again and keeps the pressure on Fed**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S
+- Score: `25.0`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. He’s been badmouthing Treasury bonds since 2020, but ‘the big fat cushion’ of 5.25% yields is turning this strategist bullish**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S
 - Score: `25.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
@@ -382,7 +382,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. ‘I’m afraid of human stupidity’: Why this top economist prefers U.S. tech and gold over bonds**
+**7. The 15 worst-performing S&P 500 stocks during a dismal September**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: P, S
+- Score: `21.25`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**8. Major car rivals are teaming up to solve the biggest EV roadblock: Reliable charging**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: A, EV
+- Score: `21.25`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**9. ‘I’m afraid of human stupidity’: Why this top economist prefers U.S. tech and gold over bonds**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -390,7 +406,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**8. I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?**
+**10. I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -398,26 +414,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**9. Traders expecting a back-to-back rate hike from the Fed in October may have gotten ahead of themselves**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Stock futures inch higher as traders weather latest rise in Treasury yields: Live updates**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
 
 ### Headline Quality Checks
 
-Noisy headline list: Meta is pitching a bold new identity — and the pay, Tennis star Jessica Pegula says helping her family, Micron earnings hit Wall Street after the bell. He, Could SpaceX be worth $12 trillion one day? Citi s
+Noisy headline list: Meta is pitching a bold new identity — and the pay, Micron earnings hit Wall Street after the bell. He, Tennis star Jessica Pegula says helping her family, Could SpaceX be worth $12 trillion one day? Citi s
 
 ## Positioning & Flow Dashboard
 
@@ -513,4 +513,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 30 September 2026, 23:06:07 (HKT)
+- Report generated at: 01 October 2026, 00:06:25 (HKT)
