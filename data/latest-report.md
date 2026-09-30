@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 30 September 2026, 10:12:51 (HKT)
+Generated at: 30 September 2026, 11:12:24 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -8,9 +8,9 @@ Window: 24h
 - Regime score: **59.69 / 100** (Mild Risk-On)
 - US equity strength: **68.81 / 100** (constructive)
 - Evidence quality: **76.0 / 100**
-- ETF flow contribution: **49.82 / 100**, reliability **65.78 / 100**
+- ETF flow contribution: **49.91 / 100**, reliability **66.56 / 100**
 - Breadth: **narrow**; above 50DMA `46.67%`, above 200DMA `63.33%`
-- Top sector score: **Semiconductors** `68.06`
+- Top sector score: **Semiconductors** `68.23`
 - Top theme score: **Crypto Infrastructure** `68.26`
 
 ## Market Regime Score
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 54.14 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 57.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 49.88 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 49.94 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=83.75, volatility=70.0 |
 | Negative contributors |  | none |
@@ -86,9 +86,9 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | US10YT=X | United States 10-Year Treasury Yield | 5.26 | 0.38 | 2026-09-29 | closed |
 | US20YT=X | United States 20-Year Treasury Yield | 5.64 | 0.71 | 2026-09-29 | closed |
 | US30YT=X | United States 30-Year Treasury Yield | 5.59 | 0.54 | 2026-09-29 | closed |
-| HK50 | Hang Seng Futures | 24439.99 | -0.34 | 2026-09-30 | live as of 30 September 2026, 10:00:21 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 6910.19 | 0.57 | 2026-09-30 | live as of 30 September 2026, 10:00:21 (HKT) |
-| CIHc1 | SSE 50 Futures | 3843.13 | 0.33 | 2026-09-30 | live as of 30 September 2026, 10:00:21 (HKT) |
+| HK50 | Hang Seng Futures | 24521.41 | -0.01 | 2026-09-30 | live as of 30 September 2026, 11:00:28 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 6870.81 | -0.27 | 2026-09-29 | closed |
+| CIHc1 | SSE 50 Futures | 3842.54 | 0.32 | 2026-09-30 | live as of 30 September 2026, 11:00:28 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.36 | -0.23 | 2026-09-29 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 102.41 | -0.06 | 2026-09-29 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.91 | -0.27 | 2026-09-29 | closed |
@@ -241,7 +241,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Sector | Score | Trend | Momentum | Stock Breadth | ETF Flow | Flow Reliability | 3M RS | Supporting / Leaders | Detracting / Laggards |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Semiconductors | 68.06 | strong uptrend | neutral | broad | 61.44 | 65.0 | 54.86 | SOXX, SMH | SMH, SOXX |
+| 1 | Semiconductors | 68.23 | strong uptrend | neutral | broad | 63.17 | 90.0 | 54.86 | SOXX, SMH | SMH, SOXX |
 | 2 | Technology | 66.52 | strong uptrend | neutral | broad | 54.94 | 65.0 | 53.66 | P, SWKS, AMD | INTU, FICO, GEN |
 | 3 | Cybersecurity | 66.26 | strong uptrend | positive | broad | 50.0 | 0.0 | 55.92 | CIBR | CIBR |
 | 4 | Healthcare | 66.07 | strong uptrend | neutral | broad | 63.55 | 65.0 | 51.05 | MRNA, ILMN, RVTY | ABT, SYK, COO |
@@ -263,9 +263,9 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Crypto Infrastructure | 68.26 | Positive setup | 67.93 | 65.0 | 16.07 | True | False |
 | 2 | Cybersecurity | 62.36 | Positive setup | 50.0 | 0.0 | 15.55 | True | False |
-| 3 | Semiconductors | 59.77 | Positive setup | 61.44 | 65.0 | 35.77 | False | False |
+| 3 | Semiconductors | 59.94 | Positive setup | 63.17 | 90.0 | 35.77 | False | False |
 | 4 | Quality Growth | 59.62 | Positive setup | 59.83 | 65.0 | 6.96 | False | False |
-| 5 | AI Infrastructure | 58.93 | Positive setup | 61.44 | 65.0 | 17.87 | False | False |
+| 5 | AI Infrastructure | 59.1 | Positive setup | 63.17 | 90.0 | 17.87 | False | False |
 | 6 | Energy | 57.93 | Positive setup | 43.05 | 65.0 | 4.63 | False | False |
 | 7 | Healthcare Innovation | 57.55 | Positive setup | 63.55 | 65.0 | 4.71 | False | False |
 | 8 | Grid Infrastructure | 46.36 | Neutral / watchlist | 50.0 | 0.0 | 15.25 | False | False |
@@ -284,8 +284,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
-| Semiconductors | AI Infrastructure, Semiconductors | 68.06 | strong | 59.35 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.52 | strong | 59.44 | positive | sector and theme confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 68.23 | strong | 59.52 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 66.52 | strong | 59.55 | positive | sector and theme confirmation |
 | Cybersecurity | Cybersecurity | 66.26 | strong | 62.36 | positive | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 66.07 | strong | 57.55 | positive | sector and theme confirmation |
 | Energy | Energy | 56.85 | positive | 57.93 | positive | sector and theme confirmation |
@@ -358,28 +358,28 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Dow posts back-to-back losses as Treasury yields continue their ascent**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**5. Traders expecting back-to-back Fed rate hikes may have gotten ahead of the game**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. Traders expecting a back-to-back rate hike from the Fed in October may have gotten ahead of themselves**
+**4. Traders expecting a back-to-back rate hike from the Fed in October may have gotten ahead of themselves**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
 - Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. Dow posts back-to-back losses as Treasury yields continue their ascent**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `20.19`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. Traders expecting back-to-back Fed rate hikes may have gotten ahead of the game**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **7. U.S. stocks end down, but off lows, as Fed's Williams says rate hikes can wait**
@@ -438,7 +438,7 @@ Positioning and flow data is used as confirmation only.
 - Sector cyclicality flow: `49.9`
 - Duration/liquidity flow: `53.6`
 - Alternatives: `barbell demand`
-- ETF flow reliability: `65.8 / 100`
+- ETF flow reliability: `66.6 / 100`
 - Dominant allocation direction: `defensive demand`
 
 ### Core Flow Signals
@@ -482,7 +482,7 @@ Positioning and flow data is used as confirmation only.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ITA | Aerospace and Defense | -0.4 | 0.8 | 0.2 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural distribution; Persistent selling | 56.0 |
 | SOXX | Semiconductors | -0.1 | -0.3 | 0.6 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural accumulation | 76.0 |
-| SMH | Semiconductors | -0.4 | 0.2 | 0.4 | -0.5 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Medium-term deterioration | 83.0 |
+| SMH | Semiconductors | -0.1 | -0.3 | 0.5 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural accumulation | 76.0 |
 | CIBR | Cybersecurity | 2.3 | 2.4 | 0.8 | -0.6 | Up | Buy | Normal | Steady Accumulation | Risk-On | Strong confirmation; Exceptional institutional buying, Strong sponsorship | 100.0 |
 
 ### Material Flow Divergences
@@ -504,11 +504,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `10`
+- Live macro rows used: `9`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 30 September 2026, 10:12:51 (HKT)
+- Report generated at: 30 September 2026, 11:12:24 (HKT)
