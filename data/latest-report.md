@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 30 September 2026, 17:05:31 (HKT)
+Generated at: 30 September 2026, 18:05:56 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **61.18 / 100** (Mild Risk-On)
+- Regime score: **60.42 / 100** (Mild Risk-On)
 - US equity strength: **68.81 / 100** (constructive)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **50.11 / 100**, reliability **70.93 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 61.18 | Mild Risk-On |
+| Overall regime | 60.42 | Mild Risk-On |
 | equity_trend | 83.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 50.5 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 50.56 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
-| volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
+| volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.71 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 55.7 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 67.0 | risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.08 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=83.75, volatility=80.0, commodity_confirmation=63.0 |
+| Positive contributors |  | equity_trend=83.75, volatility=70.0, commodity_confirmation=67.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -64,8 +64,8 @@ Window: 24h
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude stable | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
-| Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
+| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Volatility | VIX stable | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
 
@@ -76,7 +76,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7670.84 | -0.17 | 2026-09-29 | closed |
 | ^IXIC | NASDAQ Composite | 26797.54 | -0.09 | 2026-09-29 | closed |
 | ^RUT | Russell 2000 Index | 2807.92 | -0.35 | 2026-09-29 | closed |
-| ^VIX | CBOE Volatility Index | 15.96 | -0.5 | 2026-09-30 | live as of 30 September 2026, 17:00:23 (HKT) |
+| ^VIX | CBOE Volatility Index | 16.03 | -0.06 | 2026-09-30 | live as of 30 September 2026, 18:00:22 (HKT) |
 | ^SKEW | CBOE SKEW Index | 144.58 | -1.14 | 2026-09-29 | closed |
 | ^MOVE | ICE BofA MOVE Index | 106.6 | 4.7 | 2026-09-29 | closed |
 | US2YT=X | United States 2-Year Treasury Yield | 4.89 | -0.61 | 2026-09-29 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 78.23 | -0.5 | 2026-09-29 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 89.45 | -0.09 | 2026-09-29 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.16 | 0.06 | 2026-09-29 | closed |
-| GC=F | Gold Future | 4229.1 | 1.18 | 2026-09-30 | live as of 30 September 2026, 17:00:23 (HKT) |
-| SI=F | Silver Future | 61.52 | 1.41 | 2026-09-30 | live as of 30 September 2026, 17:00:23 (HKT) |
-| CL=F | WTI Crude Oil Future | 89.5 | 0.13 | 2026-09-30 | live as of 30 September 2026, 17:00:23 (HKT) |
-| HG=F | Copper Future | 6.64 | 1.54 | 2026-09-30 | live as of 30 September 2026, 17:00:23 (HKT) |
+| GC=F | Gold Future | 4219.7 | 0.96 | 2026-09-30 | live as of 30 September 2026, 18:00:22 (HKT) |
+| SI=F | Silver Future | 61.2 | 0.89 | 2026-09-30 | live as of 30 September 2026, 18:00:22 (HKT) |
+| CL=F | WTI Crude Oil Future | 90.16 | 0.87 | 2026-09-30 | live as of 30 September 2026, 18:00:22 (HKT) |
+| HG=F | Copper Future | 6.63 | 1.28 | 2026-09-30 | live as of 30 September 2026, 18:00:22 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.96 pct_chg=-0.5
+- VIX close=16.03 pct_chg=-0.06
 
 ## News Analytics
 
@@ -334,7 +334,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Pressure on U.S. Treasurys eases after 30-year yield hits highest level since 2002**
+**1. He’s been badmouthing Treasury bonds since 2020, but now ‘the big fat cushion’ of 5.25% yields is turning this strategist bullish**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S
+- Score: `25.0`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. One group of funds is holding up the stock market. Barclays says oil prices have to fall to drive a year-end rally.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `25.0`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Pressure on U.S. Treasurys eases after 30-year yield hits highest level since 2002**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -342,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Stock futures inch higher as traders weather latest rise in Treasury yields: Live updates**
+**4. Stock futures inch higher as traders weather latest rise in Treasury yields: Live updates**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -350,7 +366,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Traders expecting a back-to-back rate hike from the Fed in October may have gotten ahead of themselves**
+**5. I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: I, IRA
+- Score: `21.25`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**6. Netflix stars Nick and Vanessa Lachey list $8.1 million L.A. home they bought from Naomi Osaka**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: L.A, TV
+- Score: `21.25`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**7. Traders expecting a back-to-back rate hike from the Fed in October may have gotten ahead of themselves**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -358,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Million-dollar question: Between S&P 500 bulls and bears, who would likely win?**
+**8. Million-dollar question: Between S&P 500 bulls and bears, who would likely win?**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -366,15 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**5. Beijing warns of retaliation if Europe imposes curbs on Chinese businesses**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: CNBC, EU
-- Score: `20.19`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**6. CNBC Daily Open: Markets are wide awake as September ends**
+**9. CNBC Daily Open: Markets are wide awake as September ends**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -382,37 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Hedge funds hold a record share of the $30 trillion Treasury market. What could go wrong?**
+**10. Hedge funds hold a record share of the $30 trillion Treasury market. What could go wrong?**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. Trump Accounts will auto-enroll children, potentially adding 60 million accounts: Treasury**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Dow posts back-to-back losses as Treasury yields continue their ascent**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. You might be shocked by how many stocks are in a bear market right now**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: P, S
-- Score: `18.06`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
@@ -513,4 +513,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 30 September 2026, 17:05:31 (HKT)
+- Report generated at: 30 September 2026, 18:05:56 (HKT)
