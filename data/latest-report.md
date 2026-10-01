@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 1 October 2026, 08:19:01 (HKT)
+Generated at: 1 October 2026, 08:45:55 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.74 / 100** (Mild Risk-On)
+- Regime score: **57.76 / 100** (Mild Risk-On)
 - US equity strength: **60.52 / 100** (constructive)
 - Evidence quality: **76.0 / 100**
-- ETF flow contribution: **50.27 / 100**, reliability **65.42 / 100**
+- ETF flow contribution: **50.56 / 100**, reliability **65.97 / 100**
 - Breadth: **narrow**; above 50DMA `43.33%`, above 200DMA `58.33%`
 - Top sector score: **Semiconductors** `68.56`
 - Top theme score: **Crypto Infrastructure** `65.84`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.74 | Mild Risk-On |
+| Overall regime | 57.76 | Mild Risk-On |
 | equity_trend | 72.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.56 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 47.22 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 54.61 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 62.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 50.18 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 50.37 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=72.5, volatility=70.0, commodity_confirmation=62.0 |
 | Negative contributors |  | none |
@@ -382,15 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**7. After I sold TOMS Shoes for $400 million I was misdiagnosed with bipolar disorder — and it almost cost me everything**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: I, TOMS
-- Score: `21.25`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**8. These bond strategies can help you get a safe 5% return on your cash**
+**7. These bond strategies can help you get a safe 5% return on your cash**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements**
+**8. Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -406,7 +398,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. U.S. inflation rises again and keeps the pressure on Fed**
+**9. U.S. inflation rises again and keeps the pressure on Fed**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. He’s been badmouthing Treasury bonds since 2020, but ‘the big fat cushion’ of 5.25% yields is turning this strategist bullish**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -432,20 +432,20 @@ Positioning and flow data is used as confirmation only.
 ## ETF Flows Analysis
 
 - Market flow regime: `Mixed / Neutral`
-- Market flow score: `54.8 / 100`
-- Equity risk flow: `58.7`
+- Market flow score: `52.9 / 100`
+- Equity risk flow: `53.3`
 - Credit risk flow: `51.3`
 - Sector cyclicality flow: `50.0`
 - Duration/liquidity flow: `54.1`
 - Alternatives: `barbell demand`
-- ETF flow reliability: `65.4 / 100`
+- ETF flow reliability: `66.0 / 100`
 - Dominant allocation direction: `defensive demand`
 
 ### Core Flow Signals
 
 | Ticker | Exposure | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price State | Flow State | Volume State | PFV State | Regime Bias | Flow Structure | Confidence |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| IVV | U.S. Broad Equity | 0.0 | -1.6 | 0.5 | -0.2 | Flat | Buy | Normal | Quiet Accumulation | Improving | Medium-term recovery | 87.0 |
+| IVV | U.S. Broad Equity | 0.1 | -1.5 | 0.5 | 0.2 | Flat | Neutral | Normal | Neutral | Neutral | Medium-term recovery | 87.0 |
 | ACWI | Global Equity | -0.7 | -1.3 | 0.0 | 2.0 | Flat | Neutral | High | High-Turnover Consolidation | Transition | Mixed or neutral flow structure; Persistent selling | 77.0 |
 | EFA | Developed Markets ex-U.S. | -0.1 | -1.5 | 0.0 | 5.5 | Down | Neutral | High | Heavy Selling Pressure | Cautious | Mixed or neutral flow structure; Persistent selling | 77.0 |
 | IEMG | Emerging Markets | -0.6 | 0.1 | 0.1 | 0.9 | Flat | Sell | High | Distribution Before Breakdown | Early Bearish | Medium-term deterioration; Exceptional institutional selling, Persistent selling | 67.0 |
@@ -504,11 +504,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `4`
+- Live macro rows used: `6`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 01 October 2026, 08:19:01 (HKT)
+- Report generated at: 01 October 2026, 08:45:55 (HKT)
