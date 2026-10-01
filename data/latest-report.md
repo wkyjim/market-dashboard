@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 1 October 2026, 08:45:55 (HKT)
+Generated at: 1 October 2026, 09:13:50 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.76 / 100** (Mild Risk-On)
+- Regime score: **57.75 / 100** (Mild Risk-On)
 - US equity strength: **60.52 / 100** (constructive)
 - Evidence quality: **76.0 / 100**
-- ETF flow contribution: **50.56 / 100**, reliability **65.97 / 100**
+- ETF flow contribution: **50.4 / 100**, reliability **65.94 / 100**
 - Breadth: **narrow**; above 50DMA `43.33%`, above 200DMA `58.33%`
 - Top sector score: **Semiconductors** `68.56`
 - Top theme score: **Crypto Infrastructure** `65.84`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.76 | Mild Risk-On |
+| Overall regime | 57.75 | Mild Risk-On |
 | equity_trend | 72.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.56 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 47.22 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 54.61 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 62.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 50.37 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 50.26 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=72.5, volatility=70.0, commodity_confirmation=62.0 |
 | Negative contributors |  | none |
@@ -334,7 +334,31 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Treasury yields post biggest quarterly jump in decades as bond rout intensifies**
+**1. Stock futures rise as traders eye elevated Treasury yields, brace for jobs report due this week: Live updates**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Fed's Kashkari says inflation is 'still too high' even after softer-than-expected PCE data, labor market is 'pretty good'**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: CNBC, PCE
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. Treasury launches student loan support center as new data show 9.3 million borrowers in default**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. Treasury yields post biggest quarterly jump in decades as bond rout intensifies**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -342,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. 10-year Treasury yield is higher as traders look past inflation data, await jobs report**
+**5. 10-year Treasury yield is higher as traders look past inflation data, await jobs report**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -350,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Crude oil exports through the Strait of Hormuz hit prewar levels, but fuel shipments remain constrained**
+**6. Crude oil exports through the Strait of Hormuz hit prewar levels, but fuel shipments remain constrained**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -358,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Cook, The Dual Mandate in Rural America**
+**7. Cook, The Dual Mandate in Rural America**
 - Source: Federal Reserve Speeches
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -366,15 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. The 15 worst-performing S&P 500 stocks during a dismal September**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: P, S
-- Score: `21.25`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**6. I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?**
+**8. I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -382,31 +398,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**7. These bond strategies can help you get a safe 5% return on your cash**
+**9. The 15 worst-performing S&P 500 stocks during a dismal September**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: P, S
 - Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**8. Federal Reserve Board finalizes changes to enhance the transparency and public accountability of its stress test and reduce volatility in its stress test-related capital requirements**
-- Source: Federal Reserve Press Releases
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. U.S. inflation rises again and keeps the pressure on Fed**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. He’s been badmouthing Treasury bonds since 2020, but ‘the big fat cushion’ of 5.25% yields is turning this strategist bullish**
+**10. These bond strategies can help you get a safe 5% return on your cash**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -417,7 +417,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-Noisy headline list: This driverless trucking stock could be a double o, Meta is pitching a bold new identity — and the pay, Kalshi traders see high odds Anthropic's IPO is an
+Noisy headline list: Meta is pitching a bold new identity — and the pay
 
 ## Positioning & Flow Dashboard
 
@@ -438,7 +438,7 @@ Positioning and flow data is used as confirmation only.
 - Sector cyclicality flow: `50.0`
 - Duration/liquidity flow: `54.1`
 - Alternatives: `barbell demand`
-- ETF flow reliability: `66.0 / 100`
+- ETF flow reliability: `65.9 / 100`
 - Dominant allocation direction: `defensive demand`
 
 ### Core Flow Signals
@@ -453,7 +453,7 @@ Positioning and flow data is used as confirmation only.
 | IWM | U.S. Small Cap | 1.8 | 2.2 | 0.5 | 0.1 | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation; Exceptional institutional buying | 100.0 |
 | LQD | Investment-Grade Credit | -1.1 | -2.0 | 0.5 | 2.1 | Down | Buy | High | Aggressive Dip Buying | Recovery Candidate | Tactical rebound inside structural distribution; Exceptional institutional buying | 91.0 |
 | HYG | High-Yield Credit | 1.6 | 0.0 | 0.6 | 2.1 | Down | Buy | High | Aggressive Dip Buying | Recovery Candidate | Medium-term recovery | 87.0 |
-| SGOV | Treasury Bills / Cash | 0.2 | -0.4 | 0.9 | 0.4 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 99.0 |
+| SGOV | Treasury Bills / Cash | 0.5 | -0.5 | 0.9 | 2.0 | Flat | Neutral | High | High-Turnover Consolidation | Transition | Structural accumulation; Strong sponsorship | 99.0 |
 | SHY | Short-Duration Treasuries | 0.8 | 0.7 | 0.5 | 0.6 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation | 91.0 |
 | IEF | Intermediate-Duration Treasuries | 0.8 | -1.0 | 0.8 | 0.9 | Down | Neutral | High | Heavy Selling Pressure | Cautious | Medium-term recovery; Strong sponsorship | 95.0 |
 | TLT | Long-Duration Treasuries | 0.4 | 1.8 | 0.5 | 2.3 | Down | Buy | High | Aggressive Dip Buying | Recovery Candidate | Strong confirmation | 95.0 |
@@ -511,4 +511,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 01 October 2026, 08:45:55 (HKT)
+- Report generated at: 01 October 2026, 09:13:50 (HKT)
