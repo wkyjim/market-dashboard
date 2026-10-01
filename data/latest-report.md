@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 1 October 2026, 23:06:31 (HKT)
+Generated at: 2 October 2026, 00:06:37 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.44 / 100** (Mild Risk-On)
+- Regime score: **53.62 / 100** (Mixed / Rotation)
 - US equity strength: **60.52 / 100** (constructive)
-- Evidence quality: **76.0 / 100**
+- Evidence quality: **72.5 / 100**
 - ETF flow contribution: **50.07 / 100**, reliability **70.93 / 100**
 - Breadth: **narrow**; above 50DMA `43.33%`, above 200DMA `58.33%`
 - Top sector score: **Semiconductors** `68.54`
@@ -17,19 +17,19 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.44 | Mild Risk-On |
+| Overall regime | 53.62 | Mixed / Rotation |
 | equity_trend | 72.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.56 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 47.22 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
-| volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
+| volatility | 35.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 53.1 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 51.95 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.05 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
-| Positive contributors |  | equity_trend=72.5, volatility=70.0 |
-| Negative contributors |  | none |
+| Positive contributors |  | equity_trend=72.5 |
+| Negative contributors |  | volatility=35.0 |
 
 ## US Equity Strength Score
 
@@ -47,9 +47,9 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `76.0`
-- Agreement ratio: `0.4`
-- Contradiction count: `0`
+- Confidence score: `72.5`
+- Agreement ratio: `0.3`
+- Contradiction count: `1`
 - Missing indicators: none
 - Warning flags: none
 
@@ -57,13 +57,13 @@ Window: 24h
 
 | Area | Signal | Interpretation |
 | --- | --- | --- |
-| Equities | S&P 500 stable; Nasdaq stable; Russell 2000 falling | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
-| Rates | 10Y Treasury stable; MOVE falling | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
+| Equities | S&P 500 stable; Nasdaq falling; Russell 2000 falling | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
+| Rates | 10Y Treasury falling; MOVE falling | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy rising | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG falling | High-yield weakness would challenge equity risk-on confirmation. |
-| Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
+| Gold | Gold stable | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
-| Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
+| Copper | Copper falling | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
@@ -73,12 +73,12 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7633.15 | -0.24 | 2026-10-01 | live as of 1 October 2026, 23:00:20 (HKT) |
-| ^IXIC | NASDAQ Composite | 26815.56 | -0.17 | 2026-10-01 | live as of 1 October 2026, 23:00:20 (HKT) |
-| ^RUT | Russell 2000 Index | 2784.05 | -0.46 | 2026-10-01 | live as of 1 October 2026, 23:00:20 (HKT) |
-| ^VIX | CBOE Volatility Index | 16.99 | 3.98 | 2026-10-01 | live as of 1 October 2026, 23:00:20 (HKT) |
+| ^GSPC | S&P 500 | 7633.75 | -0.23 | 2026-10-01 | live as of 2 October 2026, 00:00:20 (HKT) |
+| ^IXIC | NASDAQ Composite | 26771.04 | -0.34 | 2026-10-01 | live as of 2 October 2026, 00:00:20 (HKT) |
+| ^RUT | Russell 2000 Index | 2785.55 | -0.4 | 2026-10-01 | live as of 2 October 2026, 00:00:20 (HKT) |
+| ^VIX | CBOE Volatility Index | 17.38 | 6.36 | 2026-10-01 | live as of 2 October 2026, 00:00:20 (HKT) |
 | ^SKEW | CBOE SKEW Index | 141.92 | -1.84 | 2026-09-30 | closed |
-| ^MOVE | ICE BofA MOVE Index | 109.67 | -0.7 | 2026-10-01 | live as of 1 October 2026, 23:00:20 (HKT) |
+| ^MOVE | ICE BofA MOVE Index | 109.06 | -1.26 | 2026-10-01 | live as of 2 October 2026, 00:00:20 (HKT) |
 | US2YT=X | United States 2-Year Treasury Yield | 4.89 | 0.04 | 2026-09-30 | closed |
 | US3YT=X | United States 3-Year Treasury Yield | 5.0 | 0.3 | 2026-09-30 | closed |
 | US5YT=X | United States 5-Year Treasury Yield | 5.09 | 0.52 | 2026-09-30 | closed |
@@ -89,19 +89,19 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | HK50 | Hang Seng Futures | 24613.27 | 0.37 | 2026-09-30 | closed |
 | KOR200c1 | KOSPI 200 Futures | 6971.35 | 1.95 | 2026-10-01 | closed |
 | CIHc1 | SSE 50 Futures | 3842.19 | 0.31 | 2026-09-30 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 76.56 | -0.84 | 2026-10-01 | live as of 1 October 2026, 23:00:20 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 101.47 | -0.69 | 2026-10-01 | live as of 1 October 2026, 23:00:20 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 91.88 | -0.94 | 2026-10-01 | live as of 1 October 2026, 23:00:20 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 207.68 | -0.16 | 2026-10-01 | live as of 1 October 2026, 23:00:20 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 125.1 | -0.13 | 2026-10-01 | live as of 1 October 2026, 23:00:20 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 247.09 | -0.34 | 2026-10-01 | live as of 1 October 2026, 23:00:20 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 77.19 | -0.76 | 2026-10-01 | live as of 1 October 2026, 23:00:20 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 88.91 | -0.45 | 2026-10-01 | live as of 1 October 2026, 23:00:20 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.02 | -0.22 | 2026-10-01 | live as of 1 October 2026, 23:00:20 (HKT) |
-| GC=F | Gold Future | 4198.3 | 0.28 | 2026-10-01 | live as of 1 October 2026, 23:00:20 (HKT) |
-| SI=F | Silver Future | 61.29 | 1.98 | 2026-10-01 | live as of 1 October 2026, 23:00:20 (HKT) |
-| CL=F | WTI Crude Oil Future | 92.19 | 1.96 | 2026-10-01 | live as of 1 October 2026, 23:00:20 (HKT) |
-| HG=F | Copper Future | 6.58 | 0.29 | 2026-10-01 | live as of 1 October 2026, 23:00:20 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 76.66 | -0.71 | 2026-10-01 | live as of 2 October 2026, 00:00:20 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 101.83 | -0.34 | 2026-10-01 | live as of 2 October 2026, 00:00:20 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 91.99 | -0.82 | 2026-10-01 | live as of 2 October 2026, 00:00:20 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 208.06 | 0.02 | 2026-10-01 | live as of 2 October 2026, 00:00:20 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 125.03 | -0.18 | 2026-10-01 | live as of 2 October 2026, 00:00:20 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 247.29 | -0.26 | 2026-10-01 | live as of 2 October 2026, 00:00:20 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 77.65 | -0.17 | 2026-10-01 | live as of 2 October 2026, 00:00:20 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 89.23 | -0.09 | 2026-10-01 | live as of 2 October 2026, 00:00:20 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.09 | -0.14 | 2026-10-01 | live as of 2 October 2026, 00:00:20 (HKT) |
+| GC=F | Gold Future | 4194.6 | 0.19 | 2026-10-01 | live as of 2 October 2026, 00:00:20 (HKT) |
+| SI=F | Silver Future | 60.82 | 1.2 | 2026-10-01 | live as of 2 October 2026, 00:00:20 (HKT) |
+| CL=F | WTI Crude Oil Future | 92.57 | 2.38 | 2026-10-01 | live as of 2 October 2026, 00:00:20 (HKT) |
+| HG=F | Copper Future | 6.54 | -0.34 | 2026-10-01 | live as of 2 October 2026, 00:00:20 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=16.99 pct_chg=3.98
+- VIX close=17.38 pct_chg=6.36
 
 ## News Analytics
 
@@ -334,7 +334,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. The latest oil-price shock rippling through the economy is a refining crisis — not a crude crisis**
+**1. U.S. manufacturers say inflation is bad and not getting any better**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S
+- Score: `25.0`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Why Micron’s big earnings report isn’t lifting the stock**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -342,31 +350,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Retail investors are aggressively piling into this bold contrarian bet through one ETF.**
+**3. These bond strategies can help you get a safe 5% return on your cash**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
-- Affected assets: ETF
+- Affected assets: U.S
 - Score: `25.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Stock futures rise to kick off October as AI-related stocks gain: Live updates**
-- Source: CNBC Markets
+**4. The latest oil-price shock rippling through the economy is a refining crisis — not a crude crisis**
+- Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
+- Score: `25.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Economic calendar: Weekly jobless-claims data and five Fed speeches on agenda**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**5. Oil prices rise as Chinese refiners reportedly ban October fuel exports; Brent crude back above $100**
+**5. 10-year Treasury yield climbs to a 24-year high amid relentless global bond sell-off**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,7 +374,31 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. 10-year Treasury yield hits highest level since 2002 as global bond rout gathers pace**
+**6. Oil prices rise as Chinese refiners reportedly ban October fuel exports; Brent crude above $100**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. Trump Accounts have auto-enrolled more than 60 million children, Treasury says**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: CNBC
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. Waller, The Data Version of Godzilla versus Kong: FRED Takes on AI**
+- Source: Federal Reserve Speeches
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: FRED
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. Stock futures rise to kick off October as AI-related stocks gain: Live updates**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -382,42 +406,18 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: I, IRA
-- Score: `21.25`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**8. How European supplies could impact a U.S. diesel ban as White House reportedly asks Germany, France to release stockpiles**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: EU, U.S
-- Score: `21.25`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**9. After I sold TOMS Shoes for $400 million I was misdiagnosed with bipolar disorder — and it almost cost me everything**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: I, TOMS
-- Score: `21.25`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**10. These bond strategies can help you get a safe 5% return on your cash**
-- Source: MarketWatch Top Stories
+**10. Economic calendar: Weekly jobless-claims data and five Fed speeches on agenda**
+- Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
-- Affected assets: U.S
-- Score: `21.25`
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
 
-Noisy headline list: The stock market is a hollow tree that could be ab
+Noisy headline list: The stock market is a hollow tree that could be ab, How you can help your grandparents age well, says , This dollar store stock will get a boost from a sh
 
 ## Positioning & Flow Dashboard
 
@@ -513,4 +513,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 01 October 2026, 23:06:31 (HKT)
+- Report generated at: 02 October 2026, 00:06:37 (HKT)
