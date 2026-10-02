@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2 October 2026, 08:51:16 (HKT)
+Generated at: 2 October 2026, 09:18:06 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.45 / 100** (Mild Risk-On)
+- Regime score: **57.24 / 100** (Mild Risk-On)
 - US equity strength: **60.52 / 100** (constructive)
 - Evidence quality: **76.0 / 100**
-- ETF flow contribution: **51.06 / 100**, reliability **66.11 / 100**
+- ETF flow contribution: **51.42 / 100**, reliability **66.0 / 100**
 - Breadth: **narrow**; above 50DMA `43.33%`, above 200DMA `58.33%`
 - Top sector score: **Semiconductors** `68.66`
 - Top theme score: **Crypto Infrastructure** `65.33`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.45 | Mild Risk-On |
+| Overall regime | 57.24 | Mild Risk-On |
 | equity_trend | 72.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.56 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 47.22 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -25,8 +25,8 @@ Window: 24h
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 52.23 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 50.7 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| etf_flow | 50.94 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=72.5, volatility=70.0 |
 | Negative contributors |  | none |
@@ -79,13 +79,13 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 16.39 | 0.31 | 2026-10-01 | closed |
 | ^SKEW | CBOE SKEW Index | 142.77 | 0.6 | 2026-10-01 | closed |
 | ^MOVE | ICE BofA MOVE Index | 108.13 | -2.1 | 2026-10-01 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.8 | -0.13 | 2026-10-02 | live as of 2 October 2026, 08:30:20 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.91 | -0.09 | 2026-10-02 | live as of 2 October 2026, 08:30:20 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 5.02 | -0.07 | 2026-10-02 | live as of 2 October 2026, 08:30:20 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 5.14 | 0.0 | 2026-10-02 | live as of 2 October 2026, 08:30:20 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 5.25 | 0.0 | 2026-10-02 | live as of 2 October 2026, 08:30:20 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.66 | 0.12 | 2026-10-02 | live as of 2 October 2026, 08:30:20 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.62 | 0.06 | 2026-10-02 | live as of 2 October 2026, 08:30:20 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.81 | 0.09 | 2026-10-02 | live as of 2 October 2026, 09:00:23 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.92 | 0.09 | 2026-10-02 | live as of 2 October 2026, 09:00:23 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 5.03 | 0.14 | 2026-10-02 | live as of 2 October 2026, 09:00:23 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 5.15 | 0.18 | 2026-10-02 | live as of 2 October 2026, 09:00:23 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 5.26 | 0.15 | 2026-10-02 | live as of 2 October 2026, 09:00:23 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.67 | 0.29 | 2026-10-02 | live as of 2 October 2026, 09:00:23 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.63 | 0.22 | 2026-10-02 | live as of 2 October 2026, 09:00:23 (HKT) |
 | HK50 | Hang Seng Futures | 24613.27 | 0.37 | 2026-09-30 | closed |
 | KOR200c1 | KOSPI 200 Futures | 6971.35 | 1.95 | 2026-10-01 | closed |
 | CIHc1 | SSE 50 Futures | 3842.19 | 0.31 | 2026-09-30 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.1 | -0.12 | 2026-10-01 | closed |
 | GC=F | Gold Future | 4207.8 | 0.5 | 2026-10-01 | closed |
 | SI=F | Silver Future | 61.35 | 2.08 | 2026-10-01 | closed |
-| CL=F | WTI Crude Oil Future | 93.03 | 0.03 | 2026-10-02 | live as of 2 October 2026, 08:30:20 (HKT) |
+| CL=F | WTI Crude Oil Future | 92.98 | -0.02 | 2026-10-02 | live as of 2 October 2026, 09:00:23 (HKT) |
 | HG=F | Copper Future | 6.58 | 0.27 | 2026-10-01 | closed |
 
 ## Market Dispersion Analysis
@@ -350,7 +350,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Treasury yields fall from multiyear highs**
+**3. Friday's big stock stories: What’s likely to move the market in the next trading session**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. Treasury yields fall from multiyear highs**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -358,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Europe’s winter energy crunch may already be underway. Two U.S. stocks that may benefit**
+**5. Europe’s winter energy crunch may already be underway. Two U.S. stocks that may benefit**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. S&P 500 closes higher to start October as Treasury yields retreat from multiyear highs: Live updates**
+**6. S&P 500 closes higher to start October as Treasury yields retreat from multiyear highs: Live updates**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. New York City's 'click to cancel' subscription rule takes effect, joining states with similar laws**
+**7. New York City's 'click to cancel' subscription rule takes effect, joining states with similar laws**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Brent oil jumps more than 4% as U.S. reportedly sends third aircraft carrier to Middle East**
+**8. Brent oil jumps more than 4% as U.S. reportedly sends third aircraft carrier to Middle East**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -390,15 +398,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Dow flat, S&P and Nasdaq up in final hour as Treasury yields pull back — live**
-- Source: MarketWatch Bulletins
+**9. I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?**
+- Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: P, S
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: I, IRA
+- Score: `21.25`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**9. The stock market is anything but normal right now — and these charts show it**
+**10. Here’s who’s joining the S&P 500 in the index’s latest shakeup**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -406,18 +414,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**10. U.S. manufacturers say inflation is bad and not getting any better**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
 
 ### Headline Quality Checks
 
-Noisy headline list: Three reasons why bitcoin's recent bounce could be, The stock market is a hollow tree that could be ab, How Muse could be coming next for Apple's golden g, Fed could be in pause mode and make next move a cu
+Noisy headline list: This could be the worst year ever for Nike’s stock, Three reasons why bitcoin's recent bounce could be, The stock market is a hollow tree that could be ab
 
 ## Positioning & Flow Dashboard
 
@@ -432,13 +432,13 @@ Positioning and flow data is used as confirmation only.
 ## ETF Flows Analysis
 
 - Market flow regime: `Mixed / Neutral`
-- Market flow score: `46.6 / 100`
+- Market flow score: `52.8 / 100`
 - Equity risk flow: `50.9`
-- Credit risk flow: `29.4`
+- Credit risk flow: `56.6`
 - Sector cyclicality flow: `49.4`
-- Duration/liquidity flow: `48.5`
+- Duration/liquidity flow: `53.5`
 - Alternatives: `barbell demand`
-- ETF flow reliability: `66.1 / 100`
+- ETF flow reliability: `66.0 / 100`
 - Dominant allocation direction: `mixed allocation`
 
 ### Core Flow Signals
@@ -452,11 +452,11 @@ Positioning and flow data is used as confirmation only.
 | IJH | U.S. Mid Cap | 0.6 | 1.7 | 0.6 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural accumulation | 76.0 |
 | IWM | U.S. Small Cap | 1.3 | 1.0 | 0.5 | n/a | Down | Buy | Normal | Contrarian Buying | Watch | Medium-term recovery | 72.0 |
 | LQD | Investment-Grade Credit | -1.1 | -2.2 | 0.5 | n/a | Down | Sell | Normal | Persistent Distribution | Risk-Off | Strong confirmation; Exceptional institutional selling | 72.0 |
-| HYG | High-Yield Credit | 1.6 | 0.0 | 0.6 | 2.1 | Down | Buy | High | Aggressive Dip Buying | Recovery Candidate | Medium-term recovery | 87.0 |
+| HYG | High-Yield Credit | 2.2 | 0.7 | 0.6 | n/a | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation; Exceptional institutional buying | 88.0 |
 | SGOV | Treasury Bills / Cash | 0.5 | -0.5 | 0.9 | 2.0 | Flat | Neutral | High | High-Turnover Consolidation | Transition | Structural accumulation; Strong sponsorship | 99.0 |
-| SHY | Short-Duration Treasuries | 0.8 | 0.7 | 0.5 | 0.6 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation | 91.0 |
+| SHY | Short-Duration Treasuries | 0.0 | 0.2 | 0.5 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation | 76.0 |
 | IEF | Intermediate-Duration Treasuries | 0.7 | -1.1 | 0.7 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term recovery | 72.0 |
-| TLT | Long-Duration Treasuries | 0.4 | 1.8 | 0.5 | 2.3 | Down | Buy | High | Aggressive Dip Buying | Recovery Candidate | Strong confirmation | 95.0 |
+| TLT | Long-Duration Treasuries | 0.7 | 1.8 | 0.6 | n/a | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation | 80.0 |
 | GLD | Gold | 0.1 | 2.3 | 0.4 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Mixed or neutral flow structure; Exceptional institutional buying | 78.0 |
 | IBIT | Bitcoin | 0.8 | 1.9 | 0.7 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural accumulation | 76.0 |
 
@@ -489,6 +489,7 @@ Positioning and flow data is used as confirmation only.
 
 | Severity | Type | Primary | Comparison | Interpretation |
 | --- | --- | --- | --- | --- |
+| high | close_substitute_divergence | AGG | IUSB | primary representative differs from close substitute |
 | high | close_substitute_divergence | IWF | IVW | primary representative differs from close substitute |
 | high | close_substitute_divergence | IWD | IVE | primary representative differs from close substitute |
 | high | close_substitute_divergence | IWM | IJR | primary representative differs from close substitute |
@@ -510,4 +511,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 02 October 2026, 08:51:16 (HKT)
+- Report generated at: 02 October 2026, 09:18:06 (HKT)
