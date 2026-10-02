@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 October 2026, 03:07:14 (HKT)
+Generated at: 3 October 2026, 04:05:30 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **58.69 / 100** (Mild Risk-On)
+- Regime score: **58.7 / 100** (Mild Risk-On)
 - US equity strength: **60.52 / 100** (constructive)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **51.56 / 100**, reliability **71.05 / 100**
@@ -17,14 +17,14 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 58.69 | Mild Risk-On |
+| Overall regime | 58.7 | Mild Risk-On |
 | equity_trend | 72.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 51.56 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 47.22 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 80.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.84 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 55.99 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 51.11 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7722.42 | 0.73 | 2026-10-02 | live as of 3 October 2026, 03:00:23 (HKT) |
-| ^IXIC | NASDAQ Composite | 27183.11 | 1.16 | 2026-10-02 | live as of 3 October 2026, 03:00:23 (HKT) |
-| ^RUT | Russell 2000 Index | 2833.85 | 0.97 | 2026-10-02 | live as of 3 October 2026, 03:00:23 (HKT) |
-| ^VIX | CBOE Volatility Index | 15.55 | -5.13 | 2026-10-02 | live as of 3 October 2026, 03:00:23 (HKT) |
+| ^GSPC | S&P 500 | 7722.94 | 0.74 | 2026-10-02 | live as of 3 October 2026, 04:00:23 (HKT) |
+| ^IXIC | NASDAQ Composite | 27190.86 | 1.19 | 2026-10-02 | live as of 3 October 2026, 04:00:23 (HKT) |
+| ^RUT | Russell 2000 Index | 2834.97 | 1.01 | 2026-10-02 | live as of 3 October 2026, 04:00:23 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.4 | -6.04 | 2026-10-02 | live as of 3 October 2026, 04:00:23 (HKT) |
 | ^SKEW | CBOE SKEW Index | 142.77 | 0.6 | 2026-10-01 | closed |
-| ^MOVE | ICE BofA MOVE Index | 107.6 | -0.49 | 2026-10-02 | live as of 3 October 2026, 03:00:23 (HKT) |
-| US2YT=X | United States 2-Year Treasury Yield | 4.78 | -2.05 | 2026-10-01 | closed |
-| US3YT=X | United States 3-Year Treasury Yield | 4.91 | -1.8 | 2026-10-01 | closed |
-| US5YT=X | United States 5-Year Treasury Yield | 5.01 | -1.57 | 2026-10-01 | closed |
-| US7YT=X | United States 7-Year Treasury Yield | 5.12 | -1.35 | 2026-10-01 | closed |
-| US10YT=X | United States 10-Year Treasury Yield | 5.24 | -0.95 | 2026-10-01 | closed |
-| US20YT=X | United States 20-Year Treasury Yield | 5.64 | -0.7 | 2026-10-01 | closed |
-| US30YT=X | United States 30-Year Treasury Yield | 5.61 | -0.53 | 2026-10-01 | closed |
+| ^MOVE | ICE BofA MOVE Index | 107.65 | -0.44 | 2026-10-02 | live as of 3 October 2026, 04:00:23 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.83 | 1.05 | 2026-10-02 | closed |
+| US3YT=X | United States 3-Year Treasury Yield | 4.96 | 1.02 | 2026-10-02 | closed |
+| US5YT=X | United States 5-Year Treasury Yield | 5.06 | 1.0 | 2026-10-02 | closed |
+| US7YT=X | United States 7-Year Treasury Yield | 5.17 | 0.98 | 2026-10-02 | closed |
+| US10YT=X | United States 10-Year Treasury Yield | 5.28 | 0.76 | 2026-10-02 | closed |
+| US20YT=X | United States 20-Year Treasury Yield | 5.67 | 0.53 | 2026-10-02 | closed |
+| US30YT=X | United States 30-Year Treasury Yield | 5.63 | 0.36 | 2026-10-02 | closed |
 | HK50 | Hang Seng Futures | 23885.5 | -2.18 | 2026-10-02 | closed |
 | KOR200c1 | KOSPI 200 Futures | 6971.35 | 1.95 | 2026-10-01 | closed |
 | CIHc1 | SSE 50 Futures | 3842.19 | 0.31 | 2026-09-30 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 76.91 | 0.01 | 2026-10-02 | live as of 3 October 2026, 03:00:23 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 101.86 | -0.17 | 2026-10-02 | live as of 3 October 2026, 03:00:23 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 92.39 | 0.09 | 2026-10-02 | live as of 3 October 2026, 03:00:23 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 209.81 | 0.39 | 2026-10-02 | live as of 3 October 2026, 03:00:23 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 127.09 | 1.09 | 2026-10-02 | live as of 3 October 2026, 03:00:23 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 249.29 | 0.42 | 2026-10-02 | live as of 3 October 2026, 03:00:23 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 77.47 | -0.3 | 2026-10-02 | live as of 3 October 2026, 03:00:23 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 89.08 | -0.25 | 2026-10-02 | live as of 3 October 2026, 03:00:23 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.06 | -0.06 | 2026-10-02 | live as of 3 October 2026, 03:00:23 (HKT) |
-| GC=F | Gold Future | 4172.0 | -0.72 | 2026-10-02 | live as of 3 October 2026, 03:00:23 (HKT) |
-| SI=F | Silver Future | 60.7 | -0.05 | 2026-10-02 | live as of 3 October 2026, 03:00:23 (HKT) |
-| CL=F | WTI Crude Oil Future | 91.12 | -1.88 | 2026-10-02 | live as of 3 October 2026, 03:00:23 (HKT) |
-| HG=F | Copper Future | 6.57 | 1.3 | 2026-10-02 | live as of 3 October 2026, 03:00:23 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 76.91 | 0.01 | 2026-10-02 | live as of 3 October 2026, 04:00:23 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 101.83 | -0.2 | 2026-10-02 | live as of 3 October 2026, 04:00:23 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 92.41 | 0.12 | 2026-10-02 | live as of 3 October 2026, 04:00:23 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 209.73 | 0.35 | 2026-10-02 | live as of 3 October 2026, 04:00:23 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 127.05 | 1.05 | 2026-10-02 | live as of 3 October 2026, 04:00:23 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 249.36 | 0.45 | 2026-10-02 | live as of 3 October 2026, 04:00:23 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 77.48 | -0.3 | 2026-10-02 | live as of 3 October 2026, 04:00:23 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 89.05 | -0.28 | 2026-10-02 | live as of 3 October 2026, 04:00:23 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.05 | -0.06 | 2026-10-02 | live as of 3 October 2026, 04:00:23 (HKT) |
+| GC=F | Gold Future | 4170.9 | -0.75 | 2026-10-02 | live as of 3 October 2026, 04:00:23 (HKT) |
+| SI=F | Silver Future | 60.78 | 0.09 | 2026-10-02 | live as of 3 October 2026, 04:00:23 (HKT) |
+| CL=F | WTI Crude Oil Future | 91.52 | -1.45 | 2026-10-02 | live as of 3 October 2026, 04:00:23 (HKT) |
+| HG=F | Copper Future | 6.58 | 1.56 | 2026-10-02 | live as of 3 October 2026, 04:00:23 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.55 pct_chg=-5.13
+- VIX close=15.4 pct_chg=-6.04
 
 ## News Analytics
 
@@ -374,23 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Treasury Sec. Bessent, IRS crack down on ETF strategy the wealthy are using to avoid capital gains taxes**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: ETF, IRS
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Traders now see little chance of a Fed rate hike in October after weak jobs report**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. Why bond investors quickly lost their enthusiasm for weak jobs figures**
+**6. Why bond investors quickly lost their enthusiasm for weak jobs figures**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -398,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**9. Bond yields suddenly retreat from recent highs as buyers step back into the Treasury market**
+**7. Bond yields suddenly retreat from recent highs as buyers step back into the Treasury market**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -406,12 +390,28 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. The Treasury Department started Trump accounts for 60 million kids — but families still have to take this step if they want one**
+**8. The Treasury Department started Trump accounts for 60 million kids — but families still have to take this step if they want one**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
 - Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. Friday's rally in the S&P 500 might not be enough, but Linde is out of this world**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: P, S
+- Score: `20.19`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**10. Treasury Sec. Bessent, IRS crack down on ETF strategy the wealthy are using to avoid capital gains taxes**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: ETF, IRS
+- Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
@@ -513,4 +513,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 03 October 2026, 03:07:14 (HKT)
+- Report generated at: 03 October 2026, 04:05:30 (HKT)
