@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 4 October 2026, 05:12:05 (HKT)
+Generated at: 4 October 2026, 07:14:03 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -398,15 +398,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**9. I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?**
+**9. My wife never went back to work after raising our kids. Do I have to share my retirement savings 50/50?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: I, IRA
-- Score: `18.06`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+- Relevance / horizon: single_name / short-term
+- Affected assets: I
+- Score: `16.25`
+- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**10. ‘I want to make her proud’: My mother, a divorcée, died and I’m her executor. Do I need to file for probate?**
+**10. ‘I don’t want to die on the sales floor’: I’m 67 and earn $19.50 an hour at a big-box store. When can I finally retire?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
@@ -504,11 +504,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `3`
+- Live macro rows used: `2`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 04 October 2026, 05:12:05 (HKT)
+- Report generated at: 04 October 2026, 07:14:03 (HKT)
