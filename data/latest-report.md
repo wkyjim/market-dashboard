@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 October 2026, 11:30:51 (HKT)
+Generated at: 3 October 2026, 13:27:14 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -8,10 +8,10 @@ Window: 24h
 - Regime score: **60.78 / 100** (Mild Risk-On)
 - US equity strength: **67.5 / 100** (constructive)
 - Evidence quality: **79.5 / 100**
-- ETF flow contribution: **52.68 / 100**, reliability **67.89 / 100**
+- ETF flow contribution: **52.67 / 100**, reliability **67.5 / 100**
 - Breadth: **narrow**; above 50DMA `45.0%`, above 200DMA `58.33%`
-- Top sector score: **Cybersecurity** `69.6`
-- Top theme score: **Semiconductors** `62.95`
+- Top sector score: **Cybersecurity** `71.6`
+- Top theme score: **Cybersecurity** `64.95`
 
 ## Market Regime Score
 
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 55.86 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 51.82 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 51.8 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=83.75, volatility=80.0 |
 | Negative contributors |  | none |
@@ -241,10 +241,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Sector | Score | Trend | Momentum | Stock Breadth | ETF Flow | Flow Reliability | 3M RS | Supporting / Leaders | Detracting / Laggards |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Cybersecurity | 69.6 | strong uptrend | positive | broad | 50.0 | 0.0 | 59.65 | CIBR | CIBR |
+| 1 | Cybersecurity | 71.6 | strong uptrend | positive | broad | 70.03 | 65.0 | 59.65 | CIBR | CIBR |
 | 2 | Semiconductors | 67.24 | strong uptrend | positive | broad | 60.94 | 90.0 | 59.73 | SOXX, SMH | SMH, SOXX |
 | 3 | Technology | 65.23 | strong uptrend | neutral | broad | 50.0 | 0.0 | 55.17 | P, AMD, TER | INTU, GEN, FICO |
-| 4 | Grid Infrastructure | 62.35 | strong uptrend | neutral | broad | 50.0 | 0.0 | 50.86 | GRID | GRID |
+| 4 | Grid Infrastructure | 62.2 | strong uptrend | neutral | broad | 48.51 | 65.0 | 50.86 | GRID | GRID |
 | 5 | Energy | 56.91 | strong uptrend | neutral | broad | 50.0 | 0.0 | 53.49 | VLO, MPC, PSX | EXE, HAL, SLB |
 | 6 | Crypto | 51.78 | neutral | neutral | mixed | 67.83 | 65.0 | 50.0 |  |  |
 | 7 | Healthcare | 45.6 | neutral | neutral | weak | 50.0 | 0.0 | 47.86 | MRNA, ILMN, RVTY | PODD, REGN, COO |
@@ -261,13 +261,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Semiconductors | 62.95 | Positive setup | 60.94 | 90.0 | 39.53 | True | False |
-| 2 | Cybersecurity | 62.95 | Positive setup | 50.0 | 0.0 | 15.78 | True | False |
+| 1 | Cybersecurity | 64.95 | Positive setup | 70.03 | 65.0 | 15.78 | True | False |
+| 2 | Semiconductors | 62.95 | Positive setup | 60.94 | 90.0 | 39.53 | True | False |
 | 3 | AI Infrastructure | 61.25 | Positive setup | 60.94 | 90.0 | 20.11 | True | False |
 | 4 | Crypto Infrastructure | 61.2 | Positive setup | 67.83 | 65.0 | 15.52 | True | False |
 | 5 | Quality Growth | 58.09 | Positive setup | 50.0 | 0.0 | 7.14 | False | False |
 | 6 | Energy | 57.15 | Positive setup | 50.0 | 0.0 | 3.9 | False | False |
-| 7 | Grid Infrastructure | 52.66 | Neutral / watchlist | 50.0 | 0.0 | 17.25 | False | False |
+| 7 | Grid Infrastructure | 52.51 | Neutral / watchlist | 48.51 | 65.0 | 17.25 | False | False |
 | 8 | Healthcare Innovation | 49.46 | Neutral / watchlist | 50.0 | 0.0 | 5.8 | False | False |
 | 9 | Small Caps | 44.92 | Neutral / watchlist | 62.45 | 65.0 | 0.0 | False | False |
 | 10 | Dividend Defensives | 38.03 | Weak setup | 65.32 | 65.0 | 3.35 | False | False |
@@ -278,21 +278,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Top 5 improving themes: Crypto Infrastructure, Cybersecurity, Energy, Quality Growth, AI Infrastructure
 - Top 5 deteriorating themes: Nuclear, Defense, Financials, Small Caps, Dividend Defensives
 - Strong news but weak price confirmation: none
-- Strong price but weak news confirmation: Semiconductors, Cybersecurity, AI Infrastructure, Crypto Infrastructure
+- Strong price but weak news confirmation: Cybersecurity, Semiconductors, AI Infrastructure, Crypto Infrastructure
 
 ### Sector / Theme Alignment
 
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
-| Cybersecurity | Cybersecurity | 69.6 | strong | 62.95 | positive | sector and theme confirmation |
+| Cybersecurity | Cybersecurity | 71.6 | strong | 64.95 | positive | sector and theme confirmation |
 | Semiconductors | AI Infrastructure, Semiconductors | 67.24 | strong | 62.1 | positive | sector and theme confirmation |
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.23 | strong | 60.76 | positive | sector and theme confirmation |
-| Grid Infrastructure | Grid Infrastructure | 62.35 | positive | 52.66 | mixed | sector stronger than related themes |
+| Grid Infrastructure | Grid Infrastructure | 62.2 | positive | 52.51 | mixed | sector stronger than related themes |
 | Energy | Energy | 56.91 | positive | 57.15 | positive | sector and theme confirmation |
 | Crypto | Crypto Infrastructure | 51.78 | mixed | 61.2 | positive | theme stronger than official sector |
 | Healthcare | Healthcare Innovation | 45.6 | mixed | 49.46 | mixed | mixed confirmation |
-| Industrials | Defense, Grid Infrastructure | 40.6 | weak | 42.37 | weak | broad weakness across sector and themes |
-| Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 35.26 | weak | 40.15 | weak | broad weakness across sector and themes |
+| Industrials | Defense, Grid Infrastructure | 40.6 | weak | 42.3 | weak | broad weakness across sector and themes |
+| Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 35.26 | weak | 40.1 | weak | broad weakness across sector and themes |
 | Defense | Defense | 35.06 | weak | 32.09 | very weak | broad weakness across sector and themes |
 | Consumer Staples | Dividend Defensives | 34.22 | very weak | 38.03 | weak | broad weakness across sector and themes |
 | Consumer Discretionary | Small Caps | 33.47 | very weak | 44.92 | weak | broad weakness across sector and themes |
@@ -334,15 +334,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: I, IRA
-- Score: `21.25`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**2. Federal Reserve Board announces approval of application by Fleur Capital Corporation**
+**1. Federal Reserve Board announces approval of application by Fleur Capital Corporation**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -350,7 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Europe’s leaders rush to release diesel from stockpiles as fuel shock hangs over U.S. midterms**
+**2. Europe’s leaders rush to release diesel from stockpiles as fuel shock hangs over U.S. midterms**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -358,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O**
+**3. Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. These bond strategies can help you get a safe 5% return on your cash**
+**4. These bond strategies can help you get a safe 5% return on your cash**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.**
+**5. Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Here's how high the 10-year Treasury yield needs to rise before income investors should worry, according to UBS**
+**6. Here's how high the 10-year Treasury yield needs to rise before income investors should worry, according to UBS**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Stocks remain under the thrall of higher yields and higher oil. Here's what's ahead**
+**7. Stocks remain under the thrall of higher yields and higher oil. Here's what's ahead**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. 10-year Treasury yield ticks higher despite weaker-than-expected jobs report**
+**8. 10-year Treasury yield ticks higher despite weaker-than-expected jobs report**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Why investors quickly lost enthusiam for jobs data that sparked a Treasury rally**
+**9. Why investors quickly lost enthusiam for jobs data that sparked a Treasury rally**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: I, IRA
+- Score: `18.06`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
@@ -438,7 +438,7 @@ Positioning and flow data is used as confirmation only.
 - Sector cyclicality flow: `42.0`
 - Duration/liquidity flow: `53.7`
 - Alternatives: `barbell demand`
-- ETF flow reliability: `67.9 / 100`
+- ETF flow reliability: `67.5 / 100`
 - Dominant allocation direction: `mixed allocation`
 
 ### Core Flow Signals
@@ -483,7 +483,7 @@ Positioning and flow data is used as confirmation only.
 | ITA | Aerospace and Defense | -0.3 | 0.6 | 0.2 | 0.9 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural distribution; Persistent selling | 71.0 |
 | SOXX | Semiconductors | -0.6 | -1.9 | 0.5 | -0.5 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Medium-term recovery | 87.0 |
 | SMH | Semiconductors | -0.0 | -0.7 | 0.5 | -0.2 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural accumulation | 91.0 |
-| CIBR | Cybersecurity | 2.6 | 2.5 | 0.8 | 1.1 | Up | Buy | High | Confirmed Accumulation | Strong Risk-On | Strong confirmation; Exceptional institutional buying, Strong sponsorship | 100.0 |
+| CIBR | Cybersecurity | 2.6 | 2.2 | 0.8 | 1.7 | Up | Buy | High | Confirmed Accumulation | Strong Risk-On | Strong confirmation; Exceptional institutional buying, Strong sponsorship | 100.0 |
 
 ### Material Flow Divergences
 
@@ -509,4 +509,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 03 October 2026, 11:30:51 (HKT)
+- Report generated at: 03 October 2026, 13:27:14 (HKT)
