@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 October 2026, 20:11:41 (HKT)
+Generated at: 3 October 2026, 21:15:17 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -334,7 +334,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. 'Handful' of G20 countries reject U.S. stance on excess industrial capacity**
+**1. As Treasury yields touch generational highs, investors brace for the market fallout**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `25.0`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. 'Handful' of G20 countries reject U.S. stance on excess industrial capacity**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -342,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Federal Reserve Board announces approval of application by Fleur Capital Corporation**
+**3. Federal Reserve Board announces approval of application by Fleur Capital Corporation**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -350,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Europe’s leaders rush to release diesel from stockpiles as fuel shock hangs over U.S. midterms**
+**4. Europe’s leaders rush to release diesel from stockpiles as fuel shock hangs over U.S. midterms**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -358,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O**
+**5. Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. These bond strategies can help you get a safe 5% return on your cash**
+**6. These bond strategies can help you get a safe 5% return on your cash**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.**
+**7. Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Here's how high the 10-year Treasury yield needs to rise before income investors should worry, according to UBS**
+**8. Here's how high the 10-year Treasury yield needs to rise before income investors should worry, according to UBS**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Stocks remain under the thrall of higher yields and higher oil. Here's what's ahead**
+**9. Stocks remain under the thrall of higher yields and higher oil. Here's what's ahead**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -398,19 +406,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. 10-year Treasury yield ticks higher despite weaker-than-expected jobs report**
+**10. 10-year Treasury yield ticks higher despite weaker-than-expected jobs report**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. Why investors quickly lost enthusiam for jobs data that sparked a Treasury rally**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
@@ -511,4 +511,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 03 October 2026, 20:11:41 (HKT)
+- Report generated at: 03 October 2026, 21:15:17 (HKT)
