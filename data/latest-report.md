@@ -1,23 +1,23 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 October 2026, 10:28:45 (HKT)
+Generated at: 3 October 2026, 11:30:51 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **60.72 / 100** (Mild Risk-On)
+- Regime score: **60.78 / 100** (Mild Risk-On)
 - US equity strength: **67.5 / 100** (constructive)
 - Evidence quality: **79.5 / 100**
-- ETF flow contribution: **51.92 / 100**, reliability **66.58 / 100**
+- ETF flow contribution: **52.68 / 100**, reliability **67.89 / 100**
 - Breadth: **narrow**; above 50DMA `45.0%`, above 200DMA `58.33%`
 - Top sector score: **Cybersecurity** `69.6`
-- Top theme score: **Cybersecurity** `62.95`
+- Top theme score: **Semiconductors** `62.95`
 
 ## Market Regime Score
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 60.72 | Mild Risk-On |
+| Overall regime | 60.78 | Mild Risk-On |
 | equity_trend | 83.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.01 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 46.67 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 55.86 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 51.28 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 51.82 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=83.75, volatility=80.0 |
 | Negative contributors |  | none |
@@ -242,7 +242,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Sector | Score | Trend | Momentum | Stock Breadth | ETF Flow | Flow Reliability | 3M RS | Supporting / Leaders | Detracting / Laggards |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Cybersecurity | 69.6 | strong uptrend | positive | broad | 50.0 | 0.0 | 59.65 | CIBR | CIBR |
-| 2 | Semiconductors | 66.42 | strong uptrend | positive | broad | 52.78 | 65.0 | 59.73 | SOXX, SMH | SMH, SOXX |
+| 2 | Semiconductors | 67.24 | strong uptrend | positive | broad | 60.94 | 90.0 | 59.73 | SOXX, SMH | SMH, SOXX |
 | 3 | Technology | 65.23 | strong uptrend | neutral | broad | 50.0 | 0.0 | 55.17 | P, AMD, TER | INTU, GEN, FICO |
 | 4 | Grid Infrastructure | 62.35 | strong uptrend | neutral | broad | 50.0 | 0.0 | 50.86 | GRID | GRID |
 | 5 | Energy | 56.91 | strong uptrend | neutral | broad | 50.0 | 0.0 | 53.49 | VLO, MPC, PSX | EXE, HAL, SLB |
@@ -261,10 +261,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Cybersecurity | 62.95 | Positive setup | 50.0 | 0.0 | 15.78 | True | False |
-| 2 | Semiconductors | 62.13 | Positive setup | 52.78 | 65.0 | 39.53 | True | False |
-| 3 | Crypto Infrastructure | 61.2 | Positive setup | 67.83 | 65.0 | 15.52 | True | False |
-| 4 | AI Infrastructure | 60.43 | Positive setup | 52.78 | 65.0 | 20.11 | True | False |
+| 1 | Semiconductors | 62.95 | Positive setup | 60.94 | 90.0 | 39.53 | True | False |
+| 2 | Cybersecurity | 62.95 | Positive setup | 50.0 | 0.0 | 15.78 | True | False |
+| 3 | AI Infrastructure | 61.25 | Positive setup | 60.94 | 90.0 | 20.11 | True | False |
+| 4 | Crypto Infrastructure | 61.2 | Positive setup | 67.83 | 65.0 | 15.52 | True | False |
 | 5 | Quality Growth | 58.09 | Positive setup | 50.0 | 0.0 | 7.14 | False | False |
 | 6 | Energy | 57.15 | Positive setup | 50.0 | 0.0 | 3.9 | False | False |
 | 7 | Grid Infrastructure | 52.66 | Neutral / watchlist | 50.0 | 0.0 | 17.25 | False | False |
@@ -278,15 +278,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Top 5 improving themes: Crypto Infrastructure, Cybersecurity, Energy, Quality Growth, AI Infrastructure
 - Top 5 deteriorating themes: Nuclear, Defense, Financials, Small Caps, Dividend Defensives
 - Strong news but weak price confirmation: none
-- Strong price but weak news confirmation: Cybersecurity, Semiconductors, Crypto Infrastructure, AI Infrastructure
+- Strong price but weak news confirmation: Semiconductors, Cybersecurity, AI Infrastructure, Crypto Infrastructure
 
 ### Sector / Theme Alignment
 
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
 | Cybersecurity | Cybersecurity | 69.6 | strong | 62.95 | positive | sector and theme confirmation |
-| Semiconductors | AI Infrastructure, Semiconductors | 66.42 | strong | 61.28 | positive | sector and theme confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.23 | strong | 60.22 | positive | sector and theme confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 67.24 | strong | 62.1 | positive | sector and theme confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 65.23 | strong | 60.76 | positive | sector and theme confirmation |
 | Grid Infrastructure | Grid Infrastructure | 62.35 | positive | 52.66 | mixed | sector stronger than related themes |
 | Energy | Energy | 56.91 | positive | 57.15 | positive | sector and theme confirmation |
 | Crypto | Crypto Infrastructure | 51.78 | mixed | 61.2 | positive | theme stronger than official sector |
@@ -334,21 +334,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Federal Reserve Board announces approval of application by Fleur Capital Corporation**
-- Source: Federal Reserve Press Releases
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `25.0`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?**
+**1. I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: I, IRA
 - Score: `21.25`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**2. Federal Reserve Board announces approval of application by Fleur Capital Corporation**
+- Source: Federal Reserve Press Releases
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **3. Europe’s leaders rush to release diesel from stockpiles as fuel shock hangs over U.S. midterms**
 - Source: MarketWatch Top Stories
@@ -438,7 +438,7 @@ Positioning and flow data is used as confirmation only.
 - Sector cyclicality flow: `42.0`
 - Duration/liquidity flow: `53.7`
 - Alternatives: `barbell demand`
-- ETF flow reliability: `66.6 / 100`
+- ETF flow reliability: `67.9 / 100`
 - Dominant allocation direction: `mixed allocation`
 
 ### Core Flow Signals
@@ -482,7 +482,7 @@ Positioning and flow data is used as confirmation only.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ITA | Aerospace and Defense | -0.3 | 0.6 | 0.2 | 0.9 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural distribution; Persistent selling | 71.0 |
 | SOXX | Semiconductors | -0.6 | -1.9 | 0.5 | -0.5 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Medium-term recovery | 87.0 |
-| SMH | Semiconductors | -0.1 | -0.7 | 0.5 | -0.6 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural accumulation | 91.0 |
+| SMH | Semiconductors | -0.0 | -0.7 | 0.5 | -0.2 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural accumulation | 91.0 |
 | CIBR | Cybersecurity | 2.6 | 2.5 | 0.8 | 1.1 | Up | Buy | High | Confirmed Accumulation | Strong Risk-On | Strong confirmation; Exceptional institutional buying, Strong sponsorship | 100.0 |
 
 ### Material Flow Divergences
@@ -509,4 +509,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 03 October 2026, 10:28:45 (HKT)
+- Report generated at: 03 October 2026, 11:30:51 (HKT)
