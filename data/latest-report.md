@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 October 2026, 22:11:41 (HKT)
+Generated at: 4 October 2026, 05:12:05 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -334,90 +334,90 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. As Treasury yields touch generational highs, investors brace for the market fallout**
+**1. These bond strategies can help you get a safe 5% return on your cash**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
+- Affected assets: U.S
 - Score: `25.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. 'Handful' of G20 countries reject U.S. stance on excess industrial capacity**
-- Source: CNBC Top News
+**2. High mortgage rates are trapping homeowners in place, and making renovations harder to afford**
+- Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
-- Affected assets: U.S
+- Affected assets: Equities, Bonds, USD, Commodities
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Federal Reserve Board announces approval of application by Fleur Capital Corporation**
-- Source: Federal Reserve Press Releases
+**3. The Treasury Department started Trump accounts for 60 million kids — but families still have to take this step if they want one**
+- Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Europe’s leaders rush to release diesel from stockpiles as fuel shock hangs over U.S. midterms**
+**4. As Treasury yields touch generational highs, investors brace for the market fallout**
 - Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**5. Federal Reserve Board announces it will extend, until November 4, the comment period on its proposal to modernize Regulation O**
-- Source: Federal Reserve Press Releases
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: O
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. These bond strategies can help you get a safe 5% return on your cash**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S
-- Score: `21.25`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Federal Reserve Board issues enforcement action with Ontario Bancorporation, Inc.**
-- Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Here's how high the 10-year Treasury yield needs to rise before income investors should worry, according to UBS**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: UBS
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Stocks remain under the thrall of higher yields and higher oil. Here's what's ahead**
-- Source: CNBC Markets
+**5. As Treasury yields touch generational highs, investors brace for market fallout**
+- Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. 10-year Treasury yield ticks higher despite weaker-than-expected jobs report**
+**6. 'Handful' of G20 countries reject U.S. stance on excess industrial capacity**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**7. You might be shocked by how many stocks are in a bear market right now**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: P, S
+- Score: `18.06`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**8. I made $500,000 from a stock sale in my IRA. Could this change my retirement?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: I, IRA
+- Score: `18.06`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**9. I’m 71 and still working. I earn $108,000 a year. Am I doing the right thing?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: I, IRA
+- Score: `18.06`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**10. ‘I want to make her proud’: My mother, a divorcée, died and I’m her executor. Do I need to file for probate?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: single_name / short-term
+- Affected assets: I
+- Score: `16.25`
+- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
 
-Noisy headline list: TV dinner overload? The frozen-food aisle may be t
+No noisy headlines detected by current rules.
 
 ## Positioning & Flow Dashboard
 
@@ -511,4 +511,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 03 October 2026, 22:11:41 (HKT)
+- Report generated at: 04 October 2026, 05:12:05 (HKT)
