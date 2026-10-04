@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 4 October 2026, 08:43:00 (HKT)
+Generated at: 4 October 2026, 09:11:49 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -339,7 +339,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S
-- Score: `25.0`
+- Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **2. The Treasury Department started Trump accounts for 60 million kids — but families still have to take this step if they want one**
@@ -511,4 +511,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 04 October 2026, 08:43:00 (HKT)
+- Report generated at: 04 October 2026, 09:11:49 (HKT)
