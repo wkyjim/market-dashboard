@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 5 October 2026, 22:06:36 (HKT)
+Generated at: 5 October 2026, 23:07:09 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **58.93 / 100** (Mild Risk-On)
+- Regime score: **58.96 / 100** (Mild Risk-On)
 - US equity strength: **67.5 / 100** (constructive)
 - Evidence quality: **72.5 / 100**
 - ETF flow contribution: **50.49 / 100**, reliability **70.81 / 100**
@@ -17,14 +17,14 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 58.93 | Mild Risk-On |
+| Overall regime | 58.96 | Mild Risk-On |
 | equity_trend | 83.75 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 52.01 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 46.67 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 52.98 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 53.46 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 50.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.35 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
@@ -57,7 +57,7 @@ Window: 24h
 
 | Area | Signal | Interpretation |
 | --- | --- | --- |
-| Equities | S&P 500 stable; Nasdaq rising; Russell 2000 stable | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
+| Equities | S&P 500 rising; Nasdaq rising; Russell 2000 stable | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
 | Rates | 10Y Treasury rising; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy rising | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7730.3 | 0.1 | 2026-10-05 | live as of 5 October 2026, 22:00:28 (HKT) |
-| ^IXIC | NASDAQ Composite | 27301.65 | 0.41 | 2026-10-05 | live as of 5 October 2026, 22:00:28 (HKT) |
-| ^RUT | Russell 2000 Index | 2826.48 | -0.23 | 2026-10-05 | live as of 5 October 2026, 22:00:28 (HKT) |
-| ^VIX | CBOE Volatility Index | 15.89 | 3.79 | 2026-10-05 | live as of 5 October 2026, 22:00:28 (HKT) |
+| ^GSPC | S&P 500 | 7756.59 | 0.44 | 2026-10-05 | live as of 5 October 2026, 23:00:25 (HKT) |
+| ^IXIC | NASDAQ Composite | 27392.89 | 0.74 | 2026-10-05 | live as of 5 October 2026, 23:00:25 (HKT) |
+| ^RUT | Russell 2000 Index | 2836.07 | 0.11 | 2026-10-05 | live as of 5 October 2026, 23:00:25 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.52 | 1.37 | 2026-10-05 | live as of 5 October 2026, 23:00:25 (HKT) |
 | ^SKEW | CBOE SKEW Index | 144.88 | 1.48 | 2026-10-02 | closed |
-| ^MOVE | ICE BofA MOVE Index | 113.52 | 5.81 | 2026-10-05 | live as of 5 October 2026, 22:00:28 (HKT) |
-| US2YT=X | United States 2-Year Treasury Yield | 4.83 | 1.05 | 2026-10-02 | live as of 5 October 2026, 22:00:28 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.96 | 1.02 | 2026-10-02 | live as of 5 October 2026, 22:00:28 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 5.06 | 1.0 | 2026-10-02 | live as of 5 October 2026, 22:00:28 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 5.17 | 0.98 | 2026-10-02 | live as of 5 October 2026, 22:00:28 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 5.28 | 0.76 | 2026-10-02 | live as of 5 October 2026, 22:00:28 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.67 | 0.53 | 2026-10-02 | live as of 5 October 2026, 22:00:28 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.63 | 0.36 | 2026-10-02 | live as of 5 October 2026, 22:00:28 (HKT) |
+| ^MOVE | ICE BofA MOVE Index | 113.55 | 5.84 | 2026-10-05 | live as of 5 October 2026, 23:00:25 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.83 | 1.05 | 2026-10-02 | live as of 5 October 2026, 23:00:25 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.96 | 1.02 | 2026-10-02 | live as of 5 October 2026, 23:00:25 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 5.06 | 1.0 | 2026-10-02 | live as of 5 October 2026, 23:00:25 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 5.17 | 0.98 | 2026-10-02 | live as of 5 October 2026, 23:00:25 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 5.28 | 0.76 | 2026-10-02 | live as of 5 October 2026, 23:00:25 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.67 | 0.53 | 2026-10-02 | live as of 5 October 2026, 23:00:25 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.63 | 0.36 | 2026-10-02 | live as of 5 October 2026, 23:00:25 (HKT) |
 | HK50 | Hang Seng Futures | 23885.5 | -2.18 | 2026-10-02 | closed |
 | KOR200c1 | KOSPI 200 Futures | 7003.74 | 0.46 | 2026-10-02 | closed |
 | CIHc1 | SSE 50 Futures | 3842.19 | 0.31 | 2026-09-30 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 76.89 | -0.03 | 2026-10-05 | live as of 5 October 2026, 22:00:28 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 101.68 | -0.15 | 2026-10-05 | live as of 5 October 2026, 22:00:28 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 92.35 | -0.04 | 2026-10-05 | live as of 5 October 2026, 22:00:28 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 209.24 | -0.23 | 2026-10-05 | live as of 5 October 2026, 22:00:28 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 127.52 | 0.35 | 2026-10-05 | live as of 5 October 2026, 22:00:28 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 248.97 | -0.16 | 2026-10-05 | live as of 5 October 2026, 22:00:28 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 77.02 | -0.6 | 2026-10-05 | live as of 5 October 2026, 22:00:28 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 88.94 | -0.12 | 2026-10-05 | live as of 5 October 2026, 22:00:28 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.08 | 0.04 | 2026-10-05 | live as of 5 October 2026, 22:00:28 (HKT) |
-| GC=F | Gold Future | 4168.5 | n/a | 2026-10-05 | live as of 5 October 2026, 22:00:28 (HKT) |
-| SI=F | Silver Future | 61.58 | n/a | 2026-10-05 | live as of 5 October 2026, 22:00:28 (HKT) |
-| CL=F | WTI Crude Oil Future | 89.72 | n/a | 2026-10-05 | live as of 5 October 2026, 22:00:28 (HKT) |
-| HG=F | Copper Future | 6.62 | n/a | 2026-10-05 | live as of 5 October 2026, 22:00:28 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 76.94 | 0.04 | 2026-10-05 | live as of 5 October 2026, 23:00:25 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 101.7 | -0.12 | 2026-10-05 | live as of 5 October 2026, 23:00:25 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 92.42 | 0.04 | 2026-10-05 | live as of 5 October 2026, 23:00:25 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 210.34 | 0.29 | 2026-10-05 | live as of 5 October 2026, 23:00:25 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 127.97 | 0.7 | 2026-10-05 | live as of 5 October 2026, 23:00:25 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 249.86 | 0.19 | 2026-10-05 | live as of 5 October 2026, 23:00:25 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 76.98 | -0.65 | 2026-10-05 | live as of 5 October 2026, 23:00:25 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 88.86 | -0.22 | 2026-10-05 | live as of 5 October 2026, 23:00:25 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.06 | 0.02 | 2026-10-05 | live as of 5 October 2026, 23:00:25 (HKT) |
+| GC=F | Gold Future | 4170.7 | n/a | 2026-10-05 | live as of 5 October 2026, 23:00:25 (HKT) |
+| SI=F | Silver Future | 61.47 | n/a | 2026-10-05 | live as of 5 October 2026, 23:00:25 (HKT) |
+| CL=F | WTI Crude Oil Future | 90.42 | n/a | 2026-10-05 | live as of 5 October 2026, 23:00:25 (HKT) |
+| HG=F | Copper Future | 6.64 | n/a | 2026-10-05 | live as of 5 October 2026, 23:00:25 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.89 pct_chg=3.79
+- VIX close=15.52 pct_chg=1.37
 
 ## News Analytics
 
@@ -513,4 +513,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 05 October 2026, 22:06:36 (HKT)
+- Report generated at: 05 October 2026, 23:07:09 (HKT)
