@@ -104,7 +104,7 @@ tr:hover td { background: color-mix(in srgb, var(--accent) 8%, var(--bg)); }
 <div class="eyebrow">Investment Research · US Equity Strategy · 1–12 Month Outlook</div>
 <h1>Market Intelligence Report</h1>
 <div class="sub">Record-level US equities remain earnings-supported, but a hawkish Fed reaction function, a 5.28% 10-year yield and worsening small-cap participation favor selective alpha over more gross.</div>
-<div class="metadata"><span>Report Date<strong>8 October 2026</strong></span><span>Data Cutoff<strong>7 Oct US close / 22:05 HKT API</strong></span><span>ST Horizon<strong>1&ndash;3 Months</strong></span><span>LT Horizon<strong>6&ndash;12 Months</strong></span><span>Source Score<strong>58.99 / 100</strong></span><span>CIO Score<strong>44.6 / 100</strong></span><span>Stance<strong>Neutral / Selective</strong></span></div>
+<div class="metadata"><span>Report Date<strong>8 October 2026</strong></span><span>Research Cutoff<strong>12:35 HKT / 7 Oct US close</strong></span><span>ST Horizon<strong>1&ndash;3 Months</strong></span><span>LT Horizon<strong>6&ndash;12 Months</strong></span><span>Source Score<strong>58.99 / 100</strong></span><span>CIO Score<strong>44.6 / 100</strong></span><span>Stance<strong>Neutral / Selective</strong></span></div>
 </header>
 
 <nav class="toc" id="toc">
@@ -204,7 +204,7 @@ tr:hover td { background: color-mix(in srgb, var(--accent) 8%, var(--bg)); }
 <li><strong>Oil has eased, but the inflation channel remains open:</strong> WTI was $89.20 in the 5 October source snapshot, below the prior week's peak but still high enough to affect expectations and the long end; Energy is a capped hedge, not a momentum chase.</li>
 <li><strong>Credit still lags the equity message:</strong> HYG closed at 76.98 and LQD at 101.83 on 5 October; both remain below their 20-, 50- and 200-day averages. This is not systemic stress, but it does not validate adding low-quality beta.</li>
 </ol>
-<p class="contradiction"><strong>Freshness note:</strong> the primary Markdown was generated 6 October at 04:07 HKT and therefore predates the 7 October US cash close and the released FOMC minutes. The close comes from AP and the rates/volatility snapshot from the documented API; official Federal Reserve minutes supply the policy update. University of Michigan Consumer Sentiment is 44.8 as of <strong>May 2026</strong> and is not a current trigger.</p>
+<p class="contradiction"><strong>Freshness note:</strong> the primary Markdown was generated 6 October at 04:07 HKT and therefore predates the 7 October US cash close and the released FOMC minutes. The close comes from AP and the 7 October 22:05 HKT rates/volatility snapshot from the documented API; official Federal Reserve minutes supply the policy update. The API host did not return its schema or endpoints during the 8 October 12:35 HKT refresh despite web-reader, in-app-browser and approved HTTPS attempts, so no later intraday API observation is claimed. University of Michigan Consumer Sentiment is 44.8 as of <strong>May 2026</strong> and is not a current trigger.</p>
 </section>
 
 
@@ -646,13 +646,13 @@ tr:hover td { background: color-mix(in srgb, var(--accent) 8%, var(--bg)); }
 <li><a href="https://apnews.com/article/00ad8ec13f0265ac3c41a0d9d7fdb265" target="_blank" rel="noopener noreferrer">AP 7 October US market close</a> — S&amp;P 500 7,801.77, Nasdaq 27,538.69, Russell 2000 2,793.20 and Dow 51,179.87.</li>
 <li><a href="https://apnews.com/article/stocks-markets-rates-oil-earnings-44b75c188756038371cf3112ede9cee8" target="_blank" rel="noopener noreferrer">AP 7 October market context</a> — 10-year yield reached 5.36% before easing near 5.28% after the Treasury auction.</li>
 <li><a href="https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents/" target="_blank" rel="noopener noreferrer">U.S. Treasury quarterly refunding documents</a> — borrowing estimate scheduled 2 November; refunding announcement 4 November 2026.</li>
-<li><a href="https://postgresql-us-equities-api.onrender.com/openapi.json" target="_blank" rel="noopener noreferrer">US Equities API</a> — OpenAPI 3.1.0 / API v1.1.0 re-inspected in full on 8 October before calling documented market-tape, macro-batch and equity-batch endpoints; the latest observation was the 7 October 22:05 HKT live snapshot.</li>
+<li><a href="https://postgresql-us-equities-api.onrender.com/openapi.json" target="_blank" rel="noopener noreferrer">US Equities API</a> — OpenAPI 3.1.0 / API v1.1.0 and documented market-tape, macro-batch and equity-batch endpoints were last successfully inspected on 8 October before the 7 October 22:05 HKT snapshot; the host did not return during the 12:35 HKT refresh.</li>
 </ul>
 <h3>Classification of Material</h3>
 <ul>
 <li><strong>Verified fact:</strong> Official CPI and Fed policy data; FOMC, BEA, BLS and Treasury calendar dates</li>
 <li><strong>Source-derived signal:</strong> Flow z-scores, breadth metrics, regime scores from latest-report.md pipeline</li>
-<li><strong>API data:</strong> OpenAPI 3.1.0 / API v1.1.0 was inspected in full by approved project-runtime HTTPS; documented <code>/market-tape</code>, <code>/macro/batch/latest</code> and <code>/equities/batch/latest</code> fields supplied the 7 October 22:05 HKT Treasury, volatility, credit and global-market snapshot plus 5 October ETF technicals used above.</li>
+<li><strong>API data:</strong> Documented <code>/market-tape</code>, <code>/macro/batch/latest</code> and <code>/equities/batch/latest</code> fields supplied the dated 7 October 22:05 HKT Treasury, volatility, credit and global-market snapshot plus 5 October ETF technicals used above. The 12:35 HKT refresh could not reconnect to the API host, so those observations are retained with their timestamps and are not represented as newly refreshed.</li>
 <li><strong>Stale data:</strong> University of Michigan Consumer Sentiment 44.8 (May 2026 — not a current trigger); Federal Funds Effective 3.63% (June 29, structural backdrop only)</li>
 <li><strong>Analyst inference/estimate:</strong> CIO score components, scenario probabilities, historical analog mechanisms</li>
 </ul>
