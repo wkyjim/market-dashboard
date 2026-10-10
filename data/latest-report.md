@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 10 October 2026, 11:21:28 (HKT)
+Generated at: 10 October 2026, 13:13:29 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -8,7 +8,7 @@ Window: 24h
 - Regime score: **59.57 / 100** (Mild Risk-On)
 - US equity strength: **70.33 / 100** (constructive)
 - Evidence quality: **76.0 / 100**
-- ETF flow contribution: **47.9 / 100**, reliability **67.03 / 100**
+- ETF flow contribution: **47.9 / 100**, reliability **66.97 / 100**
 - Breadth: **healthy**; above 50DMA `53.33%`, above 200DMA `60.0%`
 - Top sector score: **Cybersecurity** `69.68`
 - Top theme score: **Cybersecurity** `66.55`
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 52.99 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 47.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 48.59 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 48.6 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | equity_trend=83.75, volatility=70.0 |
 | Negative contributors |  | none |
@@ -79,13 +79,13 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 15.08 | 0.47 | 2026-10-07 | closed |
 | ^SKEW | CBOE SKEW Index | 141.84 | 0.45 | 2026-10-07 | closed |
 | ^MOVE | ICE BofA MOVE Index | 102.56 | -2.51 | 2026-10-07 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.79 | 0.74 | 2026-10-09 | live as of 10 October 2026, 11:05:46 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.92 | 0.74 | 2026-10-09 | live as of 10 October 2026, 11:05:46 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 5.02 | 0.6 | 2026-10-09 | live as of 10 October 2026, 11:05:46 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 5.13 | 0.41 | 2026-10-09 | live as of 10 October 2026, 11:05:46 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 5.24 | 0.21 | 2026-10-09 | live as of 10 October 2026, 11:05:46 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.65 | -0.04 | 2026-10-09 | live as of 10 October 2026, 11:05:46 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.6 | -0.14 | 2026-10-09 | live as of 10 October 2026, 11:05:46 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.79 | 0.74 | 2026-10-09 | live as of 10 October 2026, 13:00:26 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.92 | 0.74 | 2026-10-09 | live as of 10 October 2026, 13:00:26 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 5.02 | 0.6 | 2026-10-09 | live as of 10 October 2026, 13:00:26 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 5.13 | 0.41 | 2026-10-09 | live as of 10 October 2026, 13:00:26 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 5.24 | 0.21 | 2026-10-09 | live as of 10 October 2026, 13:00:26 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.65 | -0.04 | 2026-10-09 | live as of 10 October 2026, 13:00:26 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.6 | -0.14 | 2026-10-09 | live as of 10 October 2026, 13:00:26 (HKT) |
 | HK50 | Hang Seng Futures | 23885.5 | -2.18 | 2026-10-02 | closed |
 | KOR200c1 | KOSPI 200 Futures | 7003.74 | 0.46 | 2026-10-02 | closed |
 | CIHc1 | SSE 50 Futures | 3842.19 | 0.31 | 2026-09-30 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.16 | 0.04 | 2026-10-07 | closed |
 | GC=F | Gold Future | 4140.7 | -1.11 | 2026-10-07 | closed |
 | SI=F | Silver Future | 59.9 | -2.07 | 2026-10-07 | closed |
-| CL=F | WTI Crude Oil Future | 91.66 | n/a | 2026-10-09 | live as of 10 October 2026, 11:05:46 (HKT) |
+| CL=F | WTI Crude Oil Future | 91.66 | n/a | 2026-10-09 | live as of 10 October 2026, 13:00:26 (HKT) |
 | HG=F | Copper Future | 6.6 | 0.03 | 2026-10-07 | closed |
 
 ## Market Dispersion Analysis
@@ -334,15 +334,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Hurricane Isaias to ‘stress test’ oil markets already hobbled by tight supplies**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. Here’s how Treasury yields could rise to 6% — even without market upheaval**
+**1. Here’s how Treasury yields could rise to 6% — even without market upheaval**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -350,7 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Trump ramps up battle to fire Fed’s Lisa Cook. Her lawyers say there’s no basis to remove her.**
+**2. Trump ramps up battle to fire Fed’s Lisa Cook. Her lawyers say there’s no basis to remove her.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -358,12 +350,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families**
+**3. Federal Reserve Board releases results of the 2025 Survey of Consumer Finances, which provides the public and policymakers with detailed insights into the economic condition of American families**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
 - Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. Hurricane Isaias to ‘stress test’ oil markets already hobbled by tight supplies**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **5. French yields are near levels not seen since 2002. Why that could give U.S. Treasurys a boost**
@@ -512,4 +512,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 10 October 2026, 11:21:28 (HKT)
+- Report generated at: 10 October 2026, 13:13:29 (HKT)
