@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 11 October 2026, 22:30:06 (HKT)
+Generated at: 12 October 2026, 01:13:24 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,28 +79,28 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 14.84 | -3.7 | 2026-10-09 | closed |
 | ^SKEW | CBOE SKEW Index | 154.34 | 3.45 | 2026-10-09 | closed |
 | ^MOVE | ICE BofA MOVE Index | 102.56 | -2.51 | 2026-10-07 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.8 | 1.05 | 2026-10-09 | live as of 11 October 2026, 22:16:51 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.89 | 0.82 | 2026-10-09 | live as of 11 October 2026, 22:16:51 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 5.02 | 0.6 | 2026-10-09 | live as of 11 October 2026, 22:16:51 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 5.13 | 0.39 | 2026-10-09 | live as of 11 October 2026, 22:16:51 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 5.24 | 0.38 | 2026-10-09 | live as of 11 October 2026, 22:16:51 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.65 | 0.18 | 2026-10-09 | live as of 11 October 2026, 22:16:51 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.6 | 0.0 | 2026-10-09 | live as of 11 October 2026, 22:16:51 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.79 | 0.74 | 2026-10-09 | live as of 12 October 2026, 00:59:10 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.92 | 0.74 | 2026-10-09 | live as of 12 October 2026, 00:59:10 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 5.02 | 0.6 | 2026-10-09 | live as of 12 October 2026, 00:59:10 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 5.13 | 0.39 | 2026-10-09 | live as of 12 October 2026, 00:59:10 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 5.24 | 0.38 | 2026-10-09 | live as of 12 October 2026, 00:59:10 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.65 | 0.18 | 2026-10-09 | live as of 12 October 2026, 00:59:10 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.6 | 0.0 | 2026-10-09 | live as of 12 October 2026, 00:59:10 (HKT) |
 | HK50 | Hang Seng Futures | 23885.5 | -2.18 | 2026-10-02 | closed |
 | KOR200c1 | KOSPI 200 Futures | 7003.74 | 0.46 | 2026-10-02 | closed |
 | CIHc1 | SSE 50 Futures | 3842.19 | 0.31 | 2026-09-30 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.18 | -0.12 | 2026-10-07 | closed |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 102.1 | -0.04 | 2026-10-07 | closed |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 92.76 | -0.13 | 2026-10-07 | closed |
-| RSP | Invesco S&P 500 Equal Weight ETF | 210.6 | -0.81 | 2026-10-07 | closed |
-| IWF | iShares Russell 1000 Growth ETF | 128.76 | -0.33 | 2026-10-07 | closed |
-| IWD | iShares Russell 1000 Value ETF | 250.78 | -0.38 | 2026-10-07 | closed |
-| TLT | iShares 20+ Year Treasury Bond ETF | 77.15 | -0.17 | 2026-10-07 | closed |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.23 | 0.12 | 2026-10-09 | closed |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 102.41 | -0.06 | 2026-10-09 | closed |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 92.83 | 0.11 | 2026-10-09 | closed |
+| RSP | Invesco S&P 500 Equal Weight ETF | 213.04 | 0.55 | 2026-10-09 | closed |
+| IWF | iShares Russell 1000 Growth ETF | 127.91 | 0.63 | 2026-10-09 | closed |
+| IWD | iShares Russell 1000 Value ETF | 253.54 | 0.61 | 2026-10-09 | closed |
+| TLT | iShares 20+ Year Treasury Bond ETF | 77.98 | 0.14 | 2026-10-09 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 89.11 | -0.02 | 2026-10-07 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.16 | 0.04 | 2026-10-07 | closed |
 | GC=F | Gold Future | 4140.7 | -1.11 | 2026-10-07 | closed |
 | SI=F | Silver Future | 59.9 | -2.07 | 2026-10-07 | closed |
-| CL=F | WTI Crude Oil Future | 91.85 | n/a | 2026-10-09 | live as of 11 October 2026, 22:16:51 (HKT) |
+| CL=F | WTI Crude Oil Future | 91.85 | n/a | 2026-10-09 | live as of 12 October 2026, 00:59:10 (HKT) |
 | HG=F | Copper Future | 6.6 | 0.03 | 2026-10-07 | closed |
 
 ## Market Dispersion Analysis
@@ -334,7 +334,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. AI’s quiet safety gatekeepers are stepping into the spotlight**
+**1. We’re about to get a huge read on whether earnings can keep propping up the stock market**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `25.0`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. We’re about to get a huge read on whether earnings can keep propping up stocks**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**3. AI’s quiet safety gatekeepers are stepping into the spotlight**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -342,15 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Kyiv pushes back on Trump’s call for a new Ukrainian president as drones hit Russian data hub**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. Should I put my nest egg in a 30-year Treasury bond?**
+**4. Should I put my nest egg in a 30-year Treasury bond?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -358,15 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Polish security services meet after 'serious' threat to PM and defense minister**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: A, PM
-- Score: `20.19`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**5. How much money buys happiness? Ray Dalio weighs in**
+**5. Kyiv pushes back on Trump’s call for a new Ukrainian president as drones hit Russian data hub**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Isaias kills four and leaves about 670,000 without power after landfall**
+**6. How much money buys happiness? Ray Dalio weighs in**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -382,13 +382,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. S&P 500 at 10,000 or bust? New ETF offers investors all-or-nothing bet on index.**
-- Source: MarketWatch Bulletins
+**7. Isaias kills four and leaves about 670,000 without power after landfall**
+- Source: CNBC Top News
 - Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: ETF, P, S
-- Score: `17.16`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `20.19`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **8. ‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?**
 - Source: MarketWatch Top Stories
@@ -512,4 +512,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 11 October 2026, 22:30:06 (HKT)
+- Report generated at: 12 October 2026, 01:13:24 (HKT)
