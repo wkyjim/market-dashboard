@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 13 October 2026, 03:06:49 (HKT)
+Generated at: 13 October 2026, 04:07:57 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -24,7 +24,7 @@ Window: 24h
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 53.17 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 53.19 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.38 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7798.28 | -0.17 | 2026-10-12 | live as of 13 October 2026, 03:00:22 (HKT) |
-| ^IXIC | NASDAQ Composite | 27225.18 | -0.52 | 2026-10-12 | live as of 13 October 2026, 03:00:22 (HKT) |
-| ^RUT | Russell 2000 Index | 2797.8 | -0.33 | 2026-10-12 | live as of 13 October 2026, 03:00:22 (HKT) |
-| ^VIX | CBOE Volatility Index | 15.22 | 2.56 | 2026-10-12 | live as of 13 October 2026, 03:00:22 (HKT) |
+| ^GSPC | S&P 500 | 7807.2 | -0.06 | 2026-10-12 | live as of 13 October 2026, 04:00:24 (HKT) |
+| ^IXIC | NASDAQ Composite | 27245.9 | -0.44 | 2026-10-12 | live as of 13 October 2026, 04:00:24 (HKT) |
+| ^RUT | Russell 2000 Index | 2795.57 | -0.41 | 2026-10-12 | live as of 13 October 2026, 04:00:24 (HKT) |
+| ^VIX | CBOE Volatility Index | 15.24 | 2.7 | 2026-10-12 | live as of 13 October 2026, 04:00:24 (HKT) |
 | ^SKEW | CBOE SKEW Index | 154.34 | 3.45 | 2026-10-09 | closed |
 | ^MOVE | ICE BofA MOVE Index | 102.56 | -2.51 | 2026-10-07 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.8 | 1.05 | 2026-10-09 | live as of 13 October 2026, 03:00:22 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.89 | 0.82 | 2026-10-09 | live as of 13 October 2026, 03:00:22 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 5.02 | 0.6 | 2026-10-09 | live as of 13 October 2026, 03:00:22 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 5.13 | 0.39 | 2026-10-09 | live as of 13 October 2026, 03:00:22 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 5.24 | 0.38 | 2026-10-09 | live as of 13 October 2026, 03:00:22 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.65 | 0.18 | 2026-10-09 | live as of 13 October 2026, 03:00:22 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.6 | 0.0 | 2026-10-09 | live as of 13 October 2026, 03:00:22 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.79 | 0.74 | 2026-10-09 | live as of 13 October 2026, 04:00:24 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.92 | 0.74 | 2026-10-09 | live as of 13 October 2026, 04:00:24 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 5.02 | 0.6 | 2026-10-09 | live as of 13 October 2026, 04:00:24 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 5.13 | 0.41 | 2026-10-09 | live as of 13 October 2026, 04:00:24 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 5.24 | -0.17 | 2026-10-12 | live as of 13 October 2026, 04:00:24 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.65 | -0.04 | 2026-10-09 | live as of 13 October 2026, 04:00:24 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.6 | -0.14 | 2026-10-09 | live as of 13 October 2026, 04:00:24 (HKT) |
 | HK50 | Hang Seng Futures | 23885.5 | -2.18 | 2026-10-02 | closed |
 | KOR200c1 | KOSPI 200 Futures | 7003.74 | 0.46 | 2026-10-02 | closed |
 | CIHc1 | SSE 50 Futures | 3842.19 | 0.31 | 2026-09-30 | closed |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.28 | 0.07 | 2026-10-12 | live as of 13 October 2026, 03:00:22 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 102.5 | 0.08 | 2026-10-12 | live as of 13 October 2026, 03:00:22 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 92.92 | 0.09 | 2026-10-12 | live as of 13 October 2026, 03:00:22 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 212.89 | -0.07 | 2026-10-12 | live as of 13 October 2026, 03:00:22 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 126.99 | -0.72 | 2026-10-12 | live as of 13 October 2026, 03:00:22 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 254.4 | 0.34 | 2026-10-12 | live as of 13 October 2026, 03:00:22 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 77.95 | -0.03 | 2026-10-12 | live as of 13 October 2026, 03:00:22 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 89.39 | -0.01 | 2026-10-12 | live as of 13 October 2026, 03:00:22 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.17 | -0.03 | 2026-10-12 | live as of 13 October 2026, 03:00:22 (HKT) |
-| GC=F | Gold Future | 4191.9 | -0.58 | 2026-10-12 | live as of 13 October 2026, 03:00:22 (HKT) |
-| SI=F | Silver Future | 60.44 | -0.39 | 2026-10-12 | live as of 13 October 2026, 03:00:22 (HKT) |
-| CL=F | WTI Crude Oil Future | 93.61 | n/a | 2026-10-12 | live as of 13 October 2026, 03:00:22 (HKT) |
-| HG=F | Copper Future | 6.76 | 1.72 | 2026-10-12 | live as of 13 October 2026, 03:00:22 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.3 | 0.09 | 2026-10-12 | live as of 13 October 2026, 04:00:24 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 102.58 | 0.17 | 2026-10-12 | live as of 13 October 2026, 04:00:24 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 92.92 | 0.1 | 2026-10-12 | live as of 13 October 2026, 04:00:24 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 213.17 | 0.06 | 2026-10-12 | live as of 13 October 2026, 04:00:24 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 127.13 | -0.61 | 2026-10-12 | live as of 13 October 2026, 04:00:24 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 254.64 | 0.43 | 2026-10-12 | live as of 13 October 2026, 04:00:24 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 78.05 | 0.09 | 2026-10-12 | live as of 13 October 2026, 04:00:24 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 89.43 | 0.03 | 2026-10-12 | live as of 13 October 2026, 04:00:24 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.17 | -0.04 | 2026-10-12 | live as of 13 October 2026, 04:00:24 (HKT) |
+| GC=F | Gold Future | 4192.5 | -0.56 | 2026-10-12 | live as of 13 October 2026, 04:00:24 (HKT) |
+| SI=F | Silver Future | 60.46 | -0.35 | 2026-10-12 | live as of 13 October 2026, 04:00:24 (HKT) |
+| CL=F | WTI Crude Oil Future | 93.29 | n/a | 2026-10-12 | live as of 13 October 2026, 04:00:24 (HKT) |
+| HG=F | Copper Future | 6.76 | 1.75 | 2026-10-12 | live as of 13 October 2026, 04:00:24 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=15.22 pct_chg=2.56
+- VIX close=15.24 pct_chg=2.7
 
 ## News Analytics
 
@@ -390,15 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**8. I’m a 68-year-old widow and give money to my two adult children. Am I putting my retirement at risk?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: I, IRA
-- Score: `18.06`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**9. Beckham, Yao Ming attend NBA China Games in a boost to Macao's live events**
+**8. Beckham, Yao Ming attend NBA China Games in a boost to Macao's live events**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -406,13 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `17.16`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**10. The economy: Is G the new K?**
+**9. The economy: Is G the new K?**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: CNBC, G, K
 - Score: `17.16`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**10. ‘I feel like a loser’: My stock portfolio is swinging wildly. Is it finally time to worry?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: single_name / short-term
+- Affected assets: I
+- Score: `16.25`
+- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
@@ -513,4 +513,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 13 October 2026, 03:06:49 (HKT)
+- Report generated at: 13 October 2026, 04:07:57 (HKT)
