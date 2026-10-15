@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 15 October 2026, 08:44:48 (HKT)
+Generated at: 15 October 2026, 09:15:13 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **47.98 / 100** (Mixed / Rotation)
+- Regime score: **48.2 / 100** (Mixed / Rotation)
 - US equity strength: **50.33 / 100** (neutral)
-- Evidence quality: **65.5 / 100**
-- ETF flow contribution: **48.82 / 100**, reliability **65.97 / 100**
+- Evidence quality: **69.0 / 100**
+- ETF flow contribution: **48.59 / 100**, reliability **65.94 / 100**
 - Breadth: **narrow**; above 50DMA `40.0%`, above 200DMA `56.67%`
 - Top sector score: **Healthcare** `69.64`
 - Top theme score: **Energy** `63.64`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 47.98 | Mixed / Rotation |
+| Overall regime | 48.2 | Mixed / Rotation |
 | equity_trend | 48.75 | neutral / mixed; Core equity ETFs versus moving averages. |
 | equity_momentum | 48.88 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 53.33 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -25,8 +25,8 @@ Window: 24h
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 52.11 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 51.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 49.22 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| etf_flow | 49.07 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | none |
 | Negative contributors |  | volatility=20.0 |
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `65.5`
-- Agreement ratio: `0.1`
+- Confidence score: `69.0`
+- Agreement ratio: `0.2`
 - Contradiction count: `1`
 - Missing indicators: none
 - Warning flags: none
@@ -64,7 +64,7 @@ Window: 24h
 | Gold | Gold falling | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver falling | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude unavailable | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -79,13 +79,13 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | nan | 16.87 | 10.48 | 2026-10-14 | closed |
 | ^SKEW | CBOE SKEW Index | 157.3 | 1.65 | 2026-10-14 | closed |
 | ^MOVE | nan | 102.85 | 0.28 | 2026-10-14 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.82 | 0.63 | 2026-10-14 | live as of 15 October 2026, 08:30:22 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.92 | 0.41 | 2026-10-14 | live as of 15 October 2026, 08:30:22 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 5.0 | 0.0 | 2026-10-14 | live as of 15 October 2026, 08:30:22 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 5.09 | -0.39 | 2026-10-14 | live as of 15 October 2026, 08:30:22 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 5.19 | -0.38 | 2026-10-14 | live as of 15 October 2026, 08:30:22 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.57 | -0.54 | 2026-10-14 | live as of 15 October 2026, 08:30:22 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.52 | -0.72 | 2026-10-14 | live as of 15 October 2026, 08:30:22 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.74 | -0.4 | 2026-10-15 | live as of 15 October 2026, 09:00:23 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.85 | -0.35 | 2026-10-15 | live as of 15 October 2026, 09:00:23 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.93 | -0.33 | 2026-10-15 | live as of 15 October 2026, 09:00:23 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 5.03 | -0.3 | 2026-10-15 | live as of 15 October 2026, 09:00:23 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 5.12 | -0.43 | 2026-10-15 | live as of 15 October 2026, 09:00:23 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.53 | -0.29 | 2026-10-15 | live as of 15 October 2026, 09:00:23 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.48 | -0.28 | 2026-10-15 | live as of 15 October 2026, 09:00:23 (HKT) |
 | HK50 | nan | 24122.5 | -0.89 | 2026-10-14 | closed |
 | KOR200c1 | nan | 967.6 | 0.62 | 2026-10-13 | closed |
 | CIHc1 | nan | 2801.6 | -0.33 | 2026-10-13 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | nan | 81.1 | -0.07 | 2026-10-14 | closed |
 | GC=F | nan | 4117.6 | -0.56 | 2026-10-14 | closed |
 | SI=F | nan | 56.46 | -5.74 | 2026-10-14 | closed |
-| CL=F | nan | 95.54 | 8.22 | 2026-10-14 | closed |
+| CL=F | WTI Crude Oil Future | 94.27 | n/a | 2026-10-15 | live as of 15 October 2026, 09:00:23 (HKT) |
 | HG=F | nan | 6.7 | 1.52 | 2026-10-14 | closed |
 
 ## Market Dispersion Analysis
@@ -334,7 +334,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. 10-year Treasury yield dips as traders look ahead to Thursday economic reports**
+**1. SK Hynix shares plunge 10% amid Asia tech rout as Fed rate hike fears, AI funding worries mount**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: A, SK
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. 10-year Treasury yield dips as traders look ahead to Thursday economic reports**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -342,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. These stocks offer some of the best risk-adjusted upside on Wall Street**
+**3. These stocks offer some of the best risk-adjusted upside on Wall Street**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -350,16 +358,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Container ship sinks in Strait of Hormuz as Iran steps up attacks**
+**4. Container ship sinks in Strait of Hormuz as Iran steps up attacks**
 - Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**4. What to expect at the next Fed meeting now that rate-hike odds are rising**
-- Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
@@ -417,7 +417,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-Noisy headline list: Earnings season is heating up. UBS thinks these st
+No noisy headlines detected by current rules.
 
 ## Positioning & Flow Dashboard
 
@@ -432,13 +432,13 @@ Positioning and flow data is used as confirmation only.
 ## ETF Flows Analysis
 
 - Market flow regime: `Mixed / Neutral`
-- Market flow score: `54.6 / 100`
+- Market flow score: `54.4 / 100`
 - Equity risk flow: `53.3`
 - Credit risk flow: `67.3`
 - Sector cyclicality flow: `45.1`
-- Duration/liquidity flow: `54.0`
+- Duration/liquidity flow: `52.3`
 - Alternatives: `barbell demand`
-- ETF flow reliability: `66.0 / 100`
+- ETF flow reliability: `65.9 / 100`
 - Dominant allocation direction: `defensive demand`
 
 ### Core Flow Signals
@@ -453,7 +453,7 @@ Positioning and flow data is used as confirmation only.
 | IWM | U.S. Small Cap | 0.0 | 1.3 | 0.6 | 2.7 | Down | Neutral | High | Heavy Selling Pressure | Cautious | Medium-term deterioration | 83.0 |
 | LQD | Investment-Grade Credit | 0.4 | -1.6 | 0.6 | 0.3 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term recovery | 87.0 |
 | HYG | High-Yield Credit | 2.7 | 1.8 | 0.7 | 0.8 | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation; Exceptional institutional buying | 100.0 |
-| SGOV | Treasury Bills / Cash | -0.2 | -0.2 | 0.8 | -0.5 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 99.0 |
+| SGOV | Treasury Bills / Cash | -0.3 | -0.2 | 0.8 | 0.6 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 99.0 |
 | SHY | Short-Duration Treasuries | 0.9 | 1.4 | 0.6 | -0.2 | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation | 91.0 |
 | IEF | Intermediate-Duration Treasuries | 0.1 | -1.3 | 0.6 | 0.4 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term recovery | 87.0 |
 | TLT | Long-Duration Treasuries | 0.8 | 1.7 | 0.7 | 0.3 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural accumulation | 91.0 |
@@ -505,11 +505,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `13`
+- Live macro rows used: `15`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 15 October 2026, 08:44:48 (HKT)
+- Report generated at: 15 October 2026, 09:15:13 (HKT)
