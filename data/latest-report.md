@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 15 October 2026, 12:13:07 (HKT)
+Generated at: 15 October 2026, 13:13:41 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **48.0 / 100** (Mixed / Rotation)
+- Regime score: **48.37 / 100** (Mixed / Rotation)
 - US equity strength: **50.33 / 100** (neutral)
-- Evidence quality: **65.5 / 100**
+- Evidence quality: **69.0 / 100**
 - ETF flow contribution: **49.16 / 100**, reliability **66.97 / 100**
 - Breadth: **narrow**; above 50DMA `40.0%`, above 200DMA `56.67%`
 - Top sector score: **Healthcare** `69.64`
@@ -17,14 +17,14 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 48.0 | Mixed / Rotation |
+| Overall regime | 48.37 | Mixed / Rotation |
 | equity_trend | 48.75 | neutral / mixed; Core equity ETFs versus moving averages. |
 | equity_momentum | 48.88 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 53.33 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 20.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 52.11 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 57.34 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 51.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.44 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `65.5`
-- Agreement ratio: `0.1`
+- Confidence score: `69.0`
+- Agreement ratio: `0.2`
 - Contradiction count: `1`
 - Missing indicators: none
 - Warning flags: none
@@ -59,12 +59,12 @@ Window: 24h
 | --- | --- | --- |
 | Equities | S&P 500 falling; Nasdaq falling; Russell 2000 falling | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
 | Rates | 10Y Treasury falling; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
-| Dollar | DXY proxy rising | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
+| Dollar | DXY proxy falling | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG falling | High-yield weakness would challenge equity risk-on confirmation. |
-| Gold | Gold falling | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
-| Silver | Silver falling | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
-| Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
+| Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
+| Copper | Copper falling | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
+| Oil | WTI crude unavailable | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -79,13 +79,13 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | nan | 16.87 | 10.48 | 2026-10-14 | closed |
 | ^SKEW | CBOE SKEW Index | 157.3 | 1.65 | 2026-10-14 | closed |
 | ^MOVE | nan | 102.85 | 0.28 | 2026-10-14 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.82 | 0.63 | 2026-10-14 | live as of 15 October 2026, 12:00:23 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.92 | 0.41 | 2026-10-14 | live as of 15 October 2026, 12:00:23 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 5.0 | 0.0 | 2026-10-14 | live as of 15 October 2026, 12:00:23 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 5.09 | -0.39 | 2026-10-14 | live as of 15 October 2026, 12:00:23 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 5.19 | -0.38 | 2026-10-14 | live as of 15 October 2026, 12:00:23 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.57 | -0.54 | 2026-10-14 | live as of 15 October 2026, 12:00:23 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.52 | -0.72 | 2026-10-14 | live as of 15 October 2026, 12:00:23 (HKT) |
+| US2YT=X | nan | 4.88 | 1.12 | 2026-10-14 | closed |
+| US3YT=X | nan | 4.99 | 0.66 | 2026-10-14 | closed |
+| US5YT=X | nan | 5.08 | 0.3 | 2026-10-14 | closed |
+| US7YT=X | nan | 5.17 | 0.08 | 2026-10-14 | closed |
+| US10YT=X | nan | 5.26 | -0.42 | 2026-10-14 | closed |
+| US20YT=X | nan | 5.63 | -0.65 | 2026-10-14 | closed |
+| US30YT=X | nan | 5.58 | 0.25 | 2026-10-14 | closed |
 | HK50 | nan | 24122.5 | -0.89 | 2026-10-14 | closed |
 | KOR200c1 | nan | 967.6 | 0.62 | 2026-10-13 | closed |
 | CIHc1 | nan | 2801.6 | -0.33 | 2026-10-13 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | nan | 78.89 | 0.66 | 2026-10-14 | closed |
 | IEF | nan | 89.25 | 0.15 | 2026-10-14 | closed |
 | SHY | nan | 81.1 | -0.07 | 2026-10-14 | closed |
-| GC=F | nan | 4117.6 | -0.56 | 2026-10-14 | closed |
-| SI=F | nan | 56.46 | -5.74 | 2026-10-14 | closed |
-| CL=F | nan | 95.54 | 8.22 | 2026-10-14 | closed |
-| HG=F | nan | 6.7 | 1.52 | 2026-10-14 | closed |
+| GC=F | Gold Future | 4166.6 | 1.43 | 2026-10-15 | live as of 15 October 2026, 13:00:23 (HKT) |
+| SI=F | Silver Future | 56.2 | 1.17 | 2026-10-15 | live as of 15 October 2026, 13:00:23 (HKT) |
+| CL=F | WTI Crude Oil Future | 94.04 | n/a | 2026-10-15 | live as of 15 October 2026, 13:00:23 (HKT) |
+| HG=F | Copper Future | 6.58 | -0.5 | 2026-10-15 | live as of 15 October 2026, 13:00:23 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -506,11 +506,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `49`
-- Live macro rows used: `14`
+- Live macro rows used: `18`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 15 October 2026, 12:13:07 (HKT)
+- Report generated at: 15 October 2026, 13:13:41 (HKT)
