@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 15 October 2026, 10:15:08 (HKT)
+Generated at: 15 October 2026, 11:15:09 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,13 +79,13 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | nan | 16.87 | 10.48 | 2026-10-14 | closed |
 | ^SKEW | CBOE SKEW Index | 157.3 | 1.65 | 2026-10-14 | closed |
 | ^MOVE | nan | 102.85 | 0.28 | 2026-10-14 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.72 | -1.63 | 2026-10-15 | live as of 15 October 2026, 10:00:23 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.83 | -1.66 | 2026-10-15 | live as of 15 October 2026, 10:00:23 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.9 | -1.75 | 2026-10-15 | live as of 15 October 2026, 10:00:23 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 5.0 | -1.75 | 2026-10-15 | live as of 15 October 2026, 10:00:23 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 5.1 | -1.66 | 2026-10-15 | live as of 15 October 2026, 10:00:23 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.5 | -1.28 | 2026-10-15 | live as of 15 October 2026, 10:00:23 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.46 | -1.17 | 2026-10-15 | live as of 15 October 2026, 10:00:23 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.73 | -1.59 | 2026-10-15 | live as of 15 October 2026, 11:00:24 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.83 | -1.64 | 2026-10-15 | live as of 15 October 2026, 11:00:24 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.91 | -1.72 | 2026-10-15 | live as of 15 October 2026, 11:00:24 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 5.0 | -1.75 | 2026-10-15 | live as of 15 October 2026, 11:00:24 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 5.1 | -1.81 | 2026-10-15 | live as of 15 October 2026, 11:00:24 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.57 | -0.54 | 2026-10-14 | live as of 15 October 2026, 11:00:24 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.52 | -0.72 | 2026-10-14 | live as of 15 October 2026, 11:00:24 (HKT) |
 | HK50 | nan | 24122.5 | -0.89 | 2026-10-14 | closed |
 | KOR200c1 | nan | 967.6 | 0.62 | 2026-10-13 | closed |
 | CIHc1 | nan | 2801.6 | -0.33 | 2026-10-13 | closed |
@@ -100,7 +100,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | SHY | nan | 81.1 | -0.07 | 2026-10-14 | closed |
 | GC=F | nan | 4117.6 | -0.56 | 2026-10-14 | closed |
 | SI=F | nan | 56.46 | -5.74 | 2026-10-14 | closed |
-| CL=F | WTI Crude Oil Future | 93.86 | n/a | 2026-10-15 | live as of 15 October 2026, 10:00:23 (HKT) |
+| CL=F | WTI Crude Oil Future | 93.83 | n/a | 2026-10-15 | live as of 15 October 2026, 11:00:24 (HKT) |
 | HG=F | nan | 6.7 | 1.52 | 2026-10-14 | closed |
 
 ## Market Dispersion Analysis
@@ -342,15 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Why Dell’s stock was one of the S&P 500’s biggest laggards on Wednesday**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: HPE, P, S
-- Score: `21.25`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**3. Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma**
+**2. Rising bond yields and higher inflation leave the Fed trapped in a rate-hike dilemma**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -358,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. How Iran’s $2 trillion threat puts your AI stocks at risk**
+**3. How Iran’s $2 trillion threat puts your AI stocks at risk**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Fake shopping sprees and ‘happiness insurance’: The latest fintech apps reveal our financial anxieties**
+**4. Fake shopping sprees and ‘happiness insurance’: The latest fintech apps reveal our financial anxieties**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Here’s how much the AI boom is really contributing to inflation, according to Goldman Sachs calculations**
+**5. Here’s how much the AI boom is really contributing to inflation, according to Goldman Sachs calculations**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. S&P 500 futures fall as traders await more U.S. economic data: Live updates**
+**6. S&P 500 futures fall as traders await more U.S. economic data: Live updates**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -390,15 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**8. S&P 500 drops 1%, dragged down by hot inflation data and sell-off in AI-related stocks**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: P, S
-- Score: `20.19`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**9. 10-year Treasury yield dips as traders look ahead to Thursday economic reports**
+**7. 10-year Treasury yield dips as traders look ahead to Thursday economic reports**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -406,8 +390,24 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. These stocks offer some of the best risk-adjusted upside on Wall Street**
+**8. These stocks offer some of the best risk-adjusted upside on Wall Street**
 - Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `20.19`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. Container ship sinks in Strait of Hormuz as Iran steps up attacks**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `20.19`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. What to expect at the next Fed meeting now that rate-hike odds are rising**
+- Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
@@ -512,4 +512,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 15 October 2026, 10:15:08 (HKT)
+- Report generated at: 15 October 2026, 11:15:09 (HKT)
