@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 21 October 2026, 18:13:49 (HKT)
+Generated at: 21 October 2026, 19:09:38 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **49.65 / 100** (Mixed / Rotation)
+- Regime score: **49.66 / 100** (Mixed / Rotation)
 - US equity strength: **41.8 / 100** (weak)
-- Evidence quality: **69.0 / 100**
+- Evidence quality: **72.5 / 100**
 - ETF flow contribution: **46.88 / 100**, reliability **71.63 / 100**
 - Breadth: **narrow**; above 50DMA `41.67%`, above 200DMA `55.0%`
 - Top sector score: **Healthcare** `69.62`
@@ -17,14 +17,14 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 49.65 | Mixed / Rotation |
+| Overall regime | 49.66 | Mixed / Rotation |
 | equity_trend | 37.5 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 47.65 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 43.89 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.81 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 55.01 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 50.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.77 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `69.0`
-- Agreement ratio: `0.2`
+- Confidence score: `72.5`
+- Agreement ratio: `0.3`
 - Contradiction count: `2`
 - Missing indicators: none
 - Warning flags: none
@@ -62,7 +62,7 @@ Window: 24h
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold unavailable | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
-| Silver | Silver falling | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
+| Silver | Silver stable | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper unavailable | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude unavailable | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
@@ -76,7 +76,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7712.57 | 0.28 | 2026-10-20 | closed |
 | ^IXIC | nan | 26957.44 | -2.11 | 2026-10-14 | closed |
 | ^RUT | nan | 2746.61 | -1.67 | 2026-10-14 | closed |
-| ^VIX | CBOE Volatility Index | 17.44 | 0.75 | 2026-10-21 | live as of 21 October 2026, 18:05:32 (HKT) |
+| ^VIX | CBOE Volatility Index | 17.39 | 0.46 | 2026-10-21 | live as of 21 October 2026, 19:00:19 (HKT) |
 | ^SKEW | CBOE SKEW Index | 160.4 | -0.9 | 2026-10-20 | closed |
 | ^MOVE | nan | 102.85 | 0.28 | 2026-10-14 | closed |
 | US2YT=X | US2YT=X | 4.74 | -0.32 | 2026-10-16 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 80.13 | 0.84 | 2026-10-20 | closed |
 | IEF | nan | 89.25 | 0.15 | 2026-10-14 | closed |
 | SHY | nan | 81.1 | -0.07 | 2026-10-14 | closed |
-| GC=F | Gold Future | 4139.8 | n/a | 2026-10-21 | live as of 21 October 2026, 18:05:32 (HKT) |
-| SI=F | Silver Future | 57.5 | -0.36 | 2026-10-21 | live as of 21 October 2026, 18:05:32 (HKT) |
-| CL=F | WTI Crude Oil Future | 99.41 | n/a | 2026-10-21 | live as of 21 October 2026, 18:05:32 (HKT) |
-| HG=F | Copper Future | 6.55 | n/a | 2026-10-21 | live as of 21 October 2026, 18:05:32 (HKT) |
+| GC=F | Gold Future | 4145.1 | n/a | 2026-10-21 | live as of 21 October 2026, 19:00:19 (HKT) |
+| SI=F | Silver Future | 57.68 | -0.05 | 2026-10-21 | live as of 21 October 2026, 19:00:19 (HKT) |
+| CL=F | WTI Crude Oil Future | 99.95 | n/a | 2026-10-21 | live as of 21 October 2026, 19:00:19 (HKT) |
+| HG=F | Copper Future | 6.55 | n/a | 2026-10-21 | live as of 21 October 2026, 19:00:19 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=17.44 pct_chg=0.75
+- VIX close=17.39 pct_chg=0.46
 
 ## News Analytics
 
@@ -366,15 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**5. Why smaller stocks face worse prospects than the S&P 500 in the coming years**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: P, S
-- Score: `18.06`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**6. We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?**
+**5. We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `16.25`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**7. CNBC Daily Open: SpaceX and Tesla may merge in the multiverse of Musk**
+**6. CNBC Daily Open: SpaceX and Tesla may merge in the multiverse of Musk**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
@@ -390,15 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `15.44`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**8. U.S. eyes refining muscle of Indian billionaire Ambani's Reliance as Rubio visits Jamnagar plant**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / short-term
-- Affected assets: U.S
-- Score: `15.44`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
-
-**9. ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?**
+**7. ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
@@ -406,7 +390,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `13.81`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**10. My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?**
+**8. My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: single_name / short-term
+- Affected assets: I
+- Score: `13.81`
+- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
+
+**9. My partner of 17 years left me his $1 million home. His children say I influenced him to do so. Should I share my inheritance?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: single_name / short-term
+- Affected assets: I
+- Score: `13.81`
+- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
+
+**10. ‘I’m naturally skeptical’: I receive 10 calls a day offering me $15,000 loans at 8% interest. Is this a scam?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
@@ -513,4 +513,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 21 October 2026, 18:13:49 (HKT)
+- Report generated at: 21 October 2026, 19:09:38 (HKT)
