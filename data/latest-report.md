@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 21 October 2026, 17:35:39 (HKT)
+Generated at: 21 October 2026, 18:13:49 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -24,7 +24,7 @@ Window: 24h
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.84 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.81 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 50.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 47.77 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
@@ -76,7 +76,7 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7712.57 | 0.28 | 2026-10-20 | closed |
 | ^IXIC | nan | 26957.44 | -2.11 | 2026-10-14 | closed |
 | ^RUT | nan | 2746.61 | -1.67 | 2026-10-14 | closed |
-| ^VIX | CBOE Volatility Index | 17.36 | 0.29 | 2026-10-21 | live as of 21 October 2026, 17:00:20 (HKT) |
+| ^VIX | CBOE Volatility Index | 17.44 | 0.75 | 2026-10-21 | live as of 21 October 2026, 18:05:32 (HKT) |
 | ^SKEW | CBOE SKEW Index | 160.4 | -0.9 | 2026-10-20 | closed |
 | ^MOVE | nan | 102.85 | 0.28 | 2026-10-14 | closed |
 | US2YT=X | US2YT=X | 4.74 | -0.32 | 2026-10-16 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 80.13 | 0.84 | 2026-10-20 | closed |
 | IEF | nan | 89.25 | 0.15 | 2026-10-14 | closed |
 | SHY | nan | 81.1 | -0.07 | 2026-10-14 | closed |
-| GC=F | Gold Future | 4140.5 | n/a | 2026-10-21 | live as of 21 October 2026, 17:00:20 (HKT) |
-| SI=F | Silver Future | 57.44 | -0.46 | 2026-10-21 | live as of 21 October 2026, 17:00:20 (HKT) |
-| CL=F | WTI Crude Oil Future | 99.19 | n/a | 2026-10-21 | live as of 21 October 2026, 17:00:20 (HKT) |
-| HG=F | Copper Future | 6.54 | n/a | 2026-10-21 | live as of 21 October 2026, 17:00:20 (HKT) |
+| GC=F | Gold Future | 4139.8 | n/a | 2026-10-21 | live as of 21 October 2026, 18:05:32 (HKT) |
+| SI=F | Silver Future | 57.5 | -0.36 | 2026-10-21 | live as of 21 October 2026, 18:05:32 (HKT) |
+| CL=F | WTI Crude Oil Future | 99.41 | n/a | 2026-10-21 | live as of 21 October 2026, 18:05:32 (HKT) |
+| HG=F | Copper Future | 6.55 | n/a | 2026-10-21 | live as of 21 October 2026, 18:05:32 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=17.36 pct_chg=0.29
+- VIX close=17.44 pct_chg=0.75
 
 ## News Analytics
 
@@ -334,21 +334,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. Oil prices climb as traders assess Middle East developments**
-- Source: CNBC Markets
+**1. Treasury yields steady as investors await jobless claims, mortgage data**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Oil prices climb as traders assess Middle East developments**
+- Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. 'MAKE DEALS': Trump says data centers should pay communities a 'dividend' to win support**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: DEALS, MAKE
-- Score: `20.19`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 **3. Samsung, SK Hynix upgrading China plants to make more advanced chips, people say: Reuters**
 - Source: CNBC Top News
@@ -358,31 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**4. Prediction-market odds rise for Marine Le Pen in France 2027 presidential race as protests roil nation**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**5. Dow jumps 500 points as earnings optimism steadies market: Live updates**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: A
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. Oil prices fall as traders hope for diplomatic progress in Middle East**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Bull markets tend to peak with a whimper, not a bang — but a 15% correction for the S&P 500 may be next**
+**4. Bull markets tend to peak with a whimper, not a bang — but a 15% correction for the S&P 500 may be next**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -390,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**8. Why smaller stocks face worse prospects than the S&P 500 in the coming years**
+**5. Why smaller stocks face worse prospects than the S&P 500 in the coming years**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -398,7 +374,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**9. U.S. eyes refining muscle of Indian billionaire Ambani's Reliance as Rubio visits Jamnagar plant**
+**6. We have a $300,000 mortgage with a 2.75% interest rate. I want to pay it off. My husband says I’m crazy. Who’s right?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: single_name / short-term
+- Affected assets: I
+- Score: `16.25`
+- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
+
+**7. CNBC Daily Open: SpaceX and Tesla may merge in the multiverse of Musk**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: single_name / short-term
+- Affected assets: CNBC
+- Score: `15.44`
+- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
+
+**8. U.S. eyes refining muscle of Indian billionaire Ambani's Reliance as Rubio visits Jamnagar plant**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
@@ -406,7 +398,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `15.44`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**10. ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?**
+**9. ‘I don’t feel sorry for myself’: I’m 64 and will be renting for the rest of my life. Is that so bad?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: single_name / short-term
+- Affected assets: I
+- Score: `13.81`
+- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
+
+**10. My wife says we can’t afford to retire. I vetoed her $8,000 trip to Italy. We’re in our 60s and have $4 million. Do I keep working?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
@@ -513,4 +513,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 21 October 2026, 17:35:39 (HKT)
+- Report generated at: 21 October 2026, 18:13:49 (HKT)
