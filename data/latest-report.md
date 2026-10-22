@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 22 October 2026, 18:10:50 (HKT)
+Generated at: 22 October 2026, 20:09:44 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -76,19 +76,19 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7757.17 | 0.58 | 2026-10-21 | closed |
 | ^IXIC | nan | 26957.44 | -2.11 | 2026-10-14 | closed |
 | ^RUT | nan | 2746.61 | -1.67 | 2026-10-14 | closed |
-| ^VIX | CBOE Volatility Index | 18.57 | n/a | 2026-10-22 | live as of 22 October 2026, 18:00:23 (HKT) |
+| ^VIX | CBOE Volatility Index | 18.14 | n/a | 2026-10-22 | live as of 22 October 2026, 20:00:20 (HKT) |
 | ^SKEW | CBOE SKEW Index | 150.36 | -6.26 | 2026-10-21 | closed |
 | ^MOVE | nan | 102.85 | 0.28 | 2026-10-14 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.76 | n/a | 2026-10-22 | live as of 22 October 2026, 18:00:23 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.84 | n/a | 2026-10-22 | live as of 22 October 2026, 18:00:23 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.89 | n/a | 2026-10-22 | live as of 22 October 2026, 18:00:23 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.97 | n/a | 2026-10-22 | live as of 22 October 2026, 18:00:23 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 5.06 | n/a | 2026-10-22 | live as of 22 October 2026, 18:00:23 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.42 | n/a | 2026-10-22 | live as of 22 October 2026, 18:00:23 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.36 | n/a | 2026-10-22 | live as of 22 October 2026, 18:00:23 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.73 | n/a | 2026-10-22 | live as of 22 October 2026, 20:00:20 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.81 | n/a | 2026-10-22 | live as of 22 October 2026, 20:00:20 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.87 | n/a | 2026-10-22 | live as of 22 October 2026, 20:00:20 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.95 | n/a | 2026-10-22 | live as of 22 October 2026, 20:00:20 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 5.05 | n/a | 2026-10-22 | live as of 22 October 2026, 20:00:20 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.41 | n/a | 2026-10-22 | live as of 22 October 2026, 20:00:20 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.36 | n/a | 2026-10-22 | live as of 22 October 2026, 20:00:20 (HKT) |
 | HK50 | HK50 | 24107.5 | -0.71 | 2026-10-16 | closed |
-| KOR200c1 | KOSPI 200 Futures | 885.1 | n/a | 2026-10-21 | live as of 22 October 2026, 18:00:23 (HKT) |
-| CIHc1 | SSE 50 Futures | 2726.2 | n/a | 2026-10-21 | live as of 22 October 2026, 18:00:23 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 885.1 | n/a | 2026-10-21 | live as of 22 October 2026, 20:00:20 (HKT) |
+| CIHc1 | SSE 50 Futures | 2726.2 | n/a | 2026-10-21 | live as of 22 October 2026, 20:00:20 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 76.98 | 0.2 | 2026-10-21 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 103.21 | -0.01 | 2026-10-21 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.39 | 0.16 | 2026-10-21 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 80.24 | 0.14 | 2026-10-21 | closed |
 | IEF | nan | 89.25 | 0.15 | 2026-10-14 | closed |
 | SHY | nan | 81.1 | -0.07 | 2026-10-14 | closed |
-| GC=F | Gold Future | 4100.4 | -1.2 | 2026-10-22 | live as of 22 October 2026, 18:00:23 (HKT) |
-| SI=F | Silver Future | 55.97 | -2.53 | 2026-10-22 | live as of 22 October 2026, 18:00:23 (HKT) |
-| CL=F | WTI Crude Oil Future | 99.79 | 2.72 | 2026-10-22 | live as of 22 October 2026, 18:00:23 (HKT) |
-| HG=F | Copper Future | 6.43 | -1.76 | 2026-10-22 | live as of 22 October 2026, 18:00:23 (HKT) |
+| GC=F | Gold Future | 4077.6 | -1.74 | 2026-10-22 | live as of 22 October 2026, 20:00:20 (HKT) |
+| SI=F | Silver Future | 55.77 | -2.88 | 2026-10-22 | live as of 22 October 2026, 20:00:20 (HKT) |
+| CL=F | WTI Crude Oil Future | 99.57 | 2.49 | 2026-10-22 | live as of 22 October 2026, 20:00:20 (HKT) |
+| HG=F | Copper Future | 6.41 | -2.03 | 2026-10-22 | live as of 22 October 2026, 20:00:20 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=18.57 pct_chg=0.0
+- VIX close=18.14 pct_chg=0.0
 
 ## News Analytics
 
@@ -398,15 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. AT&T shrugs off SpaceX fears with its own large haul of new internet subscribers**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AT, T
-- Score: `18.06`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**10. S&P 500 notches 3-day win streak, Nasdaq jumps 1% as SpaceX and Tesla rally**
+**9. S&P 500 notches 3-day win streak, Nasdaq jumps 1% as SpaceX and Tesla rally**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -414,10 +406,18 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `17.16`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
+**10. Nasdaq closes sharply higher, Dow and S&P 500 rise as Big Tech earnings kick off**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: P, S
+- Score: `17.16`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
 
 ### Headline Quality Checks
 
-Noisy headline list: U.S. Treasury yields may be poised for a breakout , Time for a Micron mindset shift? Here’s how to nav
+Noisy headline list: U.S. Treasury yields may be poised for a breakout , Time for a Micron mindset shift? Here’s how to nav, Musk's SpaceX stock gift is 'tip of the iceberg' f
 
 ## Positioning & Flow Dashboard
 
@@ -513,4 +513,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 22 October 2026, 18:10:50 (HKT)
+- Report generated at: 22 October 2026, 20:09:44 (HKT)
