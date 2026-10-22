@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 22 October 2026, 22:15:21 (HKT)
+Generated at: 22 October 2026, 23:09:19 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7693.21 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| ^IXIC | NASDAQ Composite | 26299.91 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| ^RUT | Russell 2000 Index | 2774.73 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| ^VIX | CBOE Volatility Index | 18.24 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
+| ^GSPC | S&P 500 | 7659.3 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| ^IXIC | NASDAQ Composite | 26130.01 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| ^RUT | Russell 2000 Index | 2768.02 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| ^VIX | CBOE Volatility Index | 19.27 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
 | ^SKEW | CBOE SKEW Index | 150.36 | -6.26 | 2026-10-21 | closed |
-| ^MOVE | ICE BofA MOVE Index | 102.97 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| US2YT=X | United States 2-Year Treasury Yield | 4.73 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.8 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.86 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.94 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 5.02 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.4 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.34 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| HK50 | Hang Seng Futures | 23151.0 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 885.1 | n/a | 2026-10-21 | live as of 22 October 2026, 22:05:41 (HKT) |
-| CIHc1 | SSE 50 Futures | 2726.2 | n/a | 2026-10-21 | live as of 22 October 2026, 22:05:41 (HKT) |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 76.98 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 103.82 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 92.42 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 216.83 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 121.57 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 258.03 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 81.12 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 90.8 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.41 | n/a | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| GC=F | Gold Future | 4069.6 | -1.94 | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| SI=F | Silver Future | 55.16 | -3.94 | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| CL=F | WTI Crude Oil Future | 99.09 | 2.0 | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
-| HG=F | Copper Future | 6.43 | -1.68 | 2026-10-22 | live as of 22 October 2026, 22:05:41 (HKT) |
+| ^MOVE | ICE BofA MOVE Index | 102.41 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.7 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.78 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.84 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.92 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 5.01 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.38 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.33 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| HK50 | Hang Seng Futures | 23106.0 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 885.1 | n/a | 2026-10-21 | live as of 22 October 2026, 23:00:19 (HKT) |
+| CIHc1 | SSE 50 Futures | 2726.2 | n/a | 2026-10-21 | live as of 22 October 2026, 23:00:19 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 76.97 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 103.96 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 92.42 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 216.73 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 120.58 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 257.7 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 81.27 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 90.9 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.44 | n/a | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| GC=F | Gold Future | 4076.9 | -1.76 | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| SI=F | Silver Future | 55.49 | -3.36 | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| CL=F | WTI Crude Oil Future | 98.4 | 1.29 | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
+| HG=F | Copper Future | 6.42 | -1.81 | 2026-10-22 | live as of 22 October 2026, 23:00:19 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=18.24 pct_chg=0.0
+- VIX close=19.27 pct_chg=0.0
 
 ## News Analytics
 
@@ -350,15 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Why a global bank is slashing thousands of jobs — and what the Fed says about AI replacing workers**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `25.0`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**4. Tech-sector fear send stock-market futures, Treasury yields lower: markets live**
+**3. Tech-sector fear send stock-market futures, Treasury yields lower: markets live**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -366,12 +358,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
+**4. Why a global bank is slashing thousands of jobs — and what the Fed says about AI replacing workers**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
 **5. Nasdaq futures down 1.8% as investors digest earnings from Meta and Tesla: Live updates**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: P, S
-- Score: `20.19`
+- Score: `17.16`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 **6. Nestlé CEO says cash-strapped U.S. shoppers make for tough market**
@@ -398,26 +398,26 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `16.25`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**9. This top strategist has a warning for retail investors chasing the AI rally**
-- Source: MarketWatch Top Stories
+**9. Brent crude near $112 as U.S. and Israel reportedly weigh fresh Iran strikes**
+- Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
-- Affected assets: HSBC
-- Score: `16.25`
+- Affected assets: U.S
+- Score: `15.44`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**10. Football legend Peyton Manning has invested millions in real estate, including 2 Denver homes**
-- Source: MarketWatch Top Stories
+**10. Critical PHP web security flaws spark global alarm as Google, OpenAI and Amazon respond**
+- Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
-- Affected assets: NFL
-- Score: `16.25`
+- Affected assets: PHP
+- Score: `15.44`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
 
-Noisy headline list: Time for a Micron mindset shift? Here’s how to nav, U.S. Treasury yields may be poised for a breakout 
+Noisy headline list: U.S. Treasury yields may be poised for a breakout 
 
 ## Positioning & Flow Dashboard
 
@@ -513,4 +513,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 22 October 2026, 22:15:21 (HKT)
+- Report generated at: 22 October 2026, 23:09:19 (HKT)
