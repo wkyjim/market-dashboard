@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 23 October 2026, 10:19:20 (HKT)
+Generated at: 23 October 2026, 11:18:19 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 19.03 | 14.09 | 2026-10-22 | closed |
 | ^SKEW | CBOE SKEW Index | 152.39 | 1.35 | 2026-10-22 | closed |
 | ^MOVE | nan | 102.85 | 0.28 | 2026-10-14 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.66 | n/a | 2026-10-23 | live as of 23 October 2026, 10:00:22 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.73 | n/a | 2026-10-23 | live as of 23 October 2026, 10:00:22 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.78 | n/a | 2026-10-23 | live as of 23 October 2026, 10:00:22 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.86 | n/a | 2026-10-23 | live as of 23 October 2026, 10:00:22 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.96 | n/a | 2026-10-23 | live as of 23 October 2026, 10:00:22 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.33 | n/a | 2026-10-22 | live as of 23 October 2026, 10:00:22 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.29 | n/a | 2026-10-23 | live as of 23 October 2026, 10:00:22 (HKT) |
-| HK50 | Hang Seng Futures | 23124.0 | n/a | 2026-10-22 | live as of 23 October 2026, 10:00:22 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 833.3 | n/a | 2026-10-22 | live as of 23 October 2026, 10:00:22 (HKT) |
-| CIHc1 | SSE 50 Futures | 2705.2 | n/a | 2026-10-22 | live as of 23 October 2026, 10:00:22 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.66 | n/a | 2026-10-23 | live as of 23 October 2026, 11:00:21 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.73 | n/a | 2026-10-23 | live as of 23 October 2026, 11:00:21 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.78 | n/a | 2026-10-23 | live as of 23 October 2026, 11:00:21 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.86 | n/a | 2026-10-23 | live as of 23 October 2026, 11:00:21 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.96 | n/a | 2026-10-23 | live as of 23 October 2026, 11:00:21 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.33 | n/a | 2026-10-23 | live as of 23 October 2026, 11:00:21 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.29 | n/a | 2026-10-23 | live as of 23 October 2026, 11:00:21 (HKT) |
+| HK50 | Hang Seng Futures | 23002.5 | n/a | 2026-10-23 | live as of 23 October 2026, 11:00:21 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 833.3 | n/a | 2026-10-22 | live as of 23 October 2026, 11:00:21 (HKT) |
+| CIHc1 | SSE 50 Futures | 2705.2 | n/a | 2026-10-22 | live as of 23 October 2026, 11:00:21 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.1 | 0.16 | 2026-10-22 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.28 | 1.04 | 2026-10-22 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.51 | 0.13 | 2026-10-22 | closed |
@@ -350,15 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `25.0`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**4. Treasury yields see extreme plunge. Why investors are ducking for cover.**
+**3. Treasury yields see extreme plunge. Why investors are ducking for cover.**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -366,15 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Oil prices near Iran-war highs as soaring tanker rates trigger an energy squeeze**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. ‘AI is on trial’: Bond yields sink below 5% as investors look for safety**
+**4. Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -382,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.**
+**5. ‘AI is on trial’: Bond yields sink below 5% as investors look for safety**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -390,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Mideast oil exports are recovering. Fresh attacks in Saudi Arabia show risks remain.**
+**6. Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -398,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Why a global bank is slashing thousands of jobs — and what the Fed says about AI replacing workers**
+**7. Mideast oil exports are recovering. Fresh attacks in Saudi Arabia show risks remain.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -406,13 +390,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. SK Hynix shares slide after chipmaker scraps Solidigm IPO plans**
+**8. Why a global bank is slashing thousands of jobs — and what the Fed says about AI replacing workers**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. SK Hynix shares slide after chipmaker scraps Solidigm IPO plans**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: IPO, SK, U.S
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**10. Oil prices near Iran-war highs as soaring tanker rates trigger an energy squeeze**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `20.19`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
@@ -512,4 +512,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 23 October 2026, 10:19:20 (HKT)
+- Report generated at: 23 October 2026, 11:18:19 (HKT)
