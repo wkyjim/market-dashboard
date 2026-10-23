@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 23 October 2026, 21:12:40 (HKT)
+Generated at: 23 October 2026, 22:09:25 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **46.03 / 100** (Mixed / Rotation)
+- Regime score: **45.76 / 100** (Mixed / Rotation)
 - US equity strength: **37.32 / 100** (weak)
 - Evidence quality: **69.0 / 100**
 - ETF flow contribution: **48.38 / 100**, reliability **71.51 / 100**
@@ -17,15 +17,15 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 46.03 | Mixed / Rotation |
+| Overall regime | 45.76 | Mixed / Rotation |
 | equity_trend | 31.25 | risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 48.33 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 46.11 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 35.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.8 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 54.36 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.84 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | none |
@@ -57,10 +57,10 @@ Window: 24h
 
 | Area | Signal | Interpretation |
 | --- | --- | --- |
-| Equities | S&P 500 falling; Nasdaq falling; Russell 2000 falling | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
+| Equities | S&P 500 falling; Nasdaq stable; Russell 2000 falling | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
 | Rates | 10Y Treasury rising; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
-| Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
+| Credit | HYG falling | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold falling | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver falling | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7663.43 | -1.21 | 2026-10-22 | closed |
-| ^IXIC | nan | 26957.44 | -2.11 | 2026-10-14 | closed |
-| ^RUT | nan | 2746.61 | -1.67 | 2026-10-14 | closed |
-| ^VIX | CBOE Volatility Index | 20.03 | 5.25 | 2026-10-23 | live as of 23 October 2026, 21:01:45 (HKT) |
+| ^GSPC | S&P 500 | 7630.02 | -0.44 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| ^IXIC | NASDAQ Composite | 25983.48 | -0.1 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| ^RUT | Russell 2000 Index | 2763.24 | -0.75 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| ^VIX | CBOE Volatility Index | 20.14 | 5.83 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
 | ^SKEW | CBOE SKEW Index | 152.39 | 1.35 | 2026-10-22 | closed |
-| ^MOVE | nan | 102.85 | 0.28 | 2026-10-14 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.7 | 1.38 | 2026-10-23 | live as of 23 October 2026, 21:01:45 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.76 | 1.1 | 2026-10-23 | live as of 23 October 2026, 21:01:45 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.78 | 0.17 | 2026-10-23 | live as of 23 October 2026, 21:01:45 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.89 | 0.8 | 2026-10-23 | live as of 23 October 2026, 21:01:45 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 5.0 | 0.85 | 2026-10-23 | live as of 23 October 2026, 21:01:45 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.33 | -0.04 | 2026-10-23 | live as of 23 October 2026, 21:01:45 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.31 | 0.38 | 2026-10-23 | live as of 23 October 2026, 21:01:45 (HKT) |
-| HK50 | Hang Seng Futures | 23055.0 | -0.3 | 2026-10-23 | live as of 23 October 2026, 21:01:45 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 833.3 | -2.77 | 2026-10-22 | live as of 23 October 2026, 21:01:45 (HKT) |
-| CIHc1 | SSE 50 Futures | 2705.2 | -0.77 | 2026-10-22 | live as of 23 October 2026, 21:01:45 (HKT) |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.1 | 0.16 | 2026-10-22 | closed |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.28 | 1.04 | 2026-10-22 | closed |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 92.51 | 0.13 | 2026-10-22 | closed |
-| RSP | Invesco S&P 500 Equal Weight ETF | 218.22 | 0.73 | 2026-10-22 | closed |
-| IWF | iShares Russell 1000 Growth ETF | 120.09 | -2.79 | 2026-10-22 | closed |
-| IWD | iShares Russell 1000 Value ETF | 259.05 | 0.29 | 2026-10-22 | closed |
-| TLT | iShares 20+ Year Treasury Bond ETF | 81.74 | 1.87 | 2026-10-22 | closed |
-| IEF | nan | 89.25 | 0.15 | 2026-10-14 | closed |
-| SHY | nan | 81.1 | -0.07 | 2026-10-14 | closed |
-| GC=F | Gold Future | 4043.1 | -0.43 | 2026-10-23 | live as of 23 October 2026, 21:01:45 (HKT) |
-| SI=F | Silver Future | 53.87 | -1.64 | 2026-10-23 | live as of 23 October 2026, 21:01:45 (HKT) |
-| CL=F | WTI Crude Oil Future | 101.27 | 1.81 | 2026-10-23 | live as of 23 October 2026, 21:01:45 (HKT) |
-| HG=F | Copper Future | 6.47 | 1.69 | 2026-10-23 | live as of 23 October 2026, 21:01:45 (HKT) |
+| ^MOVE | ICE BofA MOVE Index | 107.47 | 0.58 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.66 | 0.58 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.72 | 0.3 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.78 | 0.17 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.86 | 0.17 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.98 | 0.63 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.33 | -0.04 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.31 | 0.42 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| HK50 | Hang Seng Futures | 23045.5 | -0.34 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 833.3 | -2.77 | 2026-10-22 | live as of 23 October 2026, 22:00:21 (HKT) |
+| CIHc1 | SSE 50 Futures | 2705.2 | -0.77 | 2026-10-22 | live as of 23 October 2026, 22:00:21 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 76.89 | -0.28 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 103.89 | -0.37 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 92.27 | -0.26 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 216.59 | -0.75 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 119.72 | -0.31 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 257.43 | -0.63 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 81.47 | -0.33 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 91.08 | -0.13 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.5 | -0.02 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| GC=F | Gold Future | 4035.8 | -0.61 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| SI=F | Silver Future | 53.99 | -1.41 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| CL=F | WTI Crude Oil Future | 102.56 | 3.11 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
+| HG=F | Copper Future | 6.49 | 2.0 | 2026-10-23 | live as of 23 October 2026, 22:00:21 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -226,10 +226,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Indicator | Latest | Unit | Change | Date | Rule-Based Interpretation |
 | --- | --- | --- | --- | --- | --- |
-| US dollar/Euro ECB reference exchange rate | 1.12 | USD | -0.0 USD vs prior | 2026-10-22 | EUR weakened versus this currency. |
-| Japanese yen/Euro ECB reference exchange rate | 175.97 | JPY | -1.39 JPY vs prior | 2026-10-22 | EUR weakened versus this currency. |
-| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.48 | CNY | -0.02 CNY vs prior | 2026-10-22 | EUR weakened versus this currency. |
-| Australian dollar/Euro ECB reference exchange rate | 1.6 | AUD | 0.0 AUD vs prior | 2026-10-22 | EUR strengthened versus this currency. |
+| US dollar/Euro ECB reference exchange rate | 1.12 | USD | -0.0 USD vs prior | 2026-10-23 | EUR weakened versus this currency. |
+| Japanese yen/Euro ECB reference exchange rate | 175.51 | JPY | -0.46 JPY vs prior | 2026-10-23 | EUR weakened versus this currency. |
+| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.47 | CNY | -0.01 CNY vs prior | 2026-10-23 | EUR weakened versus this currency. |
+| Australian dollar/Euro ECB reference exchange rate | 1.59 | AUD | -0.0 AUD vs prior | 2026-10-23 | EUR weakened versus this currency. |
 
 ABS Australia note: ABS rows are stored locally/Neon, but most series are dimension-coded; only curated series should be promoted into narrative report text.
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=20.03 pct_chg=5.25
+- VIX close=20.14 pct_chg=5.83
 
 ## News Analytics
 
@@ -506,11 +506,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `48`
-- Live macro rows used: `29`
+- Live macro rows used: `44`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 23 October 2026, 21:12:40 (HKT)
+- Report generated at: 23 October 2026, 22:09:25 (HKT)
