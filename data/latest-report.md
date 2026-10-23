@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 23 October 2026, 17:48:39 (HKT)
+Generated at: 23 October 2026, 18:13:07 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **49.48 / 100** (Mixed / Rotation)
+- Regime score: **49.5 / 100** (Mixed / Rotation)
 - US equity strength: **37.32 / 100** (weak)
 - Evidence quality: **72.5 / 100**
 - ETF flow contribution: **48.38 / 100**, reliability **71.51 / 100**
@@ -17,14 +17,14 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 49.48 | Mixed / Rotation |
+| Overall regime | 49.5 | Mixed / Rotation |
 | equity_trend | 31.25 | risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 48.33 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 46.11 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.17 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.43 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.84 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
@@ -76,19 +76,19 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7663.43 | -1.21 | 2026-10-22 | closed |
 | ^IXIC | nan | 26957.44 | -2.11 | 2026-10-14 | closed |
 | ^RUT | nan | 2746.61 | -1.67 | 2026-10-14 | closed |
-| ^VIX | CBOE Volatility Index | 19.3 | 1.42 | 2026-10-23 | live as of 23 October 2026, 17:26:56 (HKT) |
+| ^VIX | CBOE Volatility Index | 19.61 | 3.05 | 2026-10-23 | live as of 23 October 2026, 18:00:32 (HKT) |
 | ^SKEW | CBOE SKEW Index | 152.39 | 1.35 | 2026-10-22 | closed |
 | ^MOVE | nan | 102.85 | 0.28 | 2026-10-14 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.66 | 0.54 | 2026-10-23 | live as of 23 October 2026, 17:26:56 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.74 | 0.68 | 2026-10-23 | live as of 23 October 2026, 17:26:56 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.8 | 0.65 | 2026-10-23 | live as of 23 October 2026, 17:26:56 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.88 | 0.66 | 2026-10-23 | live as of 23 October 2026, 17:26:56 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.99 | 0.67 | 2026-10-23 | live as of 23 October 2026, 17:26:56 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.34 | 0.24 | 2026-10-23 | live as of 23 October 2026, 17:26:56 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.29 | 0.13 | 2026-10-23 | live as of 23 October 2026, 17:26:56 (HKT) |
-| HK50 | Hang Seng Futures | 23092.5 | -0.14 | 2026-10-23 | live as of 23 October 2026, 17:26:56 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 833.3 | -2.77 | 2026-10-22 | live as of 23 October 2026, 17:26:56 (HKT) |
-| CIHc1 | SSE 50 Futures | 2705.2 | -0.77 | 2026-10-22 | live as of 23 October 2026, 17:26:56 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.66 | 0.54 | 2026-10-23 | live as of 23 October 2026, 18:00:32 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.73 | 0.45 | 2026-10-23 | live as of 23 October 2026, 18:00:32 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.8 | 0.65 | 2026-10-23 | live as of 23 October 2026, 18:00:32 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.88 | 0.66 | 2026-10-23 | live as of 23 October 2026, 18:00:32 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.99 | 0.67 | 2026-10-23 | live as of 23 October 2026, 18:00:32 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.34 | 0.24 | 2026-10-23 | live as of 23 October 2026, 18:00:32 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.29 | 0.13 | 2026-10-23 | live as of 23 October 2026, 18:00:32 (HKT) |
+| HK50 | Hang Seng Futures | 23101.5 | -0.1 | 2026-10-23 | live as of 23 October 2026, 18:00:32 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 833.3 | -2.77 | 2026-10-22 | live as of 23 October 2026, 18:00:32 (HKT) |
+| CIHc1 | SSE 50 Futures | 2705.2 | -0.77 | 2026-10-22 | live as of 23 October 2026, 18:00:32 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.1 | 0.16 | 2026-10-22 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.28 | 1.04 | 2026-10-22 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.51 | 0.13 | 2026-10-22 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 81.74 | 1.87 | 2026-10-22 | closed |
 | IEF | nan | 89.25 | 0.15 | 2026-10-14 | closed |
 | SHY | nan | 81.1 | -0.07 | 2026-10-14 | closed |
-| GC=F | Gold Future | 4041.7 | -0.46 | 2026-10-23 | live as of 23 October 2026, 17:26:56 (HKT) |
-| SI=F | Silver Future | 54.08 | -1.26 | 2026-10-23 | live as of 23 October 2026, 17:26:56 (HKT) |
-| CL=F | WTI Crude Oil Future | 100.53 | 1.07 | 2026-10-23 | live as of 23 October 2026, 17:26:56 (HKT) |
-| HG=F | Copper Future | 6.45 | 1.45 | 2026-10-23 | live as of 23 October 2026, 17:26:56 (HKT) |
+| GC=F | Gold Future | 4037.3 | -0.57 | 2026-10-23 | live as of 23 October 2026, 18:00:32 (HKT) |
+| SI=F | Silver Future | 53.89 | -1.6 | 2026-10-23 | live as of 23 October 2026, 18:00:32 (HKT) |
+| CL=F | WTI Crude Oil Future | 101.15 | 1.69 | 2026-10-23 | live as of 23 October 2026, 18:00:32 (HKT) |
+| HG=F | Copper Future | 6.44 | 1.26 | 2026-10-23 | live as of 23 October 2026, 18:00:32 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=19.3 pct_chg=1.42
+- VIX close=19.61 pct_chg=3.05
 
 ## News Analytics
 
@@ -334,7 +334,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash**
+**1. France is getting its credit rating reviewed by Moody’s. What to expect as French debt turmoil spills overseas.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S
+- Score: `25.0`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. The mobile ambitions of SpaceX see telecom stocks get hit again. What the latest developments mean.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AT, T
+- Score: `21.25`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**3. The U.S. stock market is fracturing into two camps, and it’s leaving investors with a brutal case of whiplash**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -342,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Treasury yields log biggest drop since the 2023 banking crisis. Here’s what’s going on.**
+**4. Treasury yields log biggest drop since the 2023 banking crisis. Here’s what’s going on.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -350,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze**
+**5. Oil prices approach Iran-war highs as soaring tanker rates trigger a second energy squeeze**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -358,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. ‘AI is on trial’: Bond yields sink below 5% as investors look for safety**
+**6. ‘AI is on trial’: Bond yields sink below 5% as investors look for safety**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -366,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.**
+**7. Oil is now flowing out of the Persian Gulf like before the Iran war. Why prices may still not come down anytime soon.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Mideast oil exports are recovering. Fresh attacks in Saudi Arabia show risks remain.**
+**8. Mideast oil exports are recovering. Fresh attacks in Saudi Arabia show risks remain.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -382,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. SK Hynix shares jump over 4% after early losses as chipmaker scraps Solidigm IPO plans**
+**9. SK Hynix shares jump over 4% after early losses as chipmaker scraps Solidigm IPO plans**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -390,24 +406,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**8. Treasury yields see extreme plunge. Why investors are ducking for cover.**
+**10. Treasury yields see extreme plunge. Why investors are ducking for cover.**
 - Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. Oil prices near Iran-war highs as soaring tanker rates trigger an energy squeeze**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**10. 10-year Treasury yield tumbles below 5% to lowest level in nearly a month**
-- Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
@@ -513,4 +513,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 23 October 2026, 17:48:39 (HKT)
+- Report generated at: 23 October 2026, 18:13:07 (HKT)
