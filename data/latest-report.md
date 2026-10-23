@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 23 October 2026, 14:15:47 (HKT)
+Generated at: 23 October 2026, 15:09:46 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -24,7 +24,7 @@ Window: 24h
 | volatility | 20.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.59 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.52 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.84 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 19.03 | 14.09 | 2026-10-22 | closed |
 | ^SKEW | CBOE SKEW Index | 152.39 | 1.35 | 2026-10-22 | closed |
 | ^MOVE | nan | 102.85 | 0.28 | 2026-10-14 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.66 | n/a | 2026-10-23 | live as of 23 October 2026, 14:00:23 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.72 | n/a | 2026-10-23 | live as of 23 October 2026, 14:00:23 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.78 | n/a | 2026-10-23 | live as of 23 October 2026, 14:00:23 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.86 | n/a | 2026-10-23 | live as of 23 October 2026, 14:00:23 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.96 | n/a | 2026-10-23 | live as of 23 October 2026, 14:00:23 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.34 | n/a | 2026-10-23 | live as of 23 October 2026, 14:00:23 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.29 | n/a | 2026-10-23 | live as of 23 October 2026, 14:00:23 (HKT) |
-| HK50 | Hang Seng Futures | 23074.0 | n/a | 2026-10-23 | live as of 23 October 2026, 14:00:23 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 833.3 | n/a | 2026-10-22 | live as of 23 October 2026, 14:00:23 (HKT) |
-| CIHc1 | SSE 50 Futures | 2705.2 | n/a | 2026-10-22 | live as of 23 October 2026, 14:00:23 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.66 | n/a | 2026-10-23 | live as of 23 October 2026, 15:00:20 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.74 | n/a | 2026-10-23 | live as of 23 October 2026, 15:00:20 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.79 | n/a | 2026-10-23 | live as of 23 October 2026, 15:00:20 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.87 | n/a | 2026-10-23 | live as of 23 October 2026, 15:00:20 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.97 | n/a | 2026-10-23 | live as of 23 October 2026, 15:00:20 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.34 | n/a | 2026-10-23 | live as of 23 October 2026, 15:00:20 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.3 | n/a | 2026-10-23 | live as of 23 October 2026, 15:00:20 (HKT) |
+| HK50 | Hang Seng Futures | 23170.5 | n/a | 2026-10-23 | live as of 23 October 2026, 15:00:20 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 833.3 | n/a | 2026-10-22 | live as of 23 October 2026, 15:00:20 (HKT) |
+| CIHc1 | SSE 50 Futures | 2705.2 | n/a | 2026-10-22 | live as of 23 October 2026, 15:00:20 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.1 | 0.16 | 2026-10-22 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.28 | 1.04 | 2026-10-22 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.51 | 0.13 | 2026-10-22 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 81.74 | 1.87 | 2026-10-22 | closed |
 | IEF | nan | 89.25 | 0.15 | 2026-10-14 | closed |
 | SHY | nan | 81.1 | -0.07 | 2026-10-14 | closed |
-| GC=F | Gold Future | 4037.8 | -0.56 | 2026-10-23 | live as of 23 October 2026, 14:00:23 (HKT) |
-| SI=F | Silver Future | 54.48 | -0.52 | 2026-10-23 | live as of 23 October 2026, 14:00:23 (HKT) |
-| CL=F | WTI Crude Oil Future | 100.54 | 1.08 | 2026-10-23 | live as of 23 October 2026, 14:00:23 (HKT) |
-| HG=F | Copper Future | 6.46 | 1.55 | 2026-10-23 | live as of 23 October 2026, 14:00:23 (HKT) |
+| GC=F | Gold Future | 4029.1 | -0.77 | 2026-10-23 | live as of 23 October 2026, 15:00:20 (HKT) |
+| SI=F | Silver Future | 54.09 | -1.22 | 2026-10-23 | live as of 23 October 2026, 15:00:20 (HKT) |
+| CL=F | WTI Crude Oil Future | 100.62 | 1.16 | 2026-10-23 | live as of 23 October 2026, 15:00:20 (HKT) |
+| HG=F | Copper Future | 6.46 | 1.59 | 2026-10-23 | live as of 23 October 2026, 15:00:20 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -390,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. SK Hynix shares pare losses in choppy trade as chipmaker halts Solidigm IPO review**
+**8. SK Hynix shares jump over 4% after early losses as chipmaker scraps Solidigm IPO plans**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -506,11 +506,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `48`
-- Live macro rows used: `28`
+- Live macro rows used: `26`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 23 October 2026, 14:15:47 (HKT)
+- Report generated at: 23 October 2026, 15:09:46 (HKT)
