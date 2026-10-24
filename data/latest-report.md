@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 25 October 2026, 02:15:16 (HKT)
+Generated at: 25 October 2026, 03:15:59 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 19.45 | 2.21 | 2026-10-23 | closed |
 | ^SKEW | nan | 151.8 | -0.39 | 2026-10-23 | closed |
 | ^MOVE | ICE BofA MOVE Index | 103.33 | -3.29 | 2026-10-23 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.68 | 1.01 | 2026-10-23 | live as of 25 October 2026, 02:00:19 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.75 | 0.89 | 2026-10-23 | live as of 25 October 2026, 02:00:19 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.81 | 0.82 | 2026-10-23 | live as of 25 October 2026, 02:00:19 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.89 | 0.83 | 2026-10-23 | live as of 25 October 2026, 02:00:19 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.99 | 0.71 | 2026-10-23 | live as of 25 October 2026, 02:00:19 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.36 | 0.64 | 2026-10-23 | live as of 25 October 2026, 02:00:19 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.32 | 0.53 | 2026-10-23 | live as of 25 October 2026, 02:00:19 (HKT) |
-| HK50 | Hang Seng Futures | 23110.0 | -0.06 | 2026-10-23 | live as of 25 October 2026, 02:00:19 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 861.7 | -0.19 | 2026-10-23 | live as of 25 October 2026, 02:00:19 (HKT) |
-| CIHc1 | SSE 50 Futures | 2733.0 | 1.03 | 2026-10-23 | live as of 25 October 2026, 02:00:19 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.68 | 1.01 | 2026-10-23 | live as of 25 October 2026, 03:00:18 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.75 | 0.89 | 2026-10-23 | live as of 25 October 2026, 03:00:18 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.81 | 0.82 | 2026-10-23 | live as of 25 October 2026, 03:00:18 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.89 | 0.83 | 2026-10-23 | live as of 25 October 2026, 03:00:18 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.99 | 0.71 | 2026-10-23 | live as of 25 October 2026, 03:00:18 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.36 | 0.64 | 2026-10-23 | live as of 25 October 2026, 03:00:18 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.32 | 0.53 | 2026-10-23 | live as of 25 October 2026, 03:00:18 (HKT) |
+| HK50 | Hang Seng Futures | 23110.0 | -0.06 | 2026-10-23 | live as of 25 October 2026, 03:00:18 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 861.7 | -0.19 | 2026-10-23 | live as of 25 October 2026, 03:00:18 (HKT) |
+| CIHc1 | SSE 50 Futures | 2733.0 | 1.03 | 2026-10-23 | live as of 25 October 2026, 03:00:18 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.05 | -0.06 | 2026-10-23 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 103.85 | -0.41 | 2026-10-23 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.52 | 0.01 | 2026-10-23 | closed |
@@ -334,7 +334,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. ‘Non-answers’ aren’t working. This is what investors really need from the Fed.**
+**1. Retire on 8% a year with little or no risk? How to use annuities the right way.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `25.0`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. ‘Non-answers’ aren’t working. This is what investors really need from the Fed.**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -342,15 +350,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Fact vs. fiction: Doctors share whether peptides are safe and effective**
-- Source: CNBC Markets
+**3. I’m 58 and hate annuities. How can I get dependable income in retirement?**
+- Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: I, TIPS
+- Score: `21.25`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**3. Investors’ recent money moves show a preference for lowering risks over boosting rewards**
+**4. Investors’ recent money moves show a preference for lowering risks over boosting rewards**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -358,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**4. AI fever ignites a boom in thematic ETFs as fund managers hunt for their next big hit**
+**5. AI fever ignites a boom in thematic ETFs as fund managers hunt for their next big hit**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. ‘Non-answers’ aren’t working. This is what investors really need from the Fed.**
+**6. ‘Non-answers’ aren’t working. This is what investors really need from the Fed.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Some Republicans are opposing Trump on tariffs. Maine’s Susan Collins just got him to back down on Canadian levies.**
+**7. Some Republicans are opposing Trump on tariffs. Maine’s Susan Collins just got him to back down on Canadian levies.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -382,21 +390,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Oil markets are on edge ahead of the weekend, as midterm elections near and fresh U.S. strikes on Iran are predicted**
+**8. Oil markets are on edge ahead of the weekend, as midterm elections near and fresh U.S. strikes on Iran are predicted**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. An ex-bookkeeper spent $375 to launch a sewing business: 'I hadn't felt so sure about something like that in a long time'**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: ATX, I
-- Score: `20.19`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 **9. Biotech stocks are surging. How investors can play the new drug innovation boom**
 - Source: CNBC Markets
@@ -406,13 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**10. Turmoil hits AI buildout as neoclouds face pressure, credit risks mount and Solidigm pulls IPO**
+**10. An ex-bookkeeper spent $375 to launch a sewing business: 'I hadn't felt so sure about something like that in a long time'**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: IPO
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: ATX, I
 - Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
@@ -511,4 +511,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 25 October 2026, 02:15:16 (HKT)
+- Report generated at: 25 October 2026, 03:15:59 (HKT)
