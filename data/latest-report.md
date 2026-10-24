@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 24 October 2026, 09:45:34 (HKT)
+Generated at: 24 October 2026, 10:16:20 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 19.45 | 2.21 | 2026-10-23 | closed |
 | ^SKEW | nan | 151.8 | -0.39 | 2026-10-23 | closed |
 | ^MOVE | ICE BofA MOVE Index | 103.33 | -3.29 | 2026-10-23 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.69 | 1.1 | 2026-10-23 | live as of 24 October 2026, 09:00:18 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.75 | 0.93 | 2026-10-23 | live as of 24 October 2026, 09:00:18 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.81 | 0.88 | 2026-10-23 | live as of 24 October 2026, 09:00:18 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.89 | 0.97 | 2026-10-23 | live as of 24 October 2026, 09:00:18 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.99 | 0.83 | 2026-10-23 | live as of 24 October 2026, 09:00:18 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.37 | 0.86 | 2026-10-23 | live as of 24 October 2026, 09:00:18 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.33 | 0.72 | 2026-10-23 | live as of 24 October 2026, 09:00:18 (HKT) |
-| HK50 | Hang Seng Futures | 23110.0 | -0.06 | 2026-10-23 | live as of 24 October 2026, 09:00:18 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 833.3 | -2.77 | 2026-10-22 | live as of 24 October 2026, 09:00:18 (HKT) |
-| CIHc1 | SSE 50 Futures | 2705.2 | -0.77 | 2026-10-22 | live as of 24 October 2026, 09:00:18 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.69 | 1.1 | 2026-10-23 | live as of 24 October 2026, 10:00:25 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.75 | 0.93 | 2026-10-23 | live as of 24 October 2026, 10:00:25 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.81 | 0.88 | 2026-10-23 | live as of 24 October 2026, 10:00:25 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.89 | 0.97 | 2026-10-23 | live as of 24 October 2026, 10:00:25 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.99 | 0.83 | 2026-10-23 | live as of 24 October 2026, 10:00:25 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.37 | 0.86 | 2026-10-23 | live as of 24 October 2026, 10:00:25 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.33 | 0.72 | 2026-10-23 | live as of 24 October 2026, 10:00:25 (HKT) |
+| HK50 | Hang Seng Futures | 23110.0 | -0.06 | 2026-10-23 | live as of 24 October 2026, 10:00:25 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 833.3 | -2.77 | 2026-10-22 | live as of 24 October 2026, 10:00:25 (HKT) |
+| CIHc1 | SSE 50 Futures | 2733.0 | 1.03 | 2026-10-23 | live as of 24 October 2026, 10:00:25 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.05 | -0.06 | 2026-10-23 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 103.85 | -0.41 | 2026-10-23 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.52 | 0.01 | 2026-10-23 | closed |
@@ -374,23 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Dow tumbles more than 600 points as oil prices rise and market sell-off hits most sectors**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**7. Dow ends 650 points down, S&P 500 and Nasdaq fall as oil prices hit 6-month high**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: P, S
-- Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. The mobile ambitions of SpaceX are hitting telecom stocks again. Here’s what the latest developments mean.**
+**6. The mobile ambitions of SpaceX are hitting telecom stocks again. Here’s what the latest developments mean.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -398,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**9. The U.S. economy is great by this measure, and the good times aren’t over. So why are Americans so sour?**
+**7. The U.S. economy is great by this measure, and the good times aren’t over. So why are Americans so sour?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -406,11 +390,27 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**10. Retire on 8% a year with little or no risk? How to use annuities the right way.**
+**8. Retire on 8% a year with little or no risk? How to use annuities the right way.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. Smart financial advisers are dropping ROI, NAV and QCD for plain English when talking to clients**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: NAV, QCD, ROI
+- Score: `21.25`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. The stock market is splitting in two. Is that signaling trouble ahead, or just a new set of winners?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: P, S
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
@@ -511,4 +511,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 24 October 2026, 09:45:34 (HKT)
+- Report generated at: 24 October 2026, 10:16:20 (HKT)
