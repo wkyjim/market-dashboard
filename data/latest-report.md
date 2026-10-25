@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 25 October 2026, 23:17:18 (HKT)
+Generated at: 26 October 2026, 00:18:06 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 19.45 | 2.21 | 2026-10-23 | closed |
 | ^SKEW | nan | 151.8 | -0.39 | 2026-10-23 | closed |
 | ^MOVE | ICE BofA MOVE Index | 103.33 | -3.29 | 2026-10-23 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.68 | 1.01 | 2026-10-23 | live as of 25 October 2026, 23:00:25 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.75 | 0.89 | 2026-10-23 | live as of 25 October 2026, 23:00:25 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.81 | 0.82 | 2026-10-23 | live as of 25 October 2026, 23:00:25 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.89 | 0.83 | 2026-10-23 | live as of 25 October 2026, 23:00:25 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.99 | 0.71 | 2026-10-23 | live as of 25 October 2026, 23:00:25 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.36 | 0.64 | 2026-10-23 | live as of 25 October 2026, 23:00:25 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.32 | 0.53 | 2026-10-23 | live as of 25 October 2026, 23:00:25 (HKT) |
-| HK50 | Hang Seng Futures | 23110.0 | -0.06 | 2026-10-23 | live as of 25 October 2026, 23:00:25 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 861.7 | -0.19 | 2026-10-23 | live as of 25 October 2026, 23:00:25 (HKT) |
-| CIHc1 | SSE 50 Futures | 2733.0 | 1.03 | 2026-10-23 | live as of 25 October 2026, 23:00:25 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.68 | 1.01 | 2026-10-23 | live as of 26 October 2026, 00:00:19 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.75 | 0.89 | 2026-10-23 | live as of 26 October 2026, 00:00:19 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.81 | 0.82 | 2026-10-23 | live as of 26 October 2026, 00:00:19 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.89 | 0.83 | 2026-10-23 | live as of 26 October 2026, 00:00:19 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.99 | 0.71 | 2026-10-23 | live as of 26 October 2026, 00:00:19 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.36 | 0.64 | 2026-10-23 | live as of 26 October 2026, 00:00:19 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.32 | 0.53 | 2026-10-23 | live as of 26 October 2026, 00:00:19 (HKT) |
+| HK50 | Hang Seng Futures | 23110.0 | -0.06 | 2026-10-23 | live as of 26 October 2026, 00:00:19 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 861.7 | -0.19 | 2026-10-23 | live as of 26 October 2026, 00:00:19 (HKT) |
+| CIHc1 | SSE 50 Futures | 2733.0 | 1.03 | 2026-10-23 | live as of 26 October 2026, 00:00:19 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.05 | -0.06 | 2026-10-23 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 103.85 | -0.41 | 2026-10-23 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.52 | 0.01 | 2026-10-23 | closed |
@@ -350,15 +350,47 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Retire on 8% a year with little or no risk? How to use annuities the right way.**
-- Source: MarketWatch Top Stories
+**3. Here are 4 big things we're watching in the stock market this week**
+- Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
-- Score: `21.25`
+- Score: `23.75`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. I’m 58 and hate annuities. How can I get dependable income in retirement?**
+**4. I paid off $11,000 of credit card debt in 18 months while still traveling, shopping and living my life**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / short-term
+- Affected assets: I
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. Worried about this stock-market selloff? Relief may be coming after the midterms — no matter who wins.**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: P, S
+- Score: `21.25`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**6. Thirty-six percent of the S&P 500 scheduled to report earnings this week**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: P, S
+- Score: `20.19`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**7. JetBlue creditors are working with restructuring adviser PJT Partners, WSJ reports**
+- Source: CNBC Markets
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: A, PJT, U.S, WSJ
+- Score: `20.19`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**8. I’m 58 and hate annuities. How can I get dependable income in retirement?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -366,58 +398,26 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**5. Biotech stocks are surging. How investors can play the new drug innovation boom**
-- Source: CNBC Markets
+**9. Biotech stocks are surging. How investors can play the new drug innovation boom**
+- Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: A, M
 - Score: `17.16`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**6. My father-in-law, 81, sold his $75,000 home to pay his daughter’s $50,000 debt. How can I keep him from becoming destitute?**
+**10. My spouse was awarded $90,000 from my 401(k) in our divorce. How is that fair?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / short-term
 - Affected assets: I
-- Score: `13.81`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
-
-**7. ‘She’s living the dream’: My stepmother said I can buy my childhood home for $850,000. Is she taking advantage of me?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / short-term
-- Affected assets: I
-- Score: `13.81`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
-
-**8. My husband wants to sell our $1.5 million home and invest the proceeds. But this is where we raised our kids — and I can’t bear to leave.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / short-term
-- Affected assets: I
-- Score: `13.81`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
-
-**9. I want to pay off $4,500 in credit-card debt in 2 months. Is this possible?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / short-term
-- Affected assets: I
-- Score: `13.81`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
-
-**10. My partner of 17 years left me his $1 million home. His children are crying foul. Am I obliged to split it with them?**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / short-term
-- Affected assets: I
-- Score: `13.81`
+- Score: `16.25`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
 
-No noisy headlines detected by current rules.
+Noisy headline list: More than a third of S&P 500 companies are about t
 
 ## Positioning & Flow Dashboard
 
@@ -511,4 +511,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 25 October 2026, 23:17:18 (HKT)
+- Report generated at: 26 October 2026, 00:18:06 (HKT)
