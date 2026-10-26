@@ -1,68 +1,28 @@
 const API_BASE = String(window.MARKET_DASHBOARD_CONFIG?.marketApiBaseUrl || "").replace(/\/+$/, "");
-const MARKET_TAPE_GROUPS = [
-  {
-    title: "U.S. Market Indices",
-    key: "us",
-    symbols: [
-      ["^GSPC", "S&P 500"],
-      ["^NDX", "Nasdaq 100"],
-      ["^DJI", "DJIA"],
-      ["^VIX", "VIX"],
-      ["^SKEW", "CBOE SKEW"]
-    ]
-  },
-  {
-    title: "Asia Equity Indices",
-    key: "asia",
-    symbols: [
-      ["^HSI", "Hang Seng"],
-      ["^N225", "Nikkei 225"],
-      ["^KS11", "KOSPI"],
-      ["000001.SS", "SSE Composite"]
-    ]
-  },
-  {
-    title: "Index Futures",
-    key: "futures",
-    symbols: [
-      ["ES=F", "S&P 500 Future"],
-      ["NQ=F", "Nasdaq 100 Future"],
-      ["YM=F", "Dow Future"],
-      ["RTY=F", "Russell 2000 Future"],
-      ["HK50", "Hang Seng Future"],
-      ["NIY=F", "Nikkei Future"],
-      ["KOR200c1", "KOSPI 200 Future"],
-      ["CIHc1", "SSE 50 Future"]
-    ]
-  },
-  {
-    title: "Other Assets",
-    key: "other",
-    symbols: [
-      ["DX-Y.NYB", "DXY"],
-      ["JPY=X", "USD/JPY"],
-      ["EURUSD=X", "EUR/USD"],
-      ["GC=F", "Gold"],
-      ["BZ=F", "Brent"],
-      ["CL=F", "WTI"],
-      ["BTC-USD", "Bitcoin"]
-    ]
-  },
-  {
-    title: "UST Yield Moves",
-    key: "rates",
-    symbols: [
-      ["US2YT=X", "UST 2Y"],
-      ["US3YT=X", "UST 3Y"],
-      ["US5YT=X", "UST 5Y"],
-      ["US7YT=X", "UST 7Y"],
-      ["US10YT=X", "UST 10Y"],
-      ["US20YT=X", "UST 20Y"],
-      ["US30YT=X", "UST 30Y"]
-    ]
-  }
+
+// The tape groups and their titles come from GET /market-tape, so the dashboard
+// renders whatever the API declares instead of keeping a second copy of the
+// mapping here. These are only a fallback for an older API that predates
+// `group_titles`, and an ordering hint for the groups we care about.
+const FALLBACK_GROUP_TITLES = {
+  equity_indices: "Global Equity Indices",
+  index_futures: "Equity Index Futures",
+  fx_spot: "FX Spot",
+  oil: "Oil & Energy",
+  crypto: "Crypto",
+  ust_yields: "UST Yield Curve",
+  ust_yields_cmt: "UST Yield Curve (Treasury CMT)",
+  volatility: "Volatility"
+};
+const GROUP_ORDER = [
+  "equity_indices",
+  "index_futures",
+  "fx_spot",
+  "oil",
+  "crypto",
+  "ust_yields",
+  "volatility"
 ];
-const MARKET_TAPE_SYMBOLS = MARKET_TAPE_GROUPS.flatMap((group) => group.symbols.map(([symbol]) => symbol));
 const REPORT_PATH = "data/latest-report.md";
 const INDICATOR_GROUPS = [
   {
@@ -123,36 +83,47 @@ function setApiStatus(ok, message) {
 }
 
 async function loadMacroTape() {
-  const payload = await apiFetch(`/macro/batch/latest?symbols=${encodeURIComponent(MARKET_TAPE_SYMBOLS.join(","))}`);
+  const payload = await apiFetch("/market-tape");
   const rows = payload.data || [];
   if (!rows.length) throw new Error("No macro rows returned");
-  const rowsBySymbol = new Map(rows.map((row) => [row.symbol, row]));
   const macroTape = $("#macro-tape");
   if (!macroTape) return;
   macroTape.classList.remove("loading-block");
-  macroTape.innerHTML = MARKET_TAPE_GROUPS.map((group) => {
-    const items = group.symbols.map(([symbol, label]) => {
-      const row = rowsBySymbol.get(symbol);
-      if (!row) {
-        return `<div class="tape-item missing"><span>${escapeHtml(label)}</span><strong>n/a</strong><small>No data</small></div>`;
-      }
-      const moveValue = group.key === "rates" && row.change != null ? Number(row.change) * 100 : Number(row.pct_chg);
-      const moveSuffix = group.key === "rates" ? " bps" : "%";
-      const changeClass = Number(moveValue) > 0 ? "positive" : Number(moveValue) < 0 ? "negative" : "";
-      const sign = Number(moveValue) > 0 ? "+" : "";
-      return `<div class="tape-item">
-        <span>${escapeHtml(label)}${row.is_live ? '<small class="live-tag">LIVE</small>' : ""}</span>
+
+  const groups = payload.groups || {};
+  const titles = { ...FALLBACK_GROUP_TITLES, ...(payload.group_titles || {}) };
+
+  const orderedKeys = [
+    ...GROUP_ORDER.filter((key) => groups[key]),
+    ...Object.keys(groups).filter((key) => !GROUP_ORDER.includes(key))
+  ];
+
+  macroTape.innerHTML = orderedKeys
+    .map((key) => {
+      const items = (groups[key] || [])
+        .map((row) => {
+          // Yield rows move in basis points; everything else in percent.
+          const moveValue = row.change_bps != null ? row.change_bps : Number(row.pct_chg);
+          const moveSuffix = row.change_bps != null ? " bps" : "%";
+          const changeClass =
+            Number(moveValue) > 0 ? "positive" : Number(moveValue) < 0 ? "negative" : "";
+          const sign = Number(moveValue) > 0 ? "+" : "";
+          return `<div class="tape-item">
+        <span>${escapeHtml(row.display_name || row.symbol)}${row.is_live ? '<small class="live-tag">LIVE</small>' : ""}</span>
         <strong>${formatNumber(row.close)}</strong>
         <small class="${changeClass}">${sign}${formatNumber(moveValue)}${moveSuffix}</small>
-        <small>${escapeHtml(row.date)} · ${escapeHtml(row.data_source)}</small>
+        <small>${escapeHtml(row.session_date || row.date || "")} · ${escapeHtml(row.data_source || "")}</small>
       </div>`;
-    }).join("");
-    return `<section class="tape-group">
-      <h3>${escapeHtml(group.title)}</h3>
+        })
+        .join("");
+      return `<section class="tape-group">
+      <h3>${escapeHtml(titles[key] || key)}</h3>
       <div class="tape-group-grid">${items}</div>
     </section>`;
-  }).join("");
-  const newest = rows.map((row) => row.observed_at || row.date).filter(Boolean).sort().at(-1);
+    })
+    .join("");
+
+  const newest = rows.map((row) => row.observed_at || row.session_date || row.date).filter(Boolean).sort().at(-1);
   $("#as-of").textContent = `As of ${newest || "unavailable"}`;
   setApiStatus(true, "API Online");
 }
