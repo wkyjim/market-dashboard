@@ -9,6 +9,7 @@ const FALLBACK_GROUP_TITLES = {
   index_futures: "Equity Index Futures",
   fx_spot: "FX Spot",
   oil: "Oil & Energy",
+  commodities: "Commodities",
   crypto: "Crypto",
   ust_yields: "UST Yield Curve",
   ust_yields_cmt: "UST Yield Curve (Treasury CMT)",
@@ -19,6 +20,7 @@ const GROUP_ORDER = [
   "index_futures",
   "fx_spot",
   "oil",
+  "commodities",
   "crypto",
   "ust_yields",
   "volatility"
