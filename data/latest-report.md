@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 27 October 2026, 10:20:38 (HKT)
+Generated at: 27 October 2026, 11:17:42 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 18.39 | -5.45 | 2026-10-26 | closed |
 | ^SKEW | CBOE SKEW Index | 150.97 | -0.55 | 2026-10-26 | closed |
 | ^MOVE | ICE BofA MOVE Index | 102.19 | -1.1 | 2026-10-26 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.71 | -0.13 | 2026-10-27 | live as of 27 October 2026, 10:00:28 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.77 | -0.08 | 2026-10-27 | live as of 27 October 2026, 10:00:28 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.82 | -0.15 | 2026-10-27 | live as of 27 October 2026, 10:00:28 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.89 | -0.18 | 2026-10-27 | live as of 27 October 2026, 10:00:28 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.97 | -0.28 | 2026-10-27 | live as of 27 October 2026, 10:00:28 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.17 | 2026-10-27 | live as of 27 October 2026, 10:00:28 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.29 | -0.13 | 2026-10-27 | live as of 27 October 2026, 10:00:28 (HKT) |
-| HK50 | Hang Seng Futures | 23084.0 | -0.59 | 2026-10-27 | live as of 27 October 2026, 10:00:28 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 889.25 | 4.62 | 2026-10-26 | live as of 27 October 2026, 10:00:28 (HKT) |
-| CIHc1 | SSE 50 Futures | 2737.2 | 0.15 | 2026-10-26 | live as of 27 October 2026, 10:00:28 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.71 | -0.13 | 2026-10-27 | live as of 27 October 2026, 11:00:23 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.77 | -0.08 | 2026-10-27 | live as of 27 October 2026, 11:00:23 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.82 | -0.15 | 2026-10-27 | live as of 27 October 2026, 11:00:23 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.89 | -0.18 | 2026-10-27 | live as of 27 October 2026, 11:00:23 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.97 | -0.28 | 2026-10-27 | live as of 27 October 2026, 11:00:23 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.17 | 2026-10-27 | live as of 27 October 2026, 11:00:23 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.29 | -0.13 | 2026-10-27 | live as of 27 October 2026, 11:00:23 (HKT) |
+| HK50 | Hang Seng Futures | 23084.0 | -0.59 | 2026-10-27 | live as of 27 October 2026, 11:00:23 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 889.25 | 4.62 | 2026-10-26 | live as of 27 October 2026, 11:00:23 (HKT) |
+| CIHc1 | SSE 50 Futures | 2737.2 | 0.15 | 2026-10-26 | live as of 27 October 2026, 11:00:23 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.2 | 0.19 | 2026-10-26 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.02 | 0.16 | 2026-10-26 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.66 | 0.15 | 2026-10-26 | closed |
@@ -342,15 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**2. Why Lumentum’s stock led the S&P 500 higher on Monday**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: IPO, P, S
-- Score: `21.25`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
-**3. Some Republicans are opposing Trump on tariffs. Maine’s Susan Collins just got him to back down on Canadian levies.**
+**2. Some Republicans are opposing Trump on tariffs. Maine’s Susan Collins just got him to back down on Canadian levies.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -358,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. These four shocks could hand investors an unexpected buying window, strategists say**
+**3. These four shocks could hand investors an unexpected buying window, strategists say**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Options traders are seizing control of the S&P 500. Here’s why that matters.**
+**4. Options traders are seizing control of the S&P 500. Here’s why that matters.**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**6. Anthropic's IPO puts power in the hands of founders, giving everyday shareholders little voice**
+**5. Anthropic's IPO puts power in the hands of founders, giving everyday shareholders little voice**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**7. Stocks close higher as excitement over Anthropic IPO filing propels tech sector: Live updates**
+**6. Stocks close higher as excitement over Anthropic IPO filing propels tech sector: Live updates**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers**
+**7. Federal Reserve is likely to hold interest rates steady in October. Here's what that means for consumers**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -398,13 +390,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Oil ticks lower as Saudi defense minister meets with Iran's president in Tehran to de-escalate**
+**8. Oil ticks lower as Saudi defense minister meets with Iran's president in Tehran to de-escalate**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: Equities, Bonds, USD, Commodities
 - Score: `20.19`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**9. Why Lumentum’s stock led the S&P 500 higher on Monday**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: IPO, P, S
+- Score: `18.06`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
 **10. We stopped helping our neighbors with free home repairs and our friendship cooled. Who’s to blame?**
 - Source: MarketWatch Top Stories
@@ -511,4 +511,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 27 October 2026, 10:20:38 (HKT)
+- Report generated at: 27 October 2026, 11:17:42 (HKT)
