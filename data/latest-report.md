@@ -1,33 +1,33 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 28 October 2026, 14:15:40 (HKT)
+Generated at: 28 October 2026, 15:08:39 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **54.53 / 100** (Mixed / Rotation)
+- Regime score: **54.54 / 100** (Mixed / Rotation)
 - US equity strength: **55.1 / 100** (neutral)
 - Evidence quality: **72.5 / 100**
 - ETF flow contribution: **49.78 / 100**, reliability **70.47 / 100**
 - Breadth: **narrow**; above 50DMA `45.0%`, above 200DMA `58.33%`
 - Top sector score: **Cybersecurity** `69.93`
-- Top theme score: **Energy** `66.64`
+- Top theme score: **Energy** `67.12`
 
 ## Market Regime Score
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 54.53 | Mixed / Rotation |
+| Overall regime | 54.54 | Mixed / Rotation |
 | equity_trend | 56.25 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.48 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 52.22 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 54.51 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 54.3 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 51.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.84 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 50.62 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 51.25 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=70.0 |
 | Negative contributors |  | none |
 
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 17.52 | -4.73 | 2026-10-27 | closed |
 | ^SKEW | CBOE SKEW Index | 149.22 | -1.16 | 2026-10-27 | closed |
 | ^MOVE | ICE BofA MOVE Index | 97.87 | -4.22 | 2026-10-27 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.75 | 0.32 | 2026-10-28 | live as of 28 October 2026, 14:00:29 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.82 | 0.4 | 2026-10-28 | live as of 28 October 2026, 14:00:29 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.86 | 0.5 | 2026-10-28 | live as of 28 October 2026, 14:00:29 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.93 | 0.55 | 2026-10-28 | live as of 28 October 2026, 14:00:29 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 5.02 | 0.52 | 2026-10-28 | live as of 28 October 2026, 14:00:29 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.38 | 0.45 | 2026-10-28 | live as of 28 October 2026, 14:00:29 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.33 | 0.47 | 2026-10-28 | live as of 28 October 2026, 14:00:29 (HKT) |
-| HK50 | Hang Seng Futures | 23076.0 | -0.02 | 2026-10-28 | live as of 28 October 2026, 14:00:29 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 914.15 | 3.59 | 2026-10-27 | live as of 28 October 2026, 14:00:29 (HKT) |
-| CIHc1 | SSE 50 Futures | 2741.2 | 0.15 | 2026-10-27 | live as of 28 October 2026, 14:00:29 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.75 | 0.32 | 2026-10-28 | live as of 28 October 2026, 15:00:19 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.82 | 0.4 | 2026-10-28 | live as of 28 October 2026, 15:00:19 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.86 | 0.5 | 2026-10-28 | live as of 28 October 2026, 15:00:19 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.93 | 0.55 | 2026-10-28 | live as of 28 October 2026, 15:00:19 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 5.02 | 0.52 | 2026-10-28 | live as of 28 October 2026, 15:00:19 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.38 | 0.45 | 2026-10-28 | live as of 28 October 2026, 15:00:19 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.33 | 0.47 | 2026-10-28 | live as of 28 October 2026, 15:00:19 (HKT) |
+| HK50 | Hang Seng Futures | 23076.0 | -0.02 | 2026-10-28 | live as of 28 October 2026, 15:00:19 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 914.15 | 3.59 | 2026-10-27 | live as of 28 October 2026, 15:00:19 (HKT) |
+| CIHc1 | SSE 50 Futures | 2741.2 | 0.15 | 2026-10-27 | live as of 28 October 2026, 15:00:19 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.6 | 0.52 | 2026-10-27 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.3 | 0.27 | 2026-10-27 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 93.21 | 0.59 | 2026-10-27 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 81.63 | -0.06 | 2026-10-27 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 91.1 | -0.02 | 2026-10-27 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.45 | -0.04 | 2026-10-27 | closed |
-| GC=F | Gold Future | 4046.3 | -0.69 | 2026-10-28 | live as of 28 October 2026, 14:00:29 (HKT) |
-| SI=F | Silver Future | 53.94 | -0.65 | 2026-10-28 | live as of 28 October 2026, 14:00:29 (HKT) |
-| CL=F | WTI Crude Oil Future | 101.59 | 1.69 | 2026-10-28 | live as of 28 October 2026, 14:00:29 (HKT) |
-| HG=F | Copper Future | 6.64 | 0.34 | 2026-10-28 | live as of 28 October 2026, 14:00:29 (HKT) |
+| GC=F | Gold Future | 4042.8 | -0.78 | 2026-10-28 | live as of 28 October 2026, 15:00:19 (HKT) |
+| SI=F | Silver Future | 53.84 | -0.83 | 2026-10-28 | live as of 28 October 2026, 15:00:19 (HKT) |
+| CL=F | WTI Crude Oil Future | 101.68 | 1.78 | 2026-10-28 | live as of 28 October 2026, 15:00:19 (HKT) |
+| HG=F | Copper Future | 6.65 | 0.4 | 2026-10-28 | live as of 28 October 2026, 15:00:19 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -249,7 +249,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 6 | Utilities | 56.05 | neutral | neutral | broad | 65.57 | 65.0 | 52.15 | PNW, CNP, ED | AES, NRG, CEG |
 | 7 | Financials | 55.14 | strong uptrend | neutral | weak | 50.0 | 0.0 | 49.97 | CBOE, FDS, SPGI | SCHW, COIN, HOOD |
 | 8 | Crypto | 51.16 | neutral | neutral | mixed | 61.61 | 65.0 | 50.0 |  |  |
-| 9 | Technology | 46.39 | neutral | neutral | weak | 55.38 | 95.0 | 49.38 | PTC, ACN, CDW | LRCX, FLEX, STX |
+| 9 | Technology | 46.38 | neutral | neutral | weak | 55.38 | 95.0 | 49.38 | PTC, ACN, CDW | LRCX, FLEX, STX |
 | 10 | Real Estate | 44.6 | strong downtrend | neutral | weak | 50.0 | 0.0 | 48.11 | CCI, CSGP, SBAC | PLD, CBRE, ARE |
 | 11 | Semiconductors | 42.85 | downtrend | neutral | weak | 73.07 | 65.0 | 44.13 | SMH, SOXX | SOXX, SMH |
 | 12 | Industrials | 42.48 | strong downtrend | neutral | weak | 67.35 | 65.0 | 45.18 | EFX, LMT, PNR | HWM, FIX, BE |
@@ -261,7 +261,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Energy | 66.64 | Positive setup | 56.9 | 95.0 | 0.83 | True | False |
+| 1 | Energy | 67.12 | Positive setup | 56.9 | 95.0 | 0.83 | True | False |
 | 2 | Cybersecurity | 63.62 | Positive setup | 64.33 | 65.0 | 29.14 | True | False |
 | 3 | Healthcare Innovation | 61.81 | Positive setup | 75.2 | 100.0 | 14.45 | True | False |
 | 4 | Dividend Defensives | 58.4 | Positive setup | 52.52 | 65.0 | 2.96 | False | False |
@@ -285,14 +285,14 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
 | Cybersecurity | Cybersecurity | 69.93 | strong | 63.62 | positive | sector and theme confirmation |
-| Energy | Energy | 69.11 | strong | 66.64 | strong | sector and theme confirmation |
+| Energy | Energy | 69.11 | strong | 67.12 | strong | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 68.99 | strong | 61.81 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 65.18 | strong | 58.4 | positive | sector and theme confirmation |
 | Consumer Discretionary | Small Caps | 59.41 | positive | 47.42 | mixed | sector stronger than related themes |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 56.05 | positive | 42.14 | weak | sector stronger than related themes |
 | Financials | Financials | 55.14 | positive | 41.98 | weak | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 51.16 | mixed | 43.32 | weak | mixed confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 46.39 | mixed | 47.26 | mixed | mixed confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 46.38 | mixed | 47.26 | mixed | mixed confirmation |
 | Real Estate | Dividend Defensives | 44.6 | weak | 58.4 | positive | theme stronger than official sector |
 | Semiconductors | AI Infrastructure, Semiconductors | 42.85 | weak | 46.95 | mixed | mixed confirmation |
 | Industrials | Defense, Grid Infrastructure | 42.48 | weak | 41.62 | weak | broad weakness across sector and themes |
@@ -329,12 +329,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 5, 'negative': 4, 'neutral': 71}
-- News confirmation score: `50.62`
+- Sentiment counts: {'positive': 9, 'negative': 7, 'neutral': 64}
+- News confirmation score: `51.25`
 
 ### Top Market-Moving Headlines
 
-**1. Oil prices edge lower amid diplomatic efforts to de-escalate tensions between Saudis and Iran**
+**1. Honda warns 50% Canada auto tariffs would be catastrophic for industry**
+- Source: CNBC Business
+- Importance / impact: Medium / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: tariffs, trade_policy, automotive_industry
+- Score: `43.35`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Oil prices edge lower amid diplomatic efforts to de-escalate tensions between Saudis and Iran**
 - Source: CNBC Top News
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -342,37 +350,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.44`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Asia stocks rally as SK Hynix earnings boost AI trade; Fed decision ahead**
+**3. Oil prices rise as Houthi attacks on Saudi Arabian refinery raise supply worries**
+- Source: CNBC Top News
+- Importance / impact: Low / Mixed
+- Relevance / horizon: macro / nan
+- Affected assets: Equities, Bonds, USD, Commodities
+- Score: `23.75`
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
+
+**4. Trump says Iran war will end 'when I want it to' as costs reportedly balloon to $47 billion**
+- Source: CNBC Business Headlines
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: I, geopolitical conflict, military spending, presidential statement
+- Score: `23.66`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**5. Asia stocks rally as SK Hynix earnings boost AI trade; Fed decision ahead**
 - Source: Investing.com World News
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: SK, AI, Earnings, Stock Market
 - Score: `21.06`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. Polymarket faces renewed CFTC probe over U.S. access to offshore platform**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: CFTC, U.S
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**4. This ‘triple top’ in oil price charts suggests the rally has run out of gas**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: Equities, Bonds, USD, Commodities
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
-
-**5. S&P 500 posts back-to-back winning days as chips rally and oil prices slide: Live updates**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / nan
-- Affected assets: P, S
-- Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
 **6. We stopped helping our neighbors with free home repairs and our friendship cooled. Who’s to blame?**
 - Source: MarketWatch Top Stories
@@ -506,11 +506,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `48`
-- Live macro rows used: `28`
+- Live macro rows used: `26`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 28 October 2026, 14:15:40 (HKT)
+- Report generated at: 28 October 2026, 15:08:39 (HKT)
