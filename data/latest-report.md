@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 28 October 2026, 09:19:31 (HKT)
+Generated at: 28 October 2026, 10:18:48 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 17.52 | -4.73 | 2026-10-27 | closed |
 | ^SKEW | CBOE SKEW Index | 149.22 | -1.16 | 2026-10-27 | closed |
 | ^MOVE | ICE BofA MOVE Index | 97.87 | -4.22 | 2026-10-27 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.74 | 0.0 | 2026-10-28 | live as of 28 October 2026, 09:00:22 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.8 | 0.02 | 2026-10-28 | live as of 28 October 2026, 09:00:22 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.84 | 0.02 | 2026-10-28 | live as of 28 October 2026, 09:00:22 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.91 | 0.02 | 2026-10-28 | live as of 28 October 2026, 09:00:22 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 5.0 | 0.16 | 2026-10-28 | live as of 28 October 2026, 09:00:22 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.36 | 0.06 | 2026-10-28 | live as of 28 October 2026, 09:00:22 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.31 | 0.0 | 2026-10-28 | live as of 28 October 2026, 09:00:22 (HKT) |
-| HK50 | Hang Seng Futures | 23081.0 | -0.61 | 2026-10-27 | live as of 28 October 2026, 09:00:22 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 914.15 | 3.59 | 2026-10-27 | live as of 28 October 2026, 09:00:22 (HKT) |
-| CIHc1 | SSE 50 Futures | 2737.2 | 0.15 | 2026-10-26 | live as of 28 October 2026, 09:00:22 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.75 | 0.32 | 2026-10-28 | live as of 28 October 2026, 10:00:26 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.82 | 0.42 | 2026-10-28 | live as of 28 October 2026, 10:00:26 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.86 | 0.5 | 2026-10-28 | live as of 28 October 2026, 10:00:26 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.93 | 0.55 | 2026-10-28 | live as of 28 October 2026, 10:00:26 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 5.02 | 0.52 | 2026-10-28 | live as of 28 October 2026, 10:00:26 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.38 | 0.54 | 2026-10-28 | live as of 28 October 2026, 10:00:26 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.33 | 0.57 | 2026-10-28 | live as of 28 October 2026, 10:00:26 (HKT) |
+| HK50 | Hang Seng Futures | 23081.0 | -0.61 | 2026-10-27 | live as of 28 October 2026, 10:00:26 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 914.15 | 3.59 | 2026-10-27 | live as of 28 October 2026, 10:00:26 (HKT) |
+| CIHc1 | SSE 50 Futures | 2737.2 | 0.15 | 2026-10-26 | live as of 28 October 2026, 10:00:26 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.6 | 0.52 | 2026-10-27 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.3 | 0.27 | 2026-10-27 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 93.21 | 0.59 | 2026-10-27 | closed |
@@ -505,11 +505,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `48`
-- Live macro rows used: `16`
+- Live macro rows used: `17`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 28 October 2026, 09:19:31 (HKT)
+- Report generated at: 28 October 2026, 10:18:48 (HKT)
