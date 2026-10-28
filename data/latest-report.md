@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 28 October 2026, 15:08:39 (HKT)
+Generated at: 28 October 2026, 15:15:11 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **54.54 / 100** (Mixed / Rotation)
+- Regime score: **54.6 / 100** (Mixed / Rotation)
 - US equity strength: **55.1 / 100** (neutral)
 - Evidence quality: **72.5 / 100**
-- ETF flow contribution: **49.78 / 100**, reliability **70.47 / 100**
+- ETF flow contribution: **50.39 / 100**, reliability **71.28 / 100**
 - Breadth: **narrow**; above 50DMA `45.0%`, above 200DMA `58.33%`
 - Top sector score: **Cybersecurity** `69.93`
 - Top theme score: **Energy** `67.12`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 54.54 | Mixed / Rotation |
+| Overall regime | 54.6 | Mixed / Rotation |
 | equity_trend | 56.25 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.48 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 52.22 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 54.3 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 51.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 49.84 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 50.28 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 51.25 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=70.0 |
 | Negative contributors |  | none |
@@ -251,7 +251,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 8 | Crypto | 51.16 | neutral | neutral | mixed | 61.61 | 65.0 | 50.0 |  |  |
 | 9 | Technology | 46.38 | neutral | neutral | weak | 55.38 | 95.0 | 49.38 | PTC, ACN, CDW | LRCX, FLEX, STX |
 | 10 | Real Estate | 44.6 | strong downtrend | neutral | weak | 50.0 | 0.0 | 48.11 | CCI, CSGP, SBAC | PLD, CBRE, ARE |
-| 11 | Semiconductors | 42.85 | downtrend | neutral | weak | 73.07 | 65.0 | 44.13 | SMH, SOXX | SOXX, SMH |
+| 11 | Semiconductors | 43.92 | downtrend | neutral | weak | 83.78 | 100.0 | 44.13 | SMH, SOXX | SOXX, SMH |
 | 12 | Industrials | 42.48 | strong downtrend | neutral | weak | 67.35 | 65.0 | 45.18 | EFX, LMT, PNR | HWM, FIX, BE |
 | 13 | Defense | 35.84 | strong downtrend | negative | weak | 47.2 | 65.0 | 39.51 | XAR | XAR |
 | 14 | Grid Infrastructure | 34.68 | strong downtrend | negative | weak | 61.05 | 65.0 | 41.87 | GRID | GRID |
@@ -265,10 +265,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 2 | Cybersecurity | 63.62 | Positive setup | 64.33 | 65.0 | 29.14 | True | False |
 | 3 | Healthcare Innovation | 61.81 | Positive setup | 75.2 | 100.0 | 14.45 | True | False |
 | 4 | Dividend Defensives | 58.4 | Positive setup | 52.52 | 65.0 | 2.96 | False | False |
-| 5 | Quality Growth | 47.86 | Neutral / watchlist | 49.12 | 65.0 | 11.34 | False | False |
-| 6 | Semiconductors | 47.55 | Neutral / watchlist | 73.07 | 65.0 | 7.24 | False | False |
-| 7 | Small Caps | 47.42 | Neutral / watchlist | 47.43 | 65.0 | 0.0 | False | False |
-| 8 | AI Infrastructure | 46.36 | Neutral / watchlist | 73.07 | 65.0 | 14.33 | False | False |
+| 5 | Semiconductors | 48.62 | Neutral / watchlist | 83.78 | 100.0 | 7.24 | False | False |
+| 6 | Quality Growth | 47.86 | Neutral / watchlist | 49.12 | 65.0 | 11.34 | False | False |
+| 7 | AI Infrastructure | 47.43 | Neutral / watchlist | 83.78 | 100.0 | 14.33 | False | False |
+| 8 | Small Caps | 47.42 | Neutral / watchlist | 47.43 | 65.0 | 0.0 | False | False |
 | 9 | Defense | 45.01 | Weak setup | 47.2 | 65.0 | 33.15 | False | False |
 | 10 | Crypto Infrastructure | 43.32 | Neutral / watchlist | 61.61 | 65.0 | 6.65 | False | False |
 | 11 | Financials | 41.98 | Weak setup | 50.0 | 0.0 | 11.25 | False | False |
@@ -292,9 +292,9 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 56.05 | positive | 42.14 | weak | sector stronger than related themes |
 | Financials | Financials | 55.14 | positive | 41.98 | weak | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 51.16 | mixed | 43.32 | weak | mixed confirmation |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 46.38 | mixed | 47.26 | mixed | mixed confirmation |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 46.38 | mixed | 47.97 | mixed | mixed confirmation |
 | Real Estate | Dividend Defensives | 44.6 | weak | 58.4 | positive | theme stronger than official sector |
-| Semiconductors | AI Infrastructure, Semiconductors | 42.85 | weak | 46.95 | mixed | mixed confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 43.92 | weak | 48.02 | mixed | mixed confirmation |
 | Industrials | Defense, Grid Infrastructure | 42.48 | weak | 41.62 | weak | broad weakness across sector and themes |
 | Defense | Defense | 35.84 | weak | 45.01 | mixed | mixed confirmation |
 | Grid Infrastructure | Grid Infrastructure | 34.68 | very weak | 38.24 | weak | broad weakness across sector and themes |
@@ -438,8 +438,8 @@ Positioning and flow data is used as confirmation only.
 - Sector cyclicality flow: `46.3`
 - Duration/liquidity flow: `52.6`
 - Alternatives: `mixed alternative-asset demand`
-- ETF flow reliability: `70.5 / 100`
-- Dominant allocation direction: `defensive demand`
+- ETF flow reliability: `71.3 / 100`
+- Dominant allocation direction: `mixed allocation`
 
 ### Core Flow Signals
 
@@ -482,7 +482,7 @@ Positioning and flow data is used as confirmation only.
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | ITA | Aerospace and Defense | 0.1 | 0.9 | 0.4 | 0.5 | Flat | Buy | Normal | Quiet Accumulation | Improving | Tactical rebound inside structural distribution | 83.0 |
 | SOXX | Semiconductors | 0.9 | -0.8 | 0.7 | 0.4 | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation; Exceptional institutional buying | 100.0 |
-| SMH | Semiconductors | 0.2 | -1.2 | 0.6 | 1.0 | Down | Buy | High | Aggressive Dip Buying | Recovery Candidate | Medium-term recovery | 87.0 |
+| SMH | Semiconductors | 0.5 | -0.3 | 0.6 | 0.3 | Down | Buy | Normal | Contrarian Buying | Watch | Strong confirmation; Exceptional institutional buying | 100.0 |
 | CIBR | Cybersecurity | 0.7 | 1.8 | 0.8 | -0.6 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural accumulation; Strong sponsorship | 99.0 |
 
 ### Material Flow Divergences
@@ -513,4 +513,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 28 October 2026, 15:08:39 (HKT)
+- Report generated at: 28 October 2026, 15:15:11 (HKT)
