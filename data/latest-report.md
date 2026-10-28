@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 28 October 2026, 08:02:54 (HKT)
+Generated at: 28 October 2026, 09:08:30 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **49.88 / 100** (Mixed / Rotation)
+- Regime score: **49.94 / 100** (Mixed / Rotation)
 - US equity strength: **37.87 / 100** (weak)
 - Evidence quality: **72.5 / 100**
 - ETF flow contribution: **50.99 / 100**, reliability **66.32 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 49.88 | Mixed / Rotation |
+| Overall regime | 49.94 | Mixed / Rotation |
 | equity_trend | 31.25 | risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 48.69 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 47.78 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 53.36 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.66 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 51.25 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=70.0 |
 | Negative contributors |  | equity_trend=31.25 |
 
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 17.52 | -4.73 | 2026-10-27 | closed |
 | ^SKEW | CBOE SKEW Index | 149.22 | -1.16 | 2026-10-27 | closed |
 | ^MOVE | ICE BofA MOVE Index | 97.87 | -4.22 | 2026-10-27 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.74 | 0.53 | 2026-10-27 | live as of 28 October 2026, 07:00:21 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.8 | 0.5 | 2026-10-27 | live as of 28 October 2026, 07:00:21 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.85 | 0.46 | 2026-10-27 | live as of 28 October 2026, 07:00:21 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.91 | 0.33 | 2026-10-27 | live as of 28 October 2026, 07:00:21 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.99 | 0.0 | 2026-10-27 | live as of 28 October 2026, 07:00:21 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.36 | 0.15 | 2026-10-27 | live as of 28 October 2026, 07:00:21 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.31 | 0.19 | 2026-10-27 | live as of 28 October 2026, 07:00:21 (HKT) |
-| HK50 | Hang Seng Futures | 23081.0 | -0.61 | 2026-10-27 | live as of 28 October 2026, 07:00:21 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 889.25 | 4.62 | 2026-10-26 | live as of 28 October 2026, 07:00:21 (HKT) |
-| CIHc1 | SSE 50 Futures | 2737.2 | 0.15 | 2026-10-26 | live as of 28 October 2026, 07:00:21 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.74 | 0.0 | 2026-10-28 | live as of 28 October 2026, 09:00:22 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.8 | 0.02 | 2026-10-28 | live as of 28 October 2026, 09:00:22 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.84 | 0.02 | 2026-10-28 | live as of 28 October 2026, 09:00:22 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.91 | 0.02 | 2026-10-28 | live as of 28 October 2026, 09:00:22 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 5.0 | 0.16 | 2026-10-28 | live as of 28 October 2026, 09:00:22 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.36 | 0.06 | 2026-10-28 | live as of 28 October 2026, 09:00:22 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.31 | 0.0 | 2026-10-28 | live as of 28 October 2026, 09:00:22 (HKT) |
+| HK50 | Hang Seng Futures | 23081.0 | -0.61 | 2026-10-27 | live as of 28 October 2026, 09:00:22 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 914.15 | 3.59 | 2026-10-27 | live as of 28 October 2026, 09:00:22 (HKT) |
+| CIHc1 | SSE 50 Futures | 2737.2 | 0.15 | 2026-10-26 | live as of 28 October 2026, 09:00:22 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.6 | 0.52 | 2026-10-27 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.3 | 0.27 | 2026-10-27 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 93.21 | 0.59 | 2026-10-27 | closed |
@@ -329,95 +329,95 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 0, 'negative': 0, 'neutral': 80}
-- News confirmation score: `50.0`
+- Sentiment counts: {'positive': 4, 'negative': 2, 'neutral': 74}
+- News confirmation score: `51.25`
 
 ### Top Market-Moving Headlines
 
-**1. Polymarket faces renewed CFTC probe over U.S. access to offshore platform**
+**1. China’s Industrial Profit Growth Surged in September**
+- Source: Dow Jones Economy
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AI, high-tech manufacturing, industrial profit
+- Score: `29.94`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**2. Polymarket faces renewed CFTC probe over U.S. access to offshore platform**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
+- Relevance / horizon: macro / nan
 - Affected assets: CFTC, U.S
 - Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**2. How investors can position ahead of the Fed's next policy decision**
+**3. How investors can position ahead of the Fed's next policy decision**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
+- Relevance / horizon: macro / nan
 - Affected assets: Equities, Bonds, USD, Commodities
 - Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**3. This ‘triple top’ in oil price charts suggests the rally has run out of gas**
+**4. This ‘triple top’ in oil price charts suggests the rally has run out of gas**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
+- Relevance / horizon: macro / nan
 - Affected assets: Equities, Bonds, USD, Commodities
 - Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**4. S&P 500 posts back-to-back winning days as chips rally and oil prices slide: Live updates**
+**5. S&P 500 posts back-to-back winning days as chips rally and oil prices slide: Live updates**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
+- Relevance / horizon: macro / nan
 - Affected assets: P, S
 - Score: `23.75`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the nan.
 
-**5. We stopped helping our neighbors with free home repairs and our friendship cooled. Who’s to blame?**
+**6. We stopped helping our neighbors with free home repairs and our friendship cooled. Who’s to blame?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
+- Relevance / horizon: sector_theme / nan
 - Affected assets: A, SUV
 - Score: `21.25`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**6. As holiday shopping approaches, seasonal hiring gives 'mixed signals,' experts say**
-- Source: CNBC Markets
+**7. Wednesday's big stock stories: What’s likely to move the market in the next trading session**
+- Source: CNBC Top News
 - Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: Equities, Bonds, USD, Commodities
+- Relevance / horizon: sector_theme / nan
+- Affected assets: P, S
 - Score: `20.19`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**7. AI stocks haven’t played by the normal valuation rules. Now that rates are higher, they may have to, says UBS**
+**8. AI stocks haven’t played by the normal valuation rules. Now that rates are higher, they may have to, says UBS**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
+- Relevance / horizon: sector_theme / nan
 - Affected assets: U.S, UBS
 - Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**8. Options traders are seizing control of the S&P 500**
+**9. Options traders are seizing control of the S&P 500**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
+- Relevance / horizon: sector_theme / nan
 - Affected assets: P, S, UBS
 - Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**9. The impressive real estate portfolio of sitcom producer Chuck Lorre of ‘Big Bang Theory’ and ‘Two and a Half Men’ fame**
+**10. The impressive real estate portfolio of sitcom producer Chuck Lorre of ‘Big Bang Theory’ and ‘Two and a Half Men’ fame**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / short-term
+- Relevance / horizon: sector_theme / nan
 - Affected assets: A, TV
 - Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**10. CoreWeave and other AI stocks rise as Anthropic restores the market’s faith in sustained spending**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / short-term
-- Affected assets: IPO
-- Score: `16.25`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
-
 
 ### Headline Quality Checks
 
-Noisy headline list: How to use I-bonds to create guaranteed, inflation, Anthropic's IPO could be 'speculative fiction' or 
+Noisy headline list: How to use I-bonds to create guaranteed, inflation
 
 ## Positioning & Flow Dashboard
 
@@ -501,11 +501,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `48`
-- Live macro rows used: `12`
+- Live macro rows used: `16`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 28 October 2026, 08:02:54 (HKT)
+- Report generated at: 28 October 2026, 09:08:30 (HKT)
