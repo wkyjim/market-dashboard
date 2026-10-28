@@ -1,23 +1,23 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 29 October 2026, 00:09:10 (HKT)
+Generated at: 29 October 2026, 00:11:22 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **54.77 / 100** (Mixed / Rotation)
+- Regime score: **54.86 / 100** (Mixed / Rotation)
 - US equity strength: **55.1 / 100** (neutral)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **50.39 / 100**, reliability **71.28 / 100**
 - Breadth: **narrow**; above 50DMA `45.0%`, above 200DMA `58.33%`
 - Top sector score: **Cybersecurity** `69.93`
-- Top theme score: **Energy** `66.32`
+- Top theme score: **Energy** `67.35`
 
 ## Market Regime Score
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 54.77 | Mixed / Rotation |
+| Overall regime | 54.86 | Mixed / Rotation |
 | equity_trend | 56.25 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.48 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 52.22 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 54.8 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 47.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.28 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 58.75 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0 |
+| news_confirmation | 60.62 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=70.0, news_confirmation=60.62 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -261,7 +261,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Energy | 66.32 | Positive setup | 56.9 | 95.0 | 0.83 | True | False |
+| 1 | Energy | 67.35 | Positive setup | 56.9 | 95.0 | 0.83 | True | True |
 | 2 | Cybersecurity | 63.62 | Positive setup | 64.33 | 65.0 | 29.14 | True | False |
 | 3 | Healthcare Innovation | 61.81 | Positive setup | 75.2 | 100.0 | 14.45 | True | False |
 | 4 | Dividend Defensives | 58.4 | Positive setup | 52.52 | 65.0 | 2.96 | False | False |
@@ -278,14 +278,14 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Top 5 improving themes: Crypto Infrastructure, Cybersecurity, Energy, Healthcare Innovation, Quality Growth
 - Top 5 deteriorating themes: Nuclear, Financials, Grid Infrastructure, Defense, Small Caps
 - Strong news but weak price confirmation: none
-- Strong price but weak news confirmation: Energy, Cybersecurity, Healthcare Innovation
+- Strong price but weak news confirmation: Cybersecurity, Healthcare Innovation
 
 ### Sector / Theme Alignment
 
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
 | Cybersecurity | Cybersecurity | 69.93 | strong | 63.62 | positive | sector and theme confirmation |
-| Energy | Energy | 69.11 | strong | 66.32 | strong | sector and theme confirmation |
+| Energy | Energy | 69.11 | strong | 67.35 | strong | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 68.99 | strong | 61.81 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 65.18 | strong | 58.4 | positive | sector and theme confirmation |
 | Consumer Discretionary | Small Caps | 59.41 | positive | 47.42 | mixed | sector stronger than related themes |
@@ -304,7 +304,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Classification | Drivers | Invalidation Triggers |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Energy | 69.86 | Positive setup | relative_strength_20d, relative_strength_60d, trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 1 | Energy | 67.86 | Positive setup | relative_strength_20d, relative_strength_60d, trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 2 | Cybersecurity | 67.61 | Positive setup | relative_strength_60d, trend_persistence, breadth, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 3 | Healthcare Innovation | 63.05 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | Dividend Defensives | 60.78 | Positive setup | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 31, 'negative': 17, 'neutral': 32}
-- News confirmation score: `58.75`
+- Sentiment counts: {'positive': 34, 'negative': 17, 'neutral': 29}
+- News confirmation score: `60.62`
 
 ### Top Market-Moving Headlines
 
@@ -513,4 +513,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 29 October 2026, 00:09:10 (HKT)
+- Report generated at: 29 October 2026, 00:11:22 (HKT)
