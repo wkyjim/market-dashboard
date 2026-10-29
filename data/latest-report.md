@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 29 October 2026, 18:10:35 (HKT)
+Generated at: 29 October 2026, 18:11:35 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -515,4 +515,4 @@ Positioning and flow data is used as confirmation only.
 
 ## Cycle Metadata
 
-- Report generated at: 29 October 2026, 18:10:35 (HKT)
+- Report generated at: 29 October 2026, 18:11:35 (HKT)
