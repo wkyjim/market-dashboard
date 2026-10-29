@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 29 October 2026, 09:01:23 (HKT)
+Generated at: 29 October 2026, 09:07:46 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -329,7 +329,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 47, 'negative': 21, 'neutral': 12}
+- Sentiment counts: {'positive': 48, 'negative': 22, 'neutral': 10}
 - News confirmation score: `66.25`
 
 ### Top Market-Moving Headlines
@@ -374,7 +374,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Traders are betting big against this restaurant giant into earnings**
+**6. Oracle stock pops 11% as long-term revenue forecast and clarity on financing ease debt concerns**
+- Source: CNBC Investing
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: ORCL, AI, revenue_guidance, capital_allocation
+- Score: `33.81`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**7. Traders are betting big against this restaurant giant into earnings**
 - Source: CNBC Markets
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / near-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.49`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**7. Nasdaq-100 futures dip as Alphabet shares sell off after earnings report: Live updates**
+**8. Nasdaq-100 futures dip as Alphabet shares sell off after earnings report: Live updates**
 - Source: CNBC Top News
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.44`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. GE Vernova to Buy Grid-Equipment Manufacturer for $9 Billion as Energy Demand Grows**
+**9. GE Vernova to Buy Grid-Equipment Manufacturer for $9 Billion as Energy Demand Grows**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / medium-term
@@ -398,21 +406,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `22.89`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. BASF Lifts Full-Year Earnings Outlook After Strong Third Quarter**
+**10. BASF Lifts Full-Year Earnings Outlook After Strong Third Quarter**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: BASF, earnings_outlook, sales_growth, corporate_guidance
 - Score: `22.89`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. Wall Street looks past Fed pause to tech earnings and AI rebound**
-- Source: CNBC Business
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / near-term
-- Affected assets: NVDA, AAPL, MSFT, GOOGL, AI
-- Score: `21.6`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the near-term.
 
 
 ### Headline Quality Checks
@@ -510,4 +510,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 29 October 2026, 09:01:23 (HKT)
+- Report generated at: 29 October 2026, 09:07:46 (HKT)
