@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 29 October 2026, 10:19:34 (HKT)
+Generated at: 29 October 2026, 11:18:26 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 16.91 | -3.48 | 2026-10-28 | closed |
 | ^SKEW | CBOE SKEW Index | 148.74 | -0.32 | 2026-10-28 | closed |
 | ^MOVE | ICE BofA MOVE Index | 94.55 | -3.4 | 2026-10-28 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.68 | -1.06 | 2026-10-29 | live as of 29 October 2026, 10:00:22 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.76 | -1.16 | 2026-10-29 | live as of 29 October 2026, 10:00:22 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.81 | -1.17 | 2026-10-29 | live as of 29 October 2026, 10:00:22 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.89 | -1.13 | 2026-10-29 | live as of 29 October 2026, 10:00:22 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.98 | -1.25 | 2026-10-29 | live as of 29 October 2026, 10:00:22 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.35 | -1.02 | 2026-10-29 | live as of 29 October 2026, 10:00:22 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.93 | 2026-10-29 | live as of 29 October 2026, 10:00:22 (HKT) |
-| HK50 | Hang Seng Futures | 23149.0 | 0.27 | 2026-10-29 | live as of 29 October 2026, 10:00:22 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 956.25 | 1.1 | 2026-10-28 | live as of 29 October 2026, 10:00:22 (HKT) |
-| CIHc1 | SSE 50 Futures | 2734.0 | -0.26 | 2026-10-28 | live as of 29 October 2026, 10:00:22 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.68 | -1.06 | 2026-10-29 | live as of 29 October 2026, 11:00:25 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.76 | -1.16 | 2026-10-29 | live as of 29 October 2026, 11:00:25 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.81 | -1.17 | 2026-10-29 | live as of 29 October 2026, 11:00:25 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.89 | -1.13 | 2026-10-29 | live as of 29 October 2026, 11:00:25 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.98 | -1.25 | 2026-10-29 | live as of 29 October 2026, 11:00:25 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.35 | -1.02 | 2026-10-29 | live as of 29 October 2026, 11:00:25 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.93 | 2026-10-29 | live as of 29 October 2026, 11:00:25 (HKT) |
+| HK50 | Hang Seng Futures | 23149.0 | 0.27 | 2026-10-29 | live as of 29 October 2026, 11:00:25 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 956.25 | 1.1 | 2026-10-28 | live as of 29 October 2026, 11:00:25 (HKT) |
+| CIHc1 | SSE 50 Futures | 2734.0 | -0.26 | 2026-10-28 | live as of 29 October 2026, 11:00:25 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.59 | -0.01 | 2026-10-28 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.07 | -0.22 | 2026-10-28 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 93.21 | 0.0 | 2026-10-28 | closed |
@@ -342,15 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.76`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Vertiv earnings just sent an upbeat signal about AI ahead of Big Tech results**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AI, earnings, infrastructure
-- Score: `38.67`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**3. Oil prices rise as U.S. reportedly tells Gulf countries to prepare for Iran strikes after midterm elections**
+**2. Oil prices rise as U.S. reportedly tells Gulf countries to prepare for Iran strikes after midterm elections**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -358,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.74`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat**
+**3. Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat**
 - Source: CNBC Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -366,13 +358,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.1`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**5. Federal Reserve issues FOMC statement**
+**4. Federal Reserve issues FOMC statement**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
 - Affected assets: FOMC, monetary policy, central bank, interest rates
 - Score: `34.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. Vertiv earnings just sent an upbeat signal about AI ahead of Big Tech results**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AI, earnings, infrastructure
+- Score: `32.87`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 **6. Traders are betting big against this restaurant giant into earnings**
 - Source: CNBC Markets
@@ -512,4 +512,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 29 October 2026, 10:19:34 (HKT)
+- Report generated at: 29 October 2026, 11:18:26 (HKT)
