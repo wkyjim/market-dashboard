@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 29 October 2026, 11:18:26 (HKT)
+Generated at: 29 October 2026, 12:07:30 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **55.18 / 100** (Mild Risk-On)
+- Regime score: **54.87 / 100** (Mixed / Rotation)
 - US equity strength: **55.1 / 100** (neutral)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **49.83 / 100**, reliability **65.94 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 55.18 | Mild Risk-On |
+| Overall regime | 54.87 | Mixed / Rotation |
 | equity_trend | 56.25 | mild risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.48 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 52.22 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
@@ -27,8 +27,8 @@ Window: 24h
 | dollar_fx | 56.03 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 47.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.89 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 66.25 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0, news_confirmation=66.25 |
+| news_confirmation | 60.0 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=70.0, news_confirmation=60.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 16.91 | -3.48 | 2026-10-28 | closed |
 | ^SKEW | CBOE SKEW Index | 148.74 | -0.32 | 2026-10-28 | closed |
 | ^MOVE | ICE BofA MOVE Index | 94.55 | -3.4 | 2026-10-28 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.68 | -1.06 | 2026-10-29 | live as of 29 October 2026, 11:00:25 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.76 | -1.16 | 2026-10-29 | live as of 29 October 2026, 11:00:25 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.81 | -1.17 | 2026-10-29 | live as of 29 October 2026, 11:00:25 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.89 | -1.13 | 2026-10-29 | live as of 29 October 2026, 11:00:25 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.98 | -1.25 | 2026-10-29 | live as of 29 October 2026, 11:00:25 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.35 | -1.02 | 2026-10-29 | live as of 29 October 2026, 11:00:25 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.93 | 2026-10-29 | live as of 29 October 2026, 11:00:25 (HKT) |
-| HK50 | Hang Seng Futures | 23149.0 | 0.27 | 2026-10-29 | live as of 29 October 2026, 11:00:25 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 956.25 | 1.1 | 2026-10-28 | live as of 29 October 2026, 11:00:25 (HKT) |
-| CIHc1 | SSE 50 Futures | 2734.0 | -0.26 | 2026-10-28 | live as of 29 October 2026, 11:00:25 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.68 | -1.1 | 2026-10-29 | live as of 29 October 2026, 12:00:22 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.76 | -1.18 | 2026-10-29 | live as of 29 October 2026, 12:00:22 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.82 | -1.13 | 2026-10-29 | live as of 29 October 2026, 12:00:22 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.9 | -1.05 | 2026-10-29 | live as of 29 October 2026, 12:00:22 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.99 | -1.01 | 2026-10-29 | live as of 29 October 2026, 12:00:22 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.36 | -0.85 | 2026-10-29 | live as of 29 October 2026, 12:00:22 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.32 | -0.75 | 2026-10-29 | live as of 29 October 2026, 12:00:22 (HKT) |
+| HK50 | Hang Seng Futures | 23151.0 | 0.28 | 2026-10-29 | live as of 29 October 2026, 12:00:22 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 956.25 | 1.1 | 2026-10-28 | live as of 29 October 2026, 12:00:22 (HKT) |
+| CIHc1 | SSE 50 Futures | 2734.0 | -0.26 | 2026-10-28 | live as of 29 October 2026, 12:00:22 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.59 | -0.01 | 2026-10-28 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.07 | -0.22 | 2026-10-28 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 93.21 | 0.0 | 2026-10-28 | closed |
@@ -329,12 +329,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 48, 'negative': 22, 'neutral': 10}
-- News confirmation score: `66.25`
+- Sentiment counts: {'positive': 42, 'negative': 26, 'neutral': 12}
+- News confirmation score: `60.0`
 
 ### Top Market-Moving Headlines
 
-**1. 10-year Treasury yield creeps higher even as Fed keeps rates the same**
+**1. Why Alphabet’s stock could see its worst drop in years after the latest results**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: GOOGL, GOOG, A, AI, cloud revenue
+- Score: `41.44`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**2. 10-year Treasury yield creeps higher even as Fed keeps rates the same**
 - Source: CNBC Markets
 - Importance / impact: Medium / Mixed
 - Relevance / horizon: macro / short-term
@@ -342,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.76`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Oil prices rise as U.S. reportedly tells Gulf countries to prepare for Iran strikes after midterm elections**
+**3. Oil prices rise as U.S. reportedly tells Gulf countries to prepare for Iran strikes after midterm elections**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -350,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.74`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**3. Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat**
+**4. Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat**
 - Source: CNBC Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -358,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.1`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**4. Federal Reserve issues FOMC statement**
+**5. Federal Reserve issues FOMC statement**
 - Source: Federal Reserve Press Releases
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -366,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `34.0`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. Vertiv earnings just sent an upbeat signal about AI ahead of Big Tech results**
+**6. Vertiv earnings just sent an upbeat signal about AI ahead of Big Tech results**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.87`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**6. Traders are betting big against this restaurant giant into earnings**
+**7. Traders are betting big against this restaurant giant into earnings**
 - Source: CNBC Markets
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / near-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.49`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**7. Oracle stock pops 11% as long-term revenue forecast and clarity on financing ease debt concerns**
+**8. Oracle stock pops 11% as long-term revenue forecast and clarity on financing ease debt concerns**
 - Source: CNBC Investing
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `28.74`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. Nasdaq-100 futures dip as Alphabet shares sell off after earnings report: Live updates**
+**9. Nasdaq-100 futures dip as Alphabet shares sell off after earnings report: Live updates**
 - Source: CNBC Top News
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -398,19 +406,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.44`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**9. GE Vernova to Buy Grid-Equipment Manufacturer for $9 Billion as Energy Demand Grows**
+**10. GE Vernova to Buy Grid-Equipment Manufacturer for $9 Billion as Energy Demand Grows**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / medium-term
 - Affected assets: GE, M&A, Energy Demand, Electrification
-- Score: `22.89`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. BASF Lifts Full-Year Earnings Outlook After Strong Third Quarter**
-- Source: Dow Jones US Business
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: BASF, earnings_outlook, sales_growth, corporate_guidance
 - Score: `22.89`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
@@ -512,4 +512,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 29 October 2026, 11:18:26 (HKT)
+- Report generated at: 29 October 2026, 12:07:30 (HKT)
