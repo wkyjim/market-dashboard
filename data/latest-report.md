@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 31 October 2026, 01:08:23 (HKT)
+Generated at: 31 October 2026, 02:09:14 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **48.65 / 100** (Mixed / Rotation)
+- Regime score: **48.57 / 100** (Mixed / Rotation)
 - US equity strength: **52.05 / 100** (neutral)
 - Evidence quality: **72.5 / 100**
 - ETF flow contribution: **50.08 / 100**, reliability **71.4 / 100**
@@ -17,17 +17,17 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 48.65 | Mixed / Rotation |
+| Overall regime | 48.57 | Mixed / Rotation |
 | equity_trend | 51.25 | neutral / mixed; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.13 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 56.67 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 20.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.51 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 55.28 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 42.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.06 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 50.0 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 48.75 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | none |
 | Negative contributors |  | volatility=20.0, commodity_confirmation=42.0 |
 
@@ -60,7 +60,7 @@ Window: 24h
 | Equities | S&P 500 falling; Nasdaq falling; Russell 2000 falling | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
 | Rates | 10Y Treasury falling; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
-| Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
+| Credit | HYG falling | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold falling | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver falling | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper falling | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7581.9 | -1.79 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| ^IXIC | NASDAQ Composite | 25429.32 | -2.88 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| ^RUT | Russell 2000 Index | 2806.3 | -1.85 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| ^VIX | CBOE Volatility Index | 20.01 | 16.34 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
+| ^GSPC | S&P 500 | 7559.85 | -2.08 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| ^IXIC | NASDAQ Composite | 25311.15 | -3.34 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| ^RUT | Russell 2000 Index | 2800.09 | -2.07 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| ^VIX | CBOE Volatility Index | 21.27 | 23.66 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
 | ^SKEW | CBOE SKEW Index | 151.03 | 1.54 | 2026-10-29 | closed |
-| ^MOVE | ICE BofA MOVE Index | 97.93 | 4.7 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| US2YT=X | United States 2-Year Treasury Yield | 4.59 | -1.33 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.67 | -1.42 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.73 | -1.46 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.82 | -1.25 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.93 | -1.1 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.47 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.3 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| HK50 | Hang Seng Futures | 23376.0 | 1.16 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 897.25 | -4.04 | 2026-10-29 | live as of 31 October 2026, 01:00:25 (HKT) |
-| CIHc1 | SSE 50 Futures | 2738.8 | 0.18 | 2026-10-29 | live as of 31 October 2026, 01:00:25 (HKT) |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.43 | -0.19 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.14 | -0.08 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 92.98 | -0.23 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 218.17 | -0.85 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 117.48 | -2.99 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 258.8 | -0.75 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 81.51 | 0.02 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 91.53 | 0.3 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.69 | 0.13 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| GC=F | Gold Future | 3904.6 | -3.15 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| SI=F | Silver Future | 49.17 | -5.79 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| CL=F | WTI Crude Oil Future | 104.56 | 2.51 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
-| HG=F | Copper Future | 6.48 | -1.47 | 2026-10-30 | live as of 31 October 2026, 01:00:25 (HKT) |
+| ^MOVE | ICE BofA MOVE Index | 97.92 | 4.68 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.59 | -1.33 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.67 | -1.42 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.73 | -1.46 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.82 | -1.25 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.93 | -1.1 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.47 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.3 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| HK50 | Hang Seng Futures | 23376.0 | 1.16 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 897.25 | -4.04 | 2026-10-29 | live as of 31 October 2026, 02:00:20 (HKT) |
+| CIHc1 | SSE 50 Futures | 2738.8 | 0.18 | 2026-10-29 | live as of 31 October 2026, 02:00:20 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.34 | -0.3 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.14 | -0.08 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 92.86 | -0.35 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 218.07 | -0.9 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 116.94 | -3.44 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 258.57 | -0.84 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 81.59 | 0.13 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 91.6 | 0.38 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.7 | 0.15 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| GC=F | Gold Future | 3890.1 | -3.5 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| SI=F | Silver Future | 49.1 | -5.92 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| CL=F | WTI Crude Oil Future | 104.67 | 2.62 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
+| HG=F | Copper Future | 6.46 | -1.9 | 2026-10-30 | live as of 31 October 2026, 02:00:20 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -325,12 +325,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=20.01 pct_chg=16.34
+- VIX close=21.27 pct_chg=23.66
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 36, 'negative': 36, 'neutral': 8}
-- News confirmation score: `50.0`
+- Sentiment counts: {'positive': 35, 'negative': 37, 'neutral': 8}
+- News confirmation score: `48.75`
 
 ### Top Market-Moving Headlines
 
@@ -513,4 +513,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 31 October 2026, 01:08:23 (HKT)
+- Report generated at: 31 October 2026, 02:09:14 (HKT)
