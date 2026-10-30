@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 30 October 2026, 22:07:59 (HKT)
+Generated at: 30 October 2026, 23:08:41 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **49.03 / 100** (Mixed / Rotation)
+- Regime score: **48.83 / 100** (Mixed / Rotation)
 - US equity strength: **52.05 / 100** (neutral)
 - Evidence quality: **72.5 / 100**
 - ETF flow contribution: **50.08 / 100**, reliability **71.4 / 100**
@@ -17,19 +17,19 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 49.03 | Mixed / Rotation |
+| Overall regime | 48.83 | Mixed / Rotation |
 | equity_trend | 51.25 | neutral / mixed; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.13 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 56.67 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 20.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.25 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 55.37 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 42.0 | mild risk-off pressure; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.06 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 53.12 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 53.75 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | none |
-| Negative contributors |  | volatility=20.0 |
+| Negative contributors |  | volatility=20.0, commodity_confirmation=42.0 |
 
 ## US Equity Strength Score
 
@@ -49,7 +49,7 @@ Window: 24h
 
 - Confidence score: `72.5`
 - Agreement ratio: `0.3`
-- Contradiction count: `1`
+- Contradiction count: `2`
 - Missing indicators: none
 - Warning flags: none
 
@@ -73,35 +73,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7631.21 | -1.16 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| ^IXIC | NASDAQ Composite | 25660.54 | -2.0 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| ^RUT | Russell 2000 Index | 2836.3 | -0.8 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| ^VIX | CBOE Volatility Index | 18.96 | 10.23 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
+| ^GSPC | S&P 500 | 7619.78 | -1.3 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| ^IXIC | NASDAQ Composite | 25615.5 | -2.17 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| ^RUT | Russell 2000 Index | 2822.3 | -1.29 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| ^VIX | CBOE Volatility Index | 19.14 | 11.28 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
 | ^SKEW | CBOE SKEW Index | 151.03 | 1.54 | 2026-10-29 | closed |
-| ^MOVE | ICE BofA MOVE Index | 97.19 | 3.9 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| US2YT=X | United States 2-Year Treasury Yield | 4.6 | -1.12 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.67 | -1.25 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.74 | -1.31 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.83 | -1.19 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.93 | -1.18 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.33 | -0.61 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.3 | -0.47 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| HK50 | Hang Seng Futures | 23341.0 | 1.01 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 897.25 | -4.04 | 2026-10-29 | live as of 30 October 2026, 22:00:22 (HKT) |
-| CIHc1 | SSE 50 Futures | 2738.8 | 0.18 | 2026-10-29 | live as of 30 October 2026, 22:00:22 (HKT) |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.42 | -0.2 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.22 | 0.0 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 92.97 | -0.24 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 219.18 | -0.39 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 118.94 | -1.8 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 259.43 | -0.51 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 81.65 | 0.2 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 91.5 | 0.27 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.65 | 0.09 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| GC=F | Gold Future | 3928.6 | -2.55 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| SI=F | Silver Future | 49.46 | -5.23 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| CL=F | WTI Crude Oil Future | 104.02 | 1.98 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
-| HG=F | Copper Future | 6.52 | -0.96 | 2026-10-30 | live as of 30 October 2026, 22:00:22 (HKT) |
+| ^MOVE | ICE BofA MOVE Index | 97.25 | 3.96 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.62 | -0.75 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.69 | -0.87 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.75 | -0.98 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.84 | -0.88 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.94 | -1.06 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.35 | -0.37 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.32 | -0.24 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| HK50 | Hang Seng Futures | 23427.0 | 1.38 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 897.25 | -4.04 | 2026-10-29 | live as of 30 October 2026, 23:00:29 (HKT) |
+| CIHc1 | SSE 50 Futures | 2738.8 | 0.18 | 2026-10-29 | live as of 30 October 2026, 23:00:29 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.42 | -0.21 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.16 | -0.06 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 92.93 | -0.28 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 218.69 | -0.61 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 118.56 | -2.1 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 259.32 | -0.55 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 81.59 | 0.12 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 91.5 | 0.27 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.66 | 0.09 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| GC=F | Gold Future | 3922.3 | -2.71 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| SI=F | Silver Future | 49.73 | -4.72 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| CL=F | WTI Crude Oil Future | 104.35 | 2.3 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
+| HG=F | Copper Future | 6.53 | -0.84 | 2026-10-30 | live as of 30 October 2026, 23:00:29 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -226,10 +226,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Indicator | Latest | Unit | Change | Date | Rule-Based Interpretation |
 | --- | --- | --- | --- | --- | --- |
-| US dollar/Euro ECB reference exchange rate | 1.11 | USD | -0.0 USD vs prior | 2026-10-29 | EUR weakened versus this currency. |
-| Japanese yen/Euro ECB reference exchange rate | 175.92 | JPY | 0.06 JPY vs prior | 2026-10-29 | EUR strengthened versus this currency. |
-| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.41 | CNY | -0.01 CNY vs prior | 2026-10-29 | EUR weakened versus this currency. |
-| Australian dollar/Euro ECB reference exchange rate | 1.58 | AUD | 0.0 AUD vs prior | 2026-10-29 | EUR strengthened versus this currency. |
+| US dollar/Euro ECB reference exchange rate | 1.12 | USD | 0.0 USD vs prior | 2026-10-30 | EUR strengthened versus this currency. |
+| Japanese yen/Euro ECB reference exchange rate | 175.68 | JPY | -0.24 JPY vs prior | 2026-10-30 | EUR weakened versus this currency. |
+| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.43 | CNY | 0.02 CNY vs prior | 2026-10-30 | EUR strengthened versus this currency. |
+| Australian dollar/Euro ECB reference exchange rate | 1.59 | AUD | 0.01 AUD vs prior | 2026-10-30 | EUR strengthened versus this currency. |
 
 ABS Australia note: ABS rows are stored locally/Neon, but most series are dimension-coded; only curated series should be promoted into narrative report text.
 
@@ -325,32 +325,16 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=18.96 pct_chg=10.23
+- VIX close=19.14 pct_chg=11.28
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 38, 'negative': 33, 'neutral': 9}
-- News confirmation score: `53.12`
+- Sentiment counts: {'positive': 38, 'negative': 32, 'neutral': 10}
+- News confirmation score: `53.75`
 
 ### Top Market-Moving Headlines
 
-**1. BP’s third-quarter profit nearly quadruples to $8.5 billion as refining margins surge**
-- Source: CNBC Top News
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / quarterly
-- Affected assets: BP, earnings, profit, energy
-- Score: `55.58`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the quarterly.
-
-**2. Inflation surges, PCE shows. Fed pause on rate hikes unlikely to last with prices still rising.**
-- Source: MarketWatch Top Stories
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: PCE, inflation, monetary policy, Federal Reserve
-- Score: `52.02`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. Amazon falls 7%, Intel plunges 25% in premarket trading, as pressure mounts after earnings**
+**1. Amazon falls 7%, Intel plunges 25% in premarket trading, as pressure mounts after earnings**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -358,7 +342,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `48.45`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**4. American Oil Giants See Profits Soar as Wars Crimp Energy Supplies**
+**2. BP’s third-quarter profit nearly quadruples to $8.5 billion as refining margins surge**
+- Source: CNBC Top News
+- Importance / impact: High / Positive
+- Relevance / horizon: macro / quarterly
+- Affected assets: BP, earnings, profit, energy
+- Score: `47.24`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the quarterly.
+
+**3. American Oil Giants See Profits Soar as Wars Crimp Energy Supplies**
 - Source: Dow Jones US Business
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / quarterly
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.9`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the quarterly.
 
-**5. Alphabet earnings miss reflects first real sign that AI is taking a bite out of search**
+**4. Alphabet earnings miss reflects first real sign that AI is taking a bite out of search**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**6. Shell nearly doubles quarterly profit year-on-year as refining margins soar to record high**
+**5. Shell nearly doubles quarterly profit year-on-year as refining margins soar to record high**
 - Source: CNBC Investing
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / quarterly
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.4`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the quarterly.
 
-**7. Why Alphabet’s stock is on track for its worst day ever after the latest results**
+**6. Why Alphabet’s stock is on track for its worst day ever after the latest results**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.22`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears**
+**7. ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears**
 - Source: CNBC Investing
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.93`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**9. Opinion | The U.S. Investment Boom Arrives**
+**8. Opinion | The U.S. Investment Boom Arrives**
 - Source: Dow Jones US News
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -406,11 +398,19 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.94`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Intel's stock may log its worst day in two years after this earnings report**
+**9. Intel's stock may log its worst day in two years after this earnings report**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: INTC, earnings, stock decline, Intel
+- Score: `27.29`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**10. Amazon's earnings miss, mounting AI spending are dragging down the stock — live**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: AMZN, earnings miss, AI spending, stock decline
 - Score: `27.29`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
@@ -513,4 +513,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 30 October 2026, 22:07:59 (HKT)
+- Report generated at: 30 October 2026, 23:08:41 (HKT)
