@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 30 October 2026, 12:15:47 (HKT)
+Generated at: 30 October 2026, 13:16:07 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **57.71 / 100** (Mild Risk-On)
+- Regime score: **57.18 / 100** (Mild Risk-On)
 - US equity strength: **63.13 / 100** (constructive)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **50.28 / 100**, reliability **65.91 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 57.71 | Mild Risk-On |
+| Overall regime | 57.18 | Mild Risk-On |
 | equity_trend | 67.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 48.93 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 56.11 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
-| rates_yield_curve | 66.0 | risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
+| rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 56.47 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 56.17 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 51.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.19 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 51.88 | neutral / mixed; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0, equity_trend=67.5, rates_yield_curve=66.0 |
+| Positive contributors |  | volatility=70.0, equity_trend=67.5 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -59,7 +59,7 @@ Window: 24h
 | --- | --- | --- |
 | Equities | S&P 500 falling; Nasdaq falling; Russell 2000 rising | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
 | Rates | 10Y Treasury falling; MOVE falling | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
-| Dollar | DXY proxy falling | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
+| Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold falling | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver falling | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 17.2 | 1.72 | 2026-10-29 | closed |
 | ^SKEW | CBOE SKEW Index | 151.03 | 1.54 | 2026-10-29 | closed |
 | ^MOVE | ICE BofA MOVE Index | 93.54 | -1.07 | 2026-10-29 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.57 | -1.83 | 2026-10-30 | live as of 30 October 2026, 12:00:20 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.64 | -1.88 | 2026-10-30 | live as of 30 October 2026, 12:00:20 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.71 | -1.85 | 2026-10-30 | live as of 30 October 2026, 12:00:20 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.8 | -1.72 | 2026-10-30 | live as of 30 October 2026, 12:00:20 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.91 | -1.6 | 2026-10-30 | live as of 30 October 2026, 12:00:20 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.31 | -0.99 | 2026-10-30 | live as of 30 October 2026, 12:00:20 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.28 | -0.88 | 2026-10-30 | live as of 30 October 2026, 12:00:20 (HKT) |
-| HK50 | Hang Seng Futures | 23340.5 | 1.01 | 2026-10-30 | live as of 30 October 2026, 12:00:20 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 897.25 | -4.04 | 2026-10-29 | live as of 30 October 2026, 12:00:20 (HKT) |
-| CIHc1 | SSE 50 Futures | 2738.8 | 0.18 | 2026-10-29 | live as of 30 October 2026, 12:00:20 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.58 | -1.65 | 2026-10-30 | live as of 30 October 2026, 13:00:22 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.65 | -1.71 | 2026-10-30 | live as of 30 October 2026, 13:00:22 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -1.69 | 2026-10-30 | live as of 30 October 2026, 13:00:22 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.81 | -1.54 | 2026-10-30 | live as of 30 October 2026, 13:00:22 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.92 | -1.36 | 2026-10-30 | live as of 30 October 2026, 13:00:22 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.32 | -0.84 | 2026-10-30 | live as of 30 October 2026, 13:00:22 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.29 | -0.73 | 2026-10-30 | live as of 30 October 2026, 13:00:22 (HKT) |
+| HK50 | Hang Seng Futures | 23362.5 | 1.11 | 2026-10-30 | live as of 30 October 2026, 13:00:22 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 897.25 | -4.04 | 2026-10-29 | live as of 30 October 2026, 13:00:22 (HKT) |
+| CIHc1 | SSE 50 Futures | 2738.8 | 0.18 | 2026-10-29 | live as of 30 October 2026, 13:00:22 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.58 | -0.01 | 2026-10-29 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.22 | 0.14 | 2026-10-29 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 93.19 | -0.02 | 2026-10-29 | closed |
@@ -98,10 +98,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 81.49 | 0.62 | 2026-10-29 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 91.25 | 0.44 | 2026-10-29 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.58 | 0.14 | 2026-10-29 | closed |
-| GC=F | Gold Future | 4038.2 | -0.67 | 2026-10-29 | closed |
-| SI=F | Silver Future | 52.15 | -3.2 | 2026-10-29 | closed |
-| CL=F | WTI Crude Oil Future | 102.86 | 0.77 | 2026-10-29 | closed |
-| HG=F | Copper Future | 6.58 | -1.46 | 2026-10-29 | closed |
+| GC=F | Gold Future | 4004.0 | -0.68 | 2026-10-30 | live as of 30 October 2026, 13:00:22 (HKT) |
+| SI=F | Silver Future | 51.38 | -1.56 | 2026-10-30 | live as of 30 October 2026, 13:00:22 (HKT) |
+| CL=F | WTI Crude Oil Future | 103.14 | 1.12 | 2026-10-30 | live as of 30 October 2026, 13:00:22 (HKT) |
+| HG=F | Copper Future | 6.55 | -0.46 | 2026-10-30 | live as of 30 October 2026, 13:00:22 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -374,15 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.93`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**6. Intel's stock may log its worst day in two years after this earnings report**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: INTC, earnings, stock decline, Intel
-- Score: `32.11`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**7. Opinion | The U.S. Investment Boom Arrives**
+**6. Opinion | The U.S. Investment Boom Arrives**
 - Source: Dow Jones US News
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.94`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat**
+**7. Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat**
 - Source: CNBC Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -398,12 +390,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.84`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks**
+**8. Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks**
 - Source: CNBC Business
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: RDDT, earnings, guidance, traffic decline
 - Score: `28.73`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**9. Intel's stock may log its worst day in two years after this earnings report**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: INTC, earnings, stock decline, Intel
+- Score: `27.29`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 **10. Amazon's earnings miss, mounting AI spending are dragging down the stock — live**
@@ -505,11 +505,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `48`
-- Live macro rows used: `17`
+- Live macro rows used: `28`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 30 October 2026, 12:15:47 (HKT)
+- Report generated at: 30 October 2026, 13:16:07 (HKT)
