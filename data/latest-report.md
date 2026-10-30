@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 30 October 2026, 10:17:19 (HKT)
+Generated at: 30 October 2026, 11:15:55 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.91 / 100** (Mild Risk-On)
+- Regime score: **57.71 / 100** (Mild Risk-On)
 - US equity strength: **63.13 / 100** (constructive)
 - Evidence quality: **79.5 / 100**
-- ETF flow contribution: **50.28 / 100**, reliability **65.94 / 100**
+- ETF flow contribution: **50.28 / 100**, reliability **65.91 / 100**
 - Breadth: **healthy**; above 50DMA `53.33%`, above 200DMA `60.0%`
 - Top sector score: **Energy** `68.24`
 - Top theme score: **Energy** `65.39`
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 56.91 | Mild Risk-On |
+| Overall regime | 57.71 | Mild Risk-On |
 | equity_trend | 67.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 48.93 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 56.11 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
-| rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
+| rates_yield_curve | 66.0 | risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 56.47 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.19 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 51.88 | neutral / mixed; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0, equity_trend=67.5 |
+| Positive contributors |  | volatility=70.0, equity_trend=67.5, rates_yield_curve=66.0 |
 | Negative contributors |  | none |
 
 ## US Equity Strength Score
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 17.2 | 1.72 | 2026-10-29 | closed |
 | ^SKEW | CBOE SKEW Index | 151.03 | 1.54 | 2026-10-29 | closed |
 | ^MOVE | ICE BofA MOVE Index | 93.54 | -1.07 | 2026-10-29 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.56 | -0.89 | 2026-10-30 | live as of 30 October 2026, 10:00:21 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.63 | -0.98 | 2026-10-30 | live as of 30 October 2026, 10:00:21 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.7 | -0.93 | 2026-10-30 | live as of 30 October 2026, 10:00:21 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.79 | -0.87 | 2026-10-30 | live as of 30 October 2026, 10:00:21 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.89 | -0.77 | 2026-10-30 | live as of 30 October 2026, 10:00:21 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.29 | -0.6 | 2026-10-30 | live as of 30 October 2026, 10:00:21 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.27 | -0.49 | 2026-10-30 | live as of 30 October 2026, 10:00:21 (HKT) |
-| HK50 | Hang Seng Futures | 23107.0 | 0.09 | 2026-10-29 | live as of 30 October 2026, 10:00:21 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 897.25 | -4.04 | 2026-10-29 | live as of 30 October 2026, 10:00:21 (HKT) |
-| CIHc1 | SSE 50 Futures | 2738.8 | 0.18 | 2026-10-29 | live as of 30 October 2026, 10:00:21 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.57 | -1.83 | 2026-10-30 | live as of 30 October 2026, 11:00:19 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.64 | -1.88 | 2026-10-30 | live as of 30 October 2026, 11:00:19 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.71 | -1.85 | 2026-10-30 | live as of 30 October 2026, 11:00:19 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.8 | -1.72 | 2026-10-30 | live as of 30 October 2026, 11:00:19 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.91 | -1.6 | 2026-10-30 | live as of 30 October 2026, 11:00:19 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.31 | -0.99 | 2026-10-30 | live as of 30 October 2026, 11:00:19 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.28 | -0.88 | 2026-10-30 | live as of 30 October 2026, 11:00:19 (HKT) |
+| HK50 | Hang Seng Futures | 23281.0 | 0.75 | 2026-10-30 | live as of 30 October 2026, 11:00:19 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 897.25 | -4.04 | 2026-10-29 | live as of 30 October 2026, 11:00:19 (HKT) |
+| CIHc1 | SSE 50 Futures | 2738.8 | 0.18 | 2026-10-29 | live as of 30 October 2026, 11:00:19 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.58 | -0.01 | 2026-10-29 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.22 | 0.14 | 2026-10-29 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 93.19 | -0.02 | 2026-10-29 | closed |
@@ -390,15 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.11`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**8. Amazon's earnings miss, mounting AI spending are dragging down the stock — live**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: AMZN, earnings miss, AI spending, stock decline
-- Score: `32.11`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**9. Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat**
+**8. Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat**
 - Source: CNBC Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -406,12 +398,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.84`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks**
+**9. Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks**
 - Source: CNBC Business
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: RDDT, earnings, guidance, traffic decline
 - Score: `28.73`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**10. Amazon's earnings miss, mounting AI spending are dragging down the stock — live**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: AMZN, earnings miss, AI spending, stock decline
+- Score: `27.29`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 
@@ -512,4 +512,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 30 October 2026, 10:17:19 (HKT)
+- Report generated at: 30 October 2026, 11:15:55 (HKT)
