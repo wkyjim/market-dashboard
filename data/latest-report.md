@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 30 October 2026, 09:09:20 (HKT)
+Generated at: 30 October 2026, 09:18:28 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **56.94 / 100** (Mild Risk-On)
+- Regime score: **56.91 / 100** (Mild Risk-On)
 - US equity strength: **63.13 / 100** (constructive)
 - Evidence quality: **79.5 / 100**
-- ETF flow contribution: **50.73 / 100**, reliability **65.52 / 100**
+- ETF flow contribution: **50.28 / 100**, reliability **65.94 / 100**
 - Breadth: **healthy**; above 50DMA `53.33%`, above 200DMA `60.0%`
 - Top sector score: **Energy** `68.24`
 - Top theme score: **Energy** `65.39`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 56.94 | Mild Risk-On |
+| Overall regime | 56.91 | Mild Risk-On |
 | equity_trend | 67.5 | risk-on support; Core equity ETFs versus moving averages. |
 | equity_momentum | 48.93 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 56.11 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 56.47 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 50.48 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 50.19 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 51.88 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=70.0, equity_trend=67.5 |
 | Negative contributors |  | none |
@@ -249,7 +249,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 6 | Consumer Discretionary | 59.76 | uptrend | neutral | broad | 50.0 | 0.0 | 51.76 | HAS, CCL, TSLA | CMG, WYNN, MGM |
 | 7 | Utilities | 56.44 | neutral | neutral | broad | 50.0 | 0.0 | 52.73 | CNP, PNW, NI | CEG, NRG, AES |
 | 8 | Technology | 55.68 | strong uptrend | neutral | broad | 52.58 | 65.0 | 48.37 | PTC, ACN, CDW | TER, LRCX, STX |
-| 9 | Crypto | 50.0 | neutral | neutral | mixed | 50.0 | 0.0 | 50.0 |  |  |
+| 9 | Crypto | 51.52 | neutral | neutral | mixed | 65.18 | 65.0 | 50.0 |  |  |
 | 10 | Real Estate | 44.72 | strong downtrend | neutral | weak | 42.7 | 65.0 | 48.28 | CCI, SBAC, HST | PLD, DOC, ARE |
 | 11 | Industrials | 44.62 | strong downtrend | neutral | weak | 50.0 | 0.0 | 45.89 | EFX, LMT, PNR | CHRW, BE, FIX |
 | 12 | Semiconductors | 42.11 | downtrend | neutral | weak | 59.09 | 65.0 | 43.66 | SMH, SOXX | SOXX, SMH |
@@ -266,11 +266,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Cybersecurity | 61.16 | Positive setup | 50.0 | 0.0 | 30.89 | True | False |
 | 4 | Dividend Defensives | 58.4 | Positive setup | 50.74 | 65.0 | 1.03 | False | False |
 | 5 | Quality Growth | 52.42 | Neutral / watchlist | 50.62 | 65.0 | 9.11 | False | False |
-| 6 | Defense | 49.21 | Neutral / watchlist | 50.0 | 0.0 | 35.1 | False | False |
-| 7 | Semiconductors | 48.67 | Neutral / watchlist | 59.09 | 65.0 | 8.39 | False | False |
-| 8 | AI Infrastructure | 48.27 | Neutral / watchlist | 59.09 | 65.0 | 11.74 | False | False |
-| 9 | Crypto Infrastructure | 48.08 | Neutral / watchlist | 50.0 | 0.0 | 7.74 | False | False |
-| 10 | Small Caps | 48.01 | Neutral / watchlist | 50.0 | 0.0 | 0.0 | False | False |
+| 6 | Crypto Infrastructure | 49.6 | Neutral / watchlist | 65.18 | 65.0 | 7.74 | False | False |
+| 7 | Defense | 49.21 | Neutral / watchlist | 50.0 | 0.0 | 35.1 | False | False |
+| 8 | Semiconductors | 48.67 | Neutral / watchlist | 59.09 | 65.0 | 8.39 | False | False |
+| 9 | AI Infrastructure | 48.27 | Neutral / watchlist | 59.09 | 65.0 | 11.74 | False | False |
+| 10 | Small Caps | 48.2 | Neutral / watchlist | 51.91 | 65.0 | 0.0 | False | False |
 | 11 | Financials | 43.81 | Neutral / watchlist | 33.98 | 65.0 | 11.69 | False | False |
 | 12 | Grid Infrastructure | 38.88 | Weak setup | 50.0 | 0.0 | 16.38 | False | False |
 | 13 | Nuclear | 32.03 | Underperformance risk | 50.0 | 0.0 | 16.46 | False | False |
@@ -289,10 +289,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Cybersecurity | Cybersecurity | 67.15 | strong | 61.16 | positive | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 66.9 | strong | 58.4 | positive | sector and theme confirmation |
 | Financials | Financials | 63.46 | positive | 43.81 | weak | sector stronger than related themes |
-| Consumer Discretionary | Small Caps | 59.76 | positive | 48.01 | mixed | sector stronger than related themes |
+| Consumer Discretionary | Small Caps | 59.76 | positive | 48.2 | mixed | sector stronger than related themes |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 56.44 | positive | 43.1 | weak | sector stronger than related themes |
 | Technology | AI Infrastructure, Semiconductors, Quality Growth | 55.68 | positive | 49.79 | mixed | sector stronger than related themes |
-| Crypto | Crypto Infrastructure | 50.0 | mixed | 48.08 | mixed | mixed confirmation |
+| Crypto | Crypto Infrastructure | 51.52 | mixed | 49.6 | mixed | mixed confirmation |
 | Real Estate | Dividend Defensives | 44.72 | weak | 58.4 | positive | theme stronger than official sector |
 | Industrials | Defense, Grid Infrastructure | 44.62 | weak | 44.04 | weak | broad weakness across sector and themes |
 | Semiconductors | AI Infrastructure, Semiconductors | 42.11 | weak | 48.47 | mixed | mixed confirmation |
@@ -433,32 +433,32 @@ Positioning and flow data is used as confirmation only.
 
 - Market flow regime: `Mixed / Neutral`
 - Market flow score: `49.8 / 100`
-- Equity risk flow: `47.1`
+- Equity risk flow: `46.6`
 - Credit risk flow: `52.7`
 - Sector cyclicality flow: `50.7`
-- Duration/liquidity flow: `50.0`
+- Duration/liquidity flow: `49.8`
 - Alternatives: `mixed alternative-asset demand`
-- ETF flow reliability: `65.5 / 100`
+- ETF flow reliability: `65.9 / 100`
 - Dominant allocation direction: `mixed allocation`
 
 ### Core Flow Signals
 
 | Ticker | Exposure | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price State | Flow State | Volume State | PFV State | Regime Bias | Flow Structure | Confidence |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| IVV | U.S. Broad Equity | -0.3 | -0.9 | 0.4 | -1.0 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural distribution | 79.0 |
+| IVV | U.S. Broad Equity | -0.2 | -1.0 | 0.5 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Structural distribution | 64.0 |
 | ACWI | Global Equity | -0.6 | -0.7 | 0.0 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure; Persistent selling | 62.0 |
 | EFA | Developed Markets ex-U.S. | 0.9 | 0.6 | 0.1 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural accumulation; Persistent selling | 68.0 |
 | IEMG | Emerging Markets | -0.5 | -0.4 | 0.0 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Mixed or neutral flow structure; Persistent selling | 62.0 |
 | IJH | U.S. Mid Cap | -1.3 | 0.3 | 0.5 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Medium-term deterioration | 68.0 |
-| IWM | U.S. Small Cap | -1.5 | 0.5 | 0.6 | -0.4 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Structural distribution | 79.0 |
+| IWM | U.S. Small Cap | -0.8 | 0.9 | 0.6 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Mixed or neutral flow structure | 70.0 |
 | LQD | Investment-Grade Credit | 0.9 | -0.7 | 0.7 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Medium-term recovery | 72.0 |
 | HYG | High-Yield Credit | 0.2 | 0.3 | 0.6 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation | 76.0 |
-| SGOV | Treasury Bills / Cash | -0.6 | -0.3 | 0.8 | -1.1 | Flat | Sell | Normal | Quiet Distribution | Weakening | Tactical profit-taking inside structural accumulation; Strong sponsorship | 91.0 |
-| SHY | Short-Duration Treasuries | 1.3 | 2.2 | 0.8 | 0.0 | Flat | Buy | Normal | Quiet Accumulation | Improving | Strong confirmation; Exceptional institutional buying, Strong sponsorship | 100.0 |
-| IEF | Intermediate-Duration Treasuries | 0.5 | -0.8 | 0.5 | 0.1 | Up | Buy | Normal | Steady Accumulation | Risk-On | Medium-term recovery | 87.0 |
-| TLT | Long-Duration Treasuries | -0.7 | 0.9 | 0.6 | -0.2 | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Medium-term deterioration | 83.0 |
+| SGOV | Treasury Bills / Cash | -0.5 | -0.4 | 0.9 | n/a | Flat | Sell | Normal | Quiet Distribution | Weakening | Tactical profit-taking inside structural accumulation; Strong sponsorship | 76.0 |
+| SHY | Short-Duration Treasuries | 1.2 | 2.0 | 0.8 | n/a | Flat | Buy | Normal | Quiet Accumulation | Improving | Strong confirmation; Exceptional institutional buying, Strong sponsorship | 96.0 |
+| IEF | Intermediate-Duration Treasuries | 0.6 | -0.8 | 0.5 | n/a | Up | Buy | Normal | Steady Accumulation | Risk-On | Medium-term recovery | 72.0 |
+| TLT | Long-Duration Treasuries | -0.9 | 1.1 | 0.6 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Medium-term deterioration | 68.0 |
 | GLD | Gold | -0.7 | 1.0 | 0.4 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term deterioration | 68.0 |
-| IBIT | Bitcoin | 0.2 | 1.6 | 0.6 | -1.1 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural accumulation | 91.0 |
+| IBIT | Bitcoin | 0.3 | 1.5 | 0.7 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Structural accumulation | 76.0 |
 
 ### Sector Flow Signals
 
@@ -490,8 +490,10 @@ Positioning and flow data is used as confirmation only.
 | Severity | Type | Primary | Comparison | Interpretation |
 | --- | --- | --- | --- | --- |
 | high | close_substitute_divergence | GLD | IAU | primary representative differs from close substitute |
+| high | close_substitute_divergence | AGG | IUSB | primary representative differs from close substitute |
 | high | close_substitute_divergence | IWF | IVW | primary representative differs from close substitute |
 | high | close_substitute_divergence | IWD | IVE | primary representative differs from close substitute |
+| high | close_substitute_divergence | IWM | IJR | primary representative differs from close substitute |
 
 
 ## Contradiction / Audit Flags
@@ -510,4 +512,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 30 October 2026, 09:09:20 (HKT)
+- Report generated at: 30 October 2026, 09:18:28 (HKT)
