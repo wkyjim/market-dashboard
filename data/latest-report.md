@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 30 October 2026, 09:18:28 (HKT)
+Generated at: 30 October 2026, 10:17:19 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 17.2 | 1.72 | 2026-10-29 | closed |
 | ^SKEW | CBOE SKEW Index | 151.03 | 1.54 | 2026-10-29 | closed |
 | ^MOVE | ICE BofA MOVE Index | 93.54 | -1.07 | 2026-10-29 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.56 | -0.89 | 2026-10-30 | live as of 30 October 2026, 09:00:21 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.63 | -0.98 | 2026-10-30 | live as of 30 October 2026, 09:00:21 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.7 | -0.93 | 2026-10-30 | live as of 30 October 2026, 09:00:21 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.79 | -0.87 | 2026-10-30 | live as of 30 October 2026, 09:00:21 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.89 | -0.77 | 2026-10-30 | live as of 30 October 2026, 09:00:21 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.29 | -0.6 | 2026-10-30 | live as of 30 October 2026, 09:00:21 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.27 | -0.49 | 2026-10-30 | live as of 30 October 2026, 09:00:21 (HKT) |
-| HK50 | Hang Seng Futures | 23107.0 | 0.09 | 2026-10-29 | live as of 30 October 2026, 09:00:21 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 897.25 | -4.04 | 2026-10-29 | live as of 30 October 2026, 09:00:21 (HKT) |
-| CIHc1 | SSE 50 Futures | 2738.8 | 0.18 | 2026-10-29 | live as of 30 October 2026, 09:00:21 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.56 | -0.89 | 2026-10-30 | live as of 30 October 2026, 10:00:21 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.63 | -0.98 | 2026-10-30 | live as of 30 October 2026, 10:00:21 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.7 | -0.93 | 2026-10-30 | live as of 30 October 2026, 10:00:21 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.79 | -0.87 | 2026-10-30 | live as of 30 October 2026, 10:00:21 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.89 | -0.77 | 2026-10-30 | live as of 30 October 2026, 10:00:21 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.29 | -0.6 | 2026-10-30 | live as of 30 October 2026, 10:00:21 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.27 | -0.49 | 2026-10-30 | live as of 30 October 2026, 10:00:21 (HKT) |
+| HK50 | Hang Seng Futures | 23107.0 | 0.09 | 2026-10-29 | live as of 30 October 2026, 10:00:21 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 897.25 | -4.04 | 2026-10-29 | live as of 30 October 2026, 10:00:21 (HKT) |
+| CIHc1 | SSE 50 Futures | 2738.8 | 0.18 | 2026-10-29 | live as of 30 October 2026, 10:00:21 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.58 | -0.01 | 2026-10-29 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.22 | 0.14 | 2026-10-29 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 93.19 | -0.02 | 2026-10-29 | closed |
@@ -339,18 +339,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: GOOGL, GOOG, AI, earnings miss, Alphabet
-- Score: `48.45`
+- Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**2. ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears**
-- Source: CNBC Investing
-- Importance / impact: Medium / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: NOW, AI disruption, earnings miss, stock decline
-- Score: `39.92`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**3. Opinion | The U.S. Investment Boom Arrives**
+**2. Opinion | The U.S. Investment Boom Arrives**
 - Source: Dow Jones US News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -358,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.4`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Alphabet's third-quarter results missed expectations. They led one analyst to downgrade the stock**
+**3. Alphabet's third-quarter results missed expectations. They led one analyst to downgrade the stock**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.69`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**5. Shell nearly doubles quarterly profit year-on-year as refining margins soar to record high**
+**4. Shell nearly doubles quarterly profit year-on-year as refining margins soar to record high**
 - Source: CNBC Investing
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / quarterly
@@ -374,13 +366,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.4`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the quarterly.
 
-**6. Why Alphabet’s stock is on track for its worst day ever after the latest results**
+**5. Why Alphabet’s stock is on track for its worst day ever after the latest results**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: GOOGL, GOOG, A, AI, cloud revenue
 - Score: `35.22`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**6. ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears**
+- Source: CNBC Investing
+- Importance / impact: Low / Negative
+- Relevance / horizon: single_name / short-term
+- Affected assets: NOW, AI disruption, earnings miss, stock decline
+- Score: `33.93`
+- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 **7. Intel's stock may log its worst day in two years after this earnings report**
 - Source: MarketWatch Bulletins
@@ -505,11 +505,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `48`
-- Live macro rows used: `16`
+- Live macro rows used: `17`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 30 October 2026, 09:18:28 (HKT)
+- Report generated at: 30 October 2026, 10:17:19 (HKT)
