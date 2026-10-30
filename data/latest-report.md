@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 30 October 2026, 11:15:55 (HKT)
+Generated at: 30 October 2026, 12:08:51 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 17.2 | 1.72 | 2026-10-29 | closed |
 | ^SKEW | CBOE SKEW Index | 151.03 | 1.54 | 2026-10-29 | closed |
 | ^MOVE | ICE BofA MOVE Index | 93.54 | -1.07 | 2026-10-29 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.57 | -1.83 | 2026-10-30 | live as of 30 October 2026, 11:00:19 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.64 | -1.88 | 2026-10-30 | live as of 30 October 2026, 11:00:19 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.71 | -1.85 | 2026-10-30 | live as of 30 October 2026, 11:00:19 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.8 | -1.72 | 2026-10-30 | live as of 30 October 2026, 11:00:19 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.91 | -1.6 | 2026-10-30 | live as of 30 October 2026, 11:00:19 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.31 | -0.99 | 2026-10-30 | live as of 30 October 2026, 11:00:19 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.28 | -0.88 | 2026-10-30 | live as of 30 October 2026, 11:00:19 (HKT) |
-| HK50 | Hang Seng Futures | 23281.0 | 0.75 | 2026-10-30 | live as of 30 October 2026, 11:00:19 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 897.25 | -4.04 | 2026-10-29 | live as of 30 October 2026, 11:00:19 (HKT) |
-| CIHc1 | SSE 50 Futures | 2738.8 | 0.18 | 2026-10-29 | live as of 30 October 2026, 11:00:19 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.57 | -1.83 | 2026-10-30 | live as of 30 October 2026, 12:00:20 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.64 | -1.88 | 2026-10-30 | live as of 30 October 2026, 12:00:20 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.71 | -1.85 | 2026-10-30 | live as of 30 October 2026, 12:00:20 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.8 | -1.72 | 2026-10-30 | live as of 30 October 2026, 12:00:20 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.91 | -1.6 | 2026-10-30 | live as of 30 October 2026, 12:00:20 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.31 | -0.99 | 2026-10-30 | live as of 30 October 2026, 12:00:20 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.28 | -0.88 | 2026-10-30 | live as of 30 October 2026, 12:00:20 (HKT) |
+| HK50 | Hang Seng Futures | 23340.5 | 1.01 | 2026-10-30 | live as of 30 October 2026, 12:00:20 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 897.25 | -4.04 | 2026-10-29 | live as of 30 October 2026, 12:00:20 (HKT) |
+| CIHc1 | SSE 50 Futures | 2738.8 | 0.18 | 2026-10-29 | live as of 30 October 2026, 12:00:20 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.58 | -0.01 | 2026-10-29 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.22 | 0.14 | 2026-10-29 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 93.19 | -0.02 | 2026-10-29 | closed |
@@ -252,7 +252,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 9 | Crypto | 51.52 | neutral | neutral | mixed | 65.18 | 65.0 | 50.0 |  |  |
 | 10 | Real Estate | 44.72 | strong downtrend | neutral | weak | 42.7 | 65.0 | 48.28 | CCI, SBAC, HST | PLD, DOC, ARE |
 | 11 | Industrials | 44.62 | strong downtrend | neutral | weak | 50.0 | 0.0 | 45.89 | EFX, LMT, PNR | CHRW, BE, FIX |
-| 12 | Semiconductors | 42.11 | downtrend | neutral | weak | 59.09 | 65.0 | 43.66 | SMH, SOXX | SOXX, SMH |
+| 12 | Semiconductors | 42.1 | downtrend | neutral | weak | 59.09 | 65.0 | 43.66 | SMH, SOXX | SOXX, SMH |
 | 13 | Defense | 36.12 | strong downtrend | negative | weak | 50.0 | 0.0 | 39.46 | XAR | XAR |
 | 14 | Nuclear | 35.79 | strong downtrend | negative | weak | 50.0 | 0.0 | 38.57 | NLR | NLR |
 | 15 | Grid Infrastructure | 34.31 | strong downtrend | neutral | weak | 50.0 | 0.0 | 42.86 | GRID | GRID |
@@ -268,9 +268,9 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 5 | Quality Growth | 52.42 | Neutral / watchlist | 50.62 | 65.0 | 9.11 | False | False |
 | 6 | Crypto Infrastructure | 49.6 | Neutral / watchlist | 65.18 | 65.0 | 7.74 | False | False |
 | 7 | Defense | 49.21 | Neutral / watchlist | 50.0 | 0.0 | 35.1 | False | False |
-| 8 | Semiconductors | 48.67 | Neutral / watchlist | 59.09 | 65.0 | 8.39 | False | False |
-| 9 | AI Infrastructure | 48.27 | Neutral / watchlist | 59.09 | 65.0 | 11.74 | False | False |
-| 10 | Small Caps | 48.2 | Neutral / watchlist | 51.91 | 65.0 | 0.0 | False | False |
+| 8 | AI Infrastructure | 48.27 | Neutral / watchlist | 59.09 | 65.0 | 11.74 | False | False |
+| 9 | Small Caps | 48.2 | Neutral / watchlist | 51.91 | 65.0 | 0.0 | False | False |
+| 10 | Semiconductors | 48.16 | Neutral / watchlist | 59.09 | 65.0 | 8.39 | False | False |
 | 11 | Financials | 43.81 | Neutral / watchlist | 33.98 | 65.0 | 11.69 | False | False |
 | 12 | Grid Infrastructure | 38.88 | Weak setup | 50.0 | 0.0 | 16.38 | False | False |
 | 13 | Nuclear | 32.03 | Underperformance risk | 50.0 | 0.0 | 16.46 | False | False |
@@ -291,11 +291,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Financials | Financials | 63.46 | positive | 43.81 | weak | sector stronger than related themes |
 | Consumer Discretionary | Small Caps | 59.76 | positive | 48.2 | mixed | sector stronger than related themes |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 56.44 | positive | 43.1 | weak | sector stronger than related themes |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 55.68 | positive | 49.79 | mixed | sector stronger than related themes |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 55.68 | positive | 49.62 | mixed | sector stronger than related themes |
 | Crypto | Crypto Infrastructure | 51.52 | mixed | 49.6 | mixed | mixed confirmation |
 | Real Estate | Dividend Defensives | 44.72 | weak | 58.4 | positive | theme stronger than official sector |
 | Industrials | Defense, Grid Infrastructure | 44.62 | weak | 44.04 | weak | broad weakness across sector and themes |
-| Semiconductors | AI Infrastructure, Semiconductors | 42.11 | weak | 48.47 | mixed | mixed confirmation |
+| Semiconductors | AI Infrastructure, Semiconductors | 42.1 | weak | 48.22 | mixed | mixed confirmation |
 | Defense | Defense | 36.12 | weak | 49.21 | mixed | mixed confirmation |
 | Nuclear | Nuclear | 35.79 | weak | 32.03 | very weak | broad weakness across sector and themes |
 | Grid Infrastructure | Grid Infrastructure | 34.31 | very weak | 38.88 | weak | broad weakness across sector and themes |
@@ -311,9 +311,9 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 5 | Quality Growth | 59.84 | Neutral / watchlist | trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 6 | AI Infrastructure | 53.2 | Neutral / watchlist | trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 7 | Crypto Infrastructure | 52.27 | Neutral / watchlist | relative_strength_60d, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
-| 8 | Semiconductors | 49.23 | Neutral / watchlist |  | relative strength below SPY, breadth below 45%, news turns negative |
-| 9 | Defense | 49.15 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 10 | Small Caps | 49.1 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 8 | Defense | 49.15 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 9 | Small Caps | 49.1 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
+| 10 | Semiconductors | 48.73 | Neutral / watchlist |  | relative strength below SPY, breadth below 45%, news turns negative |
 | 11 | Financials | 45.09 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 12 | Grid Infrastructure | 40.73 | Weak setup | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 
@@ -342,15 +342,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**2. Opinion | The U.S. Investment Boom Arrives**
-- Source: Dow Jones US News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, GDP growth, tariffs, economic outlook
-- Score: `36.4`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. Alphabet's third-quarter results missed expectations. They led one analyst to downgrade the stock**
+**2. Alphabet's third-quarter results missed expectations. They led one analyst to downgrade the stock**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -358,7 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.69`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**4. Shell nearly doubles quarterly profit year-on-year as refining margins soar to record high**
+**3. Shell nearly doubles quarterly profit year-on-year as refining margins soar to record high**
 - Source: CNBC Investing
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / quarterly
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.4`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the quarterly.
 
-**5. Why Alphabet’s stock is on track for its worst day ever after the latest results**
+**4. Why Alphabet’s stock is on track for its worst day ever after the latest results**
 - Source: MarketWatch Top Stories
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.22`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**6. ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears**
+**5. ServiceNow shares plunge 27% to worst day ever after earnings revive AI disruption fears**
 - Source: CNBC Investing
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -382,13 +374,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.93`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**7. Intel's stock may log its worst day in two years after this earnings report**
+**6. Intel's stock may log its worst day in two years after this earnings report**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: INTC, earnings, stock decline, Intel
 - Score: `32.11`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
+
+**7. Opinion | The U.S. Investment Boom Arrives**
+- Source: Dow Jones US News
+- Importance / impact: Low / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, GDP growth, tariffs, economic outlook
+- Score: `30.94`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **8. Microsoft stock jumps 4% as cloud growth drives earnings and revenue beat**
 - Source: CNBC Business
@@ -512,4 +512,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 30 October 2026, 11:15:55 (HKT)
+- Report generated at: 30 October 2026, 12:08:51 (HKT)
