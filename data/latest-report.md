@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 31 October 2026, 10:20:01 (HKT)
+Generated at: 31 October 2026, 11:20:39 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 19.42 | 12.91 | 2026-10-30 | closed |
 | ^SKEW | CBOE SKEW Index | 149.76 | -0.84 | 2026-10-30 | closed |
 | ^MOVE | ICE BofA MOVE Index | 100.2 | 7.12 | 2026-10-30 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.59 | -1.42 | 2026-10-30 | live as of 31 October 2026, 10:00:29 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.66 | -1.56 | 2026-10-30 | live as of 31 October 2026, 10:00:29 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -1.69 | 2026-10-30 | live as of 31 October 2026, 10:00:29 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.81 | -1.47 | 2026-10-30 | live as of 31 October 2026, 10:00:29 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.92 | -1.36 | 2026-10-30 | live as of 31 October 2026, 10:00:29 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.52 | 2026-10-30 | live as of 31 October 2026, 10:00:29 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.38 | 2026-10-30 | live as of 31 October 2026, 10:00:29 (HKT) |
-| HK50 | Hang Seng Futures | 23346.0 | 1.03 | 2026-10-30 | live as of 31 October 2026, 10:00:29 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 873.1 | -2.93 | 2026-10-30 | live as of 31 October 2026, 10:00:29 (HKT) |
-| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 31 October 2026, 10:00:29 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.58 | -1.61 | 2026-10-30 | live as of 31 October 2026, 11:00:19 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.65 | -1.67 | 2026-10-30 | live as of 31 October 2026, 11:00:19 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -1.67 | 2026-10-30 | live as of 31 October 2026, 11:00:19 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.82 | -1.43 | 2026-10-30 | live as of 31 October 2026, 11:00:19 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.93 | -1.2 | 2026-10-30 | live as of 31 October 2026, 11:00:19 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.54 | 2026-10-30 | live as of 31 October 2026, 11:00:19 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.38 | 2026-10-30 | live as of 31 October 2026, 11:00:19 (HKT) |
+| HK50 | Hang Seng Futures | 23346.0 | 1.03 | 2026-10-30 | live as of 31 October 2026, 11:00:19 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 873.1 | -2.93 | 2026-10-30 | live as of 31 October 2026, 11:00:19 (HKT) |
+| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 31 October 2026, 11:00:19 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.43 | -0.19 | 2026-10-30 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.27 | 0.05 | 2026-10-30 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.98 | -0.23 | 2026-10-30 | closed |
@@ -334,29 +334,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Top Market-Moving Headlines
 
-**1. AMD’s stock slides after Intel earnings reveal two big issues**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AMD, PC, AI, PC market, Intel earnings
-- Score: `52.02`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**2. Intel stock has worst day since 1970s, wiping about $12 billion off government's stake**
-- Source: CNBC Top News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AMZN, INTC, AI spending, earnings pressure, market volatility
-- Score: `48.45`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**3. BP’s third-quarter profit nearly quadruples to $8.5 billion as refining margins surge**
+**1. BP’s third-quarter profit nearly quadruples to $8.5 billion as refining margins surge**
 - Source: CNBC Top News
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / quarterly
 - Affected assets: BP, earnings, profit, energy
 - Score: `47.24`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the quarterly.
+
+**2. AMD’s stock slides after Intel earnings reveal two big issues**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AMD, PC, AI, PC market, Intel earnings
+- Score: `44.22`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+
+**3. Intel stock has worst day since 1970s, wiping about $12 billion off government's stake**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AMZN, INTC, AI spending, earnings pressure, market volatility
+- Score: `41.18`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 **4. American Oil Giants See Profits Soar as Wars Crimp Energy Supplies**
 - Source: Dow Jones US Business
@@ -366,21 +366,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.02`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the quarterly.
 
-**5. The tech selloff shifts into overdrive as weak earnings bring a reality check**
-- Source: MarketWatch Bulletins
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: tech selloff, earnings miss, market correction
-- Score: `36.74`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**6. The U.S. is in a battle to lower the costs to build housing, but it’s losing—as factors including the Iran war and tariffs fuel rising expenses for home builders**
+**5. The U.S. is in a battle to lower the costs to build housing, but it’s losing—as factors including the Iran war and tariffs fuel rising expenses for home builders**
 - Source: Dow Jones Economy
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, housing costs, inflation, tariffs
 - Score: `32.87`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**6. The tech selloff shifts into overdrive as weak earnings bring a reality check**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: tech selloff, earnings miss, market correction
+- Score: `31.23`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 **7. Nasdaq logs worst month since March 2025 as weak tech earnings rattle investors**
 - Source: MarketWatch Bulletins
@@ -512,4 +512,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 31 October 2026, 10:20:01 (HKT)
+- Report generated at: 31 October 2026, 11:20:39 (HKT)
