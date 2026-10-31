@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 1 November 2026, 00:08:56 (HKT)
+Generated at: 1 November 2026, 00:17:04 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **44.48 / 100** (Mild Risk-Off)
+- Regime score: **44.45 / 100** (Mild Risk-Off)
 - US equity strength: **42.22 / 100** (weak)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **48.84 / 100**, reliability **66.57 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 44.48 | Mild Risk-Off |
+| Overall regime | 44.45 | Mild Risk-Off |
 | equity_trend | 40.0 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 45.36 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 45.0 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -27,9 +27,9 @@ Window: 24h
 | dollar_fx | 54.46 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.23 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 41.25 | mild risk-off pressure; Weighted headline/news confirmation score. |
+| news_confirmation | 40.62 | mild risk-off pressure; Weighted headline/news confirmation score. |
 | Positive contributors |  | none |
-| Negative contributors |  | volatility=20.0, equity_trend=40.0, news_confirmation=41.25, market_breadth=45.0 |
+| Negative contributors |  | volatility=20.0, equity_trend=40.0, news_confirmation=40.62, market_breadth=45.0 |
 
 ## US Equity Strength Score
 
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 17, 'negative': 31, 'neutral': 32}
-- News confirmation score: `41.25`
+- Sentiment counts: {'positive': 16, 'negative': 31, 'neutral': 33}
+- News confirmation score: `40.62`
 
 ### Top Market-Moving Headlines
 
@@ -512,4 +512,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 01 November 2026, 00:08:56 (HKT)
+- Report generated at: 01 November 2026, 00:17:04 (HKT)
