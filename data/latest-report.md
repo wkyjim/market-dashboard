@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 1 November 2026, 06:07:47 (HKT)
+Generated at: 1 November 2026, 06:16:20 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -398,21 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `16.25`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**9. OpenAI slashes funding target by $10 billion amid tech rout, FT reports**
-- Source: CNBC Markets
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / nan
-- Affected assets: FT
-- Score: `15.44`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
-
-**10. Earnings call transcript: OneSpan tops Q3 2026 estimates, shares jump 19.5%**
+**9. Earnings call transcript: OneSpan tops Q3 2026 estimates, shares jump 19.5%**
 - Source: Investing.com Forex
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: ONEP, earnings, beat, stock_rally
 - Score: `14.92`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. My father has Alzheimer’s and his caregiver is using his debit card for DoorDash. Do I intervene?**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: single_name / nan
+- Affected assets: I
+- Score: `13.81`
+- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
@@ -512,4 +512,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 01 November 2026, 06:07:47 (HKT)
+- Report generated at: 01 November 2026, 06:16:20 (HKT)
