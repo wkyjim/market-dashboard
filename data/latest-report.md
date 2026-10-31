@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 31 October 2026, 18:24:19 (HKT)
+Generated at: 31 October 2026, 19:21:22 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **44.98 / 100** (Mild Risk-Off)
+- Regime score: **44.85 / 100** (Mild Risk-Off)
 - US equity strength: **42.22 / 100** (weak)
 - Evidence quality: **72.5 / 100**
 - ETF flow contribution: **48.84 / 100**, reliability **66.57 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 44.98 | Mild Risk-Off |
+| Overall regime | 44.85 | Mild Risk-Off |
 | equity_trend | 40.0 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 45.36 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 45.0 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 54.46 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.23 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 51.25 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 48.75 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | none |
 | Negative contributors |  | volatility=20.0, equity_trend=40.0, market_breadth=45.0 |
 
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 19.42 | 12.91 | 2026-10-30 | closed |
 | ^SKEW | CBOE SKEW Index | 149.76 | -0.84 | 2026-10-30 | closed |
 | ^MOVE | ICE BofA MOVE Index | 100.2 | 7.12 | 2026-10-30 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.58 | -1.61 | 2026-10-30 | live as of 31 October 2026, 18:01:37 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.65 | -1.67 | 2026-10-30 | live as of 31 October 2026, 18:01:37 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -1.67 | 2026-10-30 | live as of 31 October 2026, 18:01:37 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.82 | -1.43 | 2026-10-30 | live as of 31 October 2026, 18:01:37 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.93 | -1.2 | 2026-10-30 | live as of 31 October 2026, 18:01:37 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.54 | 2026-10-30 | live as of 31 October 2026, 18:01:37 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.38 | 2026-10-30 | live as of 31 October 2026, 18:01:37 (HKT) |
-| HK50 | Hang Seng Futures | 23346.0 | 1.03 | 2026-10-30 | live as of 31 October 2026, 18:01:37 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 873.1 | -2.93 | 2026-10-30 | live as of 31 October 2026, 18:01:37 (HKT) |
-| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 31 October 2026, 18:01:37 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.58 | -1.61 | 2026-10-30 | live as of 31 October 2026, 19:01:28 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.65 | -1.67 | 2026-10-30 | live as of 31 October 2026, 19:01:28 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -1.67 | 2026-10-30 | live as of 31 October 2026, 19:01:28 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.82 | -1.43 | 2026-10-30 | live as of 31 October 2026, 19:01:28 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.93 | -1.2 | 2026-10-30 | live as of 31 October 2026, 19:01:28 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.54 | 2026-10-30 | live as of 31 October 2026, 19:01:28 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.38 | 2026-10-30 | live as of 31 October 2026, 19:01:28 (HKT) |
+| HK50 | Hang Seng Futures | 23346.0 | 1.03 | 2026-10-30 | live as of 31 October 2026, 19:01:28 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 873.1 | -2.93 | 2026-10-30 | live as of 31 October 2026, 19:01:28 (HKT) |
+| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 31 October 2026, 19:01:28 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.43 | -0.19 | 2026-10-30 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.27 | 0.05 | 2026-10-30 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.98 | -0.23 | 2026-10-30 | closed |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 32, 'negative': 30, 'neutral': 18}
-- News confirmation score: `51.25`
+- Sentiment counts: {'positive': 28, 'negative': 30, 'neutral': 22}
+- News confirmation score: `48.75`
 
 ### Top Market-Moving Headlines
 
@@ -350,15 +350,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**3. American Oil Giants See Profits Soar as Wars Crimp Energy Supplies**
-- Source: Dow Jones US Business
-- Importance / impact: Medium / Positive
-- Relevance / horizon: macro / quarterly
-- Affected assets: XOM, CVX, U.S, earnings, energy_supply
-- Score: `39.02`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the quarterly.
-
-**4. The U.S. is in a battle to lower the costs to build housing, but it’s losing—as factors including the Iran war and tariffs fuel rising expenses for home builders**
+**3. The U.S. is in a battle to lower the costs to build housing, but it’s losing—as factors including the Iran war and tariffs fuel rising expenses for home builders**
 - Source: Dow Jones Economy
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -366,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.87`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. The tech selloff shifts into overdrive as weak earnings bring a reality check**
+**4. The tech selloff shifts into overdrive as weak earnings bring a reality check**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.23`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**6. Nasdaq logs worst month since March 2025 as weak tech earnings rattle investors**
+**5. Nasdaq logs worst month since March 2025 as weak tech earnings rattle investors**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -382,15 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `27.29`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**7. BP Slashes Net Debt as Earnings Soar**
-- Source: Dow Jones US Business
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: BP, earnings, debt reduction, energy sector
-- Score: `22.89`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**8. Fed officials are already saying they’ll need to get back to hiking rates**
+**6. Fed officials are already saying they’ll need to get back to hiking rates**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -398,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.8`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Stock market rocked as investors dump tech shares; Nasdaq suffers worst day since June: Live updates**
+**7. Stock market rocked as investors dump tech shares; Nasdaq suffers worst day since June: Live updates**
 - Source: CNBC Top News
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -406,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.62`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**10. AbbVie Revenue Rises on Strength in Immunology, Neuroscience**
+**8. AbbVie Revenue Rises on Strength in Immunology, Neuroscience**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / current
@@ -414,10 +398,26 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.55`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
+**9. Oil hits six-month highs as Hormuz attacks threaten Iran peace efforts**
+- Source: Investing.com Economic Indicators
+- Importance / impact: Low / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: CL=F, BZ=F, IRAN, geopolitical risk, energy markets
+- Score: `19.45`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. Chevron and Exxon hit all-time highs as refining profits soar in reaction to Iran and Ukraine wars**
+- Source: CNBC Investing
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: CVX, XOM, Energy, Refining, Geopolitics
+- Score: `19.34`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
 
 ### Headline Quality Checks
 
-Noisy headline list: Memory Crunch Cements CXMT as China’s Chip Champio
+No noisy headlines detected by current rules.
 
 ## Positioning & Flow Dashboard
 
@@ -512,4 +512,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 31 October 2026, 18:24:19 (HKT)
+- Report generated at: 31 October 2026, 19:21:22 (HKT)
