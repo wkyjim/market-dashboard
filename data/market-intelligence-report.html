@@ -3,144 +3,616 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Market Intelligence Report — 31 October 2026</title>
+<title>Market Intelligence Report | 31 October 2026</title>
 <style>
-:root{--canvas:#eef1f4;--surface:#fff;--surface-2:#f7f8fa;--surface-3:#edf1f5;--text:#18212b;--muted:#647180;--border:#d8dee6;--heading:#102338;--link:#1f5f91;--stripe:#f8fafb;--shadow:rgba(15,23,42,.08);--navy:#102f4f;--teal:#176b72;--green:#246b4a;--green-bg:#e9f4ee;--red:#963b42;--red-bg:#f8e9eb;--amber:#8a5b13;--amber-bg:#faf1df;--blue-bg:#e9f1f8}
-html[data-theme="dark"]{--canvas:#0b1118;--surface:#121a23;--surface-2:#18222d;--surface-3:#202c38;--text:#e7edf3;--muted:#9aa8b7;--border:#2b3948;--heading:#f1f5f9;--link:#71b7e6;--stripe:#16202a;--shadow:rgba(0,0,0,.3);--navy:#183f64;--teal:#2a7d83;--green:#83d1a8;--green-bg:#163526;--red:#f0a2a8;--red-bg:#3a2025;--amber:#f0c879;--amber-bg:#3a2d18;--blue-bg:#183047}
-*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--canvas);color:var(--text);font-family:Inter,ui-sans-serif,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.48}.report{max-width:1180px;margin:24px auto;background:var(--surface);box-shadow:0 10px 32px var(--shadow);border:1px solid var(--border)}.masthead{position:relative;padding:42px 48px 30px;color:#eef5fb;background:linear-gradient(128deg,#0d2945,#174c63)}.eyebrow{font-size:.73rem;letter-spacing:.12em;text-transform:uppercase;opacity:.82}.masthead h1{font:700 2.5rem/1.08 Georgia,"Times New Roman",serif;margin:.45rem 0}.subtitle{max-width:850px;margin:0;color:#d8e5ee}.theme-picker{position:absolute;top:22px;right:26px;display:flex;padding:3px;border:1px solid rgba(255,255,255,.3);border-radius:7px;background:rgba(0,0,0,.14)}.theme-picker button{border:0;background:transparent;color:#e7f0f7;padding:6px 9px;border-radius:5px;cursor:pointer}.theme-picker button[aria-pressed="true"]{background:#fff;color:#12304b}.theme-picker button:focus-visible,a:focus-visible{outline:3px solid #f0c879;outline-offset:2px}.metadata{display:grid;grid-template-columns:repeat(6,1fr);gap:1px;margin-top:28px;background:rgba(255,255,255,.2);border:1px solid rgba(255,255,255,.22)}.metadata div{padding:10px 12px;background:rgba(3,20,36,.34)}.metadata span{display:block;font-size:.66rem;letter-spacing:.08em;text-transform:uppercase;opacity:.72}.metadata strong{display:block;font-size:.87rem;margin-top:2px}.toc{padding:18px 34px;border-bottom:1px solid var(--border);background:var(--surface-2)}.toc strong{font-size:.76rem;text-transform:uppercase;letter-spacing:.08em;color:var(--muted)}.toc-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:6px 18px;margin-top:8px}.toc a{font-size:.84rem;color:var(--link);text-decoration:none}.content{padding:22px 48px 60px}section{scroll-margin-top:16px;margin:32px 0}h2,h3{color:var(--heading);font-family:Georgia,"Times New Roman",serif}h2{font-size:1.55rem;margin:0 0 14px;padding-bottom:8px;border-bottom:2px solid var(--border)}h3{font-size:1.15rem;margin:24px 0 10px}p{margin:.55rem 0 1rem}.lede{font-size:1.03rem;line-height:1.62}.note{color:var(--muted);font-size:.84rem}.callout{padding:16px 18px;border-left:4px solid var(--teal);background:var(--surface-2);margin:14px 0}.warning{border-left-color:var(--red);background:var(--red-bg)}.dashboard{display:grid;grid-template-columns:repeat(4,1fr);gap:10px}.card{border:1px solid var(--border);border-radius:7px;padding:13px;background:var(--surface-2)}.card .label{display:block;color:var(--muted);font-size:.69rem;text-transform:uppercase;letter-spacing:.06em}.card strong{display:block;color:var(--heading);margin-top:4px}.grid-2{display:grid;grid-template-columns:1fr 1fr;gap:14px}.table-wrap{overflow-x:auto;border:1px solid var(--border);border-radius:6px;margin:12px 0 20px}table{width:100%;border-collapse:collapse;font-size:.78rem;min-width:760px}th,td{padding:9px 10px;text-align:left;vertical-align:top;border-bottom:1px solid var(--border)}th{background:var(--surface-3);color:var(--heading);font-weight:700;position:sticky;top:0}tbody tr:nth-child(even){background:var(--stripe)}tbody tr:last-child td{border-bottom:0}.compact td,.compact th{padding:7px 8px}.badge,.horizon,.rec{display:inline-block;padding:2px 7px;border-radius:999px;font-size:.69rem;font-weight:700;white-space:nowrap;border:1px solid var(--border)}.horizon.st{background:var(--blue-bg);color:var(--link)}.horizon.lt{background:var(--green-bg);color:var(--green)}.strong-ow,.ow,.bull,.high-confidence{background:var(--green-bg);color:var(--green)}.neutral,.base,.medium-confidence{background:var(--amber-bg);color:var(--amber)}.uw,.strong-uw,.bear,.low-confidence{background:var(--red-bg);color:var(--red)}.trade-grid{display:grid;grid-template-columns:repeat(2,1fr);gap:12px}.trade{border:1px solid var(--border);border-radius:7px;padding:16px;background:var(--surface-2)}.trade h4{margin:4px 0 8px;color:var(--heading)}.trade dl{display:grid;grid-template-columns:110px 1fr;gap:5px 10px;margin:0;font-size:.82rem}.trade dt{color:var(--muted)}.trade dd{margin:0}.prob{height:5px;background:var(--surface-3);border-radius:3px;margin-top:5px;overflow:hidden}.prob i{display:block;height:100%;background:var(--teal)}.source-list a{word-break:break-word}.back-top{position:fixed;right:18px;bottom:18px;padding:8px 11px;background:var(--navy);color:#fff;border-radius:6px;text-decoration:none;font-size:.78rem;box-shadow:0 3px 12px var(--shadow)}.footer{color:var(--muted);font-size:.78rem;border-top:1px solid var(--border);padding-top:14px;margin-top:30px}
-@media(max-width:860px){.report{margin:0;border:0}.masthead{padding:70px 24px 24px}.metadata{grid-template-columns:repeat(2,1fr)}.toc{padding:16px 22px}.toc-grid{grid-template-columns:repeat(2,1fr)}.content{padding:18px 22px 48px}.dashboard{grid-template-columns:repeat(2,1fr)}.grid-2,.trade-grid{grid-template-columns:1fr}.masthead h1{font-size:2rem}}
-@media(max-width:480px){.theme-picker{top:14px;right:14px}.masthead{padding-left:18px;padding-right:18px}.content{padding-left:16px;padding-right:16px}.metadata{grid-template-columns:1fr 1fr}.dashboard{grid-template-columns:1fr}.toc-grid{grid-template-columns:1fr 1fr}.back-top{right:10px;bottom:10px}}
-@media print{html,body{background:#fff!important;color:#111!important}.report{margin:0;max-width:none;border:0;box-shadow:none}.masthead{background:#fff!important;color:#111!important;padding:18px 0;border-bottom:2px solid #222}.subtitle{color:#333}.metadata{border-color:#bbb;background:#fff}.metadata div{background:#fff;border:1px solid #ddd}.theme-picker,.back-top,.toc{display:none}.content{padding:10px 0}h2,h3{color:#111;break-after:avoid}table{font-size:8pt}thead{display:table-header-group}tr,.card,.trade{break-inside:avoid}a{color:#111;text-decoration:none}.table-wrap{overflow:visible;border-color:#bbb}}
+:root, html[data-theme="light"] {
+  --bg: #ffffff; --bg-alt: #f6f8fa; --fg: #1f2328; --fg-muted: #656d76;
+  --accent: #0969da; --accent2: #1a7f37; --warn: #9a6700; --danger: #cf222e;
+  --border: #d0d7de; --card: #f6f8fa; --shadow: rgba(0,0,0,0.1);
+  --pos: #1a7f37; --neg: #cf222e; --neu: #656d76;
+}
+html[data-theme="dark"] {
+  --bg: #0e1116; --bg-alt: #161b22; --fg: #e6edf3; --fg-muted: #9ba7b4;
+  --accent: #71b7e6; --accent2: #7ee787; --warn: #f0a45d; --danger: #ff7b72;
+  --border: #30363d; --card: #161b22; --shadow: rgba(0,0,0,0.4);
+  --pos: #56d364; --neg: #ff7b72; --neu: #9ba7b4;
+}
+* { box-sizing: border-box; }
+body {
+  margin: 0; font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+  background: var(--bg); color: var(--fg); line-height: 1.6; font-size: 15px;
+}
+.report { max-width: 1200px; margin: 0 auto; padding: 2rem 1.5rem; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; }
+h1, h2, h3, h4 { line-height: 1.25; margin-top: 0; font-family: Georgia, 'Times New Roman', serif; }
+h1 { font-size: 2rem; border-bottom: 2px solid var(--accent); padding-bottom: 0.5rem; }
+h2 { font-size: 1.5rem; margin-top: 2.5rem; color: var(--accent); border-bottom: 1px solid var(--border); padding-bottom: 0.3rem; }
+h3 { font-size: 1.2rem; margin-top: 1.5rem; color: var(--accent2); }
+.masthead { text-align: center; padding: 1.5rem 0; margin-bottom: 1.5rem; border-bottom: 1px solid var(--border); }
+.masthead h1 { border: none; margin: 0; }
+.masthead .sub { color: var(--fg-muted); font-size: 0.9rem; margin-top: 0.3rem; }
+.eyebrow { color: var(--accent); font-size: .74rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; }
+.metadata { display: grid; grid-template-columns: repeat(6, minmax(110px,1fr)); gap: .5rem; margin-top: 1rem; text-align: left; }
+.metadata span { background: var(--card); border: 1px solid var(--border); border-radius: 6px; padding: .45rem .55rem; color: var(--fg-muted); font-size: .72rem; }
+.metadata strong { display: block; color: var(--fg); font-size: .78rem; }
+.toc { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1rem 1.5rem; margin: 1.5rem 0; }
+.toc ul { list-style: none; padding-left: 0; column-count: 2; column-gap: 2rem; }
+.toc li { padding: 0.15rem 0; }
+.toc a { font-size: 0.9rem; }
+.dashboard { display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 1rem; margin: 1.5rem 0; }
+.card { background: var(--card); border: 1px solid var(--border); border-radius: 8px; padding: 1rem; text-align: center; }
+.card .label { font-size: 0.8rem; color: var(--fg-muted); text-transform: uppercase; letter-spacing: 0.05em; }
+.card .value { font-size: 1.6rem; font-weight: 700; margin: 0.3rem 0; }
+.card .detail { font-size: 0.8rem; color: var(--fg-muted); }
+.score { font-size: 2rem !important; }
+.pos { color: var(--pos); } .neg { color: var(--neg); } .neu { color: var(--neu); }
+table { width: 100%; border-collapse: collapse; margin: 0; font-size: 0.9rem; }
+.table-wrap { width: 100%; overflow-x: auto; margin: 1rem 0; border: 1px solid var(--border); border-radius: 6px; }
+th, td { padding: 0.5rem 0.75rem; text-align: left; border-bottom: 1px solid var(--border); }
+th { background: var(--bg-alt); font-weight: 600; font-size: 0.8rem; text-transform: uppercase; letter-spacing: 0.03em; }
+tbody tr:nth-child(even) td { background: var(--bg-alt); }
+tr:hover td { background: color-mix(in srgb, var(--accent) 8%, var(--bg)); }
+.tag { display: inline-block; padding: 0.1rem 0.4rem; border-radius: 4px; font-size: 0.75rem; font-weight: 600; }
+.tag.risk-on { background: rgba(63,185,80,0.2); color: var(--pos); }
+.tag.risk-off { background: rgba(248,81,73,0.2); color: var(--neg); }
+.tag.neutral { background: rgba(139,148,158,0.2); color: var(--neu); }
+.tag.strong { background: rgba(126,231,135,0.2); color: var(--accent2); }
+.analogy { background: var(--card); border-left: 3px solid var(--accent); padding: 0.75rem 1rem; margin: 0.75rem 0; border-radius: 0 4px 4px 0; }
+.contradiction { background: var(--card); border-left: 3px solid var(--warn); padding: 0.75rem 1rem; margin: 0.75rem 0; border-radius: 0 4px 4px 0; }
+.back-to-top { display: inline-block; position: fixed; bottom: 2rem; right: 2rem; background: var(--accent); color: var(--bg); padding: 0.5rem 0.75rem; border-radius: 4px; font-size: 0.8rem; font-weight: 600; opacity: 0.8; z-index: 100; }
+.back-to-top:hover { opacity: 1; text-decoration: none; }
+.theme-selector { position: fixed; top: 1rem; right: 1rem; display: flex; gap: 2px; background: var(--card); border: 1px solid var(--border); padding: 3px; border-radius: 6px; z-index: 100; box-shadow: 0 2px 8px var(--shadow); }
+.theme-selector button { border: 0; background: transparent; color: var(--fg-muted); padding: .35rem .55rem; border-radius: 4px; cursor: pointer; font-size: .75rem; }
+.theme-selector button[aria-pressed="true"] { background: var(--accent); color: var(--bg); font-weight: 700; }
+.theme-selector button:focus-visible, .back-to-top:focus-visible { outline: 3px solid var(--warn); outline-offset: 2px; }
+.disclosure { font-size: 0.8rem; color: var(--fg-muted); border-top: 1px solid var(--border); padding-top: 1rem; margin-top: 2rem; }
+@media (max-width: 768px) {
+  .toc ul { column-count: 1; }
+  .dashboard { grid-template-columns: repeat(2, 1fr); }
+  .metadata { grid-template-columns: repeat(2, minmax(120px,1fr)); }
+  .report { padding: 1rem .75rem; }
+  .theme-selector { position: static; width: max-content; margin-left: auto; }
+}
+@media print {
+  :root, html[data-theme] { --bg:#fff; --bg-alt:#f6f8fa; --fg:#111; --fg-muted:#444; --border:#bbb; --card:#fff; --accent:#183a5a; --accent2:#245c37; --pos:#245c37; --neg:#8a1c1c; --neu:#444; }
+  .theme-selector, .back-to-top, .toc { display: none; }
+  body { background: white; color: black; }
+  .report { max-width: 100%; }
+  h2 { page-break-after: avoid; }
+  thead { display: table-header-group; }
+  tr { page-break-inside: avoid; }
+  .table-wrap { overflow: visible; border-color: #bbb; }
+}
 </style>
 </head>
 <body>
 <div class="report" id="top">
+<div class="theme-selector" role="group" aria-label="Color theme">
+  <button type="button" data-theme-option="light" aria-pressed="false">Light</button>
+  <button type="button" data-theme-option="dark" aria-pressed="false">Dark</button>
+  <button type="button" data-theme-option="auto" aria-pressed="true">Auto</button>
+</div>
+<a href="#top" class="back-to-top" aria-label="Back to top">Top</a>
+
 <header class="masthead">
-<div class="theme-picker" aria-label="Theme"><button type="button" data-theme-option="light" aria-pressed="false">Light</button><button type="button" data-theme-option="dark" aria-pressed="false">Dark</button><button type="button" data-theme-option="auto" aria-pressed="true">Auto</button></div>
 <div class="eyebrow">Investment Research · US Equity Strategy · 1–12 Month Outlook</div>
 <h1>Market Intelligence Report</h1>
-<p class="subtitle">A defensive rotation after a technology-led drawdown: reduce duration-sensitive beta, retain quality and health-care risk, and use relative value while credit remains orderly.</p>
-<div class="metadata"><div><span>Report Date</span><strong>31 Oct 2026</strong></div><div><span>Data Cutoff</span><strong>06:08 HKT</strong></div><div><span>ST Horizon</span><strong>1–3 Months</strong></div><div><span>LT Horizon</span><strong>6–12 Months</strong></div><div><span>Overall Regime Score</span><strong>43 / 100</strong></div><div><span>Investment Stance</span><strong>Modest Underweight</strong></div></div>
+<div class="sub">Narrow equity leadership remains investable, but elevated real yields and bond volatility demand selective beta and minimal duration.</div>
+<div class="metadata"><span>Report Date<strong>31 October 2026</strong></span><span>Data Cutoff<strong>31 October 2026, 12:33:15 (HKT)</strong></span><span>ST Horizon<strong>1–3 Months</strong></span><span>LT Horizon<strong>6–12 Months</strong></span><span>Overall Score<strong>47.6 / 100</strong></span><span>Investment Stance<strong>Neutral / Selective</strong></span></div>
 </header>
-<nav class="toc" aria-label="Table of contents"><strong>Contents</strong><div class="toc-grid">
-<a href="#executive-summary">Executive Summary</a><a href="#regime-scorecard">Regime Scorecard</a><a href="#scenarios">Scenarios</a><a href="#macro-view">Macro View</a>
-<a href="#cross-asset">Cross-Asset</a><a href="#price-action">Price Action</a><a href="#flows">Flows &amp; Positioning</a><a href="#equities">US Equities</a>
-<a href="#factors">Factors</a><a href="#style-rotation">Style Rotation</a><a href="#sector-theme">Sectors &amp; Themes</a><a href="#portfolio-heatmap">Portfolio Heat Map</a>
-<a href="#trade-ideas">Trade Ideas</a><a href="#analogs">Historical Analogs</a><a href="#catalysts">Catalysts</a><a href="#risks">Key Risks</a>
-<a href="#ic-conclusions">IC Conclusions</a><a href="#sources">Sources</a></div></nav>
-<div class="content">
-<section id="executive-summary"><h2>Executive Summary</h2>
-<div class="callout warning"><strong>Freshness:</strong> latest US cash close is 30 October 2026, one normal session behind the 31 October HKT publication time because the US session had just closed. Tactical conclusions use that close and API observations through 06:02 HKT; no stale-data warning is required.</div>
-<h3 id="cio-dashboard">CIO Dashboard</h3><div class="dashboard"><div class="card"><span class="label">Market Regime</span><strong>Risk-off rotation; not systemic</strong></div><div class="card"><span class="label">Overall Score</span><strong>43 / 100</strong></div><div class="card"><span class="label">ST Equity Stance</span><strong>Modest Underweight</strong></div><div class="card"><span class="label">LT Equity Stance</span><strong>Neutral</strong></div><div class="card"><span class="label">Best Sector</span><strong>Health Care</strong></div><div class="card"><span class="label">Best Factor</span><strong>Quality / revisions</strong></div><div class="card"><span class="label">Best Tactical Idea</span><strong>Long RSP / short QQQ</strong></div><div class="card"><span class="label">Largest Risk</span><strong>Inflation–term-premium shock</strong></div></div>
-<h3 id="cio-view">CIO View</h3><p class="lede">The market has shifted from benign broadening to a defensive rotation. The 30 October close combined a 2.86% Nasdaq decline with a 1.82% S&amp;P fall, VIX at 19.42 and a 7.12% rise in MOVE. Yet Treasuries rallied, HY credit slipped only modestly and equal weight materially outperformed growth over the prior month. That combination argues for less outright beta and less technology duration, not a recessionary liquidation. The market is rewarding visible cash flow, health-care earnings breadth, value and defensive yield; it is vulnerable to another earnings reset or a renewed long-end selloff while inflation remains above target and the Fed holds 3.75–4.00%. Add risk through Health Care, quality and equal-weight relative value. Reduce Communication Services, semiconductors and low-quality duration. Keep an Energy sleeve as an inflation hedge rather than a cyclical chase. We would move back toward neutral beta if breadth holds above 50%, VIX retreats below 17 and Nasdaq regains its 50-day trend; we would cut further if HY spreads widen, VIX closes above 25 or the 10-year breaks 5.10% for inflationary reasons.</p>
-<h3 id="what-matters-now">What Matters Now</h3><div class="table-wrap"><table><thead><tr><th>Development</th><th>What changed</th><th>Why it matters</th><th>Portfolio implication</th></tr></thead><tbody>
-<tr><td>Technology earnings de-rating</td><td>Nasdaq −2.86%; QQQ and SMH sit below 50DMA, with 20-day returns of −3.6% and −9.1%.</td><td>The market is questioning the timing of AI capex payback, compressing long-duration multiples.</td><td>Underweight semis tactically; keep profitable software/cybersecurity only where revisions hold.</td></tr>
-<tr><td>Rotation survives the index drawdown</td><td>RSP gained 5.28% over 20 days versus SPY 0.70%; value beat growth by 8.72 points.</td><td>Leadership is broadening away from mega-cap growth even as headline indices fall.</td><td>Express constructive views through RSP and value/quality, not more cap-weight beta.</td></tr>
-<tr><td>Fed asymmetry is hawkish</td><td>The FOMC held 3.75–4.00%; two voters preferred a hike.</td><td>Inflation limits the policy put even though bonds rallied on the equity selloff.</td><td>Keep gross moderate and avoid leveraged rate-sensitive equities.</td></tr>
-<tr><td>Credit is calm, not complacent proof</td><td>HYG −0.19% on the cash close; HY OAS was 3.38% on 23 October.</td><td>Credit does not confirm imminent recession, but the observation lags the equity shock.</td><td>Do not over-hedge growth; monitor spread catch-up before restoring beta.</td></tr>
-</tbody></table></div>
-<h3 id="risk-opportunity">Risk / Opportunity Balance</h3><div class="table-wrap"><table><thead><tr><th>Opportunity / Risk</th><th>Why it exists</th><th>What appears priced</th><th>Our view</th><th>Portfolio expression</th><th>What changes the view</th></tr></thead><tbody>
-<tr><td>Opportunity: equal weight vs Nasdaq</td><td>Healthy 200DMA breadth and value leadership contrast with concentrated tech weakness.</td><td>A temporary earnings wobble in technology.</td><td>The rotation lasts while nominal growth holds and the long end stays high.</td><td>Long RSP / short QQQ.</td><td>QQQ regains 50DMA with improving semiconductor breadth.</td></tr>
-<tr><td>Opportunity: Health Care</td><td>82% above 50DMA, 88% above 200DMA and 90% positive over 20 days.</td><td>A defensive bid, not durable revisions.</td><td>Multiple independent signals support a quality compounder overweight.</td><td>XLV overweight; fund from XLC.</td><td>Breadth below 60% or earnings revisions roll over.</td></tr>
-<tr><td>Opportunity: Energy hedge</td><td>Oil above $100, XLE +19.9% over 60 days and strong constituent breadth.</td><td>Some supply premium, but not full inflation transmission.</td><td>Useful hedge; poor candidate for an uncapped momentum chase.</td><td>+1 point active; pair against rate-sensitive REITs.</td><td>WTI below $90 and XLE loses 50DMA.</td></tr>
-<tr><td>Risk: second earnings reset</td><td>Tech leadership and capex narratives are crowded.</td><td>One-day disappointment.</td><td>Further guide-downs could spill into index earnings expectations.</td><td>Trim semis; own put spreads.</td><td>Broad upgrades and QQQ/SMH trend repair.</td></tr>
-<tr><td>Risk: inflation/term premium</td><td>Fed hold, dissent for a hike, 30Y at 5.31% and oil above $100.</td><td>Orderly high yields.</td><td>A supply-driven rise would hit duration and housing simultaneously.</td><td>Short duration; Energy hedge; lower gross.</td><td>Core inflation slows and 10Y holds below 4.70%.</td></tr>
-<tr><td>Risk: credit catch-up</td><td>Equities repriced faster than HY.</td><td>No meaningful default cycle.</td><td>Underpriced only if HY OAS moves above 400bp with weaker breadth.</td><td>Conditional de-risk trigger, not an immediate short.</td><td>HYG stabilizes and spreads remain below 350bp.</td></tr>
-</tbody></table></div>
-<h3 id="short-term-view">Short-Term View — 1–3 Months <span class="horizon st">1–3M</span></h3><p>Modest underweight equity beta. Favor Health Care, Staples, Energy and equal weight; underweight Communication Services, semiconductors and rate-sensitive Real Estate. The drawdown is earnings- and duration-led, while credit stability argues against indiscriminate defensiveness.</p>
-<h3 id="long-term-view">Long-Term View — 6–12 Months <span class="horizon lt">6–12M</span></h3><p>Neutral US equities with a quality and breadth bias. Strong nominal activity and investment support earnings, but inflation, fiscal supply and a 5% long end raise the hurdle rate. Returns must be earnings-driven rather than multiple-driven.</p>
-<h3 id="highest-conviction">Highest-Conviction Conclusions</h3><div class="table-wrap"><table><thead><tr><th>Conclusion</th><th>Evidence</th><th>Portfolio implication</th><th>Invalidation</th><th>Confidence</th></tr></thead><tbody>
-<tr><td>Rotation is more durable than the tech dip</td><td>RSP–SPY +4.58 points over 20D; value–growth +8.72.</td><td>Prefer relative value to outright beta.</td><td>Growth retakes leadership with broader breadth.</td><td><span class="high-confidence badge">8/10 High</span></td></tr>
-<tr><td>Health Care is the best risk-adjusted sector</td><td>Broad trend, positive flow, earnings defensiveness.</td><td>+1.5 points ST active weight.</td><td>50DMA breadth below 60%.</td><td><span class="high-confidence badge">8/10 High</span></td></tr>
-<tr><td>Credit delays, but does not cancel, the bear case</td><td>HYG stable and HY OAS 3.38% before the selloff.</td><td>Keep hedges targeted; avoid maximum defensiveness.</td><td>HY OAS above 400bp.</td><td><span class="medium-confidence badge">6/10 Moderate</span></td></tr>
-<tr><td>Energy is insurance, not clean cyclicality</td><td>WTI $102.86, XLE strength; copper −1.46% contradicts growth optimism.</td><td>Maintain capped overweight.</td><td>Oil below $90 with weaker breadth.</td><td><span class="high-confidence badge">7/10 High</span></td></tr>
-<tr><td>Long-end rates remain the valuation constraint</td><td>10Y 4.92%, 30Y 5.31%, mortgage rate 7.32%.</td><td>Avoid levered duration and weak FCF.</td><td>10Y below 4.50% on disinflation, not recession.</td><td><span class="high-confidence badge">8/10 High</span></td></tr>
-</tbody></table></div>
-<h3 id="portfolio-posture">Recommended Portfolio Posture</h3><p><strong>Net:</strong> modest underweight. <strong>Gross:</strong> 85–90% of normal risk budget. <strong>Beta:</strong> equal weight and quality over Nasdaq duration. <strong>Sectors:</strong> overweight Health Care, Energy, Staples and Materials; underweight Communication Services, Technology and Real Estate. <strong>Factors:</strong> quality, value and earnings revisions; avoid unprofitable growth and crowded semiconductor beta. <strong>Hedge:</strong> 1–3 month SPY or QQQ put spreads plus Energy as an inflation hedge. <strong>Liquidity:</strong> retain 5–8% tactical cash for post-catalyst deployment.</p>
+
+<nav class="toc" id="toc">
+<strong>Table of Contents</strong>
+<ul>
+<li><a href="#exec-summary">Executive Summary</a></li>
+<li><a href="#cio-dashboard">CIO Dashboard</a></li>
+<li><a href="#what-matters">What Matters Now</a></li>
+<li><a href="#risk-opp">Risk/Opportunity Balance</a></li>
+<li><a href="#analogs">Historical Analogs</a></li>
+<li><a href="#scorecard">CIO Weighted Market Regime Scorecard</a></li>
+<li><a href="#scenarios">Probability-Weighted Scenarios</a></li>
+<li><a href="#macro">Macro View</a></li>
+<li><a href="#cross-asset">Cross-Asset View</a></li>
+<li><a href="#us-equities">Broad US Equities View</a></li>
+<li><a href="#price-action">Price Action/Breadth/Momentum</a></li>
+<li><a href="#flows">Flows &amp; Positioning</a></li>
+<li><a href="#posture">Recommended Portfolio Posture</a></li>
+<li><a href="#sector-rankings">Sector Rankings (11 GICS)</a></li>
+<li><a href="#theme-rankings">Theme Rankings</a></li>
+<li><a href="#style-rotation">Style Rotation</a></li>
+<li><a href="#factor-style">Factor &amp; Style</a></li>
+<li><a href="#trade-ideas">Trade Ideas</a></li>
+<li><a href="#heat-map-st">Portfolio Heat Map (ST)</a></li>
+<li><a href="#heat-map-lt">Long-Term Portfolio Heat Map (LT)</a></li>
+<li><a href="#catalysts">Catalyst Watchlist</a></li>
+<li><a href="#key-risks">Key Risk Analysis</a></li>
+<li><a href="#conclusions">Highest-Conviction Conclusions</a></li>
+<li><a href="#sources">Sources &amp; Disclosures</a></li>
+</ul>
+</nav>
+
+<section id="exec-summary">
+<h2>Executive Summary (CIO View)</h2>
+<p>The US equity market is in a <strong>mixed / rotation regime</strong>: the source composite is 48.78/100, while the independently weighted CIO score is <strong>47.6/100</strong>. The gap reflects elevated real yields and bond-market volatility—10Y Treasury yield 4.929% and MOVE +7.1191%—against narrow participation, with only 51.67% of constituents above their 50-day averages. Official August CPI is 3.71% year over year and core CPI 2.76%; producer-price pressure and energy costs leave the inflation risk distribution asymmetric.</p>
+<p>The portfolio stance is <strong>neutral broad beta, selective risk-on</strong>. Nasdaq and S&amp;P trends remain constructive, yet Russell 2000 weakness, falling credit ETFs and rising bond volatility argue against adding gross exposure. Add risk through cash-generative Technology, Cybersecurity and Health Care; use Energy as an inflation hedge but do not chase. Fund these positions from Utilities, Real Estate, weaker cyclicals and long duration. A sustained 10Y move below 4.75% with breadth above 55% would justify more beta; a 10Y break above 5.50% or HYG breakdown warrants lower gross and index convexity.</p>
+<p><strong>Preferred Theme: Cybersecurity</strong> (theme score 64.58) — CIBR shows strong flow z-scores (1.8/2.2), strong modeled flow accumulation, and relative strength vs SPY. <strong>Best GICS Sector: Information Technology</strong> (66.95) with strong uptrend confirmation.</p>
+<p>Positioning: mild overweight IT, Health Care, and Cybersecurity; underweight rate-sensitive defensives (Utilities, Real Estate). Duration exposure minimized. Net ST active weights sum to 0.0%.</p>
 </section>
 
-<section id="regime-scorecard"><h2>Market Regime Scorecard</h2><div class="table-wrap"><table><thead><tr><th>Variable</th><th>Weight</th><th>Score</th><th>Direction</th><th>Why it matters</th><th>Confidence</th></tr></thead><tbody>
-<tr><td>Growth</td><td>20%</td><td>5/10</td><td>Stable</td><td>Strong activity and capex offset softer housing and sentiment.</td><td>6</td></tr><tr><td>Inflation</td><td>25%</td><td>3/10</td><td>Worsening tail</td><td>Elevated CPI/PPI, $100 oil and Fed dissent constrain easing.</td><td>7</td></tr><tr><td>Liquidity</td><td>15%</td><td>5/10</td><td>Mixed</td><td>M2 growth offsets balance-sheet runoff; cash ETFs show no panic.</td><td>5</td></tr><tr><td>Earnings</td><td>20%</td><td>5/10</td><td>Deteriorating breadth</td><td>Health Care and value hold, but tech guidance is being repriced.</td><td>6</td></tr><tr><td>Valuation</td><td>10%</td><td>4/10</td><td>Improving via price</td><td>Selloff helps, but the 5% discount rate still demands delivery.</td><td>6</td></tr><tr><td>Sentiment / positioning</td><td>10%</td><td>4/10</td><td>Risk-off</td><td>VIX and MOVE rose; flow estimates are mixed and proxy-based.</td><td>6</td></tr>
-</tbody><tfoot><tr><th colspan="2">Weighted overall</th><th>43 / 100</th><th colspan="3">Inflation and earnings receive the highest weights because they determine both the discount rate and whether the tech-led drawdown becomes an index earnings reset.</th></tr></tfoot></table></div></section>
 
-<section id="scenarios"><h2>Probability-Weighted Scenarios</h2>
-<h3 id="short-term-scenarios">Short-Term Scenarios — 1–3 Months <span class="horizon st">1–3M</span></h3><p class="note">Ranges are S&amp;P 500 trading ranges. Probabilities total 100%.</p><div class="table-wrap"><table><thead><tr><th>Scenario</th><th>Probability</th><th>S&amp;P Range</th><th>Macro / rates</th><th>Earnings / leadership</th><th>Probability-shift trigger</th></tr></thead><tbody>
-<tr><td><span class="bull badge">Bull</span></td><td>20%<div class="prob"><i style="width:20%"></i></div></td><td>7,580–7,950</td><td>Inflation cools; 10Y 4.55–4.80%.</td><td>Tech revisions stabilize; breadth broadens.</td><td>VIX &lt;17, QQQ above 50DMA, HY OAS &lt;350bp.</td></tr>
-<tr><td><span class="base badge">Base</span></td><td>50%<div class="prob"><i style="width:50%"></i></div></td><td>7,150–7,750</td><td>Growth firm; Fed holds; 10Y 4.70–5.05%.</td><td>Value, Health Care, Staples and selective Energy lead.</td><td>Breadth 45–60%, credit orderly.</td></tr>
-<tr><td><span class="bear badge">Bear</span></td><td>30%<div class="prob"><i style="width:30%"></i></div></td><td>6,600–7,250</td><td>Inflation or supply shock; 10Y &gt;5.10%, or growth break.</td><td>Revisions fall; credit catches down.</td><td>VIX &gt;25, HY OAS &gt;400bp, breadth &lt;40%.</td></tr>
-</tbody></table></div>
-<h3 id="long-term-scenarios">Long-Term Scenarios — 6–12 Months <span class="horizon lt">6–12M</span></h3><p class="note">Ranges are period-end S&amp;P 500 ranges. Probabilities total 100%.</p><div class="table-wrap"><table><thead><tr><th>Scenario</th><th>Probability</th><th>S&amp;P Range</th><th>Economic path</th><th>Leadership</th><th>Probability-shift trigger</th></tr></thead><tbody>
-<tr><td><span class="bull badge">Bull</span></td><td>30%<div class="prob"><i style="width:30%"></i></div></td><td>8,200–8,700</td><td>Productivity-led growth, disinflation, 10Y below 4.6%.</td><td>Quality growth, Industrials, Financials, equal weight.</td><td>Core inflation trend &lt;2.7% and broad EPS upgrades.</td></tr>
-<tr><td><span class="base badge">Base</span></td><td>45%<div class="prob"><i style="width:45%"></i></div></td><td>7,400–8,200</td><td>Nominal growth remains firm; rates stay structurally high.</td><td>Quality, Health Care, value and profitable technology.</td><td>Earnings meet; spreads remain contained.</td></tr>
-<tr><td><span class="bear badge">Bear</span></td><td>25%<div class="prob"><i style="width:25%"></i></div></td><td>6,300–7,200</td><td>Stagflation or delayed recession; policy constrained.</td><td>Low volatility, Staples, cash and later duration.</td><td>Unemployment rises with sticky inflation or funding stress.</td></tr>
-</tbody></table></div></section>
+<section id="cio-dashboard">
+<h2>CIO Dashboard</h2>
+<div class="dashboard">
+  <div class="card">
+    <div class="label">Source Regime Score</div>
+    <div class="value neu">48.78<small style="font-size:0.5em">/100</small></div>
+    <div class="detail">Mixed / Rotation</div>
+  </div>
+  <div class="card">
+    <div class="label">CIO Weighted Regime Score</div>
+    <div class="value neg">47.6<small style="font-size:0.5em">/100</small></div>
+    <div class="detail">Neutral / selective risk-on</div>
+  </div>
+  <div class="card">
+    <div class="label">US Equity Strength</div>
+    <div class="value pos">52.05<small style="font-size:0.5em">/100</small></div>
+    <div class="detail">Constructive (narrow)</div>
+  </div>
+  <div class="card">
+    <div class="label">VIX</div>
+    <div class="value neu">19.42 <span class="pos" style="font-size:0.7em">+12.907%</span></div>
+    <div class="detail">Rising / Bond volatility surge</div>
+  </div>
+  <div class="card">
+    <div class="label">10Y Treasury</div>
+    <div class="value neg">4.929% <span class="neg" style="font-size:0.7em">+-1.2026bps</span></div>
+    <div class="detail">Duration headwind</div>
+  </div>
+  <div class="card">
+    <div class="label">Best GICS Sector</div>
+    <div class="value pos" style="font-size:1.1rem">Information Technology</div>
+    <div class="detail">Score 66.95 / Strong Uptrend</div>
+  </div>
+  <div class="card">
+    <div class="label">Preferred Theme</div>
+    <div class="value pos" style="font-size:1.1rem">Cybersecurity</div>
+    <div class="detail">CIBR: Flow z 1.8/2.2</div>
+  </div>
+  <div class="card">
+    <div class="label">Breadth</div>
+    <div class="value neg">51.67% / 63.33%</div>
+    <div class="detail">Above 50DMA / 200DMA</div>
+  </div>
+</div>
+</section>
 
-<section id="macro-view"><h2>Macro View</h2><h3 id="short-term-macro">Short-Term Macro View</h3><p>The near-term issue is not whether growth is collapsing; it is whether strong nominal activity can coexist with inflation high enough to keep policy restrictive. September payrolls rose only 29,000 and unemployment reached 4.2%, but claims remain low and the Fed described activity as strong. The October hold at 3.75–4.00%, with two dissents for a hike, removes the assumption of an automatic policy rescue. The 10-year easing to 4.92% after the equity selloff is helpful, but MOVE at 100.2 says rate volatility is again a portfolio variable. Confirmation of the base case requires October payrolls to soften without breaking and CPI/PPI to decelerate.</p>
-<h3 id="long-term-macro">Long-Term Macro View</h3><p>The 6–12 month base case is a productive but expensive expansion. Capital investment and productivity can sustain earnings, yet housing starts of 1.221 million and a 7.32% mortgage rate show the cost of capital is already biting. Fiscal financing and Treasury supply keep the term premium structurally higher than in the prior decade. If inflation falls, equal weight and cyclicals can broaden; if oil and producer prices remain elevated, policy becomes pro-cyclical and equity returns depend almost entirely on earnings. China and Europe data in the source are 2025-dated and are excluded from tactical conclusions.</p></section>
 
-<section id="cross-asset"><h2>Cross-Asset View</h2><div class="table-wrap"><table><thead><tr><th>Asset</th><th>Observation</th><th>Confirms / contradicts</th><th>Portfolio reading</th></tr></thead><tbody>
-<tr><td>US equities</td><td>S&amp;P −1.82%; Nasdaq −2.86%; Russell −1.66%.</td><td>Confirms risk reduction; tech is the epicenter.</td><td>Lower beta and duration.</td></tr><tr><td>Treasuries</td><td>10Y 4.92%, 30Y 5.31%; IEF/TLT rallied.</td><td>Contradicts an inflation-only selloff; some growth hedging emerged.</td><td>Intermediate duration can hedge, but long-end carry remains poor.</td></tr><tr><td>Credit</td><td>HYG −0.19%, LQD +0.05%; latest HY OAS 3.38%.</td><td>Does not confirm systemic risk-off.</td><td>Keep hedges targeted, not maximum.</td></tr><tr><td>USD</td><td>DXY proxy 101.85, −0.29% on 29 Oct.</td><td>Contradicts a global dollar squeeze.</td><td>Less pressure on ex-US and commodities.</td></tr><tr><td>Oil / copper</td><td>WTI +0.77% at $102.86; copper −1.46%.</td><td>Oil says inflation/supply; copper says weaker cyclical confirmation.</td><td>Energy as hedge, not broad reflation bet.</td></tr><tr><td>Gold</td><td>−0.67% at $4,038.</td><td>Does not confirm acute safe-haven panic.</td><td>Neutral; avoid adding after structural run.</td></tr><tr><td>Volatility</td><td>VIX 19.42; MOVE 100.2.</td><td>Confirms uncertainty across equities and rates.</td><td>Put spreads remain cost-effective.</td></tr><tr><td>Bitcoin</td><td>$76,723, −1.35% live.</td><td>Confirms speculative risk reduction.</td><td>No portfolio signal beyond beta stress.</td></tr>
-</tbody></table></div></section>
+<section id="what-matters">
+<h2>What Matters Now</h2>
+<ol>
+<li><strong>Rate-of-change in real yields:</strong> 10Y at 4.929% (+-1.2026bps) is the dominant factor. MOVE at 100.1976 (+7.1191%) shows bond-market volatility that historically precedes equity volatility spikes. The 2s10s curve is nearly flat (~26bps), which has preceded growth slowdowns historically — but we do not assign a specific lead time without sourcing.</li>
+<li><strong>Inflation persistence:</strong> Official August CPI was 3.71% YoY and core CPI 2.76%; final-demand PPI was 5.4%. Energy and pipeline pressure keep policy asymmetry hawkish despite some softening in core measures.</li>
+<li><strong>Breadth deterioration:</strong> Only 51.67% of S&amp;P 500 constituents above 50DMA despite the index being near all-time highs. This is a concentration risk — the rally is narrower than it appears.</li>
+<li><strong>Sector rotation intensity:</strong> Energy +15.31% 60D vs Utilities −9.75% 60D. The 60D sector dispersion of 25.06 points is "very high," signaling active factor rotation rather than broad risk-on.</li>
+<li><strong>Credit weakness:</strong> HYG below all key moving averages, LQD near 52-week lows. Investment-grade and high-yield both under pressure from rising rates.</li>
+</ol>
+<p class="contradiction"><strong>Stale data note:</strong> University of Michigan Consumer Sentiment is 44.8 as of <strong>May 2026</strong> (stale — 4 months old). It is <em>not</em> a current trigger. Current positioning is driven by rate moves, breadth, flow z-scores, and commodity activity — not stale sentiment.</p>
+</section>
 
-<section id="price-action"><h2>Price Action, Breadth and Momentum</h2><p>The headline decline is meaningful but participation is not uniformly broken. Aggregate breadth remains 51.67% above the 50DMA and 63.33% above the 200DMA. RSP is above both moving averages and has beaten SPY by 4.58 points over 20 days; value has beaten growth by 8.72 points. By contrast, QQQ, SMH and XLC are below their 50-day trends, with XLC breadth only 19%. The thesis is therefore rotation, not indiscriminate bear market. It fails if aggregate 50DMA breadth falls below 40%, RSP loses its 200DMA, and HY spreads widen together.</p></section>
 
-<section id="flows"><h2>Flows, Positioning and Sentiment</h2><p>Flow evidence is useful only as confirmation. The source’s shares-outstanding estimates show mixed market allocation with 71.4/100 reliability, not audited institutional flows. Health Care has structural accumulation and high turnover; Energy shows structural accumulation; Communication Services exhibits aggressive dip buying despite broken price action. That XLC divergence is a warning against shorting after the fall, but it is not a reason to buy before revisions and trend improve. Short-duration Treasury flows are strongest, consistent with demand for carry without taking long-end convexity. No current 13F, dealer gamma, vol-control or true short-interest dataset is available, so crowding confidence is moderate.</p></section>
+<section id="risk-opp">
+<h2>Risk / Opportunity Balance</h2>
+<table>
+<tr><th>Opportunity / Risk</th><th>Why it exists</th><th>What appears priced</th><th>Our view</th><th>Portfolio expression</th><th>What changes the view</th></tr>
+<tr><td>Opportunity: Cybersecurity</td><td>Price leadership plus strong modeled CIBR flow</td><td>Secular growth, but not a broad risk-on regime</td><td>Best tactical price/flow alignment</td><td>Overweight CIBR; fund from weak cyclicals</td><td>RS below SPY or breadth below 45%</td></tr>
+<tr><td>Opportunity: Quality Technology</td><td>Strong trend and better balance-sheet resilience</td><td>Premium multiples and AI durability</td><td>Own earnings, not indiscriminate duration</td><td>Modest XLK/quality-growth overweight</td><td>XLK below 50DMA or VIX above 20</td></tr>
+<tr><td>Opportunity: Energy hedge</td><td>Oil strength and 60D leadership</td><td>Meaningful geopolitical/supply premium</td><td>Useful hedge; poor chase after sharp gains</td><td>Overweight on weakness, capped size</td><td>WTI trend breaks or flow distribution accelerates</td></tr>
+<tr><td>Risk: term-premium shock</td><td>Elevated real yields, Treasury supply and inflation risk</td><td>Stress visible in bonds, incompletely in equities</td><td>Largest portfolio risk</td><td>Underweight TLT, Utilities and REITs</td><td>10Y below 4.75% and MOVE below 75</td></tr>
+<tr><td>Risk: breadth failure</td><td>43.3% above 50DMA despite resilient indices</td><td>Mega-cap leadership can persist</td><td>Underpriced if credit also weakens</td><td>Neutral beta; add index puts selectively</td><td>Breadth above 55% with small-cap RS recovery</td></tr>
+<tr><td>Risk: credit transmission</td><td>HYG/LQD falling as rates rise</td><td>No systemic event</td><td>Watch, not yet a crisis signal</td><td>Limit low-quality beta and gross</td><td>HYG stabilizes above 200DMA or spreads gap wider</td></tr>
+</table>
+<p><strong>Net assessment:</strong> The balance tilts mildly constructive on equities, but the risk tail is fattening via rates and credit. Duration exposure should be minimized. Equity beta should be selective — favoring cash-flow-positive, low-duration equities (technology, health care, energy) over rate-sensitive defensives.</p>
+</section>
 
-<section id="equities"><h2>Broad US Equities View</h2><h3 id="equities-short">Short-Term View</h3><div class="table-wrap"><table><thead><tr><th>Segment</th><th>Recommendation</th><th>Drivers</th><th>Risk / invalidation</th><th>Confidence</th></tr></thead><tbody>
-<tr><td>S&amp;P 500</td><td><span class="uw rec">Underweight</span></td><td>Trend damaged; discount rate remains high.</td><td>VIX &lt;17 and breadth &gt;60%.</td><td>7</td></tr><tr><td>Nasdaq 100</td><td><span class="uw rec">Underweight</span></td><td>Earnings reset and duration sensitivity.</td><td>QQQ regains 50DMA with upgrades.</td><td>8</td></tr><tr><td>Russell 2000</td><td><span class="neutral rec">Neutral</span></td><td>Broadening helps; 60D trend and financing costs do not.</td><td>Credit improvement and 10Y &lt;4.7%.</td><td>6</td></tr><tr><td>Equal weight</td><td><span class="ow rec">Overweight</span></td><td>20D relative leadership and healthier participation.</td><td>RSP loses 200DMA.</td><td>8</td></tr><tr><td>Value</td><td><span class="ow rec">Overweight</span></td><td>Cash-flow duration and rate resilience.</td><td>Sharp disinflation-led rate rally revives growth.</td><td>7</td></tr><tr><td>Quality</td><td><span class="ow rec">Overweight</span></td><td>High hurdle rate rewards balance sheets and FCF.</td><td>Liquidity surge rewards low quality.</td><td>8</td></tr>
-</tbody></table></div><h3 id="equities-long">Long-Term View</h3><p>Neutral large-cap equities, overweight equal weight and quality, neutral small caps, and underweight unprofitable growth. A strategic overweight requires either a lower real discount rate or a broad acceleration in earnings revisions. Until then, relative value offers better asymmetry than adding outright index beta.</p></section>
 
-<section id="factors"><h2>Factor Analysis</h2><div class="table-wrap"><table><thead><tr><th>Factor</th><th>ST Rank / stance</th><th>LT Rank / stance</th><th>Why the regime rewards it</th><th>Invalidation</th><th>Confidence</th></tr></thead><tbody>
-<tr><td>Quality</td><td>1 — Overweight</td><td>1 — Overweight</td><td>High funding costs reward FCF, margins and balance sheets.</td><td>Liquidity-led low-quality rally.</td><td>8</td></tr><tr><td>Earnings revisions</td><td>2 — Overweight</td><td>2 — Overweight</td><td>Dispersion makes estimate direction more valuable than index beta.</td><td>Revisions converge upward broadly.</td><td>8</td></tr><tr><td>Value</td><td>3 — Overweight</td><td>4 — Neutral/OW</td><td>Shorter cash-flow duration and recent leadership.</td><td>10Y below 4.5% on disinflation.</td><td>7</td></tr><tr><td>Low volatility</td><td>4 — Overweight</td><td>6 — Neutral</td><td>VIX/MOVE expansion favors defensive carry.</td><td>Volatility normalizes and breadth rises.</td><td>7</td></tr><tr><td>Dividend yield</td><td>5 — Neutral/OW</td><td>5 — Neutral/OW</td><td>Income helps, but bond yields compete.</td><td>Long yields rise further.</td><td>6</td></tr><tr><td>Momentum</td><td>6 — Neutral</td><td>3 — Overweight</td><td>Sector trends work, but crowded tech momentum broke.</td><td>Further reversal across winners.</td><td>6</td></tr><tr><td>Growth</td><td>8 — Underweight</td><td>7 — Neutral</td><td>Rate and earnings duration are exposed.</td><td>Productivity upgrades overwhelm valuation.</td><td>7</td></tr><tr><td>Size</td><td>7 — Neutral</td><td>8 — Neutral</td><td>Participation helps; refinancing risk limits conviction.</td><td>Spreads fall and curve steepens benignly.</td><td>6</td></tr><tr><td>High beta</td><td>10 — Underweight</td><td>9 — Underweight</td><td>Vol expansion and high hurdle rate.</td><td>VIX below 15 with broad upgrades.</td><td>7</td></tr><tr><td>Minimum volatility</td><td>4 — Overweight</td><td>6 — Neutral</td><td>Defensive convexity without cash drag.</td><td>Risk-on broadening resumes.</td><td>7</td></tr><tr><td>Profitability</td><td>2 — Overweight</td><td>1 — Overweight</td><td>Self-financing businesses withstand restrictive policy.</td><td>Credit boom rewards leverage.</td><td>8</td></tr><tr><td>Shareholder yield</td><td>5 — Neutral/OW</td><td>4 — Overweight</td><td>Cash returns discipline capex narratives.</td><td>Buybacks fall with margins.</td><td>6</td></tr><tr><td>Equal weight</td><td>1 — Overweight</td><td>3 — Overweight</td><td>Broadening and valuation dispersion.</td><td>Mega-cap growth regains revisions leadership.</td><td>8</td></tr>
-</tbody></table></div></section>
+<section id="analogs">
+<h2>Historical Analogs and Lessons</h2>
+<div class="analogy">
+<strong>1994 Analog — Rate-of-Change / Duration Shock:</strong> The current environment resembles 1994 in terms of <em>rate-of-change</em> and duration shock — not absolute yield level. 1994 saw the 10Y rise from ~5.6% to ~8.0% in a year. Current 10Y at 4.929% is materially lower in absolute terms. The comparable mechanism is the speed of repricing, not the level. <em>Non-comparable part:</em> absolute yield levels (1994 10Y was ~300bps higher at peak), and the starting level of equity valuations differs significantly.
+</div>
+<div class="analogy">
+<strong>2011 Analog — Headline Sentiment vs Subcomponents:</strong> In August 2011, headline University of Michigan sentiment was ~55.8 — it did <em>not</em> fall below 50. Confusing headline with subcomponents (expectations, current conditions) can lead to erroneous conclusions. The current Michigan reading of 44.8 is from May 2026 and is stale — it should not be used as a current market trigger.
+</div>
+<div class="analogy">
+<strong>2018 Analog — Credit-Led Equity:</strong> The Q4 2018 correction was preceded by credit-market stress (HYG peaked in Nov, equity fell in Dec). We note this as a qualitative comparison only — the specific lead time between credit stress and equity drawdown is not independently sourced and should not be presented as a precise timing tool.
+</div>
+<div class="analogy">
+<strong>2022 Analog — Duration Repricing:</strong> The 2022 rate-hike cycle caused TLT to fall roughly 30% and SPX roughly 25%. The current 10Y move is sharp but the hiking cycle is not comparable: the FOMC has held the target range at 3.50–3.75% throughout 2026, with no increase. <em>Non-comparable:</em> 2022 involved a sustained, multi-hike sequence; the current backdrop is a prolonged hold at restrictive levels.
+</div>
+</section>
 
-<section id="style-rotation"><h2>Style Rotation</h2><div class="table-wrap"><table><thead><tr><th>Axis</th><th>Current leader</th><th>ST expected</th><th>LT expected</th><th>Required environment</th><th>Risk</th><th>Confidence</th></tr></thead><tbody>
-<tr><td>Large vs small</td><td>Large long-term; small recent</td><td>Balanced</td><td>Large quality</td><td>Small needs lower yields and stable credit.</td><td>Refinancing stress.</td><td>6</td></tr><tr><td>Mega cap vs equal weight</td><td>Equal weight</td><td>Equal weight</td><td>Equal weight modestly</td><td>Nominal growth without tech reacceleration.</td><td>AI earnings rebound.</td><td>8</td></tr><tr><td>Growth vs value</td><td>Value</td><td>Value</td><td>Balanced</td><td>High long yields and broad earnings.</td><td>Disinflation shock.</td><td>7</td></tr><tr><td>Cyclicals vs defensives</td><td>Mixed</td><td>Defensive quality</td><td>Selective cyclicals</td><td>Credit must stay contained.</td><td>Growth break.</td><td>6</td></tr><tr><td>High beta vs low vol</td><td>Low volatility</td><td>Low volatility</td><td>Balanced</td><td>VIX/MOVE elevated.</td><td>Vol collapse.</td><td>7</td></tr><tr><td>Domestic vs international revenue</td><td>Domestic</td><td>Domestic</td><td>Balanced</td><td>Dollar stable; global data improve.</td><td>USD surge.</td><td>5</td></tr><tr><td>Profitable vs unprofitable growth</td><td>Profitable</td><td>Profitable</td><td>Profitable</td><td>Restrictive funding environment.</td><td>Liquidity boom.</td><td>8</td></tr><tr><td>Quality vs low quality</td><td>Quality</td><td>Quality</td><td>Quality</td><td>High real rates and dispersion.</td><td>Credit easing.</td><td>8</td></tr>
-</tbody></table></div></section>
 
-<section id="sector-theme"><h2>Sector and Theme View</h2><h3 id="sector-rankings">Sector Rankings</h3><div class="table-wrap"><table class="compact"><thead><tr><th>ST Rank</th><th>Sector</th><th>ST</th><th>LT</th><th>Active ST / LT</th><th>Main rationale</th><th>What changes the view</th><th>Conf.</th></tr></thead><tbody>
-<tr><td>1</td><td>Health Care</td><td><span class="strong-ow rec">Strong Overweight</span></td><td><span class="ow rec">Overweight</span></td><td>+1.50 / +1.25</td><td>Best breadth, positive flow, defensive earnings.</td><td>Breadth &lt;60%.</td><td>8</td></tr><tr><td>2</td><td>Energy</td><td><span class="ow rec">Overweight</span></td><td><span class="ow rec">Overweight</span></td><td>+1.00 / +0.75</td><td>Inflation hedge and 60D leadership.</td><td>WTI &lt;$90.</td><td>7</td></tr><tr><td>3</td><td>Consumer Staples</td><td><span class="ow rec">Overweight</span></td><td><span class="uw rec">Underweight</span></td><td>+0.75 / −0.50</td><td>Defensive breadth; long-term bond competition.</td><td>Risk-on breadth recovery.</td><td>7</td></tr><tr><td>4</td><td>Utilities</td><td><span class="ow rec">Overweight</span></td><td><span class="uw rec">Underweight</span></td><td>+0.50 / −0.50</td><td>100% positive 20D; rate sensitivity caps LT.</td><td>10Y &gt;5.1%.</td><td>6</td></tr><tr><td>5</td><td>Materials</td><td><span class="ow rec">Overweight</span></td><td><span class="ow rec">Overweight</span></td><td>+0.50 / +0.50</td><td>Strong breadth and value exposure; copper conflicts.</td><td>Copper weakness broadens.</td><td>6</td></tr><tr><td>6</td><td>Financials</td><td><span class="ow rec">Overweight</span></td><td><span class="ow rec">Overweight</span></td><td>+0.25 / +0.75</td><td>Value leadership and broad internals.</td><td>Credit loss / funding stress.</td><td>6</td></tr><tr><td>7</td><td>Consumer Discretionary</td><td><span class="uw rec">Underweight</span></td><td><span class="uw rec">Underweight</span></td><td>−0.50 / −0.25</td><td>Good breadth but high rates and soft sentiment.</td><td>Real incomes accelerate.</td><td>5</td></tr><tr><td>8</td><td>Industrials</td><td><span class="uw rec">Underweight</span></td><td><span class="uw rec">Underweight</span></td><td>−0.50 / −0.50</td><td>60D weakness despite stock dispersion.</td><td>New orders and revisions turn up.</td><td>6</td></tr><tr><td>9</td><td>Real Estate</td><td><span class="uw rec">Underweight</span></td><td><span class="uw rec">Underweight</span></td><td>−0.75 / −0.75</td><td>7.32% mortgages and weak 200DMA breadth.</td><td>10Y &lt;4.5%.</td><td>8</td></tr><tr><td>10</td><td>Information Technology</td><td><span class="uw rec">Underweight</span></td><td><span class="neutral rec">Neutral</span></td><td>−1.25 / +0.25</td><td>Guidance reset; long-term productivity remains credible.</td><td>Broad upgrades, XLK above 50DMA.</td><td>7</td></tr><tr><td>11</td><td>Communication Services</td><td><span class="strong-uw rec">Strong Underweight</span></td><td><span class="strong-uw rec">Strong Underweight</span></td><td>−1.50 / −1.00</td><td>19% 50DMA breadth, −8.7% 60D; dip flows unconfirmed.</td><td>Breadth &gt;50% and revisions stabilize.</td><td>8</td></tr>
-</tbody></table></div>
-<h3 id="theme-rankings">Theme Rankings</h3><div class="table-wrap"><table><thead><tr><th>Theme</th><th>Phase</th><th>ST</th><th>LT</th><th>Investment conclusion</th><th>Invalidation</th></tr></thead><tbody>
-<tr><td>Health-care innovation</td><td>Strengthening</td><td>Overweight</td><td>Overweight</td><td>Breadth and defensive growth create good asymmetry.</td><td>XLV breadth breaks.</td></tr><tr><td>Energy / oil &amp; gas</td><td>Mature</td><td>Overweight</td><td>Neutral/OW</td><td>Keep as supply/inflation hedge; avoid leverage.</td><td>WTI below $90.</td></tr><tr><td>Cybersecurity</td><td>Strengthening</td><td>Overweight</td><td>Overweight</td><td>Better cash-flow quality than broad tech; CIBR sponsorship strong.</td><td>CIBR below 200DMA.</td></tr><tr><td>AI infrastructure</td><td>Crowded</td><td>Underweight</td><td>Neutral</td><td>Good theme, poor tactical entry until capex payback is clearer.</td><td>Revision breadth reaccelerates.</td></tr><tr><td>Semiconductors</td><td>Weakening</td><td>Underweight</td><td>Neutral</td><td>SMH −9.1% over 20D; wait for trend repair.</td><td>SMH above 50DMA.</td></tr><tr><td>Defense</td><td>Mature</td><td>Neutral</td><td>Overweight</td><td>Backlog support, but valuation and crowdedness limit ST.</td><td>Budget/backlog cuts.</td></tr><tr><td>Grid / power demand</td><td>Weakening</td><td>Neutral</td><td>Overweight</td><td>Strategic need remains; tactical price confirmation absent.</td><td>Capex cancellations.</td></tr><tr><td>Nuclear</td><td>Broken tactically</td><td>Underweight</td><td>Neutral</td><td>Long-duration theme vulnerable to cost of capital.</td><td>Broad positive revisions.</td></tr><tr><td>Crypto equities</td><td>Weakening</td><td>Underweight</td><td>Neutral</td><td>High beta without differentiated macro edge.</td><td>Bitcoin trend and liquidity improve.</td></tr>
-</tbody></table></div></section>
+<section id="scorecard">
+<h2>CIO Weighted Market Regime Scorecard</h2>
+<p>The CIO score is computed independently from the Source Regime Score (48.78/100). Weights total 100%.</p>
+<table>
+<tr><th>Factor</th><th>Weight</th><th>Score (/100)</th><th>Contribution</th><th>Rationale</th></tr>
+<tr><td>Growth</td><td>20%</td><td>62</td><td>+12.4</td><td>GDP trend moderate, equity trend strong (73.75), Nasdaq trend 100/100</td></tr>
+<tr><td>Inflation</td><td>20%</td><td>35</td><td>+7.0</td><td>Official CPI 3.71% and core 2.76%; PPI 5.4% and energy pressure keep tail risk elevated</td></tr>
+<tr><td>Liquidity</td><td>20%</td><td>48</td><td>+9.6</td><td>Fed holds target at 3.50–3.75%; balance sheet declining slowly; money-supply rows stale through May</td></tr>
+<tr><td>Earnings</td><td>15%</td><td>50</td><td>+7.5</td><td>Sector dispersion very high, momentum mixed (49.3), RS concentrated in Tech/Energy</td></tr>
+<tr><td>Valuation</td><td>15%</td><td>44</td><td>+6.6</td><td>SP500 near all-time highs, P/E elevated, breadth narrow — risk premium compressed</td></tr>
+<tr><td>Sentiment</td><td>10%</td><td>45</td><td>+4.5</td><td>VIX 19.42 (+12.907%), MOVE surging (+7.1191%), news neutral, flows mixed</td></tr>
+<tr style="font-weight:700;background:var(--bg-alt)"><td>Total</td><td>100%</td><td>—</td><td>+47.6</td><td>CIO Weighted Regime Score = 47.6/100</td></tr>
+</table>
+<p>The 47.6/100 CIO score vs 48.78/100 source score reflects heavier weighting on duration risk, bond-market volatility, and inflation persistence than the deterministic composite model.</p>
+</section>
 
-<section id="portfolio-heatmap"><h2>Portfolio Heat Map</h2><h3 id="short-portfolio">Short-Term Portfolio — 1–3 Months</h3><div class="table-wrap"><table><thead><tr><th>Sector</th><th>Stance</th><th>Active weight vs S&amp;P</th><th>Change</th><th>Confidence</th><th>Main rationale</th></tr></thead><tbody>
-<tr><td>Health Care</td><td>OW</td><td>+1.50pp</td><td>+0.50</td><td>8</td><td>Breadth and revisions proxy.</td></tr><tr><td>Energy</td><td>OW</td><td>+1.00pp</td><td>0.00</td><td>7</td><td>Inflation hedge.</td></tr><tr><td>Staples</td><td>OW</td><td>+0.75pp</td><td>+0.25</td><td>7</td><td>Defensive breadth.</td></tr><tr><td>Utilities</td><td>OW</td><td>+0.50pp</td><td>+0.25</td><td>6</td><td>Low-volatility carry.</td></tr><tr><td>Materials</td><td>OW</td><td>+0.50pp</td><td>+0.25</td><td>6</td><td>Value breadth.</td></tr><tr><td>Financials</td><td>OW</td><td>+0.25pp</td><td>0.00</td><td>6</td><td>Value leadership.</td></tr><tr><td>Discretionary</td><td>UW</td><td>−0.50pp</td><td>−0.25</td><td>5</td><td>Rate-sensitive consumer.</td></tr><tr><td>Industrials</td><td>UW</td><td>−0.50pp</td><td>−0.25</td><td>6</td><td>Weak 60D trend.</td></tr><tr><td>Real Estate</td><td>UW</td><td>−0.75pp</td><td>0.00</td><td>8</td><td>Long-end pressure.</td></tr><tr><td>Technology</td><td>UW</td><td>−1.25pp</td><td>−0.75</td><td>7</td><td>Earnings reset.</td></tr><tr><td>Communication Services</td><td>SUW</td><td>−1.50pp</td><td>−0.50</td><td>8</td><td>Broken breadth.</td></tr><tr><th colspan="2">Net</th><th>0.00pp</th><th colspan="3">Sector book is benchmark-neutral.</th></tr>
-</tbody></table></div>
-<h3 id="long-portfolio">Long-Term Portfolio — 6–12 Months</h3><div class="table-wrap"><table><thead><tr><th>Sector</th><th>Active weight</th><th>Sector</th><th>Active weight</th></tr></thead><tbody><tr><td>Health Care</td><td>+1.25pp</td><td>Communication Services</td><td>−1.00pp</td></tr><tr><td>Energy</td><td>+0.75pp</td><td>Real Estate</td><td>−0.75pp</td></tr><tr><td>Financials</td><td>+0.75pp</td><td>Utilities</td><td>−0.50pp</td></tr><tr><td>Materials</td><td>+0.50pp</td><td>Staples</td><td>−0.50pp</td></tr><tr><td>Technology</td><td>+0.25pp</td><td>Industrials</td><td>−0.50pp</td></tr><tr><td>Discretionary</td><td>−0.25pp</td><td>Net</td><td>0.00pp</td></tr></tbody></table></div>
-<div class="table-wrap"><table><thead><tr><th>Factor / style overlay</th><th>ST (−2 to +2)</th><th>LT (−2 to +2)</th><th>Expression</th></tr></thead><tbody><tr><td>Quality</td><td>+2</td><td>+2</td><td>Profitable, low-leverage companies</td></tr><tr><td>Momentum</td><td>0</td><td>+1</td><td>Sector-specific only</td></tr><tr><td>Growth</td><td>−1</td><td>0</td><td>Profitable growth only</td></tr><tr><td>Value</td><td>+1</td><td>+1</td><td>Cash-flow duration</td></tr><tr><td>Low volatility</td><td>+1</td><td>0</td><td>Defensive carry</td></tr><tr><td>Size</td><td>0</td><td>0</td><td>No broad small-cap bet</td></tr><tr><td>Earnings revisions</td><td>+2</td><td>+2</td><td>Long positive revisions</td></tr><tr><td>Large vs small</td><td>+1 large</td><td>+1 large</td><td>Balance-sheet quality</td></tr><tr><td>Growth vs value</td><td>+1 value</td><td>0</td><td>Rate resilience</td></tr><tr><td>Quality vs low quality</td><td>+2 quality</td><td>+2 quality</td><td>Funding discipline</td></tr><tr><td>Cyclical vs defensive</td><td>+1 defensive</td><td>0</td><td>Event protection</td></tr><tr><td>Momentum vs mean reversion</td><td>0</td><td>+1 momentum</td><td>Avoid bottom-fishing tech</td></tr><tr><td>High beta vs low vol</td><td>+1 low vol</td><td>0</td><td>Volatility expansion</td></tr></tbody></table></div></section>
 
-<section id="trade-ideas"><h2>Trade Ideas</h2><h3 id="tactical-trades">Tactical Trade Ideas — 1–3 Months</h3><div class="trade-grid">
-<article class="trade"><span class="badge ow">RELATIVE VALUE · 8/10</span><h4>Long RSP / Short QQQ</h4><dl><dt>Why now</dt><dd>Equal weight +5.28% vs QQQ −3.60% over 20D.</dd><dt>Mispricing</dt><dd>Market still treats tech weakness as isolated.</dd><dt>P&amp;L driver</dt><dd>Continued breadth/value rotation.</dd><dt>Catalyst</dt><dd>Payrolls, CPI, further earnings.</dd><dt>Risk</dt><dd>Sharp disinflation revives duration.</dd><dt>Invalidation</dt><dd>QQQ above 50DMA; spread closes 3 points.</dd><dt>Role</dt><dd>Alpha; low net beta.</dd><dt>Correlation</dt><dd>Moderate with XLV/XLC pair.</dd></dl></article>
-<article class="trade"><span class="badge ow">RELATIVE VALUE · 8/10</span><h4>Long XLV / Short XLC</h4><dl><dt>Why now</dt><dd>82% vs 19% 50DMA breadth.</dd><dt>Mispricing</dt><dd>Dip buying in XLC assumes fast earnings repair.</dd><dt>P&amp;L driver</dt><dd>Revision and volatility dispersion.</dd><dt>Catalyst</dt><dd>Guidance updates.</dd><dt>Risk</dt><dd>Regulatory or drug-pricing shock.</dd><dt>Invalidation</dt><dd>XLC breadth above 50%.</dd><dt>Role</dt><dd>Sector alpha.</dd><dt>Correlation</dt><dd>Moderate with RSP/QQQ.</dd></dl></article>
-<article class="trade"><span class="badge ow">RELATIVE VALUE · 7/10</span><h4>Long XLE / Short XLRE</h4><dl><dt>Why now</dt><dd>Oil inflation and long yields favor cash flows over leverage.</dd><dt>Mispricing</dt><dd>REIT rebound underestimates refinancing pressure.</dd><dt>P&amp;L driver</dt><dd>Oil/term-premium persistence.</dd><dt>Catalyst</dt><dd>Treasury refunding, CPI.</dd><dt>Risk</dt><dd>Oil collapse or dovish rate shock.</dd><dt>Invalidation</dt><dd>WTI &lt;$90 and 10Y &lt;4.6%.</dd><dt>Role</dt><dd>Inflation hedge.</dd><dt>Correlation</dt><dd>Low-to-moderate with equity rotation.</dd></dl></article>
-<article class="trade"><span class="badge bear">HEDGE · 7/10</span><h4>QQQ 1–3M Put Spread</h4><dl><dt>Why now</dt><dd>Implied risk rose, but VIX remains below panic levels.</dd><dt>Mispricing</dt><dd>Tail risk from a second revision wave.</dd><dt>P&amp;L driver</dt><dd>Convexity on a 7–12% drawdown.</dd><dt>Catalyst</dt><dd>Payrolls/CPI/earnings.</dd><dt>Risk</dt><dd>Premium decay.</dd><dt>Exit</dt><dd>VIX &gt;27 or QQQ trend repair.</dd><dt>Role</dt><dd>Portfolio hedge.</dd><dt>Correlation</dt><dd>Offsets other equity ideas.</dd></dl></article>
-</div><h3 id="strategic-trades">Strategic Trade Ideas — 6–12 Months</h3><div class="trade-grid">
-<article class="trade"><span class="badge ow">LONG · 8/10</span><h4>Quality + Positive Revisions Basket</h4><dl><dt>Why now</dt><dd>High hurdle rates expose financing-dependent models.</dd><dt>Mispricing</dt><dd>Consensus still overvalues narrative duration.</dd><dt>P&amp;L driver</dt><dd>Earnings compounding and lower drawdowns.</dd><dt>Catalyst</dt><dd>Estimate dispersion.</dd><dt>Risk</dt><dd>Liquidity-led speculative rally.</dd><dt>Invalidation</dt><dd>Credit easing with broad low-quality upgrades.</dd><dt>Role</dt><dd>Core alpha.</dd></dl></article>
-<article class="trade"><span class="badge ow">LONG · 7/10</span><h4>Health Care Innovation</h4><dl><dt>Why now</dt><dd>Strong breadth and defensive growth.</dd><dt>Mispricing</dt><dd>Market reads leadership as purely defensive.</dd><dt>P&amp;L driver</dt><dd>Revisions and idiosyncratic innovation.</dd><dt>Catalyst</dt><dd>Pipeline and guidance milestones.</dd><dt>Risk</dt><dd>Policy/pricing intervention.</dd><dt>Invalidation</dt><dd>Sector breadth below 60%.</dd><dt>Role</dt><dd>Diversifying growth.</dd></dl></article>
-<article class="trade"><span class="badge neutral">RELATIVE VALUE · 6/10</span><h4>Long Profitable Tech / Short Unprofitable Tech</h4><dl><dt>Why now</dt><dd>AI theme remains strategic, but funding discipline matters.</dd><dt>Mispricing</dt><dd>Theme baskets obscure cash-flow dispersion.</dd><dt>P&amp;L driver</dt><dd>Margins, FCF and capital allocation.</dd><dt>Catalyst</dt><dd>2027 guidance.</dd><dt>Risk</dt><dd>Broad liquidity rally.</dd><dt>Invalidation</dt><dd>Unprofitable revision breadth leads for two months.</dd><dt>Role</dt><dd>Long-term alpha.</dd></dl></article>
-</div></section>
+<section id="scenarios">
+<h2>Probability-Weighted Scenarios</h2>
 
-<section id="analogs"><h2>Historical Analogs and Lessons</h2><div class="table-wrap"><table><thead><tr><th>Period</th><th>Similarity</th><th>Critical difference</th><th>Outcome / lesson</th><th>Why analogy may fail</th></tr></thead><tbody><tr><td>2000–01 tech de-rating</td><td>Narrative concentration and capex scrutiny.</td><td>Current leaders have stronger FCF and balance sheets.</td><td>Favor profitable technology and equal weight; do not assume theme failure.</td><td>Productivity payoff may arrive faster.</td></tr><tr><td>2018 Q4</td><td>Restrictive Fed, rising volatility and growth-stock reversal.</td><td>Credit is calmer and activity stronger now.</td><td>Policy asymmetry matters; wait for credit confirmation before maximum defense.</td><td>Inflation prevents a quick Fed pivot.</td></tr><tr><td>2022 duration shock</td><td>High long yields compress long-duration multiples.</td><td>Current policy rate is lower and earnings are firmer.</td><td>Use relative value and quality rather than a blanket growth short.</td><td>A supply shock could recreate the rates leg.</td></tr></tbody></table></div></section>
+<h3>Short-Term (1–3 Months)</h3>
+<table>
+<tr><th>#</th><th>Scenario</th><th>Probability</th><th>Market Impact</th><th>Key Driver</th></tr>
+<tr><td>1</td><td>Rate Plateau / Grind Higher</td><td>45%</td><td>SP500 +2–5%, Tech leads, defensives lag</td><td>Fed holds, 10Y stabilizes 4.8–5.2%</td></tr>
+<tr><td>2</td><td>Duration Shock / Correction</td><td>30%</td><td>SP500 −5–10%, MOVE contagion, VIX 20+</td><td>10Y breaks 5.5%, credit spreads widen</td></tr>
+<tr><td>3</td><td>Reacceleration / Risk-On</td><td>25%</td><td>SP500 +5–8%, breadth recovers, small caps rally</td><td>Inflation surprise to downside, Fed cut rhetoric</td></tr>
+</table>
+<p style="font-size:0.8rem;color:var(--fg-muted)">ST probabilities sum to 100%. S&amp;P 500 figures are cumulative horizon trading returns, not period-end index targets. Shift Base toward Bull if breadth exceeds 55% and the 10Y falls below 4.75%; shift toward Bear if 10Y exceeds 5.50% or HYG breaks down.</p>
 
-<section id="catalysts"><h2>Upcoming Catalyst Watchlist</h2><h3>Near Term</h3><div class="table-wrap"><table><thead><tr><th>Date</th><th>Event</th><th>Why it matters / embedded view</th><th>Bull outcome</th><th>Bear outcome</th><th>Portfolio implication</th></tr></thead><tbody>
-<tr><td>2 Nov 2026</td><td>Treasury financing estimates</td><td>Tests long-end supply premium; market expects manageable funding.</td><td>Lower borrowing need.</td><td>Higher coupon supply.</td><td>Adjust XLRE/Tech and duration hedge.</td></tr><tr><td>4 Nov 2026</td><td>Treasury refunding policy</td><td>Most direct term-premium catalyst.</td><td>Stable sizes / supportive buybacks.</td><td>Long-end size increase.</td><td>10Y/30Y trigger for gross risk.</td></tr><tr><td>6 Nov 2026</td><td>October Employment Situation</td><td>Market needs soft, not broken, labor.</td><td>Moderate jobs, stable unemployment.</td><td>Reacceleration or sharp deterioration.</td><td>Shift growth and small-cap exposure.</td></tr><tr><td>10 Nov 2026</td><td>October CPI</td><td>Fed hold and hike dissents make inflation decisive.</td><td>Core deceleration.</td><td>Services/energy pass-through.</td><td>Add beta only on benign print.</td></tr><tr><td>13 Nov 2026</td><td>October PPI</td><td>Pipeline margin pressure.</td><td>Producer prices normalize.</td><td>Cost squeeze persists.</td><td>Quality vs low-quality spread.</td></tr>
-</tbody></table></div><h3>Medium Term</h3><div class="table-wrap"><table><thead><tr><th>Date</th><th>Event</th><th>Portfolio relevance</th><th>Decision rule</th></tr></thead><tbody><tr><td>25 Nov 2026</td><td>Q3 GDP second estimate; October PCE</td><td>Separates productivity growth from inflationary nominal growth.</td><td>Raise bull probability only if real growth holds and core inflation slows.</td></tr><tr><td>8–9 Dec 2026</td><td>FOMC meeting</td><td>Tests whether October’s hold and dissent become a hike bias.</td><td>Cut duration beta if policy path reprices higher.</td></tr><tr><td>23 Dec 2026</td><td>Q3 GDP third estimate; November PCE</td><td>Year-end confirmation of earnings/margin backdrop.</td><td>Rebalance LT sector book on revisions.</td></tr></tbody></table></div></section>
+<h3>Long-Term (6–12 Months)</h3>
+<table>
+<tr><th>#</th><th>Scenario</th><th>Probability</th><th>Market Impact</th><th>Key Driver</th></tr>
+<tr><td>1</td><td>Disinflation / Easing Cycle</td><td>40%</td><td>Equity bull market resumes, +15–20%</td><td>Core PCE trending to 2.5%, Fed cuts Q1 2027</td></tr>
+<tr><td>2</td><td>Stagflation Lite</td><td>35%</td><td>Equity rangebound, rotation continues</td><td>Inflation sticky 3%+, growth 1–2%</td></tr>
+<tr><td>3</td><td>Hard Landing</td><td>25%</td><td>Equity −15–25%, credit event, vol spike</td><td>Recession, unemployment 5.5%+, earnings −15%</td></tr>
+</table>
+<p style="font-size:0.8rem;color:var(--fg-muted)">LT probabilities sum to 100%. S&amp;P 500 figures are cumulative horizon return/drawdown ranges. Shift toward Bull if core inflation converges toward 2.5% with earnings breadth improving; shift toward Bear if unemployment rises materially while credit spreads widen.</p>
+</section>
 
-<section id="risks"><h2>Key Risk Analysis</h2><div class="table-wrap"><table><thead><tr><th>Risk</th><th>Pricing</th><th>Probability</th><th>Severity</th><th>Horizon</th><th>Transmission</th><th>Exposed assets</th><th>Early warning</th><th>Mitigation</th><th>Conf.</th></tr></thead><tbody>
-<tr><td>Inflation / term-premium shock</td><td>Partly priced</td><td>Moderate</td><td>Severe</td><td>1–6M</td><td>Oil/supply → yields → multiple compression → housing stress.</td><td>Tech, REITs, small caps</td><td>10Y &gt;5.10%, breakevens up, MOVE &gt;120</td><td>Energy, short duration, put spreads</td><td>8</td></tr><tr><td>Tech earnings reset</td><td>Partly priced</td><td>High</td><td>Material</td><td>1–3M</td><td>Guidance cuts → revisions → cap-weight de-rating.</td><td>QQQ, semis, XLC</td><td>SMH breadth, capex guidance</td><td>Pairs and QQQ hedge</td><td>8</td></tr><tr><td>Credit catch-up</td><td>Underpriced</td><td>Moderate</td><td>Severe</td><td>1–6M</td><td>Spread widening → refinancing stress → jobs/earnings cuts.</td><td>Small caps, HY, cyclicals</td><td>HY OAS &gt;400bp, HYG below 200DMA</td><td>Lower gross, quality, cash</td><td>6</td></tr><tr><td>Oil supply shock</td><td>Partly priced</td><td>Moderate</td><td>Severe</td><td>Immediate</td><td>Oil → inflation → Fed path → equity duration.</td><td>Consumer, transport, growth</td><td>WTI &gt;$115, crack spreads</td><td>Capped Energy OW</td><td>7</td></tr><tr><td>Growth break</td><td>Not fully priced</td><td>Low/Moderate</td><td>Severe</td><td>3–12M</td><td>Labor weakness → consumption → defaults → EPS.</td><td>Financials, small caps, cyclicals</td><td>Claims, unemployment, HY spreads</td><td>Health Care, Staples, puts</td><td>6</td></tr><tr><td>Positioning reversal in defensives</td><td>Underpriced</td><td>Moderate</td><td>Limited</td><td>1–3M</td><td>Benign data → vol collapse → crowded defensives lag.</td><td>XLV, XLP, XLU</td><td>VIX &lt;15, QQQ leadership</td><td>Use pairs, not absolute maximum OW</td><td>6</td></tr>
-</tbody></table></div></section>
 
-<section id="ic-conclusions"><h2>Investment Committee Conclusions</h2><ol><li><strong>Regime:</strong> risk-off rotation with intact credit, not a systemic liquidation.</li><li><strong>ST stance:</strong> modestly underweight beta and 85–90% of normal gross.</li><li><strong>LT stance:</strong> neutral; require earnings breadth or a lower real discount rate to add.</li><li><strong>Best sector:</strong> Health Care, supported by breadth, trend and defensive earnings.</li><li><strong>Highest-risk sector:</strong> Communication Services; price and breadth remain broken despite dip flows.</li><li><strong>Best factor:</strong> quality with positive earnings revisions.</li><li><strong>Best tactical opportunity:</strong> long equal weight / short Nasdaq.</li><li><strong>Principal risk:</strong> an oil- or supply-driven term-premium shock that removes the bond hedge and compresses equity duration.</li></ol></section>
+<section id="macro">
+<h2>Macro View</h2>
+<p><strong>Labor market (Aug 2026):</strong> Nonfarm 159,075K, unemployment 4.1% (stable), participation 61.6%. Initial claims 215K (trending down). The labor market is <em>at or near</em> maximum sustainable employment based on these indicators — we do not characterize it as "cracking" without corroborating deterioration in real-time activity data.</p>
+<p><strong>Growth:</strong> Real GDP 24,270B (Q1 2026), industrial production 102.65 (May 2026). Advance retail sales 773.9B (Aug 2026). The consumer remains employed but sentiment measures are mixed — the May 2026 Michigan reading of 44.8 is stale and not a current signal.</p>
+<p><strong>Inflation (Aug 2026 unless noted):</strong> BLS reports headline CPI at 3.71% YoY and core CPI at 2.76%, both more authoritative than the local pipeline's duplicated and inconsistent CPI transformations. Final-demand PPI was 5.4% YoY. The source's July core PCE estimate is 3.34%. Disinflation in core CPI is constructive, but energy and producer-price pressure keep the risk distribution asymmetric.</p>
+<p><strong>Policy:</strong> The Federal Open Market Committee has held the target range at 3.50–3.75% throughout 2026, with all eight scheduled decisions (Jan, Mar, Apr, Jun, Jul, Sep, Oct, Dec) maintaining that range so far. The September 15–16 meeting is completed. The source's 3.63% effective-rate row is dated June and is not current policy evidence. Balance-sheet and money-supply rows are also stale through May/June; they inform the structural backdrop, not the tactical call.</p>
+<p><strong>Global:</strong> China GDP growth 4.96% (2025), inflation 0.06% (deflation risk). Euro Area GDP 1.41%, inflation 2.47%. Japan GDP 1.19%, inflation 3.17%. Divergent global cycles — Japan tightening, China easing, ECB on hold. As of 24 September close: Hang Seng +1.46%, Nikkei -2.12%, Shanghai Composite -1.44%.</p>
+</section>
 
-<section id="sources"><h2>Sources</h2><div class="table-wrap"><table class="source-list"><thead><tr><th>Source</th><th>Date</th><th>Subject</th><th>URL</th></tr></thead><tbody>
-<tr><td>Rule-Based Institutional Market Update</td><td>31 Oct 2026, 06:08 HKT</td><td>Primary market, breadth, sector, flow and macro source</td><td><a href="https://wkyjim.github.io/market-dashboard/data/latest-report.md" target="_blank" rel="noopener noreferrer">latest-report.md</a></td></tr><tr><td>US Equities API OpenAPI 3.1.0 v1.1.0</td><td>31 Oct 2026 access</td><td>Schema and endpoint definitions</td><td><a href="https://postgresql-us-equities-api.onrender.com/openapi.json" target="_blank" rel="noopener noreferrer">openapi.json</a></td></tr><tr><td>US Equities API</td><td>30 Oct close / 31 Oct 06:02 HKT</td><td>Market tape and equity batch validation</td><td><a href="https://postgresql-us-equities-api.onrender.com/market-tape" target="_blank" rel="noopener noreferrer">market-tape</a></td></tr><tr><td>Federal Reserve</td><td>28 Oct 2026</td><td>FOMC decision and vote</td><td><a href="https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm" target="_blank" rel="noopener noreferrer">FOMC statement</a></td></tr><tr><td>Bureau of Labor Statistics</td><td>Accessed 31 Oct 2026</td><td>November release calendar</td><td><a href="https://www.bls.gov/schedule/2026/11_sched.htm" target="_blank" rel="noopener noreferrer">BLS schedule</a></td></tr><tr><td>Bureau of Economic Analysis</td><td>Accessed 31 Oct 2026</td><td>GDP and PCE release schedule</td><td><a href="https://www.bea.gov/news/schedule" target="_blank" rel="noopener noreferrer">BEA schedule</a></td></tr><tr><td>US Treasury</td><td>Accessed 31 Oct 2026</td><td>Quarterly refunding schedule</td><td><a href="https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents/" target="_blank" rel="noopener noreferrer">Refunding documents</a></td></tr>
-</tbody></table></div><p class="note">Facts are drawn from the sources above. Scores, probabilities, active weights, scenario ranges and portfolio recommendations are CIO interpretations, not source forecasts. ETF flows are shares-outstanding proxies; current audited institutional positioning, dealer gamma, forward consensus estimates and comprehensive valuation data were unavailable. Confidence is reduced accordingly.</p></section>
-<div class="footer">Prepared as institutional market analysis. Report cutoff: 31 October 2026, 06:08 HKT. Latest US cash session: 30 October 2026.</div>
-</div></div><a class="back-top" href="#top">Back to top</a>
+
+<section id="cross-asset">
+<h2>Cross-Asset View</h2>
+<table>
+<tr><th>Asset</th><th>Level</th><th>Signal</th><th>Interpretation</th></tr>
+<tr><td>S&amp;P 500</td><td>7614.5 (24 Sep) class="neg">-1.08%</td><td>Falling on the day; above 200DMA constructively</td></tr>
+<tr><td>NASDAQ</td><td>28543.0 (24 Sep) class="neg">-1.76%</td><td>Falling on the day; still above all key MAs; trend 100/100</td></tr>
+<tr><td>Russell 2000</td><td>2821.8999 (24 Sep) class="neg">-1.51%</td><td>Underperforming; 35/100 trend score</td></tr>
+<tr><td>10Y Treasury</td><td>4.929% (23 Sep)</td><td class="pos">Rising</td><td>Duration headwind; MOVE +7.1191% signals more</td></tr>
+<tr><td>2Y Treasury</td><td>4.581% (23 Sep)</td><td class="pos">Rising</td><td>Front-end repricing; curve ~35bps 2s10s</td></tr>
+<tr><td>EUR/USD reference</td><td>1.14 (24 Sep)</td><td class="neu">Neutral</td><td>ECB reference rate; mild dollar firmness, not a live DXY observation</td></tr>
+<tr><td>HYG</td><td>77.58 (24 Sep live)</td><td class="neg">-0.01%</td><td>Below all MAs; credit risk flow 36.8/100</td></tr>
+<tr><td>LQD</td><td>104.22 (24 Sep live)</td><td class="pos">+0.14%</td><td>Near 52-week low; duration + credit headwind</td></tr>
+<tr><td>Gold</td><td>368.57 (24 Sep live)</td><td class="neg">-1.32%</td><td>Falling despite risk-off — unusual; rate pressure dominating</td></tr>
+<tr><td>Silver</td><td>47.28 (24 Sep live)</td><td class="neg">-3.63%</td><td>Falling; industrial + precious demand mixed</td></tr>
+<tr><td>Copper</td><td>6.5095 (24 Sep live)</td><td class="neg">-1.03%</td><td>Rising; cyclical growth confirmation</td></tr>
+<tr><td>WTI Oil</td><td>102.95 (24 Sep live)</td><td class="pos">+0.09%</td><td>Rising; supply/demand + geopolitical premia</td></tr>
+<tr><td>MOVE</td><td>100.1976 (23 Sep)</td><td class="pos">+7.1191%</td><td>Bond vol surging; historically precedes equity vol</td></tr>
+</table>
+<p><strong>Cross-asset summary:</strong> The mix is "mild risk-on with duration constraints." Equities are rising over 60D but fell on 23 September. Commodities (copper, oil) are constructive. Rates are the dominant headwind. Credit is weakening. Gold is falling despite geopolitical/rate uncertainty — suggesting real yield dominance over safe-haven demand.</p>
+</section>
+
+
+<section id="us-equities">
+<h2>Broad US Equities View</h2>
+<p>The US equity strength score of <strong>52.05/100</strong> is constructive but narrow. Key components:</p>
+<table>
+<tr><th>Component</th><th>Score</th><th>Signal</th></tr>
+<tr><td>indices_above_moving_averages</td><td>73.75</td><td class="pos">Constructive — 63.33% above 200DMA</td></tr>
+<tr><td>sp500_trend</td><td>80.0</td><td class="pos">Above 200DMA, near highs</td></tr>
+<tr><td>nasdaq_trend</td><td>100.0</td><td class="pos">Strongest trend in universe</td></tr>
+<tr><td>russell_participation</td><td>35.0</td><td class="neg">Small caps underperforming</td></tr>
+<tr><td>returns_momentum</td><td>49.3</td><td class="neu">Neutral / mixed 5D/20D/60D</td></tr>
+<tr><td>rsi_zone</td><td>56.25</td><td class="neu">Neutral</td></tr>
+<tr><td>macd_confirmation</td><td>52.5</td><td class="neu">Neutral</td></tr>
+<tr><td>volume_confirmation</td><td>47.5</td><td class="neu">Neutral</td></tr>
+<tr><td>breadth</td><td>47.58</td><td class="neu">Neutral — narrow participation</td></tr>
+</table>
+<p><strong>Dispersion:</strong> 20D sector dispersion is 9.65 points (moderate) led by XLK +3.55% / XLU −6.1%. 60D dispersion is 25.06 points (very high) led by XLE +15.31% / XLU −9.75%. High dispersion confirms active rotation, not broad beta.</p>
+<p><strong>Style:</strong> Growth over Value (IWF vs IWD +2.92% 20D). Equal-weight underperforming cap-weight (RSP vs SPY −3.51% 20D), confirming mega-cap concentration. Nasdaq outperforming S&P (QQQ vs SPY +1.6% 20D).</p>
+</section>
+
+
+<section id="price-action">
+<h2>Price Action / Breadth / Momentum</h2>
+<p><strong>Price action:</strong> The latest verified U.S. cash close is 24 September: S&amp;P 500 -1.08%, Nasdaq -1.76% and Russell 2000 -1.51%. At the 31 October 2026, 12:33:15 (HKT) cutoff, the source supplied live VIX (19.42) and commodity snapshots, plus Asian equity closes for 24 September (Hang Seng +1.46%, Nikkei -2.12%, Shanghai Composite -1.44%).</p>
+<p><strong>Breadth:</strong> Above 50DMA: 51.67% (narrow). Above 200DMA: 63.33% (constructive). Positive 20D return: 55.0% (weak). The divergence between index levels (near highs) and breadth (deteriorating) is a concentration warning — the rally rests on fewer names.</p>
+<p><strong>Constituent dispersion by sector (20D):</strong></p>
+<table>
+<tr><th>Sector</th><th>Breadth 50D</th><th>Breadth 200D</th><th>Positive 20D</th><th>Label</th></tr>
+<tr><td>Information Technology</td><td>67.57%</td><td>67.12%</td><td>55.41%</td><td class="pos">Very High</td></tr>
+<tr><td>Health Care</td><td>58.33%</td><td>73.33%</td><td>43.33%</td><td class="pos">Very High</td></tr>
+<tr><td>Energy</td><td>42.86%</td><td>76.19%</td><td>33.33%</td><td class="pos">High</td></tr>
+<tr><td>Communication Services</td><td>52.17%</td><td>50.00%</td><td>34.78%</td><td class="neu">Very High</td></tr>
+<tr><td>Financials</td><td>13.33%</td><td>63.38%</td><td>13.16%</td><td class="neg">Very High</td></tr>
+<tr><td>Consumer Staples</td><td>28.12%</td><td>35.48%</td><td>21.21%</td><td class="neg">Very High</td></tr>
+<tr><td>Consumer Discretionary</td><td>12.77%</td><td>27.66%</td><td>8.51%</td><td class="neg">Very High</td></tr>
+<tr><td>Industrials</td><td>16.87%</td><td>40.51%</td><td>10.84%</td><td class="neg">Very High</td></tr>
+<tr><td>Materials</td><td>24.00%</td><td>48.00%</td><td>20.00%</td><td class="neg">Very High</td></tr>
+<tr><td>Utilities</td><td>3.23%</td><td>6.45%</td><td>6.45%</td><td class="neg">Very High</td></tr>
+<tr><td>Real Estate</td><td>6.90%</td><td>37.93%</td><td>3.33%</td><td class="neg">High</td></tr>
+</table>
+<p>Only IT and Health Care show constructive 50D breadth. Utilities (3.23%), Real Estate (6.90%), and Consumer Discretionary (12.77%) are severely weak.</p>
+<p><strong>Volatility:</strong> VIX at 19.42 (+12.907% live), SKEW at 146.15 (+2.8%), MOVE at 100.1976 (+7.1191%). Bond volatility is the standout — MOVE has more than doubled from its 2026 low and is at levels historically associated with equity drawdowns.</p>
+</section>
+
+
+<section id="flows">
+<h2>Flows &amp; Positioning</h2>
+<p><strong>Market flow regime:</strong> Mixed / Neutral. Market flow score: 47.3/100. Equity risk flow: 48.6. Credit risk flow: 36.8 (weakest). Sector cyclicality flow: 48.2. Duration/liquidity flow: 50.0. Alternatives show barbell demand.</p>
+<p><strong>Core flow signals (notable):</strong></p>
+<table>
+<tr><th>Ticker</th><th>20D Z</th><th>60D Z</th><th>Flow State</th><th>PFV State</th><th>Confidence</th></tr>
+<tr><td>IVV</td><td>−0.3</td><td>−2.1</td><td>Buy</td><td>Quiet Accumulation</td><td>76.0</td></tr>
+<tr><td>IJH</td><td>1.5</td><td>1.4</td><td>Buy</td><td>Contrarian Buying</td><td>88.0</td></tr>
+<tr><td>IWM</td><td>1.3</td><td>0.6</td><td>Sell</td><td>Persistent Distribution</td><td>72.0</td></tr>
+<tr><td>SGOV</td><td>0.1</td><td>−0.6</td><td>Neutral</td><td>Neutral</td><td>84.0</td></tr>
+<tr><td>TLT</td><td>−0.6</td><td>1.6</td><td>Sell</td><td>Persistent Distribution</td><td>68.0</td></tr>
+<tr><td>GLD</td><td>0.5</td><td>2.7</td><td>Neutral</td><td>Unconfirmed Weakness</td><td>84.0</td></tr>
+<tr><td>IBIT</td><td>0.9</td><td>1.6</td><td>Neutral</td><td>Price Leadership</td><td>76.0</td></tr>
+</table>
+<p><strong>Sector flow highlights:</strong> XLC (Comm Services) — 20D z 1.9, strong flow signal, strong confirmation. XLE (Energy) — flow z −0.3, quiet distribution. XLI (Industrials) — −1.6 z, persistent distribution, strong confirmation of weakness. XLU (Utilities) — contrarian buying (20D z 0.7) but price down (watch).</p>
+<p><strong>Subsector PFV:</strong> CIBR (Cybersecurity) — 20D flow z 1.8, "steady accumulation," strong confirmation, 88.0 confidence. SOXX/SMH — structural accumulation, price leadership, neutral bullish.</p>
+<p><strong>Institutional attribution caveat:</strong> ETF flow z-scores measure abnormal flow, not directional institutional conviction per se. We describe them as "flow z-scores" rather than "institutional buying/selling" to avoid unsupported attribution.</p>
+</section>
+
+
+<section id="posture">
+<h2>Recommended Portfolio Posture</h2>
+<p><strong>Macro thesis: mild risk-on with duration constraints</strong> — stated identically throughout this report.</p>
+<p><strong>Short-term (1–3M):</strong></p>
+<ul>
+<li>Overweight Information Technology (+3.0%) — trend strongest in universe (66.95 sector score), Nasdaq 100 trend 100/100</li>
+<li>Overweight Health Care (+2.0%) — constructive RS, defensive growth characteristics, 59.78 score</li>
+<li>Overweight Cybersecurity theme (+1.5%) — via CIBR, flow z 1.8/2.2, strong modeled flow accumulation</li>
+<li>Underweight Utilities (−2.0%) — rate-sensitive, breadth 3.23% above 50DMA, strong downtrend</li>
+<li>Underweight Real Estate (−2.0%) — rate-sensitive, weak breadth, −9.75% 60D</li>
+<li>Underweight Consumer Staples (−1.5%) — defensive but no flow support, weak momentum</li>
+<li>Underweight Long Duration (−1.0%) — TLT at 52-week lows, MOVE surging, 10Y headwind</li>
+</ul>
+<p><strong>Long-term (6–12M):</strong></p>
+<ul>
+<li>Overweight Information Technology (+4.0%) — secular AI/cyber theme, quality growth</li>
+<li>Overweight Health Care (+3.0%) — demographic + innovation tailwind, relative strength improving</li>
+<li>Overweight Energy (+1.5%) — supply discipline + geopolitical premium, 60D RS leader</li>
+<li>Underweight Industrials (−2.5%) — weak momentum, flow distribution, rate sensitivity</li>
+<li>Underweight Materials (−2.0%) — weak breadth, flow headwind, China demand uncertainty</li>
+<li>Underweight Consumer Discretionary (−2.5%) — weak breadth 12.77%, rate sensitivity, discretionary spending pressure</li>
+<li>Underweight Utilities (−1.5%) — structural duration headwind</li>
+</ul>
+<p><strong>Key positioning notes:</strong> Duration exposure minimized across both horizons. Credit exposure cautious (HYG below MAs, MOVE surging). Gold not a preferred hedge despite risk-off — real yields are dominating. Commodity exposure selective (energy yes, broad basket neutral).</p>
+</section>
+
+
+<section id="sector-rankings">
+<h2>Sector Rankings (11 GICS Sectors)</h2>
+<table>
+<tr><th>Rank</th><th>Sector</th><th>Score (/100)</th><th>Trend</th><th>Momentum</th><th>Breadth</th><th>Detail</th><th>Leaders</th><th>Laggards</th></tr>
+<tr><td>1</td><td>Information Technology</td><td class="pos">66.95</td><td>Strong Uptrend</td><td>Positive</td><td>Broad</td><td>XLK: 20D +3.55%, price leadership intact</td><td>CRWD, SWKS, DELL</td><td>ADSK, INTU, FICO</td></tr>
+<tr><td>2</td><td>Health Care</td><td class="pos">59.78</td><td>Strong Uptrend</td><td>Neutral</td><td>Broad</td><td>XLV: 60D +9.8%; RS 51.05</td><td>MRNA, ILMN, RVTY</td><td>BAX, SYK, COO</td></tr>
+<tr><td>3</td><td>Energy</td><td class="pos">57.03</td><td>Strong Uptrend</td><td>Neutral</td><td>Broad</td><td>XLE: 60D +15.31% leader; flow z −0.3 quiet distribution</td><td>VLO, MPC, PSX</td><td>EOG, EXE, FANG</td></tr>
+<tr><td>4</td><td>Communication Services</td><td class="neu">50.42</td><td>Neutral</td><td>Neutral</td><td>Broad</td><td>XLC: 20D −0.6%; strong flow z 1.9/2.1, buy signal</td><td>META, WBD, ECHO</td><td>OMC, TTWO, CMCSA</td></tr>
+<tr><td>5</td><td>Financials</td><td class="neu">45.7</td><td>Neutral</td><td>Neutral</td><td>Weak</td><td>XLF: 20D −1.9%; breadth only 13.3% above 50DMA</td><td>HOOD, COIN, MET</td><td>AJG, PYPL, AON</td></tr>
+<tr><td>6</td><td>Materials</td><td class="neg">37.15</td><td>Downtrend</td><td>Neutral</td><td>Weak</td><td>XLB: 20D −1.4%; breadth 24% above 50DMA</td><td>MOS, STLD, IFF</td><td>AMCR, IP, ALB</td></tr>
+<tr><td>7</td><td>Consumer Discretionary</td><td class="neg">35.49</td><td>Strong Downtrend</td><td>Neutral</td><td>Weak</td><td>XLY: 20D −4.8%; breadth 12.77% above 50DMA</td><td>BBY, ULTA, EBAY</td><td>NCLH, WYNN, BKNG</td></tr>
+<tr><td>8</td><td>Utilities</td><td class="neg">35.27</td><td>Strong Downtrend</td><td>Negative</td><td>Weak</td><td>XLU: 20D −6.1%, 60D −9.75%; breadth 3.23% — worst in universe</td><td>VST, AES, AWK</td><td>NRG, EIX, PCG</td></tr>
+<tr><td>9</td><td>Consumer Staples</td><td class="neg">35.21</td><td>Strong Downtrend</td><td>Neutral</td><td>Weak</td><td>XLP: 20D −3.0%; defensive but no flow/momentum support</td><td>WMT, KR, MO</td><td>HRL, CLX, CASY</td></tr>
+<tr><td>10</td><td>Industrials</td><td class="neg">32.7</td><td>Strong Downtrend</td><td>Negative</td><td>Weak</td><td>XLI: 20D −5.6%, 60D −5.8%; flow distribution, persistent</td><td>BE, DE, CHRW</td><td>HWM, EFX, AXON</td></tr>
+<tr><td>11</td><td>Real Estate</td><td class="neg">32.54</td><td>Strong Downtrend</td><td>Neutral</td><td>Weak</td><td>XLRE: 20D −5.7%; rate-sensitive, breadth 6.9% above 50DMA</td><td>ARE, VMRK, AMT</td><td>VICI, INVH, WY</td></tr>
+</table>
+<p style="font-size:0.8rem;color:var(--fg-muted)">11 GICS sectors only. Themes (Cybersecurity, Semiconductors, AI, Energy, Crypto, Grid/Nuclear, Defense) are ranked separately below.</p>
+</section>
+
+
+<section id="theme-rankings">
+<h2>Theme Rankings</h2>
+<table>
+<tr><th>Rank</th><th>Theme</th><th>Score (/100)</th><th>Setup</th><th>ETF Flow / Reliability</th><th>Dispersion</th><th>Detail</th></tr>
+<tr><td>1</td><td>Crypto Infrastructure</td><td class="pos">73.85</td><td>Strong Outperformance</td><td>69.81 / 65.0</td><td>24.25</td><td>Strong price + flow confirmation. RS 20D/60D + trend persistence + breadth + volume accumulation.</td></tr>
+<tr><td>2</td><td>Cybersecurity</td><td class="pos">64.58</td><td>Positive</td><td>70.39 / 65.0</td><td>27.09</td><td>CIBR: 20D flow z 1.8, 60D 2.2. Strong flow signal and steady accumulation. RS 20D/60D + trend persistence. Preferred theme. <em>ETF evidence: CIBR (not SMH).</em></td></tr>
+<tr><td>3</td><td>Quality Growth</td><td class="pos">63.41</td><td>Positive</td><td>60.22 / 65.0</td><td>6.50</td><td>Low dispersion. Trend persistence + breadth + volume accumulation + low downside vol. IWF-style exposure.</td></tr>
+<tr><td>4</td><td>AI Infrastructure</td><td class="pos">61.66</td><td>Positive</td><td>79.57 / 100.0</td><td>6.05</td><td>High flow reliability. Trend persistence + breadth + volume accumulation. SOXX/SMH confirmation.</td></tr>
+<tr><td>5</td><td>Semiconductors</td><td class="pos">58.14</td><td>Neutral/Watchlist</td><td>79.57 / 100.0</td><td>23.27</td><td>SMH 20D +1.8% but 60D −7.4%. Mixed price action. Flow strong but price state uncertain. <em>Not ranked as a GICS sector.</em></td></tr>
+<tr><td>6</td><td>Energy</td><td class="pos">58.02</td><td>Positive</td><td>50.0 / 0.0</td><td>2.47</td><td>Flow reliability 0% (no direct signal). Price-based.</td></tr>
+<tr><td>7</td><td>Healthcare Innovation</td><td class="pos">55.07</td><td>Positive</td><td>73.21 / 100.0</td><td>5.93</td><td>Trend persistence + breadth + volume accumulation + low downside vol. Defensive growth.</td></tr>
+<tr><td>8</td><td>Small Caps</td><td class="neu">45.04</td><td>Neutral/Watchlist</td><td>61.22 / 65.0</td><td>0.0</td><td>Volume accumulation + downside vol. IWM underperforming SPY by 4.44% 20D.</td></tr>
+<tr><td>9</td><td>Grid Infrastructure</td><td class="neg">44.68</td><td>Neutral/Watchlist</td><td>57.25 / 65.0</td><td>8.38</td><td>Volume accumulation + downside vol. Narrow theme, limited diversification benefit.</td></tr>
+<tr><td>10</td><td>Financials</td><td class="neg">42.01</td><td>Neutral/Watchlist</td><td>49.5 / 95.0</td><td>8.69</td><td>High flow reliability but weak breadth (13.3% above 50DMA). Mixed signal.</td></tr>
+<tr><td>11</td><td>Dividend Defensives</td><td class="neg">41.96</td><td>Neutral/Watchlist</td><td>61.72 / 65.0</td><td>3.78</td><td>Low dispersion but weak momentum. Rate-sensitive — duration headwind reduces attractiveness.</td></tr>
+<tr><td>12</td><td>Defense</td><td class="neg">34.16</td><td>Weak</td><td>55.42 / 65.0</td><td>9.07</td><td>ITA 20D −11.7%, 60D −11.9%. Aerospace/defense demand differs from broad industrials.</td></tr>
+<tr><td>13</td><td>Nuclear</td><td class="neg">33.07</td><td>Weak</td><td>50.0 / 0.0</td><td>13.39</td><td>NLR theme. Strong downtrend, negative momentum, weak breadth. Flow reliability 0%.</td></tr>
+</table>
+<p style="font-size:0.8rem;color:var(--fg-muted)">Themes are not GICS sectors. CIBR → Cybersecurity; SMH/SOXX → Semiconductors/AI Infrastructure. SMH is NOT cybersecurity evidence. "Preferred Theme: Cybersecurity" (not a sector).</p>
+</section>
+
+
+<section id="style-rotation">
+<h2>Style Rotation</h2>
+<p><strong>Growth vs Value:</strong> Growth leading (IWF vs IWD +2.92% 20D). Growth score in themes: Quality Growth 63.41. Value represented by IWD (trending down). The "growth over value" signal is constructive for Quality Growth and AI Infrastructure themes.</p>
+<p><strong>Large vs Small:</strong> Large-cap leadership (RSP vs SPY −3.51% 20D; IWM vs SPY −4.44% 20D). Small-caps score only 45.04 (neutral/watchlist). Mega-cap concentration is a risk if breadth fails further.</p>
+<p><strong>Cyclical vs Defensive:</strong> Cyclicals outperforming — Energy (57.03) leading, while Utilities (35.27), Consumer Staples (35.21), and Real Estate (32.54) lag. Classic rotation pattern, but note the rate sensitivity of the laggards.</p>
+<p><strong>Momentum vs Contrarian:</strong> Momentum factor working in Tech (CRWD, SWKS) and Energy (VLO, MPC). Contrarian opportunities in Utilities (XLU flow buy signal) and Industrials (XLI contrarian buying in subsectors) — but not yet confirmed by price.</p>
+</section>
+
+
+<section id="factor-style">
+<h2>Factor &amp; Style</h2>
+<table>
+<tr><th>Factor</th><th>Signal</th><th>Exposure</th><th>Notes</th></tr>
+<tr><td>Momentum</td><td class="pos">Positive</td><td>Overweight</td><td>Energy, Tech showing persistent momentum; sector-level momentum score 49.3 (neutral)</td></tr>
+<tr><td>Quality</td><td class="pos">Mild Positive</td><td>Overweight</td><td>Quality Growth theme 63.41; low-vol, cash-flow-positive names preferred in rate uncertainty</td></tr>
+<tr><td>Value</td><td class="neg">Neutral</td><td>Equal</td><td>IWF > IWD; value underperforming; Financials neutral (45.70)</td></tr>
+<tr><td>Low Volatility</td><td class="neu">Neutral</td><td>Equal</td><td>Not a primary driver in current regime; VIX rising reduces low-vol premium</td></tr>
+<tr><td>Size (Small Cap)</td><td class="neg">Negative</td><td>Underweight</td><td>Russell trend 35/100; IWM underperforming SPY by 4.44% 20D</td></tr>
+<tr><td>Carry / Income</td><td class="neg">Negative</td><td>Underweight</td><td>Rate-sensitive defensives (Utilities, REITs) underperforming; dividend defensives score 41.96</td></tr>
+</table>
+</section>
+
+
+<section id="trade-ideas">
+<h2>Trade Ideas</h2>
+<table>
+<tr><th>Idea</th><th>Direction</th><th>Vehicle</th><th>Rationale</th><th>Invalidation Trigger</th></tr>
+<tr><td>Cybersecurity tactical</td><td>OW</td><td>CIBR</td><td>Preferred theme (64.58); flow z 1.8/2.2; strong flow signal and price confirmation</td><td>CIBR closes below 200DMA (~78.5); flow z turns negative; relative strength vs SPY < 0</td></tr>
+<tr><td>IT sector momentum</td><td>OW</td><td>XLK</td><td>Best GICS sector (66.95); trend strong uptrend; 20D return +3.55%; NASDAQ trend 100/100</td><td>XLK closes below MA50 (~183); breadth drops below 50% above 50DMA; VIX > 20</td></tr>
+<tr><td>Energy supply/demand</td><td>OW</td><td>XLE</td><td>60D leader (+15.31%); oil rising; geopolitical premium; RS 53.45</td><td>WTI crude closes below 80; XLE flow z < −1.0 sustained; global recession signal</td></tr>
+<tr><td>Health Care defensive growth</td><td>OW</td><td>XLV</td><td>2nd best GICS (59.78); 60D +9.8%; defensive growth; RS improving</td><td>XLV closes below 160 (MA20); breadth drops below 50%; recession drives rotation to deep defensives</td></tr>
+<tr><td>Duration underweight</td><td>UW</td><td>TLT</td><td>10Y at 5.11% rising; MOVE +17.6%; TLT at 52-week low; persistent distribution flow state</td><td>10Y yield closes below 4.5%; Fed signals cut; MOVE drops below 70</td></tr>
+<tr><td>Utilities avoid</td><td>UW</td><td>XLU</td><td>Worst breadth (3.23%); strong downtrend; rate-sensitive; −9.75% 60D</td><td>10Y yield drops below 4.5% sustained; breadth recovers above 20%; flow shifts to strong buy</td></tr>
+</table>
+</section>
+
+
+<section id="heat-map-st">
+<h2>Portfolio Heat Map — Short-Term (1–3M)</h2>
+<table>
+<tr><th>Position</th><th>Active Weight</th><th>Rationale</th></tr>
+<tr><td>Information Technology</td><td class="pos">+3.0%</td><td>Best GICS sector, trend 66.95</td></tr>
+<tr><td>Health Care</td><td class="pos">+2.0%</td><td>Defensive growth, 59.78</td></tr>
+<tr><td>Cybersecurity (CIBR)</td><td class="pos">+1.5%</td><td>Preferred theme, flow confirmation</td></tr>
+<tr><td>Cash</td><td class="neu">0.0%</td><td>Dry powder for vol events</td></tr>
+<tr><td>S&P 500 (baseline)</td><td class="neu">0.0%</td><td>Market weight</td></tr>
+<tr><td>Consumer Staples</td><td class="neg">−1.5%</td><td>No momentum, weak flow</td></tr>
+<tr><td>Utilities</td><td class="neg">−2.0%</td><td>Rate-sensitive, breadth 3.23%</td></tr>
+<tr><td>Real Estate</td><td class="neg">−2.0%</td><td>Rate-sensitive, weak breadth</td></tr>
+<tr><td>Long Duration (TLT)</td><td class="neg">−1.0%</td><td>10Y headwind, MOVE surging</td></tr>
+<tr style="font-weight:700"><td>Net Active</td><td>0.0%</td><td>Target: 0.0%</td></tr>
+</table>
+<p style="font-size:0.8rem;color:var(--fg-muted)">Active weights sum to 0.0% net.</p>
+</section>
+
+
+<section id="heat-map-lt">
+<h2>Long-Term Portfolio Heat Map (6–12M)</h2>
+<table>
+<tr><th>Position</th><th>Active Weight</th><th>Rationale</th></tr>
+<tr><td>Information Technology</td><td class="pos">+4.0%</td><td>Secular AI/cyber, quality growth</td></tr>
+<tr><td>Health Care</td><td class="pos">+3.0%</td><td>Demographic + innovation tailwind</td></tr>
+<tr><td>Energy</td><td class="pos">+1.5%</td><td>Supply discipline + geopolitical premium</td></tr>
+<tr><td>Cash</td><td class="neu">0.0%</td><td>Optionality</td></tr>
+<tr><td>S&P 500 (baseline)</td><td class="neu">0.0%</td><td>Market weight</td></tr>
+<tr><td>Utilities</td><td class="neg">−1.5%</td><td>Structural duration headwind</td></tr>
+<tr><td>Materials</td><td class="neg">−2.0%</td><td>Weak breadth, flow headwind</td></tr>
+<tr><td>Industrials</td><td class="neg">−2.5%</td><td>Weak momentum, flow distribution</td></tr>
+<tr><td>Consumer Discretionary</td><td class="neg">−2.5%</td><td>Rate sensitivity, weak breadth</td></tr>
+<tr style="font-weight:700"><td>Net Active</td><td>0.0%</td><td>Target: 0.0%</td></tr>
+</table>
+<p style="font-size:0.8rem;color:var(--fg-muted)">Active weights sum to 0.0% net.</p>
+</section>
+
+
+<section id="catalysts">
+<h2>Catalyst Watchlist</h2>
+<table>
+<tr><th>Event</th><th>Date</th><th>Verified Source</th><th>Market Relevance</th></tr>
+<tr><td>FOMC Meeting + SEP + Press Conference</td><td>Oct 27–28, 2026</td><td>federalreserve.gov</td><td>High: rate decision + dot plot. First SEP since June.</td></tr>
+<tr><td>CPI September 2026</td><td>Oct 14, 2026</td><td>bls.gov</td><td>High: next authoritative inflation print</td></tr>
+<tr><td>Treasury Quarterly Refunding Announcement</td><td>Nov 4, 2026</td><td>home.treasury.gov</td><td>High: auction sizes, buyback schedule, 20Y/30Y supply outlook</td></tr>
+<tr><td>CPI October 2026</td><td>Nov 10, 2026</td><td>bls.gov</td><td>High: next authoritative inflation print</td></tr>
+<tr><td>FOMC Meeting + SEP + Press Conference</td><td>Dec 8–9, 2026</td><td>federalreserve.gov</td><td>High: year-end decision + SEP update</td></tr>
+</table>
+<p style="font-size:0.8rem;color:var(--fg-muted)">Only dates verified from authoritative calendars are included. Unverified events are omitted.</p>
+</section>
+
+
+<section id="key-risks">
+<h2>Key Risk Analysis</h2>
+<table>
+<tr><th>Risk</th><th>Probability</th><th>Portfolio Impact</th><th>Mitigant</th></tr>
+<tr><td>Rate shock (10Y > 5.5%)</td><td>Medium (30%)</td><td>High: equity de-rotation, TLT −10%, rate-sensitive sectors −15%</td><td>Underweight duration; overweight Energy/IT (less rate-sensitive)</td></tr>
+<tr><td>Credit event (HYG breakdown)</td><td>Low (15%)</td><td>High: systematic de-risking, correlation → 1, liquidity shock</td><td>Monitor HYG vs 200DMA; watch LQD for leading signal</td></tr>
+<tr><td>Breadth collapse</td><td>Medium (35%)</td><td>High: mega-cap concentration unwinds, SPX −10%</td><td>Reduce size if breadth < 40% above 50DMA</td></tr>
+<tr><td>China hard landing</td><td>Medium (25%)</td><td>Medium: EM contagion, commodities −10%, global growth −1%</td><td>Diversified commodity basket; underweight Materials</td></tr>
+<tr><td>Further Fed tightening</td><td>Low-Medium (20%)</td><td>Medium: front-end repricing, 2Y > 5%, growth stocks −8%</td><td>Quality Growth tilt; cash for volatility events</td></tr>
+<tr><td>Oil supply disruption upside</td><td>Low (10%)</td><td>Medium: Energy +15%, but inflation → Fed hawkish → rates</td><td>Energy OW hedges inflation; but monitor for policy response</td></tr>
+</table>
+</section>
+
+
+<section id="conclusions">
+<h2>Highest-Conviction Conclusions</h2>
+<ol>
+<li><strong>Duration is the dominant risk.</strong> 10Y at 4.929% with MOVE +7.1191% is the single largest threat to equity positioning. Duration exposure should be minimized (underweight TLT, underweight rate-sensitive sectors).</li>
+<li><strong>Equity beta should be selective, not broad.</strong> The rally is narrow (51.67% breadth). Overweight IT, Health Care, Energy — underweight Utilities, Real Estate, Consumer Staples. This is not a "buy everything" environment.</li>
+<li><strong>Cybersecurity is the highest-conviction theme.</strong> CIBR flow z-scores (1.8/2.2), strong flow signal and price confirmation and RS confirmation make it the clearest flow + price alignment in the thematic universe. Preferred theme, not a sector.</li>
+<li><strong>Energy has 60D momentum but watch the entry.</strong> XLE +15.31% 60D is the strongest sector RS, but flow z is turning negative (quiet distribution). Tactical overweight on weakness, not chase.</li>
+<li><strong>Keep broad beta neutral and gross risk controlled.</strong> Add exposure only where earnings quality and relative strength align; hold tactical liquidity and use index puts if 10Y yields approach 5.50% or breadth falls below 40%.</li>
+</ol>
+</section>
+
+
+<section id="sources">
+<h2>Sources &amp; Disclosures</h2>
+<h3>Sources</h3>
+<ul>
+<li><a href="https://wkyjim.github.io/market-dashboard/data/latest-report.md" target="_blank" rel="noopener noreferrer">Primary market report</a> — local mirror generated 31 October 2026, 12:15:20 (HKT).</li>
+<li><a href="https://www.bls.gov/news.release/archives/cpi_09112026.htm" target="_blank" rel="noopener noreferrer">BLS August 2026 CPI</a> — released 11 September 2026. Headline 3.71% YoY, core 2.76%.</li>
+<li><a href="https://www.bls.gov/schedule/news_release/cpi.htm" target="_blank" rel="noopener noreferrer">BLS CPI release calendar</a> — October 14, November 10, December 15, 2026.</li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm" target="_blank" rel="noopener noreferrer">Federal Reserve FOMC calendar</a> — September 15–16, October 27–28, December 8–9, 2026.</li>
+<li><a href="https://www.bea.gov/news/schedule" target="_blank" rel="noopener noreferrer">BEA release schedule</a> — 30 September GDP/PCE releases.</li>
+<li><a href="https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents/" target="_blank" rel="noopener noreferrer">U.S. Treasury quarterly refunding documents</a> — next release scheduled 4 November 2026.</li>
+<li><a href="https://postgresql-us-equities-api.onrender.com/openapi.json" target="_blank" rel="noopener noreferrer">US Equities API</a> — market-tape and batch latest endpoints.</li>
+</ul>
+<h3>Classification of Material</h3>
+<ul>
+<li><strong>Verified fact:</strong> Official CPI and Fed policy data; FOMC, BEA, BLS and Treasury calendar dates</li>
+<li><strong>Source-derived signal:</strong> Flow z-scores, breadth metrics, regime scores from latest-report.md pipeline</li>
+<li><strong>API data:</strong> US equities API market-tape and batch latest endpoints for 24 September closes</li>
+<li><strong>Stale data:</strong> University of Michigan Consumer Sentiment 44.8 (May 2026 — not a current trigger); Federal Funds Effective 3.63% (June 29, structural backdrop only)</li>
+<li><strong>Analyst inference/estimate:</strong> CIO score components, scenario probabilities, historical analog mechanisms</li>
+</ul>
+<h3>Disclosures</h3>
+<p>This report is prepared for institutional advisory purposes. It does not constitute investment advice or a solicitation. The CIO Weighted Regime Score is an independent analytical construct derived from the same data inputs as the Source Regime Score, with different factor weights reflecting the CIO's judgment. Historical analogs are provided for mechanism comparison only — non-comparable parts are explicitly identified. All forward-looking statements are probability-weighted scenarios, not predictions. Stale data is labeled with its observation date and not used as a current trigger. The author does not represent or impersonate any named investment firm or individual.</p>
+</section>
+
+
+</div>
 <script>
-(function(){const key='market-report-theme';function systemTheme(){return window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light'}function applyTheme(setting){const actual=setting==='auto'?systemTheme():setting;document.documentElement.dataset.theme=actual;document.documentElement.dataset.themeSetting=setting;localStorage.setItem(key,setting);document.querySelectorAll('[data-theme-option]').forEach(btn=>btn.setAttribute('aria-pressed',btn.dataset.themeOption===setting?'true':'false'))}const saved=localStorage.getItem(key)||'auto';document.addEventListener('DOMContentLoaded',()=>{applyTheme(saved);document.querySelectorAll('[data-theme-option]').forEach(btn=>btn.addEventListener('click',function(){applyTheme(this.dataset.themeOption)}))});const media=window.matchMedia('(prefers-color-scheme: dark)');if(media.addEventListener){media.addEventListener('change',()=>{if((localStorage.getItem(key)||'auto')==='auto')applyTheme('auto')})}else if(media.addListener){media.addListener(()=>{if((localStorage.getItem(key)||'auto')==='auto')applyTheme('auto')})}})();
+(function() {
+  var key = 'market-report-theme';
+  var media = window.matchMedia('(prefers-color-scheme: dark)');
+
+  function applyTheme(setting) {
+    var actual = setting === 'auto' ? (media.matches ? 'dark' : 'light') : setting;
+    document.documentElement.dataset.theme = actual;
+    document.documentElement.dataset.themeSetting = setting;
+    localStorage.setItem(key, setting);
+    document.querySelectorAll('[data-theme-option]').forEach(function(btn) {
+      btn.setAttribute('aria-pressed', btn.dataset.themeOption === setting ? 'true' : 'false');
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    document.querySelectorAll('table').forEach(function(table) {
+      if (!table.parentElement.classList.contains('table-wrap')) {
+        var wrap = document.createElement('div');
+        wrap.className = 'table-wrap';
+        table.parentNode.insertBefore(wrap, table);
+        wrap.appendChild(table);
+      }
+    });
+    applyTheme(localStorage.getItem(key) || 'auto');
+    document.querySelectorAll('[data-theme-option]').forEach(function(btn) {
+      btn.addEventListener('click', function() { applyTheme(this.dataset.themeOption); });
+    });
+  });
+
+  media.addEventListener('change', function() {
+    if ((localStorage.getItem(key) || 'auto') === 'auto') applyTheme('auto');
+  });
+})();
 </script>
 </body>
 </html>
