@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 31 October 2026, 09:25:34 (HKT)
+Generated at: 31 October 2026, 10:20:01 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **48.71 / 100** (Mixed / Rotation)
+- Regime score: **48.69 / 100** (Mixed / Rotation)
 - US equity strength: **52.05 / 100** (neutral)
 - Evidence quality: **69.0 / 100**
-- ETF flow contribution: **49.13 / 100**, reliability **65.97 / 100**
+- ETF flow contribution: **48.87 / 100**, reliability **65.94 / 100**
 - Breadth: **healthy**; above 50DMA `51.67%`, above 200DMA `63.33%`
 - Top sector score: **Healthcare** `70.74`
 - Top theme score: **Energy** `68.24`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 48.71 | Mixed / Rotation |
+| Overall regime | 48.69 | Mixed / Rotation |
 | equity_trend | 51.25 | neutral / mixed; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.13 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 56.67 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 54.46 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 49.43 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 49.25 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 49.38 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | none |
 | Negative contributors |  | volatility=20.0 |
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 19.42 | 12.91 | 2026-10-30 | closed |
 | ^SKEW | CBOE SKEW Index | 149.76 | -0.84 | 2026-10-30 | closed |
 | ^MOVE | ICE BofA MOVE Index | 100.2 | 7.12 | 2026-10-30 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.59 | -1.42 | 2026-10-30 | live as of 31 October 2026, 09:00:33 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.66 | -1.56 | 2026-10-30 | live as of 31 October 2026, 09:00:33 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -1.69 | 2026-10-30 | live as of 31 October 2026, 09:00:33 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.81 | -1.47 | 2026-10-30 | live as of 31 October 2026, 09:00:33 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.92 | -1.36 | 2026-10-30 | live as of 31 October 2026, 09:00:33 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.52 | 2026-10-30 | live as of 31 October 2026, 09:00:33 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.38 | 2026-10-30 | live as of 31 October 2026, 09:00:33 (HKT) |
-| HK50 | Hang Seng Futures | 23346.0 | 1.03 | 2026-10-30 | live as of 31 October 2026, 09:00:33 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 873.1 | -2.93 | 2026-10-30 | live as of 31 October 2026, 09:00:33 (HKT) |
-| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 31 October 2026, 09:00:33 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.59 | -1.42 | 2026-10-30 | live as of 31 October 2026, 10:00:29 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.66 | -1.56 | 2026-10-30 | live as of 31 October 2026, 10:00:29 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -1.69 | 2026-10-30 | live as of 31 October 2026, 10:00:29 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.81 | -1.47 | 2026-10-30 | live as of 31 October 2026, 10:00:29 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.92 | -1.36 | 2026-10-30 | live as of 31 October 2026, 10:00:29 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.52 | 2026-10-30 | live as of 31 October 2026, 10:00:29 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.38 | 2026-10-30 | live as of 31 October 2026, 10:00:29 (HKT) |
+| HK50 | Hang Seng Futures | 23346.0 | 1.03 | 2026-10-30 | live as of 31 October 2026, 10:00:29 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 873.1 | -2.93 | 2026-10-30 | live as of 31 October 2026, 10:00:29 (HKT) |
+| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 31 October 2026, 10:00:29 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.43 | -0.19 | 2026-10-30 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.27 | 0.05 | 2026-10-30 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.98 | -0.23 | 2026-10-30 | closed |
@@ -387,7 +387,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: NASDAQ, equity-market-decline, tech-sector-weakness, earnings-report
-- Score: `32.11`
+- Score: `27.29`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
 **8. Fed officials are already saying they’ll need to get back to hiking rates**
@@ -398,21 +398,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.65`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Stock market rocked as investors dump tech shares; Nasdaq suffers worst day since June: Live updates**
-- Source: CNBC Markets
-- Importance / impact: Low / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AMZN, INTC, earnings, stock decline, technology
-- Score: `25.44`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**10. BP Slashes Net Debt as Earnings Soar**
+**9. BP Slashes Net Debt as Earnings Soar**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: BP, earnings, debt reduction, energy sector
 - Score: `22.89`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Stock market rocked as investors dump tech shares; Nasdaq suffers worst day since June: Live updates**
+- Source: CNBC Markets
+- Importance / impact: Low / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AMZN, INTC, earnings, stock decline, technology
+- Score: `21.62`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
@@ -432,13 +432,13 @@ Positioning and flow data is used as confirmation only.
 ## ETF Flows Analysis
 
 - Market flow regime: `Mixed / Neutral`
-- Market flow score: `48.8 / 100`
+- Market flow score: `49.1 / 100`
 - Equity risk flow: `45.5`
 - Credit risk flow: `53.2`
 - Sector cyclicality flow: `51.1`
-- Duration/liquidity flow: `44.5`
+- Duration/liquidity flow: `46.0`
 - Alternatives: `mixed alternative-asset demand`
-- ETF flow reliability: `66.0 / 100`
+- ETF flow reliability: `65.9 / 100`
 - Dominant allocation direction: `defensive demand`
 
 ### Core Flow Signals
@@ -454,7 +454,7 @@ Positioning and flow data is used as confirmation only.
 | LQD | Investment-Grade Credit | 1.7 | -0.3 | 0.7 | n/a | Up | Buy | Normal | Steady Accumulation | Risk-On | Medium-term recovery; Exceptional institutional buying | 80.0 |
 | HYG | High-Yield Credit | -0.2 | 0.3 | 0.6 | n/a | Flat | Buy | Normal | Quiet Accumulation | Improving | Medium-term deterioration | 68.0 |
 | SGOV | Treasury Bills / Cash | -1.1 | -0.7 | 0.8 | n/a | Flat | Sell | Normal | Quiet Distribution | Weakening | Medium-term deterioration; Strong sponsorship | 76.0 |
-| SHY | Short-Duration Treasuries | 1.2 | 2.0 | 0.8 | -0.3 | Flat | Buy | Normal | Quiet Accumulation | Improving | Strong confirmation; Exceptional institutional buying, Strong sponsorship | 100.0 |
+| SHY | Short-Duration Treasuries | 0.5 | 1.6 | 0.7 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation | 76.0 |
 | IEF | Intermediate-Duration Treasuries | 0.7 | -0.7 | 0.5 | n/a | Up | Buy | Normal | Steady Accumulation | Risk-On | Medium-term recovery | 72.0 |
 | TLT | Long-Duration Treasuries | -1.2 | 1.1 | 0.6 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Medium-term deterioration | 68.0 |
 | GLD | Gold | -0.6 | 1.0 | 0.5 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term deterioration | 68.0 |
@@ -512,4 +512,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 31 October 2026, 09:25:34 (HKT)
+- Report generated at: 31 October 2026, 10:20:01 (HKT)
