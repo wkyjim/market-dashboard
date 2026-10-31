@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 31 October 2026, 08:34:39 (HKT)
+Generated at: 31 October 2026, 09:08:36 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **48.56 / 100** (Mixed / Rotation)
+- Regime score: **48.65 / 100** (Mixed / Rotation)
 - US equity strength: **52.05 / 100** (neutral)
 - Evidence quality: **69.0 / 100**
 - ETF flow contribution: **48.41 / 100**, reliability **66.36 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 48.56 | Mixed / Rotation |
+| Overall regime | 48.65 | Mixed / Rotation |
 | equity_trend | 51.25 | neutral / mixed; Core equity ETFs versus moving averages. |
 | equity_momentum | 49.13 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 56.67 | mild risk-on support; Participation breadth from tracked equity/ETF rows. |
@@ -27,7 +27,7 @@ Window: 24h
 | dollar_fx | 54.46 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 48.94 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 47.5 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 49.38 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | none |
 | Negative contributors |  | volatility=20.0 |
 
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 19.42 | 12.91 | 2026-10-30 | closed |
 | ^SKEW | CBOE SKEW Index | 149.76 | -0.84 | 2026-10-30 | closed |
 | ^MOVE | ICE BofA MOVE Index | 100.2 | 7.12 | 2026-10-30 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.59 | -1.42 | 2026-10-30 | live as of 31 October 2026, 07:31:23 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.66 | -1.56 | 2026-10-30 | live as of 31 October 2026, 07:31:23 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -1.69 | 2026-10-30 | live as of 31 October 2026, 07:31:23 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.81 | -1.47 | 2026-10-30 | live as of 31 October 2026, 07:31:23 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.92 | -1.36 | 2026-10-30 | live as of 31 October 2026, 07:31:23 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.52 | 2026-10-30 | live as of 31 October 2026, 07:31:23 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.38 | 2026-10-30 | live as of 31 October 2026, 07:31:23 (HKT) |
-| HK50 | Hang Seng Futures | 23346.0 | 1.03 | 2026-10-30 | live as of 31 October 2026, 07:31:23 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 897.25 | -4.04 | 2026-10-29 | live as of 31 October 2026, 07:31:23 (HKT) |
-| CIHc1 | SSE 50 Futures | 2738.8 | 0.18 | 2026-10-29 | live as of 31 October 2026, 07:31:23 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.59 | -1.42 | 2026-10-30 | live as of 31 October 2026, 09:00:33 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.66 | -1.56 | 2026-10-30 | live as of 31 October 2026, 09:00:33 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -1.69 | 2026-10-30 | live as of 31 October 2026, 09:00:33 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.81 | -1.47 | 2026-10-30 | live as of 31 October 2026, 09:00:33 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.92 | -1.36 | 2026-10-30 | live as of 31 October 2026, 09:00:33 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.52 | 2026-10-30 | live as of 31 October 2026, 09:00:33 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.38 | 2026-10-30 | live as of 31 October 2026, 09:00:33 (HKT) |
+| HK50 | Hang Seng Futures | 23346.0 | 1.03 | 2026-10-30 | live as of 31 October 2026, 09:00:33 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 873.1 | -2.93 | 2026-10-30 | live as of 31 October 2026, 09:00:33 (HKT) |
+| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 31 October 2026, 09:00:33 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.43 | -0.19 | 2026-10-30 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.27 | 0.05 | 2026-10-30 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.98 | -0.23 | 2026-10-30 | closed |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 31, 'negative': 35, 'neutral': 14}
-- News confirmation score: `47.5`
+- Sentiment counts: {'positive': 32, 'negative': 33, 'neutral': 15}
+- News confirmation score: `49.38`
 
 ### Top Market-Moving Headlines
 
@@ -343,7 +343,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 **2. Intel stock has worst day since 1970s, wiping about $12 billion off government's stake**
-- Source: CNBC Markets
+- Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: AMZN, INTC, AI spending, earnings pressure, market volatility
@@ -399,7 +399,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **9. Stock market rocked as investors dump tech shares; Nasdaq suffers worst day since June: Live updates**
-- Source: CNBC Top News
+- Source: CNBC Markets
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: AMZN, INTC, earnings, stock decline, technology
@@ -509,4 +509,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 31 October 2026, 08:34:39 (HKT)
+- Report generated at: 31 October 2026, 09:08:36 (HKT)
