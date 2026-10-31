@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 1 November 2026, 03:15:06 (HKT)
+Generated at: 1 November 2026, 04:15:39 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **44.38 / 100** (Mild Risk-Off)
+- Regime score: **44.42 / 100** (Mild Risk-Off)
 - US equity strength: **42.22 / 100** (weak)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **48.84 / 100**, reliability **66.57 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 44.38 | Mild Risk-Off |
+| Overall regime | 44.42 | Mild Risk-Off |
 | equity_trend | 40.0 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 45.36 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 45.0 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -27,9 +27,9 @@ Window: 24h
 | dollar_fx | 54.46 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.23 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 39.38 | mild risk-off pressure; Weighted headline/news confirmation score. |
+| news_confirmation | 40.0 | mild risk-off pressure; Weighted headline/news confirmation score. |
 | Positive contributors |  | none |
-| Negative contributors |  | volatility=20.0, news_confirmation=39.38, equity_trend=40.0, market_breadth=45.0 |
+| Negative contributors |  | volatility=20.0, news_confirmation=40.0, equity_trend=40.0, market_breadth=45.0 |
 
 ## US Equity Strength Score
 
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 19.42 | 12.91 | 2026-10-30 | closed |
 | ^SKEW | CBOE SKEW Index | 149.76 | -0.84 | 2026-10-30 | closed |
 | ^MOVE | ICE BofA MOVE Index | 100.2 | 7.12 | 2026-10-30 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.58 | -1.61 | 2026-10-30 | live as of 1 November 2026, 03:01:26 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.65 | -1.67 | 2026-10-30 | live as of 1 November 2026, 03:01:26 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -1.67 | 2026-10-30 | live as of 1 November 2026, 03:01:26 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.82 | -1.43 | 2026-10-30 | live as of 1 November 2026, 03:01:26 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.93 | -1.2 | 2026-10-30 | live as of 1 November 2026, 03:01:26 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.54 | 2026-10-30 | live as of 1 November 2026, 03:01:26 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.38 | 2026-10-30 | live as of 1 November 2026, 03:01:26 (HKT) |
-| HK50 | Hang Seng Futures | 23346.0 | 1.03 | 2026-10-30 | live as of 1 November 2026, 03:01:26 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 873.1 | -2.93 | 2026-10-30 | live as of 1 November 2026, 03:01:26 (HKT) |
-| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 1 November 2026, 03:01:26 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.58 | -1.61 | 2026-10-30 | live as of 1 November 2026, 04:00:20 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.65 | -1.67 | 2026-10-30 | live as of 1 November 2026, 04:00:20 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -1.67 | 2026-10-30 | live as of 1 November 2026, 04:00:20 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.82 | -1.43 | 2026-10-30 | live as of 1 November 2026, 04:00:20 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.93 | -1.2 | 2026-10-30 | live as of 1 November 2026, 04:00:20 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.54 | 2026-10-30 | live as of 1 November 2026, 04:00:20 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.38 | 2026-10-30 | live as of 1 November 2026, 04:00:20 (HKT) |
+| HK50 | Hang Seng Futures | 23346.0 | 1.03 | 2026-10-30 | live as of 1 November 2026, 04:00:20 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 873.1 | -2.93 | 2026-10-30 | live as of 1 November 2026, 04:00:20 (HKT) |
+| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 1 November 2026, 04:00:20 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.43 | -0.19 | 2026-10-30 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.27 | 0.05 | 2026-10-30 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.98 | -0.23 | 2026-10-30 | closed |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 13, 'negative': 30, 'neutral': 37}
-- News confirmation score: `39.38`
+- Sentiment counts: {'positive': 13, 'negative': 29, 'neutral': 38}
+- News confirmation score: `40.0`
 
 ### Top Market-Moving Headlines
 
@@ -358,15 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.23`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**4. Nasdaq logs worst month since March 2025 as weak tech earnings rattle investors**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: NASDAQ, equity-market-decline, tech-sector-weakness, earnings-report
-- Score: `27.29`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**5. Fed officials are already saying they’ll need to get back to hiking rates**
+**4. Fed officials are already saying they’ll need to get back to hiking rates**
 - Source: CNBC Markets
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / short-term
@@ -374,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.8`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**6. Stock market rocked as investors dump tech shares; Nasdaq suffers worst day since June: Live updates**
+**5. Stock market rocked as investors dump tech shares; Nasdaq suffers worst day since June: Live updates**
 - Source: CNBC Top News
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -382,7 +374,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.62`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**7. The S&P 500 isn’t the big winner you may think it is**
+**6. The S&P 500 isn’t the big winner you may think it is**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
@@ -390,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.25`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**8. Oil hits six-month highs as Hormuz attacks threaten Iran peace efforts**
+**7. Oil hits six-month highs as Hormuz attacks threaten Iran peace efforts**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -398,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `19.45`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Grand Theft Callout: ‘GTA 6’ fans are missing work on the game’s release day because they ‘don’t want to wait’ anymore**
+**8. Grand Theft Callout: ‘GTA 6’ fans are missing work on the game’s release day because they ‘don’t want to wait’ anymore**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
@@ -406,7 +398,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `18.06`
 - Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
 
-**10. This cybersecurity stock will be the next to join the S&P 500**
+**9. This cybersecurity stock will be the next to join the S&P 500**
+- Source: MarketWatch Top Stories
+- Importance / impact: Low / Mixed
+- Relevance / horizon: sector_theme / nan
+- Affected assets: P, S
+- Score: `18.06`
+- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
+
+**10. In a wild October for markets, these stocks were the biggest winners and losers**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: sector_theme / nan
@@ -512,4 +512,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 01 November 2026, 03:15:06 (HKT)
+- Report generated at: 01 November 2026, 04:15:39 (HKT)
