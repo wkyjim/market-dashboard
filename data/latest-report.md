@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 31 October 2026, 21:08:39 (HKT)
+Generated at: 31 October 2026, 21:16:21 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -512,4 +512,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 31 October 2026, 21:08:39 (HKT)
+- Report generated at: 31 October 2026, 21:16:21 (HKT)
