@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2 November 2026, 05:15:00 (HKT)
+Generated at: 2 November 2026, 06:13:59 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -98,16 +98,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 19.42 | 12.91 | 2026-10-30 | closed |
 | ^SKEW | CBOE SKEW Index | 149.76 | -0.84 | 2026-10-30 | closed |
 | ^MOVE | ICE BofA MOVE Index | 100.2 | 7.12 | 2026-10-30 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.58 | -1.61 | 2026-10-30 | live as of 2 November 2026, 05:00:25 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.65 | -1.67 | 2026-10-30 | live as of 2 November 2026, 05:00:25 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -1.67 | 2026-10-30 | live as of 2 November 2026, 05:00:25 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.82 | -1.43 | 2026-10-30 | live as of 2 November 2026, 05:00:25 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.93 | -1.2 | 2026-10-30 | live as of 2 November 2026, 05:00:25 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.54 | 2026-10-30 | live as of 2 November 2026, 05:00:25 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.38 | 2026-10-30 | live as of 2 November 2026, 05:00:25 (HKT) |
-| HK50 | Hang Seng Futures | 23346.0 | 1.03 | 2026-10-30 | live as of 2 November 2026, 05:00:25 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 873.1 | -2.93 | 2026-10-30 | live as of 2 November 2026, 05:00:25 (HKT) |
-| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 2 November 2026, 05:00:25 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.58 | -1.61 | 2026-10-30 | live as of 2 November 2026, 06:00:26 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.65 | -1.67 | 2026-10-30 | live as of 2 November 2026, 06:00:26 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -1.67 | 2026-10-30 | live as of 2 November 2026, 06:00:26 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.82 | -1.43 | 2026-10-30 | live as of 2 November 2026, 06:00:26 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.93 | -1.2 | 2026-10-30 | live as of 2 November 2026, 06:00:26 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.54 | 2026-10-30 | live as of 2 November 2026, 06:00:26 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.38 | 2026-10-30 | live as of 2 November 2026, 06:00:26 (HKT) |
+| HK50 | Hang Seng Futures | 23346.0 | 1.03 | 2026-10-30 | live as of 2 November 2026, 06:00:26 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 873.1 | -2.93 | 2026-10-30 | live as of 2 November 2026, 06:00:26 (HKT) |
+| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 2 November 2026, 06:00:26 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.43 | -0.19 | 2026-10-30 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.27 | 0.05 | 2026-10-30 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.98 | -0.23 | 2026-10-30 | closed |
@@ -266,7 +266,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 4 | Financials | 65.59 | strong uptrend | neutral | broad | 40.77 | 65.0 | 54.24 | FDS, CBOE, GPN | IBKR, COIN, HOOD |
 | 5 | Consumer Discretionary | 61.18 | uptrend | neutral | broad | 50.0 | 0.0 | 53.74 | HAS, ULTA, HD | GPC, DASH, BKNG |
 | 6 | Utilities | 58.83 | neutral | neutral | broad | 50.0 | 0.0 | 56.99 | WEC, EXC, NI | NRG, AES, VST |
-| 7 | Real Estate | 56.11 | neutral | neutral | broad | 47.04 | 65.0 | 53.76 | CCI, SBAC, AMT | ESS, DOC, ARE |
+| 7 | Real Estate | 56.48 | neutral | neutral | broad | 47.04 | 65.0 | 53.76 | CCI, SBAC, AMT | ESS, DOC, ARE |
 | 8 | Crypto | 50.89 | neutral | neutral | mixed | 58.92 | 65.0 | 50.0 |  |  |
 | 9 | Cybersecurity | 48.51 | neutral | neutral | weak | 69.45 | 65.0 | 51.58 | CIBR | CIBR |
 | 10 | Defense | 43.14 | strong downtrend | negative | weak | 50.0 | 0.0 | 42.43 | XAR | XAR |
@@ -309,7 +309,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Financials | Financials | 65.59 | strong | 44.63 | weak | sector stronger than related themes |
 | Consumer Discretionary | Small Caps | 61.18 | positive | 47.74 | mixed | sector stronger than related themes |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 58.83 | positive | 45.02 | mixed | sector stronger than related themes |
-| Real Estate | Dividend Defensives | 56.11 | positive | 62.76 | positive | sector and theme confirmation |
+| Real Estate | Dividend Defensives | 56.48 | positive | 62.76 | positive | sector and theme confirmation |
 | Crypto | Crypto Infrastructure | 50.89 | mixed | 38.43 | weak | mixed confirmation |
 | Cybersecurity | Cybersecurity | 48.51 | mixed | 53.36 | mixed | mixed confirmation |
 | Defense | Defense | 43.14 | weak | 50.38 | mixed | mixed confirmation |
@@ -524,11 +524,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `48`
-- Live macro rows used: `12`
+- Live macro rows used: `13`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 02 November 2026, 05:15:00 (HKT)
+- Report generated at: 02 November 2026, 06:13:59 (HKT)
