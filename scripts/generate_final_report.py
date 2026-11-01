@@ -19,6 +19,11 @@ CLI: --report <PATH>   path to latest-report.md (required)
 from __future__ import annotations
 import argparse, datetime, json, os, re, subprocess, sys, urllib.request
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from report_narrative import (  # noqa: E402  (path bootstrap must run first)
+    build_evidence_pack, load_narrative, validate_narrative, render_narrative,
+)
+
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # market-dashboard
 DATA_DIR = os.path.join(BASE_DIR, "data")
 CONFIG_JS = os.path.join(BASE_DIR, "config.js")
@@ -189,7 +194,7 @@ def parse_latest_report(path: str) -> dict:
         "score": _num(dash, r"Regime score:\s*\*{0,2}\s*(\d+\.\d+)"),
         "label": _str(dash, r"Regime score:.*?/ 100\*\*\s*\(([^)]+)\)"),
         "equity_strength": _num(dash, r"US equity strength:\s*\*{0,2}\s*(\d+\.\d+)"),
-        "evidence": _num(dash, r"Evidence quality:\s*`?(\d+\.\d+)"),
+        "evidence": _num(dash, r"Evidence quality:\s*\*{0,2}\s*(\d+\.?\d*)"),
         "etf_flow": _num(dash, r"ETF flow contribution:\s*\*{0,2}\s*(\d+\.\d+)"),
         "flow_reliability": _num(dash, r"reliability\s*\*{0,2}\s*(\d+\.\d+)"),
         "breadth_50": _num(dash, r"above 50DMA\s*`?\s*(\d+\.\d+)"),
@@ -406,7 +411,7 @@ def pcard(macro, sym, label):
             % (esc(label), pct(m["price"]), cls, chg, esc(m.get("date", "")), esc(m.get("status", ""))))
 
 
-def build_html(d: dict) -> str:
+def build_html(d: dict, narrative: dict | None = None) -> str:
     r = d["regime"]
     sectors = d["sectors"]
     themes = d["themes"]
@@ -423,6 +428,18 @@ def build_html(d: dict) -> str:
     spec_paths = d.get("spec_paths", [])
     base = esc(sslip_base())
     spec_str = ", ".join(spec_paths) if spec_paths else sslip_base()
+
+    # Optional AI narrative layer. Absent -> output stays byte-identical to the
+    # deterministic report. Present -> validated prose is spliced into fixed slots.
+    nv = narrative or {}
+    exec_html = nv.get("exec_summary", "")
+    matters_section = ""
+    if nv.get("what_matters"):
+        matters_section = '<h2 id="what-matters">What Matters Now</h2>\n' + nv["what_matters"]
+    matters_toc = '<li><a href="#what-matters">What Matters</a></li>' if matters_section else ""
+    sector_narrative = nv.get("sector_narrative", "")
+    risk_narrative = nv.get("risk_narrative", "")
+    conclusion = nv.get("conclusion", "")
 
     sec_rows = "".join(
         '<tr><td>%d</td><td>%s</td><td>%.2f</td><td>%.2f%%</td><td>%.2f%%</td>'
@@ -490,7 +507,7 @@ footer {{ margin-top:30px; color:var(--muted); font-size:12px; border-top:var(--
   <div class="meta">Data Cutoff: <strong>{esc(now)}</strong> &middot; Run ID: <strong>{esc(run)}</strong> &middot; Source: latest-report.md + sslip.io</div>
   <nav class="toc">
     <ul>
-      <li><a href="#exec">Executive</a></li>
+      <li><a href="#exec">Executive</a></li>{matters_toc}
       <li><a href="#scorecard">Scorecard</a></li>
       <li><a href="#macro">Macro</a></li>
       <li><a href="#cross">Cross-Asset</a></li>
@@ -509,6 +526,8 @@ footer {{ margin-top:30px; color:var(--muted); font-size:12px; border-top:var(--
 
 <h2 id="exec">Executive Summary</h2>
 <p><strong>Regime:</strong> {esc(r.get("label") or "Mixed")}. Source Regime Score <strong>{pct(r["score"])}/100</strong> (source-derived); CIO Weighted Regime Score <strong>{pct(cio["score"])}/100</strong> (<em>{cio["method"]}</em>). US equity strength {pct(r["equity_strength"])}/100; evidence quality {pct(r["evidence"])}/100; ETF flow contribution {pct(r["etf_flow"])}/100 (reliability {pct(r["flow_reliability"])}). Primary driver: {esc(r.get("primary_driver") or "n/a")}. Breadth above 50DMA {pct(r["breadth_50"])}%, above 200DMA {pct(r["breadth_200"])}%.</p>
+{exec_html}
+{matters_section}
 
 <h2 id="scorecard">CIO Weighted Market Regime Scorecard</h2>
 <p><em>{cio["method"]}</em>. Components mapped from latest-report.md regime factors ({", ".join(esc(k) for k in d["regime_factors"].keys()) if d["regime_factors"] else "none available"}). Weights total {sum(c["weight"] for c in cio["components"])}%.</p>
@@ -527,6 +546,7 @@ footer {{ margin-top:30px; color:var(--muted); font-size:12px; border-top:var(--
 
 <h2 id="sectors">Sector Rankings (exactly 11 GICS)</h2>
 <p><em>Source-derived from latest-report.md Sector Constituent Dispersion. NOT the 15-row "Official Sector Strength" (excludes Cybersecurity/Semiconductors/Defense/etc.).</em></p>
+{sector_narrative}
 <table><thead><tr><th>Rank</th><th>GICS Sector</th><th>Score</th><th>Breadth 50D</th><th>Breadth 200D</th><th>Pos 20D</th><th>Leaders</th><th>Laggards</th></tr></thead><tbody>
 {sec_rows}
 </tbody></table>
@@ -569,7 +589,9 @@ footer {{ margin-top:30px; color:var(--muted); font-size:12px; border-top:var(--
 
 <h2 id="risks">Key Risk Analysis</h2>
 <p><em>Mixture of source-derived and analyst inference (labelled per row).</em></p>
+{risk_narrative}
 <ul>{risks_html}</ul>
+{conclusion}
 
 <h2 id="disclosures">Sources &amp; Disclosures</h2>
 <ul>
@@ -587,7 +609,7 @@ footer {{ margin-top:30px; color:var(--muted); font-size:12px; border-top:var(--
 # --------------------------------------------------------------------------- #
 #  §54A QC gate
 # --------------------------------------------------------------------------- #
-def check_html(html: str, d: dict) -> list:
+def check_html(html: str, d: dict, narrative: bool = False) -> list:
     fails = []
     for tag in ("div", "section", "table", "ul", "li", "p"):
         opens = len(re.findall(r"<%s[ >]" % tag, html))
@@ -606,8 +628,10 @@ def check_html(html: str, d: dict) -> list:
         fails.append("themes != 13 (got %d)" % len(d["themes"]))
     if '<div class="report" id="top">' not in html:
         fails.append("missing root <div class='report' id='top'>")
-    for tid in ("exec", "scorecard", "macro", "cross", "sectors", "themes", "scen",
-                "heat", "flows", "trades", "catalysts", "risks", "disclosures"):
+    base_tids = ("exec", "scorecard", "macro", "cross", "sectors", "themes", "scen",
+                 "heat", "flows", "trades", "catalysts", "risks", "disclosures")
+    extra_tids = ("what-matters",) if narrative else ()
+    for tid in base_tids + extra_tids:
         if 'id="%s"' % tid not in html or 'href="#%s"' % tid not in html:
             fails.append("TOC anchor #%s missing target (§54A failure mode #10)" % tid)
     return fails
@@ -635,8 +659,8 @@ def check_numerical(d: dict) -> list:
     return fails
 
 
-def run_qc(html: str, d: dict) -> list:
-    return check_html(html, d) + check_numerical(d)
+def run_qc(html: str, d: dict, narrative: bool = False) -> list:
+    return check_html(html, d, narrative=narrative) + check_numerical(d)
 
 
 # --------------------------------------------------------------------------- #
@@ -663,6 +687,10 @@ def main() -> int:
     ap.add_argument("--report", required=True, help="path to latest-report.md")
     ap.add_argument("--push", action="store_true",
                     help="commit+push data/market-intelligence-report.html (§54A §12)")
+    ap.add_argument("--evidence-out", default=None,
+                    help="write the frozen evidence pack (verified numbers + source sha256) to this JSON path")
+    ap.add_argument("--narrative", default=None,
+                    help="optional AI narrative JSON; validated against the evidence pack before rendering")
     args = ap.parse_args()
 
     # §54A §15: fetch/verify primary source at start
@@ -688,8 +716,37 @@ def main() -> int:
     d["trades"] = derive_trades(d["sectors"], d["themes"], d.get("setups", []))
     d["risks"] = derive_risks(d["macro"], d["regime"])
 
-    html = build_html(d)
-    fails = run_qc(html, d)
+    # Optional AI narrative layer (Generator B). The deterministic numbers stay
+    # authoritative: a narrative is only rendered after its provenance hash and
+    # every numeric claim have been checked against the frozen evidence pack.
+    narrative_html = None
+    if args.evidence_out or args.narrative:
+        evidence = build_evidence_pack(d, args.report)
+        if args.evidence_out:
+            with open(args.evidence_out, "w", encoding="utf-8") as fh:
+                json.dump(evidence, fh, indent=2)
+            sys.stderr.write(
+                "EVIDENCE: wrote %s (%d metrics, sha256 %s)\n"
+                % (args.evidence_out, len(evidence.get("metrics") or {}),
+                   evidence["source_sha256"][:12])
+            )
+    if args.narrative:
+        try:
+            raw_narrative = load_narrative(args.narrative)
+        except Exception as e:  # malformed JSON / unreadable file
+            sys.stderr.write("HALT: cannot load narrative %s: %s\n" % (args.narrative, e))
+            return 4
+        nfails = validate_narrative(raw_narrative, evidence)
+        if nfails:
+            sys.stderr.write("HALT: narrative validation failed (%d); no file written.\n" % len(nfails))
+            for f in nfails:
+                sys.stderr.write("  NARRATIVE FAIL: %s\n" % f)
+            return 4
+        narrative_html = render_narrative(raw_narrative)
+        sys.stderr.write("NARRATIVE: validated against evidence and rendered (%d slots)\n" % len(narrative_html))
+
+    html = build_html(d, narrative_html)
+    fails = run_qc(html, d, narrative=bool(narrative_html))
     sys.stderr.write("DATA CUTOFF: %s %s | sectors=%d themes=%d cio=%.2f regime=%s source=%s\n"
                      % (d["data_cutoff"], d["data_cutoff_time"], len(d["sectors"]), len(d["themes"]),
                         d["cio"]["score"], d["regime"].get("score"), d["report_dt"]))

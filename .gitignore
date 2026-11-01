@@ -4,3 +4,8 @@ Desktop.ini
 server.*.log
 dashboard-*.png
 config.js
+
+# Archived one-off report scripts (not production)
+legacy/
+__pycache__/
+*.pyc
