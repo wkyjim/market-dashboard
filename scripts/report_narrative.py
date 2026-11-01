@@ -63,6 +63,17 @@ REQUIRED_SECTIONS = ALLOWED_SECTIONS
 MAX_SECTION_CHARS = 2000
 MAX_TOTAL_CHARS = 24000
 
+# External citations. Unlike prose sections these are structured records, so the
+# renderer can emit real <a href> links. The whole point of the citation block is
+# to show the reader WHICH outside sources informed the narrative — an AI report
+# that only cites latest-report.md is just restating the rule engine.
+MAX_SOURCES = 40
+SOURCE_FIELDS = ("label", "url", "note")
+# A narrative that cites only latest-report.md is restating the rule engine, not
+# doing independent research. Require real outside sources so the citation block
+# proves the model actually looked beyond the pipeline snapshot.
+MIN_SOURCES = 3
+
 
 def _sha256_text(text: str) -> str:
     return hashlib.sha256(text.encode("utf-8")).hexdigest()
@@ -275,8 +286,53 @@ def validate_narrative(narrative: dict, evidence: dict, tolerance: float = 0.02)
                 if missing:
                     fails.append("adjustments.sector_scores missing sectors: " + ", ".join(missing))
 
+    # ---- External numeric claims --------------------------------------------
+    # The numeric guard below only accepts figures that trace to the evidence
+    # pack, a claims[] entry, or an AI-adjusted score. That makes genuinely
+    # evidence-dense prose impossible: an official BLS CPI print or BEA GDP
+    # figure does not exist in latest-report.md, so writing "September CPI 3.7%"
+    # would fail validation while the vague "CPI near 4 percent" passes. That
+    # asymmetry is what flattened the prose. external_claims[] closes the gap:
+    # each entry declares an outside number together with the source that
+    # supports it, so precision is allowed exactly where provenance exists.
+    ext_claims = narrative.get("external_claims")
+    ext_values: list = []
+    if ext_claims is None:
+        ext_claims = []
+    if not isinstance(ext_claims, list):
+        fails.append("external_claims must be a list of {value, text, source} objects")
+        ext_claims = []
+    else:
+        if len(ext_claims) > 60:
+            fails.append(f"external_claims has {len(ext_claims)} entries, max 60")
+        for i, item in enumerate(ext_claims):
+            if not isinstance(item, dict):
+                fails.append(f"external_claims[{i}] is not an object")
+                continue
+            unknown = set(item) - {"value", "text", "source"}
+            if unknown:
+                fails.append(f"external_claims[{i}] has unknown fields: {', '.join(sorted(unknown))}")
+            val = item.get("value")
+            text = item.get("text")
+            src_ref = item.get("source")
+            if not isinstance(val, (int, float)):
+                fails.append(f"external_claims[{i}].value must be a number")
+                continue
+            ext_values.append(float(val))
+            if not isinstance(text, str) or not text.strip():
+                fails.append(f"external_claims[{i}].text must describe the figure")
+            elif len(text) > 300:
+                fails.append(f"external_claims[{i}].text exceeds 300 chars")
+            elif "<" in text or ">" in text:
+                fails.append(f"external_claims[{i}].text contains raw HTML; keep it plain text")
+            if not isinstance(src_ref, str) or not src_ref.strip():
+                fails.append(f"external_claims[{i}].source must name the supporting source or URL")
+            elif len(src_ref) > 300:
+                fails.append(f"external_claims[{i}].source exceeds 300 chars")
+
     # Every decimal in the prose must trace to the evidence pack, an explicit
-    # claim, or an AI-adjusted score.
+    # claim, an AI-adjusted score, or a declared external claim. Runs AFTER the
+    # external_claims block so ext_values is populated before it is consulted.
     numeric_mentions = set()
     for text in sections.values():
         for t in (_as_text_list(text) or []):
@@ -284,7 +340,7 @@ def validate_narrative(narrative: dict, evidence: dict, tolerance: float = 0.02)
     metric_values = [float(v) for v in metrics.values() if isinstance(v, (int, float))]
     claim_values = [float(c.get("value")) for c in claims
                     if isinstance(c, dict) and isinstance(c.get("value"), (int, float))]
-    allowed_values = metric_values + claim_values + adj_values
+    allowed_values = metric_values + claim_values + adj_values + ext_values
     unclaimed = []
     for tok in sorted(numeric_mentions):
         try:
@@ -296,8 +352,64 @@ def validate_narrative(narrative: dict, evidence: dict, tolerance: float = 0.02)
         unclaimed.append(tok)
     if unclaimed:
         fails.append(
-            "prose contains numbers not found in the evidence pack (add each to claims[] with its path): "
+            "prose contains numbers not found in the evidence pack "
+            "(add each to claims[] with its path, or to external_claims[] with its source): "
             + ", ".join(unclaimed[:15])
+        )
+
+    # ---- External citations -------------------------------------------------
+    # These are the outside sources the model actually consulted (BLS, BEA, Fed,
+    # Treasury, exchange data, news). Without them the citation block only lists
+    # latest-report.md and the report cannot be distinguished from a mechanical
+    # dump of the rule engine.
+    sources = narrative.get("sources")
+    if sources is None:
+        sources = []
+    if not isinstance(sources, list):
+        fails.append("sources must be a list of {label, url, note} objects")
+        sources = []
+    elif len(sources) > MAX_SOURCES:
+        fails.append(f"sources has {len(sources)} entries, max {MAX_SOURCES}")
+    seen_urls: set[str] = set()
+    for i, item in enumerate(sources):
+        if not isinstance(item, dict):
+            fails.append(f"sources[{i}] is not an object")
+            continue
+        unknown = set(item) - set(SOURCE_FIELDS)
+        if unknown:
+            fails.append(f"sources[{i}] has unknown fields: {', '.join(sorted(unknown))}")
+        label = item.get("label")
+        url = item.get("url")
+        note = item.get("note")
+        if not isinstance(label, str) or not label.strip():
+            fails.append(f"sources[{i}].label must be a non-empty string")
+        elif len(label) > 200:
+            fails.append(f"sources[{i}].label exceeds 200 chars")
+        elif "<" in label or ">" in label:
+            fails.append(f"sources[{i}].label contains raw HTML; keep it plain text")
+        if not isinstance(url, str) or not url.strip():
+            fails.append(f"sources[{i}].url must be a non-empty string")
+        elif not re.match(r"^https?://[^\s<>\"']+$", url.strip()):
+            fails.append(f"sources[{i}].url must be an http(s) URL, got {url!r}")
+        elif url.strip() in seen_urls:
+            fails.append(f"sources[{i}].url is a duplicate: {url.strip()}")
+        else:
+            seen_urls.add(url.strip())
+        if note is not None:
+            if not isinstance(note, str):
+                fails.append(f"sources[{i}].note must be a string")
+            elif len(note) > 400:
+                fails.append(f"sources[{i}].note exceeds 400 chars")
+            elif "<" in note or ">" in note:
+                fails.append(f"sources[{i}].note contains raw HTML; keep it plain text")
+
+    # A narrative run must show independent research, not a restatement of the
+    # rule engine. Enforce a floor on distinct external citations.
+    if sections and len(seen_urls) < MIN_SOURCES:
+        fails.append(
+            "sources must cite at least %d distinct external URLs "
+            "(found %d); a report citing only latest-report.md is not independent research"
+            % (MIN_SOURCES, len(seen_urls))
         )
 
     return fails
@@ -333,4 +445,53 @@ def render_narrative(narrative: dict) -> dict:
         if texts:
             out[key] = "\n".join(f"<p>{_esc(t)}</p>" for t in texts)
 
+    # External citations render as real links in the Sources block.
+    src_html = render_sources(narrative)
+    if src_html:
+        out["sources"] = src_html
+
     return out
+
+
+def _esc_attr(text: str) -> str:
+    """Attribute-safe escaping for href values."""
+    return (
+        text.replace("&", "&amp;")
+        .replace("<", "&lt;")
+        .replace(">", "&gt;")
+        .replace('"', "&quot;")
+        .replace("'", "&#x27;")
+    )
+
+
+def render_sources(narrative: dict) -> str:
+    """Render narrative['sources'] into an escaped <ul class="sources"> block.
+
+    Returns an empty string when the narrative carries no external citations, so
+    the generator can fall back to the built-in source list without special-casing.
+    """
+    sources = narrative.get("sources") or []
+    if not isinstance(sources, list) or not sources:
+        return ""
+    items = []
+    for item in sources:
+        if not isinstance(item, dict):
+            continue
+        label = str(item.get("label") or "").strip()
+        url = str(item.get("url") or "").strip()
+        note = str(item.get("note") or "").strip()
+        if not label or not url:
+            continue
+        if not re.match(r"^https?://[^\s<>\"']+$", url):
+            continue
+        anchor = (
+            '<a href="%s" target="_blank" rel="noopener noreferrer">%s</a>'
+            % (_esc_attr(url), _esc(label))
+        )
+        if note:
+            items.append(f"<li>{anchor} &mdash; {_esc(note)}</li>")
+        else:
+            items.append(f"<li>{anchor}</li>")
+    if not items:
+        return ""
+    return '<ul class="sources">\n' + "\n".join(items) + "\n</ul>"

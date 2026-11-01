@@ -30,6 +30,21 @@ CONFIG_JS = os.path.join(BASE_DIR, "config.js")
 DEFAULT_REPORT = os.path.join(DATA_DIR, "latest-report.md")
 OUTPUT_HTML = os.path.join(DATA_DIR, "market-intelligence-report.html")
 DEPLOY_KEY = "/var/tmp/market_dashboard_deploy"
+SCRIPT_DIR = os.path.dirname(os.path.abspath(__file__))
+
+
+def _load_asset(name: str) -> str:
+    """Read a sibling asset (report_style.css / report_theme.js) verbatim.
+
+    Kept as external files rather than inline string literals so the CSS/JS can
+    be edited without touching the generator and without f-string brace escaping.
+    """
+    with open(os.path.join(SCRIPT_DIR, name), encoding="utf-8") as fh:
+        return fh.read()
+
+
+REPORT_CSS = _load_asset("report_style.css")
+REPORT_JS = _load_asset("report_theme.js")
 
 GICS_11 = ["Information Technology", "Health Care", "Energy", "Communication Services",
            "Financials", "Materials", "Industrials", "Consumer Staples",
@@ -459,6 +474,9 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
     catalysts_narrative = nv.get("catalysts_narrative", "")
     risk_narrative = nv.get("risk_narrative", "")
     conclusions = nv.get("conclusions", "")
+    # External citations rendered by report_narrative.render_sources(). Empty when
+    # the narrative carried none, in which case only the built-in sources appear.
+    sources_block = nv.get("sources", "")
     # AI re-rating layer: adjusted judgment scores, disclosed beside source values.
     adj = adjustments or {}
     adj_regime = adj.get("regime_score")
@@ -528,16 +546,35 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
         % (c["name"], c["weight"], c["score"], c["contrib"]) for c in cio["components"])
     st_rows = "".join("<tr><td>%s</td><td>%.1f%%</td></tr>" % (n, p) for n, p in sc["st"])
     lt_rows = "".join("<tr><td>%s</td><td>%.1f%%</td></tr>" % (n, p) for n, p in sc["lt"])
-    heat_st = "".join("<li>%s: %+.1f%%</li>" % (esc(x["name"]), x["weight"] * 100) for x in heat["st"])
-    heat_lt = "".join("<li>%s: %+.1f%%</li>" % (esc(x["name"]), x["weight"] * 100) for x in heat["lt"])
+    # Sections below render as tables rather than bullet lists, matching the
+    # October 31 institutional edition (c62d023) which carried 16 tables across
+    # 15 sections. Row builders emit <tr> fragments consumed by <tbody>.
+    heat_st = "".join(
+        '<tr><td>%s</td><td class="%s">%+.1f%%</td></tr>'
+        % (esc(x["name"]), "pos" if x["weight"] >= 0 else "neg", x["weight"] * 100)
+        for x in heat["st"])
+    heat_lt = "".join(
+        '<tr><td>%s</td><td class="%s">%+.1f%%</td></tr>'
+        % (esc(x["name"]), "pos" if x["weight"] >= 0 else "neg", x["weight"] * 100)
+        for x in heat["lt"])
     trades_html = "".join(
-        "<li><strong>%s</strong> — %s (%s): %s</li>"
+        "<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>"
         % (esc(t["name"]), esc(t["side"]), esc(t["type"]), esc(t["rationale"])) for t in trades)
     risks_html = "".join(
-        '<li><strong>%s</strong> [%s]: %s &mdash; <span class="tag">%s</span></li>'
+        '<tr><td>%s</td><td>%s</td><td>%s</td><td><span class="tag">%s</span></td></tr>'
         % (esc(x[0]), esc(x[1]), esc(x[2]), esc(x[3])) for x in risks)
-    flow_html = "".join("<li>%s: %s</li>" % (esc(f["asset"]), esc(f["signal"])) for f in cf)
-    ca_html = "".join("<li>%s: %s</li>" % (esc(c["area"]), esc(c["signal"])) for c in ca)
+    # Scorecard table rows: component x weight = contribution, matching the
+    # c62d023 layout (Factor | Weight | Score | Contribution | Rationale).
+    scorecard_rows = "".join(
+        '<tr><td>%s</td><td>%d%%</td><td>%.2f</td><td class="%s">%+.2f</td><td>%s</td></tr>'
+        % (esc(c["name"]), c["weight"], c["score"],
+           "pos" if c["contrib"] >= 0 else "neg", c["contrib"],
+           esc(c.get("rationale", "") or "Rule-based from regime factors"))
+        for c in cio["components"])
+    flow_html = "".join(
+        "<tr><td>%s</td><td>%s</td></tr>" % (esc(f["asset"]), esc(f["signal"])) for f in cf)
+    ca_html = "".join(
+        "<tr><td>%s</td><td>%s</td></tr>" % (esc(c["area"]), esc(c["signal"])) for c in ca)
     pcs = "".join(pcard(macro, s, lbl) for s, lbl in
                     [("SPX", "S&P 500"), ("NDX", "NASDAQ"), ("RUT", "Russell 2000"), ("VIX", "VIX"),
                      ("MOVE", "MOVE"), ("SKEW", "SKEW"), ("US10Y", "US 10Y"), ("US2Y", "US 2Y"),
@@ -550,30 +587,15 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>Market Intelligence Report - {esc(now)}</title>
 <style>
-:root {{ --bg:#0c0d10; --fg:#e8e8e8; --muted:#9aa0a6; --card:#14161a; --accent:#4f9aff; --pos:#2ecc71; --neg:#e74c3c; --line:#22252b; }}
-body {{ margin:0; font-family:-apple-system,ui-sans-serif,sfpro,sans-serif; max-width:860px; letter-spacing:.01em; color:var(--fg); background:var(--bg); }}
-.report {{ max-width:820px; margin:0 auto; padding:24px; }}
-.mast {{ border-bottom:var(--line) solid 1px; padding-bottom:14px; margin-bottom:18px; }}
-.mast h1 {{ margin:0 0 4px; font-size:22px; font-weight:600; }}
-.meta, .meta span {{ color:var(--muted); font-size:13px; }}
-nav.toc ul {{ list-style:none; padding-left:0; margin:12px 0 4px; }}
-nav.toc li {{ display:inline-block; margin-right:12px; font-size:12px; }}
-nav.toc a {{ color:var(--accent); text-decoration:none; }}
-h2 {{ margin-top:26px; border-bottom:var(--line) solid 1px; padding-bottom:6px; font-size:17px; }}
-h3 {{ margin-top:18px; font-size:14px; color:var(--accent); }}
-table {{ border-collapse:collapse; width:100%; margin:10px 0; font-size:13px; }}
-th, td {{ border:var(--line) solid 1px; padding:6px 8px; text-align:left; }}
-th {{ background:var(--card); color:var(--muted); font-weight:600; }}
-tr:nth-child(even) {{ background:rgba(79,154,255,.04); }}
-.pos {{ color:var(--pos); }} .neg {{ color:var(--neg); }}
-.tag {{ display:inline-block; font-size:11px; padding:1px 5px; border-radius:3px; background:rgba(255,255,255,.08); color:var(--muted); margin-left:6px; }}
-.inference {{ background:rgba(255,150,0,.12); color:#ffae48; }}
-.k {{ color:var(--muted); display:inline-block; min-width:90px; }} .v {{ font-weight:600; }}
-ul {{ line-height:1.6; }} li {{ margin:2px 0; }}
-footer {{ margin-top:30px; color:var(--muted); font-size:12px; border-top:var(--line) solid 1px; padding-top:10px; }}
+{REPORT_CSS}
 </style>
 </head>
 <body>
+<div class="theme-selector" role="group" aria-label="Color theme">
+  <button type="button" data-theme-option="light" aria-pressed="false">Light</button>
+  <button type="button" data-theme-option="dark" aria-pressed="false">Dark</button>
+  <button type="button" data-theme-option="auto" aria-pressed="true">Auto</button>
+</div>
 <div class="report" id="top">
 <div class="mast">
   <h1>Market Intelligence Report</h1>
@@ -629,9 +651,11 @@ footer {{ margin-top:30px; color:var(--muted); font-size:12px; border-top:var(--
 {historical_analogs}
 
 <h2 id="scorecard">CIO Weighted Market Regime Scorecard</h2>
-<p>The weighted score aggregates the ten regime factors into a single 0-100 reading; component weights and scores are shown in the CIO Dashboard above.</p>
+<p>The weighted score aggregates the ten regime factors into a single 0-100 reading.</p>
 {scorecard_narrative}
-<p><strong>CIO Weighted Regime Score: {cio["score"]}/100.</strong> Source-derived regime score: {pct(r["score"])}/100.</p>
+<table><thead><tr><th>Factor</th><th>Weight</th><th>Score (/100)</th><th>Contribution</th><th>Rationale</th></tr></thead><tbody>
+{scorecard_rows}
+</tbody><tfoot><tr><th colspan="3">CIO Weighted Regime Score</th><th>{cio["score"]}</th><th>Source-derived regime score: {pct(r["score"])}/100</th></tr></tfoot></table>
 
 <h2 id="scen">Probability-Weighted Scenarios</h2>
 <p><em>{sc["method"]}</em>. ST probabilities total {sum(p for _, p in sc["st"]):.1f}%; LT total {sum(p for _, p in sc["lt"]):.1f}%.</p>
@@ -650,7 +674,9 @@ footer {{ margin-top:30px; color:var(--muted); font-size:12px; border-top:var(--
 
 <h2 id="cross">Cross-Asset View</h2>
 {cross_asset_narrative}
-<ul>{ca_html}</ul>
+<table><thead><tr><th>Asset Class</th><th>Signal</th></tr></thead><tbody>
+{ca_html}
+</tbody></table>
 
 <h2 id="equities">Broad US Equities View</h2>
 {equities_view}
@@ -660,16 +686,18 @@ footer {{ margin-top:30px; color:var(--muted); font-size:12px; border-top:var(--
 
 <h2 id="price-action">Price Action / Breadth / Momentum</h2>
 {price_action}
-<ul>
-<li><span class="k">Breadth</span><span class="v">{breadth_line}</span></li>
-<li><span class="k">Volatility</span><span class="v">{vix_line}</span></li>
-<li><span class="k">Equity trend</span><span class="v">{_fmt(d["regime_factors"].get("equity_trend"))}</span></li>
-<li><span class="k">Equity momentum</span><span class="v">{_fmt(d["regime_factors"].get("equity_momentum"))}</span></li>
-</ul>
+<table><thead><tr><th>Metric</th><th>Reading</th></tr></thead><tbody>
+<tr><td>Breadth</td><td>{breadth_line}</td></tr>
+<tr><td>Volatility</td><td>{vix_line}</td></tr>
+<tr><td>Equity trend</td><td>{_fmt(d["regime_factors"].get("equity_trend"))}</td></tr>
+<tr><td>Equity momentum</td><td>{_fmt(d["regime_factors"].get("equity_momentum"))}</td></tr>
+</tbody></table>
 
 <h2 id="flows">Flows &amp; Positioning</h2>
 {flows_narrative}
-<ul>{flow_html}</ul>
+<table><thead><tr><th>Asset</th><th>Signal</th></tr></thead><tbody>
+{flow_html}
+</tbody></table>
 
 <h2 id="posture">Recommended Portfolio Posture</h2>
 {portfolio_posture}
@@ -697,44 +725,65 @@ footer {{ margin-top:30px; color:var(--muted); font-size:12px; border-top:var(--
 
 <h2 id="trades">Trade Ideas</h2>
 {trades_narrative}
-<ul>{trades_html}</ul>
+<table><thead><tr><th>Trade</th><th>Side</th><th>Type</th><th>Rationale</th></tr></thead><tbody>
+{trades_html}
+</tbody></table>
 
 <h2 id="heat-st">Portfolio Heat Map &mdash; Short-Term (1-3M)</h2>
 <p><em>{heat["method"]}</em>. ST active weights net to 0 (zero-sum by construction, &sect;54A &sect;19).</p>
 {heat_st_narrative}
-<ul>{heat_st}</ul>
+<table><thead><tr><th>Position</th><th>Active Weight</th></tr></thead><tbody>
+{heat_st}
+</tbody><tfoot><tr><th colspan="2">Net active weight: 0.0% (zero-sum)</th></tr></tfoot></table>
 
 <h2 id="heat-lt">Long-Term Portfolio Heat Map (6-12M)</h2>
 <p>LT active weights net to 0 (zero-sum by construction, &sect;54A &sect;19).</p>
 {heat_lt_narrative}
-<ul>{heat_lt}</ul>
+<table><thead><tr><th>Position</th><th>Active Weight</th></tr></thead><tbody>
+{heat_lt}
+</tbody><tfoot><tr><th colspan="2">Net active weight: 0.0% (zero-sum)</th></tr></tfoot></table>
 
 <h2 id="catalysts">Catalyst Watchlist</h2>
 <p><em>Analyst inference/estimate &mdash; upcoming public-calendar events (federalreserve.gov / home.treasury.gov / BLS / BEA).</em></p>
 {catalysts_narrative}
-<ul>
-<li>FOMC policy: {", ".join(FOMC_2026 + FOMC_2027[:1])}.</li>
-<li>BLS releases: {", ".join(BLS_2026)}.</li>
-<li>BEA: {", ".join(BEA_2026)}.</li>
-</ul>
+<table><thead><tr><th>Source</th><th>Scheduled Events</th></tr></thead><tbody>
+<tr><td>FOMC policy</td><td>{", ".join(FOMC_2026 + FOMC_2027[:1])}</td></tr>
+<tr><td>BLS releases</td><td>{", ".join(BLS_2026)}</td></tr>
+<tr><td>BEA releases</td><td>{", ".join(BEA_2026)}</td></tr>
+</tbody></table>
 
 <h2 id="risks">Key Risk Analysis</h2>
 <p><em>Mixture of source-derived and analyst inference (labelled per row).</em></p>
 {risk_narrative}
-<ul>{risks_html}</ul>
+<table><thead><tr><th>Risk</th><th>Category</th><th>Assessment</th><th>Tag</th></tr></thead><tbody>
+{risks_html}
+</tbody></table>
 
 <h2 id="conclusions">Highest-Conviction Conclusions</h2>
 {conclusions}
 
 <h2 id="disclosures">Sources &amp; Disclosures</h2>
+<h3>Sources</h3>
+{sources_block}
+<ul class="sources">
+<li><strong>latest-report.md</strong> &mdash; primary market report generated at {esc(now)} (rule-based, sslip.io + Postgres source).</li>
+<li><strong>sslip.io</strong> &mdash; host {base} (live macro; latest-report.md snapshot taken at {spec_str}).</li>
+<li><strong>US Equities API</strong> &mdash; market-tape and batch latest endpoints.</li>
+</ul>
+<h3>Classification of Material</h3>
 <ul>
-<li><strong>latest-report.md</strong>: generated at {esc(now)} (rule-based, sslip.io + Postgres source).</li>
-<li><strong>sslip.io</strong>: host {base} (live macro; latest-report.md snapshot taken at {spec_str}).</li>
-<li><strong>Analyst inference</strong>: CIO scorecard, scenarios, heat maps, catalysts and risk assessments are rule-based derivations (see per-section labels); not forward-looking guarantees.</li>
-<li><strong>Python vs CIO attribution</strong> (&sect;54A &sect;16): Source Regime Score ({pct(r["score"])}) is quantitative; CIO Weighted Score ({pct(cio["score"])}) is derived &mdash; methodologies differ.</li>
+<li><strong>Verified fact</strong> &mdash; market prices, macro yields and spreads quoted from the primary report; official statistical and policy dates where cited.</li>
+<li><strong>Source-derived signal</strong> &mdash; flow z-scores, breadth metrics and regime scores computed by the latest-report.md pipeline.</li>
+<li><strong>Analyst inference / estimate</strong> &mdash; CIO scorecard, scenarios, heat maps, trade ideas, catalysts and risk assessments are rule-based derivations (labelled per section); not forward-looking guarantees.</li>
+<li><strong>AI narrative and re-rating</strong> &mdash; prose, external citations and adjusted judgment scores are model-authored and validated against the frozen evidence pack; adjusted values are disclosed beside source values.</li>
+<li><strong>Python vs CIO attribution</strong> (&sect;54A &sect;16) &mdash; Source Regime Score ({pct(r["score"])}) is quantitative; CIO Weighted Score ({pct(cio["score"])}) is derived; methodologies differ.</li>
 </ul>
 <footer>Generated {esc(datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"))} &middot; {footer_note}.</footer>
 </div>
+<a class="back-to-top" href="#top">&uarr; Top</a>
+<script>
+{REPORT_JS}
+</script>
 </body>
 </html>'''
 
