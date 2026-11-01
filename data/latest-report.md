@@ -1,23 +1,23 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 1 November 2026, 11:14:45 (HKT)
+Generated at: 1 November 2026, 12:17:21 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **44.67 / 100** (Mild Risk-Off)
+- Regime score: **44.76 / 100** (Mild Risk-Off)
 - US equity strength: **42.22 / 100** (weak)
-- Evidence quality: **76.0 / 100**
+- Evidence quality: **72.5 / 100**
 - ETF flow contribution: **48.84 / 100**, reliability **66.57 / 100**
 - Breadth: **narrow**; above 50DMA `40.0%`, above 200DMA `53.33%`
 - Top sector score: **Healthcare** `71.29`
-- Top theme score: **Energy** `70.94`
+- Top theme score: **Energy** `71.41`
 
 ## Market Regime Score
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 44.67 | Mild Risk-Off |
+| Overall regime | 44.76 | Mild Risk-Off |
 | equity_trend | 40.0 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 45.36 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 45.0 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -27,9 +27,9 @@ Window: 24h
 | dollar_fx | 54.46 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.23 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 45.0 | mild risk-off pressure; Weighted headline/news confirmation score. |
+| news_confirmation | 46.88 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | none |
-| Negative contributors |  | volatility=20.0, equity_trend=40.0, news_confirmation=45.0, market_breadth=45.0 |
+| Negative contributors |  | volatility=20.0, equity_trend=40.0, market_breadth=45.0 |
 
 ## US Equity Strength Score
 
@@ -47,8 +47,8 @@ Window: 24h
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `76.0`
-- Agreement ratio: `0.4`
+- Confidence score: `72.5`
+- Agreement ratio: `0.3`
 - Contradiction count: `1`
 - Missing indicators: none
 - Warning flags: none
@@ -79,16 +79,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 19.42 | 12.91 | 2026-10-30 | closed |
 | ^SKEW | CBOE SKEW Index | 149.76 | -0.84 | 2026-10-30 | closed |
 | ^MOVE | ICE BofA MOVE Index | 100.2 | 7.12 | 2026-10-30 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.58 | -1.61 | 2026-10-30 | live as of 1 November 2026, 11:00:22 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.65 | -1.67 | 2026-10-30 | live as of 1 November 2026, 11:00:22 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -1.67 | 2026-10-30 | live as of 1 November 2026, 11:00:22 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.82 | -1.43 | 2026-10-30 | live as of 1 November 2026, 11:00:22 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.93 | -1.2 | 2026-10-30 | live as of 1 November 2026, 11:00:22 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.54 | 2026-10-30 | live as of 1 November 2026, 11:00:22 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.38 | 2026-10-30 | live as of 1 November 2026, 11:00:22 (HKT) |
-| HK50 | Hang Seng Futures | 23346.0 | 1.03 | 2026-10-30 | live as of 1 November 2026, 11:00:22 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 873.1 | -2.93 | 2026-10-30 | live as of 1 November 2026, 11:00:22 (HKT) |
-| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 1 November 2026, 11:00:22 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.58 | -1.61 | 2026-10-30 | live as of 1 November 2026, 12:00:21 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.65 | -1.67 | 2026-10-30 | live as of 1 November 2026, 12:00:21 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -1.67 | 2026-10-30 | live as of 1 November 2026, 12:00:21 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.82 | -1.43 | 2026-10-30 | live as of 1 November 2026, 12:00:21 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.93 | -1.2 | 2026-10-30 | live as of 1 November 2026, 12:00:21 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.54 | 2026-10-30 | live as of 1 November 2026, 12:00:21 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.38 | 2026-10-30 | live as of 1 November 2026, 12:00:21 (HKT) |
+| HK50 | Hang Seng Futures | 23346.0 | 1.03 | 2026-10-30 | live as of 1 November 2026, 12:00:21 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 873.1 | -2.93 | 2026-10-30 | live as of 1 November 2026, 12:00:21 (HKT) |
+| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 1 November 2026, 12:00:21 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.43 | -0.19 | 2026-10-30 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.27 | 0.05 | 2026-10-30 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.98 | -0.23 | 2026-10-30 | closed |
@@ -242,7 +242,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Rank | Sector | Score | Trend | Momentum | Stock Breadth | ETF Flow | Flow Reliability | 3M RS | Supporting / Leaders | Detracting / Laggards |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Healthcare | 71.29 | strong uptrend | positive | broad | 64.42 | 65.0 | 63.47 | REGN, LLY, CRL | DXCM, SOLV, ILMN |
-| 2 | Energy | 71.01 | strong uptrend | positive | broad | 61.46 | 65.0 | 66.79 | COP, APA, EOG | BKR, VLO, TPL |
+| 2 | Energy | 70.99 | strong uptrend | positive | broad | 61.46 | 65.0 | 66.79 | COP, APA, EOG | BKR, VLO, TPL |
 | 3 | Consumer Staples | 68.89 | strong uptrend | positive | broad | 50.0 | 0.0 | 60.4 | STZ, DLTR, EL | TGT, ADM, BG |
 | 4 | Financials | 65.59 | strong uptrend | neutral | broad | 40.77 | 65.0 | 54.24 | FDS, CBOE, GPN | IBKR, COIN, HOOD |
 | 5 | Consumer Discretionary | 61.18 | uptrend | neutral | broad | 50.0 | 0.0 | 53.74 | HAS, ULTA, HD | GPC, DASH, BKNG |
@@ -261,7 +261,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Energy | 70.94 | Positive setup | 61.46 | 65.0 | 2.71 | True | False |
+| 1 | Energy | 71.41 | Positive setup | 61.46 | 65.0 | 2.71 | True | False |
 | 2 | Healthcare Innovation | 67.6 | Positive setup | 64.42 | 65.0 | 20.42 | True | False |
 | 3 | Dividend Defensives | 62.76 | Positive setup | 55.03 | 65.0 | 2.21 | True | False |
 | 4 | Cybersecurity | 53.36 | Neutral / watchlist | 69.45 | 65.0 | 45.77 | False | False |
@@ -285,7 +285,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
 | Healthcare | Healthcare Innovation | 71.29 | strong | 67.6 | strong | sector and theme confirmation |
-| Energy | Energy | 71.01 | strong | 70.94 | strong | sector and theme confirmation |
+| Energy | Energy | 70.99 | strong | 71.41 | strong | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 68.89 | strong | 62.76 | positive | sector and theme confirmation |
 | Financials | Financials | 65.59 | strong | 44.63 | weak | sector stronger than related themes |
 | Consumer Discretionary | Small Caps | 61.18 | positive | 47.74 | mixed | sector stronger than related themes |
@@ -304,7 +304,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Classification | Drivers | Invalidation Triggers |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Energy | 72.94 | Positive setup | relative_strength_20d, relative_strength_60d, trend_persistence, breadth, volume_accumulation | relative strength below SPY, breadth below 45%, news turns negative |
+| 1 | Energy | 73.44 | Positive setup | relative_strength_20d, relative_strength_60d, trend_persistence, breadth, volume_accumulation | relative strength below SPY, breadth below 45%, news turns negative |
 | 2 | Healthcare Innovation | 71.87 | Positive setup | relative_strength_20d, relative_strength_60d, trend_persistence, breadth, volume_accumulation | relative strength below SPY, breadth below 45%, news turns negative |
 | 3 | Dividend Defensives | 67.05 | Positive setup | relative_strength_20d, trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | Quality Growth | 55.61 | Neutral / watchlist | trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
@@ -329,8 +329,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 14, 'negative': 22, 'neutral': 44}
-- News confirmation score: `45.0`
+- Sentiment counts: {'positive': 16, 'negative': 21, 'neutral': 43}
+- News confirmation score: `46.88`
 
 ### Top Market-Moving Headlines
 
@@ -366,7 +366,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `17.1`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. A third weekend of protests in France as youth-led rallies sweep Europe**
+**5. Clean Science Q2 FY2027 slides: revenue hits record, HALS doubles**
+- Source: Investing.com Markets
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / quarterly
+- Affected assets: HALS, revenue growth, record earnings, business expansion
+- Score: `15.85`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**6. A third weekend of protests in France as youth-led rallies sweep Europe**
 - Source: CNBC Top News
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / nan
@@ -374,7 +382,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `15.44`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**6. Earnings call transcript: OneSpan tops Q3 2026 estimates, shares jump 19.5%**
+**7. Earnings call transcript: OneSpan tops Q3 2026 estimates, shares jump 19.5%**
 - Source: Investing.com Forex
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -382,7 +390,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `14.92`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. ‘Showy jewelry and fancy cars hold no appeal’: We have a 99% chance of outliving our life savings. Why not spend it all?**
+**8. ‘Showy jewelry and fancy cars hold no appeal’: We have a 99% chance of outliving our life savings. Why not spend it all?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / nan
@@ -390,7 +398,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `13.81`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**8. We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?**
+**9. We’re in our 70s. Should we pay off our 2.5% mortgage — or put the money in a high-yield savings account?**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / nan
@@ -398,19 +406,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `13.81`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
-**9. Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment.**
+**10. Is it curtains for COLA? Saving Social Security could mean changing the cost-of-living adjustment.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Mixed
 - Relevance / horizon: single_name / nan
 - Affected assets: COLA
-- Score: `13.81`
-- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
-
-**10. Caregivers are now spending more than $11,000 a year out of pocket—up 60% in five years**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Mixed
-- Relevance / horizon: single_name / nan
-- Affected assets: AARP
 - Score: `13.81`
 - Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
@@ -512,4 +512,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 01 November 2026, 11:14:45 (HKT)
+- Report generated at: 01 November 2026, 12:17:21 (HKT)
