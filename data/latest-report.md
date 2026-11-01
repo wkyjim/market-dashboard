@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2 November 2026, 00:16:29 (HKT)
+Generated at: 2 November 2026, 01:16:27 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -98,16 +98,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 19.42 | 12.91 | 2026-10-30 | closed |
 | ^SKEW | CBOE SKEW Index | 149.76 | -0.84 | 2026-10-30 | closed |
 | ^MOVE | ICE BofA MOVE Index | 100.2 | 7.12 | 2026-10-30 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.58 | -1.61 | 2026-10-30 | live as of 2 November 2026, 00:00:20 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.65 | -1.67 | 2026-10-30 | live as of 2 November 2026, 00:00:20 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -1.67 | 2026-10-30 | live as of 2 November 2026, 00:00:20 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.82 | -1.43 | 2026-10-30 | live as of 2 November 2026, 00:00:20 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.93 | -1.2 | 2026-10-30 | live as of 2 November 2026, 00:00:20 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.54 | 2026-10-30 | live as of 2 November 2026, 00:00:20 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.38 | 2026-10-30 | live as of 2 November 2026, 00:00:20 (HKT) |
-| HK50 | Hang Seng Futures | 23346.0 | 1.03 | 2026-10-30 | live as of 2 November 2026, 00:00:20 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 873.1 | -2.93 | 2026-10-30 | live as of 2 November 2026, 00:00:20 (HKT) |
-| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 2 November 2026, 00:00:20 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.58 | -1.61 | 2026-10-30 | live as of 2 November 2026, 01:00:27 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.65 | -1.67 | 2026-10-30 | live as of 2 November 2026, 01:00:27 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -1.67 | 2026-10-30 | live as of 2 November 2026, 01:00:27 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.82 | -1.43 | 2026-10-30 | live as of 2 November 2026, 01:00:27 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.93 | -1.2 | 2026-10-30 | live as of 2 November 2026, 01:00:27 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.54 | 2026-10-30 | live as of 2 November 2026, 01:00:27 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.38 | 2026-10-30 | live as of 2 November 2026, 01:00:27 (HKT) |
+| HK50 | Hang Seng Futures | 23346.0 | 1.03 | 2026-10-30 | live as of 2 November 2026, 01:00:27 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 873.1 | -2.93 | 2026-10-30 | live as of 2 November 2026, 01:00:27 (HKT) |
+| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 2 November 2026, 01:00:27 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.43 | -0.19 | 2026-10-30 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.27 | 0.05 | 2026-10-30 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.98 | -0.23 | 2026-10-30 | closed |
@@ -348,12 +348,28 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 35, 'negative': 25, 'neutral': 20}
+- Sentiment counts: {'positive': 23, 'negative': 13, 'neutral': 44}
 - News confirmation score: `56.25`
 
 ### Top Market-Moving Headlines
 
-**1. Crocs stock jumped 25% after earnings. Here's why that might be just the beginning**
+**1. Saudi Arabia’s economy contracts 3.8% as war disrupts oil production**
+- Source: Investing.com Economic Indicators
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
+- Affected assets: Saudi Arabia, OPEC, economic_contraction, oil_production_disruption, war_impact
+- Score: `58.34`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**2. Lite-On Q3 2026 slides: AI surge drives record profit, margins expand**
+- Source: Investing.com Markets
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / quarterly
+- Affected assets: LITE, AI, earnings, profit growth
+- Score: `35.22`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**3. Crocs stock jumped 25% after earnings. Here's why that might be just the beginning**
 - Source: CNBC Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -361,77 +377,61 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.42`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**2. Saudi Arabia’s economy contracts 3.8% as war disrupts oil production**
-- Source: Investing.com Economic Indicators
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: Saudi Arabia, OPEC, economic_contraction, oil_production_disruption, war_impact
-- Score: `30.89`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. Oil hits six-month highs as Hormuz attacks threaten Iran peace efforts**
-- Source: Investing.com Economic Indicators
-- Importance / impact: Low / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: CL=F, BZ=F, IRAN, geopolitical risk, energy markets
-- Score: `19.45`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**4. Companies promised AI gains — here's how the payoff showed up in earnings**
-- Source: CNBC Business
-- Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AI, earnings, revenue
-- Score: `18.36`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**5. OPEC+ keeps December oil output targets steady ahead of tougher call for 2027**
-- Source: CNBC Top News
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: OPEC, Energy, Oil Policy, Geopolitics
-- Score: `17.1`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. Cboe Q3 2026 slides: S&P deal secured, earnings beat estimates**
+**4. Cboe Q3 2026 slides: S&P deal secured, earnings beat estimates**
 - Source: Investing.com Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: P, S, earnings beat, M&A deal, quarterly results
-- Score: `16.91`
+- Score: `31.93`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. Pakistan-bound LNG tanker attacked near Hormuz despite Iran clearance - Bloomberg**
+**5. Pakistan-bound LNG tanker attacked near Hormuz despite Iran clearance - Bloomberg**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
 - Affected assets: LNG, energy supply, geopolitical risk, maritime security
-- Score: `16.67`
+- Score: `31.49`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**8. Lite-On Q3 2026 slides: AI surge drives record profit, margins expand**
+**6. Panasonic Q2 FY2027 slides: AI demand drives record profit, outlook raised**
 - Source: Investing.com Markets
 - Importance / impact: Low / Positive
-- Relevance / horizon: single_name / quarterly
-- Affected assets: LITE, AI, earnings, profit growth
-- Score: `15.85`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AI demand, record profit, outlook raised
+- Score: `30.34`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**9. Clean Science Q2 FY2027 slides: revenue hits record, HALS doubles**
-- Source: Investing.com Markets
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / quarterly
-- Affected assets: HALS, revenue growth, record earnings, business expansion
-- Score: `15.85`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. Capgemini Q3 2026 slides: AI strategy drives 11.7% revenue growth**
+**7. Capgemini Q3 2026 slides: AI strategy drives 11.7% revenue growth**
 - Source: Investing.com Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: AI strategy, revenue growth, Q3 2026 results
-- Score: `15.85`
+- Score: `29.94`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**8. Earnings call transcript: Howmet Aerospace tops Q3 2026 forecasts, lifts outlook**
+- Source: Investing.com Forex
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: HWM, earnings, aerospace, outlook
+- Score: `28.73`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**9. Earnings call transcript: Xcel Energy tops Q3 2026 EPS estimates, lifts outlook**
+- Source: Investing.com Forex
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: XEL, EPS, earnings, outlook, revenue
+- Score: `28.73`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Earnings call transcript: TMX Group Q3 2026 revenue beats as stock jumps 5.8%**
+- Source: Investing.com Forex
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: TMX, earnings, revenue beat, stock price increase
+- Score: `28.73`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
@@ -531,4 +531,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 02 November 2026, 00:16:29 (HKT)
+- Report generated at: 02 November 2026, 01:16:27 (HKT)
