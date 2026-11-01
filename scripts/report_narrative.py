@@ -149,12 +149,75 @@ def load_narrative(path: str | Path) -> dict:
     return data
 
 
+HTML_TAG_RE = re.compile(r"</?[a-zA-Z][^>]*>")
+
+
+def _has_html_tag(text: str) -> bool:
+    """True only for real HTML tags. Comparison operators like 'Breadth < 60%'
+    are plain text and must pass — the renderer escapes them to &lt; anyway."""
+    return bool(HTML_TAG_RE.search(text))
+
+
 def _as_text_list(value) -> list[str] | None:
     if isinstance(value, str):
         return [value]
     if isinstance(value, list) and all(isinstance(v, str) for v in value):
         return value
     return None
+
+
+# Structured table sections. When the narrative supplies a list of dicts for one
+# of these keys, the renderer emits a real <table> matching the c62d023 layout
+# instead of a paragraph block. A plain string or list[str] still falls back to
+# paragraphs, so older narratives keep rendering.
+TABLE_SECTIONS = {
+    "risk_opportunity": (
+        ("label", "Opportunity / Risk"),
+        ("why", "Why it exists"),
+        ("priced", "What appears priced"),
+        ("view", "Our view"),
+        ("expression", "Portfolio expression"),
+        ("changes_view", "What changes the view"),
+    ),
+    "factor_style": (
+        ("factor", "Factor"),
+        ("signal", "Signal"),
+        ("exposure", "Exposure"),
+        ("notes", "Notes"),
+    ),
+}
+
+
+def _render_table_rows(rows: list, columns: tuple) -> str | None:
+    """Render a list of dicts as a <table>. Returns None when rows are unusable."""
+    if not isinstance(rows, list) or not rows:
+        return None
+    if not all(isinstance(r, dict) for r in rows):
+        return None
+    head = "".join(f"<th>{_esc(title)}</th>" for _, title in columns)
+    body = []
+    for row in rows:
+        cells = []
+        for key, _ in columns:
+            raw = row.get(key)
+            if raw is None:
+                cells.append("<td></td>")
+                continue
+            text = str(raw).strip()
+            cls = ""
+            if key == "exposure":
+                try:
+                    num = float(text.rstrip("%"))
+                    cls = ' class="pos"' if num >= 0 else ' class="neg"'
+                except ValueError:
+                    cls = ""
+            cells.append(f"<td{cls}>{_esc(text)}</td>")
+        body.append("<tr>" + "".join(cells) + "</tr>")
+    return (
+        "<table><thead><tr>" + head + "</tr></thead><tbody>\n"
+        + "\n".join(body)
+        + "\n</tbody></table>"
+    )
 
 
 def validate_narrative(narrative: dict, evidence: dict, tolerance: float = 0.02) -> list[str]:
@@ -185,6 +248,30 @@ def validate_narrative(narrative: dict, evidence: dict, tolerance: float = 0.02)
         if name not in ALLOWED_SECTIONS:
             fails.append(f"unknown narrative section: {name!r}")
             continue
+        # Table sections accept a list of row dicts as well as prose.
+        if name in TABLE_SECTIONS and isinstance(value, list) and value \
+                and all(isinstance(v, dict) for v in value):
+            columns = TABLE_SECTIONS[name]
+            for i, row in enumerate(value):
+                unknown = [k for k in row if k not in dict(columns)]
+                if unknown:
+                    fails.append(
+                        f"section {name!r} row {i} has unknown keys: {', '.join(unknown)}"
+                    )
+                for key, _ in columns:
+                    cell = row.get(key)
+                    if cell is None:
+                        continue
+                    text = str(cell)
+                    if _has_html_tag(text):
+                        fails.append(
+                            f"section {name!r} row {i}.{key} contains raw HTML; keep it plain text"
+                        )
+                    if len(text) > MAX_SECTION_CHARS:
+                        fails.append(
+                            f"section {name!r} row {i}.{key} exceeds {MAX_SECTION_CHARS} chars"
+                        )
+            continue
         texts = _as_text_list(value)
         if texts is None:
             fails.append(f"section {name!r} must be a string or list of strings")
@@ -193,12 +280,17 @@ def validate_narrative(narrative: dict, evidence: dict, tolerance: float = 0.02)
             total += len(text)
             if not text.strip():
                 fails.append(f"section {name!r} contains an empty entry")
-            if "<" in text or ">" in text:
-                fails.append(f"section {name!r} contains raw HTML angle brackets; prose must be plain text")
+            if _has_html_tag(text):
+                fails.append(f"section {name!r} contains raw HTML tags; prose must be plain text")
             if len(text) > MAX_SECTION_CHARS:
                 fails.append(f"section {name!r} exceeds {MAX_SECTION_CHARS} chars in one entry")
     for name in REQUIRED_SECTIONS:
-        if not (_as_text_list(sections.get(name)) or []):
+        value = sections.get(name)
+        # Table sections may be a non-empty list of row dicts.
+        if name in TABLE_SECTIONS and isinstance(value, list) and value \
+                and all(isinstance(v, dict) for v in value):
+            continue
+        if not (_as_text_list(value) or []):
             fails.append(f"required section {name!r} missing or empty")
     if total > MAX_TOTAL_CHARS:
         fails.append(f"narrative total length {total} exceeds {MAX_TOTAL_CHARS} chars")
@@ -441,7 +533,14 @@ def render_narrative(narrative: dict) -> dict:
     for key in ALLOWED_SECTIONS:
         if key in ("exec_summary", "what_matters"):
             continue
-        texts = _as_text_list(sections.get(key)) or []
+        value = sections.get(key)
+        # Structured row data renders as a table; prose falls back to paragraphs.
+        if key in TABLE_SECTIONS:
+            table = _render_table_rows(value, TABLE_SECTIONS[key])
+            if table:
+                out[key] = table
+                continue
+        texts = _as_text_list(value) or []
         if texts:
             out[key] = "\n".join(f"<p>{_esc(t)}</p>" for t in texts)
 
