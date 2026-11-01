@@ -48,17 +48,33 @@ def _evidence(tmp_path: Path) -> dict:
     return build_evidence_pack(d, src)
 
 
+ALL_SECTIONS = [
+    "exec_summary", "cio_dashboard", "what_matters", "risk_opportunity", "historical_analogs",
+    "scorecard", "scenarios_narrative", "macro_narrative", "cross_asset_narrative", "equities_view",
+    "price_action", "flows_narrative", "portfolio_posture", "sector_narrative", "themes_narrative",
+    "style_rotation", "factor_style", "trades_narrative", "heat_st_narrative", "heat_lt_narrative",
+    "catalysts_narrative", "risk_narrative", "conclusions",
+]
+
+
 def _good_narrative(evidence: dict) -> dict:
+    sections = {key: [f"Placeholder analytical prose for the {key} section."]
+                for key in ALL_SECTIONS}
+    sections["exec_summary"] = ["Regime reads 44.67/100 with a CIO composite of 48.62/100."]
+    sections["what_matters"] = ["Health Care leads at 83.89."]
+    sections["sector_narrative"] = ["Defensive leadership dominates the table."]
+    sections["risk_narrative"] = ["Participation is narrow."]
+    sections["conclusions"] = ["Favour confirmed breadth over index beta."]
     return {
         "schema": SCHEMA,
         "generated_at": "2026-11-01T02:20:00Z",
         "source": {"latest_report_sha256": evidence["source_sha256"]},
-        "sections": {
-            "exec_summary": ["Regime reads 44.67/100 with a CIO composite of 48.62/100."],
-            "what_matters": ["Health Care leads at 83.89."],
-            "sector_narrative": "Defensive leadership dominates the table.",
-            "risk_narrative": "Participation is narrow.",
-            "conclusion": "Favour confirmed breadth over index beta.",
+        "sections": sections,
+        "adjustments": {
+            "regime_score": 50.0,
+            "regime_label": "Neutral / Two-Sided",
+            "rationale": "Model research indicates stable credit spreads and a calmer vol surface warrant a less defensive regime read than the mechanical 44.67.",
+            "sector_scores": {"Health Care": 80.0},
         },
         "claims": [
             {"path": "regime.score", "value": 44.67},
@@ -149,7 +165,7 @@ def test_unclaimed_decimal_in_prose_is_rejected(tmp_path):
     n = _good_narrative(ev)
     n["sections"]["exec_summary"] = ["Breadth is 12.34 percent."]
     fails = validate_narrative(n, ev)
-    assert any("unclaimed decimals" in f and "12.34" in f for f in fails)
+    assert any("not found in the evidence pack" in f and "12.34" in f for f in fails)
 
 
 def test_oversized_section_is_rejected(tmp_path):
@@ -164,7 +180,7 @@ def test_render_escapes_and_builds_slots(tmp_path):
     n = _good_narrative(ev)
     n["sections"]["risk_narrative"] = "Risk <b>only</b> & nothing else."
     out = render_narrative(n)
-    assert set(out) == {"exec_summary", "what_matters", "sector_narrative", "risk_narrative", "conclusion"}
+    assert set(out) == set(ALL_SECTIONS)
     assert "&lt;b&gt;" in out["risk_narrative"]
     assert "&amp;" in out["risk_narrative"]
     assert "<b>" not in out["risk_narrative"]

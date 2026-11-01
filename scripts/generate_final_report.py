@@ -411,7 +411,7 @@ def pcard(macro, sym, label):
             % (esc(label), pct(m["price"]), cls, chg, esc(m.get("date", "")), esc(m.get("status", ""))))
 
 
-def build_html(d: dict, narrative: dict | None = None) -> str:
+def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None = None) -> str:
     r = d["regime"]
     sectors = d["sectors"]
     themes = d["themes"]
@@ -437,9 +437,82 @@ def build_html(d: dict, narrative: dict | None = None) -> str:
     if nv.get("what_matters"):
         matters_section = '<h2 id="what-matters">What Matters Now</h2>\n' + nv["what_matters"]
     matters_toc = '<li><a href="#what-matters">What Matters</a></li>' if matters_section else ""
+    # 24-section AI narrative slots (original report structure)
+    cio_dashboard = nv.get("cio_dashboard", "")
+    risk_opportunity = nv.get("risk_opportunity", "")
+    historical_analogs = nv.get("historical_analogs", "")
+    scorecard_narrative = nv.get("scorecard", "")
+    scenarios_narrative = nv.get("scenarios_narrative", "")
+    macro_narrative = nv.get("macro_narrative", "")
+    cross_asset_narrative = nv.get("cross_asset_narrative", "")
+    equities_view = nv.get("equities_view", "")
+    price_action = nv.get("price_action", "")
+    flows_narrative = nv.get("flows_narrative", "")
+    portfolio_posture = nv.get("portfolio_posture", "")
     sector_narrative = nv.get("sector_narrative", "")
+    themes_narrative = nv.get("themes_narrative", "")
+    style_rotation = nv.get("style_rotation", "")
+    factor_style = nv.get("factor_style", "")
+    trades_narrative = nv.get("trades_narrative", "")
+    heat_st_narrative = nv.get("heat_st_narrative", "")
+    heat_lt_narrative = nv.get("heat_lt_narrative", "")
+    catalysts_narrative = nv.get("catalysts_narrative", "")
     risk_narrative = nv.get("risk_narrative", "")
-    conclusion = nv.get("conclusion", "")
+    conclusions = nv.get("conclusions", "")
+    # AI re-rating layer: adjusted judgment scores, disclosed beside source values.
+    adj = adjustments or {}
+    adj_regime = adj.get("regime_score")
+    adj_label = adj.get("regime_label")
+    adj_sectors = adj.get("sector_scores") or {}
+    adj_rationale = adj.get("rationale") or ""
+    adj_line = ""
+    if isinstance(adj_regime, (int, float)):
+        adj_line = (
+            '<p><strong>AI-adjusted regime (CIO view):</strong> %.2f/100%s &mdash; '
+            'source-derived %.2f/100. Divergence disclosed per &sect;54A &sect;16.</p>'
+            % (float(adj_regime),
+               (" (" + esc(str(adj_label)) + ")") if adj_label else "",
+               float(r["score"])))
+    adj_sec_block = ""
+    if adj_sectors:
+        _rows = []
+        for _s in sectors:
+            _a = adj_sectors.get(_s["name"])
+            if isinstance(_a, (int, float)):
+                _rows.append("<tr><td>%s</td><td>%.2f</td><td>%.2f</td><td>%+.2f</td></tr>" % (
+                    esc(_s["name"]), _s["score"], float(_a), float(_a) - _s["score"]))
+        if _rows:
+            adj_sec_block = (
+                "<h3>AI Re-Rating (CIO view)</h3>\n"
+                "<p>Source scores are quantitative; adjusted scores are the model's judgment "
+                "after independent research. Divergence is disclosed per &sect;54A &sect;16.</p>\n"
+                "<table><thead><tr><th>Sector</th><th>Source</th><th>AI Adj</th><th>&Delta;</th></tr></thead><tbody>\n"
+                + "".join(_rows) + "\n</tbody></table>\n"
+                + (("<p><em>%s</em></p>" % esc(adj_rationale)) if adj_rationale else ""))
+    footer_note = ("this report includes an AI narrative validated against the frozen evidence pack"
+                   if nv else "this is a programmatic report; no manual narrative was authored")
+
+    # Data helpers for the 24-section structure.
+    br = d.get("breadth") or {}
+    vv = d.get("vol") or {}
+
+    def _fmt(x, suffix=""):
+        return ("%.2f%s" % (x, suffix)) if isinstance(x, (int, float)) else "n/a"
+
+    breadth_line = "above 50DMA %s, above 200DMA %s, positive 20D %s" % (
+        _fmt(br.get("above_50dma"), "%"), _fmt(br.get("above_200dma"), "%"),
+        _fmt(br.get("positive_20d"), "%"))
+    vix_line = "VIX %s (%s)" % (_fmt(vv.get("vix")), _fmt(vv.get("vix_chg"), "% chg"))
+    eq_rows = ""
+    for _t, _label in [("SPX", "S&P 500"), ("NDX", "Nasdaq 100"), ("RUT", "Russell 2000"),
+                       ("RSP", "S&P 500 Equal Weight"), ("IWF", "Russell 1000 Growth"),
+                       ("IWD", "Russell 1000 Value")]:
+        _m = macro.get(_t)
+        if not isinstance(_m, dict):
+            continue
+        eq_rows += "<tr><td>%s</td><td>%s</td><td>%+.2f%%</td><td>%s</td></tr>" % (
+            esc(_label), _fmt(_m.get("price")), float(_m.get("pct") or 0.0),
+            esc(str(_m.get("date") or "")))
 
     sec_rows = "".join(
         '<tr><td>%d</td><td>%s</td><td>%.2f</td><td>%.2f%%</td><td>%.2f%%</td>'
@@ -507,80 +580,138 @@ footer {{ margin-top:30px; color:var(--muted); font-size:12px; border-top:var(--
   <div class="meta">Data Cutoff: <strong>{esc(now)}</strong> &middot; Run ID: <strong>{esc(run)}</strong> &middot; Source: latest-report.md + sslip.io</div>
   <nav class="toc">
     <ul>
-      <li><a href="#exec">Executive</a></li>{matters_toc}
-      <li><a href="#scorecard">Scorecard</a></li>
+      <li><a href="#exec">Executive Summary</a></li>
+      <li><a href="#cio-dashboard">CIO Dashboard</a></li>
+      <li><a href="#what-matters">What Matters Now</a></li>
+      <li><a href="#risk-opportunity">Risk / Opportunity</a></li>
+      <li><a href="#analogs">Historical Analogs</a></li>
+      <li><a href="#scorecard">Regime Scorecard</a></li>
+      <li><a href="#scen">Scenarios</a></li>
       <li><a href="#macro">Macro</a></li>
       <li><a href="#cross">Cross-Asset</a></li>
+      <li><a href="#equities">US Equities</a></li>
+      <li><a href="#price-action">Price Action</a></li>
+      <li><a href="#flows">Flows</a></li>
+      <li><a href="#posture">Portfolio Posture</a></li>
       <li><a href="#sectors">Sectors</a></li>
       <li><a href="#themes">Themes</a></li>
-      <li><a href="#scen">Scenarios</a></li>
-      <li><a href="#heat">Heat Maps</a></li>
-      <li><a href="#flows">Flows</a></li>
+      <li><a href="#style">Style Rotation</a></li>
+      <li><a href="#factor-style">Factor &amp; Style</a></li>
       <li><a href="#trades">Trade Ideas</a></li>
+      <li><a href="#heat-st">Heat Map ST</a></li>
+      <li><a href="#heat-lt">Heat Map LT</a></li>
       <li><a href="#catalysts">Catalysts</a></li>
       <li><a href="#risks">Risks</a></li>
+      <li><a href="#conclusions">Conclusions</a></li>
       <li><a href="#disclosures">Disclosures</a></li>
     </ul>
   </nav>
 </div>
 
-<h2 id="exec">Executive Summary</h2>
+<h2 id="exec">Executive Summary (CIO View)</h2>
 <p><strong>Regime:</strong> {esc(r.get("label") or "Mixed")}. Source Regime Score <strong>{pct(r["score"])}/100</strong> (source-derived); CIO Weighted Regime Score <strong>{pct(cio["score"])}/100</strong> (<em>{cio["method"]}</em>). US equity strength {pct(r["equity_strength"])}/100; evidence quality {pct(r["evidence"])}/100; ETF flow contribution {pct(r["etf_flow"])}/100 (reliability {pct(r["flow_reliability"])}). Primary driver: {esc(r.get("primary_driver") or "n/a")}. Breadth above 50DMA {pct(r["breadth_50"])}%, above 200DMA {pct(r["breadth_200"])}%.</p>
+{adj_line}
 {exec_html}
-{matters_section}
 
-<h2 id="scorecard">CIO Weighted Market Regime Scorecard</h2>
+<h2 id="cio-dashboard">CIO Dashboard</h2>
 <p><em>{cio["method"]}</em>. Components mapped from latest-report.md regime factors ({", ".join(esc(k) for k in d["regime_factors"].keys()) if d["regime_factors"] else "none available"}). Weights total {sum(c["weight"] for c in cio["components"])}%.</p>
+{cio_dashboard}
 <table><thead><tr><th>Component</th><th>Weight</th><th>Score</th><th>Contribution</th></tr></thead><tbody>
 {cio_rows}
 </tbody><tfoot><tr><th colspan="3">CIO Weighted Score</th><th>{cio["score"]}</th></tr></tfoot></table>
 
-<h2 id="macro">Macro View</h2>
-<p>Macro snapshot &mdash; observation dates per &sect;54A &sect;15 (live as-of 30 October 2026 17:00 HKT where marked live; else prior close). Reconciliation against sslip.io host {base} (spec paths: {spec_str}).</p>
-<ul>
-{pcs}
-</ul>
+{matters_section}
 
-<h2 id="cross">Cross-Asset Confirmation</h2>
-<ul>{ca_html}</ul>
+<h2 id="risk-opportunity">Risk / Opportunity Balance</h2>
+{risk_opportunity}
 
-<h2 id="sectors">Sector Rankings (exactly 11 GICS)</h2>
-<p><em>Source-derived from latest-report.md Sector Constituent Dispersion. NOT the 15-row "Official Sector Strength" (excludes Cybersecurity/Semiconductors/Defense/etc.).</em></p>
-{sector_narrative}
-<table><thead><tr><th>Rank</th><th>GICS Sector</th><th>Score</th><th>Breadth 50D</th><th>Breadth 200D</th><th>Pos 20D</th><th>Leaders</th><th>Laggards</th></tr></thead><tbody>
-{sec_rows}
-</tbody></table>
+<h2 id="analogs">Historical Analogs and Lessons</h2>
+{historical_analogs}
 
-<h2 id="themes">Theme Rankings (exactly 13)</h2>
-<p><em>Source-derived from latest-report.md Thematic Strength.</em></p>
-<table><thead><tr><th>Rank</th><th>Theme</th><th>Score</th><th>Setup</th><th>Flow</th><th>Reliability</th><th>Dispersion</th></tr></thead><tbody>
-{theme_rows}
-</tbody></table>
+<h2 id="scorecard">CIO Weighted Market Regime Scorecard</h2>
+<p>The weighted score aggregates the ten regime factors into a single 0-100 reading; component weights and scores are shown in the CIO Dashboard above.</p>
+{scorecard_narrative}
+<p><strong>CIO Weighted Regime Score: {cio["score"]}/100.</strong> Source-derived regime score: {pct(r["score"])}/100.</p>
 
 <h2 id="scen">Probability-Weighted Scenarios</h2>
 <p><em>{sc["method"]}</em>. ST probabilities total {sum(p for _, p in sc["st"]):.1f}%; LT total {sum(p for _, p in sc["lt"]):.1f}%.</p>
+{scenarios_narrative}
 <h3>Short-Term (1-3M)</h3>
 <table><thead><tr><th>Scenario</th><th>Probability</th></tr></thead><tbody>{st_rows}</tbody></table>
 <h3>Long-Term (6-12M)</h3>
 <table><thead><tr><th>Scenario</th><th>Probability</th></tr></thead><tbody>{lt_rows}</tbody></table>
 
-<h2 id="heat">Portfolio Heat Maps</h2>
-<p><em>{heat["method"]}</em>. ST/LT active-weight heat maps net to 0 (zero-sum by construction, &sect;54A &sect;19).</p>
-<h3>ST Heat Map</h3>
-<ul>{heat_st}</ul>
-<h3>LT Heat Map</h3>
-<ul>{heat_lt}</ul>
+<h2 id="macro">Macro View</h2>
+<p>Macro snapshot &mdash; observation dates per &sect;54A &sect;15. Reconciliation against sslip.io host {base} (spec paths: {spec_str}).</p>
+{macro_narrative}
+<ul>
+{pcs}
+</ul>
 
-<h2 id="flows">Flows / Positioning</h2>
-<p>Core flow signals (source-derived):</p>
+<h2 id="cross">Cross-Asset View</h2>
+{cross_asset_narrative}
+<ul>{ca_html}</ul>
+
+<h2 id="equities">Broad US Equities View</h2>
+{equities_view}
+<table><thead><tr><th>Index</th><th>Level</th><th>Day</th><th>Date</th></tr></thead><tbody>
+{eq_rows}
+</tbody></table>
+
+<h2 id="price-action">Price Action / Breadth / Momentum</h2>
+{price_action}
+<ul>
+<li><span class="k">Breadth</span><span class="v">{breadth_line}</span></li>
+<li><span class="k">Volatility</span><span class="v">{vix_line}</span></li>
+<li><span class="k">Equity trend</span><span class="v">{_fmt(d["regime_factors"].get("equity_trend"))}</span></li>
+<li><span class="k">Equity momentum</span><span class="v">{_fmt(d["regime_factors"].get("equity_momentum"))}</span></li>
+</ul>
+
+<h2 id="flows">Flows &amp; Positioning</h2>
+{flows_narrative}
 <ul>{flow_html}</ul>
 
+<h2 id="posture">Recommended Portfolio Posture</h2>
+{portfolio_posture}
+
+<h2 id="sectors">Sector Rankings (11 GICS Sectors)</h2>
+<p><em>Source-derived from latest-report.md Sector Constituent Dispersion. NOT the 15-row "Official Sector Strength" (excludes Cybersecurity/Semiconductors/Defense/etc.).</em></p>
+{sector_narrative}
+<table><thead><tr><th>Rank</th><th>GICS Sector</th><th>Score</th><th>Breadth 50D</th><th>Breadth 200D</th><th>Pos 20D</th><th>Leaders</th><th>Laggards</th></tr></thead><tbody>
+{sec_rows}
+</tbody></table>
+{adj_sec_block}
+
+<h2 id="themes">Theme Rankings</h2>
+<p><em>Source-derived from latest-report.md Thematic Strength.</em></p>
+{themes_narrative}
+<table><thead><tr><th>Rank</th><th>Theme</th><th>Score</th><th>Setup</th><th>Flow</th><th>Reliability</th><th>Dispersion</th></tr></thead><tbody>
+{theme_rows}
+</tbody></table>
+
+<h2 id="style">Style Rotation</h2>
+{style_rotation}
+
+<h2 id="factor-style">Factor &amp; Style</h2>
+{factor_style}
+
 <h2 id="trades">Trade Ideas</h2>
-<p><em>{", ".join(esc(t["name"]) for t in trades)}</em>.</p>
+{trades_narrative}
 <ul>{trades_html}</ul>
+
+<h2 id="heat-st">Portfolio Heat Map &mdash; Short-Term (1-3M)</h2>
+<p><em>{heat["method"]}</em>. ST active weights net to 0 (zero-sum by construction, &sect;54A &sect;19).</p>
+{heat_st_narrative}
+<ul>{heat_st}</ul>
+
+<h2 id="heat-lt">Long-Term Portfolio Heat Map (6-12M)</h2>
+<p>LT active weights net to 0 (zero-sum by construction, &sect;54A &sect;19).</p>
+{heat_lt_narrative}
+<ul>{heat_lt}</ul>
 
 <h2 id="catalysts">Catalyst Watchlist</h2>
 <p><em>Analyst inference/estimate &mdash; upcoming public-calendar events (federalreserve.gov / home.treasury.gov / BLS / BEA).</em></p>
+{catalysts_narrative}
 <ul>
 <li>FOMC policy: {", ".join(FOMC_2026 + FOMC_2027[:1])}.</li>
 <li>BLS releases: {", ".join(BLS_2026)}.</li>
@@ -591,7 +722,9 @@ footer {{ margin-top:30px; color:var(--muted); font-size:12px; border-top:var(--
 <p><em>Mixture of source-derived and analyst inference (labelled per row).</em></p>
 {risk_narrative}
 <ul>{risks_html}</ul>
-{conclusion}
+
+<h2 id="conclusions">Highest-Conviction Conclusions</h2>
+{conclusions}
 
 <h2 id="disclosures">Sources &amp; Disclosures</h2>
 <ul>
@@ -600,7 +733,7 @@ footer {{ margin-top:30px; color:var(--muted); font-size:12px; border-top:var(--
 <li><strong>Analyst inference</strong>: CIO scorecard, scenarios, heat maps, catalysts and risk assessments are rule-based derivations (see per-section labels); not forward-looking guarantees.</li>
 <li><strong>Python vs CIO attribution</strong> (&sect;54A &sect;16): Source Regime Score ({pct(r["score"])}) is quantitative; CIO Weighted Score ({pct(cio["score"])}) is derived &mdash; methodologies differ.</li>
 </ul>
-<footer>Generated {esc(datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"))} &middot; this is a programmatic report; no manual narrative was authored.</footer>
+<footer>Generated {esc(datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"))} &middot; {footer_note}.</footer>
 </div>
 </body>
 </html>'''
@@ -628,8 +761,10 @@ def check_html(html: str, d: dict, narrative: bool = False) -> list:
         fails.append("themes != 13 (got %d)" % len(d["themes"]))
     if '<div class="report" id="top">' not in html:
         fails.append("missing root <div class='report' id='top'>")
-    base_tids = ("exec", "scorecard", "macro", "cross", "sectors", "themes", "scen",
-                 "heat", "flows", "trades", "catalysts", "risks", "disclosures")
+    base_tids = ("exec", "cio-dashboard", "risk-opportunity", "analogs", "scorecard",
+                 "scen", "macro", "cross", "equities", "price-action", "flows", "posture",
+                 "sectors", "themes", "style", "factor-style", "trades",
+                 "heat-st", "heat-lt", "catalysts", "risks", "conclusions", "disclosures")
     extra_tids = ("what-matters",) if narrative else ()
     for tid in base_tids + extra_tids:
         if 'id="%s"' % tid not in html or 'href="#%s"' % tid not in html:
@@ -693,6 +828,29 @@ def main() -> int:
                     help="optional AI narrative JSON; validated against the evidence pack before rendering")
     args = ap.parse_args()
 
+    # SHORTCUT GUARD: production runs MUST carry a validated AI narrative.
+    # Bare execution produces the compact programmatic report and bypasses the
+    # market-intelligence-report workflow (narrative authoring + §54A gates).
+    # --evidence-out alone is allowed as a read-only probe: it writes the
+    # evidence pack and exits WITHOUT touching the published HTML, so the agent
+    # can read the exact metrics before authoring prose.
+    # Deliberate deterministic runs may opt out with AEGIS_ALLOW_PROGRAMMATIC=1.
+    shortcut_blocked = (not args.narrative
+                        and os.environ.get("AEGIS_ALLOW_PROGRAMMATIC") != "1")
+    if shortcut_blocked and not args.evidence_out:
+        sys.stderr.write(
+            "HALT: --narrative is required for production report generation.\n"
+            "Bare execution produces the compact programmatic report and bypasses\n"
+            "the AI narrative workflow. Author the narrative JSON first\n"
+            "(schema aegis-narrative-v1, sections: exec_summary, what_matters,\n"
+            "sector_narrative, risk_narrative, conclusion), then re-run with\n"
+            "--narrative <path>.\n"
+            "Tip: run with --evidence-out <path> (no --narrative) to dump the\n"
+            "frozen evidence pack without writing the HTML.\n"
+            "For a deliberate deterministic run set AEGIS_ALLOW_PROGRAMMATIC=1.\n"
+        )
+        return 5
+
     # §54A §15: fetch/verify primary source at start
     if not os.path.exists(args.report):
         sys.stderr.write("HALT: primary source %s unreadable\n" % args.report)
@@ -720,6 +878,7 @@ def main() -> int:
     # authoritative: a narrative is only rendered after its provenance hash and
     # every numeric claim have been checked against the frozen evidence pack.
     narrative_html = None
+    adjustments: dict = {}
     if args.evidence_out or args.narrative:
         evidence = build_evidence_pack(d, args.report)
         if args.evidence_out:
@@ -730,6 +889,13 @@ def main() -> int:
                 % (args.evidence_out, len(evidence.get("metrics") or {}),
                    evidence["source_sha256"][:12])
             )
+        if shortcut_blocked:
+            sys.stderr.write(
+                "EVIDENCE-ONLY: no --narrative supplied; published HTML NOT written.\n"
+                "Author the narrative JSON against this evidence pack, then re-run\n"
+                "with --narrative <path>.\n"
+            )
+            return 0
     if args.narrative:
         try:
             raw_narrative = load_narrative(args.narrative)
@@ -743,9 +909,10 @@ def main() -> int:
                 sys.stderr.write("  NARRATIVE FAIL: %s\n" % f)
             return 4
         narrative_html = render_narrative(raw_narrative)
+        adjustments = raw_narrative.get("adjustments") or {}
         sys.stderr.write("NARRATIVE: validated against evidence and rendered (%d slots)\n" % len(narrative_html))
 
-    html = build_html(d, narrative_html)
+    html = build_html(d, narrative_html, adjustments)
     fails = run_qc(html, d, narrative=bool(narrative_html))
     sys.stderr.write("DATA CUTOFF: %s %s | sectors=%d themes=%d cio=%.2f regime=%s source=%s\n"
                      % (d["data_cutoff"], d["data_cutoff_time"], len(d["sectors"]), len(d["themes"]),
