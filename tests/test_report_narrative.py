@@ -57,6 +57,23 @@ ALL_SECTIONS = [
 ]
 
 
+# Ten distinct URLs across six institutions. The validator requires at least
+# MIN_SOURCES distinct URLs and MIN_DOMAINS distinct registered domains, so a
+# "valid" fixture has to look like a report that actually did the research.
+SOURCES = [
+    {"label": "BLS CPI", "url": "https://www.bls.gov/news.release/cpi.nr0.htm", "note": "September CPI"},
+    {"label": "BLS employment", "url": "https://www.bls.gov/news.release/empsit.nr0.htm", "note": "October payrolls"},
+    {"label": "BEA GDP", "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026", "note": "Q3 advance"},
+    {"label": "BEA PCE", "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026", "note": "September PCE"},
+    {"label": "Fed FOMC calendar", "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm", "note": "meeting dates"},
+    {"label": "Fed statement", "url": "https://www.federalreserve.gov/newsevents/pressreleases/monetary20261028a.htm", "note": "October decision"},
+    {"label": "Treasury refunding", "url": "https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents/", "note": "supply calendar"},
+    {"label": "Treasury auction", "url": "https://www.treasurydirect.gov/auctions/announcements-data-results/", "note": "auction results"},
+    {"label": "SEC 8-K", "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&type=8-K", "note": "filings"},
+    {"label": "Reuters markets", "url": "https://www.reuters.com/markets/", "note": "session colour"},
+]
+
+
 def _good_narrative(evidence: dict) -> dict:
     sections = {key: [f"Placeholder analytical prose for the {key} section."]
                 for key in ALL_SECTIONS}
@@ -76,6 +93,7 @@ def _good_narrative(evidence: dict) -> dict:
             "rationale": "Model research indicates stable credit spreads and a calmer vol surface warrant a less defensive regime read than the mechanical 44.67.",
             "sector_scores": {"Health Care": 80.0},
         },
+        "sources": [dict(s) for s in SOURCES],
         "claims": [
             {"path": "regime.score", "value": 44.67},
             {"path": "cio.score", "value": 48.62},
@@ -180,7 +198,9 @@ def test_render_escapes_and_builds_slots(tmp_path):
     n = _good_narrative(ev)
     n["sections"]["risk_narrative"] = "Risk <b>only</b> & nothing else."
     out = render_narrative(n)
-    assert set(out) == set(ALL_SECTIONS)
+    # "sources" is an extra slot rendered from narrative["sources"]; it is not a
+    # prose section but it is part of the output when citations are present.
+    assert set(out) == set(ALL_SECTIONS) | {"sources"}
     assert "&lt;b&gt;" in out["risk_narrative"]
     assert "&amp;" in out["risk_narrative"]
     assert "<b>" not in out["risk_narrative"]
@@ -200,3 +220,47 @@ def test_load_narrative_reads_file(tmp_path):
     p = tmp_path / "n.json"
     p.write_text(json.dumps(_good_narrative(ev)), encoding="utf-8")
     assert load_narrative(p)["schema"] == SCHEMA
+
+
+# --- source breadth floors -------------------------------------------------
+# The operator raised the citation floor to 10 URLs across at least 4 distinct
+# registered domains after a run that cited only 4 sources still passed. These
+# tests pin both floors so a thin report cannot validate again.
+
+def test_too_few_source_urls_is_rejected(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sources"] = [dict(s) for s in SOURCES[:9]]
+    fails = validate_narrative(n, ev)
+    assert any("at least 10 distinct external URLs" in f for f in fails)
+
+
+def test_source_domain_diversity_is_rejected(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    # Ten URLs, but only three institutions.
+    n["sources"] = [
+        {"label": "BLS CPI", "url": "https://www.bls.gov/news.release/cpi.nr0.htm", "note": ""},
+        {"label": "BLS jobs", "url": "https://www.bls.gov/news.release/empsit.nr0.htm", "note": ""},
+        {"label": "BLS PPI", "url": "https://www.bls.gov/news.release/ppi.nr0.htm", "note": ""},
+        {"label": "BLS schedule", "url": "https://www.bls.gov/schedule/news_release/cpi.htm", "note": ""},
+        {"label": "BEA GDP", "url": "https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026", "note": ""},
+        {"label": "BEA PCE", "url": "https://www.bea.gov/news/2026/personal-income-and-outlays-september-2026", "note": ""},
+        {"label": "BEA income", "url": "https://www.bea.gov/data/income-saving/personal-income", "note": ""},
+        {"label": "Fed FOMC", "url": "https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm", "note": ""},
+        {"label": "Fed minutes", "url": "https://www.federalreserve.gov/monetarypolicy/fomcminutes20261028.htm", "note": ""},
+        {"label": "Fed H.4.1", "url": "https://www.federalreserve.gov/releases/h41/current/", "note": ""},
+    ]
+    fails = validate_narrative(n, ev)
+    assert any("at least 4 distinct domains" in f for f in fails)
+
+
+def test_registered_domain_normalises_hosts():
+    from report_narrative import _registered_domain as rd
+
+    assert rd("https://www.bls.gov/news.release/cpi.nr0.htm") == "bls.gov"
+    assert rd("https://api.federalreserve.gov/x") == "federalreserve.gov"
+    assert rd("https://markets.ft.com/x") == "ft.com"
+    assert rd("https://www.bankofengland.co.uk/x") == "bankofengland.co.uk"
+    assert rd("not a url") == ""
+    assert rd("https://www.bls.gov:443/x") == "bls.gov"

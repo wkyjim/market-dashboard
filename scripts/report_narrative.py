@@ -25,6 +25,7 @@ import json
 import re
 from datetime import datetime, timezone
 from pathlib import Path
+from urllib.parse import urlsplit
 
 SCHEMA = "aegis-narrative-v1"
 
@@ -72,7 +73,38 @@ SOURCE_FIELDS = ("label", "url", "note")
 # A narrative that cites only latest-report.md is restating the rule engine, not
 # doing independent research. Require real outside sources so the citation block
 # proves the model actually looked beyond the pipeline snapshot.
-MIN_SOURCES = 3
+#
+# 10 URLs is the breadth floor the operator set: 4 example categories in the old
+# prompt produced exactly 4 citations, so the floor has to be high enough that
+# hitting it is itself evidence of research. MIN_DOMAINS stops ten pages from one
+# institution counting as breadth.
+MIN_SOURCES = 10
+MIN_DOMAINS = 4
+
+# Second-level labels that usually sit directly under a public suffix. Used only
+# to keep "federalreserve.gov" and "api.federalreserve.gov" in the same bucket.
+_MULTI_PART_SUFFIXES = {"co", "com", "gov", "org", "ac", "net", "edu", "go"}
+
+
+def _registered_domain(url: str) -> str:
+    """Return the registrable domain for a URL, or '' when it cannot be parsed.
+
+    Deliberately heuristic: no public-suffix list dependency. Good enough to keep
+    bls.gov / bea.gov / federalreserve.gov / treasury.gov in separate buckets.
+    """
+    try:
+        host = urlsplit(url.strip()).netloc.lower()
+    except ValueError:
+        return ""
+    host = host.split("@")[-1].split(":")[0]
+    if host.startswith("www."):
+        host = host[4:]
+    labels = [p for p in host.split(".") if p]
+    if len(labels) < 2:
+        return host
+    if len(labels) >= 3 and labels[-2] in _MULTI_PART_SUFFIXES:
+        return ".".join(labels[-3:])
+    return ".".join(labels[-2:])
 
 
 def _sha256_text(text: str) -> str:
@@ -496,13 +528,24 @@ def validate_narrative(narrative: dict, evidence: dict, tolerance: float = 0.02)
                 fails.append(f"sources[{i}].note contains raw HTML; keep it plain text")
 
     # A narrative run must show independent research, not a restatement of the
-    # rule engine. Enforce a floor on distinct external citations.
+    # rule engine. Enforce floors on distinct external citations AND on how many
+    # separate institutions those citations represent: ten pages from one domain
+    # is not breadth.
     if sections and len(seen_urls) < MIN_SOURCES:
         fails.append(
             "sources must cite at least %d distinct external URLs "
             "(found %d); a report citing only latest-report.md is not independent research"
             % (MIN_SOURCES, len(seen_urls))
         )
+    if sections:
+        domains = {_registered_domain(u) for u in seen_urls}
+        domains.discard("")
+        if len(domains) < MIN_DOMAINS:
+            fails.append(
+                "sources must span at least %d distinct domains (found %d: %s); "
+                "several pages from one institution do not count as breadth"
+                % (MIN_DOMAINS, len(domains), ", ".join(sorted(domains)) or "none")
+            )
 
     return fails
 
