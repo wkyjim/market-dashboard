@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2 November 2026, 16:09:08 (HKT)
+Generated at: 2 November 2026, 17:09:07 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **46.41 / 100** (Mixed / Rotation)
+- Regime score: **51.51 / 100** (Mixed / Rotation)
 - US equity strength: **42.22 / 100** (weak)
-- Evidence quality: **76.0 / 100**
+- Evidence quality: **79.5 / 100**
 - ETF flow contribution: **49.02 / 100**, reliability **71.4 / 100**
 - Breadth: **narrow**; above 50DMA `40.0%`, above 200DMA `53.33%`
 - Top sector score: **Energy** `72.38`
@@ -17,19 +17,19 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 46.41 | Mixed / Rotation |
+| Overall regime | 51.51 | Mixed / Rotation |
 | equity_trend | 40.0 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 45.36 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 45.0 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
-| volatility | 20.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
+| volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.62 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 56.65 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.3 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 60.0 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | commodity_confirmation=61.0, news_confirmation=60.0 |
-| Negative contributors |  | volatility=20.0, equity_trend=40.0, market_breadth=45.0 |
+| news_confirmation | 60.62 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=70.0, commodity_confirmation=61.0, news_confirmation=60.62 |
+| Negative contributors |  | equity_trend=40.0, market_breadth=45.0 |
 
 ## Forward Signal (Score → Expected Return)
 
@@ -37,9 +37,9 @@ Read-only mapping. The regime score is a *state* descriptor, not a forecast; thi
 
 | Horizon | Bucket | Historical mean | n | Direction |
 | --- | --- | --- | --- | --- |
-| 5D | 45-50 | 1.3% | 9 | up |
-| 20D | 45-50 | 2.32% | 9 | up |
-| 60D | 45-50 | 4.94% | 9 | up |
+| 5D | 50-55 | 0.69% | 13 | up |
+| 20D | 50-55 | 1.5% | 13 | up |
+| 60D | 50-55 | 4.7% | 13 | up |
 
 Sample: 2025-10-21 → 2026-08-03, 116 daily origins.
 Bottom-vs-top spread at 60D: **6.75 pp** (block-bootstrap 95% CI [1.92, 10.76], P(spread<=0)=<0.0001)
@@ -66,9 +66,9 @@ Method: Analyst inference/estimate (historical bucket calibration).
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `76.0`
-- Agreement ratio: `0.4`
-- Contradiction count: `3`
+- Confidence score: `79.5`
+- Agreement ratio: `0.5`
+- Contradiction count: `2`
 - Missing indicators: none
 - Warning flags: none
 
@@ -78,13 +78,13 @@ Method: Analyst inference/estimate (historical bucket calibration).
 | --- | --- | --- |
 | Equities | S&P 500 falling; Nasdaq falling; Russell 2000 falling | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
 | Rates | 10Y Treasury falling; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
-| Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
+| Dollar | DXY proxy falling | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
-| Volatility | VIX rising | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
+| Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
 
@@ -95,19 +95,19 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7580.07 | -1.82 | 2026-10-30 | closed |
 | ^IXIC | NASDAQ Composite | 25437.0 | -2.86 | 2026-10-30 | closed |
 | ^RUT | Russell 2000 Index | 2811.84 | -1.66 | 2026-10-30 | closed |
-| ^VIX | CBOE Volatility Index | 19.42 | 12.91 | 2026-10-30 | closed |
+| ^VIX | CBOE Volatility Index | 19.07 | -1.8 | 2026-11-02 | live as of 2 November 2026, 17:00:20 (HKT) |
 | ^SKEW | CBOE SKEW Index | 149.76 | -0.84 | 2026-10-30 | closed |
 | ^MOVE | ICE BofA MOVE Index | 100.2 | 7.12 | 2026-10-30 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.6 | 0.37 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.67 | 0.26 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.73 | 0.11 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.82 | 0.06 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.92 | -0.24 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.02 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.06 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
-| HK50 | Hang Seng Futures | 23410.0 | 0.27 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 898.9 | -0.06 | 2026-10-30 | live as of 2 November 2026, 16:00:21 (HKT) |
-| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 2 November 2026, 16:00:21 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.59 | 0.13 | 2026-11-02 | live as of 2 November 2026, 17:00:20 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.65 | -0.02 | 2026-11-02 | live as of 2 November 2026, 17:00:20 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.71 | -0.19 | 2026-11-02 | live as of 2 November 2026, 17:00:20 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.8 | -0.31 | 2026-11-02 | live as of 2 November 2026, 17:00:20 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.91 | -0.49 | 2026-11-02 | live as of 2 November 2026, 17:00:20 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.32 | -0.34 | 2026-11-02 | live as of 2 November 2026, 17:00:20 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.29 | -0.38 | 2026-11-02 | live as of 2 November 2026, 17:00:20 (HKT) |
+| HK50 | Hang Seng Futures | 23368.0 | 0.09 | 2026-11-02 | live as of 2 November 2026, 17:00:20 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 898.9 | -0.06 | 2026-10-30 | live as of 2 November 2026, 17:00:20 (HKT) |
+| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 2 November 2026, 17:00:20 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.43 | -0.19 | 2026-10-30 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.27 | 0.05 | 2026-10-30 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.98 | -0.23 | 2026-10-30 | closed |
@@ -117,10 +117,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 81.84 | 0.43 | 2026-10-30 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 91.76 | 0.56 | 2026-10-30 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.7 | 0.15 | 2026-10-30 | closed |
-| GC=F | Gold Future | 3910.0 | 0.28 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
-| SI=F | Silver Future | 50.32 | 2.49 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
-| CL=F | WTI Crude Oil Future | 100.73 | -3.26 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
-| HG=F | Copper Future | 6.52 | 0.91 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
+| GC=F | Gold Future | 3913.7 | 0.38 | 2026-11-02 | live as of 2 November 2026, 17:00:20 (HKT) |
+| SI=F | Silver Future | 50.55 | 2.96 | 2026-11-02 | live as of 2 November 2026, 17:00:20 (HKT) |
+| CL=F | WTI Crude Oil Future | 100.16 | -3.8 | 2026-11-02 | live as of 2 November 2026, 17:00:20 (HKT) |
+| HG=F | Copper Future | 6.55 | 1.39 | 2026-11-02 | live as of 2 November 2026, 17:00:20 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -344,24 +344,16 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=19.42 pct_chg=12.91
+- VIX close=19.07 pct_chg=-1.8
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 42, 'negative': 26, 'neutral': 12}
-- News confirmation score: `60.0`
+- Sentiment counts: {'positive': 42, 'negative': 25, 'neutral': 13}
+- News confirmation score: `60.62`
 
 ### Top Market-Moving Headlines
 
-**1. Saudi Arabia’s economy contracts 3.8% as war disrupts oil production**
-- Source: Investing.com Economic Indicators
-- Importance / impact: High / Negative
-- Relevance / horizon: macro / short-term
-- Affected assets: Saudi Arabia, OPEC, economic_contraction, oil_production_disruption, war_impact
-- Score: `58.34`
-- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**2. S-Oil Q3 2026 slides: record lube profit drives 46% earnings surge**
+**1. S-Oil Q3 2026 slides: record lube profit drives 46% earnings surge**
 - Source: Investing.com Markets
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / quarterly
@@ -369,7 +361,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `46.96`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the quarterly.
 
-**3. Earnings call transcript: S-Oil posts strong Q3 2026 profit on refining, lube boom**
+**2. Earnings call transcript: S-Oil posts strong Q3 2026 profit on refining, lube boom**
 - Source: Investing.com Forex
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -377,7 +369,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `44.2`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. Cboe Q3 2026 slides: S&P deal secured, earnings beat estimates**
+**3. Cboe Q3 2026 slides: S&P deal secured, earnings beat estimates**
 - Source: Investing.com Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -385,7 +377,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.93`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. Pakistan-bound LNG tanker attacked near Hormuz despite Iran clearance - Bloomberg**
+**4. Pakistan-bound LNG tanker attacked near Hormuz despite Iran clearance - Bloomberg**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -393,7 +385,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.49`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**6. Lite-On Q3 2026 slides: AI surge drives record profit, margins expand**
+**5. Lite-On Q3 2026 slides: AI surge drives record profit, margins expand**
 - Source: Investing.com Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / quarterly
@@ -401,7 +393,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.94`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**7. Capgemini Q3 2026 slides: AI strategy drives 11.7% revenue growth**
+**6. Capgemini Q3 2026 slides: AI strategy drives 11.7% revenue growth**
 - Source: Investing.com Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -409,7 +401,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.94`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**8. Oil prices fall amid reports that the U.S. and Iran are both seeking diplomacy**
+**7. Oil prices fall amid reports that the U.S. and Iran are both seeking diplomacy**
 - Source: CNBC Top News
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -417,7 +409,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `29.93`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**9. Oil prices ease 3% on optimism for Qatari-led talks on ending Iran war**
+**8. Oil prices ease 3% on optimism for Qatari-led talks on ending Iran war**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Negative
 - Relevance / horizon: macro / short-term
@@ -425,12 +417,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `28.35`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Crocs stock jumped 25% after earnings. Here's why that might be just the beginning**
+**9. Crocs stock jumped 25% after earnings. Here's why that might be just the beginning**
 - Source: CNBC Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: CROX, CNBC, earnings, stock rally, valuation
 - Score: `27.56`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. China’s BYD extends sales growth streak on strong exports**
+- Source: Investing.com World News
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: BYD, sales growth, exports, electric vehicles
+- Score: `27.47`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
@@ -532,4 +532,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 02 November 2026, 16:09:08 (HKT)
+- Report generated at: 02 November 2026, 17:09:07 (HKT)
