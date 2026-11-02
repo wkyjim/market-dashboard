@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2 November 2026, 15:13:20 (HKT)
+Generated at: 2 November 2026, 16:09:08 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **46.38 / 100** (Mixed / Rotation)
+- Regime score: **46.41 / 100** (Mixed / Rotation)
 - US equity strength: **42.22 / 100** (weak)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **49.02 / 100**, reliability **71.4 / 100**
@@ -17,14 +17,14 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 46.38 | Mixed / Rotation |
+| Overall regime | 46.41 | Mixed / Rotation |
 | equity_trend | 40.0 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 45.36 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 45.0 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
 | volatility | 20.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.3 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 55.62 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.3 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 60.0 | mild risk-on support; Weighted headline/news confirmation score. |
@@ -98,16 +98,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 19.42 | 12.91 | 2026-10-30 | closed |
 | ^SKEW | CBOE SKEW Index | 149.76 | -0.84 | 2026-10-30 | closed |
 | ^MOVE | ICE BofA MOVE Index | 100.2 | 7.12 | 2026-10-30 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.6 | 0.37 | 2026-11-02 | live as of 2 November 2026, 15:00:23 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.67 | 0.26 | 2026-11-02 | live as of 2 November 2026, 15:00:23 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.72 | 0.02 | 2026-11-02 | live as of 2 November 2026, 15:00:23 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.81 | -0.02 | 2026-11-02 | live as of 2 November 2026, 15:00:23 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.92 | -0.24 | 2026-11-02 | live as of 2 November 2026, 15:00:23 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.33 | -0.13 | 2026-11-02 | live as of 2 November 2026, 15:00:23 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.3 | -0.15 | 2026-11-02 | live as of 2 November 2026, 15:00:23 (HKT) |
-| HK50 | Hang Seng Futures | 23462.5 | 0.5 | 2026-11-02 | live as of 2 November 2026, 15:00:23 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 898.9 | -0.06 | 2026-10-30 | live as of 2 November 2026, 15:00:23 (HKT) |
-| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 2 November 2026, 15:00:23 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.6 | 0.37 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.67 | 0.26 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.73 | 0.11 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.82 | 0.06 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.92 | -0.24 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.02 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.06 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
+| HK50 | Hang Seng Futures | 23410.0 | 0.27 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 898.9 | -0.06 | 2026-10-30 | live as of 2 November 2026, 16:00:21 (HKT) |
+| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 2 November 2026, 16:00:21 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.43 | -0.19 | 2026-10-30 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.27 | 0.05 | 2026-10-30 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.98 | -0.23 | 2026-10-30 | closed |
@@ -117,10 +117,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 81.84 | 0.43 | 2026-10-30 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 91.76 | 0.56 | 2026-10-30 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.7 | 0.15 | 2026-10-30 | closed |
-| GC=F | Gold Future | 3915.7 | 0.43 | 2026-11-02 | live as of 2 November 2026, 15:00:23 (HKT) |
-| SI=F | Silver Future | 50.25 | 2.35 | 2026-11-02 | live as of 2 November 2026, 15:00:23 (HKT) |
-| CL=F | WTI Crude Oil Future | 100.69 | -3.29 | 2026-11-02 | live as of 2 November 2026, 15:00:23 (HKT) |
-| HG=F | Copper Future | 6.52 | 0.94 | 2026-11-02 | live as of 2 November 2026, 15:00:23 (HKT) |
+| GC=F | Gold Future | 3910.0 | 0.28 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
+| SI=F | Silver Future | 50.32 | 2.49 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
+| CL=F | WTI Crude Oil Future | 100.73 | -3.26 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
+| HG=F | Copper Future | 6.52 | 0.91 | 2026-11-02 | live as of 2 November 2026, 16:00:21 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -532,4 +532,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 02 November 2026, 15:13:20 (HKT)
+- Report generated at: 02 November 2026, 16:09:08 (HKT)
