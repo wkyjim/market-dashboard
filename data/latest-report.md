@@ -1,34 +1,34 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2 November 2026, 21:08:49 (HKT)
+Generated at: 2 November 2026, 22:08:13 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **51.24 / 100** (Mixed / Rotation)
+- Regime score: **51.04 / 100** (Mixed / Rotation)
 - US equity strength: **42.22 / 100** (weak)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **49.02 / 100**, reliability **71.4 / 100**
 - Breadth: **narrow**; above 50DMA `40.0%`, above 200DMA `53.33%`
 - Top sector score: **Energy** `72.38`
-- Top theme score: **Energy** `71.39`
+- Top theme score: **Energy** `71.25`
 
 ## Market Regime Score
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 51.24 | Mixed / Rotation |
+| Overall regime | 51.04 | Mixed / Rotation |
 | equity_trend | 40.0 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 45.36 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 45.0 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 56.42 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 61.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 56.48 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 57.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.3 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 55.62 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0, commodity_confirmation=61.0 |
+| news_confirmation | 56.25 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=70.0 |
 | Negative contributors |  | equity_trend=40.0, market_breadth=45.0 |
 
 ## Forward Signal (Score → Expected Return)
@@ -95,19 +95,19 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7580.07 | -1.82 | 2026-10-30 | closed |
 | ^IXIC | NASDAQ Composite | 25437.0 | -2.86 | 2026-10-30 | closed |
 | ^RUT | Russell 2000 Index | 2811.84 | -1.66 | 2026-10-30 | closed |
-| ^VIX | CBOE Volatility Index | 19.34 | -0.41 | 2026-11-02 | live as of 2 November 2026, 21:00:21 (HKT) |
+| ^VIX | CBOE Volatility Index | 18.91 | -2.63 | 2026-11-02 | live as of 2 November 2026, 22:00:20 (HKT) |
 | ^SKEW | CBOE SKEW Index | 149.76 | -0.84 | 2026-10-30 | closed |
 | ^MOVE | ICE BofA MOVE Index | 100.2 | 7.12 | 2026-10-30 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.6 | 0.5 | 2026-11-02 | live as of 2 November 2026, 21:00:21 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.67 | 0.34 | 2026-11-02 | live as of 2 November 2026, 21:00:21 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.73 | 0.15 | 2026-11-02 | live as of 2 November 2026, 21:00:21 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.82 | 0.02 | 2026-11-02 | live as of 2 November 2026, 21:00:21 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.93 | 0.02 | 2026-11-02 | live as of 2 November 2026, 21:00:21 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.33 | -0.15 | 2026-11-02 | live as of 2 November 2026, 21:00:21 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.3 | -0.21 | 2026-11-02 | live as of 2 November 2026, 21:00:21 (HKT) |
-| HK50 | Hang Seng Futures | 23401.0 | 0.24 | 2026-11-02 | live as of 2 November 2026, 21:00:21 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 898.9 | -0.06 | 2026-10-30 | live as of 2 November 2026, 21:00:21 (HKT) |
-| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 2 November 2026, 21:00:21 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.6 | 0.46 | 2026-11-02 | live as of 2 November 2026, 22:00:20 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.66 | 0.17 | 2026-11-02 | live as of 2 November 2026, 22:00:20 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.71 | -0.19 | 2026-11-02 | live as of 2 November 2026, 22:00:20 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.79 | -0.44 | 2026-11-02 | live as of 2 November 2026, 22:00:20 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.91 | -0.45 | 2026-11-02 | live as of 2 November 2026, 22:00:20 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.3 | -0.69 | 2026-11-02 | live as of 2 November 2026, 22:00:20 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.27 | -0.72 | 2026-11-02 | live as of 2 November 2026, 22:00:20 (HKT) |
+| HK50 | Hang Seng Futures | 23382.5 | 0.16 | 2026-11-02 | live as of 2 November 2026, 22:00:20 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 898.9 | -0.06 | 2026-10-30 | live as of 2 November 2026, 22:00:20 (HKT) |
+| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 2 November 2026, 22:00:20 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.43 | -0.19 | 2026-10-30 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.27 | 0.05 | 2026-10-30 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.98 | -0.23 | 2026-10-30 | closed |
@@ -117,10 +117,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 81.84 | 0.43 | 2026-10-30 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 91.76 | 0.56 | 2026-10-30 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.7 | 0.15 | 2026-10-30 | closed |
-| GC=F | Gold Future | 3910.7 | 0.3 | 2026-11-02 | live as of 2 November 2026, 21:00:21 (HKT) |
-| SI=F | Silver Future | 50.14 | 2.12 | 2026-11-02 | live as of 2 November 2026, 21:00:21 (HKT) |
-| CL=F | WTI Crude Oil Future | 99.47 | -4.47 | 2026-11-02 | live as of 2 November 2026, 21:00:21 (HKT) |
-| HG=F | Copper Future | 6.51 | 0.81 | 2026-11-02 | live as of 2 November 2026, 21:00:21 (HKT) |
+| GC=F | Gold Future | 3959.5 | 1.55 | 2026-11-02 | live as of 2 November 2026, 22:00:20 (HKT) |
+| SI=F | Silver Future | 51.01 | 3.9 | 2026-11-02 | live as of 2 November 2026, 22:00:20 (HKT) |
+| CL=F | WTI Crude Oil Future | 97.94 | -5.94 | 2026-11-02 | live as of 2 November 2026, 22:00:20 (HKT) |
+| HG=F | Copper Future | 6.53 | 1.04 | 2026-11-02 | live as of 2 November 2026, 22:00:20 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -280,7 +280,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Setup | ETF Flow | Flow Reliability | Dispersion | Price | News |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| 1 | Energy | 71.39 | Positive setup | 77.93 | 100.0 | 2.71 | True | False |
+| 1 | Energy | 71.25 | Positive setup | 77.93 | 100.0 | 2.71 | True | False |
 | 2 | Healthcare Innovation | 67.87 | Positive setup | 67.07 | 90.0 | 20.42 | True | False |
 | 3 | Dividend Defensives | 62.76 | Positive setup | 55.03 | 65.0 | 2.21 | True | False |
 | 4 | Cybersecurity | 53.36 | Neutral / watchlist | 69.45 | 65.0 | 45.77 | False | False |
@@ -303,7 +303,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Sector | Related Themes | Sector Score | Sector Signal | Theme Score | Theme Signal | Interpretation |
 | --- | --- | --- | --- | --- | --- | --- |
-| Energy | Energy | 72.38 | strong | 71.39 | strong | sector and theme confirmation |
+| Energy | Energy | 72.38 | strong | 71.25 | strong | sector and theme confirmation |
 | Healthcare | Healthcare Innovation | 71.55 | strong | 67.87 | strong | sector and theme confirmation |
 | Consumer Staples | Dividend Defensives | 70.29 | strong | 62.76 | positive | sector and theme confirmation |
 | Financials | Financials | 66.24 | strong | 45.28 | mixed | sector stronger than related themes |
@@ -323,7 +323,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 | Rank | Theme | Score | Classification | Drivers | Invalidation Triggers |
 | --- | --- | --- | --- | --- | --- |
-| 1 | Energy | 72.44 | Positive setup | relative_strength_20d, relative_strength_60d, trend_persistence, breadth, volume_accumulation | relative strength below SPY, breadth below 45%, news turns negative |
+| 1 | Energy | 74.44 | Positive setup | relative_strength_20d, relative_strength_60d, trend_persistence, breadth, volume_accumulation | relative strength below SPY, breadth below 45%, news turns negative |
 | 2 | Healthcare Innovation | 71.87 | Positive setup | relative_strength_20d, relative_strength_60d, trend_persistence, breadth, volume_accumulation | relative strength below SPY, breadth below 45%, news turns negative |
 | 3 | Dividend Defensives | 67.05 | Positive setup | relative_strength_20d, trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | Quality Growth | 55.61 | Neutral / watchlist | trend_persistence, breadth, volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
@@ -344,12 +344,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=19.34 pct_chg=-0.41
+- VIX close=18.91 pct_chg=-2.63
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 37, 'negative': 28, 'neutral': 15}
-- News confirmation score: `55.62`
+- Sentiment counts: {'positive': 37, 'negative': 27, 'neutral': 16}
+- News confirmation score: `56.25`
 
 ### Top Market-Moving Headlines
 
@@ -361,15 +361,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `47.81`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. BOE Expected to Join Peers in Raising Key Rate**
-- Source: Dow Jones Economy
-- Importance / impact: Medium / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: BOE, U.S, monetary_policy, inflation, interest_rate
-- Score: `43.35`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**3. S-Oil Q3 2026 slides: record lube profit drives 46% earnings surge**
+**2. S-Oil Q3 2026 slides: record lube profit drives 46% earnings surge**
 - Source: Investing.com Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / quarterly
@@ -377,12 +369,20 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.92`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the quarterly.
 
-**4. Earnings call transcript: S-Oil posts strong Q3 2026 profit on refining, lube boom**
+**3. Earnings call transcript: S-Oil posts strong Q3 2026 profit on refining, lube boom**
 - Source: Investing.com Forex
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: S, earnings, profit, refining
 - Score: `37.57`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**4. BOE Expected to Join Peers in Raising Key Rate**
+- Source: Dow Jones Economy
+- Importance / impact: Medium / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: BOE, U.S, monetary_policy, inflation, interest_rate
+- Score: `36.85`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **5. SBI Holdings 1H FY2026 slides: record profit surge, digital push**
@@ -525,11 +525,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `48`
-- Live macro rows used: `26`
+- Live macro rows used: `29`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 02 November 2026, 21:08:49 (HKT)
+- Report generated at: 02 November 2026, 22:08:13 (HKT)
