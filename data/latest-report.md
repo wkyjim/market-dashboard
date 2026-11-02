@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 2 November 2026, 12:15:10 (HKT)
+Generated at: 2 November 2026, 13:14:59 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -98,16 +98,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 19.42 | 12.91 | 2026-10-30 | closed |
 | ^SKEW | CBOE SKEW Index | 149.76 | -0.84 | 2026-10-30 | closed |
 | ^MOVE | ICE BofA MOVE Index | 100.2 | 7.12 | 2026-10-30 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.6 | 0.33 | 2026-11-02 | live as of 2 November 2026, 12:00:22 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.66 | 0.19 | 2026-11-02 | live as of 2 November 2026, 12:00:22 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -0.02 | 2026-11-02 | live as of 2 November 2026, 12:00:22 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.81 | -0.08 | 2026-11-02 | live as of 2 November 2026, 12:00:22 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.92 | -0.28 | 2026-11-02 | live as of 2 November 2026, 12:00:22 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.33 | -0.17 | 2026-11-02 | live as of 2 November 2026, 12:00:22 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.3 | -0.17 | 2026-11-02 | live as of 2 November 2026, 12:00:22 (HKT) |
-| HK50 | Hang Seng Futures | 23314.5 | -0.13 | 2026-11-02 | live as of 2 November 2026, 12:00:22 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 898.9 | -0.06 | 2026-10-30 | live as of 2 November 2026, 12:00:22 (HKT) |
-| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 2 November 2026, 12:00:22 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.6 | 0.46 | 2026-11-02 | live as of 2 November 2026, 13:00:19 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.67 | 0.34 | 2026-11-02 | live as of 2 November 2026, 13:00:19 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -0.02 | 2026-11-02 | live as of 2 November 2026, 13:00:19 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.82 | 0.1 | 2026-11-02 | live as of 2 November 2026, 13:00:19 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.92 | -0.12 | 2026-11-02 | live as of 2 November 2026, 13:00:19 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.34 | 0.0 | 2026-11-02 | live as of 2 November 2026, 13:00:19 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.3 | -0.17 | 2026-11-02 | live as of 2 November 2026, 13:00:19 (HKT) |
+| HK50 | Hang Seng Futures | 23431.5 | 0.37 | 2026-11-02 | live as of 2 November 2026, 13:00:19 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 898.9 | -0.06 | 2026-10-30 | live as of 2 November 2026, 13:00:19 (HKT) |
+| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 2 November 2026, 13:00:19 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.43 | -0.19 | 2026-10-30 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.27 | 0.05 | 2026-10-30 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.98 | -0.23 | 2026-10-30 | closed |
@@ -531,4 +531,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 02 November 2026, 12:15:10 (HKT)
+- Report generated at: 02 November 2026, 13:14:59 (HKT)
