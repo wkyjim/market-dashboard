@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 November 2026, 03:07:46 (HKT)
+Generated at: 3 November 2026, 04:08:31 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **50.82 / 100** (Mixed / Rotation)
+- Regime score: **47.33 / 100** (Mixed / Rotation)
 - US equity strength: **42.22 / 100** (weak)
-- Evidence quality: **76.0 / 100**
+- Evidence quality: **72.5 / 100**
 - ETF flow contribution: **49.02 / 100**, reliability **71.4 / 100**
 - Breadth: **narrow**; above 50DMA `40.0%`, above 200DMA `53.33%`
 - Top sector score: **Energy** `72.38`
@@ -17,19 +17,19 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 50.82 | Mixed / Rotation |
+| Overall regime | 47.33 | Mixed / Rotation |
 | equity_trend | 40.0 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 45.36 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 45.0 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
-| volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
+| volatility | 35.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.63 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 55.79 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 57.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 49.3 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 53.12 | neutral / mixed; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0 |
-| Negative contributors |  | equity_trend=40.0, market_breadth=45.0 |
+| Positive contributors |  | none |
+| Negative contributors |  | volatility=35.0, equity_trend=40.0, market_breadth=45.0 |
 
 ## Forward Signal (Score → Expected Return)
 
@@ -37,9 +37,9 @@ Read-only mapping. The regime score is a *state* descriptor, not a forecast; thi
 
 | Horizon | Bucket | Historical mean | n | Direction |
 | --- | --- | --- | --- | --- |
-| 5D | 50-55 | 0.69% | 13 | up |
-| 20D | 50-55 | 1.5% | 13 | up |
-| 60D | 50-55 | 4.7% | 13 | up |
+| 5D | 45-50 | 1.3% | 9 | up |
+| 20D | 45-50 | 2.32% | 9 | up |
+| 60D | 45-50 | 4.94% | 9 | up |
 
 Sample: 2025-10-21 → 2026-08-03, 116 daily origins.
 Bottom-vs-top spread at 60D: **6.75 pp** (block-bootstrap 95% CI [1.92, 10.76], P(spread<=0)=<0.0001)
@@ -66,9 +66,9 @@ Method: Analyst inference/estimate (historical bucket calibration).
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `76.0`
-- Agreement ratio: `0.4`
-- Contradiction count: `2`
+- Confidence score: `72.5`
+- Agreement ratio: `0.3`
+- Contradiction count: `3`
 - Missing indicators: none
 - Warning flags: none
 
@@ -76,7 +76,7 @@ Method: Analyst inference/estimate (historical bucket calibration).
 
 | Area | Signal | Interpretation |
 | --- | --- | --- |
-| Equities | S&P 500 stable; Nasdaq stable; Russell 2000 rising | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
+| Equities | S&P 500 stable; Nasdaq falling; Russell 2000 stable | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
 | Rates | 10Y Treasury falling; MOVE rising | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG falling | High-yield weakness would challenge equity risk-on confirmation. |
@@ -92,35 +92,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7592.42 | 0.16 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| ^IXIC | NASDAQ Composite | 25418.77 | -0.07 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| ^RUT | Russell 2000 Index | 2822.22 | 0.37 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| ^VIX | CBOE Volatility Index | 20.05 | 3.24 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
+| ^GSPC | S&P 500 | 7571.13 | -0.12 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| ^IXIC | NASDAQ Composite | 25320.96 | -0.46 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| ^RUT | Russell 2000 Index | 2813.59 | 0.06 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| ^VIX | CBOE Volatility Index | 21.11 | 8.7 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
 | ^SKEW | CBOE SKEW Index | 149.76 | -0.84 | 2026-10-30 | closed |
-| ^MOVE | ICE BofA MOVE Index | 100.84 | 0.64 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| US2YT=X | United States 2-Year Treasury Yield | 4.59 | 0.13 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.65 | -0.17 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.7 | -0.57 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.78 | -0.77 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.89 | -0.83 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.27 | -1.2 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.26 | -0.94 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| HK50 | Hang Seng Futures | 23535.5 | 0.81 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 898.9 | -0.06 | 2026-10-30 | live as of 3 November 2026, 03:00:19 (HKT) |
-| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 3 November 2026, 03:00:19 (HKT) |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.06 | -0.48 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.08 | -0.19 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 92.44 | -0.59 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 220.54 | 1.02 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 117.34 | -0.23 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 260.23 | 0.61 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 81.94 | 0.13 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 91.56 | -0.22 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.45 | -0.3 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| GC=F | Gold Future | 3964.5 | 1.68 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| SI=F | Silver Future | 50.7 | 3.28 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| CL=F | WTI Crude Oil Future | 96.29 | -7.52 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
-| HG=F | Copper Future | 6.56 | 1.54 | 2026-11-02 | live as of 3 November 2026, 03:00:19 (HKT) |
+| ^MOVE | ICE BofA MOVE Index | 100.76 | 0.56 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.58 | 0.04 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.64 | -0.26 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.69 | -0.61 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.78 | -0.75 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.89 | -0.73 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.29 | -0.79 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.27 | -0.75 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| HK50 | Hang Seng Futures | 23535.5 | 0.81 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 898.9 | -0.06 | 2026-10-30 | live as of 3 November 2026, 04:00:21 (HKT) |
+| CIHc1 | SSE 50 Futures | 2727.6 | -0.41 | 2026-10-30 | live as of 3 November 2026, 04:00:21 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 76.97 | -0.59 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 103.92 | -0.33 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 92.33 | -0.7 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 219.99 | 0.77 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 116.92 | -0.59 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 259.75 | 0.43 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 81.82 | -0.02 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 91.53 | -0.25 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.47 | -0.28 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| GC=F | Gold Future | 3949.8 | 1.31 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| SI=F | Silver Future | 50.48 | 2.81 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| CL=F | WTI Crude Oil Future | 96.75 | -7.08 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
+| HG=F | Copper Future | 6.53 | 1.11 | 2026-11-02 | live as of 3 November 2026, 04:00:21 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -344,7 +344,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=20.05 pct_chg=3.24
+- VIX close=21.11 pct_chg=8.7
 
 ## News Analytics
 
@@ -532,4 +532,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 03 November 2026, 03:07:46 (HKT)
+- Report generated at: 03 November 2026, 04:08:31 (HKT)
