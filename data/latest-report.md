@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 November 2026, 12:16:00 (HKT)
+Generated at: 3 November 2026, 13:14:19 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -8,7 +8,7 @@ Window: 24h
 - Regime score: **47.71 / 100** (Mixed / Rotation)
 - US equity strength: **42.22 / 100** (weak)
 - Evidence quality: **76.0 / 100**
-- ETF flow contribution: **48.81 / 100**, reliability **67.03 / 100**
+- ETF flow contribution: **48.82 / 100**, reliability **66.97 / 100**
 - Breadth: **narrow**; above 50DMA `40.0%`, above 200DMA `53.33%`
 - Top sector score: **Energy** `72.2`
 - Top theme score: **Energy** `71.12`
@@ -98,16 +98,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 21.15 | 8.91 | 2026-11-02 | closed |
 | ^SKEW | CBOE SKEW Index | 152.78 | 2.02 | 2026-11-02 | closed |
 | ^MOVE | ICE BofA MOVE Index | 100.36 | 0.16 | 2026-11-02 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.6 | 0.37 | 2026-11-02 | live as of 3 November 2026, 12:00:20 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.66 | 0.11 | 2026-11-02 | live as of 3 November 2026, 12:00:20 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.71 | -0.23 | 2026-11-02 | live as of 3 November 2026, 12:00:20 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.8 | -0.35 | 2026-11-02 | live as of 3 November 2026, 12:00:20 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.91 | 0.22 | 2026-11-03 | live as of 3 November 2026, 12:00:20 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.32 | -0.34 | 2026-11-02 | live as of 3 November 2026, 12:00:20 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.29 | -0.41 | 2026-11-02 | live as of 3 November 2026, 12:00:20 (HKT) |
-| HK50 | Hang Seng Futures | 23467.5 | -0.29 | 2026-11-03 | live as of 3 November 2026, 12:00:20 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 887.15 | -3.43 | 2026-11-02 | live as of 3 November 2026, 12:00:20 (HKT) |
-| CIHc1 | SSE 50 Futures | 2745.2 | 0.65 | 2026-11-02 | live as of 3 November 2026, 12:00:20 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.6 | 0.37 | 2026-11-02 | live as of 3 November 2026, 13:00:25 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.66 | 0.11 | 2026-11-02 | live as of 3 November 2026, 13:00:25 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.71 | -0.23 | 2026-11-02 | live as of 3 November 2026, 13:00:25 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.8 | -0.35 | 2026-11-02 | live as of 3 November 2026, 13:00:25 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.91 | 0.35 | 2026-11-03 | live as of 3 November 2026, 13:00:25 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.32 | -0.34 | 2026-11-02 | live as of 3 November 2026, 13:00:25 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.29 | -0.41 | 2026-11-02 | live as of 3 November 2026, 13:00:25 (HKT) |
+| HK50 | Hang Seng Futures | 23502.5 | -0.14 | 2026-11-03 | live as of 3 November 2026, 13:00:25 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 887.15 | -3.43 | 2026-11-02 | live as of 3 November 2026, 13:00:25 (HKT) |
+| CIHc1 | SSE 50 Futures | 2745.2 | 0.65 | 2026-11-02 | live as of 3 November 2026, 13:00:25 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 76.89 | -0.7 | 2026-11-02 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 103.71 | -0.54 | 2026-11-02 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.26 | -0.77 | 2026-11-02 | closed |
@@ -358,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, revenue growth, commercial revenue, government revenue
-- Score: `54.19`
+- Score: `46.06`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **2. Oil rises after reported U.S. strike on Iran’s Qeshm Island**
@@ -531,4 +531,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 03 November 2026, 12:16:00 (HKT)
+- Report generated at: 03 November 2026, 13:14:19 (HKT)
