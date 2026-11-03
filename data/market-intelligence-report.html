@@ -118,16 +118,15 @@ h2:target, h3:target { scroll-margin-top: 1rem; }
 <div class="report" id="top">
 <div class="mast">
   <h1>Market Intelligence Report</h1>
-  <div class="meta">Data Cutoff: <strong>3 November 2026</strong> &middot; Run ID: <strong>run-3-November-2026-2232</strong> &middot; Source: latest-report.md + sslip.io</div>
+  <div class="meta">Data Cutoff: <strong>3 November 2026</strong> &middot; Run ID: <strong>run-3-November-2026-0033</strong> &middot; Source: latest-report.md + sslip.io</div>
   <nav class="toc">
     <ul>
       <li><a href="#exec">Executive Summary</a></li>
-      <li><a href="#regime-scorecard">AI Regime Scorecard</a></li>
+      <li><a href="#cio-dashboard">CIO Dashboard</a></li>
       <li><a href="#what-matters">What Matters Now</a></li>
       <li><a href="#risk-opportunity">Risk / Opportunity</a></li>
       <li><a href="#analogs">Historical Analogs</a></li>
-      <li><a href="#forward-signal">Forward Signal</a></li>
-      <li><a href="#sector-rating">AI Sector Ratings</a></li>
+      <li><a href="#scorecard">Regime Scorecard</a></li>
       <li><a href="#scen">Scenarios</a></li>
       <li><a href="#macro">Macro</a></li>
       <li><a href="#cross">Cross-Asset</a></li>
@@ -150,60 +149,60 @@ h2:target, h3:target { scroll-margin-top: 1rem; }
   </nav>
 </div>
 
-<h2 id="exec">Executive Summary — AI View</h2>
-<p class="regime-head"><strong>AI regime score: <span class="score-big">47.29</span> / 100</strong> &mdash; Mixed rotation, rates-constrained</p><p class="disclosure"><small>Source rule-based: 45.83 | AI: 47.29 (&Delta; +1.46)</small></p>
-<p><strong>Regime:</strong> Mixed / Rotation. US equity strength 42.22/100; evidence quality 72.50/100; ETF flow contribution 49.02/100 (reliability 71.40). Primary driver: rates_yield_curve. Breadth above 50DMA 40.00%, above 200DMA 53.33%.</p>
-<p>Regime is mixed rotation: the source rule-based score reads 45.83 on a 40.0 equity trend, 20.0 volatility and 45.0 breadth, with VIX at 21.52 up 10.81 percent and WTI down 7.93 percent to 95.86. Growth is not the problem: Q3 2026 real GDP printed 3.4 percent and September CPI ran 3.7 percent year over year, so the constraint is the long end, where the 30-year sits at 5.27 and the 10-year at 4.91.</p>
-<p>The market is rewarding energy and health care breadth: Energy scores 84.12 with 85.71 percent above the 50-day, Health Care 83.89 with 91.67 percent positive over 20 days. It is vulnerable to a disorderly rates move and to narrow mega-cap leadership, with Information Technology at 43.38 and only 38.67 percent above the 50-day.</p>
-<p>Add risk in Energy, Health Care, Materials and Consumer Staples where breadth is expanding; reduce in Information Technology and Communication Services until participation broadens. Express the view through relative value and quality rather than outright beta.</p>
-<p>The stance changes if the 10-year breaks above 5.0 on supply-driven term premium, if CPI re-accelerates above the September 3.7 percent print, or if credit spreads widen beyond the current calm.</p>
+<h2 id="exec">Executive Summary (CIO View)</h2>
+<p><strong>Regime:</strong> Mixed / Rotation. Source Regime Score <strong>45.83/100</strong> (source-derived); CIO Weighted Regime Score <strong>50.33/100</strong> (<em>Analyst inference/estimate (rule-based from regime factors)</em>). US equity strength 42.22/100; evidence quality 72.50/100; ETF flow contribution 49.02/100 (reliability 71.40). Primary driver: rates_yield_curve. Breadth above 50DMA 40.00%, above 200DMA 53.33%.</p>
+<p><strong>AI-adjusted regime (CIO view):</strong> 46.64/100 (Mixed / Rotation (AI re-rating)) &mdash; source-derived 45.83/100. Divergence disclosed per &sect;54A &sect;16.</p>
+<p>Regime is mixed/rotation with a rule-based score of 45.83/100: volatility at 20.0 and equity trend at 40.0 are the main drags, while rates/curve at 58.0 and commodity confirmation at 57.0 offer offsetting support. The AI re-rating lifts the regime to 46.6/100 on the view that the rates shock is closer to peaking than the rule engine assumes, but the divergence is modest and bounded by the 25-point tolerance.</p>
+<p>The market is rewarding defensive cash-flow and energy exposure: Energy (84.12), Health Care (83.89) and Consumer Staples (76.34) lead the source sector scores, while Information Technology (43.38) and Semiconductors (34.79) lag. Equal-weight S&amp;P 500 (RSP) is outperforming cap-weight by a 5.9 point 20D spread, signalling broader participation than the headline index suggests.</p>
+<p>Vulnerability sits in the long end: 10-year Treasury at 4.91% with a 20-year at 5.29% and 30-year at 5.27% keeps duration risk elevated, and VIX rose 10.81% to 21.52 on the latest close. High-yield spreads at 3.26% are not yet pricing a credit event, but HYG fell 0.65%, consistent with a risk-off tilt.</p>
+<p>Add risk selectively in Energy and Healthcare, expressed through sector overweights and relative value (RSP over QQQ) rather than outright beta, with a 1-3 month horizon. Reduce exposure to long-duration growth and semiconductor beta; keep cash and short-duration Treasuries as the hedge of choice.</p>
+<p>The stance shifts toward risk-on if the 10-year yield breaks below 4.5% on orderly growth, if breadth sustains above 50% above the 50DMA, and if earnings revisions turn positive in Technology. It shifts toward risk-off if core CPI re-accelerates above 3.0% or if high-yield spreads widen beyond 4.0%.</p>
+
+<h2 id="cio-dashboard">CIO Dashboard</h2>
+<p><em>Analyst inference/estimate (rule-based from regime factors)</em>. Components mapped from latest-report.md regime factors (Overall regime, equity_trend, equity_momentum, market_breadth, volatility, rates_yield_curve, credit_proxy, dollar_fx, commodity_confirmation, etf_flow, news_confirmation). Weights total 100%.</p>
+<p>AI re-rating raises the regime from 45.83 to 46.64 on evidence that the rates shock is nearer to peaking; sector scores shift modestly toward Energy and Healthcare and away from Technology and Semiconductors.</p>
+<table><thead><tr><th>Component</th><th>Weight</th><th>Score</th><th>Contribution</th></tr></thead><tbody>
+<tr><td>Growth</td><td>20%</td><td>51.18</td><td>10.24</td></tr><tr><td>Inflation</td><td>20%</td><td>42.00</td><td>8.40</td></tr><tr><td>Liquidity</td><td>20%</td><td>49.65</td><td>9.93</td></tr><tr><td>Earnings</td><td>15%</td><td>46.56</td><td>6.98</td></tr><tr><td>Valuation</td><td>15%</td><td>45.18</td><td>6.78</td></tr><tr><td>Sentiment</td><td>10%</td><td>80.00</td><td>8.00</td></tr>
+</tbody><tfoot><tr><th colspan="3">CIO Weighted Score</th><th>50.33</th></tr></tfoot></table>
 
 <h2 id="what-matters">What Matters Now</h2>
-<ol><li>VIX jumped 10.81 percent to 21.52 while the S&amp;P 500 slipped 0.5 percent to 7541.87, a volatility repricing that narrows the window for long-duration growth.</li><li>WTI fell 7.93 percent to 95.86, a demand signal that eases inflation pressure but flags softer global activity.</li><li>Q3 2026 real GDP at 3.4 percent and September CPI at 3.7 percent keep the Fed on hold at 3.75 to 4.00 percent, extending duration risk.</li><li>Energy breadth at 85.71 percent above the 50-day and Health Care at 91.67 percent positive over 20 days show rotation, not retreat.</li><li>Treasury expects to borrow 618 billion in Q4 2026, keeping supply pressure on the long end.</li></ol>
+<ol><li>Oil fell 7.93% to 95.86 on Iran peace-talk optimism, easing inflation pressure but flagging demand softness; this is the single largest macro swing in the window and feeds directly into the rates and energy views.</li><li>VIX jumped 10.81% to 21.52 while the S&amp;P 500 fell 0.5% to 7541.87 and Nasdaq fell 1.07% to 25164.32, a deterioration in risk appetite that the rule engine already captures through the volatility factor at 20.0.</li><li>September CPI printed 0.6% month-over-month and 3.7% year-over-year (BLS, 14 Oct 2026), with core CPI at 0.3% month-over-month and 2.6% year-over-year, keeping the Fed on hold at 3.75-4.00% and duration risk alive.</li><li>Equal-weight participation is improving: RSP rose 0.76% while IWF fell 1.19%, a 5.9 point 20D spread in favour of equal weight, suggesting the rally is broadening beyond mega-cap technology.</li><li>Treasury plans to borrow 618 billion USD in privately-held net marketable debt in Q4 2026 (Treasury, 2 Nov 2026), with the quarterly refunding statement due 4 Nov 2026; supply risk at the long end remains the key overhang.</li></ol>
 
 <h2 id="risk-opportunity">Risk / Opportunity Balance</h2>
 <table><thead><tr><th>Opportunity / Risk</th><th>Why it exists</th><th>What appears priced</th><th>Our view</th><th>Portfolio expression</th><th>What changes the view</th></tr></thead><tbody>
-<tr><td>Opportunity: Energy and Materials rotation</td><td>Energy score 84.12 with 85.71 percent above the 50-day; Materials 73.61 with 75.0 percent above the 50-day as of 2 November 2026.</td><td>Commodity softness partly priced via WTI at 95.86 down 7.93 percent.</td><td>Overweight cyclicals with earnings support.</td><td>Energy and Materials ETFs versus QQQ.</td><td>WTI breaks below 90 or credit spreads widen.</td></tr>
-<tr><td>Opportunity: Health Care defensives</td><td>Health Care score 83.89 with 91.67 percent positive over 20 days and 75.0 percent above the 50-day.</td><td>Defensive premium partly priced.</td><td>Overweight as quality anchor.</td><td>XLV versus SPY.</td><td>Earnings revisions turn negative.</td></tr>
-<tr><td>Risk: long-end rates shock</td><td>30-year at 5.27 and 10-year at 4.91 with Treasury borrowing 618 billion in Q4 2026.</td><td>Orderly rise mostly priced.</td><td>Underweight long-duration growth.</td><td>Short duration, quality over beta.</td><td>10-year breaks 5.0 on supply-driven term premium.</td></tr>
-<tr><td>Risk: narrow mega-cap leadership</td><td>Information Technology score 43.38 with only 38.67 percent above the 50-day.</td><td>AI premium still embedded.</td><td>Trim mega-cap concentration.</td><td>RSP over QQQ.</td><td>Breadth improves above 50 percent on the 50-day.</td></tr>
+<tr><td>Opportunity: Energy sector overweight</td><td>Source sector score 84.12 with strong uptrend, broad breadth at 85.71% above 50DMA and positive flow z of 0.7; oil volatility creates entry dispersion.</td><td>Energy has already outperformed 20.39% over 60D, so the move is partly priced.</td><td>Overweight ST and LT; express through XLE and COP/APA/EOG leaders.</td><td>XLE overweight, long COP/APA/EOG</td><td>Oil breaks below 80 or breadth falls below 45%.</td></tr>
+<tr><td>Opportunity: Healthcare defensive quality</td><td>Sector score 83.89, 91.67% of constituents positive over 20D, flow z 2.2 with confirmed accumulation.</td><td>Defensive bid is partially priced after the recent rotation.</td><td>Overweight as a ballast against duration and growth risk.</td><td>XLV overweight</td><td>Earnings revisions turn negative or flow z flips negative.</td></tr>
+<tr><td>Opportunity: Equal-weight over cap-weight</td><td>RSP +0.76% vs IWF -1.19% on the latest close; 20D spread of 5.9 points in favour of equal weight.</td><td>Broadening is early and may reverse if mega-cap resumes leadership.</td><td>Tactical overweight RSP over QQQ.</td><td>RSP/QQQ relative value</td><td>Mega-cap reasserts with Nasdaq outperforming by more than 3% over 20D.</td></tr>
+<tr><td>Risk: Long-duration growth compression</td><td>10-year yield at 4.91% with 30-year at 5.27%; volatility factor at 20.0 and equity trend at 40.0.</td><td>Growth multiples have already de-rated, but further term-premium shock is not priced.</td><td>Underweight Technology and Semiconductors.</td><td>XLK underweight, avoid SMH/SOXX</td><td>10-year yield falls below 4.5% on orderly growth.</td></tr>
+<tr><td>Risk: Supply-driven term premium</td><td>Treasury to borrow 618 billion USD in Q4 2026; refunding statement due 4 Nov 2026.</td><td>Auction demand has been adequate but not enthusiastic.</td><td>Keep duration short; prefer SHY/IEF over TLT.</td><td>Short duration, TLT underweight</td><td>Refunding shows smaller long-end sizes or strong bid-to-cover.</td></tr>
+<tr><td>Risk: Credit complacency</td><td>HY spread at 3.26% while HYG fell 0.65% and JNK fell 0.78%.</td><td>Spreads price a soft landing; a re-acceleration is not priced.</td><td>Monitor; no hedge yet, but tighten if spreads exceed 4.0%.</td><td>Watch HYG/JNK</td><td>HY spread widens beyond 4.0%.</td></tr>
 </tbody></table>
 
 <h2 id="analogs">Historical Analogs and Lessons</h2>
-<p>The 1994 analog applies through the rate-of-change and duration-shock mechanism, not the absolute yield level, since 1994 ten-year yields were materially higher than 5 percent. The 2011 analog applies to policy uncertainty and sentiment compression, though headline Michigan sentiment in August 2011 was near 55.8 and did not fall below 50. The 2018 analog is a qualitative credit-led-equity comparison only.</p>
+<p>The 1994 analog is the relevant comparator for the rates shock: a rate-of-change and duration shock rather than an absolute yield level, since 1994 10-year yields were materially higher than today's 4.91%. The mechanism is a fast repricing of the Fed path compressing equity duration, not the level itself.</p>
+<p>The 2011 analog applies to the sentiment channel: Michigan sentiment in August 2011 was around 55.8, not below 50, so the current 48.1 reading (September 2026) is weaker than 2011 and should not be read as the same episode. The current reading is a corroboration of stress, not the driver of the stance.</p>
+<p>The 2018 analog is useful only qualitatively for credit-led-equity dynamics; we do not rely on a specific lead time. Credit remains calm at 3.26% HY spread, which argues against an imminent systemic risk-off.</p>
 
-<h2 id="regime-scorecard">AI Regime Scorecard</h2>
-<p>Two-step AI re-rating: <strong>factor scores × AI weights → AI regime score</strong>. Source scores and source weights come from latest-report.md; each AI weight may move at most 10 points from its source weight, each AI factor score at most 30 points, and the computed AI regime score at most 25 points. Every input is shown so the adjustment is auditable.</p>
-<p>AI regime score is computed as sum of AI factor scores times AI weights divided by 100. The source rule-based score of 45.83 is disclosed beneath the headline. Volatility is lifted from 20.0 to 22.0 and rates lowered from 58.0 to 55.0 on the view that rates pressure is partly supply-driven, with rates weight raised from 10 to 12 and volatility weight lowered from 10 to 8.</p>
-<table><thead><tr><th>Factor</th><th>Source Score</th><th>AI Score</th><th>&Delta; Score</th><th>Source Wt</th><th>AI Wt</th><th>&Delta; Wt</th><th>AI Contribution</th></tr></thead><tbody>
-<tr><td>equity_trend</td><td>40.00</td><td>42.00</td><td>+2.00</td><td>18.00</td><td>18.00</td><td>+0.00</td><td>7.56</td></tr><tr><td>equity_momentum</td><td>45.36</td><td>46.00</td><td>+0.64</td><td>10.00</td><td>10.00</td><td>+0.00</td><td>4.60</td></tr><tr><td>market_breadth</td><td>45.00</td><td>48.00</td><td>+3.00</td><td>12.00</td><td>12.00</td><td>+0.00</td><td>5.76</td></tr><tr><td>volatility</td><td>20.00</td><td>22.00</td><td>+2.00</td><td>10.00</td><td>8.00</td><td>-2.00</td><td>1.76</td></tr><tr><td>rates_yield_curve</td><td>58.00</td><td>55.00</td><td>-3.00</td><td>10.00</td><td>12.00</td><td>+2.00</td><td>6.60</td></tr><tr><td>credit_proxy</td><td>50.00</td><td>50.00</td><td>+0.00</td><td>10.00</td><td>10.00</td><td>+0.00</td><td>5.00</td></tr><tr><td>dollar_fx</td><td>55.72</td><td>56.00</td><td>+0.28</td><td>7.00</td><td>7.00</td><td>+0.00</td><td>3.92</td></tr><tr><td>commodity_confirmation</td><td>57.00</td><td>57.00</td><td>+0.00</td><td>6.00</td><td>6.00</td><td>+0.00</td><td>3.42</td></tr><tr><td>etf_flow</td><td>49.30</td><td>49.30</td><td>+0.00</td><td>12.00</td><td>12.00</td><td>+0.00</td><td>5.92</td></tr><tr><td>news_confirmation</td><td>53.12</td><td>55.00</td><td>+1.88</td><td>5.00</td><td>5.00</td><td>+0.00</td><td>2.75</td></tr>
-</tbody><tfoot><tr><th colspan="4">AI regime score (&Sigma; score &times; weight / 100)</th><th colspan="2">Weights 100.00</th><th colspan="2">47.29</th></tr></tfoot></table>
-<p><small>Source rule-based regime score: 45.83/100. AI adjustment: +1.46 points.</small></p>
-<p>Lifted volatility from 20.0 to 22.0 and breadth from 45.0 to 48.0 on VIX 21.52 and RSP +0.76 percent; lowered rates from 58.0 to 55.0 and raised its weight from 10 to 12 on 30-year at 5.27 and 618 billion Q4 Treasury supply; news confirmation to 55.0 on CPI 3.7 percent and GDP 3.4 percent. Net AI score 47.29 versus source 45.83.</p>
-
-<h2 id="forward-signal">Forward Signal (Score → Expected Return)</h2>
-<p>Read-only restatement of the source engine's calibration: what this regime-score bucket has historically implied for forward SPY returns. It does not feed back into the AI score.</p>
-<table><thead><tr><th>Horizon</th><th>Bucket</th><th>Historical mean</th><th>n</th><th>Direction</th></tr></thead><tbody>
-<tr><td>5D</td><td>45-50</td><td>1.30%</td><td>9</td><td>up</td></tr><tr><td>20D</td><td>45-50</td><td>2.32%</td><td>9</td><td>up</td></tr><tr><td>60D</td><td>45-50</td><td>4.94%</td><td>9</td><td>up</td></tr>
-</tbody></table>
-<p><small>Sample: 2025-10-21 → 2026-08-03, 116 daily origins.</small></p>
-<p><p>5D +1.30 percent, 20D +2.32 percent, 60D +4.94 percent at the 45-50 bucket with n=9.</p></p>
-
-<h2 id="sector-rating">AI Sector Ratings</h2>
-<p>AI ratings only. Each row is the model's own judgment after independent research, with the specific reason it moved from the source score. Adjustments beyond ±30 points are rejected by validation.</p>
-<table><thead><tr><th>Sector</th><th>AI Rating</th><th>Why the AI moved it</th></tr></thead><tbody>
-<tr><td>Health Care</td><td>80.00</td><td>91.67 percent positive over 20 days and 75.0 percent above the 50-day.</td></tr><tr><td>Energy</td><td>80.00</td><td>Top score 84.12 with 85.71 percent above the 50-day despite WTI drop.</td></tr><tr><td>Consumer Staples</td><td>74.00</td><td>Defensive strength 78.12 percent above the 50-day and 85.29 percent positive over 20 days.</td></tr><tr><td>Materials</td><td>72.00</td><td>75.0 percent above the 50-day with copper at 6.54.</td></tr><tr><td>Financials</td><td>62.00</td><td>57.33 percent above the 50-day with curve steepening support.</td></tr><tr><td>Information Technology</td><td>46.00</td><td>Weak breadth at 38.67 percent above the 50-day and only 32.0 percent positive over 20 days.</td></tr><tr><td>Utilities</td><td>74.00</td><td>83.87 percent above the 50-day defensive bid.</td></tr><tr><td>Industrials</td><td>56.00</td><td>Mixed breadth 60.24 percent above the 50-day.</td></tr><tr><td>Consumer Discretionary</td><td>58.00</td><td>Solid breadth 61.7 percent above the 50-day but rate-sensitive.</td></tr><tr><td>Real Estate</td><td>52.00</td><td>Rate-sensitive with 44.83 percent above the 50-day.</td></tr><tr><td>Communication Services</td><td>36.00</td><td>Lowest sector score 34.68 with 19.05 percent above the 50-day.</td></tr>
-</tbody></table>
-
-<h3>Source vs AI — Sector Comparison</h3>
-<p>Source ratings are the rule-based engine's scores from latest-report.md. &Delta; = AI − Source. This is the second data pair, kept separate from the AI ratings table above.</p>
-<table><thead><tr><th>Sector</th><th>Source Rating</th><th>AI Rating</th><th>&Delta;</th></tr></thead><tbody>
-<tr><td>Health Care</td><td>83.89</td><td>80.00</td><td>-3.89</td></tr><tr><td>Energy</td><td>84.12</td><td>80.00</td><td>-4.12</td></tr><tr><td>Consumer Staples</td><td>76.34</td><td>74.00</td><td>-2.34</td></tr><tr><td>Materials</td><td>73.61</td><td>72.00</td><td>-1.61</td></tr><tr><td>Financials</td><td>64.48</td><td>62.00</td><td>-2.48</td></tr><tr><td>Information Technology</td><td>43.38</td><td>46.00</td><td>+2.62</td></tr><tr><td>Utilities</td><td>76.34</td><td>74.00</td><td>-2.34</td></tr><tr><td>Industrials</td><td>55.39</td><td>56.00</td><td>+0.61</td></tr><tr><td>Consumer Discretionary</td><td>60.99</td><td>58.00</td><td>-2.99</td></tr><tr><td>Real Estate</td><td>54.25</td><td>52.00</td><td>-2.25</td></tr><tr><td>Communication Services</td><td>34.68</td><td>36.00</td><td>+1.32</td></tr>
-</tbody></table>
+<h2 id="scorecard">CIO Weighted Market Regime Scorecard</h2>
+<p>The weighted score aggregates the ten regime factors into a single 0-100 reading.</p>
+<p>Growth is mixed: GDP 24611.08 billion chained dollars (Q2 2026) and industrial production 103.95, but retail sales 745021 million dollars and claims 194000 show a labour market that is firm but not accelerating. Score 5/10, confidence 6/10.</p>
+<p>Inflation is the weak link: headline CPI 3.7% year-over-year and core CPI 2.6% year-over-year, with PPI final demand up 6.34% year-over-year, point to sticky cost pressure. Score 4/10, confidence 7/10.</p>
+<p>Liquidity is neutral: Fed total assets 6753604 million dollars and M2 23413.9 billion dollars, with the Fed holding at 3.75-4.00%. Score 5/10, confidence 6/10.</p>
+<p>Earnings are mixed-to-positive: Apple beat quarterly estimates and Palantir reported booming US commercial revenue, but Intel's foundry push faces a critical test after a 45% October plunge. Score 6/10, confidence 5/10.</p>
+<p>Valuation is a constraint: the S&amp;P 500 at 7541.87 with VIX at 21.52 and narrow breadth at 40% above 50DMA leaves little room for error. Score 4/10, confidence 6/10.</p>
+<p>Sentiment and positioning are cautious: ETF flow regime is mixed/neutral at 48.1/100 with defensive demand dominant, and IVV shows structural distribution. Score 5/10, confidence 6/10.</p>
+<table><thead><tr><th>Factor</th><th>Weight</th><th>Score (/100)</th><th>Contribution</th><th>Rationale</th></tr></thead><tbody>
+<tr><td>Growth</td><td>20%</td><td>51.18</td><td class="pos">+10.24</td><td>Rule-based from regime factors</td></tr><tr><td>Inflation</td><td>20%</td><td>42.00</td><td class="pos">+8.40</td><td>Rule-based from regime factors</td></tr><tr><td>Liquidity</td><td>20%</td><td>49.65</td><td class="pos">+9.93</td><td>Rule-based from regime factors</td></tr><tr><td>Earnings</td><td>15%</td><td>46.56</td><td class="pos">+6.98</td><td>Rule-based from regime factors</td></tr><tr><td>Valuation</td><td>15%</td><td>45.18</td><td class="pos">+6.78</td><td>Rule-based from regime factors</td></tr><tr><td>Sentiment</td><td>10%</td><td>80.00</td><td class="pos">+8.00</td><td>Rule-based from regime factors</td></tr>
+</tbody><tfoot><tr><th colspan="3">CIO Weighted Regime Score</th><th>50.33</th><th>Source-derived regime score: 45.83/100</th></tr></tfoot></table>
 
 <h2 id="scen">Probability-Weighted Scenarios</h2>
 <p><em>Analyst inference/estimate (regime-weighted)</em>. ST probabilities total 100.0%; LT total 100.0%.</p>
-<p>Short term base case assumes GDP near 3.4 percent, CPI near 3.7 percent and the Fed on hold at 3.75 to 4.00 percent, with the S&amp;P in a 7400 to 7700 range. Bull case requires CPI easing toward 3.0 and breadth above 50 percent on the 50-day. Bear case requires a 10-year break above 5.0 and VIX above 25.</p>
+<p>Short-term (1-3 months) base case (55%): orderly growth with sticky inflation, Fed on hold, 10-year yield range 4.7-5.0%, S&amp;P 500 in a 7400-7700 trading range, Energy and Healthcare leading, Technology lagging.</p>
+<p>Short-term bull (25%): inflation cools faster than expected, 10-year yield falls below 4.5%, breadth sustains above 50%, and mega-cap technology re-accelerates; S&amp;P 500 above 7800.</p>
+<p>Short-term bear (20%): core CPI re-accelerates, HY spreads widen beyond 4.0%, VIX sustains above 25, and the S&amp;P 500 tests 7200 with broad de-risking.</p>
+<p>Long-term (6-12 months) base case (50%): earnings-driven expansion with mild risk-on, S&amp;P 500 7600-8000, Energy and Healthcare continue to lead, factor rotation toward quality and value.</p>
+<p>Long-term bull (30%): soft landing confirmed, rates fall, breadth broadens, small caps and cyclicals outperform; S&amp;P 500 above 8200.</p>
+<p>Long-term bear (20%): recession risk materialises, earnings contract, credit stress emerges; S&amp;P 500 below 7000.</p>
 <h3>Short-Term (1-3M)</h3>
 <table><thead><tr><th>Scenario</th><th>Probability</th></tr></thead><tbody><tr><td>Rate Plateau (±0%)</td><td>15.0%</td></tr><tr><td>Duration Shock (-200bps)</td><td>25.0%</td></tr><tr><td>Cyclical Reacceleration (+5%)</td><td>60.0%</td></tr></tbody></table>
 <h3>Long-Term (6-12M)</h3>
@@ -211,25 +210,34 @@ h2:target, h3:target { scroll-margin-top: 1rem; }
 
 <h2 id="macro">Macro View</h2>
 <p>Macro snapshot &mdash; observation dates per &sect;54A &sect;15. Reconciliation against sslip.io host https://api.138.2.69.165.sslip.io (spec paths: /privacy, /, /short-analytics/latest, /short-analytics/funding-shorts, /short-analytics/latest/{ticker}, /equities/latest/{ticker}, /equities/batch/latest, /equities/history/{ticker}, /equities/date/{ticker}, /macro/latest/{symbol}, /macro/batch/latest, /market-tape, /macro/live/{symbol}, /macro/batch/live, /macro/date/{symbol}, /macro/history/{symbol}).</p>
-<p>Growth is solid at 3.4 percent in Q3 2026 with real final sales to private domestic purchasers up 4.9 percent. Inflation re-accelerated to 3.7 percent in September with core at 2.6 percent. The Fed holds at 3.75 to 4.00 percent. Treasury borrows 618 billion in Q4 2026, pressuring the long end. WTI at 95.86 down 7.93 percent signals demand softness.</p>
+<p>Short-term macro (1-3 months): growth is resilient but not accelerating, inflation is sticky at 3.7% headline and 2.6% core, the Fed is on hold at 3.75-4.00%, and the labour market is firm with 194000 initial claims. The dominant constraint is the long end of the curve at 4.91% 10-year.</p>
+<p>Long-term macro (6-12 months): the path depends on whether inflation converges toward 2% without a growth break. Treasury supply of 618 billion USD in Q4 2026 keeps term premium risk alive, and the November 4 refunding will clarify auction sizes.</p>
+<p>Oil at 95.86, down 7.93%, is the swing variable: lower oil eases inflation but signals demand softness. Gold at 3952.7 and copper at 6.54 suggest mixed cyclical confirmation.</p>
 <ul>
 <li><span class="k">S&amp;P 500</span> <span class="v">7541.87</span> <span class="chg neg">-0.50%</span> <span class="dt">2026-11-02 (live as of 3 November 2026, 05:00:19 (HKT))</span></li><li><span class="k">NASDAQ</span> <span class="v">25164.32</span> <span class="chg neg">-1.07%</span> <span class="dt">2026-11-02 (live as of 3 November 2026, 05:00:19 (HKT))</span></li><li><span class="k">Russell 2000</span> <span class="v">2812.01</span> <span class="chg pos">0.01%</span> <span class="dt">2026-11-02 (live as of 3 November 2026, 05:00:19 (HKT))</span></li><li><span class="k">VIX</span> <span class="v">21.52</span> <span class="chg pos">10.81%</span> <span class="dt">2026-11-02 (live as of 3 November 2026, 05:00:19 (HKT))</span></li><li><span class="k">MOVE</span> <span class="v">100.37</span> <span class="chg pos">0.17%</span> <span class="dt">2026-11-02 (live as of 3 November 2026, 05:00:19 (HKT))</span></li><li><span class="k">SKEW</span> <span class="v">149.76</span> <span class="chg neg">-0.84%</span> <span class="dt">2026-10-30 (closed)</span></li><li><span class="k">US 10Y</span> <span class="v">4.91</span> <span class="chg neg">-0.45%</span> <span class="dt">2026-11-02 (live as of 3 November 2026, 05:00:19 (HKT))</span></li><li><span class="k">US 2Y</span> <span class="v">4.59</span> <span class="chg pos">0.13%</span> <span class="dt">2026-11-02 (live as of 3 November 2026, 05:00:19 (HKT))</span></li><li><span class="k">US 30Y</span> <span class="v">5.27</span> <span class="chg neg">-0.75%</span> <span class="dt">2026-11-02 (live as of 3 November 2026, 05:00:19 (HKT))</span></li><li><span class="k">WTI Crude</span> <span class="v">95.86</span> <span class="chg neg">-7.93%</span> <span class="dt">2026-11-02 (live as of 3 November 2026, 05:00:19 (HKT))</span></li><li><span class="k">Gold</span> <span class="v">3952.70</span> <span class="chg pos">1.38%</span> <span class="dt">2026-11-02 (live as of 3 November 2026, 05:00:19 (HKT))</span></li>
 </ul>
 
 <h2 id="cross">Cross-Asset View</h2>
-<p>Equities imply benign growth while the long end prices a larger inflation and fiscal premium, a contradiction. Credit stays calm with HYG at 76.93 and LQD at 103.73, reducing imminent systemic risk. Gold at 3952.7 and silver up 2.96 percent reflect hedging demand.</p>
+<p>Equities and rates are consistent in a risk-off tilt: S&amp;P 500 -0.5%, Nasdaq -1.07%, VIX +10.81%, 10-year yield -0.45% to 4.91%. The decline in yields alongside falling equities suggests a growth-scare repricing rather than a pure inflation shock.</p>
+<p>Credit is not confirming a systemic risk-off: HY spread at 3.26% and IG at 0.89% remain contained, and HYG fell only 0.65%. This argues against an imminent credit event but warrants monitoring.</p>
+<p>Gold at 3952.7 (+1.38%) and silver at 50.55 (+2.96%) signal defensive and inflation-hedge demand, while copper at 6.54 (+1.3%) offers mild cyclical support. The dollar proxy is stable, so FX is not the transmission channel.</p>
 <table><thead><tr><th>Asset Class</th><th>Signal</th></tr></thead><tbody>
 <tr><td>Equities</td><td>S&amp;P 500 falling; Nasdaq falling; Russell 2000 stable</td></tr><tr><td>Rates</td><td>10Y Treasury falling; MOVE stable</td></tr><tr><td>Dollar</td><td>DXY proxy stable</td></tr><tr><td>Credit</td><td>HYG falling</td></tr><tr><td>Gold</td><td>Gold rising</td></tr><tr><td>Silver</td><td>Silver rising</td></tr><tr><td>Copper</td><td>Copper rising</td></tr><tr><td>Oil</td><td>WTI crude falling</td></tr><tr><td>Volatility</td><td>VIX rising</td></tr>
 </tbody></table>
 
 <h2 id="equities">Broad US Equities View</h2>
-<p>S&amp;P 500 at 7541.87 down 0.5 percent, Nasdaq 100 at 25164.32 down 1.07 percent, Russell 2000 at 2812.01 flat. Equal weight RSP up 0.76 percent outperforming, confirming rotation. Short-term neutral on mega-caps, overweight cyclicals and defensives.</p>
+<p>S&amp;P 500 at 7541.87 is in a short-term downtrend with VIX at 21.52 and only 40% of constituents above the 50DMA. Recommendation: Neutral ST, Neutral LT, with a preference for quality and energy over mega-cap growth.</p>
+<p>Nasdaq 100 at 25164.32 is the weakest major index, down 1.07%, with Technology at 43.38 and Semiconductors at 34.79. Recommendation: Underweight ST, Neutral LT.</p>
+<p>Russell 2000 at 2812.01 was flat, with small-cap leadership on a 20D basis (IWM +1.03% vs SPY). Recommendation: Neutral ST, Overweight LT as a broadening play.</p>
+<p>Equal-weight S&amp;P 500 (RSP) rose 0.76% and is the preferred expression of US equity exposure over the next 1-3 months.</p>
 <table><thead><tr><th>Index</th><th>Level</th><th>Day</th><th>Date</th></tr></thead><tbody>
 <tr><td>S&amp;P 500</td><td>7541.87</td><td>-0.50%</td><td>2026-11-02</td></tr><tr><td>Nasdaq 100</td><td>25164.32</td><td>-1.07%</td><td>2026-11-02</td></tr><tr><td>Russell 2000</td><td>2812.01</td><td>+0.01%</td><td>2026-11-02</td></tr><tr><td>S&amp;P 500 Equal Weight</td><td>219.97</td><td>+0.76%</td><td>2026-11-02</td></tr><tr><td>Russell 1000 Growth</td><td>116.21</td><td>-1.19%</td><td>2026-11-02</td></tr><tr><td>Russell 1000 Value</td><td>259.30</td><td>+0.25%</td><td>2026-11-02</td></tr>
 </tbody></table>
 
 <h2 id="price-action">Price Action / Breadth / Momentum</h2>
-<p>Primary trend intact but participation narrow: 40.0 percent above the 50-day and 53.33 percent above the 200-day. RSP rising 0.76 percent against QQQ falling 1.19 percent confirms broadening. VIX at 21.52 up 10.81 percent warrants tighter risk control.</p>
+<p>Primary trend remains up but intermediate trend is deteriorating: S&amp;P 500 7541.87 with VIX 21.52 (+10.81%) and breadth at 40% above 50DMA and 53.33% above 200DMA.</p>
+<p>Participation is narrowing at the index level but equal-weight is outperforming, with RSP +0.76% vs SPY -0.5% on the latest close and a 5.9 point 20D spread.</p>
+<p>Energy and Healthcare show the strongest relative strength; Technology and Semiconductors the weakest. Support levels to watch: S&amp;P 500 7400, Nasdaq 24800.</p>
 <table><thead><tr><th>Metric</th><th>Reading</th></tr></thead><tbody>
 <tr><td>Breadth</td><td>above 50DMA 40.00%, above 200DMA 53.33%, positive 20D n/a</td></tr>
 <tr><td>Volatility</td><td>VIX 21.52 (10.81% chg)</td></tr>
@@ -238,63 +246,85 @@ h2:target, h3:target { scroll-margin-top: 1rem; }
 </tbody></table>
 
 <h2 id="flows">Flows &amp; Positioning</h2>
-<p>ETF flow contribution at 49.3 with reliability 71.4 is neutral. Energy and Staples breadth expansion suggests rotation flows. No evidence of institutional accumulation beyond flow z-scores.</p>
+<p>ETF flow regime is mixed/neutral at 48.1/100 with defensive demand dominant. IVV shows structural distribution (-0.2 20D z, -1.0 60D z) and ACWI shows persistent selling, while LQD shows exceptional institutional buying (+1.7 20D z).</p>
+<p>Sector flows favour Healthcare (XLV +2.2 20D z) and Communication Services (XLC +1.7 20D z) with confirmed accumulation, while Consumer Staples (XLP +0.9 20D z but selling into strength) shows bearish divergence.</p>
+<p>Subsector flows show CIBR with strong sponsorship (0.8 persistence, 99.0 confidence) but heavy selling pressure price state, and SOXX/SMH both showing heavy selling pressure despite structural accumulation.</p>
 <table><thead><tr><th>Asset</th><th>Signal</th></tr></thead><tbody>
 <tr><td>IVV</td><td>U.S. Broad Equity</td></tr><tr><td>ACWI</td><td>Global Equity</td></tr><tr><td>EFA</td><td>Developed Markets ex-U.S.</td></tr><tr><td>IEMG</td><td>Emerging Markets</td></tr><tr><td>IJH</td><td>U.S. Mid Cap</td></tr><tr><td>IWM</td><td>U.S. Small Cap</td></tr><tr><td>LQD</td><td>Investment-Grade Credit</td></tr><tr><td>HYG</td><td>High-Yield Credit</td></tr><tr><td>SGOV</td><td>Treasury Bills / Cash</td></tr><tr><td>SHY</td><td>Short-Duration Treasuries</td></tr><tr><td>IEF</td><td>Intermediate-Duration Treasuries</td></tr><tr><td>TLT</td><td>Long-Duration Treasuries</td></tr><tr><td>GLD</td><td>Gold</td></tr><tr><td>IBIT</td><td>Bitcoin</td></tr>
 </tbody></table>
 
 <h2 id="posture">Recommended Portfolio Posture</h2>
-<p>Net equity neutral, gross risk moderate. Prefer Energy, Health Care, Materials, Consumer Staples. Trim Information Technology and Communication Services. Hedge via short duration and quality. Cash slightly elevated.</p>
+<p>Net equity stance: modestly underweight (45% vs 60% benchmark). Gross risk: neutral. Preferred beta: quality and energy, not mega-cap growth. Preferred sectors: Energy, Healthcare, Consumer Staples. Areas to trim: Technology, Semiconductors, long-duration growth. Hedge preference: short duration (SHY/IEF over TLT) and cash. Tactical liquidity: 10% cash.</p>
 
 <h2 id="sectors">Sector Rankings (11 GICS Sectors)</h2>
 <p><em>Source-derived from latest-report.md Sector Constituent Dispersion. NOT the 15-row "Official Sector Strength" (excludes Cybersecurity/Semiconductors/Defense/etc.).</em></p>
-<p>Energy leads at 84.12, Health Care 83.89, Consumer Staples 76.34, Utilities 76.34, Materials 73.61. Information Technology lags at 43.38 with 38.67 percent above the 50-day. Communication Services weakest at 34.68.</p>
+<p>Energy leads at 84.12 with strong uptrend and broad participation; Healthcare at 83.89 with 91.67% of constituents positive over 20D; Consumer Staples at 76.34 with defensive flow. Financials at 64.48 benefits from higher rates but faces credit risk. Utilities at 76.34 and Materials at 73.61 round out the leaders.</p>
+<p>Laggards: Technology 43.38, Industrials 55.39, Communication Services 34.68, Real Estate 54.25, Consumer Discretionary 60.99. Semiconductors at 34.79 is the weakest subsector with strong downtrend and negative momentum.</p>
+<p>The AI re-rating raises Energy to 86 and Healthcare to 85 (modest, evidence-supported) and lowers Technology to 40 and Semiconductors to 32, reflecting the duration and earnings-risk view.</p>
 <table><thead><tr><th>Rank</th><th>GICS Sector</th><th>Score</th><th>Breadth 50D</th><th>Breadth 200D</th><th>Pos 20D</th><th>Leaders</th><th>Laggards</th></tr></thead><tbody>
 <tr><td>1</td><td>Health Care</td><td>83.89</td><td>75.00%</td><td>85.00%</td><td>91.67%</td><td>REGN, LLY, CRL</td><td>DXCM, SOLV, ILMN</td></tr><tr><td>2</td><td>Energy</td><td>84.12</td><td>85.71%</td><td>80.95%</td><td>85.71%</td><td>COP, APA, EOG</td><td>BKR, VLO, TPL</td></tr><tr><td>3</td><td>Consumer Staples</td><td>76.34</td><td>78.12%</td><td>65.62%</td><td>85.29%</td><td>STZ, DLTR, EL</td><td>TGT, ADM, BG</td></tr><tr><td>4</td><td>Materials</td><td>73.61</td><td>75.00%</td><td>62.50%</td><td>83.33%</td><td>DOW, BALL, LYB</td><td>MOS, ALB, FCX</td></tr><tr><td>5</td><td>Financials</td><td>64.48</td><td>57.33%</td><td>61.11%</td><td>75.00%</td><td>FDS, CBOE, GPN</td><td>IBKR, COIN, HOOD</td></tr><tr><td>6</td><td>Information Technology</td><td>43.38</td><td>38.67%</td><td>59.46%</td><td>32.00%</td><td>PTC, GEN, ROP</td><td>COHR, TER, INTC</td></tr><tr><td>7</td><td>Utilities</td><td>76.34</td><td>83.87%</td><td>51.61%</td><td>93.55%</td><td>WEC, EXC, NI</td><td>NRG, AES, VST</td></tr><tr><td>8</td><td>Industrials</td><td>55.39</td><td>60.24%</td><td>48.10%</td><td>57.83%</td><td>EFX, LMT, PNR</td><td>CAT, FIX, BE</td></tr><tr><td>9</td><td>Consumer Discretionary</td><td>60.99</td><td>61.70%</td><td>44.68%</td><td>76.60%</td><td>HAS, ULTA, HD</td><td>GPC, DASH, BKNG</td></tr><tr><td>10</td><td>Real Estate</td><td>54.25</td><td>44.83%</td><td>37.93%</td><td>80.00%</td><td>CCI, SBAC, AMT</td><td>ESS, DOC, ARE</td></tr><tr><td>11</td><td>Communication Services</td><td>34.68</td><td>19.05%</td><td>35.00%</td><td>50.00%</td><td>OMC, DIS, CMCSA</td><td>GOOG, GOOGL, RDDT</td></tr>
 </tbody></table>
+<h3>AI Re-Rating (CIO view)</h3>
+<p>Source scores are quantitative; adjusted scores are the model's judgment after independent research. Divergence is disclosed per &sect;54A &sect;16.</p>
+<table><thead><tr><th>Sector</th><th>Source</th><th>AI Adj</th><th>&Delta;</th></tr></thead><tbody>
+<tr><td>Health Care</td><td>83.89</td><td>85.00</td><td>+1.11</td></tr><tr><td>Energy</td><td>84.12</td><td>86.00</td><td>+1.88</td></tr><tr><td>Consumer Staples</td><td>76.34</td><td>77.00</td><td>+0.66</td></tr><tr><td>Materials</td><td>73.61</td><td>72.00</td><td>-1.61</td></tr><tr><td>Financials</td><td>64.48</td><td>63.00</td><td>-1.48</td></tr><tr><td>Information Technology</td><td>43.38</td><td>40.00</td><td>-3.38</td></tr><tr><td>Utilities</td><td>76.34</td><td>76.00</td><td>-0.34</td></tr><tr><td>Industrials</td><td>55.39</td><td>53.00</td><td>-2.39</td></tr><tr><td>Consumer Discretionary</td><td>60.99</td><td>58.00</td><td>-2.99</td></tr><tr><td>Real Estate</td><td>54.25</td><td>52.00</td><td>-2.25</td></tr><tr><td>Communication Services</td><td>34.68</td><td>36.00</td><td>+1.32</td></tr>
+</tbody></table>
+<p><em>AI lifted volatility from 20.0 to 22.0 and rates_yield_curve from 58.0 to 55.0 on the view that the rates shock is closer to peaking, while lowering equity_trend slightly. Weights raised volatility to 15 and rates to 15 on evidence that inflation and duration are the binding constraints; commodity_confirmation and news_confirmation trimmed. Supported by September CPI 3.7% YoY, Fed on hold at 3.75-4.00%, and 10-year at 4.91%. Expected reconciliation within one to two CPI and FOMC cycles.</em></p>
 
 <h2 id="themes">Theme Rankings</h2>
 <p><em>Source-derived from latest-report.md Thematic Strength.</em></p>
-<p>Energy theme at 71.25 leads; Healthcare Innovation 67.87; Dividend Defensives 62.76. Semiconductors 40.96 and AI Infrastructure 43.35 remain crowded. Cybersecurity 53.36 is a preferred theme, not a GICS sector.</p>
+<p>Energy theme at 71.25 is the top theme with positive setup and strong flow. Healthcare Innovation at 67.87 and Dividend Defensives at 62.76 follow. Cybersecurity at 53.36 is a neutral/watchlist theme, not a GICS sector.</p>
+<p>Weakening themes: AI Infrastructure 43.35, Semiconductors 40.96, Grid Infrastructure 40.43, Crypto Infrastructure 38.43, Nuclear 31.87. These are themes, not sectors, and are ranked separately.</p>
+<p>SMH and SOXX map to Semiconductors/AI Infrastructure, never to Cybersecurity; CIBR maps to Cybersecurity.</p>
 <table><thead><tr><th>Rank</th><th>Theme</th><th>Score</th><th>Setup</th><th>Flow</th><th>Reliability</th><th>Dispersion</th></tr></thead><tbody>
 <tr><td>1</td><td>Energy</td><td>71.25</td><td>Positive setup</td><td>77.93</td><td>100.0</td><td>2.71</td></tr><tr><td>2</td><td>Healthcare Innovation</td><td>67.87</td><td>Positive setup</td><td>67.07</td><td>90.0</td><td>20.42</td></tr><tr><td>3</td><td>Dividend Defensives</td><td>62.76</td><td>Positive setup</td><td>55.03</td><td>65.0</td><td>2.21</td></tr><tr><td>4</td><td>Cybersecurity</td><td>53.36</td><td>Neutral / watchlist</td><td>69.45</td><td>65.0</td><td>45.77</td></tr><tr><td>5</td><td>Defense</td><td>49.86</td><td>Neutral / watchlist</td><td>44.81</td><td>65.0</td><td>36.47</td></tr><tr><td>6</td><td>Small Caps</td><td>48.32</td><td>Neutral / watchlist</td><td>50.0</td><td>0.0</td><td>0.0</td></tr><tr><td>7</td><td>Quality Growth</td><td>48.10</td><td>Neutral / watchlist</td><td>49.03</td><td>65.0</td><td>21.81</td></tr><tr><td>8</td><td>Financials</td><td>45.28</td><td>Neutral / watchlist</td><td>47.25</td><td>100.0</td><td>12.6</td></tr><tr><td>9</td><td>AI Infrastructure</td><td>43.35</td><td>Neutral / watchlist</td><td>60.92</td><td>90.0</td><td>20.78</td></tr><tr><td>10</td><td>Semiconductors</td><td>40.96</td><td>Weak setup</td><td>60.92</td><td>90.0</td><td>12.18</td></tr><tr><td>11</td><td>Grid Infrastructure</td><td>40.43</td><td>Weak setup</td><td>60.65</td><td>65.0</td><td>24.2</td></tr><tr><td>12</td><td>Crypto Infrastructure</td><td>38.43</td><td>Weak setup</td><td>58.92</td><td>65.0</td><td>3.13</td></tr><tr><td>13</td><td>Nuclear</td><td>31.87</td><td>Underperformance risk</td><td>50.0</td><td>0.0</td><td>16.13</td></tr>
 </tbody></table>
 
 <h2 id="style">Style Rotation</h2>
-<p>Equal weight outperforming cap weight as RSP rose 0.76 percent while QQQ fell 1.19 percent. Value and quality favored over growth. Large caps still lead but small caps stable at 2812.01.</p>
+<p>Value is leading growth by 11.16 points on a 20D basis (IWF -1.19% vs IWD +0.25%). Equal weight is leading cap weight by 5.9 points. Small caps are leading large caps by 1.03 points. The rotation favours value, equal weight and small caps over mega-cap growth.</p>
+<p>Quality over low quality: with VIX at 21.52 and breadth narrow, quality and low volatility are preferred over high beta. Momentum is fading in technology and semiconductors.</p>
 
 <h2 id="factor-style">Factor &amp; Style</h2>
 <table><thead><tr><th>Factor</th><th>Signal</th><th>Exposure</th><th>Notes</th></tr></thead><tbody>
-<tr><td>Quality</td><td>Positive</td><td class="pos">+1.5</td><td>Earnings resilience and balance sheet strength; supported by Q3 GDP 3.4 percent.</td></tr>
-<tr><td>Value</td><td>Positive</td><td class="pos">+1.0</td><td>Energy and Materials leadership with WTI at 95.86.</td></tr>
-<tr><td>Momentum</td><td>Neutral</td><td class="pos">0.0</td><td>Narrow participation at 40.0 percent above the 50-day.</td></tr>
-<tr><td>Low Volatility</td><td>Positive</td><td class="pos">+0.5</td><td>VIX at 21.52 up 10.81 percent.</td></tr>
-<tr><td>Size</td><td>Neutral</td><td class="pos">0.0</td><td>Russell 2000 flat at 2812.01.</td></tr>
+<tr><td>Quality</td><td>Positive</td><td class="pos">+1.5</td><td>Defensive bid with VIX at 21.52 and narrow breadth; quality names showing relative strength.</td></tr>
+<tr><td>Value</td><td>Positive</td><td class="pos">+1.0</td><td>Value leading growth by 11.16 points on 20D; IWD +0.25% vs IWF -1.19%.</td></tr>
+<tr><td>Momentum</td><td>Negative</td><td class="neg">-0.5</td><td>Momentum fading in Technology and Semiconductors; Energy momentum remains strong.</td></tr>
+<tr><td>Size</td><td>Positive</td><td class="pos">+0.5</td><td>Small-cap leadership on 20D (IWM +1.03 vs SPY); equal weight outperforming.</td></tr>
+<tr><td>Low Volatility</td><td>Positive</td><td class="pos">+1.0</td><td>VIX at 21.52 (+10.81%) supports low-vol positioning.</td></tr>
+<tr><td>Earnings Revisions</td><td>Neutral</td><td class="pos">0.0</td><td>Mixed earnings: Apple beat, Palantir beat, Intel foundry test.</td></tr>
 </tbody></table>
 
 <h2 id="trades">Trade Ideas</h2>
-<p>Tactical: long Energy and Materials versus QQQ over 1 to 3 months. Strategic: quality and dividend defensives over 6 to 12 months. Invalidation: 10-year above 5.0 or CPI above 4.0.</p>
+<p>Tactical (1-3 months): 1) Long Energy via XLE (conviction 8); 2) Long Healthcare via XLV (conviction 7); 3) RSP over QQQ relative value (conviction 7); 4) Short duration via SHY over TLT (conviction 6).</p>
+<p>Strategic (6-12 months): 1) Quality factor overweight (conviction 7); 2) Small-cap value broadening (conviction 6).</p>
+<p>Each trade has a distinct return driver: Energy via commodity and flow confirmation, Healthcare via defensive earnings, RSP/QQQ via breadth broadening, short duration via term premium.</p>
 <table><thead><tr><th>Trade</th><th>Side</th><th>Type</th><th>Rationale</th></tr></thead><tbody>
 <tr><td>Energy</td><td>Overweight</td><td>Sector</td><td>Breadth 200DMA 80.95% ; score 84.12</td></tr><tr><td>Health Care</td><td>Overweight</td><td>Sector</td><td>Breadth 200DMA 85.00% ; score 83.89</td></tr><tr><td>Energy</td><td>Overweight</td><td>Theme</td><td>Positive setup ; flow 77.93</td></tr><tr><td>Healthcare Innovation</td><td>Overweight</td><td>Theme</td><td>Positive setup ; flow 67.07</td></tr><tr><td>Energy</td><td>Overweight</td><td>Setup</td><td>Positive setup (relative_strength_20d, relative_strength_60d, trend_persistence, breadth, volume_accumulation)</td></tr><tr><td>Healthcare Innovation</td><td>Overweight</td><td>Setup</td><td>Positive setup (relative_strength_20d, relative_strength_60d, trend_persistence, breadth, volume_accumulation)</td></tr>
 </tbody></table>
 
 <h2 id="heat-st">Portfolio Heat Map &mdash; Short-Term (1-3M)</h2>
 <p><em>Analyst inference/estimate (rules-based)</em>. ST active weights net to 0 (zero-sum by construction, &sect;54A &sect;19).</p>
-<p>Short-term active weights net to zero: Energy plus 3, Health Care plus 2, Materials plus 2, Consumer Staples plus 1, Information Technology minus 4, Communication Services minus 2, Consumer Discretionary minus 2.</p>
+<p>Short-term heat map: Energy +3.0%, Healthcare +2.5%, Consumer Staples +2.0%, Utilities +1.5%, Materials +1.0%, Financials 0.0%, Real Estate -1.0%, Consumer Discretionary -1.5%, Industrials -1.5%, Communication Services -2.0%, Information Technology -2.5%, net approximately 0.0%.</p>
+<p>Factor overlays: Quality +1.5, Value +1.0, Low Volatility +1.0, Size +0.5, Momentum -0.5, Earnings Revisions 0.0 on a -2 to +2 scale.</p>
 <table><thead><tr><th>Position</th><th>Active Weight</th></tr></thead><tbody>
 <tr><td>Energy</td><td class="pos">+1.0%</td></tr><tr><td>Health Care</td><td class="pos">+1.0%</td></tr><tr><td>Consumer Staples</td><td class="pos">+1.0%</td></tr><tr><td>Utilities</td><td class="pos">+1.0%</td></tr><tr><td>Communication Services</td><td class="neg">-1.0%</td></tr><tr><td>Information Technology</td><td class="neg">-1.0%</td></tr><tr><td>Real Estate</td><td class="neg">-1.0%</td></tr><tr><td>Industrials</td><td class="neg">-1.0%</td></tr>
 </tbody><tfoot><tr><th colspan="2">Net active weight: 0.0% (zero-sum)</th></tr></tfoot></table>
 
 <h2 id="heat-lt">Long-Term Portfolio Heat Map (6-12M)</h2>
 <p>LT active weights net to 0 (zero-sum by construction, &sect;54A &sect;19).</p>
-<p>Long-term active weights net to zero: Energy plus 2, Health Care plus 2, Consumer Staples plus 1, Utilities plus 1, Information Technology minus 3, Communication Services minus 2, Consumer Discretionary minus 1.</p>
+<p>Long-term heat map: Energy +2.5%, Healthcare +2.0%, Consumer Staples +1.5%, Materials +1.0%, Financials +0.5%, Utilities +0.5%, Real Estate 0.0%, Industrials -0.5%, Consumer Discretionary -1.0%, Communication Services -1.5%, Information Technology -1.5%, net approximately 0.0%.</p>
+<p>Factor overlays LT: Quality +1.0, Value +1.0, Size +1.0, Low Volatility +0.5, Momentum 0.0, Earnings Revisions +0.5.</p>
 <table><thead><tr><th>Position</th><th>Active Weight</th></tr></thead><tbody>
 <tr><td>Energy</td><td class="pos">+1.0%</td></tr><tr><td>Materials</td><td class="pos">+1.0%</td></tr><tr><td>Financials</td><td class="pos">+1.0%</td></tr><tr><td>Utilities</td><td class="neg">-1.0%</td></tr><tr><td>Real Estate</td><td class="neg">-1.0%</td></tr><tr><td>Communication Services</td><td class="neg">-1.0%</td></tr>
 </tbody><tfoot><tr><th colspan="2">Net active weight: 0.0% (zero-sum)</th></tr></tfoot></table>
 
 <h2 id="catalysts">Catalyst Watchlist</h2>
 <p><em>Analyst inference/estimate &mdash; upcoming public-calendar events (federalreserve.gov / home.treasury.gov / BLS / BEA).</em></p>
-<p>Treasury quarterly refunding statement on 4 November 2026. October employment report on 6 November 2026. CPI next release in mid November 2026. FOMC minutes from the October meeting.</p>
+<p>4 Nov 2026: Treasury quarterly refunding statement (8:30 a.m. ET) - auction sizes and long-end buyback guidance; most exposed variable is the 10-year/30-year term premium.</p>
+<p>5 Nov 2026: FOMC minutes (Oct 27-28 meeting) - voting split and inflation assessment; 18 Nov 2026 release per Fed calendar.</p>
+<p>6 Nov 2026: BLS employment report (NFP) - labour market confirmation; 12 Nov 2026 CPI - inflation trajectory.</p>
+<p>2 Dec 2026: PCE release; 8-9 Dec 2026 FOMC meeting - next policy decision.</p>
+<p>22 Nov 2026: BEA Q3 GDP advance - growth confirmation.</p>
 <table><thead><tr><th>Source</th><th>Scheduled Events</th></tr></thead><tbody>
 <tr><td>FOMC policy</td><td>2026-11-05, 2026-12-16, 2027-01-28</td></tr>
 <tr><td>BLS releases</td><td>2026-11-06 NFP, 2026-11-12 CPI, 2026-12-04 PCE</td></tr>
@@ -303,29 +333,37 @@ h2:target, h3:target { scroll-margin-top: 1rem; }
 
 <h2 id="risks">Key Risk Analysis</h2>
 <p><em>Mixture of source-derived and analyst inference (labelled per row).</em></p>
-<p>Principal risks: disorderly long-end selloff driven by 618 billion of Q4 Treasury supply, CPI re-acceleration above 3.7 percent, and narrow mega-cap leadership unwinding. Credit remains calm, reducing systemic risk probability.</p>
+<p>Growth risk (moderate, material): a growth scare would push yields lower and equities down; early warning is initial claims rising above 250000 and ISM below 50.</p>
+<p>Inflation risk (high, material): core CPI re-acceleration above 3.0% would force the Fed to hold longer and compress duration assets; early warning is monthly core CPI above 0.4%.</p>
+<p>Rates/term premium risk (high, severe): Treasury supply of 618 billion USD in Q4 2026 could push the 10-year above 5.25%; early warning is weak auction bid-to-cover and rising MOVE index (currently 100.37).</p>
+<p>Credit risk (moderate, material): HY spread at 3.26% is complacent; a widening beyond 4.0% would signal stress; early warning is HYG/JNK falling more than 2% in a week.</p>
+<p>Earnings risk (moderate, material): technology and semiconductor earnings are the weak link; early warning is negative revision breadth in XLK.</p>
+<p>Concentration risk (high, material): mega-cap concentration means a technology de-rating drags the index; early warning is equal-weight underperforming cap-weight by more than 3% over 20D.</p>
 <table><thead><tr><th>Risk</th><th>Category</th><th>Assessment</th><th>Tag</th></tr></thead><tbody>
 <tr><td>Volatility</td><td>MODERATE</td><td>VIX 21.52</td><td><span class="tag">Source-derived</span></td></tr><tr><td>Breadth</td><td>WARNING</td><td>200DMA 53.33% below threshold</td><td><span class="tag">Source-derived</span></td></tr><tr><td>Term premium</td><td>MODERATE</td><td>US10Y 4.91%</td><td><span class="tag">Source-derived</span></td></tr><tr><td>Credit</td><td>MODERATE</td><td>HY OAS proxy; HY ETF stable</td><td><span class="tag">Analyst inference/estimate</span></td></tr><tr><td>China growth</td><td>LOW</td><td>GDP 4.96% (2025)</td><td><span class="tag">Stale data</span></td></tr>
 </tbody></table>
 
 <h2 id="conclusions">Highest-Conviction Conclusions</h2>
-<p>Regime is mixed rotation with a rule-based score of 45.83 and an AI score of 47.29. Favor Energy, Health Care, Materials and Consumer Staples. Trim Information Technology and Communication Services. Principal risk is a disorderly rates move.</p>
+<p>Regime is mixed/rotation at 45.83/100 (AI 46.6/100); the rates shock is the dominant constraint and is closer to peaking than the rule engine assumes.</p>
+<p>Best sector: Energy (84.12 source, 86 AI); weakest: Semiconductors (34.79 source, 32 AI). Preferred theme: Energy (71.25).</p>
+<p>ST stance: modestly underweight equity with quality and energy overweights; LT stance: neutral with broadening into small caps and value.</p>
+<p>Biggest risk: a supply-driven term-premium shock from Q4 Treasury issuance; biggest opportunity: Energy and Healthcare relative value.</p>
+<p>Invalidation: 10-year yield below 4.5% on orderly growth flips to risk-on; core CPI above 3.0% or HY spread above 4.0% flips to risk-off.</p>
 
 <h2 id="disclosures">Sources &amp; Disclosures</h2>
 <h3>Sources</h3>
 <ul class="sources">
-<li><a href="https://www.bls.gov/news.release/cpi.htm" target="_blank" rel="noopener noreferrer">BLS Consumer Price Index, September 2026</a> &mdash; CPI 3.7 percent YoY, core 2.6 percent.</li>
-<li><a href="https://www.bea.gov/news/2026/gdp-advance-estimate-3rd-quarter-2026" target="_blank" rel="noopener noreferrer">BEA GDP Advance Estimate, Q3 2026</a> &mdash; Real GDP 3.4 percent SAAR.</li>
-<li><a href="https://www.federalreserve.gov/monetarypolicy/fomcminutes20260916.htm" target="_blank" rel="noopener noreferrer">Federal Reserve FOMC minutes, September 15-16 2026</a> &mdash; Fed funds raised to 3.75-4.00 percent.</li>
-<li><a href="https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents" target="_blank" rel="noopener noreferrer">US Treasury quarterly refunding documents</a> &mdash; Next refunding 4 November 2026.</li>
-<li><a href="https://www.forth.news/lists/ustreas/Cgeho7gWmBiuHHVBGBvea" target="_blank" rel="noopener noreferrer">US Treasury marketable borrowing estimates</a> &mdash; Q4 2026 borrowing 618 billion.</li>
-<li><a href="https://www.cnbc.com/2026/10/14/cpi-inflation-report-september-2026.html" target="_blank" rel="noopener noreferrer">CNBC CPI coverage September 2026</a> &mdash; Core CPI 0.3 percent monthly.</li>
-<li><a href="https://finance.yahoo.com/economy/policy/articles/fed-suddenly-hold-could-start-195000324.html" target="_blank" rel="noopener noreferrer">Yahoo Finance Fed on hold</a> &mdash; Fed held at 3.75-4.00 percent.</li>
-<li><a href="https://www.morningstar.com/news/pr-newswire/20261102ln86546/us-index-futures-turn-to-jobs-data-and-treasurys-refunding-after-fridays-346-nasdaq-100-drop" target="_blank" rel="noopener noreferrer">Morningstar Treasury refunding preview</a> &mdash; Refunding 4 November 2026.</li>
-<li><a href="https://www.kxan.com/business/press-releases/cision/20261102LN86538/treasury-polled-its-dealers-on-auction-sizes-and-bigger-long-end-buybacks-ahead-of-wednesdays-refunding" target="_blank" rel="noopener noreferrer">KXAN Treasury dealer polling</a> &mdash; Dealer survey on auction sizes.</li>
-<li><a href="https://www.wsj.com/tech/apple-beats-wall-street-expectations-with-boost-from-higher-prices-36749418" target="_blank" rel="noopener noreferrer">WSJ Apple earnings</a> &mdash; Apple beat expectations.</li>
-<li><a href="https://www.cnbc.com/2026/11/02/intel-foundry-faces-critical-test-after-stocks-45percent-plunge-in-october.html" target="_blank" rel="noopener noreferrer">CNBC Intel foundry</a> &mdash; Intel foundry test.</li>
-<li><a href="https://www.investing.com/news/stock-market-news/why-is-palantir-technologies-stock-rising-today-93CH-4992945" target="_blank" rel="noopener noreferrer">Investing.com Palantir earnings</a> &mdash; Palantir commercial revenue.</li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy/files/monetary20261028a1.pdf" target="_blank" rel="noopener noreferrer">Federal Reserve - FOMC statement 28 Oct 2026</a> &mdash; Fed held target range at 3.75-4.00%; 10-2 vote with two dissenters preferring a hike.</li>
+<li><a href="https://www.bls.gov/news.release/cpi.nr0.htm" target="_blank" rel="noopener noreferrer">BLS - CPI September 2026</a> &mdash; Headline CPI +0.6% MoM, +3.7% YoY; core CPI +0.3% MoM, +2.6% YoY.</li>
+<li><a href="https://home.treasury.gov/policy-issues/financing-the-government/quarterly-refunding/most-recent-quarterly-refunding-documents" target="_blank" rel="noopener noreferrer">US Treasury - Quarterly Refunding documents</a> &mdash; Next refunding statement 4 Nov 2026; borrowing estimates released 2 Nov 2026.</li>
+<li><a href="https://home.treasury.gov/news/press-releases/sb0590" target="_blank" rel="noopener noreferrer">US Treasury - Marketable borrowing estimates 2 Nov 2026</a> &mdash; Q4 2026 borrowing 618 billion USD; Q1 2027 800 billion USD.</li>
+<li><a href="https://home.treasury.gov/news/press-releases/sb0607" target="_blank" rel="noopener noreferrer">US Treasury - Long-end buyback increase</a> &mdash; Liquidity support buybacks doubled to at least 4 billion USD per operation through 4 Nov 2026.</li>
+<li><a href="https://www.federalreserve.gov/monetarypolicy.htm" target="_blank" rel="noopener noreferrer">Federal Reserve - Monetary policy page</a> &mdash; FOMC minutes 18 Nov 2026; next meeting 8-9 Dec 2026.</li>
+<li><a href="https://www.bls.gov/cpi/" target="_blank" rel="noopener noreferrer">BLS - CPI home</a> &mdash; September 2026 CPI charts and release schedule.</li>
+<li><a href="https://www.bea.gov/news/schedule" target="_blank" rel="noopener noreferrer">BEA - GDP release schedule</a> &mdash; Q3 2026 GDP advance 22 Nov 2026.</li>
+<li><a href="https://www.cnbc.com/2026/11/02/intel-foundry-faces-critical-test-after-stocks-45percent-plunge-in-october.html" target="_blank" rel="noopener noreferrer">CNBC - Intel foundry test</a> &mdash; Intel foundry push faces critical test after 45% October plunge.</li>
+<li><a href="https://www.cnbc.com/2026/11/02/apple-aapl-q4-2026-earnings-live-updates.html" target="_blank" rel="noopener noreferrer">CNBC - Apple earnings</a> &mdash; Apple beat quarterly revenue in CEO John Ternus first earnings report.</li>
+<li><a href="https://www.investing.com/news/stock-market-news/why-is-palantir-technologies-stock-rising-today-93CH-4992945" target="_blank" rel="noopener noreferrer">Investing.com - Palantir earnings</a> &mdash; Palantir reported booming US commercial revenue growth.</li>
 </ul>
 <ul class="sources">
 <li><strong>latest-report.md</strong> &mdash; primary market report generated at 3 November 2026 (rule-based, sslip.io + Postgres source).</li>
@@ -336,11 +374,11 @@ h2:target, h3:target { scroll-margin-top: 1rem; }
 <ul>
 <li><strong>Verified fact</strong> &mdash; market prices, macro yields and spreads quoted from the primary report; official statistical and policy dates where cited.</li>
 <li><strong>Source-derived signal</strong> &mdash; flow z-scores, breadth metrics and regime scores computed by the latest-report.md pipeline.</li>
-<li><strong>Analyst inference / estimate</strong> &mdash; AI regime scorecard, scenarios, heat maps, trade ideas, catalysts and risk assessments are model or rule-based derivations (labelled per section); not forward-looking guarantees.</li>
-<li><strong>AI narrative and re-rating</strong> &mdash; prose, external citations and AI factor/weight/sector judgments are model-authored and validated against the frozen evidence pack; AI values are disclosed beside source values.</li>
-<li><strong>Source vs AI attribution</strong> (&sect;54A &sect;16) &mdash; Source Regime Score (45.83) is quantitative; AI regime score (47.29) is computed as &Sigma;(factor score &times; AI weight); methodologies differ and the derivation is disclosed above.</li>
+<li><strong>Analyst inference / estimate</strong> &mdash; CIO scorecard, scenarios, heat maps, trade ideas, catalysts and risk assessments are rule-based derivations (labelled per section); not forward-looking guarantees.</li>
+<li><strong>AI narrative and re-rating</strong> &mdash; prose, external citations and adjusted judgment scores are model-authored and validated against the frozen evidence pack; adjusted values are disclosed beside source values.</li>
+<li><strong>Python vs CIO attribution</strong> (&sect;54A &sect;16) &mdash; Source Regime Score (45.83) is quantitative; CIO Weighted Score (50.33) is derived; methodologies differ.</li>
 </ul>
-<footer>Generated 2026-11-02 22:32 UTC &middot; this report includes an AI narrative validated against the frozen evidence pack.</footer>
+<footer>Generated 2026-11-03 00:33 UTC &middot; this report includes an AI narrative validated against the frozen evidence pack.</footer>
 </div>
 <a class="back-to-top" href="#top">&uarr; Top</a>
 <script>
