@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 November 2026, 10:18:26 (HKT)
+Generated at: 3 November 2026, 11:16:41 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -8,7 +8,7 @@ Window: 24h
 - Regime score: **47.48 / 100** (Mixed / Rotation)
 - US equity strength: **42.22 / 100** (weak)
 - Evidence quality: **76.0 / 100**
-- ETF flow contribution: **48.72 / 100**, reliability **66.13 / 100**
+- ETF flow contribution: **48.67 / 100**, reliability **66.09 / 100**
 - Breadth: **narrow**; above 50DMA `40.0%`, above 200DMA `53.33%`
 - Top sector score: **Energy** `72.2`
 - Top theme score: **Energy** `71.07`
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 55.93 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 57.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 49.16 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 49.12 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 56.25 | mild risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | none |
 | Negative contributors |  | volatility=35.0, equity_trend=40.0, market_breadth=45.0 |
@@ -98,16 +98,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 21.15 | 8.91 | 2026-11-02 | closed |
 | ^SKEW | CBOE SKEW Index | 152.78 | 2.02 | 2026-11-02 | closed |
 | ^MOVE | ICE BofA MOVE Index | 100.36 | 0.16 | 2026-11-02 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.6 | 0.37 | 2026-11-02 | live as of 3 November 2026, 10:00:24 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.66 | 0.11 | 2026-11-02 | live as of 3 November 2026, 10:00:24 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.71 | -0.23 | 2026-11-02 | live as of 3 November 2026, 10:00:24 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.8 | -0.35 | 2026-11-02 | live as of 3 November 2026, 10:00:24 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.91 | 0.04 | 2026-11-03 | live as of 3 November 2026, 10:00:24 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.32 | -0.34 | 2026-11-02 | live as of 3 November 2026, 10:00:24 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.29 | -0.41 | 2026-11-02 | live as of 3 November 2026, 10:00:24 (HKT) |
-| HK50 | Hang Seng Futures | 23455.0 | -0.34 | 2026-11-03 | live as of 3 November 2026, 10:00:24 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 887.15 | -3.43 | 2026-11-02 | live as of 3 November 2026, 10:00:24 (HKT) |
-| CIHc1 | SSE 50 Futures | 2745.2 | 0.65 | 2026-11-02 | live as of 3 November 2026, 10:00:24 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.6 | 0.37 | 2026-11-02 | live as of 3 November 2026, 11:00:22 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.66 | 0.11 | 2026-11-02 | live as of 3 November 2026, 11:00:22 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.71 | -0.23 | 2026-11-02 | live as of 3 November 2026, 11:00:22 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.8 | -0.35 | 2026-11-02 | live as of 3 November 2026, 11:00:22 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.91 | 0.04 | 2026-11-03 | live as of 3 November 2026, 11:00:22 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.32 | -0.34 | 2026-11-02 | live as of 3 November 2026, 11:00:22 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.29 | -0.41 | 2026-11-02 | live as of 3 November 2026, 11:00:22 (HKT) |
+| HK50 | Hang Seng Futures | 23455.0 | -0.34 | 2026-11-03 | live as of 3 November 2026, 11:00:22 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 887.15 | -3.43 | 2026-11-02 | live as of 3 November 2026, 11:00:22 (HKT) |
+| CIHc1 | SSE 50 Futures | 2745.2 | 0.65 | 2026-11-02 | live as of 3 November 2026, 11:00:22 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 76.89 | -0.7 | 2026-11-02 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 103.71 | -0.54 | 2026-11-02 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.26 | -0.77 | 2026-11-02 | closed |
@@ -363,10 +363,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 **2. Oil Futures Sell Off on Middle East Diplomatic Progress**
 - Source: Dow Jones US Business
-- Importance / impact: High / Negative
+- Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, Oil Prices, Geopolitics, Diplomacy
-- Score: `47.81`
+- Score: `40.64`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **3. S-Oil Q3 2026 slides: record lube profit drives 46% earnings surge**
@@ -417,21 +417,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.76`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. Palantir earnings are out — and they reveal a major AI turning point**
-- Source: MarketWatch Bulletins
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: PLTR, AI, earnings, technology
-- Score: `32.42`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. Palantir reports Q3 earnings beat, and a big turning point in its business model**
+**9. Palantir reports Q3 earnings beat, and a big turning point in its business model**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: PLTR, earnings beat, business model transformation, revenue growth
 - Score: `32.11`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Apple's stock drops on weak margin forecast in Ternus’ first earnings report: Live updates**
+- Source: CNBC Investing
+- Importance / impact: Low / Mixed
+- Relevance / horizon: single_name / quarterly
+- Affected assets: AAPL, EPS, earnings, AI, CEO transition
+- Score: `30.53`
+- Investment implication: Single-name mixed signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
@@ -451,11 +451,11 @@ Positioning and flow data is used as confirmation only.
 ## ETF Flows Analysis
 
 - Market flow regime: `Mixed / Neutral`
-- Market flow score: `49.8 / 100`
+- Market flow score: `48.4 / 100`
 - Equity risk flow: `45.4`
 - Credit risk flow: `52.0`
 - Sector cyclicality flow: `51.6`
-- Duration/liquidity flow: `52.4`
+- Duration/liquidity flow: `43.0`
 - Alternatives: `mixed alternative-asset demand`
 - ETF flow reliability: `66.1 / 100`
 - Dominant allocation direction: `defensive demand`
@@ -472,7 +472,7 @@ Positioning and flow data is used as confirmation only.
 | IWM | U.S. Small Cap | -1.3 | 0.9 | 0.6 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Mixed or neutral flow structure | 70.0 |
 | LQD | Investment-Grade Credit | 1.7 | -0.3 | 0.7 | n/a | Up | Buy | Normal | Steady Accumulation | Risk-On | Medium-term recovery | 72.0 |
 | HYG | High-Yield Credit | -0.3 | 0.2 | 0.5 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Medium-term deterioration | 68.0 |
-| SGOV | Treasury Bills / Cash | -1.1 | -0.7 | 0.8 | 2.8 | Flat | Sell | High | Distribution Before Breakdown | Early Bearish | Medium-term deterioration; Strong sponsorship | 91.0 |
+| SGOV | Treasury Bills / Cash | -1.7 | -1.6 | 0.8 | n/a | Flat | Sell | Normal | Quiet Distribution | Weakening | Strong confirmation; Exceptional institutional selling, Strong sponsorship | 80.0 |
 | SHY | Short-Duration Treasuries | 0.5 | 1.7 | 0.8 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 84.0 |
 | IEF | Intermediate-Duration Treasuries | 1.0 | -0.5 | 0.5 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Medium-term recovery | 72.0 |
 | TLT | Long-Duration Treasuries | -1.2 | 1.3 | 0.6 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Medium-term deterioration | 68.0 |
@@ -531,4 +531,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 03 November 2026, 10:18:26 (HKT)
+- Report generated at: 03 November 2026, 11:16:41 (HKT)
