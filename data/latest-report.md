@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 3 November 2026, 16:07:19 (HKT)
+Generated at: 3 November 2026, 17:07:37 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **46.85 / 100** (Mixed / Rotation)
+- Regime score: **50.37 / 100** (Mixed / Rotation)
 - US equity strength: **42.22 / 100** (weak)
-- Evidence quality: **72.5 / 100**
+- Evidence quality: **76.0 / 100**
 - ETF flow contribution: **50.07 / 100**, reliability **71.74 / 100**
 - Breadth: **narrow**; above 50DMA `40.0%`, above 200DMA `53.33%`
 - Top sector score: **Energy** `73.32`
@@ -17,19 +17,19 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 46.85 | Mixed / Rotation |
+| Overall regime | 50.37 | Mixed / Rotation |
 | equity_trend | 40.0 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 45.36 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 45.0 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
-| volatility | 35.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
+| volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 55.27 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 55.07 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 50.05 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 55.62 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | none |
-| Negative contributors |  | volatility=35.0, equity_trend=40.0, market_breadth=45.0 |
+| news_confirmation | 56.25 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=70.0 |
+| Negative contributors |  | equity_trend=40.0, market_breadth=45.0 |
 
 ## Forward Signal (Score → Expected Return)
 
@@ -37,9 +37,9 @@ Read-only mapping. The regime score is a *state* descriptor, not a forecast; thi
 
 | Horizon | Bucket | Historical mean | n | Direction |
 | --- | --- | --- | --- | --- |
-| 5D | 45-50 | 1.3% | 9 | up |
-| 20D | 45-50 | 2.32% | 9 | up |
-| 60D | 45-50 | 4.94% | 9 | up |
+| 5D | 50-55 | 0.69% | 13 | up |
+| 20D | 50-55 | 1.5% | 13 | up |
+| 60D | 50-55 | 4.7% | 13 | up |
 
 Sample: 2025-10-21 → 2026-08-03, 116 daily origins.
 Bottom-vs-top spread at 60D: **6.75 pp** (block-bootstrap 95% CI [1.92, 10.76], P(spread<=0)=<0.0001)
@@ -66,9 +66,9 @@ Method: Analyst inference/estimate (historical bucket calibration).
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `72.5`
-- Agreement ratio: `0.3`
-- Contradiction count: `3`
+- Confidence score: `76.0`
+- Agreement ratio: `0.4`
+- Contradiction count: `2`
 - Missing indicators: none
 - Warning flags: none
 
@@ -95,19 +95,19 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7541.4 | -0.51 | 2026-11-02 | closed |
 | ^IXIC | NASDAQ Composite | 25164.32 | -1.07 | 2026-11-02 | closed |
 | ^RUT | Russell 2000 Index | 2805.88 | -0.21 | 2026-11-02 | closed |
-| ^VIX | CBOE Volatility Index | 21.15 | 8.91 | 2026-11-02 | closed |
+| ^VIX | CBOE Volatility Index | 21.81 | 3.12 | 2026-11-03 | live as of 3 November 2026, 17:00:19 (HKT) |
 | ^SKEW | CBOE SKEW Index | 152.78 | 2.02 | 2026-11-02 | closed |
 | ^MOVE | ICE BofA MOVE Index | 100.36 | 0.16 | 2026-11-02 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.6 | 0.04 | 2026-11-03 | live as of 3 November 2026, 16:00:20 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.66 | 0.09 | 2026-11-03 | live as of 3 November 2026, 16:00:20 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.72 | 0.11 | 2026-11-03 | live as of 3 November 2026, 16:00:20 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.81 | 0.17 | 2026-11-03 | live as of 3 November 2026, 16:00:20 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.92 | 0.49 | 2026-11-03 | live as of 3 November 2026, 16:00:20 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.33 | 0.11 | 2026-11-03 | live as of 3 November 2026, 16:00:20 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.29 | 0.11 | 2026-11-03 | live as of 3 November 2026, 16:00:20 (HKT) |
-| HK50 | Hang Seng Futures | 23424.0 | -0.47 | 2026-11-03 | live as of 3 November 2026, 16:00:20 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 887.15 | -3.43 | 2026-11-02 | live as of 3 November 2026, 16:00:20 (HKT) |
-| CIHc1 | SSE 50 Futures | 2745.2 | 0.65 | 2026-11-02 | live as of 3 November 2026, 16:00:20 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.6 | 0.04 | 2026-11-03 | live as of 3 November 2026, 17:00:19 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.66 | 0.09 | 2026-11-03 | live as of 3 November 2026, 17:00:19 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.72 | 0.11 | 2026-11-03 | live as of 3 November 2026, 17:00:19 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.81 | 0.17 | 2026-11-03 | live as of 3 November 2026, 17:00:19 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.92 | 0.49 | 2026-11-03 | live as of 3 November 2026, 17:00:19 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.33 | 0.11 | 2026-11-03 | live as of 3 November 2026, 17:00:19 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.29 | 0.11 | 2026-11-03 | live as of 3 November 2026, 17:00:19 (HKT) |
+| HK50 | Hang Seng Futures | 23494.0 | -0.18 | 2026-11-03 | live as of 3 November 2026, 17:00:19 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 887.15 | -3.43 | 2026-11-02 | live as of 3 November 2026, 17:00:19 (HKT) |
+| CIHc1 | SSE 50 Futures | 2745.2 | 0.65 | 2026-11-02 | live as of 3 November 2026, 17:00:19 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 76.89 | -0.7 | 2026-11-02 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 103.71 | -0.54 | 2026-11-02 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.26 | -0.77 | 2026-11-02 | closed |
@@ -117,10 +117,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 81.73 | -0.13 | 2026-11-02 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 91.5 | -0.28 | 2026-11-02 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.46 | -0.29 | 2026-11-02 | closed |
-| GC=F | Gold Future | 3921.6 | -1.21 | 2026-11-03 | live as of 3 November 2026, 16:00:20 (HKT) |
-| SI=F | Silver Future | 49.13 | -3.13 | 2026-11-03 | live as of 3 November 2026, 16:00:20 (HKT) |
-| CL=F | WTI Crude Oil Future | 97.72 | 1.31 | 2026-11-03 | live as of 3 November 2026, 16:00:20 (HKT) |
-| HG=F | Copper Future | 6.37 | -2.71 | 2026-11-03 | live as of 3 November 2026, 16:00:20 (HKT) |
+| GC=F | Gold Future | 3907.2 | -1.57 | 2026-11-03 | live as of 3 November 2026, 17:00:19 (HKT) |
+| SI=F | Silver Future | 48.73 | -3.92 | 2026-11-03 | live as of 3 November 2026, 17:00:19 (HKT) |
+| CL=F | WTI Crude Oil Future | 98.19 | 1.79 | 2026-11-03 | live as of 3 November 2026, 17:00:19 (HKT) |
+| HG=F | Copper Future | 6.33 | -3.26 | 2026-11-03 | live as of 3 November 2026, 17:00:19 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -344,12 +344,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=21.15 pct_chg=8.91
+- VIX close=21.81 pct_chg=3.12
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 42, 'negative': 33, 'neutral': 5}
-- News confirmation score: `55.62`
+- Sentiment counts: {'positive': 43, 'negative': 33, 'neutral': 4}
+- News confirmation score: `56.25`
 
 ### Top Market-Moving Headlines
 
@@ -385,15 +385,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.64`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. LG Energy Solution Q3 2026 slides: ESS surge drives revenue beat**
-- Source: Investing.com Markets
-- Importance / impact: Medium / Positive
-- Relevance / horizon: sector_theme / quarterly
-- Affected assets: LG Energy Solution, ESS, LG, revenue beat, ESS market growth
-- Score: `37.57`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**6. Nvidia tells data center partners to limit China sales- FT**
+**5. Nvidia tells data center partners to limit China sales- FT**
 - Source: Investing.com World News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -401,7 +393,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**7. U.S. reportedly strikes Iran's Qeshm Island as Vance hopes for ‘negotiated settlement’ with Tehran**
+**6. U.S. reportedly strikes Iran's Qeshm Island as Vance hopes for ‘negotiated settlement’ with Tehran**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: single_name / short-term
@@ -409,15 +401,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.74`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**8. Earnings beat, guidance raised: our AI-picked pharma stock is up 23.96%**
-- Source: Investing.com World News
-- Importance / impact: Low / Positive
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: earnings beat, guidance raised, AI
-- Score: `34.81`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
-
-**9. Iran War Threatens Record Annual Drop in Global LNG Supply, IEA Says**
+**7. Iran War Threatens Record Annual Drop in Global LNG Supply, IEA Says**
 - Source: Dow Jones US Business
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -425,12 +409,28 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.32`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**10. NALCO Q2 FY2026-27 slides: profit surges 28% amid expansion push**
+**8. LG Energy Solution Q3 2026 slides: ESS surge drives revenue beat**
+- Source: Investing.com Markets
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / quarterly
+- Affected assets: LG Energy Solution, ESS, LG, revenue beat, ESS market growth
+- Score: `31.93`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**9. NALCO Q2 FY2026-27 slides: profit surges 28% amid expansion push**
 - Source: Investing.com Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / quarterly
 - Affected assets: NALCO, profit surge, earnings growth, expansion
 - Score: `30.53`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. SBI Holdings 1H FY2026 slides: record profit surge, digital push**
+- Source: Investing.com Markets
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: SBI, earnings, profit surge, digital transformation
+- Score: `29.94`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
@@ -532,4 +532,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 03 November 2026, 16:07:19 (HKT)
+- Report generated at: 03 November 2026, 17:07:37 (HKT)
