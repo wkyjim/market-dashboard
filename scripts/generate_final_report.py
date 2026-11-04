@@ -21,8 +21,10 @@ import argparse, datetime, json, os, re, subprocess, sys, urllib.request
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from report_narrative import (  # noqa: E402  (path bootstrap must run first)
-    build_evidence_pack, load_narrative, validate_narrative, render_narrative,
+    build_evidence_pack, compute_ai_regime_score, load_narrative, validate_narrative,
+    render_narrative, _previous_idea_tickers,
 )
+from idea_price_audit import audit_ideas  # noqa: E402
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # market-dashboard
 DATA_DIR = os.path.join(BASE_DIR, "data")
@@ -59,6 +61,22 @@ CIO_FACTOR_MAP = {
     "Earnings": ["equity_trend", "news_confirmation"],
     "Valuation": ["market_breadth", "equity_momentum"],
     "Sentiment": ["volatility", "dollar_fx"],
+}
+# Source (rule-based) regime weights in points, mirroring
+# src/db_builder/rule_based_config.py DEFAULT_WEIGHTS["market_regime"]
+# (0.18, 0.10, 0.12, 0.10, 0.10, 0.10, 0.07, 0.06, 0.12, 0.05 -> points).
+# They are the anchor for the AI weight-deviation check (±10 points).
+SOURCE_REGIME_WEIGHTS = {
+    "equity_trend": 18.0,
+    "equity_momentum": 10.0,
+    "market_breadth": 12.0,
+    "volatility": 10.0,
+    "rates_yield_curve": 10.0,
+    "credit_proxy": 10.0,
+    "dollar_fx": 7.0,
+    "commodity_confirmation": 6.0,
+    "etf_flow": 12.0,
+    "news_confirmation": 5.0,
 }
 FOMC_2026 = ["2026-11-05", "2026-12-16"]
 FOMC_2027 = ["2027-01-28", "2027-03-18", "2027-05-05"]
@@ -224,13 +242,27 @@ def parse_latest_report(path: str) -> dict:
     hdr, rows = _find_table(sections, "Market Regime Score")
     drivers = {}
     for r in rows:
-        if len(r) >= 3:
+        # "Overall regime" is the table's summary row, not a scored factor.
+        if len(r) >= 3 and r[0].strip().lower() not in ("metric", "overall regime"):
             try:
                 drivers[r[0]] = float(r[1])
             except ValueError:
                 pass
     d["regime_factors"] = drivers
     d["regime"]["primary_driver"] = max(drivers, key=drivers.get) if drivers else None
+    d["regime_weights"] = dict(SOURCE_REGIME_WEIGHTS)
+
+    # Forward Signal (Score → Expected Return): 5D/20D/60D calibration table.
+    fwd_section = _section(sections, "Forward Signal")
+    hdr, rows = _table(fwd_section)
+    fwd = []
+    for r in rows:
+        if len(r) >= 5 and r[0] in ("5D", "20D", "60D"):
+            fwd.append({"horizon": r[0], "bucket": r[1], "mean_pct": _f(r[2]),
+                        "n": _f(r[3]), "direction": r[4]})
+    d["forward_signal"] = fwd
+    m = re.search(r"Sample:\s*([^\n]+)", fwd_section)
+    d["forward_signal_sample"] = m.group(1).strip() if m else ""
 
     # Cross-Asset Confirmation
     hdr, rows = _find_table(sections, "Cross-Asset Confirmation")
@@ -452,13 +484,14 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
     if nv.get("what_matters"):
         matters_section = '<h2 id="what-matters">What Matters Now</h2>\n' + nv["what_matters"]
     matters_toc = '<li><a href="#what-matters">What Matters</a></li>' if matters_section else ""
-    # 24-section AI narrative slots (original report structure)
-    cio_dashboard = nv.get("cio_dashboard", "")
+    # 23-section AI narrative slots
+    forward_signal = nv.get("forward_signal", "")
     risk_opportunity = nv.get("risk_opportunity", "")
     historical_analogs = nv.get("historical_analogs", "")
     scorecard_narrative = nv.get("scorecard", "")
     scenarios_narrative = nv.get("scenarios_narrative", "")
     macro_narrative = nv.get("macro_narrative", "")
+    macro_outlook = nv.get("macro_outlook", "")
     cross_asset_narrative = nv.get("cross_asset_narrative", "")
     equities_view = nv.get("equities_view", "")
     price_action = nv.get("price_action", "")
@@ -469,44 +502,50 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
     style_rotation = nv.get("style_rotation", "")
     factor_style = nv.get("factor_style", "")
     trades_narrative = nv.get("trades_narrative", "")
+    candidate_screen = nv.get("candidate_screen", "")
+    stock_ideas = nv.get("stock_ideas", "")
     heat_st_narrative = nv.get("heat_st_narrative", "")
     heat_lt_narrative = nv.get("heat_lt_narrative", "")
     catalysts_narrative = nv.get("catalysts_narrative", "")
     risk_narrative = nv.get("risk_narrative", "")
+    portfolio_risk = nv.get("portfolio_risk", "")
     conclusions = nv.get("conclusions", "")
     # External citations rendered by report_narrative.render_sources(). Empty when
     # the narrative carried none, in which case only the built-in sources appear.
     sources_block = nv.get("sources", "")
     # AI re-rating layer: adjusted judgment scores, disclosed beside source values.
     adj = adjustments or {}
-    adj_regime = adj.get("regime_score")
-    adj_label = adj.get("regime_label")
+    adj_label = adj.get("regime_label") or ""
     adj_sectors = adj.get("sector_scores") or {}
+    adj_sector_reason = adj.get("sector_rationale") or {}
     adj_rationale = adj.get("rationale") or ""
-    adj_line = ""
-    if isinstance(adj_regime, (int, float)):
-        adj_line = (
-            '<p><strong>AI-adjusted regime (CIO view):</strong> %.2f/100%s &mdash; '
-            'source-derived %.2f/100. Divergence disclosed per &sect;54A &sect;16.</p>'
-            % (float(adj_regime),
-               (" (" + esc(str(adj_label)) + ")") if adj_label else "",
-               float(r["score"])))
-    adj_sec_block = ""
-    if adj_sectors:
-        _rows = []
-        for _s in sectors:
-            _a = adj_sectors.get(_s["name"])
-            if isinstance(_a, (int, float)):
-                _rows.append("<tr><td>%s</td><td>%.2f</td><td>%.2f</td><td>%+.2f</td></tr>" % (
-                    esc(_s["name"]), _s["score"], float(_a), float(_a) - _s["score"]))
-        if _rows:
-            adj_sec_block = (
-                "<h3>AI Re-Rating (CIO view)</h3>\n"
-                "<p>Source scores are quantitative; adjusted scores are the model's judgment "
-                "after independent research. Divergence is disclosed per &sect;54A &sect;16.</p>\n"
-                "<table><thead><tr><th>Sector</th><th>Source</th><th>AI Adj</th><th>&Delta;</th></tr></thead><tbody>\n"
-                + "".join(_rows) + "\n</tbody></table>\n"
-                + (("<p><em>%s</em></p>" % esc(adj_rationale)) if adj_rationale else ""))
+    adj_factors = adj.get("factor_scores") or {}
+    adj_weights = adj.get("weights") or {}
+    ai_score = compute_ai_regime_score(adj)
+    src_score = r.get("score")
+    ai_delta = (float(ai_score) - float(src_score)) if isinstance(ai_score, (int, float)) \
+        and isinstance(src_score, (int, float)) else None
+    ai_score_text = ("%.2f" % float(ai_score)) if isinstance(ai_score, (int, float)) else "n/a"
+    ai_delta_text = ("%+.2f points" % ai_delta) if isinstance(ai_delta, (int, float)) else "n/a"
+
+    # Header: one AI number, with the source rule-based value disclosed in one
+    # small line beneath it (§54A §16 option 2). No CIO layer is rendered.
+    if isinstance(ai_score, (int, float)):
+        regime_head = ('<p class="regime-head"><strong>AI regime score: '
+                       '<span class="score-big">%.2f</span> / 100</strong>%s</p>'
+                       % (float(ai_score),
+                          (" &mdash; " + esc(str(adj_label))) if adj_label else ""))
+        src_disclosure = ""
+        if isinstance(src_score, (int, float)):
+            src_disclosure = (
+                '<p class="disclosure"><small>Source rule-based: %.2f | AI: %.2f (&Delta; %+.2f)</small></p>'
+                % (float(src_score), float(ai_score), float(ai_score) - float(src_score)))
+        regime_header_block = regime_head + src_disclosure
+    else:
+        regime_header_block = (
+            '<p><strong>Regime score: %s / 100</strong>%s</p>'
+            % (pct(src_score),
+               (" &mdash; " + esc(str(r.get("label") or ""))) if r.get("label") else ""))
     footer_note = ("this report includes an AI narrative validated against the frozen evidence pack"
                    if nv else "this is a programmatic report; no manual narrative was authored")
 
@@ -516,6 +555,51 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
 
     def _fmt(x, suffix=""):
         return ("%.2f%s" % (x, suffix)) if isinstance(x, (int, float)) else "n/a"
+
+    # AI regime scorecard: every input and every delta stays visible so the
+    # two-step re-rating can be audited line by line.
+    ai_score_rows = ""
+    for _name, _src in d["regime_factors"].items():
+        _as = adj_factors.get(_name)
+        _aw = adj_weights.get(_name)
+        _sw = SOURCE_REGIME_WEIGHTS.get(_name)
+        _contrib = (float(_as) * float(_aw) / 100.0) if isinstance(_as, (int, float)) \
+            and isinstance(_aw, (int, float)) else None
+        ai_score_rows += (
+            "<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>"
+            % (esc(_name), _fmt(_src), _fmt(_as),
+               ("%+.2f" % (float(_as) - float(_src))) if isinstance(_as, (int, float)) else "n/a",
+               _fmt(_sw), _fmt(_aw),
+               ("%+.2f" % (float(_aw) - float(_sw))) if isinstance(_aw, (int, float))
+               and isinstance(_sw, (int, float)) else "n/a",
+               _fmt(_contrib)))
+    ai_weights_total = sum(float(v) for v in adj_weights.values() if isinstance(v, (int, float)))
+
+    # AI sector ratings: AI values only, each with its own reason for the move.
+    # The source comparison is rendered as a separate table (the second data
+    # pair) so the AI rating table itself never mixes methodologies.
+    ai_sector_rows = ""
+    sector_compare_rows = ""
+    for _s in sectors:
+        _a = adj_sectors.get(_s["name"])
+        _why = adj_sector_reason.get(_s["name"]) or ""
+        ai_sector_rows += (
+            "<tr><td>%s</td><td>%s</td><td>%s</td></tr>"
+            % (esc(_s["name"]), _fmt(_a), esc(_why)))
+        sector_compare_rows += (
+            "<tr><td>%s</td><td>%.2f</td><td>%s</td><td>%s</td></tr>"
+            % (esc(_s["name"]), _s["score"], _fmt(_a),
+               ("%+.2f" % (float(_a) - _s["score"])) if isinstance(_a, (int, float)) else "n/a"))
+
+    fwd_rows = ""
+    for _fwd in d.get("forward_signal") or []:
+        _n = _fwd.get("n")
+        fwd_rows += (
+            "<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>"
+            % (esc(str(_fwd.get("horizon") or "")), esc(str(_fwd.get("bucket") or "")),
+               _fmt(_fwd.get("mean_pct"), "%"),
+               ("%d" % _n) if isinstance(_n, (int, float)) else "n/a",
+               esc(str(_fwd.get("direction") or ""))))
 
     breadth_line = "above 50DMA %s, above 200DMA %s, positive 20D %s" % (
         _fmt(br.get("above_50dma"), "%"), _fmt(br.get("above_200dma"), "%"),
@@ -603,11 +687,12 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
   <nav class="toc">
     <ul>
       <li><a href="#exec">Executive Summary</a></li>
-      <li><a href="#cio-dashboard">CIO Dashboard</a></li>
+      <li><a href="#regime-scorecard">AI Regime Scorecard</a></li>
       <li><a href="#what-matters">What Matters Now</a></li>
       <li><a href="#risk-opportunity">Risk / Opportunity</a></li>
       <li><a href="#analogs">Historical Analogs</a></li>
-      <li><a href="#scorecard">Regime Scorecard</a></li>
+      <li><a href="#forward-signal">Forward Signal</a></li>
+      <li><a href="#sector-rating">AI Sector Ratings</a></li>
       <li><a href="#scen">Scenarios</a></li>
       <li><a href="#macro">Macro</a></li>
       <li><a href="#cross">Cross-Asset</a></li>
@@ -630,17 +715,10 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
   </nav>
 </div>
 
-<h2 id="exec">Executive Summary (CIO View)</h2>
-<p><strong>Regime:</strong> {esc(r.get("label") or "Mixed")}. Source Regime Score <strong>{pct(r["score"])}/100</strong> (source-derived); CIO Weighted Regime Score <strong>{pct(cio["score"])}/100</strong> (<em>{cio["method"]}</em>). US equity strength {pct(r["equity_strength"])}/100; evidence quality {pct(r["evidence"])}/100; ETF flow contribution {pct(r["etf_flow"])}/100 (reliability {pct(r["flow_reliability"])}). Primary driver: {esc(r.get("primary_driver") or "n/a")}. Breadth above 50DMA {pct(r["breadth_50"])}%, above 200DMA {pct(r["breadth_200"])}%.</p>
-{adj_line}
+<h2 id="exec">Executive Summary — AI View</h2>
+{regime_header_block}
+<p><strong>Regime:</strong> {esc(r.get("label") or "Mixed")}. US equity strength {pct(r["equity_strength"])}/100; evidence quality {pct(r["evidence"])}/100; ETF flow contribution {pct(r["etf_flow"])}/100 (reliability {pct(r["flow_reliability"])}). Primary driver: {esc(r.get("primary_driver") or "n/a")}. Breadth above 50DMA {pct(r["breadth_50"])}%, above 200DMA {pct(r["breadth_200"])}%.</p>
 {exec_html}
-
-<h2 id="cio-dashboard">CIO Dashboard</h2>
-<p><em>{cio["method"]}</em>. Components mapped from latest-report.md regime factors ({", ".join(esc(k) for k in d["regime_factors"].keys()) if d["regime_factors"] else "none available"}). Weights total {sum(c["weight"] for c in cio["components"])}%.</p>
-{cio_dashboard}
-<table><thead><tr><th>Component</th><th>Weight</th><th>Score</th><th>Contribution</th></tr></thead><tbody>
-{cio_rows}
-</tbody><tfoot><tr><th colspan="3">CIO Weighted Score</th><th>{cio["score"]}</th></tr></tfoot></table>
 
 {matters_section}
 
@@ -650,12 +728,34 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
 <h2 id="analogs">Historical Analogs and Lessons</h2>
 {historical_analogs}
 
-<h2 id="scorecard">CIO Weighted Market Regime Scorecard</h2>
-<p>The weighted score aggregates the ten regime factors into a single 0-100 reading.</p>
+<h2 id="regime-scorecard">AI Regime Scorecard</h2>
+<p>Two-step AI re-rating: <strong>factor scores × AI weights → AI regime score</strong>. Source scores and source weights come from latest-report.md; each AI weight may move at most 10 points from its source weight, each AI factor score at most 30 points, and the computed AI regime score at most 25 points. Every input is shown so the adjustment is auditable.</p>
 {scorecard_narrative}
-<table><thead><tr><th>Factor</th><th>Weight</th><th>Score (/100)</th><th>Contribution</th><th>Rationale</th></tr></thead><tbody>
-{scorecard_rows}
-</tbody><tfoot><tr><th colspan="3">CIO Weighted Regime Score</th><th>{cio["score"]}</th><th>Source-derived regime score: {pct(r["score"])}/100</th></tr></tfoot></table>
+<table><thead><tr><th>Factor</th><th>Source Score</th><th>AI Score</th><th>&Delta; Score</th><th>Source Wt</th><th>AI Wt</th><th>&Delta; Wt</th><th>AI Contribution</th></tr></thead><tbody>
+{ai_score_rows}
+</tbody><tfoot><tr><th colspan="4">AI regime score (&Sigma; score &times; weight / 100)</th><th colspan="2">Weights {ai_weights_total:.2f}</th><th colspan="2">{ai_score_text}</th></tr></tfoot></table>
+<p><small>Source rule-based regime score: {pct(r["score"])}/100. AI adjustment: {ai_delta_text}.</small></p>
+<p>{adj_rationale}</p>
+
+<h2 id="forward-signal">Forward Signal (Score → Expected Return)</h2>
+<p>Read-only restatement of the source engine's calibration: what this regime-score bucket has historically implied for forward SPY returns. It does not feed back into the AI score.</p>
+<table><thead><tr><th>Horizon</th><th>Bucket</th><th>Historical mean</th><th>n</th><th>Direction</th></tr></thead><tbody>
+{fwd_rows}
+</tbody></table>
+<p><small>Sample: {esc(d.get("forward_signal_sample") or "n/a")}</small></p>
+<p>{forward_signal}</p>
+
+<h2 id="sector-rating">AI Sector Ratings</h2>
+<p>AI ratings only. Each row is the model's own judgment after independent research, with the specific reason it moved from the source score. Adjustments beyond ±30 points are rejected by validation.</p>
+<table><thead><tr><th>Sector</th><th>AI Rating</th><th>Why the AI moved it</th></tr></thead><tbody>
+{ai_sector_rows}
+</tbody></table>
+
+<h3>Source vs AI — Sector Comparison</h3>
+<p>Source ratings are the rule-based engine's scores from latest-report.md. &Delta; = AI − Source. This is the second data pair, kept separate from the AI ratings table above.</p>
+<table><thead><tr><th>Sector</th><th>Source Rating</th><th>AI Rating</th><th>&Delta;</th></tr></thead><tbody>
+{sector_compare_rows}
+</tbody></table>
 
 <h2 id="scen">Probability-Weighted Scenarios</h2>
 <p><em>{sc["method"]}</em>. ST probabilities total {sum(p for _, p in sc["st"]):.1f}%; LT total {sum(p for _, p in sc["lt"]):.1f}%.</p>
@@ -668,6 +768,7 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
 <h2 id="macro">Macro View</h2>
 <p>Macro snapshot &mdash; observation dates per &sect;54A &sect;15. Reconciliation against sslip.io host {base} (spec paths: {spec_str}).</p>
 {macro_narrative}
+{macro_outlook}
 <ul>
 {pcs}
 </ul>
@@ -708,7 +809,6 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
 <table><thead><tr><th>Rank</th><th>GICS Sector</th><th>Score</th><th>Breadth 50D</th><th>Breadth 200D</th><th>Pos 20D</th><th>Leaders</th><th>Laggards</th></tr></thead><tbody>
 {sec_rows}
 </tbody></table>
-{adj_sec_block}
 
 <h2 id="themes">Theme Rankings</h2>
 <p><em>Source-derived from latest-report.md Thematic Strength.</em></p>
@@ -728,6 +828,8 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
 <table><thead><tr><th>Trade</th><th>Side</th><th>Type</th><th>Rationale</th></tr></thead><tbody>
 {trades_html}
 </tbody></table>
+{candidate_screen}
+{stock_ideas}
 
 <h2 id="heat-st">Portfolio Heat Map &mdash; Short-Term (1-3M)</h2>
 <p><em>{heat["method"]}</em>. ST active weights net to 0 (zero-sum by construction, &sect;54A &sect;19).</p>
@@ -755,6 +857,7 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
 <h2 id="risks">Key Risk Analysis</h2>
 <p><em>Mixture of source-derived and analyst inference (labelled per row).</em></p>
 {risk_narrative}
+{portfolio_risk}
 <table><thead><tr><th>Risk</th><th>Category</th><th>Assessment</th><th>Tag</th></tr></thead><tbody>
 {risks_html}
 </tbody></table>
@@ -774,9 +877,9 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
 <ul>
 <li><strong>Verified fact</strong> &mdash; market prices, macro yields and spreads quoted from the primary report; official statistical and policy dates where cited.</li>
 <li><strong>Source-derived signal</strong> &mdash; flow z-scores, breadth metrics and regime scores computed by the latest-report.md pipeline.</li>
-<li><strong>Analyst inference / estimate</strong> &mdash; CIO scorecard, scenarios, heat maps, trade ideas, catalysts and risk assessments are rule-based derivations (labelled per section); not forward-looking guarantees.</li>
-<li><strong>AI narrative and re-rating</strong> &mdash; prose, external citations and adjusted judgment scores are model-authored and validated against the frozen evidence pack; adjusted values are disclosed beside source values.</li>
-<li><strong>Python vs CIO attribution</strong> (&sect;54A &sect;16) &mdash; Source Regime Score ({pct(r["score"])}) is quantitative; CIO Weighted Score ({pct(cio["score"])}) is derived; methodologies differ.</li>
+<li><strong>Analyst inference / estimate</strong> &mdash; AI regime scorecard, scenarios, heat maps, trade ideas, catalysts and risk assessments are model or rule-based derivations (labelled per section); not forward-looking guarantees.</li>
+<li><strong>AI narrative and re-rating</strong> &mdash; prose, external citations and AI factor/weight/sector judgments are model-authored and validated against the frozen evidence pack; AI values are disclosed beside source values.</li>
+<li><strong>Source vs AI attribution</strong> (&sect;54A &sect;16) &mdash; Source Regime Score ({pct(r["score"])}) is quantitative; AI regime score ({ai_score_text}) is computed as &Sigma;(factor score &times; AI weight); methodologies differ and the derivation is disclosed above.</li>
 </ul>
 <footer>Generated {esc(datetime.datetime.utcnow().strftime("%Y-%m-%d %H:%M UTC"))} &middot; {footer_note}.</footer>
 </div>
@@ -810,10 +913,11 @@ def check_html(html: str, d: dict, narrative: bool = False) -> list:
         fails.append("themes != 13 (got %d)" % len(d["themes"]))
     if '<div class="report" id="top">' not in html:
         fails.append("missing root <div class='report' id='top'>")
-    base_tids = ("exec", "cio-dashboard", "risk-opportunity", "analogs", "scorecard",
-                 "scen", "macro", "cross", "equities", "price-action", "flows", "posture",
-                 "sectors", "themes", "style", "factor-style", "trades",
-                 "heat-st", "heat-lt", "catalysts", "risks", "conclusions", "disclosures")
+    base_tids = ("exec", "regime-scorecard", "forward-signal", "sector-rating",
+                 "risk-opportunity", "analogs", "scen", "macro", "cross", "equities",
+                 "price-action", "flows", "posture", "sectors", "themes", "style",
+                 "factor-style", "trades", "heat-st", "heat-lt", "catalysts", "risks",
+                 "conclusions", "disclosures")
     extra_tids = ("what-matters",) if narrative else ()
     for tid in base_tids + extra_tids:
         if 'id="%s"' % tid not in html or 'href="#%s"' % tid not in html:
@@ -843,8 +947,58 @@ def check_numerical(d: dict) -> list:
     return fails
 
 
+def idea_qc(html: str) -> list:
+    """Post-render QC on the published idea cards (independent of narrative JSON)."""
+    fails: list[str] = []
+    cards = re.findall(r'<div class="idea-card">(.*?)</div>', html, re.S)
+    if not cards:
+        return ["idea QC: no idea cards found in the rendered HTML"]
+    ideas = []
+    for c in cards:
+        m = re.search(r'<h3>([A-Z][A-Z0-9.\-]*)', c)
+        if not m:
+            continue
+        ticker = m.group(1)
+        cur = re.search(r'Current price\.</strong>\s*([\d.]+)', c)
+        pdate = re.search(r'as of ([\d-]+)', c)
+        entry = re.search(r'<strong>Entry\.</strong>\s*([\d.]+)', c)
+        reassess = re.search(r'<strong>Reassess\.</strong>\s*([A-Z]+)', c)
+        ideas.append({
+            "ticker": ticker,
+            "current_price": float(cur.group(1).rstrip(".")) if cur else None,
+            "price_date": pdate.group(1) if pdate else "",
+            "entry_price": float(entry.group(1).rstrip(".")) if entry else None,
+            "reassess": reassess.group(1) if reassess else "",
+        })
+        srcs = re.findall(r'href="([^"]+)"', c)
+        deep = [u for u in srcs if "api.138.2.69.165.sslip.io" not in u.lower()
+                and any(k in u.lower() for k in ("sec.gov", "10-q", "10-k", "8-k",
+                                                 "earnings", "results", "press-release",
+                                                 "news-release"))]
+        if not deep:
+            fails.append("idea QC: %s has no dated filing/results source (API/IR homepage only)" % ticker)
+    prev = set(_previous_idea_tickers())
+    current = {i["ticker"] for i in ideas}
+    if prev and len(current) >= 3:
+        new = [t for t in current if t not in prev]
+        if len(new) < 2:
+            fails.append("idea QC: only %d new selected idea(s) versus HEAD (%s); at least 2 required"
+                         % (len(new), ", ".join(sorted(prev))))
+        for i in ideas:
+            if i["ticker"] in prev and i["reassess"] == "NEW":
+                fails.append("idea QC: %s was in HEAD but is marked NEW" % i["ticker"])
+    for i in ideas:
+        if i["current_price"] is None or i["entry_price"] is None or not i["price_date"]:
+            fails.append("idea QC: %s is missing current/entry price or price date" % i["ticker"])
+    fails += audit_ideas(ideas)
+    return fails
+
+
 def run_qc(html: str, d: dict, narrative: bool = False) -> list:
-    return check_html(html, d, narrative=narrative) + check_numerical(d)
+    fails = check_html(html, d, narrative=narrative) + check_numerical(d)
+    if narrative:
+        fails += idea_qc(html)
+    return fails
 
 
 # --------------------------------------------------------------------------- #
@@ -951,7 +1105,9 @@ def main() -> int:
         except Exception as e:  # malformed JSON / unreadable file
             sys.stderr.write("HALT: cannot load narrative %s: %s\n" % (args.narrative, e))
             return 4
-        nfails = validate_narrative(raw_narrative, evidence)
+        price_fails = audit_ideas(
+            (raw_narrative.get("sections") or {}).get("stock_ideas") or [])
+        nfails = price_fails + validate_narrative(raw_narrative, evidence)
         if nfails:
             sys.stderr.write("HALT: narrative validation failed (%d); no file written.\n" % len(nfails))
             for f in nfails:

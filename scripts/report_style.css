@@ -99,3 +99,20 @@ footer { margin-top: 2rem; color: var(--fg-muted); font-size: 0.8rem; border-top
 .sources a { font-weight: 600; }
 .citation-note { color: var(--fg-muted); }
 h2:target, h3:target { scroll-margin-top: 1rem; }
+
+
+/* ---------------------------------------------------------------------------
+   Single-stock idea cards (AEGIS research upgrade)
+   --------------------------------------------------------------------------- */
+.idea-card {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-left: 4px solid var(--accent);
+  border-radius: 8px;
+  padding: 1rem 1.2rem;
+  margin: 1.2rem 0;
+}
+.idea-card h3 { margin-top: 0; }
+.idea-meta { font-size: 0.78em; font-weight: 400; color: var(--fg-muted); }
+.idea-card table { margin: 0.6rem 0; }
+.idea-sources { word-break: break-all; color: var(--fg-muted); }
