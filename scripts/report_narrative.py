@@ -462,6 +462,9 @@ def _validate_valuation(row: dict, i: int, fails: list[str], global_sources: dic
     ttm_eps = _num_or_none(row.get("ttm_eps_diluted"))
     ttm_pe = _num_or_none(row.get("ttm_pe"))
     if ttm_eps is None:
+        qs = row.get("ttm_eps_quarters")
+        if isinstance(qs, list) and len(qs) == 4 and all(_num_or_none(q) is not None for q in qs):
+            fails.append("stock_ideas[%d].ttm_eps_diluted must be numeric when four quarters are provided" % i)
         if str(row.get("ttm_pe") or "").strip().upper() not in ("N/M", "N/A"):
             fails.append("stock_ideas[%d].ttm_pe must be N/M or N/A when TTM EPS is unavailable" % i)
     elif ttm_eps <= 0:

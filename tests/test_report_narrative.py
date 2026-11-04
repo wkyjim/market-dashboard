@@ -871,3 +871,20 @@ def test_sec_unavailable_blocks():
     idea = {"ticker": "X", "sec_cik": "0000000001", "ttm_eps_diluted": 1.0}
     fails = audit_fundamentals([idea], lookup=lambda c: None)
     assert any("SEC XBRL unavailable" in f for f in fails)
+
+
+def test_nm_ttm_with_four_quarters_rejected(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    idea = n["sections"]["stock_ideas"][0]
+    idea["ttm_eps_diluted"] = "N/M"
+    idea["ttm_pe"] = "N/M"
+    fails = validate_narrative(n, ev)
+    assert any("must be numeric when four quarters are provided" in f for f in fails)
+
+
+def test_sec_ttm_nm_is_blocked():
+    from fundamental_audit import audit_fundamentals
+    idea = {"ticker": "REGN", "sec_cik": "0000872589", "ttm_eps_diluted": "N/M"}
+    fails = audit_fundamentals([idea], lookup=lambda c: _facts_regn())
+    assert any("N/M is not accepted" in f for f in fails)

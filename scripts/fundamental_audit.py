@@ -113,10 +113,13 @@ def audit_fundamentals(ideas, lookup=fetch_eps, tolerance_pct: float = 2.0) -> l
         claimed_ttm = idea.get("ttm_eps_diluted")
         if sec_ttm is None:
             fails.append("stock_ideas[%d] %s: SEC facts do not contain four quarters" % (i, ticker))
-        elif isinstance(claimed_ttm, (int, float)):
-            if abs(float(claimed_ttm) - sec_ttm) > max(0.10, abs(sec_ttm) * tolerance_pct / 100.0):
-                fails.append("stock_ideas[%d] %s: TTM EPS %.2f != SEC XBRL %.2f"
-                             % (i, ticker, float(claimed_ttm), sec_ttm))
+        elif not isinstance(claimed_ttm, (int, float)):
+            fails.append("stock_ideas[%d] %s: TTM EPS must be numeric and match SEC XBRL %.2f "
+                         "(got %r); N/M is not accepted when SEC data exists"
+                         % (i, ticker, sec_ttm, claimed_ttm))
+        elif abs(float(claimed_ttm) - sec_ttm) > max(0.10, abs(sec_ttm) * tolerance_pct / 100.0):
+            fails.append("stock_ideas[%d] %s: TTM EPS %.2f != SEC XBRL %.2f"
+                         % (i, ticker, float(claimed_ttm), sec_ttm))
         claimed_h1 = idea.get("h1_eps_reported")
         if isinstance(claimed_h1, (int, float)):
             sec_h1 = h1_eps(facts)
