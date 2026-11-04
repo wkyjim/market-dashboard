@@ -296,10 +296,11 @@ def parse_latest_report(path: str) -> dict:
                 continue
             sectors.append({"name": r[0], "count": r[1], "breadth_50": b50, "breadth_200": b200,
                             "positive_20d": pos, "dispersion": disp, "label": r[7],
-                            "leaders": r[8], "laggards": r[9] if len(r) > 9 else ""})
-    sectors.sort(key=lambda s: s["breadth_200"], reverse=True)
+                            "leaders": r[8], "laggards": r[9] if len(r) > 9 else "",
+                            "score": round((b50 + b200 + pos) / 3.0, 2)})
+    sectors.sort(key=lambda s: s["score"], reverse=True)
     for i, s in enumerate(sectors, 1):
-        s["rank"], s["score"] = i, round((s["breadth_50"] + s["breadth_200"] + s["positive_20d"]) / 3.0, 2)
+        s["rank"] = i
     d["sectors"] = sectors
 
     # Thematic Strength (exactly 13 themes)
