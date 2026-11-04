@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 4 November 2026, 15:13:09 (HKT)
+Generated at: 4 November 2026, 16:08:05 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **49.99 / 100** (Mixed / Rotation)
+- Regime score: **50.5 / 100** (Mixed / Rotation)
 - US equity strength: **41.16 / 100** (weak)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **51.53 / 100**, reliability **71.51 / 100**
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 49.99 | Mixed / Rotation |
+| Overall regime | 50.5 | Mixed / Rotation |
 | equity_trend | 31.25 | risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 43.95 | mild risk-off pressure; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 47.22 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 56.88 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 57.33 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 63.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 51.09 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 61.88 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0, news_confirmation=61.88 |
+| Positive contributors |  | volatility=70.0, commodity_confirmation=63.0, news_confirmation=61.88 |
 | Negative contributors |  | equity_trend=31.25, equity_momentum=43.95 |
 
 ## Forward Signal (Score → Expected Return)
@@ -37,9 +37,9 @@ Read-only mapping. The regime score is a *state* descriptor, not a forecast; thi
 
 | Horizon | Bucket | Historical mean | n | Direction |
 | --- | --- | --- | --- | --- |
-| 5D | 45-50 | 1.3% | 9 | up |
-| 20D | 45-50 | 2.32% | 9 | up |
-| 60D | 45-50 | 4.94% | 9 | up |
+| 5D | 50-55 | 0.69% | 13 | up |
+| 20D | 50-55 | 1.5% | 13 | up |
+| 60D | 50-55 | 4.7% | 13 | up |
 
 Sample: 2025-10-21 → 2026-08-03, 116 daily origins.
 Bottom-vs-top spread at 60D: **6.75 pp** (block-bootstrap 95% CI [1.92, 10.76], P(spread<=0)=<0.0001)
@@ -82,8 +82,8 @@ Method: Analyst inference/estimate (historical bucket calibration).
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
-| Copper | Copper stable | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
+| Oil | WTI crude stable | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -98,16 +98,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 20.83 | -1.51 | 2026-11-03 | closed |
 | ^SKEW | CBOE SKEW Index | 150.01 | -1.81 | 2026-11-03 | closed |
 | ^MOVE | ICE BofA MOVE Index | 99.97 | -0.39 | 2026-11-03 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.6 | -0.26 | 2026-11-04 | live as of 4 November 2026, 15:00:20 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.67 | -0.3 | 2026-11-04 | live as of 4 November 2026, 15:00:20 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -0.38 | 2026-11-04 | live as of 4 November 2026, 15:00:20 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.81 | -0.43 | 2026-11-04 | live as of 4 November 2026, 15:00:20 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.93 | -0.36 | 2026-11-04 | live as of 4 November 2026, 15:00:20 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.24 | 2026-11-04 | live as of 4 November 2026, 15:00:20 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.19 | 2026-11-04 | live as of 4 November 2026, 15:00:20 (HKT) |
-| HK50 | Hang Seng Futures | 23798.5 | 1.73 | 2026-11-04 | live as of 4 November 2026, 15:00:20 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 896.5 | 1.28 | 2026-11-03 | live as of 4 November 2026, 15:00:20 (HKT) |
-| CIHc1 | SSE 50 Futures | 2748.4 | 0.12 | 2026-11-03 | live as of 4 November 2026, 15:00:20 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.59 | -0.41 | 2026-11-04 | live as of 4 November 2026, 16:00:22 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.66 | -0.45 | 2026-11-04 | live as of 4 November 2026, 16:00:22 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.71 | -0.61 | 2026-11-04 | live as of 4 November 2026, 16:00:22 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.8 | -0.64 | 2026-11-04 | live as of 4 November 2026, 16:00:22 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.92 | -0.65 | 2026-11-04 | live as of 4 November 2026, 16:00:22 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.33 | -0.41 | 2026-11-04 | live as of 4 November 2026, 16:00:22 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.3 | -0.36 | 2026-11-04 | live as of 4 November 2026, 16:00:22 (HKT) |
+| HK50 | Hang Seng Futures | 23874.0 | 2.05 | 2026-11-04 | live as of 4 November 2026, 16:00:22 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 896.5 | 1.28 | 2026-11-03 | live as of 4 November 2026, 16:00:22 (HKT) |
+| CIHc1 | SSE 50 Futures | 2748.4 | 0.12 | 2026-11-03 | live as of 4 November 2026, 16:00:22 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 76.98 | 0.12 | 2026-11-03 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 103.72 | 0.01 | 2026-11-03 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.36 | 0.11 | 2026-11-03 | closed |
@@ -117,10 +117,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 81.11 | -0.76 | 2026-11-03 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 91.16 | -0.37 | 2026-11-03 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.4 | -0.07 | 2026-11-03 | closed |
-| GC=F | Gold Future | 4031.1 | 2.3 | 2026-11-04 | live as of 4 November 2026, 15:00:20 (HKT) |
-| SI=F | Silver Future | 51.62 | 4.11 | 2026-11-04 | live as of 4 November 2026, 15:00:20 (HKT) |
-| CL=F | WTI Crude Oil Future | 96.39 | 0.31 | 2026-11-04 | live as of 4 November 2026, 15:00:20 (HKT) |
-| HG=F | Copper Future | 6.38 | 0.05 | 2026-11-04 | live as of 4 November 2026, 15:00:20 (HKT) |
+| GC=F | Gold Future | 4035.9 | 2.42 | 2026-11-04 | live as of 4 November 2026, 16:00:22 (HKT) |
+| SI=F | Silver Future | 51.77 | 4.39 | 2026-11-04 | live as of 4 November 2026, 16:00:22 (HKT) |
+| CL=F | WTI Crude Oil Future | 96.33 | 0.25 | 2026-11-04 | live as of 4 November 2026, 16:00:22 (HKT) |
+| HG=F | Copper Future | 6.41 | 0.53 | 2026-11-04 | live as of 4 November 2026, 16:00:22 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -534,4 +534,4 @@ Positioning and flow data is used as confirmation only.
 
 ## Cycle Metadata
 
-- Report generated at: 04 November 2026, 15:13:09 (HKT)
+- Report generated at: 04 November 2026, 16:08:05 (HKT)
