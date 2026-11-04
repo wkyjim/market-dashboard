@@ -613,6 +613,11 @@ def _validate_valuation(row: dict, i: int, fails: list[str], global_sources: dic
         if bad:
             fails.append("stock_ideas[%d].valuation_provenance has invalid labels: %s"
                          % (i, ", ".join(bad)))
+        for key in ("fy2027_eps_consensus", "fy2028_eps_consensus"):
+            if str(prov.get(key, "")).strip() == "CONSENSUS" and not _src_ok(row.get("consensus_source")):
+                fails.append("stock_ideas[%d].%s is labelled CONSENSUS but consensus_source is not a "
+                             "real URL in global sources; cite a consensus source or use AI_FORECAST"
+                             % (i, key))
         if str(row.get("verification") or "").strip() == "Verified":
             weak = [k for k in required
                     if str(prov.get(k, "")).strip() in ("AI_FORECAST", "UNAVAILABLE")]

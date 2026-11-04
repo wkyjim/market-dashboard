@@ -155,7 +155,7 @@ def _good_narrative(evidence: dict) -> dict:
                 "fy_tax_rate_pct": "N/A", "fy_diluted_shares": "N/A",
                 "valuation_provenance": {
                     "ttm_eps_diluted": "VERIFIED_FACT", "ttm_pe": "VERIFIED_FACT",
-                    "fy2027_eps_consensus": "CONSENSUS", "fy2028_eps_consensus": "CONSENSUS",
+                    "fy2027_eps_consensus": "AI_FORECAST", "fy2028_eps_consensus": "AI_FORECAST",
                     "pe_5y_median": "CONSENSUS", "eps_revision_pct": "CONSENSUS",
                     "base_target": "AI_FORECAST", "bull_target": "AI_FORECAST",
                     "bear_target": "AI_FORECAST",
@@ -906,3 +906,13 @@ def test_pe_history_source_must_be_cmc():
     idea = {"ticker": "AAPL", "pe_5y_median": 29.6, "pe_history_source": "https://example.com"}
     fails = audit_pe_history([idea], lookup=lambda t: stats)
     assert any("companiesmarketcap.com" in f for f in fails)
+
+
+def test_consensus_label_requires_source(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    idea = n["sections"]["stock_ideas"][0]
+    idea["valuation_provenance"]["fy2027_eps_consensus"] = "CONSENSUS"
+    idea["consensus_source"] = "N/A"
+    fails = validate_narrative(n, ev)
+    assert any("labelled CONSENSUS" in f for f in fails)
