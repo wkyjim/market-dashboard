@@ -299,6 +299,16 @@ CARD_SECTIONS = {
         "thesis", "assumptions", "why_vs_alternatives", "contrary",
         "catalysts", "risks", "entry_condition", "exit", "invalidation",
         "opposing", "reassess", "verification", "sources",
+        # --- valuation block (P0) ---
+        "ttm_eps_diluted", "ttm_pe",
+        "fy2026_eps_consensus", "fy2027_eps_consensus", "fy2028_eps_consensus",
+        "fwd_pe_2027", "fwd_pe_2028",
+        "eps_growth_2026_2028_pct", "eps_revision_pct",
+        "pe_3y_median", "pe_3y_min", "pe_3y_max", "pe_3y_percentile",
+        "pe_5y_median", "pe_5y_min", "pe_5y_max", "pe_5y_percentile",
+        "fwd_pe_premium_vs_median_pct",
+        "bull_eps", "bull_pe", "base_eps", "base_pe", "bear_eps", "bear_pe",
+        "valuation_method", "valuation_assumptions",
     ),
 }
 
@@ -412,6 +422,114 @@ def _validate_candidate_screen(rows, stock_tickers: set, fails: list[str]) -> No
     if stock_tickers and selected != stock_tickers:
         fails.append("candidate_screen Selected tickers %s do not match stock_ideas tickers %s"
                      % (sorted(selected), sorted(stock_tickers)))
+
+
+def _num_or_none(value):
+    """Parse a numeric field; N/M, N/A and blanks return None."""
+    if isinstance(value, bool):
+        return None
+    if isinstance(value, (int, float)):
+        return float(value)
+    if isinstance(value, str):
+        text = value.strip().replace(",", "")
+        if text.upper() in ("N/M", "N/A", "NA", ""):
+            return None
+        try:
+            return float(text)
+        except ValueError:
+            return None
+    return None
+
+
+def _validate_valuation(row: dict, i: int, fails: list[str]) -> None:
+    """Deterministic valuation reconciliation: EPS x P/E = target, P/E math, ranges."""
+    cur = _num_or_none(row.get("current_price"))
+    method = str(row.get("valuation_method") or "").strip()
+    if method not in ("P/E", "EV/EBITDA", "FCF yield", "DCF", "SOTP", "Other"):
+        fails.append("stock_ideas[%d].valuation_method must be one of P/E, EV/EBITDA, "
+                     "FCF yield, DCF, SOTP, Other" % i)
+    if not str(row.get("valuation_assumptions") or "").strip():
+        fails.append("stock_ideas[%d].valuation_assumptions is empty" % i)
+
+    ttm_eps = _num_or_none(row.get("ttm_eps_diluted"))
+    ttm_pe = _num_or_none(row.get("ttm_pe"))
+    if ttm_eps is None:
+        if str(row.get("ttm_pe") or "").strip().upper() not in ("N/M", "N/A"):
+            fails.append("stock_ideas[%d].ttm_pe must be N/M or N/A when TTM EPS is unavailable" % i)
+    elif ttm_eps <= 0:
+        if str(row.get("ttm_pe") or "").strip().upper() != "N/M":
+            fails.append("stock_ideas[%d]: nonpositive TTM EPS requires ttm_pe='N/M'" % i)
+    elif cur and ttm_pe is not None:
+        expected = cur / ttm_eps
+        if abs(ttm_pe / expected - 1.0) > 0.02:
+            fails.append("stock_ideas[%d].ttm_pe %.2f != current_price/TTM EPS %.2f"
+                         % (i, ttm_pe, expected))
+
+    for year, eps_key, pe_key in (
+        ("2027", "fy2027_eps_consensus", "fwd_pe_2027"),
+        ("2028", "fy2028_eps_consensus", "fwd_pe_2028"),
+    ):
+        eps = _num_or_none(row.get(eps_key))
+        pe = _num_or_none(row.get(pe_key))
+        if eps is None:
+            continue
+        if eps <= 0:
+            if str(row.get(pe_key) or "").strip().upper() != "N/M":
+                fails.append("stock_ideas[%d]: nonpositive FY%s EPS requires %s='N/M'"
+                             % (i, year, pe_key))
+        elif cur and pe is not None:
+            expected = cur / eps
+            if abs(pe / expected - 1.0) > 0.02:
+                fails.append("stock_ideas[%d].%s %.2f != current_price/FY%s EPS %.2f"
+                             % (i, pe_key, pe, year, expected))
+
+    e26 = _num_or_none(row.get("fy2026_eps_consensus"))
+    e28 = _num_or_none(row.get("fy2028_eps_consensus"))
+    growth = _num_or_none(row.get("eps_growth_2026_2028_pct"))
+    if e26 and e28 and e26 > 0 and e28 > 0 and growth is not None:
+        expected = (e28 / e26 - 1.0) * 100.0
+        if abs(growth - expected) > 0.5:
+            fails.append("stock_ideas[%d].eps_growth_2026_2028_pct %.2f != (FY28/FY26-1)*100 %.2f"
+                         % (i, growth, expected))
+
+    for prefix in ("pe_3y", "pe_5y"):
+        med = _num_or_none(row.get(prefix + "_median"))
+        lo = _num_or_none(row.get(prefix + "_min"))
+        hi = _num_or_none(row.get(prefix + "_max"))
+        pct = _num_or_none(row.get(prefix + "_percentile"))
+        if None not in (med, lo, hi) and not (lo <= med <= hi):
+            fails.append("stock_ideas[%d].%s range is not min <= median <= max" % (i, prefix))
+        if pct is not None and not (0 <= pct <= 100):
+            fails.append("stock_ideas[%d].%s_percentile must be 0-100" % (i, prefix))
+
+    fpe = _num_or_none(row.get("fwd_pe_2027"))
+    med5 = _num_or_none(row.get("pe_5y_median"))
+    premium = _num_or_none(row.get("fwd_pe_premium_vs_median_pct"))
+    if fpe and med5 and premium is not None:
+        expected = (fpe / med5 - 1.0) * 100.0
+        if abs(premium - expected) > 0.5:
+            fails.append("stock_ideas[%d].fwd_pe_premium_vs_median_pct %.2f != "
+                         "(fwd P/E / 5Y median - 1)*100 %.2f" % (i, premium, expected))
+
+    if method == "P/E":
+        for name, target_key in (("bull", "bull_target"), ("base", "base_target"),
+                                 ("bear", "bear_target")):
+            eps = _num_or_none(row.get(name + "_eps"))
+            pe = _num_or_none(row.get(name + "_pe"))
+            target = _num_or_none(row.get(target_key))
+            if eps is None or pe is None or target is None:
+                fails.append("stock_ideas[%d].%s scenario needs %s_eps, %s_pe and %s"
+                             % (i, name, name, name, target_key))
+                continue
+            if eps <= 0 or pe <= 0:
+                fails.append("stock_ideas[%d].%s scenario EPS and P/E must be positive for P/E method"
+                             % (i, name))
+                continue
+            implied = eps * pe
+            tolerance = max(0.5, abs(target) * 0.005)
+            if abs(implied - target) > tolerance:
+                fails.append("stock_ideas[%d] %s: %.2f EPS x %.2f P/E = %.2f != target %.2f"
+                             % (i, name, eps, pe, implied, target))
 
 
 def _validate_stock_ideas(rows, narrative: dict, fails: list[str], evidence: dict) -> set:
@@ -545,6 +663,7 @@ def _validate_stock_ideas(rows, narrative: dict, fails: list[str], evidence: dic
         if not any(k in assumptions for k in ("eps", "p/e", "multiple", "fcf", "dcf", "ebitda", "revenue")):
             fails.append("stock_ideas[%d].assumptions must state an explicit valuation basis "
                          "(EPS, P/E, multiple, FCF, DCF, EBITDA or revenue)" % i)
+        _validate_valuation(row, i, fails)
         srcs = row.get("sources")
         if not isinstance(srcs, list) or not srcs:
             fails.append("stock_ideas[%d].sources must be a non-empty list of URLs" % i)
@@ -1035,6 +1154,40 @@ def _render_stock_ideas(rows) -> str | None:
             continue
         def e(key):
             return _esc(str(r.get(key) if r.get(key) is not None else ""))
+        def v(key):
+            return _esc(str(r.get(key) if r.get(key) is not None else "N/A"))
+
+        val_html = (
+            '<h4>Valuation</h4>'
+            '<table><thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>'
+            '<tr><td>TTM diluted EPS</td><td>%s</td></tr>'
+            '<tr><td>TTM P/E</td><td>%s</td></tr>'
+            '<tr><td>FY2026E / FY2027E / FY2028E EPS</td><td>%s / %s / %s</td></tr>'
+            '<tr><td>Forward P/E 2027 / 2028</td><td>%s / %s</td></tr>'
+            '<tr><td>EPS growth 2026-2028</td><td>%s%%</td></tr>'
+            '<tr><td>EPS revisions (analyst)</td><td>%s%%</td></tr>'
+            '<tr><td>3Y P/E median (min-max, pct)</td><td>%s (%s-%s, %s pct)</td></tr>'
+            '<tr><td>5Y P/E median (min-max, pct)</td><td>%s (%s-%s, %s pct)</td></tr>'
+            '<tr><td>Forward P/E vs 5Y median</td><td>%s%%</td></tr>'
+            '<tr><td>Method</td><td>%s</td></tr>'
+            '<tr><td>Assumptions</td><td>%s</td></tr>'
+            '</tbody></table>'
+            '<table><thead><tr><th>Scenario</th><th>EPS</th><th>P/E</th><th>Implied price</th></tr></thead><tbody>'
+            '<tr><td>Bull</td><td>%s</td><td>%s</td><td>%s</td></tr>'
+            '<tr><td>Base</td><td>%s</td><td>%s</td><td>%s</td></tr>'
+            '<tr><td>Bear</td><td>%s</td><td>%s</td><td>%s</td></tr>'
+            '</tbody></table>'
+            % (v("ttm_eps_diluted"), v("ttm_pe"),
+               v("fy2026_eps_consensus"), v("fy2027_eps_consensus"), v("fy2028_eps_consensus"),
+               v("fwd_pe_2027"), v("fwd_pe_2028"),
+               v("eps_growth_2026_2028_pct"), v("eps_revision_pct"),
+               v("pe_3y_median"), v("pe_3y_min"), v("pe_3y_max"), v("pe_3y_percentile"),
+               v("pe_5y_median"), v("pe_5y_min"), v("pe_5y_max"), v("pe_5y_percentile"),
+               v("fwd_pe_premium_vs_median_pct"), v("valuation_method"), v("valuation_assumptions"),
+               v("bull_eps"), v("bull_pe"), v("bull_target"),
+               v("base_eps"), v("base_pe"), v("base_target"),
+               v("bear_eps"), v("bear_pe"), v("bear_target"))
+        )
         srcs = r.get("sources") or []
         src_html = ", ".join(
             '<a href="%s" target="_blank" rel="noopener noreferrer">%s</a>'
@@ -1050,6 +1203,7 @@ def _render_stock_ideas(rows) -> str | None:
             '<p><strong>Assumptions.</strong> %s</p>\n'
             '<p><strong>Why this versus alternatives.</strong> %s</p>\n'
             '<p><strong>Contrary evidence.</strong> %s</p>\n'
+            '%s'
             '<table><thead><tr><th>Entry</th><th>Base</th><th>Bull</th><th>Bear</th>'
             '<th>Upside</th><th>Downside</th><th>Return from current</th><th>R/R</th></tr></thead><tbody>'
             '<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s%%</td><td>%s%%</td><td>%s%%</td><td>%s</td></tr>'
@@ -1064,7 +1218,7 @@ def _render_stock_ideas(rows) -> str | None:
             % (e("ticker"), e("name"), e("sector"), e("security_type"), e("recommendation"),
                e("horizon"), e("reassess"),
                e("current_price"), e("price_date"), e("entry_price"), e("reassess"), e("verification"),
-               e("thesis"), e("assumptions"), e("why_vs_alternatives"), e("contrary"),
+               e("thesis"), e("assumptions"), e("why_vs_alternatives"), e("contrary"), val_html,
                e("entry_price"), e("base_target"), e("bull_target"), e("bear_target"),
                e("upside_pct"), e("downside_pct"), e("return_from_current_pct"), e("risk_reward"),
                e("catalysts"), e("risks"), e("entry_condition"), e("exit"),

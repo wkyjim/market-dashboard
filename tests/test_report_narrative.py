@@ -116,12 +116,34 @@ def _good_narrative(evidence: dict) -> dict:
         down = round((bear / entry - 1) * 100, 2)
         from_cur = round((base / cur - 1) * 100, 2)
         rr = round(up / abs(down), 2) if down else 0.0
+        ttm_eps = round(cur / 20.0, 2)
+        fy26 = round(cur / 18.0, 2)
+        fy27 = round(cur / 16.0, 2)
+        fy28 = round(cur / 14.0, 2)
+        fwd27 = round(cur / fy27, 2)
+        fwd28 = round(cur / fy28, 2)
+        growth = round((fy28 / fy26 - 1.0) * 100.0, 2)
+        premium = round((fwd27 / 17.0 - 1.0) * 100.0, 2)
         return {"ticker": ticker, "name": ticker + " Inc", "sector": "Energy",
                 "security_type": sec_type, "recommendation": rec, "horizon": "6-12M",
                 "current_price": cur, "price_date": "2026-11-01",
                 "entry_price": entry, "base_target": base, "bull_target": bull,
                 "bear_target": bear, "upside_pct": up, "downside_pct": down,
                 "return_from_current_pct": from_cur, "risk_reward": rr,
+                "ttm_eps_diluted": ttm_eps, "ttm_pe": round(cur / ttm_eps, 2),
+                "fy2026_eps_consensus": fy26, "fy2027_eps_consensus": fy27,
+                "fy2028_eps_consensus": fy28, "fwd_pe_2027": fwd27, "fwd_pe_2028": fwd28,
+                "eps_growth_2026_2028_pct": growth, "eps_revision_pct": 2.0,
+                "pe_3y_median": 18.0, "pe_3y_min": 12.0, "pe_3y_max": 25.0,
+                "pe_3y_percentile": 60.0,
+                "pe_5y_median": 17.0, "pe_5y_min": 10.0, "pe_5y_max": 28.0,
+                "pe_5y_percentile": 55.0,
+                "fwd_pe_premium_vs_median_pct": premium,
+                "bull_eps": round(bull / 10.0, 2), "bull_pe": 10.0,
+                "base_eps": round(base / 10.0, 2), "base_pe": 10.0,
+                "bear_eps": round(bear / 10.0, 2), "bear_pe": 10.0,
+                "valuation_method": "P/E",
+                "valuation_assumptions": "FY2027 EPS x target P/E; EPS from consensus.",
                 "thesis": "Researched gap versus expectations.",
                 "assumptions": "EPS and multiple assumptions stated explicitly.",
                 "why_vs_alternatives": "Best risk/reward within the sector screen.",
@@ -680,3 +702,52 @@ def test_at_least_two_selected_ideas_must_be_new(tmp_path):
         idea["reassess"] = "KEEP"
     fails = validate_narrative(n, ev)
     assert any("at least 2 selected ideas must be new" in f for f in fails)
+
+
+def test_valuation_target_must_equal_eps_times_pe(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sections"]["stock_ideas"][0]["base_pe"] = 12.0  # 6.0 x 12 = 72 != 110
+    fails = validate_narrative(n, ev)
+    assert any("EPS x" in f and "!= target" in f for f in fails)
+
+
+def test_ttm_pe_must_match_price_over_eps(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sections"]["stock_ideas"][0]["ttm_pe"] = 35.0
+    fails = validate_narrative(n, ev)
+    assert any("ttm_pe" in f and "current_price/TTM EPS" in f for f in fails)
+
+
+def test_forward_pe_must_match_price_over_eps(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sections"]["stock_ideas"][0]["fwd_pe_2027"] = 30.0
+    fails = validate_narrative(n, ev)
+    assert any("fwd_pe_2027" in f and "current_price/FY2027 EPS" in f for f in fails)
+
+
+def test_eps_growth_must_match_fy26_fy28(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sections"]["stock_ideas"][0]["eps_growth_2026_2028_pct"] = 99.0
+    fails = validate_narrative(n, ev)
+    assert any("eps_growth_2026_2028_pct" in f for f in fails)
+
+
+def test_pe_range_must_be_ordered(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sections"]["stock_ideas"][0]["pe_3y_min"] = 30.0  # > median 18
+    fails = validate_narrative(n, ev)
+    assert any("pe_3y range" in f for f in fails)
+
+
+def test_nonpositive_ttm_eps_requires_nm(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sections"]["stock_ideas"][0]["ttm_eps_diluted"] = -1.0
+    n["sections"]["stock_ideas"][0]["ttm_pe"] = 20.0
+    fails = validate_narrative(n, ev)
+    assert any("nonpositive TTM EPS" in f for f in fails)

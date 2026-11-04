@@ -909,6 +909,15 @@ def check_html(html: str, d: dict, narrative: bool = False) -> list:
             fails.append("stale date: " + stale)
     if len(d["sectors"]) != 11:
         fails.append("sectors != 11 (got %d)" % len(d["sectors"]))
+    else:
+        names = [str(x.get("name") or "") for x in d["sectors"]]
+        if len(set(names)) != 11:
+            fails.append("GICS sector names are not unique (got %d unique)" % len(set(names)))
+        scores = [x.get("score") for x in d["sectors"]]
+        if any(not isinstance(v, (int, float)) for v in scores):
+            fails.append("GICS sector scores must all be numeric")
+        elif scores != sorted(scores, reverse=True):
+            fails.append("GICS ranking is not sorted by score descending")
     if len(d["themes"]) != 13:
         fails.append("themes != 13 (got %d)" % len(d["themes"]))
     if '<div class="report" id="top">' not in html:
@@ -927,6 +936,14 @@ def check_html(html: str, d: dict, narrative: bool = False) -> list:
 
 def check_numerical(d: dict) -> list:
     fails = []
+    for horizon in ("st", "lt"):
+        rows = d["scenarios"].get(horizon) or []
+        if len(rows) != 3:
+            fails.append("%s scenario set must have exactly 3 entries (got %d)"
+                         % (horizon.upper(), len(rows)))
+        labels = [str(label) for label, _ in rows]
+        if len(set(labels)) != len(labels):
+            fails.append("%s scenario labels are not unique" % horizon.upper())
     st_sum = round(sum(p for _, p in d["scenarios"]["st"]), 1)
     lt_sum = round(sum(p for _, p in d["scenarios"]["lt"]), 1)
     if abs(st_sum - 100) > 0.2:
