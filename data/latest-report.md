@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 4 November 2026, 10:20:05 (HKT)
+Generated at: 4 November 2026, 11:15:55 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **50.43 / 100** (Mixed / Rotation)
+- Regime score: **50.28 / 100** (Mixed / Rotation)
 - US equity strength: **42.22 / 100** (weak)
 - Evidence quality: **72.5 / 100**
-- ETF flow contribution: **48.5 / 100**, reliability **66.13 / 100**
+- ETF flow contribution: **48.23 / 100**, reliability **66.09 / 100**
 - Breadth: **narrow**; above 50DMA `40.0%`, above 200DMA `53.33%`
 - Top sector score: **Healthcare** `72.05`
 - Top theme score: **Energy** `70.95`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 50.43 | Mixed / Rotation |
+| Overall regime | 50.28 | Mixed / Rotation |
 | equity_trend | 40.0 | mild risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 45.36 | neutral / mixed; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 45.0 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -26,9 +26,9 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 54.53 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 46.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 49.01 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 60.62 | mild risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0, news_confirmation=60.62 |
+| etf_flow | 48.83 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| news_confirmation | 58.12 | mild risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=70.0 |
 | Negative contributors |  | equity_trend=40.0, market_breadth=45.0 |
 
 ## Forward Signal (Score → Expected Return)
@@ -98,16 +98,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 20.83 | -1.51 | 2026-11-03 | closed |
 | ^SKEW | CBOE SKEW Index | 150.01 | -1.81 | 2026-11-03 | closed |
 | ^MOVE | ICE BofA MOVE Index | 99.97 | -0.39 | 2026-11-03 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.57 | -1.21 | 2026-11-04 | live as of 4 November 2026, 10:00:22 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.63 | -1.26 | 2026-11-04 | live as of 4 November 2026, 10:00:22 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.69 | -1.2 | 2026-11-04 | live as of 4 November 2026, 10:00:22 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.78 | -1.22 | 2026-11-04 | live as of 4 November 2026, 10:00:22 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.9 | -1.09 | 2026-11-04 | live as of 4 November 2026, 10:00:22 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.31 | -0.86 | 2026-11-04 | live as of 4 November 2026, 10:00:22 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.29 | -0.73 | 2026-11-04 | live as of 4 November 2026, 10:00:22 (HKT) |
-| HK50 | Hang Seng Futures | 23416.0 | 0.09 | 2026-11-04 | live as of 4 November 2026, 10:00:22 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 896.5 | 1.28 | 2026-11-03 | live as of 4 November 2026, 10:00:22 (HKT) |
-| CIHc1 | SSE 50 Futures | 2748.4 | 0.12 | 2026-11-03 | live as of 4 November 2026, 10:00:22 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.57 | -1.21 | 2026-11-04 | live as of 4 November 2026, 11:00:28 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.63 | -1.26 | 2026-11-04 | live as of 4 November 2026, 11:00:28 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.69 | -1.2 | 2026-11-04 | live as of 4 November 2026, 11:00:28 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.78 | -1.22 | 2026-11-04 | live as of 4 November 2026, 11:00:28 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.9 | -1.09 | 2026-11-04 | live as of 4 November 2026, 11:00:28 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.31 | -0.77 | 2026-11-04 | live as of 4 November 2026, 11:00:28 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.29 | -0.64 | 2026-11-04 | live as of 4 November 2026, 11:00:28 (HKT) |
+| HK50 | Hang Seng Futures | 23416.0 | 0.09 | 2026-11-04 | live as of 4 November 2026, 11:00:28 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 896.5 | 1.28 | 2026-11-03 | live as of 4 November 2026, 11:00:28 (HKT) |
+| CIHc1 | SSE 50 Futures | 2748.4 | 0.12 | 2026-11-03 | live as of 4 November 2026, 11:00:28 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 76.98 | 0.12 | 2026-11-03 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 103.72 | 0.01 | 2026-11-03 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.36 | 0.11 | 2026-11-03 | closed |
@@ -348,8 +348,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 47, 'negative': 30, 'neutral': 3}
-- News confirmation score: `60.62`
+- Sentiment counts: {'positive': 45, 'negative': 32, 'neutral': 3}
+- News confirmation score: `58.12`
 
 ### Top Market-Moving Headlines
 
@@ -369,15 +369,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `42.27`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**3. Super Micro’s stock pops as earnings show booming demand for AI servers**
-- Source: MarketWatch Top Stories
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: SMCI, AI, earnings, server demand
-- Score: `41.44`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**4. Oil prices subdued amid U.S.-Iran diplomacy hopes, Trump’s halting of Israel aid**
+**3. Oil prices subdued amid U.S.-Iran diplomacy hopes, Trump’s halting of Israel aid**
 - Source: Investing.com Stock Market
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -385,7 +377,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `40.95`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. TotalEnergies, ADNOC Gas sign 5-year LNG supply deal**
+**4. TotalEnergies, ADNOC Gas sign 5-year LNG supply deal**
 - Source: Investing.com Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / medium-term
@@ -393,7 +385,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.92`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the medium-term.
 
-**6. Russia bombards Ukraine power grid before Abu Dhabi talks; Merz urges Moscow to engage**
+**5. Russia bombards Ukraine power grid before Abu Dhabi talks; Merz urges Moscow to engage**
 - Source: Investing.com Stock Market
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -401,15 +393,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.8`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**7. AMD has been crushed into earnings. Here’s one way to trade it**
-- Source: CNBC Top News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: AMD, earnings, stock-price-decline, trading-strategy
-- Score: `39.37`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**8. HYBE Q3 2026 slides: record revenue hits KRW 1.5 trillion on BTS tour**
+**6. HYBE Q3 2026 slides: record revenue hits KRW 1.5 trillion on BTS tour**
 - Source: Investing.com Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -417,7 +401,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.15`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**9. AMD stock jumps 8% on earnings as data center revenue nearly doubles**
+**7. AMD stock jumps 8% on earnings as data center revenue nearly doubles**
 - Source: CNBC Investing
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / short-term
@@ -425,13 +409,29 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. Oil prices ease to settle near 4-week low on hopes peace talks will end wars**
+**8. Super Micro’s stock pops as earnings show booming demand for AI servers**
+- Source: MarketWatch Top Stories
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: SMCI, AI, earnings, server demand
+- Score: `35.22`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**9. Oil prices ease to settle near 4-week low on hopes peace talks will end wars**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Positive
 - Relevance / horizon: macro / short-term
 - Affected assets: US, Geopolitical Risk, Oil Prices, Military Conflict
 - Score: `34.81`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**10. AMD earnings are out — and the stock is up. Here's what investors need to know.**
+- Source: MarketWatch Bulletins
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: AMD, earnings, stock performance, investor guidance
+- Score: `34.12`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 
 ### Headline Quality Checks
@@ -451,11 +451,11 @@ Positioning and flow data is used as confirmation only.
 ## ETF Flows Analysis
 
 - Market flow regime: `Mixed / Neutral`
-- Market flow score: `50.3 / 100`
+- Market flow score: `49.3 / 100`
 - Equity risk flow: `45.9`
 - Credit risk flow: `53.6`
 - Sector cyclicality flow: `51.6`
-- Duration/liquidity flow: `53.8`
+- Duration/liquidity flow: `46.8`
 - Alternatives: `mixed alternative-asset demand`
 - ETF flow reliability: `66.1 / 100`
 - Dominant allocation direction: `defensive demand`
@@ -472,7 +472,7 @@ Positioning and flow data is used as confirmation only.
 | IWM | U.S. Small Cap | -1.0 | 0.6 | 0.6 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Structural distribution | 64.0 |
 | LQD | Investment-Grade Credit | 1.7 | -0.0 | 0.7 | n/a | Up | Buy | Normal | Steady Accumulation | Risk-On | Strong confirmation | 80.0 |
 | HYG | High-Yield Credit | -0.3 | 0.4 | 0.5 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Medium-term deterioration | 68.0 |
-| SGOV | Treasury Bills / Cash | -1.7 | -1.6 | 0.8 | n/a | Flat | Sell | Normal | Quiet Distribution | Weakening | Strong confirmation; Exceptional institutional selling, Strong sponsorship | 80.0 |
+| SGOV | Treasury Bills / Cash | -1.4 | -1.1 | 0.8 | n/a | Flat | Sell | Normal | Quiet Distribution | Weakening | Strong confirmation; Strong sponsorship | 88.0 |
 | SHY | Short-Duration Treasuries | 0.6 | 1.7 | 0.8 | n/a | Flat | Neutral | Normal | Neutral | Neutral | Structural accumulation; Strong sponsorship | 84.0 |
 | IEF | Intermediate-Duration Treasuries | 1.3 | 1.1 | 0.6 | n/a | Up | Buy | Normal | Steady Accumulation | Risk-On | Strong confirmation | 80.0 |
 | TLT | Long-Duration Treasuries | -0.9 | 0.4 | 0.6 | n/a | Up | Neutral | Normal | Price Leadership | Neutral Bullish | Medium-term deterioration | 68.0 |
@@ -533,4 +533,4 @@ Positioning and flow data is used as confirmation only.
 
 ## Cycle Metadata
 
-- Report generated at: 04 November 2026, 10:20:05 (HKT)
+- Report generated at: 04 November 2026, 11:15:55 (HKT)
