@@ -144,6 +144,22 @@ def _good_narrative(evidence: dict) -> dict:
                 "bear_eps": round(bear / 10.0, 2), "bear_pe": 10.0,
                 "valuation_method": "P/E",
                 "valuation_assumptions": "FY2027 EPS x target P/E; EPS from consensus.",
+                "eps_basis": "GAAP", "ttm_period": "Q4 2025-Q3 2026",
+                "ttm_eps_quarters": [round(ttm_eps / 4.0, 4)] * 4,
+                "split_adjusted": True, "ttm_eps_source": src,
+                "consensus_source": "N/A", "pe_history_source": src,
+                "pe_history_years": 5, "eps_revision_source": src,
+                "fy2027_eps_method": "CONSENSUS", "fy2028_eps_method": "CONSENSUS",
+                "h1_eps_reported": "N/A", "h2_eps_forecast": "N/A",
+                "fy_revenue": "N/A", "fy_net_margin_pct": "N/A",
+                "fy_tax_rate_pct": "N/A", "fy_diluted_shares": "N/A",
+                "valuation_provenance": {
+                    "ttm_eps_diluted": "VERIFIED_FACT", "ttm_pe": "VERIFIED_FACT",
+                    "fy2027_eps_consensus": "CONSENSUS", "fy2028_eps_consensus": "CONSENSUS",
+                    "pe_5y_median": "CONSENSUS", "eps_revision_pct": "CONSENSUS",
+                    "base_target": "AI_FORECAST", "bull_target": "AI_FORECAST",
+                    "bear_target": "AI_FORECAST",
+                },
                 "thesis": "Researched gap versus expectations.",
                 "assumptions": "EPS and multiple assumptions stated explicitly.",
                 "why_vs_alternatives": "Best risk/reward within the sector screen.",
@@ -208,7 +224,7 @@ def _good_narrative(evidence: dict) -> dict:
         "sources": [dict(s) for s in SOURCES] + [
             {"label": "AAA 10-Q", "url": "https://www.sec.gov/aaa-10q", "note": "AAA Inc Q3 2026 10-Q filing"},
             {"label": "BBB 10-Q", "url": "https://www.sec.gov/bbb-10q", "note": "BBB Inc Q3 2026 10-Q filing"},
-            {"label": "CCC 10-Q", "url": "https://www.sec.gov/ccc-10q", "note": "CCC ETF Q3 2026 factsheet"},
+            {"label": "CCC 10-Q", "url": "https://www.sec.gov/ccc-10q", "note": "CCC ETF Q3 2026 factsheet; results"},
             {"label": "DDD 10-Q", "url": "https://www.sec.gov/ddd-10q", "note": "DDD Inc Q3 2026 10-Q filing"},
         ],
         "claims": [
@@ -751,3 +767,54 @@ def test_nonpositive_ttm_eps_requires_nm(tmp_path):
     n["sections"]["stock_ideas"][0]["ttm_pe"] = 20.0
     fails = validate_narrative(n, ev)
     assert any("nonpositive TTM EPS" in f for f in fails)
+
+
+def test_ttm_eps_must_equal_four_quarters(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sections"]["stock_ideas"][0]["ttm_eps_diluted"] = 18.45
+    n["sections"]["stock_ideas"][0]["ttm_eps_quarters"] = [17.0, 18.0, 18.45, 19.0]
+    fails = validate_narrative(n, ev)
+    assert any("sum(ttm_eps_quarters)" in f for f in fails)
+
+
+def test_single_quarter_period_rejected(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sections"]["stock_ideas"][0]["ttm_period"] = "Q3 2026"
+    fails = validate_narrative(n, ev)
+    assert any("not a single quarter" in f for f in fails)
+
+
+def test_split_adjusted_false_rejected(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sections"]["stock_ideas"][0]["split_adjusted"] = False
+    fails = validate_narrative(n, ev)
+    assert any("split_adjusted must be true" in f for f in fails)
+
+
+def test_fy_eps_must_equal_h1_plus_h2(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sections"]["stock_ideas"][0]["h1_eps_reported"] = 4.85
+    n["sections"]["stock_ideas"][0]["h2_eps_forecast"] = 0.20
+    fails = validate_narrative(n, ev)
+    assert any("H1 reported" in f and "H2 forecast" in f for f in fails)
+
+
+def test_verified_requires_verified_provenance(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sections"]["stock_ideas"][0]["verification"] = "Verified"
+    n["sections"]["stock_ideas"][0]["valuation_provenance"]["ttm_eps_diluted"] = "AI_FORECAST"
+    fails = validate_narrative(n, ev)
+    assert any("verification=Verified but provenance" in f for f in fails)
+
+
+def test_ttm_eps_source_required(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sections"]["stock_ideas"][0]["ttm_eps_source"] = "N/A"
+    fails = validate_narrative(n, ev)
+    assert any("ttm_eps_source" in f for f in fails)

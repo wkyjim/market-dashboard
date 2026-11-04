@@ -309,6 +309,14 @@ CARD_SECTIONS = {
         "fwd_pe_premium_vs_median_pct",
         "bull_eps", "bull_pe", "base_eps", "base_pe", "bear_eps", "bear_pe",
         "valuation_method", "valuation_assumptions",
+        # --- fundamental data integrity (P0) ---
+        "eps_basis", "ttm_period", "ttm_eps_quarters", "split_adjusted",
+        "ttm_eps_source", "consensus_source", "pe_history_source",
+        "pe_history_years", "eps_revision_source",
+        "fy2027_eps_method", "fy2028_eps_method",
+        "h1_eps_reported", "h2_eps_forecast",
+        "fy_revenue", "fy_net_margin_pct", "fy_tax_rate_pct", "fy_diluted_shares",
+        "valuation_provenance",
     ),
 }
 
@@ -441,7 +449,7 @@ def _num_or_none(value):
     return None
 
 
-def _validate_valuation(row: dict, i: int, fails: list[str]) -> None:
+def _validate_valuation(row: dict, i: int, fails: list[str], global_sources: dict) -> None:
     """Deterministic valuation reconciliation: EPS x P/E = target, P/E math, ranges."""
     cur = _num_or_none(row.get("current_price"))
     method = str(row.get("valuation_method") or "").strip()
@@ -510,6 +518,100 @@ def _validate_valuation(row: dict, i: int, fails: list[str]) -> None:
         if abs(premium - expected) > 0.5:
             fails.append("stock_ideas[%d].fwd_pe_premium_vs_median_pct %.2f != "
                          "(fwd P/E / 5Y median - 1)*100 %.2f" % (i, premium, expected))
+
+    # --- fundamental data integrity (P0) ---
+    basis = str(row.get("eps_basis") or "").strip()
+    if basis not in ("GAAP", "non-GAAP"):
+        fails.append("stock_ideas[%d].eps_basis must be GAAP or non-GAAP" % i)
+    period = str(row.get("ttm_period") or "").strip()
+    if not period:
+        fails.append("stock_ideas[%d].ttm_period is empty" % i)
+    elif not (("TTM" in period.upper()) or ("Q" in period.upper() and "-" in period)):
+        fails.append("stock_ideas[%d].ttm_period must describe four quarters "
+                     "(e.g. 'Q4 2025-Q3 2026'), not a single quarter" % i)
+    if row.get("split_adjusted") is not True:
+        fails.append("stock_ideas[%d].split_adjusted must be true for TTM/forward EPS" % i)
+
+    quarters = row.get("ttm_eps_quarters")
+    if not isinstance(quarters, list) or len(quarters) != 4:
+        fails.append("stock_ideas[%d].ttm_eps_quarters must be a list of 4 quarterly EPS values" % i)
+    else:
+        vals = [_num_or_none(q) for q in quarters]
+        if any(v is None for v in vals):
+            fails.append("stock_ideas[%d].ttm_eps_quarters must all be numeric" % i)
+        elif ttm_eps is not None and ttm_eps > 0:
+            total = sum(vals)
+            if abs(total - ttm_eps) > max(0.05, abs(ttm_eps) * 0.005):
+                fails.append("stock_ideas[%d].ttm_eps_diluted %.2f != sum(ttm_eps_quarters) %.2f"
+                             % (i, ttm_eps, total))
+
+    def _src_ok(url, need=()):
+        u = str(url or "").strip()
+        if not u or u.upper() == "N/A" or u not in global_sources:
+            return False
+        note = global_sources[u].lower()
+        return any(k in note for k in need) if need else True
+
+    if not _src_ok(row.get("ttm_eps_source"),
+                   ("10-q", "10-k", "earnings", "filing", "results")):
+        fails.append("stock_ideas[%d].ttm_eps_source must be a dated filing/earnings URL "
+                     "listed in global sources" % i)
+    if _num_or_none(row.get("pe_5y_median")) is not None:
+        if not _src_ok(row.get("pe_history_source")):
+            fails.append("stock_ideas[%d].pe_history_source required when 5Y P/E stats are provided" % i)
+        yrs = _num_or_none(row.get("pe_history_years"))
+        if yrs is None or yrs < 5:
+            fails.append("stock_ideas[%d].pe_history_years must be >= 5 when 5Y P/E stats are provided" % i)
+    if _num_or_none(row.get("eps_revision_pct")) is not None:
+        if not _src_ok(row.get("eps_revision_source")):
+            fails.append("stock_ideas[%d].eps_revision_source required when eps_revision_pct is provided" % i)
+
+    h1 = _num_or_none(row.get("h1_eps_reported"))
+    h2 = _num_or_none(row.get("h2_eps_forecast"))
+    fy27 = _num_or_none(row.get("fy2027_eps_consensus"))
+    if h1 is not None and fy27 is not None:
+        if h2 is None:
+            fails.append("stock_ideas[%d].h2_eps_forecast required when h1_eps_reported and "
+                         "FY2027 EPS are provided" % i)
+        elif abs((h1 + h2) - fy27) > max(0.05, abs(fy27) * 0.02):
+            fails.append("stock_ideas[%d]: FY2027 EPS %.2f != H1 reported %.2f + H2 forecast %.2f"
+                         % (i, fy27, h1, h2))
+
+    if str(row.get("fy2027_eps_method") or "").strip() == "AI_FORECAST":
+        rev = _num_or_none(row.get("fy_revenue"))
+        margin = _num_or_none(row.get("fy_net_margin_pct"))
+        tax = _num_or_none(row.get("fy_tax_rate_pct"))
+        shares = _num_or_none(row.get("fy_diluted_shares"))
+        if None in (rev, margin, tax, shares) or shares <= 0:
+            fails.append("stock_ideas[%d]: AI_FORECAST requires fy_revenue, fy_net_margin_pct, "
+                         "fy_tax_rate_pct and fy_diluted_shares" % i)
+        elif fy27 is not None:
+            implied = (rev * (margin / 100.0) * (1.0 - tax / 100.0)) / shares
+            if abs(implied - fy27) > max(0.05, abs(fy27) * 0.05):
+                fails.append("stock_ideas[%d]: FY2027 AI EPS %.2f != "
+                             "(revenue*margin*(1-tax))/shares %.2f" % (i, fy27, implied))
+
+    prov = row.get("valuation_provenance")
+    required = ("ttm_eps_diluted", "ttm_pe", "fy2027_eps_consensus", "fy2028_eps_consensus",
+                "pe_5y_median", "eps_revision_pct", "base_target", "bull_target", "bear_target")
+    labels = {"VERIFIED_FACT", "CONSENSUS", "AI_FORECAST", "UNAVAILABLE"}
+    if not isinstance(prov, dict):
+        fails.append("stock_ideas[%d].valuation_provenance must be an object" % i)
+    else:
+        missing = [k for k in required if k not in prov]
+        if missing:
+            fails.append("stock_ideas[%d].valuation_provenance missing: %s"
+                         % (i, ", ".join(missing)))
+        bad = [k for k, v in prov.items() if str(v).strip() not in labels]
+        if bad:
+            fails.append("stock_ideas[%d].valuation_provenance has invalid labels: %s"
+                         % (i, ", ".join(bad)))
+        if str(row.get("verification") or "").strip() == "Verified":
+            weak = [k for k in required
+                    if str(prov.get(k, "")).strip() in ("AI_FORECAST", "UNAVAILABLE")]
+            if weak:
+                fails.append("stock_ideas[%d].verification=Verified but provenance is "
+                             "AI_FORECAST/UNAVAILABLE for: %s" % (i, ", ".join(weak)))
 
     if method == "P/E":
         for name, target_key in (("bull", "bull_target"), ("base", "base_target"),
@@ -663,7 +765,7 @@ def _validate_stock_ideas(rows, narrative: dict, fails: list[str], evidence: dic
         if not any(k in assumptions for k in ("eps", "p/e", "multiple", "fcf", "dcf", "ebitda", "revenue")):
             fails.append("stock_ideas[%d].assumptions must state an explicit valuation basis "
                          "(EPS, P/E, multiple, FCF, DCF, EBITDA or revenue)" % i)
-        _validate_valuation(row, i, fails)
+        _validate_valuation(row, i, fails, global_sources)
         srcs = row.get("sources")
         if not isinstance(srcs, list) or not srcs:
             fails.append("stock_ideas[%d].sources must be a non-empty list of URLs" % i)
@@ -1187,6 +1289,23 @@ def _render_stock_ideas(rows) -> str | None:
                v("bull_eps"), v("bull_pe"), v("bull_target"),
                v("base_eps"), v("base_pe"), v("base_target"),
                v("bear_eps"), v("bear_pe"), v("bear_target"))
+        )
+        prov = r.get("valuation_provenance") or {}
+        prov_txt = "; ".join(
+            "%s=%s" % (k, prov.get(k, ""))
+            for k in ("ttm_eps_diluted", "fy2027_eps_consensus", "pe_5y_median", "base_target")
+        )
+        val_html += (
+            '<table><thead><tr><th>Data integrity</th><th>Value</th></tr></thead><tbody>'
+            '<tr><td>EPS basis / TTM period</td><td>%s / %s</td></tr>'
+            '<tr><td>Split adjusted</td><td>%s</td></tr>'
+            '<tr><td>H1 reported / H2 forecast</td><td>%s / %s</td></tr>'
+            '<tr><td>FY EPS method 2027 / 2028</td><td>%s / %s</td></tr>'
+            '<tr><td>Provenance</td><td>%s</td></tr>'
+            '</tbody></table>'
+            % (v("eps_basis"), v("ttm_period"), v("split_adjusted"),
+               v("h1_eps_reported"), v("h2_eps_forecast"),
+               v("fy2027_eps_method"), v("fy2028_eps_method"), _esc(prov_txt))
         )
         srcs = r.get("sources") or []
         src_html = ", ".join(
