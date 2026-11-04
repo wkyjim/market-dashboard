@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 4 November 2026, 21:09:25 (HKT)
+Generated at: 4 November 2026, 23:09:46 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **50.61 / 100** (Mixed / Rotation)
+- Regime score: **50.0 / 100** (Mixed / Rotation)
 - US equity strength: **41.16 / 100** (weak)
-- Evidence quality: **79.5 / 100**
+- Evidence quality: **76.0 / 100**
 - ETF flow contribution: **51.53 / 100**, reliability **71.51 / 100**
 - Breadth: **narrow**; above 50DMA `41.67%`, above 200DMA `58.33%`
 - Top sector score: **Healthcare** `71.38`
@@ -17,18 +17,18 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 50.61 | Mixed / Rotation |
+| Overall regime | 50.0 | Mixed / Rotation |
 | equity_trend | 31.25 | risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 43.95 | mild risk-off pressure; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 47.22 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 57.84 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 59.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 57.26 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 49.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 51.09 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 68.12 | risk-on support; Weighted headline/news confirmation score. |
-| Positive contributors |  | volatility=70.0, news_confirmation=68.12 |
+| news_confirmation | 68.75 | risk-on support; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=70.0, news_confirmation=68.75 |
 | Negative contributors |  | equity_trend=31.25, equity_momentum=43.95 |
 
 ## Forward Signal (Score → Expected Return)
@@ -66,8 +66,8 @@ Method: Analyst inference/estimate (historical bucket calibration).
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `79.5`
-- Agreement ratio: `0.5`
+- Confidence score: `76.0`
+- Agreement ratio: `0.4`
 - Contradiction count: `2`
 - Missing indicators: none
 - Warning flags: none
@@ -76,10 +76,10 @@ Method: Analyst inference/estimate (historical bucket calibration).
 
 | Area | Signal | Interpretation |
 | --- | --- | --- |
-| Equities | S&P 500 rising; Nasdaq rising; Russell 2000 stable | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
-| Rates | 10Y Treasury rising; MOVE falling | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
+| Equities | S&P 500 rising; Nasdaq rising; Russell 2000 rising | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
+| Rates | 10Y Treasury falling; MOVE falling | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy falling | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
-| Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
+| Credit | HYG rising | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
@@ -92,35 +92,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7568.92 | 0.36 | 2026-11-03 | closed |
-| ^IXIC | NASDAQ Composite | 25372.01 | 0.83 | 2026-11-03 | closed |
-| ^RUT | Russell 2000 Index | 2812.45 | 0.23 | 2026-11-03 | closed |
-| ^VIX | CBOE Volatility Index | 18.36 | -11.86 | 2026-11-04 | live as of 4 November 2026, 21:00:25 (HKT) |
+| ^GSPC | S&P 500 | 7700.8 | 1.74 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| ^IXIC | NASDAQ Composite | 25955.28 | 2.3 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| ^RUT | Russell 2000 Index | 2875.08 | 2.23 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| ^VIX | CBOE Volatility Index | 17.2 | -17.43 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
 | ^SKEW | CBOE SKEW Index | 150.01 | -1.81 | 2026-11-03 | closed |
-| ^MOVE | ICE BofA MOVE Index | 99.97 | -0.39 | 2026-11-03 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.59 | -0.54 | 2026-11-04 | live as of 4 November 2026, 21:00:25 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.67 | -0.13 | 2026-11-04 | live as of 4 November 2026, 21:00:25 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.73 | -0.32 | 2026-11-04 | live as of 4 November 2026, 21:00:25 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.81 | -0.48 | 2026-11-04 | live as of 4 November 2026, 21:00:25 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.92 | -0.53 | 2026-11-04 | live as of 4 November 2026, 21:00:25 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.33 | -0.52 | 2026-11-04 | live as of 4 November 2026, 21:00:25 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.3 | -0.49 | 2026-11-04 | live as of 4 November 2026, 21:00:25 (HKT) |
-| HK50 | Hang Seng Futures | 24221.0 | 3.53 | 2026-11-04 | live as of 4 November 2026, 21:00:25 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 896.5 | 1.28 | 2026-11-03 | live as of 4 November 2026, 21:00:25 (HKT) |
-| CIHc1 | SSE 50 Futures | 2748.4 | 0.12 | 2026-11-03 | live as of 4 November 2026, 21:00:25 (HKT) |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 76.98 | 0.12 | 2026-11-03 | closed |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 103.72 | 0.01 | 2026-11-03 | closed |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 92.36 | 0.11 | 2026-11-03 | closed |
-| RSP | Invesco S&P 500 Equal Weight ETF | 219.26 | -0.33 | 2026-11-03 | closed |
-| IWF | iShares Russell 1000 Growth ETF | 117.44 | 1.05 | 2026-11-03 | closed |
-| IWD | iShares Russell 1000 Value ETF | 258.58 | -0.3 | 2026-11-03 | closed |
-| TLT | iShares 20+ Year Treasury Bond ETF | 81.11 | -0.76 | 2026-11-03 | closed |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 91.16 | -0.37 | 2026-11-03 | closed |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.4 | -0.07 | 2026-11-03 | closed |
-| GC=F | Gold Future | 4052.4 | 2.84 | 2026-11-04 | live as of 4 November 2026, 21:00:25 (HKT) |
-| SI=F | Silver Future | 52.03 | 4.93 | 2026-11-04 | live as of 4 November 2026, 21:00:25 (HKT) |
-| CL=F | WTI Crude Oil Future | 95.02 | -1.11 | 2026-11-04 | live as of 4 November 2026, 21:00:25 (HKT) |
-| HG=F | Copper Future | 6.44 | 0.96 | 2026-11-04 | live as of 4 November 2026, 21:00:25 (HKT) |
+| ^MOVE | ICE BofA MOVE Index | 96.0 | -3.97 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.61 | -0.13 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.67 | -0.23 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -0.46 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.81 | -0.52 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.93 | -0.48 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.3 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.28 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| HK50 | Hang Seng Futures | 24365.5 | 4.15 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 896.5 | 1.28 | 2026-11-03 | live as of 4 November 2026, 23:00:23 (HKT) |
+| CIHc1 | SSE 50 Futures | 2748.4 | 0.12 | 2026-11-03 | live as of 4 November 2026, 23:00:23 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.33 | 0.46 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.14 | 0.41 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 92.79 | 0.47 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 221.81 | 1.16 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 119.14 | 1.45 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 263.52 | 1.91 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 81.31 | 0.25 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 91.36 | 0.21 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.44 | 0.05 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| GC=F | Gold Future | 4053.9 | 2.88 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| SI=F | Silver Future | 52.23 | 5.34 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| CL=F | WTI Crude Oil Future | 93.35 | -2.85 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| HG=F | Copper Future | 6.4 | 0.39 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -245,10 +245,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Indicator | Latest | Unit | Change | Date | Rule-Based Interpretation |
 | --- | --- | --- | --- | --- | --- |
-| US dollar/Euro ECB reference exchange rate | 1.12 | USD | -0.0 USD vs prior | 2026-11-03 | EUR weakened versus this currency. |
-| Japanese yen/Euro ECB reference exchange rate | 176.95 | JPY | -0.15 JPY vs prior | 2026-11-03 | EUR weakened versus this currency. |
-| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.46 | CNY | 0.0 CNY vs prior | 2026-11-03 | EUR strengthened versus this currency. |
-| Australian dollar/Euro ECB reference exchange rate | 1.6 | AUD | 0.0 AUD vs prior | 2026-11-03 | EUR strengthened versus this currency. |
+| US dollar/Euro ECB reference exchange rate | 1.13 | USD | 0.01 USD vs prior | 2026-11-04 | EUR strengthened versus this currency. |
+| Japanese yen/Euro ECB reference exchange rate | 178.3 | JPY | 1.35 JPY vs prior | 2026-11-04 | EUR strengthened versus this currency. |
+| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.52 | CNY | 0.06 CNY vs prior | 2026-11-04 | EUR strengthened versus this currency. |
+| Australian dollar/Euro ECB reference exchange rate | 1.61 | AUD | 0.01 AUD vs prior | 2026-11-04 | EUR strengthened versus this currency. |
 
 ABS Australia note: ABS rows are stored locally/Neon, but most series are dimension-coded; only curated series should be promoted into narrative report text.
 
@@ -344,12 +344,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=18.36 pct_chg=-11.86
+- VIX close=17.2 pct_chg=-17.43
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 54, 'negative': 25, 'neutral': 1}
-- News confirmation score: `68.12`
+- Sentiment counts: {'positive': 54, 'negative': 24, 'neutral': 2}
+- News confirmation score: `68.75`
 
 ### Top Market-Moving Headlines
 
@@ -527,11 +527,11 @@ Positioning and flow data is used as confirmation only.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `48`
-- Live macro rows used: `26`
+- Live macro rows used: `44`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 04 November 2026, 21:09:25 (HKT)
+- Report generated at: 04 November 2026, 23:09:46 (HKT)
