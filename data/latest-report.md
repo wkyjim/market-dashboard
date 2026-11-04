@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 4 November 2026, 23:09:46 (HKT)
+Generated at: 5 November 2026, 00:07:51 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **50.0 / 100** (Mixed / Rotation)
+- Regime score: **49.97 / 100** (Mixed / Rotation)
 - US equity strength: **41.16 / 100** (weak)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **51.53 / 100**, reliability **71.51 / 100**
@@ -17,14 +17,14 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 50.0 | Mixed / Rotation |
+| Overall regime | 49.97 | Mixed / Rotation |
 | equity_trend | 31.25 | risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 43.95 | mild risk-off pressure; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 47.22 | neutral / mixed; Participation breadth from tracked equity/ETF rows. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 57.26 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 56.77 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 49.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 51.09 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 68.75 | risk-on support; Weighted headline/news confirmation score. |
@@ -37,9 +37,9 @@ Read-only mapping. The regime score is a *state* descriptor, not a forecast; thi
 
 | Horizon | Bucket | Historical mean | n | Direction |
 | --- | --- | --- | --- | --- |
-| 5D | 50-55 | 0.69% | 13 | up |
-| 20D | 50-55 | 1.5% | 13 | up |
-| 60D | 50-55 | 4.7% | 13 | up |
+| 5D | 45-50 | 1.3% | 9 | up |
+| 20D | 45-50 | 2.32% | 9 | up |
+| 60D | 45-50 | 4.94% | 9 | up |
 
 Sample: 2025-10-21 → 2026-08-03, 116 daily origins.
 Bottom-vs-top spread at 60D: **6.75 pp** (block-bootstrap 95% CI [1.92, 10.76], P(spread<=0)=<0.0001)
@@ -82,7 +82,7 @@ Method: Analyst inference/estimate (historical bucket calibration).
 | Credit | HYG rising | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
-| Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
+| Copper | Copper stable | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
 | Oil | WTI crude falling | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
@@ -92,35 +92,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7700.8 | 1.74 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| ^IXIC | NASDAQ Composite | 25955.28 | 2.3 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| ^RUT | Russell 2000 Index | 2875.08 | 2.23 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| ^VIX | CBOE Volatility Index | 17.2 | -17.43 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| ^GSPC | S&P 500 | 7689.5 | 1.59 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| ^IXIC | NASDAQ Composite | 25817.35 | 1.76 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| ^RUT | Russell 2000 Index | 2840.01 | 0.98 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| ^VIX | CBOE Volatility Index | 17.46 | -16.18 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
 | ^SKEW | CBOE SKEW Index | 150.01 | -1.81 | 2026-11-03 | closed |
-| ^MOVE | ICE BofA MOVE Index | 96.0 | -3.97 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| US2YT=X | United States 2-Year Treasury Yield | 4.61 | -0.13 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.67 | -0.23 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.72 | -0.46 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.81 | -0.52 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.93 | -0.48 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.34 | -0.3 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.31 | -0.28 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| HK50 | Hang Seng Futures | 24365.5 | 4.15 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 896.5 | 1.28 | 2026-11-03 | live as of 4 November 2026, 23:00:23 (HKT) |
-| CIHc1 | SSE 50 Futures | 2748.4 | 0.12 | 2026-11-03 | live as of 4 November 2026, 23:00:23 (HKT) |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.33 | 0.46 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.14 | 0.41 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 92.79 | 0.47 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| RSP | Invesco S&P 500 Equal Weight ETF | 221.81 | 1.16 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| IWF | iShares Russell 1000 Growth ETF | 119.14 | 1.45 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| IWD | iShares Russell 1000 Value ETF | 263.52 | 1.91 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| TLT | iShares 20+ Year Treasury Bond ETF | 81.31 | 0.25 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 91.36 | 0.21 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.44 | 0.05 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| GC=F | Gold Future | 4053.9 | 2.88 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| SI=F | Silver Future | 52.23 | 5.34 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| CL=F | WTI Crude Oil Future | 93.35 | -2.85 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
-| HG=F | Copper Future | 6.4 | 0.39 | 2026-11-04 | live as of 4 November 2026, 23:00:23 (HKT) |
+| ^MOVE | ICE BofA MOVE Index | 94.34 | -5.63 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.6 | -0.35 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.66 | -0.51 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.71 | -0.72 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.8 | -0.81 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.91 | -0.87 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.33 | -0.54 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.3 | -0.49 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| HK50 | Hang Seng Futures | 24507.0 | 4.76 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 896.5 | 1.28 | 2026-11-03 | live as of 5 November 2026, 00:00:28 (HKT) |
+| CIHc1 | SSE 50 Futures | 2748.4 | 0.12 | 2026-11-03 | live as of 5 November 2026, 00:00:28 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.36 | 0.5 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.25 | 0.52 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 92.84 | 0.52 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 222.5 | 1.48 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 118.27 | 0.7 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 264.23 | 2.19 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 81.5 | 0.47 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 91.47 | 0.34 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.45 | 0.06 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| GC=F | Gold Future | 4051.8 | 2.83 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| SI=F | Silver Future | 51.91 | 4.67 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| CL=F | WTI Crude Oil Future | 93.53 | -2.66 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
+| HG=F | Copper Future | 6.39 | 0.22 | 2026-11-04 | live as of 5 November 2026, 00:00:28 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -344,11 +344,11 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=17.2 pct_chg=-17.43
+- VIX close=17.46 pct_chg=-16.18
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 54, 'negative': 24, 'neutral': 2}
+- Sentiment counts: {'positive': 53, 'negative': 23, 'neutral': 4}
 - News confirmation score: `68.75`
 
 ### Top Market-Moving Headlines
@@ -385,15 +385,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.8`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**5. AMD shares jump as AI-driven data-center strength fuels growth outlook**
-- Source: Investing.com World News
-- Importance / impact: Medium / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: AMD, AI, Data Center, Earnings Outlook
-- Score: `39.49`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**6. LG U+ Q3 2026 slides: profit surges 84% on AI growth, efficiency**
+**5. LG U+ Q3 2026 slides: profit surges 84% on AI growth, efficiency**
 - Source: Investing.com Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -401,7 +393,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.15`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. Iran Turns to Guerrilla Tactics in Bid to Reassert Grip on Strait of Hormuz**
+**6. Iran Turns to Guerrilla Tactics in Bid to Reassert Grip on Strait of Hormuz**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -409,13 +401,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `38.25`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. ICRA Q2 FY2027 slides: 30% revenue growth, R&A expansion drives results**
+**7. ICRA Q2 FY2027 slides: 30% revenue growth, R&A expansion drives results**
 - Source: Investing.com Markets
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / quarterly
 - Affected assets: A, ICRA, R, earnings, revenue growth
 - Score: `37.57`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**8. AMD's data center revenue nearly doubles in Q3 and CEO Su expects growth to accelerate**
+- Source: CNBC Investing
+- Importance / impact: Medium / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: AMD, AI, data center, earnings
+- Score: `37.29`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
 **9. AMD Q3 2026 slides: data center surges 97%, record earnings beat**
 - Source: Investing.com Markets
@@ -534,4 +534,4 @@ Positioning and flow data is used as confirmation only.
 
 ## Cycle Metadata
 
-- Report generated at: 04 November 2026, 23:09:46 (HKT)
+- Report generated at: 05 November 2026, 00:07:51 (HKT)
