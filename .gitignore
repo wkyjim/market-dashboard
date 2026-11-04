@@ -9,3 +9,7 @@ config.js
 legacy/
 __pycache__/
 *.pyc
+
+# Generated fundamentals scrape cache
+.scratchpad/
+data/fundamentals_cache/
