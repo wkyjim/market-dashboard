@@ -310,11 +310,11 @@ CARD_SECTIONS = {
         "bull_eps", "bull_pe", "base_eps", "base_pe", "bear_eps", "bear_pe",
         "valuation_method", "valuation_assumptions",
         # --- fundamental data integrity (P0) ---
-        "eps_basis", "ttm_period", "ttm_eps_quarters", "split_adjusted",
+        "sec_cik", "eps_basis", "ttm_period", "ttm_eps_quarters", "split_adjusted",
         "ttm_eps_source", "consensus_source", "pe_history_source",
         "pe_history_years", "eps_revision_source",
         "fy2027_eps_method", "fy2028_eps_method",
-        "h1_eps_reported", "h2_eps_forecast",
+        "h1_eps_reported", "h2_eps_forecast", "h2_rationale",
         "fy_revenue", "fy_net_margin_pct", "fy_tax_rate_pct", "fy_diluted_shares",
         "valuation_provenance",
     ),
@@ -576,6 +576,10 @@ def _validate_valuation(row: dict, i: int, fails: list[str], global_sources: dic
         elif abs((h1 + h2) - fy27) > max(0.05, abs(fy27) * 0.02):
             fails.append("stock_ideas[%d]: FY2027 EPS %.2f != H1 reported %.2f + H2 forecast %.2f"
                          % (i, fy27, h1, h2))
+        elif h1 > 0 and h2 < 0.5 * h1 and not str(row.get("h2_rationale") or "").strip():
+            fails.append("stock_ideas[%d]: H2 forecast %.2f is below half of H1 %.2f; "
+                         "provide h2_rationale (e.g. export restriction, one-off charge)"
+                         % (i, h2, h1))
 
     if str(row.get("fy2027_eps_method") or "").strip() == "AI_FORECAST":
         rev = _num_or_none(row.get("fy_revenue"))

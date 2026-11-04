@@ -144,13 +144,13 @@ def _good_narrative(evidence: dict) -> dict:
                 "bear_eps": round(bear / 10.0, 2), "bear_pe": 10.0,
                 "valuation_method": "P/E",
                 "valuation_assumptions": "FY2027 EPS x target P/E; EPS from consensus.",
-                "eps_basis": "GAAP", "ttm_period": "Q4 2025-Q3 2026",
+                "sec_cik": "0000000001", "eps_basis": "GAAP", "ttm_period": "Q4 2025-Q3 2026",
                 "ttm_eps_quarters": [round(ttm_eps / 4.0, 4)] * 4,
                 "split_adjusted": True, "ttm_eps_source": src,
                 "consensus_source": "N/A", "pe_history_source": src,
                 "pe_history_years": 5, "eps_revision_source": src,
                 "fy2027_eps_method": "CONSENSUS", "fy2028_eps_method": "CONSENSUS",
-                "h1_eps_reported": "N/A", "h2_eps_forecast": "N/A",
+                "h1_eps_reported": "N/A", "h2_eps_forecast": "N/A", "h2_rationale": "N/A",
                 "fy_revenue": "N/A", "fy_net_margin_pct": "N/A",
                 "fy_tax_rate_pct": "N/A", "fy_diluted_shares": "N/A",
                 "valuation_provenance": {
@@ -818,3 +818,56 @@ def test_ttm_eps_source_required(tmp_path):
     n["sections"]["stock_ideas"][0]["ttm_eps_source"] = "N/A"
     fails = validate_narrative(n, ev)
     assert any("ttm_eps_source" in f for f in fails)
+
+
+def test_h2_collapse_requires_rationale(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    idea = n["sections"]["stock_ideas"][0]
+    idea["h1_eps_reported"] = 4.85
+    idea["h2_eps_forecast"] = 0.65
+    idea["fy2027_eps_consensus"] = 5.50
+    idea["h2_rationale"] = ""
+    fails = validate_narrative(n, ev)
+    assert any("h2_rationale" in f for f in fails)
+
+
+def _facts_regn():
+    q = [
+        ("2025-01-01", "2025-03-31", 7.27), ("2025-04-01", "2025-06-30", 12.81),
+        ("2025-07-01", "2025-09-30", 13.62), ("2026-01-01", "2026-03-31", 6.75),
+        ("2026-04-01", "2026-06-30", 12.23), ("2026-07-01", "2026-09-30", 18.45),
+    ]
+    return {"quarters": [{"start": s, "end": e, "val": v} for s, e, v in q],
+            "annual": [{"start": "2025-01-01", "end": "2025-12-31", "val": 41.48}]}
+
+
+def test_sec_ttm_mismatch_blocks():
+    from fundamental_audit import audit_fundamentals
+    idea = {"ticker": "REGN", "sec_cik": "0000872589", "ttm_eps_diluted": 38.0}
+    fails = audit_fundamentals([idea], lookup=lambda c: _facts_regn())
+    assert any("TTM EPS" in f and "SEC XBRL" in f for f in fails)
+
+
+def test_sec_ttm_match_passes():
+    from fundamental_audit import audit_fundamentals
+    idea = {"ticker": "REGN", "sec_cik": "0000872589", "ttm_eps_diluted": 45.21}
+    assert audit_fundamentals([idea], lookup=lambda c: _facts_regn()) == []
+
+
+def test_sec_h1_mismatch_blocks():
+    from fundamental_audit import audit_fundamentals
+    facts = {"quarters": [
+        {"start": "2026-01-26", "end": "2026-04-26", "val": 2.39},
+        {"start": "2026-04-27", "end": "2026-07-26", "val": 2.46},
+    ], "annual": []}
+    idea = {"ticker": "NVDA", "sec_cik": "0001045810", "h1_eps_reported": 2.1}
+    fails = audit_fundamentals([idea], lookup=lambda c: facts)
+    assert any("H1 EPS" in f and "SEC XBRL" in f for f in fails)
+
+
+def test_sec_unavailable_blocks():
+    from fundamental_audit import audit_fundamentals
+    idea = {"ticker": "X", "sec_cik": "0000000001", "ttm_eps_diluted": 1.0}
+    fails = audit_fundamentals([idea], lookup=lambda c: None)
+    assert any("SEC XBRL unavailable" in f for f in fails)

@@ -25,6 +25,7 @@ from report_narrative import (  # noqa: E402  (path bootstrap must run first)
     render_narrative, _previous_idea_tickers,
 )
 from idea_price_audit import audit_ideas  # noqa: E402
+from fundamental_audit import audit_fundamentals  # noqa: E402
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # market-dashboard
 DATA_DIR = os.path.join(BASE_DIR, "data")
@@ -1123,9 +1124,10 @@ def main() -> int:
         except Exception as e:  # malformed JSON / unreadable file
             sys.stderr.write("HALT: cannot load narrative %s: %s\n" % (args.narrative, e))
             return 4
-        price_fails = audit_ideas(
-            (raw_narrative.get("sections") or {}).get("stock_ideas") or [])
-        nfails = price_fails + validate_narrative(raw_narrative, evidence)
+        ideas = (raw_narrative.get("sections") or {}).get("stock_ideas") or []
+        price_fails = audit_ideas(ideas)
+        fundamental_fails = audit_fundamentals(ideas)
+        nfails = price_fails + fundamental_fails + validate_narrative(raw_narrative, evidence)
         if nfails:
             sys.stderr.write("HALT: narrative validation failed (%d); no file written.\n" % len(nfails))
             for f in nfails:
