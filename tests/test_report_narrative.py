@@ -888,3 +888,21 @@ def test_sec_ttm_nm_is_blocked():
     idea = {"ticker": "REGN", "sec_cik": "0000872589", "ttm_eps_diluted": "N/M"}
     fails = audit_fundamentals([idea], lookup=lambda c: _facts_regn())
     assert any("N/M is not accepted" in f for f in fails)
+
+
+def test_pe_history_must_match_cmc():
+    from fundamentals_web import audit_pe_history
+    stats = {"median": 29.6, "min": 21.6, "max": 39.5, "percentile": 80.0}
+    idea = {"ticker": "AAPL", "pe_5y_median": 22.0, "pe_5y_min": 21.6,
+            "pe_5y_max": 39.5, "pe_5y_percentile": 80.0,
+            "pe_history_source": "https://companiesmarketcap.com/apple/pe-ratio/"}
+    fails = audit_pe_history([idea], lookup=lambda t: stats)
+    assert any("CMC median" in f for f in fails)
+
+
+def test_pe_history_source_must_be_cmc():
+    from fundamentals_web import audit_pe_history
+    stats = {"median": 29.6, "min": 21.6, "max": 39.5, "percentile": 80.0}
+    idea = {"ticker": "AAPL", "pe_5y_median": 29.6, "pe_history_source": "https://example.com"}
+    fails = audit_pe_history([idea], lookup=lambda t: stats)
+    assert any("companiesmarketcap.com" in f for f in fails)
