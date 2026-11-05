@@ -1347,6 +1347,13 @@ def _esc(text: str) -> str:
 
 
 
+def _fmt2(value):
+    try:
+        return "%.2f" % float(value)
+    except (TypeError, ValueError):
+        return "N/A"
+
+
 def _pct100(value):
     try:
         return "%.0f" % (float(value) * 100.0)
@@ -1411,7 +1418,7 @@ def _render_stock_ideas(rows) -> str | None:
                _pct100(r.get("bull_prob")), v("bull_eps"), v("bull_pe"), v("bull_target"),
                _pct100(r.get("base_prob")), v("base_eps"), v("base_pe"), v("base_target"),
                _pct100(r.get("bear_prob")), v("bear_eps"), v("bear_pe"), v("bear_target"),
-               v("expected_price"), v("expected_return_pct"), v("probability_basis"))
+               v("expected_price"), _fmt2(r.get("expected_return_pct")), v("probability_basis"))
         )
         prov = r.get("valuation_provenance") or {}
         prov_txt = "; ".join(
