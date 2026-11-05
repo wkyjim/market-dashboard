@@ -66,9 +66,12 @@ def _parse_date(text: str):
     return date(int(m.group(3)), MONTHS.get(m.group(1), 0), int(m.group(2)))
 
 
-def fetch_economic() -> list[dict]:
-    """Economic calendar (current window, ~100 events)."""
-    return parse_table(_fetch(f"{BASE}/economic/?offset=0&size=100"))
+def fetch_economic(date_from: str | None = None, date_to: str | None = None) -> list[dict]:
+    """Economic calendar. Yahoo accepts from/to, but may still serve the default session."""
+    query = "offset=0&size=100"
+    if date_from and date_to:
+        query = f"from={date_from}&to={date_to}&offset=0&size=100"
+    return parse_table(_fetch(f"{BASE}/economic?{query}"))
 
 
 def fetch_earnings(date_from: str, date_to: str) -> list[dict]:
@@ -122,7 +125,7 @@ if __name__ == "__main__":
     ap.add_argument("--ticker")
     args = ap.parse_args()
     if args.kind == "econ":
-        data = fetch_economic()
+        data = fetch_economic(args.date_from, args.date_to)
     elif args.kind == "earnings":
         data = fetch_earnings(args.date_from, args.date_to)
     elif args.kind == "splits":
