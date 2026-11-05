@@ -68,11 +68,15 @@ def _parse_date(text: str):
 
 def _fetch_rendered(url: str, timeout: int = 60) -> str:
     """Render a JS-heavy page through r.jina.ai (returns markdown)."""
-    out = subprocess.run(
-        ["curl", "-sL", "--compressed", "--max-time", str(timeout), "https://r.jina.ai/" + url],
-        capture_output=True, text=True, encoding="utf-8", errors="ignore", timeout=timeout + 5,
-    )
-    return out.stdout or ""
+    for attempt in range(2):
+        out = subprocess.run(
+            ["curl", "-sL", "--compressed", "--max-time", str(timeout), "https://r.jina.ai/" + url],
+            capture_output=True, text=True, encoding="utf-8", errors="ignore", timeout=timeout + 5,
+        )
+        text = out.stdout or ""
+        if text and "pbs.yahoo.com/setuid" not in text and len(text) > 1000:
+            return text
+    return text
 
 
 def parse_markdown_events(markdown: str, year: int) -> list[dict]:
@@ -100,6 +104,27 @@ def parse_markdown_events(markdown: str, year: int) -> list[dict]:
     return rows
 
 
+def parse_markdown_table(markdown: str) -> list[dict]:
+    """First markdown table -> list of dicts; strips [TICKER](url) links."""
+    lines = [l for l in (markdown or "").splitlines() if l.strip().startswith("|")]
+    if len(lines) < 2:
+        return []
+    def cells(line):
+        return [c.strip().replace("**", "") for c in line.strip().strip("|").split("|")]
+    headers = cells(lines[0])
+    keys = [re.sub(r"[^a-z0-9]+", "_", h.lower()).strip("_") for h in headers]
+    out = []
+    for line in lines[1:]:
+        row = cells(line)
+        if not row or set(row[0]) <= {"-", ":"}:
+            continue
+        row = [re.sub(r"^\[([^\]]+)\]\([^)]*\)$", r"\1", c) for c in row]
+        if len(row) < len(keys):
+            row += [""] * (len(keys) - len(row))
+        out.append(dict(zip(keys, row[:len(keys)])))
+    return out
+
+
 def fetch_economic(date_from: str | None = None, date_to: str | None = None) -> list[dict]:
     """Economic calendar for a date range.
 
@@ -112,21 +137,24 @@ def fetch_economic(date_from: str | None = None, date_to: str | None = None) -> 
         query = f"from={date_from}&to={date_to}&offset=0&size=100"
     year = int((date_from or date.today().isoformat())[:4])
     rows = parse_markdown_events(_fetch_rendered(f"{BASE}/economic?{query}"), year)
-    if rows:
+    if rows or (date_from and date_to):
         return rows
     return parse_table(_fetch(f"{BASE}/economic?{query}"))
 
 
 def fetch_earnings(date_from: str, date_to: str) -> list[dict]:
-    return parse_table(_fetch(f"{BASE}/earnings?from={date_from}&to={date_to}&offset=0&size=100"))
+    url = f"{BASE}/earnings?from={date_from}&to={date_to}&offset=0&size=100"
+    return parse_markdown_table(_fetch_rendered(url))
 
 
 def fetch_splits(date_from: str, date_to: str) -> list[dict]:
-    return parse_table(_fetch(f"{BASE}/splits?from={date_from}&to={date_to}"))
+    url = f"{BASE}/splits?from={date_from}&to={date_to}"
+    return parse_markdown_table(_fetch_rendered(url))
 
 
 def fetch_ipos(date_from: str, date_to: str) -> list[dict]:
-    return parse_table(_fetch(f"{BASE}/ipo?from={date_from}&to={date_to}"))
+    url = f"{BASE}/ipo?from={date_from}&to={date_to}"
+    return parse_markdown_table(_fetch_rendered(url))
 
 
 def parse_ratio(text: str):
