@@ -520,6 +520,13 @@ def _validate_valuation(row: dict, i: int, fails: list[str], global_sources: dic
         if abs(rg - expected) > 0.5:
             fails.append("stock_ideas[%d].revenue_growth_2027_2028_pct %.2f != "
                          "(FY28/FY27-1)*100 %.2f" % (i, rg, expected))
+    missing_fund = [k for k in ("revenue_ttm", "operating_margin_pct", "ps_ratio",
+                                 "pb_ratio", "fy2027_revenue_consensus")
+                    if _num_or_none(row.get(k)) is None]
+    if missing_fund:
+        fails.append("stock_ideas[%d]: CMC/Yahoo fundamentals must be populated (%s); "
+                     "run scripts/fundamentals_web.py --ticker <T>"
+                     % (i, ", ".join(missing_fund)))
     fund_src = str(row.get("fundamentals_source") or "")
     if any(_num_or_none(row.get(k)) is not None for k in
            ("revenue_ttm", "operating_margin_pct", "ps_ratio", "pb_ratio")):
