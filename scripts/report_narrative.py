@@ -24,6 +24,8 @@ import hashlib
 import json
 import os
 import re
+
+from financial_calc import target_price as calc_target_price
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
@@ -671,7 +673,7 @@ def _validate_valuation(row: dict, i: int, fails: list[str], global_sources: dic
                 fails.append("stock_ideas[%d].%s scenario EPS and P/E must be positive for P/E method"
                              % (i, name))
                 continue
-            implied = eps * pe
+            implied = calc_target_price(eps, pe)
             tolerance = max(0.5, abs(target) * 0.005)
             if abs(implied - target) > tolerance:
                 fails.append("stock_ideas[%d] %s: %.2f EPS x %.2f P/E = %.2f != target %.2f"
