@@ -66,11 +66,54 @@ def _parse_date(text: str):
     return date(int(m.group(3)), MONTHS.get(m.group(1), 0), int(m.group(2)))
 
 
+def _fetch_rendered(url: str, timeout: int = 60) -> str:
+    """Render a JS-heavy page through r.jina.ai (returns markdown)."""
+    out = subprocess.run(
+        ["curl", "-sL", "--compressed", "--max-time", str(timeout), "https://r.jina.ai/" + url],
+        capture_output=True, text=True, encoding="utf-8", errors="ignore", timeout=timeout + 5,
+    )
+    return out.stdout or ""
+
+
+def parse_markdown_events(markdown: str, year: int) -> list[dict]:
+    """Parse the economic calendar markdown table, tracking 'Economic Events On' dates."""
+    rows: list[dict] = []
+    current = None
+    for line in (markdown or "").splitlines():
+        m = re.search(r"Economic Events On\s+\w+,\s+(\w{3})\s+(\d{1,2})", line)
+        if m:
+            month = MONTHS.get(m.group(1), 0)
+            if month:
+                current = date(year, month, int(m.group(2))).isoformat()
+            continue
+        if not line.strip().startswith("|"):
+            continue
+        cells = [c.strip().replace("**", "") for c in line.strip().strip("|").split("|")]
+        if len(cells) < 8 or cells[0].lower() == "event" or set(cells[0]) <= {"-", ":"}:
+            continue
+        rows.append({
+            "date": current,
+            "event": cells[0], "country": cells[1], "event_time": cells[2],
+            "for": cells[3], "actual": cells[4], "market_expectation": cells[5],
+            "prior_to_this": cells[6], "revised_from": cells[7],
+        })
+    return rows
+
+
 def fetch_economic(date_from: str | None = None, date_to: str | None = None) -> list[dict]:
-    """Economic calendar. Yahoo accepts from/to, but may still serve the default session."""
+    """Economic calendar for a date range.
+
+    Yahoo's server HTML ignores from/to for plain clients, so the range is
+    rendered through r.jina.ai. Yahoo renders one day per request (the first day
+    of the range); query a single day to target that day.
+    """
     query = "offset=0&size=100"
     if date_from and date_to:
         query = f"from={date_from}&to={date_to}&offset=0&size=100"
+    year = int((date_from or date.today().isoformat())[:4])
+    rows = parse_markdown_events(_fetch_rendered(f"{BASE}/economic?{query}"), year)
+    if rows:
+        return rows
     return parse_table(_fetch(f"{BASE}/economic?{query}"))
 
 

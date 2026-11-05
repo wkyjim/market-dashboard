@@ -31,3 +31,20 @@ def test_parse_ratio():
 def test_looks_like_date():
     assert _looks_like_date("Nov 05, 2026")
     assert not _looks_like_date("ConocoPhillips")
+
+
+def test_parse_markdown_events_tracks_date():
+    from calendar_web import parse_markdown_events
+    md = """
+Economic Events On Tue, Nov 10
+1-100 of 280 Results
+
+| Event | Country | Event Time | For | Actual | Market Expectation | Prior to This | Revised from |
+| --- | --- | --- | --- | --- | --- | --- | --- |
+| CPI MM | US | 8:30 AM UTC | Oct | 0.2 | 0.3 | 0.1 | - |
+"""
+    rows = parse_markdown_events(md, 2026)
+    assert len(rows) == 1
+    assert rows[0]["date"] == "2026-11-10"
+    assert rows[0]["event"] == "CPI MM"
+    assert rows[0]["country"] == "US"
