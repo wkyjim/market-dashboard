@@ -26,7 +26,7 @@ from report_narrative import (  # noqa: E402  (path bootstrap must run first)
 )
 from idea_price_audit import audit_ideas  # noqa: E402
 from fundamental_audit import audit_fundamentals  # noqa: E402
-from fundamentals_web import audit_pe_history  # noqa: E402
+from fundamentals_web import audit_pe_history, audit_consensus  # noqa: E402
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # market-dashboard
 DATA_DIR = os.path.join(BASE_DIR, "data")
@@ -1128,7 +1128,7 @@ def main() -> int:
         ideas = (raw_narrative.get("sections") or {}).get("stock_ideas") or []
         price_fails = audit_ideas(ideas)
         fundamental_fails = audit_fundamentals(ideas)
-        web_fails = audit_pe_history(ideas)
+        web_fails = audit_pe_history(ideas) + audit_consensus(ideas)
         nfails = price_fails + fundamental_fails + web_fails + validate_narrative(raw_narrative, evidence)
         if nfails:
             sys.stderr.write("HALT: narrative validation failed (%d); no file written.\n" % len(nfails))

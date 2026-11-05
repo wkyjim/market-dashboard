@@ -29,6 +29,12 @@ from datetime import datetime, timezone
 from pathlib import Path
 from urllib.parse import urlsplit
 
+OPTIONAL_IDEA_FIELDS = {
+    "revenue_ttm", "operating_margin_pct", "ps_ratio", "pb_ratio",
+    "fy2027_revenue_consensus", "fy2028_revenue_consensus",
+    "revenue_growth_2027_2028_pct", "fundamentals_source",
+}
+
 SCHEMA = "aegis-narrative-v1"
 
 # Sections the agent may author.  Order here is the render order.
@@ -311,6 +317,9 @@ CARD_SECTIONS = {
         "valuation_method", "valuation_assumptions",
         # --- fundamental data integrity (P0) ---
         "sec_cik", "eps_basis", "ttm_period", "ttm_eps_quarters", "split_adjusted",
+        "revenue_ttm", "operating_margin_pct", "ps_ratio", "pb_ratio",
+        "fy2027_revenue_consensus", "fy2028_revenue_consensus", "revenue_growth_2027_2028_pct",
+        "fundamentals_source",
         "ttm_eps_source", "consensus_source", "pe_history_source",
         "pe_history_years", "eps_revision_source",
         "fy2027_eps_method", "fy2028_eps_method",
@@ -503,6 +512,22 @@ def _validate_valuation(row: dict, i: int, fails: list[str], global_sources: dic
             fails.append("stock_ideas[%d].eps_growth_2026_2028_pct %.2f != (FY28/FY26-1)*100 %.2f"
                          % (i, growth, expected))
 
+    r27 = _num_or_none(row.get("fy2027_revenue_consensus"))
+    r28 = _num_or_none(row.get("fy2028_revenue_consensus"))
+    rg = _num_or_none(row.get("revenue_growth_2027_2028_pct"))
+    if r27 and r28 and r27 > 0 and rg is not None:
+        expected = (r28 / r27 - 1.0) * 100.0
+        if abs(rg - expected) > 0.5:
+            fails.append("stock_ideas[%d].revenue_growth_2027_2028_pct %.2f != "
+                         "(FY28/FY27-1)*100 %.2f" % (i, rg, expected))
+    fund_src = str(row.get("fundamentals_source") or "")
+    if any(_num_or_none(row.get(k)) is not None for k in
+           ("revenue_ttm", "operating_margin_pct", "ps_ratio", "pb_ratio")):
+        if "companiesmarketcap.com" not in fund_src:
+            fails.append("stock_ideas[%d].fundamentals_source must cite companiesmarketcap.com" % i)
+    if (r27 is not None or r28 is not None) and "finance.yahoo.com" not in str(row.get("consensus_source") or ""):
+        fails.append("stock_ideas[%d]: revenue consensus requires consensus_source citing finance.yahoo.com" % i)
+
     for prefix in ("pe_3y", "pe_5y"):
         med = _num_or_none(row.get(prefix + "_median"))
         lo = _num_or_none(row.get(prefix + "_min"))
@@ -668,7 +693,8 @@ def _validate_stock_ideas(rows, narrative: dict, fails: list[str], evidence: dic
         if not isinstance(row, dict):
             fails.append("stock_ideas[%d] is not an object" % i)
             continue
-        missing = [k for k in CARD_SECTIONS["stock_ideas"] if k not in row]
+        missing = [k for k in CARD_SECTIONS["stock_ideas"]
+                   if k not in row and k not in OPTIONAL_IDEA_FIELDS]
         if missing:
             fails.append("stock_ideas[%d] missing fields: %s" % (i, ", ".join(missing)))
             continue
@@ -1271,6 +1297,19 @@ def _render_stock_ideas(rows) -> str | None:
         def v(key):
             return _esc(str(r.get(key) if r.get(key) is not None else "N/A"))
 
+        fund_html = (
+            '<h4>Fundamentals</h4>'
+            '<table><thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>'
+            '<tr><td>Revenue TTM</td><td>%s</td></tr>'
+            '<tr><td>Operating margin</td><td>%s%%</td></tr>'
+            '<tr><td>P/S / P/B</td><td>%s / %s</td></tr>'
+            '<tr><td>FY2027E / FY2028E revenue (consensus)</td><td>%s / %s</td></tr>'
+            '<tr><td>Revenue growth 2027-2028</td><td>%s%%</td></tr>'
+            '</tbody></table>'
+            % (v("revenue_ttm"), v("operating_margin_pct"), v("ps_ratio"), v("pb_ratio"),
+               v("fy2027_revenue_consensus"), v("fy2028_revenue_consensus"),
+               v("revenue_growth_2027_2028_pct"))
+        )
         val_html = (
             '<h4>Valuation</h4>'
             '<table><thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>'
@@ -1349,7 +1388,7 @@ def _render_stock_ideas(rows) -> str | None:
             % (e("ticker"), e("name"), e("sector"), e("security_type"), e("recommendation"),
                e("horizon"), e("reassess"),
                e("current_price"), e("price_date"), e("entry_price"), e("reassess"), e("verification"),
-               e("thesis"), e("assumptions"), e("why_vs_alternatives"), e("contrary"), val_html,
+               e("thesis"), e("assumptions"), e("why_vs_alternatives"), e("contrary"), fund_html + val_html,
                e("entry_price"), e("base_target"), e("bull_target"), e("bear_target"),
                e("upside_pct"), e("downside_pct"), e("return_from_current_pct"), e("risk_reward"),
                e("catalysts"), e("risks"), e("entry_condition"), e("exit"),

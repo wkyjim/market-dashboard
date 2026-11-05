@@ -916,3 +916,13 @@ def test_consensus_label_requires_source(tmp_path):
     idea["consensus_source"] = "N/A"
     fails = validate_narrative(n, ev)
     assert any("labelled CONSENSUS" in f for f in fails)
+
+
+def test_consensus_must_match_yahoo():
+    from fundamentals_web import audit_consensus
+    idea = {"ticker": "AAPL", "fy2027_eps_consensus": 8.00, "fy2028_eps_consensus": 15.91,
+            "consensus_source": "https://finance.yahoo.com/quote/AAPL/analysis/",
+            "valuation_provenance": {"fy2027_eps_consensus": "CONSENSUS"}}
+    fails = audit_consensus([idea], lookup=lambda t: {"eps_current_year": 9.31,
+                                                     "eps_next_year": 15.91})
+    assert any("Yahoo" in f for f in fails)

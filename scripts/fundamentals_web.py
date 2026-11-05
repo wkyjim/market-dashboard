@@ -101,6 +101,99 @@ def _cached(ticker: str, key: str, url: str, refresh: bool = False):
     return {"url": url, "series": data}
 
 
+YAHOO = "https://finance.yahoo.com/quote/%s/analysis/"
+
+
+def _parse_num(text: str) -> float | None:
+    text = str(text or "").strip().replace(",", "")
+    if text in ("", "--", "N/A"):
+        return None
+    mult = 1.0
+    if text.endswith("B"):
+        mult, text = 1e9, text[:-1]
+    elif text.endswith("M"):
+        mult, text = 1e6, text[:-1]
+    elif text.endswith("T"):
+        mult, text = 1e12, text[:-1]
+    try:
+        return float(text) * mult
+    except ValueError:
+        return None
+
+
+def fetch_yahoo(ticker: str, timeout: float = 25.0) -> dict | None:
+    """Consensus EPS/revenue from Yahoo Finance analysis (current and next year)."""
+    from bs4 import BeautifulSoup
+    url = YAHOO % ticker.upper()
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA,
+                                                   "Accept-Language": "en-US,en;q=0.9"})
+        with urllib.request.urlopen(req, timeout=timeout) as response:
+            html = response.read().decode("utf-8", "ignore")
+    except Exception:
+        return None
+    soup = BeautifulSoup(html, "html.parser")
+    blocks = []
+    for table in soup.find_all("table"):
+        rows = [[c.get_text(" ", strip=True) for c in r.find_all(["td", "th"])]
+                for r in table.find_all("tr")]
+        if rows and any("Current Qtr" in c for c in rows[0]) and any("Next Year" in c for c in rows[0]):
+            blocks.append(rows)
+    if len(blocks) < 2:
+        return None
+    rev, eps = blocks[0], blocks[1]
+    def row(rows, label):
+        for r in rows[1:]:
+            if r and r[0].strip().lower().startswith(label):
+                return r[1:]
+        return ["--", "--", "--", "--"]
+    rev_vals = row(rev, "avg. estimate")
+    eps_vals = row(eps, "avg. estimate")
+    return {
+        "source": url,
+        "headers": rev[0][1:],
+        "eps_current_qtr": _parse_num(eps_vals[0]) if len(eps_vals) > 0 else None,
+        "eps_next_qtr": _parse_num(eps_vals[1]) if len(eps_vals) > 1 else None,
+        "eps_current_year": _parse_num(eps_vals[2]) if len(eps_vals) > 2 else None,
+        "eps_next_year": _parse_num(eps_vals[3]) if len(eps_vals) > 3 else None,
+        "revenue_current_year": _parse_num(rev_vals[2]) if len(rev_vals) > 2 else None,
+        "revenue_next_year": _parse_num(rev_vals[3]) if len(rev_vals) > 3 else None,
+    }
+
+
+def audit_consensus(ideas, lookup=fetch_yahoo, tolerance_pct: float = 5.0) -> list[str]:
+    """Block CONSENSUS-labelled forward figures that disagree with Yahoo Finance."""
+    fails: list[str] = []
+    for i, idea in enumerate(ideas or []):
+        if not isinstance(idea, dict):
+            continue
+        ticker = str(idea.get("ticker") or "").strip().upper()
+        prov = idea.get("valuation_provenance") or {}
+        if not isinstance(prov, dict):
+            continue
+        wants = any(str(prov.get(k, "")) == "CONSENSUS"
+                    for k in ("fy2027_eps_consensus", "fy2028_eps_consensus"))
+        if not wants:
+            continue
+        data = lookup(ticker)
+        if not data:
+            fails.append("stock_ideas[%d] %s: Yahoo consensus unavailable" % (i, ticker))
+            continue
+        for key, field in (("fy2027_eps_consensus", "eps_current_year"),
+                           ("fy2028_eps_consensus", "eps_next_year")):
+            claim = idea.get(key)
+            actual = data.get(field)
+            if isinstance(claim, (int, float)) and actual:
+                if abs(float(claim) - actual) > max(0.05, abs(actual) * tolerance_pct / 100.0):
+                    fails.append("stock_ideas[%d] %s: %s %.2f != Yahoo %.2f"
+                                 % (i, ticker, key, float(claim), actual))
+        source = str(idea.get("consensus_source") or "")
+        if "finance.yahoo.com" not in source:
+            fails.append("stock_ideas[%d] %s: consensus_source must cite finance.yahoo.com"
+                         % (i, ticker))
+    return fails
+
+
 def fetch_ticker(ticker: str, refresh: bool = False) -> dict | None:
     ticker = str(ticker or "").strip().upper()
     slug = SLUGS.get(ticker, ticker.lower())
@@ -146,6 +239,13 @@ def fetch_ticker(ticker: str, refresh: bool = False) -> dict | None:
         "operating_margin_history": out["operating-margin"]["series"],
         "ps_history": out["ps-ratio"]["series"],
         "pb_history": out["pb-ratio"]["series"],
+        "yahoo": fetch_yahoo(ticker),
+        "latest": {
+            "revenue": (out["revenue"]["series"] or [(None, None)])[-1][1],
+            "operating_margin_pct": (out["operating-margin"]["series"] or [(None, None)])[-1][1],
+            "ps": (out["ps-ratio"]["series"] or [(None, None)])[-1][1],
+            "pb": (out["pb-ratio"]["series"] or [(None, None)])[-1][1],
+        },
     }
 
 
