@@ -25,7 +25,7 @@ import json
 import os
 import re
 
-from financial_calc import target_price as calc_target_price
+from financial_calc import qc_probabilities, target_price as calc_target_price
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
@@ -316,6 +316,8 @@ CARD_SECTIONS = {
         "pe_5y_median", "pe_5y_min", "pe_5y_max", "pe_5y_percentile",
         "fwd_pe_premium_vs_median_pct",
         "bull_eps", "bull_pe", "base_eps", "base_pe", "bear_eps", "bear_pe",
+        "bull_prob", "base_prob", "bear_prob", "expected_price", "expected_return_pct",
+        "probability_basis", "override_reason",
         "valuation_method", "valuation_assumptions",
         # --- fundamental data integrity (P0) ---
         "sec_cik", "eps_basis", "ttm_period", "ttm_eps_quarters", "split_adjusted",
@@ -678,6 +680,57 @@ def _validate_valuation(row: dict, i: int, fails: list[str], global_sources: dic
             if abs(implied - target) > tolerance:
                 fails.append("stock_ideas[%d] %s: %.2f EPS x %.2f P/E = %.2f != target %.2f"
                              % (i, name, eps, pe, implied, target))
+
+    # --- Part 4: scenario probabilities and probability-weighted outputs ---
+    probs = [_num_or_none(row.get(k)) for k in ("bull_prob", "base_prob", "bear_prob")]
+    if any(p is None for p in probs):
+        fails.append("stock_ideas[%d]: bull_prob, base_prob and bear_prob are required" % i)
+    else:
+        perr = qc_probabilities(probs)
+        if perr:
+            fails.append("stock_ideas[%d]: %s" % (i, perr))
+        else:
+            targets = [_num_or_none(row.get(k)) for k in
+                       ("bull_target", "base_target", "bear_target")]
+            if all(t is not None for t in targets):
+                exp = sum(p * t for p, t in zip(probs, targets))
+                claim = _num_or_none(row.get("expected_price"))
+                if claim is None or abs(claim - exp) > max(0.05, abs(exp) * 0.005):
+                    fails.append("stock_ideas[%d].expected_price %s != probability-weighted "
+                                 "target %.2f" % (i, claim, exp))
+                if cur:
+                    claim_ret = _num_or_none(row.get("expected_return_pct"))
+                    exp_ret = (exp / cur - 1.0) * 100.0
+                    if claim_ret is None or abs(claim_ret - exp_ret) > 0.5:
+                        fails.append("stock_ideas[%d].expected_return_pct %s != "
+                                     "probability-weighted return %.2f%%" % (i, claim_ret, exp_ret))
+            basis = str(row.get("probability_basis") or "").strip().upper()
+            if "UNCALIBRATED" not in basis:
+                fails.append("stock_ideas[%d].probability_basis must label AI probabilities "
+                             "as UNCALIBRATED" % i)
+
+    # --- Part 4: action vs valuation / reward-risk ---
+    rec = str(row.get("recommendation") or "").strip()
+    base_t = _num_or_none(row.get("base_target"))
+    override = str(row.get("override_reason") or "").strip()
+    if override.upper() in ("", "N/A", "NA", "NONE"):
+        override = ""
+    if cur and base_t is not None:
+        if rec in ("Buy", "Add"):
+            if base_t <= cur and not override:
+                fails.append("stock_ideas[%d]: %s base target %.2f must exceed current %.2f "
+                             "(or provide override_reason)" % (i, rec, base_t, cur))
+            rr = _num_or_none(row.get("risk_reward"))
+            if rr is not None and rr < 1.0 and not override:
+                fails.append("stock_ideas[%d]: %s reward/risk %.2f is below 1.0 "
+                             "(or provide override_reason)" % (i, rec, rr))
+        elif rec in ("Reduce", "Sell"):
+            if base_t >= cur and not override:
+                fails.append("stock_ideas[%d]: %s base target %.2f must be below current %.2f "
+                             "(or provide override_reason)" % (i, rec, base_t, cur))
+        elif rec == "Hold" and abs(base_t / cur - 1.0) > 0.15 and not override:
+            fails.append("stock_ideas[%d]: Hold base target is more than 15%% from current "
+                         "price (or provide override_reason)" % i)
 
 
 def _validate_stock_ideas(rows, narrative: dict, fails: list[str], evidence: dict) -> set:
@@ -1293,6 +1346,13 @@ def _esc(text: str) -> str:
     )
 
 
+
+def _pct100(value):
+    try:
+        return "%.0f" % (float(value) * 100.0)
+    except (TypeError, ValueError):
+        return "N/A"
+
 def _render_stock_ideas(rows) -> str | None:
     """Render single-stock ideas as cards (current/entry/scenarios/risk)."""
     if not isinstance(rows, list) or not rows:
@@ -1334,11 +1394,13 @@ def _render_stock_ideas(rows) -> str | None:
             '<tr><td>Method</td><td>%s</td></tr>'
             '<tr><td>Assumptions</td><td>%s</td></tr>'
             '</tbody></table>'
-            '<table><thead><tr><th>Scenario</th><th>EPS</th><th>P/E</th><th>Implied price</th></tr></thead><tbody>'
-            '<tr><td>Bull</td><td>%s</td><td>%s</td><td>%s</td></tr>'
-            '<tr><td>Base</td><td>%s</td><td>%s</td><td>%s</td></tr>'
-            '<tr><td>Bear</td><td>%s</td><td>%s</td><td>%s</td></tr>'
+            '<table><thead><tr><th>Scenario</th><th>Prob.</th><th>EPS</th><th>P/E</th><th>Implied price</th></tr></thead><tbody>'
+            '<tr><td>Bull</td><td>%s%%</td><td>%s</td><td>%s</td><td>%s</td></tr>'
+            '<tr><td>Base</td><td>%s%%</td><td>%s</td><td>%s</td><td>%s</td></tr>'
+            '<tr><td>Bear</td><td>%s%%</td><td>%s</td><td>%s</td><td>%s</td></tr>'
             '</tbody></table>'
+            '<p><strong>Probability-weighted target.</strong> %s '
+            '(expected return %s%%, %s).</p>'
             % (v("ttm_eps_diluted"), v("ttm_pe"),
                v("fy2026_eps_consensus"), v("fy2027_eps_consensus"), v("fy2028_eps_consensus"),
                v("fwd_pe_2027"), v("fwd_pe_2028"),
@@ -1346,9 +1408,10 @@ def _render_stock_ideas(rows) -> str | None:
                v("pe_3y_median"), v("pe_3y_min"), v("pe_3y_max"), v("pe_3y_percentile"),
                v("pe_5y_median"), v("pe_5y_min"), v("pe_5y_max"), v("pe_5y_percentile"),
                v("fwd_pe_premium_vs_median_pct"), v("valuation_method"), v("valuation_assumptions"),
-               v("bull_eps"), v("bull_pe"), v("bull_target"),
-               v("base_eps"), v("base_pe"), v("base_target"),
-               v("bear_eps"), v("bear_pe"), v("bear_target"))
+               _pct100(r.get("bull_prob")), v("bull_eps"), v("bull_pe"), v("bull_target"),
+               _pct100(r.get("base_prob")), v("base_eps"), v("base_pe"), v("base_target"),
+               _pct100(r.get("bear_prob")), v("bear_eps"), v("bear_pe"), v("bear_target"),
+               v("expected_price"), v("expected_return_pct"), v("probability_basis"))
         )
         prov = r.get("valuation_provenance") or {}
         prov_txt = "; ".join(

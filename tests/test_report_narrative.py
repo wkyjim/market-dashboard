@@ -139,6 +139,10 @@ def _good_narrative(evidence: dict) -> dict:
                 "pe_5y_median": 17.0, "pe_5y_min": 10.0, "pe_5y_max": 28.0,
                 "pe_5y_percentile": 55.0,
                 "fwd_pe_premium_vs_median_pct": premium,
+                "bull_prob": 0.25, "base_prob": 0.50, "bear_prob": 0.25,
+                "expected_price": round(0.25 * bull + 0.5 * base + 0.25 * bear, 2),
+                "expected_return_pct": round((0.25 * bull + 0.5 * base + 0.25 * bear) / cur * 100 - 100, 2),
+                "probability_basis": "AI_UNCALIBRATED", "override_reason": "N/A",
                 "bull_eps": round(bull / 10.0, 2), "bull_pe": 10.0,
                 "base_eps": round(base / 10.0, 2), "base_pe": 10.0,
                 "bear_eps": round(bear / 10.0, 2), "bear_pe": 10.0,
@@ -932,3 +936,52 @@ def test_consensus_must_match_yahoo():
     fails = audit_consensus([idea], lookup=lambda t: {"eps_current_year": 9.31,
                                                      "eps_next_year": 15.91})
     assert any("Yahoo" in f for f in fails)
+
+
+def test_scenario_probabilities_must_sum_to_one(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sections"]["stock_ideas"][0]["bull_prob"] = 0.40
+    fails = validate_narrative(n, ev)
+    assert any("sum to 100" in f for f in fails)
+
+
+def test_expected_price_must_match_weighted_target(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sections"]["stock_ideas"][0]["expected_price"] += 10
+    fails = validate_narrative(n, ev)
+    assert any("probability-weighted" in f for f in fails)
+
+
+def test_buy_requires_base_above_current(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    idea = n["sections"]["stock_ideas"][0]  # Buy at 100, base 110
+    idea["base_target"] = 95.0
+    idea["base_eps"] = 9.5
+    fails = validate_narrative(n, ev)
+    assert any("must exceed current" in f for f in fails)
+
+
+def test_sell_requires_base_below_current(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    idea = n["sections"]["stock_ideas"][3]  # Sell at 100, base 90
+    idea["base_target"] = 105.0
+    idea["base_eps"] = 10.5
+    fails = validate_narrative(n, ev)
+    assert any("must be below current" in f for f in fails)
+
+
+def test_override_allows_hold_far_from_current(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    idea = n["sections"]["stock_ideas"][2]  # Hold at 80, base 82
+    idea["base_target"] = 120.0
+    idea["base_eps"] = 12.0
+    fails = validate_narrative(n, ev)
+    assert any("Hold base target" in f for f in fails)
+    idea["override_reason"] = "Merger arbitrage: price pinned to deal terms."
+    fails = validate_narrative(n, ev)
+    assert not any("Hold base target" in f for f in fails)
