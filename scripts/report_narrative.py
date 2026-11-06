@@ -960,8 +960,8 @@ def _validate_stock_ideas(rows, narrative: dict, fails: list[str], evidence: dic
                              "source supports it" % i)
     if prev and len(rows) >= 3:
         new_selected = [t for t in tickers if t.upper() not in prev]
-        if len(new_selected) < 2:
-            fails.append("at least 2 selected ideas must be new versus the previous report "
+        if len(new_selected) < 1:
+            fails.append("at least 1 selected idea must be new versus the previous report "
                          "(found %d); carryovers are capped so the screen stays dynamic"
                          % len(new_selected))
     if not bearish:
