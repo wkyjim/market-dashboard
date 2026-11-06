@@ -27,6 +27,7 @@ from report_narrative import (  # noqa: E402  (path bootstrap must run first)
 from idea_price_audit import audit_ideas  # noqa: E402
 from fundamental_audit import audit_fundamentals  # noqa: E402
 from fundamentals_web import audit_pe_history, audit_consensus  # noqa: E402
+import cross_section_qc  # noqa: E402
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # market-dashboard
 DATA_DIR = os.path.join(BASE_DIR, "data")
@@ -637,14 +638,26 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
     # Sections below render as tables rather than bullet lists, matching the
     # October 31 institutional edition (c62d023) which carried 16 tables across
     # 15 sections. Row builders emit <tr> fragments consumed by <tbody>.
-    heat_st = "".join(
-        '<tr><td>%s</td><td class="%s">%+.1f%%</td></tr>'
-        % (esc(x["name"]), "pos" if x["weight"] >= 0 else "neg", x["weight"] * 100)
-        for x in heat["st"])
-    heat_lt = "".join(
-        '<tr><td>%s</td><td class="%s">%+.1f%%</td></tr>'
-        % (esc(x["name"]), "pos" if x["weight"] >= 0 else "neg", x["weight"] * 100)
-        for x in heat["lt"])
+    alloc_rows = [r for r in (nv.get("sector_allocation") or []) if isinstance(r, dict)]
+    if alloc_rows:
+        def _alloc_heat(horizon):
+            rows = [r for r in alloc_rows if str(r.get("horizon") or "").upper() == horizon]
+            return "".join(
+                '<tr><td>%s</td><td class="%s">%+.1f%%</td></tr>'
+                % (esc(str(r.get("sector") or "")), "pos" if float(r.get("active_weight") or 0) >= 0 else "neg",
+                   float(r.get("active_weight") or 0))
+                for r in rows)
+        heat_st = _alloc_heat("ST")
+        heat_lt = _alloc_heat("LT")
+    else:
+        heat_st = "".join(
+            '<tr><td>%s</td><td class="%s">%+.1f%%</td></tr>'
+            % (esc(x["name"]), "pos" if x["weight"] >= 0 else "neg", x["weight"] * 100)
+            for x in heat["st"])
+        heat_lt = "".join(
+            '<tr><td>%s</td><td class="%s">%+.1f%%</td></tr>'
+            % (esc(x["name"]), "pos" if x["weight"] >= 0 else "neg", x["weight"] * 100)
+            for x in heat["lt"])
     trades_html = "".join(
         "<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td></tr>"
         % (esc(t["name"]), esc(t["side"]), esc(t["type"]), esc(t["rationale"])) for t in trades)
@@ -1146,6 +1159,8 @@ def main() -> int:
 
     html = build_html(d, narrative_html, adjustments)
     fails = run_qc(html, d, narrative=bool(narrative_html))
+    if narrative_html and raw_narrative is not None:
+        fails += cross_section_qc.check(html, raw_narrative, adjustments.get("regime_score"))
     sys.stderr.write("DATA CUTOFF: %s %s | sectors=%d themes=%d cio=%.2f regime=%s source=%s\n"
                      % (d["data_cutoff"], d["data_cutoff_time"], len(d["sectors"]), len(d["themes"]),
                         d["cio"]["score"], d["regime"].get("score"), d["report_dt"]))

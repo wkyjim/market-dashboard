@@ -63,7 +63,8 @@ def test_qc06_scenario_probabilities():
 
 def test_qc07_eleven_unique_sectors():
     n = _narrative()
-    assert len(n["sections"]["sector_allocation"]) == 11
+    assert len(n["sections"]["sector_allocation"]) == 22
+    assert len([r for r in n["sections"]["sector_allocation"] if r["horizon"] == "ST"]) == 11
     n["sections"]["sector_allocation"][0]["sector"] = n["sections"]["sector_allocation"][1]["sector"]
     fails = validate_narrative(n, _evidence(Path(tempfile.mkdtemp())))
     assert any("11 unique GICS" in f for f in fails)

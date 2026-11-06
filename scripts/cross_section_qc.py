@@ -1,0 +1,104 @@
+"""Deterministic cross-section QC for the rendered market-intelligence HTML.
+
+Catches the recurring failures: regime numbers that differ between sections,
+per-ticker recommendations that contradict the idea card, heat maps that
+disagree with the 11-sector allocation, and wrong official calendar dates.
+"""
+from __future__ import annotations
+
+import re
+
+ACTION = r"(Buy|Add|Hold|Reduce|Sell)"
+
+
+def _section(html: str, anchor: str) -> str:
+    start = html.find(anchor)
+    if start < 0:
+        return ""
+    nxt = html.find("<h2", start + len(anchor))
+    return html[start: nxt if nxt > 0 else len(html)]
+
+
+def _heat_weights(section: str) -> dict:
+    out = {}
+    for m in re.finditer(r"<tr><td>([^<]+)</td><td[^>]*>([+-]?[0-9.]+)%</td></tr>", section):
+        out[m.group(1).strip()] = float(m.group(2))
+    return out
+
+
+def _alloc_weights(narrative: dict, horizon: str) -> dict:
+    out = {}
+    for row in (narrative.get("sections") or {}).get("sector_allocation") or []:
+        if not isinstance(row, dict):
+            continue
+        if str(row.get("horizon") or "").upper() != horizon:
+            continue
+        try:
+            out[str(row.get("sector") or "").strip()] = float(row.get("active_weight"))
+        except (TypeError, ValueError):
+            continue
+    return out
+
+
+def _cards(html: str) -> dict:
+    out = {}
+    for card in re.findall(r'<div class="idea-card">(.*?)</div>', html, re.S):
+        title = re.search(r"<h3>([A-Z][A-Z0-9.\-]*)", card)
+        rec = re.search(r"Stock &middot; " + ACTION, card)
+        if title and rec:
+            out[title.group(1)] = rec.group(1)
+    return out
+
+
+def check(html: str, narrative: dict, ai_score: float | None = None) -> list[str]:
+    fails: list[str] = []
+    cards = _cards(html)
+
+    # 1. Regime numbers repeated across sections must equal the canonical AI score.
+    if ai_score is not None:
+        for m in re.finditer(r"AI regime score[^0-9]{0,40}([0-9]+\.[0-9]+)", html):
+            if abs(float(m.group(1)) - float(ai_score)) > 0.05:
+                fails.append("cross-section: 'AI regime score %.2f' != canonical %.2f"
+                             % (float(m.group(1)), float(ai_score)))
+        for m in re.finditer(r"AI score\s+([0-9]+\.[0-9]+)\s+vs source", html):
+            if abs(float(m.group(1)) - float(ai_score)) > 0.05:
+                fails.append("cross-section: 'AI score %.2f vs source' != canonical %.2f"
+                             % (float(m.group(1)), float(ai_score)))
+
+    # 2. Every ticker mention with an action must agree with its idea card.
+    prose = re.sub(r'<div class="idea-card">.*?</div>', " ", html, flags=re.S)
+    text = re.sub(r"<[^>]+>", " ", prose)
+    for ticker, rec in cards.items():
+        patterns = [
+            r"\b%s\b[^.]{0,60}?\b%s\b" % (re.escape(ticker), ACTION),
+            r"\b%s\b[^.]{0,30}?\b%s\b" % (ACTION, re.escape(ticker)),
+        ]
+        seen = set()
+        for pat in patterns:
+            for m in re.finditer(pat, text):
+                g1 = m.group(1)
+                action = g1 if g1 in ("Buy", "Add", "Hold", "Reduce", "Sell") else m.group(2)
+                if action in ("Buy", "Add", "Hold", "Reduce", "Sell"):
+                    seen.add(action)
+        wrong = sorted(a for a in seen if a != rec)
+        if wrong:
+            fails.append("cross-section: %s card says %s but text also says %s"
+                         % (ticker, rec, "/".join(wrong)))
+
+    # 3. Heat maps must equal the allocation active weights for the same horizon.
+    for horizon, anchor in (("ST", 'id="heat-st"'), ("LT", 'id="heat-lt"')):
+        heat = _heat_weights(_section(html, anchor))
+        alloc = _alloc_weights(narrative, horizon)
+        if not heat or not alloc:
+            continue
+        for sector, weight in heat.items():
+            if sector in alloc and abs(weight - alloc[sector]) > 0.1:
+                fails.append("cross-section: %s heat map %s %.1f%% != allocation %.1f%%"
+                             % (horizon, sector, weight, alloc[sector]))
+
+    # 4. Official calendar dates; historical events must not sit in upcoming catalysts.
+    if "FOMC" in text and re.search(r"Dec(?:ember)?\s+10", text):
+        fails.append("cross-section: December FOMC is Dec 8-9, not Dec 10")
+    if "CPI" in text and re.search(r"Nov(?:ember)?\s+12", text):
+        fails.append("cross-section: October CPI is released Nov 10, not Nov 12")
+    return fails
