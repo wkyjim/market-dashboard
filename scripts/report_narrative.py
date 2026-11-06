@@ -67,6 +67,7 @@ ALLOWED_SECTIONS = (
     "catalysts_narrative",   # str/list  -> Catalyst Watchlist commentary
     "risk_narrative",        # str/list  -> Key Risk Analysis commentary
     "portfolio_risk",        # rows      -> portfolio risk / correlation / sizing table
+    "sector_allocation",     # rows      -> 11 GICS benchmark/portfolio/active weights
     "conclusions",           # str/list  -> Highest-Conviction Conclusions
 )
 
@@ -286,6 +287,13 @@ TABLE_SECTIONS = {
         ("signal", "Signal"),
         ("verdict", "Verdict"),
         ("reason", "Why selected / rejected"),
+    ),
+    "sector_allocation": (
+        ("sector", "GICS sector"),
+        ("benchmark_weight", "Benchmark wt %"),
+        ("portfolio_weight", "Portfolio wt %"),
+        ("active_weight", "Active wt %"),
+        ("rationale", "Sizing rationale"),
     ),
     "portfolio_risk": (
         ("risk", "Risk"),
@@ -929,6 +937,43 @@ def _validate_stock_ideas(rows, narrative: dict, fails: list[str], evidence: dic
     return tickers
 
 
+def _validate_sector_allocation(rows, fails: list[str]) -> None:
+    """11 GICS sectors, weights sum to 100, active = portfolio - benchmark, active sums to 0."""
+    if not isinstance(rows, list) or len(rows) != 11:
+        fails.append("sector_allocation must contain exactly 11 GICS sectors (got %s)"
+                     % (len(rows) if isinstance(rows, list) else 0))
+        return
+    names = [str(r.get("sector") or "").strip() for r in rows if isinstance(r, dict)]
+    if len(names) != 11 or len(set(names)) != 11:
+        fails.append("sector_allocation sector names must be 11 unique GICS sectors")
+    bench = port = active = 0.0
+    for i, row in enumerate(rows):
+        if not isinstance(row, dict):
+            fails.append("sector_allocation[%d] is not an object" % i)
+            continue
+        try:
+            b = float(row.get("benchmark_weight"))
+            p = float(row.get("portfolio_weight"))
+            a = float(row.get("active_weight"))
+        except (TypeError, ValueError):
+            fails.append("sector_allocation[%d] weights must be numeric" % i)
+            continue
+        if abs((p - b) - a) > 0.1:
+            fails.append("sector_allocation[%d] active %.2f != portfolio %.2f - benchmark %.2f"
+                         % (i, a, p, b))
+        if len(str(row.get("rationale") or "").strip()) < 8:
+            fails.append("sector_allocation[%d] needs a sizing rationale" % i)
+        bench += b
+        port += p
+        active += a
+    if abs(bench - 100.0) > 0.2:
+        fails.append("sector_allocation benchmark weights must sum to 100 (got %.2f)" % bench)
+    if abs(port - 100.0) > 0.2:
+        fails.append("sector_allocation portfolio weights must sum to 100 (got %.2f)" % port)
+    if abs(active) > 0.2:
+        fails.append("sector_allocation active weights must sum to 0 (got %.2f)" % active)
+
+
 def validate_narrative(narrative: dict, evidence: dict, tolerance: float = 0.02) -> list[str]:
     """Return a list of failures. Empty list means the narrative is safe to render."""
     fails: list[str] = []
@@ -1017,6 +1062,7 @@ def validate_narrative(narrative: dict, evidence: dict, tolerance: float = 0.02)
 
     stock_tickers = _validate_stock_ideas(sections.get("stock_ideas"), narrative, fails, evidence)
     _validate_candidate_screen(sections.get("candidate_screen"), stock_tickers, fails)
+    _validate_sector_allocation(sections.get("sector_allocation"), fails)
 
     metrics = evidence.get("metrics") or {}
     claims = narrative.get("claims") or []

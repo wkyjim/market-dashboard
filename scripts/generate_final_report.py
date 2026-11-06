@@ -512,6 +512,7 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
     catalysts_narrative = nv.get("catalysts_narrative", "")
     risk_narrative = nv.get("risk_narrative", "")
     portfolio_risk = nv.get("portfolio_risk", "")
+    sector_allocation = nv.get("sector_allocation", "")
     conclusions = nv.get("conclusions", "")
     # External citations rendered by report_narrative.render_sources(). Empty when
     # the narrative carried none, in which case only the built-in sources appear.
@@ -861,6 +862,7 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
 <p><em>Mixture of source-derived and analyst inference (labelled per row).</em></p>
 {risk_narrative}
 {portfolio_risk}
+{sector_allocation}
 <table><thead><tr><th>Risk</th><th>Category</th><th>Assessment</th><th>Tag</th></tr></thead><tbody>
 {risks_html}
 </tbody></table>

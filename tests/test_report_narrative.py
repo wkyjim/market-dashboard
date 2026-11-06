@@ -72,7 +72,7 @@ ALL_SECTIONS = [
     "price_action", "flows_narrative", "portfolio_posture", "sector_narrative", "themes_narrative",
     "style_rotation", "factor_style", "trades_narrative", "candidate_screen", "stock_ideas",
     "heat_st_narrative", "heat_lt_narrative", "catalysts_narrative",
-    "risk_narrative", "portfolio_risk", "conclusions",
+    "risk_narrative", "portfolio_risk", "sector_allocation", "conclusions",
 ]
 
 
@@ -212,6 +212,18 @@ def _good_narrative(evidence: dict) -> dict:
          "verdict": "No-Trade", "reason": "Evidence insufficient for a quantified target."},
         {"ticker": "HHH", "name": "HHH Inc", "sector": "Health Care", "signal": "Stable",
          "verdict": "Watchlist", "reason": "Wait for the next earnings print."},
+    ]
+    _sectors = [
+        ("Information Technology", 30, 29), ("Health Care", 12, 13),
+        ("Financials", 13, 13), ("Consumer Discretionary", 10, 10),
+        ("Consumer Staples", 6, 6), ("Energy", 4, 4), ("Industrials", 8, 8),
+        ("Materials", 3, 3), ("Real Estate", 2, 2), ("Utilities", 3, 3),
+        ("Communication Services", 9, 9),
+    ]
+    sections["sector_allocation"] = [
+        {"sector": name, "benchmark_weight": b, "portfolio_weight": p,
+         "active_weight": p - b, "rationale": "Sizing reflects relative score and risk budget."}
+        for name, b, p in _sectors
     ]
     sections["what_matters"] = ["Health Care leads at 83.89."]
     sections["sector_narrative"] = ["Defensive leadership dominates the table."]
@@ -1020,3 +1032,27 @@ def test_pe_history_basis_must_match_eps_basis(tmp_path):
     n["sections"]["stock_ideas"][0]["pe_history_basis"] = "non-GAAP"
     fails = validate_narrative(n, ev)
     assert any("pe_history_basis" in f for f in fails)
+
+
+def test_sector_allocation_requires_11_rows(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sections"]["sector_allocation"] = n["sections"]["sector_allocation"][:10]
+    fails = validate_narrative(n, ev)
+    assert any("exactly 11 GICS sectors" in f for f in fails)
+
+
+def test_sector_allocation_active_must_reconcile(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sections"]["sector_allocation"][0]["active_weight"] = 5.0
+    fails = validate_narrative(n, ev)
+    assert any("active" in f and "!=" in f for f in fails)
+
+
+def test_sector_allocation_weights_must_sum_to_100(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sections"]["sector_allocation"][0]["portfolio_weight"] += 5
+    fails = validate_narrative(n, ev)
+    assert any("portfolio weights must sum to 100" in f for f in fails)
