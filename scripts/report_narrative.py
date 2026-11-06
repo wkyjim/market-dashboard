@@ -978,6 +978,13 @@ def _validate_stock_ideas(rows, narrative: dict, fails: list[str], evidence: dic
     return tickers
 
 
+def _has_metric_basis(text: str) -> bool:
+    """True when a rationale cites a metric (score with decimal, or a multiple like 18x)."""
+    if re.search(r"\d+(?:\.\d+)?\s*x\b", text, re.I):
+        return True
+    return any("." in n for n in re.findall(r"\d+(?:\.\d+)?", text))
+
+
 def _validate_sector_allocation(rows, fails: list[str]) -> None:
     """ST and LT portfolios: 11 unique GICS each, weights sum to 100, active sums to 0."""
     if not isinstance(rows, list) or len(rows) != 22:
@@ -1014,8 +1021,13 @@ def _validate_sector_allocation(rows, fails: list[str]) -> None:
             if abs((p - b) - a) > 0.1:
                 fails.append("sector_allocation %s row %d active %.2f != portfolio %.2f - benchmark %.2f"
                              % (horizon, i, a, p, b))
-            if len(str(row.get("rationale") or "").strip()) < 8:
+            rationale = str(row.get("rationale") or "").strip()
+            if len(rationale) < 8:
                 fails.append("sector_allocation %s row %d needs a sizing rationale" % (horizon, i))
+            elif not _has_metric_basis(rationale):
+                fails.append("sector_allocation %s row %d rationale must cite a specific metric "
+                             "(sector score or valuation multiple), not only the active weight"
+                             % (horizon, i))
             bench += b
             port += p
             active += a

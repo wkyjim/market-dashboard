@@ -224,7 +224,7 @@ def _good_narrative(evidence: dict) -> dict:
         {"horizon": horizon, "sector": name, "benchmark_weight": b,
          "portfolio_weight": p if horizon == "ST" else p + (1 if name == "Health Care" else (-1 if name == "Information Technology" else 0)),
          "active_weight": (p - b) if horizon == "ST" else (p - b) + (1 if name == "Health Care" else (-1 if name == "Information Technology" else 0)),
-         "rationale": "%s %s sizing reflects its score and risk budget." % (horizon, name)}
+         "rationale": "%s %s score %.1f; active %+d pp." % (horizon, name, 50.0 + b, p - b)}
         for horizon in ("ST", "LT") for name, b, p in _sectors
     ]
     sections["what_matters"] = ["Health Care leads at 83.89."]
@@ -1130,3 +1130,11 @@ def test_sector_allocation_requires_both_horizons(tmp_path):
     n["sections"]["sector_allocation"] = [r for r in n["sections"]["sector_allocation"] if r["horizon"] != "LT"]
     fails = validate_narrative(n, ev)
     assert any("22 rows" in f for f in fails)
+
+
+def test_sector_allocation_rationale_needs_metric(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sections"]["sector_allocation"][0]["rationale"] = "Active weight -5 pp."
+    fails = validate_narrative(n, ev)
+    assert any("cite a specific metric" in f for f in fails)
