@@ -1138,3 +1138,12 @@ def test_sector_allocation_rationale_needs_metric(tmp_path):
     n["sections"]["sector_allocation"][0]["rationale"] = "Active weight -5 pp."
     fails = validate_narrative(n, ev)
     assert any("cite a specific metric" in f for f in fails)
+
+
+def test_source_note_eps_year_must_match(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sources"].append({"label": "Yahoo", "url": "https://example.com/aaa",
+                         "note": "AAA Inc FY2026 EPS 99.00"})
+    fails = validate_narrative(n, ev)
+    assert any("source note labels" in f for f in fails)

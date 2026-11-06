@@ -785,6 +785,29 @@ def _validate_valuation(row: dict, i: int, fails: list[str], global_sources: dic
     fails.extend(_validate_assumption_labels(row, i))
 
 
+def _validate_source_notes(rows, sources: dict, fails: list[str]) -> None:
+    """Source notes must not label EPS in a different fiscal year than the idea row."""
+    for i, row in enumerate(rows):
+        ticker = str(row.get("ticker") or "").strip()
+        if not ticker:
+            continue
+        for note in sources.values():
+            low = str(note or "")
+            if ticker.lower() not in low.lower():
+                continue
+            for year, field in ((2026, "fy2026_eps_consensus"), (2027, "fy2027_eps_consensus"),
+                                (2028, "fy2028_eps_consensus")):
+                m = re.search(r"FY%s[^.]{0,30}?EPS\s*\$?([0-9]+\.[0-9]+)" % year, low)
+                if not m:
+                    continue
+                actual = _num_or_none(row.get(field))
+                claimed = float(m.group(1))
+                if actual is None or abs(claimed - actual) > max(0.05, abs(actual) * 0.01):
+                    fails.append("stock_ideas[%d] %s source note labels %.2f as FY%s EPS, "
+                                 "but the row has %s" % (i, ticker, claimed, year,
+                                                          "N/A" if actual is None else "%.2f" % actual))
+
+
 def _validate_stock_ideas(rows, narrative: dict, fails: list[str], evidence: dict) -> set:
     """Validate idea cards: fields, arithmetic, freshness, provenance. Returns tickers."""
     tickers: set = set()
@@ -796,6 +819,7 @@ def _validate_stock_ideas(rows, narrative: dict, fails: list[str], evidence: dic
         fails.append("stock_ideas must contain 3-5 ideas (got %d)" % len(rows))
     global_sources = {str(s.get("url") or "").strip(): str(s.get("note") or "")
                       for s in (narrative.get("sources") or []) if isinstance(s, dict)}
+    _validate_source_notes(rows, global_sources, fails)
     report_dt = _parse_report_date(evidence)
     recs = {"Buy", "Add", "Hold", "Reduce", "Sell"}
     horizons = {"1-3M", "6-12M", "12M+"}
