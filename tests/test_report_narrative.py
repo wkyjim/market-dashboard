@@ -1096,3 +1096,11 @@ def test_assumption_labels_accept_correct_text():
            "fwd_pe_2027": 19.51,
            "valuation_assumptions": "FY2027 EPS 9.31, FY2028 15.91; PE 19.5x on FY2027."}
     assert _validate_assumption_labels(row, 0) == []
+
+
+def test_assumption_labels_catch_fy27_abbreviation():
+    from report_narrative import _validate_assumption_labels
+    row = {"fy2027_eps_consensus": 11.46, "fy2028_eps_consensus": 10.92,
+           "valuation_assumptions": "FY27 EPS 10.92 (Yahoo), FY28 ~10.5"}
+    fails = _validate_assumption_labels(row, 0)
+    assert any("period shift" in f for f in fails)

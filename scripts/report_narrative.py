@@ -482,7 +482,9 @@ def _validate_assumption_labels(row: dict, i: int) -> list[str]:
         actual = _num_or_none(row.get(field))
         if actual is None:
             continue
-        m = re.search(r"FY%s[^.]{0,40}?(?:EPS\s*)?\$?([0-9]+\.[0-9]+)" % year, text)
+        short = str(year)[2:]
+        m = re.search(r"(?:FY%s|FY%s)[^.]{0,40}?(?:EPS\s*)?\$?([0-9]+\.[0-9]+)"
+                      % (year, short), text)
         if not m:
             continue
         claimed = float(m.group(1))
