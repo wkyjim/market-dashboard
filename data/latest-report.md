@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 6 November 2026, 19:16:25 (HKT)
+Generated at: 6 November 2026, 20:18:15 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **39.78 / 100** (Mild Risk-Off)
+- Regime score: **39.84 / 100** (Mild Risk-Off)
 - US equity strength: **24.5 / 100** (weak)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **53.96 / 100**, reliability **71.19 / 100**
@@ -17,17 +17,17 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 39.78 | Mild Risk-Off |
+| Overall regime | 39.84 | Mild Risk-Off |
 | equity_trend | 8.75 | risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 38.47 | mild risk-off pressure; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 36.67 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
 | volatility | 35.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 52.77 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 51.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 52.95 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 54.0 | neutral / mixed; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 52.82 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 51.25 | neutral / mixed; Weighted headline/news confirmation score. |
+| news_confirmation | 48.75 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | none |
 | Negative contributors |  | equity_trend=8.75, volatility=35.0, market_breadth=36.67, equity_momentum=38.47 |
 
@@ -81,9 +81,9 @@ Method: Analyst inference/estimate (historical bucket calibration).
 | Dollar | DXY proxy rising | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG falling | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold falling | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
-| Silver | Silver falling | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
+| Silver | Silver stable | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper stable | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
-| Oil | WTI crude stable | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
+| Oil | WTI crude rising | Oil spikes can be inflationary risk; falling oil can ease cost pressure but may also flag demand softness. |
 | Volatility | VIX falling | Falling VIX supports risk appetite; a volatility spike would reduce confidence in broad risk-on. |
 
 ### Macro Snapshot
@@ -95,19 +95,19 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7353.73 | -4.36 | 2026-11-05 | closed |
 | ^IXIC | NASDAQ Composite | 24315.0 | -5.52 | 2026-11-05 | closed |
 | ^RUT | Russell 2000 Index | 2729.89 | -4.45 | 2026-11-05 | closed |
-| ^VIX | CBOE Volatility Index | 26.67 | -5.36 | 2026-11-06 | live as of 6 November 2026, 19:00:20 (HKT) |
+| ^VIX | CBOE Volatility Index | 26.5 | -5.96 | 2026-11-06 | live as of 6 November 2026, 20:00:25 (HKT) |
 | ^SKEW | CBOE SKEW Index | 149.37 | -1.01 | 2026-11-05 | closed |
 | ^MOVE | ICE BofA MOVE Index | 97.92 | 4.3 | 2026-11-05 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.48 | 0.07 | 2026-11-06 | live as of 6 November 2026, 19:00:20 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.55 | 0.09 | 2026-11-06 | live as of 6 November 2026, 19:00:20 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.61 | 0.07 | 2026-11-06 | live as of 6 November 2026, 19:00:20 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.71 | 0.09 | 2026-11-06 | live as of 6 November 2026, 19:00:20 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.84 | -0.02 | 2026-11-06 | live as of 6 November 2026, 19:00:20 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.28 | 0.09 | 2026-11-06 | live as of 6 November 2026, 19:00:20 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.26 | 0.13 | 2026-11-06 | live as of 6 November 2026, 19:00:20 (HKT) |
-| HK50 | Hang Seng Futures | 24580.5 | 0.3 | 2026-11-06 | live as of 6 November 2026, 19:00:20 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 775.25 | -7.41 | 2026-11-06 | live as of 6 November 2026, 19:00:20 (HKT) |
-| CIHc1 | SSE 50 Futures | 2774.0 | -0.85 | 2026-11-06 | live as of 6 November 2026, 19:00:20 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.49 | 0.2 | 2026-11-06 | live as of 6 November 2026, 20:00:25 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.56 | 0.29 | 2026-11-06 | live as of 6 November 2026, 20:00:25 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.62 | 0.35 | 2026-11-06 | live as of 6 November 2026, 20:00:25 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.73 | 0.45 | 2026-11-06 | live as of 6 November 2026, 20:00:25 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.86 | 0.39 | 2026-11-06 | live as of 6 November 2026, 20:00:25 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.31 | 0.55 | 2026-11-06 | live as of 6 November 2026, 20:00:25 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.28 | 0.55 | 2026-11-06 | live as of 6 November 2026, 20:00:25 (HKT) |
+| HK50 | Hang Seng Futures | 24478.5 | -0.12 | 2026-11-06 | live as of 6 November 2026, 20:00:25 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 775.25 | -7.41 | 2026-11-06 | live as of 6 November 2026, 20:00:25 (HKT) |
+| CIHc1 | SSE 50 Futures | 2774.0 | -0.85 | 2026-11-06 | live as of 6 November 2026, 20:00:25 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.28 | -0.31 | 2026-11-05 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.66 | 0.15 | 2026-11-05 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.78 | -0.27 | 2026-11-05 | closed |
@@ -117,10 +117,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 81.93 | 0.21 | 2026-11-05 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 91.97 | 0.34 | 2026-11-05 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.67 | 0.21 | 2026-11-05 | closed |
-| GC=F | Gold Future | 4075.6 | -0.92 | 2026-11-06 | live as of 6 November 2026, 19:00:20 (HKT) |
-| SI=F | Silver Future | 51.95 | -0.54 | 2026-11-06 | live as of 6 November 2026, 19:00:20 (HKT) |
-| CL=F | WTI Crude Oil Future | 90.73 | 0.23 | 2026-11-06 | live as of 6 November 2026, 19:00:20 (HKT) |
-| HG=F | Copper Future | 6.25 | 0.06 | 2026-11-06 | live as of 6 November 2026, 19:00:20 (HKT) |
+| GC=F | Gold Future | 4077.5 | -0.88 | 2026-11-06 | live as of 6 November 2026, 20:00:25 (HKT) |
+| SI=F | Silver Future | 52.13 | -0.2 | 2026-11-06 | live as of 6 November 2026, 20:00:25 (HKT) |
+| CL=F | WTI Crude Oil Future | 91.01 | 0.54 | 2026-11-06 | live as of 6 November 2026, 20:00:25 (HKT) |
+| HG=F | Copper Future | 6.26 | 0.13 | 2026-11-06 | live as of 6 November 2026, 20:00:25 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -344,12 +344,12 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Volatility and Risk Signals
 
-- VIX close=26.67 pct_chg=-5.36
+- VIX close=26.5 pct_chg=-5.96
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 39, 'negative': 37, 'neutral': 4}
-- News confirmation score: `51.25`
+- Sentiment counts: {'positive': 35, 'negative': 37, 'neutral': 8}
+- News confirmation score: `48.75`
 
 ### Top Market-Moving Headlines
 
@@ -385,15 +385,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.42`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**5. Renewed U.S.-Iran tension could push oil past $100: Rapidan Energy**
-- Source: CNBC Business Headlines
-- Importance / impact: High / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: U.S, geopolitics, oil prices, energy markets
-- Score: `48.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**6. Tankers hit in Hormuz as Iran keeps up pressure after US vote**
+**5. Tankers hit in Hormuz as Iran keeps up pressure after US vote**
 - Source: Investing.com Stock Market
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
@@ -401,7 +393,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `45.9`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. World's largest olive oil company plummets 20% after rivals agree to takeover deal**
+**6. World's largest olive oil company plummets 20% after rivals agree to takeover deal**
 - Source: CNBC Business News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -409,13 +401,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Moscow Seizes Japan Tobacco’s Russia Factories**
+**7. Moscow Seizes Japan Tobacco’s Russia Factories**
 - Source: Dow Jones US Business
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: JT, geopolitics, sanctions, corporate assets
 - Score: `41.44`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**8. Renewed U.S.-Iran tension could push oil past $100: Rapidan Energy**
+- Source: CNBC Business Headlines
+- Importance / impact: Medium / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, geopolitics, oil prices, energy markets
+- Score: `40.8`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **9. Unity shares jump on report of takeover interest from Silver Lake, PIF**
 - Source: Investing.com World News
@@ -532,4 +532,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 06 November 2026, 19:16:25 (HKT)
+- Report generated at: 06 November 2026, 20:18:15 (HKT)
