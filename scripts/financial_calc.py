@@ -574,3 +574,76 @@ def qc_sectors(sectors, expected=11):
     if len(set(names)) != expected:
         return "GICS sector names must be unique"
     return None
+
+
+# --------------------------------------------------- canonical valuation object
+def valuation_object(row: dict) -> dict:
+    """All report valuation outputs derived from one price/EPS snapshot."""
+    cur = _num(row.get("current_price"))
+    ttm = _num(row.get("ttm_eps_diluted"))
+    fy26 = _num(row.get("fy2026_eps_consensus"))
+    fy27 = _num(row.get("fy2027_eps_consensus"))
+    fy28 = _num(row.get("fy2028_eps_consensus"))
+    entry = _num(row.get("entry_price"))
+    med5 = _num(row.get("pe_5y_median"))
+    out = {
+        "ttm_pe": ttm_pe(cur, ttm),
+        "fwd_pe_2027": forward_pe(cur, fy27),
+        "fwd_pe_2028": forward_pe(cur, fy28),
+        "eps_growth_2026_2028_pct": None,
+        "fwd_pe_premium_vs_median_pct": None,
+        "bull_target": scenario_target(_num(row.get("bull_eps")), _num(row.get("bull_pe"))),
+        "base_target": scenario_target(_num(row.get("base_eps")), _num(row.get("base_pe"))),
+        "bear_target": scenario_target(_num(row.get("bear_eps")), _num(row.get("bear_pe"))),
+    }
+    g = eps_growth(fy28, fy26)
+    out["eps_growth_2026_2028_pct"] = None if g is None else g * 100.0
+    prem = pe_premium(out["fwd_pe_2027"], med5)
+    out["fwd_pe_premium_vs_median_pct"] = None if prem is None else prem * 100.0
+    probs = [_num(row.get(k)) for k in ("bull_prob", "base_prob", "bear_prob")]
+    targets = [out["bull_target"], out["base_target"], out["bear_target"]]
+    if all(p is not None for p in probs) and all(t is not None for t in targets):
+        exp = probability_weighted_target(targets, probs)
+        out["expected_price"] = exp
+        out["expected_return_pct"] = None if exp is None else (exp / cur - 1.0) * 100.0 if cur else None
+    else:
+        out["expected_price"] = None
+        out["expected_return_pct"] = None
+    if entry and out["base_target"] is not None:
+        out["upside_pct"] = (out["base_target"] / entry - 1.0) * 100.0
+    else:
+        out["upside_pct"] = None
+    if entry and out["bear_target"] is not None:
+        out["downside_pct"] = (out["bear_target"] / entry - 1.0) * 100.0
+    else:
+        out["downside_pct"] = None
+    if cur and out["base_target"] is not None:
+        out["return_from_current_pct"] = (out["base_target"] / cur - 1.0) * 100.0
+    else:
+        out["return_from_current_pct"] = None
+    if out["upside_pct"] is not None and out["downside_pct"] not in (None, 0):
+        out["risk_reward"] = out["upside_pct"] / abs(out["downside_pct"])
+    else:
+        out["risk_reward"] = None
+    return out
+
+
+def compare_valuation(row: dict, index: int = 0, tol: float = 0.005) -> list[str]:
+    """Compare every reported valuation field with the canonical object."""
+    fails: list[str] = []
+    obj = valuation_object(row)
+    for key, expected in obj.items():
+        if expected is None:
+            continue
+        claimed = row.get(key)
+        if isinstance(expected, str):
+            if str(claimed).strip() != expected:
+                fails.append("stock_ideas[%d].%s %r != canonical %r" % (index, key, claimed, expected))
+            continue
+        actual = _num(claimed)
+        if actual is None:
+            fails.append("stock_ideas[%d].%s is missing; canonical %.4f" % (index, key, expected))
+            continue
+        if abs(actual - expected) > max(0.05, abs(expected) * tol):
+            fails.append("stock_ideas[%d].%s %.4f != canonical %.4f" % (index, key, actual, expected))
+    return fails

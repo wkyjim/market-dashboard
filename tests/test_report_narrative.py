@@ -170,11 +170,21 @@ def _good_narrative(evidence: dict) -> dict:
                     "base_target": "AI_FORECAST", "bull_target": "AI_FORECAST",
                     "bear_target": "AI_FORECAST",
                 },
-                "thesis": "Researched gap versus expectations.",
+                "thesis": ("The market prices a sustained margin recovery that is not supported by the "
+                            "latest filing; our base case assumes only partial recovery with cost discipline and no multiple re-rating."),
                 "assumptions": "EPS and multiple assumptions stated explicitly.",
                 "why_vs_alternatives": "Best risk/reward within the sector screen.",
-                "contrary": "Consensus expects slower growth than our base case.",
-                "catalysts": "Next earnings and guidance.", "risks": "Demand and policy risk.",
+                "contrary": ("Consensus expects slower growth than our base case; if the next print "
+                              "shows flat volumes and no pricing, the thesis weakens materially."),
+                "catalysts": "Q4 earnings on 2026-11-20; guidance update on 2026-12-10.",
+                "peer_comparison": ("Peers XYZ and ABC trade at 14x and 16x forward earnings; AAA trades "
+                                    "at 18x with faster revenue growth and a stronger balance sheet."),
+                "sector_context": ("The sector rating is 30 (underweight), but this is a stock-specific "
+                                   "Buy: company margins are inflecting while the sector average is flat."),
+                "conclusion": ("Buy: the risk/reward is skewed positive because estimates are too low and "
+                               "the balance sheet supports the dividend through the cycle."),
+                "pe_history_basis": "GAAP",
+                "risks": "Demand and policy risk.",
                 "entry_condition": "On a pullback to entry.", "exit": "At base target or invalidation.",
                 "invalidation": "Guidance cut or margin compression.", "opposing": "Bear case is a demand rollover.",
                 "reassess": "NEW", "verification": "Estimate",
@@ -985,3 +995,28 @@ def test_override_allows_hold_far_from_current(tmp_path):
     idea["override_reason"] = "Merger arbitrage: price pinned to deal terms."
     fails = validate_narrative(n, ev)
     assert not any("Hold base target" in f for f in fails)
+
+
+def test_canonical_valuation_flags_wrong_pe(tmp_path):
+    from financial_calc import compare_valuation
+    ev = _evidence(tmp_path)
+    idea = _good_narrative(ev)["sections"]["stock_ideas"][0]
+    idea["ttm_pe"] = float(idea["ttm_pe"]) + 5.0
+    fails = compare_valuation(idea)
+    assert any("ttm_pe" in f and "canonical" in f for f in fails)
+
+
+def test_thin_research_is_rejected(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sections"]["stock_ideas"][0]["peer_comparison"] = "Peers are cheaper."
+    fails = validate_narrative(n, ev)
+    assert any("peer_comparison is too thin" in f for f in fails)
+
+
+def test_pe_history_basis_must_match_eps_basis(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sections"]["stock_ideas"][0]["pe_history_basis"] = "non-GAAP"
+    fails = validate_narrative(n, ev)
+    assert any("pe_history_basis" in f for f in fails)

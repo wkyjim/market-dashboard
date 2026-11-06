@@ -25,7 +25,7 @@ import json
 import os
 import re
 
-from financial_calc import qc_probabilities, target_price as calc_target_price
+from financial_calc import compare_valuation, qc_probabilities, target_price as calc_target_price
 import subprocess
 from datetime import datetime, timezone
 from pathlib import Path
@@ -305,6 +305,7 @@ CARD_SECTIONS = {
         "current_price", "price_date", "entry_price", "base_target", "bull_target", "bear_target",
         "upside_pct", "downside_pct", "return_from_current_pct", "risk_reward",
         "thesis", "assumptions", "why_vs_alternatives", "contrary",
+        "peer_comparison", "sector_context", "conclusion",
         "catalysts", "risks", "entry_condition", "exit", "invalidation",
         "opposing", "reassess", "verification", "sources",
         # --- valuation block (P0) ---
@@ -325,7 +326,7 @@ CARD_SECTIONS = {
         "fy2027_revenue_consensus", "fy2028_revenue_consensus", "revenue_growth_2027_2028_pct",
         "fundamentals_source",
         "ttm_eps_source", "consensus_source", "pe_history_source",
-        "pe_history_years", "eps_revision_source",
+        "pe_history_years", "pe_history_basis", "eps_revision_source",
         "fy2027_eps_method", "fy2028_eps_method",
         "h1_eps_reported", "h2_eps_forecast", "h2_rationale",
         "fy_revenue", "fy_net_margin_pct", "fy_tax_rate_pct", "fy_diluted_shares",
@@ -732,6 +733,8 @@ def _validate_valuation(row: dict, i: int, fails: list[str], global_sources: dic
             fails.append("stock_ideas[%d]: Hold base target is more than 15%% from current "
                          "price (or provide override_reason)" % i)
 
+    fails.extend(compare_valuation(row, i))
+
 
 def _validate_stock_ideas(rows, narrative: dict, fails: list[str], evidence: dict) -> set:
     """Validate idea cards: fields, arithmetic, freshness, provenance. Returns tickers."""
@@ -855,12 +858,27 @@ def _validate_stock_ideas(rows, narrative: dict, fails: list[str], evidence: dic
                     if not (bull > base > bear):
                         fails.append("stock_ideas[%d] Hold requires bull > base > bear" % i)
         for key in ("thesis", "assumptions", "why_vs_alternatives", "contrary",
+                    "peer_comparison", "sector_context", "conclusion",
                     "catalysts", "risks", "entry_condition", "exit", "invalidation", "opposing"):
             text = row.get(key)
             if not isinstance(text, str) or not text.strip():
                 fails.append("stock_ideas[%d].%s must be a non-empty string" % (i, key))
-            elif len(text) > 600:
-                fails.append("stock_ideas[%d].%s exceeds 600 chars" % (i, key))
+            elif len(text) > 900:
+                fails.append("stock_ideas[%d].%s exceeds 900 chars" % (i, key))
+        for key, minimum in (("thesis", 160), ("peer_comparison", 100),
+                             ("sector_context", 100), ("conclusion", 80),
+                             ("contrary", 80), ("catalysts", 40)):
+            text = str(row.get(key) or "")
+            if len(text.strip()) < minimum:
+                fails.append("stock_ideas[%d].%s is too thin (%d chars; minimum %d) — "
+                             "restore substantive research" % (i, key, len(text.strip()), minimum))
+        if len(re.findall(r"\b(?:Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec)[a-z]*\s+\d{1,2}|20\d\d-\d\d-\d\d", str(row.get("catalysts") or ""))) < 2:
+            fails.append("stock_ideas[%d].catalysts must list at least two dated events" % i)
+        basis = str(row.get("eps_basis") or "").strip()
+        pe_basis = str(row.get("pe_history_basis") or "").strip()
+        if pe_basis != basis:
+            fails.append("stock_ideas[%d].pe_history_basis %r must match eps_basis %r "
+                         "(historical and forward P/E only on consistent EPS)" % (i, pe_basis, basis))
         assumptions = str(row.get("assumptions") or "").lower()
         if not any(k in assumptions for k in ("eps", "p/e", "multiple", "fcf", "dcf", "ebitda", "revenue")):
             fails.append("stock_ideas[%d].assumptions must state an explicit valuation basis "
@@ -1452,6 +1470,8 @@ def _render_stock_ideas(rows) -> str | None:
             '<p><strong>Assumptions.</strong> %s</p>\n'
             '<p><strong>Why this versus alternatives.</strong> %s</p>\n'
             '<p><strong>Contrary evidence.</strong> %s</p>\n'
+            '<p><strong>Peer comparison.</strong> %s</p>\n'
+            '<p><strong>Sector context.</strong> %s</p>\n'
             '%s'
             '<table><thead><tr><th>Entry</th><th>Base</th><th>Bull</th><th>Bear</th>'
             '<th>Upside</th><th>Downside</th><th>Return from current</th><th>R/R</th></tr></thead><tbody>'
@@ -1460,6 +1480,7 @@ def _render_stock_ideas(rows) -> str | None:
             '<p><strong>Catalysts.</strong> %s</p>\n'
             '<p><strong>Risks.</strong> %s</p>\n'
             '<p><strong>Entry condition.</strong> %s <strong>Exit.</strong> %s</p>\n'
+            '<p><strong>Conclusion.</strong> %s</p>\n'
             '<p><strong>Invalidation.</strong> %s</p>\n'
             '<p><strong>Strongest opposing argument.</strong> %s</p>\n'
             '<p class="idea-sources"><small>Sources: %s</small></p>\n'
@@ -1467,11 +1488,12 @@ def _render_stock_ideas(rows) -> str | None:
             % (e("ticker"), e("name"), e("sector"), e("security_type"), e("recommendation"),
                e("horizon"), e("reassess"),
                e("current_price"), e("price_date"), e("entry_price"), e("reassess"), e("verification"),
-               e("thesis"), e("assumptions"), e("why_vs_alternatives"), e("contrary"), fund_html + val_html,
+               e("thesis"), e("assumptions"), e("why_vs_alternatives"), e("contrary"),
+               e("peer_comparison"), e("sector_context"), fund_html + val_html,
                e("entry_price"), e("base_target"), e("bull_target"), e("bear_target"),
                e("upside_pct"), e("downside_pct"), e("return_from_current_pct"), e("risk_reward"),
                e("catalysts"), e("risks"), e("entry_condition"), e("exit"),
-               e("invalidation"), e("opposing"), src_html)
+               e("conclusion"), e("invalidation"), e("opposing"), src_html)
         )
     return "\n".join(cards) if cards else None
 
