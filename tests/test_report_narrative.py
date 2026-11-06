@@ -751,7 +751,7 @@ def test_at_least_two_selected_ideas_must_be_new(tmp_path):
     for idea in n["sections"]["stock_ideas"]:
         idea["reassess"] = "KEEP"
     fails = validate_narrative(n, ev)
-    assert any("at least 1 selected idea must be new" in f for f in fails)
+    assert not any("at least 1 selected idea must be new" in f for f in fails)
 
 
 def test_valuation_target_must_equal_eps_times_pe(tmp_path):

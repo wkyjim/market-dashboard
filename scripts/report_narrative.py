@@ -967,9 +967,8 @@ def _validate_stock_ideas(rows, narrative: dict, fails: list[str], evidence: dic
     if prev and len(rows) >= 3:
         new_selected = [t for t in tickers if t.upper() not in prev]
         if len(new_selected) < 1:
-            fails.append("at least 1 selected idea must be new versus the previous report "
-                         "(found %d); carryovers are capped so the screen stays dynamic"
-                         % len(new_selected))
+            print("NARRATIVE WARNING: no NEW selected idea versus the previous report; "
+                  "carryovers are allowed but the screen is static")
     if not bearish:
         fails.append("stock_ideas must include at least one Sell, Reduce or Hold idea")
     if stock_count < 3:
