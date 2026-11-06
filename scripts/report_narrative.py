@@ -972,6 +972,10 @@ def _validate_sector_allocation(rows, fails: list[str]) -> None:
         fails.append("sector_allocation portfolio weights must sum to 100 (got %.2f)" % port)
     if abs(active) > 0.2:
         fails.append("sector_allocation active weights must sum to 0 (got %.2f)" % active)
+    rationales = [str(r.get("rationale") or "").strip() for r in rows if isinstance(r, dict)]
+    if len(set(rationales)) < 6:
+        fails.append("sector_allocation needs at least 6 distinct sizing rationales "
+                     "(generic repeated text is not an explanation)")
 
 
 def validate_narrative(narrative: dict, evidence: dict, tolerance: float = 0.02) -> list[str]:

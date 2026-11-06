@@ -222,7 +222,7 @@ def _good_narrative(evidence: dict) -> dict:
     ]
     sections["sector_allocation"] = [
         {"sector": name, "benchmark_weight": b, "portfolio_weight": p,
-         "active_weight": p - b, "rationale": "Sizing reflects relative score and risk budget."}
+         "active_weight": p - b, "rationale": "Sizing for %s reflects its score and risk budget." % name}
         for name, b, p in _sectors
     ]
     sections["what_matters"] = ["Health Care leads at 83.89."]
@@ -1056,3 +1056,12 @@ def test_sector_allocation_weights_must_sum_to_100(tmp_path):
     n["sections"]["sector_allocation"][0]["portfolio_weight"] += 5
     fails = validate_narrative(n, ev)
     assert any("portfolio weights must sum to 100" in f for f in fails)
+
+
+def test_sector_allocation_rationales_must_differ(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    for row in n["sections"]["sector_allocation"]:
+        row["rationale"] = "Same generic sentence."
+    fails = validate_narrative(n, ev)
+    assert any("distinct sizing rationales" in f for f in fails)
