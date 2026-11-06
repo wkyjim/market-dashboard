@@ -471,6 +471,40 @@ def _num_or_none(value):
     return None
 
 
+def _validate_assumption_labels(row: dict, i: int) -> list[str]:
+    """Catch EPS-period label shifts and wrong multiple-direction prose."""
+    fails: list[str] = []
+    text = str(row.get("valuation_assumptions") or "")
+    if not text:
+        return fails
+    for year, field in ((2026, "fy2026_eps_consensus"), (2027, "fy2027_eps_consensus"),
+                        (2028, "fy2028_eps_consensus")):
+        actual = _num_or_none(row.get(field))
+        if actual is None:
+            continue
+        m = re.search(r"FY%s[^.]{0,40}?(?:EPS\s*)?\$?([0-9]+\.[0-9]+)" % year, text)
+        if not m:
+            continue
+        claimed = float(m.group(1))
+        if abs(claimed - actual) > max(0.05, abs(actual) * 0.01):
+            fails.append("stock_ideas[%d].valuation_assumptions labels %.2f as FY%s EPS, "
+                         "but canonical FY%s EPS is %.2f (period shift)"
+                         % (i, claimed, year, year, actual))
+    for year, field in ((2027, "fwd_pe_2027"), (2028, "fwd_pe_2028")):
+        actual = _num_or_none(row.get(field))
+        if actual is None:
+            continue
+        m = re.search(r"([0-9]+\.[0-9]+)x\s*on\s*FY%s" % year, text, re.I)
+        if m and abs(float(m.group(1)) - actual) > max(0.1, actual * 0.02):
+            fails.append("stock_ideas[%d].valuation_assumptions says %.1fx on FY%s, "
+                         "but Forward P/E is %.2f" % (i, float(m.group(1)), year, actual))
+    m = re.search(r"compression[^.]{0,80}?from\s*([0-9.]+)x?\s*to\s*([0-9.]+)x", text, re.I)
+    if m and float(m.group(2)) > float(m.group(1)):
+        fails.append("stock_ideas[%d].valuation_assumptions calls %.1fx -> %.1fx "
+                     "'compression' but the multiple expands" % (i, float(m.group(1)), float(m.group(2))))
+    return fails
+
+
 def _validate_valuation(row: dict, i: int, fails: list[str], global_sources: dict) -> None:
     """Deterministic valuation reconciliation: EPS x P/E = target, P/E math, ranges."""
     cur = _num_or_none(row.get("current_price"))
@@ -742,6 +776,7 @@ def _validate_valuation(row: dict, i: int, fails: list[str], global_sources: dic
                          "price (or provide override_reason)" % i)
 
     fails.extend(compare_valuation(row, i))
+    fails.extend(_validate_assumption_labels(row, i))
 
 
 def _validate_stock_ideas(rows, narrative: dict, fails: list[str], evidence: dict) -> set:

@@ -1065,3 +1065,34 @@ def test_sector_allocation_rationales_must_differ(tmp_path):
         row["rationale"] = "Same generic sentence."
     fails = validate_narrative(n, ev)
     assert any("distinct sizing rationales" in f for f in fails)
+
+
+def test_assumption_labels_catch_lly_year_shift():
+    from report_narrative import _validate_assumption_labels
+    row = {"fy2027_eps_consensus": 35.35, "fy2028_eps_consensus": 50.15,
+           "valuation_assumptions": "FY2027 EPS 50.15 (Yahoo consensus), FY2028 60.18 (AI forecast)"}
+    fails = _validate_assumption_labels(row, 0)
+    assert any("period shift" in f for f in fails)
+
+
+def test_assumption_labels_catch_cop_year_shift():
+    from report_narrative import _validate_assumption_labels
+    row = {"fy2026_eps_consensus": 6.35, "fy2027_eps_consensus": 11.46,
+           "valuation_assumptions": "FY2026 EPS 11.46, FY2027 10.92 (Yahoo consensus)"}
+    fails = _validate_assumption_labels(row, 0)
+    assert any("period shift" in f for f in fails)
+
+
+def test_assumption_labels_catch_wrong_multiple_direction():
+    from report_narrative import _validate_assumption_labels
+    row = {"valuation_assumptions": "Base 23.4x to 30x, multiple compression from 23.4x to 30x"}
+    fails = _validate_assumption_labels(row, 0)
+    assert any("expands" in f for f in fails)
+
+
+def test_assumption_labels_accept_correct_text():
+    from report_narrative import _validate_assumption_labels
+    row = {"fy2027_eps_consensus": 9.31, "fy2028_eps_consensus": 15.91,
+           "fwd_pe_2027": 19.51,
+           "valuation_assumptions": "FY2027 EPS 9.31, FY2028 15.91; PE 19.5x on FY2027."}
+    assert _validate_assumption_labels(row, 0) == []
