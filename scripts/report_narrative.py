@@ -474,8 +474,8 @@ def _num_or_none(value):
 def _validate_assumption_labels(row: dict, i: int) -> list[str]:
     """Catch EPS-period label shifts and wrong multiple-direction prose."""
     fails: list[str] = []
-    text = str(row.get("valuation_assumptions") or "")
-    if not text:
+    text = " ".join(str(row.get(k) or "") for k in ("valuation_assumptions", "assumptions"))
+    if not text.strip():
         return fails
     for year, field in ((2026, "fy2026_eps_consensus"), (2027, "fy2027_eps_consensus"),
                         (2028, "fy2028_eps_consensus")):

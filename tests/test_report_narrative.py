@@ -1112,3 +1112,11 @@ def test_assumption_labels_reject_fy2026_claim_when_na():
            "valuation_assumptions": "FY2026 EPS 35.35, FY2027 EPS 50.15"}
     fails = _validate_assumption_labels(row, 0)
     assert any("field is N/A" in f for f in fails)
+
+
+def test_assumption_labels_check_research_assumptions_field():
+    from report_narrative import _validate_assumption_labels
+    row = {"fy2027_eps_consensus": 11.46, "fy2028_eps_consensus": 10.92,
+           "assumptions": "FY2027 EPS 10.92 (Yahoo consensus), P/E 14.2x base"}
+    fails = _validate_assumption_labels(row, 0)
+    assert any("period shift" in f for f in fails)
