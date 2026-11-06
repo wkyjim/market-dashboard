@@ -1126,7 +1126,10 @@ def main() -> int:
             sys.stderr.write("HALT: cannot load narrative %s: %s\n" % (args.narrative, e))
             return 4
         ideas = (raw_narrative.get("sections") or {}).get("stock_ideas") or []
-        price_fails = audit_ideas(ideas)
+        price_warnings = []
+        price_fails = audit_ideas(ideas, warnings=price_warnings)
+        for warning in price_warnings:
+            print("PRICE WARNING:", warning)
         fundamental_fails = audit_fundamentals(ideas)
         web_fails = audit_pe_history(ideas) + audit_consensus(ideas)
         nfails = price_fails + fundamental_fails + web_fails + validate_narrative(raw_narrative, evidence)

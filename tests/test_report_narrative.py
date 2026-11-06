@@ -681,7 +681,7 @@ def test_price_audit_rejects_stale_and_invented_prices():
     lookup = lambda t: {"close": 100.0, "date": "2026-10-30"}
     fails = audit_ideas([idea], lookup=lookup)
     assert any("current_price" in f and "verified close" in f for f in fails)
-    assert any("price_date" in f and "verified close date" in f for f in fails)
+    assert any("price_date" in f and "newer than" in f for f in fails)
 
 
 def test_price_audit_accepts_verified_close():
