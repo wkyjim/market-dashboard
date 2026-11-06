@@ -480,9 +480,12 @@ def _validate_assumption_labels(row: dict, i: int) -> list[str]:
     for year, field in ((2026, "fy2026_eps_consensus"), (2027, "fy2027_eps_consensus"),
                         (2028, "fy2028_eps_consensus")):
         actual = _num_or_none(row.get(field))
-        if actual is None:
-            continue
         short = str(year)[2:]
+        if actual is None:
+            if re.search(r"(?:FY%s|FY%s)[^.]{0,30}?EPS" % (year, short), text):
+                fails.append("stock_ideas[%d].valuation_assumptions claims FY%s EPS but the "
+                             "FY%s field is N/A (period shift)" % (i, year, year))
+            continue
         m = re.search(r"(?:FY%s|FY%s)[^.]{0,40}?(?:EPS\s*)?\$?([0-9]+\.[0-9]+)"
                       % (year, short), text)
         if not m:
