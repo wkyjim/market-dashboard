@@ -221,9 +221,11 @@ def _good_narrative(evidence: dict) -> dict:
         ("Communication Services", 9, 9),
     ]
     sections["sector_allocation"] = [
-        {"sector": name, "benchmark_weight": b, "portfolio_weight": p,
-         "active_weight": p - b, "rationale": "Sizing for %s reflects its score and risk budget." % name}
-        for name, b, p in _sectors
+        {"horizon": horizon, "sector": name, "benchmark_weight": b,
+         "portfolio_weight": p if horizon == "ST" else p + (1 if name == "Health Care" else (-1 if name == "Information Technology" else 0)),
+         "active_weight": (p - b) if horizon == "ST" else (p - b) + (1 if name == "Health Care" else (-1 if name == "Information Technology" else 0)),
+         "rationale": "%s %s sizing reflects its score and risk budget." % (horizon, name)}
+        for horizon in ("ST", "LT") for name, b, p in _sectors
     ]
     sections["what_matters"] = ["Health Care leads at 83.89."]
     sections["sector_narrative"] = ["Defensive leadership dominates the table."]
@@ -1037,9 +1039,9 @@ def test_pe_history_basis_must_match_eps_basis(tmp_path):
 def test_sector_allocation_requires_11_rows(tmp_path):
     ev = _evidence(tmp_path)
     n = _good_narrative(ev)
-    n["sections"]["sector_allocation"] = n["sections"]["sector_allocation"][:10]
+    n["sections"]["sector_allocation"] = n["sections"]["sector_allocation"][:21]
     fails = validate_narrative(n, ev)
-    assert any("exactly 11 GICS sectors" in f for f in fails)
+    assert any("22 rows" in f for f in fails)
 
 
 def test_sector_allocation_active_must_reconcile(tmp_path):
@@ -1120,3 +1122,11 @@ def test_assumption_labels_check_research_assumptions_field():
            "assumptions": "FY2027 EPS 10.92 (Yahoo consensus), P/E 14.2x base"}
     fails = _validate_assumption_labels(row, 0)
     assert any("period shift" in f for f in fails)
+
+
+def test_sector_allocation_requires_both_horizons(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    n["sections"]["sector_allocation"] = [r for r in n["sections"]["sector_allocation"] if r["horizon"] != "LT"]
+    fails = validate_narrative(n, ev)
+    assert any("22 rows" in f for f in fails)

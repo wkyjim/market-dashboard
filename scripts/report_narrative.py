@@ -289,6 +289,7 @@ TABLE_SECTIONS = {
         ("reason", "Why selected / rejected"),
     ),
     "sector_allocation": (
+        ("horizon", "Horizon"),
         ("sector", "GICS sector"),
         ("benchmark_weight", "Benchmark wt %"),
         ("portfolio_weight", "Portfolio wt %"),
@@ -978,44 +979,58 @@ def _validate_stock_ideas(rows, narrative: dict, fails: list[str], evidence: dic
 
 
 def _validate_sector_allocation(rows, fails: list[str]) -> None:
-    """11 GICS sectors, weights sum to 100, active = portfolio - benchmark, active sums to 0."""
-    if not isinstance(rows, list) or len(rows) != 11:
-        fails.append("sector_allocation must contain exactly 11 GICS sectors (got %s)"
+    """ST and LT portfolios: 11 unique GICS each, weights sum to 100, active sums to 0."""
+    if not isinstance(rows, list) or len(rows) != 22:
+        fails.append("sector_allocation must contain 22 rows (11 ST + 11 LT); got %s"
                      % (len(rows) if isinstance(rows, list) else 0))
         return
-    names = [str(r.get("sector") or "").strip() for r in rows if isinstance(r, dict)]
-    if len(names) != 11 or len(set(names)) != 11:
-        fails.append("sector_allocation sector names must be 11 unique GICS sectors")
-    bench = port = active = 0.0
+    groups: dict[str, list] = {"ST": [], "LT": []}
     for i, row in enumerate(rows):
         if not isinstance(row, dict):
             fails.append("sector_allocation[%d] is not an object" % i)
             continue
-        try:
-            b = float(row.get("benchmark_weight"))
-            p = float(row.get("portfolio_weight"))
-            a = float(row.get("active_weight"))
-        except (TypeError, ValueError):
-            fails.append("sector_allocation[%d] weights must be numeric" % i)
+        horizon = str(row.get("horizon") or "").strip().upper()
+        if horizon not in groups:
+            fails.append("sector_allocation[%d].horizon must be ST or LT (got %r)" % (i, horizon))
             continue
-        if abs((p - b) - a) > 0.1:
-            fails.append("sector_allocation[%d] active %.2f != portfolio %.2f - benchmark %.2f"
-                         % (i, a, p, b))
-        if len(str(row.get("rationale") or "").strip()) < 8:
-            fails.append("sector_allocation[%d] needs a sizing rationale" % i)
-        bench += b
-        port += p
-        active += a
-    if abs(bench - 100.0) > 0.2:
-        fails.append("sector_allocation benchmark weights must sum to 100 (got %.2f)" % bench)
-    if abs(port - 100.0) > 0.2:
-        fails.append("sector_allocation portfolio weights must sum to 100 (got %.2f)" % port)
-    if abs(active) > 0.2:
-        fails.append("sector_allocation active weights must sum to 0 (got %.2f)" % active)
-    rationales = [str(r.get("rationale") or "").strip() for r in rows if isinstance(r, dict)]
-    if len(set(rationales)) < 6:
-        fails.append("sector_allocation needs at least 6 distinct sizing rationales "
-                     "(generic repeated text is not an explanation)")
+        groups[horizon].append(row)
+    for horizon, group in groups.items():
+        if len(group) != 11:
+            fails.append("sector_allocation %s must contain exactly 11 sectors (got %d)"
+                         % (horizon, len(group)))
+            continue
+        names = [str(r.get("sector") or "").strip() for r in group]
+        if len(set(names)) != 11:
+            fails.append("sector_allocation %s sector names must be 11 unique GICS sectors" % horizon)
+        bench = port = active = 0.0
+        for i, row in enumerate(group):
+            try:
+                b = float(row.get("benchmark_weight"))
+                p = float(row.get("portfolio_weight"))
+                a = float(row.get("active_weight"))
+            except (TypeError, ValueError):
+                fails.append("sector_allocation %s row %d weights must be numeric" % (horizon, i))
+                continue
+            if abs((p - b) - a) > 0.1:
+                fails.append("sector_allocation %s row %d active %.2f != portfolio %.2f - benchmark %.2f"
+                             % (horizon, i, a, p, b))
+            if len(str(row.get("rationale") or "").strip()) < 8:
+                fails.append("sector_allocation %s row %d needs a sizing rationale" % (horizon, i))
+            bench += b
+            port += p
+            active += a
+        if abs(bench - 100.0) > 0.2:
+            fails.append("sector_allocation %s benchmark weights must sum to 100 (got %.2f)"
+                         % (horizon, bench))
+        if abs(port - 100.0) > 0.2:
+            fails.append("sector_allocation %s portfolio weights must sum to 100 (got %.2f)"
+                         % (horizon, port))
+        if abs(active) > 0.2:
+            fails.append("sector_allocation %s active weights must sum to 0 (got %.2f)"
+                         % (horizon, active))
+        rationales = [str(r.get("rationale") or "").strip() for r in group]
+        if len(set(rationales)) < 6:
+            fails.append("sector_allocation %s needs at least 6 distinct sizing rationales" % horizon)
 
 
 def validate_narrative(narrative: dict, evidence: dict, tolerance: float = 0.02) -> list[str]:
