@@ -121,6 +121,9 @@ def check(html: str, narrative: dict, ai_score: float | None = None) -> list[str
     # 6. One Nasdaq identifier only, so levels cannot be mixed.
     if "Nasdaq Composite" in text and "Nasdaq 100" in text:
         fails.append("cross-section: both Nasdaq Composite and Nasdaq 100 are cited; use one identifier")
+    for _m in re.finditer(r"Nasdaq(?!\s*(?:Composite|100))", text):
+        fails.append("cross-section: bare 'Nasdaq' at offset %d is ambiguous; label it Nasdaq Composite or Nasdaq 100"
+                     % _m.start())
 
     # 7. Long Energy against a weak AI rating needs a contrarian/valuation reason.
     adj = narrative.get("adjustments") or {}

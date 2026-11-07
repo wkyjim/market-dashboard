@@ -63,3 +63,13 @@ def test_energy_overweight_needs_valuation_reason():
     }
     fails = cross_section_qc.check(html, narrative, ai_score=None)
     assert any("Energy active +2.0pp" in f for f in fails)
+
+
+def test_bare_nasdaq_is_ambiguous():
+    fails = cross_section_qc.check("<p>Nasdaq 24579.42</p>", {}, ai_score=None)
+    assert any("bare 'Nasdaq'" in f for f in fails)
+
+
+def test_labeled_nasdaq_composite_passes():
+    fails = cross_section_qc.check("<p>Nasdaq Composite 24579.42</p>", {}, ai_score=None)
+    assert not any("Nasdaq" in f for f in fails)
