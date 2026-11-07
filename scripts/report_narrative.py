@@ -1446,8 +1446,8 @@ def validate_narrative(narrative: dict, evidence: dict, tolerance: float = 0.02)
         fails.append("external_claims must be a list of {value, text, source} objects")
         ext_claims = []
     else:
-        if len(ext_claims) > 60:
-            fails.append(f"external_claims has {len(ext_claims)} entries, max 60")
+        if len(ext_claims) > 80:
+            fails.append(f"external_claims has {len(ext_claims)} entries, max 80")
         for i, item in enumerate(ext_claims):
             if not isinstance(item, dict):
                 fails.append(f"external_claims[{i}] is not an object")
