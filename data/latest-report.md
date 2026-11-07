@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 7 November 2026, 10:23:06 (HKT)
+Generated at: 7 November 2026, 11:20:57 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **40.16 / 100** (Mild Risk-Off)
+- Regime score: **40.17 / 100** (Mild Risk-Off)
 - US equity strength: **24.5 / 100** (weak)
 - Evidence quality: **76.0 / 100**
-- ETF flow contribution: **52.87 / 100**, reliability **65.43 / 100**
+- ETF flow contribution: **53.04 / 100**, reliability **66.0 / 100**
 - Breadth: **weak**; above 50DMA `30.0%`, above 200DMA `41.67%`
 - Top sector score: **Healthcare** `72.2`
 - Top theme score: **Healthcare Innovation** `65.89`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 40.16 | Mild Risk-Off |
+| Overall regime | 40.17 | Mild Risk-Off |
 | equity_trend | 8.75 | risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 38.47 | mild risk-off pressure; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 36.67 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -26,7 +26,7 @@ Window: 24h
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
 | dollar_fx | 51.59 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
-| etf_flow | 51.88 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
+| etf_flow | 52.01 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 54.38 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | none |
 | Negative contributors |  | equity_trend=8.75, volatility=35.0, market_breadth=36.67, equity_momentum=38.47 |
@@ -98,16 +98,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 25.64 | -9.01 | 2026-11-06 | closed |
 | ^SKEW | CBOE SKEW Index | 153.55 | 2.8 | 2026-11-06 | closed |
 | ^MOVE | ICE BofA MOVE Index | 92.77 | -5.26 | 2026-11-06 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.52 | 0.87 | 2026-11-06 | live as of 7 November 2026, 10:00:20 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.58 | 0.9 | 2026-11-06 | live as of 7 November 2026, 10:00:20 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.65 | 0.91 | 2026-11-06 | live as of 7 November 2026, 10:00:20 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.74 | 0.77 | 2026-11-06 | live as of 7 November 2026, 10:00:20 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.86 | 0.39 | 2026-11-06 | live as of 7 November 2026, 10:00:20 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.3 | 0.4 | 2026-11-06 | live as of 7 November 2026, 10:00:20 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.27 | 0.32 | 2026-11-06 | live as of 7 November 2026, 10:00:20 (HKT) |
-| HK50 | Hang Seng Futures | 24622.0 | 0.47 | 2026-11-06 | live as of 7 November 2026, 10:00:20 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 782.95 | -6.49 | 2026-11-06 | live as of 7 November 2026, 10:00:20 (HKT) |
-| CIHc1 | SSE 50 Futures | 2774.0 | -0.85 | 2026-11-06 | live as of 7 November 2026, 10:00:20 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.52 | 1.01 | 2026-11-06 | live as of 7 November 2026, 11:00:26 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.59 | 0.95 | 2026-11-06 | live as of 7 November 2026, 11:00:26 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.65 | 0.87 | 2026-11-06 | live as of 7 November 2026, 11:00:26 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.74 | 0.74 | 2026-11-06 | live as of 7 November 2026, 11:00:26 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.86 | 0.45 | 2026-11-06 | live as of 7 November 2026, 11:00:26 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.29 | 0.25 | 2026-11-06 | live as of 7 November 2026, 11:00:26 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.26 | 0.17 | 2026-11-06 | live as of 7 November 2026, 11:00:26 (HKT) |
+| HK50 | Hang Seng Futures | 24622.0 | 0.47 | 2026-11-06 | live as of 7 November 2026, 11:00:26 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 782.95 | -6.49 | 2026-11-06 | live as of 7 November 2026, 11:00:26 (HKT) |
+| CIHc1 | SSE 50 Futures | 2774.0 | -0.85 | 2026-11-06 | live as of 7 November 2026, 11:00:26 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.23 | -0.06 | 2026-11-06 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.53 | -0.12 | 2026-11-06 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.7 | -0.09 | 2026-11-06 | closed |
@@ -361,15 +361,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `49.42`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**2. AI stocks hammered by midterm shock as data center buildout becomes a 'war of attrition'**
-- Source: CNBC Top News
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AI stocks, data center buildout, interest rates
-- Score: `49.42`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**3. U.S. Nonfarm Payrolls Surge, Surpassing Expectations**
+**2. U.S. Nonfarm Payrolls Surge, Surpassing Expectations**
 - Source: Investing.com Technology
 - Importance / impact: High / Positive
 - Relevance / horizon: macro / short-term
@@ -377,7 +369,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `46.06`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**4. 10-year Treasury yield is little changed after stronger-than-expected October jobs report**
+**3. 10-year Treasury yield is little changed after stronger-than-expected October jobs report**
 - Source: CNBC Top News
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
@@ -385,13 +377,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `44.61`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**5. US inflation too high; essential to get back to 2%: Fed’s Williams**
+**4. US inflation too high; essential to get back to 2%: Fed’s Williams**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Medium / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: US, inflation, monetary_policy, fed
 - Score: `44.61`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
+
+**5. AI stocks hammered by midterm shock as data center buildout becomes a 'war of attrition'**
+- Source: CNBC Top News
+- Importance / impact: Medium / Negative
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AI stocks, data center buildout, interest rates
+- Score: `42.01`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
 **6. Renewed U.S.-Iran tension could push oil past $100: Rapidan Energy**
 - Source: CNBC Business Headlines
@@ -409,15 +409,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `39.78`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. Oil Futures Slide As Market Holds Out Hopes for Middle East Diplomacy**
-- Source: Dow Jones US Business
-- Importance / impact: Medium / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: Brent Crude, U.S, oil prices, energy markets, geopolitical risk
-- Score: `39.0`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**9. U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%**
+**8. U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%**
 - Source: CNBC Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -425,13 +417,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.57`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**10. Goldman raises global data center capacity forecast to 273 GW by 2030**
+**9. Goldman raises global data center capacity forecast to 273 GW by 2030**
 - Source: Investing.com World News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: single_name / 2030
 - Affected assets: GW, AI, data center, infrastructure
 - Score: `37.29`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Oil prices tumble for the week as investors weigh Iran conflict risk after midterm elections**
+- Source: CNBC Top News
+- Importance / impact: Medium / Positive
+- Relevance / horizon: macro / short-term
+- Affected assets: U.S, geopolitical risk, oil prices, U.S.-Iran conflict
+- Score: `36.74`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
@@ -451,20 +451,20 @@ Positioning and flow data is used as confirmation only.
 ## ETF Flows Analysis
 
 - Market flow regime: `Selective Risk-On`
-- Market flow score: `58.8 / 100`
-- Equity risk flow: `51.8`
+- Market flow score: `58.2 / 100`
+- Equity risk flow: `50.1`
 - Credit risk flow: `56.2`
 - Sector cyclicality flow: `75.0`
 - Duration/liquidity flow: `53.2`
 - Alternatives: `mixed alternative-asset demand`
-- ETF flow reliability: `65.4 / 100`
+- ETF flow reliability: `66.0 / 100`
 - Dominant allocation direction: `mixed allocation`
 
 ### Core Flow Signals
 
 | Ticker | Exposure | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price State | Flow State | Volume State | PFV State | Regime Bias | Flow Structure | Confidence |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| IVV | U.S. Broad Equity | 0.0 | -0.7 | 0.6 | 2.3 | Down | Neutral | High | Heavy Selling Pressure | Cautious | Medium-term recovery | 87.0 |
+| IVV | U.S. Broad Equity | 0.1 | -0.7 | 0.6 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term recovery | 72.0 |
 | ACWI | Global Equity | -0.6 | -0.7 | 0.0 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Mixed or neutral flow structure; Persistent selling | 62.0 |
 | EFA | Developed Markets ex-U.S. | -0.2 | 0.6 | 0.0 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Mixed or neutral flow structure; Persistent selling | 62.0 |
 | IEMG | Emerging Markets | -0.4 | -0.5 | 0.0 | n/a | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Mixed or neutral flow structure; Persistent selling | 62.0 |
@@ -529,4 +529,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 07 November 2026, 10:23:06 (HKT)
+- Report generated at: 07 November 2026, 11:20:57 (HKT)
