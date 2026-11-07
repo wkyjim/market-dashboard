@@ -105,4 +105,39 @@ def check(html: str, narrative: dict, ai_score: float | None = None) -> list[str
         fails.append("cross-section: December FOMC is Dec 8-9, not Dec 10")
     if "CPI" in text and re.search(r"Nov(?:ember)?\s+12", text):
         fails.append("cross-section: October CPI is released Nov 10, not Nov 12")
+
+
+    # 5. WTI commentary must contain the same snapshot printed elsewhere.
+    snap = re.search(r"WTI[^0-9]{0,12}([0-9]{2,3}(?:\.[0-9]+)?)", text)
+    if snap:
+        wti = float(snap.group(1))
+        for lo_s, hi_s in re.findall(
+                r"WTI[^.]{0,50}?(\d{2,3}(?:\.\d+)?)\s*(?:-|\u2013|to)\s*(\d{2,3}(?:\.\d+)?)", text):
+            lo, hi = sorted((float(lo_s), float(hi_s)))
+            if not (lo - 0.5 <= wti <= hi + 0.5):
+                fails.append("cross-section: WTI commentary $%.0f-%.0f excludes the $%.2f snapshot"
+                             % (lo, hi, wti))
+
+    # 6. One Nasdaq identifier only, so levels cannot be mixed.
+    if "Nasdaq Composite" in text and "Nasdaq 100" in text:
+        fails.append("cross-section: both Nasdaq Composite and Nasdaq 100 are cited; use one identifier")
+
+    # 7. Long Energy against a weak AI rating needs a contrarian/valuation reason.
+    adj = narrative.get("adjustments") or {}
+    try:
+        energy_ai = float((adj.get("sector_scores") or {}).get("Energy"))
+    except (TypeError, ValueError):
+        energy_ai = None
+    if energy_ai is not None and energy_ai < 30:
+        for row in (narrative.get("sections") or {}).get("sector_allocation") or []:
+            if not isinstance(row, dict) or str(row.get("sector") or "").strip() != "Energy":
+                continue
+            try:
+                active = float(row.get("active_weight"))
+            except (TypeError, ValueError):
+                continue
+            if active > 0 and not re.search(
+                    r"contrarian|valuation|cheap|hedge|relative|underweight", str(row.get("rationale") or ""), re.I):
+                fails.append("cross-section: %s Energy active +%.1fpp vs AI %.1f needs a contrarian/valuation rationale"
+                             % (row.get("horizon") or "?", active, energy_ai))
     return fails

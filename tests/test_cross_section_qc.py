@@ -39,3 +39,27 @@ def test_ai_disclosure_must_match_canonical():
     html = '<p>Source rule-based: 40.12 | AI: 38.10</p>'
     fails = cross_section_qc.check(html, {}, ai_score=42.96)
     assert any("AI: 38.10" in f for f in fails)
+
+
+def test_wti_range_must_contain_snapshot():
+    html = "<p>WTI 90.34</p><p>WTI likely trades $75-80.</p>"
+    fails = cross_section_qc.check(html, {}, ai_score=None)
+    assert any("WTI" in f and "90.34" in f for f in fails)
+
+
+def test_nasdaq_identifiers_must_not_mix():
+    html = "<p>Nasdaq Composite 24579</p><p>Nasdaq 100 20000</p>"
+    fails = cross_section_qc.check(html, {}, ai_score=None)
+    assert any("Nasdaq" in f for f in fails)
+
+
+def test_energy_overweight_needs_valuation_reason():
+    html = "<p>Energy</p>"
+    narrative = {
+        "adjustments": {"sector_scores": {"Energy": 22.0}},
+        "sections": {"sector_allocation": [
+            {"horizon": "ST", "sector": "Energy", "active_weight": 2.0,
+             "rationale": "Sector score 22.0; active weight +2 pp."}]},
+    }
+    fails = cross_section_qc.check(html, narrative, ai_score=None)
+    assert any("Energy active +2.0pp" in f for f in fails)
