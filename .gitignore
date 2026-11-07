@@ -15,3 +15,5 @@ __pycache__/
 data/fundamentals_cache/
 
 data/fundamentals_pack.json
+
+data/report_data.json

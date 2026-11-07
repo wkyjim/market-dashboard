@@ -28,6 +28,7 @@ from idea_price_audit import audit_ideas  # noqa: E402
 from fundamental_audit import audit_fundamentals  # noqa: E402
 from fundamentals_web import audit_pe_history, audit_consensus  # noqa: E402
 import cross_section_qc  # noqa: E402
+import report_data  # noqa: E402
 
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # market-dashboard
 DATA_DIR = os.path.join(BASE_DIR, "data")
@@ -1141,6 +1142,13 @@ def main() -> int:
             sys.stderr.write("HALT: cannot load narrative %s: %s\n" % (args.narrative, e))
             return 4
         ideas = (raw_narrative.get("sections") or {}).get("stock_ideas") or []
+        adjustments = raw_narrative.get("adjustments") or {}
+        canonical = report_data.build(d, raw_narrative, adjustments)
+        raw_narrative = report_data.normalize_narrative(raw_narrative, canonical)
+        adjustments = report_data.normalize_adjustments(adjustments, canonical)
+        d = report_data.normalize_evidence(d, canonical)
+        report_data.write("data/report_data.json", canonical)
+        ideas = (raw_narrative.get("sections") or {}).get("stock_ideas") or []
         price_warnings = []
         price_fails = audit_ideas(ideas, warnings=price_warnings)
         for warning in price_warnings:
@@ -1154,13 +1162,13 @@ def main() -> int:
                 sys.stderr.write("  NARRATIVE FAIL: %s\n" % f)
             return 4
         narrative_html = render_narrative(raw_narrative)
-        adjustments = raw_narrative.get("adjustments") or {}
         sys.stderr.write("NARRATIVE: validated against evidence and rendered (%d slots)\n" % len(narrative_html))
 
     html = build_html(d, narrative_html, adjustments)
+    html = html.replace("<head>", '<head><meta name="report-data-version" content="%s">' % canonical.version, 1)
     fails = run_qc(html, d, narrative=bool(narrative_html))
     if narrative_html and raw_narrative is not None:
-        fails += cross_section_qc.check(html, raw_narrative, adjustments.get("regime_score"))
+        fails += cross_section_qc.check(html, raw_narrative, canonical.ai_score)
     sys.stderr.write("DATA CUTOFF: %s %s | sectors=%d themes=%d cio=%.2f regime=%s source=%s\n"
                      % (d["data_cutoff"], d["data_cutoff_time"], len(d["sectors"]), len(d["themes"]),
                         d["cio"]["score"], d["regime"].get("score"), d["report_dt"]))
