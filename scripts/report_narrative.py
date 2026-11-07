@@ -313,7 +313,7 @@ CARD_SECTIONS = {
         "ticker", "name", "sector", "security_type", "recommendation", "horizon",
         "current_price", "price_date", "entry_price", "base_target", "bull_target", "bear_target",
         "upside_pct", "downside_pct", "return_from_current_pct", "risk_reward",
-        "thesis", "assumptions", "why_vs_alternatives", "contrary",
+        "thesis", "review", "assumptions", "why_vs_alternatives", "contrary",
         "peer_comparison", "sector_context", "conclusion",
         "catalysts", "risks", "entry_condition", "exit", "invalidation",
         "opposing", "reassess", "verification", "sources",
@@ -821,8 +821,8 @@ def _validate_stock_ideas(rows, narrative: dict, fails: list[str], evidence: dic
     if not isinstance(rows, list) or not rows:
         fails.append("stock_ideas must be a non-empty list of idea objects")
         return tickers
-    if not (3 <= len(rows) <= 5):
-        fails.append("stock_ideas must contain 3-5 ideas (got %d)" % len(rows))
+    if len(rows) != 5:
+        fails.append("stock_ideas must contain exactly 5 ideas (got %d)" % len(rows))
     global_sources = {str(s.get("url") or "").strip(): str(s.get("note") or "")
                       for s in (narrative.get("sources") or []) if isinstance(s, dict)}
     _validate_source_notes(rows, global_sources, fails)
@@ -936,7 +936,7 @@ def _validate_stock_ideas(rows, narrative: dict, fails: list[str], evidence: dic
                 else:
                     if not (bull > base > bear):
                         fails.append("stock_ideas[%d] Hold requires bull > base > bear" % i)
-        for key in ("thesis", "assumptions", "why_vs_alternatives", "contrary",
+        for key in ("thesis", "review", "assumptions", "why_vs_alternatives", "contrary",
                     "peer_comparison", "sector_context", "conclusion",
                     "catalysts", "risks", "entry_condition", "exit", "invalidation", "opposing"):
             text = row.get(key)
@@ -944,7 +944,7 @@ def _validate_stock_ideas(rows, narrative: dict, fails: list[str], evidence: dic
                 fails.append("stock_ideas[%d].%s must be a non-empty string" % (i, key))
             elif len(text) > 900:
                 fails.append("stock_ideas[%d].%s exceeds 900 chars" % (i, key))
-        for key, minimum in (("thesis", 160), ("peer_comparison", 100),
+        for key, minimum in (("thesis", 160), ("review", 40), ("peer_comparison", 100),
                              ("sector_context", 100), ("conclusion", 80),
                              ("contrary", 80), ("catalysts", 40)):
             text = str(row.get(key) or "")
@@ -1612,6 +1612,7 @@ def _render_stock_ideas(rows) -> str | None:
             '<h3>%s &mdash; %s <span class="idea-meta">%s &middot; %s &middot; %s &middot; %s &middot; %s</span></h3>\n'
             '<p><strong>Current price.</strong> %s (as of %s). <strong>Entry.</strong> %s. '
             '<strong>Reassess.</strong> %s. <strong>Verification.</strong> %s.</p>\n'
+            '<p><strong>Review.</strong> %s</p>\n'
             '<p><strong>Thesis.</strong> %s</p>\n'
             '<p><strong>Assumptions.</strong> %s</p>\n'
             '<p><strong>Why this versus alternatives.</strong> %s</p>\n'
@@ -1634,7 +1635,7 @@ def _render_stock_ideas(rows) -> str | None:
             % (e("ticker"), e("name"), e("sector"), e("security_type"), e("recommendation"),
                e("horizon"), e("reassess"),
                e("current_price"), e("price_date"), e("entry_price"), e("reassess"), e("verification"),
-               e("thesis"), e("assumptions"), e("why_vs_alternatives"), e("contrary"),
+               e("review"), e("thesis"), e("assumptions"), e("why_vs_alternatives"), e("contrary"),
                e("peer_comparison"), e("sector_context"), fund_html + val_html,
                e("entry_price"), e("base_target"), e("bull_target"), e("bear_target"),
                e("upside_pct"), e("downside_pct"), e("return_from_current_pct"), e("risk_reward"),

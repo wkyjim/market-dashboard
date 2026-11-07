@@ -170,6 +170,7 @@ def _good_narrative(evidence: dict) -> dict:
                     "base_target": "AI_FORECAST", "bull_target": "AI_FORECAST",
                     "bear_target": "AI_FORECAST",
                 },
+                "review": "Reviewed versus prior run: thesis, estimates and action re-checked; no change.",
                 "thesis": ("The market prices a sustained margin recovery that is not supported by the "
                             "latest filing; our base case assumes only partial recovery with cost discipline and no multiple re-rating."),
                 "assumptions": "EPS and multiple assumptions stated explicitly.",
@@ -194,6 +195,7 @@ def _good_narrative(evidence: dict) -> dict:
         _idea("BBB", "Add", 50.0, 55.0, 62.0, 45.0, "https://www.sec.gov/bbb-10q"),
         _idea("CCC", "Hold", 80.0, 82.0, 90.0, 72.0, "https://www.sec.gov/ccc-10q", "ETF"),
         _idea("DDD", "Sell", 100.0, 90.0, 110.0, 80.0, "https://www.sec.gov/ddd-10q"),
+        _idea("EEE", "Buy", 60.0, 65.0, 72.0, 55.0, "https://www.sec.gov/eee-10q"),
     ]
     sections["candidate_screen"] = [
         {"ticker": "AAA", "name": "AAA Inc", "sector": "Energy", "signal": "Breadth + EPS",
@@ -205,7 +207,7 @@ def _good_narrative(evidence: dict) -> dict:
         {"ticker": "DDD", "name": "DDD Inc", "sector": "Energy", "signal": "Deteriorating",
          "verdict": "Selected", "reason": "Short candidate on guidance risk."},
         {"ticker": "EEE", "name": "EEE Inc", "sector": "Financials", "signal": "Neutral",
-         "verdict": "Watchlist", "reason": "Valuation not yet attractive."},
+         "verdict": "Selected", "reason": "Valuation attractive after the pullback."},
         {"ticker": "FFF", "name": "FFF Inc", "sector": "Industrials", "signal": "Weak",
          "verdict": "Rejected", "reason": "Margin compression and no catalyst."},
         {"ticker": "GGG", "name": "GGG Inc", "sector": "Materials", "signal": "Mixed",
@@ -260,6 +262,7 @@ def _good_narrative(evidence: dict) -> dict:
             {"label": "BBB 10-Q", "url": "https://www.sec.gov/bbb-10q", "note": "BBB Inc Q3 2026 10-Q filing"},
             {"label": "CCC 10-Q", "url": "https://www.sec.gov/ccc-10q", "note": "CCC ETF Q3 2026 factsheet; results"},
             {"label": "DDD 10-Q", "url": "https://www.sec.gov/ddd-10q", "note": "DDD Inc Q3 2026 10-Q filing"},
+            {"label": "EEE 10-Q", "url": "https://www.sec.gov/eee-10q", "note": "EEE Inc Q3 2026 10-Q filing"},
         ],
         "claims": [
             {"path": "regime.score", "value": 44.67},
@@ -600,7 +603,7 @@ def test_stock_ideas_require_three_to_five(tmp_path):
     n = _good_narrative(ev)
     n["sections"]["stock_ideas"] = n["sections"]["stock_ideas"][:2]
     fails = validate_narrative(n, ev)
-    assert any("3-5 ideas" in f for f in fails)
+    assert any("exactly 5 ideas" in f for f in fails)
 
 
 def test_macro_outlook_and_portfolio_risk_are_required(tmp_path):
