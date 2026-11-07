@@ -33,3 +33,9 @@ def test_wrong_calendar_date():
     html = CARD + "<p>December FOMC is Dec 10.</p>"
     fails = cross_section_qc.check(html, {}, ai_score=None)
     assert any("Dec 8-9" in f for f in fails)
+
+
+def test_ai_disclosure_must_match_canonical():
+    html = '<p>Source rule-based: 40.12 | AI: 38.10</p>'
+    fails = cross_section_qc.check(html, {}, ai_score=42.96)
+    assert any("AI: 38.10" in f for f in fails)

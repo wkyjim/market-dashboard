@@ -1147,3 +1147,13 @@ def test_source_note_eps_year_must_match(tmp_path):
                          "note": "AAA Inc FY2026 EPS 99.00"})
     fails = validate_narrative(n, ev)
     assert any("source note labels" in f for f in fails)
+
+
+def test_buy_with_negative_weighted_return_is_flagged(tmp_path):
+    ev = _evidence(tmp_path)
+    n = _good_narrative(ev)
+    idea = n["sections"]["stock_ideas"][0]  # AAA Buy
+    idea["expected_return_pct"] = -4.26
+    idea["expected_price"] = round(idea["current_price"] * (1 - 0.0426), 2)
+    fails = validate_narrative(n, ev)
+    assert any("negative probability-weighted return" in f for f in fails)

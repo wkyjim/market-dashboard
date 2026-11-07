@@ -64,6 +64,10 @@ def check(html: str, narrative: dict, ai_score: float | None = None) -> list[str
             if abs(float(m.group(1)) - float(ai_score)) > 0.05:
                 fails.append("cross-section: 'AI score %.2f vs source' != canonical %.2f"
                              % (float(m.group(1)), float(ai_score)))
+        for m in re.finditer(r"AI:\s*([0-9]+\.[0-9]+)", html):
+            if abs(float(m.group(1)) - float(ai_score)) > 0.05:
+                fails.append("cross-section: 'AI: %.2f' != canonical %.2f"
+                             % (float(m.group(1)), float(ai_score)))
 
     # 2. Every ticker mention with an action must agree with its idea card.
     prose = re.sub(r'<div class="idea-card">.*?</div>', " ", html, flags=re.S)

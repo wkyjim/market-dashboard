@@ -773,7 +773,12 @@ def _validate_valuation(row: dict, i: int, fails: list[str], global_sources: dic
             if rr is not None and rr < 1.0 and not override:
                 fails.append("stock_ideas[%d]: %s reward/risk %.2f is below 1.0 "
                              "(or provide override_reason)" % (i, rec, rr))
-        elif rec in ("Reduce", "Sell"):
+        if rec in ("Buy", "Add"):
+            exp_ret = _num_or_none(row.get("expected_return_pct"))
+            if exp_ret is not None and exp_ret < 0 and not override:
+                fails.append("stock_ideas[%d]: %s has a negative probability-weighted return "
+                             "%.2f%% (downgrade or provide override_reason)" % (i, rec, exp_ret))
+        if rec in ("Reduce", "Sell"):
             if base_t >= cur and not override:
                 fails.append("stock_ideas[%d]: %s base target %.2f must be below current %.2f "
                              "(or provide override_reason)" % (i, rec, base_t, cur))
