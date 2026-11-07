@@ -791,6 +791,7 @@ def _validate_valuation(row: dict, i: int, fails: list[str], global_sources: dic
     fails.extend(_validate_assumption_labels(row, i))
     fails.extend(_validate_decision(row, i))
     fails.extend(_validate_pe_samples(row, i))
+    fails.extend(_validate_fy_duplicate(row, i))
 
 
 def _validate_source_notes(rows, sources: dict, fails: list[str]) -> None:
@@ -867,6 +868,16 @@ def _validate_pe_samples(row: dict, i: int) -> list[str]:
     if vals[0] == vals[3] and vals[1] == vals[4] and vals[2] == vals[5]:
         return ["stock_ideas[%d]: 3Y and 5Y P/E statistics are identical — the 5Y sample "
                 "must be genuinely longer/distinct" % i]
+    return []
+
+
+def _validate_fy_duplicate(row: dict, i: int) -> list[str]:
+    """FY2026 must not be a copy of FY2027 when current-year consensus is absent."""
+    a = _num_or_none(row.get("fy2026_eps_consensus"))
+    b = _num_or_none(row.get("fy2027_eps_consensus"))
+    if a is not None and b is not None and abs(a - b) < 0.005:
+        return ["stock_ideas[%d]: FY2026 EPS %.2f duplicates FY2027 %.2f; use N/A when the "
+                "current-year consensus is unavailable" % (i, a, b)]
     return []
 
 
@@ -1600,6 +1611,12 @@ def _render_stock_ideas(rows) -> str | None:
             except (TypeError, ValueError):
                 return v(key)
 
+        def e2(key):
+            try:
+                return "%.2f" % float(r.get(key))
+            except (TypeError, ValueError):
+                return e(key)
+
         def money(key):
             try:
                 x = float(r.get(key))
@@ -1712,8 +1729,8 @@ def _render_stock_ideas(rows) -> str | None:
                e("current_price"), e("price_date"), e("entry_price"), e("reassess"), e("verification"),
                e("review"), e("thesis"), e("assumptions"), e("why_vs_alternatives"), e("contrary"),
                e("peer_comparison"), e("sector_context"), fund_html + val_html,
-               e("entry_price"), e("base_target"), e("bull_target"), e("bear_target"),
-               e("upside_pct"), e("downside_pct"), e("return_from_current_pct"), e("risk_reward"),
+               e2("entry_price"), e2("base_target"), e2("bull_target"), e2("bear_target"),
+               e2("upside_pct"), e2("downside_pct"), e2("return_from_current_pct"), e2("risk_reward"),
                e("catalysts"), e("risks"), e("entry_condition"), e("exit"),
                e("conclusion"), v("decision_rationale"), e("invalidation"), e("opposing"), src_html)
         )

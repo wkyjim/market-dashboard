@@ -1200,3 +1200,11 @@ def test_three_and_five_year_pe_must_differ():
     row = {"pe_3y_median": 20, "pe_3y_min": 15, "pe_3y_max": 25,
            "pe_5y_median": 20, "pe_5y_min": 15, "pe_5y_max": 25}
     assert any("identical" in f for f in _validate_pe_samples(row, 0))
+
+
+def test_fy2026_must_not_copy_fy2027():
+    from report_narrative import _validate_fy_duplicate
+    assert any("duplicates" in f for f in _validate_fy_duplicate(
+        {"fy2026_eps_consensus": 35.35, "fy2027_eps_consensus": 35.35}, 0))
+    assert _validate_fy_duplicate(
+        {"fy2026_eps_consensus": "N/A", "fy2027_eps_consensus": 35.35}, 0) == []
