@@ -1594,6 +1594,23 @@ def _render_stock_ideas(rows) -> str | None:
         def v(key):
             return _esc(str(r.get(key) if r.get(key) is not None else "N/A"))
 
+        def f2(key):
+            try:
+                return "%.2f" % float(r.get(key))
+            except (TypeError, ValueError):
+                return v(key)
+
+        def money(key):
+            try:
+                x = float(r.get(key))
+            except (TypeError, ValueError):
+                return v(key)
+            if abs(x) >= 1e9:
+                return "%.2fB" % (x / 1e9)
+            if abs(x) >= 1e6:
+                return "%.1fM" % (x / 1e6)
+            return "%.0f" % x
+
         fund_html = (
             '<h4>Fundamentals</h4>'
             '<table><thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>'
@@ -1603,9 +1620,9 @@ def _render_stock_ideas(rows) -> str | None:
             '<tr><td>FY2027E / FY2028E revenue (consensus)</td><td>%s / %s</td></tr>'
             '<tr><td>Revenue growth 2027-2028</td><td>%s%%</td></tr>'
             '</tbody></table>'
-            % (v("revenue_ttm"), v("operating_margin_pct"), v("ps_ratio"), v("pb_ratio"),
-               v("fy2027_revenue_consensus"), v("fy2028_revenue_consensus"),
-               v("revenue_growth_2027_2028_pct"))
+            % (money("revenue_ttm"), f2("operating_margin_pct"), f2("ps_ratio"), f2("pb_ratio"),
+               money("fy2027_revenue_consensus"), money("fy2028_revenue_consensus"),
+               f2("revenue_growth_2027_2028_pct"))
         )
         val_html = (
             '<h4>Valuation</h4>'
@@ -1629,17 +1646,17 @@ def _render_stock_ideas(rows) -> str | None:
             '</tbody></table>'
             '<p><strong>Probability-weighted target.</strong> %s '
             '(expected return %s%%, %s).</p>'
-            % (v("ttm_eps_diluted"), v("ttm_pe"),
-               v("fy2026_eps_consensus"), v("fy2027_eps_consensus"), v("fy2028_eps_consensus"),
-               v("fwd_pe_2027"), v("fwd_pe_2028"),
-               v("eps_growth_2026_2028_pct"), v("eps_revision_pct"),
-               v("pe_3y_median"), v("pe_3y_min"), v("pe_3y_max"), v("pe_3y_percentile"),
-               v("pe_5y_median"), v("pe_5y_min"), v("pe_5y_max"), v("pe_5y_percentile"),
-               v("fwd_pe_premium_vs_median_pct"), v("valuation_method"), v("valuation_assumptions"),
-               _pct100(r.get("bull_prob")), v("bull_eps"), v("bull_pe"), v("bull_target"),
-               _pct100(r.get("base_prob")), v("base_eps"), v("base_pe"), v("base_target"),
-               _pct100(r.get("bear_prob")), v("bear_eps"), v("bear_pe"), v("bear_target"),
-               v("expected_price"), _fmt2(r.get("expected_return_pct")), v("probability_basis"))
+            % (f2("ttm_eps_diluted"), f2("ttm_pe"),
+               f2("fy2026_eps_consensus"), f2("fy2027_eps_consensus"), f2("fy2028_eps_consensus"),
+               f2("fwd_pe_2027"), f2("fwd_pe_2028"),
+               f2("eps_growth_2026_2028_pct"), f2("eps_revision_pct"),
+               f2("pe_3y_median"), f2("pe_3y_min"), f2("pe_3y_max"), f2("pe_3y_percentile"),
+               f2("pe_5y_median"), f2("pe_5y_min"), f2("pe_5y_max"), f2("pe_5y_percentile"),
+               f2("fwd_pe_premium_vs_median_pct"), v("valuation_method"), v("valuation_assumptions"),
+               _pct100(r.get("bull_prob")), f2("bull_eps"), f2("bull_pe"), f2("bull_target"),
+               _pct100(r.get("base_prob")), f2("base_eps"), f2("base_pe"), f2("base_target"),
+               _pct100(r.get("bear_prob")), f2("bear_eps"), f2("bear_pe"), f2("bear_target"),
+               f2("expected_price"), _fmt2(r.get("expected_return_pct")), v("probability_basis"))
         )
         prov = r.get("valuation_provenance") or {}
         prov_txt = "; ".join(
@@ -1655,7 +1672,7 @@ def _render_stock_ideas(rows) -> str | None:
             '<tr><td>Provenance</td><td>%s</td></tr>'
             '</tbody></table>'
             % (v("eps_basis"), v("ttm_period"), v("split_adjusted"),
-               v("h1_eps_reported"), v("h2_eps_forecast"),
+               f2("h1_eps_reported"), f2("h2_eps_forecast"),
                v("fy2027_eps_method"), v("fy2028_eps_method"), _esc(prov_txt))
         )
         srcs = r.get("sources") or []
