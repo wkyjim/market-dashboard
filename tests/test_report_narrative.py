@@ -1153,7 +1153,7 @@ def test_buy_with_negative_weighted_return_is_flagged(tmp_path):
     ev = _evidence(tmp_path)
     n = _good_narrative(ev)
     idea = n["sections"]["stock_ideas"][0]  # AAA Buy
-    idea["expected_return_pct"] = -4.26
-    idea["expected_price"] = round(idea["current_price"] * (1 - 0.0426), 2)
+    idea["expected_return_pct"] = 0.0
+    idea["expected_price"] = round(idea["current_price"] * (1 - 0.0015), 2)
     fails = validate_narrative(n, ev)
     assert any("negative probability-weighted return" in f for f in fails)
