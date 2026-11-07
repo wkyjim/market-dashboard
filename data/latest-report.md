@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 7 November 2026, 20:18:19 (HKT)
+Generated at: 7 November 2026, 21:19:35 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -98,16 +98,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 25.64 | -9.01 | 2026-11-06 | closed |
 | ^SKEW | CBOE SKEW Index | 153.55 | 2.8 | 2026-11-06 | closed |
 | ^MOVE | ICE BofA MOVE Index | 92.77 | -5.26 | 2026-11-06 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.52 | 1.01 | 2026-11-06 | live as of 7 November 2026, 20:00:19 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.59 | 0.95 | 2026-11-06 | live as of 7 November 2026, 20:00:19 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.65 | 0.87 | 2026-11-06 | live as of 7 November 2026, 20:00:19 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.74 | 0.74 | 2026-11-06 | live as of 7 November 2026, 20:00:19 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.86 | 0.45 | 2026-11-06 | live as of 7 November 2026, 20:00:19 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.29 | 0.25 | 2026-11-06 | live as of 7 November 2026, 20:00:19 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.26 | 0.17 | 2026-11-06 | live as of 7 November 2026, 20:00:19 (HKT) |
-| HK50 | Hang Seng Futures | 24622.0 | 0.47 | 2026-11-06 | live as of 7 November 2026, 20:00:19 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 782.95 | -6.49 | 2026-11-06 | live as of 7 November 2026, 20:00:19 (HKT) |
-| CIHc1 | SSE 50 Futures | 2774.0 | -0.85 | 2026-11-06 | live as of 7 November 2026, 20:00:19 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.52 | 1.01 | 2026-11-06 | live as of 7 November 2026, 21:00:29 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.59 | 0.95 | 2026-11-06 | live as of 7 November 2026, 21:00:29 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.65 | 0.87 | 2026-11-06 | live as of 7 November 2026, 21:00:29 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.74 | 0.74 | 2026-11-06 | live as of 7 November 2026, 21:00:29 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.86 | 0.45 | 2026-11-06 | live as of 7 November 2026, 21:00:29 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.29 | 0.25 | 2026-11-06 | live as of 7 November 2026, 21:00:29 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.26 | 0.17 | 2026-11-06 | live as of 7 November 2026, 21:00:29 (HKT) |
+| HK50 | Hang Seng Futures | 24622.0 | 0.47 | 2026-11-06 | live as of 7 November 2026, 21:00:29 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 782.95 | -6.49 | 2026-11-06 | live as of 7 November 2026, 21:00:29 (HKT) |
+| CIHc1 | SSE 50 Futures | 2774.0 | -0.85 | 2026-11-06 | live as of 7 November 2026, 21:00:29 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.23 | -0.06 | 2026-11-06 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.53 | -0.12 | 2026-11-06 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.7 | -0.09 | 2026-11-06 | closed |
@@ -282,7 +282,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Healthcare Innovation | 64.32 | Positive setup | 66.2 | 65.0 | 14.04 | True | False |
 | 2 | Dividend Defensives | 61.17 | Positive setup | 56.95 | 65.0 | 4.04 | True | False |
-| 3 | Energy | 48.69 | Neutral / watchlist | 71.13 | 65.0 | 5.61 | False | False |
+| 3 | Energy | 49.6 | Neutral / watchlist | 71.13 | 65.0 | 5.61 | False | False |
 | 4 | Financials | 45.22 | Neutral / watchlist | 51.68 | 65.0 | 13.46 | False | False |
 | 5 | Quality Growth | 43.07 | Neutral / watchlist | 61.07 | 65.0 | 20.72 | False | False |
 | 6 | Small Caps | 39.36 | Weak setup | 60.18 | 65.0 | 0.0 | False | False |
@@ -310,7 +310,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Real Estate | Dividend Defensives | 65.51 | strong | 61.17 | positive | sector and theme confirmation |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 52.58 | mixed | 43.2 | weak | mixed confirmation |
 | Crypto | Crypto Infrastructure | 49.97 | mixed | 34.17 | very weak | mixed confirmation |
-| Energy | Energy | 48.1 | mixed | 48.69 | mixed | mixed confirmation |
+| Energy | Energy | 48.1 | mixed | 49.6 | mixed | mixed confirmation |
 | Defense | Defense | 39.91 | weak | 38.76 | weak | broad weakness across sector and themes |
 | Cybersecurity | Cybersecurity | 39.08 | weak | 37.25 | weak | broad weakness across sector and themes |
 | Industrials | Defense, Grid Infrastructure | 35.14 | weak | 38.98 | weak | broad weakness across sector and themes |
@@ -325,7 +325,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- |
 | 1 | Healthcare Innovation | 69.28 | Positive setup | relative_strength_20d, relative_strength_60d, trend_persistence, breadth, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 2 | Dividend Defensives | 65.35 | Positive setup | relative_strength_20d, trend_persistence, breadth, downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
-| 3 | Energy | 53.85 | Neutral / watchlist | downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
+| 3 | Energy | 52.35 | Neutral / watchlist | downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | Quality Growth | 48.09 | Neutral / watchlist | volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 5 | Financials | 46.77 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 6 | Grid Infrastructure | 40.93 | Weak setup | volume_accumulation | relative strength below SPY, breadth below 45%, news turns negative |
@@ -348,18 +348,18 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 33, 'negative': 32, 'neutral': 15}
+- Sentiment counts: {'positive': 32, 'negative': 31, 'neutral': 17}
 - News confirmation score: `50.62`
 
 ### Top Market-Moving Headlines
 
-**1. Russia launches ballistic missile attack on Kyiv ahead of Abu Dhabi peace talks**
+**1. Russia pounds Kyiv as Ukraine strikes oil refinery ahead of peace talks**
 - Source: Investing.com Economic Indicators
-- Importance / impact: Medium / Negative
-- Relevance / horizon: sector_theme / short-term
+- Importance / impact: High / Negative
+- Relevance / horizon: macro / short-term
 - Affected assets: military conflict, geopolitical tension, energy markets
-- Score: `49.59`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
+- Score: `58.34`
+- Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **2. U.S. Nonfarm Payrolls Surge, Surpassing Expectations**
 - Source: Investing.com Technology
@@ -393,7 +393,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `42.01`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**6. U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%**
+**6. Berkshire shares surge as Wall Street swoons amid AI fears**
+- Source: CNBC Markets
+- Importance / impact: Medium / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: P, S, AI fears, market outperformance, Berkshire Hathaway
+- Score: `39.57`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**7. U.S. economy added 165,000 jobs in October, way more than expected; unemployment rate slips to 4.1%**
 - Source: CNBC Business
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -401,7 +409,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `37.57`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**7. Oil prices tumble for the week as investors weigh Iran conflict risk after midterm elections**
+**8. Oil prices tumble for the week as investors weigh Iran conflict risk after midterm elections**
 - Source: CNBC Top News
 - Importance / impact: Medium / Positive
 - Relevance / horizon: macro / short-term
@@ -409,7 +417,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.74`
 - Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**8. AI rout sets off market alarm signals as traders brace for what’s next**
+**9. AI rout sets off market alarm signals as traders brace for what’s next**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Medium / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -417,7 +425,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.03`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**9. The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%**
+**10. The AI ‘credit card’ is getting costlier as CoreWeave bond yield tops 16%**
 - Source: CNBC Markets
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -425,18 +433,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.46`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**10. Oil Futures Slide As Market Holds Out Hopes for Middle East Diplomacy**
-- Source: Dow Jones US Business
-- Importance / impact: Low / Positive
-- Relevance / horizon: macro / short-term
-- Affected assets: Brent Crude, U.S, oil prices, energy markets, geopolitical risk
-- Score: `33.15`
-- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
-
 
 ### Headline Quality Checks
 
-Noisy headline list: Democratic sweep gives markets a reason to rethink, The S&P 500 could be dangerously exposed to AI. He
+Noisy headline list: The S&P 500 could be dangerously exposed to AI. He
 
 ## Positioning & Flow Dashboard
 
@@ -530,4 +530,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 07 November 2026, 20:18:19 (HKT)
+- Report generated at: 07 November 2026, 21:19:35 (HKT)
