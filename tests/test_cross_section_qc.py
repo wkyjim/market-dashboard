@@ -73,3 +73,13 @@ def test_bare_nasdaq_is_ambiguous():
 def test_labeled_nasdaq_composite_passes():
     fails = cross_section_qc.check("<p>Nasdaq Composite 24579.42</p>", {}, ai_score=None)
     assert not any("Nasdaq" in f for f in fails)
+
+
+def test_iso_cpi_date_must_be_nov_10():
+    fails = cross_section_qc.check("<p>BLS releases 2026-11-12 CPI.</p>", {}, ai_score=None)
+    assert any("2026-11-12" in f for f in fails)
+
+
+def test_iso_fomc_date_must_be_dec_8_or_9():
+    fails = cross_section_qc.check("<p>FOMC policy 2026-11-05, 2026-12-16.</p>", {}, ai_score=None)
+    assert any("2026-12-16" in f for f in fails)

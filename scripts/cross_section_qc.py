@@ -105,7 +105,17 @@ def check(html: str, narrative: dict, ai_score: float | None = None) -> list[str
         fails.append("cross-section: December FOMC is Dec 8-9, not Dec 10")
     if "CPI" in text and re.search(r"Nov(?:ember)?\s+12", text):
         fails.append("cross-section: October CPI is released Nov 10, not Nov 12")
-
+    # ISO dates: official FOMC 2026-12-08/09 and October CPI 2026-11-10.
+    for m in re.finditer(r"(2026-11-\d{2})\s+CPI", text):
+        if m.group(1) != "2026-11-10":
+            fails.append("cross-section: CPI date %s is wrong; October CPI is 2026-11-10" % m.group(1))
+    for m in re.finditer(r"CPI[^0-9]{0,10}(2026-11-\d{2})", text):
+        if m.group(1) != "2026-11-10":
+            fails.append("cross-section: CPI date %s is wrong; October CPI is 2026-11-10" % m.group(1))
+    for m in re.finditer(r"FOMC[^.]{0,60}", text):
+        for d in re.findall(r"2026-12-\d{2}", m.group(0)):
+            if d not in ("2026-12-08", "2026-12-09"):
+                fails.append("cross-section: FOMC date %s is wrong; December FOMC is 2026-12-08/09" % d)
 
     # 5. WTI commentary must contain the same snapshot printed elsewhere.
     snap = re.search(r"WTI[^0-9]{0,12}([0-9]{2,3}(?:\.[0-9]+)?)", text)
