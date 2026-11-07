@@ -10,6 +10,8 @@ not a pass.
 """
 from __future__ import annotations
 
+import datetime
+
 import json
 import urllib.request
 from datetime import date
@@ -79,7 +81,12 @@ def ttm_eps(facts: dict) -> float | None:
     quarters = sorted({(q["end"], q["val"]) for q in quarters})
     if len(quarters) < 4:
         return None
-    return round(sum(v for _, v in quarters[-4:]), 4)
+    last4 = quarters[-4:]
+    # Reject a "TTM" stitched from non-contiguous quarters (gap > 100 days).
+    for (prev, _), (curr, _) in zip(last4, last4[1:]):
+        if (datetime.date.fromisoformat(curr) - datetime.date.fromisoformat(prev)).days > 120:
+            return None
+    return round(sum(v for _, v in last4), 4)
 
 
 def h1_eps(facts: dict, fiscal_year_end: str | None = None) -> float | None:
