@@ -1,13 +1,13 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 8 November 2026, 00:19:30 (HKT)
+Generated at: 8 November 2026, 01:19:28 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **39.77 / 100** (Mild Risk-Off)
+- Regime score: **39.84 / 100** (Mild Risk-Off)
 - US equity strength: **24.83 / 100** (weak)
-- Evidence quality: **79.5 / 100**
+- Evidence quality: **76.0 / 100**
 - ETF flow contribution: **52.85 / 100**, reliability **66.62 / 100**
 - Breadth: **weak**; above 50DMA `33.33%`, above 200DMA `41.67%`
 - Top sector score: **Consumer Staples** `69.59`
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 39.77 | Mild Risk-Off |
+| Overall regime | 39.84 | Mild Risk-Off |
 | equity_trend | 8.75 | risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 40.27 | mild risk-off pressure; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 36.11 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -27,9 +27,9 @@ Window: 24h
 | dollar_fx | 51.59 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 51.9 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 44.38 | mild risk-off pressure; Weighted headline/news confirmation score. |
+| news_confirmation | 45.62 | neutral / mixed; Weighted headline/news confirmation score. |
 | Positive contributors |  | none |
-| Negative contributors |  | equity_trend=8.75, volatility=35.0, market_breadth=36.11, equity_momentum=40.27, news_confirmation=44.38 |
+| Negative contributors |  | equity_trend=8.75, volatility=35.0, market_breadth=36.11, equity_momentum=40.27 |
 
 ## Forward Signal (Score → Expected Return)
 
@@ -66,8 +66,8 @@ Method: Analyst inference/estimate (historical bucket calibration).
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `79.5`
-- Agreement ratio: `0.5`
+- Confidence score: `76.0`
+- Agreement ratio: `0.4`
 - Contradiction count: `2`
 - Missing indicators: none
 - Warning flags: none
@@ -98,16 +98,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 25.64 | -9.01 | 2026-11-06 | closed |
 | ^SKEW | CBOE SKEW Index | 153.55 | 2.8 | 2026-11-06 | closed |
 | ^MOVE | ICE BofA MOVE Index | 92.77 | -5.26 | 2026-11-06 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.52 | 1.01 | 2026-11-06 | live as of 8 November 2026, 00:00:22 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.59 | 0.95 | 2026-11-06 | live as of 8 November 2026, 00:00:22 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.65 | 0.87 | 2026-11-06 | live as of 8 November 2026, 00:00:22 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.74 | 0.74 | 2026-11-06 | live as of 8 November 2026, 00:00:22 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.86 | 0.45 | 2026-11-06 | live as of 8 November 2026, 00:00:22 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.29 | 0.25 | 2026-11-06 | live as of 8 November 2026, 00:00:22 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.26 | 0.17 | 2026-11-06 | live as of 8 November 2026, 00:00:22 (HKT) |
-| HK50 | Hang Seng Futures | 24622.0 | 0.47 | 2026-11-06 | live as of 8 November 2026, 00:00:22 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 782.95 | -6.49 | 2026-11-06 | live as of 8 November 2026, 00:00:22 (HKT) |
-| CIHc1 | SSE 50 Futures | 2774.0 | -0.85 | 2026-11-06 | live as of 8 November 2026, 00:00:22 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.52 | 1.01 | 2026-11-06 | live as of 8 November 2026, 01:00:19 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.59 | 0.95 | 2026-11-06 | live as of 8 November 2026, 01:00:19 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.65 | 0.87 | 2026-11-06 | live as of 8 November 2026, 01:00:19 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.74 | 0.74 | 2026-11-06 | live as of 8 November 2026, 01:00:19 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.86 | 0.45 | 2026-11-06 | live as of 8 November 2026, 01:00:19 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.29 | 0.25 | 2026-11-06 | live as of 8 November 2026, 01:00:19 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.26 | 0.17 | 2026-11-06 | live as of 8 November 2026, 01:00:19 (HKT) |
+| HK50 | Hang Seng Futures | 24622.0 | 0.47 | 2026-11-06 | live as of 8 November 2026, 01:00:19 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 782.95 | -6.49 | 2026-11-06 | live as of 8 November 2026, 01:00:19 (HKT) |
+| CIHc1 | SSE 50 Futures | 2774.0 | -0.85 | 2026-11-06 | live as of 8 November 2026, 01:00:19 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.23 | -0.06 | 2026-11-06 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.53 | -0.12 | 2026-11-06 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.7 | -0.09 | 2026-11-06 | closed |
@@ -348,8 +348,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 28, 'negative': 37, 'neutral': 15}
-- News confirmation score: `44.38`
+- Sentiment counts: {'positive': 29, 'negative': 36, 'neutral': 15}
+- News confirmation score: `45.62`
 
 ### Top Market-Moving Headlines
 
@@ -436,7 +436,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ### Headline Quality Checks
 
-Noisy headline list: The S&P 500 could be dangerously exposed to AI. He
+No noisy headlines detected by current rules.
 
 ## Positioning & Flow Dashboard
 
@@ -532,4 +532,4 @@ Positioning and flow data is used as confirmation only.
 
 ## Cycle Metadata
 
-- Report generated at: 08 November 2026, 00:19:30 (HKT)
+- Report generated at: 08 November 2026, 01:19:28 (HKT)
