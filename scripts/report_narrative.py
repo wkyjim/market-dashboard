@@ -34,7 +34,7 @@ from urllib.parse import urlsplit
 OPTIONAL_IDEA_FIELDS = {
     "revenue_ttm", "operating_margin_pct", "ps_ratio", "pb_ratio",
     "fy2027_revenue_consensus", "fy2028_revenue_consensus",
-    "revenue_growth_2027_2028_pct", "fundamentals_source",
+    "revenue_growth_2027_2028_pct", "fundamentals_source", "decision_rationale",
 }
 
 SCHEMA = "aegis-narrative-v1"
@@ -314,7 +314,7 @@ CARD_SECTIONS = {
         "current_price", "price_date", "entry_price", "base_target", "bull_target", "bear_target",
         "upside_pct", "downside_pct", "return_from_current_pct", "risk_reward",
         "thesis", "review", "assumptions", "why_vs_alternatives", "contrary",
-        "peer_comparison", "sector_context", "conclusion",
+        "peer_comparison", "sector_context", "conclusion", "decision_rationale",
         "catalysts", "risks", "entry_condition", "exit", "invalidation",
         "opposing", "reassess", "verification", "sources",
         # --- valuation block (P0) ---
@@ -789,6 +789,8 @@ def _validate_valuation(row: dict, i: int, fails: list[str], global_sources: dic
 
     fails.extend(compare_valuation(row, i))
     fails.extend(_validate_assumption_labels(row, i))
+    fails.extend(_validate_decision(row, i))
+    fails.extend(_validate_pe_samples(row, i))
 
 
 def _validate_source_notes(rows, sources: dict, fails: list[str]) -> None:
@@ -812,6 +814,60 @@ def _validate_source_notes(rows, sources: dict, fails: list[str]) -> None:
                     fails.append("stock_ideas[%d] %s source note labels %.2f as FY%s EPS, "
                                  "but the row has %s" % (i, ticker, claimed, year,
                                                           "N/A" if actual is None else "%.2f" % actual))
+
+
+def _validate_decision(row: dict, i: int) -> list[str]:
+    """Buy with weak asymmetry needs an explicit rationale; exits explain the position."""
+    fails: list[str] = []
+    rec = str(row.get("recommendation") or "").strip()
+    rr = _num_or_none(row.get("risk_reward"))
+    exp_ret = _num_or_none(row.get("expected_return_pct"))
+    rationale = str(row.get("decision_rationale") or "").strip()
+    if rec in ("Buy", "Add") and ((rr is not None and rr < 1.0) or (exp_ret is not None and exp_ret < 0)):
+        if len(rationale) < 80:
+            fails.append("stock_ideas[%d]: %s has weak asymmetry (R/R %s, expected return %s) "
+                         "without a decision_rationale of at least 80 chars — downgrade or explain"
+                         % (i, rec, rr, exp_ret))
+    if rec in ("Reduce", "Sell") and rationale:
+        if not re.search(r"existing|position|trim|reduce|long", rationale, re.I):
+            fails.append("stock_ideas[%d]: %s must state how existing long exposure changes"
+                         % (i, rec))
+    return fails
+
+
+def _validate_templates(rows, fails: list[str]) -> None:
+    """Reject near-identical research text across different tickers."""
+    fields = ("thesis", "peer_comparison", "catalysts", "risks", "conclusion")
+    norm = lambda t: re.sub(r"[^a-z0-9 ]", "", str(t or "").lower()).strip()
+    for a in range(len(rows)):
+        for b in range(a + 1, len(rows)):
+            ra, rb = rows[a], rows[b]
+            if not isinstance(ra, dict) or not isinstance(rb, dict):
+                continue
+            for field in fields:
+                ta, tb = norm(ra.get(field)), norm(rb.get(field))
+                if len(ta) < 40 or len(tb) < 40:
+                    continue
+                if ta == tb:
+                    fails.append("stock_ideas[%d]/[%d].%s are identical (template text)"
+                                 % (a, b, field))
+                    continue
+                sa, sb = set(ta.split()), set(tb.split())
+                if sa and sb and len(sa & sb) / len(sa | sb) > 0.95:
+                    fails.append("stock_ideas[%d]/[%d].%s are near-duplicates (template text)"
+                                 % (a, b, field))
+
+
+def _validate_pe_samples(row: dict, i: int) -> list[str]:
+    """3Y and 5Y P/E statistics must not be the same sample dressed twice."""
+    keys = ("pe_3y_median", "pe_3y_min", "pe_3y_max", "pe_5y_median", "pe_5y_min", "pe_5y_max")
+    vals = [_num_or_none(row.get(k)) for k in keys]
+    if any(v is None for v in vals):
+        return []
+    if vals[0] == vals[3] and vals[1] == vals[4] and vals[2] == vals[5]:
+        return ["stock_ideas[%d]: 3Y and 5Y P/E statistics are identical — the 5Y sample "
+                "must be genuinely longer/distinct" % i]
+    return []
 
 
 def _validate_stock_ideas(rows, narrative: dict, fails: list[str], evidence: dict) -> set:
@@ -1163,6 +1219,7 @@ def validate_narrative(narrative: dict, evidence: dict, tolerance: float = 0.02)
     stock_tickers = _validate_stock_ideas(sections.get("stock_ideas"), narrative, fails, evidence)
     _validate_candidate_screen(sections.get("candidate_screen"), stock_tickers, fails)
     _validate_sector_allocation(sections.get("sector_allocation"), fails)
+    _validate_templates(sections.get("stock_ideas") or [], fails)
 
     metrics = evidence.get("metrics") or {}
     claims = narrative.get("claims") or []
@@ -1628,6 +1685,7 @@ def _render_stock_ideas(rows) -> str | None:
             '<p><strong>Risks.</strong> %s</p>\n'
             '<p><strong>Entry condition.</strong> %s <strong>Exit.</strong> %s</p>\n'
             '<p><strong>Conclusion.</strong> %s</p>\n'
+            '<p><strong>Decision rationale.</strong> %s</p>\n'
             '<p><strong>Invalidation.</strong> %s</p>\n'
             '<p><strong>Strongest opposing argument.</strong> %s</p>\n'
             '<p class="idea-sources"><small>Sources: %s</small></p>\n'
@@ -1640,7 +1698,7 @@ def _render_stock_ideas(rows) -> str | None:
                e("entry_price"), e("base_target"), e("bull_target"), e("bear_target"),
                e("upside_pct"), e("downside_pct"), e("return_from_current_pct"), e("risk_reward"),
                e("catalysts"), e("risks"), e("entry_condition"), e("exit"),
-               e("conclusion"), e("invalidation"), e("opposing"), src_html)
+               e("conclusion"), v("decision_rationale"), e("invalidation"), e("opposing"), src_html)
         )
     return "\n".join(cards) if cards else None
 

@@ -124,7 +124,7 @@ def _good_narrative(evidence: dict) -> dict:
         fwd28 = round(cur / fy28, 2)
         growth = round((fy28 / fy26 - 1.0) * 100.0, 2)
         premium = round((fwd27 / 17.0 - 1.0) * 100.0, 2)
-        return {"ticker": ticker, "name": ticker + " Inc", "sector": "Energy",
+        out = {"ticker": ticker, "name": ticker + " Inc", "sector": "Energy",
                 "security_type": sec_type, "recommendation": rec, "horizon": "6-12M",
                 "current_price": cur, "price_date": "2026-11-01",
                 "entry_price": entry, "base_target": base, "bull_target": bull,
@@ -190,6 +190,22 @@ def _good_narrative(evidence: dict) -> dict:
                 "invalidation": "Guidance cut or margin compression.", "opposing": "Bear case is a demand rollover.",
                 "reassess": "NEW", "verification": "Estimate",
                 "sources": [src]}
+        out["thesis"] = ("%s thesis: %.0f base, %.0f target, margin inflection at %.1f%% with "
+                         "positive estimate revisions and a mix shift toward higher-margin "
+                         "products; the variant view is that consensus under-models the mix. "
+                         "%s backlog %.1f%%, %s pricing %.1f%%, %s capex %.1f%%."
+                         % (ticker, base, bull, cur / 10.0, ticker, cur / 3.0, ticker, cur / 7.0, ticker, cur / 9.0))
+        out["peer_comparison"] = ("%s versus two peers at %.1fx and %.1fx; %s trades at %.1fx "
+                                  "with faster growth, higher returns and a cleaner balance sheet, "
+                                  "leaving a valuation gap." % (ticker, cur / 5.0, cur / 6.0, ticker, cur / 4.0))
+        out["catalysts"] = ("%s Q4 print 2026-11-20; investor day 2026-12-10; guidance at %.0f."
+                            % (ticker, base))
+        out["risks"] = ("%s risk: volume miss at %.0f, pricing pressure, FX at %.1f%%."
+                        % (ticker, bear, cur / 100.0))
+        out["conclusion"] = ("%s: %s with %.0f base and %.0f bear; asymmetry %.2fx and the "
+                             "catalyst path supports the position into the next print."
+                             % (ticker, rec, base, bear, rr))
+        return out
     sections["stock_ideas"] = [
         _idea("AAA", "Buy", 100.0, 110.0, 125.0, 90.0, "https://www.sec.gov/aaa-10q"),
         _idea("BBB", "Add", 50.0, 55.0, 62.0, 45.0, "https://www.sec.gov/bbb-10q"),
@@ -1160,3 +1176,27 @@ def test_buy_with_negative_weighted_return_is_flagged(tmp_path):
     idea["expected_price"] = round(idea["current_price"] * (1 - 0.0015), 2)
     fails = validate_narrative(n, ev)
     assert any("negative probability-weighted return" in f for f in fails)
+
+
+def test_weak_buy_needs_decision_rationale():
+    from report_narrative import _validate_decision
+    row = {"recommendation": "Buy", "risk_reward": 0.10, "expected_return_pct": 2.0}
+    assert any("weak asymmetry" in f for f in _validate_decision(row, 0))
+    row["decision_rationale"] = ("Company-specific catalyst: contract win lifts 2027 EPS; "
+                                 "the low R/R reflects a near-term entry, not a weak thesis.")
+    assert _validate_decision(row, 0) == []
+
+
+def test_identical_research_text_is_rejected():
+    from report_narrative import _validate_templates
+    text = "The same boilerplate thesis repeated for every stock in the report."
+    fails = []
+    _validate_templates([{"thesis": text}, {"thesis": text}], fails)
+    assert any("template text" in f for f in fails)
+
+
+def test_three_and_five_year_pe_must_differ():
+    from report_narrative import _validate_pe_samples
+    row = {"pe_3y_median": 20, "pe_3y_min": 15, "pe_3y_max": 25,
+           "pe_5y_median": 20, "pe_5y_min": 15, "pe_5y_max": 25}
+    assert any("identical" in f for f in _validate_pe_samples(row, 0))
