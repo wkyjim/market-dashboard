@@ -13,3 +13,5 @@ __pycache__/
 # Generated fundamentals scrape cache
 .scratchpad/
 data/fundamentals_cache/
+
+data/fundamentals_pack.json
