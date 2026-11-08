@@ -490,15 +490,13 @@ def _validate_assumption_labels(row: dict, i: int) -> list[str]:
                 fails.append("stock_ideas[%d].valuation_assumptions claims FY%s EPS but the "
                              "FY%s field is N/A (period shift)" % (i, year, year))
             continue
-        m = re.search(r"(?:FY%s|FY%s)[^.]{0,40}?(?:EPS\s*)?\$?([0-9]+\.[0-9]+)"
-                      % (year, short), text)
-        if not m:
-            continue
-        claimed = float(m.group(1))
-        if abs(claimed - actual) > max(0.05, abs(actual) * 0.01):
-            fails.append("stock_ideas[%d].valuation_assumptions labels %.2f as FY%s EPS, "
-                         "but canonical FY%s EPS is %.2f (period shift)"
-                         % (i, claimed, year, year, actual))
+        for m in re.finditer(r"(?:FY%s|FY%s)\s*(?:EPS)?\s*\$?([0-9]+\.[0-9]+)"
+                             % (year, short), text):
+            claimed = float(m.group(1))
+            if abs(claimed - actual) > max(0.05, abs(actual) * 0.01):
+                fails.append("stock_ideas[%d].valuation_assumptions labels %.2f as FY%s EPS, "
+                             "but canonical FY%s EPS is %.2f (period shift)"
+                             % (i, claimed, year, year, actual))
     for year, field in ((2027, "fwd_pe_2027"), (2028, "fwd_pe_2028")):
         actual = _num_or_none(row.get(field))
         if actual is None:
@@ -507,6 +505,14 @@ def _validate_assumption_labels(row: dict, i: int) -> list[str]:
         if m and abs(float(m.group(1)) - actual) > max(0.1, actual * 0.02):
             fails.append("stock_ideas[%d].valuation_assumptions says %.1fx on FY%s, "
                          "but Forward P/E is %.2f" % (i, float(m.group(1)), year, actual))
+    base_eps = _num_or_none(row.get("base_eps"))
+    base_pe = _num_or_none(row.get("base_pe"))
+    bm = re.search(r"base[^(]{0,80}?\(([0-9.]+)\s*x\s*([0-9.]+)x\)", text, re.I)
+    if bm and base_eps and base_pe:
+        if abs(float(bm.group(1)) - base_eps) > max(0.05, abs(base_eps) * 0.01) or \
+                abs(float(bm.group(2)) - base_pe) > max(0.1, abs(base_pe) * 0.02):
+            fails.append("stock_ideas[%d].valuation_assumptions base line %.2f x %.2fx != scenario "
+                         "base %.2f x %.2fx" % (i, float(bm.group(1)), float(bm.group(2)), base_eps, base_pe))
     m = re.search(r"compression[^.]{0,80}?from\s*([0-9.]+)x?\s*to\s*([0-9.]+)x", text, re.I)
     if m and float(m.group(2)) > float(m.group(1)):
         fails.append("stock_ideas[%d].valuation_assumptions calls %.1fx -> %.1fx "

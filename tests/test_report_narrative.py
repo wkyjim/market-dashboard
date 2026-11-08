@@ -1237,3 +1237,14 @@ def test_base_scenario_eps_must_match_a_forecast_year():
     row["base_eps"] = 999.0
     row["base_target"] = 999.0 * float(row["base_pe"])
     assert any("base scenario EPS" in f for f in validate_narrative(n, ev))
+
+
+def test_assumption_text_cannot_contradict_scenario_table():
+    from report_narrative import _validate_assumption_labels
+    row = {"fy2027_eps_consensus": 10.56, "fy2028_eps_consensus": 10.87,
+           "base_eps": 10.87, "base_pe": 13.0,
+           "valuation_assumptions": "Base = FY2027 EPS 10.56 x 12.33x.",
+           "assumptions": "FY2027 EPS 11.46; base 141.31 (11.46 x 12.33x)."}
+    fails = _validate_assumption_labels(row, 0)
+    assert any("11.46" in f for f in fails)
+    assert any("base line" in f for f in fails)
