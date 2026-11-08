@@ -109,6 +109,10 @@ def check(html: str, narrative: dict, ai_score: float | None = None,
             if abs(float(m.group(1)) - float(source_score)) > 0.05:
                 fails.append("cross-section: prose 'source %s' != canonical source %.2f"
                              % (m.group(1), float(source_score)))
+        for m in re.finditer(r"(?:vs|against) source\s+([0-9]+\.[0-9]+)", text, re.I):
+            if abs(float(m.group(1)) - float(source_score)) > 0.05:
+                fails.append("cross-section: prose 'vs source %s' != canonical source %.2f"
+                             % (m.group(1), float(source_score)))
         for m in re.finditer(r"source score\s+([0-9]+\.[0-9]+)", text, re.I):
             if abs(float(m.group(1)) - float(source_score)) > 0.05:
                 fails.append("cross-section: 'source score %s' != canonical %.2f"
