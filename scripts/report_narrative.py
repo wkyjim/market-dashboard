@@ -852,17 +852,19 @@ def _validate_decision(row: dict, i: int) -> list[str]:
 def _validate_cross_ticker(rows, fails: list[str]) -> None:
     """Research text must belong to its own ticker and sector."""
     tickers = [str(r.get("ticker") or "").upper() for r in rows if isinstance(r, dict)]
+    sectors = {str(r.get("ticker") or "").upper(): str(r.get("sector") or "") for r in rows if isinstance(r, dict)}
     for i, row in enumerate(rows):
         if not isinstance(row, dict):
             continue
         own = str(row.get("ticker") or "").upper()
         sector = str(row.get("sector") or "")
-        for field in ("thesis", "sector_context", "conclusion", "review", "catalysts"):
+        for field in ("thesis", "sector_context", "conclusion", "review", "catalysts", "peer_comparison"):
             text = str(row.get(field) or "")
             for other in tickers:
                 if other and other != own and re.search(r"\b%s\b" % re.escape(other), text):
-                    fails.append("stock_ideas[%d] %s.%s mentions %s (cross-ticker contamination)"
-                                 % (i, own, field, other))
+                    if field != "peer_comparison" or ("Energy" in sectors.get(other, "") and "Energy" not in sector):
+                        fails.append("stock_ideas[%d] %s.%s mentions %s (cross-ticker contamination)"
+                                     % (i, own, field, other))
             if "Energy" not in sector and re.search(r"\b(OPEC|oil|crude|refinery|energy beta)\b", text, re.I):
                 fails.append("stock_ideas[%d] %s.%s contains energy/oil research for a %s company"
                              % (i, own, field, sector or "non-energy"))
