@@ -340,6 +340,10 @@ CARD_SECTIONS = {
         "h1_eps_reported", "h2_eps_forecast", "h2_rationale",
         "fy_revenue", "fy_net_margin_pct", "fy_tax_rate_pct", "fy_diluted_shares",
         "valuation_provenance",
+        # derived by normalize_narrative / _pe_block (injected, not authored)
+        "ttm_gaap_pe", "ttm_adjusted_pe", "forward_gaap_pe_2027", "forward_gaap_pe_2028",
+        "forward_adjusted_pe_2027", "forward_adjusted_pe_2028", "eps_basis",
+        "forward_basis", "price_observation_date", "share_adjustment_basis",
     ),
 }
 
