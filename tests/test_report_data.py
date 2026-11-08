@@ -57,3 +57,22 @@ def test_normalize_narrative_uses_canonical_valuation():
 def test_version_is_stable_for_same_inputs():
     d, nv, adj = _fixtures()
     assert report_data.build(d, nv, adj).version == report_data.build(d, nv, adj).version
+
+
+def test_strict_pe_fields():
+    d, nv, adj = _fixtures()
+    data = report_data.build(d, nv, adj)
+    pe = data.ideas[0]["pe"]
+    assert pe["ttm_gaap_pe"] == 20.0
+    assert pe["forward_gaap_pe_2027"] == round(100.0 / 5.5, 4)
+    assert pe["ttm_adjusted_pe"] == "N/A"
+
+
+def test_markdown_mirrors_json(tmp_path):
+    d, nv, adj = _fixtures()
+    data = report_data.build(d, nv, adj)
+    out = tmp_path / "report-data.md"
+    report_data.write_markdown(str(out), data)
+    text = out.read_text()
+    assert "TTM GAAP P/E" in text
+    assert "| X | Buy |" in text

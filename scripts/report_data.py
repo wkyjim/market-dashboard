@@ -17,10 +17,13 @@ from financial_calc import valuation_object
 
 @dataclass(frozen=True)
 class ReportData:
+    schema_version: str
     version: str
     run_id: str
     source_sha: str
     generated_at: str
+    cutoff: str
+    provenance: tuple
     ai_score: float | None
     source_score: float | None
     factors: tuple
@@ -47,6 +50,38 @@ def _ai_score(adjustments: dict) -> float | None:
 def _hash(payload: dict) -> str:
     raw = json.dumps(payload, sort_keys=True, default=str).encode("utf-8")
     return hashlib.sha256(raw).hexdigest()[:16]
+
+
+def _num(value):
+    try:
+        return float(value)
+    except (TypeError, ValueError):
+        return None
+
+
+def _pe(price, eps):
+    p, e = _num(price), _num(eps)
+    if p is None or e is None:
+        return "N/A"
+    if e <= 0:
+        return "N/M"
+    return round(p / e, 4)
+
+
+def _pe_block(row: dict) -> dict:
+    price = row.get("current_price")
+    return {
+        "ttm_gaap_pe": _pe(price, row.get("ttm_eps_diluted")),
+        "ttm_adjusted_pe": "N/A",
+        "forward_gaap_pe_2027": _pe(price, row.get("fy2027_eps_consensus")),
+        "forward_gaap_pe_2028": _pe(price, row.get("fy2028_eps_consensus")),
+        "forward_adjusted_pe_2027": "N/A",
+        "forward_adjusted_pe_2028": "N/A",
+        "eps_basis": "GAAP",
+        "forward_basis": "CONSENSUS",
+        "price_observation_date": row.get("price_date"),
+        "share_adjustment_basis": "SPLIT_ADJUSTED",
+    }
 
 
 def build(d: dict, narrative: dict, adjustments: dict) -> ReportData:
@@ -90,6 +125,7 @@ def build(d: dict, narrative: dict, adjustments: dict) -> ReportData:
             "fy2028_eps_consensus": row.get("fy2028_eps_consensus"),
             "ttm_eps_diluted": row.get("ttm_eps_diluted"),
             "valuation": canonical,
+            "pe": _pe_block(row),
         }
         ideas.append(frozen)
 
@@ -112,6 +148,7 @@ def build(d: dict, narrative: dict, adjustments: dict) -> ReportData:
     ]
 
     payload = {
+        "schema_version": "1.0",
         "run_id": d.get("run_id"),
         "source_sha": (nv.get("source") or {}).get("latest_report_sha256"),
         "ai_score": ai_score,
@@ -123,10 +160,16 @@ def build(d: dict, narrative: dict, adjustments: dict) -> ReportData:
         "events": events,
     }
     return ReportData(
+        schema_version="1.0",
         version=_hash(payload),
         run_id=str(d.get("run_id") or ""),
         source_sha=str(payload["source_sha"] or ""),
         generated_at=datetime.now(timezone.utc).isoformat(),
+        cutoff=str(nv.get("cutoff") or d.get("data_cutoff") or ""),
+        provenance=tuple(
+            {"label": x.get("label"), "url": x.get("url"), "date": x.get("date")}
+            for x in (nv.get("sources") or []) if isinstance(x, dict)
+        ),
         ai_score=ai_score,
         source_score=source_score,
         factors=tuple(payload["factors"]),
@@ -148,6 +191,9 @@ def normalize_narrative(narrative: dict, data: ReportData) -> dict:
         if not frozen:
             continue
         for key, value in (frozen.get("valuation") or {}).items():
+            if value is not None:
+                row[key] = value
+        for key, value in (frozen.get("pe") or {}).items():
             if value is not None:
                 row[key] = value
     return out
@@ -178,3 +224,39 @@ def normalize_evidence(d: dict, data: ReportData) -> dict:
 def write(path: str, data: ReportData) -> None:
     with open(path, "w", encoding="utf-8") as fh:
         json.dump(data.to_dict(), fh, indent=2, default=str)
+
+
+def _md_escape(value) -> str:
+    return str(value if value is not None else "N/A").replace("|", "\\|")
+
+
+def write_markdown(path: str, data: ReportData) -> None:
+    """Human-readable mirror of report-data.json; never a second source."""
+    lines = [
+        "# Report Data %s" % data.version,
+        "",
+        "- Schema: %s" % data.schema_version,
+        "- Run ID: %s" % data.run_id,
+        "- Generated: %s" % data.generated_at,
+        "- Cutoff: %s" % (data.cutoff or "N/A"),
+        "- AI score: %s / Source score: %s" % (data.ai_score, data.source_score),
+        "",
+        "## Stock ideas",
+        "",
+        "| Ticker | Rec | Price | TTM GAAP P/E | Fwd GAAP P/E 2027 | Fwd GAAP P/E 2028 |",
+        "|---|---|---|---|---|---|",
+    ]
+    for idea in data.ideas:
+        pe = idea.get("pe") or {}
+        lines.append("| %s | %s | %s | %s | %s | %s |" % (
+            _md_escape(idea.get("ticker")), _md_escape(idea.get("recommendation")),
+            _md_escape(idea.get("current_price")), _md_escape(pe.get("ttm_gaap_pe")),
+            _md_escape(pe.get("forward_gaap_pe_2027")), _md_escape(pe.get("forward_gaap_pe_2028"))))
+    lines += ["", "## Allocation", "", "| Horizon | Sector | Benchmark | Portfolio | Active |", "|---|---|---|---|---|"]
+    for row in data.allocation:
+        lines.append("| %s | %s | %s | %s | %s |" % (
+            _md_escape(row.get("horizon")), _md_escape(row.get("sector")),
+            _md_escape(row.get("benchmark_weight")), _md_escape(row.get("portfolio_weight")),
+            _md_escape(row.get("active_weight"))))
+    with open(path, "w", encoding="utf-8") as fh:
+        fh.write("\n".join(lines) + "\n")

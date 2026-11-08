@@ -17,3 +17,5 @@ data/fundamentals_cache/
 data/fundamentals_pack.json
 
 data/report_data.json
+data/report-data.md
+data/qc-results.json

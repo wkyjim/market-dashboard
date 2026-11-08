@@ -1645,9 +1645,9 @@ def _render_stock_ideas(rows) -> str | None:
             '<h4>Valuation</h4>'
             '<table><thead><tr><th>Metric</th><th>Value</th></tr></thead><tbody>'
             '<tr><td>TTM diluted EPS</td><td>%s</td></tr>'
-            '<tr><td>TTM P/E</td><td>%s</td></tr>'
+            '<tr><td>TTM GAAP P/E</td><td>%s</td></tr>'
             '<tr><td>FY2026E / FY2027E / FY2028E EPS</td><td>%s / %s / %s</td></tr>'
-            '<tr><td>Forward P/E 2027 / 2028</td><td>%s / %s</td></tr>'
+            '<tr><td>Forward GAAP P/E 2027 / 2028</td><td>%s / %s</td></tr>'
             '<tr><td>EPS growth 2026-2028</td><td>%s%%</td></tr>'
             '<tr><td>EPS revisions (analyst)</td><td>%s%%</td></tr>'
             '<tr><td>3Y P/E median (min-max, pct)</td><td>%s (%s-%s, %s pct)</td></tr>'
@@ -1663,9 +1663,10 @@ def _render_stock_ideas(rows) -> str | None:
             '</tbody></table>'
             '<p><strong>Probability-weighted target.</strong> %s '
             '(expected return %s%%, %s).</p>'
-            % (f2("ttm_eps_diluted"), f2("ttm_pe"),
+            % (f2("ttm_eps_diluted"), f2("ttm_gaap_pe") if r.get("ttm_gaap_pe") is not None else f2("ttm_pe"),
                f2("fy2026_eps_consensus"), f2("fy2027_eps_consensus"), f2("fy2028_eps_consensus"),
-               f2("fwd_pe_2027"), f2("fwd_pe_2028"),
+               f2("forward_gaap_pe_2027") if r.get("forward_gaap_pe_2027") is not None else f2("fwd_pe_2027"),
+               f2("forward_gaap_pe_2028") if r.get("forward_gaap_pe_2028") is not None else f2("fwd_pe_2028"),
                f2("eps_growth_2026_2028_pct"), f2("eps_revision_pct"),
                f2("pe_3y_median"), f2("pe_3y_min"), f2("pe_3y_max"), f2("pe_3y_percentile"),
                f2("pe_5y_median"), f2("pe_5y_min"), f2("pe_5y_max"), f2("pe_5y_percentile"),
