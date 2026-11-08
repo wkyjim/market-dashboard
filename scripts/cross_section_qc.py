@@ -50,7 +50,8 @@ def _cards(html: str) -> dict:
     return out
 
 
-def check(html: str, narrative: dict, ai_score: float | None = None) -> list[str]:
+def check(html: str, narrative: dict, ai_score: float | None = None,
+          source_score: float | None = None) -> list[str]:
     fails: list[str] = []
     cards = _cards(html)
 
@@ -72,6 +73,18 @@ def check(html: str, narrative: dict, ai_score: float | None = None) -> list[str
     # 2. Every ticker mention with an action must agree with its idea card.
     prose = re.sub(r'<div class="idea-card">.*?</div>', " ", html, flags=re.S)
     text = re.sub(r"<[^>]+>", " ", prose)
+    # 1b. Source rule-based score repeated in prose must equal the canonical value.
+    if source_score is not None:
+        for m in re.finditer(r"source(?:\s+rule-based)?\s+([0-9]+\.[0-9]+)", text, re.I):
+            if abs(float(m.group(1)) - float(source_score)) > 0.05:
+                fails.append("cross-section: prose 'source %s' != canonical source %.2f"
+                             % (m.group(1), float(source_score)))
+        for m in re.finditer(r"source rule-based\s+([0-9]+\.[0-9]+)", text, re.I):
+            if abs(float(m.group(1)) - float(source_score)) > 0.05:
+                fails.append("cross-section: 'source rule-based %s' != canonical %.2f"
+                             % (m.group(1), float(source_score)))
+
+
     for ticker, rec in cards.items():
         patterns = [
             r"\b%s\b[^.]{0,60}?\b%s\b" % (re.escape(ticker), ACTION),

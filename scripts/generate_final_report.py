@@ -1172,7 +1172,7 @@ def main() -> int:
         html = html.replace("<head>", '<head><meta name="report-data-version" content="%s">' % canonical.version, 1)
     fails = run_qc(html, d, narrative=bool(narrative_html))
     if narrative_html and raw_narrative is not None:
-        fails += cross_section_qc.check(html, raw_narrative, canonical.ai_score)
+        fails += cross_section_qc.check(html, raw_narrative, canonical.ai_score, canonical.source_score)
     sys.stderr.write("DATA CUTOFF: %s %s | sectors=%d themes=%d cio=%.2f regime=%s source=%s\n"
                      % (d["data_cutoff"], d["data_cutoff_time"], len(d["sectors"]), len(d["themes"]),
                         d["cio"]["score"], d["regime"].get("score"), d["report_dt"]))

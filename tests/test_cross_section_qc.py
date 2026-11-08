@@ -83,3 +83,9 @@ def test_iso_cpi_date_must_be_nov_10():
 def test_iso_fomc_date_must_be_dec_8_or_9():
     fails = cross_section_qc.check("<p>FOMC policy 2026-11-05, 2026-12-16.</p>", {}, ai_score=None)
     assert any("2026-12-16" in f for f in fails)
+
+
+def test_prose_source_score_must_match_canonical():
+    html = "<p>Source rule-based: 39.55 | AI: 41.92</p><p>AI 41.92 vs source 39.96.</p>"
+    fails = cross_section_qc.check(html, {}, ai_score=41.92, source_score=39.55)
+    assert any("39.96" in f for f in fails)
