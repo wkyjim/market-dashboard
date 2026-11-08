@@ -118,7 +118,7 @@ def _row(idea: dict) -> dict:
     row["sources"] = [str(u).replace("&amp;", "&") for u in (idea.get("sources") or [])]
     try:
         if fy26 and fy27 and float(fy26) != 0:
-            row["eps_growth_2026_2028_pct"] = round((float(fy27) / float(fy26) - 1) * 100, 2)
+            row["eps_growth_2026_2028_pct"] = round((float(fy28) / float(fy26) - 1) * 100, 2)
     except (TypeError, ValueError):
         pass
     row.pop("base_eps_year", None)
@@ -182,6 +182,7 @@ def main(argv=None) -> int:
     ap = argparse.ArgumentParser()
     ap.add_argument("--ideas", required=True)
     ap.add_argument("--template", required=True)
+    ap.add_argument("--evidence")
     ap.add_argument("--out", required=True)
     args = ap.parse_args(argv)
     with open(args.ideas, encoding="utf-8") as fh:
@@ -191,7 +192,27 @@ def main(argv=None) -> int:
     narrative["schema"] = SCHEMA
     sections = narrative.setdefault("sections", {})
     sections["stock_ideas"] = [_row(i) for i in decision.get("ideas") or []]
-    sections["candidate_screen"] = decision.get("candidate_screen") or []
+    previous = set()
+    if args.evidence:
+        with open(args.evidence, encoding="utf-8") as fh:
+            previous = {str(t).upper() for t in (json.load(fh).get("previous_ideas") or [])}
+    if previous:
+        for row in sections["stock_ideas"]:
+            row["reassess"] = "NEW" if row["ticker"] not in previous else "KEEP"
+    screen = []
+    for row in sections["stock_ideas"]:
+        screen.append({"ticker": row["ticker"], "name": row.get("name") or row["ticker"],
+                       "sector": row.get("sector") or "", "signal": "Selected from research",
+                       "verdict": "Selected", "reason": "Passed valuation and catalyst review"})
+    for row in (decision.get("candidate_screen") or []):
+        if len(screen) >= 8:
+            break
+        if str(row.get("ticker") or "").upper() in {r["ticker"] for r in screen}:
+            continue
+        screen.append({"ticker": row.get("ticker"), "name": row.get("name") or row.get("ticker"),
+                       "sector": row.get("sector") or "", "signal": row.get("signal") or "Screen",
+                       "verdict": "Watchlist", "reason": row.get("reason") or "Not selected"})
+    sections["candidate_screen"] = screen
     benchmark = decision.get("benchmark_weights") or {}
     rows = []
     for horizon in ("ST", "LT"):
@@ -204,14 +225,21 @@ def main(argv=None) -> int:
                          "rationale": "%s score; %s by %.1fpp." % (
                              sector, "overweight" if active[sector] > 0 else "underweight", abs(active[sector]))})
     sections["sector_allocation"] = rows
-    srcs = []
-    seen = set()
+    srcs = [dict(x) for x in (narrative.get("sources") or []) if isinstance(x, dict)]
+    seen = {str(x.get("url") or "") for x in srcs}
     for row in sections["stock_ideas"]:
         for url in row.get("sources") or []:
             url = str(url).replace("&amp;", "&")
             if url not in seen:
-                note = ("%s 10-Q filed 2026" % row["ticker"]) if "sec.gov" in url else ("%s research source 2026" % row["ticker"])
-                srcs.append({"url": url, "note": note})
+                if "sec.gov" in url:
+                    note = "%s 10-Q filed 2026" % row["ticker"]
+                elif "yahoo" in url:
+                    note = "%s Yahoo consensus 2026" % row["ticker"]
+                elif "companiesmarketcap" in url:
+                    note = "%s CMC P/E 2026" % row["ticker"]
+                else:
+                    note = "%s research source 2026" % row["ticker"]
+                srcs.append({"url": url, "label": note, "note": note})
                 seen.add(url)
     narrative["sources"] = srcs
     narrative.setdefault("adjustments", {})
