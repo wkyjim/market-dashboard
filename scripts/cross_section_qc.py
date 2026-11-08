@@ -105,9 +105,13 @@ def check(html: str, narrative: dict, ai_score: float | None = None,
     text = re.sub(r"<[^>]+>", " ", prose)
     # 1b. Source rule-based score repeated in prose must equal the canonical value.
     if source_score is not None:
-        for m in re.finditer(r"source(?:\s+rule-based)?\s+([0-9]+\.[0-9]+)", text, re.I):
+        for m in re.finditer(r"source rule-based\s+([0-9]+\.[0-9]+)", text, re.I):
             if abs(float(m.group(1)) - float(source_score)) > 0.05:
                 fails.append("cross-section: prose 'source %s' != canonical source %.2f"
+                             % (m.group(1), float(source_score)))
+        for m in re.finditer(r"source score\s+([0-9]+\.[0-9]+)", text, re.I):
+            if abs(float(m.group(1)) - float(source_score)) > 0.05:
+                fails.append("cross-section: 'source score %s' != canonical %.2f"
                              % (m.group(1), float(source_score)))
         for m in re.finditer(r"source rule-based\s+([0-9]+\.[0-9]+)", text, re.I):
             if abs(float(m.group(1)) - float(source_score)) > 0.05:

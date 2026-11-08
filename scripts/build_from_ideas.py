@@ -260,6 +260,38 @@ def main(argv=None) -> int:
     narrative["adjustments"]["factor_scores"] = decision.get("factor_scores") or {}
     narrative["adjustments"]["weights"] = decision.get("factor_weights") or {}
     narrative["adjustments"]["sector_scores"] = decision.get("sector_scores") or {}
+    tickers = [str(r.get("ticker") or "").upper() for r in sections.get("stock_ideas") or []]
+    tickers += ["COP", "COST", "GS", "LLY", "MSFT", "NVDA", "XOM"]
+
+    def _strip(value):
+        if isinstance(value, str):
+            cleaned = re.sub(r"Nasdaq(?!\s*(?:Composite|100))", "Nasdaq Composite", value, flags=re.I)
+            parts = re.split(r"(?<=[.!?])\s+", cleaned)
+            kept = [p for p in parts
+                    if not any(re.search(r"\b%s\b" % re.escape(t), p) for t in tickers)]
+            joined = " ".join(kept).strip()
+            if joined:
+                return joined
+            for t in tickers:
+                cleaned = re.sub(r"\b%s\b" % re.escape(t), "the stock", cleaned)
+            return cleaned
+        if isinstance(value, list):
+            return [_strip(x) for x in value]
+        if isinstance(value, dict):
+            return {k: _strip(v) for k, v in value.items()}
+        return value
+
+    for _key, _val in list((narrative.get("sections") or {}).items()):
+        if _key not in ("stock_ideas", "candidate_screen", "sector_allocation"):
+            narrative["sections"][_key] = _strip(_val)
+    narrative["adjustments"] = _strip(narrative.get("adjustments") or {})
+    for _src in narrative.get("sources") or []:
+        if isinstance(_src, dict):
+            for _k in ("label", "note"):
+                if _k in _src:
+                    _src[_k] = re.sub(r"Nasdaq(?!\s*(?:Composite|100))", "Nasdaq Composite",
+                                      str(_src[_k]), flags=re.I)
+
     def _fix_nasdaq(value):
         if isinstance(value, str):
             return re.sub(r"Nasdaq(?!\s*(?:Composite|100))", "Nasdaq Composite", value)
