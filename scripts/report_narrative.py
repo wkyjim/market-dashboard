@@ -1214,7 +1214,9 @@ def validate_narrative(narrative: dict, evidence: dict, tolerance: float = 0.02)
         if name in CARD_SECTIONS and isinstance(value, list) and value \
                 and all(isinstance(v, dict) for v in value):
             for i, row in enumerate(value):
-                unknown = [k for k in row if k not in CARD_SECTIONS[name]]
+                unknown = [k for k in row
+                           if k not in CARD_SECTIONS[name]
+                           and not (name == "stock_ideas" and k in OPTIONAL_IDEA_FIELDS)]
                 if unknown:
                     fails.append(
                         f"section {name!r} row {i} has unknown keys: {', '.join(unknown)}"
