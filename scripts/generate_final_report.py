@@ -25,7 +25,7 @@ from report_narrative import (  # noqa: E402  (path bootstrap must run first)
     render_narrative, _previous_idea_tickers,
 )
 from idea_price_audit import audit_ideas  # noqa: E402
-from fundamental_audit import audit_fundamentals  # noqa: E402
+from fundamental_audit import audit_fundamentals, enrich_ideas  # noqa: E402
 from fundamentals_web import audit_pe_history, audit_consensus  # noqa: E402
 import cross_section_qc  # noqa: E402
 import report_data  # noqa: E402
@@ -82,9 +82,9 @@ SOURCE_REGIME_WEIGHTS = {
     "etf_flow": 12.0,
     "news_confirmation": 5.0,
 }
-FOMC_2026 = ["2026-11-05", "2026-12-16"]
+FOMC_2026 = ["2026-11-05", "2026-12-08", "2026-12-09"]
 FOMC_2027 = ["2027-01-28", "2027-03-18", "2027-05-05"]
-BLS_2026 = ["2026-11-06 NFP", "2026-11-12 CPI", "2026-12-04 PCE"]
+BLS_2026 = ["2026-11-06 NFP", "2026-11-10 CPI", "2026-12-04 PCE"]
 BEA_2026 = ["2026-11-22 Q3 GDP advance"]
 
 
@@ -612,7 +612,7 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
         _fmt(br.get("positive_20d"), "%"))
     vix_line = "VIX %s (%s)" % (_fmt(vv.get("vix")), _fmt(vv.get("vix_chg"), "% chg"))
     eq_rows = ""
-    for _t, _label in [("SPX", "S&P 500"), ("NDX", "Nasdaq 100"), ("RUT", "Russell 2000"),
+    for _t, _label in [("SPX", "S&P 500"), ("NDX", "Nasdaq Composite"), ("RUT", "Russell 2000"),
                        ("RSP", "S&P 500 Equal Weight"), ("IWF", "Russell 1000 Growth"),
                        ("IWD", "Russell 1000 Value")]:
         _m = macro.get(_t)
@@ -676,7 +676,7 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
     flow_html = "".join(
         "<tr><td>%s</td><td>%s</td></tr>" % (esc(f["asset"]), esc(f["signal"])) for f in cf)
     ca_html = "".join(
-        "<tr><td>%s</td><td>%s</td></tr>" % (esc(c["area"]), esc(c["signal"])) for c in ca)
+        "<tr><td>%s</td><td>%s</td></tr>" % (esc(c["area"]), esc(c["signal"]).replace("Nasdaq", "Nasdaq Composite")) for c in ca)
     pcs = "".join(pcard(macro, s, lbl) for s, lbl in
                     [("SPX", "S&P 500"), ("NDX", "NASDAQ"), ("RUT", "Russell 2000"), ("VIX", "VIX"),
                      ("MOVE", "MOVE"), ("SKEW", "SKEW"), ("US10Y", "US 10Y"), ("US2Y", "US 2Y"),
@@ -1143,6 +1143,7 @@ def main() -> int:
             return 4
         ideas = (raw_narrative.get("sections") or {}).get("stock_ideas") or []
         adjustments = raw_narrative.get("adjustments") or {}
+        enrich_ideas(ideas)
         canonical = report_data.build(d, raw_narrative, adjustments)
         raw_narrative = report_data.normalize_narrative(raw_narrative, canonical)
         adjustments = report_data.normalize_adjustments(adjustments, canonical)

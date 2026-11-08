@@ -13,6 +13,7 @@ from __future__ import annotations
 import datetime
 
 import json
+import pathlib
 import urllib.request
 from datetime import date
 
@@ -99,6 +100,69 @@ def h1_eps(facts: dict, fiscal_year_end: str | None = None) -> float | None:
         if len(year) >= 2:
             return round(year[0]["val"] + year[1]["val"], 4)
     return round(quarters[-2]["val"] + quarters[-1]["val"], 4)
+
+
+
+
+_TICKERS = None
+
+
+def cik_for(ticker: str) -> str | None:
+    """Resolve a ticker to a 10-digit CIK using SEC's company_tickers.json."""
+    global _TICKERS
+    if _TICKERS is None:
+        cache = pathlib.Path("/tmp/sec_company_tickers.json")
+        if cache.exists():
+            raw = cache.read_text(encoding="utf-8")
+        else:
+            req = urllib.request.Request(
+                "https://www.sec.gov/files/company_tickers.json",
+                headers={"User-Agent": USER_AGENT},
+            )
+            raw = urllib.request.urlopen(req, timeout=20).read().decode("utf-8")
+            cache.write_text(raw, encoding="utf-8")
+        data = json.loads(raw)
+        _TICKERS = {str(v["ticker"]).upper(): str(v["cik_str"]).zfill(10) for v in data.values()}
+    return _TICKERS.get(str(ticker).upper())
+
+
+def last4_quarters(facts: dict) -> list[dict]:
+    q = list(facts.get("quarters") or [])
+    q += _q4_from_annual(facts.get("annual") or [], q)
+    q = sorted({(x["end"], x["val"]) for x in q})
+    if len(q) < 4:
+        return []
+    return [{"end": e, "val": v} for e, v in q[-4:]]
+
+
+def enrich_ideas(ideas, lookup=fetch_eps) -> list[str]:
+    """Fill TTM EPS, quarters and H1 from SEC for any selected ticker.
+
+    The model no longer has to reconstruct quarterly sums; a gapped series
+    leaves the idea untouched so the validator blocks it.
+    """
+    notes = []
+    for i, idea in enumerate(ideas or []):
+        if not isinstance(idea, dict):
+            continue
+        ticker = str(idea.get("ticker") or "").strip().upper()
+        cik = str(idea.get("sec_cik") or "").strip() or cik_for(ticker)
+        if not cik:
+            notes.append("%s: no CIK" % ticker)
+            continue
+        facts = lookup(cik)
+        ttm = ttm_eps(facts) if facts else None
+        if ttm is None:
+            notes.append("%s: SEC TTM unavailable (gapped quarters)" % ticker)
+            continue
+        idea["sec_cik"] = cik
+        idea["ttm_eps_diluted"] = ttm
+        idea["ttm_eps_quarters"] = [q["val"] for q in last4_quarters(facts)]
+        h1 = h1_eps(facts)
+        if h1 is not None:
+            idea["h1_eps_reported"] = h1
+        notes.append("%s: TTM %.2f from SEC" % (ticker, ttm))
+    return notes
 
 
 def audit_fundamentals(ideas, lookup=fetch_eps, tolerance_pct: float = 2.0) -> list[str]:
