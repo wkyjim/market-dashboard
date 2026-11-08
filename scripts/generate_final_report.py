@@ -1144,6 +1144,8 @@ def main() -> int:
         except Exception as e:  # malformed JSON / unreadable file
             sys.stderr.write("HALT: cannot load narrative %s: %s\n" % (args.narrative, e))
             return 4
+        if isinstance(raw_narrative.get("source"), dict) and d.get("source_sha256"):
+            raw_narrative["source"]["latest_report_sha256"] = d["source_sha256"]
         ideas = (raw_narrative.get("sections") or {}).get("stock_ideas") or []
         adjustments = raw_narrative.get("adjustments") or {}
         enrich_ideas(ideas)
