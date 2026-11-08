@@ -97,3 +97,9 @@ def test_scores_are_rewritten_per_run_not_pinned():
     assert "Source rule-based: 40.10 | AI: 43.50" in out
     assert "AI 43.50 vs source 40.10" in out
     assert "delta +3.40" in out
+
+
+def test_rule_based_regime_sentence_is_normalized():
+    html = "<p>The market sits in a mild risk-off regime with a rule-based regime score of 40.12/100.</p>"
+    out = cross_section_qc.normalize_scores(html, 42.50, 39.84)
+    assert "rule-based regime score of 39.84/100" in out

@@ -67,6 +67,10 @@ def normalize_scores(html: str, ai_score: float | None, source_score: float | No
                   lambda m: m.group(1) + "%.2f" % float(source_score), html)
     html = re.sub(r"(source rule-based\s+)([0-9]+\.[0-9]+)",
                   lambda m: m.group(1) + "%.2f" % float(source_score), html, flags=re.I)
+    html = re.sub(r"(?<!AI )(rule-based (?:regime )?score (?:of|at|is)\s*)([0-9]+\.[0-9]+)",
+                  lambda m: m.group(1) + "%.2f" % float(source_score), html, flags=re.I)
+    html = re.sub(r"(?<!AI )(source (?:regime )?score (?:of|at|is)\s*)([0-9]+\.[0-9]+)",
+                  lambda m: m.group(1) + "%.2f" % float(source_score), html, flags=re.I)
     html = re.sub(r"(AI regime score at\s+)([0-9]+\.[0-9]+)",
                   lambda m: m.group(1) + "%.2f" % float(ai_score), html)
     html = re.sub(r"(AI (?:regime )?score\s+)([0-9]+\.[0-9]+)",
@@ -108,6 +112,10 @@ def check(html: str, narrative: dict, ai_score: float | None = None,
         for m in re.finditer(r"source rule-based\s+([0-9]+\.[0-9]+)", text, re.I):
             if abs(float(m.group(1)) - float(source_score)) > 0.05:
                 fails.append("cross-section: 'source rule-based %s' != canonical %.2f"
+                             % (m.group(1), float(source_score)))
+        for m in re.finditer(r"(?<!AI )(?:rule-based|source) (?:regime )?score (?:of|at|is)\s*([0-9]+\.[0-9]+)", text, re.I):
+            if abs(float(m.group(1)) - float(source_score)) > 0.05:
+                fails.append("cross-section: prose rule-based score %s != canonical %.2f"
                              % (m.group(1), float(source_score)))
 
 
