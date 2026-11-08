@@ -165,8 +165,14 @@ def _row(idea: dict) -> dict:
         pass
     if str(row.get("recommendation")) in ("Buy", "Add"):
         try:
-            if float(row.get("risk_reward") or 9) < 1.0 and len(str(row.get("decision_rationale") or "")) >= 80:
-                row["override_reason"] = row["decision_rationale"]
+            if float(row.get("risk_reward") or 9) < 1.0:
+                if len(str(row.get("decision_rationale") or "")) >= 80:
+                    row["override_reason"] = row["decision_rationale"]
+                else:
+                    row["recommendation"] = "Hold"
+                    row["decision_rationale"] = (
+                        "Automatically downgraded from Buy to Hold: reward/risk %.2f is below 1.0 "
+                        "and no company-specific rationale was supplied." % float(row["risk_reward"]))
         except (TypeError, ValueError):
             pass
     row["ttm_gaap_pe"] = pe(row["current_price"], row["ttm_eps_diluted"])
