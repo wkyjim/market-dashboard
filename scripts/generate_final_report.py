@@ -18,6 +18,7 @@ CLI: --report <PATH>   path to latest-report.md (required)
 '''
 from __future__ import annotations
 import argparse, datetime, json, os, re, subprocess, sys, urllib.request
+from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
 from report_narrative import (  # noqa: E402  (path bootstrap must run first)
@@ -1136,6 +1137,7 @@ def main() -> int:
             )
             return 0
     canonical = None
+    run_dir = None
     if args.narrative:
         try:
             raw_narrative = load_narrative(args.narrative)
@@ -1149,8 +1151,10 @@ def main() -> int:
         raw_narrative = report_data.normalize_narrative(raw_narrative, canonical)
         adjustments = report_data.normalize_adjustments(adjustments, canonical)
         d = report_data.normalize_evidence(d, canonical)
-        report_data.write("data/report_data.json", canonical)
-        report_data.write_markdown("data/report-data.md", canonical)
+        run_dir = Path("data/runs") / (canonical.run_id or "unknown-run")
+        run_dir.mkdir(parents=True, exist_ok=True)
+        report_data.write(str(run_dir / "report-data.json"), canonical)
+        report_data.write_markdown(str(run_dir / "report-data.md"), canonical)
         ideas = (raw_narrative.get("sections") or {}).get("stock_ideas") or []
         price_warnings = []
         price_fails = audit_ideas(ideas, warnings=price_warnings)
@@ -1171,21 +1175,30 @@ def main() -> int:
     if canonical is not None:
         html = html.replace("<head>", '<head><meta name="report-data-version" content="%s">' % canonical.version, 1)
         html = cross_section_qc.normalize_scores(html, canonical.ai_score, canonical.source_score)
-    fails = run_qc(html, d, narrative=bool(narrative_html))
+    if canonical is not None:
+        if "report-data-version" not in html or canonical.version not in html:
+            fails = ["html-json: report-data-version meta missing or != canonical %s" % canonical.version]
+        else:
+            fails = []
+    else:
+        fails = []
+    fails += run_qc(html, d, narrative=bool(narrative_html))
     if narrative_html and raw_narrative is not None:
         fails += cross_section_qc.check(html, raw_narrative, canonical.ai_score, canonical.source_score)
     sys.stderr.write("DATA CUTOFF: %s %s | sectors=%d themes=%d cio=%.2f regime=%s source=%s\n"
                      % (d["data_cutoff"], d["data_cutoff_time"], len(d["sectors"]), len(d["themes"]),
                         d["cio"]["score"], d["regime"].get("score"), d["report_dt"]))
-    with open("data/qc-results.json", "w", encoding="utf-8") as fh:
-        json.dump({
-            "schema_version": "1.0",
-            "run_id": canonical.run_id if canonical else "",
-            "report_version": canonical.version if canonical else "",
-            "status": "PASS" if not fails else "FAIL",
-            "failure_count": len(fails),
-            "failures": fails,
-        }, fh, indent=2)
+    qc_payload = {
+        "schema_version": "1.0",
+        "run_id": canonical.run_id if canonical else "",
+        "report_version": canonical.version if canonical else "",
+        "status": "PASS" if not fails else "FAIL",
+        "failure_count": len(fails),
+        "failures": fails,
+    }
+    if run_dir is not None:
+        with open(run_dir / "qc-results.json", "w", encoding="utf-8") as fh:
+            json.dump(qc_payload, fh, indent=2)
     sys.stderr.write("QC: %d failure(s)\n" % len(fails))
     for f in fails:
         sys.stderr.write("  FAIL: %s\n" % f)
@@ -1195,6 +1208,11 @@ def main() -> int:
 
     with open(OUTPUT_HTML, "w", encoding="utf-8") as fh:
         fh.write(html)
+    if canonical is not None and run_dir is not None:
+        report_data.write("data/report_data.json", canonical)
+        report_data.write_markdown("data/report-data.md", canonical)
+        with open("data/qc-results.json", "w", encoding="utf-8") as fh:
+            json.dump(qc_payload, fh, indent=2)
     sys.stderr.write("OK: wrote %s (%d bytes)\n" % (OUTPUT_HTML, len(html)))
 
     if args.push:

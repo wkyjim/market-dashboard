@@ -126,6 +126,24 @@ def build(d: dict, narrative: dict, adjustments: dict) -> ReportData:
             "ttm_eps_diluted": row.get("ttm_eps_diluted"),
             "valuation": canonical,
             "pe": _pe_block(row),
+            "sector": row.get("sector"),
+            "research": {
+                k: row.get(k) for k in (
+                    "thesis", "review", "assumptions", "valuation_assumptions",
+                    "peer_comparison", "sector_context", "catalysts", "risks",
+                    "conclusion", "decision_rationale",
+                )
+            },
+            "scenario": {
+                "bull": {"eps": row.get("bull_eps"), "pe": row.get("bull_pe"),
+                          "target": row.get("bull_target"), "prob": row.get("bull_prob")},
+                "base": {"eps": row.get("base_eps"), "pe": row.get("base_pe"),
+                          "target": row.get("base_target"), "prob": row.get("base_prob")},
+                "bear": {"eps": row.get("bear_eps"), "pe": row.get("bear_pe"),
+                          "target": row.get("bear_target"), "prob": row.get("bear_prob")},
+                "expected_price": row.get("expected_price"),
+                "expected_return_pct": row.get("expected_return_pct"),
+            },
         }
         ideas.append(frozen)
 

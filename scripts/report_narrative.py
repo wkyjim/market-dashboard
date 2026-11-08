@@ -727,6 +727,16 @@ def _validate_valuation(row: dict, i: int, fails: list[str], global_sources: dic
                 fails.append("stock_ideas[%d].%s scenario EPS and P/E must be positive for P/E method"
                              % (i, name))
                 continue
+            if name == "base":
+                f27 = _num_or_none(row.get("fy2027_eps_consensus"))
+                f28 = _num_or_none(row.get("fy2028_eps_consensus"))
+                if f27 and f28 and min(abs(eps - f27), abs(eps - f28)) > max(0.02, abs(eps) * 0.01):
+                    fails.append("stock_ideas[%d] base scenario EPS %.2f is neither FY2027 %.2f nor FY2028 %.2f"
+                                 % (i, eps, f27, f28))
+                fpe = _num_or_none(row.get("fwd_pe_2027")) if f27 and abs(eps - f27) < 0.02 else _num_or_none(row.get("fwd_pe_2028"))
+                if fpe and abs(pe / fpe - 1.0) > 0.25:
+                    fails.append("stock_ideas[%d] base scenario P/E %.2f is more than 25%% from forward P/E %.2f"
+                                 % (i, pe, fpe))
             implied = calc_target_price(eps, pe)
             tolerance = max(0.5, abs(target) * 0.005)
             if abs(implied - target) > tolerance:
@@ -837,6 +847,33 @@ def _validate_decision(row: dict, i: int) -> list[str]:
             fails.append("stock_ideas[%d]: %s must state how existing long exposure changes"
                          % (i, rec))
     return fails
+
+
+def _validate_cross_ticker(rows, fails: list[str]) -> None:
+    """Research text must belong to its own ticker and sector."""
+    tickers = [str(r.get("ticker") or "").upper() for r in rows if isinstance(r, dict)]
+    for i, row in enumerate(rows):
+        if not isinstance(row, dict):
+            continue
+        own = str(row.get("ticker") or "").upper()
+        sector = str(row.get("sector") or "")
+        for field in ("thesis", "sector_context", "conclusion", "review", "catalysts"):
+            text = str(row.get(field) or "")
+            for other in tickers:
+                if other and other != own and re.search(r"\b%s\b" % re.escape(other), text):
+                    fails.append("stock_ideas[%d] %s.%s mentions %s (cross-ticker contamination)"
+                                 % (i, own, field, other))
+            if "Energy" not in sector and re.search(r"\b(OPEC|oil|crude|refinery|energy beta)\b", text, re.I):
+                fails.append("stock_ideas[%d] %s.%s contains energy/oil research for a %s company"
+                             % (i, own, field, sector or "non-energy"))
+        review = str(row.get("review") or "")
+        rec = str(row.get("recommendation") or "")
+        if rec in ("Buy", "Add") and re.search(r"\b(downgrade|trim|reduce|sell)\b", review, re.I):
+            fails.append("stock_ideas[%d] %s review says downgrade/trim but recommendation is %s"
+                         % (i, own, rec))
+        if rec in ("Reduce", "Sell") and re.search(r"\b(upgrade|add|buy)\b", review, re.I):
+            fails.append("stock_ideas[%d] %s review says upgrade/add but recommendation is %s"
+                         % (i, own, rec))
 
 
 def _validate_templates(rows, fails: list[str]) -> None:
@@ -1234,6 +1271,7 @@ def validate_narrative(narrative: dict, evidence: dict, tolerance: float = 0.02)
     _validate_candidate_screen(sections.get("candidate_screen"), stock_tickers, fails)
     _validate_sector_allocation(sections.get("sector_allocation"), fails)
     _validate_templates(sections.get("stock_ideas") or [], fails)
+    _validate_cross_ticker(sections.get("stock_ideas") or [], fails)
 
     metrics = evidence.get("metrics") or {}
     claims = narrative.get("claims") or []

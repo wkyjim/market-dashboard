@@ -117,9 +117,9 @@ def _good_narrative(evidence: dict) -> dict:
         from_cur = round((base / cur - 1) * 100, 2)
         rr = round(up / abs(down), 2) if down else 0.0
         ttm_eps = round(cur / 20.0, 2)
-        fy26 = round(cur / 18.0, 2)
-        fy27 = round(cur / 16.0, 2)
-        fy28 = round(cur / 14.0, 2)
+        fy26 = round(bear / 10.0, 2)
+        fy27 = round(base / 10.0, 2)
+        fy28 = round(bull / 10.0, 2)
         fwd27 = round(cur / fy27, 2)
         fwd28 = round(cur / fy28, 2)
         growth = round((fy28 / fy26 - 1.0) * 100.0, 2)
@@ -1208,3 +1208,32 @@ def test_fy2026_must_not_copy_fy2027():
         {"fy2026_eps_consensus": 35.35, "fy2027_eps_consensus": 35.35}, 0))
     assert _validate_fy_duplicate(
         {"fy2026_eps_consensus": "N/A", "fy2027_eps_consensus": 35.35}, 0) == []
+
+
+def test_cross_ticker_contamination_is_blocked():
+    from report_narrative import _validate_cross_ticker
+    rows = [
+        {"ticker": "NVDA", "sector": "Information Technology",
+         "thesis": "Integrated major like COP; reduce energy beta as oil falls and OPEC meets.",
+         "peer_comparison": "NVDA vs COP", "review": "DOWNGRADE and trim",
+         "sector_context": "Energy sector is weak", "catalysts": "OPEC decision",
+         "recommendation": "Buy"},
+        {"ticker": "COP", "sector": "Energy", "thesis": "Oil major.",
+         "peer_comparison": "COP vs XOM", "review": "Hold", "sector_context": "Energy",
+         "catalysts": "OPEC", "recommendation": "Hold"},
+    ]
+    fails = []
+    _validate_cross_ticker(rows, fails)
+    assert any("cross-ticker" in f for f in fails)
+    assert any("energy/oil" in f for f in fails)
+    assert any("downgrade" in f for f in fails)
+
+
+def test_base_scenario_eps_must_match_a_forecast_year():
+    import tempfile, pathlib
+    ev = _evidence(pathlib.Path(tempfile.mkdtemp()))
+    n = _good_narrative(ev)
+    row = n["sections"]["stock_ideas"][0]
+    row["base_eps"] = 999.0
+    row["base_target"] = 999.0 * float(row["base_pe"])
+    assert any("base scenario EPS" in f for f in validate_narrative(n, ev))
