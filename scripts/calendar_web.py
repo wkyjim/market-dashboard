@@ -6,9 +6,11 @@ tables with a date-group row followed by event rows.
 """
 from __future__ import annotations
 
+import json
 import re
 import subprocess
-from datetime import date, datetime, timedelta
+import urllib.request
+from datetime import date, timedelta
 
 UA = ("Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 "
       "(KHTML, like Gecko) Chrome/124 Safari/537.36")
@@ -125,21 +127,52 @@ def parse_markdown_table(markdown: str) -> list[dict]:
     return out
 
 
+def _nasdaq_econ(day: str) -> list[dict]:
+    """Nasdaq economic calendar for one day (Yahoo renders only the current session)."""
+    url = "https://api.nasdaq.com/api/calendar/economicevents?date=%s" % day
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent": UA, "Accept": "application/json"})
+        payload = json.loads(urllib.request.urlopen(req, timeout=25).read().decode())
+        rows = ((payload.get("data") or {}).get("rows") or [])
+    except Exception:
+        return []
+    out = []
+    for row in rows:
+        out.append({
+            "date": day,
+            "event": str(row.get("eventName") or "").strip(),
+            "country": str(row.get("country") or "").strip(),
+            "event_time": str(row.get("gmt") or "").strip(),
+            "for": "",
+            "actual": str(row.get("actual") or "").replace("&nbsp;", "").strip(),
+            "market_expectation": str(row.get("consensus") or "").strip(),
+            "prior_to_this": str(row.get("previous") or "").strip(),
+            "revised_from": "",
+        })
+    return out
+
+
 def fetch_economic(date_from: str | None = None, date_to: str | None = None) -> list[dict]:
     """Economic calendar for a date range.
 
-    Yahoo's server HTML ignores from/to for plain clients, so the range is
-    rendered through r.jina.ai. Yahoo renders one day per request (the first day
-    of the range); query a single day to target that day.
+    Nasdaq's JSON API is date-addressable; Yahoo only renders the current
+    session, so Nasdaq is the primary source for today .. T+7.
     """
+    if date_from and date_to:
+        start = date.fromisoformat(date_from)
+        end = date.fromisoformat(date_to)
+        if end >= start and (end - start).days <= 31:
+            out = []
+            for offset in range((end - start).days + 1):
+                out.extend(_nasdaq_econ((start + timedelta(days=offset)).isoformat()))
+            if out:
+                return out
     query = "offset=0&size=100"
     if date_from and date_to:
         query = f"from={date_from}&to={date_to}&offset=0&size=100"
     year = int((date_from or date.today().isoformat())[:4])
     rows = parse_markdown_events(_fetch_rendered(f"{BASE}/economic?{query}"), year)
-    if rows or (date_from and date_to):
-        return rows
-    return parse_table(_fetch(f"{BASE}/economic?{query}"))
+    return rows if rows else parse_table(_fetch(f"{BASE}/economic?{query}"))
 
 
 def fetch_earnings(date_from: str, date_to: str) -> list[dict]:
@@ -190,11 +223,20 @@ if __name__ == "__main__":
     import argparse
     import json
     ap = argparse.ArgumentParser()
-    ap.add_argument("kind", choices=["econ", "earnings", "splits", "ipo"])
+    ap.add_argument("kind", choices=["econ", "earnings", "splits", "ipo", "all"])
     ap.add_argument("--from", dest="date_from", default=(date.today()).isoformat())
     ap.add_argument("--to", dest="date_to", default=(date.today() + timedelta(days=7)).isoformat())
     ap.add_argument("--ticker")
     args = ap.parse_args()
+    if args.kind == "all":
+        data = {
+            "from": args.date_from,
+            "to": args.date_to,
+            "economic": fetch_economic(args.date_from, args.date_to),
+            "earnings": fetch_earnings(args.date_from, args.date_to),
+        }
+        print(json.dumps(data, indent=2, ensure_ascii=False))
+        raise SystemExit(0)
     if args.kind == "econ":
         data = fetch_economic(args.date_from, args.date_to)
     elif args.kind == "earnings":
