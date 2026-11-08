@@ -17,7 +17,7 @@ CLI: --report <PATH>   path to latest-report.md (required)
      --push            QC then commit+push data/market-intelligence-report.html
 '''
 from __future__ import annotations
-import argparse, datetime, json, os, re, subprocess, sys, urllib.request
+import argparse, datetime, html as html_lib, json, os, re, subprocess, sys, urllib.request
 from pathlib import Path
 
 sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
@@ -515,7 +515,26 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
     catalysts_narrative = nv.get("catalysts_narrative", "")
     risk_narrative = nv.get("risk_narrative", "")
     portfolio_risk = nv.get("portfolio_risk", "")
-    sector_allocation = nv.get("sector_allocation", "")
+    _alloc_raw = nv.get("sector_allocation", "")
+    if isinstance(_alloc_raw, list):
+        _rows = []
+        for _r in _alloc_raw:
+            if not isinstance(_r, dict):
+                continue
+            _rows.append(
+                "<tr><td>%s</td><td>%s</td><td>%.1f%%</td><td>%.1f%%</td><td>%+.1f%%</td><td>%s</td></tr>"
+                % (html_lib.escape(str(_r.get("horizon") or "")),
+                   html_lib.escape(str(_r.get("sector") or "")),
+                   float(_r.get("benchmark_weight") or 0),
+                   float(_r.get("portfolio_weight") or 0),
+                   float(_r.get("active_weight") or 0),
+                   html_lib.escape(str(_r.get("rationale") or ""))))
+        sector_allocation = (
+            '<table><thead><tr><th>Horizon</th><th>Sector</th><th>Benchmark</th>'
+            '<th>Portfolio</th><th>Active</th><th>Sizing rationale</th></tr></thead><tbody>'
+            + "".join(_rows) + "</tbody></table>")
+    else:
+        sector_allocation = _alloc_raw
     conclusions = nv.get("conclusions", "")
     # External citations rendered by report_narrative.render_sources(). Empty when
     # the narrative carried none, in which case only the built-in sources appear.
@@ -1184,6 +1203,8 @@ def main() -> int:
             fails = []
     else:
         fails = []
+    if "active_weight':" in html or "{'horizon':" in html:
+        fails.append("html-format: raw Python dict leaked into the rendered HTML")
     fails += run_qc(html, d, narrative=bool(narrative_html))
     if narrative_html and raw_narrative is not None:
         fails += cross_section_qc.check(html, raw_narrative, canonical.ai_score, canonical.source_score)
