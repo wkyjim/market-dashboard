@@ -1745,8 +1745,10 @@ def _render_stock_ideas(rows) -> str | None:
 def render_narrative(narrative: dict) -> dict:
     """Render validated narrative sections into HTML fragments keyed by slot."""
     sections = narrative.get("sections") or {}
+    if "sector_allocation" in narrative and "sector_allocation" not in sections:
+        sections = dict(sections)
+        sections["sector_allocation"] = narrative.get("sector_allocation")
     out: dict = {}
-
     exec_texts = _as_text_list(sections.get("exec_summary")) or []
     if exec_texts:
         out["exec_summary"] = "\n".join(f"<p>{_esc(t)}</p>" for t in exec_texts)
@@ -1780,6 +1782,9 @@ def render_narrative(narrative: dict) -> dict:
     src_html = render_sources(narrative)
     if src_html:
         out["sources"] = src_html
+
+    if isinstance(sections.get("sector_allocation"), list):
+        out["sector_allocation"] = sections["sector_allocation"]
 
     return out
 
