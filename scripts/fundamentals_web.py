@@ -10,10 +10,12 @@ historical P/E statistics instead of trusting model-authored percentiles.
 """
 from __future__ import annotations
 
+import http.cookiejar
 import json
 import os
 import re
 import time
+import urllib.parse
 import urllib.request
 from statistics import median
 
@@ -121,6 +123,69 @@ def _parse_num(text: str) -> float | None:
         return None
 
 
+_YAHOO_OPENER = None
+_YAHOO_CRUMB = None
+
+
+def _yahoo_api(ticker: str) -> dict | None:
+    """Yahoo quoteSummary fallback (the HTML analysis table is empty for some tickers)."""
+    global _YAHOO_OPENER, _YAHOO_CRUMB
+    if _YAHOO_OPENER is None:
+        cj = http.cookiejar.CookieJar()
+        _YAHOO_OPENER = urllib.request.build_opener(urllib.request.HTTPCookieProcessor(cj))
+        _YAHOO_OPENER.addheaders = [("User-Agent", UA), ("Accept-Language", "en-US,en;q=0.9")]
+        try:
+            _YAHOO_OPENER.open("https://fc.yahoo.com", timeout=15).read()
+        except Exception:
+            pass
+        try:
+            _YAHOO_CRUMB = _YAHOO_OPENER.open(
+                "https://query1.finance.yahoo.com/v1/test/getcrumb", timeout=20).read().decode()
+        except Exception:
+            _YAHOO_CRUMB = ""
+    if not _YAHOO_CRUMB:
+        return None
+    url = ("https://query1.finance.yahoo.com/v10/finance/quoteSummary/%s"
+           "?modules=earningsTrend&crumb=%s" % (ticker.upper(), urllib.parse.quote(_YAHOO_CRUMB)))
+    try:
+        payload = json.loads(_YAHOO_OPENER.open(url, timeout=25).read().decode())
+        trend = payload["quoteSummary"]["result"][0]["earningsTrend"]["trend"]
+    except Exception:
+        return None
+    eps_by_year, rev_by_year = {}, {}
+    current_qtr = next_qtr = current_year = next_year = None
+    for item in trend:
+        period = item.get("period")
+        end = str(item.get("endDate") or "")
+        year = int(end[:4]) if end[:4].isdigit() else None
+        eps = ((item.get("earningsEstimate") or {}).get("avg") or {}).get("raw")
+        rev = ((item.get("revenueEstimate") or {}).get("avg") or {}).get("raw")
+        if period == "0q":
+            current_qtr = eps
+        elif period == "+1q":
+            next_qtr = eps
+        elif period == "0y":
+            current_year = eps
+        elif period == "+1y":
+            next_year = eps
+        if year and eps is not None:
+            eps_by_year[year] = eps
+        if year and rev is not None:
+            rev_by_year[year] = rev
+    return {
+        "source": "https://finance.yahoo.com/quote/%s/analysis/" % ticker.upper(),
+        "headers": [],
+        "eps_current_qtr": current_qtr,
+        "eps_next_qtr": next_qtr,
+        "eps_current_year": current_year,
+        "eps_next_year": next_year,
+        "revenue_current_year": current_year and next(iter(rev_by_year.values()), None),
+        "revenue_next_year": None,
+        "eps_by_year": eps_by_year,
+        "revenue_by_year": rev_by_year,
+    }
+
+
 def fetch_yahoo(ticker: str, timeout: float = 25.0) -> dict | None:
     """Consensus EPS/revenue from Yahoo Finance analysis (current and next year)."""
     from bs4 import BeautifulSoup
@@ -140,7 +205,7 @@ def fetch_yahoo(ticker: str, timeout: float = 25.0) -> dict | None:
         if rows and any("Current Qtr" in c for c in rows[0]) and any("Next Year" in c for c in rows[0]):
             blocks.append(rows)
     if len(blocks) < 2:
-        return None
+        return _yahoo_api(ticker)
     rev, eps = blocks[0], blocks[1]
     def row(rows, label):
         for r in rows[1:]:
@@ -149,6 +214,17 @@ def fetch_yahoo(ticker: str, timeout: float = 25.0) -> dict | None:
         return ["--", "--", "--", "--"]
     rev_vals = row(rev, "avg. estimate")
     eps_vals = row(eps, "avg. estimate")
+    years = []
+    for header in rev[0][1:]:
+        m = re.search(r"(20\d{2})", header)
+        years.append(int(m.group(1)) if m else None)
+    eps_by_year = {}
+    rev_by_year = {}
+    for idx, year in enumerate(years):
+        if year and idx < len(eps_vals):
+            eps_by_year[year] = _parse_num(eps_vals[idx])
+        if year and idx < len(rev_vals):
+            rev_by_year[year] = _parse_num(rev_vals[idx])
     return {
         "source": url,
         "headers": rev[0][1:],
@@ -158,6 +234,8 @@ def fetch_yahoo(ticker: str, timeout: float = 25.0) -> dict | None:
         "eps_next_year": _parse_num(eps_vals[3]) if len(eps_vals) > 3 else None,
         "revenue_current_year": _parse_num(rev_vals[2]) if len(rev_vals) > 2 else None,
         "revenue_next_year": _parse_num(rev_vals[3]) if len(rev_vals) > 3 else None,
+        "eps_by_year": eps_by_year,
+        "revenue_by_year": rev_by_year,
     }
 
 
