@@ -260,7 +260,8 @@ def audit_consensus(ideas, lookup=fetch_yahoo, tolerance_pct: float = 5.0) -> li
         for key, field in (("fy2027_eps_consensus", "eps_current_year"),
                            ("fy2028_eps_consensus", "eps_next_year")):
             claim = idea.get(key)
-            actual = data.get(field)
+            by_year = data.get("eps_by_year") or {}
+            actual = by_year.get(int(key[2:6])) if by_year else data.get(field)
             if isinstance(claim, (int, float)) and actual:
                 if abs(float(claim) - actual) > max(0.05, abs(actual) * tolerance_pct / 100.0):
                     fails.append("stock_ideas[%d] %s: %s %.2f != Yahoo %.2f"

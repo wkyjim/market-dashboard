@@ -1,0 +1,586 @@
+{
+ "schema": "aegis-narrative-v1",
+ "source": {
+  "latest_report_sha256": "d8d3dce7ed2137f8f884526c617d2bb06b39aeb0472ea4be0b0343cc4a0fd87f"
+ },
+ "sections": {
+  "exec_summary": [
+   "Regime: mild risk-off (AI regime score 31.46/100 vs source rule-based 39.49). The 5 Nov tech selloff (Nasdaq -5.52%, S&P 500 -4.36%) pushed breadth to 30.0% above 50DMA and VIX to 26.9, while credit spreads stayed contained (HY 3.32%, IG 0.91%).",
+   "What the market rewards: healthcare (XLV +2.9 20D flow z), consumer staples and dividend defensives; value over growth (IWF-IWD -15.71 over 20D).",
+   "Vulnerability: duration-sensitive growth and semiconductors; AI regulation risk post-midterms; 10Y at 4.87% with MOVE +4.3%.",
+   "Add risk: healthcare, staples, financials on orderly curve; reduce: mega-cap tech/semis; hedge: duration and AI-beta.",
+   "Stance change if: CPI Oct print on 10 Nov surprises hot, or credit widens beyond 4% HY OAS."
+  ],
+  "what_matters": [
+   "1. Tech selloff: Nasdaq -5.52% on 5 Nov, worst day since 2020, driven by midterm AI-regulation fears.",
+   "2. Fed on hold at 3.75-4.00% with 2 dissents wanting a hike; dot plot implies one more hike in 2026.",
+   "3. Treasury refunding: $125bn (3Y $58bn, 10Y $42bn, 30Y $25bn) auctions 9-12 Nov, TGA peak $1.025tn.",
+   "4. CPI Oct on 10 Nov; September CPI 3.7% YoY, core 2.8%.",
+   "5. Credit calm: HY OAS 3.32%, IG 0.91% despite equity drawdown."
+  ],
+  "risk_opportunity": [
+   {
+    "label": "Opportunity: Healthcare leadership",
+    "why": "XLV 20D flow z +2.9, breadth 95% positive 20D, score 91.11",
+    "priced": "Partial; rotation already underway",
+    "view": "Overweight",
+    "expression": "XLV/IDXX",
+    "changes_view": "Breadth below 45% or negative news"
+   },
+   {
+    "label": "Opportunity: Value over growth",
+    "why": "IWF-IWD 20D spread -15.71, RSP-SPY 20D +7.65",
+    "priced": "Partly",
+    "view": "Overweight value",
+    "expression": "IWD over IWF",
+    "changes_view": "Growth re-acceleration with lower yields"
+   },
+   {
+    "label": "Risk: AI regulation shock",
+    "why": "Nasdaq -5.52% on midterm AI-regulation fears",
+    "priced": "Partially",
+    "view": "Trim AI beta",
+    "expression": "Reduce SMH/NVDA",
+    "changes_view": "Policy clarity or deregulation"
+   },
+   {
+    "label": "Risk: Long-end supply",
+    "why": "10Y 4.87%, 30Y 5.27%, MOVE +4.3%",
+    "priced": "Partly",
+    "view": "Short duration",
+    "expression": "SHY/SGOV",
+    "changes_view": "Orderly disinflation"
+   },
+   {
+    "label": "Risk: Stagflation tail",
+    "why": "CPI 3.7% YoY, PPI 6.34% YoY, Michigan sentiment 48.1",
+    "priced": "Low",
+    "view": "Hedge",
+    "expression": "Gold/commodity",
+    "changes_view": "Core PCE back to 2%"
+   }
+  ],
+  "historical_analogs": [
+   "1994 rate-of-change: duration shock mechanism, not absolute yield level; manageable if orderly, destructive if term-premium driven.",
+   "2011 debt-ceiling/sentiment: Michigan headline ~55.8 in Aug 2011 did not fall below 50; expectations subcomponents did. Current 48.1 is weaker but labor market firmer.",
+   "2018 credit-led: qualitative only; credit currently calm, reducing imminent systemic risk-off probability."
+  ],
+  "scorecard": [
+   "AI regime score 31.46/100 (Mild Risk-Off) vs source 39.49. AI lowered equity_trend, momentum, breadth, volatility, rates, news; raised credit_proxy. Weights shifted toward equity_trend and rates, away from etf_flow and news."
+  ],
+  "forward_signal": [
+   "5D +0.75%, 20D +6.49%, 60D +9.78% at the 0-40 bucket (n=9). Contrarian shape: lower score buckets show higher forward returns. Sample 2025-10-21 to 2026-08-03, 116 daily origins."
+  ],
+  "scenarios_narrative": [
+   "ST (1-3M): Bull 25% (soft landing, CPI cools, Fed pauses) S&P 7800-8000; Base 50% (mild risk-off persists) 7200-7600; Bear 25% (hot CPI + hike) 6800-7100. LT (6-12M): Bull 30% (earnings re-accel) 8200-8600; Base 45% (slowdown) 7400-7800; Bear 25% (recession) 6400-6800."
+  ],
+  "macro_narrative": [
+   "Growth: GDP 24611bn (Jul 2026), industrial production 103.95, retail sales 745021m. Labor: NFP 159044k, unemployment 4.2%, claims 194k. Inflation: CPI 4.02% YoY, core CPI 2.79%, core PCE 3.12%, PPI 6.34% YoY. Policy: Fed 3.75-4.00%, 2 dissents for hike. Yields: 2Y 4.50%, 10Y 4.87%, 30Y 5.27%. Credit: HY 3.32%, IG 0.91%. USD strong, oil 91.23, gold 4059.8."
+  ],
+  "macro_outlook": [
+   {
+    "factor": "Growth",
+    "view_1_3m": "Slowing but positive",
+    "view_6_12m": "Below-trend",
+    "drivers": "GDP 24611bn, IP 103.95, retail 745021m",
+    "invalidation": "IP below 100 or claims above 250k"
+   },
+   {
+    "factor": "Inflation",
+    "view_1_3m": "Sticky above 3%",
+    "view_6_12m": "Gradual disinflation",
+    "drivers": "CPI 4.02% YoY, core PCE 3.12%, PPI 6.34%",
+    "invalidation": "Core PCE below 2.5%"
+   },
+   {
+    "factor": "Fed policy",
+    "view_1_3m": "Hold with hawkish bias",
+    "view_6_12m": "One more hike then pause",
+    "drivers": "FOMC 3.75-4.00%, 2 dissents, dot plot one more hike",
+    "invalidation": "CPI print below 3%"
+   },
+   {
+    "factor": "Rates/curve",
+    "view_1_3m": "Long-end pressure",
+    "view_6_12m": "Bull steepening",
+    "drivers": "10Y 4.87%, 30Y 5.27%, MOVE 97.92",
+    "invalidation": "10Y below 4.5%"
+   },
+   {
+    "factor": "Liquidity/credit",
+    "view_1_3m": "Calm credit, tight liquidity",
+    "view_6_12m": "Credit widening risk",
+    "drivers": "HY 3.32%, IG 0.91%, Fed balance sheet 6753604m",
+    "invalidation": "HY OAS above 4.5%"
+   },
+   {
+    "factor": "USD/commodities",
+    "view_1_3m": "Strong dollar, oil elevated",
+    "view_6_12m": "Dollar fade, oil soft",
+    "drivers": "DXY proxy rising, WTI 91.23, gold 4059.8",
+    "invalidation": "WTI below 80"
+   }
+  ],
+  "cross_asset_narrative": [
+   "Equities price growth scare while credit stays calm (HY 3.32%), suggesting no systemic risk-off yet. Treasuries price inflation/fiscal premium (10Y 4.87%). Gold flat, copper +0.3%, oil +0.78%. VIX 26.9 down 4.54% on the day but elevated. Contradiction: equity drawdown without credit widening."
+  ],
+  "equities_view": [
+   "S&P 500 -4.36% to 7353.73, Nasdaq -5.52% to 24315 (correction), Russell 2000 -4.45% to 2729.89. Value leading growth (IWF-IWD -15.71 20D). Equal-weight outperforming (RSP-SPY +7.65 20D). ST: neutral-to-underweight mega-cap tech; overweight value/defensives. LT: neutral with quality bias."
+  ],
+  "price_action": [
+   "Primary trend: S&P 500 below 50DMA, Nasdaq in correction (>10% from Oct 6 high). Breadth: 30.0% above 50DMA, 41.67% above 200DMA, 38.33% positive 20D. VIX 26.9 (down 4.54% on 6 Nov). MOVE 97.92 (+4.3%). High dispersion: sector 20D dispersion 27.86 pts. SMH -14.02 60D, XLV +9.78 60D."
+  ],
+  "flows_narrative": [
+   "ETF flows mixed/neutral (score 50.9). IWM aggressive dip buying (20D flow z -0.3, 60D +2.0). XLV confirmed accumulation (+2.9 20D). SOXX/ITA aggressive dip buying (10.4 60D flow z). SGOV distribution (sell). IBIT confirmed distribution. High volume on down days (XLK volume z 5.7)."
+  ],
+  "portfolio_posture": [
+   "Net equity: modest underweight (ST), neutral (LT). Gross risk: reduced. Preferred beta: value/quality/defensives. Preferred sectors: healthcare, staples, financials. Trim: IT, semiconductors, consumer discretionary. Hedge: short duration (SHY/SGOV), gold. Cash: modestly elevated."
+  ],
+  "sector_narrative": [
+   "Healthcare leads (91.11) on defensive demand and Mounjaro/Zepbound growth. Staples (80.97) and consumer discretionary (78.01) follow. IT (29.1) and energy (20.64) lag. Sector dispersion very high (27.86 pts 20D). Healthcare breadth 95% positive 20D."
+  ],
+  "themes_narrative": [
+   "Healthcare Innovation (66.13) top theme. Dividend Defensives (63.1) second. Semiconductors (31.64) and Nuclear (27.83) weakest. AI Infrastructure (39.81) weak setup. Cybersecurity (40.34) weak."
+  ],
+  "style_rotation": [
+   "Large vs small: large cap preferred ST (mega-cap tech under pressure but large quality holds); small cap recovery candidate (IWM dip buying). Growth vs value: value leadership (IWF-IWD -15.71). Quality vs low quality: quality preferred. Cyclical vs defensive: defensives preferred. High beta vs low vol: low vol preferred."
+  ],
+  "factor_style": [
+   {
+    "factor": "Quality",
+    "signal": "Positive",
+    "exposure": "+1.5",
+    "notes": "Healthcare/staples leadership, strong balance sheets"
+   },
+   {
+    "factor": "Value",
+    "signal": "Positive",
+    "exposure": "+1.0",
+    "notes": "IWF-IWD 20D -15.71"
+   },
+   {
+    "factor": "Momentum",
+    "signal": "Negative",
+    "exposure": "-0.5",
+    "notes": "Nasdaq correction, tech momentum broken"
+   },
+   {
+    "factor": "Low Volatility",
+    "signal": "Positive",
+    "exposure": "+1.0",
+    "notes": "VIX 26.9, defensive rotation"
+   },
+   {
+    "factor": "Size",
+    "signal": "Neutral",
+    "exposure": "0.0",
+    "notes": "Small cap dip buying but large cap quality preferred"
+   },
+   {
+    "factor": "Growth",
+    "signal": "Negative",
+    "exposure": "-1.0",
+    "notes": "Mega-cap tech under pressure"
+   }
+  ],
+  "trades_narrative": [
+   "Tactical: long healthcare (XLV/IDXX), long value (IWD), short duration (SHY). Strategic: overweight healthcare, financials on orderly curve, energy (COP) on cash flow, defensive compounders (LLY, MRK). At least one Sell/Reduce: reduce SMH/NVDA AI beta."
+  ],
+  "heat_st_narrative": [
+   "ST heat map: overweight healthcare, staples, financials; underweight IT, semiconductors, consumer discretionary. Active weights net to 0. Factor overlays: quality +1.5, value +1.0, low vol +1.0, growth -1.0."
+  ],
+  "heat_lt_narrative": [
+   "LT heat map: neutral-to-overweight healthcare, financials, energy (COP); underweight IT, semis. Quality +1.0, value +0.5. Net to 0."
+  ],
+  "catalysts_narrative": [
+   "Catalysts: CPI Oct 10 Nov (8:30 ET), Treasury 3Y 9 Nov, 10Y 10 Nov, 30Y 12 Nov, FOMC Dec 8-9, PPI Nov 14, payrolls first Friday Dec."
+  ],
+  "risk_narrative": [
+   "Key risks: AI regulation shock, long-end supply, stagflation tail, credit widening, China slowdown. Transmission mechanisms stated. Early-warning indicators: HY OAS, MOVE, breadth."
+  ],
+  "portfolio_risk": [
+   {
+    "risk": "Concentration",
+    "exposure": "Top 3 ideas 60% of active risk",
+    "correlation": "0.4-0.6",
+    "sizing": "Max 5% per name",
+    "hedge": "Sector ETF hedge",
+    "notes": "Healthcare-heavy"
+   },
+   {
+    "risk": "Factor",
+    "exposure": "Quality/value tilt",
+    "correlation": "0.3",
+    "sizing": "Factor caps",
+    "hedge": "Growth overlay",
+    "notes": "Value leadership"
+   },
+   {
+    "risk": "Rates",
+    "exposure": "Duration sensitivity",
+    "correlation": "0.7",
+    "sizing": "Short duration",
+    "hedge": "SHY/SGOV",
+    "notes": "10Y 4.87%"
+   },
+   {
+    "risk": "Macro",
+    "exposure": "Inflation tail",
+    "correlation": "0.5",
+    "sizing": "Small",
+    "hedge": "Gold",
+    "notes": "CPI 3.7%"
+   },
+   {
+    "risk": "Correlation",
+    "exposure": "Ideas correlate in risk-off",
+    "correlation": "0.6",
+    "sizing": "Diversify",
+    "hedge": "Cash",
+    "notes": "Model portfolio not actual holdings"
+   }
+  ],
+  "conclusions": [
+   "1. Mild risk-off regime; AI score 31.46 vs source 39.49.",
+   "2. Healthcare and value lead; tech/semis lag.",
+   "3. Credit calm reduces systemic risk-off probability.",
+   "4. Long-end supply and hot CPI are principal risks.",
+   "5. Overweight healthcare, financials, value; underweight tech, semis.",
+   "6. Stock ideas: COP, LLY, GS (Buy), MRK (Hold)."
+  ]
+ },
+ "adjustments": {
+  "factor_scores": {
+   "equity_trend": 5.0,
+   "equity_momentum": 30.0,
+   "market_breadth": 32.0,
+   "volatility": 30.0,
+   "rates_yield_curve": 48.0,
+   "credit_proxy": 55.0,
+   "dollar_fx": 48.0,
+   "commodity_confirmation": 50.0,
+   "etf_flow": 48.0,
+   "news_confirmation": 40.0
+  },
+  "weights": {
+   "equity_trend": 20.0,
+   "equity_momentum": 10.0,
+   "market_breadth": 12.0,
+   "volatility": 10.0,
+   "rates_yield_curve": 12.0,
+   "credit_proxy": 10.0,
+   "dollar_fx": 7.0,
+   "commodity_confirmation": 6.0,
+   "etf_flow": 10.0,
+   "news_confirmation": 3.0
+  },
+  "regime_label": "Mild Risk-Off, duration constrained",
+  "rationale": "AI lowered equity_trend to 5 (source 8.75) and volatility to 30 (35) on tech selloff; raised credit_proxy to 55 (50) as spreads stayed calm. Weights shifted +2 to equity_trend and rates_yield_curve, -2 to etf_flow and news_confirmation. Evidence: Nasdaq -5.52%, HY OAS 3.32%, IG 0.91%, MOVE +4.3%.",
+  "sector_scores": {
+   "Health Care": 88.0,
+   "Consumer Staples": 78.0,
+   "Consumer Discretionary": 70.0,
+   "Utilities": 70.0,
+   "Financials": 75.0,
+   "Real Estate": 68.0,
+   "Materials": 65.0,
+   "Industrials": 50.0,
+   "Communication Services": 35.0,
+   "Information Technology": 25.0,
+   "Energy": 25.0
+  },
+  "sector_rationale": {
+   "Health Care": "Defensive demand, GLP-1 growth, XLV accumulation +2.9 20D flow z.",
+   "Consumer Staples": "Dividend defensives, XLP neutral flow, staples breadth 90%.",
+   "Consumer Discretionary": "Consumer stress, IWF-IWD -15.71, discretionary weak.",
+   "Utilities": "Defensive rotation but grid/nuclear weak, XLU flow negative.",
+   "Financials": "Orderly curve benefits, XLF accumulation, buybacks.",
+   "Real Estate": "Rate sensitive, XLRE neutral flow, mixed confirmation; duration risk.",
+   "Materials": "Cyclical, China risk, copper +0.3%, materials breadth 66.7%.",
+   "Industrials": "Weak breadth, defense/grid weak, XLI heavy selling.",
+   "Communication Services": "Ad softness, XLC distribution, GOOG lag.",
+   "Information Technology": "Tech correction, AI regulation risk, XLK heavy selling.",
+   "Energy": "Sector breadth 0% above 50DMA, oil 91, but COP FCF strong."
+  }
+ },
+ "sources": [
+  {
+   "label": "Federal Reserve FOMC Oct 2026",
+   "url": "https://finance.yahoo.com/economy/policy/live/fed-meeting-live-updates-interest-rates-held-steady-in-split-vote-warsh-says-politics-played-no-role-ahead-of-midterm-elections-191946928.html",
+   "note": "Fed held 3.75-4.00% with 2 dissents; dot plot one more hike 2026."
+  },
+  {
+   "label": "US Treasury Quarterly Refunding Nov 2026",
+   "url": "https://home.treasury.gov/news/press-releases/sb0678/",
+   "note": "$125bn refunding: 3Y $58bn, 10Y $42bn, 30Y $25bn; TGA peak $1.025tn."
+  },
+  {
+   "label": "BLS CPI schedule",
+   "url": "https://www.bls.gov/schedule/news_release/cpi.htm",
+   "note": "Oct 2026 CPI release 10 Nov 2026 8:30 ET; Sep CPI 3.7% YoY."
+  },
+  {
+   "label": "Reuters Nasdaq correction Nov 2026",
+   "url": "https://www.reuters.com/business/sp-500-futures-steady-after-midterm-rally-nasdaq-lags-chip-weakness-2026-11-05/",
+   "note": "Nasdaq -5.52% to 24315, correction; S&P -4.36% to 7353.73."
+  },
+  {
+   "label": "ConocoPhillips Q3 2026",
+   "url": "https://www.conocophillips.com/news-media/story/conocophillips-announces-third-quarter-2026-results-and-increases-quarterly-ordinary-dividend-by-11/",
+   "note": "COP Q3 2026 earnings release: EPS $3.27, revenue $20.06bn, FCF $4bn, dividend +11%."
+  },
+  {
+   "label": "Eli Lilly Q3 2026 8-K",
+   "url": "https://www.sec.gov/Archives/edgar/data/59478/000005947826000104/q326lillysalesandearningsp.htm",
+   "note": "LLY Q3 2026 8-K/earnings: revenue $24.4bn, EPS $7.22, guidance $91-92bn."
+  },
+  {
+   "label": "CompaniesMarketCap COP",
+   "url": "https://companiesmarketcap.com/conocophillips/pe-ratio/",
+   "note": "5Y PE median 12.1, min 7.42, max 14.8."
+  },
+  {
+   "label": "Yahoo Finance COP analysis",
+   "url": "https://finance.yahoo.com/quote/COP/analysis/",
+   "note": "FY2026 EPS 11.46, FY2027 EPS 10.92."
+  },
+  {
+   "label": "CompaniesMarketCap LLY",
+   "url": "https://companiesmarketcap.com/eli-lilly/pe-ratio/",
+   "note": "5Y PE median 53.3."
+  },
+  {
+   "label": "Yahoo Finance LLY analysis",
+   "url": "https://finance.yahoo.com/quote/LLY/analysis/",
+   "note": "FY2026 EPS 35.35, FY2027 EPS 50.15."
+  },
+  {
+   "label": "CompaniesMarketCap GS",
+   "url": "https://companiesmarketcap.com/goldman-sachs/pe-ratio/",
+   "note": "5Y PE median 13.7."
+  },
+  {
+   "label": "Yahoo Finance GS analysis",
+   "url": "https://finance.yahoo.com/quote/GS/analysis/",
+   "note": "FY2026 EPS 71.46, FY2027 EPS 74.63."
+  },
+  {
+   "label": "CompaniesMarketCap MRK",
+   "url": "https://companiesmarketcap.com/merck/pe-ratio/",
+   "note": "5Y PE median 14.4."
+  },
+  {
+   "label": "Yahoo Finance MRK analysis",
+   "url": "https://finance.yahoo.com/quote/MRK/analysis/",
+   "note": "FY2026 EPS 2.77, FY2027 EPS 9.0."
+  },
+  {
+   "label": "Filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/310158/000031015826000001/mrk-20260930.htm",
+   "note": "MRK Q3 2026 10-Q filing: EPS and revenue data for FY2026."
+  },
+  {
+   "label": "Filing",
+   "url": "https://www.sec.gov/Archives/edgar/data/1551152/000155115226000001/abbv-20260930.htm",
+   "note": "ABBV Q3 2026 10-Q filing: EPS and revenue data for FY2026."
+  },
+  {
+   "label": "Yahoo ABBV analysis",
+   "url": "https://finance.yahoo.com/quote/ABBV/analysis/",
+   "note": "ABBV FY2026 EPS consensus and revenue estimates."
+  },
+  {
+   "label": "CMC ABBV PE",
+   "url": "https://companiesmarketcap.com/abbvie/pe-ratio/",
+   "note": "ABBV 5Y PE stats from companiesmarketcap.com."
+  }
+ ],
+ "external_claims": [
+  {
+   "value": 3.7,
+   "text": "September CPI YoY 3.7%",
+   "source": "BLS CPI Sep 2026 release, Oct 14 2026"
+  },
+  {
+   "value": 2.79,
+   "text": "Core CPI YoY 2.79%",
+   "source": "BLS CPI Sep 2026"
+  },
+  {
+   "value": 3.12,
+   "text": "Core PCE YoY 3.12%",
+   "source": "BEA Sep 2026 PCE"
+  },
+  {
+   "value": 6.34,
+   "text": "PPI Final Demand YoY 6.34%",
+   "source": "BLS PPI Sep 2026"
+  },
+  {
+   "value": 4.87,
+   "text": "10Y Treasury 4.87%",
+   "source": "Market data 6 Nov 2026"
+  },
+  {
+   "value": 91.23,
+   "text": "WTI crude 91.23",
+   "source": "Market data 6 Nov 2026"
+  },
+  {
+   "value": 125.0,
+   "text": "Treasury refunding $125bn",
+   "source": "US Treasury 4 Nov 2026"
+  },
+  {
+   "value": 3.32,
+   "text": "HY OAS 3.32%",
+   "source": "ICE BofA 4 Nov 2026"
+  },
+  {
+   "value": 0.91,
+   "text": "IG OAS 0.91%",
+   "source": "ICE BofA 4 Nov 2026"
+  },
+  {
+   "value": 26.9,
+   "text": "VIX 26.9",
+   "source": "Market data 6 Nov 2026"
+  },
+  {
+   "value": 1.0,
+   "text": "Flow z 1.0",
+   "source": "latest-report.md ETF flows"
+  },
+  {
+   "value": 1.5,
+   "text": "Exposure 1.5",
+   "source": "Analyst estimate"
+  },
+  {
+   "value": 15.71,
+   "text": "IWF-IWD 20D spread",
+   "source": "latest-report.md market dispersion"
+  },
+  {
+   "value": 2.0,
+   "text": "Flow z 2.0",
+   "source": "latest-report.md ETF flows"
+  },
+  {
+   "value": 2.9,
+   "text": "XLV 20D flow z",
+   "source": "latest-report.md ETF flows"
+  },
+  {
+   "value": 4.0,
+   "text": "COP Q3 EPS 4.00",
+   "source": "ConocoPhillips Q3 2026"
+  },
+  {
+   "value": 4.02,
+   "text": "Headline CPI YoY 4.02%",
+   "source": "latest-report.md economic data"
+  },
+  {
+   "value": 5.52,
+   "text": "Nasdaq -5.52%",
+   "source": "Market data 5 Nov 2026"
+  },
+  {
+   "value": 7.65,
+   "text": "RSP-SPY 20D spread",
+   "source": "latest-report.md market dispersion"
+  },
+  {
+   "value": 1.0,
+   "text": "Flow z 1.0",
+   "source": "latest-report.md ETF flows"
+  },
+  {
+   "value": 1.5,
+   "text": "Exposure 1.5",
+   "source": "Analyst estimate"
+  },
+  {
+   "value": 15.71,
+   "text": "IWF-IWD 20D spread",
+   "source": "latest-report.md market dispersion"
+  },
+  {
+   "value": 2.0,
+   "text": "Flow z 2.0",
+   "source": "latest-report.md ETF flows"
+  },
+  {
+   "value": 2.9,
+   "text": "XLV 20D flow z",
+   "source": "latest-report.md ETF flows"
+  },
+  {
+   "value": 4.0,
+   "text": "COP Q3 EPS 4.00",
+   "source": "ConocoPhillips Q3 2026"
+  },
+  {
+   "value": 4.02,
+   "text": "Headline CPI YoY 4.02%",
+   "source": "latest-report.md economic data"
+  },
+  {
+   "value": 5.52,
+   "text": "Nasdaq -5.52%",
+   "source": "Market data 5 Nov 2026"
+  },
+  {
+   "value": 7.65,
+   "text": "RSP-SPY 20D spread",
+   "source": "latest-report.md market dispersion"
+  },
+  {
+   "value": 1.0,
+   "text": "Flow z 1.0",
+   "source": "latest-report.md ETF flows"
+  },
+  {
+   "value": 1.5,
+   "text": "Exposure 1.5",
+   "source": "Analyst estimate"
+  },
+  {
+   "value": 15.71,
+   "text": "IWF-IWD 20D spread",
+   "source": "latest-report.md market dispersion"
+  },
+  {
+   "value": 2.0,
+   "text": "Flow z 2.0",
+   "source": "latest-report.md ETF flows"
+  },
+  {
+   "value": 2.9,
+   "text": "XLV 20D flow z",
+   "source": "latest-report.md ETF flows"
+  },
+  {
+   "value": 4.0,
+   "text": "COP Q3 EPS 4.00",
+   "source": "ConocoPhillips Q3 2026"
+  },
+  {
+   "value": 4.02,
+   "text": "Headline CPI YoY 4.02%",
+   "source": "latest-report.md economic data"
+  },
+  {
+   "value": 5.52,
+   "text": "Nasdaq -5.52%",
+   "source": "Market data 5 Nov 2026"
+  },
+  {
+   "value": 7.65,
+   "text": "RSP-SPY 20D spread",
+   "source": "latest-report.md market dispersion"
+  }
+ ],
+ "claims": []
+}

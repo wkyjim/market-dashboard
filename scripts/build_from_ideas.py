@@ -8,13 +8,14 @@ from __future__ import annotations
 import argparse
 import copy
 import json
+import re
 import sys
 
 from decision_engine import allocation, pe
 from fundamental_audit import cik_for, enrich_ideas
 from fundamentals_web import fetch_ticker, fetch_yahoo
 from idea_price_audit import fetch_latest
-from report_narrative import CARD_SECTIONS, SCHEMA
+from report_narrative import CARD_SECTIONS, SCHEMA, _previous_idea_tickers
 import os
 
 
@@ -200,7 +201,11 @@ def main(argv=None) -> int:
     sections = narrative.setdefault("sections", {})
     sections["stock_ideas"] = [_row(i) for i in decision.get("ideas") or []]
     previous = set()
-    if args.evidence:
+    try:
+        previous = {str(t).upper() for t in (_previous_idea_tickers() or [])}
+    except Exception:
+        pass
+    if not previous and args.evidence:
         with open(args.evidence, encoding="utf-8") as fh:
             previous = {str(t).upper() for t in (json.load(fh).get("previous_ideas") or [])}
     if previous:
@@ -229,8 +234,10 @@ def main(argv=None) -> int:
             rows.append({"horizon": horizon, "sector": sector,
                          "benchmark_weight": benchmark[sector],
                          "portfolio_weight": port, "active_weight": active[sector],
-                         "rationale": "%s score; %s by %.1fpp." % (
-                             sector, "overweight" if active[sector] > 0 else "underweight", abs(active[sector]))})
+                         "rationale": "%s score; %s by %.1fpp%s." % (
+                             sector, "overweight" if active[sector] > 0 else "underweight",
+                             abs(active[sector]),
+                             " on contrarian valuation" if sector == "Energy" and active[sector] > 0 else "")})
     sections["sector_allocation"] = rows
     srcs = [dict(x) for x in (narrative.get("sources") or []) if isinstance(x, dict)]
     seen = {str(x.get("url") or "") for x in srcs}
@@ -253,6 +260,15 @@ def main(argv=None) -> int:
     narrative["adjustments"]["factor_scores"] = decision.get("factor_scores") or {}
     narrative["adjustments"]["weights"] = decision.get("factor_weights") or {}
     narrative["adjustments"]["sector_scores"] = decision.get("sector_scores") or {}
+    def _fix_nasdaq(value):
+        if isinstance(value, str):
+            return re.sub(r"Nasdaq(?!\s*(?:Composite|100))", "Nasdaq Composite", value)
+        if isinstance(value, list):
+            return [_fix_nasdaq(x) for x in value]
+        if isinstance(value, dict):
+            return {k: _fix_nasdaq(v) for k, v in value.items()}
+        return value
+    narrative["sections"] = _fix_nasdaq(narrative.get("sections") or {})
     with open(args.out, "w", encoding="utf-8") as fh:
         json.dump(narrative, fh, indent=1)
     print("WROTE", args.out)
