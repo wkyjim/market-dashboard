@@ -1170,6 +1170,7 @@ def main() -> int:
     html = build_html(d, narrative_html, adjustments)
     if canonical is not None:
         html = html.replace("<head>", '<head><meta name="report-data-version" content="%s">' % canonical.version, 1)
+        html = cross_section_qc.normalize_scores(html, canonical.ai_score, canonical.source_score)
     fails = run_qc(html, d, narrative=bool(narrative_html))
     if narrative_html and raw_narrative is not None:
         fails += cross_section_qc.check(html, raw_narrative, canonical.ai_score, canonical.source_score)

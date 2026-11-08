@@ -89,3 +89,11 @@ def test_prose_source_score_must_match_canonical():
     html = "<p>Source rule-based: 39.55 | AI: 41.92</p><p>AI 41.92 vs source 39.96.</p>"
     fails = cross_section_qc.check(html, {}, ai_score=41.92, source_score=39.55)
     assert any("39.96" in f for f in fails)
+
+
+def test_scores_are_rewritten_per_run_not_pinned():
+    html = "<p>Source rule-based: 39.55 | AI: 42.96</p><p>AI 42.96 vs source 39.96 (delta +1.96).</p>"
+    out = cross_section_qc.normalize_scores(html, 43.50, 40.10)
+    assert "Source rule-based: 40.10 | AI: 43.50" in out
+    assert "AI 43.50 vs source 40.10" in out
+    assert "delta +3.40" in out

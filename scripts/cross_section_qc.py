@@ -50,6 +50,32 @@ def _cards(html: str) -> dict:
     return out
 
 
+def normalize_scores(html: str, ai_score: float | None, source_score: float | None) -> str:
+    """Rewrite stale score mentions in prose to the current canonical values.
+
+    The numbers are per-run; nothing is pinned. Any sentence that quoted an
+    older source/AI/delta is corrected before the HTML-to-JSON QC runs.
+    """
+    if ai_score is None or source_score is None:
+        return html
+    delta = float(ai_score) - float(source_score)
+    html = re.sub(r"(Source rule-based:\s*)([0-9]+\.[0-9]+)(\s*\|\s*AI:\s*)([0-9]+\.[0-9]+)",
+                  lambda m: "%s%.2f%s%.2f" % (m.group(1), float(source_score), m.group(3), float(ai_score)), html)
+    html = re.sub(r"(\bAI\s+)([0-9]+\.[0-9]+)(\s+vs source)",
+                  lambda m: m.group(1) + "%.2f" % float(ai_score) + m.group(3), html)
+    html = re.sub(r"(vs source\s+)([0-9]+\.[0-9]+)",
+                  lambda m: m.group(1) + "%.2f" % float(source_score), html)
+    html = re.sub(r"(source rule-based\s+)([0-9]+\.[0-9]+)",
+                  lambda m: m.group(1) + "%.2f" % float(source_score), html, flags=re.I)
+    html = re.sub(r"(AI regime score at\s+)([0-9]+\.[0-9]+)",
+                  lambda m: m.group(1) + "%.2f" % float(ai_score), html)
+    html = re.sub(r"(AI (?:regime )?score\s+)([0-9]+\.[0-9]+)",
+                  lambda m: m.group(1) + "%.2f" % float(ai_score), html)
+    html = re.sub(r"(delta\s+)([+-]?[0-9]+\.[0-9]+)",
+                  lambda m: m.group(1) + "%+.2f" % delta, html)
+    return html
+
+
 def check(html: str, narrative: dict, ai_score: float | None = None,
           source_score: float | None = None) -> list[str]:
     fails: list[str] = []
