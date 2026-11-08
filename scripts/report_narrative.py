@@ -329,6 +329,7 @@ CARD_SECTIONS = {
         "pe_5y_median", "pe_5y_min", "pe_5y_max", "pe_5y_percentile",
         "fwd_pe_premium_vs_median_pct",
         "bull_eps", "bull_pe", "base_eps", "base_pe", "bear_eps", "bear_pe",
+        "bull_rationale", "base_rationale", "bear_rationale",
         "bull_prob", "base_prob", "bear_prob", "expected_price", "expected_return_pct",
         "probability_basis", "override_reason",
         "valuation_method", "valuation_assumptions",
@@ -729,6 +730,10 @@ def _validate_valuation(row: dict, i: int, fails: list[str], global_sources: dic
                 fails.append("stock_ideas[%d].%s scenario needs %s_eps, %s_pe and %s"
                              % (i, name, name, name, target_key))
                 continue
+            rationale = str(row.get(name + "_rationale") or "").strip()
+            if len(rationale) < 40:
+                fails.append("stock_ideas[%d].%s scenario needs a rationale of at least 40 chars"
+                             % (i, name))
             if eps <= 0 or pe <= 0:
                 fails.append("stock_ideas[%d].%s scenario EPS and P/E must be positive for P/E method"
                              % (i, name))
@@ -1780,6 +1785,9 @@ def _render_stock_ideas(rows) -> str | None:
             '<th>Upside</th><th>Downside</th><th>Return from current</th><th>R/R</th></tr></thead><tbody>'
             '<tr><td>%s</td><td>%s</td><td>%s</td><td>%s</td><td>%s%%</td><td>%s%%</td><td>%s%%</td><td>%s</td></tr>'
             '</tbody></table>\n'
+            '<p><strong>Bull case.</strong> %s</p>\n'
+            '<p><strong>Base case.</strong> %s</p>\n'
+            '<p><strong>Bear case.</strong> %s</p>\n'
             '<p><strong>Catalysts.</strong> %s</p>\n'
             '<p><strong>Risks.</strong> %s</p>\n'
             '<p><strong>Entry condition.</strong> %s <strong>Exit.</strong> %s</p>\n'
@@ -1796,6 +1804,7 @@ def _render_stock_ideas(rows) -> str | None:
                e("peer_comparison"), e("sector_context"), fund_html + val_html,
                e2("entry_price"), e2("base_target"), e2("bull_target"), e2("bear_target"),
                e2("upside_pct"), e2("downside_pct"), e2("return_from_current_pct"), e2("risk_reward"),
+               v("bull_rationale"), v("base_rationale"), v("bear_rationale"),
                e("catalysts"), e("risks"), e("entry_condition"), e("exit"),
                e("conclusion"), v("decision_rationale"), e("invalidation"), e("opposing"), src_html)
         )

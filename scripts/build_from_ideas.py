@@ -103,6 +103,7 @@ def _row(idea: dict) -> dict:
         row[name + "_eps"] = part.get("eps")
         row[name + "_pe"] = part.get("pe")
         row[name + "_prob"] = part.get("prob")
+        row[name + "_rationale"] = part.get("rationale")
         try:
             row[name + "_target"] = round(float(part["eps"]) * float(part["pe"]), 2)
         except (KeyError, TypeError, ValueError):
