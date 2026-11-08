@@ -867,6 +867,7 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
 {trades_html}
 </tbody></table>
 {candidate_screen}
+<h3 id="stock-ideas">Single Stock Ideas</h3>
 {stock_ideas}
 
 <h2 id="heat-st">Portfolio Heat Map &mdash; Short-Term (1-3M)</h2>
@@ -896,6 +897,7 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
 <p><em>Mixture of source-derived and analyst inference (labelled per row).</em></p>
 {risk_narrative}
 {portfolio_risk}
+<h2 id="sector-allocation">Sector Allocation &mdash; ST / LT (11 GICS)</h2>
 {sector_allocation}
 <table><thead><tr><th>Risk</th><th>Category</th><th>Assessment</th><th>Tag</th></tr></thead><tbody>
 {risks_html}
