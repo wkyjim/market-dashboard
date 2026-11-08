@@ -1248,3 +1248,26 @@ def test_assumption_text_cannot_contradict_scenario_table():
     fails = _validate_assumption_labels(row, 0)
     assert any("11.46" in f for f in fails)
     assert any("base line" in f for f in fails)
+
+
+def test_allocation_rationale_pp_must_match_active_weight():
+    from report_narrative import _validate_sector_allocation
+    sectors = ["Information Technology", "Communication Services", "Consumer Discretionary",
+               "Consumer Staples", "Health Care", "Industrials", "Financials", "Energy",
+               "Utilities", "Materials", "Real Estate"]
+    rows = []
+    for horizon in ("ST", "LT"):
+        for j, sector in enumerate(sectors):
+            active = 0.0
+            if j == 0:
+                active = -1.0
+            elif j == 10:
+                active = 1.0
+            bench = 10.0 if j < 10 else 0.0
+            rows.append({"horizon": horizon, "sector": sector, "benchmark_weight": bench,
+                         "portfolio_weight": bench + active, "active_weight": active,
+                         "rationale": "%s score 50.0; neutral weight." % sector})
+    rows[0]["rationale"] = "Information Technology score 31.3; underweight by 3pp."
+    fails = []
+    _validate_sector_allocation(rows, fails)
+    assert any("says underweight 3.0pp" in f for f in fails)

@@ -1172,6 +1172,16 @@ def _validate_sector_allocation(rows, fails: list[str]) -> None:
                 fails.append("sector_allocation %s row %d rationale must cite a specific metric "
                              "(sector score or valuation multiple), not only the active weight"
                              % (horizon, i))
+            m = re.search(r"(overweight|underweight|neutral)[^.]{0,40}?([0-9.]+)\s*pp", rationale, re.I)
+            if m:
+                word, claimed = m.group(1).lower(), float(m.group(2))
+                if word == "neutral":
+                    if abs(a) > 0.1:
+                        fails.append("sector_allocation %s row %d says neutral but active is %+.1fpp"
+                                     % (horizon, i, a))
+                elif abs(claimed - abs(a)) > 0.1:
+                    fails.append("sector_allocation %s row %d says %s %.1fpp but active is %+.1fpp"
+                                 % (horizon, i, word, claimed, a))
             bench += b
             port += p
             active += a
