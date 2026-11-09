@@ -1165,6 +1165,10 @@ def main() -> int:
         except Exception as e:  # malformed JSON / unreadable file
             sys.stderr.write("HALT: cannot load narrative %s: %s\n" % (args.narrative, e))
             return 4
+        builder = raw_narrative.get("_builder") or {}
+        if not isinstance(builder, dict) or builder.get("name") != "build_from_ideas":
+            sys.stderr.write("HALT: narrative was not produced by the hybrid builder\n")
+            return 4
         if isinstance(raw_narrative.get("source"), dict) and d.get("source_sha256"):
             raw_narrative["source"]["latest_report_sha256"] = d["source_sha256"]
         ideas = (raw_narrative.get("sections") or {}).get("stock_ideas") or []
@@ -1234,6 +1238,13 @@ def main() -> int:
     with open(OUTPUT_HTML, "w", encoding="utf-8") as fh:
         fh.write(html)
     if canonical is not None and run_dir is not None:
+        runs_root = Path("data/runs")
+        if runs_root.is_dir():
+            dirs = sorted((p for p in runs_root.iterdir() if p.is_dir()),
+                          key=lambda p: p.stat().st_mtime, reverse=True)
+            for old in dirs[20:]:
+                import shutil
+                shutil.rmtree(old, ignore_errors=True)
         report_data.write("data/report_data.json", canonical)
         report_data.write_markdown("data/report-data.md", canonical)
         with open("data/qc-results.json", "w", encoding="utf-8") as fh:

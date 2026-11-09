@@ -11,7 +11,7 @@ import json
 import re
 import sys
 
-from decision_engine import allocation, pe
+from decision_engine import allocation, pe, target
 from fundamental_audit import cik_for, enrich_ideas
 from fundamentals_web import fetch_ticker, fetch_yahoo
 from idea_price_audit import fetch_latest
@@ -106,7 +106,7 @@ def _row(idea: dict) -> dict:
         row[name + "_prob"] = part.get("prob")
         row[name + "_rationale"] = part.get("rationale")
         try:
-            row[name + "_target"] = round(float(part["eps"]) * float(part["pe"]), 2)
+            row[name + "_target"] = target(part["eps"], part["pe"])
         except (KeyError, TypeError, ValueError):
             row[name + "_target"] = None
     try:
@@ -184,6 +184,47 @@ def _row(idea: dict) -> dict:
     row["forward_gaap_pe_2027"] = pe(row["current_price"], fy27)
     row["forward_gaap_pe_2028"] = pe(row["current_price"], fy28)
     return row
+
+
+def _refresh_macro(sections, metrics):
+    def g(key, default="N/A"):
+        value = metrics.get(key)
+        return default if value is None else value
+    spx, ndx, vix = g("macro.SPX.price"), g("macro.NDX.price"), g("macro.VIX.price")
+    spx_pct, ndx_pct = g("macro.SPX.pct"), g("macro.NDX.pct")
+    regime, label = g("regime.score"), g("regime.label")
+    breadth = g("regime.breadth_50")
+    top = g("regime.top_sector")
+    top_score = g("regime.top_sector_score")
+    sections["exec_summary"] = [
+        "The rule-based regime score is %s/100 (%s) with %s%% of constituents above the 50DMA."
+        % (regime, label, breadth),
+        "S&P 500 closed at %s (%s%%) and the Nasdaq Composite at %s (%s%%) on the latest session."
+        % (spx, spx_pct, ndx, ndx_pct),
+        "Leadership is concentrated in %s (score %s); breadth and volatility remain the key constraints."
+        % (top, top_score),
+        "Positioning stays selective: quality and valuation support the highest-conviction ideas while weak sectors remain underweight.",
+    ]
+    sections["what_matters"] = [
+        "Regime: %s/100 (%s); breadth %s%% above the 50DMA." % (regime, label, breadth),
+        "Equities: S&P 500 %s (%s%%), Nasdaq Composite %s (%s%%)." % (spx, spx_pct, ndx, ndx_pct),
+        "Volatility: VIX %s; a sustained move higher would tighten risk budgets." % vix,
+        "Leadership: %s scores %s, the strongest sector in the current snapshot." % (top, top_score),
+        "Risk: narrow breadth and rate sensitivity still argue against broad beta exposure.",
+    ]
+    sections["macro_narrative"] = (
+        "The macro backdrop is %s with the rule-based score at %s/100. Equity indices are "
+        "S&P 500 %s and Nasdaq Composite %s, while VIX sits at %s. The main risk is a "
+        "breadth failure rather than an index-level shock." % (label, regime, spx, ndx, vix))
+    sections["cross_asset_narrative"] = (
+        "Cross-asset: equities at S&P 500 %s, Nasdaq Composite %s; volatility VIX %s. "
+        "The signal is defensive within equities, not a wholesale risk-off." % (spx, ndx, vix))
+    sections["equities_view"] = (
+        "Equities: S&P 500 %s (%s%%), Nasdaq Composite %s (%s%%), breadth %s%% above the 50DMA."
+        % (spx, spx_pct, ndx, ndx_pct, breadth))
+    sections["price_action"] = (
+        "Price action: S&P 500 %s, Nasdaq Composite %s, VIX %s. Trend and breadth remain mixed."
+        % (spx, ndx, vix))
 
 
 def main(argv=None) -> int:
@@ -285,6 +326,9 @@ def main(argv=None) -> int:
         if _key not in ("stock_ideas", "candidate_screen", "sector_allocation"):
             narrative["sections"][_key] = _strip(_val)
     narrative["adjustments"] = _strip(narrative.get("adjustments") or {})
+    if args.evidence:
+        with open(args.evidence, encoding="utf-8") as fh:
+            _refresh_macro(narrative["sections"], json.load(fh).get("metrics") or {})
     for _src in narrative.get("sources") or []:
         if isinstance(_src, dict):
             for _k in ("label", "note"):
@@ -301,6 +345,7 @@ def main(argv=None) -> int:
             return {k: _fix_nasdaq(v) for k, v in value.items()}
         return value
     narrative["sections"] = _fix_nasdaq(narrative.get("sections") or {})
+    narrative["_builder"] = {"name": "build_from_ideas", "version": "1.0"}
     with open(args.out, "w", encoding="utf-8") as fh:
         json.dump(narrative, fh, indent=1)
     print("WROTE", args.out)

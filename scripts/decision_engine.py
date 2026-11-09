@@ -50,6 +50,13 @@ def valuation(price, ttm_eps, fy2027_eps, fy2028_eps, base_year, base_pe):
     }
 
 
+def target(eps, multiple):
+    e, m = _num(eps), _num(multiple)
+    if e is None or m is None or e <= 0 or m <= 0:
+        raise ValueError("target needs positive EPS and multiple")
+    return round(e * m, 4)
+
+
 def allocation(portfolio: dict, benchmark: dict):
     if set(portfolio) != set(benchmark):
         raise ValueError("portfolio and benchmark sectors must match")
