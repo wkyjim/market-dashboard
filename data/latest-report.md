@@ -1,15 +1,15 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 9 November 2026, 20:18:48 (HKT)
+Generated at: 9 November 2026, 22:19:29 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **40.56 / 100** (Mild Risk-Off)
-- US equity strength: **24.83 / 100** (weak)
+- Regime score: **43.74 / 100** (Mild Risk-Off)
+- US equity strength: **26.6 / 100** (weak)
 - Evidence quality: **76.0 / 100**
 - ETF flow contribution: **55.01 / 100**, reliability **71.19 / 100**
-- Breadth: **weak**; above 50DMA `33.33%`, above 200DMA `41.67%`
+- Breadth: **healthy**; above 50DMA `61.24%`, above 200DMA `55.01%`
 - Top sector score: **Consumer Staples** `69.59`
 - Top theme score: **Healthcare Innovation** `64.31`
 
@@ -17,19 +17,19 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 40.56 | Mild Risk-Off |
+| Overall regime | 43.74 | Mild Risk-Off |
 | equity_trend | 8.75 | risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 40.27 | mild risk-off pressure; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
-| market_breadth | 36.11 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
+| market_breadth | 61.33 | mild risk-on support; S&P 500 constituent breadth using index membership as of the observation date. |
 | volatility | 35.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 57.26 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 57.19 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 57.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 53.57 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 49.38 | neutral / mixed; Weighted headline/news confirmation score. |
-| Positive contributors |  | none |
-| Negative contributors |  | equity_trend=8.75, volatility=35.0, market_breadth=36.11, equity_momentum=40.27 |
+| news_confirmation | 52.5 | neutral / mixed; Weighted headline/news confirmation score. |
+| Positive contributors |  | market_breadth=61.33 |
+| Negative contributors |  | equity_trend=8.75, volatility=35.0, equity_momentum=40.27 |
 
 ## Forward Signal (Score → Expected Return)
 
@@ -62,7 +62,7 @@ Method: Analyst inference/estimate (historical bucket calibration).
 | rsi_zone | 45.0 |
 | macd_confirmation | 43.75 |
 | volume_confirmation | 38.75 |
-| breadth | 36.11 |
+| breadth | 61.33 |
 
 ## Evidence Quality / Confidence
 
@@ -77,7 +77,7 @@ Method: Analyst inference/estimate (historical bucket calibration).
 | Area | Signal | Interpretation |
 | --- | --- | --- |
 | Equities | S&P 500 rising; Nasdaq rising; Russell 2000 rising | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
-| Rates | 10Y Treasury rising; MOVE falling | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
+| Rates | 10Y Treasury falling; MOVE falling | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy falling | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
@@ -95,19 +95,19 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^GSPC | S&P 500 | 7376.86 | 0.31 | 2026-11-06 | closed |
 | ^IXIC | NASDAQ Composite | 24579.42 | 1.09 | 2026-11-06 | closed |
 | ^RUT | Russell 2000 Index | 2754.11 | 0.89 | 2026-11-06 | closed |
-| ^VIX | CBOE Volatility Index | 23.34 | -8.97 | 2026-11-09 | live as of 9 November 2026, 20:00:28 (HKT) |
+| ^VIX | CBOE Volatility Index | 23.23 | -9.4 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
 | ^SKEW | CBOE SKEW Index | 153.55 | 2.8 | 2026-11-06 | closed |
 | ^MOVE | ICE BofA MOVE Index | 92.77 | -5.26 | 2026-11-06 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.53 | 0.09 | 2026-11-09 | live as of 9 November 2026, 20:00:28 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.59 | 0.09 | 2026-11-09 | live as of 9 November 2026, 20:00:28 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.65 | 0.04 | 2026-11-09 | live as of 9 November 2026, 20:00:28 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.74 | -0.02 | 2026-11-09 | live as of 9 November 2026, 20:00:28 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.86 | -0.06 | 2026-11-09 | live as of 9 November 2026, 20:00:28 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.29 | -0.02 | 2026-11-09 | live as of 9 November 2026, 20:00:28 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.26 | -0.04 | 2026-11-09 | live as of 9 November 2026, 20:00:28 (HKT) |
-| HK50 | Hang Seng Futures | 24571.0 | -0.21 | 2026-11-09 | live as of 9 November 2026, 20:00:28 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 795.2 | 1.56 | 2026-11-09 | live as of 9 November 2026, 20:00:28 (HKT) |
-| CIHc1 | SSE 50 Futures | 2787.2 | 0.48 | 2026-11-09 | live as of 9 November 2026, 20:00:28 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.53 | 0.22 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.59 | 0.15 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.65 | 0.09 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.74 | 0.02 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.83 | -0.56 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.27 | -0.36 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.24 | -0.36 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
+| HK50 | Hang Seng Futures | 24576.0 | -0.19 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 795.2 | 1.56 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
+| CIHc1 | SSE 50 Futures | 2787.2 | 0.48 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.23 | -0.06 | 2026-11-06 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.53 | -0.12 | 2026-11-06 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.7 | -0.09 | 2026-11-06 | closed |
@@ -117,10 +117,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 81.92 | -0.01 | 2026-11-06 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 91.86 | -0.12 | 2026-11-06 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.63 | -0.05 | 2026-11-06 | closed |
-| GC=F | Gold Future | 4119.8 | 1.1 | 2026-11-09 | live as of 9 November 2026, 20:00:28 (HKT) |
-| SI=F | Silver Future | 52.8 | 1.92 | 2026-11-09 | live as of 9 November 2026, 20:00:28 (HKT) |
-| CL=F | WTI Crude Oil Future | 88.14 | -2.96 | 2026-11-09 | live as of 9 November 2026, 20:00:28 (HKT) |
-| HG=F | Copper Future | 6.33 | 1.83 | 2026-11-09 | live as of 9 November 2026, 20:00:28 (HKT) |
+| GC=F | Gold Future | 4133.0 | 1.43 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
+| SI=F | Silver Future | 52.81 | 1.94 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
+| CL=F | WTI Crude Oil Future | 86.82 | -4.41 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
+| HG=F | Copper Future | 6.33 | 1.78 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -282,7 +282,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 | 1 | Healthcare Innovation | 64.31 | Positive setup | 66.09 | 90.0 | 14.04 | True | False |
 | 2 | Dividend Defensives | 61.17 | Positive setup | 56.95 | 65.0 | 4.04 | True | False |
-| 3 | Energy | 49.61 | Neutral / watchlist | 78.56 | 100.0 | 5.61 | False | False |
+| 3 | Energy | 49.58 | Neutral / watchlist | 78.56 | 100.0 | 5.61 | False | False |
 | 4 | Financials | 43.99 | Neutral / watchlist | 39.38 | 90.0 | 13.46 | False | False |
 | 5 | Quality Growth | 43.07 | Neutral / watchlist | 61.07 | 65.0 | 20.72 | False | False |
 | 6 | Small Caps | 39.36 | Weak setup | 60.18 | 65.0 | 0.0 | False | False |
@@ -310,7 +310,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Financials | Financials | 65.79 | strong | 43.99 | weak | sector stronger than related themes |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 51.34 | mixed | 43.2 | weak | mixed confirmation |
 | Crypto | Crypto Infrastructure | 49.97 | mixed | 34.17 | very weak | mixed confirmation |
-| Energy | Energy | 48.84 | mixed | 49.61 | mixed | mixed confirmation |
+| Energy | Energy | 48.84 | mixed | 49.58 | mixed | mixed confirmation |
 | Cybersecurity | Cybersecurity | 39.08 | weak | 37.25 | weak | broad weakness across sector and themes |
 | Defense | Defense | 38.81 | weak | 37.66 | weak | broad weakness across sector and themes |
 | Industrials | Defense, Grid Infrastructure | 35.06 | weak | 38.44 | weak | broad weakness across sector and themes |
@@ -338,18 +338,18 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## Breadth and Participation
 
-- Above 50DMA: `33.33%`
-- Above 200DMA: `41.67%`
-- Positive 20D return: `33.33%`
+- Above 50DMA: `61.24%`
+- Above 200DMA: `55.01%`
+- Positive 20D return: `67.74%`
 
 ## Volatility and Risk Signals
 
-- VIX close=23.34 pct_chg=-8.97
+- VIX close=23.23 pct_chg=-9.4
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 25, 'negative': 26, 'neutral': 29}
-- News confirmation score: `49.38`
+- Sentiment counts: {'positive': 32, 'negative': 28, 'neutral': 20}
+- News confirmation score: `52.5`
 
 ### Top Market-Moving Headlines
 
@@ -361,7 +361,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `43.35`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
-**2. Genmab shares rise 4% on J&J cancer drug FDA approval**
+**2. KKR profit hits record as asset sales, fees surge**
+- Source: Investing.com Economic Indicators
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: KKR, earnings, profit, asset sales
+- Score: `34.12`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**3. Genmab shares rise 4% on J&J cancer drug FDA approval**
 - Source: Investing.com World News
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -369,15 +377,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.32`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**3. MTN Group Posts Revenue Growth, Higher Profitability**
-- Source: Dow Jones US Business
-- Importance / impact: Low / Positive
+**4. CoreWeave confronts 'doom cycle' narrative as neocloud credit risk overshadows growth**
+- Source: CNBC Business
+- Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
-- Affected assets: MTN, IHS, revenue growth, profitability, acquisition
-- Score: `29.01`
-- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+- Affected assets: CORE, NBIS, credit risk, neocloud, earnings
+- Score: `30.94`
+- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**4. TG Therapeutics faces earnings test after profit disappointment**
+**5. Earnings call transcript: UniCredit tops Q3 2026 forecasts, lifts guidance**
+- Source: Investing.com Forex
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: URC, earnings, guidance, banking
+- Score: `28.73`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**6. TG Therapeutics faces earnings test after profit disappointment**
 - Source: Investing.com Commodities
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -385,31 +401,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `28.73`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**5. Earnings call transcript: Data Patterns India beats Q2 2026 EPS, shares rise 7.6%**
-- Source: Investing.com Forex
+**7. ImmunityBio reports 92% revenue growth, FDA label expansion**
+- Source: Investing.com Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
-- Affected assets: DATA, EPS, earnings, beat, stock_rally
-- Score: `28.73`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**6. Stocks are moving in sync again for the first time in a while. There’s just one problem.**
-- Source: MarketWatch Top Stories
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: U.S, market_synchronization, equity_market_divergence, selloff
+- Affected assets: IMMY, FDA, Revenue Growth, Label Expansion
 - Score: `26.93`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**7. Crédit Agricole proposes Banco BPM merger, 20% premium and €1 bln dividend**
-- Source: Investing.com World News
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: BPM, merger, acquisition, dividend
-- Score: `26.62`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**8. This cancer-testing stock is BTIG’s top pick after another major earnings beat**
+**8. Monday.Com earnings beat by $0.77, revenue topped estimates**
+- Source: Investing.com Commodities
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: MNDY, earnings, revenue, beat
+- Score: `26.52`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**9. This cancer-testing stock is BTIG’s top pick after another major earnings beat**
 - Source: Investing.com World News
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -417,21 +425,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `25.86`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. SoftBank Q2 FY2026 slides: record revenue, cloud growth drive guidance lift**
-- Source: Investing.com Markets
+**10. Dow futures rally 500 points as oil prices drop; traders brace for more data and earnings: Live updates**
+- Source: CNBC Top News
 - Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: SOFTBANK, revenue growth, cloud growth, guidance lift
-- Score: `25.14`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
-
-**10. ANZ FY profit jumps 31% amid CEO Matos’ turnaround plan**
-- Source: Investing.com Commodities
-- Importance / impact: Low / Positive
-- Relevance / horizon: single_name / short-term
-- Affected assets: ANZ, FY, earnings, profit_growth, turnaround
-- Score: `24.42`
-- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+- Relevance / horizon: macro / short-term
+- Affected assets: AI, inflation, market sentiment
+- Score: `25.65`
+- Investment implication: Macro-relevant positive signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 
 ### Headline Quality Checks
@@ -525,11 +525,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `48`
-- Live macro rows used: `26`
+- Live macro rows used: `29`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 09 November 2026, 20:18:48 (HKT)
+- Report generated at: 09 November 2026, 22:19:29 (HKT)
