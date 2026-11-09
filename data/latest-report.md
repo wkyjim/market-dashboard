@@ -1,15 +1,15 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 9 November 2026, 22:19:29 (HKT)
+Generated at: 9 November 2026, 23:17:31 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **43.74 / 100** (Mild Risk-Off)
-- US equity strength: **26.6 / 100** (weak)
-- Evidence quality: **76.0 / 100**
+- Regime score: **47.23 / 100** (Mixed / Rotation)
+- US equity strength: **26.62 / 100** (weak)
+- Evidence quality: **79.5 / 100**
 - ETF flow contribution: **55.01 / 100**, reliability **71.19 / 100**
-- Breadth: **healthy**; above 50DMA `61.24%`, above 200DMA `55.01%`
+- Breadth: **healthy**; above 50DMA `61.24%`, above 200DMA `55.83%`
 - Top sector score: **Consumer Staples** `69.59`
 - Top theme score: **Healthcare Innovation** `64.31`
 
@@ -17,19 +17,19 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 43.74 | Mild Risk-Off |
+| Overall regime | 47.23 | Mixed / Rotation |
 | equity_trend | 8.75 | risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 40.27 | mild risk-off pressure; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
-| market_breadth | 61.33 | mild risk-on support; S&P 500 constituent breadth using index membership as of the observation date. |
-| volatility | 35.0 | risk-off pressure; VIX level and change; higher score means calmer volatility conditions. |
+| market_breadth | 61.6 | mild risk-on support; S&P 500 constituent breadth using index membership as of the observation date. |
+| volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 57.19 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
+| dollar_fx | 56.99 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 57.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 53.57 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 52.5 | neutral / mixed; Weighted headline/news confirmation score. |
-| Positive contributors |  | market_breadth=61.33 |
-| Negative contributors |  | equity_trend=8.75, volatility=35.0, equity_momentum=40.27 |
+| news_confirmation | 51.88 | neutral / mixed; Weighted headline/news confirmation score. |
+| Positive contributors |  | volatility=70.0, market_breadth=61.6 |
+| Negative contributors |  | equity_trend=8.75, equity_momentum=40.27 |
 
 ## Forward Signal (Score → Expected Return)
 
@@ -37,9 +37,9 @@ Read-only mapping. The regime score is a *state* descriptor, not a forecast; thi
 
 | Horizon | Bucket | Historical mean | n | Direction |
 | --- | --- | --- | --- | --- |
-| 5D | 40-45 | 0.61% | 11 | up |
-| 20D | 40-45 | 2.94% | 11 | up |
-| 60D | 40-45 | 7.79% | 11 | up |
+| 5D | 45-50 | 1.3% | 9 | up |
+| 20D | 45-50 | 2.32% | 9 | up |
+| 60D | 45-50 | 4.94% | 9 | up |
 
 Sample: 2025-10-21 → 2026-08-03, 116 daily origins.
 Bottom-vs-top spread at 60D: **6.75 pp** (block-bootstrap 95% CI [1.92, 10.76], P(spread<=0)=<0.0001)
@@ -62,13 +62,13 @@ Method: Analyst inference/estimate (historical bucket calibration).
 | rsi_zone | 45.0 |
 | macd_confirmation | 43.75 |
 | volume_confirmation | 38.75 |
-| breadth | 61.33 |
+| breadth | 61.6 |
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `76.0`
-- Agreement ratio: `0.4`
-- Contradiction count: `3`
+- Confidence score: `79.5`
+- Agreement ratio: `0.5`
+- Contradiction count: `2`
 - Missing indicators: none
 - Warning flags: none
 
@@ -77,9 +77,9 @@ Method: Analyst inference/estimate (historical bucket calibration).
 | Area | Signal | Interpretation |
 | --- | --- | --- |
 | Equities | S&P 500 rising; Nasdaq rising; Russell 2000 rising | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
-| Rates | 10Y Treasury falling; MOVE falling | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
+| Rates | 10Y Treasury stable; MOVE falling | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
 | Dollar | DXY proxy falling | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
-| Credit | HYG stable | High-yield weakness would challenge equity risk-on confirmation. |
+| Credit | HYG rising | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
 | Copper | Copper rising | Copper strength supports cyclical growth confirmation; weakness would dilute risk-on breadth. |
@@ -92,35 +92,35 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Symbol | Name | Close | Pct Chg | Market Date | Status |
 | --- | --- | --- | --- | --- | --- |
-| ^GSPC | S&P 500 | 7376.86 | 0.31 | 2026-11-06 | closed |
-| ^IXIC | NASDAQ Composite | 24579.42 | 1.09 | 2026-11-06 | closed |
-| ^RUT | Russell 2000 Index | 2754.11 | 0.89 | 2026-11-06 | closed |
-| ^VIX | CBOE Volatility Index | 23.23 | -9.4 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
+| ^GSPC | S&P 500 | 7499.35 | 1.66 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| ^IXIC | NASDAQ Composite | 25102.35 | 2.13 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| ^RUT | Russell 2000 Index | 2796.23 | 1.53 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| ^VIX | CBOE Volatility Index | 21.8 | -14.98 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
 | ^SKEW | CBOE SKEW Index | 153.55 | 2.8 | 2026-11-06 | closed |
-| ^MOVE | ICE BofA MOVE Index | 92.77 | -5.26 | 2026-11-06 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.53 | 0.22 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.59 | 0.15 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.65 | 0.09 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.74 | 0.02 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.83 | -0.56 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.27 | -0.36 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.24 | -0.36 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
-| HK50 | Hang Seng Futures | 24576.0 | -0.19 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 795.2 | 1.56 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
-| CIHc1 | SSE 50 Futures | 2787.2 | 0.48 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
-| HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.23 | -0.06 | 2026-11-06 | closed |
-| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.53 | -0.12 | 2026-11-06 | closed |
-| JNK | SPDR Bloomberg High Yield Bond ETF | 92.7 | -0.09 | 2026-11-06 | closed |
-| RSP | Invesco S&P 500 Equal Weight ETF | 216.05 | -0.38 | 2026-11-06 | closed |
-| IWF | iShares Russell 1000 Growth ETF | 111.75 | 1.26 | 2026-11-06 | closed |
-| IWD | iShares Russell 1000 Value ETF | 257.45 | -0.36 | 2026-11-06 | closed |
-| TLT | iShares 20+ Year Treasury Bond ETF | 81.92 | -0.01 | 2026-11-06 | closed |
-| IEF | iShares 7-10 Year Treasury Bond ETF | 91.86 | -0.12 | 2026-11-06 | closed |
-| SHY | iShares 1-3 Year Treasury Bond ETF | 81.63 | -0.05 | 2026-11-06 | closed |
-| GC=F | Gold Future | 4133.0 | 1.43 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
-| SI=F | Silver Future | 52.81 | 1.94 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
-| CL=F | WTI Crude Oil Future | 86.82 | -4.41 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
-| HG=F | Copper Future | 6.33 | 1.78 | 2026-11-09 | live as of 9 November 2026, 22:00:20 (HKT) |
+| ^MOVE | ICE BofA MOVE Index | 90.33 | -2.63 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.55 | 0.55 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.6 | 0.33 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.66 | 0.15 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.74 | 0.02 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.85 | -0.16 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.28 | -0.19 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.25 | -0.13 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| HK50 | Hang Seng Futures | 24472.0 | -0.61 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 795.2 | 1.56 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| CIHc1 | SSE 50 Futures | 2787.2 | 0.48 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.45 | 0.28 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.79 | 0.25 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| JNK | SPDR Bloomberg High Yield Bond ETF | 92.94 | 0.25 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| RSP | Invesco S&P 500 Equal Weight ETF | 218.91 | 1.32 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| IWF | iShares Russell 1000 Growth ETF | 114.16 | 2.15 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| IWD | iShares Russell 1000 Value ETF | 260.87 | 1.33 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| TLT | iShares 20+ Year Treasury Bond ETF | 82.1 | 0.21 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| IEF | iShares 7-10 Year Treasury Bond ETF | 91.89 | 0.03 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| SHY | iShares 1-3 Year Treasury Bond ETF | 81.59 | -0.05 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| GC=F | Gold Future | 4129.7 | 1.34 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| SI=F | Silver Future | 52.7 | 1.74 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| CL=F | WTI Crude Oil Future | 87.48 | -3.69 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
+| HG=F | Copper Future | 6.34 | 2.0 | 2026-11-09 | live as of 9 November 2026, 23:00:19 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -142,15 +142,15 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Sector | Count | Breadth 50D | Breadth 200D | Positive 20D | 20D Dispersion | Std 20D | Label | Leaders | Laggards |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| Information Technology | 76 | 27.63 | 40.0 | 26.32 | 82.09 | 20.73 | very high | ROP, GEN, TYL | SNDK, MRVL, LITE |
+| Information Technology | 76 | 27.63 | 42.67 | 26.32 | 82.09 | 20.73 | very high | ROP, GEN, TYL | SNDK, MRVL, LITE |
 | Communication Services | 22 | 47.62 | 25.0 | 54.55 | 81.74 | 15.99 | very high | APP, CMCSA, CHTR | GOOG, GOOGL, RDDT |
 | Industrials | 83 | 57.83 | 45.57 | 60.24 | 70.75 | 14.72 | very high | EFX, PNR, SWK | CAT, BE, FIX |
 | Financials | 76 | 60.0 | 68.06 | 78.95 | 63.59 | 9.99 | very high | FISV, ERIE, AON | FIS, COIN, HOOD |
 | Health Care | 60 | 90.0 | 90.0 | 95.0 | 53.89 | 7.98 | very high | IDXX, GEHC, REGN | CVS, DXCM, ILMN |
 | Utilities | 31 | 80.65 | 41.94 | 80.65 | 39.33 | 8.78 | very high | AWK, NEE, ED | CEG, NRG, VST |
 | Materials | 24 | 70.83 | 62.5 | 79.17 | 38.68 | 8.33 | very high | MOS, PPG, CRH | IFF, STLD, FCX |
-| Consumer Discretionary | 47 | 80.85 | 53.19 | 85.11 | 37.38 | 8.05 | very high | HAS, LOW, PHM | TSLA, DASH, APTV |
-| Consumer Staples | 33 | 87.1 | 67.74 | 81.82 | 31.7 | 6.34 | very high | CLX, STZ, KDP | PM, BG, ADM |
+| Consumer Discretionary | 47 | 80.85 | 55.32 | 85.11 | 37.38 | 8.05 | very high | HAS, LOW, PHM | TSLA, DASH, APTV |
+| Consumer Staples | 33 | 87.1 | 70.97 | 81.82 | 31.7 | 6.34 | very high | CLX, STZ, KDP | PM, BG, ADM |
 | Energy | 21 | 0.0 | 42.86 | 14.29 | 26.53 | 7.14 | very high | SLB, COP, CVX | MPC, VLO, TPL |
 | Real Estate | 30 | 68.97 | 41.38 | 83.33 | 25.2 | 5.91 | very high | EXR, PSA, KIM | PLD, DLR, IRM |
 
@@ -245,10 +245,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 
 | Indicator | Latest | Unit | Change | Date | Rule-Based Interpretation |
 | --- | --- | --- | --- | --- | --- |
-| US dollar/Euro ECB reference exchange rate | 1.12 | USD | -0.01 USD vs prior | 2026-11-06 | EUR weakened versus this currency. |
-| Japanese yen/Euro ECB reference exchange rate | 176.77 | JPY | -1.08 JPY vs prior | 2026-11-06 | EUR weakened versus this currency. |
-| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.45 | CNY | -0.04 CNY vs prior | 2026-11-06 | EUR weakened versus this currency. |
-| Australian dollar/Euro ECB reference exchange rate | 1.62 | AUD | 0.02 AUD vs prior | 2026-11-06 | EUR strengthened versus this currency. |
+| US dollar/Euro ECB reference exchange rate | 1.12 | USD | 0.0 USD vs prior | 2026-11-09 | EUR strengthened versus this currency. |
+| Japanese yen/Euro ECB reference exchange rate | 176.79 | JPY | 0.02 JPY vs prior | 2026-11-09 | EUR strengthened versus this currency. |
+| Chinese yuan renminbi/Euro ECB reference exchange rate | 7.47 | CNY | 0.02 CNY vs prior | 2026-11-09 | EUR strengthened versus this currency. |
+| Australian dollar/Euro ECB reference exchange rate | 1.62 | AUD | -0.0 AUD vs prior | 2026-11-09 | EUR weakened versus this currency. |
 
 ABS Australia note: ABS rows are stored locally/Neon, but most series are dimension-coded; only curated series should be promoted into narrative report text.
 
@@ -273,8 +273,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 11 | Industrials | 35.06 | strong downtrend | negative | weak | 49.27 | 65.0 | 48.22 | EFX, PNR, SWK | CAT, BE, FIX |
 | 12 | Technology | 34.21 | strong downtrend | negative | weak | 75.39 | 100.0 | 41.78 | ROP, GEN, TYL | SNDK, MRVL, LITE |
 | 13 | Grid Infrastructure | 32.25 | strong downtrend | negative | weak | 62.87 | 65.0 | 39.45 | GRID | GRID |
-| 14 | Nuclear | 30.59 | strong downtrend | negative | weak | 50.0 | 0.0 | 36.72 | NLR | NLR |
-| 15 | Semiconductors | 25.82 | strong downtrend | negative | weak | 73.06 | 90.0 | 16.58 | SMH, SOXX | SOXX, SMH |
+| 14 | Semiconductors | 30.73 | strong downtrend | negative | weak | 73.06 | 90.0 | 31.19 | SMH, SOXX | SOXX, SMH |
+| 15 | Nuclear | 30.59 | strong downtrend | negative | weak | 50.0 | 0.0 | 36.72 | NLR | NLR |
 
 ### Thematic Strength
 
@@ -285,17 +285,17 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Energy | 49.58 | Neutral / watchlist | 78.56 | 100.0 | 5.61 | False | False |
 | 4 | Financials | 43.99 | Neutral / watchlist | 39.38 | 90.0 | 13.46 | False | False |
 | 5 | Quality Growth | 43.07 | Neutral / watchlist | 61.07 | 65.0 | 20.72 | False | False |
-| 6 | Small Caps | 39.36 | Weak setup | 60.18 | 65.0 | 0.0 | False | False |
-| 7 | Grid Infrastructure | 39.21 | Weak setup | 62.87 | 65.0 | 27.53 | False | False |
-| 8 | AI Infrastructure | 38.19 | Weak setup | 73.06 | 90.0 | 74.76 | False | False |
-| 9 | Defense | 37.66 | Weak setup | 39.05 | 65.0 | 29.04 | False | False |
-| 10 | Cybersecurity | 37.25 | Weak setup | 51.27 | 65.0 | 23.55 | False | False |
-| 11 | Crypto Infrastructure | 34.17 | Weak setup | 49.7 | 65.0 | 8.42 | False | False |
-| 12 | Semiconductors | 32.78 | Weak setup | 73.06 | 90.0 | 58.42 | False | False |
+| 6 | AI Infrastructure | 39.95 | Weak setup | 73.06 | 90.0 | 25.95 | False | False |
+| 7 | Small Caps | 39.36 | Weak setup | 60.18 | 65.0 | 0.0 | False | False |
+| 8 | Cybersecurity | 39.25 | Weak setup | 51.27 | 65.0 | 23.55 | False | False |
+| 9 | Grid Infrastructure | 39.21 | Weak setup | 62.87 | 65.0 | 27.53 | False | False |
+| 10 | Defense | 37.66 | Weak setup | 39.05 | 65.0 | 29.04 | False | False |
+| 11 | Semiconductors | 34.71 | Weak setup | 73.06 | 90.0 | 9.6 | False | False |
+| 12 | Crypto Infrastructure | 34.17 | Weak setup | 49.7 | 65.0 | 8.42 | False | False |
 | 13 | Nuclear | 29.23 | Underperformance risk | 50.0 | 0.0 | 12.14 | False | False |
 
 - Top 5 improving themes: Crypto Infrastructure, Healthcare Innovation, Energy, Dividend Defensives, Quality Growth
-- Top 5 deteriorating themes: Nuclear, Semiconductors, AI Infrastructure, Defense, Grid Infrastructure
+- Top 5 deteriorating themes: Nuclear, Semiconductors, Defense, Grid Infrastructure, AI Infrastructure
 - Strong news but weak price confirmation: none
 - Strong price but weak news confirmation: Healthcare Innovation, Dividend Defensives
 
@@ -311,13 +311,13 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 51.34 | mixed | 43.2 | weak | mixed confirmation |
 | Crypto | Crypto Infrastructure | 49.97 | mixed | 34.17 | very weak | mixed confirmation |
 | Energy | Energy | 48.84 | mixed | 49.58 | mixed | mixed confirmation |
-| Cybersecurity | Cybersecurity | 39.08 | weak | 37.25 | weak | broad weakness across sector and themes |
+| Cybersecurity | Cybersecurity | 39.08 | weak | 39.25 | weak | broad weakness across sector and themes |
 | Defense | Defense | 38.81 | weak | 37.66 | weak | broad weakness across sector and themes |
 | Industrials | Defense, Grid Infrastructure | 35.06 | weak | 38.44 | weak | broad weakness across sector and themes |
-| Technology | AI Infrastructure, Semiconductors, Quality Growth | 34.21 | very weak | 38.01 | weak | broad weakness across sector and themes |
+| Technology | AI Infrastructure, Semiconductors, Quality Growth | 34.21 | very weak | 39.24 | weak | broad weakness across sector and themes |
 | Grid Infrastructure | Grid Infrastructure | 32.25 | very weak | 39.21 | weak | broad weakness across sector and themes |
+| Semiconductors | AI Infrastructure, Semiconductors | 30.73 | very weak | 37.33 | weak | broad weakness across sector and themes |
 | Nuclear | Nuclear | 30.59 | very weak | 29.23 | very weak | broad weakness across sector and themes |
-| Semiconductors | AI Infrastructure, Semiconductors | 25.82 | very weak | 35.48 | weak | broad weakness across sector and themes |
 
 ## Three-Month Outperformance Setup
 
@@ -328,28 +328,28 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 3 | Energy | 51.85 | Neutral / watchlist | downside_volatility, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
 | 4 | Quality Growth | 48.09 | Neutral / watchlist | volume_accumulation, downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 5 | Financials | 46.77 | Neutral / watchlist | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
-| 6 | Grid Infrastructure | 40.93 | Weak setup | volume_accumulation | relative strength below SPY, breadth below 45%, news turns negative |
-| 7 | Defense | 40.83 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
-| 8 | Cybersecurity | 39.69 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
-| 9 | AI Infrastructure | 38.48 | Weak setup | volume_accumulation | relative strength below SPY, breadth below 45%, news turns negative |
+| 6 | Cybersecurity | 42.29 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
+| 7 | AI Infrastructure | 41.61 | Weak setup | volume_accumulation | relative strength below SPY, breadth below 45%, news turns negative |
+| 8 | Grid Infrastructure | 40.93 | Weak setup | volume_accumulation | relative strength below SPY, breadth below 45%, news turns negative |
+| 9 | Defense | 40.83 | Weak setup |  | relative strength below SPY, breadth below 45%, news turns negative |
 | 10 | Small Caps | 37.95 | Weak setup | downside_volatility | relative strength below SPY, breadth below 45%, news turns negative |
 | 11 | Crypto Infrastructure | 35.62 | Weak setup | relative_strength_60d, relative_vs_qqq | relative strength below SPY, breadth below 45%, news turns negative |
-| 12 | Semiconductors | 30.86 | Weak setup | volume_accumulation | relative strength below SPY, breadth below 45%, news turns negative |
+| 12 | Semiconductors | 34.43 | Weak setup | volume_accumulation | relative strength below SPY, breadth below 45%, news turns negative |
 
 ## Breadth and Participation
 
 - Above 50DMA: `61.24%`
-- Above 200DMA: `55.01%`
+- Above 200DMA: `55.83%`
 - Positive 20D return: `67.74%`
 
 ## Volatility and Risk Signals
 
-- VIX close=23.23 pct_chg=-9.4
+- VIX close=21.8 pct_chg=-14.98
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 32, 'negative': 28, 'neutral': 20}
-- News confirmation score: `52.5`
+- Sentiment counts: {'positive': 30, 'negative': 27, 'neutral': 23}
+- News confirmation score: `51.88`
 
 ### Top Market-Moving Headlines
 
@@ -499,8 +499,8 @@ Positioning and flow data is used as confirmation only.
 
 | Ticker | Exposure | 20D Flow Z | 60D Flow Z | Persistence | Volume Z | Price State | Flow State | Volume State | PFV State | Regime Bias | Flow Structure | Confidence |
 | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-| ITA | Aerospace and Defense | 8.6 | 7.9 | 0.3 | 2.8 | Down | Buy | High | Aggressive Dip Buying | Recovery Candidate | Strong confirmation; Exceptional institutional buying | 100.0 |
-| SOXX | Semiconductors | 6.6 | 4.3 | 0.8 | 4.7 | Down | Buy | High | Aggressive Dip Buying | Recovery Candidate | Strong confirmation; Exceptional institutional buying, Strong sponsorship | 100.0 |
+| ITA | Aerospace and Defense | 8.6 | 7.9 | 0.3 | -0.5 | Flat | Buy | Normal | Quiet Accumulation | Improving | Strong confirmation; Exceptional institutional buying | 100.0 |
+| SOXX | Semiconductors | 6.6 | 4.3 | 0.8 | 2.8 | Down | Buy | High | Aggressive Dip Buying | Recovery Candidate | Strong confirmation; Exceptional institutional buying, Strong sponsorship | 100.0 |
 | SMH | Semiconductors | 1.7 | 0.6 | 0.6 | 2.0 | Down | Buy | High | Aggressive Dip Buying | Recovery Candidate | Strong confirmation | 95.0 |
 | CIBR | Cybersecurity | -0.7 | 1.1 | 0.6 | 0.4 | Down | Neutral | Normal | Unconfirmed Weakness | Neutral Bearish | Medium-term deterioration | 83.0 |
 
@@ -525,11 +525,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `48`
-- Live macro rows used: `29`
+- Live macro rows used: `44`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 09 November 2026, 22:19:29 (HKT)
+- Report generated at: 09 November 2026, 23:17:31 (HKT)
