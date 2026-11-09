@@ -700,7 +700,7 @@ def build_html(d: dict, narrative: dict | None = None, adjustments: dict | None 
     pcs = "".join(pcard(macro, s, lbl) for s, lbl in
                     [("SPX", "S&P 500"), ("NDX", "NASDAQ"), ("RUT", "Russell 2000"), ("VIX", "VIX"),
                      ("MOVE", "MOVE"), ("SKEW", "SKEW"), ("US10Y", "US 10Y"), ("US2Y", "US 2Y"),
-                     ("US30Y", "US 30Y"), ("WTI", "WTI Crude"), ("GOLD", "Gold")])
+                     ("US30Y", "US 30Y"), ("GOLD", "Gold")])
 
     return f'''<!doctype html>
 <html lang="en" data-theme="auto">
