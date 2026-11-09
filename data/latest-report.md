@@ -1,11 +1,11 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 9 November 2026, 08:19:40 (HKT)
+Generated at: 9 November 2026, 09:17:32 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **39.52 / 100** (Mild Risk-Off)
+- Regime score: **39.68 / 100** (Mild Risk-Off)
 - US equity strength: **24.83 / 100** (weak)
 - Evidence quality: **79.5 / 100**
 - ETF flow contribution: **52.85 / 100**, reliability **66.62 / 100**
@@ -17,7 +17,7 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 39.52 | Mild Risk-Off |
+| Overall regime | 39.68 | Mild Risk-Off |
 | equity_trend | 8.75 | risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 40.27 | mild risk-off pressure; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 36.11 | mild risk-off pressure; Participation breadth from tracked equity/ETF rows. |
@@ -27,9 +27,9 @@ Window: 24h
 | dollar_fx | 51.59 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
 | commodity_confirmation | 58.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 51.9 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
-| news_confirmation | 39.38 | mild risk-off pressure; Weighted headline/news confirmation score. |
+| news_confirmation | 42.5 | mild risk-off pressure; Weighted headline/news confirmation score. |
 | Positive contributors |  | none |
-| Negative contributors |  | equity_trend=8.75, volatility=35.0, market_breadth=36.11, news_confirmation=39.38, equity_momentum=40.27 |
+| Negative contributors |  | equity_trend=8.75, volatility=35.0, market_breadth=36.11, equity_momentum=40.27, news_confirmation=42.5 |
 
 ## Forward Signal (Score → Expected Return)
 
@@ -98,16 +98,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 25.64 | -9.01 | 2026-11-06 | closed |
 | ^SKEW | CBOE SKEW Index | 153.55 | 2.8 | 2026-11-06 | closed |
 | ^MOVE | ICE BofA MOVE Index | 92.77 | -5.26 | 2026-11-06 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.52 | 1.01 | 2026-11-06 | live as of 9 November 2026, 08:00:23 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.59 | 0.95 | 2026-11-06 | live as of 9 November 2026, 08:00:23 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.65 | 0.87 | 2026-11-06 | live as of 9 November 2026, 08:00:23 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.74 | 0.74 | 2026-11-06 | live as of 9 November 2026, 08:00:23 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.86 | 0.45 | 2026-11-06 | live as of 9 November 2026, 08:00:23 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.29 | 0.25 | 2026-11-06 | live as of 9 November 2026, 08:00:23 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.26 | 0.17 | 2026-11-06 | live as of 9 November 2026, 08:00:23 (HKT) |
-| HK50 | Hang Seng Futures | 24622.0 | 0.47 | 2026-11-06 | live as of 9 November 2026, 08:00:23 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 782.95 | -6.49 | 2026-11-06 | live as of 9 November 2026, 08:00:23 (HKT) |
-| CIHc1 | SSE 50 Futures | 2774.0 | -0.85 | 2026-11-06 | live as of 9 November 2026, 08:00:23 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.54 | 0.29 | 2026-11-09 | live as of 9 November 2026, 09:00:21 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.6 | 0.35 | 2026-11-09 | live as of 9 November 2026, 09:00:21 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.66 | 0.34 | 2026-11-09 | live as of 9 November 2026, 09:00:21 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.76 | 0.36 | 2026-11-09 | live as of 9 November 2026, 09:00:21 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.88 | 0.33 | 2026-11-09 | live as of 9 November 2026, 09:00:21 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.31 | 0.38 | 2026-11-09 | live as of 9 November 2026, 09:00:21 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.28 | 0.34 | 2026-11-09 | live as of 9 November 2026, 09:00:21 (HKT) |
+| HK50 | Hang Seng Futures | 24622.0 | 0.47 | 2026-11-06 | live as of 9 November 2026, 09:00:21 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 782.95 | -6.49 | 2026-11-06 | live as of 9 November 2026, 09:00:21 (HKT) |
+| CIHc1 | SSE 50 Futures | 2774.0 | -0.85 | 2026-11-06 | live as of 9 November 2026, 09:00:21 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.23 | -0.06 | 2026-11-06 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.53 | -0.12 | 2026-11-06 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 92.7 | -0.09 | 2026-11-06 | closed |
@@ -267,7 +267,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | 5 | Real Estate | 65.51 | strong uptrend | neutral | broad | 42.31 | 65.0 | 57.98 | EXR, PSA, KIM | PLD, DLR, IRM |
 | 6 | Utilities | 52.58 | downtrend | neutral | broad | 50.0 | 0.0 | 55.21 | AWK, NEE, ED | CEG, NRG, VST |
 | 7 | Crypto | 49.97 | neutral | neutral | mixed | 49.7 | 65.0 | 50.0 |  |  |
-| 8 | Energy | 48.11 | neutral | neutral | weak | 71.13 | 65.0 | 52.7 | SLB, COP, CVX | MPC, VLO, TPL |
+| 8 | Energy | 48.1 | neutral | neutral | weak | 71.13 | 65.0 | 52.7 | SLB, COP, CVX | MPC, VLO, TPL |
 | 9 | Defense | 39.91 | strong downtrend | negative | weak | 50.0 | 0.0 | 45.06 | XAR | XAR |
 | 10 | Cybersecurity | 39.08 | downtrend | negative | weak | 51.27 | 65.0 | 40.82 | CIBR | CIBR |
 | 11 | Industrials | 35.14 | strong downtrend | negative | weak | 50.0 | 0.0 | 48.22 | EFX, PNR, SWK | CAT, BE, FIX |
@@ -310,7 +310,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 | Real Estate | Dividend Defensives | 65.51 | strong | 61.17 | positive | sector and theme confirmation |
 | Utilities | Grid Infrastructure, Nuclear, Dividend Defensives | 52.58 | mixed | 43.2 | weak | mixed confirmation |
 | Crypto | Crypto Infrastructure | 49.97 | mixed | 34.17 | very weak | mixed confirmation |
-| Energy | Energy | 48.11 | mixed | 48.86 | mixed | mixed confirmation |
+| Energy | Energy | 48.1 | mixed | 48.86 | mixed | mixed confirmation |
 | Defense | Defense | 39.91 | weak | 38.76 | weak | broad weakness across sector and themes |
 | Cybersecurity | Cybersecurity | 39.08 | weak | 37.25 | weak | broad weakness across sector and themes |
 | Industrials | Defense, Grid Infrastructure | 35.14 | weak | 38.98 | weak | broad weakness across sector and themes |
@@ -348,8 +348,8 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 
 ## News Analytics
 
-- Sentiment counts: {'positive': 8, 'negative': 25, 'neutral': 47}
-- News confirmation score: `39.38`
+- Sentiment counts: {'positive': 15, 'negative': 27, 'neutral': 38}
+- News confirmation score: `42.5`
 
 ### Top Market-Moving Headlines
 
@@ -369,7 +369,15 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `41.18`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**3. Stocks are moving in sync again for the first time in a while. There’s just one problem.**
+**3. ANZ FY profit jumps 31% amid CEO Matos’ turnaround plan**
+- Source: Investing.com Commodities
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: ANZ, FY, earnings, profit_growth, turnaround
+- Score: `28.73`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**4. Stocks are moving in sync again for the first time in a while. There’s just one problem.**
 - Source: MarketWatch Top Stories
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -377,7 +385,23 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `26.93`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**4. EU, UK near post-Brexit carbon market linkage deal - Bloomberg**
+**5. Earnings call transcript: ANZ posts strong H2 2026 profit as strategy gains pace**
+- Source: Investing.com Forex
+- Importance / impact: Low / Positive
+- Relevance / horizon: single_name / short-term
+- Affected assets: ANZ, earnings, profitability, strategy
+- Score: `21.84`
+- Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**6. Stock futures rise slightly as investors eye AI trade, brace for more data and earnings: Live updates**
+- Source: CNBC Top News
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / short-term
+- Affected assets: AI, inflation, market sentiment
+- Score: `21.8`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
+
+**7. EU, UK near post-Brexit carbon market linkage deal - Bloomberg**
 - Source: Investing.com Economic Indicators
 - Importance / impact: Low / Positive
 - Relevance / horizon: sector_theme / short-term
@@ -385,23 +409,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `21.62`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**5. AI stock selloff drives investors to China, India, and overlooked Asian sectors**
-- Source: Investing.com World News
-- Importance / impact: Low / Negative
-- Relevance / horizon: sector_theme / short-term
-- Affected assets: AI selloff, emerging markets, Asian equities
-- Score: `20.48`
-- Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
-
-**6. How a Talent War Spelled Doom for the Traditional Law Firm**
-- Source: Dow Jones US Business
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: A, M&A, Talent War, Law Firm Restructuring
-- Score: `18.85`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**7. Production suspended at Iraq’s Khor Mor gas field after drone attack, sources say**
+**8. Production suspended at Iraq’s Khor Mor gas field after drone attack, sources say**
 - Source: Investing.com Stock Market
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -409,7 +417,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `18.74`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**8. Iraq has reached understandings with US to allow oil exports through Hormuz, minister says**
+**9. Iraq has reached understandings with US to allow oil exports through Hormuz, minister says**
 - Source: Investing.com Technology
 - Importance / impact: Low / Mixed
 - Relevance / horizon: macro / unknown
@@ -417,7 +425,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `17.85`
 - Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the unknown.
 
-**9. China AI bust threatens Xi’s ’Wall Street East’ ambitions**
+**10. China AI bust threatens Xi’s ’Wall Street East’ ambitions**
 - Source: Investing.com World News
 - Importance / impact: Low / Negative
 - Relevance / horizon: sector_theme / short-term
@@ -425,18 +433,10 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `17.56`
 - Investment implication: Theme or sector negative signal; requires price and volume confirmation before affecting rankings.
 
-**10. Paul Gama, P&G CEO-health care, sells $477,510 in stock**
-- Source: Investing.com Economy
-- Importance / impact: Low / Mixed
-- Relevance / horizon: sector_theme / nan
-- Affected assets: G, P
-- Score: `16.62`
-- Investment implication: Theme or sector mixed signal; requires price and volume confirmation before affecting rankings.
-
 
 ### Headline Quality Checks
 
-No noisy headlines detected by current rules.
+Noisy headline list: The S&P 500 could be dangerously exposed to AI. He
 
 ## Positioning & Flow Dashboard
 
@@ -523,11 +523,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `48`
-- Live macro rows used: `14`
+- Live macro rows used: `16`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 09 November 2026, 08:19:40 (HKT)
+- Report generated at: 09 November 2026, 09:17:32 (HKT)
