@@ -1,6 +1,6 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 10 November 2026, 10:19:55 (HKT)
+Generated at: 10 November 2026, 11:18:09 (HKT)
 Window: 24h
 
 ## Executive Dashboard
@@ -98,16 +98,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 19.92 | -22.31 | 2026-11-09 | closed |
 | ^SKEW | CBOE SKEW Index | 150.34 | -2.09 | 2026-11-09 | closed |
 | ^MOVE | ICE BofA MOVE Index | 85.98 | -7.32 | 2026-11-09 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.56 | -0.11 | 2026-11-10 | live as of 10 November 2026, 10:00:17 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.62 | -0.15 | 2026-11-10 | live as of 10 November 2026, 10:00:17 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.67 | 0.0 | 2026-11-10 | live as of 10 November 2026, 10:00:17 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.76 | -0.06 | 2026-11-10 | live as of 10 November 2026, 10:00:17 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.88 | 0.0 | 2026-11-10 | live as of 10 November 2026, 10:00:17 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.3 | -0.08 | 2026-11-10 | live as of 10 November 2026, 10:00:17 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.27 | -0.06 | 2026-11-10 | live as of 10 November 2026, 10:00:17 (HKT) |
-| HK50 | Hang Seng Futures | 24551.0 | 0.16 | 2026-11-10 | live as of 10 November 2026, 10:00:17 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 808.0 | 4.14 | 2026-11-10 | live as of 10 November 2026, 10:00:17 (HKT) |
-| CIHc1 | SSE 50 Futures | 2787.2 | 0.48 | 2026-11-09 | live as of 10 November 2026, 10:00:17 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.56 | 0.26 | 2026-11-10 | live as of 10 November 2026, 11:00:17 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.62 | 0.39 | 2026-11-10 | live as of 10 November 2026, 11:00:17 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.67 | 0.24 | 2026-11-10 | live as of 10 November 2026, 11:00:17 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.76 | 0.25 | 2026-11-10 | live as of 10 November 2026, 11:00:17 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.87 | 0.23 | 2026-11-10 | live as of 10 November 2026, 11:00:17 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.3 | 0.25 | 2026-11-10 | live as of 10 November 2026, 11:00:17 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.27 | 0.27 | 2026-11-10 | live as of 10 November 2026, 11:00:17 (HKT) |
+| HK50 | Hang Seng Futures | 24585.5 | 0.3 | 2026-11-10 | live as of 10 November 2026, 11:00:17 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 808.0 | 4.14 | 2026-11-10 | live as of 10 November 2026, 11:00:17 (HKT) |
+| CIHc1 | SSE 50 Futures | 2787.2 | 0.48 | 2026-11-09 | live as of 10 November 2026, 11:00:17 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.51 | 0.36 | 2026-11-09 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.67 | 0.13 | 2026-11-09 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 93.01 | 0.33 | 2026-11-09 | closed |
@@ -358,7 +358,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: High / Negative
 - Relevance / horizon: macro / short-term
 - Affected assets: U.S, inflation, monetary policy, interest rates
-- Score: `63.75`
+- Score: `54.19`
 - Investment implication: Macro-relevant negative signal; use as context for rates, volatility, and index confirmation over the short-term.
 
 **2. Dow ends 1,100 points higher, S&P 500 books best day since April as stocks surge**
@@ -366,7 +366,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Importance / impact: Medium / Positive
 - Relevance / horizon: sector_theme / short-term
 - Affected assets: ^DJI, ^GSPC, P, S, stock market rally
-- Score: `54.51`
+- Score: `46.33`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 **3. Dow up 1,200 points in final hour, S&P and Nasdaq surge after last week's swoon**
@@ -401,15 +401,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `36.03`
 - Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
-**7. A key report for where inflation stood in October comes out Tuesday. Here's what to expect**
-- Source: CNBC Business
-- Importance / impact: Low / Mixed
-- Relevance / horizon: macro / short-term
-- Affected assets: A, inflation, CPI, economic_data
-- Score: `33.6`
-- Investment implication: Macro-relevant mixed signal; use as context for rates, volatility, and index confirmation over the short-term.
-
-**8. Earnings call transcript: iHeartMedia Q3 2026 revenue miss sparks 35% after-hours drop**
+**7. Earnings call transcript: iHeartMedia Q3 2026 revenue miss sparks 35% after-hours drop**
 - Source: Investing.com Forex
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -417,7 +409,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `33.15`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**9. Short seller claims Nvidia's China scandal runs deeper than Megaspeed**
+**8. Short seller claims Nvidia's China scandal runs deeper than Megaspeed**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -425,13 +417,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.42`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**10. Merck’s efinopegdutide shows positive results in MASH trial**
+**9. Merck’s efinopegdutide shows positive results in MASH trial**
 - Source: Investing.com Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: MASH, drug-development, clinical-trial, hepatology
 - Score: `29.94`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Telos Q3 2026 slides: revenue beats, EBITDA guidance raised 40%**
+- Source: Investing.com Markets
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / quarterly
+- Affected assets: revenue beat, EBITDA guidance, AI
+- Score: `29.94`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
@@ -530,4 +530,4 @@ No contradiction flags were triggered by current deterministic rules.
 
 ## Cycle Metadata
 
-- Report generated at: 10 November 2026, 10:19:55 (HKT)
+- Report generated at: 10 November 2026, 11:18:09 (HKT)
