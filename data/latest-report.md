@@ -1,14 +1,14 @@
 # Rule-Based Institutional Market Update
 
-Generated at: 10 November 2026, 13:15:35 (HKT)
+Generated at: 10 November 2026, 14:16:16 (HKT)
 Window: 24h
 
 ## Executive Dashboard
 
-- Regime score: **52.51 / 100** (Mixed / Rotation)
+- Regime score: **52.18 / 100** (Mixed / Rotation)
 - US equity strength: **40.29 / 100** (weak)
-- Evidence quality: **83.0 / 100**
-- ETF flow contribution: **52.67 / 100**, reliability **65.94 / 100**
+- Evidence quality: **79.5 / 100**
+- ETF flow contribution: **52.67 / 100**, reliability **65.91 / 100**
 - Breadth: **healthy**; above 50DMA `69.28%`, above 200DMA `62.78%`
 - Top sector score: **Healthcare** `69.42`
 - Top theme score: **Healthcare Innovation** `63.6`
@@ -17,15 +17,15 @@ Window: 24h
 
 | Metric | Value | Driver / Interpretation |
 | --- | --- | --- |
-| Overall regime | 52.51 | Mixed / Rotation |
+| Overall regime | 52.18 | Mixed / Rotation |
 | equity_trend | 28.75 | risk-off pressure; Core equity ETFs versus moving averages. |
 | equity_momentum | 43.97 | mild risk-off pressure; 5D/20D/60D return momentum across SPY, QQQ, IWM, and SMH. |
 | market_breadth | 67.33 | risk-on support; S&P 500 constituent breadth using index membership as of the observation date. |
 | volatility | 70.0 | risk-on support; VIX level and change; higher score means calmer volatility conditions. |
 | rates_yield_curve | 58.0 | mild risk-on support; Treasury yield pressure and curve shape; higher score means less rates pressure. |
 | credit_proxy | 50.0 | neutral / mixed; Credit-market proxy; currently neutral when no direct spread signal is available. |
-| dollar_fx | 57.9 | mild risk-on support; Dollar move; higher score means less USD tightening pressure. |
-| commodity_confirmation | 57.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
+| dollar_fx | 54.84 | neutral / mixed; Dollar move; higher score means less USD tightening pressure. |
+| commodity_confirmation | 55.0 | mild risk-on support; Copper, silver, oil, and gold mix; higher score means better cyclical confirmation. |
 | etf_flow | 51.76 | neutral / mixed; Grouped ETF flow contribution adjusted for reliability. |
 | news_confirmation | 67.5 | risk-on support; Weighted headline/news confirmation score. |
 | Positive contributors |  | volatility=70.0, news_confirmation=67.5, market_breadth=67.33 |
@@ -66,8 +66,8 @@ Method: Analyst inference/estimate (historical bucket calibration).
 
 ## Evidence Quality / Confidence
 
-- Confidence score: `83.0`
-- Agreement ratio: `0.6`
+- Confidence score: `79.5`
+- Agreement ratio: `0.5`
 - Contradiction count: `2`
 - Missing indicators: none
 - Warning flags: none
@@ -78,7 +78,7 @@ Method: Analyst inference/estimate (historical bucket calibration).
 | --- | --- | --- |
 | Equities | S&P 500 rising; Nasdaq rising; Russell 2000 rising | Confirms risk appetite when broad indices rise together; weak small caps would narrow the signal. |
 | Rates | 10Y Treasury stable; MOVE falling | Rising yields can pressure duration assets; falling MOVE supports calmer bond volatility. |
-| Dollar | DXY proxy falling | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
+| Dollar | DXY proxy stable | A stronger dollar can tighten financial conditions and pressure commodities/emerging-market risk. |
 | Credit | HYG rising | High-yield weakness would challenge equity risk-on confirmation. |
 | Gold | Gold rising | Gold strength can indicate defensive demand, inflation hedging, or geopolitical concern. |
 | Silver | Silver rising | Silver helps distinguish precious-metal demand from industrial/cyclical confirmation when data is available. |
@@ -98,16 +98,16 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | ^VIX | CBOE Volatility Index | 19.92 | -22.31 | 2026-11-09 | closed |
 | ^SKEW | CBOE SKEW Index | 150.34 | -2.09 | 2026-11-09 | closed |
 | ^MOVE | ICE BofA MOVE Index | 85.98 | -7.32 | 2026-11-09 | closed |
-| US2YT=X | United States 2-Year Treasury Yield | 4.55 | 0.18 | 2026-11-10 | live as of 10 November 2026, 13:00:36 (HKT) |
-| US3YT=X | United States 3-Year Treasury Yield | 4.61 | 0.28 | 2026-11-10 | live as of 10 November 2026, 13:00:36 (HKT) |
-| US5YT=X | United States 5-Year Treasury Yield | 4.66 | 0.11 | 2026-11-10 | live as of 10 November 2026, 13:00:36 (HKT) |
-| US7YT=X | United States 7-Year Treasury Yield | 4.75 | 0.11 | 2026-11-10 | live as of 10 November 2026, 13:00:36 (HKT) |
-| US10YT=X | United States 10-Year Treasury Yield | 4.87 | 0.1 | 2026-11-10 | live as of 10 November 2026, 13:00:36 (HKT) |
-| US20YT=X | United States 20-Year Treasury Yield | 5.29 | 0.17 | 2026-11-10 | live as of 10 November 2026, 13:00:36 (HKT) |
-| US30YT=X | United States 30-Year Treasury Yield | 5.26 | 0.17 | 2026-11-10 | live as of 10 November 2026, 13:00:36 (HKT) |
-| HK50 | Hang Seng Futures | 24541.5 | 0.12 | 2026-11-10 | live as of 10 November 2026, 13:00:36 (HKT) |
-| KOR200c1 | KOSPI 200 Futures | 808.0 | 4.14 | 2026-11-10 | live as of 10 November 2026, 13:00:36 (HKT) |
-| CIHc1 | SSE 50 Futures | 2787.2 | 0.48 | 2026-11-09 | live as of 10 November 2026, 13:00:36 (HKT) |
+| US2YT=X | United States 2-Year Treasury Yield | 4.56 | 0.31 | 2026-11-10 | live as of 10 November 2026, 14:00:26 (HKT) |
+| US3YT=X | United States 3-Year Treasury Yield | 4.62 | 0.48 | 2026-11-10 | live as of 10 November 2026, 14:00:26 (HKT) |
+| US5YT=X | United States 5-Year Treasury Yield | 4.67 | 0.34 | 2026-11-10 | live as of 10 November 2026, 14:00:26 (HKT) |
+| US7YT=X | United States 7-Year Treasury Yield | 4.76 | 0.34 | 2026-11-10 | live as of 10 November 2026, 14:00:26 (HKT) |
+| US10YT=X | United States 10-Year Treasury Yield | 4.88 | 0.37 | 2026-11-10 | live as of 10 November 2026, 14:00:26 (HKT) |
+| US20YT=X | United States 20-Year Treasury Yield | 5.31 | 0.4 | 2026-11-10 | live as of 10 November 2026, 14:00:26 (HKT) |
+| US30YT=X | United States 30-Year Treasury Yield | 5.28 | 0.4 | 2026-11-10 | live as of 10 November 2026, 14:00:26 (HKT) |
+| HK50 | Hang Seng Futures | 24526.0 | 0.06 | 2026-11-10 | live as of 10 November 2026, 14:00:26 (HKT) |
+| KOR200c1 | KOSPI 200 Futures | 808.0 | 4.14 | 2026-11-10 | live as of 10 November 2026, 14:00:26 (HKT) |
+| CIHc1 | SSE 50 Futures | 2787.2 | 0.48 | 2026-11-09 | live as of 10 November 2026, 14:00:26 (HKT) |
 | HYG | iShares iBoxx High Yield Corporate Bond ETF | 77.51 | 0.36 | 2026-11-09 | closed |
 | LQD | iShares iBoxx Investment Grade Corporate Bond ETF | 104.67 | 0.13 | 2026-11-09 | closed |
 | JNK | SPDR Bloomberg High Yield Bond ETF | 93.01 | 0.33 | 2026-11-09 | closed |
@@ -117,10 +117,10 @@ Live macro rows are intraday snapshots from `public.macro_live`; closed rows are
 | TLT | iShares 20+ Year Treasury Bond ETF | 81.96 | 0.05 | 2026-11-09 | closed |
 | IEF | iShares 7-10 Year Treasury Bond ETF | 91.8 | -0.07 | 2026-11-09 | closed |
 | SHY | iShares 1-3 Year Treasury Bond ETF | 81.59 | -0.05 | 2026-11-09 | closed |
-| GC=F | Gold Future | 4149.5 | 1.72 | 2026-11-09 | closed |
-| SI=F | Silver Future | 53.45 | 2.87 | 2026-11-09 | closed |
-| CL=F | WTI Crude Oil Future | 86.38 | -4.38 | 2026-11-09 | closed |
-| HG=F | Copper Future | 6.38 | 1.96 | 2026-11-09 | closed |
+| GC=F | Gold Future | 4131.4 | 0.41 | 2026-11-10 | live as of 10 November 2026, 14:00:26 (HKT) |
+| SI=F | Silver Future | 53.31 | 1.42 | 2026-11-10 | live as of 10 November 2026, 14:00:26 (HKT) |
+| CL=F | WTI Crude Oil Future | 85.97 | -1.01 | 2026-11-10 | live as of 10 November 2026, 14:00:26 (HKT) |
+| HG=F | Copper Future | 6.35 | 0.33 | 2026-11-10 | live as of 10 November 2026, 14:00:26 (HKT) |
 
 ## Market Dispersion Analysis
 
@@ -393,15 +393,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `35.22`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**6. Earnings call transcript: iHeartMedia Q3 2026 revenue miss sparks 35% after-hours drop**
-- Source: Investing.com Forex
-- Importance / impact: Low / Negative
-- Relevance / horizon: single_name / short-term
-- Affected assets: IBKK, earnings miss, revenue decline, after-hours trading
-- Score: `33.15`
-- Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
-
-**7. Short seller claims Nvidia's China scandal runs deeper than Megaspeed**
+**6. Short seller claims Nvidia's China scandal runs deeper than Megaspeed**
 - Source: MarketWatch Bulletins
 - Importance / impact: Low / Negative
 - Relevance / horizon: single_name / short-term
@@ -409,7 +401,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `32.42`
 - Investment implication: Single-name negative signal; low weight unless it maps to a broader sector or theme.
 
-**8. The Trade Desk shares surge 21% after earnings crush Wall Street estimates**
+**7. The Trade Desk shares surge 21% after earnings crush Wall Street estimates**
 - Source: Investing.com World News
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -417,7 +409,7 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `31.7`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**9. NHN Q3 2026 slides: profit doubles on cloud, payment strength**
+**8. NHN Q3 2026 slides: profit doubles on cloud, payment strength**
 - Source: Investing.com Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
@@ -425,13 +417,21 @@ Supporting and detracting names are the top/bottom S&P 500 constituents by 20D r
 - Score: `30.53`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
 
-**10. Merck’s efinopegdutide shows positive results in MASH trial**
+**9. Merck’s efinopegdutide shows positive results in MASH trial**
 - Source: Investing.com Markets
 - Importance / impact: Low / Positive
 - Relevance / horizon: single_name / short-term
 - Affected assets: MASH, drug-development, clinical-trial, hepatology
 - Score: `29.94`
 - Investment implication: Single-name positive signal; low weight unless it maps to a broader sector or theme.
+
+**10. Telos Q3 2026 slides: revenue beats, EBITDA guidance raised 40%**
+- Source: Investing.com Markets
+- Importance / impact: Low / Positive
+- Relevance / horizon: sector_theme / quarterly
+- Affected assets: revenue beat, EBITDA guidance, AI
+- Score: `29.94`
+- Investment implication: Theme or sector positive signal; requires price and volume confirmation before affecting rankings.
 
 
 ### Headline Quality Checks
@@ -523,11 +523,11 @@ No contradiction flags were triggered by current deterministic rules.
 - Technical rows loaded: `60`
 - S&P 500 constituent technical rows loaded: `503`
 - Macro rows loaded: `48`
-- Live macro rows used: `17`
+- Live macro rows used: `28`
 - Economic rows loaded: `113`
 - News rows loaded: `80`
 - Positioning/flow rows loaded: `30`
 
 ## Cycle Metadata
 
-- Report generated at: 10 November 2026, 13:15:35 (HKT)
+- Report generated at: 10 November 2026, 14:16:16 (HKT)
