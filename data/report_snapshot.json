@@ -1,7 +1,7 @@
 {
   "schema": "aegis-hourly-snapshot-v1",
-  "snapshot_id": "aegis-hourly-20261111T232832Z",
-  "generated_at_utc": "2026-11-11T23:28:32.413837+00:00",
+  "snapshot_id": "aegis-hourly-20261111T233503Z",
+  "generated_at_utc": "2026-11-11T23:35:03.885636+00:00",
   "as_of": "2026-11-11",
   "latest_equity_date": "2026-11-10",
   "latest_macro_date": "2026-11-11",
@@ -25,19 +25,19 @@
       "provider": "hermes-local-proxy",
       "model": "upstage/solar-mini4:free",
       "prompt_chars": 1720,
-      "payload_chars": 28293,
-      "attempts": 2,
-      "prompt_tokens": 14526,
+      "payload_chars": 28289,
+      "attempts": 1,
+      "prompt_tokens": 14522,
       "completion_tokens": 3000,
-      "total_tokens": 17526,
-      "elapsed_s": 120.15,
-      "response_sha256": "2b7cb7841cb9c95fdc70f5bacc8628604db3395f8315dc1310a305d89c08e446"
+      "total_tokens": 17522,
+      "elapsed_s": 37.06,
+      "response_sha256": "bb169bed1965ba3917e99c05d7662baa7ed8aed5284eeb4af3fc87336c7b519a"
     },
     "fundamental_research": {
       "cached": true,
-      "cached_at": "2026-11-11T23:25:09.229439+00:00",
-      "age_hours": 0.06,
-      "fingerprint": "e0b21641eb89557fcb0e0b9e3a07cb146f10cc87972f1f9e1b42d6c3de94cbaa",
+      "cached_at": "2026-11-11T23:34:43.845880+00:00",
+      "age_hours": 0.01,
+      "fingerprint": "64410befd339764a6a5d770fbff9a812a1151ff832fb971bc99350250ed49880",
       "source_dates": {
         "as_of": "2026-11-11",
         "latest_equity_date": "2026-11-10",
@@ -46,7 +46,7 @@
         "breadth_date": "2026-11-09"
       }
     },
-    "fingerprint": "e0b21641eb89557fcb0e0b9e3a07cb146f10cc87972f1f9e1b42d6c3de94cbaa",
+    "fingerprint": "64410befd339764a6a5d770fbff9a812a1151ff832fb971bc99350250ed49880",
     "source_dates": {
       "as_of": "2026-11-11",
       "latest_equity_date": "2026-11-10",
@@ -54,7 +54,7 @@
       "flows_date": "2026-11-10",
       "breadth_date": "2026-11-09"
     },
-    "generated_at": "2026-11-11T23:28:32.413837+00:00"
+    "generated_at": "2026-11-11T23:35:03.885636+00:00"
   },
   "source_dates": {
     "as_of": "2026-11-11",
@@ -64,28 +64,28 @@
     "breadth_date": "2026-11-09"
   },
   "evidence_sha256": "57b0960abc2940dc22a8f95171ed1287433de1d846e2f67ed0afd9d1f80a2bb4",
-  "report_sha256": "24f91a6c2ce579ebd16c3ae348cf5c33e8f0fe74665d3d000c208739751bf2c4",
-  "risk_layer_sha256": "790a954b249e046fe6cd6a80aff5a4d4c8eaec4033b616dfe8f16ce56ec998a7",
-  "content_sha256": "9db55f8f2c2231c79db4cd9c7bfeb4578bc2dfe436647fa83662e1dea8381bbd",
+  "report_sha256": "f968667a077c58d221c9e3d300f38964885e60c4517493c25c2f1a88f07e2107",
+  "risk_layer_sha256": "4e2ad99055d7a1e7ed4273efdbf0d4eabbf96dc62154db4445aa187b5779bd72",
+  "content_sha256": "5526f9112885b4387d39d84d3430b96fff8f2dd738a8be24238bf5bc50d0ea17",
   "risk": {
-    "forecast_id": "4483e85bf2b109fe",
-    "as_of": "2026-11-10",
-    "target_start": "2026-11-11",
-    "target_end": "2026-11-17",
+    "forecast_id": "e70ad7b66611cf45",
+    "as_of": "2026-11-11",
+    "target_start": "2026-11-12",
+    "target_end": "2026-11-18",
     "status": "prospective",
-    "forecast_vol_5d": 0.16612050738786388,
-    "spike_probability": 0.21009011101254835,
-    "historical_baseline": 0.22046997645097954,
-    "ewma_baseline": 0.21293867548163115,
+    "forecast_vol_5d": 0.135991193798583,
+    "spike_probability": 0.12400479470282505,
+    "historical_baseline": 0.22381332501365847,
+    "ewma_baseline": 0.21272532732667188,
     "threshold": 0.184956,
     "directional_signal": false,
     "experimental_hourly": false,
     "hourly_estimate": {
-      "as_of": "2026-11-10",
+      "as_of": "2026-11-11",
       "source": "frozen_eod_forecast",
       "experimental": false,
       "eligible_for_formal": true,
-      "forecast_vol_5d": 0.16612050738786388
+      "forecast_vol_5d": 0.135991193798583
     },
     "note": "Frozen daily-close model; official only after completed US close."
   },
