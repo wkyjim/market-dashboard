@@ -1,7 +1,7 @@
 {
   "schema": "aegis-hourly-snapshot-v1",
-  "snapshot_id": "aegis-hourly-20261111T190703Z",
-  "generated_at_utc": "2026-11-11T19:07:03.062418+00:00",
+  "snapshot_id": "aegis-hourly-20261111T200727Z",
+  "generated_at_utc": "2026-11-11T20:07:27.099235+00:00",
   "as_of": "2026-11-10",
   "latest_equity_date": "2026-11-10",
   "latest_macro_date": "2026-11-11",
@@ -17,8 +17,8 @@
   },
   "model": "upstage/solar-mini4:free",
   "evidence_sha256": "30aae932578197315f172878fcce7af34aee3588a543d405a047a1db1839c5aa",
-  "report_sha256": "0397baacff9d08d8b81cdd2486212022c82326f604b6e7de022a3337cedaec68",
-  "content_sha256": "9a738300616677882326be8985f666fdc90a4bcfee579fae40a3a4275a91b466",
+  "report_sha256": "732a0ede03676fa5e11edd553aa5b3d479e453c7dcb93e31a8d36ff986d44f18",
+  "content_sha256": "7640f305169fa5ae2bfc8d37d2a12c530b66e543d23efd4c864a499ac464fb2a",
   "risk": {
     "forecast_id": "4483e85bf2b109fe",
     "as_of": "2026-11-10",
