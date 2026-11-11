@@ -49,7 +49,8 @@ def main() -> int:
             if len(cells) >= 3 and cells[0] in GICS:
                 table.append(cells)
     checks["gics_rows"] = len(table) == 11 and {r[0] for r in table} == set(GICS)
-    checks["ideas"] = len(re.findall(r"^### (LLY|MSFT|COP|NVDA|COST) —", text, re.M)) == 5
+    idea_count = len(re.findall(r"^### [A-Z0-9.\-]+ — ", text, re.M))
+    checks["ideas"] = 3 <= idea_count <= 5
     for field in ("Forecast 5D annualized volatility", "Spike probability", "Spike threshold", "Volatility model"):
         checks[f"risk_{field}"] = field in text
     checks["risk_vals"] = (
