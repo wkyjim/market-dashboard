@@ -1,7 +1,7 @@
 {
   "schema": "aegis-hourly-snapshot-v1",
-  "snapshot_id": "aegis-hourly-20261111T173757Z",
-  "generated_at_utc": "2026-11-11T17:37:57.725611+00:00",
+  "snapshot_id": "aegis-hourly-20261111T180709Z",
+  "generated_at_utc": "2026-11-11T18:07:09.480335+00:00",
   "as_of": "2026-11-10",
   "latest_equity_date": "2026-11-10",
   "latest_macro_date": "2026-11-11",
@@ -17,8 +17,8 @@
   },
   "model": "upstage/solar-mini4:free",
   "evidence_sha256": "30aae932578197315f172878fcce7af34aee3588a543d405a047a1db1839c5aa",
-  "report_sha256": "9ea3a2305b0a12ecc7e5689cff3bbdd76bbc80c62e86364995de4aac1ece16c4",
-  "content_sha256": "11dcdceb942ef1eee58ba54e083cd5f3a945f007b579e96961ad0e9159a60539",
+  "report_sha256": "74baf97c68258eee20acd900da963e8f1462432d29b32c8b6b03538232cb65fd",
+  "content_sha256": "cb1a6b1e41d104d084a189299e62e15bd37c6dc41206b36a81c5ca6d278ab0e3",
   "risk": {
     "forecast_id": "4483e85bf2b109fe",
     "as_of": "2026-11-10",
@@ -45,7 +45,8 @@
     "count": 0,
     "mae": null,
     "rmse": null,
-    "spike_rate": null
+    "spike_rate": null,
+    "brier": null
   },
   "qc": "PASS"
 }
