@@ -4,7 +4,7 @@
   "generated_at": "2026-11-11T23:05:00+08:00",
   "data_cutoff": "2026-11-10 US cash close",
   "report_path": "data/latest-report.md",
-  "report_sha256": "8b77e865e6c47991664a80d517306a9f6e7a27863f65b143ea62989e50d21c49",
+  "report_sha256": "43d330e376ba211757e9015c1d6d0554f27222df4d9c3154a19cc6e9a4c113b3",
   "risk_layer_path": "data/risk_layer.json",
   "risk_layer_sha256": "f9c39c77f62d6789f6f2c2415f0dca1d8bec87fede80181be46613adf8bb7a2e",
   "risk_forecast_id": "4483e85bf2b109fe",

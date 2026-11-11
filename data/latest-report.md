@@ -257,6 +257,7 @@ Scenario probabilities are **AI research judgments**, not calibrated probabiliti
 
 - Internal market and flow snapshot: https://wkyjim.github.io/market-dashboard/data/latest-report.md (retrieved 11 Nov 2026; cash close 10 Nov 2026)
 - Market API: https://api.138.2.69.165.sslip.io/equities/latest/LLY (and the same endpoint for MSFT, COP, NVDA and COST; 10 Nov 2026 closes)
+- Citation check: automated HTTP returned 200 for the primary/API/Treasury/Fed/CMC pages; several official sites (SEC, BLS, Reuters, COP) return 401/403/429 to automated clients. Those URLs are retained as authoritative references, and no value was inferred from a failed request.
 - Federal Reserve FOMC calendar: https://www.federalreserve.gov/monetarypolicy/fomccalendars.htm
 - US Treasury Quarterly Refunding: https://home.treasury.gov/news/press-releases/sb0678/
 - BLS CPI release calendar: https://www.bls.gov/schedule/news_release/cpi.htm
