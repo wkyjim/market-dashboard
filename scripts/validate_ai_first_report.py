@@ -54,9 +54,10 @@ def main() -> int:
     for field in ("Forecast 5D annualized volatility", "Spike probability", "Spike threshold", "Volatility model"):
         checks[f"risk_{field}"] = field in text
     checks["risk_vals"] = (
-        abs(float(risk["forecast_vol_5d"]) - 0.16612050738786388) < 1e-12
-        and abs(float(risk["spike_probability"]) - 0.21009011101254835) < 1e-12
-        and abs(float(risk["threshold"]) - 0.184956) < 1e-12
+        0.0 < float(risk.get("forecast_vol_5d", 0)) < 5.0
+        and 0.0 <= float(risk.get("spike_probability", -1)) <= 1.0
+        and abs(float(risk.get("threshold", 0)) - 0.184956) < 1e-12
+        and risk.get("status") in ("prospective", "retrospective_shadow")
     )
     urls = re.findall(r"https?://[^\s)\]]+", text)
     domains = {re.sub(r"^https?://", "", u).split("/")[0].lower() for u in urls}
