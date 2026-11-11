@@ -1,23 +1,51 @@
 {
-  "schema": "aegis-ai-first-snapshot-v1",
-  "snapshot_id": "aegis-ai-2026-11-11-2305",
-  "generated_at": "2026-11-11T23:05:00+08:00",
-  "data_cutoff": "2026-11-10 US cash close",
-  "report_path": "data/latest-report.md",
-  "report_sha256": "43d330e376ba211757e9015c1d6d0554f27222df4d9c3154a19cc6e9a4c113b3",
-  "risk_layer_path": "data/risk_layer.json",
-  "risk_layer_sha256": "f9c39c77f62d6789f6f2c2415f0dca1d8bec87fede80181be46613adf8bb7a2e",
-  "risk_forecast_id": "4483e85bf2b109fe",
-  "content_policy": {
-    "legacy_scores_removed": true,
-    "rule_based_regime_scoring_active": false,
-    "cio_composite_scores_active": false,
-    "sector_numeric_ratings_active": false,
-    "forward_return_mapping_active": false
+  "schema": "aegis-hourly-snapshot-v1",
+  "snapshot_id": "aegis-hourly-20261111T173757Z",
+  "generated_at_utc": "2026-11-11T17:37:57.725611+00:00",
+  "as_of": "2026-11-10",
+  "latest_equity_date": "2026-11-10",
+  "latest_macro_date": "2026-11-11",
+  "data_qc": {
+    "equity_session": "2026-11-10",
+    "equity_lag_sessions": 0,
+    "macro_date": "2026-11-11",
+    "breadth_date": "2026-11-09",
+    "breadth_lag_sessions": 1,
+    "flows_date": "2026-11-10",
+    "flows_lag_sessions": 0,
+    "status": "PASS_WITH_WARNINGS"
   },
-  "provenance": [
-    "market-dashboard/data/latest-report.md (AI-first report)",
-    "aegis_shadow.forecasts (frozen shadow risk layer)",
-    "https://api.138.2.69.165.sslip.io/equities/latest/{ticker} (10 Nov 2026 closes)"
-  ]
+  "model": "upstage/solar-mini4:free",
+  "evidence_sha256": "30aae932578197315f172878fcce7af34aee3588a543d405a047a1db1839c5aa",
+  "report_sha256": "9ea3a2305b0a12ecc7e5689cff3bbdd76bbc80c62e86364995de4aac1ece16c4",
+  "content_sha256": "11dcdceb942ef1eee58ba54e083cd5f3a945f007b579e96961ad0e9159a60539",
+  "risk": {
+    "forecast_id": "4483e85bf2b109fe",
+    "as_of": "2026-11-10",
+    "target_start": "2026-11-11",
+    "target_end": "2026-11-17",
+    "status": "prospective",
+    "forecast_vol_5d": 0.16612050738786388,
+    "spike_probability": 0.21009011101254835,
+    "historical_baseline": 0.22046997645097954,
+    "ewma_baseline": 0.21293867548163115,
+    "threshold": 0.184956,
+    "directional_signal": false,
+    "experimental_hourly": false,
+    "hourly_estimate": {
+      "as_of": "2026-11-10",
+      "source": "frozen_eod_forecast",
+      "experimental": false,
+      "eligible_for_formal": true,
+      "forecast_vol_5d": 0.16612050738786388
+    },
+    "note": "Frozen daily-close model; official only after completed US close."
+  },
+  "outcomes": {
+    "count": 0,
+    "mae": null,
+    "rmse": null,
+    "spike_rate": null
+  },
+  "qc": "PASS"
 }
