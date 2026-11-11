@@ -1,0 +1,26 @@
+{
+  "schema": "aegis-risk-layer-v1",
+  "as_of": "2026-11-10",
+  "feature_cutoff": "2026-11-10 21:00:00+00:00",
+  "target_start": "2026-11-11",
+  "target_end": "2026-11-17",
+  "status": "prospective",
+  "forecast_id": "4483e85bf2b109fe",
+  "models": {
+    "volatility": {
+      "version": "vol5_ols_v1",
+      "forecast_5d_annualized": 0.16612050738786388,
+      "historical_baseline": 0.22046997645097954,
+      "ewma_baseline": 0.21293867548163115
+    },
+    "spike": {
+      "version": "spike_logit_v1",
+      "probability_5d_vol_at_or_above_threshold": 0.21009011101254835,
+      "threshold": 0.184956
+    }
+  },
+  "validation": "5D volatility model conditional; spike probability research-grade; risk-only",
+  "directional_signal": false,
+  "source": "aegis_shadow.forecasts",
+  "generated_at": "2026-11-11T23:05:00+08:00"
+}

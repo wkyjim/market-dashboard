@@ -171,28 +171,25 @@ function metric(markdown, pattern, fallback = "--") {
 function firstReportBullet(markdown) {
   const lines = markdown.split(/\r?\n/).map((line) => line.trim()).filter(Boolean);
   const bullet = lines.find((line) => line.startsWith("- ") && !/Generated at:/i.test(line));
-  return bullet ? bullet.slice(2).replace(/\*\*/g, "") : "Latest rule-based report loaded. Review the market update for full evidence and risk notes.";
+  return bullet ? bullet.slice(2).replace(/\*\*/g, "") : "Latest AI-first report loaded. Review the sourced research and frozen risk layer.";
 }
 
 function parseReportMetrics(markdown) {
-  const regimeScore = metric(markdown, /Regime score:\s+\*\*([\d.]+ \/ 100)\*\*/);
-  const regimeLabel = metric(markdown, /Regime score:.*?\(([^)]+)\)/);
-  $("#regime-score").textContent = regimeScore;
-  $("#regime-label").textContent = regimeLabel;
-  $("#strength-score").textContent = metric(markdown, /(?:US equity strength|Market strength):\s+\*\*([\d.]+ \/ 100)\*\*/);
-  $("#strength-label").textContent = metric(markdown, /(?:US equity strength|Market strength):.*?\(([^)]+)\)/);
-  $("#evidence-score").textContent = metric(markdown, /Evidence quality:\s+\*\*([\d.]+ \/ 100)\*\*/);
-  const breadthAbove50 = metric(markdown, /above 50DMA [`\x27]?([\d.]+)%[`\x27]?/);
-  $("#breadth-score").textContent = `${breadthAbove50}%`;
-  $("#breadth-label").textContent = metric(markdown, /Breadth:\s+\*\*([^*]+)\*\*/);
+  const marketView = metric(markdown, /\*\*AI market view:\s*([^*]+)\*\*/i);
+  const dataCutoff = metric(markdown, /^Data cutoff:\s*([^\n]+)/im);
+  const riskVol = metric(markdown, /Forecast 5D annualized volatility\s*\|\s*([\d.]+)%/i);
+  const riskSpike = metric(markdown, /Spike probability\s*\|\s*([\d.]+)%/i);
+  const breadthAbove50 = metric(markdown, /Breadth:\s*\*\*([\d.]+)%\*\*/i);
   const generatedAt = metric(markdown, /Generated at:\s+([^\n]+)/, "Report timestamp unavailable");
-  $("#report-time").textContent = generatedAt;
-  const heroRegime = $("#hero-regime");
-  const heroSummary = $("#hero-summary");
-  const reportCoverage = $("#report-coverage");
-  if (heroRegime) heroRegime.textContent = `${regimeLabel} - ${regimeScore}`;
-  if (heroSummary) heroSummary.textContent = firstReportBullet(markdown);
-  if (reportCoverage) reportCoverage.textContent = `Latest report - ${generatedAt}`;
+  const set = (id, value) => { const el = $(id); if (el) el.textContent = value; };
+  set("#market-view", marketView);
+  set("#data-cutoff", dataCutoff);
+  set("#risk-vol", riskVol === "--" ? "--" : `${riskVol}%`);
+  set("#risk-spike", riskSpike === "--" ? "--" : `${riskSpike}%`);
+  set("#report-time", generatedAt);
+  set("#hero-view", marketView);
+  set("#hero-summary", firstReportBullet(markdown));
+  set("#report-coverage", `AI-first snapshot - ${generatedAt}`);
 }
 
 async function loadReport() {

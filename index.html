@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Market Intelligence is an institutional dashboard for deterministic market analytics, macro tape, rule-based reports and Neon market data.">
+  <meta name="description" content="AEGIS is an AI-first market intelligence dashboard with sourced research, macro tape, frozen risk models and Neon market data.">
   <meta name="theme-color" content="#06101d">
   <meta property="og:title" content="Market Intelligence Dashboard">
   <meta property="og:description" content="See clearly. Decide precisely. Act with discipline.">
@@ -47,8 +47,8 @@
       <div class="sidebar-foot">
         <img src="assets/images/aegis/aegis-avatar.png" alt="" width="1254" height="1254" loading="lazy" aria-hidden="true">
         <span>AEGIS</span>
-        <strong>Rules-Based Sentinel</strong>
-        <small>Signal before narrative</small>
+        <strong>AI Research Sentinel</strong>
+        <small>Evidence before narrative</small>
       </div>
     </nav>
 
@@ -61,7 +61,7 @@
             <p class="hero-message">See clearly. Decide precisely. Act with discipline.</p>
             <p id="hero-summary" class="hero-summary">Aegis is retrieving the latest market state.</p>
             <div class="hero-meta" aria-label="Latest report state">
-              <span id="hero-regime">Regime unavailable</span>
+              <span id="hero-view">AI market view unavailable</span>
               <span id="report-time">Report loading</span>
             </div>
             <div class="hero-actions">
@@ -76,10 +76,10 @@
         </div>
 
         <div class="metric-grid" aria-label="Executive Dashboard metrics">
-          <article class="metric"><span>Regime Score</span><strong id="regime-score">--</strong><em id="regime-label">Data unavailable</em><small>Awaiting next successful update</small></article>
-          <article class="metric"><span>US Equity Strength</span><strong id="strength-score">--</strong><em id="strength-label">Data unavailable</em><small>Equity tape strength</small></article>
-          <article class="metric"><span>Evidence Quality</span><strong id="evidence-score">--</strong><em>Signal confidence</em><small>Model agreement and freshness</small></article>
-          <article class="metric"><span>Market Breadth</span><strong id="breadth-score">--</strong><em id="breadth-label">Data unavailable</em><small>Participation quality</small></article>
+          <article class="metric"><span>AI Market View</span><strong id="market-view">--</strong><em id="market-view-label">Research judgment</em><small>Sourced research judgment</small></article>
+          <article class="metric"><span>Data Cutoff</span><strong id="data-cutoff">--</strong><em>Cash close</em><small>Observation date, not report time</small></article>
+          <article class="metric"><span>5D Vol Forecast</span><strong id="risk-vol">--</strong><em>Model vol5_ols_v1</em><small>Annualized; risk only</small></article>
+          <article class="metric"><span>Spike Probability</span><strong id="risk-spike">--</strong><em>≥18.4956% 5D vol</em><small>spike_logit_v1; not directional</small></article>
         </div>
 
         <div class="panel-grid">
@@ -166,7 +166,7 @@
 
       <section id="report" class="section">
         <div class="section-heading">
-          <div><p class="eyebrow">Deterministic Research</p><h2>Latest Rule-Based Market Update</h2></div>
+          <div><p class="eyebrow">AI-First Research</p><h2>Latest AI-First Market Intelligence</h2></div>
           <button id="toggle-report" class="button secondary" type="button">Expand report</button>
         </div>
         <article class="panel report-panel">

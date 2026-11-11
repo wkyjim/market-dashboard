@@ -8,7 +8,7 @@ Local path: `C:\Users\User\OneDrive\Coding\DB_builder\market-dashboard`
 
 ## Purpose
 
-Market Intelligence presents deterministic market analytics from the PostgreSQL / Neon-backed market data stack. It combines a cross-asset macro tape, OHLCV price-history charting, the latest rule-based market update, and unified single-stock short-positioning, price, technical and historical analytics.
+Market Intelligence presents deterministic market analytics from the PostgreSQL / Neon-backed market data stack. It combines a cross-asset macro tape, OHLCV price-history charting, an AI-first sourced market report, a frozen volatility-risk layer, and unified single-stock short-positioning, price, technical and historical analytics.
 
 Aegis is the dashboard identity: the Market Intelligence Sentinel. The visual system is designed to feel institutional, calm, precise, risk-aware, and data-driven.
 
@@ -124,14 +124,14 @@ The generated deterministic report is expected at:
 data/latest-report.md
 ```
 
-The broader DB_builder report process should update this file and push the dashboard repository. The dashboard then renders the report and exposes it to the Telegram bot through the public GitHub Pages URL.
+The DB_builder rule engine now writes its audit-only output to `data/latest-rule-report.md`; the active dashboard report is the AI-first `data/latest-report.md`. The dashboard then renders the report and exposes it to the Telegram bot through the public GitHub Pages URL.
 
 ## Ecosystem Architecture
 
 ```text
 Market data ingestion / PostgreSQL / Neon
 -> Render market API
--> rule-based report generation
+-> AI-first research + frozen risk layer
 -> market-dashboard/data/latest-report.md
 -> GitHub Pages dashboard
 -> Telegram bot report links and commands
