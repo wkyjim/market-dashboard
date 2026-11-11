@@ -1,77 +1,83 @@
 # AEGIS AI-First Market Intelligence
 
-Generated at: 12 November 2026, 04:07 HKT
+Generated at: 12 November 2026, 05:09 HKT
 Data cutoff: 2026-11-10 US cash close
-Snapshot ID: aegis-hourly-20261111T200727Z
+Snapshot ID: aegis-hourly-20261111T210915Z
 
 ## Executive Summary
 
-- **AI market view: Late-November 2026: equities are range-bound with a mild negative bias over 20 days, but breadth is strongly positive and divergence is bullish. Sector leadership is bifurcated: defensive and quality-oriented groups (Health Care, Consumer Staples, Utilities, Real Estate) are advancing, while Information Technology and Communication Services are the weakest sectors. Institutional flows show strong, confirmed buying in semiconductors, quality, and select fixed income, partially offsetting structural distribution in Consumer Discretionary and Financials.**
-- SPX closed at 7549.94 on 2026-11-10, down 3.3% over 20 days, indicating a mild near-term pullback after a strong run.
-- Breadth is decisively positive: 69.28% of constituents above their 50-day moving average, 62.78% above the 200-day, and a 5.42 advance/decline ratio.
-- Price/breadth divergence is bullish (bullish_divergence=true, standardized_divergence=-3.04), suggesting the pullback is not yet a broad-based deterioration.
-- Sector returns over 20 days are led by Health Care (+11.3%) and Consumer Staples (+8.1%), while Information Technology (-13.9%) and Communication Services (-4.0%) are the laggards.
-- Institutional flows show strong confirmation in SOXX, QUAL, SMH, IWM, and IWF, with neutral-to-inflow states in XLV, XLP, XLU, XLRE, and XLK.
-- Macro data remain supportive: unemployment at 4.2%, core PCE at 130.902 (2017=100), and the effective Fed funds rate at 3.88%, with credit spreads tight (HY OAS 3.32%, IG OAS 0.91%).
+- **AI market view: Risk-off tilt with a defensive tilt: broad equity indices are down over the last 20 days, the 20-day return is negative, and the risk block shows elevated 5-day volatility with a 21% spike probability above the 18.5% threshold. Breadth is mixed: most constituents sit above their 50-day and 200-day moving averages, but the advance/decline ratio is strongly positive while new highs are zero, and the price/breadth divergence is negative. Sector returns are bifurcated, with Health Care, Consumer Staples, Consumer Discretionary, Real Estate, Financials, Utilities, Materials and Industrials up over 20 days, while Information Technology and Energy are down. Flows show strong institutional buying in SOXX, QUAL, IWM, IWF and SHY, but structural distribution in XLY, XLF and IWD, and outflows in SGOV and XLC.**
+- Equity market is in a mild risk-off posture: SPX close 7549.94 with a 20-day return of -3.3%.
+- Breadth is mixed: 69.28% above 50-day and 62.78% above 200-day, but zero new highs and a negative price/breadth divergence.
+- Sector performance is bifurcated: defensive and cyclical sectors are up, while Information Technology and Energy are down.
+- Flows show exceptional institutional buying in SOXX, QUAL, IWM, IWF and SHY, but structural distribution in XLY, XLF and IWD.
+- Macro data are dated: latest CPI, core CPI, PCE, unemployment and GDP are from September 2026; policy and credit data are from early November 2026.
+- Risk block shows 5-day forecast volatility of 16.6% and a 21% spike probability, above the 18.5% threshold, with no directional signal.
 
 ## Market Snapshot
 
 | Asset | Latest | Change | Observation |
 | --- | --- | --- | --- |
-| SPX | 7549.94 | -3.3% (20d) | Index is in a mild correction from prior highs; 20-day return negative but breadth remains strongly positive. |
-| XLV | 188.88 | +0.29% (1d) | Health Care ETF advancing; 20-day return +11.3%, the strongest sector; flow state is inflow with strong confirmation. |
-| XLP | 91.03 | +0.15% (1d) | Consumer Staples ETF up; 20-day return +8.1%; tactical rebound inside structural distribution with exceptional institutional buying. |
-| XLY | 121.05 | +0.03% (1d) | Consumer Discretionary ETF flat; 20-day return +7.7%; flow state is neutral with structural distribution. |
-| XLK | 168.91 | -1.15% (1d) | Information Technology ETF down; 20-day return -13.9%, the worst sector; flow state is inflow but price is down. |
-| XLC | 107.76 | +0.37% (1d) | Communication Services ETF up; 20-day return -4.0%; flow state is outflow with exceptional institutional selling. |
-| SOXX | 146.59 | -0.12% (1d) | Semiconductor ETF down on price but strong inflow with strong confirmation and exceptional institutional buying. |
-| QUAL | 55.85 | -0.34% (1d) | Quality factor ETF down on price but strong inflow with strong confirmation and exceptional institutional buying. |
-| SPY | 749.92 | -0.37% (1d) | Broad equity ETF down; flow state is neutral with mixed or neutral flow structure. |
-| TLT | 80.88 | -1.32% (1d) | Long-duration Treasury ETF down; flow state is neutral with medium-term deterioration. |
+| SPX | 7549.94 | -3.3% (20d) | Broad index down over 20 days; risk-off tilt. |
+| XLV | 188.88 | +0.29% | Health Care up; strong institutional confirmation. |
+| XLP | 91.03 | +0.15% | Consumer Staples up; tactical rebound inside structural distribution. |
+| XLY | 121.05 | +0.03% | Consumer Discretionary up; structural distribution. |
+| XLK | 168.91 | -1.15% | Information Technology down; strong institutional inflow but price down. |
+| XLE | 62.21 | +0.44% | Energy up; structural accumulation. |
+| XLI | 168.73 | -0.09% | Industrials flat; medium-term recovery. |
+| XLC | 107.76 | +0.37% | Communication Services up; exceptional institutional selling. |
+| SPY | 749.92 | -0.37% | Broad equity down; mixed or neutral flow structure. |
+| SOXX | 146.59 | -0.12% | Semiconductors down; strong institutional buying and sponsorship. |
+| QUAL | 55.85 | -0.34% | Quality factor down; exceptional institutional buying. |
+| IWM | 280.58 | -0.68% | Small caps down; strong confirmation. |
+| SHY | 81.32 | -0.33% | Short Treasuries down; structural accumulation with exceptional institutional buying. |
+| SGOV | 100.53 | +0.03% | Treasury bills flat; strong confirmation outflow. |
 
 ## Macro, Fiscal, Rates, Liquidity and Credit
 
-- Growth: Real GDP (GDPC1) stands at 24,611.077 billion chained 2017 dollars as of 2026-07-01, indicating continued expansion, though the latest quarterly reading is stale and no subsequent advance estimate is supplied.
-- Inflation: Headline CPI (CPIAUCSL) is 336.298 and core CPI (CPILFESL) is 338.896, both as of 2026-09-01; core PCE (PCEPILFE) is 130.902 and headline PCE (PCEPI) is 132.257, also as of 2026-09-01. No more recent inflation prints are available, so the near-term disinflation trajectory is unverified.
-- Policy: The Federal Funds Effective Rate (DFF) is 3.88% as of 2026-11-04, implying a restrictive but not extreme policy stance; the FOMC calendar is available but no meeting is scheduled in the immediate window.
-- Rates: The 3.88% effective funds rate, combined with tight credit spreads, suggests the market is pricing a stable-to-slightly-easing rate environment; however, TLT fell 1.32% on 2026-11-10, indicating some duration sensitivity.
-- Liquidity: Credit spreads are tight (HY OAS 3.32%, IG OAS 0.91% as of 2026-11-04), which is consistent with orderly risk-taking, but the flow data show structural distribution in Consumer Discretionary and Financials, suggesting selective liquidity rather than broad risk appetite.
-- Credit: High yield and investment grade spreads remain compressed, but the risk block flags a 21.0% spike probability over the next 5 days, above the historical baseline of 22.0% and the EWMA baseline of 21.3%, indicating elevated near-term volatility risk.
+- Growth: Real GDP is 24611.077 billion chained 2017 dollars as of 2026-07-01; the latest growth release is stale and no forward growth indicator is supplied.
+- Inflation: CPI 336.298 and core CPI 338.896 are from 2026-09-01; core PCE 130.902 is also from 2026-09-01. The latest inflation data are stale and no forward inflation path is supplied.
+- Policy: Federal Funds Effective Rate is 3.88% as of 2026-11-04; the FOMC calendar is available but no meeting outcome is supplied.
+- Rates: The policy rate is 3.88%, but no Treasury yield curve or forward rate data are supplied.
+- Liquidity: No money supply, credit aggregates or central bank balance sheet data are supplied.
+- Credit: High yield OAS is 3.32% and corporate OAS is 0.91% as of 2026-11-04; spreads are not extreme but no forward credit trend is supplied.
 
 ## US Equities and 11 GICS Sectors
 
 | GICS sector | Evidence | AI research stance |
 | --- | --- | --- |
-| Health Care | 20-day return +11.3% (XLV); 1-day return +0.29%; flow state inflow with strong confirmation; SPX 20-day return -3.3%. | Defensive leadership is intact; Health Care is the strongest sector and a source of institutional demand, but the 1-day move is modest relative to the 20-day gain. |
-| Consumer Staples | 20-day return +8.1% (XLP); 1-day return +0.15%; flow state inflow with tactical rebound inside structural distribution and exceptional institutional buying. | Staples are providing a stable, quality-oriented anchor; the flow structure suggests institutional accumulation despite a longer-term distribution pattern. |
-| Consumer Discretionary | 20-day return +7.7% (XLY); 1-day return +0.03%; flow state neutral with structural distribution. | Price is advancing but flows are structurally negative; the sector is not being actively bought by institutions, which limits upside durability. |
-| Real Estate | 20-day return +6.6% (XLRE); 1-day return -0.13%; flow state neutral with medium-term recovery. | Recovery in flows is supportive, but the 1-day price decline and neutral flow state suggest the sector is consolidating after a strong 20-day run. |
-| Financials | 20-day return +6.3% (XLF); 1-day return +0.52%; flow state neutral with structural distribution. | Price is up and the 1-day move is the strongest among the major sectors, but flows are structurally negative, indicating a lack of institutional conviction. |
-| Utilities | 20-day return +4.4% (XLU); 1-day return -0.14%; flow state inflow with medium-term deterioration but exceptional institutional buying. | Institutional buying is overriding a deteriorating medium-term flow structure, making Utilities a notable contrarian buy signal. |
-| Materials | 20-day return +6.3% (XLB); 1-day return -0.17%; flow state neutral with medium-term recovery. | Flows are improving, but the 1-day price decline and neutral state suggest the sector is digesting gains. |
-| Industrials | 20-day return +0.04% (XLI); 1-day return -0.09%; flow state neutral with medium-term recovery. | Industrials are essentially flat over 20 days and the flow structure is improving, but there is no clear momentum or institutional demand signal. |
-| Communication Services | 20-day return -4.0% (XLC); 1-day return +0.37%; flow state outflow with medium-term deterioration and exceptional institutional selling. | The weakest sector is also experiencing the most aggressive institutional selling, reinforcing the negative technical picture. |
-| Information Technology | 20-day return -13.9% (XLK); 1-day return -1.15%; flow state inflow with strong confirmation. | Price is falling sharply but flows are strongly positive, suggesting institutional buying is attempting to stabilize the sector; the divergence warrants close monitoring. |
-| Energy | 20-day return -7.4% (XLE); 1-day return +0.44%; flow state neutral with structural accumulation. | Energy is the second-worst sector on price but shows structural accumulation, indicating a potential bottoming process despite the negative 20-day return. |
+| Health Care | XLV 20-day return 0.1133; flow zscore 20d 1.94, 60d 1.26; flow state inflow; price up; strong confirmation. | Defensive sector with strong institutional confirmation; maintain a constructive but cautious stance. |
+| Consumer Staples | XLP 20-day return 0.0812; flow zscore 20d -1.33, 60d -0.03; flow state inflow; price up; tactical rebound inside structural distribution. | Defensive sector with mixed flow signals; tactical rebound but structural distribution remains. |
+| Consumer Discretionary | XLY 20-day return 0.0773; flow zscore 20d -0.71, 60d -1.25; flow state neutral; price up; structural distribution. | Cyclical sector up on price but in structural distribution; monitor for further distribution. |
+| Real Estate | XLRE 20-day return 0.0657; flow zscore 20d 0.70, 60d -1.02; flow state neutral; price up; medium-term recovery. | Sector up with medium-term recovery; neutral flow state warrants caution. |
+| Financials | XLF 20-day return 0.0633; flow zscore 20d -0.31, 60d -1.66; flow state neutral; price up; structural distribution. | Financials up on price but in structural distribution; 60-day flow zscore is negative. |
+| Utilities | XLU 20-day return 0.0444; flow zscore 20d -1.48, 60d 1.18; flow state inflow; price up; medium-term deterioration with exceptional institutional buying. | Utilities up with exceptional institutional buying despite medium-term deterioration; defensive demand is evident. |
+| Materials | XLB 20-day return 0.0630; flow zscore 20d -0.43, 60d -1.46; flow state neutral; price up; medium-term recovery. | Materials up with medium-term recovery; neutral flow state warrants caution. |
+| Industrials | XLI 20-day return 0.0004; flow zscore 20d -0.17, 60d -1.22; flow state neutral; price flat; medium-term recovery. | Industrials flat with medium-term recovery; neutral flow state warrants caution. |
+| Communication Services | XLC 20-day return -0.0403; flow zscore 20d -1.02, 60d 1.21; flow state outflow; price flat; exceptional institutional selling. | Communication Services down with exceptional institutional selling; negative flow signal. |
+| Information Technology | XLK 20-day return -0.1394; flow zscore 20d 0.51, 60d 0.47; flow state inflow; price down; strong confirmation. | Information Technology down despite strong institutional inflow; price/breadth divergence suggests caution. |
+| Energy | XLE 20-day return -0.0743; flow zscore 20d 0.00, 60d 0.08; flow state neutral; price down; structural accumulation. | Energy down with structural accumulation; neutral flow state warrants caution. |
 
 ### Sector fundamentals, valuation and earnings
 
-No point-in-time sector fundamentals (e.g., P/E, EPS growth, dividend yield, or sector-level earnings estimates) are supplied in the current evidence set. The sector analysis is therefore based exclusively on price, flow, and breadth data. Any fundamental valuation or earnings-based sector view would be speculative and is not included.
+No point-in-time sector fundamentals are supplied in the evidence. The sector data consist of ETF returns, flow z-scores, flow states and flow structures for 2026-11-10, plus breadth indicators for 2026-11-09. No sector-level earnings, valuation, margin, revenue or balance-sheet data are available, so no sector fundamental assessment can be made from the supplied evidence.
 
 ## Growth vs Value
 
-- Growth: Information Technology is the only major sector with a negative 20-day return (-13.9%), but the strong inflow and strong confirmation flow structure suggest institutional stabilization is underway; this is a growth-sector signal that is not yet reflected in price.
-- Value: Consumer Staples (+8.1%) and Health Care (+11.3%) are the strongest 20-day performers, consistent with a value/defensive tilt, while Information Technology (-13.9%) and Energy (-7.4%) are the weakest, suggesting a rotation away from growth and cyclical value.
-- The flow data show that quality-oriented assets (QUAL, XLV, XLP) are receiving exceptional institutional buying, which supports a value/quality bias over pure growth.
-- No sector-level valuation multiples or earnings growth data are supplied, so the growth/value assessment is limited to price momentum and flow evidence.
+- Growth: Information Technology is the only major sector with a negative 20-day return (-13.94%), while most other sectors are positive; the growth/value split is not cleanly aligned with the supplied data.
+- Value: No sector-level valuation multiples, earnings yield or book-to-price data are supplied, so a value tilt cannot be quantified.
+- Quality: QUAL shows exceptional institutional buying (20d z-score 6.39, 60d z-score 5.36) despite a negative price return, suggesting quality factor demand is present.
+- Dividend: DGRO is up 0.28% on 2026-11-10, but no dividend yield or payout data are supplied.
 
 ## ETF Flows and Breadth
 
-- Breadth is strongly positive: 69.28% of constituents above their 50-day moving average, 62.78% above the 200-day, and a 5.42 advance/decline ratio on 2026-11-09.
-- Price/breadth divergence is bullish (bullish_divergence=true, standardized_divergence=-3.04), indicating the current pullback is not being driven by broad market weakness.
-- Institutional flows show strong confirmation in SOXX (z-score 5.62), QUAL (z-score 6.39), SMH (z-score 1.72), IWM (z-score 0.65), and IWF (z-score 0.86), indicating concentrated buying in semiconductors, quality, and small caps.
-- Structural distribution is visible in XLY (Consumer Discretionary) and XLF (Financials), while XLC (Communication Services) shows exceptional institutional selling.
-- Fixed income flows are mixed: SHY shows structural accumulation with exceptional institutional buying, while SGOV shows strong confirmation of outflow; TLT is neutral with medium-term deterioration.
+- Breadth: 69.28% of constituents above 50-day and 62.78% above 200-day; 69.94% positive on 20-day; advance/decline ratio 5.42 with 423 advancers vs 78 decliners.
+- Breadth: Zero new highs and zero new lows; advance/decline ratio is positive but the price/breadth divergence is -35.6, indicating a negative divergence.
+- Flows: SOXX (20d z-score 5.62, 60d 3.84), QUAL (20d 6.39, 60d 5.36), IWM (20d 0.65, 60d 1.42), IWF (20d 0.86, 60d 0.49) and SHY (20d 0.72, 60d 2.29) show strong institutional buying.
+- Flows: XLY (20d -0.71, 60d -1.25), XLF (20d -0.31, 60d -1.66), IWD (20d -0.56, 60d -0.99) and IVW (20d -0.93, 60d -0.07) show structural distribution.
+- Flows: SGOV shows a strong confirmation outflow (20d -1.88
+- 60d -1.66)
+- while XLC shows exceptional institutional selling (20d -1.02
 
 ## Investment Ideas
 
@@ -82,56 +88,56 @@ All ideas are research judgments, not validated return predictions.
 | NVDA | Nvidia | KEEP | 168.89 | 185.00 | KEEP |
 | INTC | Intel | REPLACE | 58.13 | 55.00 | REPLACE |
 | AMD | Advanced Micro Devices | KEEP | 515.21 | 560.00 | KEEP |
+| SMCI | Supermicro | KEEP | 27.79 | 31.00 | KEEP |
 | XLV | Health Care sector ETF | KEEP | 188.88 | 195.00 | KEEP |
-| SOXX | SOXX | KEEP | 146.59 | 150.00 | KEEP |
 ### NVDA — Nvidia
 
 - **Research view:** KEEP
-- **Thesis:** AI capex supercycle and data-center demand remain intact; the 20-day pullback is a tactical shakeout rather than a demand break. Institutional inflows into SOXX/QUAL and strong 50-day breadth support continuation.
-- **Catalysts:** Continued hyperscaler AI capex commitments, Data-center revenue momentum and next-gen platform adoption, Institutional buying into semiconductor ETFs (SOXX, QUAL)
-- **Risks:** 20-day price decline of -5.5% signals near-term profit-taking, Valuation sensitivity to AI capex pacing and competitive supply constraints, Concentration risk in a single-name AI bet
-- **Valuation assumptions:** Base case assumes AI capex remains at trend and NVDA retains ~70%+ data-center share; bull case assumes accelerated enterprise AI adoption; bear case assumes capex moderation or supply constraints.
-- **Bull / Base / Bear:** 215.00 / 185.00 / 140.00
+- **Thesis:** AI capex supercycle and data-center demand remain intact; the stock's -5.5% pullback on 20-day momentum weakness is a tactical entry point if earnings and AI infrastructure demand hold. Sector breadth shows 69.3% above 50-day and 62.8% above 200-day, with 69.9% positive 20-day, indicating broad market support despite the single-stock drawdown.
+- **Catalysts:** Continued hyperscaler AI capex commitments through 2027, Data-center revenue growth and next-gen accelerator ramp, Potential AI infrastructure policy or tax support, Recovery in 20-day momentum if the pullback stabilizes
+- **Risks:** Valuation compression if AI capex growth slows, Geopolitical or export-control restrictions on advanced chips, Single-stock concentration risk and earnings disappointment, Macro or credit spread widening could pressure high-multiple names
+- **Valuation assumptions:** Assumes AI capex growth of 15-20% annually, sustained data-center demand, and no material export-control shocks. Uses a 25-30x forward earnings multiple consistent with large-cap AI leaders.
+- **Bull / Base / Bear:** 220.00 / 185.00 / 130.00
 - **Scenario probabilities:** 30 / 45 / 25
 
 ### INTC — Intel
 
 - **Research view:** REPLACE
-- **Thesis:** Intel is a high-risk turnaround story with structural execution and competitive positioning concerns. The negative 20-day price drift and neutral-to-structural flow signals do not support a constructive view at current levels.
-- **Catalysts:** Potential foundry partnership or product milestone, Capital allocation or portfolio restructuring, AI workload relevance improvement
-- **Risks:** Structural distribution and weak institutional flows, Execution risk on foundry and product roadmap, Competitive pressure in data-center and client CPU/GPU markets
-- **Valuation assumptions:** Base case assumes no material catalyst and continued flat-to-negative price action; bull case assumes a catalyst-driven re-rating; bear case assumes further deterioration.
-- **Bull / Base / Bear:** 70.00 / 55.00 / 42.00
-- **Scenario probabilities:** 20 / 50 / 30
+- **Thesis:** Intel is a high-risk turnaround story with structural challenges in foundry and product execution. The -2.1% decline and elevated volume suggest continued skepticism. Replace with a more clearly positioned AI/semiconductor or infrastructure name rather than holding a speculative turnaround.
+- **Catalysts:** Successful foundry partnerships or product wins, Cost restructuring and margin improvement, Potential government or customer support for domestic manufacturing
+- **Risks:** Execution risk in foundry strategy, Competitive pressure from AMD, Nvidia, and TSMC, Balance sheet and cash flow deterioration, Low probability of a meaningful re-rating without a clear catalyst
+- **Valuation assumptions:** Assumes no material catalyst for re-rating; base case is continued underperformance with possible further downside. Uses a distressed valuation framework with a low probability of recovery.
+- **Bull / Base / Bear:** 75.00 / 55.00 / 40.00
+- **Scenario probabilities:** 15 / 55 / 30
 
 ### AMD — Advanced Micro Devices
 
 - **Research view:** KEEP
-- **Thesis:** AMD benefits from AI accelerator demand and a more diversified portfolio than peers. The 20-day uptrend and positive price action support a constructive stance, though near-term volatility is expected.
-- **Catalysts:** Continued MI300/next-gen MI350 demand, Data-center revenue growth and competitive positioning, Institutional inflows into semiconductor ETFs
-- **Risks:** 20-day price gain of +1.3% is modest relative to peers, Competitive intensity in AI accelerators, Valuation sensitivity to AI capex pacing
-- **Valuation assumptions:** Base case assumes steady AI demand and market share gains; bull case assumes accelerated enterprise AI adoption; bear case assumes competitive share loss or capex moderation.
-- **Bull / Base / Bear:** 620.00 / 560.00 / 430.00
+- **Thesis:** AMD benefits from AI accelerator demand and data-center growth, with a more diversified portfolio than Nvidia. The +1.3% gain and positive 20-day breadth support a constructive view. The sector's 69.3% above 50-day and 62.8% above 200-day provide a supportive backdrop.
+- **Catalysts:** MI300/next-gen accelerator adoption in cloud and enterprise, Data-center revenue growth and EPYC server demand, Potential foundry or partnership expansion, Continued AI capex normalization across hyperscalers
+- **Risks:** Competition from Nvidia and custom ASIC development, Memory and supply chain constraints, Valuation sensitivity to AI capex cycles, Macro or credit spread widening could pressure high-multiple names
+- **Valuation assumptions:** Assumes data-center revenue growth of 20-25% annually, stable AI accelerator market share, and a 20-25x forward earnings multiple. Uses a base case of steady growth with moderate multiple expansion.
+- **Bull / Base / Bear:** 620.00 / 560.00 / 420.00
+- **Scenario probabilities:** 30 / 45 / 25
+
+### SMCI — Supermicro
+
+- **Research view:** KEEP
+- **Thesis:** Supermicro is a direct beneficiary of AI infrastructure buildout, with strong institutional buying (flow z-score 20d +5.6, 60d +3.8) and strong sponsorship. The -2.8% decline on elevated volume is a tactical pullback within a broader AI infrastructure theme. Sector breadth supports the AI infrastructure narrative.
+- **Catalysts:** AI server and storage demand growth, Data-center expansion and hyperscaler orders, Potential supply chain normalization and margin improvement, Institutional accumulation as a leading AI infrastructure play
+- **Risks:** Execution risk in scaling manufacturing and supply chain, Competition from larger integrators and ODM models, Valuation sensitivity to AI capex cycles, Macro or credit spread widening could pressure small-cap names
+- **Valuation assumptions:** Assumes AI infrastructure demand growth of 15-20% annually, stable order intake, and a 15-20x forward earnings multiple. Uses a base case of steady growth with moderate multiple expansion.
+- **Bull / Base / Bear:** 38.00 / 31.00 / 20.00
 - **Scenario probabilities:** 30 / 45 / 25
 
 ### XLV — Health Care sector ETF
 
 - **Research view:** KEEP
-- **Thesis:** Health Care is the top 20-day performer (+11.3%) with strong institutional inflows and structural confirmation. Defensive positioning and positive breadth support a constructive view.
-- **Catalysts:** Institutional inflows and strong confirmation, Defensive demand in a mixed macro environment, Positive 20-day breadth and above-50d indicator coverage
-- **Risks:** 20-day return of +11.3% leaves limited upside, Policy and regulatory uncertainty, Sector concentration risk
-- **Valuation assumptions:** Base case assumes steady sector performance and continued institutional support; bull case assumes positive regulatory developments; bear case assumes policy shocks or sector rotation.
-- **Bull / Base / Bear:** 205.00 / 195.00 / 175.00
-- **Scenario probabilities:** 30 / 45 / 25
-
-### SOXX — SOXX
-
-- **Research view:** KEEP
-- **Thesis:** SOXX shows exceptional institutional buying and strong sponsorship despite a modest 20-day decline. Semiconductor ETF flows and breadth support a constructive view on the sector.
-- **Catalysts:** Exceptional institutional buying and strong sponsorship, Strong confirmation in flow data, Positive 20-day breadth and above-50d indicator coverage
-- **Risks:** 20-day price decline of -0.1% is modest but flows are negative, Concentration risk in semiconductor names, Valuation sensitivity to AI capex pacing
-- **Valuation assumptions:** Base case assumes continued institutional support and steady AI demand; bull case assumes accelerated capex; bear case assumes capex moderation or competitive supply constraints.
-- **Bull / Base / Bear:** 160.00 / 150.00 / 130.00
+- **Thesis:** Health Care is the top 20-day performer (+11.3%) with strong institutional inflows (flow z-score 20d +1.9, 60d +1.3) and strong confirmation. The sector's defensive characteristics and positive breadth (69.3% above 50-day, 62.8% above 200-day) make it a resilient holding in a mixed macro environment.
+- **Catalysts:** Stable demand for healthcare services and products, Potential policy support for drug pricing or innovation, Defensive rotation into healthcare during market uncertainty, Positive 20-day breadth (69.9% positive) supporting sector strength
+- **Risks:** Regulatory or reimbursement policy changes, Drug pricing pressure or patent cliffs, Macro slowdown reducing healthcare utilization, Sector concentration risk in large-cap pharma
+- **Valuation assumptions:** Assumes stable healthcare demand, moderate revenue growth of 5-8%, and a 15-18x forward earnings multiple. Uses a base case of steady growth with defensive characteristics.
+- **Bull / Base / Bear:** 210.00 / 195.00 / 165.00
 - **Scenario probabilities:** 30 / 45 / 25
 
 ## Quant Risk Layer
@@ -158,22 +164,20 @@ Risk-only; no directional interpretation or allocation implication.
 
 | Scenario | Probability | S&P 500 range | Assumptions |
 | --- | --- | --- | --- |
-| Bull | 25% | S&P 7549.94 to 7800 | AI capex remains strong, breadth stays positive, and institutional flows continue into semiconductors and health care. |
-| Base | 50% | S&P 7549.94 to 7600 | Tactical consolidation with mixed flows; no major macro shock; sector rotation continues. |
-| Bear | 25% | S&P 7549.94 to 7300 | Capex moderation, negative breadth divergence, and risk-off flows into Treasuries. |
+| Bull | 25% | S&P 7,550–7,800 | AI capex remains robust, breadth stays positive, and no major macro shock. Sector leadership rotates into AI infrastructure and healthcare. |
+| Base | 50% | S&P 7,300–7,600 | Gradual normalization of AI capex, stable macro data, and continued positive breadth. Sector rotation is mixed but orderly. |
+| Bear | 25% | S&P 7,000–7,300 | Credit spread widening, macro slowdown, or AI capex disappointment. Defensive sectors outperform, but broad market declines. |
 
 ### Long Term
 
 | Scenario | Probability | S&P 500 range | Assumptions |
 | --- | --- | --- | --- |
-| Bull | 30% | S&P 7549.94 to 8200 | Sustained AI investment cycle, productivity gains, and positive macro data. |
-| Base | 45% | S&P 7549.94 to 7800 | Gradual normalization with steady earnings growth and balanced flows. |
-| Bear | 25% | S&P 7549.94 to 6900 | Recession risk, credit stress, or policy shock. |
+| Bull | 30% | S&P 8,200–8,800 | Sustained AI infrastructure investment, productivity gains, and stable policy. Broad market breadth remains positive with sector leadership. |
+| Base | 45% | S&P 7,600–8,200 | Gradual AI capex normalization, stable macro, and orderly sector rotation. No major policy or geopolitical shocks. |
+| Bear | 25% | S&P 6,800–7,600 | Recession risk, credit stress, or AI capex reversal. Defensive sectors outperform, but broad market declines. |
 
 ## Positioning
 
-- Maintain a defensive tilt: Health Care, Consumer Staples, and Utilities are the strongest sectors on both price and flow evidence.
-- Monitor Information Technology closely: price
 
 ## Catalysts
 
