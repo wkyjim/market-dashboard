@@ -1,24 +1,71 @@
 {
   "schema": "aegis-hourly-snapshot-v1",
-  "snapshot_id": "aegis-hourly-20261111T210915Z",
-  "generated_at_utc": "2026-11-11T21:09:15.362790+00:00",
-  "as_of": "2026-11-10",
+  "snapshot_id": "aegis-hourly-20261111T232546Z",
+  "generated_at_utc": "2026-11-11T23:25:46.015207+00:00",
+  "as_of": "2026-11-11",
   "latest_equity_date": "2026-11-10",
   "latest_macro_date": "2026-11-11",
   "data_qc": {
     "equity_session": "2026-11-10",
-    "equity_lag_sessions": 0,
+    "equity_lag_sessions": 1,
     "macro_date": "2026-11-11",
     "breadth_date": "2026-11-09",
-    "breadth_lag_sessions": 1,
+    "breadth_lag_sessions": 2,
     "flows_date": "2026-11-10",
-    "flows_lag_sessions": 0,
-    "status": "PASS_WITH_WARNINGS"
+    "flows_lag_sessions": 1,
+    "status": "PASS_WITH_WARNINGS",
+    "warning": "US equity data is one completed session behind the inference date; not an automatic failure.",
+    "warning_detail": "Breadth or ETF-flow input lags the equity session; each is timestamped in the report."
   },
   "model": "upstage/solar-mini4:free",
-  "evidence_sha256": "30aae932578197315f172878fcce7af34aee3588a543d405a047a1db1839c5aa",
-  "report_sha256": "3035cc21f8de92271fcaaaabf32fb77d5398e6b45d9e6dc35cd9f4c3c9b7dcd1",
-  "content_sha256": "4ff40949f3bc79a031c170f42dbf0f89b76035e8d4671c90dd5b418baa1e2d31",
+  "ai": {
+    "provider": "hermes-local-proxy",
+    "model": "upstage/solar-mini4:free",
+    "market": {
+      "provider": "hermes-local-proxy",
+      "model": "upstage/solar-mini4:free",
+      "prompt_chars": 1720,
+      "payload_chars": 28293,
+      "attempts": 1,
+      "prompt_tokens": 14526,
+      "completion_tokens": 3000,
+      "total_tokens": 17526,
+      "elapsed_s": 37.08,
+      "response_sha256": "a7d50392bf461c63adeeb5484aa4a0023c8751a36a63a8daa19dacf4cd9a347b"
+    },
+    "fundamental_research": {
+      "cached": true,
+      "cached_at": "2026-11-11T23:25:09.229439+00:00",
+      "age_hours": 0.01,
+      "fingerprint": "e0b21641eb89557fcb0e0b9e3a07cb146f10cc87972f1f9e1b42d6c3de94cbaa",
+      "source_dates": {
+        "as_of": "2026-11-11",
+        "latest_equity_date": "2026-11-10",
+        "latest_macro_date": "2026-11-11",
+        "flows_date": "2026-11-10",
+        "breadth_date": "2026-11-09"
+      }
+    },
+    "fingerprint": "e0b21641eb89557fcb0e0b9e3a07cb146f10cc87972f1f9e1b42d6c3de94cbaa",
+    "source_dates": {
+      "as_of": "2026-11-11",
+      "latest_equity_date": "2026-11-10",
+      "latest_macro_date": "2026-11-11",
+      "flows_date": "2026-11-10",
+      "breadth_date": "2026-11-09"
+    },
+    "generated_at": "2026-11-11T23:25:46.015207+00:00"
+  },
+  "source_dates": {
+    "as_of": "2026-11-11",
+    "latest_equity_date": "2026-11-10",
+    "latest_macro_date": "2026-11-11",
+    "flows_date": "2026-11-10",
+    "breadth_date": "2026-11-09"
+  },
+  "evidence_sha256": "57b0960abc2940dc22a8f95171ed1287433de1d846e2f67ed0afd9d1f80a2bb4",
+  "report_sha256": "df01d942206dba8a5c0a9edce7aacc6c7c339bfdb605de6b898a4e39e016cee8",
+  "content_sha256": "f8b62aa742c9e699b8277fd64e6f4850b02f9cf25f5550edc7c4ca279f0bf483",
   "risk": {
     "forecast_id": "4483e85bf2b109fe",
     "as_of": "2026-11-10",
@@ -48,5 +95,22 @@
     "spike_rate": null,
     "brier": null
   },
+  "alerts": [
+    {
+      "type": "data_qc",
+      "detail": {
+        "equity_session": "2026-11-10",
+        "equity_lag_sessions": 1,
+        "macro_date": "2026-11-11",
+        "breadth_date": "2026-11-09",
+        "breadth_lag_sessions": 2,
+        "flows_date": "2026-11-10",
+        "flows_lag_sessions": 1,
+        "status": "PASS_WITH_WARNINGS",
+        "warning": "US equity data is one completed session behind the inference date; not an automatic failure.",
+        "warning_detail": "Breadth or ETF-flow input lags the equity session; each is timestamped in the report."
+      }
+    }
+  ],
   "qc": "PASS"
 }
