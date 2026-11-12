@@ -1,7 +1,7 @@
 {
   "schema": "aegis-hourly-snapshot-v1",
-  "snapshot_id": "aegis-hourly-20261111T233915Z",
-  "generated_at_utc": "2026-11-11T23:39:15.351220+00:00",
+  "snapshot_id": "aegis-hourly-20261112T003017Z",
+  "generated_at_utc": "2026-11-12T00:30:17.170801+00:00",
   "as_of": "2026-11-11",
   "latest_equity_date": "2026-11-10",
   "latest_macro_date": "2026-11-11",
@@ -26,17 +26,17 @@
       "model": "upstage/solar-mini4:free",
       "prompt_chars": 1720,
       "payload_chars": 28289,
-      "attempts": 2,
+      "attempts": 1,
       "prompt_tokens": 14522,
       "completion_tokens": 3000,
       "total_tokens": 17522,
-      "elapsed_s": 121.84,
-      "response_sha256": "a4215cbe80333acb1d198c0985feb5c8298fe6bb2093cabb56de94a99c96442f"
+      "elapsed_s": 39.23,
+      "response_sha256": "0f8828c78a357b6a9456e0e7611ea7f0bf652853f816aacc958750f6b07f1926"
     },
     "fundamental_research": {
       "cached": true,
       "cached_at": "2026-11-11T23:34:43.845880+00:00",
-      "age_hours": 0.08,
+      "age_hours": 0.93,
       "fingerprint": "64410befd339764a6a5d770fbff9a812a1151ff832fb971bc99350250ed49880",
       "source_dates": {
         "as_of": "2026-11-11",
@@ -54,7 +54,7 @@
       "flows_date": "2026-11-10",
       "breadth_date": "2026-11-09"
     },
-    "generated_at": "2026-11-11T23:39:15.351220+00:00"
+    "generated_at": "2026-11-12T00:30:17.170801+00:00"
   },
   "source_dates": {
     "as_of": "2026-11-11",
@@ -64,9 +64,9 @@
     "breadth_date": "2026-11-09"
   },
   "evidence_sha256": "57b0960abc2940dc22a8f95171ed1287433de1d846e2f67ed0afd9d1f80a2bb4",
-  "report_sha256": "2332a39ae4d2aec0ffde7829451fb17d447bb9d931d723e4384eaa35e5ddc5b5",
+  "report_sha256": "809ae33ef7dd064b13ae8e2f50fba82ff38f2ee1550c8d4a509851f645a4a812",
   "risk_layer_sha256": "4e2ad99055d7a1e7ed4273efdbf0d4eabbf96dc62154db4445aa187b5779bd72",
-  "content_sha256": "2fdf7cf89fb9395a9718f856e913699858fa8847cbb9423eb5d466db651c77ce",
+  "content_sha256": "3020a5f773dea6040e82e02d85fe35eb7fb20aa56a2721977aa4551ed05cc0bf",
   "risk": {
     "forecast_id": "e70ad7b66611cf45",
     "as_of": "2026-11-11",
