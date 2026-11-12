@@ -1,7 +1,7 @@
 {
   "schema": "aegis-hourly-snapshot-v1",
-  "snapshot_id": "aegis-hourly-20261112T031547Z",
-  "generated_at_utc": "2026-11-12T03:15:47.783967+00:00",
+  "snapshot_id": "aegis-hourly-20261112T041448Z",
+  "generated_at_utc": "2026-11-12T04:14:48.400180+00:00",
   "as_of": "2026-11-11",
   "latest_equity_date": "2026-11-10",
   "latest_macro_date": "2026-11-11",
@@ -25,18 +25,18 @@
       "provider": "hermes-local-proxy",
       "model": "upstage/solar-mini4:free",
       "prompt_chars": 1720,
-      "payload_chars": 28339,
+      "payload_chars": 28315,
       "attempts": 1,
-      "prompt_tokens": 14519,
+      "prompt_tokens": 14515,
       "completion_tokens": 3000,
-      "total_tokens": 17519,
-      "elapsed_s": 47.11,
-      "response_sha256": "91786d4d3e596fc194b5c6da3295d19210df20b840875918e90f7a36435ed686"
+      "total_tokens": 17515,
+      "elapsed_s": 41.22,
+      "response_sha256": "14ed0f39bb05a52e8595ba169d35f5cd9ca31fdab709bc473bff8b1c3dbf5b42"
     },
     "fundamental_research": {
       "cached": true,
       "cached_at": "2026-11-12T01:41:15.505653+00:00",
-      "age_hours": 1.58,
+      "age_hours": 2.56,
       "fingerprint": "5a5c1220b83b983b6596cd13ca9a7ef5b7db4d80ce26733828e740215fcd2543",
       "source_dates": {
         "as_of": "2026-11-11",
@@ -54,7 +54,7 @@
       "flows_date": "2026-11-11",
       "breadth_date": "2026-11-09"
     },
-    "generated_at": "2026-11-12T03:15:47.783967+00:00"
+    "generated_at": "2026-11-12T04:14:48.400180+00:00"
   },
   "source_dates": {
     "as_of": "2026-11-11",
@@ -63,10 +63,10 @@
     "flows_date": "2026-11-11",
     "breadth_date": "2026-11-09"
   },
-  "evidence_sha256": "5ce64f139cc9892e1239b01f57360213cc418c1eb6d200fc574e59ab6c757d17",
-  "report_sha256": "3671331dd3a847dafd46cc1fcc73333d4d9af97cb735aa5250bf1d621ea10474",
+  "evidence_sha256": "e2bcb64364b05936400e3567c95dd401a26fcc57eb8d162e5ad56af237b76f60",
+  "report_sha256": "3d93013ea06eba354ea5197b509d5bee0ddf87d6e01b6f4143e3c510abbebfff",
   "risk_layer_sha256": "4e2ad99055d7a1e7ed4273efdbf0d4eabbf96dc62154db4445aa187b5779bd72",
-  "content_sha256": "ede59a2e3a9c1c9a8086adb4ba47fa2548c789e17c0a89f00e6867cce6dfd7cc",
+  "content_sha256": "21ceb38a4bcd7c6137b69bd1d840eba330b9e15655e887730dbb158f0569303e",
   "risk": {
     "forecast_id": "e70ad7b66611cf45",
     "as_of": "2026-11-11",
