@@ -1,7 +1,7 @@
 {
   "schema": "aegis-hourly-snapshot-v1",
-  "snapshot_id": "aegis-hourly-20261112T021645Z",
-  "generated_at_utc": "2026-11-12T02:16:45.891455+00:00",
+  "snapshot_id": "aegis-hourly-20261112T031547Z",
+  "generated_at_utc": "2026-11-12T03:15:47.783967+00:00",
   "as_of": "2026-11-11",
   "latest_equity_date": "2026-11-10",
   "latest_macro_date": "2026-11-11",
@@ -30,13 +30,13 @@
       "prompt_tokens": 14519,
       "completion_tokens": 3000,
       "total_tokens": 17519,
-      "elapsed_s": 41.92,
-      "response_sha256": "af4512597c4d6554ac569fee40139585a86a0d33945ae556fbf908ed70ef2f35"
+      "elapsed_s": 47.11,
+      "response_sha256": "91786d4d3e596fc194b5c6da3295d19210df20b840875918e90f7a36435ed686"
     },
     "fundamental_research": {
       "cached": true,
       "cached_at": "2026-11-12T01:41:15.505653+00:00",
-      "age_hours": 0.6,
+      "age_hours": 1.58,
       "fingerprint": "5a5c1220b83b983b6596cd13ca9a7ef5b7db4d80ce26733828e740215fcd2543",
       "source_dates": {
         "as_of": "2026-11-11",
@@ -54,7 +54,7 @@
       "flows_date": "2026-11-11",
       "breadth_date": "2026-11-09"
     },
-    "generated_at": "2026-11-12T02:16:45.891455+00:00"
+    "generated_at": "2026-11-12T03:15:47.783967+00:00"
   },
   "source_dates": {
     "as_of": "2026-11-11",
@@ -64,9 +64,9 @@
     "breadth_date": "2026-11-09"
   },
   "evidence_sha256": "5ce64f139cc9892e1239b01f57360213cc418c1eb6d200fc574e59ab6c757d17",
-  "report_sha256": "29d3764009456aa0777cd6c828ca7a707674143c7d4c0dd7cfd1969a47051098",
+  "report_sha256": "3671331dd3a847dafd46cc1fcc73333d4d9af97cb735aa5250bf1d621ea10474",
   "risk_layer_sha256": "4e2ad99055d7a1e7ed4273efdbf0d4eabbf96dc62154db4445aa187b5779bd72",
-  "content_sha256": "80aea1607c7192744a9d6f02f578104c65c0f0a9f5ad69793dadb87deab1f524",
+  "content_sha256": "ede59a2e3a9c1c9a8086adb4ba47fa2548c789e17c0a89f00e6867cce6dfd7cc",
   "risk": {
     "forecast_id": "e70ad7b66611cf45",
     "as_of": "2026-11-11",
