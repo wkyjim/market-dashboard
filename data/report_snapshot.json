@@ -1,20 +1,19 @@
 {
   "schema": "aegis-hourly-snapshot-v1",
-  "snapshot_id": "aegis-hourly-20261112T041448Z",
-  "generated_at_utc": "2026-11-12T04:14:48.400180+00:00",
+  "snapshot_id": "aegis-hourly-20261112T051658Z",
+  "generated_at_utc": "2026-11-12T05:16:58.870092+00:00",
   "as_of": "2026-11-11",
-  "latest_equity_date": "2026-11-10",
+  "latest_equity_date": "2026-11-11",
   "latest_macro_date": "2026-11-11",
   "data_qc": {
-    "equity_session": "2026-11-10",
-    "equity_lag_sessions": 1,
+    "equity_session": "2026-11-11",
+    "equity_lag_sessions": 0,
     "macro_date": "2026-11-11",
     "breadth_date": "2026-11-09",
     "breadth_lag_sessions": 2,
     "flows_date": "2026-11-11",
     "flows_lag_sessions": 0,
     "status": "PASS_WITH_WARNINGS",
-    "warning": "US equity data is one completed session behind the inference date; not an automatic failure.",
     "warning_detail": "Breadth or ETF-flow input lags the equity session; each is timestamped in the report."
   },
   "model": "upstage/solar-mini4:free",
@@ -25,48 +24,56 @@
       "provider": "hermes-local-proxy",
       "model": "upstage/solar-mini4:free",
       "prompt_chars": 1720,
-      "payload_chars": 28315,
-      "attempts": 1,
-      "prompt_tokens": 14515,
+      "payload_chars": 27721,
+      "attempts": 2,
+      "prompt_tokens": 14265,
       "completion_tokens": 3000,
-      "total_tokens": 17515,
-      "elapsed_s": 41.22,
-      "response_sha256": "14ed0f39bb05a52e8595ba169d35f5cd9ca31fdab709bc473bff8b1c3dbf5b42"
+      "total_tokens": 17265,
+      "elapsed_s": 124.41,
+      "response_sha256": "6089ad9980d750a8ea32c26339f258b5e381e5ef6b4b3342c3109635ee085915"
     },
     "fundamental_research": {
-      "cached": true,
-      "cached_at": "2026-11-12T01:41:15.505653+00:00",
-      "age_hours": 2.56,
-      "fingerprint": "5a5c1220b83b983b6596cd13ca9a7ef5b7db4d80ce26733828e740215fcd2543",
+      "provider": "hermes-local-proxy",
+      "model": "upstage/solar-mini4:free",
+      "prompt_chars": 1708,
+      "payload_chars": 27721,
+      "attempts": 1,
+      "prompt_tokens": 14294,
+      "completion_tokens": 1929,
+      "total_tokens": 16223,
+      "elapsed_s": 22.85,
+      "response_sha256": "88b7e683c4dd4d627ba3c17715ed30eea9e90f8e27ae37e41045ae16e090c84c",
+      "cached": false,
+      "fingerprint": "064615008723e729a7e557cb7afe963e7e96493fcb16c06cdef96326e0d49e4a",
       "source_dates": {
         "as_of": "2026-11-11",
-        "latest_equity_date": "2026-11-10",
+        "latest_equity_date": "2026-11-11",
         "latest_macro_date": "2026-11-11",
         "flows_date": "2026-11-11",
         "breadth_date": "2026-11-09"
       }
     },
-    "fingerprint": "5a5c1220b83b983b6596cd13ca9a7ef5b7db4d80ce26733828e740215fcd2543",
+    "fingerprint": "064615008723e729a7e557cb7afe963e7e96493fcb16c06cdef96326e0d49e4a",
     "source_dates": {
       "as_of": "2026-11-11",
-      "latest_equity_date": "2026-11-10",
+      "latest_equity_date": "2026-11-11",
       "latest_macro_date": "2026-11-11",
       "flows_date": "2026-11-11",
       "breadth_date": "2026-11-09"
     },
-    "generated_at": "2026-11-12T04:14:48.400180+00:00"
+    "generated_at": "2026-11-12T05:16:58.870092+00:00"
   },
   "source_dates": {
     "as_of": "2026-11-11",
-    "latest_equity_date": "2026-11-10",
+    "latest_equity_date": "2026-11-11",
     "latest_macro_date": "2026-11-11",
     "flows_date": "2026-11-11",
     "breadth_date": "2026-11-09"
   },
-  "evidence_sha256": "e2bcb64364b05936400e3567c95dd401a26fcc57eb8d162e5ad56af237b76f60",
-  "report_sha256": "3d93013ea06eba354ea5197b509d5bee0ddf87d6e01b6f4143e3c510abbebfff",
+  "evidence_sha256": "01ba5e500098367beb3761950501721ed47a9c673a9876854a835774359a09b9",
+  "report_sha256": "43ea9256cdafc11af87ddea1b050624049ecd2717f1179ef9d90c622e52d8c75",
   "risk_layer_sha256": "4e2ad99055d7a1e7ed4273efdbf0d4eabbf96dc62154db4445aa187b5779bd72",
-  "content_sha256": "21ceb38a4bcd7c6137b69bd1d840eba330b9e15655e887730dbb158f0569303e",
+  "content_sha256": "18ed11d6222a568f0cc8af25b4a2f85f5cc6022e92859168147fe59af00606ed",
   "risk": {
     "forecast_id": "e70ad7b66611cf45",
     "as_of": "2026-11-11",
@@ -100,15 +107,14 @@
     {
       "type": "data_qc",
       "detail": {
-        "equity_session": "2026-11-10",
-        "equity_lag_sessions": 1,
+        "equity_session": "2026-11-11",
+        "equity_lag_sessions": 0,
         "macro_date": "2026-11-11",
         "breadth_date": "2026-11-09",
         "breadth_lag_sessions": 2,
         "flows_date": "2026-11-11",
         "flows_lag_sessions": 0,
         "status": "PASS_WITH_WARNINGS",
-        "warning": "US equity data is one completed session behind the inference date; not an automatic failure.",
         "warning_detail": "Breadth or ETF-flow input lags the equity session; each is timestamped in the report."
       }
     }
