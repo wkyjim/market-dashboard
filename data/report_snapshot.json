@@ -1,14 +1,14 @@
 {
   "schema": "aegis-hourly-snapshot-v1",
-  "snapshot_id": "aegis-hourly-20261112T061612Z",
-  "generated_at_utc": "2026-11-12T06:16:12.503740+00:00",
+  "snapshot_id": "aegis-hourly-20261112T071301Z",
+  "generated_at_utc": "2026-11-12T07:13:01.793906+00:00",
   "as_of": "2026-11-11",
   "latest_equity_date": "2026-11-11",
-  "latest_macro_date": "2026-11-11",
+  "latest_macro_date": "2026-11-12",
   "data_qc": {
     "equity_session": "2026-11-11",
     "equity_lag_sessions": 0,
-    "macro_date": "2026-11-11",
+    "macro_date": "2026-11-12",
     "breadth_date": "2026-11-11",
     "breadth_lag_sessions": 0,
     "flows_date": "2026-11-11",
@@ -23,49 +23,49 @@
       "provider": "hermes-local-proxy",
       "model": "upstage/solar-mini4:free",
       "prompt_chars": 1838,
-      "payload_chars": 27019,
+      "payload_chars": 23508,
       "attempts": 1,
-      "prompt_tokens": 14128,
-      "completion_tokens": 4000,
-      "total_tokens": 18128,
-      "elapsed_s": 56.26,
-      "response_sha256": "54879129848fc86b8b7917ed1e520d0c3396bffb90dfd0703917050cfa1f0bf8"
+      "prompt_tokens": 12065,
+      "completion_tokens": 3751,
+      "total_tokens": 15816,
+      "elapsed_s": 43.84,
+      "response_sha256": "f0ad2803bebbba78933d6f018f02d1c87292d486f067c82de07da777d03d81c9"
     },
     "fundamental_research": {
       "provider": "hermes-local-proxy",
       "model": "upstage/solar-mini4:free",
       "prompt_chars": 2867,
-      "payload_chars": 53895,
+      "payload_chars": 50306,
       "attempts": 1,
-      "prompt_tokens": 26389,
-      "completion_tokens": 2467,
-      "total_tokens": 28856,
-      "elapsed_s": 32.71,
-      "response_sha256": "96483326b42bc54c3d59d0338d8694884ee3ee0bf971e83187e6f2c51a3e8133",
+      "prompt_tokens": 24313,
+      "completion_tokens": 2543,
+      "total_tokens": 26856,
+      "elapsed_s": 31.62,
+      "response_sha256": "41f74b42e64244c44f9ed0c292eb95eae0f3115f38de5f6a3d6a4c0a640a82f8",
       "cached": false,
-      "fingerprint": "d088ac22c1b79a23933996b09a821f7f59ca27033fd25c0ef3d513614aca4ad9",
+      "fingerprint": "187e28ed000b2db4ea5d8f169c20c81d83cc23e59240b456d214dc527d5e053a",
       "source_dates": {
         "as_of": "2026-11-11",
         "latest_equity_date": "2026-11-11",
-        "latest_macro_date": "2026-11-11",
+        "latest_macro_date": "2026-11-12",
         "flows_date": "2026-11-11",
         "breadth_date": "2026-11-11"
       }
     },
-    "fingerprint": "d088ac22c1b79a23933996b09a821f7f59ca27033fd25c0ef3d513614aca4ad9",
+    "fingerprint": "187e28ed000b2db4ea5d8f169c20c81d83cc23e59240b456d214dc527d5e053a",
     "source_dates": {
       "as_of": "2026-11-11",
       "latest_equity_date": "2026-11-11",
-      "latest_macro_date": "2026-11-11",
+      "latest_macro_date": "2026-11-12",
       "flows_date": "2026-11-11",
       "breadth_date": "2026-11-11"
     },
-    "generated_at": "2026-11-12T06:16:12.503740+00:00"
+    "generated_at": "2026-11-12T07:13:01.793906+00:00"
   },
   "source_dates": {
     "as_of": "2026-11-11",
     "latest_equity_date": "2026-11-11",
-    "latest_macro_date": "2026-11-11",
+    "latest_macro_date": "2026-11-12",
     "flows_date": "2026-11-11",
     "breadth_date": "2026-11-11"
   },
@@ -76,7 +76,7 @@
       "ticker": null,
       "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFF&cosd=2026-01-01",
       "published_at": "2026-11-09",
-      "retrieved_at": "2026-11-12T06:16:15.640634+00:00",
+      "retrieved_at": "2026-11-12T07:13:06.675232+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -90,7 +90,7 @@
       "ticker": null,
       "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2&cosd=2026-01-01",
       "published_at": "2026-11-09",
-      "retrieved_at": "2026-11-12T06:16:15.870803+00:00",
+      "retrieved_at": "2026-11-12T07:13:07.250122+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -104,7 +104,7 @@
       "ticker": null,
       "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM&cosd=2026-01-01",
       "published_at": "2026-11-09",
-      "retrieved_at": "2026-11-12T06:16:16.101705+00:00",
+      "retrieved_at": "2026-11-12T07:13:07.877114+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -118,7 +118,7 @@
       "ticker": null,
       "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCSL&cosd=2026-01-01",
       "published_at": "2026-10-01",
-      "retrieved_at": "2026-11-12T06:16:16.291825+00:00",
+      "retrieved_at": "2026-11-12T07:13:08.498507+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -132,7 +132,7 @@
       "ticker": null,
       "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE&cosd=2026-01-01",
       "published_at": "2026-10-01",
-      "retrieved_at": "2026-11-12T06:16:16.510148+00:00",
+      "retrieved_at": "2026-11-12T07:13:08.971192+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -146,7 +146,7 @@
       "ticker": null,
       "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PAYEMS&cosd=2026-01-01",
       "published_at": "2026-10-01",
-      "retrieved_at": "2026-11-12T06:16:16.711420+00:00",
+      "retrieved_at": "2026-11-12T07:13:09.445866+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -160,7 +160,7 @@
       "ticker": null,
       "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10Y2Y&cosd=2026-01-01",
       "published_at": "2026-11-10",
-      "retrieved_at": "2026-11-12T06:16:16.930496+00:00",
+      "retrieved_at": "2026-11-12T07:13:09.959079+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -171,16 +171,16 @@
     {
       "id": "S008",
       "kind": "filing",
-      "ticker": "NVDA",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q&dateb=&owner=include&count=10",
-      "published_at": "2026-09-03",
-      "retrieved_at": "2026-11-12T06:16:17.229790+00:00",
+      "ticker": "INTC",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000050863&type=10-Q&dateb=&owner=include&count=10",
+      "published_at": "2026-10-30",
+      "retrieved_at": "2026-11-12T07:13:10.227902+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
-        "8-K filed 2026-09-03 (accession 0001045810-26-000078)",
-        "10-Q filed 2026-08-26 (accession 0001045810-26-000075)",
-        "8-K filed 2026-08-26 (accession 0001045810-26-000073)"
+        "10-Q filed 2026-10-30 (accession 0000050863-26-000191)",
+        "8-K filed 2026-10-29 (accession 0000050863-26-000188)",
+        "8-K filed 2026-08-12 (accession 0001193125-26-346806)"
       ],
       "error": null
     },
@@ -190,7 +190,7 @@
       "ticker": "AMD",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000002488&type=10-Q&dateb=&owner=include&count=10",
       "published_at": "2026-11-04",
-      "retrieved_at": "2026-11-12T06:16:17.233681+00:00",
+      "retrieved_at": "2026-11-12T07:13:10.242027+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -203,26 +203,59 @@
     {
       "id": "S010",
       "kind": "filing",
-      "ticker": "INTC",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000050863&type=10-Q&dateb=&owner=include&count=10",
-      "published_at": "2026-10-30",
-      "retrieved_at": "2026-11-12T06:16:17.269695+00:00",
+      "ticker": "NVDA",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q&dateb=&owner=include&count=10",
+      "published_at": "2026-09-03",
+      "retrieved_at": "2026-11-12T07:13:10.244536+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
-        "10-Q filed 2026-10-30 (accession 0000050863-26-000191)",
-        "8-K filed 2026-10-29 (accession 0000050863-26-000188)",
-        "8-K filed 2026-08-12 (accession 0001193125-26-346806)"
+        "8-K filed 2026-09-03 (accession 0001045810-26-000078)",
+        "10-Q filed 2026-08-26 (accession 0001045810-26-000075)",
+        "8-K filed 2026-08-26 (accession 0001045810-26-000073)"
       ],
       "error": null
     },
     {
       "id": "S011",
       "kind": "stock",
+      "ticker": "NVDA",
+      "url": "https://finance.yahoo.com/quote/NVDA",
+      "published_at": null,
+      "retrieved_at": "2026-11-12T07:13:10.941288+00:00",
+      "status": "ok",
+      "http_status": null,
+      "claims": [
+        "Trailing P/E: 21.963337",
+        "Forward P/E: 10.907824",
+        "Market cap: 4195058188288",
+        "Sector: Technology"
+      ],
+      "error": null
+    },
+    {
+      "id": "S012",
+      "kind": "stock",
+      "ticker": "INTC",
+      "url": "https://finance.yahoo.com/quote/INTC",
+      "published_at": null,
+      "retrieved_at": "2026-11-12T07:13:11.090011+00:00",
+      "status": "ok",
+      "http_status": null,
+      "claims": [
+        "Forward P/E: 34.90723",
+        "Market cap: 332187500544",
+        "Sector: Technology"
+      ],
+      "error": null
+    },
+    {
+      "id": "S013",
+      "kind": "stock",
       "ticker": "AMD",
       "url": "https://finance.yahoo.com/quote/AMD",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:17.907983+00:00",
+      "retrieved_at": "2026-11-12T07:13:11.094947+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -234,43 +267,12 @@
       "error": null
     },
     {
-      "id": "S012",
-      "kind": "stock",
-      "ticker": "NVDA",
-      "url": "https://finance.yahoo.com/quote/NVDA",
-      "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:17.911047+00:00",
-      "status": "ok",
-      "http_status": null,
-      "claims": [
-        "Trailing P/E: 21.963337",
-        "Forward P/E: 10.92035",
-        "Market cap: 4195058188288",
-        "Sector: Technology"
-      ],
-      "error": null
-    },
-    {
-      "id": "S013",
-      "kind": "filing",
-      "ticker": "AMD",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000002488.json",
-      "published_at": "2026-11-04",
-      "retrieved_at": "2026-11-12T06:16:17.968739+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "Diluted EPS 3.69 for period ending 2026-09-26 (filed 2026-11-04)"
-      ],
-      "error": null
-    },
-    {
       "id": "S014",
       "kind": "filing",
       "ticker": "NVDA",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json",
       "published_at": "2026-08-26",
-      "retrieved_at": "2026-11-12T06:16:18.017533+00:00",
+      "retrieved_at": "2026-11-12T07:13:11.144054+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -280,27 +282,11 @@
     },
     {
       "id": "S015",
-      "kind": "stock",
-      "ticker": "INTC",
-      "url": "https://finance.yahoo.com/quote/INTC",
-      "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:18.030908+00:00",
-      "status": "ok",
-      "http_status": null,
-      "claims": [
-        "Forward P/E: 34.90723",
-        "Market cap: 332187500544",
-        "Sector: Technology"
-      ],
-      "error": null
-    },
-    {
-      "id": "S016",
       "kind": "filing",
       "ticker": "INTC",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000050863.json",
       "published_at": "2026-10-30",
-      "retrieved_at": "2026-11-12T06:16:18.227361+00:00",
+      "retrieved_at": "2026-11-12T07:13:11.251037+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -309,12 +295,58 @@
       "error": null
     },
     {
+      "id": "S016",
+      "kind": "filing",
+      "ticker": "AMD",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000002488.json",
+      "published_at": "2026-11-04",
+      "retrieved_at": "2026-11-12T07:13:11.260750+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "Diluted EPS 3.69 for period ending 2026-09-26 (filed 2026-11-04)"
+      ],
+      "error": null
+    },
+    {
       "id": "S017",
+      "kind": "news",
+      "ticker": "INTC",
+      "url": "https://news.google.com/rss/search?q=INTC+Intel+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Wed, 11 Nov 2026 16:46:52 GMT",
+      "retrieved_at": "2026-11-12T07:13:11.502889+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "What's Going On With Intel Stock Wednesday? - Benzinga (Wed, 11 Nov 2026 16:46:52 GMT)",
+        "Intel Stock (NASDAQ:INTC) Jumps 8% on Robotics Plans - TipRanks (Wed, 11 Nov 2026 19:33:45 GMT)",
+        "CEO Lip-Bu Tan\u2019s 150,000-Share Purchase Wasn\u2019t Enough to Stop the Slide in Intel Stock - Barchart.com (Tue, 10 Nov 2026 15:00:03 GMT)"
+      ],
+      "error": null
+    },
+    {
+      "id": "S018",
+      "kind": "news",
+      "ticker": "NVDA",
+      "url": "https://news.google.com/rss/search?q=NVDA+Nvidia+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Wed, 11 Nov 2026 13:12:04 GMT",
+      "retrieved_at": "2026-11-12T07:13:11.505454+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "'Icarus' rise and fall': Analyst downgrades Nvidia stock amid Jensen Huang woes, highlights risks - Yahoo Finance (Wed, 11 Nov 2026 13:12:04 GMT)",
+        "Why Nvidia Stock Rose Despite Calls for CEO Jensen Huang to Step Down - Barron's (Wed, 11 Nov 2026 21:35:00 GMT)",
+        "Nvidia shares rebound as Jensen Huang faces scrutiny ahead of earnings - CNBC (Wed, 11 Nov 2026 10:03:29 GMT)"
+      ],
+      "error": null
+    },
+    {
+      "id": "S019",
       "kind": "etf",
       "ticker": "XLV",
       "url": "https://finance.yahoo.com/quote/XLV",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:18.419830+00:00",
+      "retrieved_at": "2026-11-12T07:13:11.694884+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -326,44 +358,12 @@
       "error": null
     },
     {
-      "id": "S018",
-      "kind": "news",
-      "ticker": "INTC",
-      "url": "https://news.google.com/rss/search?q=INTC+Intel+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Wed, 11 Nov 2026 16:46:52 GMT",
-      "retrieved_at": "2026-11-12T06:16:18.507867+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "What's Going On With Intel Stock Wednesday? - Benzinga (Wed, 11 Nov 2026 16:46:52 GMT)",
-        "Intel Stock (NASDAQ:INTC) Jumps 8% on Robotics Plans - TipRanks (Wed, 11 Nov 2026 19:33:45 GMT)",
-        "CEO Lip-Bu Tan\u2019s 150,000-Share Purchase Wasn\u2019t Enough to Stop the Slide in Intel Stock - Barchart.com (Tue, 10 Nov 2026 15:00:03 GMT)"
-      ],
-      "error": null
-    },
-    {
-      "id": "S019",
-      "kind": "news",
-      "ticker": "NVDA",
-      "url": "https://news.google.com/rss/search?q=NVDA+Nvidia+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Wed, 11 Nov 2026 13:12:04 GMT",
-      "retrieved_at": "2026-11-12T06:16:18.577860+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "'Icarus' rise and fall': Analyst downgrades Nvidia stock amid Jensen Huang woes, highlights risks - Yahoo Finance (Wed, 11 Nov 2026 13:12:04 GMT)",
-        "Why Nvidia Stock Rose Despite Calls for CEO Jensen Huang to Step Down - Barron's (Wed, 11 Nov 2026 21:35:00 GMT)",
-        "Nvidia shares rebound as Jensen Huang faces scrutiny ahead of earnings - CNBC (Wed, 11 Nov 2026 10:03:29 GMT)"
-      ],
-      "error": null
-    },
-    {
       "id": "S020",
       "kind": "etf",
       "ticker": "XLP",
       "url": "https://finance.yahoo.com/quote/XLP",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:18.758126+00:00",
+      "retrieved_at": "2026-11-12T07:13:12.110198+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -376,11 +376,27 @@
     },
     {
       "id": "S021",
+      "kind": "news",
+      "ticker": "XLRE",
+      "url": "https://news.google.com/rss/search?q=XLRE+Real+Estate+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Tue, 10 Nov 2026 21:23:59 GMT",
+      "retrieved_at": "2026-11-12T07:13:12.290364+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "State Street Real Estate Select Sector SPDR ETF (XLRE) Stock Price, News, Quote & History - Yahoo! Finance Canada (Tue, 10 Nov 2026 21:23:59 GMT)",
+        "Which Real Estate ETF Is the Better Buy: State Street\u2019s XLRE or Northern Trust\u2019s Global GQRE? - The Motley Fool (Tue, 27 Oct 2026 07:00:00 GMT)",
+        "Real estate stocks feel the pain as borrowing costs climb (XLRE:NYSEARCA) - Seeking Alpha (Sat, 03 Oct 2026 07:00:00 GMT)"
+      ],
+      "error": null
+    },
+    {
+      "id": "S022",
       "kind": "etf",
       "ticker": "XLY",
       "url": "https://finance.yahoo.com/quote/XLY",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:19.052348+00:00",
+      "retrieved_at": "2026-11-12T07:13:12.365343+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -392,12 +408,12 @@
       "error": null
     },
     {
-      "id": "S022",
+      "id": "S023",
       "kind": "etf",
       "ticker": "XLRE",
       "url": "https://finance.yahoo.com/quote/XLRE",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:19.180961+00:00",
+      "retrieved_at": "2026-11-12T07:13:12.443176+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -409,12 +425,44 @@
       "error": null
     },
     {
-      "id": "S023",
+      "id": "S024",
+      "kind": "news",
+      "ticker": "XLP",
+      "url": "https://news.google.com/rss/search?q=XLP+Consumer+Staples+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Wed, 11 Nov 2026 21:34:02 GMT",
+      "retrieved_at": "2026-11-12T07:13:12.666591+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "RSPS: Consumer Staples ETF Reduces Company Risk (NYSEARCA:RSPS) - Seeking Alpha (Wed, 11 Nov 2026 21:34:02 GMT)",
+        "State Street Consumer Staples SPDR (XLP) Adds Vylor and Walmart on Oct. 30 - Yahoo Finance (Tue, 03 Nov 2026 11:04:42 GMT)",
+        "2 Iconic Consumer Stocks Are Lighting Up the Market - RealMoney Pro (Thu, 05 Nov 2026 14:17:00 GMT)"
+      ],
+      "error": null
+    },
+    {
+      "id": "S025",
+      "kind": "news",
+      "ticker": "XLV",
+      "url": "https://news.google.com/rss/search?q=XLV+Health+Care+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Tue, 10 Nov 2026 21:09:01 GMT",
+      "retrieved_at": "2026-11-12T07:13:12.787463+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "State Street Health Care Select Sector SPDR ETF (XLV) stock price, news, quote and history - Yahoo Finance UK (Tue, 10 Nov 2026 21:09:01 GMT)",
+        "State Street Health Care SPDR (XLV) Sells Eli Lilly and J&J on Nov. 9 - Yahoo Finance (Wed, 11 Nov 2026 11:04:02 GMT)",
+        "Why Capital Is Rotating Into Healthcare For 2027 (NYSEARCA:XLV) - Seeking Alpha (Mon, 09 Nov 2026 10:30:28 GMT)"
+      ],
+      "error": null
+    },
+    {
+      "id": "S026",
       "kind": "etf",
       "ticker": "XLF",
       "url": "https://finance.yahoo.com/quote/XLF",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:19.263900+00:00",
+      "retrieved_at": "2026-11-12T07:13:12.789226+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -426,44 +474,12 @@
       "error": null
     },
     {
-      "id": "S024",
-      "kind": "news",
-      "ticker": "XLV",
-      "url": "https://news.google.com/rss/search?q=XLV+Health+Care+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Tue, 10 Nov 2026 21:09:01 GMT",
-      "retrieved_at": "2026-11-12T06:16:19.384868+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "State Street Health Care Select Sector SPDR ETF (XLV) stock price, news, quote and history - Yahoo Finance UK (Tue, 10 Nov 2026 21:09:01 GMT)",
-        "State Street Health Care SPDR (XLV) Sells Eli Lilly and J&J on Nov. 9 - Yahoo Finance (Wed, 11 Nov 2026 11:04:02 GMT)",
-        "Why Capital Is Rotating Into Healthcare For 2027 (NYSEARCA:XLV) - Seeking Alpha (Mon, 09 Nov 2026 10:30:28 GMT)"
-      ],
-      "error": null
-    },
-    {
-      "id": "S025",
-      "kind": "news",
-      "ticker": "XLP",
-      "url": "https://news.google.com/rss/search?q=XLP+Consumer+Staples+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Wed, 11 Nov 2026 21:34:02 GMT",
-      "retrieved_at": "2026-11-12T06:16:19.449815+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "RSPS: Consumer Staples ETF Reduces Company Risk (NYSEARCA:RSPS) - Seeking Alpha (Wed, 11 Nov 2026 21:34:02 GMT)",
-        "State Street Consumer Staples SPDR (XLP) Adds Vylor and Walmart on Oct. 30 - Yahoo Finance (Tue, 03 Nov 2026 11:04:42 GMT)",
-        "2 Iconic Consumer Stocks Are Lighting Up the Market - RealMoney Pro (Thu, 05 Nov 2026 14:17:00 GMT)"
-      ],
-      "error": null
-    },
-    {
-      "id": "S026",
+      "id": "S027",
       "kind": "news",
       "ticker": "AMD",
       "url": "https://news.google.com/rss/search?q=AMD+Advanced+Micro+Devices+stock&hl=en-US&gl=US&ceid=US:en",
       "published_at": "Wed, 11 Nov 2026 21:46:00 GMT",
-      "retrieved_at": "2026-11-12T06:16:19.472137+00:00",
+      "retrieved_at": "2026-11-12T07:13:12.795722+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -474,29 +490,12 @@
       "error": null
     },
     {
-      "id": "S027",
-      "kind": "etf",
-      "ticker": "XLU",
-      "url": "https://finance.yahoo.com/quote/XLU",
-      "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:19.663775+00:00",
-      "status": "ok",
-      "http_status": null,
-      "claims": [
-        "Trailing P/E: 18.02439",
-        "Category: Utilities",
-        "Total assets: 24252790784",
-        "Top holdings: NEE 0.1276792; SO 0.0788232; DUK 0.0726261; CEG 0.063214995; AEP 0.051831197"
-      ],
-      "error": null
-    },
-    {
       "id": "S028",
       "kind": "news",
       "ticker": "XLY",
       "url": "https://news.google.com/rss/search?q=XLY+Consumer+Discretionary+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
       "published_at": "Fri, 06 Nov 2026 11:05:09 GMT",
-      "retrieved_at": "2026-11-12T06:16:19.743453+00:00",
+      "retrieved_at": "2026-11-12T07:13:12.983585+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -509,10 +508,27 @@
     {
       "id": "S029",
       "kind": "etf",
+      "ticker": "XLU",
+      "url": "https://finance.yahoo.com/quote/XLU",
+      "published_at": null,
+      "retrieved_at": "2026-11-12T07:13:13.128862+00:00",
+      "status": "ok",
+      "http_status": null,
+      "claims": [
+        "Trailing P/E: 18.02439",
+        "Category: Utilities",
+        "Total assets: 24252790784",
+        "Top holdings: NEE 0.1276792; SO 0.0788232; DUK 0.0726261; CEG 0.063214995; AEP 0.051831197"
+      ],
+      "error": null
+    },
+    {
+      "id": "S030",
+      "kind": "etf",
       "ticker": "XLI",
       "url": "https://finance.yahoo.com/quote/XLI",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:19.931142+00:00",
+      "retrieved_at": "2026-11-12T07:13:13.565185+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -524,35 +540,18 @@
       "error": null
     },
     {
-      "id": "S030",
+      "id": "S031",
       "kind": "news",
-      "ticker": "XLRE",
-      "url": "https://news.google.com/rss/search?q=XLRE+Real+Estate+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Tue, 10 Nov 2026 21:23:59 GMT",
-      "retrieved_at": "2026-11-12T06:16:20.118895+00:00",
+      "ticker": "XLF",
+      "url": "https://news.google.com/rss/search?q=XLF+Financials+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Wed, 11 Nov 2026 18:15:12 GMT",
+      "retrieved_at": "2026-11-12T07:13:13.627013+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
-        "State Street Real Estate Select Sector SPDR ETF (XLRE) Stock Price, News, Quote & History - Yahoo! Finance Canada (Tue, 10 Nov 2026 21:23:59 GMT)",
-        "Which Real Estate ETF Is the Better Buy: State Street\u2019s XLRE or Northern Trust\u2019s Global GQRE? - The Motley Fool (Tue, 27 Oct 2026 07:00:00 GMT)",
-        "Real estate stocks feel the pain as borrowing costs climb (XLRE:NYSEARCA) - Seeking Alpha (Sat, 03 Oct 2026 07:00:00 GMT)"
-      ],
-      "error": null
-    },
-    {
-      "id": "S031",
-      "kind": "etf",
-      "ticker": "XLC",
-      "url": "https://finance.yahoo.com/quote/XLC",
-      "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:20.302960+00:00",
-      "status": "ok",
-      "http_status": null,
-      "claims": [
-        "Trailing P/E: 17.250622",
-        "Category: Communications",
-        "Total assets: 21447602176",
-        "Top holdings: META 0.2200402; GOOGL 0.1107959; GOOG 0.08922789; DIS 0.055531904; CMCSA 0.049242903"
+        "State Street Financial Select Sector SPDR ETF (XLF) Stock Price, News, Quote & History - Yahoo! Finance Canada (Wed, 11 Nov 2026 18:15:12 GMT)",
+        "Financial Select Sector SPDR (XLF) Buys $26.7 Million More Berkshire on Nov. 9 - Yahoo Finance (Wed, 11 Nov 2026 11:04:24 GMT)",
+        "Financial Sector ETF Hits Record High on Fintech Gains - ETF Trends (Tue, 28 Jul 2026 07:00:00 GMT)"
       ],
       "error": null
     },
@@ -562,7 +561,7 @@
       "ticker": "XLB",
       "url": "https://finance.yahoo.com/quote/XLB",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:20.304919+00:00",
+      "retrieved_at": "2026-11-12T07:13:13.681677+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -576,10 +575,26 @@
     {
       "id": "S033",
       "kind": "news",
+      "ticker": "XLI",
+      "url": "https://news.google.com/rss/search?q=XLI+Industrials+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Wed, 11 Nov 2026 11:04:10 GMT",
+      "retrieved_at": "2026-11-12T07:13:13.852065+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "State Street Industrial Select Sector SPDR (XLI) Adds GE and CAT on Nov. 9 - Yahoo Finance (Wed, 11 Nov 2026 11:04:10 GMT)",
+        "Michael Burry CAT Trade Puts Industrial ETFs in Spotlight - State Street Industrial Select Sector SPDR ET - Benzinga (Tue, 10 Nov 2026 13:06:10 GMT)",
+        "Should You Invest in the State Street Industrial Select Sector SPDR ETF (XLI)? - Yahoo Finance (Mon, 26 Oct 2026 07:00:00 GMT)"
+      ],
+      "error": null
+    },
+    {
+      "id": "S034",
+      "kind": "news",
       "ticker": "XLU",
       "url": "https://news.google.com/rss/search?q=XLU+Utilities+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
       "published_at": "Tue, 10 Nov 2026 05:09:15 GMT",
-      "retrieved_at": "2026-11-12T06:16:20.653920+00:00",
+      "retrieved_at": "2026-11-12T07:13:13.898739+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -590,61 +605,29 @@
       "error": null
     },
     {
-      "id": "S034",
-      "kind": "news",
-      "ticker": "XLF",
-      "url": "https://news.google.com/rss/search?q=XLF+Financials+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Wed, 11 Nov 2026 11:04:24 GMT",
-      "retrieved_at": "2026-11-12T06:16:20.700120+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "Financial Select Sector SPDR (XLF) Buys $26.7 Million More Berkshire on Nov. 9 - Yahoo Finance (Wed, 11 Nov 2026 11:04:24 GMT)",
-        "State Street Financial Select Sector SPDR ETF (XLF) stock price, news, quote and history - Yahoo Finance Australia (Wed, 11 Nov 2026 11:28:15 GMT)",
-        "Financial Sector ETF Hits Record High on Fintech Gains - ETF Trends (Tue, 28 Jul 2026 07:00:00 GMT)"
-      ],
-      "error": null
-    },
-    {
       "id": "S035",
       "kind": "etf",
-      "ticker": "XLE",
-      "url": "https://finance.yahoo.com/quote/XLE",
+      "ticker": "XLC",
+      "url": "https://finance.yahoo.com/quote/XLC",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:20.782835+00:00",
+      "retrieved_at": "2026-11-12T07:13:13.913876+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
-        "Trailing P/E: 15.828271",
-        "Category: Equity Energy",
-        "Total assets: 46373699584",
-        "Top holdings: XOM 0.2429253; CVX 0.18293011; COP 0.072743; MPC 0.0464119; PSX 0.0452105"
+        "Trailing P/E: 17.250622",
+        "Category: Communications",
+        "Total assets: 21447602176",
+        "Top holdings: META 0.2200402; GOOGL 0.1107959; GOOG 0.08922789; DIS 0.055531904; CMCSA 0.049242903"
       ],
       "error": null
     },
     {
       "id": "S036",
-      "kind": "news",
-      "ticker": "XLB",
-      "url": "https://news.google.com/rss/search?q=XLB+Materials+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Sat, 07 Nov 2026 08:00:00 GMT",
-      "retrieved_at": "2026-11-12T06:16:20.815226+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "State Street Materials Select Sector SPDR ETF - ETF Database (Sat, 07 Nov 2026 08:00:00 GMT)",
-        "Should You Invest in the State Street Materials Select Sector SPDR ETF (XLB)? - Yahoo Finance (Wed, 28 Oct 2026 07:00:00 GMT)",
-        "XLB - State Street Materials Select Sector SPDR ETF Stock Price and Quote - Finviz (Tue, 26 May 2026 13:04:07 GMT)"
-      ],
-      "error": null
-    },
-    {
-      "id": "S037",
       "kind": "etf",
       "ticker": "XLK",
       "url": "https://finance.yahoo.com/quote/XLK",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:20.906101+00:00",
+      "retrieved_at": "2026-11-12T07:13:14.043934+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -656,18 +639,35 @@
       "error": null
     },
     {
-      "id": "S038",
+      "id": "S037",
       "kind": "news",
-      "ticker": "XLI",
-      "url": "https://news.google.com/rss/search?q=XLI+Industrials+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Wed, 11 Nov 2026 11:04:10 GMT",
-      "retrieved_at": "2026-11-12T06:16:21.134899+00:00",
+      "ticker": "XLB",
+      "url": "https://news.google.com/rss/search?q=XLB+Materials+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Sat, 07 Nov 2026 08:00:00 GMT",
+      "retrieved_at": "2026-11-12T07:13:14.209520+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
-        "State Street Industrial Select Sector SPDR (XLI) Adds GE and CAT on Nov. 9 - Yahoo Finance (Wed, 11 Nov 2026 11:04:10 GMT)",
-        "Michael Burry CAT Trade Puts Industrial ETFs in Spotlight - State Street Industrial Select Sector SPDR ET - Benzinga (Tue, 10 Nov 2026 13:06:10 GMT)",
-        "These Soaring Stocks Send A Bullish Economic Signal - Investor's Business Daily (Thu, 23 Jul 2026 07:00:00 GMT)"
+        "State Street Materials Select Sector SPDR ETF - ETF Database (Sat, 07 Nov 2026 08:00:00 GMT)",
+        "Should You Invest in the State Street Materials Select Sector SPDR ETF (XLB)? - Yahoo Finance (Wed, 28 Oct 2026 07:00:00 GMT)",
+        "XLB - State Street Materials Select Sector SPDR ETF Stock Price and Quote - Finviz (Tue, 26 May 2026 13:04:07 GMT)"
+      ],
+      "error": null
+    },
+    {
+      "id": "S038",
+      "kind": "etf",
+      "ticker": "XLE",
+      "url": "https://finance.yahoo.com/quote/XLE",
+      "published_at": null,
+      "retrieved_at": "2026-11-12T07:13:14.239164+00:00",
+      "status": "ok",
+      "http_status": null,
+      "claims": [
+        "Trailing P/E: 15.828271",
+        "Category: Equity Energy",
+        "Total assets: 46373699584",
+        "Top holdings: XOM 0.2429253; CVX 0.18293011; COP 0.072743; MPC 0.0464119; PSX 0.0452105"
       ],
       "error": null
     },
@@ -677,7 +677,7 @@
       "ticker": "ACWI",
       "url": "https://finance.yahoo.com/quote/ACWI",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:21.159804+00:00",
+      "retrieved_at": "2026-11-12T07:13:14.413785+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -690,27 +690,11 @@
     },
     {
       "id": "S040",
-      "kind": "news",
-      "ticker": "XLC",
-      "url": "https://news.google.com/rss/search?q=XLC+Communication+Services+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Tue, 10 Nov 2026 02:03:15 GMT",
-      "retrieved_at": "2026-11-12T06:16:21.331821+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "State Street Communication Services Select Sector SPDR ETF (XLC) stock price, news, quote and history - Yahoo Finance Singapore (Tue, 10 Nov 2026 02:03:15 GMT)",
-        "These communication services stocks slump YTD, but Quant ratings stay positive (XLC:NYSEARCA) - Seeking Alpha (Wed, 11 Nov 2026 12:31:30 GMT)",
-        "State Street Communication Services Select Sector SPDR ETF - ETF Database (Fri, 06 Nov 2026 16:06:02 GMT)"
-      ],
-      "error": null
-    },
-    {
-      "id": "S041",
       "kind": "etf",
       "ticker": "AGG",
       "url": "https://finance.yahoo.com/quote/AGG",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:21.332600+00:00",
+      "retrieved_at": "2026-11-12T07:13:14.660382+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -722,12 +706,44 @@
       "error": null
     },
     {
+      "id": "S041",
+      "kind": "news",
+      "ticker": "XLC",
+      "url": "https://news.google.com/rss/search?q=XLC+Communication+Services+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Tue, 10 Nov 2026 02:03:15 GMT",
+      "retrieved_at": "2026-11-12T07:13:14.701377+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "State Street Communication Services Select Sector SPDR ETF (XLC) stock price, news, quote and history - Yahoo Finance Singapore (Tue, 10 Nov 2026 02:03:15 GMT)",
+        "These communication services stocks slump YTD, but Quant ratings stay positive (XLC:NYSEARCA) - Seeking Alpha (Wed, 11 Nov 2026 12:31:30 GMT)",
+        "State Street Communication Services Select Sector SPDR ETF - ETF Database (Fri, 06 Nov 2026 16:06:02 GMT)"
+      ],
+      "error": null
+    },
+    {
       "id": "S042",
+      "kind": "news",
+      "ticker": "AGG",
+      "url": "https://news.google.com/rss/search?q=AGG+AGG+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Sat, 15 Aug 2026 07:00:00 GMT",
+      "retrieved_at": "2026-11-12T07:13:14.781823+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "AGG: Why It's Foolish To Dismiss Bonds Right Now (NYSEARCA:AGG) - Seeking Alpha (Sat, 15 Aug 2026 07:00:00 GMT)",
+        "How to Invest in the iShares Core US Aggregate Bond ETF (AGG) - The Motley Fool (Tue, 24 Feb 2026 08:00:00 GMT)",
+        "Bond ETFs: Your Tax Bracket Decides the Winner Between AGG and MUB - Yahoo Finance (Sat, 24 Jan 2026 08:00:00 GMT)"
+      ],
+      "error": null
+    },
+    {
+      "id": "S043",
       "kind": "etf",
       "ticker": "CIBR",
       "url": "https://finance.yahoo.com/quote/CIBR",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:21.630314+00:00",
+      "retrieved_at": "2026-11-12T07:13:14.860977+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -739,28 +755,12 @@
       "error": null
     },
     {
-      "id": "S043",
-      "kind": "news",
-      "ticker": "CIBR",
-      "url": "https://news.google.com/rss/search?q=CIBR+CIBR+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Wed, 04 Mar 2026 08:00:00 GMT",
-      "retrieved_at": "2026-11-12T06:16:21.853871+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "Why Cybersecurity ETF CIBR Belongs in Every Retirement Portfolio Right Now - Yahoo Finance (Wed, 04 Mar 2026 08:00:00 GMT)",
-        "Cybersecurity Goes Vertical: CIBR Just Crushed the S&P 500 by Three to One - 24/7 Wall St. (Mon, 08 Jun 2026 07:00:00 GMT)",
-        "(CIBR) Movement as an Input in Quant Signal Sets - Stock Traders Daily (Tue, 10 Nov 2026 11:32:01 GMT)"
-      ],
-      "error": null
-    },
-    {
       "id": "S044",
       "kind": "news",
       "ticker": "XLK",
       "url": "https://news.google.com/rss/search?q=XLK+Information+Technology+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
       "published_at": "Wed, 11 Nov 2026 11:04:43 GMT",
-      "retrieved_at": "2026-11-12T06:16:21.881708+00:00",
+      "retrieved_at": "2026-11-12T07:13:15.022757+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -776,7 +776,7 @@
       "ticker": "DGRO",
       "url": "https://finance.yahoo.com/quote/DGRO",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:21.894426+00:00",
+      "retrieved_at": "2026-11-12T07:13:15.149585+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -789,43 +789,11 @@
     },
     {
       "id": "S046",
-      "kind": "news",
-      "ticker": "ACWI",
-      "url": "https://news.google.com/rss/search?q=ACWI+ACWI+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Mon, 30 Mar 2026 07:00:00 GMT",
-      "retrieved_at": "2026-11-12T06:16:22.053953+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "ACWI\u2019s 18.3% Run Beat the S&P 500, But the 10-Year Story Is More Complicated - Yahoo Finance (Mon, 30 Mar 2026 07:00:00 GMT)",
-        "ISHARES MSCI ACWI ETF (0JHS) ETP Price and Quote - London Stock Exchange (Sat, 24 Oct 2026 15:22:00 GMT)",
-        "MSCI All Country World Index (ACWI) - Definition, Components & Uses - Corporate Finance Institute (Mon, 20 Jul 2020 07:00:00 GMT)"
-      ],
-      "error": null
-    },
-    {
-      "id": "S047",
-      "kind": "news",
-      "ticker": "XLE",
-      "url": "https://news.google.com/rss/search?q=XLE+Energy+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Mon, 02 Nov 2026 08:00:00 GMT",
-      "retrieved_at": "2026-11-12T06:16:22.094330+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "7 Best Energy ETFs to Buy Now | Investing - U.S. News - Money (Mon, 02 Nov 2026 08:00:00 GMT)",
-        "Should You Invest in the State Street Energy Select Sector SPDR ETF (XLE)? - Yahoo Finance (Mon, 26 Oct 2026 07:00:00 GMT)",
-        "XLE Tops August Sector Rankings as Energy Stocks Surge - ETF Trends (Wed, 02 Sep 2026 07:00:00 GMT)"
-      ],
-      "error": null
-    },
-    {
-      "id": "S048",
       "kind": "etf",
       "ticker": "DIA",
       "url": "https://finance.yahoo.com/quote/DIA",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:22.160490+00:00",
+      "retrieved_at": "2026-11-12T07:13:15.267944+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -837,12 +805,44 @@
       "error": null
     },
     {
+      "id": "S047",
+      "kind": "news",
+      "ticker": "ACWI",
+      "url": "https://news.google.com/rss/search?q=ACWI+ACWI+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Mon, 30 Mar 2026 07:00:00 GMT",
+      "retrieved_at": "2026-11-12T07:13:15.271765+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "ACWI\u2019s 18.3% Run Beat the S&P 500, But the 10-Year Story Is More Complicated - Yahoo Finance (Mon, 30 Mar 2026 07:00:00 GMT)",
+        "ISHARES MSCI ACWI ETF (0JHS) ETP Price and Quote - London Stock Exchange (Sat, 24 Oct 2026 15:22:00 GMT)",
+        "MSCI All Country World Index (ACWI) - Definition, Components & Uses - Corporate Finance Institute (Mon, 20 Jul 2020 07:00:00 GMT)"
+      ],
+      "error": null
+    },
+    {
+      "id": "S048",
+      "kind": "news",
+      "ticker": "XLE",
+      "url": "https://news.google.com/rss/search?q=XLE+Energy+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Mon, 02 Nov 2026 08:00:00 GMT",
+      "retrieved_at": "2026-11-12T07:13:15.362244+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "7 Best Energy ETFs to Buy Now | Investing - U.S. News - Money (Mon, 02 Nov 2026 08:00:00 GMT)",
+        "Should You Invest in the State Street Energy Select Sector SPDR ETF (XLE)? - Yahoo Finance (Mon, 26 Oct 2026 07:00:00 GMT)",
+        "XLE Tops August Sector Rankings as Energy Stocks Surge - ETF Trends (Wed, 02 Sep 2026 07:00:00 GMT)"
+      ],
+      "error": null
+    },
+    {
       "id": "S049",
       "kind": "etf",
       "ticker": "DYNF",
       "url": "https://finance.yahoo.com/quote/DYNF",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:22.383769+00:00",
+      "retrieved_at": "2026-11-12T07:13:15.596956+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -855,27 +855,11 @@
     },
     {
       "id": "S050",
-      "kind": "news",
-      "ticker": "AGG",
-      "url": "https://news.google.com/rss/search?q=AGG+AGG+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Sat, 15 Aug 2026 07:00:00 GMT",
-      "retrieved_at": "2026-11-12T06:16:22.452569+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "AGG: Why It's Foolish To Dismiss Bonds Right Now (NYSEARCA:AGG) - Seeking Alpha (Sat, 15 Aug 2026 07:00:00 GMT)",
-        "Trading (AGG) With Integrated Risk Controls (AGG:CA) - Stock Traders Daily (Tue, 10 Nov 2026 20:09:47 GMT)",
-        "How to Invest in the iShares Core US Aggregate Bond ETF (AGG) - The Motley Fool (Tue, 24 Feb 2026 08:00:00 GMT)"
-      ],
-      "error": null
-    },
-    {
-      "id": "S051",
       "kind": "etf",
       "ticker": "EEM",
       "url": "https://finance.yahoo.com/quote/EEM",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:22.539489+00:00",
+      "retrieved_at": "2026-11-12T07:13:15.765862+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -887,44 +871,28 @@
       "error": null
     },
     {
+      "id": "S051",
+      "kind": "news",
+      "ticker": "CIBR",
+      "url": "https://news.google.com/rss/search?q=CIBR+CIBR+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Wed, 04 Mar 2026 08:00:00 GMT",
+      "retrieved_at": "2026-11-12T07:13:15.812305+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "Why Cybersecurity ETF CIBR Belongs in Every Retirement Portfolio Right Now - Yahoo Finance (Wed, 04 Mar 2026 08:00:00 GMT)",
+        "Cybersecurity Goes Vertical: CIBR Just Crushed the S&P 500 by Three to One - 24/7 Wall St. (Mon, 08 Jun 2026 07:00:00 GMT)",
+        "CIBR: Why AI Proves To Be A Tailwind, Not Cybersecurity's Demise (Rating Upgrade) - Seeking Alpha (Mon, 01 Jun 2026 07:00:00 GMT)"
+      ],
+      "error": null
+    },
+    {
       "id": "S052",
-      "kind": "news",
-      "ticker": "DGRO",
-      "url": "https://news.google.com/rss/search?q=DGRO+DGRO+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Thu, 23 Jul 2026 07:00:00 GMT",
-      "retrieved_at": "2026-11-12T06:16:22.572791+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "DGRO Is Near A High, Resist The Urge To Act - Trefis (Thu, 23 Jul 2026 07:00:00 GMT)",
-        "Is iShares Core Dividend Growth ETF (DGRO) a Strong ETF Right Now? - Yahoo Finance (Wed, 23 Sep 2026 07:00:00 GMT)",
-        "Where Will DGRO Be in 10 Years? - The Motley Fool (Fri, 28 Aug 2026 07:00:00 GMT)"
-      ],
-      "error": null
-    },
-    {
-      "id": "S053",
-      "kind": "news",
-      "ticker": "DIA",
-      "url": "https://news.google.com/rss/search?q=DIA+DIA+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Wed, 11 Nov 2026 11:03:59 GMT",
-      "retrieved_at": "2026-11-12T06:16:22.613902+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "Spdr Dow Jones Industrial Average ETF (DIA) Buys $40.3 Million More GS on Nov. 9 - Yahoo Finance (Wed, 11 Nov 2026 11:03:59 GMT)",
-        "DIA - Spdr Dow Jones Industrial Average ETF Trust Stock Price and Quote - Finviz (Tue, 26 May 2026 10:08:57 GMT)",
-        "How to Invest in SPDR Dow Jones Industrial Average ETF Trust (DIA) - The Motley Fool (Wed, 25 Feb 2026 08:00:00 GMT)"
-      ],
-      "error": null
-    },
-    {
-      "id": "S054",
       "kind": "etf",
       "ticker": "EFA",
       "url": "https://finance.yahoo.com/quote/EFA",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:22.652791+00:00",
+      "retrieved_at": "2026-11-12T07:13:15.932111+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -936,12 +904,28 @@
       "error": null
     },
     {
-      "id": "S055",
+      "id": "S053",
+      "kind": "news",
+      "ticker": "DGRO",
+      "url": "https://news.google.com/rss/search?q=DGRO+DGRO+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Thu, 23 Jul 2026 07:00:00 GMT",
+      "retrieved_at": "2026-11-12T07:13:16.081525+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "DGRO Is Near A High, Resist The Urge To Act - Trefis (Thu, 23 Jul 2026 07:00:00 GMT)",
+        "Is iShares Core Dividend Growth ETF (DGRO) a Strong ETF Right Now? - Yahoo Finance (Wed, 23 Sep 2026 07:00:00 GMT)",
+        "Where Will DGRO Be in 10 Years? - The Motley Fool (Fri, 28 Aug 2026 07:00:00 GMT)"
+      ],
+      "error": null
+    },
+    {
+      "id": "S054",
       "kind": "etf",
       "ticker": "GLD",
       "url": "https://finance.yahoo.com/quote/GLD",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:22.946789+00:00",
+      "retrieved_at": "2026-11-12T07:13:16.212443+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -951,12 +935,28 @@
       "error": null
     },
     {
+      "id": "S055",
+      "kind": "news",
+      "ticker": "DIA",
+      "url": "https://news.google.com/rss/search?q=DIA+DIA+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Wed, 11 Nov 2026 11:03:59 GMT",
+      "retrieved_at": "2026-11-12T07:13:16.260781+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "Spdr Dow Jones Industrial Average ETF (DIA) Buys $40.3 Million More GS on Nov. 9 - Yahoo Finance (Wed, 11 Nov 2026 11:03:59 GMT)",
+        "DIA - Spdr Dow Jones Industrial Average ETF Trust Stock Price and Quote - Finviz (Tue, 26 May 2026 10:08:57 GMT)",
+        "How to Invest in SPDR Dow Jones Industrial Average ETF Trust (DIA) - The Motley Fool (Wed, 25 Feb 2026 08:00:00 GMT)"
+      ],
+      "error": null
+    },
+    {
       "id": "S056",
       "kind": "etf",
       "ticker": "GOVT",
       "url": "https://finance.yahoo.com/quote/GOVT",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:23.066869+00:00",
+      "retrieved_at": "2026-11-12T07:13:16.412157+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -971,23 +971,39 @@
       "ticker": "DYNF",
       "url": "https://news.google.com/rss/search?q=DYNF+DYNF+stock&hl=en-US&gl=US&ceid=US:en",
       "published_at": "Tue, 10 Nov 2026 03:40:19 GMT",
-      "retrieved_at": "2026-11-12T06:16:23.221921+00:00",
+      "retrieved_at": "2026-11-12T07:13:16.413339+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
         "iShares U.S. Equity Factor Rotation Active ETF (DYNF) stock price, news, quote and history - Yahoo Finance UK (Tue, 10 Nov 2026 03:40:19 GMT)",
         "DYNF ETF: A Factor Rotation Fund Earning Its Fees (NYSEARCA:DYNF) - Seeking Alpha (Thu, 13 Aug 2026 07:00:00 GMT)",
-        "Vigilare Wealth Management's iShares U.S. Equity Factor Rotation Active ETF(DYNF) Holding History - GuruFocus (Thu, 05 Nov 2026 09:59:11 GMT)"
+        "(DYNF) as a Liquidity Pulse for Institutional Tactics - Stock Traders Daily (Tue, 10 Nov 2026 21:14:01 GMT)"
       ],
       "error": null
     },
     {
       "id": "S058",
+      "kind": "news",
+      "ticker": "EEM",
+      "url": "https://news.google.com/rss/search?q=EEM+EEM+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Sat, 31 Oct 2026 20:49:00 GMT",
+      "retrieved_at": "2026-11-12T07:13:16.479983+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "Better iShares Emerging Markets ETF: IEMG vs. EEM - The Motley Fool (Sat, 31 Oct 2026 20:49:00 GMT)",
+        "ETF Faceoff: Does iShares IXUS or EEM Offer Better Global Exposure? - Yahoo Finance (Tue, 23 Jun 2026 07:00:00 GMT)",
+        "(EEM) Risk Channels and Responsive Allocation - Stock Traders Daily (Mon, 09 Nov 2026 02:26:01 GMT)"
+      ],
+      "error": null
+    },
+    {
+      "id": "S059",
       "kind": "etf",
       "ticker": "GRID",
       "url": "https://finance.yahoo.com/quote/GRID",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:23.297664+00:00",
+      "retrieved_at": "2026-11-12T07:13:16.793048+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -999,28 +1015,43 @@
       "error": null
     },
     {
-      "id": "S059",
+      "id": "S060",
       "kind": "news",
-      "ticker": "EEM",
-      "url": "https://news.google.com/rss/search?q=EEM+EEM+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Sat, 31 Oct 2026 20:49:00 GMT",
-      "retrieved_at": "2026-11-12T06:16:23.441310+00:00",
+      "ticker": "EFA",
+      "url": "https://news.google.com/rss/search?q=EFA+EFA+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Tue, 10 Nov 2026 22:24:02 GMT",
+      "retrieved_at": "2026-11-12T07:13:16.830583+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
-        "Better iShares Emerging Markets ETF: IEMG vs. EEM - The Motley Fool (Sat, 31 Oct 2026 20:49:00 GMT)",
-        "ETF Faceoff: Does iShares IXUS or EEM Offer Better Global Exposure? - Yahoo Finance (Tue, 23 Jun 2026 07:00:00 GMT)",
-        "(EEM) Risk Channels and Responsive Allocation - Stock Traders Daily (Mon, 09 Nov 2026 02:26:01 GMT)"
+        "Liquidity Mapping Around (EFA) Price Events - Stock Traders Daily (Tue, 10 Nov 2026 22:24:02 GMT)",
+        "Forget US Dominance for Now: EFA Outperforms SPY With 2.34% Gain While S&P Slips - Yahoo Finance (Mon, 09 Mar 2026 07:00:00 GMT)",
+        "EFA: Solid Global Diversification Vehicle (NYSEARCA:EFA) - Seeking Alpha (Mon, 09 Feb 2026 08:00:00 GMT)"
       ],
       "error": null
     },
     {
-      "id": "S060",
+      "id": "S061",
+      "kind": "etf",
+      "ticker": "IAU",
+      "url": "https://finance.yahoo.com/quote/IAU",
+      "published_at": null,
+      "retrieved_at": "2026-11-12T07:13:16.929945+00:00",
+      "status": "ok",
+      "http_status": null,
+      "claims": [
+        "Category: Commodities Focused",
+        "Total assets: 58116382720"
+      ],
+      "error": null
+    },
+    {
+      "id": "S062",
       "kind": "etf",
       "ticker": "HYG",
       "url": "https://finance.yahoo.com/quote/HYG",
       "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:23.517578+00:00",
+      "retrieved_at": "2026-11-12T07:13:16.955160+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -1033,75 +1064,28 @@
       "error": null
     },
     {
-      "id": "S061",
-      "kind": "etf",
-      "ticker": "IAU",
-      "url": "https://finance.yahoo.com/quote/IAU",
-      "published_at": null,
-      "retrieved_at": "2026-11-12T06:16:23.743327+00:00",
-      "status": "ok",
-      "http_status": null,
-      "claims": [
-        "Category: Commodities Focused",
-        "Total assets: 58116382720"
-      ],
-      "error": null
-    },
-    {
-      "id": "S062",
-      "kind": "news",
-      "ticker": "EFA",
-      "url": "https://news.google.com/rss/search?q=EFA+EFA+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Tue, 10 Nov 2026 22:24:02 GMT",
-      "retrieved_at": "2026-11-12T06:16:23.745667+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "Liquidity Mapping Around (EFA) Price Events - Stock Traders Daily (Tue, 10 Nov 2026 22:24:02 GMT)",
-        "Forget US Dominance for Now: EFA Outperforms SPY With 2.34% Gain While S&P Slips - Yahoo Finance (Mon, 09 Mar 2026 07:00:00 GMT)",
-        "EFA: Solid Global Diversification Vehicle (NYSEARCA:EFA) - Seeking Alpha (Mon, 09 Feb 2026 08:00:00 GMT)"
-      ],
-      "error": null
-    },
-    {
       "id": "S063",
       "kind": "news",
       "ticker": "GLD",
       "url": "https://news.google.com/rss/search?q=GLD+GLD+stock&hl=en-US&gl=US&ceid=US:en",
       "published_at": "Fri, 30 Jan 2026 08:00:00 GMT",
-      "retrieved_at": "2026-11-12T06:16:23.917334+00:00",
+      "retrieved_at": "2026-11-12T07:13:17.113615+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
         "I Invested in GLD and Prices Went Crazy. Do You Think It's About to Crash? - Yahoo Finance (Fri, 30 Jan 2026 08:00:00 GMT)",
-        "How to Invest in SPDR Gold Shares ETF (GLD) - The Motley Fool (Wed, 25 Feb 2026 08:00:00 GMT)",
-        "Buy, Sell, or Hold GLD at Current Prices? Here Is What JPMorgan's $6,300 Year-End Target Means for Gold ETF Investors. - Yahoo Finance (Tue, 28 Apr 2026 07:00:00 GMT)"
+        "GLD - SPDR Gold Shares Stock Price and Quote - Finviz (Tue, 26 May 2026 16:11:40 GMT)",
+        "How to Invest in SPDR Gold Shares ETF (GLD) - The Motley Fool (Wed, 25 Feb 2026 08:00:00 GMT)"
       ],
       "error": null
     },
     {
       "id": "S064",
       "kind": "news",
-      "ticker": "GOVT",
-      "url": "https://news.google.com/rss/search?q=GOVT+GOVT+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Sun, 08 Nov 2026 23:34:50 GMT",
-      "retrieved_at": "2026-11-12T06:16:24.015137+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "South Korea's opposition blames Lee government for stock plunge - upi (Sun, 08 Nov 2026 23:34:50 GMT)",
-        "Crypto is now teamed up with U.S. government in two legal battles over perps - CoinDesk (Tue, 10 Nov 2026 17:07:22 GMT)",
-        "Opinion | The trouble with Uncle Sam\u2019s Intel shares - The Washington Post (Fri, 30 Oct 2026 07:00:00 GMT)"
-      ],
-      "error": null
-    },
-    {
-      "id": "S065",
-      "kind": "news",
       "ticker": "GRID",
       "url": "https://news.google.com/rss/search?q=GRID+GRID+stock&hl=en-US&gl=US&ceid=US:en",
       "published_at": "Thu, 12 Nov 2026 05:14:00 GMT",
-      "retrieved_at": "2026-11-12T06:16:24.390987+00:00",
+      "retrieved_at": "2026-11-12T07:13:17.599573+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -1112,18 +1096,34 @@
       "error": null
     },
     {
+      "id": "S065",
+      "kind": "news",
+      "ticker": "GOVT",
+      "url": "https://news.google.com/rss/search?q=GOVT+GOVT+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Sun, 08 Nov 2026 23:34:50 GMT",
+      "retrieved_at": "2026-11-12T07:13:17.613883+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "South Korea's opposition blames Lee government for stock plunge - upi (Sun, 08 Nov 2026 23:34:50 GMT)",
+        "Crypto is now teamed up with U.S. government in two legal battles over perps - CoinDesk (Tue, 10 Nov 2026 17:07:22 GMT)",
+        "Opinion | The trouble with Uncle Sam\u2019s Intel shares - The Washington Post (Fri, 30 Oct 2026 07:00:00 GMT)"
+      ],
+      "error": null
+    },
+    {
       "id": "S066",
       "kind": "news",
       "ticker": "HYG",
       "url": "https://news.google.com/rss/search?q=HYG+HYG+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Tue, 26 May 2026 13:54:12 GMT",
-      "retrieved_at": "2026-11-12T06:16:24.499258+00:00",
+      "published_at": "Wed, 11 Nov 2026 19:50:02 GMT",
+      "retrieved_at": "2026-11-12T07:13:17.808145+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
+        "(HYG) Volatility Zones as Tactical Triggers - Stock Traders Daily (Wed, 11 Nov 2026 19:50:02 GMT)",
         "HYG - iShares iBoxx USD High Yield Corporate Bond ETF Stock Price and Quote - Finviz (Tue, 26 May 2026 13:54:12 GMT)",
-        "6.7% yield with short duration gives HYG an edge over riskier bond funds - Yahoo Finance (Sat, 18 Apr 2026 07:00:00 GMT)",
-        "Traders Snap Up High-Yield Bond ETF Put Options as Credit Hedge - Bloomberg (Thu, 03 Apr 2025 07:00:00 GMT)"
+        "6.7% yield with short duration gives HYG an edge over riskier bond funds - Yahoo Finance (Sat, 18 Apr 2026 07:00:00 GMT)"
       ],
       "error": null
     },
@@ -1133,7 +1133,7 @@
       "ticker": "IAU",
       "url": "https://news.google.com/rss/search?q=IAU+IAU+stock&hl=en-US&gl=US&ceid=US:en",
       "published_at": "Wed, 11 Nov 2026 22:20:00 GMT",
-      "retrieved_at": "2026-11-12T06:16:24.840003+00:00",
+      "retrieved_at": "2026-11-12T07:13:18.013206+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -1150,10 +1150,10 @@
     "unavailable": 0,
     "tickers": 27
   },
-  "evidence_sha256": "3030a76f791c3c0d5adc28dd03045ce301f32264056d490bdbaa4fdfae9a829e",
-  "report_sha256": "6598094a2b304e67359b85f8bc674fb8d59694d29b87b34b58e483aaa9d67ab2",
+  "evidence_sha256": "e6a8be0c7a9d4c7c464090c839091da7d59d15694ee1be164b36b76ace1edf25",
+  "report_sha256": "8a78ccdb02c9f109408af7347cd0cd12fbdcf4cb5a7806837b1de459dc196e3e",
   "risk_layer_sha256": "4e2ad99055d7a1e7ed4273efdbf0d4eabbf96dc62154db4445aa187b5779bd72",
-  "content_sha256": "090d4cd1ca6529f39c92c25635249f03e7d88b6357c7ecbbb09125ebb2b4a453",
+  "content_sha256": "3b365bb16059df74e249a20bdd93c99f5bac6980915edab50a7135eef1612729",
   "risk": {
     "forecast_id": "e70ad7b66611cf45",
     "as_of": "2026-11-11",
