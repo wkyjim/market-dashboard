@@ -1,7 +1,7 @@
 {
   "schema": "aegis-hourly-snapshot-v1",
-  "snapshot_id": "aegis-hourly-20261112T013953Z",
-  "generated_at_utc": "2026-11-12T01:39:53.089577+00:00",
+  "snapshot_id": "aegis-hourly-20261112T021645Z",
+  "generated_at_utc": "2026-11-12T02:16:45.891455+00:00",
   "as_of": "2026-11-11",
   "latest_equity_date": "2026-11-10",
   "latest_macro_date": "2026-11-11",
@@ -25,26 +25,18 @@
       "provider": "hermes-local-proxy",
       "model": "upstage/solar-mini4:free",
       "prompt_chars": 1720,
-      "payload_chars": 27919,
+      "payload_chars": 28339,
       "attempts": 1,
-      "prompt_tokens": 14316,
+      "prompt_tokens": 14519,
       "completion_tokens": 3000,
-      "total_tokens": 17316,
-      "elapsed_s": 41.24,
-      "response_sha256": "c283541e64cade2156c0f7326e74ead5a2c6a2b140e2f4a9f8cd998a6d548139"
+      "total_tokens": 17519,
+      "elapsed_s": 41.92,
+      "response_sha256": "af4512597c4d6554ac569fee40139585a86a0d33945ae556fbf908ed70ef2f35"
     },
     "fundamental_research": {
-      "provider": "hermes-local-proxy",
-      "model": "upstage/solar-mini4:free",
-      "prompt_chars": 1708,
-      "payload_chars": 27919,
-      "attempts": 1,
-      "prompt_tokens": 14345,
-      "completion_tokens": 2113,
-      "total_tokens": 16458,
-      "elapsed_s": 28.02,
-      "response_sha256": "ea2b1ac91deb7724b1e330df27e80408430a1ff5d32c2b1006e317fabd79d763",
-      "cached": false,
+      "cached": true,
+      "cached_at": "2026-11-12T01:41:15.505653+00:00",
+      "age_hours": 0.6,
       "fingerprint": "5a5c1220b83b983b6596cd13ca9a7ef5b7db4d80ce26733828e740215fcd2543",
       "source_dates": {
         "as_of": "2026-11-11",
@@ -62,7 +54,7 @@
       "flows_date": "2026-11-11",
       "breadth_date": "2026-11-09"
     },
-    "generated_at": "2026-11-12T01:39:53.089577+00:00"
+    "generated_at": "2026-11-12T02:16:45.891455+00:00"
   },
   "source_dates": {
     "as_of": "2026-11-11",
@@ -71,10 +63,10 @@
     "flows_date": "2026-11-11",
     "breadth_date": "2026-11-09"
   },
-  "evidence_sha256": "a6aa6de5cb75d7586164662c1e20c2ed49de908b5c5eec8107111b843263ac2e",
-  "report_sha256": "fe8b1ca785ae507f51015c122117d466c63a22f6573f84353a773bb46f044b7d",
+  "evidence_sha256": "5ce64f139cc9892e1239b01f57360213cc418c1eb6d200fc574e59ab6c757d17",
+  "report_sha256": "29d3764009456aa0777cd6c828ca7a707674143c7d4c0dd7cfd1969a47051098",
   "risk_layer_sha256": "4e2ad99055d7a1e7ed4273efdbf0d4eabbf96dc62154db4445aa187b5779bd72",
-  "content_sha256": "40b20227c3b977ab2fa40635750521ccc1e4b2a7e6992d7f695b0f12f2c9a969",
+  "content_sha256": "80aea1607c7192744a9d6f02f578104c65c0f0a9f5ad69793dadb87deab1f524",
   "risk": {
     "forecast_id": "e70ad7b66611cf45",
     "as_of": "2026-11-11",

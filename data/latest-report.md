@@ -1,21 +1,18 @@
 # AEGIS AI-First Market Intelligence
 
-Generated at: 12 November 2026, 09:39 HKT
+Generated at: 12 November 2026, 10:16 HKT
 Data cutoff: 2026-11-10 US cash close
-Snapshot ID: aegis-hourly-20261112T013953Z
+Snapshot ID: aegis-hourly-20261112T021645Z
 
 ## Executive Summary
 
-- **AI market view: Risk-off tilt with a late-November rally attempt. US equities closed 2026-11-10 down, but the 2026-11-11 session reopened with broad gains across most major indices, a sharp VIX drop, and a negative skew reading. Breadth on 2026-11-09 is constructive (69.3% above 50-day, 62.8% above 200-day, ADR 5.42), though new-high/new-low data is absent and the 20-day price-breadth divergence is negative. Sector rotation is visible: defensive and quality factors (Health Care, Consumer Staples, Financials, QUAL) are outperforming, while Information Technology and Communication Services are the weakest groups. Flows show strong institutional buying in SOXX, QUAL, SHY, and LQD, with notable outflows in IWF, IBIT, and IVW. Macro data is dated but consistent with a late-cycle, low-volatility regime: core CPI and core PCE remain elevated, unemployment is 4.2%, and the effective Fed funds rate is 3.88%.**
-- US equities are in a late-November risk-off phase: SPX closed 2026-11-10 at 7549.94, down 3.3% over 20 days, but the next session opened with broad-based gains and a 10.1% drop in VIX.
-- Breadth on 2026-11-09 is supportive: 69.3% of constituents above their 50-day moving average, 62.8% above the 200-day, and an advance/decline ratio of 5.42.
-- New-high/new-low data is missing, and the 20-day price-breadth divergence is negative (-35.6), so breadth is not uniformly strong.
-- Sector leadership is defensive and quality-oriented: Health Care (+11.3% 20d), Consumer Staples (+8.1%), Consumer Discretionary (+7.7%), Real Estate (+6.6%), Financials (+6.3%).
-- Information Technology (-13.9% 20d) and Communication Services (-4.0% 20d) are the weakest sectors, with NVDA down 5.5% and SMCI down 2.8% on 2026-11-10.
-- Flows show exceptional institutional buying in SOXX, QUAL, SHY, and LQD, while IWF, IBIT, and IVW show strong confirmation of outflows.
-- Macro data is dated but consistent with a late-cycle, low-volatility regime: core CPI 338.896, core PCE 130.902, unemployment 4.2%, and effective Fed funds 3.88%.
-- Risk forecast is not directional: 5-day forecast volatility 13.6%, spike probability 12.4% versus a historical baseline of 22.4% and an EWMA baseline of 21.3%, with a threshold of 18.5%.
-- The overall posture is cautious but not bearish: monitor for a sustained rally if breadth and flows continue to confirm, and watch for a reversal if the negative 20-day divergence deepens.
+- **AI market view: Risk-off tilt with a defensive tilt: US equities are down over the last 20 sessions, breadth is positive but thin, and flows show strong institutional demand for quality, semiconductors, and short/intermediate Treasuries while long-duration and broad equity ETFs see outflows. Volatility is low but the 5-day forecast vol is elevated relative to the historical baseline, and the risk block flags a 12.4% spike probability versus a 22.4% historical baseline.**
+- US equities: SPX closed at 7,549.94 on 2026-11-10, down 3.3% over 20 days; the 20-day return is negative and the market is in a mild risk-off posture.
+- Breadth: 69.28% of constituents above their 50-day moving average and 62.78% above the 200-day, with a 5.423 advance/decline ratio, but new highs are zero and the price-breadth divergence is negative (-35.6), indicating weak leadership.
+- Flows: Exceptional institutional buying in SOXX, QUAL, ITA, and SHY; outflows in IWF, SGOV, IBIT, and TLT; the structure shows medium-term deterioration in long-duration Treasuries and broad equity.
+- Macro: Fed funds effective rate is 3.88%, high-yield spread is 3.34%, investment-grade spread is 0.91%, and the latest CPI/PCE data are from September 2026, so inflation and labor data are stale.
+- Risk: 5-day forecast volatility is 13.6% versus a 22.4% historical baseline and a 21.3% EWMA baseline; spike probability is 12.4%, below the historical average, but the risk block is the only forward-looking risk signal available.
+- Sector mix: Health Care, Consumer Staples, and Consumer Discretionary lead on 20-day returns; Information Technology and Energy are the weakest sectors, with XLK down 13.9% and XLE down 7.4% over 20 days.
 
 ## Data QC
 
@@ -28,54 +25,60 @@ Snapshot ID: aegis-hourly-20261112T013953Z
 
 | Asset | Latest | Change | Observation |
 | --- | --- | --- | --- |
-| SPX | 7549.94 | -3.3% (20d) | US large-cap benchmark closed 2026-11-10 down 3.3% over 20 days; next session opened with broad gains and a sharp VIX drop. |
-| VIX | 17.49 | -10.1% | VIX fell 10.1% on 2026-11-11, indicating reduced near-term fear despite the equity pullback. |
-| SKEW | 149.09 | -1.3% | SKEW edged lower, consistent with a modest reduction in tail-risk premium. |
-| DJI | 52486.49 | +0.5% | Dow Jones Industrial Average rose 0.5% on 2026-11-11, led by defensive and value-oriented names. |
-| FTSE | 10835.47 | +0.8% | UK benchmark gained 0.8% on 2026-11-11, reflecting broad European strength. |
-| GDAXI | 26662.77 | +1.2% | German benchmark rose 1.2% on 2026-11-11, the strongest major-market move in the set. |
-| HSI | 24315.92 | -1.0% | Hong Kong index fell 1.0% on 2026-11-11, the weakest major-market move, suggesting Asia-Pacific weakness. |
-| KS11 | 5375.36 | +2.6% | Korean benchmark gained 2.6% on 2026-11-11, the strongest move among the major indices shown. |
-| NQ=F | 28444.25 | +1.9% | Nasdaq-100 futures rose 1.9% on 2026-11-11, indicating a rebound in tech-linked futures after the equity close. |
-| ES=F | 7642.25 | +1.2% | S&P 500 futures rose 1.2% on 2026-11-11, consistent with a broad reopening rally. |
+| SPX | 7549.9399 | -3.3% (20d) | US large-cap index is in a mild downtrend; 20-day return is negative and the index is off its highs. |
+| DJI | 52486.4883 | +0.49% | Dow Jones Industrial Average advanced on 2026-11-11, a modest positive in a mixed session. |
+| IXIC | 25466.1895 | +1.60% | Nasdaq Composite rose 1.60% on 2026-11-11, but the 20-day trend remains negative. |
+| VIX | 17.49 | -10.12% | VIX fell sharply on 2026-11-11, indicating reduced near-term fear despite the risk-off backdrop. |
+| TLT | 80.92 | +0.05% | Long-duration Treasury ETF is flat, but flow structure shows medium-term deterioration. |
+| SOXX | 146.59 | -0.12% | Semiconductor ETF is flat on price but shows exceptional institutional buying and strong confirmation. |
+| QUAL | 55.85 | -0.34% | Quality factor ETF is down on price but receives strong institutional inflows and confirmation. |
+| IWF | 116.62 | +2.28% | US growth ETF is up on 2026-11-11 but shows exceptional institutional selling and a strong confirmation of outflows. |
+| SGOV | 100.53 | +0.03% | Short Treasury ETF is flat but shows strong confirmation of outflows. |
+| HYG | 77.35 | +0.22% | High-yield ETF is up on 2026-11-11 with structural accumulation and strong sponsorship. |
 
 ## Macro, Fiscal, Rates, Liquidity and Credit
 
-- Growth: Real GDP is 24611.077 billion chained 2017 dollars (2026-07-01), indicating a still-expanding economy, but the data is stale and no forward growth estimate is supplied.
-- Inflation: Core CPI is 338.896 (2026-09-01) and core PCE is 130.902 (2026-09-01), both elevated and not yet showing a clear disinflation trend; headline CPI and PCE are not provided.
-- Policy: The Federal Funds Effective Rate is 3.88% (2026-11-09), implying a restrictive-to-neutral stance; the FOMC calendar is available but no meeting or statement is dated in the evidence.
-- Rates: The 3.88% effective funds rate, combined with a 17.49 VIX and 149.09 SKEW, points to a low-volatility, late-cycle rate environment; no term premium or yield-curve data is supplied.
-- Liquidity: Treasury and money-market flows show mixed signals: SHY and LQD show strong institutional inflows, while SGOV and TLT show outflows, suggesting a rotation within the fixed-income complex rather than a broad liquidity surge.
-- Credit: High-yield OAS is 3.34% and investment-grade OAS is 0.91% (both 2026-11-09), indicating relatively tight credit conditions with no acute stress, though HY spreads are not at extreme tightness.
+- Growth: Real GDP is 24,611.077 billion chained 2017 dollars as of 2026-07-01; the latest growth data are stale and no forward growth estimate is supplied.
+- Inflation: CPI is 336.298 (1982-1984=100) and core CPI is 338.896, both as of 2026-09-01; core PCE is 130.902 (2017=100) for the same month. Inflation data are stale and no forward inflation path is provided.
+- Policy: Federal funds effective rate is 3.88% as of 2026-11-09; the Fed calendar is available but no meeting or rate decision is specified for the current window.
+- Rates: The 3.88% policy rate coexists with a 3.34% high-yield spread and a 0.91% investment-grade spread, suggesting credit conditions are not severely stressed but are not loose.
+- Liquidity: Treasury bill ETF SGOV shows strong confirmation of outflows, while short Treasury SHY shows structural accumulation; the flow mix implies a shift away from long-duration duration toward cash-like and quality assets.
+- Credit: High-yield spread is 3.34% and investment-grade spread is 0.91% as of 2026-11-09; these are point-in-time readings and no forward credit forecast is supplied.
 
 ## US Equities and 11 GICS Sectors
 
 | GICS sector | Evidence | AI research stance |
 | --- | --- | --- |
-| Health Care | XLV 20d return +11.33%; XLV closed 2026-11-10 at 188.88, +0.29% on the day. | Defensive leadership; strong 20-day momentum and stable daily performance support a constructive stance. |
-| Consumer Staples | XLP 20d return +8.12%; XLP closed 2026-11-10 at 91.03, +0.15% on the day. | Defensive and quality-oriented; steady daily performance reinforces the defensive rotation. |
-| Consumer Discretionary | XLY 20d return +7.73%; XLY closed 2026-11-10 at 121.05, +0.03% on the day. | Outperforming on 20-day momentum; daily flat suggests selective rather than broad strength. |
-| Real Estate | XLRE 20d return +6.57%; XLRE closed 2026-11-10 at 44.58, -0.13% on the day. | Positive 20-day trend but daily flat; watch rate sensitivity and REIT supply dynamics. |
-| Financials | XLF 20d return +6.33%; XLF closed 2026-11-10 at 58.29, +0.52% on the day. | Positive 20-day momentum and a positive daily move; supportive of a financial sector stance. |
-| Utilities | XLU 20d return +4.44%; XLU closed 2026-11-10 at 43.73, -0.14% on the day. | Modest 20-day gain but daily flat; defensive but less compelling than Health Care or Staples. |
-| Materials | XLB 20d return +6.30%; XLB closed 2026-11-10 at 52.85, -0.17% on the day. | Positive 20-day trend but daily flat; watch industrial and commodity demand signals. |
-| Industrials | XLI 20d return +0.04%; XLI closed 2026-11-10 at 168.73, -0.09% on the day. | Essentially flat on 20 days and slightly negative daily; neutral stance with no clear momentum. |
-| Communication Services | XLC 20d return -4.03%; XLC closed 2026-11-10 at 107.76, +0.37% on the day. | Negative 20-day trend but a positive daily move; mixed signals, no clear directional stance. |
-| Information Technology | XLK 20d return -13.94%; XLK closed 2026-11-10 at 168.91, -1.15% on the day; NVDA -5.47%, SMCI -2.83%. | Weakest sector; negative 20-day momentum and negative daily performance in key names; cautious stance. |
-| Energy | XLE 20d return -7.43%; XLE closed 2026-11-10 at 62.21, +0.44% on the day. | Negative 20-day trend but a positive daily move; mixed signals, no clear directional stance. |
+| Health Care | XLV 20-day return 0.1133; XLV closed at 188.88 on 2026-11-10 with a +0.29% daily change. | Defensive leadership; health care is a relative strength sector in the current risk-off tape. |
+| Consumer Staples | XLP 20-day return 0.0812; XLP closed at 91.03 on 2026-11-10 with a +0.15% daily change. | Defensive leadership; staples provide ballast in a market with negative 20-day breadth divergence. |
+| Consumer Discretionary | XLY 20-day return 0.0773; XLY closed at 121.05 on 2026-11-10 with a +0.03% daily change. | Modest positive 20-day return; discretionary is not a clear leader or laggard. |
+| Real Estate | XLRE 20-day return 0.0657; XLRE closed at 44.58 on 2026-11-10 with a -0.13% daily change. | Slightly positive 20-day return but negative daily move; real estate is mixed. |
+| Financials | XLF 20-day return 0.0633; XLF closed at 58.29 on 2026-11-10 with a +0.52% daily change. | Positive 20-day return and positive daily move; financials are a modest contributor. |
+| Utilities | XLU 20-day return 0.0444; XLU closed at 43.73 on 2026-11-10 with a -0.14% daily change. | Slightly positive 20-day return but negative daily move; utilities are mixed. |
+| Materials | XLB 20-day return 0.0630; XLB closed at 52.85 on 2026-11-10 with a -0.17% daily change. | Slightly positive 20-day return but negative daily move; materials are mixed. |
+| Industrials | XLI 20-day return 0.0004; XLI closed at 168.73 on 2026-11-10 with a -0.09% daily change. | Essentially flat on 20 days with a negative daily move; industrials are neutral. |
+| Communication Services | XLC 20-day return -0.0403; XLC closed at 107.76 on 2026-11-10 with a +0.37% daily change. | Negative 20-day return but positive daily move; communication services are mixed. |
+| Information Technology | XLK 20-day return -0.1394; XLK closed at 168.91 on 2026-11-10 with a -1.15% daily change. | Clear laggard; technology is the weakest sector with a sharp 20-day decline and negative daily momentum. |
+| Energy | XLE 20-day return -0.0743; XLE closed at 62.21 on 2026-11-10 with a +0.44% daily change. | Negative 20-day return but positive daily move; energy is a laggard on trend but mixed on the day. |
 
 ### Sector fundamentals, valuation and earnings
 
-No point-in-time sector-level fundamental data (e.g., earnings, margins, P/E, revenue growth, or balance-sheet metrics) is supplied in the evidence. The sector view is therefore based solely on ETF price returns, daily price states, and flow signals. Any fundamental interpretation would be invented and is explicitly excluded.
+No point-in-time sector fundamentals are supplied in the evidence. The sector data are limited to 20-day ETF returns and daily price changes for the 11 GICS sectors. No sector-level earnings, valuation, margin, or balance-sheet metrics are available, so no sector fundamental assessment can be made from the supplied data.
 
 ## Growth vs Value
 
-- Growth: Information Technology is the clearest growth-sector weakness, with XLK down 13.9% over 20 days and NVDA down 5.5% on 2026-11-10; this suggests a rotation out of high-beta growth names.
-- Value: Consumer Staples (+8.1% 20d) and Health Care (+11.3% 20d) are the strongest 20-day performers, consistent with a value/defensive rotation rather than a pure growth rally.
-- Quality: QUAL shows exceptional institutional buying (20d flow z-score
+- Growth: Information Technology is the clearest growth laggard, with XLK down 13.9% over 20 days and a -1.15% daily move on 2026-11-10.
+- Growth: Communication Services is also negative on 20 days (-4.03%), though it posted a +0.37% daily gain.
+- Value: Health Care (+11.33% 20d) and Consumer Staples (+8.12% 20d) are the strongest 20-day performers, consistent with a defensive/value tilt.
+- Value: Financials (+6.33% 20d) and Consumer Discretionary (+7.73% 20d) are also positive on 20 days, suggesting some cyclical value exposure remains intact.
 
 ## ETF Flows and Breadth
 
+- Breadth: 69.28% of constituents are above their 50-day moving average and 62.78% above the 200-day, with a 5.423 advance/decline ratio, but new highs are zero and the price-breadth divergence is negative (-35.6), indicating weak leadership.
+- Flows: SOXX, QUAL, ITA, and SHY show exceptional institutional buying with strong confirmation; these are quality, semiconductor, aerospace/defense, and short-duration Treasury flows.
+- Flows: IWF, SGOV, IBIT, and TLT show outflows with strong confirmation or medium-term deterioration, indicating selling in broad growth, cash-like duration, bitcoin, and long-duration Treasuries.
+- Flows: IEMG, EFA, and IVW show mixed or neutral flow structures with persistent selling, suggesting international and growth broad-market outflows.
+- Flows: IEF, HYG, and LQD show inflows with strong confirmation or structural accumulation, indicating demand for investment-grade credit and intermediate duration.
 
 ## Investment Ideas
 
@@ -176,6 +179,8 @@ Risk-only; no directional interpretation or allocation implication.
 
 ## Positioning
 
+- Maintain a defensive tilt: favored health care, consumer staples, and financials relative to the broad market.
+- Reduce exposure to information technology and energy until
 
 ## Catalysts
 
@@ -201,8 +206,8 @@ Risk-only; no directional interpretation or allocation implication.
 ## AI Provenance
 
 - Provider / model: hermes-local-proxy / upstage/solar-mini4:free
-- Market research: attempts=1 tokens=17316 (prompt=14316, completion=3000) runtime=41.24s
-- Fundamental research: generated this run at 2026-11-12T01:39:53.089577+00:00
+- Market research: attempts=1 tokens=17519 (prompt=14519, completion=3000) runtime=41.92s
+- Fundamental research: carried forward from 2026-11-12T01:41:15.505653+00:00 (age 0.6h)
 - Evidence source dates: {'as_of': '2026-11-11', 'latest_equity_date': '2026-11-10', 'latest_macro_date': '2026-11-11', 'flows_date': '2026-11-11', 'breadth_date': '2026-11-09'}
 - Evidence fingerprint: 5a5c1220b83b983b6596cd13ca9a7ef5b7db4d80ce26733828e740215fcd2543
 - Source citations include the supplied provenance catalog; market values are from the verified database snapshot.
