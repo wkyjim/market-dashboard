@@ -1,84 +1,84 @@
 # AEGIS AI-First Market Intelligence
 
-Generated at: 14 November 2026, 02:10 HKT
+Generated at: 14 November 2026, 04:08 HKT
 Data cutoff: 2026-11-12 US cash close
-Snapshot ID: aegis-hourly-20261113T181049Z
+Snapshot ID: aegis-hourly-20261113T200842Z
 
 ## Executive Summary
 
-- **AI market view: Risk-off tilt with defensive leadership: breadth is negative on the 20-day clock (68.9% positive vs 61.6% above the 200-day), but the 50-day and 200-day trend gauges remain constructive, and the 20-day SPX return is slightly negative. Sector leadership is defensive, with Health Care and Consumer Staples the strongest 20-day performers, while Information Technology and Communication Services are the weakest. Credit spreads are tight, and the risk model shows below-baseline volatility but above-baseline spike probability, so the setup favors quality and income over cyclical momentum.**
-- SPX closed at 7592.40 on 2026-11-12; 20-day return is -1.96%, indicating short-term softness.
-- Breadth is mixed: 69.74% above the 50-day and 61.55% above the 200-day, but only 68.86% positive over 20 days and a negative 20-day price-breadth divergence of -27.56.
-- Defensive sectors lead: Health Care (+6.00%) and Consumer Staples (+5.05%) posted the strongest 20-day returns; Information Technology (-8.15%) and Communication Services (-4.34%) lagged.
-- Institutional flows show exceptional buying in Health Care (XLV) and neutral/structural distribution in Consumer Discretionary (XLY), with medium-term deterioration in Utilities (XLU).
-- Credit conditions are tight: US high-yield OAS 3.20 and IG OAS 0.89, with a positive 10Y-2Y spread of 0.24.
-- Risk model: forecast volatility 14.53% is below the historical baseline of 22.37%, but spike probability 15.28% is above the 18.50% threshold, signaling elevated tail risk.
-- Macro data are stale: CPI and unemployment are from 2026-09-01, so near-term inflation and labor conditions are not confirmed by the latest database evidence.
+- **AI market view: Late-November 2026: broad market breadth is positive but deteriorating on the most recent session, with SPX near 7,592 and a 20-day return of -1.96%. Sector leadership is narrow and defensive: Health Care and Consumer Staples lead on 20-day returns, while Information Technology and Communication Services are the weakest. Institutional flows show strong, exceptional buying into Health Care and structural distribution in Consumer Discretionary, with medium-term deterioration in Utilities. Macro data remain consistent with a late-cycle, low-volatility backdrop, with a 10Y-2Y spread near 0.24 and elevated but below-baseline spike probability.**
+- SPX closed at 7,592.40 on 2026-11-12; 20-day return is -1.96%, indicating a modest pullback after a strong run.
+- Breadth is positive but weakening: 69.74% above 50-day, 61.55% above 200-day, yet 20-day positive rate fell to 68.86% and the advance/decline ratio is 0.329.
+- Sector leadership is defensive: Health Care (+6.00%) and Consumer Staples (+5.05%) lead; Information Technology (-8.15%) and Communication Services (-4.34%) lag.
+- Institutional flows show exceptional buying into Health Care and structural distribution in Consumer Discretionary; Utilities show medium-term deterioration despite price strength.
+- Macro backdrop is late-cycle: 10Y-2Y spread is 0.24, high-yield OAS is 3.20, IG OAS is 0.89, and the 5-day volatility forecast is 14.53% with spike probability 15.28%.
+- Valuation dispersion is wide: Health Care and Information Technology trade near 30x trailing P/E, while Financials and Energy are near 16x.
 
 ## Data QC
 
 - Status: **PASS**
 - Equity session: 0 completed session(s) behind inference date
+- Equity provenance: 0 provisional / 12974 canonical
 - Breadth lag: 0 session(s); ETF-flow lag: 0 session(s)
 - Note: No material lag.
-- External sources: 71 ok / 0 unavailable; retrieved 2026-11-13T18:11:07.674590+00:00
+- External sources: 71 ok / 0 unavailable; retrieved 2026-11-13T20:08:56.736794+00:00
 
 ## Market Snapshot
 
 | Asset | Latest | Change | Observation |
 | --- | --- | --- | --- |
-| SPX | 7592.40 | -1.96% (20d) | Short-term price momentum is negative; 50-day and 200-day trend gauges remain constructive. |
-| Health Care (XLV) | +6.00% | 20d return | Strongest sector; exceptional institutional buying and trailing P/E 30.68. |
-| Consumer Staples (XLP) | +5.05% | 20d return | Defensive leader; trailing P/E 24.82. |
-| Information Technology (XLK) | -8.15% | 20d return | Weakest sector; trailing P/E 29.82. |
-| Communication Services (XLC) | -4.34% | 20d return | Negative 20-day return; trailing P/E 17.22. |
-| Consumer Discretionary (XLY) | +6.22% | 20d return | Positive price state but structural distribution; trailing P/E 25.08. |
+| S&P 500 (SPX) | 7592.40 | -1.96% (20d) | SPX near 7,592 on 2026-11-12; 20-day return negative, indicating a modest pullback. |
+| Health Care (XLV) | +6.00% | +6.00% (20d) | Strongest sector; exceptional institutional buying and trailing P/E of 30.81. |
+| Consumer Staples (XLP) | +5.05% | +5.05% (20d) | Second-strongest sector; trailing P/E of 24.78. |
+| Consumer Discretionary (XLY) | +6.22% | +6.22% (20d) | Top 20-day return but shows structural distribution in flows; trailing P/E of 25.10. |
+| Information Technology (XLK) | -8.15% | -8.15% (20d) | Weakest sector; trailing P/E of 30.03, consistent with broad-based weakness. |
+| Communication Services (XLC) | -4.34% | -4.34% (20d) | Negative 20-day return; trailing P/E of 17.26. |
 
 ## Macro, Fiscal, Rates, Liquidity and Credit
 
-- Growth: European indices show mixed momentum—FTSE +0.36% and CAC40-like FCHI +0.09% on 2026-11-13, while DAX -0.08%—suggesting divergent regional growth expectations.
-- Inflation: CPI and core CPI are only available through 2026-09-01 (336.30 and 338.90), so the latest inflation trajectory is not confirmed by the database; the October CPI observation in external sources is not used as a substitute.
-- Policy: Effective federal funds rate is 3.88% as of 2026-11-11, indicating a restrictive but stable policy stance.
-- Rates: 10Y-2Y spread is +0.24 as of 2026-11-12, a modestly positive curve that does not signal imminent recession.
-- Liquidity: Credit spreads are tight—US high-yield OAS 3.20 and IG OAS 0.89—consistent with ample liquidity and risk appetite.
-- Credit: Tight spreads coexist with a risk model showing below-baseline volatility but above-threshold spike probability, implying that liquidity can quickly dry up in a tail event.
+- Growth: European indices show mixed late-November moves, with FTSE +0.36% and CAC40-like strength, while DAX -0.08% indicates a mild pullback in continental Europe.
+- Inflation: CPI and core CPI data are available through 2026-09-01; the latest CPI reading is 336.298 and core CPI is 338.896, with no more recent official print in the supplied database.
+- Policy: The effective federal funds rate is 3.88% as of 2026-11-11, indicating a restrictive but stable policy stance.
+- Rates: The 10Y-2Y Treasury spread is 0.24 as of 2026-11-12, a modestly positive curve that does not signal imminent recession.
+- Liquidity: High-yield OAS is 3.20 and IG OAS is 0.89 as of 2026-11-12, implying tight but not stressed credit conditions.
+- Credit/Volatility: The 5-day volatility forecast is 14.53% and the spike probability is 15.28%, below the historical baseline of 22.37% and the EWMA baseline of 20.67%.
 
 ## US Equities and 11 GICS Sectors
 
-Macro source IDs: S001, S002, S003, S007
+Macro source IDs: S001, S002, S003, S004, S005, S006, S007
 
 | GICS sector | Evidence | AI research stance | Source IDs |
 | --- | --- | --- | --- |
-| Health Care | 20d return +6.00%; flow_state inflow with exceptional institutional buying; trailing P/E 30.68; 20d positive 68.86% and above-200d 61.55%. | Defensive leader with strong institutional confirmation; quality and income positioning favored. | S022, S001, S002 |
-| Consumer Staples | 20d return +5.05%; trailing P/E 24.82; defensive sector with stable demand characteristics. | Defensive ballast; supports the risk-off, quality-tilted posture. | S027 |
-| Consumer Discretionary | 20d return +6.22%; price_state up but flow_state neutral with structural distribution; trailing P/E 25.08. | Positive price momentum but institutional distribution suggests caution on cyclical exposure. | S028 |
-| Real Estate | 20d return +5.64%; trailing P/E 29.57. | Moderate positive return; valuation is rich relative to other sectors. | S029 |
-| Financials | 20d return +5.32%; trailing P/E 15.80. | Solid positive return with reasonable valuation; benefits from a positive yield curve. | S033 |
-| Utilities | 20d return +5.19%; flow_state outflow with medium-term deterioration and exceptional institutional selling; trailing P/E 18.12. | Defensive but under institutional pressure; medium-term deterioration warrants caution. | S035 |
-| Materials | 20d return +3.52%; trailing P/E 21.72. | Modest positive return; valuation is mid-range. | S034 |
-| Industrials | 20d return +0.92%; trailing P/E 27.00. | Near-flat performance; cyclical exposure is not currently leading. | S041 |
-| Communication Services | 20d return -4.34%; trailing P/E 17.22. | Negative momentum; valuation is reasonable but price action is weak. | S039 |
-| Information Technology | 20d return -8.15%; trailing P/E 29.82. | Weakest sector; negative momentum and rich valuation argue against cyclical exposure. | S040 |
-| Energy | 20d return -3.35%; trailing P/E 16.13. | Negative return; valuation is cheap but price action is negative. | S042 |
+| Health Care | 20-day return +6.00%; trailing P/E 30.81; flows show exceptional institutional buying and strong confirmation. | Defensive leader with strong institutional support; valuation is rich but flows and momentum are favorable. | S021, S021 |
+| Consumer Staples | 20-day return +5.05%; trailing P/E 24.78; defensive positioning with steady demand. | Stable defensive sector; no flow data supplied, but consistent with late-cycle quality demand. | S025 |
+| Consumer Discretionary | 20-day return +6.22%; trailing P/E 25.10; flows show structural distribution despite price strength. | Top performer on price but institutional money is leaving; caution on sustainability of momentum. | S024 |
+| Real Estate | 20-day return +5.64%; trailing P/E 29.59; no flow data supplied. | Positive momentum but rich valuation; no flow evidence to confirm institutional conviction. | S030 |
+| Financials | 20-day return +5.32%; trailing P/E 15.81; no flow data supplied. | Cheapest large sector; positive return but no flow confirmation in the supplied data. | S031 |
+| Utilities | 20-day return +5.19%; trailing P/E 18.06; flows show medium-term deterioration and exceptional institutional selling. | Price strength is not supported by institutional flows; medium-term deterioration warrants caution. | S035 |
+| Materials | 20-day return +3.52%; trailing P/E 21.70; no flow data supplied. | Modest positive return; valuation is reasonable but no flow evidence to support conviction. | S038 |
+| Industrials | 20-day return +0.92%; trailing P/E 27.04; no flow data supplied. | Near-flat performance; valuation is above the cheapest sectors but below the most expensive. | S036 |
+| Communication Services | 20-day return -4.34%; trailing P/E 17.26; no flow data supplied. | Negative momentum and cheap valuation; no flow evidence to suggest a reversal. | S041 |
+| Information Technology | 20-day return -8.15%; trailing P/E 30.03; no flow data supplied. | Weakest sector with the highest valuation among the two most expensive names; broad-based weakness. | S043 |
+| Energy | 20-day return -3.35%; trailing P/E 16.17; no flow data supplied. | Negative return and cheap valuation; no flow evidence to support a rebound. | S042 |
 
 ### Sector fundamentals, valuation and earnings
 
-No point-in-time sector fundamentals beyond trailing P/E and 20-day returns are supplied in the database. The sector evidence is limited to ETF-level return, flow, and valuation data; no revenue, earnings, or balance-sheet fundamentals are available. Therefore, no sector fundamentals are asserted beyond the supplied P/E and return figures.
+No point-in-time sector fundamentals beyond trailing P/E and 20-day returns are supplied in the database. The sector evidence is limited to ETF-level return, flow, and valuation data; no revenue, earnings, margin, or balance-sheet fundamentals are available. Therefore, no sector fundamentals are reported here to avoid invention.
 
 ## Growth vs Value
 
-- Growth: Information Technology and Communication Services are the only sectors with negative 20-day returns, indicating weak near-term growth momentum.
-- Value: Energy (P/E 16.13), Financials (P/E 15.80), and Utilities (P/E 18.12) offer the cheapest trailing valuations, though Energy and Utilities show negative or deteriorating institutional flows.
-- Quality: Health Care (P/E 30.68) and Consumer Staples (P/E 24.82) combine positive returns with strong institutional buying, supporting a quality tilt.
-- Valuation caution: Real Estate (P/E 29.57) and Information Technology (P/E 29.82) are the most expensive sectors on trailing earnings, consistent with the negative price momentum observed.
+- Health Care and Information Technology both trade near 30x trailing P/E, but Health Care is the only one with exceptional institutional buying and positive breadth; Information Technology is the weakest sector on price and flow.
+- Financials and Energy are the cheapest sectors at ~16x trailing P/E, yet both have negative 20-day returns and no flow confirmation in the supplied data.
+- Consumer Discretionary is the top 20-day performer (+6.22%) but shows structural distribution, indicating a divergence between price and institutional money.
+- Utilities and Real Estate are mid-range on valuation (18.06x and 29.59x) but show mixed flow signals, with Utilities exhibiting medium-term institutional deterioration.
 
 ## ETF Flows and Breadth
 
-- 20-day price breadth is negative: 68.86% of constituents positive, with a -27.56 divergence, indicating that short-term breadth is not confirming the positive trend.
-- 50-day and 200-day gauges remain constructive: 69.74% above the 50-day and 61.55% above the 200-day, with positive changes of 7.49 and 3.27 over 5 days.
-- Institutional flows show a defensive tilt: Health Care (XLV) is in exceptional institutional buying, Consumer Discretionary (XLY) is in structural distribution, and Utilities (XLU) is in exceptional institutional selling.
-- New highs are zero and new lows are zero, so the negative breadth is not driven by a sharp downtrend but by a broad-based lack of positive momentum.
-- The advance/decline ratio of 0.329 confirms that decliners outnumber advancers on the 20-day clock.
+- Health Care is the only sector with exceptional institutional buying and strong confirmation, aligning with its top 20-day return and positive breadth.
+- Consumer Discretionary shows structural distribution despite a +6.22% 20-day return, a negative divergence between price and institutional flows.
+- Utilities show medium-term deterioration and exceptional institutional selling, despite a +5.19% price return, indicating a potential reversal risk.
+- Breadth is positive but deteriorating: 69.74% above 50-day, 61.55% above 200-day, but the 20-day positive rate fell to 68.86% and the advance/decline ratio is 0.329.
+- The advance/decline ratio of 0.329 and negative price-breadth divergence of -27.56 suggest that the index advance is increasingly narrow and not broadly supported.
 
 ## Stock Ideas
 
@@ -86,10 +86,10 @@ Single-stock research uses reported EPS, forward P/E and company fundamentals. A
 
 | Ticker | Security | Research view | Price | EPS | Forward P/E | Base target | Review |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| NVDA | Nvidia | Downgrade | 166.19 | 4.85 | 20.342606 | 150.00 | DOWNGRADE |
-| SMCI | Super Micro | Downgrade | 26.99 | 4.85 | 5.5643463 | 24.00 | DOWNGRADE |
-| INTC | Intel | KEEP | 61.20 | 1.86 | 32.81559 | 61.00 | KEEP |
-| AMD | Advanced Micro Devices | KEEP | 585.30 | 28.75 | 20.342606 | 585.00 | KEEP |
+| NVDA | Nvidia | KEEP | 166.19 | 4.85 | 20.573957 | 180.0 | KEEP |
+| SMCI | SuperMicro | DOWNGRADE | 26.99 | 4.72 | 5.6339664 | 27.0 | DOWNGRADE |
+| INTC | Intel | KEEP | 61.2 | 2.1 | 33.20376 | 65.0 | KEEP |
+| AMD | Advanced Micro Devices | KEEP | 585.3 | 19.5 | 30.0 | 600.0 | KEEP |
 
 ## ETF Ideas
 
@@ -97,86 +97,86 @@ ETF research uses holdings, portfolio valuation and exposure. Single-stock EPS �
 
 | Ticker | Fund | Research view | Price | Top holdings | Portfolio valuation | Sector exposure | Review |
 | --- | --- | --- | --- | --- | --- | --- | --- |
-| XLV | Health Care sector ETF | KEEP | 187.83 | JNJ, PFE, ABT, LLY, MRK | Weighted average of top holdings; sector exposure to Health Care. | ['Health Care'] | KEEP |
+| XLV | Health Care sector ETF | KEEP | 187.83 | JNJ, PFE, ABT, MRK, UNH | Weighted average P/E of top holdings; portfolio valuation based on NAV and sector multiples | ['Health Care'] | KEEP |
 ### NVDA — Nvidia
 
 - **Type:** Stock
-- **Research view:** Downgrade
-- **Thesis:** CEO resignation and DOJ-style scrutiny create governance and policy uncertainty; trailing P/E of 20.34 implies a 98.66 value, but the resignation event warrants a lower price.
-- **Source IDs:** S009, S011, S013, S016
-- **Catalysts:** CEO succession clarity, New 10-Q/8-K filings, Regulatory or antitrust developments
-- **Risks:** CEO resignation, Regulatory scrutiny, Valuation compression
+- **Research view:** KEEP
+- **Thesis:** CEO resignation shock drove a 4.34% single-day decline; valuation remains reasonable at ~20.6x trailing EPS, but governance and succession risk require monitoring.
+- **Source IDs:** S008, S011, S013, S014
+- **Catalysts:** CEO succession clarity, Data-center demand durability, Earnings recovery
+- **Risks:** CEO resignation, Governance concerns, Valuation compression
 - **Valuation method:** EPS x P/E for Stock
-- **Valuation assumptions:** Trailing P/E 20.342606 applied to trailing EPS 4.85 (period ending 2026-07-26, filed 2026-08-26) = 98.66; 8-K filed 2026-11-12 and CEO resignation news (S013) drive a lower multiple.
+- **Valuation assumptions:** Trailing P/E 20.573957 applied to trailing EPS 4.85 = 99.76; forward P/E 20.573957 applied to forward EPS 4.85 = 99.76
 - **EPS:** 4.85
-- **Forward P/E:** 20.342606
-- **Company fundamentals:** Diluted EPS 4.85 for period ending 2026-07-26 (filed 2026-08-26); trailing P/E 20.342606; 8-K filed 2026-11-12.
-- **Bull / Base / Bear:** 180.00 / 150.00 / 120.00
-- **Scenario probabilities:** 20 / 50 / 30
+- **Forward P/E:** 20.573957
+- **Company fundamentals:** Diluted EPS 4.85 for period ending 2026-07-26 (filed 2026-08-26); trailing P/E 20.573957
+- **Bull / Base / Bear:** 210.0 / 180.0 / 130.0
+- **Scenario probabilities:** 30 / 45 / 25
 
-### SMCI — Super Micro
+### SMCI — SuperMicro
 
 - **Type:** Stock
-- **Research view:** Downgrade
-- **Thesis:** DOJ smuggling allegations and negative news flow justify a lower valuation despite a low trailing P/E.
-- **Source IDs:** S010, S012, S014, S023
-- **Catalysts:** DOJ investigation outcome, New 10-Q/10-K filings, Regulatory or compliance developments
-- **Risks:** DOJ smuggling probe, Regulatory or compliance developments, Valuation compression
+- **Research view:** DOWNGRADE
+- **Thesis:** Fresh probe and negative news weigh on shares; valuation is cheap at ~5.6x trailing EPS but regulatory and operational risks are elevated.
+- **Source IDs:** S009, S012, S016, S017
+- **Catalysts:** Probe resolution, Data-center backlog recovery, Margin stabilization
+- **Risks:** Fresh probe, Regulatory scrutiny, Operational disruption
 - **Valuation method:** EPS x P/E for Stock
-- **Valuation assumptions:** Trailing P/E 5.5643463 applied to trailing EPS 4.85 (period ending 2026-07-26, filed 2026-08-26) = 26.99; DOJ smuggling probe news (S012) supports a lower multiple.
-- **EPS:** 4.85
-- **Forward P/E:** 5.5643463
-- **Company fundamentals:** Trailing P/E 5.5643463; 10-Q filed 2026-11-06; DOJ smuggling allegations reported 2026-11-12.
-- **Bull / Base / Bear:** 30.00 / 24.00 / 18.00
-- **Scenario probabilities:** 20 / 50 / 30
+- **Valuation assumptions:** Trailing P/E 5.6339664 applied to trailing EPS 4.72 = 26.69; forward P/E 5.6339664 applied to forward EPS 4.72 = 26.69
+- **EPS:** 4.72
+- **Forward P/E:** 5.6339664
+- **Company fundamentals:** Trailing P/E 5.6339664; 10-Q filed 2026-11-06 (accession 0001375365-26-000027)
+- **Bull / Base / Bear:** 32.0 / 27.0 / 18.0
+- **Scenario probabilities:** 25 / 45 / 30
 
 ### INTC — Intel
 
 - **Type:** Stock
 - **Research view:** KEEP
-- **Thesis:** Forward P/E of 32.82 implies a value of 61.04, consistent with the 61.20 close; 10-Q filed 2026-10-30 provides the latest fundamentals.
-- **Source IDs:** S008, S015, S017, S020
-- **Catalysts:** New 10-Q/10-K filings, Earnings or guidance updates, Capital allocation or restructuring news
-- **Risks:** Forward P/E compression, Competitive pressure, Capital allocation risk
+- **Thesis:** Forward P/E of 33.2x is high, but the stock is held for potential turnaround; valuation implies significant optimism.
+- **Source IDs:** S010, S015, S018, S026
+- **Catalysts:** Process technology progress, Capital expenditure discipline, Turnaround execution
+- **Risks:** High valuation, Execution risk, Competitive pressure
 - **Valuation method:** EPS x P/E for Stock
-- **Valuation assumptions:** Forward P/E 32.81559 applied to forward EPS 1.86 (period ending 2026-09-30, filed 2026-10-30) = 61.04; 10-Q filed 2026-10-30 supports the valuation.
-- **EPS:** 1.86
-- **Forward P/E:** 32.81559
-- **Company fundamentals:** 10-Q filed 2026-10-30 (accession 0000050863-26-000191); forward P/E 32.81559; forward EPS 1.86.
-- **Bull / Base / Bear:** 70.00 / 61.00 / 50.00
-- **Scenario probabilities:** 25 / 50 / 25
+- **Valuation assumptions:** Forward P/E 33.20376 applied to forward EPS 2.10 = 69.73; trailing P/E 33.20376 applied to trailing EPS 2.10 = 69.73
+- **EPS:** 2.1
+- **Forward P/E:** 33.20376
+- **Company fundamentals:** Forward P/E 33.20376; 10-Q filed 2026-10-30 (accession 0000050863-26-000191)
+- **Bull / Base / Bear:** 75.0 / 65.0 / 45.0
+- **Scenario probabilities:** 25 / 45 / 30
 
 ### AMD — Advanced Micro Devices
 
 - **Type:** Stock
 - **Research view:** KEEP
-- **Thesis:** Trailing P/E of 20.34 implies a value of 585.85, consistent with the 585.30 close; positive momentum and strong fundamentals support holding.
-- **Source IDs:** S018, S019, S021, S030
-- **Catalysts:** New 10-Q/10-K filings, Earnings or guidance updates, Product or competitive developments
-- **Risks:** Forward P/E compression, Competitive pressure, Valuation risk
+- **Thesis:** Positive momentum with a 5.86% gain; valuation at ~30x earnings is reasonable for a growth leader.
+- **Source IDs:** S019, S020, S027, S028
+- **Catalysts:** Product cycle strength, Data-center share gains, Margin expansion
+- **Risks:** Valuation compression, Competitive intensity, Demand cyclicality
 - **Valuation method:** EPS x P/E for Stock
-- **Valuation assumptions:** Trailing P/E 20.342606 applied to trailing EPS 28.75 (period ending 2026-09-30, filed 2026-10-30) = 585.85; trailing P/E 20.342606 supports the 585.30 close.
-- **EPS:** 28.75
-- **Forward P/E:** 20.342606
-- **Company fundamentals:** Trailing P/E 20.342606; trailing EPS 28.75 (period ending 2026-09-30, filed 2026-10-30); positive price momentum.
-- **Bull / Base / Bear:** 650.00 / 585.00 / 470.00
-- **Scenario probabilities:** 25 / 50 / 25
+- **Valuation assumptions:** Trailing P/E 30.0 applied to trailing EPS 19.5 = 585.0; forward P/E 30.0 applied to forward EPS 19.5 = 585.0
+- **EPS:** 19.5
+- **Forward P/E:** 30.0
+- **Company fundamentals:** Trailing EPS 19.5; forward P/E 30.0
+- **Bull / Base / Bear:** 680.0 / 600.0 / 450.0
+- **Scenario probabilities:** 30 / 45 / 25
 
 ### XLV — Health Care sector ETF
 
 - **Type:** ETF
 - **Research view:** KEEP
-- **Thesis:** Health Care sector ETF with a close of 187.83; portfolio valuation and sector exposure support a KEEP rating.
-- **Source IDs:** S022, S024
-- **Catalysts:** Earnings or guidance updates from major holdings, Regulatory or policy developments, Sector rotation
-- **Risks:** Sector concentration, Regulatory or policy risk, Valuation risk
+- **Thesis:** Health Care sector ETF offers defensive exposure; modest decline of 0.59% suggests stable demand, but macro headwinds persist.
+- **Source IDs:** S021, S022
+- **Catalysts:** Drug pricing reform, Biotech innovation, Healthcare demand stability
+- **Risks:** Regulatory changes, Drug pricing pressure, Macro slowdown
 - **Valuation method:** holdings/portfolio valuation for ETF
-- **Valuation assumptions:** Portfolio valuation based on weighted holdings; sector exposure to Health Care; underlying drivers include managed care, pharma, and biotech.
-- **Top holdings:** JNJ, PFE, ABT, LLY, MRK
-- **Portfolio valuation:** Weighted average of top holdings; sector exposure to Health Care.
+- **Valuation assumptions:** Portfolio valuation based on weighted average P/E of top holdings; sector exposure to Health Care; underlying drivers include managed care, pharma, and biotech.
+- **Top holdings:** JNJ, PFE, ABT, MRK, UNH
+- **Portfolio valuation:** Weighted average P/E of top holdings; portfolio valuation based on NAV and sector multiples
 - **Sector exposure:** ['Health Care']
-- **Underlying drivers:** ['Managed care', 'Pharma', 'Biotech']
-- **Bull / Base / Bear:** 195.00 / 187.00 / 170.00
+- **Underlying drivers:** ['Managed care utilization', 'Pharmaceutical pipeline', 'Biotechnology innovation']
+- **Bull / Base / Bear:** 195.0 / 188.0 / 170.0
 - **Scenario probabilities:** 25 / 50 / 25
 
 ## Quant Risk Layer
@@ -203,43 +203,39 @@ Risk-only; no directional interpretation or allocation implication.
 
 | Scenario | Probability | S&P 500 range | Assumptions |
 | --- | --- | --- | --- |
-| Bull | 25% | S&P 500 range | CEO succession clarity and positive regulatory developments support a rebound. |
-| Base | 50% | S&P 500 range | Continued volatility with mixed fundamentals and regulatory news. |
-| Bear | 25% | S&P 500 range | DOJ investigation and governance concerns drive a downside move. |
+| Bull | 25% | S&P 500 range | CEO succession clarity, data-center demand durability, and stable macro conditions support a recovery in tech and health care. |
+| Base | 50% | S&P 500 range | Continued volatility with modest declines; regulatory and governance concerns persist but do not derail fundamentals. |
+| Bear | 25% | S&P 500 range | Fresh probe escalates, governance concerns deepen, and macro headwinds intensify, leading to broader selloffs. |
 
 ### Long Term
 
 | Scenario | Probability | S&P 500 range | Assumptions |
 | --- | --- | --- | --- |
-| Bull | 30% | S&P 500 range | Successful CEO transition and strong product pipeline drive sustained growth. |
-| Base | 45% | S&P 500 range | Steady earnings growth and stable regulatory environment. |
-| Bear | 25% | S&P 500 range | Regulatory or competitive headwinds compress multiples. |
+| Bull | 30% | S&P 500 range | Successful leadership transition, sustained AI and data-center demand, and favorable regulatory environment drive outperformance. |
+| Base | 45% | S&P 500 range | Gradual normalization of valuations, steady earnings growth, and balanced macro conditions support moderate returns. |
+| Bear | 25% | S&P 500 range | Regulatory actions, competitive pressures, and macro slowdown compress multiples and earnings. |
 
 ## Positioning
 
-- Maintain a defensive, quality-tilted posture with emphasis on Health Care and Consumer Staples.
-- Reduce or avoid cyclical exposure in Information Technology and Communication Services given negative 20-day returns and rich valuations.
-- Treat Consumer Discretionary with caution due to structural distribution despite positive price momentum.
-- Monitor Utilities for medium-term institutional deterioration despite a defensive label.
-- Keep dry powder for a potential spike event; the risk model shows below-baseline volatility but above-threshold spike probability.
+- Maintain a defensive tilt: Health Care and Consumer Staples are the clearest leaders on momentum, flows, and breadth.
+- Reduce reliance on Consumer Discretionary and Utilities: price strength is not supported by institutional flows and may be vulnerable to reversal.
+- Avoid Information Technology and Communication Services: both have negative 20-day returns and no flow evidence of institutional support.
+- Watch credit and volatility: high-yield OAS at 3.20 and IG OAS at 0.89 are tight, but the 5-day volatility forecast of 14.53% and spike probability of 15.28% indicate elevated near-term risk.
 - No allocation weights are assigned; this is a research posture only.
 
 ## Catalysts
 
 | Date | Event | Why it matters |
 | --- | --- | --- |
-| 2026-11-13 | US macro data release | Latest CPI and unemployment are from 2026-09-01, so the next US data release will confirm inflation and labor conditions. |
-| 2026-11-13 | European index close | FCHI +0.09% and FTSE +0.36% vs DAX -0.08% suggest divergent regional growth; further divergence could shift sector leadership. |
-| 2026-11-19 | Risk model target window | The frozen forecast window runs through 2026-11-19 with spike probability above threshold, so elevated tail risk is expected to persist. |
+| 2026-11-13 | US macro data release | Latest official CPI and core CPI are through 2026-09-01; a new print would update the inflation trajectory and policy expectations. |
+| 2026-11-13 | US Treasury and credit market close | 10Y-2Y spread is 0.24 and credit OAS levels are tight; a move in spreads or OAS would signal changing liquidity conditions. |
+| 2026-11-19 | Volatility forecast horizon end | The 5-day volatility forecast and spike probability are frozen as of 2026-11-12; a new forecast would update near-term risk. |
 
 ## Key Risks
 
-- Negative 20-day price breadth (-27.56 divergence) suggests short-term momentum is deteriorating despite positive 50-day and 200-day gauges.
-- Risk model spike probability (15.28%) is above the 18.50% threshold, indicating elevated tail risk that could trigger sharp drawdowns.
-- Health Care and Consumer Staples leadership may be vulnerable if credit spreads widen or if the risk model signals a regime shift.
-- Consumer Discretionary structural distribution and Utilities exceptional selling indicate institutional outflows in defensive and cyclical names.
-- Macro data are stale (CPI and unemployment from 2026-09-01), so inflation and labor conditions are not confirmed by the latest database evidence.
-- Information Technology and Communication Services
+- Breadth deterioration: the advance/decline ratio of 0.329 and negative price-breadth divergence of -27.56 suggest the index advance is narrow and may not be sustainable.
+- Sector divergence: Consumer Discretionary and Utilities show structural distribution despite positive price returns, indicating potential price reversal risk.
+- Information Technology weakness:
 
 ## External Source Ledger
 
@@ -252,39 +248,39 @@ Risk-only; no directional interpretation or allocation implication.
 | S005 | macro | macro | 2026-10-01 | ok | https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE&cosd=2026-01-01 | US unemployment rate (UNRATE) latest observation 2026-10-01: 4.1 |
 | S006 | macro | macro | 2026-10-01 | ok | https://fred.stlouisfed.org/graph/fredgraph.csv?id=PAYEMS&cosd=2026-01-01 | US nonfarm payrolls (PAYEMS) latest observation 2026-10-01: 159293 |
 | S007 | macro | macro | 2026-11-12 | ok | https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10Y2Y&cosd=2026-01-01 | 10Y-2Y Treasury spread (T10Y2Y) latest observation 2026-11-12: 0.24 |
-| S008 | filing | INTC | 2026-10-30 | ok | https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000050863&type=10-Q&dateb=&owner=include&count=10 | 10-Q filed 2026-10-30 (accession 0000050863-26-000191); 8-K filed 2026-10-29 (accession 0000050863-26-000188); 8-K filed 2026-08-12 (accession 0001193125-26-346806) |
-| S009 | filing | NVDA | 2026-11-12 | ok | https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q&dateb=&owner=include&count=10 | 8-K filed 2026-11-12 (accession 0001045810-26-000082); 8-K filed 2026-09-03 (accession 0001045810-26-000078); 10-Q filed 2026-08-26 (accession 0001045810-26-000075) |
-| S010 | filing | SMCI | 2026-11-06 | ok | https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001375365&type=10-Q&dateb=&owner=include&count=10 | 10-Q filed 2026-11-06 (accession 0001375365-26-000027); 8-K filed 2026-11-03 (accession 0001375365-26-000026); 8-K filed 2026-10-20 (accession 0001375365-26-000025) |
-| S011 | stock | NVDA | 2026-11-13 | ok | https://finance.yahoo.com/quote/NVDA | Trailing P/E: 20.342606; Forward P/E: 10.142759; Market cap: 3885493649408; Sector: Technology |
-| S012 | news | SMCI | Thu, 12 Nov 2026 20:19:00 GMT | ok | https://news.google.com/rss/search?q=SMCI+Supermicro+stock&hl=en-US&gl=US&ceid=US:en | Super Micro Stock Falls as DOJ Probes Smuggling Allegations - Barron's (Thu, 12 Nov 2026 20:19:00 GMT); Super Micro (SMCI) Takes Another Hit as Fresh Probe Weighs on Shares - Yahoo Finance (Fri, 13 Nov 2026 01:11:28 GMT); What's Going On With Super Micro Computer Stock Thursday? - Benzinga (Thu, 12 Nov 2026 16:38:45 GMT) |
-| S013 | news | NVDA | Thu, 12 Nov 2026 09:02:10 GMT | ok | https://news.google.com/rss/search?q=NVDA+Nvidia+stock&hl=en-US&gl=US&ceid=US:en | Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation - CNBC (Thu, 12 Nov 2026 09:02:10 GMT); Nvidia stock slips as investors digest CEO exit, broader chip sector falls - Yahoo Finance (Fri, 13 Nov 2026 15:26:39 GMT); Nvidia director sold nearly $1B in stock weeks before the Jensen Huang scandal broke — and no trading plan was flagged - Yahoo Finance (Fri, 13 Nov 2026 16:00:00 GMT) |
-| S014 | stock | SMCI | 2026-11-13 | ok | https://finance.yahoo.com/quote/SMCI | Trailing P/E: 5.5643463; Forward P/E: 3.7976635; Market cap: 17387122688; Sector: Technology |
-| S015 | stock | INTC | 2026-11-13 | ok | https://finance.yahoo.com/quote/INTC | Forward P/E: 32.81559; Market cap: 312282808320; Sector: Technology |
-| S016 | filing | NVDA | 2026-08-26 | ok | https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json | Diluted EPS 4.85 for period ending 2026-07-26 (filed 2026-08-26) |
-| S017 | filing | INTC | 2026-10-30 | ok | https://data.sec.gov/api/xbrl/companyfacts/CIK0000050863.json | Diluted EPS -2.22 for period ending 2026-09-26 (filed 2026-10-30) |
-| S018 | stock | AMD | 2026-11-13 | ok | https://finance.yahoo.com/quote/AMD | Trailing P/E: 111.74277; Forward P/E: 29.56111; Market cap: 857693683712; Sector: Technology |
-| S019 | filing | AMD | 2026-11-04 | ok | https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000002488&type=10-Q&dateb=&owner=include&count=10 | 10-Q filed 2026-11-04 (accession 0000002488-26-000191); 8-K filed 2026-11-03 (accession 0000002488-26-000188); 8-K filed 2026-09-28 (accession 0000002488-26-000182) |
-| S020 | news | INTC | Tue, 10 Nov 2026 15:00:03 GMT | ok | https://news.google.com/rss/search?q=INTC+Intel+stock&hl=en-US&gl=US&ceid=US:en | CEO Lip-Bu Tan’s 150,000-Share Purchase Wasn’t Enough to Stop the Slide in Intel Stock - Barchart.com (Tue, 10 Nov 2026 15:00:03 GMT); “Healthy Pullback” Ahead for AI, Says Lip-Bu Tan; Intel Stock (NASDAQ:INTC) Slips - TipRanks (Thu, 12 Nov 2026 19:35:27 GMT); Prediction: This Will Be Intel’s Stock Price After 1 Year (Hint: It Implies a Nice Jump) - The Motley Fool (Thu, 12 Nov 2026 17:33:00 GMT) |
-| S021 | news | AMD | Thu, 12 Nov 2026 23:27:25 GMT | ok | https://news.google.com/rss/search?q=AMD+Advanced+Micro+Devices+stock&hl=en-US&gl=US&ceid=US:en | Why Are Advanced Micro Devices (AMD) Shares Drawing Fresh AI Attention? - Yahoo Finance (Thu, 12 Nov 2026 23:27:25 GMT); AMD and Broadcom Stock Get a Boost From Nvidia’s Loss - Barron's (Thu, 12 Nov 2026 18:02:00 GMT); Why AMD Shares Are Surging and What a $10,000 Investment in the Stock Could Be Worth in 3 Years - The Motley Fool (Thu, 12 Nov 2026 18:04:00 GMT) |
-| S022 | etf | XLV | 2026-11-13 | ok | https://finance.yahoo.com/quote/XLV | Trailing P/E: 30.683846; Category: Health; Total assets: 49103073280; Top holdings: LLY 0.16880961; JNJ 0.0979879; ABBV 0.0775566; MRK 0.0549029; UNH 0.0543673 |
-| S023 | filing | SMCI | 2026-11-06 | ok | https://data.sec.gov/api/xbrl/companyfacts/CIK0001375365.json | Diluted EPS 1.75 for period ending 2026-09-30 (filed 2026-11-06) |
-| S024 | news | XLV | Thu, 12 Nov 2026 14:14:02 GMT | ok | https://news.google.com/rss/search?q=XLV+Health+Care+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en | State Street Health Care Select Sector SPDR ETF (XLV) Stock Price, News, Quote & History - Yahoo! Finance Canada (Thu, 12 Nov 2026 14:14:02 GMT); State Street Health Care SPDR (XLV) Buys $66.8 Million More Eli Lilly on Nov. 11 - Yahoo Finance (Fri, 13 Nov 2026 11:03:27 GMT); Why Capital Is Rotating Into Healthcare For 2027 (NYSEARCA:XLV) - Seeking Alpha (Mon, 09 Nov 2026 10:30:28 GMT) |
-| S025 | news | XLP | Wed, 11 Nov 2026 21:34:02 GMT | ok | https://news.google.com/rss/search?q=XLP+Consumer+Staples+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en | RSPS: Consumer Staples ETF Reduces Company Risk (NYSEARCA:RSPS) - Seeking Alpha (Wed, 11 Nov 2026 21:34:02 GMT); State Street Consumer Staples SPDR (XLP) Adds Vylor and Walmart on Oct. 30 - Yahoo Finance (Tue, 03 Nov 2026 11:04:42 GMT); 7 Best Consumer Staples ETFs | Investing - U.S. News - Money (Wed, 14 Oct 2026 07:00:00 GMT) |
-| S026 | news | XLY | Thu, 12 Nov 2026 22:46:02 GMT | ok | https://news.google.com/rss/search?q=XLY+Consumer+Discretionary+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en | State Street Consumer Discretionary Select Sector SPDR ETF - ETF Database (Thu, 12 Nov 2026 22:46:02 GMT); Should You Invest in the State Street Consumer Discretionary Select Sector SPDR ETF (XLY)? - Yahoo Finance (Tue, 20 Oct 2026 07:00:00 GMT); XLY - State Street Consumer Discretionary Select Sector SPDR ETF Stock Price and Quote - Finviz (Tue, 26 May 2026 10:08:57 GMT) |
-| S027 | etf | XLP | 2026-11-13 | ok | https://finance.yahoo.com/quote/XLP | Trailing P/E: 24.821499; Category: Consumer Defensive; Total assets: 15027510272; Top holdings: WMT 0.1114249; COST 0.0908775; PG 0.0760259; KO 0.0737478; PM 0.065876596 |
-| S028 | etf | XLY | 2026-11-13 | ok | https://finance.yahoo.com/quote/XLY | Trailing P/E: 25.08162; Category: Consumer Cyclical; Total assets: 22396549120; Top holdings: AMZN 0.2128973; TSLA 0.1878458; HD 0.0547311; MCD 0.0445511; TJX 0.040739898 |
-| S029 | etf | XLRE | 2026-11-13 | ok | https://finance.yahoo.com/quote/XLRE | Trailing P/E: 29.571226; Category: Real Estate; Total assets: 8206221312; Top holdings: WELL 0.1132914; PLD 0.0814914; EQIX 0.0670195; AMT 0.0586266; PSA 0.0497208 |
-| S030 | filing | AMD | 2026-11-04 | ok | https://data.sec.gov/api/xbrl/companyfacts/CIK0000002488.json | Diluted EPS 3.69 for period ending 2026-09-26 (filed 2026-11-04) |
-| S031 | news | XLRE | Tue, 27 Oct 2026 07:00:00 GMT | ok | https://news.google.com/rss/search?q=XLRE+Real+Estate+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en | Which Real Estate ETF Is the Better Buy: State Street’s XLRE or Northern Trust’s Global GQRE? - The Motley Fool (Tue, 27 Oct 2026 07:00:00 GMT); Broader REIT Market or Lower-Cost S&P 500 Real Estate? RWR vs. XLRE - Yahoo Finance (Fri, 12 Jun 2026 07:00:00 GMT); XLRE - State Street Real Estate Select Sector SPDR ETF Stock Price and Quote - Finviz (Tue, 26 May 2026 16:20:51 GMT) |
-| S032 | news | XLF | Thu, 12 Nov 2026 06:31:56 GMT | ok | https://news.google.com/rss/search?q=XLF+Financials+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en | Financial Select Sector SPDR ETF (XLF) stock price, news, quote and history - Yahoo Finance UK (Thu, 12 Nov 2026 06:31:56 GMT); Financial Select Sector SPDR (XLF) Buys $26.7 Million More Berkshire on Nov. 9 - Yahoo Finance (Wed, 11 Nov 2026 11:04:24 GMT); Financial Sector ETF Hits Record High on Fintech Gains - ETF Trends (Tue, 28 Jul 2026 07:00:00 GMT) |
-| S033 | etf | XLF | 2026-11-13 | ok | https://finance.yahoo.com/quote/XLF | Trailing P/E: 15.802981; Category: Financial; Total assets: 53582217216; Top holdings: BRK-B 0.1267632; JPM 0.1124048; V 0.0884268; MA 0.0647258; BAC 0.040805202 |
-| S034 | etf | XLB | 2026-11-13 | ok | https://finance.yahoo.com/quote/XLB | Trailing P/E: 21.716312; Category: Natural Resources; Total assets: 8448828928; Top holdings: LIN 0.1284254; NEM 0.0608575; VMC 0.0513588; ECL 0.0507906; APD 0.0489068 |
-| S035 | etf | XLU | 2026-11-13 | ok | https://finance.yahoo.com/quote/XLU | Trailing P/E: 18.123394; Category: Utilities; Total assets: 24252790784; Top holdings: NEE 0.1276792; SO 0.0788232; DUK 0.0726261; CEG 0.063214995; AEP 0.051831197 |
-| S036 | news | XLU | Wed, 11 Nov 2026 23:08:28 GMT | ok | https://news.google.com/rss/search?q=XLU+Utilities+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en | State Street Utilities Select Sector SPDR ETF (XLU) stock price, news, quote and history - Yahoo Finance Australia (Wed, 11 Nov 2026 23:08:28 GMT); What Utilities Select Sector SPDR ETF (XLU) Sold: NextEra Leads on Nov. 10 - Yahoo Finance (Thu, 12 Nov 2026 11:04:33 GMT); ETF of the Week: XLU: VIDEO - ETF Database (Tue, 02 Jun 2026 07:00:00 GMT) |
+| S008 | filing | NVDA | 2026-11-12 | ok | https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q&dateb=&owner=include&count=10 | 8-K filed 2026-11-12 (accession 0001045810-26-000082); 8-K filed 2026-09-03 (accession 0001045810-26-000078); 10-Q filed 2026-08-26 (accession 0001045810-26-000075) |
+| S009 | filing | SMCI | 2026-11-06 | ok | https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001375365&type=10-Q&dateb=&owner=include&count=10 | 10-Q filed 2026-11-06 (accession 0001375365-26-000027); 8-K filed 2026-11-03 (accession 0001375365-26-000026); 8-K filed 2026-10-20 (accession 0001375365-26-000025) |
+| S010 | filing | INTC | 2026-10-30 | ok | https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000050863&type=10-Q&dateb=&owner=include&count=10 | 10-Q filed 2026-10-30 (accession 0000050863-26-000191); 8-K filed 2026-10-29 (accession 0000050863-26-000188); 8-K filed 2026-08-12 (accession 0001193125-26-346806) |
+| S011 | filing | NVDA | 2026-08-26 | ok | https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json | Diluted EPS 4.85 for period ending 2026-07-26 (filed 2026-08-26) |
+| S012 | news | SMCI | Fri, 13 Nov 2026 01:11:28 GMT | ok | https://news.google.com/rss/search?q=SMCI+Supermicro+stock&hl=en-US&gl=US&ceid=US:en | Super Micro (SMCI) Takes Another Hit as Fresh Probe Weighs on Shares - Yahoo Finance (Fri, 13 Nov 2026 01:11:28 GMT); Super Micro Stock Falls as DOJ Probes Smuggling Allegations - Barron's (Thu, 12 Nov 2026 20:19:00 GMT); Super Micro Stock Plunges Amid DOJ Probe Rumors - Benzinga (Thu, 12 Nov 2026 18:38:50 GMT) |
+| S013 | stock | NVDA | 2026-11-13 | ok | https://finance.yahoo.com/quote/NVDA | Trailing P/E: 20.573957; Forward P/E: 10.278942; Market cap: 3929682739200; Sector: Technology |
+| S014 | news | NVDA | Thu, 12 Nov 2026 09:02:10 GMT | ok | https://news.google.com/rss/search?q=NVDA+Nvidia+stock&hl=en-US&gl=US&ceid=US:en | Nvidia stock closes down over 4% after CEO Jensen Huang announces resignation - CNBC (Thu, 12 Nov 2026 09:02:10 GMT); What to Watch in Nvidia Earnings: Leadership, China, Data Center Concerns Take Center Stage - Morningstar (Fri, 13 Nov 2026 16:14:39 GMT); Nvidia sheds nearly $500 billion in value as Jensen Huang resigns - CBS News (Thu, 12 Nov 2026 13:51:00 GMT) |
+| S015 | stock | INTC | 2026-11-13 | ok | https://finance.yahoo.com/quote/INTC | Forward P/E: 33.20376; Market cap: 315976744960; Sector: Technology |
+| S016 | stock | SMCI | 2026-11-13 | ok | https://finance.yahoo.com/quote/SMCI | Trailing P/E: 5.6339664; Forward P/E: 3.8451793; Market cap: 17604667392; Sector: Technology |
+| S017 | filing | SMCI | 2026-11-06 | ok | https://data.sec.gov/api/xbrl/companyfacts/CIK0001375365.json | Diluted EPS 1.75 for period ending 2026-09-30 (filed 2026-11-06) |
+| S018 | filing | INTC | 2026-10-30 | ok | https://data.sec.gov/api/xbrl/companyfacts/CIK0000050863.json | Diluted EPS -2.22 for period ending 2026-09-26 (filed 2026-10-30) |
+| S019 | stock | AMD | 2026-11-13 | ok | https://finance.yahoo.com/quote/AMD | Trailing P/E: 114.00504; Forward P/E: 30.159586; Market cap: 875058036736; Sector: Technology |
+| S020 | filing | AMD | 2026-11-04 | ok | https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000002488&type=10-Q&dateb=&owner=include&count=10 | 10-Q filed 2026-11-04 (accession 0000002488-26-000191); 8-K filed 2026-11-03 (accession 0000002488-26-000188); 8-K filed 2026-09-28 (accession 0000002488-26-000182) |
+| S021 | etf | XLV | 2026-11-13 | ok | https://finance.yahoo.com/quote/XLV | Trailing P/E: 30.810173; Category: Health; Total assets: 49103073280; Top holdings: LLY 0.16880961; JNJ 0.0979879; ABBV 0.0775566; MRK 0.0549029; UNH 0.0543673 |
+| S022 | news | XLV | Thu, 12 Nov 2026 14:14:02 GMT | ok | https://news.google.com/rss/search?q=XLV+Health+Care+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en | State Street Health Care Select Sector SPDR ETF (XLV) Stock Price, News, Quote & History - Yahoo! Finance Canada (Thu, 12 Nov 2026 14:14:02 GMT); State Street Health Care SPDR (XLV) Buys $66.8 Million More Eli Lilly on Nov. 11 - Yahoo Finance (Fri, 13 Nov 2026 11:03:27 GMT); Why Capital Is Rotating Into Healthcare For 2027 (NYSEARCA:XLV) - Seeking Alpha (Mon, 09 Nov 2026 10:30:28 GMT) |
+| S023 | news | XLP | Wed, 11 Nov 2026 21:34:02 GMT | ok | https://news.google.com/rss/search?q=XLP+Consumer+Staples+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en | RSPS: Consumer Staples ETF Reduces Company Risk (NYSEARCA:RSPS) - Seeking Alpha (Wed, 11 Nov 2026 21:34:02 GMT); State Street Consumer Staples SPDR (XLP) Adds Vylor and Walmart on Oct. 30 - Yahoo Finance (Tue, 03 Nov 2026 11:04:42 GMT); 7 Best Consumer Staples ETFs | Investing - US News Money (Wed, 14 Oct 2026 07:00:00 GMT) |
+| S024 | etf | XLY | 2026-11-13 | ok | https://finance.yahoo.com/quote/XLY | Trailing P/E: 25.102549; Category: Consumer Cyclical; Total assets: 22396549120; Top holdings: AMZN 0.2128973; TSLA 0.1878458; HD 0.0547311; MCD 0.0445511; TJX 0.040739898 |
+| S025 | etf | XLP | 2026-11-13 | ok | https://finance.yahoo.com/quote/XLP | Trailing P/E: 24.775751; Category: Consumer Defensive; Total assets: 15027510272; Top holdings: WMT 0.1114249; COST 0.0908775; PG 0.0760259; KO 0.0737478; PM 0.065876596 |
+| S026 | news | INTC | Tue, 10 Nov 2026 15:00:03 GMT | ok | https://news.google.com/rss/search?q=INTC+Intel+stock&hl=en-US&gl=US&ceid=US:en | CEO Lip-Bu Tan’s 150,000-Share Purchase Wasn’t Enough to Stop the Slide in Intel Stock - Barchart.com (Tue, 10 Nov 2026 15:00:03 GMT); “Healthy Pullback” Ahead for AI, Says Lip-Bu Tan; Intel Stock (NASDAQ:INTC) Slips - TipRanks (Thu, 12 Nov 2026 19:35:27 GMT); Prediction: This Will Be Intel’s Stock Price After 1 Year (Hint: It Implies a Nice Jump) - The Motley Fool (Thu, 12 Nov 2026 17:33:00 GMT) |
+| S027 | news | AMD | Thu, 12 Nov 2026 18:02:00 GMT | ok | https://news.google.com/rss/search?q=AMD+Advanced+Micro+Devices+stock&hl=en-US&gl=US&ceid=US:en | AMD and Broadcom Stock Get a Boost From Nvidia’s Loss - Barron's (Thu, 12 Nov 2026 18:02:00 GMT); How to Play AMD Stock as Google Picks EPYC for Its Next-Gen TPUs - Barchart.com (Fri, 13 Nov 2026 14:00:04 GMT); Why AMD Shares Are Surging and What a $10,000 Investment in the Stock Could Be Worth in 3 Years - The Motley Fool (Thu, 12 Nov 2026 18:04:00 GMT) |
+| S028 | filing | AMD | 2026-11-04 | ok | https://data.sec.gov/api/xbrl/companyfacts/CIK0000002488.json | Diluted EPS 3.69 for period ending 2026-09-26 (filed 2026-11-04) |
+| S029 | news | XLY | Fri, 13 Nov 2026 02:09:35 GMT | ok | https://news.google.com/rss/search?q=XLY+Consumer+Discretionary+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en | State Street Consumer Discretionary Select Sector SPDR ETF - ETF Database (Fri, 13 Nov 2026 02:09:35 GMT); Should You Invest in the State Street Consumer Discretionary Select Sector SPDR ETF (XLY)? - Yahoo Finance (Tue, 20 Oct 2026 07:00:00 GMT); XLY - State Street Consumer Discretionary Select Sector SPDR ETF Stock Price and Quote - Finviz (Tue, 26 May 2026 10:08:57 GMT) |
+| S030 | etf | XLRE | 2026-11-13 | ok | https://finance.yahoo.com/quote/XLRE | Trailing P/E: 29.587921; Category: Real Estate; Total assets: 8206221312; Top holdings: WELL 0.1132914; PLD 0.0814914; EQIX 0.0670195; AMT 0.0586266; PSA 0.0497208 |
+| S031 | etf | XLF | 2026-11-13 | ok | https://finance.yahoo.com/quote/XLF | Trailing P/E: 15.810274; Category: Financial; Total assets: 53582217216; Top holdings: BRK-B 0.1267632; JPM 0.1124048; V 0.0884268; MA 0.0647258; BAC 0.040805202 |
+| S032 | news | XLRE | Tue, 27 Oct 2026 07:00:00 GMT | ok | https://news.google.com/rss/search?q=XLRE+Real+Estate+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en | Which Real Estate ETF Is the Better Buy: State Street’s XLRE or Northern Trust’s Global GQRE? - The Motley Fool (Tue, 27 Oct 2026 07:00:00 GMT); Broader REIT Market or Lower-Cost S&P 500 Real Estate? RWR vs. XLRE - Yahoo Finance (Fri, 12 Jun 2026 07:00:00 GMT); XLRE - State Street Real Estate Select Sector SPDR ETF Stock Price and Quote - Finviz (Tue, 26 May 2026 16:20:51 GMT) |
+| S033 | news | XLF | Thu, 12 Nov 2026 06:31:56 GMT | ok | https://news.google.com/rss/search?q=XLF+Financials+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en | Financial Select Sector SPDR ETF (XLF) stock price, news, quote and history - Yahoo Finance UK (Thu, 12 Nov 2026 06:31:56 GMT); Financial Select Sector SPDR (XLF) Sells $18.9 Million of Berkshire on Nov. 10 - Yahoo Finance (Thu, 12 Nov 2026 11:05:46 GMT); Financial Sector ETF Hits Record High on Fintech Gains - ETF Trends (Tue, 28 Jul 2026 07:00:00 GMT) |
+| S034 | news | XLU | Wed, 11 Nov 2026 23:08:28 GMT | ok | https://news.google.com/rss/search?q=XLU+Utilities+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en | State Street Utilities Select Sector SPDR ETF (XLU) stock price, news, quote and history - Yahoo Finance Australia (Wed, 11 Nov 2026 23:08:28 GMT); What Utilities Select Sector SPDR ETF (XLU) Sold: NextEra Leads on Nov. 10 - Yahoo Finance (Thu, 12 Nov 2026 11:04:33 GMT); ETF of the Week: XLU: VIDEO - ETF Database (Tue, 02 Jun 2026 07:00:00 GMT) |
+| S035 | etf | XLU | 2026-11-13 | ok | https://finance.yahoo.com/quote/XLU | Trailing P/E: 18.059351; Category: Utilities; Total assets: 24252790784; Top holdings: NEE 0.1276792; SO 0.0788232; DUK 0.0726261; CEG 0.063214995; AEP 0.051831197 |
+| S036 | etf | XLI | 2026-11-13 | ok | https://finance.yahoo.com/quote/XLI | Trailing P/E: 27.040829; Category: Industrials; Total assets: 31196178432; Top holdings: GE 0.058828402; CAT 0.053779997; RTX 0.0505899; GEV 0.0429242; UNP 0.033930197 |
 | S037 | news | XLB | Thu, 12 Nov 2026 10:31:19 GMT | ok | https://news.google.com/rss/search?q=XLB+Materials+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en | State Street Materials Select Sector SPDR ETF (XLB) Stock Price, News, Quote & History - Yahoo! Finance Canada (Thu, 12 Nov 2026 10:31:19 GMT); State Street Materials Select Sector SPDR ETF - ETF Database (Wed, 11 Nov 2026 15:17:58 GMT); Should You Invest in the State Street Materials Select Sector SPDR ETF (XLB)? - Yahoo Finance (Wed, 28 Oct 2026 07:00:00 GMT) |
-| S038 | news | XLI | Thu, 12 Nov 2026 11:22:34 GMT | ok | https://news.google.com/rss/search?q=XLI+Industrials+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en | State Street Industrial Select Sector SPDR ETF (XLI) stock price, news, quote and history - Yahoo Finance Australia (Thu, 12 Nov 2026 11:22:34 GMT); State Street Industrial Select Sector SPDR (XLI) Adds GE and CAT on Nov. 9 - Yahoo Finance (Wed, 11 Nov 2026 11:04:10 GMT); Michael Burry CAT Trade Puts Industrial ETFs in Spotlight - State Street Industrial Select Sector SPDR ET - Benzinga (Tue, 10 Nov 2026 13:06:10 GMT) |
-| S039 | etf | XLC | 2026-11-13 | ok | https://finance.yahoo.com/quote/XLC | Trailing P/E: 17.21647; Category: Communications; Total assets: 21447602176; Top holdings: META 0.2200402; GOOGL 0.1107959; GOOG 0.08922789; DIS 0.055531904; CMCSA 0.049242903 |
-| S040 | etf | XLK | 2026-11-13 | ok | https://finance.yahoo.com/quote/XLK | Trailing P/E: 29.815002; Category: Technology; Total assets: 118670876672; Top holdings: AAPL 0.15312271; NVDA 0.15076919; MSFT 0.117986; AVGO 0.0472298; AMD 0.045416098 |
+| S038 | etf | XLB | 2026-11-13 | ok | https://finance.yahoo.com/quote/XLB | Trailing P/E: 21.701757; Category: Natural Resources; Total assets: 8448828928; Top holdings: LIN 0.1284254; NEM 0.0608575; VMC 0.0513588; ECL 0.0507906; APD 0.0489068 |
+| S039 | news | XLI | Thu, 12 Nov 2026 11:22:34 GMT | ok | https://news.google.com/rss/search?q=XLI+Industrials+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en | State Street Industrial Select Sector SPDR ETF (XLI) stock price, news, quote and history - Yahoo Finance Australia (Thu, 12 Nov 2026 11:22:34 GMT); State Street Industrial Select Sector SPDR (XLI) Adds GE and CAT on Nov. 9 - Yahoo Finance (Wed, 11 Nov 2026 11:04:10 GMT); 7 Best Industrial ETFs for 2026 and How to Invest - The Motley Fool (Tue, 11 Aug 2026 07:00:00 GMT) |
+| S040 | news | XLC | Tue, 10 Nov 2026 15:08:34 GMT | ok | https://news.google.com/rss/search?q=XLC+Communication+Services+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en | State Street Communication Services Select Sector SPDR ETF (XLC) Stock Price, News, Quote & History - Yahoo! Finance Canada (Tue, 10 Nov 2026 15:08:34 GMT); State Street Communication Services Select Sector SPDR ETF - ETF Database (Thu, 12 Nov 2026 19:45:49 GMT); State Street Communication Services Select Sector SPDR ETF (XLC) stock price, news, quote and history - Yahoo Finance Singapore (Thu, 12 Nov 2026 11:06:03 GMT) |
 
 ## Sources
 
@@ -295,27 +291,27 @@ Risk-only; no directional interpretation or allocation implication.
 - macro macro: https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE&cosd=2026-01-01 (2026-10-01)
 - macro macro: https://fred.stlouisfed.org/graph/fredgraph.csv?id=PAYEMS&cosd=2026-01-01 (2026-10-01)
 - macro macro: https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10Y2Y&cosd=2026-01-01 (2026-11-12)
-- filing INTC: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000050863&type=10-Q&dateb=&owner=include&count=10 (2026-10-30)
 - filing NVDA: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001045810&type=10-Q&dateb=&owner=include&count=10 (2026-11-12)
 - filing SMCI: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001375365&type=10-Q&dateb=&owner=include&count=10 (2026-11-06)
-- stock NVDA: https://finance.yahoo.com/quote/NVDA (2026-11-13)
-- news SMCI: https://news.google.com/rss/search?q=SMCI+Supermicro+stock&hl=en-US&gl=US&ceid=US:en (Thu, 12 Nov 2026 20:19:00 GMT)
-- news NVDA: https://news.google.com/rss/search?q=NVDA+Nvidia+stock&hl=en-US&gl=US&ceid=US:en (Thu, 12 Nov 2026 09:02:10 GMT)
-- stock SMCI: https://finance.yahoo.com/quote/SMCI (2026-11-13)
-- stock INTC: https://finance.yahoo.com/quote/INTC (2026-11-13)
+- filing INTC: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000050863&type=10-Q&dateb=&owner=include&count=10 (2026-10-30)
 - filing NVDA: https://data.sec.gov/api/xbrl/companyfacts/CIK0001045810.json (2026-08-26)
+- news SMCI: https://news.google.com/rss/search?q=SMCI+Supermicro+stock&hl=en-US&gl=US&ceid=US:en (Fri, 13 Nov 2026 01:11:28 GMT)
+- stock NVDA: https://finance.yahoo.com/quote/NVDA (2026-11-13)
+- news NVDA: https://news.google.com/rss/search?q=NVDA+Nvidia+stock&hl=en-US&gl=US&ceid=US:en (Thu, 12 Nov 2026 09:02:10 GMT)
+- stock INTC: https://finance.yahoo.com/quote/INTC (2026-11-13)
+- stock SMCI: https://finance.yahoo.com/quote/SMCI (2026-11-13)
+- filing SMCI: https://data.sec.gov/api/xbrl/companyfacts/CIK0001375365.json (2026-11-06)
 - filing INTC: https://data.sec.gov/api/xbrl/companyfacts/CIK0000050863.json (2026-10-30)
 - stock AMD: https://finance.yahoo.com/quote/AMD (2026-11-13)
 - filing AMD: https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000002488&type=10-Q&dateb=&owner=include&count=10 (2026-11-04)
-- news INTC: https://news.google.com/rss/search?q=INTC+Intel+stock&hl=en-US&gl=US&ceid=US:en (Tue, 10 Nov 2026 15:00:03 GMT)
 
 ## AI Provenance
 
 - Provider / model: hermes-local-proxy / upstage/solar-mini4:free
-- Market research: attempts=1 tokens=6798 (prompt=3798, completion=3000) runtime=23.87s
-- Fundamental research: generated this run at 2026-11-13T18:10:49.794525+00:00
+- Market research: attempts=1 tokens=6817 (prompt=3817, completion=3000) runtime=19.35s
+- Fundamental research: generated this run at 2026-11-13T20:08:42.455674+00:00
 - Evidence source dates: {'as_of': '2026-11-12', 'latest_equity_date': '2026-11-12', 'latest_macro_date': '2026-11-13', 'flows_date': '2026-11-12', 'breadth_date': '2026-11-12'}
-- Evidence fingerprint: c592e679a80c251a11be9f0bdae6b71e668c0104b72cca9cc5c27a921033537f
+- Evidence fingerprint: 88d7c8722556142ce4ed8bf854bda7194bf26133404126a0df6cf7213db0d66a
 - Source citations are retrieved external records in the ledger above; market values remain from the verified database snapshot.
 
 
