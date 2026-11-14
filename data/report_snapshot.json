@@ -1,7 +1,7 @@
 {
   "schema": "aegis-hourly-snapshot-v1",
-  "snapshot_id": "aegis-hourly-20261114T121821Z",
-  "generated_at_utc": "2026-11-14T12:18:21.706899+00:00",
+  "snapshot_id": "aegis-hourly-20261114T131356Z",
+  "generated_at_utc": "2026-11-14T13:13:56.214286+00:00",
   "as_of": "2026-11-13",
   "latest_equity_date": "2026-11-13",
   "latest_macro_date": "2026-11-13",
@@ -359,21 +359,21 @@
       "prompt_tokens": 6521,
       "completion_tokens": 3000,
       "total_tokens": 9521,
-      "elapsed_s": 25.79,
-      "response_sha256": "1a7b1787aeb738f189e50fc63ca37ba0e1ab74bc9210577541ef2324bfb90ad7"
+      "elapsed_s": 19.83,
+      "response_sha256": "2db4038d3059dda96c53ba2761578d1bdb10f4ee458480d5b41893757a56be5e"
     },
     "fundamental_research": {
       "qualitative": {
         "provider": "hermes-local-proxy",
         "model": "upstage/solar-mini4:free",
         "prompt_chars": 1784,
-        "payload_chars": 33075,
-        "attempts": 1,
-        "prompt_tokens": 15826,
-        "completion_tokens": 2450,
-        "total_tokens": 18276,
-        "elapsed_s": 17.37,
-        "response_sha256": "9a7b24b3e8623287c84f7d47263461bef988eb0f97ab11fabe320ed802b84332",
+        "payload_chars": 33118,
+        "attempts": 2,
+        "prompt_tokens": 15868,
+        "completion_tokens": 2757,
+        "total_tokens": 18625,
+        "elapsed_s": 24.74,
+        "response_sha256": "6fe5d33c72c17c38adc9d93cd17e5bfff044232024e17e6bad3507a769b5e8de",
         "section": "qualitative",
         "errors": []
       },
@@ -381,13 +381,13 @@
         "provider": "hermes-local-proxy",
         "model": "upstage/solar-mini4:free",
         "prompt_chars": 1313,
-        "payload_chars": 4600,
+        "payload_chars": 4593,
         "attempts": 1,
-        "prompt_tokens": 2228,
-        "completion_tokens": 802,
-        "total_tokens": 3030,
-        "elapsed_s": 7.07,
-        "response_sha256": "bf2ead1953949a595c328ec32cf94b896a9ce2f842a89f9812190f419e2265ab",
+        "prompt_tokens": 2245,
+        "completion_tokens": 865,
+        "total_tokens": 3110,
+        "elapsed_s": 10.23,
+        "response_sha256": "139ae95a61a2f72e7c7e37bde337f480cbd07161d048bce30f19321447d6e1ee",
         "section": "stocks",
         "errors": []
       },
@@ -397,10 +397,10 @@
         "prompt_chars": 622,
         "payload_chars": 887,
         "attempts": 1,
-        "prompt_tokens": 628,
+        "prompt_tokens": 655,
         "completion_tokens": 34,
-        "total_tokens": 662,
-        "elapsed_s": 2.76,
+        "total_tokens": 689,
+        "elapsed_s": 3.08,
         "response_sha256": "41b6ae0c913b4b8bfec0ff284330322292956c6be227b3ad432f2756b8fde490",
         "section": "etfs",
         "errors": []
@@ -412,14 +412,14 @@
         "payload_chars": 665,
         "attempts": 1,
         "prompt_tokens": 647,
-        "completion_tokens": 417,
-        "total_tokens": 1064,
-        "elapsed_s": 4.99,
-        "response_sha256": "415206f63b12d5f9e4c7ee76524c9aa9eca8b0443a1f774ad6d60c188b4eb2c5",
+        "completion_tokens": 354,
+        "total_tokens": 1001,
+        "elapsed_s": 4.03,
+        "response_sha256": "d9227d030faff0be79b4296fb087b9809084cd51235b856d9418fdbf31ac49bf",
         "section": "scenarios",
         "errors": []
       },
-      "fingerprint": "11a79a430207c51ff321dd5fcd22d986878aa40d4781416ac513ad1f07dcd4ba",
+      "fingerprint": "b6a71b66633f57a423d82f87dcac12df00d4938ec77da9417681bc425e854531",
       "source_dates": {
         "as_of": "2026-11-13",
         "latest_equity_date": "2026-11-13",
@@ -428,14 +428,14 @@
         "breadth_date": "2026-11-13"
       }
     },
-    "fingerprint": "11a79a430207c51ff321dd5fcd22d986878aa40d4781416ac513ad1f07dcd4ba",
+    "fingerprint": "b6a71b66633f57a423d82f87dcac12df00d4938ec77da9417681bc425e854531",
     "source_dates": {
       "as_of": "2026-11-13",
       "latest_equity_date": "2026-11-13",
       "latest_macro_date": "2026-11-13",
       "flows_date": "2026-11-13"
     },
-    "generated_at": "2026-11-14T12:18:21.706899+00:00"
+    "generated_at": "2026-11-14T13:13:56.214286+00:00"
   },
   "source_dates": {
     "as_of": "2026-11-13",
@@ -450,7 +450,7 @@
       "ticker": null,
       "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=DFF&cosd=2026-01-01",
       "published_at": "2026-11-12",
-      "retrieved_at": "2026-11-14T12:18:26.181057+00:00",
+      "retrieved_at": "2026-11-14T13:14:04.140822+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -465,7 +465,7 @@
       "ticker": null,
       "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLH0A0HYM2&cosd=2026-01-01",
       "published_at": "2026-11-12",
-      "retrieved_at": "2026-11-14T12:18:26.382781+00:00",
+      "retrieved_at": "2026-11-14T13:14:04.482443+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -480,7 +480,7 @@
       "ticker": null,
       "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=BAMLC0A0CM&cosd=2026-01-01",
       "published_at": "2026-11-12",
-      "retrieved_at": "2026-11-14T12:18:26.567611+00:00",
+      "retrieved_at": "2026-11-14T13:14:05.121652+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -495,7 +495,7 @@
       "ticker": null,
       "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=CPIAUCSL&cosd=2026-01-01",
       "published_at": "2026-10-01",
-      "retrieved_at": "2026-11-14T12:18:26.779313+00:00",
+      "retrieved_at": "2026-11-14T13:14:05.573069+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -510,7 +510,7 @@
       "ticker": null,
       "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=UNRATE&cosd=2026-01-01",
       "published_at": "2026-10-01",
-      "retrieved_at": "2026-11-14T12:18:26.983516+00:00",
+      "retrieved_at": "2026-11-14T13:14:06.262512+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -525,7 +525,7 @@
       "ticker": null,
       "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=PAYEMS&cosd=2026-01-01",
       "published_at": "2026-10-01",
-      "retrieved_at": "2026-11-14T12:18:27.606969+00:00",
+      "retrieved_at": "2026-11-14T13:14:06.890669+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -540,7 +540,7 @@
       "ticker": null,
       "url": "https://fred.stlouisfed.org/graph/fredgraph.csv?id=T10Y2Y&cosd=2026-01-01",
       "published_at": "2026-11-13",
-      "retrieved_at": "2026-11-14T12:18:27.798928+00:00",
+      "retrieved_at": "2026-11-14T13:14:07.394058+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -555,7 +555,7 @@
       "ticker": "APP",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001751008&type=10-Q&dateb=&owner=include&count=10",
       "published_at": "2026-11-04",
-      "retrieved_at": "2026-11-14T12:18:28.245667+00:00",
+      "retrieved_at": "2026-11-14T13:14:07.832302+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -572,7 +572,7 @@
       "ticker": "FISV",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000798354&type=10-Q&dateb=&owner=include&count=10",
       "published_at": "2026-11-04",
-      "retrieved_at": "2026-11-14T12:18:28.263144+00:00",
+      "retrieved_at": "2026-11-14T13:14:07.965847+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -589,7 +589,7 @@
       "ticker": "PNR",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000077360&type=10-Q&dateb=&owner=include&count=10",
       "published_at": "2026-10-27",
-      "retrieved_at": "2026-11-14T12:18:28.265793+00:00",
+      "retrieved_at": "2026-11-14T13:14:07.968141+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -603,27 +603,10 @@
     {
       "id": "S011",
       "kind": "news",
-      "ticker": "APP",
-      "url": "https://news.google.com/rss/search?q=APP+AppLovin+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Tue, 10 Nov 2026 14:24:00 GMT",
-      "retrieved_at": "2026-11-14T12:18:28.417333+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "APP Stock Surges 51% After Q3 Earnings: Is it Still a Buy? - Yahoo Finance (Tue, 10 Nov 2026 14:24:00 GMT)",
-        "AppLovin stock soars after Q3 earnings, outlook beat - Yahoo Finance (Thu, 05 Nov 2026 08:00:00 GMT)",
-        "Is Trending Stock AppLovin Corporation (APP) a Buy Now? - Yahoo Finance (Fri, 30 Oct 2026 07:00:00 GMT)"
-      ],
-      "error": null,
-      "facts": {}
-    },
-    {
-      "id": "S012",
-      "kind": "news",
       "ticker": "FISV",
       "url": "https://news.google.com/rss/search?q=FISV+Fiserv+stock&hl=en-US&gl=US&ceid=US:en",
       "published_at": "Fri, 13 Nov 2026 00:53:33 GMT",
-      "retrieved_at": "2026-11-14T12:18:28.616776+00:00",
+      "retrieved_at": "2026-11-14T13:14:08.023391+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -635,12 +618,29 @@
       "facts": {}
     },
     {
+      "id": "S012",
+      "kind": "news",
+      "ticker": "APP",
+      "url": "https://news.google.com/rss/search?q=APP+AppLovin+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Tue, 10 Nov 2026 14:24:00 GMT",
+      "retrieved_at": "2026-11-14T13:14:08.604521+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "APP Stock Surges 51% After Q3 Earnings: Is it Still a Buy? - Yahoo Finance (Tue, 10 Nov 2026 14:24:00 GMT)",
+        "AppLovin stock soars after Q3 earnings, outlook beat - Yahoo Finance (Thu, 05 Nov 2026 08:00:00 GMT)",
+        "Is Trending Stock AppLovin Corporation (APP) a Buy Now? - Yahoo Finance (Fri, 30 Oct 2026 07:00:00 GMT)"
+      ],
+      "error": null,
+      "facts": {}
+    },
+    {
       "id": "S013",
       "kind": "stock",
       "ticker": "APP",
       "url": "https://finance.yahoo.com/quote/APP",
       "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:28.716247+00:00",
+      "retrieved_at": "2026-11-14T13:14:08.961378+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -709,11 +709,148 @@
     },
     {
       "id": "S014",
+      "kind": "filing",
+      "ticker": "APP",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001751008.json",
+      "published_at": "2026-11-04",
+      "retrieved_at": "2026-11-14T13:14:08.976763+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "Diluted EPS 11.61 for period ending 2026-09-30 (filed 2026-11-04)"
+      ],
+      "error": null,
+      "facts": {
+        "diluted_eps": 11.61,
+        "fiscal_end": "2026-09-30",
+        "filed": "2026-11-04",
+        "definition": "reported diluted EPS",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      }
+    },
+    {
+      "id": "S015",
+      "kind": "news",
+      "ticker": "PNR",
+      "url": "https://news.google.com/rss/search?q=PNR+Pentair+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Fri, 13 Nov 2026 15:54:46 GMT",
+      "retrieved_at": "2026-11-14T13:14:09.009461+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "Pentair plc (PNR) Stock Price, News, Quote & History - Yahoo! Finance Canada (Fri, 13 Nov 2026 15:54:46 GMT)",
+        "Pentair (PNR) Stock May Be 46% Undervalued As New CFO Arrives - Yahoo Finance (Fri, 25 Sep 2026 07:00:00 GMT)",
+        "Pentair plc (PNR) Q3 Earnings and Revenues Beat Estimates - Yahoo Finance (Tue, 27 Oct 2026 07:00:00 GMT)"
+      ],
+      "error": null,
+      "facts": {}
+    },
+    {
+      "id": "S016",
+      "kind": "stock",
+      "ticker": "FISV",
+      "url": "https://finance.yahoo.com/quote/FISV",
+      "published_at": null,
+      "retrieved_at": "2026-11-14T13:14:09.200476+00:00",
+      "status": "ok",
+      "http_status": null,
+      "claims": [
+        "Forward P/E: 7.9923306",
+        "Price: 63.78",
+        "Market price: 63.78",
+        "Market cap: 33934002176",
+        "Market Cap: 33934002176",
+        "Consensus EPS FY+1: 7.98015; growth: 0.09689999"
+      ],
+      "error": null,
+      "facts": {
+        "forward_pe": 7.9923306,
+        "price": 63.78,
+        "market_price": 63.78,
+        "market_cap": 33934002176.0,
+        "valuation_date": "2026-11-14",
+        "estimates": {
+          "0y": {
+            "eps": 7.27533,
+            "growth": -0.1579,
+            "analysts": 36.0,
+            "revenue": 19519760760.0,
+            "revenue_growth": -0.014400001
+          },
+          "+1y": {
+            "eps": 7.98015,
+            "growth": 0.09689999,
+            "analysts": 36.0,
+            "revenue": 20183933630.0,
+            "revenue_growth": 0.034
+          }
+        },
+        "fy0_eps": 7.27533,
+        "fy1_eps": 7.98015,
+        "fy1_growth": 0.09689999,
+        "fy1_revenue_growth": 0.034,
+        "fy1_analysts": 36.0,
+        "consensus_available": true,
+        "fy2_eps": null,
+        "fy2_status": "not available from retrieved source",
+        "revisions_available": false
+      }
+    },
+    {
+      "id": "S017",
+      "kind": "filing",
+      "ticker": "FISV",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000798354.json",
+      "published_at": "2026-11-04",
+      "retrieved_at": "2026-11-14T13:14:09.248986+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "Diluted EPS -8.9 for period ending 2026-09-30 (filed 2026-11-04)"
+      ],
+      "error": null,
+      "facts": {
+        "diluted_eps": -8.9,
+        "fiscal_end": "2026-09-30",
+        "filed": "2026-11-04",
+        "definition": "reported diluted EPS",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      }
+    },
+    {
+      "id": "S018",
+      "kind": "filing",
+      "ticker": "PNR",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000077360.json",
+      "published_at": "2026-10-27",
+      "retrieved_at": "2026-11-14T13:14:09.364041+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "Diluted EPS 2.76 for period ending 2026-09-30 (filed 2026-10-27)"
+      ],
+      "error": null,
+      "facts": {
+        "diluted_eps": 2.76,
+        "fiscal_end": "2026-09-30",
+        "filed": "2026-10-27",
+        "definition": "reported diluted EPS",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      }
+    },
+    {
+      "id": "S019",
       "kind": "stock",
       "ticker": "PNR",
       "url": "https://finance.yahoo.com/quote/PNR",
       "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:28.880681+00:00",
+      "retrieved_at": "2026-11-14T13:14:09.382673+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -781,126 +918,12 @@
       }
     },
     {
-      "id": "S015",
-      "kind": "stock",
-      "ticker": "FISV",
-      "url": "https://finance.yahoo.com/quote/FISV",
-      "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:28.886194+00:00",
-      "status": "ok",
-      "http_status": null,
-      "claims": [
-        "Forward P/E: 7.9923306",
-        "Price: 63.78",
-        "Market price: 63.78",
-        "Market cap: 33934002176",
-        "Market Cap: 33934002176",
-        "Consensus EPS FY+1: 7.98015; growth: 0.09689999"
-      ],
-      "error": null,
-      "facts": {
-        "forward_pe": 7.9923306,
-        "price": 63.78,
-        "market_price": 63.78,
-        "market_cap": 33934002176.0,
-        "valuation_date": "2026-11-14",
-        "estimates": {
-          "0y": {
-            "eps": 7.27533,
-            "growth": -0.1579,
-            "analysts": 36.0,
-            "revenue": 19519760760.0,
-            "revenue_growth": -0.014400001
-          },
-          "+1y": {
-            "eps": 7.98015,
-            "growth": 0.09689999,
-            "analysts": 36.0,
-            "revenue": 20183933630.0,
-            "revenue_growth": 0.034
-          }
-        },
-        "fy0_eps": 7.27533,
-        "fy1_eps": 7.98015,
-        "fy1_growth": 0.09689999,
-        "fy1_revenue_growth": 0.034,
-        "fy1_analysts": 36.0,
-        "consensus_available": true,
-        "fy2_eps": null,
-        "fy2_status": "not available from retrieved source",
-        "revisions_available": false
-      }
-    },
-    {
-      "id": "S016",
-      "kind": "news",
-      "ticker": "PNR",
-      "url": "https://news.google.com/rss/search?q=PNR+Pentair+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Fri, 13 Nov 2026 15:54:46 GMT",
-      "retrieved_at": "2026-11-14T12:18:29.571827+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "Pentair plc (PNR) Stock Price, News, Quote & History - Yahoo! Finance Canada (Fri, 13 Nov 2026 15:54:46 GMT)",
-        "Pentair (PNR) Stock May Be 46% Undervalued As New CFO Arrives - Yahoo Finance (Fri, 25 Sep 2026 07:00:00 GMT)",
-        "Pentair plc (PNR) Q3 Earnings and Revenues Beat Estimates - Yahoo Finance (Tue, 27 Oct 2026 07:00:00 GMT)"
-      ],
-      "error": null,
-      "facts": {}
-    },
-    {
-      "id": "S017",
-      "kind": "filing",
-      "ticker": "APP",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001751008.json",
-      "published_at": "2026-11-04",
-      "retrieved_at": "2026-11-14T12:18:29.635145+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "Diluted EPS 11.61 for period ending 2026-09-30 (filed 2026-11-04)"
-      ],
-      "error": null,
-      "facts": {
-        "diluted_eps": 11.61,
-        "fiscal_end": "2026-09-30",
-        "filed": "2026-11-04",
-        "definition": "reported diluted EPS",
-        "form": "10-Q",
-        "fy": 2026,
-        "fp": "Q3"
-      }
-    },
-    {
-      "id": "S018",
-      "kind": "filing",
-      "ticker": "PNR",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000077360.json",
-      "published_at": "2026-10-27",
-      "retrieved_at": "2026-11-14T12:18:29.773095+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "Diluted EPS 2.76 for period ending 2026-09-30 (filed 2026-10-27)"
-      ],
-      "error": null,
-      "facts": {
-        "diluted_eps": 2.76,
-        "fiscal_end": "2026-09-30",
-        "filed": "2026-10-27",
-        "definition": "reported diluted EPS",
-        "form": "10-Q",
-        "fy": 2026,
-        "fp": "Q3"
-      }
-    },
-    {
-      "id": "S019",
+      "id": "S020",
       "kind": "filing",
       "ticker": "GEN",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000849399&type=10-Q&dateb=&owner=include&count=10",
       "published_at": "2026-10-29",
-      "retrieved_at": "2026-11-14T12:18:30.158458+00:00",
+      "retrieved_at": "2026-11-14T13:14:09.385363+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -912,12 +935,12 @@
       "facts": {}
     },
     {
-      "id": "S020",
+      "id": "S021",
       "kind": "filing",
       "ticker": "CLX",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000021076&type=10-Q&dateb=&owner=include&count=10",
       "published_at": "2026-11-02",
-      "retrieved_at": "2026-11-14T12:18:30.163487+00:00",
+      "retrieved_at": "2026-11-14T13:14:09.649397+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -929,35 +952,12 @@
       "facts": {}
     },
     {
-      "id": "S021",
-      "kind": "filing",
-      "ticker": "FISV",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000798354.json",
-      "published_at": "2026-11-04",
-      "retrieved_at": "2026-11-14T12:18:30.221194+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "Diluted EPS -8.9 for period ending 2026-09-30 (filed 2026-11-04)"
-      ],
-      "error": null,
-      "facts": {
-        "diluted_eps": -8.9,
-        "fiscal_end": "2026-09-30",
-        "filed": "2026-11-04",
-        "definition": "reported diluted EPS",
-        "form": "10-Q",
-        "fy": 2026,
-        "fp": "Q3"
-      }
-    },
-    {
       "id": "S022",
       "kind": "stock",
       "ticker": "GEN",
       "url": "https://finance.yahoo.com/quote/GEN",
       "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:30.229953+00:00",
+      "retrieved_at": "2026-11-14T13:14:09.882554+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -1030,7 +1030,7 @@
       "ticker": "GEN",
       "url": "https://news.google.com/rss/search?q=GEN+Gen+Digital+stock&hl=en-US&gl=US&ceid=US:en",
       "published_at": "Wed, 11 Nov 2026 13:10:37 GMT",
-      "retrieved_at": "2026-11-14T12:18:30.243010+00:00",
+      "retrieved_at": "2026-11-14T13:14:09.892132+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -1047,7 +1047,7 @@
       "ticker": "CHTR",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001091667&type=10-Q&dateb=&owner=include&count=10",
       "published_at": "2026-11-06",
-      "retrieved_at": "2026-11-14T12:18:30.440741+00:00",
+      "retrieved_at": "2026-11-14T13:14:10.005865+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -1064,7 +1064,7 @@
       "ticker": "CLX",
       "url": "https://finance.yahoo.com/quote/CLX",
       "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:30.556199+00:00",
+      "retrieved_at": "2026-11-14T13:14:10.008557+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -1133,11 +1133,82 @@
     },
     {
       "id": "S026",
+      "kind": "stock",
+      "ticker": "CHTR",
+      "url": "https://finance.yahoo.com/quote/CHTR",
+      "published_at": null,
+      "retrieved_at": "2026-11-14T13:14:10.199235+00:00",
+      "status": "ok",
+      "http_status": null,
+      "claims": [
+        "Trailing P/E: 13.006578",
+        "Forward P/E: 3.2831066",
+        "Forward EPS: 42.15215",
+        "Price: 138.39",
+        "Market price: 138.39",
+        "Market cap: 24778944512",
+        "Sector: Communication Services",
+        "Trailing Eps: 10.64",
+        "Revenue Growth: 0.091",
+        "Gross Margin: 0.55084",
+        "Operating Margin: 0.23389",
+        "Profit Margin: 0.02498",
+        "Return On Equity: 0.07019",
+        "Total Revenue: 55645999104",
+        "Market Cap: 24778944512",
+        "Consensus EPS FY+1: 47.15811; growth: 1.0195"
+      ],
+      "error": null,
+      "facts": {
+        "trailing_pe": 13.006578,
+        "forward_pe": 3.2831066,
+        "forward_eps": 42.15215,
+        "price": 138.39,
+        "market_price": 138.39,
+        "market_cap": 24778944512.0,
+        "sector": "Communication Services",
+        "valuation_date": "2026-11-14",
+        "trailing_eps": 10.64,
+        "revenue_growth": 0.091,
+        "gross_margin": 0.55084,
+        "operating_margin": 0.23389,
+        "profit_margin": 0.02498,
+        "return_on_equity": 0.07019,
+        "total_revenue": 55645999104.0,
+        "estimates": {
+          "0y": {
+            "eps": 23.35097,
+            "growth": -0.35509998,
+            "analysts": 7.0,
+            "revenue": 58485729470.0,
+            "revenue_growth": 0.0678
+          },
+          "+1y": {
+            "eps": 47.15811,
+            "growth": 1.0195,
+            "analysts": 9.0,
+            "revenue": 64610178950.0,
+            "revenue_growth": 0.1047
+          }
+        },
+        "fy0_eps": 23.35097,
+        "fy1_eps": 47.15811,
+        "fy1_growth": 1.0195,
+        "fy1_revenue_growth": 0.1047,
+        "fy1_analysts": 9.0,
+        "consensus_available": true,
+        "fy2_eps": null,
+        "fy2_status": "not available from retrieved source",
+        "revisions_available": false
+      }
+    },
+    {
+      "id": "S027",
       "kind": "news",
       "ticker": "CLX",
       "url": "https://news.google.com/rss/search?q=CLX+Clorox+stock&hl=en-US&gl=US&ceid=US:en",
       "published_at": "Fri, 13 Nov 2026 05:34:04 GMT",
-      "retrieved_at": "2026-11-14T12:18:30.756803+00:00",
+      "retrieved_at": "2026-11-14T13:14:10.515619+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -1149,29 +1220,12 @@
       "facts": {}
     },
     {
-      "id": "S027",
-      "kind": "filing",
-      "ticker": "IDXX",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874716&type=10-Q&dateb=&owner=include&count=10",
-      "published_at": "2026-11-02",
-      "retrieved_at": "2026-11-14T12:18:30.762635+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "10-Q filed 2026-11-02 (accession 0000874716-26-000135)",
-        "8-K filed 2026-11-02 (accession 0001104659-26-120892)",
-        "10-Q filed 2026-08-04 (accession 0000874716-26-000123)"
-      ],
-      "error": null,
-      "facts": {}
-    },
-    {
       "id": "S028",
       "kind": "news",
       "ticker": "CHTR",
       "url": "https://news.google.com/rss/search?q=CHTR+Charter+Communications+stock&hl=en-US&gl=US&ceid=US:en",
       "published_at": "Thu, 12 Nov 2026 08:02:01 GMT",
-      "retrieved_at": "2026-11-14T12:18:31.223564+00:00",
+      "retrieved_at": "2026-11-14T13:14:10.826365+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -1184,11 +1238,28 @@
     },
     {
       "id": "S029",
+      "kind": "filing",
+      "ticker": "IDXX",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000874716&type=10-Q&dateb=&owner=include&count=10",
+      "published_at": "2026-11-02",
+      "retrieved_at": "2026-11-14T13:14:10.882053+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "10-Q filed 2026-11-02 (accession 0000874716-26-000135)",
+        "8-K filed 2026-11-02 (accession 0001104659-26-120892)",
+        "10-Q filed 2026-08-04 (accession 0000874716-26-000123)"
+      ],
+      "error": null,
+      "facts": {}
+    },
+    {
+      "id": "S030",
       "kind": "stock",
       "ticker": "IDXX",
       "url": "https://finance.yahoo.com/quote/IDXX",
       "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:31.354618+00:00",
+      "retrieved_at": "2026-11-14T13:14:11.010252+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -1256,35 +1327,12 @@
       }
     },
     {
-      "id": "S030",
-      "kind": "filing",
-      "ticker": "CLX",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000021076.json",
-      "published_at": "2026-11-02",
-      "retrieved_at": "2026-11-14T12:18:31.419306+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "Diluted EPS 1.39 for period ending 2026-09-30 (filed 2026-11-02)"
-      ],
-      "error": null,
-      "facts": {
-        "diluted_eps": 1.39,
-        "fiscal_end": "2026-09-30",
-        "filed": "2026-11-02",
-        "definition": "reported diluted EPS",
-        "form": "10-Q",
-        "fy": 2027,
-        "fp": "Q1"
-      }
-    },
-    {
       "id": "S031",
       "kind": "filing",
       "ticker": "GEN",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000849399.json",
       "published_at": "2026-10-29",
-      "retrieved_at": "2026-11-14T12:18:31.543935+00:00",
+      "retrieved_at": "2026-11-14T13:14:11.058768+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -1304,10 +1352,50 @@
     {
       "id": "S032",
       "kind": "filing",
+      "ticker": "ROP",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000882835&type=10-Q&dateb=&owner=include&count=10",
+      "published_at": "2026-11-02",
+      "retrieved_at": "2026-11-14T13:14:11.272705+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "10-Q filed 2026-11-02 (accession 0000882835-26-000047)",
+        "8-K filed 2026-10-22 (accession 0000882835-26-000042)",
+        "8-K filed 2026-10-01 (accession 0000882835-26-000039)"
+      ],
+      "error": null,
+      "facts": {}
+    },
+    {
+      "id": "S033",
+      "kind": "filing",
+      "ticker": "CLX",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000021076.json",
+      "published_at": "2026-11-02",
+      "retrieved_at": "2026-11-14T13:14:11.423884+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "Diluted EPS 1.39 for period ending 2026-09-30 (filed 2026-11-02)"
+      ],
+      "error": null,
+      "facts": {
+        "diluted_eps": 1.39,
+        "fiscal_end": "2026-09-30",
+        "filed": "2026-11-02",
+        "definition": "reported diluted EPS",
+        "form": "10-Q",
+        "fy": 2027,
+        "fp": "Q1"
+      }
+    },
+    {
+      "id": "S034",
+      "kind": "filing",
       "ticker": "CHTR",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001091667.json",
       "published_at": "2026-11-06",
-      "retrieved_at": "2026-11-14T12:18:31.570024+00:00",
+      "retrieved_at": "2026-11-14T13:14:11.572365+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -1325,115 +1413,21 @@
       }
     },
     {
-      "id": "S033",
-      "kind": "stock",
-      "ticker": "CHTR",
-      "url": "https://finance.yahoo.com/quote/CHTR",
-      "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:31.574307+00:00",
-      "status": "ok",
-      "http_status": null,
-      "claims": [
-        "Trailing P/E: 13.006578",
-        "Forward P/E: 3.2831066",
-        "Forward EPS: 42.15215",
-        "Price: 138.39",
-        "Market price: 138.39",
-        "Market cap: 24778944512",
-        "Sector: Communication Services",
-        "Trailing Eps: 10.64",
-        "Revenue Growth: 0.091",
-        "Gross Margin: 0.55084",
-        "Operating Margin: 0.23389",
-        "Profit Margin: 0.02498",
-        "Return On Equity: 0.07019",
-        "Total Revenue: 55645999104",
-        "Market Cap: 24778944512",
-        "Consensus EPS FY+1: 47.15811; growth: 1.0195"
-      ],
-      "error": null,
-      "facts": {
-        "trailing_pe": 13.006578,
-        "forward_pe": 3.2831066,
-        "forward_eps": 42.15215,
-        "price": 138.39,
-        "market_price": 138.39,
-        "market_cap": 24778944512.0,
-        "sector": "Communication Services",
-        "valuation_date": "2026-11-14",
-        "trailing_eps": 10.64,
-        "revenue_growth": 0.091,
-        "gross_margin": 0.55084,
-        "operating_margin": 0.23389,
-        "profit_margin": 0.02498,
-        "return_on_equity": 0.07019,
-        "total_revenue": 55645999104.0,
-        "estimates": {
-          "0y": {
-            "eps": 23.35097,
-            "growth": -0.35509998,
-            "analysts": 7.0,
-            "revenue": 58485729470.0,
-            "revenue_growth": 0.0678
-          },
-          "+1y": {
-            "eps": 47.15811,
-            "growth": 1.0195,
-            "analysts": 9.0,
-            "revenue": 64610178950.0,
-            "revenue_growth": 0.1047
-          }
-        },
-        "fy0_eps": 23.35097,
-        "fy1_eps": 47.15811,
-        "fy1_growth": 1.0195,
-        "fy1_revenue_growth": 0.1047,
-        "fy1_analysts": 9.0,
-        "consensus_available": true,
-        "fy2_eps": null,
-        "fy2_status": "not available from retrieved source",
-        "revisions_available": false
-      }
-    },
-    {
-      "id": "S034",
+      "id": "S035",
       "kind": "filing",
-      "ticker": "ROP",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000882835&type=10-Q&dateb=&owner=include&count=10",
-      "published_at": "2026-11-02",
-      "retrieved_at": "2026-11-14T12:18:31.657376+00:00",
+      "ticker": "RDDT",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001713445&type=10-Q&dateb=&owner=include&count=10",
+      "published_at": "2026-10-30",
+      "retrieved_at": "2026-11-14T13:14:11.579846+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
-        "10-Q filed 2026-11-02 (accession 0000882835-26-000047)",
-        "8-K filed 2026-10-22 (accession 0000882835-26-000042)",
-        "8-K filed 2026-10-01 (accession 0000882835-26-000039)"
+        "10-Q filed 2026-10-30 (accession 0001713445-26-000116)",
+        "8-K filed 2026-10-29 (accession 0001713445-26-000114)",
+        "8-K filed 2026-08-12 (accession 0001713445-26-000107)"
       ],
       "error": null,
       "facts": {}
-    },
-    {
-      "id": "S035",
-      "kind": "filing",
-      "ticker": "IDXX",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000874716.json",
-      "published_at": "2026-11-02",
-      "retrieved_at": "2026-11-14T12:18:31.792386+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "Diluted EPS 11.75 for period ending 2026-09-30 (filed 2026-11-02)"
-      ],
-      "error": null,
-      "facts": {
-        "diluted_eps": 11.75,
-        "fiscal_end": "2026-09-30",
-        "filed": "2026-11-02",
-        "definition": "reported diluted EPS",
-        "form": "10-Q",
-        "fy": 2026,
-        "fp": "Q3"
-      }
     },
     {
       "id": "S036",
@@ -1441,7 +1435,7 @@
       "ticker": "IDXX",
       "url": "https://news.google.com/rss/search?q=IDXX+Idexx+Laboratories+stock&hl=en-US&gl=US&ceid=US:en",
       "published_at": "Fri, 13 Nov 2026 22:06:38 GMT",
-      "retrieved_at": "2026-11-14T12:18:31.801544+00:00",
+      "retrieved_at": "2026-11-14T13:14:11.583105+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -1458,7 +1452,7 @@
       "ticker": "ROP",
       "url": "https://finance.yahoo.com/quote/ROP",
       "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:31.842905+00:00",
+      "retrieved_at": "2026-11-14T13:14:11.586441+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -1527,37 +1521,91 @@
     },
     {
       "id": "S038",
-      "kind": "filing",
-      "ticker": "RDDT",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001713445&type=10-Q&dateb=&owner=include&count=10",
-      "published_at": "2026-10-30",
-      "retrieved_at": "2026-11-14T12:18:31.900038+00:00",
+      "kind": "news",
+      "ticker": "ROP",
+      "url": "https://news.google.com/rss/search?q=ROP+Roper+Technologies+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Fri, 13 Nov 2026 01:46:04 GMT",
+      "retrieved_at": "2026-11-14T13:14:12.116655+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
-        "10-Q filed 2026-10-30 (accession 0001713445-26-000116)",
-        "8-K filed 2026-10-29 (accession 0001713445-26-000114)",
-        "8-K filed 2026-08-12 (accession 0001713445-26-000107)"
+        "Roper Technologies, Inc. (ROP) Stock Price, News, Quote & History - Yahoo! Finance Canada (Fri, 13 Nov 2026 01:46:04 GMT)",
+        "Roper Technologies (ROP) Stock Looks Fully Valued As Cash Flow Comes Into Focus - Yahoo Finance (Fri, 06 Nov 2026 07:13:00 GMT)",
+        "Roper Technologies (ROP), What Is Behind The Fresh Attention? - Yahoo Finance (Tue, 27 Oct 2026 07:00:00 GMT)"
       ],
       "error": null,
       "facts": {}
     },
     {
       "id": "S039",
-      "kind": "news",
-      "ticker": "ROP",
-      "url": "https://news.google.com/rss/search?q=ROP+Roper+Technologies+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Fri, 13 Nov 2026 01:46:04 GMT",
-      "retrieved_at": "2026-11-14T12:18:32.149139+00:00",
+      "kind": "stock",
+      "ticker": "INTC",
+      "url": "https://finance.yahoo.com/quote/INTC",
+      "published_at": null,
+      "retrieved_at": "2026-11-14T13:14:12.414839+00:00",
       "status": "ok",
-      "http_status": 200,
+      "http_status": null,
       "claims": [
-        "Roper Technologies, Inc. (ROP) Stock Price, News, Quote & History - Yahoo! Finance Canada (Fri, 13 Nov 2026 01:46:04 GMT)",
-        "Roper Technologies (ROP) Stock Looks Fully Valued As Cash Flow Comes Into Focus - Yahoo Finance (Fri, 06 Nov 2026 07:13:00 GMT)",
-        "Roper (ROP) Stock May Be 16% Undervalued On Cash Flow - Yahoo Finance (Thu, 22 Oct 2026 07:00:00 GMT)"
+        "Forward P/E: 33.321045",
+        "Forward EPS: 1.79046",
+        "Price: 59.66",
+        "Market price: 59.66",
+        "Market cap: 317092888576",
+        "Sector: Technology",
+        "Trailing Eps: -2.35",
+        "Revenue Growth: 0.209",
+        "Earnings Growth: -0.327",
+        "Gross Margin: 0.40152",
+        "Operating Margin: 0.10317001",
+        "Profit Margin: -0.20089",
+        "Return On Equity: -0.0962",
+        "Total Revenue: 59891998720",
+        "Market Cap: 317092888576",
+        "Consensus EPS FY+1: 1.79046; growth: 0.2044"
       ],
       "error": null,
-      "facts": {}
+      "facts": {
+        "forward_pe": 33.321045,
+        "forward_eps": 1.79046,
+        "price": 59.66,
+        "market_price": 59.66,
+        "market_cap": 317092888576.0,
+        "sector": "Technology",
+        "valuation_date": "2026-11-14",
+        "trailing_eps": -2.35,
+        "revenue_growth": 0.209,
+        "earnings_growth": -0.327,
+        "gross_margin": 0.40152,
+        "operating_margin": 0.10317001,
+        "profit_margin": -0.20089,
+        "return_on_equity": -0.0962,
+        "total_revenue": 59891998720.0,
+        "estimates": {
+          "0y": {
+            "eps": 1.48664,
+            "growth": 2.5396001,
+            "analysts": 39.0,
+            "revenue": 61741235210.0,
+            "revenue_growth": 0.1682
+          },
+          "+1y": {
+            "eps": 1.79046,
+            "growth": 0.2044,
+            "analysts": 46.0,
+            "revenue": 69132470610.0,
+            "revenue_growth": 0.1197
+          }
+        },
+        "fy0_eps": 1.48664,
+        "fy1_eps": 1.79046,
+        "fy1_growth": 0.2044,
+        "fy1_revenue_growth": 0.1197,
+        "fy1_analysts": 46.0,
+        "consensus_available": true,
+        "fy2_eps": null,
+        "fy2_status": "not available from retrieved source",
+        "revisions_available": false
+      }
     },
     {
       "id": "S040",
@@ -1565,7 +1613,7 @@
       "ticker": "INTC",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0000050863&type=10-Q&dateb=&owner=include&count=10",
       "published_at": "2026-10-30",
-      "retrieved_at": "2026-11-14T12:18:32.208631+00:00",
+      "retrieved_at": "2026-11-14T13:14:12.419001+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -1578,11 +1626,97 @@
     },
     {
       "id": "S041",
+      "kind": "filing",
+      "ticker": "IDXX",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000874716.json",
+      "published_at": "2026-11-02",
+      "retrieved_at": "2026-11-14T13:14:12.469616+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "Diluted EPS 11.75 for period ending 2026-09-30 (filed 2026-11-02)"
+      ],
+      "error": null,
+      "facts": {
+        "diluted_eps": 11.75,
+        "fiscal_end": "2026-09-30",
+        "filed": "2026-11-02",
+        "definition": "reported diluted EPS",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      }
+    },
+    {
+      "id": "S042",
+      "kind": "filing",
+      "ticker": "ROP",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000882835.json",
+      "published_at": "2026-11-02",
+      "retrieved_at": "2026-11-14T13:14:12.520362+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "Diluted EPS 21.3 for period ending 2026-09-30 (filed 2026-11-02)"
+      ],
+      "error": null,
+      "facts": {
+        "diluted_eps": 21.3,
+        "fiscal_end": "2026-09-30",
+        "filed": "2026-11-02",
+        "definition": "reported diluted EPS",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      }
+    },
+    {
+      "id": "S043",
+      "kind": "filing",
+      "ticker": "RDDT",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001713445.json",
+      "published_at": "2026-10-30",
+      "retrieved_at": "2026-11-14T13:14:12.537414+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "Diluted EPS 3.66 for period ending 2026-09-30 (filed 2026-10-30)"
+      ],
+      "error": null,
+      "facts": {
+        "diluted_eps": 3.66,
+        "fiscal_end": "2026-09-30",
+        "filed": "2026-10-30",
+        "definition": "reported diluted EPS",
+        "form": "10-Q",
+        "fy": 2026,
+        "fp": "Q3"
+      }
+    },
+    {
+      "id": "S044",
+      "kind": "news",
+      "ticker": "RDDT",
+      "url": "https://news.google.com/rss/search?q=RDDT+Reddit+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Fri, 13 Nov 2026 18:20:39 GMT",
+      "retrieved_at": "2026-11-14T13:14:12.709281+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "Should You Wait Before Buying Reddit Stock? - Trefis (Fri, 13 Nov 2026 18:20:39 GMT)",
+        "Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks - CNBC (Thu, 29 Oct 2026 07:00:00 GMT)",
+        "Reddit (NYSE:RDDT) surprises with Q3 2026 sales but stock drops 12.6% - Yahoo Finance (Thu, 29 Oct 2026 07:00:00 GMT)"
+      ],
+      "error": null,
+      "facts": {}
+    },
+    {
+      "id": "S045",
       "kind": "stock",
       "ticker": "RDDT",
       "url": "https://finance.yahoo.com/quote/RDDT",
       "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:32.378061+00:00",
+      "retrieved_at": "2026-11-14T13:14:12.767653+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -1650,75 +1784,12 @@
       }
     },
     {
-      "id": "S042",
-      "kind": "filing",
-      "ticker": "ROP",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000882835.json",
-      "published_at": "2026-11-02",
-      "retrieved_at": "2026-11-14T12:18:32.426871+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "Diluted EPS 21.3 for period ending 2026-09-30 (filed 2026-11-02)"
-      ],
-      "error": null,
-      "facts": {
-        "diluted_eps": 21.3,
-        "fiscal_end": "2026-09-30",
-        "filed": "2026-11-02",
-        "definition": "reported diluted EPS",
-        "form": "10-Q",
-        "fy": 2026,
-        "fp": "Q3"
-      }
-    },
-    {
-      "id": "S043",
-      "kind": "news",
-      "ticker": "RDDT",
-      "url": "https://news.google.com/rss/search?q=RDDT+Reddit+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Fri, 13 Nov 2026 18:20:39 GMT",
-      "retrieved_at": "2026-11-14T12:18:32.456468+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "Should You Wait Before Buying Reddit Stock? - Trefis (Fri, 13 Nov 2026 18:20:39 GMT)",
-        "Reddit shares sink on weak sales guidance and plans login requirement test as Google search traffic shrinks - CNBC (Thu, 29 Oct 2026 07:00:00 GMT)",
-        "Reddit (NYSE:RDDT) surprises with Q3 2026 sales but stock drops 12.6% - Yahoo Finance (Thu, 29 Oct 2026 07:00:00 GMT)"
-      ],
-      "error": null,
-      "facts": {}
-    },
-    {
-      "id": "S044",
-      "kind": "filing",
-      "ticker": "RDDT",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001713445.json",
-      "published_at": "2026-10-30",
-      "retrieved_at": "2026-11-14T12:18:32.471391+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "Diluted EPS 3.66 for period ending 2026-09-30 (filed 2026-10-30)"
-      ],
-      "error": null,
-      "facts": {
-        "diluted_eps": 3.66,
-        "fiscal_end": "2026-09-30",
-        "filed": "2026-10-30",
-        "definition": "reported diluted EPS",
-        "form": "10-Q",
-        "fy": 2026,
-        "fp": "Q3"
-      }
-    },
-    {
-      "id": "S045",
+      "id": "S046",
       "kind": "filing",
       "ticker": "SNDK",
       "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0002023554&type=10-Q&dateb=&owner=include&count=10",
       "published_at": "2026-10-30",
-      "retrieved_at": "2026-11-14T12:18:32.522658+00:00",
+      "retrieved_at": "2026-11-14T13:14:12.898190+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -1730,12 +1801,29 @@
       "facts": {}
     },
     {
-      "id": "S046",
+      "id": "S047",
+      "kind": "filing",
+      "ticker": "MRVL",
+      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001835632&type=10-Q&dateb=&owner=include&count=10",
+      "published_at": "2026-11-12",
+      "retrieved_at": "2026-11-14T13:14:13.199931+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "8-K filed 2026-11-12 (accession 0001835632-26-000026)",
+        "8-K filed 2026-11-02 (accession 0001193125-26-442717)",
+        "8-K filed 2026-11-02 (accession 0001193125-26-442714)"
+      ],
+      "error": null,
+      "facts": {}
+    },
+    {
+      "id": "S048",
       "kind": "news",
       "ticker": "INTC",
       "url": "https://news.google.com/rss/search?q=INTC+Intel+stock&hl=en-US&gl=US&ceid=US:en",
       "published_at": "Thu, 12 Nov 2026 19:35:27 GMT",
-      "retrieved_at": "2026-11-14T12:18:32.677604+00:00",
+      "retrieved_at": "2026-11-14T13:14:13.323621+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -1747,12 +1835,29 @@
       "facts": {}
     },
     {
-      "id": "S047",
+      "id": "S049",
+      "kind": "news",
+      "ticker": "SNDK",
+      "url": "https://news.google.com/rss/search?q=SNDK+Sandisk+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Fri, 13 Nov 2026 04:59:23 GMT",
+      "retrieved_at": "2026-11-14T13:14:13.349908+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "SanDisk Stock (SNDK) Forecast \u2013 Here\u2019s Why Evercore Remains Bullish Despite Ongoing Volatility - TipRanks (Fri, 13 Nov 2026 04:59:23 GMT)",
+        "Sandisk Stock Is Back Above the $900 Price I Set for Buying It. Here's Why I'm Holding Off. - The Motley Fool (Thu, 12 Nov 2026 23:41:00 GMT)",
+        "Analyst Says Sandisk Corp. (SNDK) Offers More Than 100% Upside. Should You Buy? - Yahoo Finance (Wed, 11 Nov 2026 23:28:56 GMT)"
+      ],
+      "error": null,
+      "facts": {}
+    },
+    {
+      "id": "S050",
       "kind": "stock",
       "ticker": "SNDK",
       "url": "https://finance.yahoo.com/quote/SNDK",
       "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:32.855488+00:00",
+      "retrieved_at": "2026-11-14T13:14:13.657006+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -1820,29 +1925,12 @@
       }
     },
     {
-      "id": "S048",
-      "kind": "filing",
-      "ticker": "MRVL",
-      "url": "https://www.sec.gov/cgi-bin/browse-edgar?action=getcompany&CIK=0001835632&type=10-Q&dateb=&owner=include&count=10",
-      "published_at": "2026-11-12",
-      "retrieved_at": "2026-11-14T12:18:32.877167+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "8-K filed 2026-11-12 (accession 0001835632-26-000026)",
-        "8-K filed 2026-11-02 (accession 0001193125-26-442717)",
-        "8-K filed 2026-11-02 (accession 0001193125-26-442714)"
-      ],
-      "error": null,
-      "facts": {}
-    },
-    {
-      "id": "S049",
+      "id": "S051",
       "kind": "filing",
       "ticker": "INTC",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0000050863.json",
       "published_at": "2026-10-30",
-      "retrieved_at": "2026-11-14T12:18:32.963929+00:00",
+      "retrieved_at": "2026-11-14T13:14:13.786451+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -1860,12 +1948,29 @@
       }
     },
     {
-      "id": "S050",
+      "id": "S052",
+      "kind": "news",
+      "ticker": "MRVL",
+      "url": "https://news.google.com/rss/search?q=MRVL+Marvell+Technology+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Wed, 11 Nov 2026 15:56:38 GMT",
+      "retrieved_at": "2026-11-14T13:14:13.798629+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "What's Going On With Marvell Technology Stock Wednesday? - Benzinga (Wed, 11 Nov 2026 15:56:38 GMT)",
+        "The Deal Behind TD Cowen\u2019s Downgrade of Marvell (MRVL) - Yahoo Finance (Fri, 13 Nov 2026 21:31:01 GMT)",
+        "Marvell Stock Fell 58% From Its Record. History Says What Followed Its Last 4 Drops This Deep. - Yahoo Finance (Mon, 09 Nov 2026 11:01:02 GMT)"
+      ],
+      "error": null,
+      "facts": {}
+    },
+    {
+      "id": "S053",
       "kind": "filing",
       "ticker": "SNDK",
       "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0002023554.json",
       "published_at": "2026-10-30",
-      "retrieved_at": "2026-11-14T12:18:32.993557+00:00",
+      "retrieved_at": "2026-11-14T13:14:13.816210+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -1883,83 +1988,35 @@
       }
     },
     {
-      "id": "S051",
-      "kind": "stock",
-      "ticker": "INTC",
-      "url": "https://finance.yahoo.com/quote/INTC",
-      "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:33.042215+00:00",
+      "id": "S054",
+      "kind": "filing",
+      "ticker": "MRVL",
+      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001835632.json",
+      "published_at": "2026-08-28",
+      "retrieved_at": "2026-11-14T13:14:13.871443+00:00",
       "status": "ok",
-      "http_status": null,
+      "http_status": 200,
       "claims": [
-        "Forward P/E: 33.321045",
-        "Forward EPS: 1.79046",
-        "Price: 59.66",
-        "Market price: 59.66",
-        "Market cap: 317092888576",
-        "Sector: Technology",
-        "Trailing Eps: -2.35",
-        "Revenue Growth: 0.209",
-        "Earnings Growth: -0.327",
-        "Gross Margin: 0.40152",
-        "Operating Margin: 0.10317001",
-        "Profit Margin: -0.20089",
-        "Return On Equity: -0.0962",
-        "Total Revenue: 59891998720",
-        "Market Cap: 317092888576",
-        "Consensus EPS FY+1: 1.79046; growth: 0.2044"
+        "Diluted EPS 0.38 for period ending 2026-08-01 (filed 2026-08-28)"
       ],
       "error": null,
       "facts": {
-        "forward_pe": 33.321045,
-        "forward_eps": 1.79046,
-        "price": 59.66,
-        "market_price": 59.66,
-        "market_cap": 317092888576.0,
-        "sector": "Technology",
-        "valuation_date": "2026-11-14",
-        "trailing_eps": -2.35,
-        "revenue_growth": 0.209,
-        "earnings_growth": -0.327,
-        "gross_margin": 0.40152,
-        "operating_margin": 0.10317001,
-        "profit_margin": -0.20089,
-        "return_on_equity": -0.0962,
-        "total_revenue": 59891998720.0,
-        "estimates": {
-          "0y": {
-            "eps": 1.48664,
-            "growth": 2.5396001,
-            "analysts": 39.0,
-            "revenue": 61741235210.0,
-            "revenue_growth": 0.1682
-          },
-          "+1y": {
-            "eps": 1.79046,
-            "growth": 0.2044,
-            "analysts": 46.0,
-            "revenue": 69132470610.0,
-            "revenue_growth": 0.1197
-          }
-        },
-        "fy0_eps": 1.48664,
-        "fy1_eps": 1.79046,
-        "fy1_growth": 0.2044,
-        "fy1_revenue_growth": 0.1197,
-        "fy1_analysts": 46.0,
-        "consensus_available": true,
-        "fy2_eps": null,
-        "fy2_status": "not available from retrieved source",
-        "revisions_available": false
+        "diluted_eps": 0.38,
+        "fiscal_end": "2026-08-01",
+        "filed": "2026-08-28",
+        "definition": "reported diluted EPS",
+        "form": "10-Q",
+        "fy": 2027,
+        "fp": "Q2"
       }
     },
     {
-      "id": "S052",
+      "id": "S055",
       "kind": "stock",
       "ticker": "MRVL",
       "url": "https://finance.yahoo.com/quote/MRVL",
       "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:33.149282+00:00",
+      "retrieved_at": "2026-11-14T13:14:13.973596+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -2027,52 +2084,12 @@
       }
     },
     {
-      "id": "S053",
-      "kind": "filing",
-      "ticker": "MRVL",
-      "url": "https://data.sec.gov/api/xbrl/companyfacts/CIK0001835632.json",
-      "published_at": "2026-08-28",
-      "retrieved_at": "2026-11-14T12:18:33.246091+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "Diluted EPS 0.38 for period ending 2026-08-01 (filed 2026-08-28)"
-      ],
-      "error": null,
-      "facts": {
-        "diluted_eps": 0.38,
-        "fiscal_end": "2026-08-01",
-        "filed": "2026-08-28",
-        "definition": "reported diluted EPS",
-        "form": "10-Q",
-        "fy": 2027,
-        "fp": "Q2"
-      }
-    },
-    {
-      "id": "S054",
-      "kind": "news",
-      "ticker": "SNDK",
-      "url": "https://news.google.com/rss/search?q=SNDK+Sandisk+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Fri, 13 Nov 2026 04:59:23 GMT",
-      "retrieved_at": "2026-11-14T12:18:33.291529+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "SanDisk Stock (SNDK) Forecast \u2013 Here\u2019s Why Evercore Remains Bullish Despite Ongoing Volatility - TipRanks (Fri, 13 Nov 2026 04:59:23 GMT)",
-        "Sandisk Stock Is Back Above the $900 Price I Set for Buying It. Here's Why I'm Holding Off. - The Motley Fool (Thu, 12 Nov 2026 23:41:00 GMT)",
-        "Analyst Says Sandisk Corp. (SNDK) Offers More Than 100% Upside. Should You Buy? - Yahoo Finance (Wed, 11 Nov 2026 23:28:56 GMT)"
-      ],
-      "error": null,
-      "facts": {}
-    },
-    {
-      "id": "S055",
+      "id": "S056",
       "kind": "etf",
       "ticker": "XLV",
       "url": "https://finance.yahoo.com/quote/XLV",
       "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:33.325302+00:00",
+      "retrieved_at": "2026-11-14T13:14:13.975959+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -2137,12 +2154,29 @@
       }
     },
     {
-      "id": "S056",
+      "id": "S057",
+      "kind": "news",
+      "ticker": "XLV",
+      "url": "https://news.google.com/rss/search?q=XLV+Health+Care+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Fri, 13 Nov 2026 11:03:27 GMT",
+      "retrieved_at": "2026-11-14T13:14:14.114581+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "State Street Health Care SPDR (XLV) Buys $66.8 Million More Eli Lilly on Nov. 11 - Yahoo Finance (Fri, 13 Nov 2026 11:03:27 GMT)",
+        "Should You Invest in the State Street Health Care Select Sector SPDR ETF ETF (XLV)? - Yahoo Finance (Tue, 27 Oct 2026 07:00:00 GMT)",
+        "This ETF Has Gained 23% This Year. Is It Still Worth Buying in 2026? - The Motley Fool (Fri, 13 Nov 2026 11:37:00 GMT)"
+      ],
+      "error": null,
+      "facts": {}
+    },
+    {
+      "id": "S058",
       "kind": "etf",
       "ticker": "XLP",
       "url": "https://finance.yahoo.com/quote/XLP",
       "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:33.521508+00:00",
+      "retrieved_at": "2026-11-14T13:14:14.416086+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -2207,29 +2241,29 @@
       }
     },
     {
-      "id": "S057",
+      "id": "S059",
       "kind": "news",
-      "ticker": "MRVL",
-      "url": "https://news.google.com/rss/search?q=MRVL+Marvell+Technology+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Wed, 11 Nov 2026 15:56:38 GMT",
-      "retrieved_at": "2026-11-14T12:18:33.575490+00:00",
+      "ticker": "XLP",
+      "url": "https://news.google.com/rss/search?q=XLP+Consumer+Staples+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Fri, 13 Nov 2026 16:00:18 GMT",
+      "retrieved_at": "2026-11-14T13:14:14.418289+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
-        "What's Going On With Marvell Technology Stock Wednesday? - Benzinga (Wed, 11 Nov 2026 15:56:38 GMT)",
-        "The Deal Behind TD Cowen\u2019s Downgrade of Marvell (MRVL) - Yahoo Finance (Fri, 13 Nov 2026 21:31:01 GMT)",
-        "Marvell Is Still Up 81% This Year. Can MRVL Stock Hit $300 by 2029? - 24/7 Wall St. (Fri, 13 Nov 2026 17:54:00 GMT)"
+        "Consumer Staples Leads Sectors As Technology Trails - Benzinga (Fri, 13 Nov 2026 16:00:18 GMT)",
+        "Consumer Staples Rise as Technology Stocks Continue to Fall - TipRanks (Fri, 13 Nov 2026 19:39:09 GMT)",
+        "Should You Invest in the State Street Consumer Staples Select Sector SPDR ETF (XLP)? - Yahoo Finance (Wed, 23 Sep 2026 07:00:00 GMT)"
       ],
       "error": null,
       "facts": {}
     },
     {
-      "id": "S058",
+      "id": "S060",
       "kind": "etf",
       "ticker": "XLY",
       "url": "https://finance.yahoo.com/quote/XLY",
       "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:33.608110+00:00",
+      "retrieved_at": "2026-11-14T13:14:14.535308+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -2294,150 +2328,29 @@
       }
     },
     {
-      "id": "S059",
-      "kind": "news",
-      "ticker": "XLP",
-      "url": "https://news.google.com/rss/search?q=XLP+Consumer+Staples+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Fri, 13 Nov 2026 16:00:18 GMT",
-      "retrieved_at": "2026-11-14T12:18:33.841183+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "Consumer Staples Leads Sectors As Technology Trails - Benzinga (Fri, 13 Nov 2026 16:00:18 GMT)",
-        "Consumer Staples Rise as Technology Stocks Continue to Fall - TipRanks (Fri, 13 Nov 2026 19:39:09 GMT)",
-        "Should You Invest in the State Street Consumer Staples Select Sector SPDR ETF (XLP)? - Yahoo Finance (Wed, 23 Sep 2026 07:00:00 GMT)"
-      ],
-      "error": null,
-      "facts": {}
-    },
-    {
-      "id": "S060",
-      "kind": "news",
-      "ticker": "XLV",
-      "url": "https://news.google.com/rss/search?q=XLV+Health+Care+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Fri, 13 Nov 2026 11:03:27 GMT",
-      "retrieved_at": "2026-11-14T12:18:33.851504+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "State Street Health Care SPDR (XLV) Buys $66.8 Million More Eli Lilly on Nov. 11 - Yahoo Finance (Fri, 13 Nov 2026 11:03:27 GMT)",
-        "Should You Invest in the State Street Health Care Select Sector SPDR ETF ETF (XLV)? - Yahoo Finance (Tue, 27 Oct 2026 07:00:00 GMT)",
-        "This ETF Has Gained 23% This Year. Is It Still Worth Buying in 2026? - The Motley Fool (Fri, 13 Nov 2026 11:37:00 GMT)"
-      ],
-      "error": null,
-      "facts": {}
-    },
-    {
       "id": "S061",
-      "kind": "etf",
-      "ticker": "XLRE",
-      "url": "https://finance.yahoo.com/quote/XLRE",
-      "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:33.859999+00:00",
+      "kind": "news",
+      "ticker": "XLY",
+      "url": "https://news.google.com/rss/search?q=XLY+Consumer+Discretionary+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Sat, 14 Nov 2026 03:25:27 GMT",
+      "retrieved_at": "2026-11-14T13:14:14.639448+00:00",
       "status": "ok",
-      "http_status": null,
+      "http_status": 200,
       "claims": [
-        "Trailing P/E: 29.627985",
-        "Market price: 44.37",
-        "Category: Real Estate",
-        "Total assets: 8206221312",
-        "Top holdings: WELL 11.32914%; PLD 8.149140000000001%; EQIX 6.701949999999999%; AMT 5.86266%; PSA 4.97208%; SPG 4.80153%; DLR 4.3103%; VMRK 4.29638%; VTR 4.2790398%; O 4.271529999999999%"
+        "State Street Consumer Discretionary Select Sector SPDR ETF - ETF Database (Sat, 14 Nov 2026 03:25:27 GMT)",
+        "Should You Invest in the State Street Consumer Discretionary Select Sector SPDR ETF (XLY)? - Yahoo Finance (Tue, 20 Oct 2026 07:00:00 GMT)",
+        "State Street Consumer Discretionary (XLY) Sells $50 Million of Amazon on Nov. 3 - Yahoo Finance (Thu, 05 Nov 2026 08:00:00 GMT)"
       ],
       "error": null,
-      "facts": {
-        "trailing_pe": 29.627985,
-        "market_price": 44.37,
-        "category": "Real Estate",
-        "total_assets": 8206221312.0,
-        "valuation_date": "2026-11-14",
-        "holdings": [
-          {
-            "ticker": "WELL",
-            "weight_pct": 11.32914
-          },
-          {
-            "ticker": "PLD",
-            "weight_pct": 8.149140000000001
-          },
-          {
-            "ticker": "EQIX",
-            "weight_pct": 6.701949999999999
-          },
-          {
-            "ticker": "AMT",
-            "weight_pct": 5.86266
-          },
-          {
-            "ticker": "PSA",
-            "weight_pct": 4.97208
-          },
-          {
-            "ticker": "SPG",
-            "weight_pct": 4.80153
-          },
-          {
-            "ticker": "DLR",
-            "weight_pct": 4.3103
-          },
-          {
-            "ticker": "VMRK",
-            "weight_pct": 4.29638
-          },
-          {
-            "ticker": "VTR",
-            "weight_pct": 4.2790398
-          },
-          {
-            "ticker": "O",
-            "weight_pct": 4.271529999999999
-          }
-        ],
-        "holdings_coverage_pct": 58.9737498,
-        "holdings_as_of": "2026-11-14",
-        "holdings_source": "https://finance.yahoo.com/quote/XLRE"
-      }
+      "facts": {}
     },
     {
       "id": "S062",
-      "kind": "news",
-      "ticker": "XLRE",
-      "url": "https://news.google.com/rss/search?q=XLRE+Real+Estate+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Wed, 28 Oct 2026 07:00:00 GMT",
-      "retrieved_at": "2026-11-14T12:18:34.422165+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "What State Street Real Estate SPDR (XLRE) Bought: Welltower Leads on Monday - Yahoo Finance (Wed, 28 Oct 2026 07:00:00 GMT)",
-        "RWR vs. XLRE: Which Real Estate ETF Is the Better Buy? - Yahoo Finance (Wed, 29 Jul 2026 07:00:00 GMT)",
-        "Which Real Estate ETF Is the Better Buy: State Street\u2019s XLRE or Northern Trust\u2019s Global GQRE? - The Motley Fool (Tue, 27 Oct 2026 07:00:00 GMT)"
-      ],
-      "error": null,
-      "facts": {}
-    },
-    {
-      "id": "S063",
-      "kind": "news",
-      "ticker": "XLF",
-      "url": "https://news.google.com/rss/search?q=XLF+Financials+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Wed, 11 Nov 2026 19:23:02 GMT",
-      "retrieved_at": "2026-11-14T12:18:34.428085+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "Financial Select Sector SPDR ETF (XLF) stock price, news, quote and history - Yahoo Finance UK (Wed, 11 Nov 2026 19:23:02 GMT)",
-        "State Street Financial Select Sector SPDR ETF (XLF) stock price, news, quote and history - Yahoo Finance Australia (Fri, 13 Nov 2026 00:36:16 GMT)",
-        "Should You Invest in the State Street Financial Select Sector SPDR ETF (XLF)? - Yahoo Finance (Wed, 23 Sep 2026 07:00:00 GMT)"
-      ],
-      "error": null,
-      "facts": {}
-    },
-    {
-      "id": "S064",
       "kind": "etf",
       "ticker": "XLF",
       "url": "https://finance.yahoo.com/quote/XLF",
       "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:34.521616+00:00",
+      "retrieved_at": "2026-11-14T13:14:14.669587+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -2502,18 +2415,52 @@
       }
     },
     {
-      "id": "S065",
+      "id": "S063",
       "kind": "news",
-      "ticker": "XLY",
-      "url": "https://news.google.com/rss/search?q=XLY+Consumer+Discretionary+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Fri, 13 Nov 2026 02:09:35 GMT",
-      "retrieved_at": "2026-11-14T12:18:34.826577+00:00",
+      "ticker": "XLRE",
+      "url": "https://news.google.com/rss/search?q=XLRE+Real+Estate+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Wed, 28 Oct 2026 07:00:00 GMT",
+      "retrieved_at": "2026-11-14T13:14:15.036502+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
-        "State Street Consumer Discretionary Select Sector SPDR ETF - ETF Database (Fri, 13 Nov 2026 02:09:35 GMT)",
-        "Should You Invest in the State Street Consumer Discretionary Select Sector SPDR ETF (XLY)? - Yahoo Finance (Tue, 20 Oct 2026 07:00:00 GMT)",
-        "State Street Consumer Discretionary (XLY) Sells $50 Million of Amazon on Nov. 3 - Yahoo Finance (Thu, 05 Nov 2026 08:00:00 GMT)"
+        "What State Street Real Estate SPDR (XLRE) Bought: Welltower Leads on Monday - Yahoo Finance (Wed, 28 Oct 2026 07:00:00 GMT)",
+        "RWR vs. XLRE: Which Real Estate ETF Is the Better Buy? - Yahoo Finance (Wed, 29 Jul 2026 07:00:00 GMT)",
+        "Which Real Estate ETF Is the Better Buy: State Street\u2019s XLRE or Northern Trust\u2019s Global GQRE? - The Motley Fool (Tue, 27 Oct 2026 07:00:00 GMT)"
+      ],
+      "error": null,
+      "facts": {}
+    },
+    {
+      "id": "S064",
+      "kind": "news",
+      "ticker": "XLF",
+      "url": "https://news.google.com/rss/search?q=XLF+Financials+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Wed, 11 Nov 2026 19:23:02 GMT",
+      "retrieved_at": "2026-11-14T13:14:15.083833+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "Financial Select Sector SPDR ETF (XLF) stock price, news, quote and history - Yahoo Finance UK (Wed, 11 Nov 2026 19:23:02 GMT)",
+        "State Street Financial Select Sector SPDR ETF (XLF) stock price, news, quote and history - Yahoo Finance Australia (Fri, 13 Nov 2026 00:36:16 GMT)",
+        "Financial Sector ETF Hits Record High on Fintech Gains - ETF Trends (Tue, 28 Jul 2026 07:00:00 GMT)"
+      ],
+      "error": null,
+      "facts": {}
+    },
+    {
+      "id": "S065",
+      "kind": "news",
+      "ticker": "XLU",
+      "url": "https://news.google.com/rss/search?q=XLU+Utilities+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Thu, 12 Nov 2026 00:04:17 GMT",
+      "retrieved_at": "2026-11-14T13:14:15.447974+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "Utilities Select Sector SPDR ETF (XLU) stock price, news, quote and history - Yahoo Finance UK (Thu, 12 Nov 2026 00:04:17 GMT)",
+        "State Street Utilities Select Sector SPDR ETF (XLU) stock price, news, quote and history - Yahoo Finance Singapore (Fri, 13 Nov 2026 00:39:55 GMT)",
+        "Should You Invest in the State Street Utilities Select Sector SPDR ETF (XLU)? - Yahoo Finance (Thu, 05 Nov 2026 10:20:01 GMT)"
       ],
       "error": null,
       "facts": {}
@@ -2521,10 +2468,80 @@
     {
       "id": "S066",
       "kind": "etf",
+      "ticker": "XLRE",
+      "url": "https://finance.yahoo.com/quote/XLRE",
+      "published_at": null,
+      "retrieved_at": "2026-11-14T13:14:15.566831+00:00",
+      "status": "ok",
+      "http_status": null,
+      "claims": [
+        "Trailing P/E: 29.627985",
+        "Market price: 44.37",
+        "Category: Real Estate",
+        "Total assets: 8206221312",
+        "Top holdings: WELL 11.32914%; PLD 8.149140000000001%; EQIX 6.701949999999999%; AMT 5.86266%; PSA 4.97208%; SPG 4.80153%; DLR 4.3103%; VMRK 4.29638%; VTR 4.2790398%; O 4.271529999999999%"
+      ],
+      "error": null,
+      "facts": {
+        "trailing_pe": 29.627985,
+        "market_price": 44.37,
+        "category": "Real Estate",
+        "total_assets": 8206221312.0,
+        "valuation_date": "2026-11-14",
+        "holdings": [
+          {
+            "ticker": "WELL",
+            "weight_pct": 11.32914
+          },
+          {
+            "ticker": "PLD",
+            "weight_pct": 8.149140000000001
+          },
+          {
+            "ticker": "EQIX",
+            "weight_pct": 6.701949999999999
+          },
+          {
+            "ticker": "AMT",
+            "weight_pct": 5.86266
+          },
+          {
+            "ticker": "PSA",
+            "weight_pct": 4.97208
+          },
+          {
+            "ticker": "SPG",
+            "weight_pct": 4.80153
+          },
+          {
+            "ticker": "DLR",
+            "weight_pct": 4.3103
+          },
+          {
+            "ticker": "VMRK",
+            "weight_pct": 4.29638
+          },
+          {
+            "ticker": "VTR",
+            "weight_pct": 4.2790398
+          },
+          {
+            "ticker": "O",
+            "weight_pct": 4.271529999999999
+          }
+        ],
+        "holdings_coverage_pct": 58.9737498,
+        "holdings_as_of": "2026-11-14",
+        "holdings_source": "https://finance.yahoo.com/quote/XLRE"
+      }
+    },
+    {
+      "id": "S067",
+      "kind": "etf",
       "ticker": "XLU",
       "url": "https://finance.yahoo.com/quote/XLU",
       "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:34.835229+00:00",
+      "retrieved_at": "2026-11-14T13:14:15.570434+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -2589,12 +2606,12 @@
       }
     },
     {
-      "id": "S067",
+      "id": "S068",
       "kind": "news",
       "ticker": "XLB",
       "url": "https://news.google.com/rss/search?q=XLB+Materials+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
       "published_at": "Thu, 12 Nov 2026 19:48:06 GMT",
-      "retrieved_at": "2026-11-14T12:18:35.222584+00:00",
+      "retrieved_at": "2026-11-14T13:14:15.954323+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -2606,116 +2623,12 @@
       "facts": {}
     },
     {
-      "id": "S068",
-      "kind": "news",
-      "ticker": "XLI",
-      "url": "https://news.google.com/rss/search?q=XLI+Industrials+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Mon, 26 Oct 2026 07:00:00 GMT",
-      "retrieved_at": "2026-11-14T12:18:35.226521+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "Should You Invest in the State Street Industrial Select Sector SPDR ETF (XLI)? - Yahoo Finance (Mon, 26 Oct 2026 07:00:00 GMT)",
-        "7 Best Industrial ETFs for 2026 and How to Invest - The Motley Fool (Tue, 11 Aug 2026 07:00:00 GMT)",
-        "These Soaring Stocks Send A Bullish Economic Signal - Investor's Business Daily (Thu, 23 Jul 2026 07:00:00 GMT)"
-      ],
-      "error": null,
-      "facts": {}
-    },
-    {
       "id": "S069",
-      "kind": "news",
-      "ticker": "XLU",
-      "url": "https://news.google.com/rss/search?q=XLU+Utilities+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Thu, 12 Nov 2026 00:04:17 GMT",
-      "retrieved_at": "2026-11-14T12:18:35.228618+00:00",
-      "status": "ok",
-      "http_status": 200,
-      "claims": [
-        "Utilities Select Sector SPDR ETF (XLU) stock price, news, quote and history - Yahoo Finance UK (Thu, 12 Nov 2026 00:04:17 GMT)",
-        "State Street Utilities Select Sector SPDR ETF (XLU) stock price, news, quote and history - Yahoo Finance Singapore (Fri, 13 Nov 2026 00:39:55 GMT)",
-        "Should You Invest in the State Street Utilities Select Sector SPDR ETF (XLU)? - Yahoo Finance (Thu, 05 Nov 2026 10:20:01 GMT)"
-      ],
-      "error": null,
-      "facts": {}
-    },
-    {
-      "id": "S070",
-      "kind": "etf",
-      "ticker": "XLB",
-      "url": "https://finance.yahoo.com/quote/XLB",
-      "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:35.372708+00:00",
-      "status": "ok",
-      "http_status": null,
-      "claims": [
-        "Trailing P/E: 21.72047",
-        "Market price: 52.23",
-        "Category: Natural Resources",
-        "Total assets: 8448828928",
-        "Top holdings: LIN 12.84254%; NEM 6.08575%; VMC 5.13588%; ECL 5.07906%; APD 4.89068%; MLM 4.86045%; FCX 4.86001%; NUE 4.84558%; STLD 4.75492%; SHW 4.73353%"
-      ],
-      "error": null,
-      "facts": {
-        "trailing_pe": 21.72047,
-        "market_price": 52.23,
-        "category": "Natural Resources",
-        "total_assets": 8448828928.0,
-        "valuation_date": "2026-11-14",
-        "holdings": [
-          {
-            "ticker": "LIN",
-            "weight_pct": 12.84254
-          },
-          {
-            "ticker": "NEM",
-            "weight_pct": 6.08575
-          },
-          {
-            "ticker": "VMC",
-            "weight_pct": 5.13588
-          },
-          {
-            "ticker": "ECL",
-            "weight_pct": 5.07906
-          },
-          {
-            "ticker": "APD",
-            "weight_pct": 4.89068
-          },
-          {
-            "ticker": "MLM",
-            "weight_pct": 4.86045
-          },
-          {
-            "ticker": "FCX",
-            "weight_pct": 4.86001
-          },
-          {
-            "ticker": "NUE",
-            "weight_pct": 4.84558
-          },
-          {
-            "ticker": "STLD",
-            "weight_pct": 4.75492
-          },
-          {
-            "ticker": "SHW",
-            "weight_pct": 4.73353
-          }
-        ],
-        "holdings_coverage_pct": 58.0884,
-        "holdings_as_of": "2026-11-14",
-        "holdings_source": "https://finance.yahoo.com/quote/XLB"
-      }
-    },
-    {
-      "id": "S071",
       "kind": "etf",
       "ticker": "XLI",
       "url": "https://finance.yahoo.com/quote/XLI",
       "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:35.477736+00:00",
+      "retrieved_at": "2026-11-14T13:14:15.959330+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -2780,73 +2693,107 @@
       }
     },
     {
+      "id": "S070",
+      "kind": "news",
+      "ticker": "XLI",
+      "url": "https://news.google.com/rss/search?q=XLI+Industrials+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Mon, 26 Oct 2026 07:00:00 GMT",
+      "retrieved_at": "2026-11-14T13:14:16.075787+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "Should You Invest in the State Street Industrial Select Sector SPDR ETF (XLI)? - Yahoo Finance (Mon, 26 Oct 2026 07:00:00 GMT)",
+        "7 Best Industrial ETFs for 2026 and How to Invest - The Motley Fool (Tue, 11 Aug 2026 07:00:00 GMT)",
+        "These Soaring Stocks Send A Bullish Economic Signal - Investor's Business Daily (Thu, 23 Jul 2026 07:00:00 GMT)"
+      ],
+      "error": null,
+      "facts": {}
+    },
+    {
+      "id": "S071",
+      "kind": "news",
+      "ticker": "XLC",
+      "url": "https://news.google.com/rss/search?q=XLC+Communication+Services+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Thu, 12 Nov 2026 11:06:03 GMT",
+      "retrieved_at": "2026-11-14T13:14:16.192418+00:00",
+      "status": "ok",
+      "http_status": 200,
+      "claims": [
+        "State Street Communication Services Select Sector SPDR ETF (XLC) stock price, news, quote and history - Yahoo Finance Singapore (Thu, 12 Nov 2026 11:06:03 GMT)",
+        "State Street Communication Services Select Sector SPDR ETF - ETF Database (Fri, 13 Nov 2026 15:16:31 GMT)",
+        "State Street Communication Services Select Sector SPDR ETF (XLC) stock price, news, quote and history - Yahoo Finance Australia (Fri, 13 Nov 2026 00:29:30 GMT)"
+      ],
+      "error": null,
+      "facts": {}
+    },
+    {
       "id": "S072",
       "kind": "etf",
-      "ticker": "XLC",
-      "url": "https://finance.yahoo.com/quote/XLC",
+      "ticker": "XLB",
+      "url": "https://finance.yahoo.com/quote/XLB",
       "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:35.491849+00:00",
+      "retrieved_at": "2026-11-14T13:14:16.196858+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
-        "Trailing P/E: 17.264917",
-        "Market price: 108.69",
-        "Category: Communications",
-        "Total assets: 21447602176",
-        "Top holdings: META 22.00402%; GOOGL 11.07959%; GOOG 8.922789%; DIS 5.5531904%; CMCSA 4.9242903%; TTWO 4.6968598%; VZ 4.68956%; TMUS 4.6002697%; T 4.43934%; NFLX 4.2579997%"
+        "Trailing P/E: 21.72047",
+        "Market price: 52.23",
+        "Category: Natural Resources",
+        "Total assets: 8448828928",
+        "Top holdings: LIN 12.84254%; NEM 6.08575%; VMC 5.13588%; ECL 5.07906%; APD 4.89068%; MLM 4.86045%; FCX 4.86001%; NUE 4.84558%; STLD 4.75492%; SHW 4.73353%"
       ],
       "error": null,
       "facts": {
-        "trailing_pe": 17.264917,
-        "market_price": 108.69,
-        "category": "Communications",
-        "total_assets": 21447602176.0,
+        "trailing_pe": 21.72047,
+        "market_price": 52.23,
+        "category": "Natural Resources",
+        "total_assets": 8448828928.0,
         "valuation_date": "2026-11-14",
         "holdings": [
           {
-            "ticker": "META",
-            "weight_pct": 22.00402
+            "ticker": "LIN",
+            "weight_pct": 12.84254
           },
           {
-            "ticker": "GOOGL",
-            "weight_pct": 11.07959
+            "ticker": "NEM",
+            "weight_pct": 6.08575
           },
           {
-            "ticker": "GOOG",
-            "weight_pct": 8.922789
+            "ticker": "VMC",
+            "weight_pct": 5.13588
           },
           {
-            "ticker": "DIS",
-            "weight_pct": 5.5531904
+            "ticker": "ECL",
+            "weight_pct": 5.07906
           },
           {
-            "ticker": "CMCSA",
-            "weight_pct": 4.9242903
+            "ticker": "APD",
+            "weight_pct": 4.89068
           },
           {
-            "ticker": "TTWO",
-            "weight_pct": 4.6968598
+            "ticker": "MLM",
+            "weight_pct": 4.86045
           },
           {
-            "ticker": "VZ",
-            "weight_pct": 4.68956
+            "ticker": "FCX",
+            "weight_pct": 4.86001
           },
           {
-            "ticker": "TMUS",
-            "weight_pct": 4.6002697
+            "ticker": "NUE",
+            "weight_pct": 4.84558
           },
           {
-            "ticker": "T",
-            "weight_pct": 4.43934
+            "ticker": "STLD",
+            "weight_pct": 4.75492
           },
           {
-            "ticker": "NFLX",
-            "weight_pct": 4.2579997
+            "ticker": "SHW",
+            "weight_pct": 4.73353
           }
         ],
-        "holdings_coverage_pct": 75.1679089,
+        "holdings_coverage_pct": 58.0884,
         "holdings_as_of": "2026-11-14",
-        "holdings_source": "https://finance.yahoo.com/quote/XLC"
+        "holdings_source": "https://finance.yahoo.com/quote/XLB"
       }
     },
     {
@@ -2855,7 +2802,7 @@
       "ticker": "XLK",
       "url": "https://finance.yahoo.com/quote/XLK",
       "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:35.602365+00:00",
+      "retrieved_at": "2026-11-14T13:14:16.201679+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -2921,73 +2868,20 @@
     },
     {
       "id": "S074",
-      "kind": "etf",
-      "ticker": "XLE",
-      "url": "https://finance.yahoo.com/quote/XLE",
-      "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:35.709478+00:00",
+      "kind": "news",
+      "ticker": "XLK",
+      "url": "https://news.google.com/rss/search?q=XLK+Information+Technology+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
+      "published_at": "Fri, 13 Nov 2026 11:03:17 GMT",
+      "retrieved_at": "2026-11-14T13:14:16.560479+00:00",
       "status": "ok",
-      "http_status": null,
+      "http_status": 200,
       "claims": [
-        "Trailing P/E: 16.225414",
-        "Market price: 64.96",
-        "Category: Equity Energy",
-        "Total assets: 46373699584",
-        "Top holdings: XOM 24.29253%; CVX 18.293011%; COP 7.2743%; MPC 4.64119%; PSX 4.52105%; VLO 4.28338%; WMB 4.1242%; EOG 4.067769999999999%; SLB 3.7364300000000004%; TRGP 3.1642099999999997%"
+        "State Street Tech Select SPDR (XLK) Buys $119.9 Million More Apple on Nov. 11 - Yahoo Finance (Fri, 13 Nov 2026 11:03:17 GMT)",
+        "State Street Tech Select SPDR (XLK) Adds Apple and Nvidia on Nov. 6 - Yahoo Finance (Tue, 10 Nov 2026 11:04:45 GMT)",
+        "Better Tech ETF for 2027: State Street's XLK vs. Fidelity's FTEC - The Motley Fool (Thu, 12 Nov 2026 08:16:00 GMT)"
       ],
       "error": null,
-      "facts": {
-        "trailing_pe": 16.225414,
-        "market_price": 64.96,
-        "category": "Equity Energy",
-        "total_assets": 46373699584.0,
-        "valuation_date": "2026-11-14",
-        "holdings": [
-          {
-            "ticker": "XOM",
-            "weight_pct": 24.29253
-          },
-          {
-            "ticker": "CVX",
-            "weight_pct": 18.293011
-          },
-          {
-            "ticker": "COP",
-            "weight_pct": 7.2743
-          },
-          {
-            "ticker": "MPC",
-            "weight_pct": 4.64119
-          },
-          {
-            "ticker": "PSX",
-            "weight_pct": 4.52105
-          },
-          {
-            "ticker": "VLO",
-            "weight_pct": 4.28338
-          },
-          {
-            "ticker": "WMB",
-            "weight_pct": 4.1242
-          },
-          {
-            "ticker": "EOG",
-            "weight_pct": 4.067769999999999
-          },
-          {
-            "ticker": "SLB",
-            "weight_pct": 3.7364300000000004
-          },
-          {
-            "ticker": "TRGP",
-            "weight_pct": 3.1642099999999997
-          }
-        ],
-        "holdings_coverage_pct": 78.398071,
-        "holdings_as_of": "2026-11-14",
-        "holdings_source": "https://finance.yahoo.com/quote/XLE"
-      }
+      "facts": {}
     },
     {
       "id": "S075",
@@ -2995,7 +2889,7 @@
       "ticker": "ACWI",
       "url": "https://finance.yahoo.com/quote/ACWI",
       "published_at": null,
-      "retrieved_at": "2026-11-14T12:18:35.898985+00:00",
+      "retrieved_at": "2026-11-14T13:14:16.690533+00:00",
       "status": "ok",
       "http_status": null,
       "claims": [
@@ -3061,20 +2955,73 @@
     },
     {
       "id": "S076",
-      "kind": "news",
-      "ticker": "XLK",
-      "url": "https://news.google.com/rss/search?q=XLK+Information+Technology+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Fri, 13 Nov 2026 11:03:17 GMT",
-      "retrieved_at": "2026-11-14T12:18:36.111016+00:00",
+      "kind": "etf",
+      "ticker": "XLE",
+      "url": "https://finance.yahoo.com/quote/XLE",
+      "published_at": null,
+      "retrieved_at": "2026-11-14T13:14:16.694203+00:00",
       "status": "ok",
-      "http_status": 200,
+      "http_status": null,
       "claims": [
-        "State Street Tech Select SPDR (XLK) Buys $119.9 Million More Apple on Nov. 11 - Yahoo Finance (Fri, 13 Nov 2026 11:03:17 GMT)",
-        "State Street Tech Select SPDR (XLK) Adds Apple and Nvidia on Nov. 6 - Yahoo Finance (Tue, 10 Nov 2026 11:04:45 GMT)",
-        "Better Tech ETF for 2027: State Street's XLK vs. Fidelity's FTEC - The Motley Fool (Thu, 12 Nov 2026 08:16:00 GMT)"
+        "Trailing P/E: 16.225414",
+        "Market price: 64.96",
+        "Category: Equity Energy",
+        "Total assets: 46373699584",
+        "Top holdings: XOM 24.29253%; CVX 18.293011%; COP 7.2743%; MPC 4.64119%; PSX 4.52105%; VLO 4.28338%; WMB 4.1242%; EOG 4.067769999999999%; SLB 3.7364300000000004%; TRGP 3.1642099999999997%"
       ],
       "error": null,
-      "facts": {}
+      "facts": {
+        "trailing_pe": 16.225414,
+        "market_price": 64.96,
+        "category": "Equity Energy",
+        "total_assets": 46373699584.0,
+        "valuation_date": "2026-11-14",
+        "holdings": [
+          {
+            "ticker": "XOM",
+            "weight_pct": 24.29253
+          },
+          {
+            "ticker": "CVX",
+            "weight_pct": 18.293011
+          },
+          {
+            "ticker": "COP",
+            "weight_pct": 7.2743
+          },
+          {
+            "ticker": "MPC",
+            "weight_pct": 4.64119
+          },
+          {
+            "ticker": "PSX",
+            "weight_pct": 4.52105
+          },
+          {
+            "ticker": "VLO",
+            "weight_pct": 4.28338
+          },
+          {
+            "ticker": "WMB",
+            "weight_pct": 4.1242
+          },
+          {
+            "ticker": "EOG",
+            "weight_pct": 4.067769999999999
+          },
+          {
+            "ticker": "SLB",
+            "weight_pct": 3.7364300000000004
+          },
+          {
+            "ticker": "TRGP",
+            "weight_pct": 3.1642099999999997
+          }
+        ],
+        "holdings_coverage_pct": 78.398071,
+        "holdings_as_of": "2026-11-14",
+        "holdings_source": "https://finance.yahoo.com/quote/XLE"
+      }
     },
     {
       "id": "S077",
@@ -3082,7 +3029,7 @@
       "ticker": "ACWI",
       "url": "https://news.google.com/rss/search?q=ACWI+ACWI+stock&hl=en-US&gl=US&ceid=US:en",
       "published_at": "Mon, 30 Mar 2026 07:00:00 GMT",
-      "retrieved_at": "2026-11-14T12:18:36.448637+00:00",
+      "retrieved_at": "2026-11-14T13:14:16.719799+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -3099,7 +3046,7 @@
       "ticker": "XLE",
       "url": "https://news.google.com/rss/search?q=XLE+Energy+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
       "published_at": "Mon, 26 Oct 2026 07:00:00 GMT",
-      "retrieved_at": "2026-11-14T12:18:36.543225+00:00",
+      "retrieved_at": "2026-11-14T13:14:16.735742+00:00",
       "status": "ok",
       "http_status": 200,
       "claims": [
@@ -3112,20 +3059,73 @@
     },
     {
       "id": "S079",
-      "kind": "news",
+      "kind": "etf",
       "ticker": "XLC",
-      "url": "https://news.google.com/rss/search?q=XLC+Communication+Services+sector+ETF+stock&hl=en-US&gl=US&ceid=US:en",
-      "published_at": "Thu, 12 Nov 2026 11:06:03 GMT",
-      "retrieved_at": "2026-11-14T12:18:36.673709+00:00",
+      "url": "https://finance.yahoo.com/quote/XLC",
+      "published_at": null,
+      "retrieved_at": "2026-11-14T13:14:17.231847+00:00",
       "status": "ok",
-      "http_status": 200,
+      "http_status": null,
       "claims": [
-        "State Street Communication Services Select Sector SPDR ETF (XLC) stock price, news, quote and history - Yahoo Finance Singapore (Thu, 12 Nov 2026 11:06:03 GMT)",
-        "State Street Communication Services Select Sector SPDR ETF - ETF Database (Fri, 13 Nov 2026 15:16:31 GMT)",
-        "State Street Communication Services Select Sector SPDR ETF (XLC) stock price, news, quote and history - Yahoo Finance Australia (Fri, 13 Nov 2026 00:29:30 GMT)"
+        "Trailing P/E: 17.264917",
+        "Market price: 108.69",
+        "Category: Communications",
+        "Total assets: 21447602176",
+        "Top holdings: META 22.00402%; GOOGL 11.07959%; GOOG 8.922789%; DIS 5.5531904%; CMCSA 4.9242903%; TTWO 4.6968598%; VZ 4.68956%; TMUS 4.6002697%; T 4.43934%; NFLX 4.2579997%"
       ],
       "error": null,
-      "facts": {}
+      "facts": {
+        "trailing_pe": 17.264917,
+        "market_price": 108.69,
+        "category": "Communications",
+        "total_assets": 21447602176.0,
+        "valuation_date": "2026-11-14",
+        "holdings": [
+          {
+            "ticker": "META",
+            "weight_pct": 22.00402
+          },
+          {
+            "ticker": "GOOGL",
+            "weight_pct": 11.07959
+          },
+          {
+            "ticker": "GOOG",
+            "weight_pct": 8.922789
+          },
+          {
+            "ticker": "DIS",
+            "weight_pct": 5.5531904
+          },
+          {
+            "ticker": "CMCSA",
+            "weight_pct": 4.9242903
+          },
+          {
+            "ticker": "TTWO",
+            "weight_pct": 4.6968598
+          },
+          {
+            "ticker": "VZ",
+            "weight_pct": 4.68956
+          },
+          {
+            "ticker": "TMUS",
+            "weight_pct": 4.6002697
+          },
+          {
+            "ticker": "T",
+            "weight_pct": 4.43934
+          },
+          {
+            "ticker": "NFLX",
+            "weight_pct": 4.2579997
+          }
+        ],
+        "holdings_coverage_pct": 75.1679089,
+        "holdings_as_of": "2026-11-14",
+        "holdings_source": "https://finance.yahoo.com/quote/XLC"
+      }
     }
   ],
   "source_retrieval": {
@@ -3134,10 +3134,10 @@
     "unavailable": 0,
     "tickers": 24
   },
-  "evidence_sha256": "466264a402ff333ccbccf99ba522102a0eed714ab746bbcb5742add390e0e946",
-  "report_sha256": "6ca92b9cc64180512ff3685cba1446c2fa5667fd42d7bd20bd85423ee6dd8771",
+  "evidence_sha256": "5e548c7ca89f0300597447df05a25bc1e14b0bdddd23fa52c8fb4337db777c07",
+  "report_sha256": "41c707a8c6b9db467bcbba33850328eae6cae75666bce241360fafbd41dcdd81",
   "risk_layer_sha256": "48059202f00a911159b79eb55142f481858a0a923da14c33f29c0abcf96c3891",
-  "content_sha256": "af5a6a3d9789685265186c3bdf81db96e760c19ac77cf7e861106be1071ace74",
+  "content_sha256": "2bfd40080bb2ee99e4f6e02e63eb89c8cb706ce1ef1bc259eeb67ee987b13420",
   "risk": {
     "forecast_id": "2e4ad8eeaf2db3d3",
     "as_of": "2026-11-13",
