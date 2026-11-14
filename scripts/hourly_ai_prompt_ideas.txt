@@ -17,33 +17,29 @@ Return ONE valid JSON object, no markdown fences, with exactly:
       "catalysts": ["..."],
       "risks": ["..."],
       "review": "NEW or KEEP or UPGRADE or DOWNGRADE or EXIT or REPLACE",
-      "bull_target": "number",
-      "base_target": "number",
-      "bear_target": "number",
-      "bull_prob": "number",
-      "base_prob": "number",
-      "bear_prob": "number",
-      "eps": "required numeric EPS only for Stock",
-      "forward_pe": "required numeric forward P/E only for Stock",
+      "assumption_inputs": {"base_multiple": null, "bull_multiple": null, "bear_multiple": null, "base_return_pct": null, "bull_return_pct": null, "bear_return_pct": null},
       "company_fundamentals": "reported fundamentals and filing evidence only for Stock",
-      "top_holdings": ["required for ETF"],
-      "portfolio_valuation": "required for ETF",
-      "sector_exposure": "required for ETF",
-      "underlying_drivers": "required for ETF"
+      "top_holdings": ["supplied ETF holdings only"],
+      "portfolio_valuation": "supplied valuation only",
+      "sector_exposure": "supplied ETF evidence only",
+      "underlying_drivers": "supplied ETF evidence only"
     }
   ],
   "scenarios": {
-    "short_term": [{"scenario": "Bull", "probability": 25, "range": "S&P range", "assumptions": "..."}, {"scenario": "Base", "probability": 50, "range": "...", "assumptions": "..."}, {"scenario": "Bear", "probability": 25, "range": "...", "assumptions": "..."}],
-    "long_term": [{"scenario": "Bull", "probability": 30, "range": "...", "assumptions": "..."}, {"scenario": "Base", "probability": 45, "range": "...", "assumptions": "..."}, {"scenario": "Bear", "probability": 25, "range": "...", "assumptions": "..."}]
+    "short_term": [{"scenario": "Bull", "probability": 25, "return_pct": 2.0, "assumptions": "..."}, {"scenario": "Base", "probability": 50, "return_pct": 0.0, "assumptions": "..."}, {"scenario": "Bear", "probability": 25, "return_pct": -2.0, "assumptions": "..."}],
+    "long_term": [{"scenario": "Bull", "probability": 30, "return_pct": 8.0, "assumptions": "..."}, {"scenario": "Base", "probability": 45, "return_pct": 3.0, "assumptions": "..."}, {"scenario": "Bear", "probability": 25, "return_pct": -5.0, "assumptions": "..."}]
   }
 }
 
 RULES:
-- Select 3-5 ideas ONLY from candidates that contain source_ids. Never use a fixed ticker list.
-- Every idea MUST include source_ids from the supplied external source ledger. A source ID is valid only when its status is "ok".
-- Stock ideas MUST use reported EPS and forward P/E from filing/valuation sources. Never apply EPS x P/E to an ETF.
-- ETF ideas MUST use top holdings, portfolio valuation, sector exposure and underlying drivers. Do not output eps or forward_pe for an ETF.
-- Do not invent numerical EPS, P/E, valuation, target or probability values. If the ledger lacks the required evidence, do not select that idea.
+- Select 3-5 ideas ONLY from candidates whose ticker_evidence is supplied. Never use a fixed ticker list.
+- Every idea MUST include source_ids from the supplied ticker_evidence[ticker].source_ids. A source ID is valid only when its status is "ok".
+- Stock ideas MUST use the supplied forward_eps and forward_pe. Never substitute reported historical diluted EPS for forward EPS.
+- ETF ideas MUST use the supplied holdings with numeric weights, coverage and valuation evidence. Do not output eps or forward_pe for an ETF.
+- Do not output eps, forward_pe, price, targets, holdings, weights or source IDs that are not in ticker_evidence. The Python layer supplies and verifies those values.
+- Supply numeric assumption_inputs only: for a Stock use exactly base_multiple, bull_multiple, bear_multiple; for an ETF use exactly base_return_pct, bull_return_pct, bear_return_pct. Do not use stock multiple keys for an ETF.
+- Do not invent numerical EPS, P/E, valuation, target or probability values. If required evidence is missing, do not select that idea.
+- Scenario rows MUST include numeric return_pct assumptions; Python computes the displayed range.
 - Every idea is a research judgment, not a validated return prediction.
 - No CIO/composite scores, regime scores, sector scores, forward-return mapping, "overweight" or "underweight".
 - Do not infer direction or allocation from the frozen risk block.
