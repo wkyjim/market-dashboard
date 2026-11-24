@@ -1,22 +1,22 @@
 {
-  "forecast_id": "48d2c1933342b1a6",
-  "as_of": "2026-11-20",
-  "target_start": "2026-11-23",
-  "target_end": "2026-11-30",
+  "forecast_id": "26012b9968dbe3b1",
+  "as_of": "2026-11-23",
+  "target_start": "2026-11-24",
+  "target_end": "2026-12-01",
   "status": "prospective",
-  "forecast_vol_5d": 0.36644933370940747,
-  "spike_probability": 0.9277013632351442,
-  "historical_baseline": 0.2626375842569083,
-  "ewma_baseline": 0.24670813107548634,
+  "forecast_vol_5d": 0.25188579391077814,
+  "spike_probability": 0.5395952878285226,
+  "historical_baseline": 0.3188070251664639,
+  "ewma_baseline": 0.3012218071049055,
   "threshold": 0.184956,
   "directional_signal": false,
   "experimental_hourly": false,
   "hourly_estimate": {
-    "as_of": "2026-11-20",
+    "as_of": "2026-11-23",
     "source": "frozen_eod_forecast",
     "experimental": false,
     "eligible_for_formal": true,
-    "forecast_vol_5d": 0.36644933370940747
+    "forecast_vol_5d": 0.25188579391077814
   },
   "note": "Frozen daily-close model; official only after completed US close."
 }
